@@ -18738,6 +18738,10 @@ FROM common as grass
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> a85814a480 (Dockerfile_alpine: fix broken pip six installation (#1568))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -20032,8 +20036,18 @@ FROM common as grass
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+<<<<<<< HEAD:docker/alpine/Dockerfile
+=======
+>>>>>>> 01018c1f62 (Dockerfile_alpine: fix broken pip six installation (#1568))
+>>>>>>> a85814a480 (Dockerfile_alpine: fix broken pip six installation (#1568))
+>>>>>>> 3ab9ce68a1 (Dockerfile_alpine: fix broken pip six installation (#1568))
 ENV LC_ALL="en_US.UTF-8"
 
 # Copy GRASS GIS from build image
@@ -20371,6 +20385,10 @@ COPY --from=build /usr/local/grass* /usr/local/grass/
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> a85814a480 (Dockerfile_alpine: fix broken pip six installation (#1568))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -20892,12 +20910,21 @@ COPY --from=build /usr/local/grass* /usr/local/grass/
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 01018c1f62 (Dockerfile_alpine: fix broken pip six installation (#1568))
+>>>>>>> a85814a480 (Dockerfile_alpine: fix broken pip six installation (#1568))
+>>>>>>> 3ab9ce68a1 (Dockerfile_alpine: fix broken pip six installation (#1568))
 # pip 20.0.0 fix
 RUN apk add curl && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python3 get-pip.py pip==20.0.2 && rm get-pip.py
 
 # install external Python API
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21304,6 +21331,8 @@ RUN apk add curl && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && p
 >>>>>>> ed2ec8707b (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 3fa498027c (Dockerfile_alpine: fix broken pip six installation (#1568))
+=======
+>>>>>>> 3ab9ce68a1 (Dockerfile_alpine: fix broken pip six installation (#1568))
 <<<<<<< HEAD:docker/alpine/Dockerfile
 =======
 >>>>>>> f3c2e982bc (Dockerfile_alpine: fix broken pip six installation (#1568))
@@ -21325,6 +21354,8 @@ RUN apk add curl && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && p
 >>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> fa913cbb71 (Dockerfile_alpine: fix broken pip six installation (#1568))
+=======
+>>>>>>> a85814a480 (Dockerfile_alpine: fix broken pip six installation (#1568))
 <<<<<<< HEAD:docker/alpine/Dockerfile
 =======
 >>>>>>> 98554ebb3f (Dockerfile_alpine: fix broken pip six installation (#1568))
@@ -23533,6 +23564,7 @@ RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
@@ -24350,6 +24382,18 @@ RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+RUN pip3 install --upgrade grass-session
+
+RUN ln -s /usr/local/grass /usr/local/grass7
+RUN ln -s /usr/local/grass `grass --config path`
+RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
+>>>>>>> 01018c1f62 (Dockerfile_alpine: fix broken pip six installation (#1568))
+>>>>>>> a85814a480 (Dockerfile_alpine: fix broken pip six installation (#1568))
+>>>>>>> 3ab9ce68a1 (Dockerfile_alpine: fix broken pip six installation (#1568))
     pdal --version && \
     python3 --version
 
@@ -24680,6 +24724,10 @@ ENV GRASSBIN=grass
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a85814a480 (Dockerfile_alpine: fix broken pip six installation (#1568))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -27019,8 +27067,21 @@ RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.learn.ml
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.in.pdal
+RUN /usr/bin/python3 /scripts/test_grass_session.py
+
+# Test addon installation
+RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.learn.ml
+>>>>>>> 01018c1f62 (Dockerfile_alpine: fix broken pip six installation (#1568))
+>>>>>>> a85814a480 (Dockerfile_alpine: fix broken pip six installation (#1568))
+>>>>>>> 3ab9ce68a1 (Dockerfile_alpine: fix broken pip six installation (#1568))
 
 
 FROM grass as final
@@ -27413,6 +27474,10 @@ ENV GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a85814a480 (Dockerfile_alpine: fix broken pip six installation (#1568))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -27967,7 +28032,13 @@ ENV GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
 =======
 >>>>>>> e526e86235 (Dockerfile_alpine: fix broken pip six installation (#1568)):docker/alpine/Dockerfile_alpine
 >>>>>>> 29b3914770 (Dockerfile_alpine: fix broken pip six installation (#1568))
+<<<<<<< HEAD
 >>>>>>> 5ad2f4afa8 (Dockerfile_alpine: fix broken pip six installation (#1568))
+=======
+=======
+>>>>>>> e526e86235 (Dockerfile_alpine: fix broken pip six installation (#1568)):docker/alpine/Dockerfile_alpine
+>>>>>>> 01018c1f62 (Dockerfile_alpine: fix broken pip six installation (#1568))
+>>>>>>> a85814a480 (Dockerfile_alpine: fix broken pip six installation (#1568))
 # GRASS GIS specific
 # allow work with MAPSETs that are not owned by current user
 <<<<<<< HEAD
