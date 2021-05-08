@@ -15182,6 +15182,7 @@ RUN apk add curl && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 <<<<<<< HEAD:docker/alpine/Dockerfile
@@ -15342,6 +15343,8 @@ RUN apk add curl && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && p
 >>>>>>> b42cc35e4e (Dockerfile_alpine: fix broken pip six installation (#1568))
 =======
 >>>>>>> 2c11751de0 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 6f80b60165 (Dockerfile_alpine: fix broken pip six installation (#1568))
 <<<<<<< HEAD:docker/alpine/Dockerfile
 =======
 >>>>>>> 9c22b33e75 (Dockerfile_alpine: fix broken pip six installation (#1568))
@@ -15424,11 +15427,14 @@ RUN apk add curl && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && p
 =======
 >>>>>>> 3047c6a688 (Dockerfile_alpine: fix broken pip six installation (#1568))
 <<<<<<< HEAD:docker/alpine/Dockerfile
+=======
+>>>>>>> 8b81aede86 (Dockerfile_alpine: fix broken pip six installation (#1568))
 <<<<<<< HEAD:docker/alpine/Dockerfile
 RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 =======
 RUN pip3 install --upgrade grass-session
 >>>>>>> da389cd55e (Dockerfile_alpine: fix broken pip six installation (#1568)):docker/alpine/Dockerfile_alpine
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15587,6 +15593,8 @@ RUN pip3 install --upgrade grass-session
 >>>>>>> cfb8a4e049 (g.proj: fix reading input WKT (#1582))
 =======
 =======
+=======
+>>>>>>> 6f80b60165 (Dockerfile_alpine: fix broken pip six installation (#1568))
 =======
 >>>>>>> d69d602427 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 3e625d40bb (g.proj: fix reading input WKT (#1582))
@@ -17561,6 +17569,8 @@ RUN pip3 install --upgrade grass-session
 =======
 RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 >>>>>>> 1411c71e15 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 8b81aede86 (Dockerfile_alpine: fix broken pip six installation (#1568))
 
 RUN ln -s /usr/local/grass /usr/local/grass7
 RUN ln -s /usr/local/grass `grass --config path`
