@@ -9405,6 +9405,7 @@ RUN apk add curl && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 <<<<<<< HEAD:docker/alpine/Dockerfile
@@ -9505,6 +9506,8 @@ RUN apk add curl && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && p
 >>>>>>> 084b268c88 (Dockerfile_alpine: fix broken pip six installation (#1568))
 =======
 >>>>>>> e1642feb6f (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 26b791ea95 (Dockerfile_alpine: fix broken pip six installation (#1568))
 <<<<<<< HEAD:docker/alpine/Dockerfile
 =======
 >>>>>>> f3c2e982bc (Dockerfile_alpine: fix broken pip six installation (#1568))
@@ -9551,11 +9554,14 @@ RUN apk add curl && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && p
 =======
 >>>>>>> e3c82c5853 (Dockerfile_alpine: fix broken pip six installation (#1568))
 <<<<<<< HEAD:docker/alpine/Dockerfile
+=======
+>>>>>>> acb2782f9e (Dockerfile_alpine: fix broken pip six installation (#1568))
 <<<<<<< HEAD:docker/alpine/Dockerfile
 RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 =======
 RUN pip3 install --upgrade grass-session
 >>>>>>> da389cd55e (Dockerfile_alpine: fix broken pip six installation (#1568)):docker/alpine/Dockerfile_alpine
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9656,6 +9662,8 @@ RUN pip3 install --upgrade grass-session
 >>>>>>> 15426e6d3d (Dockerfile_alpine: fix broken pip six installation (#1568))
 =======
 >>>>>>> db23316322 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 26b791ea95 (Dockerfile_alpine: fix broken pip six installation (#1568))
 =======
 >>>>>>> 651687e3fd (g.proj: fix reading input WKT (#1582))
 >>>>>>> 35a60eb901 (g.proj: fix reading input WKT (#1582))
@@ -10860,6 +10868,8 @@ RUN pip3 install --upgrade grass-session
 =======
 RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 >>>>>>> 573458c7fe (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> acb2782f9e (Dockerfile_alpine: fix broken pip six installation (#1568))
 
 RUN ln -s /usr/local/grass /usr/local/grass7
 RUN ln -s /usr/local/grass `grass --config path`
