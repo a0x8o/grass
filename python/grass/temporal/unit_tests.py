@@ -131,7 +131,10 @@ import grass.lib.vector as vector
 import grass.lib.rtree as rtree
 import grass.lib.gis as gis
 from ctypes import byref
+<<<<<<< HEAD
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 
 <<<<<<< HEAD
 <<<<<<< HEAD

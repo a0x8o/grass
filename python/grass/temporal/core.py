@@ -40,6 +40,7 @@ from pathlib import Path
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 =======
 <<<<<<< HEAD
@@ -74,11 +75,19 @@ import grass.script as gs
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
+=======
+>>>>>>> eb96438b70 (pythonlib: Remove star imports (#1546))
 import grass.script as gs
 =======
 from .c_libraries_interface import CLibrariesInterface
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 5bb8db950a (pythonlib: Remove star imports (#1546))
+=======
+=======
+from .c_libraries_interface import CLibrariesInterface
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> eb96438b70 (pythonlib: Remove star imports (#1546))
 from grass.pygrass import messages
 from grass.script.utils import decode
 
