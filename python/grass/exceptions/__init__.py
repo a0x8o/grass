@@ -84,6 +84,7 @@ class CalledModuleError(subprocess.CalledProcessError):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         super(CalledModuleError, self).__init__(returncode, module)
 <<<<<<< HEAD
@@ -224,6 +225,8 @@ class CalledModuleError(subprocess.CalledProcessError):
 >>>>>>> 958298688f (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> edbe88c194 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> fd6b673316 (pythonlib: Remove star imports (#1546))
         # No need to include module name if it is directly in code of if it is not set.
         # Otherwise, make sure module name is there if provided and not in code.
         executed = code if not module or module in code else f"{module} {code}"
@@ -495,7 +498,15 @@ class CalledModuleError(subprocess.CalledProcessError):
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> 4fbbce42f6 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 7c9ebb33c7 (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+        super(CalledModuleError, self).__init__(returncode, module)
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
+>>>>>>> fd6b673316 (pythonlib: Remove star imports (#1546))
         if not module or module in code:
             # No need to include module name if it is directly in code
             # of if it is not set.
