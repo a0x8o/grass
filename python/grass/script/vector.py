@@ -53,6 +53,7 @@ from .core import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from grass.exceptions import CalledModuleError, ScriptError
 =======
@@ -143,6 +144,8 @@ from grass.exceptions import CalledModuleError, ScriptError
 =======
 >>>>>>> ae94629933 (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> f008e4ec0d (pythonlib: Remove star imports (#1546))
+=======
 =======
 =======
 =======
@@ -155,6 +158,7 @@ from grass.exceptions import CalledModuleError, ScriptError
 
 from grass.exceptions import CalledModuleError, ScriptError
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195,6 +199,11 @@ from grass.exceptions import CalledModuleError, ScriptError
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 2f785ecbac (pythonlib: Remove star imports (#1546))
+>>>>>>> f008e4ec0d (pythonlib: Remove star imports (#1546))
 
 from grass.exceptions import CalledModuleError, ScriptError
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
