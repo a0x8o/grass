@@ -17,6 +17,7 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 <<<<<<< HEAD
@@ -65,6 +66,12 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
+=======
+from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
 from datetime import datetime
 import grass.lib.gis as libgis
 import grass.lib.raster as libraster
