@@ -37,6 +37,7 @@ import os
 from pathlib import Path
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 =======
 <<<<<<< HEAD
@@ -49,7 +50,13 @@ import grass.script as gs
 =======
 from .c_libraries_interface import CLibrariesInterface
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 27551073cd (pythonlib: Remove star imports (#1546))
+=======
+=======
+from .c_libraries_interface import CLibrariesInterface
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> ae94629933 (pythonlib: Remove star imports (#1546))
 from grass.pygrass import messages
 from grass.script.utils import decode
 
