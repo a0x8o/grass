@@ -302,6 +302,10 @@ for details.
 >>>>>>> 1c0cb85d51 (pythonlib: Remove star imports (#1546))
 =======
 =======
+>>>>>>> 4d810f7f30 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 =======
@@ -562,13 +566,25 @@ for details.
 >>>>>>> dbedecb198 (pythonlib: Remove star imports (#1546))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> ffb921b231 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 1c0cb85d51 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> c190252548 (pythonlib: Remove star imports (#1546))
+>>>>>>> 4d810f7f30 (pythonlib: Remove star imports (#1546))
+>>>>>>> ae14ae6860 (pythonlib: Remove star imports (#1546))
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -718,6 +734,8 @@ for details.
 =======
 >>>>>>> 1c0cb85d51 (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> ae14ae6860 (pythonlib: Remove star imports (#1546))
+=======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -729,6 +747,8 @@ for details.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 4d810f7f30 (pythonlib: Remove star imports (#1546))
 =======
 <<<<<<< HEAD
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
@@ -1362,8 +1382,16 @@ for details.
 =======
 =======
 >>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> f6df93ab65 (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> c190252548 (pythonlib: Remove star imports (#1546))
+>>>>>>> 4d810f7f30 (pythonlib: Remove star imports (#1546))
+>>>>>>> ae14ae6860 (pythonlib: Remove star imports (#1546))
 import os
 import re
 import sys
