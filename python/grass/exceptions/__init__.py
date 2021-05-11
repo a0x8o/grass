@@ -450,6 +450,9 @@ class CalledModuleError(subprocess.CalledProcessError):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1c0cb85d51 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> f0068152e1 (pythonlib: Remove star imports (#1546))
 =======
@@ -870,13 +873,17 @@ class CalledModuleError(subprocess.CalledProcessError):
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 >>>>>>> 81fdb5da80 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2e22515ef0 (pythonlib: Remove star imports (#1546))
 =======
+=======
+>>>>>>> 1c0cb85d51 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> ffb921b231 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 43413f8004 (pythonlib: Remove star imports (#1546))
 =======
@@ -1229,6 +1236,8 @@ class CalledModuleError(subprocess.CalledProcessError):
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 >>>>>>> 81fdb5da80 (pythonlib: Remove star imports (#1546))
 >>>>>>> f0068152e1 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 1c0cb85d51 (pythonlib: Remove star imports (#1546))
         if not module or module in code:
             # No need to include module name if it is directly in code
             # of if it is not set.
