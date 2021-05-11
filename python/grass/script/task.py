@@ -36,6 +36,7 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -151,6 +152,11 @@ for details.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
 import os
 import re
 import sys
@@ -168,6 +174,7 @@ from .core import Popen, PIPE, get_real_command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 =======
@@ -198,6 +205,11 @@ ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
+=======
+<<<<<<< HEAD
+>>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
 ETREE_EXCEPTIONS = (etree.ParseError, expat.ExpatError)
 =======
 try:
@@ -223,6 +235,7 @@ if sys.version_info.major >= 3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main
@@ -241,6 +254,9 @@ if sys.version_info.major >= 3:
 =======
 >>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
+>>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
 
 
 class grassTask:

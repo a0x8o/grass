@@ -354,6 +354,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -518,6 +519,8 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
             stdout = p.stdout
             stderr = p.stderr
             returncode = p.returncode
@@ -765,6 +768,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -981,6 +985,13 @@ class GrassTestFilesInvoker:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        stdout, stderr = p.communicate()
+        returncode = p.returncode
+        encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
+
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
         def try_decode(data, encodings):
             """Try to decode data (bytes) using one of encodings
 
@@ -989,6 +1000,7 @@ class GrassTestFilesInvoker:
             """
             for encoding in encodings:
                 try:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1289,6 +1301,12 @@ class GrassTestFilesInvoker:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+                    return decode(data, encoding=encoding)
+=======
+                    return decode(stdout, encoding=encoding)
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):
