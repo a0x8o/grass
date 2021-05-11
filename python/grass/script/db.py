@@ -123,6 +123,7 @@ from __future__ import absolute_import
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8630c1908e (pythonlib: Remove star imports (#1546))
@@ -226,6 +227,8 @@ from __future__ import absolute_import
 >>>>>>> 15e8b8ec25 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 2c35594c85 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> dbedecb198 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 1df4f6c1a9 (pythonlib: Remove star imports (#1546))
 >>>>>>> b62c64d69c (pythonlib: Remove star imports (#1546))
@@ -788,13 +791,17 @@ from __future__ import absolute_import
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 >>>>>>> ce79f96bcb (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a55384b51b (pythonlib: Remove star imports (#1546))
 =======
+=======
+>>>>>>> dbedecb198 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> da0563df3d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> da2395c9c7 (pythonlib: Remove star imports (#1546))
 =======
@@ -984,6 +991,8 @@ from __future__ import absolute_import
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 >>>>>>> ce79f96bcb (pythonlib: Remove star imports (#1546))
 >>>>>>> 2c35594c85 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> dbedecb198 (pythonlib: Remove star imports (#1546))
 
 import os
 from .core import (
