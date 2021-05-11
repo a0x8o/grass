@@ -380,6 +380,7 @@ class CalledModuleError(subprocess.CalledProcessError):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
@@ -417,6 +418,8 @@ class CalledModuleError(subprocess.CalledProcessError):
 =======
 >>>>>>> 585ba722f9 (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> aaf70da5d9 (pythonlib: Remove star imports (#1546))
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -439,6 +442,8 @@ class CalledModuleError(subprocess.CalledProcessError):
 =======
 =======
 >>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 4d810f7f30 (pythonlib: Remove star imports (#1546))
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 >>>>>>> 27551073cd (pythonlib: Remove star imports (#1546))
@@ -765,8 +770,19 @@ class CalledModuleError(subprocess.CalledProcessError):
 =======
 =======
 >>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 585ba722f9 (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> c190252548 (pythonlib: Remove star imports (#1546))
+>>>>>>> 4d810f7f30 (pythonlib: Remove star imports (#1546))
+>>>>>>> aaf70da5d9 (pythonlib: Remove star imports (#1546))
         if not module or module in code:
             # No need to include module name if it is directly in code
             # of if it is not set.
