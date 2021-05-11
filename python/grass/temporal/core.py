@@ -40,11 +40,16 @@ from pathlib import Path
 import grass.script as gs
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gscript
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+from .c_libraries_interface import CLibrariesInterface
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 27551073cd (pythonlib: Remove star imports (#1546))
 from grass.pygrass import messages
 from grass.script.utils import decode
 

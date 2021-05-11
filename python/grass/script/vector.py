@@ -51,6 +51,7 @@ from .core import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from grass.exceptions import CalledModuleError, ScriptError
 =======
@@ -137,7 +138,13 @@ from grass.exceptions import CalledModuleError, ScriptError
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 27551073cd (pythonlib: Remove star imports (#1546))
 =======
+=======
+=======
+
+from grass.exceptions import CalledModuleError, ScriptError
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 
 from grass.exceptions import CalledModuleError, ScriptError
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))

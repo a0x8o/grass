@@ -11,9 +11,19 @@ for details.
 """
 
 import sys
+<<<<<<< HEAD
 from ctypes import CFUNCTYPE, c_void_p
 from multiprocessing import Lock, Pipe, Process
 
+=======
+from multiprocessing import Process, Lock, Pipe
+from ctypes import CFUNCTYPE, c_void_p
+
+from grass.exceptions import FatalError
+from grass.pygrass.vector import VectorTopo
+from grass.pygrass.vector.basic import Bbox
+from grass.pygrass.raster import RasterRow, raster2numpy_img
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 import grass.lib.gis as libgis
 from grass.exceptions import FatalError
 from grass.pygrass import utils
