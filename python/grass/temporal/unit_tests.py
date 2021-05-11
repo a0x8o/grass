@@ -19,6 +19,7 @@ from datetime import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 =======
@@ -44,6 +45,8 @@ from datetime import datetime
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 >>>>>>> 8433de61b2 (style(temporal): Sort and group imports (#3959))
 >>>>>>> 80e24e5298 (style(temporal): Sort and group imports (#3959))
+=======
+>>>>>>> 5bb8db950a (pythonlib: Remove star imports (#1546))
 
 from grass.lib import gis, rtree, vector
 from grass.script import core
@@ -108,6 +111,27 @@ from .temporal_granularity import (
     adjust_datetime_to_granularity,
     compute_absolute_time_granularity,
 )
+=======
+import grass.script.core as core
+from .abstract_dataset import (
+    AbstractDatasetComparisonKeyStartTime,
+    AbstractDatasetComparisonKeyEndTime,
+)
+from .core import init
+from .datetime_math import increment_datetime_by_string, compute_datetime_delta
+from .space_time_datasets import RasterDataset
+from .spatial_extent import SpatialExtent
+from .spatio_temporal_relationships import SpatioTemporalTopologyBuilder
+from .temporal_granularity import (
+    adjust_datetime_to_granularity,
+    compute_absolute_time_granularity,
+)
+
+import grass.lib.vector as vector
+import grass.lib.rtree as rtree
+import grass.lib.gis as gis
+from ctypes import byref
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
