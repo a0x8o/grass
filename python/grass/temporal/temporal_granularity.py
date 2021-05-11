@@ -20,11 +20,16 @@ for details.
 <<<<<<< HEAD
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
 from .datetime_math import compute_datetime_delta
 from .abstract_map_dataset import AbstractMapDataset
 =======
 from __future__ import print_function
 from .datetime_math import compute_datetime_delta
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70,6 +75,12 @@ from functools import reduce
 from collections import OrderedDict
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+from functools import reduce
+from collections import OrderedDict
+>>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
+>>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
 import ast
 from collections import OrderedDict
 from functools import reduce
