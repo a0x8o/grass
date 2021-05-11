@@ -74,6 +74,7 @@ class CalledModuleError(subprocess.CalledProcessError):
         super().__init__(returncode, module)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -360,13 +361,19 @@ class CalledModuleError(subprocess.CalledProcessError):
 =======
 >>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
 >>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 585ba722f9 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 2c7840ea99 (pythonlib: Remove star imports (#1546))
+>>>>>>> 993ab127c0 (pythonlib: Remove star imports (#1546))
         # No need to include module name if it is directly in code of if it is not set.
         # Otherwise, make sure module name is there if provided and not in code.
         executed = code if not module or module in code else f"{module} {code}"
 =======
 =======
         super(CalledModuleError, self).__init__(returncode, module)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -419,6 +426,8 @@ class CalledModuleError(subprocess.CalledProcessError):
 >>>>>>> 585ba722f9 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> aaf70da5d9 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 993ab127c0 (pythonlib: Remove star imports (#1546))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -782,7 +791,13 @@ class CalledModuleError(subprocess.CalledProcessError):
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> c190252548 (pythonlib: Remove star imports (#1546))
 >>>>>>> 4d810f7f30 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> aaf70da5d9 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 2c7840ea99 (pythonlib: Remove star imports (#1546))
+>>>>>>> 993ab127c0 (pythonlib: Remove star imports (#1546))
         if not module or module in code:
             # No need to include module name if it is directly in code
             # of if it is not set.
@@ -790,6 +805,7 @@ class CalledModuleError(subprocess.CalledProcessError):
         else:
             # Make sure module name is there if provided and not in code.
             executed = f"{module} {code}"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -801,6 +817,9 @@ class CalledModuleError(subprocess.CalledProcessError):
 =======
 >>>>>>> ce79f96bcb (pythonlib: Remove star imports (#1546))
 >>>>>>> 81fdb5da80 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> ce79f96bcb (pythonlib: Remove star imports (#1546))
+>>>>>>> 2c7840ea99 (pythonlib: Remove star imports (#1546))
         if errors:
             # We assume actual errors, e.g., captured stderr.
             err = _("See the following errors:\n{errors}").format(errors=errors)
