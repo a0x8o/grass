@@ -50,6 +50,7 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -116,6 +117,8 @@ for details.
 >>>>>>> 8630c1908e (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 6fdaa03757 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> e54d3f3e40 (pythonlib: Remove star imports (#1546))
 =======
 =======
 >>>>>>> 3960f36bc5 (pythonlib: Remove star imports (#1546))
@@ -338,7 +341,15 @@ for details.
 =======
 =======
 >>>>>>> 5fb05831cc (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 6fdaa03757 (pythonlib: Remove star imports (#1546))
+=======
+=======
+
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
+>>>>>>> e54d3f3e40 (pythonlib: Remove star imports (#1546))
 import os
 import re
 import sys
@@ -349,6 +360,7 @@ from grass.exceptions import ScriptError
 from .utils import decode, split
 from .core import Popen, PIPE, get_real_command
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -415,6 +427,8 @@ ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 >>>>>>> 1acc93c650 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 8630c1908e (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> e54d3f3e40 (pythonlib: Remove star imports (#1546))
 ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 =======
 <<<<<<< HEAD
@@ -435,7 +449,12 @@ ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 =======
 =======
 >>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 8630c1908e (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
+>>>>>>> e54d3f3e40 (pythonlib: Remove star imports (#1546))
 ETREE_EXCEPTIONS = (etree.ParseError, expat.ExpatError)
 =======
 try:
@@ -468,6 +487,7 @@ if sys.version_info.major >= 3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main
@@ -505,6 +525,8 @@ if sys.version_info.major >= 3:
 >>>>>>> 1acc93c650 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 8630c1908e (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> e54d3f3e40 (pythonlib: Remove star imports (#1546))
 >>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 2f785ecbac (pythonlib: Remove star imports (#1546))
@@ -520,7 +542,12 @@ if sys.version_info.major >= 3:
 =======
 =======
 >>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 8630c1908e (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
+>>>>>>> e54d3f3e40 (pythonlib: Remove star imports (#1546))
 
 
 class grassTask:
