@@ -90,6 +90,7 @@ class CalledModuleError(subprocess.CalledProcessError):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         super(CalledModuleError, self).__init__(returncode, module)
 <<<<<<< HEAD
@@ -242,12 +243,17 @@ class CalledModuleError(subprocess.CalledProcessError):
 >>>>>>> 813bf89b9d (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> a55384b51b (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 81fdb5da80 (pythonlib: Remove star imports (#1546))
+>>>>>>> 2e22515ef0 (pythonlib: Remove star imports (#1546))
         # No need to include module name if it is directly in code of if it is not set.
         # Otherwise, make sure module name is there if provided and not in code.
         executed = code if not module or module in code else f"{module} {code}"
 =======
 =======
         super(CalledModuleError, self).__init__(returncode, module)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,6 +294,8 @@ class CalledModuleError(subprocess.CalledProcessError):
 =======
 >>>>>>> d08c50382a (pythonlib: Remove star imports (#1546))
 =======
+=======
+>>>>>>> 2e22515ef0 (pythonlib: Remove star imports (#1546))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -615,7 +623,13 @@ class CalledModuleError(subprocess.CalledProcessError):
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> da0563df3d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> da2395c9c7 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 81fdb5da80 (pythonlib: Remove star imports (#1546))
+>>>>>>> 2e22515ef0 (pythonlib: Remove star imports (#1546))
         if not module or module in code:
             # No need to include module name if it is directly in code
             # of if it is not set.
@@ -625,11 +639,15 @@ class CalledModuleError(subprocess.CalledProcessError):
             executed = f"{module} {code}"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce79f96bcb (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> ce79f96bcb (pythonlib: Remove star imports (#1546))
+>>>>>>> 81fdb5da80 (pythonlib: Remove star imports (#1546))
         if errors:
             # We assume actual errors, e.g., captured stderr.
             err = _("See the following errors:\n{errors}").format(errors=errors)
