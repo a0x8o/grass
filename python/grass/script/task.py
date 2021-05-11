@@ -370,9 +370,14 @@ for details.
 >>>>>>> 2e2dc3004e (pythonlib: Remove star imports (#1546))
 =======
 =======
+>>>>>>> 3960f36bc5 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> c6554e4c24 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 9441e85caa (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> e2d3096606 (pythonlib: Remove star imports (#1546))
@@ -381,12 +386,21 @@ for details.
 =======
 =======
 >>>>>>> e1a7453c89 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 2e2dc3004e (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 5fb05831cc (pythonlib: Remove star imports (#1546))
+>>>>>>> 3960f36bc5 (pythonlib: Remove star imports (#1546))
+>>>>>>> f6578350cf (pythonlib: Remove star imports (#1546))
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -491,6 +505,8 @@ for details.
 =======
 >>>>>>> 2e2dc3004e (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> f6578350cf (pythonlib: Remove star imports (#1546))
+=======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -506,6 +522,11 @@ for details.
 <<<<<<< HEAD
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> f9cdd7121a (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> 3960f36bc5 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> osgeo-main
 >>>>>>> c6554e4c24 (pythonlib: Remove star imports (#1546))
@@ -926,8 +947,16 @@ for details.
 =======
 =======
 >>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> c6554e4c24 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> f9cdd7121a (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> 5fb05831cc (pythonlib: Remove star imports (#1546))
+>>>>>>> 3960f36bc5 (pythonlib: Remove star imports (#1546))
+>>>>>>> f6578350cf (pythonlib: Remove star imports (#1546))
 import os
 import re
 import sys
