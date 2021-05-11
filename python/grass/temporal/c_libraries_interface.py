@@ -111,6 +111,7 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -242,6 +243,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cda7754789 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> edbe88c194 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
 =======
@@ -944,10 +947,17 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
 <<<<<<< HEAD
 >>>>>>> 0b441b6432 (pythonlib: Remove star imports (#1546))
+=======
+import sys
+from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
+=======
+<<<<<<< HEAD
+>>>>>>> 474e98d46c (pythonlib: Remove star imports (#1546))
 from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1379,7 +1389,13 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 =======
 >>>>>>> d7d1827cf8 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> cda7754789 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
+>>>>>>> 474e98d46c (pythonlib: Remove star imports (#1546))
+>>>>>>> edbe88c194 (pythonlib: Remove star imports (#1546))
 from datetime import datetime
 from multiprocessing import Lock, Pipe, Process
 from typing import TYPE_CHECKING
