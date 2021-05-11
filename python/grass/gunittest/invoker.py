@@ -2147,6 +2147,7 @@ class GrassTestFilesInvoker:
             )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -2158,7 +2159,12 @@ class GrassTestFilesInvoker:
 =======
 =======
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> fe954ba9c1 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 2f785ecbac (pythonlib: Remove star imports (#1546))
+>>>>>>> 6c0fed7e9a (pythonlib: Remove star imports (#1546))
             stdout = p.stdout
             stderr = p.stderr
             returncode = p.returncode
@@ -3797,6 +3803,7 @@ class GrassTestFilesInvoker:
         returncode = p.returncode
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
@@ -3815,6 +3822,11 @@ class GrassTestFilesInvoker:
 =======
         encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
 =======
+=======
+        encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
+
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 2f785ecbac (pythonlib: Remove star imports (#1546))
         def try_decode(data, encodings):
             """Try to decode data (bytes) using one of encodings
 =======
@@ -3851,7 +3863,11 @@ class GrassTestFilesInvoker:
             """
             for encoding in encodings:
                 try:
+<<<<<<< HEAD
                     return decode(data, encoding=encoding)
+=======
+                    return decode(stdout, encoding=encoding)
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):

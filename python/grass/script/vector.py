@@ -74,6 +74,7 @@ from .core import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3960f36bc5 (pythonlib: Remove star imports (#1546))
@@ -224,6 +225,8 @@ from grass.exceptions import CalledModuleError, ScriptError
 =======
 >>>>>>> eb96438b70 (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> 6c0fed7e9a (pythonlib: Remove star imports (#1546))
+=======
 =======
 =======
 =======
@@ -238,6 +241,7 @@ from grass.exceptions import CalledModuleError, ScriptError
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
 =======
 =======
@@ -638,6 +642,9 @@ from grass.exceptions import CalledModuleError, ScriptError
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> da1787bad3 (pythonlib: Remove star imports (#1546))
 >>>>>>> 46ecaf1932 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 2f785ecbac (pythonlib: Remove star imports (#1546))
+>>>>>>> 6c0fed7e9a (pythonlib: Remove star imports (#1546))
 
 from grass.exceptions import CalledModuleError, ScriptError
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
