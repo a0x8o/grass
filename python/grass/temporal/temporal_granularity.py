@@ -44,6 +44,7 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
@@ -110,6 +111,8 @@ for details.
 =======
 >>>>>>> c5e22f8b98 (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> 813bf89b9d (pythonlib: Remove star imports (#1546))
+=======
 =======
 <<<<<<< HEAD
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
@@ -170,12 +173,19 @@ for details.
 =======
 =======
 >>>>>>> 6d81b53481 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> c5e22f8b98 (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> e1e8127d65 (pythonlib: Remove star imports (#1546))
+>>>>>>> 813bf89b9d (pythonlib: Remove star imports (#1546))
 from .datetime_math import compute_datetime_delta
 from .abstract_map_dataset import AbstractMapDataset
 =======
 from __future__ import print_function
 from .datetime_math import compute_datetime_delta
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,6 +362,8 @@ from collections import OrderedDict
 >>>>>>> c5e22f8b98 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 16628047b7 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 813bf89b9d (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 1df4f6c1a9 (pythonlib: Remove star imports (#1546))
 >>>>>>> b62c64d69c (pythonlib: Remove star imports (#1546))
@@ -638,7 +650,16 @@ from functools import reduce
 from collections import OrderedDict
 >>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
 >>>>>>> 6d81b53481 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> c5e22f8b98 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+from functools import reduce
+from collections import OrderedDict
+>>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
+>>>>>>> e1e8127d65 (pythonlib: Remove star imports (#1546))
+>>>>>>> 813bf89b9d (pythonlib: Remove star imports (#1546))
 import ast
 from collections import OrderedDict
 from functools import reduce
