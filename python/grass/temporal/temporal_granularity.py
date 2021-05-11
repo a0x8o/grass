@@ -54,6 +54,7 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
@@ -143,6 +144,8 @@ for details.
 =======
 >>>>>>> aeac88cf3a (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> d416b78612 (pythonlib: Remove star imports (#1546))
+=======
 =======
 <<<<<<< HEAD
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
@@ -168,6 +171,7 @@ for details.
 =======
 =======
 >>>>>>> a7c34931b5 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2e4a058ca6 (pythonlib: Remove star imports (#1546))
 =======
@@ -274,11 +278,17 @@ for details.
 =======
 >>>>>>> a7c34931b5 (pythonlib: Remove star imports (#1546))
 >>>>>>> aeac88cf3a (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> 0b441b6432 (pythonlib: Remove star imports (#1546))
+>>>>>>> d416b78612 (pythonlib: Remove star imports (#1546))
 from .datetime_math import compute_datetime_delta
 from .abstract_map_dataset import AbstractMapDataset
 =======
 from __future__ import print_function
 from .datetime_math import compute_datetime_delta
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -519,6 +529,8 @@ from collections import OrderedDict
 >>>>>>> aeac88cf3a (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7d811718e6 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> d416b78612 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 1df4f6c1a9 (pythonlib: Remove star imports (#1546))
 >>>>>>> b62c64d69c (pythonlib: Remove star imports (#1546))
@@ -1055,10 +1067,19 @@ from functools import reduce
 from collections import OrderedDict
 >>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
 >>>>>>> a7c34931b5 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> bd15a01a37 (pythonlib: Remove star imports (#1546))
 >>>>>>> 32987ee457 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> aeac88cf3a (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+from functools import reduce
+from collections import OrderedDict
+>>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
+>>>>>>> 0b441b6432 (pythonlib: Remove star imports (#1546))
+>>>>>>> d416b78612 (pythonlib: Remove star imports (#1546))
 import ast
 from collections import OrderedDict
 from functools import reduce
