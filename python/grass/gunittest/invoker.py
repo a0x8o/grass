@@ -4392,8 +4392,14 @@ class GrassTestFilesInvoker:
         returncode = p.returncode
         encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
 
+<<<<<<< HEAD
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> 5fb05831cc (pythonlib: Remove star imports (#1546))
         def try_decode(data, encodings):
             """Try to decode data (bytes) using one of encodings
 
@@ -4402,6 +4408,7 @@ class GrassTestFilesInvoker:
             """
             for encoding in encodings:
                 try:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5023,12 +5030,18 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> 29302c9ef8 (pythonlib: Remove star imports (#1546))
 >>>>>>> 9ddc609ecd (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> e697a1fdd9 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 5fb05831cc (pythonlib: Remove star imports (#1546))
+>>>>>>> 8a28804560 (pythonlib: Remove star imports (#1546))
                     return decode(data, encoding=encoding)
 =======
                     return decode(stdout, encoding=encoding)
 <<<<<<< HEAD
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 =======
                     return decode(data, encoding=encoding)
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -5122,6 +5135,8 @@ class GrassTestFilesInvoker:
                     return decode(stdout, encoding=encoding)
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 >>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 5fb05831cc (pythonlib: Remove star imports (#1546))
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):
