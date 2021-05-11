@@ -100,6 +100,7 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -276,6 +277,8 @@ for details.
 >>>>>>> 15ee9980f8 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 8844e5da9c (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 4759f473a2 (pythonlib: Remove star imports (#1546))
 =======
 =======
 >>>>>>> 1df4f6c1a9 (pythonlib: Remove star imports (#1546))
@@ -1006,13 +1009,17 @@ for details.
 =======
 >>>>>>> 3ced907ea6 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9cb1837c15 (pythonlib: Remove star imports (#1546))
 =======
+=======
+>>>>>>> 4759f473a2 (pythonlib: Remove star imports (#1546))
 =======
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 >>>>>>> 6d81b53481 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c5e22f8b98 (pythonlib: Remove star imports (#1546))
 =======
@@ -1244,6 +1251,8 @@ for details.
 =======
 >>>>>>> 3ced907ea6 (pythonlib: Remove star imports (#1546))
 >>>>>>> 8844e5da9c (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 4759f473a2 (pythonlib: Remove star imports (#1546))
 import os
 import re
 import sys
@@ -1254,6 +1263,7 @@ from grass.exceptions import ScriptError
 from .utils import decode, split
 from .core import Popen, PIPE, get_real_command
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1393,6 +1403,8 @@ ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 >>>>>>> 72c2e4860b (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 15ee9980f8 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 4759f473a2 (pythonlib: Remove star imports (#1546))
 ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 =======
 <<<<<<< HEAD
@@ -1473,13 +1485,17 @@ ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 >>>>>>> f4b9197871 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 38eafe025f (pythonlib: Remove star imports (#1546))
 =======
+=======
+>>>>>>> 4759f473a2 (pythonlib: Remove star imports (#1546))
 =======
 ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 =======
 <<<<<<< HEAD
 >>>>>>> 6d81b53481 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c5e22f8b98 (pythonlib: Remove star imports (#1546))
 =======
@@ -1576,6 +1592,8 @@ ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 >>>>>>> 72c2e4860b (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 15ee9980f8 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 4759f473a2 (pythonlib: Remove star imports (#1546))
 ETREE_EXCEPTIONS = (etree.ParseError, expat.ExpatError)
 =======
 try:
@@ -1595,6 +1613,7 @@ else:
 if sys.version_info.major >= 3:
     unicode = str
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1719,6 +1738,8 @@ if sys.version_info.major >= 3:
 >>>>>>> 72c2e4860b (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 15ee9980f8 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 4759f473a2 (pythonlib: Remove star imports (#1546))
 >>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 2f785ecbac (pythonlib: Remove star imports (#1546))
@@ -1789,6 +1810,8 @@ if sys.version_info.major >= 3:
 >>>>>>> 9e2a78d963 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> f4b9197871 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 6d81b53481 (pythonlib: Remove star imports (#1546))
 >>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
 >>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
 >>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
