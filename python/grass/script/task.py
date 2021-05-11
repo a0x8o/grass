@@ -184,6 +184,10 @@ for details.
 >>>>>>> 43413f8004 (pythonlib: Remove star imports (#1546))
 =======
 =======
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 1df4f6c1a9 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 =======
@@ -644,6 +648,7 @@ for details.
 >>>>>>> bf337dfc4c (pythonlib: Remove star imports (#1546))
 =======
 =======
+<<<<<<< HEAD
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
@@ -657,9 +662,13 @@ for details.
 >>>>>>> f8a1d36c40 (pythonlib: Remove star imports (#1546))
 =======
 =======
+>>>>>>> osgeo-main
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+=======
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> f4b9197871 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 >>>>>>> 38eafe025f (pythonlib: Remove star imports (#1546))
@@ -718,7 +727,13 @@ for details.
 =======
 =======
 >>>>>>> ffb921b231 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 43413f8004 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+>>>>>>> 585ba722f9 (pythonlib: Remove star imports (#1546))
 import os
 import re
 import sys
@@ -729,6 +744,7 @@ from grass.exceptions import ScriptError
 from .utils import decode, split
 from .core import Popen, PIPE, get_real_command
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -828,6 +844,8 @@ ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 >>>>>>> a55384b51b (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 2e22515ef0 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 585ba722f9 (pythonlib: Remove star imports (#1546))
 ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 =======
 <<<<<<< HEAD
@@ -877,6 +895,8 @@ ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 >>>>>>> fd6b673316 (pythonlib: Remove star imports (#1546))
 =======
 =======
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+=======
 ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 =======
 <<<<<<< HEAD
@@ -920,8 +940,20 @@ ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 81fdb5da80 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 2e22515ef0 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
+=======
+<<<<<<< HEAD
+>>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+>>>>>>> 585ba722f9 (pythonlib: Remove star imports (#1546))
 ETREE_EXCEPTIONS = (etree.ParseError, expat.ExpatError)
 =======
 try:
@@ -965,6 +997,7 @@ if sys.version_info.major >= 3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main
@@ -1024,6 +1057,11 @@ if sys.version_info.major >= 3:
 >>>>>>> a55384b51b (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 2e22515ef0 (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+>>>>>>> 585ba722f9 (pythonlib: Remove star imports (#1546))
 >>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 2f785ecbac (pythonlib: Remove star imports (#1546))
@@ -1076,7 +1114,17 @@ if sys.version_info.major >= 3:
 =======
 >>>>>>> 81fdb5da80 (pythonlib: Remove star imports (#1546))
 >>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> fd6b673316 (pythonlib: Remove star imports (#1546))
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
+>>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+>>>>>>> 585ba722f9 (pythonlib: Remove star imports (#1546))
 
 
 class grassTask:
