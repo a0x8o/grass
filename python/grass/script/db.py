@@ -96,6 +96,7 @@ from __future__ import absolute_import
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8630c1908e (pythonlib: Remove star imports (#1546))
@@ -316,8 +317,11 @@ from __future__ import absolute_import
 >>>>>>> 158dbc71ea (pythonlib: Remove star imports (#1546))
 =======
 =======
+>>>>>>> f9cdd7121a (pythonlib: Remove star imports (#1546))
+=======
 =======
 >>>>>>> c6554e4c24 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8ac6037718 (pythonlib: Remove star imports (#1546))
 =======
@@ -334,6 +338,8 @@ from __future__ import absolute_import
 >>>>>>> 2f7ff18221 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 2e2dc3004e (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> f9cdd7121a (pythonlib: Remove star imports (#1546))
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
@@ -364,6 +370,9 @@ from __future__ import absolute_import
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f9cdd7121a (pythonlib: Remove star imports (#1546))
 >>>>>>> 9441e85caa (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -404,13 +413,17 @@ from __future__ import absolute_import
 >>>>>>> e1a7453c89 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 158dbc71ea (pythonlib: Remove star imports (#1546))
 =======
+=======
+>>>>>>> f9cdd7121a (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 >>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c6554e4c24 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
@@ -715,6 +728,9 @@ from __future__ import absolute_import
 >>>>>>> 2f7ff18221 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 2e2dc3004e (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> c6554e4c24 (pythonlib: Remove star imports (#1546))
+>>>>>>> f9cdd7121a (pythonlib: Remove star imports (#1546))
 
 import os
 from .core import (
