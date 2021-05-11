@@ -265,6 +265,7 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8cba1d1209 (pythonlib: Remove star imports (#1546))
@@ -361,6 +362,8 @@ import logging
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c4eb0408e8 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 2c35594c85 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
 =======
@@ -1990,12 +1993,16 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 <<<<<<< HEAD
 >>>>>>> e1e8127d65 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2c35594c85 (pythonlib: Remove star imports (#1546))
 =======
 import sys
 from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
 <<<<<<< HEAD
 >>>>>>> ce79f96bcb (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 =======
 import sys
 from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
@@ -2048,10 +2055,13 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> 4759f473a2 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 24602374be (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 2c35594c85 (pythonlib: Remove star imports (#1546))
 from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2096,6 +2106,8 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 4759f473a2 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 24602374be (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 2c35594c85 (pythonlib: Remove star imports (#1546))
 >>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 >>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
@@ -2974,6 +2986,7 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 >>>>>>> e8e0602d79 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 16b8b4fdeb (pythonlib: Remove star imports (#1546))
 =======
 =======
@@ -3208,6 +3221,11 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 >>>>>>> e8e0602d79 (pythonlib: Remove star imports (#1546))
 >>>>>>> c4eb0408e8 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
+>>>>>>> ce79f96bcb (pythonlib: Remove star imports (#1546))
+>>>>>>> 2c35594c85 (pythonlib: Remove star imports (#1546))
 from datetime import datetime
 from multiprocessing import Lock, Pipe, Process
 from typing import TYPE_CHECKING
