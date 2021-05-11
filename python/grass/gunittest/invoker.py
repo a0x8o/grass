@@ -2170,6 +2170,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -2212,7 +2213,12 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> 1de92a2db2 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> a690fdd8e7 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> ba719f126c (pythonlib: Remove star imports (#1546))
+>>>>>>> cbf3352a7e (pythonlib: Remove star imports (#1546))
             stdout = p.stdout
             stderr = p.stderr
             returncode = p.returncode
@@ -3893,6 +3899,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1de92a2db2 (pythonlib: Remove star imports (#1546))
 =======
@@ -3941,6 +3948,11 @@ class GrassTestFilesInvoker:
 
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
+=======
+        encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
+
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> ba719f126c (pythonlib: Remove star imports (#1546))
         def try_decode(data, encodings):
             """Try to decode data (bytes) using one of encodings
 
@@ -3953,6 +3965,7 @@ class GrassTestFilesInvoker:
                     return decode(data, encoding=encoding)
 =======
                     return decode(stdout, encoding=encoding)
+<<<<<<< HEAD
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
                 except UnicodeError:
                     pass
@@ -4517,6 +4530,9 @@ class GrassTestFilesInvoker:
                     return decode(stdout, encoding=encoding)
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> ba719f126c (pythonlib: Remove star imports (#1546))
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):
