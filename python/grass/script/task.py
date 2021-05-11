@@ -124,6 +124,10 @@ for details.
 >>>>>>> 692afe97f6 (pythonlib: Remove star imports (#1546))
 =======
 =======
+>>>>>>> 2ec038aafa (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 =======
@@ -161,13 +165,23 @@ for details.
 >>>>>>> 6fdaa03757 (pythonlib: Remove star imports (#1546))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 56010eb999 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 692afe97f6 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
+>>>>>>> 2ec038aafa (pythonlib: Remove star imports (#1546))
+>>>>>>> 78a24c3407 (pythonlib: Remove star imports (#1546))
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +230,8 @@ for details.
 >>>>>>> 6fdaa03757 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 692afe97f6 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 78a24c3407 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
@@ -284,6 +300,9 @@ for details.
 <<<<<<< HEAD
 >>>>>>> ae94629933 (pythonlib: Remove star imports (#1546))
 =======
+=======
+>>>>>>> osgeo-main
+>>>>>>> 2ec038aafa (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> osgeo-main
 =======
@@ -380,8 +399,16 @@ for details.
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 >>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 705f9aa694 (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
+>>>>>>> 2ec038aafa (pythonlib: Remove star imports (#1546))
+>>>>>>> 78a24c3407 (pythonlib: Remove star imports (#1546))
 import os
 import re
 import sys
