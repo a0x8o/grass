@@ -231,6 +231,7 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8cba1d1209 (pythonlib: Remove star imports (#1546))
@@ -260,6 +261,8 @@ import logging
 =======
 >>>>>>> d416b78612 (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> ae24e8727d (pythonlib: Remove star imports (#1546))
+=======
 >>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
@@ -273,12 +276,18 @@ import logging
 =======
 =======
 >>>>>>> 5c97872ced (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 7f1734a21f (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 0915ba12ad (pythonlib: Remove star imports (#1546))
+>>>>>>> ae24e8727d (pythonlib: Remove star imports (#1546))
 import sys
 from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
 =======
 >>>>>>> 56010eb999 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 =======
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
 =======
@@ -2708,6 +2717,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 0915ba12ad (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 =======
 >>>>>>> 0915ba12ad (pythonlib: Remove star imports (#1546))
@@ -2919,6 +2930,7 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6c0fed7e9a (pythonlib: Remove star imports (#1546))
 =======
@@ -2939,6 +2951,8 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 6a11812108 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7d811718e6 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> ae24e8727d (pythonlib: Remove star imports (#1546))
 >>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 >>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
@@ -2950,6 +2964,7 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
 >>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
 >>>>>>> 0915ba12ad (pythonlib: Remove star imports (#1546))
@@ -2987,8 +3002,14 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 >>>>>>> 7d811718e6 (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
+>>>>>>> 0915ba12ad (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> ae24e8727d (pythonlib: Remove star imports (#1546))
+=======
 from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3010,6 +3031,8 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> dcc1810d30 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 7d811718e6 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> ae24e8727d (pythonlib: Remove star imports (#1546))
 >>>>>>> 56010eb999 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 >>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
@@ -3099,6 +3122,7 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
 >>>>>>> 56010eb999 (pythonlib: Remove star imports (#1546))
 >>>>>>> 0915ba12ad (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 =======
 >>>>>>> 56010eb999 (pythonlib: Remove star imports (#1546))
 >>>>>>> 4fbbce42f6 (pythonlib: Remove star imports (#1546))
@@ -3659,6 +3683,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> 56010eb999 (pythonlib: Remove star imports (#1546))
 >>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
 >>>>>>> 7d811718e6 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> ae24e8727d (pythonlib: Remove star imports (#1546))
 from datetime import datetime
 from multiprocessing import Lock, Pipe, Process
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
