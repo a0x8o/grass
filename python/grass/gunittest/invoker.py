@@ -706,6 +706,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -801,6 +802,8 @@ class GrassTestFilesInvoker:
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4d9f88c17a (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 9407a0d6c1 (pythonlib: Remove star imports (#1546))
 =======
 <<<<<<< HEAD
 =======
@@ -1445,7 +1448,12 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> 694dd243d2 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 4d9f88c17a (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 9e2a78d963 (pythonlib: Remove star imports (#1546))
+>>>>>>> 9407a0d6c1 (pythonlib: Remove star imports (#1546))
             stdout = p.stdout
             stderr = p.stderr
             returncode = p.returncode
@@ -2334,6 +2342,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -2795,6 +2804,14 @@ class GrassTestFilesInvoker:
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> dd23d5dc15 (pythonlib: Remove star imports (#1546))
+=======
+=======
+        stdout, stderr = p.communicate()
+        returncode = p.returncode
+        encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
+
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 9e2a78d963 (pythonlib: Remove star imports (#1546))
         def try_decode(data, encodings):
             """Try to decode data (bytes) using one of encodings
 
@@ -2803,6 +2820,7 @@ class GrassTestFilesInvoker:
             """
             for encoding in encodings:
                 try:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4184,7 +4202,16 @@ class GrassTestFilesInvoker:
 =======
 =======
 >>>>>>> 694dd243d2 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 4d9f88c17a (pythonlib: Remove star imports (#1546))
+=======
+=======
+                    return decode(data, encoding=encoding)
+=======
+                    return decode(stdout, encoding=encoding)
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 9e2a78d963 (pythonlib: Remove star imports (#1546))
+>>>>>>> 9407a0d6c1 (pythonlib: Remove star imports (#1546))
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):
