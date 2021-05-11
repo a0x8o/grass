@@ -84,13 +84,21 @@ for details.
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 >>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
+=======
+=======
+>>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
+>>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
+>>>>>>> 705f9aa694 (pythonlib: Remove star imports (#1546))
 from .datetime_math import compute_datetime_delta
 from .abstract_map_dataset import AbstractMapDataset
 =======
 from __future__ import print_function
 from .datetime_math import compute_datetime_delta
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,6 +225,10 @@ from collections import OrderedDict
 >>>>>>> e54d3f3e40 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 692afe97f6 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
+>>>>>>> 705f9aa694 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 3960f36bc5 (pythonlib: Remove star imports (#1546))
 >>>>>>> d08c50382a (pythonlib: Remove star imports (#1546))
@@ -359,8 +371,20 @@ from collections import OrderedDict
 =======
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 >>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
+=======
+=======
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+from functools import reduce
+from collections import OrderedDict
+>>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
+>>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
+>>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
+>>>>>>> 705f9aa694 (pythonlib: Remove star imports (#1546))
 import ast
 from collections import OrderedDict
 from functools import reduce

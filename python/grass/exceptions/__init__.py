@@ -230,6 +230,7 @@ class CalledModuleError(subprocess.CalledProcessError):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
@@ -259,6 +260,15 @@ class CalledModuleError(subprocess.CalledProcessError):
 >>>>>>> 8ac6037718 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> d08c50382a (pythonlib: Remove star imports (#1546))
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
+>>>>>>> 705f9aa694 (pythonlib: Remove star imports (#1546))
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 <<<<<<< HEAD
@@ -380,8 +390,18 @@ class CalledModuleError(subprocess.CalledProcessError):
 =======
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 56010eb999 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 692afe97f6 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
+>>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
+>>>>>>> 705f9aa694 (pythonlib: Remove star imports (#1546))
         if not module or module in code:
             # No need to include module name if it is directly in code
             # of if it is not set.
