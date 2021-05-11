@@ -242,6 +242,10 @@ for details.
 >>>>>>> 6a11812108 (pythonlib: Remove star imports (#1546))
 =======
 =======
+>>>>>>> 1df4f6c1a9 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> bd15a01a37 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 =======
@@ -436,13 +440,22 @@ for details.
 >>>>>>> osgeo-main
 =======
 >>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 2ec038aafa (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 0934ce9a0b (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
+>>>>>>> 1df4f6c1a9 (pythonlib: Remove star imports (#1546))
+>>>>>>> 64384cd976 (pythonlib: Remove star imports (#1546))
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -559,6 +572,8 @@ for details.
 =======
 >>>>>>> 0934ce9a0b (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> 64384cd976 (pythonlib: Remove star imports (#1546))
+=======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -575,6 +590,8 @@ for details.
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> f9cdd7121a (pythonlib: Remove star imports (#1546))
 =======
+=======
+>>>>>>> 1df4f6c1a9 (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main
 >>>>>>> 2ec038aafa (pythonlib: Remove star imports (#1546))
 =======
@@ -1065,8 +1082,16 @@ for details.
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 >>>>>>> a7c34931b5 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> bd15a01a37 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 32987ee457 (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
+>>>>>>> 1df4f6c1a9 (pythonlib: Remove star imports (#1546))
+>>>>>>> 64384cd976 (pythonlib: Remove star imports (#1546))
 import os
 import re
 import sys
