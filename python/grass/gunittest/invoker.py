@@ -1383,6 +1383,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1714,6 +1715,10 @@ class GrassTestFilesInvoker:
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 20f77f411c (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+>>>>>>> f6df93ab65 (pythonlib: Remove star imports (#1546))
 =======
 <<<<<<< HEAD
 =======
@@ -3310,8 +3315,17 @@ class GrassTestFilesInvoker:
 =======
 =======
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> c9ede9fa1e (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 20f77f411c (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+>>>>>>> f6df93ab65 (pythonlib: Remove star imports (#1546))
             stdout = p.stdout
             stderr = p.stderr
             returncode = p.returncode
@@ -5494,6 +5508,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6081,6 +6096,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 >>>>>>> 474e98d46c (pythonlib: Remove star imports (#1546))
 =======
+<<<<<<< HEAD
 =======
 =======
         encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
@@ -6235,6 +6251,16 @@ class GrassTestFilesInvoker:
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> ffb921b231 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> osgeo-main
+=======
+        stdout, stderr = p.communicate()
+        returncode = p.returncode
+        encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
+
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
         def try_decode(data, encodings):
             """Try to decode data (bytes) using one of encodings
 
@@ -6313,6 +6339,9 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e83b17a18 (pythonlib: Remove star imports (#1546))
 =======
@@ -7627,6 +7656,7 @@ class GrassTestFilesInvoker:
 =======
                     return decode(data, encoding=encoding)
 =======
+<<<<<<< HEAD
                     return decode(stdout, encoding=encoding)
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 >>>>>>> 474e98d46c (pythonlib: Remove star imports (#1546))
@@ -7645,10 +7675,14 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> 2f523f7cda (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> osgeo-main
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+=======
                     return decode(data, encoding=encoding)
 =======
                     return decode(stdout, encoding=encoding)
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> dd23d5dc15 (pythonlib: Remove star imports (#1546))
@@ -7784,6 +7818,9 @@ class GrassTestFilesInvoker:
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c9ede9fa1e (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):

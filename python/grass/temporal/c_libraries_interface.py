@@ -284,6 +284,7 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8cba1d1209 (pythonlib: Remove star imports (#1546))
@@ -400,6 +401,10 @@ import logging
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 20f77f411c (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+>>>>>>> f6df93ab65 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
 =======
@@ -4103,6 +4108,9 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6df93ab65 (pythonlib: Remove star imports (#1546))
 >>>>>>> 56010eb999 (pythonlib: Remove star imports (#1546))
 >>>>>>> ffb921b231 (pythonlib: Remove star imports (#1546))
 =======
@@ -4110,6 +4118,7 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> c190252548 (pythonlib: Remove star imports (#1546))
 =======
@@ -4150,11 +4159,17 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
 >>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
 >>>>>>> 64384cd976 (pythonlib: Remove star imports (#1546))
+=======
+import sys
+from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
+=======
+>>>>>>> f6df93ab65 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4528,6 +4543,11 @@ from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 >>>>>>> 95adae2f53 (pythonlib: Remove star imports (#1546))
 >>>>>>> c0338bc882 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
+>>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+>>>>>>> f6df93ab65 (pythonlib: Remove star imports (#1546))
 from datetime import datetime
 from multiprocessing import Lock, Pipe, Process
 <<<<<<< HEAD

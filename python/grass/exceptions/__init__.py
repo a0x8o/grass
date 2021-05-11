@@ -74,6 +74,15 @@ class CalledModuleError(subprocess.CalledProcessError):
         super().__init__(returncode, module)
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        super(CalledModuleError, self).__init__(returncode, module)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -418,8 +427,113 @@ class CalledModuleError(subprocess.CalledProcessError):
 >>>>>>> 2c35594c85 (pythonlib: Remove star imports (#1546))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 81fdb5da80 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> f0068152e1 (pythonlib: Remove star imports (#1546))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> 5fb05831cc (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
+>>>>>>> a7c34931b5 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+>>>>>>> f6df93ab65 (pythonlib: Remove star imports (#1546))
         # No need to include module name if it is directly in code of if it is not set.
         # Otherwise, make sure module name is there if provided and not in code.
         executed = code if not module or module in code else f"{module} {code}"
@@ -451,6 +565,9 @@ class CalledModuleError(subprocess.CalledProcessError):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6df93ab65 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 1c0cb85d51 (pythonlib: Remove star imports (#1546))
 =======
@@ -543,8 +660,11 @@ class CalledModuleError(subprocess.CalledProcessError):
 =======
 =======
 >>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 =======
 >>>>>>> 4d810f7f30 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> f6df93ab65 (pythonlib: Remove star imports (#1546))
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 >>>>>>> 27551073cd (pythonlib: Remove star imports (#1546))
@@ -883,6 +1003,7 @@ class CalledModuleError(subprocess.CalledProcessError):
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> ffb921b231 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 43413f8004 (pythonlib: Remove star imports (#1546))
@@ -1238,6 +1359,11 @@ class CalledModuleError(subprocess.CalledProcessError):
 >>>>>>> f0068152e1 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 1c0cb85d51 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
+>>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
+>>>>>>> f6df93ab65 (pythonlib: Remove star imports (#1546))
         if not module or module in code:
             # No need to include module name if it is directly in code
             # of if it is not set.
