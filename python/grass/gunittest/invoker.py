@@ -1478,9 +1478,18 @@ class GrassTestFilesInvoker:
         returncode = p.returncode
         encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
 
+<<<<<<< HEAD
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> c6554e4c24 (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> 5fb05831cc (pythonlib: Remove star imports (#1546))
+>>>>>>> 3960f36bc5 (pythonlib: Remove star imports (#1546))
         def try_decode(data, encodings):
             """Try to decode data (bytes) using one of encodings
 
@@ -1497,10 +1506,13 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7e83b17a18 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> c6554e4c24 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 3960f36bc5 (pythonlib: Remove star imports (#1546))
                     return decode(data, encoding=encoding)
 =======
                     return decode(stdout, encoding=encoding)
@@ -2117,10 +2129,13 @@ class GrassTestFilesInvoker:
 >>>>>>> osgeo-main
 >>>>>>> c6554e4c24 (pythonlib: Remove star imports (#1546))
 =======
+=======
+>>>>>>> 5fb05831cc (pythonlib: Remove star imports (#1546))
                     return decode(data, encoding=encoding)
 =======
                     return decode(stdout, encoding=encoding)
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ba3eb01af9 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
@@ -2147,7 +2162,18 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
 >>>>>>> c6554e4c24 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 8ac6037718 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
+=======
+=======
+                    return decode(stdout, encoding=encoding)
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> 5fb05831cc (pythonlib: Remove star imports (#1546))
+>>>>>>> 3960f36bc5 (pythonlib: Remove star imports (#1546))
+>>>>>>> d08c50382a (pythonlib: Remove star imports (#1546))
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):
