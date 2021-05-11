@@ -71,6 +71,7 @@ ignore =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -126,6 +127,8 @@ ignore =
 =======
 =======
 =======
+=======
+>>>>>>> 8630c1908e (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 53cfc6049b (g.proj: fix reading input WKT (#1582))
 >>>>>>> b1985ef3ca (g.proj: fix reading input WKT (#1582))
@@ -791,7 +794,13 @@ ignore =
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 250c6900d1 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 53cfc6049b (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> b1985ef3ca (g.proj: fix reading input WKT (#1582))
+=======
+=======
+    E722, # do not use bare 'except'
+>>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
+>>>>>>> 8630c1908e (pythonlib: Remove star imports (#1546))
 
 per-file-ignores =
     # C wrappers call libgis.G_gisinit before importing other modules.
@@ -818,6 +827,7 @@ per-file-ignores =
     script/db.py: E501
     script/task.py: W605
     script/vector.py: E501  # Long doctest lines which need review anyway
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -901,6 +911,8 @@ per-file-ignores =
 >>>>>>> 8ac6037718 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 5202d5f7da (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 8630c1908e (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 5ec354b4a4 (g.proj: fix reading input WKT (#1582))
 =======
@@ -1212,7 +1224,18 @@ per-file-ignores =
     temporal/univar_statistics.py: E501
 >>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 5f176f4600 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 5202d5f7da (g.proj: fix reading input WKT (#1582))
+=======
+=======
+    temporal/*.py: E501, F841
+    temporal/abstract_space_time_dataset.py: W605, E501, F841
+    temporal/temporal_algebra.py: E741, E501, F841
+    temporal/temporal_raster_algebra.py: E741
+    temporal/temporal_raster3d_algebra.py: E741
+    temporal/temporal_vector_algebra.py: E741, E501, F841
+>>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
+>>>>>>> 8630c1908e (pythonlib: Remove star imports (#1546))
     # Current benchmarks/tests are changing sys.path before import.
     # Possibly, a different approach should be taken there anyway.
     pygrass/tests/benchmark.py: E501, E402, F401, F821
