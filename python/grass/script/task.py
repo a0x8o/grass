@@ -242,6 +242,10 @@ for details.
 >>>>>>> 6a11812108 (pythonlib: Remove star imports (#1546))
 =======
 =======
+>>>>>>> 2ec038aafa (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 =======
@@ -419,13 +423,23 @@ for details.
 >>>>>>> 8a28804560 (pythonlib: Remove star imports (#1546))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 56010eb999 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 6a11812108 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
+>>>>>>> 2ec038aafa (pythonlib: Remove star imports (#1546))
+>>>>>>> 0934ce9a0b (pythonlib: Remove star imports (#1546))
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -539,6 +553,8 @@ for details.
 =======
 >>>>>>> 6a11812108 (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> 0934ce9a0b (pythonlib: Remove star imports (#1546))
+=======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -554,6 +570,9 @@ for details.
 <<<<<<< HEAD
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> f9cdd7121a (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> osgeo-main
+>>>>>>> 2ec038aafa (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> osgeo-main
 =======
@@ -1023,8 +1042,16 @@ for details.
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 >>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 859ce80446 (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
+>>>>>>> 2ec038aafa (pythonlib: Remove star imports (#1546))
+>>>>>>> 0934ce9a0b (pythonlib: Remove star imports (#1546))
 import os
 import re
 import sys
