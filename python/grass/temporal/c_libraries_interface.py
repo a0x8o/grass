@@ -71,6 +71,7 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -664,6 +665,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c248909064 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 8ac6037718 (pythonlib: Remove star imports (#1546))
 import sys
 from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
@@ -706,6 +709,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7e83b17a18 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> c6554e4c24 (pythonlib: Remove star imports (#1546))
 from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
@@ -829,6 +834,7 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> f008e4ec0d (pythonlib: Remove star imports (#1546))
 =======
 =======
+<<<<<<< HEAD
 =======
 from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
@@ -913,7 +919,19 @@ from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 =======
 >>>>>>> 7e83b17a18 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> c248909064 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
+=======
+from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
+>>>>>>> c6554e4c24 (pythonlib: Remove star imports (#1546))
+>>>>>>> 8ac6037718 (pythonlib: Remove star imports (#1546))
 from datetime import datetime
 from multiprocessing import Lock, Pipe, Process
 from typing import TYPE_CHECKING

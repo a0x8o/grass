@@ -116,6 +116,7 @@ from .datetime_math import compute_datetime_delta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
@@ -195,6 +196,12 @@ from collections import OrderedDict
 >>>>>>> 1acc93c650 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 158dbc71ea (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> c6554e4c24 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
+>>>>>>> 8ac6037718 (pythonlib: Remove star imports (#1546))
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
@@ -209,6 +216,7 @@ from collections import OrderedDict
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 9441e85caa (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
@@ -226,6 +234,12 @@ from collections import OrderedDict
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> e1a7453c89 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
+>>>>>>> c6554e4c24 (pythonlib: Remove star imports (#1546))
 from functools import reduce
 from collections import OrderedDict
 >>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
