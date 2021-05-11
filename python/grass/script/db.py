@@ -102,6 +102,7 @@ from __future__ import absolute_import
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8630c1908e (pythonlib: Remove star imports (#1546))
@@ -191,6 +192,10 @@ from __future__ import absolute_import
 >>>>>>> 7dc011e093 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 6a11812108 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
+>>>>>>> 859ce80446 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 3960f36bc5 (pythonlib: Remove star imports (#1546))
 >>>>>>> d08c50382a (pythonlib: Remove star imports (#1546))
@@ -496,15 +501,20 @@ from __future__ import absolute_import
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 56010eb999 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 >>>>>>> 692afe97f6 (pythonlib: Remove star imports (#1546))
 =======
 =======
+>>>>>>> 56010eb999 (pythonlib: Remove star imports (#1546))
+>>>>>>> 859ce80446 (pythonlib: Remove star imports (#1546))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 >>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
@@ -780,6 +790,9 @@ from __future__ import absolute_import
 =======
 >>>>>>> 56010eb999 (pythonlib: Remove star imports (#1546))
 >>>>>>> 6a11812108 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
+>>>>>>> 859ce80446 (pythonlib: Remove star imports (#1546))
 
 import os
 from .core import (

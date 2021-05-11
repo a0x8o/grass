@@ -213,6 +213,7 @@ ignore =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -532,6 +533,10 @@ ignore =
 >>>>>>> c0338bc882 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> f5973b4368 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
+>>>>>>> 859ce80446 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 53cfc6049b (g.proj: fix reading input WKT (#1582))
 >>>>>>> b1985ef3ca (g.proj: fix reading input WKT (#1582))
@@ -2774,8 +2779,22 @@ ignore =
 =======
 =======
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 5806596b34 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> f5973b4368 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
+>>>>>>> osgeo-main
+=======
+    E722, # do not use bare 'except'
+>>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
+>>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
+>>>>>>> 859ce80446 (pythonlib: Remove star imports (#1546))
 
 per-file-ignores =
     # C wrappers call libgis.G_gisinit before importing other modules.
@@ -2802,6 +2821,7 @@ per-file-ignores =
     script/db.py: E501
     script/task.py: W605
     script/vector.py: E501  # Long doctest lines which need review anyway
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3018,6 +3038,8 @@ per-file-ignores =
 =======
 >>>>>>> 521cb8be11 (g.proj: fix reading input WKT (#1582))
 =======
+>>>>>>> 859ce80446 (pythonlib: Remove star imports (#1546))
+=======
 >>>>>>> 5ec354b4a4 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 0338dc8268 (g.proj: fix reading input WKT (#1582))
@@ -3070,6 +3092,8 @@ per-file-ignores =
 >>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> da1f354017 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
 =======
@@ -3628,14 +3652,18 @@ per-file-ignores =
     temporal/univar_statistics.py: E501
 >>>>>>> 42533ebf37 (g.proj: fix reading input WKT (#1582))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 46c77518c7 (g.proj: fix reading input WKT (#1582))
 =======
+=======
+>>>>>>> 859ce80446 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> osgeo-main
 =======
     temporal/*.py: E501, F841
     temporal/abstract_space_time_dataset.py: W605, E501, F841
     temporal/temporal_algebra.py: E741, E501, F841
+<<<<<<< HEAD
 =======
 >>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
     temporal/temporal_raster_algebra.py: E741
@@ -4097,6 +4125,13 @@ per-file-ignores =
     temporal/univar_statistics.py: E501
 >>>>>>> 42533ebf37 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 521cb8be11 (g.proj: fix reading input WKT (#1582))
+=======
+    temporal/temporal_raster_algebra.py: E741
+    temporal/temporal_raster3d_algebra.py: E741
+    temporal/temporal_vector_algebra.py: E741, E501, F841
+>>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
+>>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
+>>>>>>> 859ce80446 (pythonlib: Remove star imports (#1546))
     # Current benchmarks/tests are changing sys.path before import.
     # Possibly, a different approach should be taken there anyway.
     pygrass/tests/benchmark.py: E501, E402, F401, F821
