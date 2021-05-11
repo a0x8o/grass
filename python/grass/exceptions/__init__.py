@@ -899,9 +899,18 @@ class CalledModuleError(subprocess.CalledProcessError):
 =======
 =======
         super(CalledModuleError, self).__init__(returncode, module)
+<<<<<<< HEAD
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> ba3eb01af9 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 2f7ff18221 (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> e1a7453c89 (pythonlib: Remove star imports (#1546))
+>>>>>>> 2e2dc3004e (pythonlib: Remove star imports (#1546))
         if not module or module in code:
             # No need to include module name if it is directly in code
             # of if it is not set.
