@@ -14,7 +14,11 @@ for details.
 from __future__ import annotations
 
 try:
+<<<<<<< HEAD
     from ply import yacc
+=======
+    import ply.yacc as yacc
+>>>>>>> b3579a4902 (g.proj: fix reading input WKT (#1582))
 except ImportError:
     pass
 
