@@ -228,6 +228,7 @@ class GPrompt:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
@@ -238,7 +239,26 @@ class GPrompt:
 =======
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> d9be065247 (g.proj: fix reading input WKT (#1582))
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+=======
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> b845e8d135 (g.proj: fix reading input WKT (#1582))
+>>>>>>> f296bbcae1 (g.proj: fix reading input WKT (#1582))
 
     def _readHistory(self):
         """Get list of commands from history file"""

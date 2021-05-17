@@ -2027,7 +2027,33 @@ def replace_shebang_win(python_file):
 >>>>>>> 5f176f4600 (g.proj: fix reading input WKT (#1582))
 
 
+<<<<<<< HEAD
 >>>>>>> 478eacddcd (g.proj: fix reading input WKT (#1582))
+=======
+def replace_shebang_win(python_file):
+    """
+    Replaces "python" with "python3" in python files
+    using UTF8 encoding on MS Windows
+    """
+
+    cur_dir = os.path.dirname(python_file)
+    tmp_name = os.path.join(cur_dir, gscript.tempname(12))
+
+    with codecs.open(python_file, "r", encoding="utf8") as in_file, codecs.open(
+        tmp_name, "w", encoding="utf8"
+    ) as out_file:
+
+        for line in in_file:
+            new_line = line.replace(
+                "#!/usr/bin/env python\n", "#!/usr/bin/env python3\n"
+            )
+            out_file.write(new_line)
+
+    os.remove(python_file)  # remove original
+    os.rename(tmp_name, python_file)  # rename temp to original name
+
+
+>>>>>>> 1f00014c4a (g.proj: fix reading input WKT (#1582))
 def urlretrieve(url, filename, *args, **kwargs):
     """Same function as 'urlretrieve', but with the ability to
     define headers.
@@ -6542,6 +6568,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
 =======
 <<<<<<< HEAD
@@ -6614,6 +6641,10 @@ def install_extension_win(name):
 =======
 >>>>>>> d241321b80 (g.proj: fix reading input WKT (#1582))
 =======
+>>>>>>> 1f00014c4a (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> f296bbcae1 (g.proj: fix reading input WKT (#1582))
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
 =======
 >>>>>>> 5f176f4600 (g.proj: fix reading input WKT (#1582))
@@ -6650,8 +6681,16 @@ def install_extension_win(name):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 5f176f4600 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 5202d5f7da (g.proj: fix reading input WKT (#1582))
+=======
+=======
+=======
+>>>>>>> b845e8d135 (g.proj: fix reading input WKT (#1582))
+>>>>>>> f296bbcae1 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 1f00014c4a (g.proj: fix reading input WKT (#1582))
             if re.search(module_name_pattern, file):
 =======
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
@@ -6683,6 +6722,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 65f70a77ac (g.proj: fix reading input WKT (#1582))
 =======
@@ -6697,6 +6737,10 @@ def install_extension_win(name):
 >>>>>>> d241321b80 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 5202d5f7da (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> f296bbcae1 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 1f00014c4a (g.proj: fix reading input WKT (#1582))
 =======
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
@@ -6867,8 +6911,19 @@ def install_extension_win(name):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 5f176f4600 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 5202d5f7da (g.proj: fix reading input WKT (#1582))
+=======
+=======
+=======
+=======
+            if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> b845e8d135 (g.proj: fix reading input WKT (#1582))
+>>>>>>> f296bbcae1 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 1f00014c4a (g.proj: fix reading input WKT (#1582))
                 modulename = os.path.splitext(file)[0]
                 module_list.append(modulename)
     # remove duplicates in case there are .exe wrappers for python scripts
