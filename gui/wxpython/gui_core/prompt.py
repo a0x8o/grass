@@ -104,6 +104,7 @@ class GPrompt:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d69d602427 (g.proj: fix reading input WKT (#1582))
@@ -158,6 +159,8 @@ class GPrompt:
 >>>>>>> 46c77518c7 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> ac5d03ef05 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 8ef5c8e5e3 (g.proj: fix reading input WKT (#1582))
 =======
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
@@ -477,6 +480,9 @@ class GPrompt:
 =======
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> d3904a14b8 (g.proj: fix reading input WKT (#1582))
 
     def _readHistory(self):
         """Get list of commands from history file"""
@@ -488,6 +494,7 @@ class GPrompt:
                     env["GISDBASE"],
                     env["LOCATION_NAME"],
                     env["MAPSET"],
+<<<<<<< HEAD
                     ".wxgui_history",
                 ),
                 encoding="utf-8",
@@ -614,6 +621,9 @@ class GPrompt:
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
                     ".wxgui_history",
+=======
+                    ".bash_history",
+>>>>>>> d3904a14b8 (g.proj: fix reading input WKT (#1582))
                 ),
                 encoding="utf-8",
                 mode="r",
