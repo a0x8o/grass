@@ -208,6 +208,7 @@ ignore =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -517,6 +518,8 @@ ignore =
 >>>>>>> e3d10f8def (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 7dc011e093 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 521cb8be11 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 53cfc6049b (g.proj: fix reading input WKT (#1582))
 >>>>>>> b1985ef3ca (g.proj: fix reading input WKT (#1582))
@@ -1842,6 +1845,7 @@ ignore =
     E722, # do not use bare 'except'
 >>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e54d3f3e40 (pythonlib: Remove star imports (#1546))
 =======
 =======
@@ -2711,6 +2715,10 @@ ignore =
     E722, # do not use bare 'except'
 >>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
 >>>>>>> 7dc011e093 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 42533ebf37 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 521cb8be11 (g.proj: fix reading input WKT (#1582))
 
 per-file-ignores =
     # C wrappers call libgis.G_gisinit before importing other modules.
@@ -2737,6 +2745,7 @@ per-file-ignores =
     script/db.py: E501
     script/task.py: W605
     script/vector.py: E501  # Long doctest lines which need review anyway
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2950,6 +2959,8 @@ per-file-ignores =
 =======
 >>>>>>> 7dc011e093 (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> 521cb8be11 (g.proj: fix reading input WKT (#1582))
+=======
 >>>>>>> 5ec354b4a4 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 0338dc8268 (g.proj: fix reading input WKT (#1582))
@@ -2984,6 +2995,7 @@ per-file-ignores =
 >>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 01a2cb48f6 (g.proj: fix reading input WKT (#1582))
 =======
@@ -3116,6 +3128,10 @@ per-file-ignores =
 =======
 >>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
 >>>>>>> bca28e773e (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> 42533ebf37 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 521cb8be11 (g.proj: fix reading input WKT (#1582))
     temporal/abstract_map_dataset.py: E501
     temporal/abstract_space_time_dataset.py: W605, E501, F841, E722
     temporal/aggregation.py: E501
@@ -3135,6 +3151,7 @@ per-file-ignores =
     temporal/temporal_extent.py: E501
     temporal/temporal_granularity.py: E501, F841, E722
     temporal/temporal_operator.py: E501
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3257,6 +3274,8 @@ per-file-ignores =
 >>>>>>> 59def94d1b (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> bca28e773e (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 521cb8be11 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 5f176f4600 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 5202d5f7da (g.proj: fix reading input WKT (#1582))
@@ -3533,6 +3552,7 @@ per-file-ignores =
     temporal/*.py: E501, F841
     temporal/abstract_space_time_dataset.py: W605, E501, F841
     temporal/temporal_algebra.py: E741, E501, F841
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -4002,11 +4022,24 @@ per-file-ignores =
 >>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
 >>>>>>> bca28e773e (g.proj: fix reading input WKT (#1582))
 =======
+=======
+=======
+>>>>>>> 42533ebf37 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 521cb8be11 (g.proj: fix reading input WKT (#1582))
     temporal/temporal_raster_algebra.py: E741
+    temporal/temporal_raster_base_algebra.py: E501, F841, E722
     temporal/temporal_raster3d_algebra.py: E741
+    temporal/temporal_topology_dataset_connector.py: E501, E722
     temporal/temporal_vector_algebra.py: E741, E501, F841
+<<<<<<< HEAD
 >>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 7dc011e093 (pythonlib: Remove star imports (#1546))
+=======
+=======
+    temporal/univar_statistics.py: E501
+>>>>>>> 42533ebf37 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 521cb8be11 (g.proj: fix reading input WKT (#1582))
     # Current benchmarks/tests are changing sys.path before import.
     # Possibly, a different approach should be taken there anyway.
     pygrass/tests/benchmark.py: E501, E402, F401, F821
