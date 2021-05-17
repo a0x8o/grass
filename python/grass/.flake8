@@ -21,6 +21,7 @@ ignore =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,6 +166,8 @@ ignore =
 =======
     E722, # do not use bare 'except'
 >>>>>>> a7c34931b5 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> d752fc407c (g.proj: fix reading input WKT (#1582))
 
 per-file-ignores =
     # C wrappers call libgis.G_gisinit before importing other modules.
@@ -198,6 +201,7 @@ per-file-ignores =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
 =======
@@ -206,6 +210,8 @@ per-file-ignores =
 >>>>>>> osgeo-main
 =======
 >>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> d752fc407c (g.proj: fix reading input WKT (#1582))
     temporal/abstract_map_dataset.py: E501
     temporal/abstract_space_time_dataset.py: W605, E501, F841, E722
     temporal/aggregation.py: E501
@@ -225,6 +231,7 @@ per-file-ignores =
     temporal/temporal_extent.py: E501
     temporal/temporal_granularity.py: E501, F841, E722
     temporal/temporal_operator.py: E501
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,10 +288,18 @@ per-file-ignores =
     temporal/*.py: E501, F841
     temporal/abstract_space_time_dataset.py: W605, E501, F841
     temporal/temporal_algebra.py: E741, E501, F841
+=======
+>>>>>>> d752fc407c (g.proj: fix reading input WKT (#1582))
     temporal/temporal_raster_algebra.py: E741
+    temporal/temporal_raster_base_algebra.py: E501, F841, E722
     temporal/temporal_raster3d_algebra.py: E741
+    temporal/temporal_topology_dataset_connector.py: E501, E722
     temporal/temporal_vector_algebra.py: E741, E501, F841
+<<<<<<< HEAD
 >>>>>>> a7c34931b5 (pythonlib: Remove star imports (#1546))
+=======
+    temporal/univar_statistics.py: E501
+>>>>>>> d752fc407c (g.proj: fix reading input WKT (#1582))
     # Current benchmarks/tests are changing sys.path before import.
     # Possibly, a different approach should be taken there anyway.
     pygrass/tests/benchmark.py: E501, E402, F401, F821
