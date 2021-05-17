@@ -227,6 +227,7 @@ class GPrompt:
             giface.grassdbChanged.connect(self._reloadListOfMaps)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
@@ -282,6 +283,20 @@ class GPrompt:
 =======
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 5f176f4600 (g.proj: fix reading input WKT (#1582))
 
     def _readHistory(self):
         """Get list of commands from history file"""
@@ -293,7 +308,9 @@ class GPrompt:
                     env["GISDBASE"],
                     env["LOCATION_NAME"],
                     env["MAPSET"],
+<<<<<<< HEAD
                     ".wxgui_history",
+<<<<<<< HEAD
 <<<<<<< HEAD
                 ),
                 encoding="utf-8",
@@ -424,7 +441,15 @@ class GPrompt:
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                    ".bash_history",
+>>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 5f176f4600 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 5202d5f7da (g.proj: fix reading input WKT (#1582))
                 ),
                 encoding="utf-8",
                 mode="r",
