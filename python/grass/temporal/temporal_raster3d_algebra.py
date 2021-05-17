@@ -31,8 +31,14 @@ try:
     from ply import yacc
 =======
     import ply.yacc as yacc
+<<<<<<< HEAD
 >>>>>>> b3579a4902 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 79c09abba5 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 46a965d9e9 (g.proj: fix reading input WKT (#1582))
 except ImportError:
     pass
 
