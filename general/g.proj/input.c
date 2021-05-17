@@ -173,6 +173,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
 =======
@@ -843,7 +844,12 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 >>>>>>> c1a5635118 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 53865df964 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> a97572757d (g.proj: fix reading input WKT (#1582))
+>>>>>>> 8bfd50f462 (g.proj: fix reading input WKT (#1582))
         size_t wktlen;
 
         wktlen = fread(buff, 1, sizeof(buff), infd);
@@ -919,6 +925,7 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1421,7 +1428,12 @@ int input_wkt(char *wktfile)
 =======
 =======
 >>>>>>> c1a5635118 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 53865df964 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> a97572757d (g.proj: fix reading input WKT (#1582))
+>>>>>>> 8bfd50f462 (g.proj: fix reading input WKT (#1582))
 	size_t wktlen;
 
 	wktlen = fread(buff, 1, sizeof(buff), infd);
@@ -1485,6 +1497,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 250c6900d1 (g.proj: fix reading input WKT (#1582))
 =======
@@ -1582,6 +1595,8 @@ int input_wkt(char *wktfile)
 >>>>>>> ab354ae66a (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 53865df964 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 8bfd50f462 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> e56c7523eb (g.proj: fix reading input WKT (#1582))
 =======
@@ -2882,7 +2897,13 @@ int input_wkt(char *wktfile)
 =======
 =======
 >>>>>>> c1a5635118 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 53865df964 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> b3579a4902 (g.proj: fix reading input WKT (#1582))
+>>>>>>> a97572757d (g.proj: fix reading input WKT (#1582))
+>>>>>>> 8bfd50f462 (g.proj: fix reading input WKT (#1582))
     }
     else
         G_fatal_error(_("Unable to open file '%s' for reading"), wktfile);
