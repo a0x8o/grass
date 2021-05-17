@@ -80,6 +80,7 @@ class GPrompt:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -560,7 +561,13 @@ class GPrompt:
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
 >>>>>>> d7be28bb1b (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> dd6ab211c8 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+=======
+>>>>>>> d752fc407c (g.proj: fix reading input WKT (#1582))
+>>>>>>> ebd08a840c (g.proj: fix reading input WKT (#1582))
 
     def _readHistory(self):
         """Get list of commands from history file"""
@@ -580,10 +587,13 @@ class GPrompt:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebd08a840c (g.proj: fix reading input WKT (#1582))
                     ".wxgui_history",
                 ),
                 encoding="utf-8",
@@ -767,7 +777,13 @@ class GPrompt:
 =======
                     ".wxgui_history",
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                    ".bash_history",
+>>>>>>> d752fc407c (g.proj: fix reading input WKT (#1582))
+>>>>>>> ebd08a840c (g.proj: fix reading input WKT (#1582))
                 ),
                 encoding="utf-8",
                 mode="r",
