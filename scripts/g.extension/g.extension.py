@@ -844,6 +844,29 @@ def replace_shebang_win(python_file):
 >>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
 
 
+def replace_shebang_win(python_file):
+    """
+    Replaces "python" with "python3" in python files
+    using UTF8 encoding on MS Windows
+    """
+
+    cur_dir = os.path.dirname(python_file)
+    tmp_name = os.path.join(cur_dir, gscript.tempname(12))
+
+    with codecs.open(python_file, "r", encoding="utf8") as in_file, codecs.open(
+        tmp_name, "w", encoding="utf8"
+    ) as out_file:
+
+        for line in in_file:
+            new_line = line.replace(
+                "#!/usr/bin/env python\n", "#!/usr/bin/env python3\n"
+            )
+            out_file.write(new_line)
+
+    os.remove(python_file)  # remove original
+    os.rename(tmp_name, python_file)  # rename temp to original name
+
+
 def urlretrieve(url, filename, *args, **kwargs):
     """Same function as 'urlretrieve', but with the ability to
     define headers.
@@ -2718,6 +2741,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
 =======
 <<<<<<< HEAD
@@ -2736,6 +2760,8 @@ def install_extension_win(name):
 >>>>>>> osgeo-main
 =======
 >>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> d7be28bb1b (g.proj: fix reading input WKT (#1582))
             if re.search(module_name_pattern, file):
 =======
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
@@ -2745,6 +2771,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
@@ -2774,6 +2801,11 @@ def install_extension_win(name):
 >>>>>>> osgeo-main
 =======
 >>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
+=======
+=======
+            if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> d7be28bb1b (g.proj: fix reading input WKT (#1582))
                 modulename = os.path.splitext(file)[0]
                 module_list.append(modulename)
     # remove duplicates in case there are .exe wrappers for python scripts
