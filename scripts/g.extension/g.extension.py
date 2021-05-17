@@ -2587,6 +2587,7 @@ def replace_shebang_win(python_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -2628,10 +2629,14 @@ def replace_shebang_win(python_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> ed2ec8707b (g.proj: fix reading input WKT (#1582))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 59def94d1b (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 30c0a64bd6 (r.in.pdal: use fabs for double values (#1752))
@@ -3279,6 +3284,8 @@ def replace_shebang_win(python_file):
 =======
 >>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
 =======
+=======
+>>>>>>> ed2ec8707b (g.proj: fix reading input WKT (#1582))
 =======
 HTTP_STATUS_CODES = list(http.HTTPStatus)
 GIT_URL = "https://github.com/OSGeo/grass-addons"
@@ -5010,6 +5017,7 @@ def replace_shebang_win(python_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a97572757d (g.proj: fix reading input WKT (#1582))
 =======
@@ -5033,6 +5041,10 @@ if sys.platform.startswith("freebsd"):
     MAKE = "gmake"
 else:
     MAKE = "make"
+=======
+=======
+>>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
+>>>>>>> ed2ec8707b (g.proj: fix reading input WKT (#1582))
 
 
 <<<<<<< HEAD
@@ -18825,6 +18837,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
 =======
 <<<<<<< HEAD
@@ -19245,8 +19258,12 @@ def install_extension_win(name):
 =======
 >>>>>>> 9a37b8a6ad (g.proj: fix reading input WKT (#1582))
 =======
+>>>>>>> ed2ec8707b (g.proj: fix reading input WKT (#1582))
+=======
 =======
 >>>>>>> f296bbcae1 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
 =======
 >>>>>>> 5f176f4600 (g.proj: fix reading input WKT (#1582))
@@ -19311,8 +19328,17 @@ def install_extension_win(name):
 >>>>>>> 521cb8be11 (g.proj: fix reading input WKT (#1582))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8fa433b01b (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 9a37b8a6ad (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
+>>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
+>>>>>>> ed2ec8707b (g.proj: fix reading input WKT (#1582))
             if re.search(module_name_pattern, file):
 =======
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
@@ -19391,6 +19417,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 65f70a77ac (g.proj: fix reading input WKT (#1582))
 =======
@@ -19483,6 +19510,8 @@ def install_extension_win(name):
 =======
 >>>>>>> 9a37b8a6ad (g.proj: fix reading input WKT (#1582))
 =======
+>>>>>>> ed2ec8707b (g.proj: fix reading input WKT (#1582))
+=======
 >>>>>>> f296bbcae1 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 1f00014c4a (g.proj: fix reading input WKT (#1582))
 =======
@@ -19515,6 +19544,8 @@ def install_extension_win(name):
 =======
 >>>>>>> f296bbcae1 (g.proj: fix reading input WKT (#1582))
 >>>>>>> d0e4dde627 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
 =======
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
@@ -19754,14 +19785,19 @@ def install_extension_win(name):
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8fa433b01b (g.proj: fix reading input WKT (#1582))
 <<<<<<< HEAD
 >>>>>>> ac5d03ef05 (g.proj: fix reading input WKT (#1582))
 =======
 =======
+>>>>>>> 8fa433b01b (g.proj: fix reading input WKT (#1582))
+>>>>>>> ed2ec8707b (g.proj: fix reading input WKT (#1582))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
 <<<<<<< HEAD
@@ -20028,6 +20064,9 @@ def install_extension_win(name):
 =======
 >>>>>>> 8fa433b01b (g.proj: fix reading input WKT (#1582))
 >>>>>>> 9a37b8a6ad (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
+>>>>>>> ed2ec8707b (g.proj: fix reading input WKT (#1582))
                 modulename = os.path.splitext(file)[0]
                 module_list.append(modulename)
     # remove duplicates in case there are .exe wrappers for python scripts

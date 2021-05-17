@@ -79,6 +79,11 @@ class GPrompt:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -539,7 +544,14 @@ class GPrompt:
 =======
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 8fa433b01b (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
+>>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
 
     def _readHistory(self):
         """Get list of commands from history file"""
@@ -557,6 +569,9 @@ class GPrompt:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
                     ".wxgui_history",
                 ),
                 encoding="utf-8",
@@ -727,7 +742,14 @@ class GPrompt:
 >>>>>>> 42533ebf37 (g.proj: fix reading input WKT (#1582))
 =======
                     ".wxgui_history",
+<<<<<<< HEAD
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+                    ".bash_history",
+>>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
+>>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
                 ),
                 encoding="utf-8",
                 mode="r",
