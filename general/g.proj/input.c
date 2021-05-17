@@ -210,6 +210,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d4879ffd54 (g.proj: fix reading input WKT (#1582))
 =======
@@ -348,6 +349,8 @@ int input_wkt(char *wktfile)
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 478eacddcd (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 79c09abba5 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 >>>>>>> cdb769bc1e (g.proj: fix reading input WKT (#1582))
@@ -1325,6 +1328,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ef05990d3a (g.proj: fix reading input WKT (#1582))
 =======
@@ -1865,6 +1869,10 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> 5336d0cf12 (g.proj: fix reading input WKT (#1582))
 >>>>>>> ef05990d3a (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> b3579a4902 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 79c09abba5 (g.proj: fix reading input WKT (#1582))
 	size_t wktlen;
 
 	wktlen = fread(buff, 1, sizeof(buff), infd);

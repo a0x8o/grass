@@ -4115,6 +4115,7 @@ def replace_shebang_win(python_file):
 
     os.remove(python_file)  # remove original
     os.rename(tmp_name, python_file)  # rename temp to original name
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 HTTP_STATUS_CODES = list(http.HTTPStatus)
@@ -4689,6 +4690,10 @@ def replace_shebang_win(python_file):
 =======
 >>>>>>> 5336d0cf12 (g.proj: fix reading input WKT (#1582))
 >>>>>>> ef05990d3a (g.proj: fix reading input WKT (#1582))
+=======
+
+
+>>>>>>> 79c09abba5 (g.proj: fix reading input WKT (#1582))
 def urlretrieve(url, filename, *args, **kwargs):
     """Same function as 'urlretrieve', but with the ability to
     define headers.
@@ -15922,6 +15927,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
 =======
 <<<<<<< HEAD
@@ -16314,6 +16320,8 @@ def install_extension_win(name):
 =======
 >>>>>>> 2867fee4a7 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 66af96f1a0 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 79c09abba5 (g.proj: fix reading input WKT (#1582))
             if re.search(module_name_pattern, file):
 =======
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
@@ -16484,6 +16492,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -16902,6 +16911,11 @@ def install_extension_win(name):
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 2867fee4a7 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 66af96f1a0 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+            if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
+>>>>>>> b3579a4902 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 79c09abba5 (g.proj: fix reading input WKT (#1582))
                 modulename = os.path.splitext(file)[0]
                 module_list.append(modulename)
     # remove duplicates in case there are .exe wrappers for python scripts

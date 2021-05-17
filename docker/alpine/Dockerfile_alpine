@@ -172,6 +172,7 @@ RUN echo "  => Configure and compile grass" && \
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Reduce the image size - Remove unnecessary grass files
 RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
     rm -rf /usr/local/grass80/demolocation; \
@@ -181,6 +182,8 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
     mkdir -p /usr/local/grass80/gui/wxpython/xml/; \
     mv module_items.xml /usr/local/grass80/gui/wxpython/xml/module_items.xml;
 =======
+=======
+>>>>>>> 79c09abba5 (g.proj: fix reading input WKT (#1582))
 # enable simple grass command regardless of version number
 # also important for COPY cmd later
 RUN ln -s `find /usr/local/bin -name "grass*"` /usr/local/bin/grass
@@ -193,6 +196,7 @@ RUN cp /usr/local/grass79/gui/wxpython/xml/module_items.xml module_items.xml; \
     rm -rf /usr/local/grass79/share; \
     mkdir -p /usr/local/grass79/gui/wxpython/xml/; \
     mv module_items.xml /usr/local/grass79/gui/wxpython/xml/module_items.xml;
+<<<<<<< HEAD
 >>>>>>> 42a6a4145b (g.proj: fix reading input WKT (#1582))
 =======
 # Reduce the image size - Remove unnecessary grass files
@@ -204,6 +208,8 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
     mkdir -p /usr/local/grass80/gui/wxpython/xml/; \
     mv module_items.xml /usr/local/grass80/gui/wxpython/xml/module_items.xml;
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 79c09abba5 (g.proj: fix reading input WKT (#1582))
 
 
 FROM common as grass
@@ -217,6 +223,7 @@ COPY --from=build /usr/local/grass* /usr/local/grass/
 RUN apk add curl && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python3 get-pip.py pip==20.0.2 && rm get-pip.py
 
 # install external Python API
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 RUN pip3 install --upgrade pip six grass-session --ignore-installed six
@@ -244,6 +251,12 @@ RUN ln -sf `grass --config path` /usr/local/grass
 =======
 RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+RUN pip3 install --upgrade pip six grass-session --ignore-installed six
+
+RUN ln -s /usr/local/grass /usr/local/grass7
+RUN ln -s /usr/local/grass `grass --config path`
+>>>>>>> 79c09abba5 (g.proj: fix reading input WKT (#1582))
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
     pdal --version && \
     python3 --version
@@ -260,6 +273,7 @@ ENV GRASSBIN=grass
 RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.in.pdal
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
 
@@ -272,6 +286,9 @@ RUN /usr/bin/python3 /scripts/test_grass_session.py
 >>>>>>> 42a6a4145b (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+RUN /usr/bin/python3 /scripts/test_grass_session.py
+>>>>>>> 79c09abba5 (g.proj: fix reading input WKT (#1582))
 
 # Test addon installation
 RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.learn.ml

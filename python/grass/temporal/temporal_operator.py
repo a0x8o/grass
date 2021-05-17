@@ -148,6 +148,7 @@ try:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     from ply import lex, yacc
 =======
     from ply import lex
@@ -211,6 +212,13 @@ try:
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 >>>>>>> 8433de61b2 (style(temporal): Sort and group imports (#3959))
 >>>>>>> 80e24e5298 (style(temporal): Sort and group imports (#3959))
+=======
+    from ply import lex, yacc
+=======
+    import ply.lex as lex
+    import ply.yacc as yacc
+>>>>>>> b3579a4902 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 79c09abba5 (g.proj: fix reading input WKT (#1582))
 except ImportError:
     pass
 
