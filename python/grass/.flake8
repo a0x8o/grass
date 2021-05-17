@@ -80,6 +80,7 @@ ignore =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -153,6 +154,8 @@ ignore =
 >>>>>>> 46c77518c7 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 692afe97f6 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> ac5d03ef05 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 53cfc6049b (g.proj: fix reading input WKT (#1582))
 >>>>>>> b1985ef3ca (g.proj: fix reading input WKT (#1582))
@@ -894,7 +897,17 @@ ignore =
     E722, # do not use bare 'except'
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> 56010eb999 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 692afe97f6 (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+    E722, # do not use bare 'except'
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 8fa433b01b (g.proj: fix reading input WKT (#1582))
+>>>>>>> ac5d03ef05 (g.proj: fix reading input WKT (#1582))
 
 per-file-ignores =
     # C wrappers call libgis.G_gisinit before importing other modules.

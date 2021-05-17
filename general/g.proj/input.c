@@ -129,6 +129,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -510,7 +511,12 @@ int input_wkt(char *wktfile)
 =======
 =======
 >>>>>>> 42533ebf37 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 46c77518c7 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> 8fa433b01b (g.proj: fix reading input WKT (#1582))
+>>>>>>> ac5d03ef05 (g.proj: fix reading input WKT (#1582))
         size_t wktlen;
 
         wktlen = fread(buff, 1, sizeof(buff), infd);
@@ -586,6 +592,7 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -846,7 +853,14 @@ int input_wkt(char *wktfile)
 =======
 =======
 >>>>>>> 42533ebf37 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 46c77518c7 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+=======
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 8fa433b01b (g.proj: fix reading input WKT (#1582))
+>>>>>>> ac5d03ef05 (g.proj: fix reading input WKT (#1582))
 	size_t wktlen;
 
 	wktlen = fread(buff, 1, sizeof(buff), infd);

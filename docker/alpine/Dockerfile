@@ -6910,10 +6910,12 @@ RUN apk add curl && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && p
 =======
 >>>>>>> e4d2bfcf8e (Dockerfile_alpine: fix broken pip six installation (#1568))
 <<<<<<< HEAD:docker/alpine/Dockerfile
+<<<<<<< HEAD:docker/alpine/Dockerfile
 RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 =======
 RUN pip3 install --upgrade grass-session
 >>>>>>> da389cd55e (Dockerfile_alpine: fix broken pip six installation (#1568)):docker/alpine/Dockerfile_alpine
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6997,6 +6999,8 @@ RUN pip3 install --upgrade grass-session
 >>>>>>> 47f2e379fb (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 00a43e0767 (Dockerfile_alpine: fix broken pip six installation (#1568))
+=======
+>>>>>>> ac5d03ef05 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> a0215f194c (Dockerfile_alpine: fix broken pip six installation (#1568))
 >>>>>>> 8dac7b8e04 (Dockerfile_alpine: fix broken pip six installation (#1568))
@@ -7831,6 +7835,11 @@ RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 >>>>>>> 42533ebf37 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> e4d2bfcf8e (Dockerfile_alpine: fix broken pip six installation (#1568))
+=======
+=======
+RUN pip3 install --upgrade pip six grass-session --ignore-installed six
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582)):docker/alpine/Dockerfile_alpine
+>>>>>>> 8fa433b01b (g.proj: fix reading input WKT (#1582))
 
 RUN ln -s /usr/local/grass /usr/local/grass7
 RUN ln -s /usr/local/grass `grass --config path`
