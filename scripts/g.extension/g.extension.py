@@ -2279,6 +2279,7 @@ def replace_shebang_win(python_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def replace_shebang_win(python_file):
     """
     Replaces "python" with "python3" in python files
@@ -4422,7 +4423,12 @@ def replace_shebang_win(python_file):
 
 
 >>>>>>> 1411c71e15 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 2c11751de0 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> d6e1feb5a7 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 7350ba56e1 (g.proj: fix reading input WKT (#1582))
 def urlretrieve(url, filename, *args, **kwargs):
     """Same function as 'urlretrieve', but with the ability to
     define headers.
@@ -14870,6 +14876,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
 =======
 <<<<<<< HEAD
@@ -15005,6 +15012,8 @@ def install_extension_win(name):
 >>>>>>> 3e625d40bb (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 2c11751de0 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 7350ba56e1 (g.proj: fix reading input WKT (#1582))
 =======
 =======
 >>>>>>> f296bbcae1 (g.proj: fix reading input WKT (#1582))
@@ -15240,7 +15249,12 @@ def install_extension_win(name):
 =======
 =======
 >>>>>>> 1411c71e15 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 2c11751de0 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> d6e1feb5a7 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 7350ba56e1 (g.proj: fix reading input WKT (#1582))
             if re.search(module_name_pattern, file):
 =======
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
@@ -15304,6 +15318,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 65f70a77ac (g.proj: fix reading input WKT (#1582))
 =======
@@ -15381,6 +15396,8 @@ def install_extension_win(name):
 >>>>>>> 3e625d40bb (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 2c11751de0 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 7350ba56e1 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> f296bbcae1 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 1f00014c4a (g.proj: fix reading input WKT (#1582))
@@ -15798,7 +15815,15 @@ def install_extension_win(name):
 =======
 =======
 >>>>>>> 1411c71e15 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 2c11751de0 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+=======
+            if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> d6e1feb5a7 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 7350ba56e1 (g.proj: fix reading input WKT (#1582))
                 modulename = os.path.splitext(file)[0]
                 module_list.append(modulename)
     # remove duplicates in case there are .exe wrappers for python scripts
