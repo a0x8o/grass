@@ -280,6 +280,7 @@ ignore =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -649,6 +650,8 @@ ignore =
 >>>>>>> c2844a8ff8 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> f0068152e1 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 9953859403 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> a2285639e2 (g.proj: fix reading input WKT (#1582))
 >>>>>>> e8925c7df7 (g.proj: fix reading input WKT (#1582))
@@ -3022,6 +3025,7 @@ ignore =
     E722, # do not use bare 'except'
 >>>>>>> 81fdb5da80 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2e22515ef0 (pythonlib: Remove star imports (#1546))
 =======
 =======
@@ -3711,6 +3715,10 @@ ignore =
     E722, # do not use bare 'except'
 >>>>>>> 81fdb5da80 (pythonlib: Remove star imports (#1546))
 >>>>>>> f0068152e1 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 76ed571f8d (g.proj: fix reading input WKT (#1582))
+>>>>>>> 9953859403 (g.proj: fix reading input WKT (#1582))
 
 per-file-ignores =
     # C wrappers call libgis.G_gisinit before importing other modules.
@@ -3737,6 +3745,7 @@ per-file-ignores =
     script/db.py: E501
     script/task.py: W605
     script/vector.py: E501  # Long doctest lines which need review anyway
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4022,6 +4031,8 @@ per-file-ignores =
 =======
 >>>>>>> f0068152e1 (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> 9953859403 (g.proj: fix reading input WKT (#1582))
+=======
 >>>>>>> 5ec354b4a4 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 0338dc8268 (g.proj: fix reading input WKT (#1582))
@@ -4264,7 +4275,12 @@ per-file-ignores =
 =======
 =======
 >>>>>>> c585c92c1e (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> a2250dd1da (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> 76ed571f8d (g.proj: fix reading input WKT (#1582))
+>>>>>>> 9953859403 (g.proj: fix reading input WKT (#1582))
     temporal/abstract_map_dataset.py: E501
     temporal/abstract_space_time_dataset.py: W605, E501, F841, E722
     temporal/aggregation.py: E501
@@ -4284,6 +4300,7 @@ per-file-ignores =
     temporal/temporal_extent.py: E501
     temporal/temporal_granularity.py: E501, F841, E722
     temporal/temporal_operator.py: E501
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4428,6 +4445,8 @@ per-file-ignores =
 >>>>>>> 17b9b8fa32 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> a2250dd1da (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 9953859403 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> ebd08a840c (g.proj: fix reading input WKT (#1582))
 >>>>>>> 769ad64a54 (g.proj: fix reading input WKT (#1582))
@@ -5041,6 +5060,7 @@ per-file-ignores =
     temporal/*.py: E501, F841
     temporal/abstract_space_time_dataset.py: W605, E501, F841
     temporal/temporal_algebra.py: E741, E501, F841
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 76ed571f8d (g.proj: fix reading input WKT (#1582))
@@ -5479,11 +5499,24 @@ per-file-ignores =
 >>>>>>> c585c92c1e (g.proj: fix reading input WKT (#1582))
 >>>>>>> a2250dd1da (g.proj: fix reading input WKT (#1582))
 =======
+=======
+=======
+>>>>>>> 76ed571f8d (g.proj: fix reading input WKT (#1582))
+>>>>>>> 9953859403 (g.proj: fix reading input WKT (#1582))
     temporal/temporal_raster_algebra.py: E741
+    temporal/temporal_raster_base_algebra.py: E501, F841, E722
     temporal/temporal_raster3d_algebra.py: E741
+    temporal/temporal_topology_dataset_connector.py: E501, E722
     temporal/temporal_vector_algebra.py: E741, E501, F841
+<<<<<<< HEAD
 >>>>>>> 81fdb5da80 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> f0068152e1 (pythonlib: Remove star imports (#1546))
+=======
+=======
+    temporal/univar_statistics.py: E501
+>>>>>>> 76ed571f8d (g.proj: fix reading input WKT (#1582))
+>>>>>>> 9953859403 (g.proj: fix reading input WKT (#1582))
     # Current benchmarks/tests are changing sys.path before import.
     # Possibly, a different approach should be taken there anyway.
     pygrass/tests/benchmark.py: E501, E402, F401, F821

@@ -3096,6 +3096,9 @@ def replace_shebang_win(python_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9953859403 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> e0f369035a (r.in.pdal: use fabs for double values (#1752))
 =======
@@ -6530,7 +6533,14 @@ def replace_shebang_win(python_file):
 =======
 =======
 >>>>>>> 21a0d24296 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> c2844a8ff8 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+
+
+>>>>>>> 76ed571f8d (g.proj: fix reading input WKT (#1582))
+>>>>>>> 9953859403 (g.proj: fix reading input WKT (#1582))
 def urlretrieve(url, filename, *args, **kwargs):
     """Same function as 'urlretrieve', but with the ability to
     define headers.
@@ -23778,6 +23788,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
 =======
 <<<<<<< HEAD
@@ -24242,6 +24253,8 @@ def install_extension_win(name):
 =======
 >>>>>>> f67cbde5ee (g.proj: fix reading input WKT (#1582))
 =======
+>>>>>>> 9953859403 (g.proj: fix reading input WKT (#1582))
+=======
 =======
 >>>>>>> f296bbcae1 (g.proj: fix reading input WKT (#1582))
 =======
@@ -24440,7 +24453,12 @@ def install_extension_win(name):
 =======
 =======
 >>>>>>> eb742340df (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> f67cbde5ee (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> 76ed571f8d (g.proj: fix reading input WKT (#1582))
+>>>>>>> 9953859403 (g.proj: fix reading input WKT (#1582))
             if re.search(module_name_pattern, file):
 =======
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
@@ -24541,6 +24559,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 65f70a77ac (g.proj: fix reading input WKT (#1582))
 =======
@@ -24676,6 +24695,8 @@ def install_extension_win(name):
 >>>>>>> a2250dd1da (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> f67cbde5ee (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 9953859403 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> f296bbcae1 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 1f00014c4a (g.proj: fix reading input WKT (#1582))
@@ -25169,6 +25190,7 @@ def install_extension_win(name):
 >>>>>>> eb742340df (g.proj: fix reading input WKT (#1582))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a21a1674c5 (g.proj: fix reading input WKT (#1582))
 =======
 =======
@@ -25364,6 +25386,10 @@ def install_extension_win(name):
 >>>>>>> a2250dd1da (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> f67cbde5ee (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> 76ed571f8d (g.proj: fix reading input WKT (#1582))
+>>>>>>> 9953859403 (g.proj: fix reading input WKT (#1582))
                 modulename = os.path.splitext(file)[0]
                 module_list.append(modulename)
     # remove duplicates in case there are .exe wrappers for python scripts
