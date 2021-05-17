@@ -79,6 +79,7 @@ class GPrompt:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -298,7 +299,15 @@ class GPrompt:
 =======
 =======
 >>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+=======
+=======
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> d7be28bb1b (g.proj: fix reading input WKT (#1582))
+>>>>>>> dd6ab211c8 (g.proj: fix reading input WKT (#1582))
 
     def _readHistory(self):
         """Get list of commands from history file"""
