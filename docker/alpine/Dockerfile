@@ -24648,6 +24648,7 @@ RUN apk add curl && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 <<<<<<< HEAD:docker/alpine/Dockerfile
@@ -24989,6 +24990,8 @@ RUN apk add curl && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && p
 >>>>>>> db1cb4e94e (Dockerfile_alpine: fix broken pip six installation (#1568))
 =======
 >>>>>>> 530dcada64 (Dockerfile_alpine: fix broken pip six installation (#1568))
+=======
+>>>>>>> 0e640b3f53 (g.proj: fix reading input WKT (#1582))
 <<<<<<< HEAD:docker/alpine/Dockerfile
 =======
 >>>>>>> f3c2e982bc (Dockerfile_alpine: fix broken pip six installation (#1568))
@@ -28622,6 +28625,9 @@ RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 =======
 =======
 RUN pip3 install --upgrade grass-session
+=======
+RUN pip3 install --upgrade pip six grass-session --ignore-installed six
+>>>>>>> a97572757d (g.proj: fix reading input WKT (#1582))
 
 RUN ln -s /usr/local/grass /usr/local/grass7
 RUN ln -s /usr/local/grass `grass --config path`

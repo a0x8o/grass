@@ -2958,6 +2958,9 @@ def replace_shebang_win(python_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0e640b3f53 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> osgeo-main
 =======
@@ -6145,6 +6148,8 @@ def replace_shebang_win(python_file):
 
     os.remove(python_file)  # remove original
     os.rename(tmp_name, python_file)  # rename temp to original name
+=======
+>>>>>>> a97572757d (g.proj: fix reading input WKT (#1582))
 
 
 >>>>>>> 68a558cee5 (g.proj: fix reading input WKT (#1582))
@@ -22465,6 +22470,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
 =======
 <<<<<<< HEAD
@@ -22917,6 +22923,8 @@ def install_extension_win(name):
 =======
 >>>>>>> 70a6c19945 (g.proj: fix reading input WKT (#1582))
 =======
+>>>>>>> 0e640b3f53 (g.proj: fix reading input WKT (#1582))
+=======
 =======
 >>>>>>> f296bbcae1 (g.proj: fix reading input WKT (#1582))
 =======
@@ -23085,7 +23093,12 @@ def install_extension_win(name):
 =======
 =======
 >>>>>>> 9fb6588182 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 70a6c19945 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> a97572757d (g.proj: fix reading input WKT (#1582))
+>>>>>>> 0e640b3f53 (g.proj: fix reading input WKT (#1582))
             if re.search(module_name_pattern, file):
 =======
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
@@ -23180,6 +23193,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 65f70a77ac (g.proj: fix reading input WKT (#1582))
 =======
@@ -23303,6 +23317,8 @@ def install_extension_win(name):
 >>>>>>> 3bb421a767 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 70a6c19945 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 0e640b3f53 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> f296bbcae1 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 1f00014c4a (g.proj: fix reading input WKT (#1582))
@@ -23742,6 +23758,7 @@ def install_extension_win(name):
 >>>>>>> 9fb6588182 (g.proj: fix reading input WKT (#1582))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4b305e9816 (g.proj: fix reading input WKT (#1582))
 =======
 =======
@@ -23958,6 +23975,10 @@ def install_extension_win(name):
 >>>>>>> 3bb421a767 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 70a6c19945 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> a97572757d (g.proj: fix reading input WKT (#1582))
+>>>>>>> 0e640b3f53 (g.proj: fix reading input WKT (#1582))
                 modulename = os.path.splitext(file)[0]
                 module_list.append(modulename)
     # remove duplicates in case there are .exe wrappers for python scripts
