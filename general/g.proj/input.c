@@ -124,6 +124,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1299,7 +1300,12 @@ int input_wkt(char *wktfile)
 =======
 =======
 >>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> bca28e773e (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> b845e8d135 (g.proj: fix reading input WKT (#1582))
+>>>>>>> edaa97bcbf (g.proj: fix reading input WKT (#1582))
         size_t wktlen;
 
         wktlen = fread(buff, 1, sizeof(buff), infd);
@@ -1313,6 +1319,7 @@ int input_wkt(char *wktfile)
         buff[wktlen] = '\0';
         /* Get rid of newlines */
         G_squeeze(buff);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1838,12 +1845,16 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01a2cb48f6 (g.proj: fix reading input WKT (#1582))
 =======
+=======
+>>>>>>> edaa97bcbf (g.proj: fix reading input WKT (#1582))
 =======
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
 >>>>>>> b845e8d135 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 47f2e379fb (g.proj: fix reading input WKT (#1582))
 =======
@@ -2220,6 +2231,8 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
 >>>>>>> bca28e773e (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> edaa97bcbf (g.proj: fix reading input WKT (#1582))
 	size_t wktlen;
 
 	wktlen = fread(buff, 1, sizeof(buff), infd);
