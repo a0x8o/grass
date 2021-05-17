@@ -194,6 +194,9 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d69d602427 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> da1f354017 (g.proj: fix reading input WKT (#1582))
 =======
@@ -1794,8 +1797,16 @@ int input_wkt(char *wktfile)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 24abee9ad6 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> da1f354017 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 3ed47b8555 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+=======
+>>>>>>> c3243bb1bd (g.proj: fix reading input WKT (#1582))
+>>>>>>> d69d602427 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 2174a3d059 (g.proj: fix reading input WKT (#1582))
         size_t wktlen;
 
         wktlen = fread(buff, 1, sizeof(buff), infd);
@@ -1873,6 +1884,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1992,7 +2004,12 @@ int input_wkt(char *wktfile)
 >>>>>>> 176f8f72b5 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> fb208a63d6 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 2174a3d059 (g.proj: fix reading input WKT (#1582))
 >>>>>>> e56c7523eb (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> main
+>>>>>>> d69d602427 (g.proj: fix reading input WKT (#1582))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2805,6 +2822,7 @@ int input_wkt(char *wktfile)
 >>>>>>> 24abee9ad6 (g.proj: fix reading input WKT (#1582))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> da1f354017 (g.proj: fix reading input WKT (#1582))
 <<<<<<< HEAD
 >>>>>>> 7a9bff206b (g.proj: fix reading input WKT (#1582))
@@ -3114,6 +3132,15 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> da1f354017 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 3ed47b8555 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> da1f354017 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+=======
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> c3243bb1bd (g.proj: fix reading input WKT (#1582))
+>>>>>>> d69d602427 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 2174a3d059 (g.proj: fix reading input WKT (#1582))
 	size_t wktlen;
 
 	wktlen = fread(buff, 1, sizeof(buff), infd);
