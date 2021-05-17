@@ -157,8 +157,14 @@ try:
 =======
     import ply.lex as lex
     import ply.yacc as yacc
+<<<<<<< HEAD
 >>>>>>> b3579a4902 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 42a6a4145b (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> fb966e4371 (g.proj: fix reading input WKT (#1582))
 except ImportError:
     pass
 

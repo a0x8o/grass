@@ -44,6 +44,7 @@ ignore =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -52,6 +53,8 @@ ignore =
 <<<<<<< HEAD
 =======
 >>>>>>> 42a6a4145b (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> fb966e4371 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 >>>>>>> osgeo-main
@@ -437,7 +440,12 @@ ignore =
 =======
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> ae94629933 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> fb966e4371 (g.proj: fix reading input WKT (#1582))
 
 per-file-ignores =
     # C wrappers call libgis.G_gisinit before importing other modules.

@@ -152,6 +152,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -166,6 +167,8 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 =======
 >>>>>>> 42a6a4145b (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> fb966e4371 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 <<<<<<< HEAD
@@ -457,7 +460,12 @@ int input_wkt(char *wktfile)
 =======
 =======
 >>>>>>> b3579a4902 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 42a6a4145b (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> fb966e4371 (g.proj: fix reading input WKT (#1582))
 	size_t wktlen;
 
 	wktlen = fread(buff, 1, sizeof(buff), infd);

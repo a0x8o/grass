@@ -220,6 +220,11 @@ class GPrompt:
             giface.currentMapsetChanged.connect(self._reloadListOfMaps)
             giface.grassdbChanged.connect(self._reloadListOfMaps)
 
+        # reload map lists when needed
+        if giface:
+            giface.currentMapsetChanged.connect(self._reloadListOfMaps)
+            giface.grassdbChanged.connect(self._reloadListOfMaps)
+
     def _readHistory(self):
         """Get list of commands from history file"""
         hist = list()
