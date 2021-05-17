@@ -625,6 +625,7 @@ RUN apk add curl && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && p
 
 # install external Python API
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:docker/alpine/Dockerfile
 <<<<<<< HEAD:docker/alpine/Dockerfile
 RUN pip3 install --upgrade pip six grass-session --ignore-installed six
@@ -674,6 +675,9 @@ RUN grass --tmp-location XY --exec g.version -rge && \
 >>>>>>> osgeo-main
 =======
 RUN pip3 install --upgrade grass-session
+=======
+RUN pip3 install --upgrade pip six grass-session --ignore-installed six
+>>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
 
 RUN ln -s /usr/local/grass /usr/local/grass7
 RUN ln -s /usr/local/grass `grass --config path`
