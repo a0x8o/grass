@@ -495,6 +495,9 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2bfe9e5c78 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
                 if (nnodes > 0)
                     Vect_get_line_nodes(&(Map[i]), line, &node[0], &node[1]);
 =======
@@ -535,6 +538,7 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
 		else		/* points */
 		    nnodes = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ab2af6a26 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
 =======
 >>>>>>> e4a5d77fcc (v.what: Fix script outputs (space after = or : instead of =) (#1584))
@@ -546,6 +550,9 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
                 if (nnodes > 0)
                     Vect_get_line_nodes(&(Map[i]), line, &node[0], &node[1]);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6ab2af6a26 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
+>>>>>>> 2bfe9e5c78 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
 
                 for (n = 0; n < nnodes; n++) {
                     double nx, ny, nz;
@@ -622,6 +629,9 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2bfe9e5c78 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
             /* Height */
             if (Vect_is_3d(&(Map[i]))) {
                 double min, max;
@@ -672,6 +682,7 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
 		}
 	    }
 >>>>>>> 6ab2af6a26 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
+<<<<<<< HEAD
 =======
             /* Height */
             if (Vect_is_3d(&(Map[i]))) {
@@ -682,6 +693,8 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
             if (Vect_is_3d(&(Map[i]))) {
                 double min, max;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2bfe9e5c78 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
 
                 if (type & GV_POINTS) {
                     switch (output) {
