@@ -492,8 +492,47 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
                 else /* points */
                     nnodes = 0;
 
+<<<<<<< HEAD
                 if (nnodes > 0)
                     Vect_get_line_nodes(&(Map[i]), line, &node[0], &node[1]);
+=======
+		if (type & GV_BOUNDARY)
+		    Vect_get_line_areas(&(Map[i]), line, &left, &right);
+		else
+		    left = right = 0;
+		switch (output) {
+		case OUTPUT_SCRIPT:
+		    fprintf(stdout, "Feature_max_distance=%f\n", maxdist);
+		    fprintf(stdout,
+			    "Id=%d\nType=%s\nLeft=%d\nRight=%d\n",
+			    line, buf, left, right);
+		    if (type & GV_LINES)
+			fprintf(stdout, "Length=%f\n", l);
+		    break;
+		case OUTPUT_JSON:
+		    fprintf(stdout, "%s\"Feature_max_distance\": %f",
+			    multiple ? "" : ",\n", maxdist);
+		    fprintf(stdout,
+			    ",\n\"Id\": %d,\n\"Type\": \"%s\",\n\"Left\": %d,\n\"Right\": %d",
+			    line, buf, left, right);
+		    if (type & GV_LINES)
+			fprintf(stdout, ",\n\"Length\": %f", l);
+		    break;
+		default:
+		    fprintf(stdout, "Looking for features within: %f\n",
+			    maxdist);
+		    fprintf(stdout,
+			    _("Id: %d\nType: %s\nLeft: %d\nRight: %d\n"),
+			    line, buf, left, right);
+		    if (type & GV_LINES)
+			fprintf(stdout, _("Length: %f\n"), l);
+		    break;
+		}
+		if (type & GV_LINES)
+		    nnodes = 2;
+		else		/* points */
+		    nnodes = 0;
+>>>>>>> 6ab2af6a26 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
 
                 for (n = 0; n < nnodes; n++) {
                     double nx, ny, nz;
@@ -567,9 +606,57 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
                 }
             }
 
+<<<<<<< HEAD
             /* Height */
             if (Vect_is_3d(&(Map[i]))) {
                 double min, max;
+=======
+		    for (nli = 0; nli < nnlines; nli++) {
+			nodeline =
+			    Vect_get_node_line(&(Map[i]), node[n], nli);
+			angle =
+			    Vect_get_node_line_angle(&(Map[i]), node[n], nli);
+			switch (output) {
+			case OUTPUT_SCRIPT:
+			    fprintf(stdout, "Id=%d\nAngle=%.8f\n",
+				    nodeline, angle);
+			    break;
+			case OUTPUT_JSON:
+			    fprintf(stdout, ",\n\"Id\": %d,\n\"Angle\": %.8f",
+				    nodeline, angle);
+			    break;
+			default:
+			    fprintf(stdout, _("Id: %d\nAngle: %.8f\n"),
+				    nodeline, angle);
+			    break;
+			}
+		    }
+		}
+	    }
+	    else {
+		switch (output) {
+		case OUTPUT_SCRIPT:
+		    fprintf(stdout, "Type=%s\n", buf);
+		    fprintf(stdout, "Id=%d\n", line);
+		    if (type & GV_LINES)
+			fprintf(stdout, "Length=%f\n", l);
+		    break;
+		case OUTPUT_JSON:
+		    fprintf(stdout, "%s\"Type\": \"%s\"", multiple ? "" : ",\n",
+			    buf);
+		    fprintf(stdout, ",\n\"Id\": %d", line);
+		    if (type & GV_LINES)
+			fprintf(stdout, ",\n\"Length\": %f", l);
+		    break;
+		default:
+		    fprintf(stdout, _("Type: %s\n"), buf);
+		    fprintf(stdout, _("Id: %d\n"), line);
+		    if (type & GV_LINES)
+			fprintf(stdout, _("Length: %f\n"), l);
+		    break;
+		}
+	    }
+>>>>>>> 6ab2af6a26 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
 
                 if (type & GV_POINTS) {
                     switch (output) {
