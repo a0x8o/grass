@@ -539,6 +539,7 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
 		    nnodes = 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ab2af6a26 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
 =======
 >>>>>>> e4a5d77fcc (v.what: Fix script outputs (space after = or : instead of =) (#1584))
@@ -553,6 +554,11 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
 =======
 >>>>>>> 6ab2af6a26 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
 >>>>>>> 2bfe9e5c78 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
+=======
+>>>>>>> 6ab2af6a26 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
+=======
+>>>>>>> e4a5d77fcc (v.what: Fix script outputs (space after = or : instead of =) (#1584))
+>>>>>>> edc2b06ed9 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
 
                 for (n = 0; n < nnodes; n++) {
                     double nx, ny, nz;
