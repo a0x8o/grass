@@ -532,7 +532,10 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
 		    nnodes = 2;
 		else		/* points */
 		    nnodes = 0;
+<<<<<<< HEAD
 >>>>>>> 6ab2af6a26 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
+=======
+>>>>>>> e4a5d77fcc (v.what: Fix script outputs (space after = or : instead of =) (#1584))
 
                 for (n = 0; n < nnodes; n++) {
                     double nx, ny, nz;
