@@ -30,6 +30,7 @@
 /*----------------------------------------------------------------------------------------------------------*/
 /*CONSTANTS DECLARATION */
 
+<<<<<<< HEAD
 #define NSPLX_MAX                                                     \
     150 /* Maximum number of splines along East direction used in the \
            subregions interpolation */
@@ -65,6 +66,39 @@
 /* INTERPOLATOR */
 #define P_BILINEAR             1
 #define P_BICUBIC              0
+=======
+#define NSPLX_MAX 	      150	/* Maximum number of splines along East direction used in the subregions interpolation */
+#define NSPLY_MAX	      150	/* Maximum number of splines along North direction used in the subregions interpolation */
+#define OVERLAP_SIZE 	       10	/* Subregions overlapping size. */
+#define LATO 		     1000	/* Side's size for v.lidar.growing. */
+#define CONTOUR		       15 	/**/
+#define GENERAL_ROW 		0
+#define GENERAL_COLUMN 	        1
+#define FIRST_ROW 		2
+#define LAST_ROW 		3
+#define FIRST_COLUMN	 	4
+#define LAST_COLUMN 		5
+    /* FIELDS ID */
+#define F_EDGE_DETECTION_CLASS	1
+#define F_CLASSIFICATION	2
+#define F_INTERPOLATION		3
+#define F_COUNTER_OBJ		4
+    /* PRE-CLASSIFICATION */
+#define PRE_TERRAIN 		1
+#define PRE_EDGE		2
+#define PRE_UNKNOWN		3
+    /* FINAL CLASSIFICATION */
+#define TERRAIN_SINGLE 	        1
+#define TERRAIN_DOUBLE	        2
+#define OBJECT_DOUBLE		3
+#define OBJECT_SINGLE		4
+    /* SINGLE OR DOUBLE PULSE */
+#define SINGLE_PULSE	        1
+#define DOUBLE_PULSE	        2
+    /* INTERPOLATOR */
+#define P_BILINEAR 		1
+#define P_BICUBIC 		0
+>>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 
 /*----------------------------------------------------------------------------------------------------------*/
 /*STRUCTS DECLARATION */

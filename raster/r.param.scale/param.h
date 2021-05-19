@@ -20,10 +20,17 @@
 /* prototypes for GRASS library calls.  */
 #include <math.h>
 
+<<<<<<< HEAD
 #define EDGE      ((wsize - 1) / 2) /* Number of rows/cols that make up the */
                                     /* 'blank' edge around raster.          */
 #define MAX_WSIZE 499               /* Maximum dimensions of window.        */
                                     /* Some useful labels.                  */
+=======
+#define EDGE ((wsize-1)/2)	/* Number of rows/cols that make up the */
+				/* 'blank' edge around raster.          */
+#define MAX_WSIZE 499		/* Maximum dimensions of window.        */
+				/* Some useful labels.                  */
+>>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 
 #define RAD2DEG   M_R2D
 #define DEG2RAD   M_D2R
