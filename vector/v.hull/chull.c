@@ -73,23 +73,31 @@ struct tFaceStructure {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
 #define ONHULL    true
 #define REMOVED   true
 #define VISIBLE   true
 #define PROCESSED true
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
+=======
+=======
+>>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
 #define ONHULL   	true
 #define REMOVED  	true
 #define VISIBLE  	true
 #define PROCESSED	true
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 =======
@@ -98,6 +106,9 @@ struct tFaceStructure {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
+>>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
 
 /* Global variable definitions */
 tVertex vertices = NULL;
@@ -448,9 +459,15 @@ bool AddOne(tVertex p)
     bool vis = false;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
+=======
+=======
+
+>>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
+>>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -468,10 +485,13 @@ bool AddOne(tVertex p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
         if (vol < 0) {
             f->visible = VISIBLE;
             vis = true;
@@ -479,6 +499,9 @@ bool AddOne(tVertex p)
         f = f->next;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
 =======
 	if (vol < 0) {
 	    f->visible = VISIBLE;
@@ -486,10 +509,13 @@ bool AddOne(tVertex p)
 	}
 	f = f->next;
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
     } while (f != faces);
 
     /* If no faces are visible from p, then p is inside the hull. */
@@ -497,11 +523,15 @@ bool AddOne(tVertex p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
         p->onhull = !ONHULL;
         return false;
 =======
 	p->onhull = !ONHULL;
 	return false;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 =======
@@ -514,6 +544,9 @@ bool AddOne(tVertex p)
         p->onhull = !ONHULL;
         return false;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
+>>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
     }
 
     /* Mark edges in interior of visible region for deletion.

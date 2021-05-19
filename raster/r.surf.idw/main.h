@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define SHORT    short
 =======
 #define         SHORT           short
@@ -16,6 +17,12 @@
 =======
 #define SHORT    short
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+#define SHORT    short
+=======
+#define         SHORT           short
+>>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
+>>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
 
 #define MELEMENT struct Melement
 MELEMENT
