@@ -70,16 +70,22 @@ struct tFaceStructure {
 
 /* Define flags */
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define ONHULL    true
 #define REMOVED   true
 #define VISIBLE   true
 #define PROCESSED true
 =======
+=======
+>>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 #define ONHULL   	true
 #define REMOVED  	true
 #define VISIBLE  	true
 #define PROCESSED	true
+<<<<<<< HEAD
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 
 /* Global variable definitions */
 tVertex vertices = NULL;
@@ -429,7 +435,10 @@ bool AddOne(tVertex p)
     long int vol;
     bool vis = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 
@@ -461,7 +470,10 @@ bool AddOne(tVertex p)
 =======
 	p->onhull = !ONHULL;
 	return false;
+<<<<<<< HEAD
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
     }
 
     /* Mark edges in interior of visible region for deletion.

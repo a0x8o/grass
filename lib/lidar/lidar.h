@@ -98,7 +98,10 @@
     /* INTERPOLATOR */
 #define P_BILINEAR 		1
 #define P_BICUBIC 		0
+<<<<<<< HEAD
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 
 /*----------------------------------------------------------------------------------------------------------*/
 /*STRUCTS DECLARATION */

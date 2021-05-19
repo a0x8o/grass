@@ -4,7 +4,10 @@
 #define SHORT    short
 =======
 #define         SHORT           short
+<<<<<<< HEAD
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 
 #define MELEMENT struct Melement
 MELEMENT

@@ -30,7 +30,10 @@
 				/* 'blank' edge around raster.          */
 #define MAX_WSIZE 499		/* Maximum dimensions of window.        */
 				/* Some useful labels.                  */
+<<<<<<< HEAD
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 
 #define RAD2DEG   M_R2D
 #define DEG2RAD   M_D2R

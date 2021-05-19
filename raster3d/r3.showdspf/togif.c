@@ -318,7 +318,10 @@ static int ditherrow(unsigned short *r, unsigned short *g, unsigned short *b,
  *****************************************************************************/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 /************************** BumpPixel() ********************************/
