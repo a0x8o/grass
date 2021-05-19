@@ -11,6 +11,7 @@
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
+<<<<<<< HEAD
 =======
 #define SHORT    short
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -23,6 +24,8 @@
 #define         SHORT           short
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
 
 #define MELEMENT struct Melement
 MELEMENT

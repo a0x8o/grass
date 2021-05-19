@@ -74,12 +74,15 @@ struct tFaceStructure {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
 #define ONHULL    true
 #define REMOVED   true
 #define VISIBLE   true
@@ -90,13 +93,17 @@ struct tFaceStructure {
 =======
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
 #define ONHULL   	true
 #define REMOVED  	true
 #define VISIBLE  	true
 #define PROCESSED	true
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
@@ -109,6 +116,11 @@ struct tFaceStructure {
 =======
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
+>>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
 
 /* Global variable definitions */
 tVertex vertices = NULL;
@@ -460,11 +472,16 @@ bool AddOne(tVertex p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 =======
 =======
+>>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
+=======
+=======
+>>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
@@ -533,6 +550,7 @@ bool AddOne(tVertex p)
 	return false;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
@@ -547,6 +565,11 @@ bool AddOne(tVertex p)
 =======
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
+>>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
     }
 
     /* Mark edges in interior of visible region for deletion.

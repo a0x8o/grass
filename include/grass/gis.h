@@ -2783,12 +2783,21 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
 
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
+=======
+=======
+
+>>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
+=======
+
+>>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
+>>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3975,8 +3984,11 @@ static const char *GRASS_copyright __attribute__((unused)) =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
 /* For boolean values and comparisons use the C99 type 'bool' with values 'true'
  */
 /* and 'false' For historical reasons 'TRUE' and 'FALSE' are still valid. */
@@ -3985,10 +3997,14 @@ static const char *GRASS_copyright __attribute__((unused)) =
 /* and 'false' For historical reasons 'TRUE' and 'FALSE' are still valid.        */
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
 =======
 /* For boolean values and comparisons use the C99 type 'bool' with values 'true' */
 /* and 'false' For historical reasons 'TRUE' and 'FALSE' are still valid.        */
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
+<<<<<<< HEAD
 =======
 /* For boolean values and comparisons use the C99 type 'bool' with values 'true'
  */
@@ -4001,6 +4017,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
 #ifndef TRUE
 #define TRUE true
 #endif

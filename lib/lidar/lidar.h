@@ -114,6 +114,7 @@
 #define P_BICUBIC 		0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
@@ -124,6 +125,11 @@
 =======
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
+>>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
 
 /*----------------------------------------------------------------------------------------------------------*/
 /*STRUCTS DECLARATION */
