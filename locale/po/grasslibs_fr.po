@@ -29298,5 +29298,11 @@ msgstr "Pour exécuter le module <%s>, ajouter un tiret-bas à la fin de l'optio
 
 #~ msgid "Invalid value <%s> for parameter <%s>"
 #~ msgstr "Valeur <%s> manquante pour le paramètre <%s>"
+<<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 >>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
+=======
+=======
+>>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
+>>>>>>> 4c6f186e56 (i18n: Transifex sync (#1592))
