@@ -72004,8 +72004,14 @@ msgstr ""
 =======
 msgid "Unable to open vector map <%s> on topological level"
 msgstr "Impossible d'ouvrir la carte vecteur <%s> au niveau topologique"
+<<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+=======
+>>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
+>>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
 
 #: ../vector/v.what.rast/main.c:276
 #, c-format
@@ -72023,8 +72029,14 @@ msgstr ""
 =======
 msgid "Unable to create PostGIS layer <%s>"
 msgstr "Impossible de créer la couche PostGIS <%s>"
+<<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+=======
+>>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
+>>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
 
 #: ../vector/v.what.rast/main.c:300
 #, c-format
@@ -72042,6 +72054,7 @@ msgstr ""
 =======
 msgid "Feature type '%s' not supported"
 msgstr "Type d'entité '%s' non supporté"
+<<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
@@ -72062,6 +72075,8 @@ msgstr "Échec de la copie des objets"
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgid "%d points without category were skipped"
 msgstr ""
+=======
+>>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
 
 #: ../vector/v.what.rast/main.c:559 ../vector/v.what.rast/main.c:601
 <<<<<<< HEAD
@@ -73030,8 +73045,14 @@ msgstr[1] ""
 =======
 msgid "No database connection for layer <%s>"
 msgstr "Connexion à la base de données non définie pour la couche <%s>"
+<<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+=======
+>>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
+>>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
 
 #. GTC %s will be replaced with a message about lost lines.
 #: ../vector/v.lrs/v.lrs.segment/main.c:368
