@@ -60323,6 +60323,7 @@ msgid "Categories of points ('cities') on nodes (layer is specified by nlayer)"
 msgstr ""
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../display/d.text/main.c:591
 msgid "Invalid coordinates"
 msgstr ""
@@ -62600,6 +62601,8 @@ msgstr ""
 #: ../vector/v.net.components/main.c:84 ../vector/v.net.steiner/main.c:368
 #: ../vector/v.net.allpairs/main.c:74 ../vector/v.net.distance/main.c:82
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 #: ../vector/v.net.salesman/main.c:148 ../vector/v.net.components/main.c:83
 #: ../vector/v.net.distance/main.c:84 ../vector/v.net.timetable/main.c:268
 #: ../vector/v.net.iso/main.c:116 ../vector/v.net.bridge/main.c:59
@@ -62608,7 +62611,2288 @@ msgstr ""
 #: ../vector/v.net.centrality/main.c:109 ../vector/v.net.spanningtree/main.c:58
 #: ../vector/v.net.allpairs/main.c:74 ../vector/v.net.connectivity/main.c:63
 #: ../vector/v.net/args.c:55 ../display/d.path/main.c:69
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+#: ../display/d.text/main.c:591
+msgid "Invalid coordinates"
+msgstr ""
+
+#: ../display/d.vect.chart/main.c:65
+msgid "chart maps"
+msgstr ""
+
+#: ../display/d.vect.chart/main.c:67
+msgid "Displays charts of vector data in the active frame on the graphics monitor."
+msgstr ""
+
+#: ../display/d.vect.chart/main.c:86
+msgid "Chart type"
+msgstr "Type de diagramme"
+
+#: ../display/d.vect.chart/main.c:87 ../display/d.vect.chart/main.c:97
+#: ../display/d.vect.chart/main.c:105 ../display/d.vect.chart/main.c:112
+#: ../display/d.vect.chart/main.c:117 ../display/d.vect.chart/main.c:123
+#: ../display/d.vect.chart/main.c:129 ../display/d.vect.chart/main.c:148
+msgid "Chart properties"
+msgstr ""
+
+#: ../display/d.vect.chart/main.c:91
+msgid "Attribute columns containing data"
+msgstr "Colonne(s) attributaire(s) contenant les données"
+
+#: ../display/d.vect.chart/main.c:96
+msgid "Column used for pie chart size"
+msgstr "Colonne utilisée pour la taille du diagramme camembert"
+
+#: ../display/d.vect.chart/main.c:104
+msgid "Size of chart (diameter for pie, total width for bar)"
+msgstr "Taille du diagramme (diamètre pour le diagramme camembert, largeur totale pour le diagramme en barres)"
+
+#: ../display/d.vect.chart/main.c:111
+msgid "Scale for size (to get size in pixels)"
+msgstr "Echelle pour la taille (pour trouver la taille en pixels)"
+
+#: ../display/d.vect.chart/main.c:116
+msgid "Outline color"
+msgstr "Couleur de mise en valeur"
+
+#: ../display/d.vect.chart/main.c:122
+msgid "Colors used to fill charts"
+msgstr "Couleur utilisée pour le remplissage des diagrammes"
+
+#: ../display/d.vect.chart/main.c:128
+msgid "Center the bar chart around a data point"
+msgstr "Centrer le diagramme en barres sur un point"
+
+#: ../display/d.vect.chart/main.c:137
+msgid "Maximum value used for bar plot reference"
+msgstr "Valeur maximale utilisée pour le diagramme en barres"
+
+#: ../display/d.vect.chart/main.c:142 ../display/d.vect.thematic/main.c:223
+msgid "Create legend information and send to stdout"
+msgstr ""
+
+#: ../display/d.vect.chart/main.c:147
+msgid "Create 3D charts"
+msgstr ""
+
+#: ../display/d.vect.chart/main.c:246 ../display/d.extract/main.c:103
+#: ../display/d.path/main.c:185 ../vector/v.lidar.edgedetection/main.c:186
+#: ../vector/v.to.rast3/main.c:73 ../vector/v.net.iso/main.c:243
+#: ../vector/v.parallel/main.c:148 ../vector/v.net.visibility/main.c:73
+#: ../vector/v.net.visibility/main.c:82 ../vector/v.out.dxf/main.c:81
+#: ../vector/v.external/main.c:228 ../vector/v.what.rast/main.c:131
+#: ../vector/v.lidar.correction/main.c:161 ../vector/v.sample/main.c:124
+#: ../vector/v.out.svg/main.c:140 ../vector/v.segment/main.c:108
+#: ../vector/v.net.connectivity/main.c:130 ../vector/v.clean/main.c:283
+#: ../vector/v.clean/test/topocheck.c:67 ../vector/v.clean/test/topocheck.c:87
+#: ../vector/v.buffer/main.c:337 ../vector/v.decimate/main.c:276
+#: ../vector/v.db.select/main.c:201 ../vector/v.to.rast/vect2rast.c:39
+#: ../vector/v.to.rast/support.c:100 ../vector/v.to.rast/support.c:275
+#: ../vector/v.to.rast/support.c:513 ../vector/v.net.flow/main.c:143
+#: ../vector/v.net.bridge/main.c:118 ../vector/v.generalize/main.c:328
+#: ../vector/v.out.lidar/main.c:612 ../vector/v.class/main.c:102
+#: ../vector/v.net.alloc/main.c:185 ../vector/v.kernel/main.c:319
+#: ../vector/v.kernel/main.c:332 ../vector/v.profile/main.c:370
+#: ../vector/v.profile/main.c:394 ../vector/v.normal/main.c:110
+#: ../vector/v.net.salesman/main.c:250 ../vector/v.build/main.c:118
+#: ../vector/v.build/main.c:128 ../vector/v.hull/main.c:87
+#: ../vector/v.delaunay/main.c:120 ../vector/v.type/main.c:131
+#: ../vector/v.drape/main.c:143 ../vector/v.out.postgis/main.c:101
+#: ../vector/v.surf.rst/main.c:565 ../vector/v.surf.rst/main.c:669
+#: ../vector/v.perturb/main.c:148 ../vector/v.perturb/main.c:173
+#: ../vector/v.info/main.c:61 ../vector/v.what.rast3/main.c:114
+#: ../vector/v.random/main.c:209 ../vector/v.edit/main.c:171
+#: ../vector/v.edit/main.c:244 ../vector/v.lrs/v.lrs.label/main.c:272
+#: ../vector/v.lrs/v.lrs.where/main.c:131
+#: ../vector/v.lrs/v.lrs.where/main.c:140
+#: ../vector/v.lrs/v.lrs.segment/main.c:144
+#: ../vector/v.lrs/v.lrs.create/main.c:254
+#: ../vector/v.lrs/v.lrs.create/main.c:263 ../vector/v.net.path/main.c:158
+#: ../vector/v.neighbors/main.c:216 ../vector/v.net.centrality/main.c:209
+#: ../vector/v.distance/main.c:370 ../vector/v.distance/main.c:392
+#: ../vector/v.transform/main.c:197 ../vector/v.out.ogr/main.c:138
+#: ../vector/v.patch/main.c:133 ../vector/v.patch/main.c:152
+#: ../vector/v.patch/main.c:188 ../vector/v.patch/main.c:337
+#: ../vector/v.patch/main.c:418 ../vector/v.db.connect/main.c:154
+#: ../vector/v.out.pov/main.c:98 ../vector/v.net.spanningtree/main.c:101
+#: ../vector/v.net.timetable/main.c:353 ../vector/v.colors.out/scan_cats.c:20
+#: ../vector/v.colors.out/make_colors.c:23 ../vector/v.cluster/main.c:149
+#: ../vector/v.proj/main.c:286 ../vector/v.net/main.c:68
+#: ../vector/v.net/main.c:92 ../vector/v.to.3d/main.c:72
+#: ../vector/v.net.components/main.c:148 ../vector/v.label.sa/labels.c:58
+#: ../vector/v.to.points/main.c:150 ../vector/v.qcount/main.c:101
+#: ../vector/v.lidar.growing/main.c:138 ../vector/v.lidar.growing/main.c:142
+#: ../vector/v.vect.stats/main.c:281 ../vector/v.vect.stats/main.c:292
+#: ../vector/v.split/main.c:172 ../vector/v.out.ascii/main.c:88
+#: ../vector/v.out.ascii/main.c:95 ../vector/v.extrude/main.c:190
+#: ../vector/v.univar/main.c:158 ../vector/v.vol.rst/main.c:562
+#: ../vector/v.extract/main.c:194 ../vector/v.support/main.c:134
+#: ../vector/v.rectify/main.c:151 ../vector/v.build.polylines/main.c:151
+#: ../vector/v.net.steiner/main.c:432 ../vector/v.label/main.c:268
+#: ../vector/v.net.allpairs/main.c:130 ../vector/v.surf.idw/read_sites.c:29
+#: ../vector/v.to.db/main.c:75 ../vector/v.voronoi/main.c:196
+#: ../vector/v.reclass/main.c:113 ../vector/v.overlay/main.c:190
+#: ../vector/v.net.distance/main.c:192 ../vector/v.select/main.c:110
+#: ../vector/v.colors/main.c:275 ../general/g.region/main.c:502
+#: ../general/manage/lister/vector.c:32 ../doc/vector/v.example/main.c:87
+#: ../raster3d/r3.flow/main.c:411 ../misc/m.nviz.image/vector.c:280
+#: ../raster/r.sim/simlib/observation_points.c:41 ../raster/r.drain/main.c:272
+#: ../raster/r.what/main.c:250 ../raster/r.walk/main.c:754
+#: ../raster/r.walk/main.c:817 ../raster/r.carve/main.c:162
+#: ../raster/r.region/main.c:178 ../raster/r.random/support.c:67
+#: ../raster/r.path/main.c:301 ../raster/r.cost/main.c:603
+#: ../raster/r.cost/main.c:666
+#, c-format
+msgid "Unable to open vector map <%s>"
+msgstr "Impossible d'ouvrir la carte vecteur <%s>"
+
+#: ../display/d.vect.chart/plot.c:38 ../display/d.vect.thematic/plot1.c:105
+#: ../display/d.vect/shape.c:38 ../vector/v.what.rast/main.c:138
+#: ../vector/v.buffer/main.c:426 ../vector/v.to.rast/support.c:104
+#: ../vector/v.to.rast/support.c:279 ../vector/v.to.rast/support.c:518
+#: ../vector/v.generalize/misc.c:170 ../vector/v.surf.bspline/crosscorr.c:114
+#: ../vector/v.what.rast3/main.c:120 ../vector/v.edit/select.c:502
+#: ../vector/v.neighbors/main.c:230 ../vector/v.distance/main.c:560
+#: ../vector/v.vect.stats/main.c:344 ../vector/v.vect.stats/main.c:418
+#: ../vector/v.extrude/main.c:224 ../vector/v.univar/main.c:229
+#: ../vector/v.overlay/main.c:414 ../vector/v.colors/write_rgb.c:20
+#: ../vector/v.colors/read_rgb.c:23 ../vector/v.colors/scan_attr.c:24
+#: ../doc/vector/v.example/main.c:109
+#, c-format
+msgid "Database connection not defined for layer %d"
+msgstr "La connexion à la base de données n'a pas été définie pour la couche %d"
+
+#: ../display/d.vect.chart/plot.c:86 ../display/d.vect/attr.c:110
+#: ../vector/v.in.db/main.c:225
+#, c-format
+msgid "Unable to open select cursor: '%s'"
+msgstr ""
+
+#: ../display/d.rgb/main.c:58
+msgid "Displays three user-specified raster maps as red, green, and blue overlays in the active graphics frame."
+msgstr ""
+
+#: ../display/d.rgb/main.c:63 ../display/d.rast/main.c:81
+msgid "Make null cells opaque"
+msgstr "Rendre les cellules vides opaque"
+
+#: ../display/d.rgb/main.c:64 ../display/d.rast/main.c:77
+#: ../display/d.rast/main.c:82
+msgid "Null cells"
+msgstr ""
+
+#: ../display/d.rgb/main.c:69 ../raster/r.composite/main.c:90
+#: ../raster/r.out.ppm3/main.c:65
+#, c-format
+msgid "Name of raster map to be used for <%s>"
+msgstr "Nom de la couche raster à utiliser pour <%s>"
+
+#: ../display/d.rgb/main.c:99 ../display/d.his/main.c:139
+#: ../display/d.his/main.c:156 ../display/d.his/main.c:174
+#: ../display/d.rast.num/main.c:253 ../display/d.legend/main.c:409
+#: ../display/d.legend/main.c:417 ../display/d.rast/display.c:23
+#: ../display/d.colortable/main.c:135 ../display/d.histogram/main.c:171
+#: ../raster/r.out.ppm3/main.c:116 ../raster/r.his/main.c:167
+#: ../raster/r.his/main.c:183 ../raster/r.his/main.c:201
+#, c-format
+msgid "Color file for <%s> not available"
+msgstr "Fichier de couleur pour <%s> non disponible"
+
+#: ../display/d.his/main.c:69
+msgid "Displays the result obtained by combining hue, intensity, and saturation (HIS) values from user-specified input raster map layers."
+msgstr ""
+
+#: ../display/d.his/main.c:78 ../raster/r.his/main.c:82
+msgid "Name of layer to be used for hue"
+msgstr "Nom de la couche a utiliser pour la teinte"
+
+#: ../display/d.his/main.c:85 ../raster/r.his/main.c:89
+msgid "Name of layer to be used for intensity"
+msgstr "Nom de la couche a utiliser pour la valeur"
+
+#: ../display/d.his/main.c:92 ../raster/r.his/main.c:96
+msgid "Name of layer to be used for saturation"
+msgstr "Nom de la couche a utiliser pour la saturation"
+
+#: ../display/d.his/main.c:97
+msgid "Percent to brighten intensity channel"
+msgstr ""
+
+#: ../display/d.his/main.c:103
+msgid "Respect NULL values while drawing"
+msgstr "Respecter les valeurs NULL lors du dessin"
+
+#: ../display/d.rast.num/main.c:78 ../display/d.rast.arrow/main.c:98
+#: ../display/d.northarrow/main.c:48
+msgid "map annotations"
+msgstr ""
+
+#: ../display/d.rast.num/main.c:81
+msgid "Overlays cell category values on a raster map displayed in the active graphics frame."
+msgstr ""
+
+#: ../display/d.rast.num/main.c:88 ../display/d.geodesic/main.c:66
+#: ../display/d.legend/main.c:203 ../display/d.northarrow/main.c:115
+#: ../display/d.grid/main.c:106 ../display/d.rhumbline/main.c:62
+#: ../vector/v.lrs/v.lrs.label/main.c:193 ../vector/v.label.sa/main.c:98
+#: ../vector/v.label/main.c:151
+msgid "Text color"
+msgstr "Couleur du texte"
+
+#: ../display/d.rast.num/main.c:94 ../display/d.grid/main.c:95
+msgid "Grid color"
+msgstr "Couleur de grille"
+
+#: ../display/d.rast.num/main.c:104 ../vector/v.out.vtk/main.c:71
+#: ../vector/v.out.ascii/args.c:75 ../raster3d/r3.out.vtk/parameters.c:107
+#: ../raster/r.out.vtk/parameters.c:98 ../raster/r.out.ascii/main.c:80
+msgid "Number of significant digits (floating point only)"
+msgstr "Nombre de chiffres significatifs (virgule flottante uniquement)"
+
+#: ../display/d.rast.num/main.c:108 ../display/d.rast.arrow/main.c:165
+msgid "Align grids with raster cells"
+msgstr ""
+
+#: ../display/d.rast.num/main.c:112
+msgid "Get text color from cell color value"
+msgstr "Choisir la couleur du texte en fonction de la valeur de couleur de la cellule"
+
+#. GTC Count of window rows
+#. GTC Count of raster rows
+#. GTC Count of window rows
+#: ../display/d.rast.num/main.c:199 ../vector/v.kernel/main.c:303
+#: ../vector/v.surf.idw/main.c:259 ../raster/r.thin/io.c:105
+#: ../raster/r.thin/io.c:172 ../raster/r.thin/io.c:181
+#, c-format
+msgid "%d row"
+msgid_plural "%d rows"
+msgstr[0] "%d ligne"
+msgstr[1] "%d lignes"
+
+#: ../display/d.rast.num/main.c:200
+#, c-format
+msgid "%d col"
+msgid_plural "%d cols"
+msgstr[0] ""
+msgstr[1] ""
+
+#. GTC %s will be replaced by strings "X rows" and "Y cols"
+#: ../display/d.rast.num/main.c:202
+#, c-format
+msgid ""
+"Current region size: %s X %s\n"
+"Your current region setting may be too large. Cells displayed on your graphics window may be too small for cell category number to be visible."
+msgstr ""
+
+#: ../display/d.rast.num/main.c:212
+msgid "Aborting (region larger then 200 rows X 200 cols is not allowed)"
+msgstr ""
+
+#: ../display/d.geodesic/main.c:48
+msgid "great circle"
+msgstr ""
+
+#: ../display/d.geodesic/main.c:49 ../display/d.path/main.c:50
+#: ../vector/v.net.visibility/main.c:47 ../vector/v.net.path/main.c:44
+#: ../vector/v.net.timetable/main.c:262 ../vector/v.net.allpairs/main.c:63
+#: ../vector/v.net.distance/main.c:68
+msgid "shortest path"
+msgstr ""
+
+#: ../display/d.geodesic/main.c:51
+msgid "Displays a geodesic line, tracing the shortest distance between two geographic points along a great circle, in a longitude/latitude data set."
+msgstr ""
+
+#: ../display/d.geodesic/main.c:58 ../display/d.path/main.c:65
+#: ../display/d.rhumbline/main.c:53
+msgid "Starting and ending coordinates"
+msgstr ""
+
+#: ../display/d.geodesic/main.c:62 ../display/d.northarrow/main.c:105
+#: ../display/d.rhumbline/main.c:57
+msgid "Line color"
+msgstr "Couleur de ligne"
+
+#: ../display/d.geodesic/main.c:78 ../display/d.rhumbline/main.c:75
+#, c-format
+msgid "Location is not %s"
+msgstr ""
+
+#: ../display/d.geodesic/main.c:87 ../display/d.path/main.c:140
+#: ../display/d.rhumbline/main.c:86
+msgid "No coordinates given"
+msgstr ""
+
+#: ../display/d.geodesic/main.c:90 ../display/d.geodesic/main.c:93
+#: ../display/d.geodesic/main.c:96 ../display/d.geodesic/main.c:99
+#: ../display/d.rhumbline/main.c:89 ../display/d.rhumbline/main.c:92
+#: ../display/d.rhumbline/main.c:95 ../display/d.rhumbline/main.c:98
+#, c-format
+msgid "%s - illegal longitude"
+msgstr ""
+
+#: ../display/d.vect.thematic/plot1.c:120
+msgid "Color definition column not specified"
+msgstr ""
+
+#: ../display/d.vect.thematic/plot1.c:130
+#, c-format
+msgid "Color definition column (%s) not a string. Column must be of form RRR:GGG:BBB where RGB values range 0-255."
+msgstr "La colonne de définition de couleur (%s) n'est pas une chaîne de caractère.La colonne doit être de la forme RRR:GGG:BBB ou les valeurs RGB sont comprises dans l'intervalle 0-255."
+
+#: ../display/d.vect.thematic/plot1.c:135
+#: ../display/d.vect.thematic/plot1.c:163 ../display/d.vect.thematic/main.c:316
+#, c-format
+msgid "Cannot select data (%s) from table"
+msgstr "Impossible de sélectionner des données (%s) dans la table"
+
+#: ../display/d.vect.thematic/plot1.c:148
+msgid "Line width column not specified."
+msgstr "La colonne de la largeur de ligne n'est pas spécifiée."
+
+#: ../display/d.vect.thematic/plot1.c:159
+#, c-format
+msgid "Line width column (%s) not a number."
+msgstr "la colonne de largeur de ligne (%s) n'est pas de type nombre"
+
+#: ../display/d.vect.thematic/plot1.c:204
+#, c-format
+msgid ""
+"\n"
+"ERROR: vector map - can't read\n"
+msgstr ""
+"\n"
+"ERREUR: fichier vecteur - lecture impossible\n"
+
+#: ../display/d.vect.thematic/plot1.c:279
+#, c-format
+msgid "Error in color definition column (%s), element %d with cat %d: colorstring [%s]"
+msgstr "Erreur dans la colonne de définition de couleur (%s), élément %d avec la catégorie %d: code couleur [%s]"
+
+#: ../display/d.vect.thematic/plot1.c:286
+#, c-format
+msgid "Error in color definition column (%s), element %d with cat %d"
+msgstr "Erreur dans la colonne de définition de couleur (%s), élément %d avec la catégorie %d"
+
+#: ../display/d.vect.thematic/plot1.c:354
+#, c-format
+msgid "Error in line width column (%s), element %d with cat %d: line width [%d]"
+msgstr "Erreur dans la colonne de définition de couleur (%s), élément %d avec la catégorie %d: largeur de ligne [%d]"
+
+#: ../display/d.vect.thematic/display.c:51 ../display/d.vect/lines.c:107
+#: ../display/d.vect/lines.c:339
+#, c-format
+msgid "Unable to read symbol <%s>, unable to display points"
+msgstr ""
+
+#: ../display/d.vect.thematic/display.c:75 ../display/d.vect/dir.c:30
+#: ../display/d.vect/lines.c:143 ../display/d.vect/zcoor.c:38
+#: ../display/d.vect/topo.c:52 ../display/d.vect/vert.c:27
+#: ../display/d.vect/attr.c:51 ../display/d.vect/label.c:44
+#: ../vector/v.what.rast/main.c:213 ../vector/v.decimate/main.c:410
+#: ../vector/v.out.lidar/main.c:735 ../vector/v.perturb/main.c:182
+#: ../vector/v.info/level1.c:38 ../vector/v.colors.out/scan_cats.c:32
+#: ../vector/v.to.3d/trans2.c:84 ../vector/v.to.3d/trans3.c:85
+#: ../vector/v.label.sa/labels.c:141 ../vector/v.vol.rst/user1.c:140
+#: ../vector/v.label/main.c:293 ../vector/v.colors/scan_z.c:36
+#: ../vector/v.colors/scan_cats.c:24 ../raster/r.drain/main.c:287
+#: ../raster/r.walk/main.c:769 ../raster/r.walk/main.c:829
+#: ../raster/r.path/main.c:317 ../raster/r.to.vect/main.c:289
+#: ../raster/r.cost/main.c:618 ../raster/r.cost/main.c:678
+msgid "Unable to read vector map"
+msgstr "Impossible de lire la carte vecteur"
+
+#: ../display/d.vect.thematic/display.c:118 ../display/d.vect/lines.c:175
+#, c-format
+msgid "%d point plotted"
+msgid_plural "%d points plotted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../display/d.vect.thematic/display.c:121 ../display/d.vect/lines.c:177
+#, c-format
+msgid "%d line plotted"
+msgid_plural "%d lines plotted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../display/d.vect.thematic/display.c:125 ../display/d.vect/lines.c:179
+#, c-format
+msgid "%d centroid plotted"
+msgid_plural "%d centroids plotted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../display/d.vect.thematic/display.c:129 ../display/d.vect/lines.c:181
+#, c-format
+msgid "%d boundary plotted"
+msgid_plural "%d boundaries plotted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../display/d.vect.thematic/display.c:132 ../display/d.vect/lines.c:183
+#, c-format
+msgid "%d face plotted"
+msgid_plural "%d faces plotted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../display/d.vect.thematic/main.c:87
+msgid "choropleth map"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:90
+msgid "Displays a thematic vector map in the active graphics frame."
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:97
+msgid "Layer number. If -1, all layers are displayed."
+msgstr "Code de couche. Si fixé à -1, toutes les couches sont affichées."
+
+#: ../display/d.vect.thematic/main.c:103
+msgid "Name of attribute column to be classified"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:110
+msgid "Class breaks, without minimum and maximum"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:111 ../display/d.vect.thematic/main.c:129
+#: ../display/d.vect.thematic/main.c:137
+msgid "Classes"
+msgstr "Classes"
+
+#: ../display/d.vect.thematic/main.c:119 ../vector/v.class/main.c:68
+msgid "Algorithm to use for classification"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:123 ../vector/v.class/main.c:76
+msgid "simple intervals"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:124 ../vector/v.class/main.c:77
+msgid "standard deviations"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:125 ../vector/v.class/main.c:78
+msgid "quantiles"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:126 ../vector/v.class/main.c:79
+msgid "equiprobable (normal distribution)"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:136 ../vector/v.class/main.c:88
+msgid "Number of classes to define"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:144
+msgid "Colors (one per class)"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:154 ../display/d.vect.thematic/main.c:160
+msgid "Boundaries"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:155
+msgid "Boundary width"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:159
+msgid "Boundary color"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:168 ../display/d.vect.thematic/main.c:178
+#: ../display/d.vect/main.c:168 ../display/d.vect/main.c:178
+#: ../display/d.vect/main.c:185 ../display/d.vect/main.c:191
+#: ../display/d.vect/main.c:327
+msgid "Symbols"
+msgstr "Symboles"
+
+#: ../display/d.vect.thematic/main.c:172 ../display/d.vect/main.c:172
+msgid "Point and centroid symbol"
+msgstr "Symbole de point et centroïde"
+
+#: ../display/d.vect.thematic/main.c:179 ../display/d.legend.vect/main.c:88
+#: ../display/d.vect/main.c:179
+msgid "Symbol size"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:186 ../display/d.vect.thematic/main.c:197
+#: ../display/d.vect.thematic/main.c:206 ../display/d.vect.thematic/main.c:218
+#: ../display/d.vect.thematic/main.c:224 ../display/d.vect.thematic/main.c:229
+#: ../display/d.vect.thematic/main.c:239 ../display/d.vect.thematic/main.c:244
+#: ../display/d.vect/main.c:202 ../display/d.vect/main.c:212
+#: ../display/d.vect/main.c:220 ../display/d.vect/main.c:332
+msgid "Legend"
+msgstr "Légende"
+
+#: ../display/d.vect.thematic/main.c:190
+msgid "Legend symbol for lines"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:201
+msgid "Legend symbol for areas"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:207
+msgid "Thematic map title"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:214 ../display/d.vect.thematic/main.c:236
+msgid "DEPRECATED"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:215
+msgid "Output legend file"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:228
+msgid "Do not draw map, only output the legend information"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:237
+msgid "When printing legend info, include extended statistical info from classification algorithm"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:243 ../display/d.vect/main.c:331
+msgid "Do not show this layer in vector legend"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:255
+msgid "Flag -e is deprecated, set verbose mode with --v to get the extended statistical info."
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:258
+msgid "Option legendfile is deprecated, either use flag -l to print legend to standard output, or set GRASS_LEGEND_FILE environment variable (see d.legend.vect for details)."
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:277
+#, c-format
+msgid "%s: You must build topology on vector map. Run v.build."
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:288
+msgid "'layer' must be > 0"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:290 ../display/d.vect/opt.c:143
+#: ../vector/v.db.connect/main.c:180
+msgid "Database connection not defined"
+msgstr "La connexion à la base de données n'a pas été définie"
+
+#: ../display/d.vect.thematic/main.c:294 ../display/d.vect/opt.c:147
+#: ../vector/v.out.vtk/writeVTK.c:644 ../vector/v.out.svg/main.c:153
+#: ../vector/v.profile/main.c:420 ../vector/v.profile/main.c:575
+#: ../vector/v.edit/select.c:509 ../vector/v.db.connect/main.c:218
+#: ../vector/v.db.connect/main.c:287 ../doc/vector/v.example/main.c:129
+#: ../db/db.select/main.c:75 ../db/db.createdb/main.c:42
+#: ../db/db.columns/main.c:51 ../db/db.execute/main.c:70
+#: ../db/db.databases/main.c:48 ../db/db.describe/main.c:56
+#: ../db/db.dropdb/main.c:42 ../db/db.tables/main.c:45
+#: ../raster/r.stream.extract/close.c:178
+#, c-format
+msgid "Unable to start driver <%s>"
+msgstr "Impossible de lancer le pilote <%s>"
+
+#: ../display/d.vect.thematic/main.c:299 ../display/d.vect/opt.c:152
+#: ../db/db.select/main.c:81 ../db/db.columns/main.c:56
+#: ../db/db.execute/main.c:76 ../db/db.describe/main.c:61
+#: ../db/db.tables/main.c:50
+#, c-format
+msgid "Unable to open database <%s>"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:312
+#, c-format
+msgid "Data (%s) not numeric. Column must be numeric."
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:379
+#, c-format
+msgid "Unknown color: [%s]"
+msgstr "Couleur inconnue : [%s]"
+
+#: ../display/d.vect.thematic/main.c:390
+msgid "You gave both manual breaks and a classification algorithm or a number of classes. The manual breaks have precedence and will thus be used."
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:427
+msgid "You must either give classbreaks or a classification algorithm"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:440
+#, c-format
+msgid ""
+"Not enough colors or error in color specifications.\n"
+"Need %i entries for 'colors' parameter"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:445
+#, c-format
+msgid "Error interpreting color %s"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:462
+msgid "Plotting ..."
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:474
+msgid "The bounding box of the map is outside the current region, nothing drawn."
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:523
+#, c-format
+msgid ""
+"\n"
+"Total number of records: %.0f\n"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:525
+#, c-format
+msgid "Classification of %s into %i classes\n"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:527 ../vector/v.class/main.c:203
+#, c-format
+msgid "Using algorithm: *** %s ***\n"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:529 ../vector/v.class/main.c:204
+#, c-format
+msgid "Mean: %f\tStandard deviation = %f\n"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:533
+#, c-format
+msgid "Last chi2 = %f\n"
+msgstr ""
+
+#: ../display/d.vect.thematic/main.c:535 ../vector/v.class/main.c:211
+#, c-format
+msgid "Stdev multiplied by %.4f to define step\n"
+msgstr ""
+
+#: ../display/d.rast.arrow/main.c:100 ../display/d.northarrow/main.c:49
+msgid "arrow"
+msgstr ""
+
+#: ../display/d.rast.arrow/main.c:102
+msgid "Draws arrows representing cell aspect direction for a raster map containing aspect data."
+msgstr "Tracer des flèches représentant la direction d'aspect des cellules pour une couche rastercontenant des données d'aspect."
+
+#: ../display/d.rast.arrow/main.c:106
+msgid "Name of raster aspect map to be displayed"
+msgstr "Nom de la couche raster d'aspect à afficher"
+
+#: ../display/d.rast.arrow/main.c:114
+msgid "Type of existing raster aspect map"
+msgstr "Nom de la couche raster d'aspect existante"
+
+#: ../display/d.rast.arrow/main.c:119
+msgid "Color for drawing arrows"
+msgstr "Couleur utilisée pour tracer les flèches"
+
+#: ../display/d.rast.arrow/main.c:125
+msgid "Color for drawing drawing grid"
+msgstr ""
+
+#: ../display/d.rast.arrow/main.c:131
+msgid "Color for drawing null values (X symbol)"
+msgstr ""
+
+#: ../display/d.rast.arrow/main.c:137
+msgid "Color for showing unknown information (? symbol)"
+msgstr ""
+
+#: ../display/d.rast.arrow/main.c:145
+msgid "Draw arrow every Nth grid cell"
+msgstr "Tracer une flèche sur chaque chaque énième cellule de la grille"
+
+#: ../display/d.rast.arrow/main.c:154
+msgid "Raster map containing values used for arrow length"
+msgstr "Couche raster contenant les valeurs utilisées pour la longueur des flèches"
+
+#: ../display/d.rast.arrow/main.c:161
+msgid "Scale factor for arrows (magnitude map)"
+msgstr "Facteur d'échelle pour les flèches (cartes de magnitude)"
+
+#: ../display/d.rast.arrow/main.c:211
+msgid "Illegal value for scale factor"
+msgstr ""
+
+#: ../display/d.rast.arrow/main.c:215
+msgid "Illegal value for skip factor"
+msgstr ""
+
+#: ../display/d.rast.arrow/main.c:220
+msgid "Magnitude is only supported for GRASS and compass aspect maps."
+msgstr "La magnitude n'est gérée que pour les couches GRASS d'aspect"
+
+#: ../display/d.rast.arrow/main.c:225
+msgid "Scale option requires magnitude_map"
+msgstr ""
+
+#: ../display/d.rast.arrow/main.c:276
+msgid "Problem reading range file"
+msgstr ""
+
+#: ../display/d.font/main.c:48
+msgid "Selects the font in which text will be displayed on the user's graphics monitor."
+msgstr "Sélectionnez la police à utiliser pour afficher le texte sur le moniteur graphique."
+
+#: ../display/d.font/main.c:56
+msgid "Choose new current font"
+msgstr ""
+
+#: ../display/d.font/main.c:62
+msgid "Path to Freetype-compatible font including file name"
+msgstr ""
+
+#: ../display/d.font/main.c:70
+msgid "Character encoding"
+msgstr "Encodage du caractère"
+
+#: ../display/d.font/main.c:74
+msgid "List fonts"
+msgstr ""
+
+#: ../display/d.font/main.c:103
+#, c-format
+msgid "Unable to access font path %s: %s"
+msgstr ""
+
+#: ../display/d.font/main.c:107
+#, c-format
+msgid "Font path %s is not a file"
+msgstr ""
+
+#: ../display/d.font/main.c:124
+#, c-format
+msgid "Font name <%s> is invalid. Check font name or consider running 'g.mkfontcap'"
+msgstr ""
+
+#: ../display/d.legend/main.c:82
+msgid "Displays a legend for a 2D or 3D raster map in the active frame of the graphics monitor."
+msgstr ""
+
+#: ../display/d.legend/main.c:99 ../display/d.legend.vect/main.c:81
+msgid "Legend title"
+msgstr ""
+
+#: ../display/d.legend/main.c:100 ../display/d.legend/main.c:109
+#: ../display/d.legend.vect/main.c:82 ../display/d.legend.vect/main.c:141
+msgid "Title"
+msgstr ""
+
+#: ../display/d.legend/main.c:107 ../display/d.legend.vect/main.c:139
+msgid "Title font size"
+msgstr ""
+
+#: ../display/d.legend/main.c:108
+msgid "Default: Same as fontsize"
+msgstr ""
+
+#: ../display/d.legend/main.c:117
+msgid "Number of text lines (useful for truncating long legends)"
+msgstr "Nombre de lignes de texte (pratique pour tronquer les longs textes de légende)"
+
+#: ../display/d.legend/main.c:118 ../display/d.legend/main.c:128
+#: ../display/d.legend/main.c:136 ../display/d.legend/main.c:168
+#: ../display/d.legend/main.c:253 ../display/d.legend/main.c:258
+#: ../display/d.legend/main.c:268 ../display/d.legend/main.c:278
+#: ../display/d.legend/main.c:293 ../raster/r.what/main.c:139
+#: ../raster/r.what/main.c:164
+msgid "Advanced"
+msgstr "Élaborée"
+
+#: ../display/d.legend/main.c:127
+msgid "Thinning factor (thin=10 gives cats 0,10,20...)"
+msgstr "Facteur de discrétisation (thinning) (thin=10 donne les catégories 0,10,20...)"
+
+#: ../display/d.legend/main.c:135
+msgid "Units to display after labels (e.g. meters)"
+msgstr ""
+
+#: ../display/d.legend/main.c:144
+msgid "Number of text labels for smooth gradient legend"
+msgstr "Nombre d'étiquette texte pour la légende du gradient lissé"
+
+#: ../display/d.legend/main.c:145 ../display/d.legend/main.c:154
+#: ../display/d.legend/main.c:161 ../display/d.legend/main.c:263
+#: ../display/d.legend/main.c:273 ../display/d.legend/main.c:283
+msgid "Gradient"
+msgstr ""
+
+#: ../display/d.legend/main.c:167
+msgid "Number of digits after decimal point"
+msgstr ""
+
+#: ../display/d.legend/main.c:179
+msgid "Size and placement as percentage of screen coordinates (0,0 is lower left)"
+msgstr ""
+
+#: ../display/d.legend/main.c:189
+msgid "List of discrete category numbers/values for legend"
+msgstr "Lister les valeurs/codes de catégorie discrètes dans la légende"
+
+#: ../display/d.legend/main.c:199
+msgid "Use a subset of the map range for the legend (min,max)"
+msgstr "Utiliser un sous-ensemble de l'intervalle des valeurs de la carte pour la légende (min, max)"
+
+#: ../display/d.legend/main.c:219
+msgid "Default: Auto-scaled"
+msgstr ""
+
+#: ../display/d.legend/main.c:240 ../display/d.legend.vect/main.c:95
+#: ../display/d.grid/main.c:100 ../vector/v.lrs/v.lrs.label/main.c:223
+#: ../vector/v.label.sa/main.c:144 ../vector/v.label/main.c:193
+msgid "Border color"
+msgstr "Couleur de la bordure"
+
+#: ../display/d.legend/main.c:241 ../display/d.legend/main.c:247
+#: ../display/d.legend/main.c:288 ../display/d.legend.vect/main.c:96
+#: ../display/d.legend.vect/main.c:102 ../display/d.legend.vect/main.c:109
+#: ../display/d.legend.vect/main.c:168
+msgid "Background"
+msgstr ""
+
+#: ../display/d.legend/main.c:252
+msgid "Do not show category labels"
+msgstr "Ne pas afficher les étiquettes de catégorie"
+
+#: ../display/d.legend/main.c:257
+msgid "Do not show category numbers"
+msgstr "Ne pas afficher les codes de catégories"
+
+#: ../display/d.legend/main.c:267
+msgid "Skip categories with no label"
+msgstr "Sauter les catégories qui n'ont pas d'étiquette"
+
+#: ../display/d.legend/main.c:282
+msgid "Add histogram to smoothed legend"
+msgstr ""
+
+#: ../display/d.legend/main.c:287
+msgid "Show background"
+msgstr ""
+
+#: ../display/d.legend/main.c:292
+msgid "Use logarithmic scale"
+msgstr ""
+
+#: ../display/d.legend/histogram.c:115
+msgid "Histogram constrained by range not yet implemented for categorical rasters"
+msgstr ""
+
+#: ../display/d.legend/draw.c:109
+msgid "Legend box lies outside of frame. Text may not display properly."
+msgstr "Le cartouche de légende dépasse du cadre. Il est possible que le texte ne s'affiche pas correctement"
+
+#: ../display/d.legend/draw.c:114
+msgid "Drawing horizontal legend as box width exceeds height"
+msgstr ""
+
+#: ../display/d.legend/draw.c:126
+#, c-format
+msgid "Range information for <%s> not available (run r.support)"
+msgstr ""
+
+#: ../display/d.legend/draw.c:131
+msgid "Input map contains no data"
+msgstr ""
+
+#: ../display/d.legend/draw.c:145
+msgid "Requested range exceeds lower limit of actual data"
+msgstr ""
+
+#: ../display/d.legend/draw.c:152
+msgid "Requested range exceeds upper limit of actual data"
+msgstr ""
+
+#: ../display/d.legend/draw.c:214
+#, c-format
+msgid "use=%s out of range [%d,%d] (extend with range= ?)"
+msgstr ""
+
+#: ../display/d.legend/draw.c:239
+msgid "Nothing to draw! (no categories with labels? out of range?)"
+msgstr "Rien à dessiner! (pas de catégories liées aux étiquettes? valeurs hors intervalles?"
+
+#: ../display/d.legend/draw.c:250
+msgid "Forcing a smooth legend: too many categories for current window height"
+msgstr ""
+
+#: ../display/d.legend/draw.c:282 ../display/d.legend/draw.c:287
+#: ../display/d.histogram/main.c:177
+#, c-format
+msgid "Range information for <%s> not available"
+msgstr ""
+
+#: ../display/d.legend/draw.c:301
+msgid "Color range exceeds lower limit of actual data"
+msgstr "Les valeurs de couleurs excède la limite plancher des données actuelles"
+
+#: ../display/d.legend/draw.c:305
+msgid "Color range exceeds upper limit of actual data"
+msgstr "Les valeurs de couleurs dépassent la limite plafond des données actuelles"
+
+#: ../display/d.legend/draw.c:312
+#, c-format
+msgid "Range [%.3f, %.3f] out of the logarithm domain."
+msgstr ""
+
+#: ../display/d.legend/draw.c:319
+#, c-format
+msgid "use=%s out of range [%.3f, %.3f] (extend with range= ?)"
+msgstr ""
+
+#: ../display/d.legend/draw.c:613
+#, c-format
+msgid "tick_value=%.3f out of range [%.3f, %.3f]"
+msgstr ""
+
+#: ../display/d.legend/draw.c:1030
+msgid "Histogram plotting not implemented for categorical legends. Use the '-s' flag"
+msgstr ""
+
+#: ../display/d.legend/draw.c:1287
+msgid "Nothing to draw! (no categories with labels?)"
+msgstr "Rien à dessiner! (pas de catégories liées aux étiquettes?)"
+
+#: ../display/d.labels/color.c:68 ../display/d.legend.vect/draw.c:193
+#: ../display/d.legend.vect/draw.c:204 ../display/d.graph/do_graph.c:105
+#: ../display/d.graph/do_graph.c:355 ../display/d.graph/do_graph.c:370
+#: ../display/d.graph/main.c:104 ../display/d.rast/display.c:27
+#: ../raster/r.out.png/main.c:176
+#, c-format
+msgid "[%s]: No such color"
+msgstr "[%s] ne correspond pas à une couleur connue"
+
+#: ../display/d.labels/main.c:44 ../vector/v.label.sa/main.c:39
+#: ../vector/v.label/main.c:60
+msgid "paint labels"
+msgstr ""
+
+#: ../display/d.labels/main.c:46
+msgid "Displays text labels (created with v.label) to the active frame on the graphics monitor."
+msgstr "Affiche des étiquettes de texte (créées avec v.label) dans le moniteur actif"
+
+#: ../display/d.labels/main.c:52
+msgid "Ignore rotation setting and draw horizontally"
+msgstr "Ignorer le paramètre de rotation et afficher à l'horizontale"
+
+#: ../display/d.labels/main.c:59
+msgid "Name of label file"
+msgstr "Nom du fichier d'étiquettes"
+
+#: ../display/d.labels/main.c:66
+msgid "Minimum region size (diagonal) when labels are displayed"
+msgstr "Taille minimum de la région (diagonale) quand les étiquettes sont affichées"
+
+#: ../display/d.labels/main.c:73
+msgid "Maximum region size (diagonal) when labels are displayed"
+msgstr "Taille maximum de la région (diagonale) quand les étiquettes sont affichées"
+
+#: ../display/d.labels/main.c:85
+#, c-format
+msgid "Label file <%s> not found"
+msgstr ""
+
+#: ../display/d.labels/main.c:97
+msgid "Region size is lower than minreg, nothing displayed."
+msgstr "La taille de la région est plus petite que minreg, rien n'a été affiché."
+
+#: ../display/d.labels/main.c:105
+msgid "Region size is greater than maxreg, nothing displayed."
+msgstr "La taille de la région est plus grande que maxreg, rien n'a été affiché."
+
+#: ../display/d.labels/main.c:114 ../vector/v.lrs/v.lrs.label/main.c:283
+#, c-format
+msgid "Unable to open label file <%s>"
+msgstr ""
+
+#: ../display/d.labels/do_labels.c:142
+#, c-format
+msgid "Error: %s\n"
+msgstr "Erreur: %s\n"
+
+#: ../display/d.erase/main.c:33
+msgid "Erases the contents of the active graphics display frame with user defined color."
+msgstr ""
+
+#: ../display/d.erase/main.c:42
+msgid "Remove all frames and erase the screen"
+msgstr "Supprimer tous les cadres graphiques et effacer l'écran"
+
+#: ../display/d.legend.vect/main.c:55
+msgid "Displays a vector legend in the active graphics frame."
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:66
+msgid "Screen position of legend to be drawn (percentage, [0,0] is lower left)"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:74
+msgid "Number of legend columns"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:75 ../display/d.legend.vect/main.c:90
+msgid "Layout"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:108
+msgid "Background border width"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:124
+msgid "Default: 12"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:131
+msgid "Title font name"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:140
+msgid "Default: 18"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:147
+msgid "Subtitle font name"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:155
+msgid "Subtitle font size"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:156
+msgid "Default: 14"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:162
+msgid "Font color"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:167
+msgid "Display legend background"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:171 ../display/d.legend.vect/main.c:178
+#: ../display/d.legend.vect/main.c:185
+msgid "In/Out"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:172
+msgid "Field separator for input file"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:175
+msgid "Input legend file"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:176
+msgid "Path to legend file "
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:181
+msgid "Output csv file"
+msgstr ""
+
+#: ../display/d.legend.vect/main.c:182
+msgid "Path to output file or '-' for standard output"
+msgstr ""
+
+#: ../display/d.legend.vect/draw.c:178
+msgid "Cannot read symbol"
+msgstr ""
+
+#: ../display/d.legend.vect/draw.c:238
+msgid "Invalid value for color type in legend file. Use one of 'lf' or 'ps'."
+msgstr ""
+
+#: ../display/d.vect/opt.c:126
+#, c-format
+msgid "Unknown color: '%s'"
+msgstr ""
+
+#: ../display/d.vect/lines.c:121
+msgid "Unable to display features by id, topology not available. Please try to rebuild topology using v.build or v.build.all."
+msgstr ""
+
+#: ../display/d.vect/lines.c:169
+#, c-format
+msgid "%d invalid color rule for lines skipped"
+msgid_plural "%d invalid color rules for lines skipped"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../display/d.vect/zcoor.c:19
+msgid "Vector map is not 3D. Unable to display z-coordinates."
+msgstr ""
+
+#: ../display/d.vect/area.c:37
+msgid "Unable to display areas, topology not available. Please try to rebuild topology using v.build or v.build.all."
+msgstr ""
+
+#: ../display/d.vect/area.c:135
+#, c-format
+msgid "Invalid area %d skipped (not enough points)"
+msgstr ""
+
+#: ../display/d.vect/area.c:236
+#, c-format
+msgid "%d invalid color rule for areas skipped"
+msgid_plural "%d invalid color rules for areas skipped"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../display/d.vect/topo.c:18
+msgid "Unable to display topology, not available.Please try to rebuild topology using v.build or v.build.all."
+msgstr ""
+
+#: ../display/d.vect/main.c:76 ../vector/v.in.lidar/main.c:139
+#: ../vector/v.external/main.c:57 ../vector/v.decimate/main.c:131
+#: ../vector/v.perturb/main.c:67 ../vector/v.info/main.c:43
+#: ../vector/v.random/main.c:106 ../vector/v.edit/main.c:62
+#: ../vector/v.patch/main.c:75 ../vector/v.cluster/main.c:94
+#: ../vector/v.in.ascii/main.c:73 ../vector/v.in.dxf/main.c:67
+#: ../vector/v.rectify/main.c:72 ../general/g.region/main.c:70
+#: ../raster/r.random/main.c:56
+msgid "level1"
+msgstr "niveau 1"
+
+#: ../display/d.vect/main.c:77
+msgid "Displays user-specified vector map in the active graphics frame."
+msgstr ""
+
+#: ../display/d.vect/main.c:93
+msgid "Display"
+msgstr "Affichage"
+
+#: ../display/d.vect/main.c:97
+msgid "Display geometry of features"
+msgstr ""
+
+#: ../display/d.vect/main.c:98
+msgid "Display category numbers of features"
+msgstr ""
+
+#: ../display/d.vect/main.c:99
+msgid "Display topology information (nodes, edges)"
+msgstr ""
+
+#: ../display/d.vect/main.c:100
+msgid "Display vertices of features"
+msgstr ""
+
+#: ../display/d.vect/main.c:101
+msgid "Display direction of linear features"
+msgstr ""
+
+#: ../display/d.vect/main.c:102
+msgid "Display z-coordinate of features (only for 3D vector maps)"
+msgstr ""
+
+#: ../display/d.vect/main.c:120
+msgid "Feature color"
+msgstr ""
+
+#: ../display/d.vect/main.c:127
+msgid "Area fill color"
+msgstr "Couleur de remplissage des entités surfaciques"
+
+#: ../display/d.vect/main.c:133
+msgid "Colorize features according to color definition column"
+msgstr ""
+
+#: ../display/d.vect/main.c:134 ../vector/v.out.lidar/main.c:547
+msgid "Color definition in R:G:B form"
+msgstr ""
+
+#: ../display/d.vect/main.c:138
+msgid "Colorize point or area features according to z-coordinate"
+msgstr ""
+
+#: ../display/d.vect/main.c:146 ../display/d.vect/main.c:151
+#: ../display/d.vect/main.c:159
+msgid "Lines"
+msgstr ""
+
+#: ../display/d.vect/main.c:147 ../display/d.northarrow/main.c:123
+msgid "Line width"
+msgstr "Épaisseur de ligne"
+
+#: ../display/d.vect/main.c:152
+msgid "Name of numeric column containing line width"
+msgstr ""
+
+#: ../display/d.vect/main.c:153
+msgid "These values will be scaled by width_scale"
+msgstr ""
+
+#: ../display/d.vect/main.c:160
+msgid "Scale factor for width_column"
+msgstr ""
+
+#: ../display/d.vect/main.c:181
+msgid "When used with the size_column option this becomes the scale factor"
+msgstr ""
+
+#: ../display/d.vect/main.c:187
+msgid "Name of numeric column containing symbol size"
+msgstr ""
+
+#: ../display/d.vect/main.c:193
+msgid "Name of numeric column containing symbol rotation angle"
+msgstr ""
+
+#: ../display/d.vect/main.c:195
+msgid "Measured in degrees CCW from east"
+msgstr ""
+
+#: ../display/d.vect/main.c:205
+msgid "Area/boundary symbol for legend"
+msgstr ""
+
+#: ../display/d.vect/main.c:215
+msgid "Line symbol for legend"
+msgstr ""
+
+#: ../display/d.vect/main.c:221
+msgid "Label to display after symbol in vector legend"
+msgstr ""
+
+#: ../display/d.vect/main.c:227 ../display/d.vect/main.c:234
+#: ../display/d.vect/main.c:241 ../display/d.vect/main.c:246
+#: ../display/d.vect/main.c:253 ../display/d.vect/main.c:260
+#: ../display/d.vect/main.c:266 ../display/d.vect/main.c:272
+#: ../display/d.vect/main.c:278 ../display/d.vect/main.c:286
+msgid "Labels"
+msgstr ""
+
+#: ../display/d.vect/main.c:229
+msgid "Layer number for labels (default: the given layer number)"
+msgstr ""
+
+#: ../display/d.vect/main.c:235
+msgid "Name of column to be displayed as a label"
+msgstr ""
+
+#: ../display/d.vect/main.c:240
+msgid "Label color"
+msgstr "Couleur d'étiquette"
+
+#: ../display/d.vect/main.c:247
+msgid "Label background color"
+msgstr "Couleur de fond d'étiquette"
+
+#: ../display/d.vect/main.c:254
+msgid "Label border color"
+msgstr "Couleur de bord d'étiquette"
+
+#: ../display/d.vect/main.c:261
+msgid "Label size (pixels)"
+msgstr "Taille de l'étiquette (pixels)"
+
+#: ../display/d.vect/main.c:273
+msgid "Text encoding"
+msgstr ""
+
+#: ../display/d.vect/main.c:281
+msgid "Label horizontal justification"
+msgstr "Justification horizontale des étiquettes"
+
+#: ../display/d.vect/main.c:289
+msgid "Label vertical justification"
+msgstr "Justification verticale des étiquettes"
+
+#: ../display/d.vect/main.c:296
+msgid "Minimum region size (average from height and width) when map is displayed"
+msgstr "Taille minimum de la région (hauteur et largeur moyenne) quand la couche est affichée"
+
+#: ../display/d.vect/main.c:304
+msgid "Maximum region size (average from height and width) when map is displayed"
+msgstr "Taille maximum de la région (hauteur et largeur moyenne) quand la couche est affichée"
+
+#: ../display/d.vect/main.c:312
+msgid "Random colors according to category number (or layer number if 'layer=-1' is given)"
+msgstr "Couleurs aléatoires en fonction du code de catégorie (ou du code de la couche si 'layer=-1' "
+
+#: ../display/d.vect/main.c:319
+msgid "Use values from 'cats' option as feature id"
+msgstr ""
+
+#: ../display/d.vect/main.c:323
+msgid "Use square root of the value of size_column"
+msgstr ""
+
+#: ../display/d.vect/main.c:325
+msgid "This makes circle areas proportionate to the size_column values instead of circle radius"
+msgstr ""
+
+#: ../display/d.vect/main.c:350
+msgid "Region size is lower than minreg, nothing displayed"
+msgstr ""
+
+#: ../display/d.vect/main.c:358
+msgid "Region size is greater than maxreg, nothing displayed"
+msgstr ""
+
+#: ../display/d.vect/main.c:371
+#, c-format
+msgid "The -%c flag and <%s> option cannot be used together, the -%c flag will be ignored!"
+msgstr ""
+
+#: ../display/d.vect/main.c:395 ../display/d.vect/main.c:401
+#, c-format
+msgid "Option <%s> must be > 0"
+msgstr ""
+
+#: ../display/d.vect/main.c:405
+#, c-format
+msgid "%d error in cat option"
+msgid_plural "%d errors in cat option"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../display/d.vect/main.c:421
+msgid "Plotting..."
+msgstr ""
+
+#: ../display/d.vect/main.c:432
+msgid "The bounding box of the map is outside the current region, nothing drawn"
+msgstr ""
+
+#: ../display/d.vect/main.c:503
+msgid "Rendering failed"
+msgstr ""
+
+#: ../display/d.vect/shape.c:53
+#, c-format
+msgid "Both color table and <%s> option detected. Color table will ignored."
+msgstr ""
+
+#: ../display/d.vect/shape.c:68
+#, c-format
+msgid "Color definition column ('%s') not a string. Column must be of form 'RRR:GGG:BBB' where RGB values range 0-255. You can use '%s' module to define color rules. Unable to colorize features."
+msgstr ""
+
+#: ../display/d.vect/shape.c:77 ../display/d.vect/shape.c:100
+#: ../display/d.vect/shape.c:131 ../display/d.vect/shape.c:162
+#, c-format
+msgid "Unable to select data ('%s') from table"
+msgstr ""
+
+#: ../display/d.vect/shape.c:85
+msgid "Line width column not specified"
+msgstr ""
+
+#: ../display/d.vect/shape.c:96
+#, c-format
+msgid "Line width column ('%s') not a number"
+msgstr ""
+
+#: ../display/d.vect/shape.c:116
+msgid "Symbol size column not specified"
+msgstr ""
+
+#: ../display/d.vect/shape.c:127
+#, c-format
+msgid "Symbol size column ('%s') is not numeric"
+msgstr ""
+
+#: ../display/d.vect/shape.c:147
+msgid "Symbol rotation column not specified"
+msgstr ""
+
+#: ../display/d.vect/shape.c:158
+#, c-format
+msgid "Symbol rotation column ('%s') is not numeric"
+msgstr ""
+
+#: ../display/d.vect/shape.c:182
+msgid "Vector map is not 3D. Unable to colorize features based on z-coordinates."
+msgstr ""
+
+#: ../display/d.vect/shape.c:201
+msgid "Unable to colorize features, unknown map bounding box"
+msgstr ""
+
+#: ../display/d.vect/shape.c:338
+#, c-format
+msgid "Invalid negative value - feature %d with category %d"
+msgstr ""
+
+#: ../display/d.vect/attr.c:28
+msgid "attrcol not specified, cannot display attributes"
+msgstr ""
+
+#: ../display/d.vect/attr.c:129
+#, c-format
+msgid "No attribute found for cat %d: %s"
+msgstr ""
+
+#: ../display/d.vect/label.c:33
+msgid "Topology level required for drawing centroids for OGR layers"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:51
+msgid "Displays a north arrow on the graphics monitor."
+msgstr ""
+
+#: ../display/d.northarrow/main.c:55
+msgid "North arrow style"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:63
+msgid "Two color arrowhead"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:64
+msgid "Two color arrowhead with circle"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:65
+msgid "Narrow with blending N"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:65
+msgid "Long with small arrowhead"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:66
+msgid "Inverted narrow inside a circle"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:67
+msgid "Triangle and N inside a circle"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:68
+msgid "Arrowhead and N inside a circle"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:69
+msgid "Tall half convex arrowhead"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:70
+msgid "Tall half concave arrowhead"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:70
+msgid "Thin arrow in a circle"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:71
+msgid "Fat arrow in a circle"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:71
+msgid "One color arrowhead"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:72
+msgid "Fancy compass"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:72
+msgid "Basic compass"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:72
+msgid "Simple arrow"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:73
+msgid "Thin arrow"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:73
+msgid "Fat arrow"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:73
+msgid "4-point star"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:75 ../display/d.barscale/main.c:79
+#: ../display/d.barscale/main.c:88 ../display/d.barscale/main.c:149
+msgid "Style"
+msgstr "Style"
+
+#: ../display/d.northarrow/main.c:85 ../display/d.barscale/main.c:121
+msgid "Screen coordinates of the rectangle's top-left corner"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:86 ../display/d.barscale/main.c:122
+msgid "(0,0) is lower-left of the display frame"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:101
+msgid "Displayed letter on the top of arrow"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:110
+msgid "Fill color"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:150
+msgid "Draw the symbol without text"
+msgstr ""
+
+#: ../display/d.northarrow/main.c:163
+msgid "Do not rotate text with symbol"
+msgstr ""
+
+#: ../display/d.northarrow/draw_n_arrow.c:108
+#: ../display/d.northarrow/draw_n_arrow.c:174
+msgid "Could not parse symbol"
+msgstr ""
+
+#: ../display/d.northarrow/draw_n_arrow.c:200
+#: ../display/d.barscale/draw_scale.c:611
+#, c-format
+msgid "Could not read symbol \"%s\""
+msgstr ""
+
+#: ../display/d.extract/extract.c:43
+msgid "Select vector(s) with mouse"
+msgstr "Sélectionner la/les couche(s) vectorielle(s) avec la souris"
+
+#: ../display/d.extract/extract.c:44
+msgid " - L: draw box with left mouse button to select"
+msgstr " - L : dessiner la boîte avec le bouton gauche de la souris pour la sélectionner"
+
+#: ../display/d.extract/extract.c:45
+msgid " - M: draw box with middle mouse button to remove from display"
+msgstr " - M : dessiner la boîte avec le bouton du milieu de la souris pour la supprimer de l'affichage"
+
+#: ../display/d.extract/extract.c:46
+msgid " - R: quit and save selected vectors to new map\n"
+msgstr " - R : quitter et enregistrer les couches vectorielles sélectionnées dans une nouvelle zone d'affichage\n"
+
+#: ../display/d.extract/extract.c:48
+msgid "L: add  M: remove  R: quit and save\n"
+msgstr ""
+
+#: ../display/d.extract/main.c:52
+msgid "Selects and extracts vectors with mouse into new vector map."
+msgstr "Sélectionne et extraits des couches vectorielles avec la souris dans une nouvelle couche vectorielle."
+
+#: ../display/d.extract/main.c:65 ../display/d.path/main.c:99
+msgid "Original line color"
+msgstr ""
+
+#: ../display/d.extract/main.c:71 ../display/d.path/main.c:107
+msgid "Highlight color"
+msgstr ""
+
+#: ../display/d.extract/main.c:79 ../vector/v.label/main.c:233
+msgid "No graphics device selected"
+msgstr "Aucune sortie graphique n'est sélectionnée"
+
+#: ../display/d.extract/main.c:98 ../vector/v.lidar.edgedetection/main.c:180
+#: ../vector/v.lidar.correction/main.c:157
+#: ../vector/v.clean/test/topocheck.c:63 ../vector/v.surf.bspline/main.c:257
+#: ../vector/v.surf.bspline/main.c:326 ../vector/v.profile/main.c:359
+#: ../vector/v.profile/main.c:363 ../vector/v.edit/main.c:156
+#: ../vector/v.lrs/v.lrs.label/main.c:268
+#: ../vector/v.lrs/v.lrs.where/main.c:127
+#: ../vector/v.lrs/v.lrs.where/main.c:136
+#: ../vector/v.lrs/v.lrs.segment/main.c:140
+#: ../vector/v.lrs/v.lrs.create/main.c:251
+#: ../vector/v.lrs/v.lrs.create/main.c:260 ../vector/v.outlier/main.c:176
+#: ../vector/v.lidar.growing/main.c:126 ../vector/v.vect.stats/main.c:277
+#: ../vector/v.vect.stats/main.c:285 ../vector/v.colors/main.c:251
+#: ../general/g.region/main.c:492 ../doc/vector/v.example/main.c:75
+#: ../misc/m.nviz.image/vector.c:84 ../raster/r.walk/main.c:456
+#: ../raster/r.carve/main.c:158 ../raster/r.cost/main.c:362
+#: ../scripts/r.mask/r.mask.py:150 ../scripts/v.dissolve/v.dissolve.py:64
+#: ../scripts/v.pack/v.pack.py:60 ../scripts/v.report/v.report.py:79
+#: ../scripts/v.db.univar/v.db.univar.py:71
+#, c-format, python-format
+msgid "Vector map <%s> not found"
+msgstr "Carte vecteur <%s> non trouvée"
+
+#: ../display/d.extract/main.c:106 ../vector/v.in.lidar/main.c:555
+#: ../vector/v.lidar.edgedetection/main.c:251 ../vector/v.net.iso/main.c:356
+#: ../vector/v.parallel/main.c:153 ../vector/v.net.visibility/main.c:77
+#: ../vector/v.external/main.c:180 ../vector/v.lidar.correction/main.c:215
+#: ../vector/v.lidar.correction/main.c:221 ../vector/v.sample/main.c:162
+#: ../vector/v.segment/main.c:114 ../vector/v.net.connectivity/main.c:136
+#: ../vector/v.clean/main.c:288 ../vector/v.clean/main.c:295
+#: ../vector/v.buffer/main.c:405 ../vector/v.decimate/main.c:395
+#: ../vector/v.net.flow/main.c:149 ../vector/v.net.flow/main.c:155
+#: ../vector/v.net.bridge/main.c:124 ../vector/v.generalize/main.c:339
+#: ../vector/v.net.alloc/main.c:298 ../vector/v.surf.bspline/main.c:347
+#: ../vector/v.kernel/main.c:338 ../vector/v.profile/main.c:537
+#: ../vector/v.net.salesman/main.c:551 ../vector/v.build/main.c:154
+#: ../vector/v.hull/main.c:121 ../vector/v.delaunay/main.c:126
+#: ../vector/v.drape/main.c:158 ../vector/v.surf.rst/main.c:604
+#: ../vector/v.surf.rst/main.c:607 ../vector/v.surf.rst/main.c:786
+#: ../vector/v.perturb/main.c:154 ../vector/v.random/main.c:232
+#: ../vector/v.edit/main.c:108 ../vector/v.edit/main.c:123
+#: ../vector/v.in.db/main.c:151 ../vector/v.lrs/v.lrs.label/main.c:276
+#: ../vector/v.lrs/v.lrs.segment/main.c:148
+#: ../vector/v.lrs/v.lrs.create/main.c:267
+#: ../vector/v.lrs/v.lrs.create/main.c:273 ../vector/v.net.path/main.c:167
+#: ../vector/v.net.centrality/main.c:215 ../vector/v.outlier/main.c:229
+#: ../vector/v.outlier/main.c:234 ../vector/v.outlier/main.c:240
+#: ../vector/v.distance/main.c:416 ../vector/v.mkgrid/main.c:277
+#: ../vector/v.transform/main.c:265 ../vector/v.patch/main.c:346
+#: ../vector/v.patch/main.c:351 ../vector/v.in.ogr/main.c:938
+#: ../vector/v.net.spanningtree/main.c:107 ../vector/v.net.timetable/main.c:359
+#: ../vector/v.cluster/main.c:209 ../vector/v.proj/main.c:480
+#: ../vector/v.in.ascii/main.c:254 ../vector/v.to.3d/main.c:87
+#: ../vector/v.net.components/main.c:154 ../vector/v.to.points/main.c:158
+#: ../vector/v.qcount/main.c:127 ../vector/v.split/main.c:177
+#: ../vector/v.in.dwg/main.c:200 ../vector/v.in.dxf/main.c:146
+#: ../vector/v.extrude/main.c:196 ../vector/v.in.region/main.c:75
+#: ../vector/v.vol.rst/main.c:582 ../vector/v.vol.rst/main.c:585
+#: ../vector/v.extract/main.c:406 ../vector/v.rectify/main.c:217
+#: ../vector/v.build.polylines/main.c:156 ../vector/v.net.steiner/main.c:607
+#: ../vector/v.net.allpairs/main.c:136 ../vector/v.voronoi/main.c:221
+#: ../vector/v.voronoi/main.c:225 ../vector/v.reclass/main.c:117
+#: ../vector/v.overlay/main.c:222 ../vector/v.net.distance/main.c:198
+#: ../vector/v.select/main.c:155 ../doc/vector/v.example/main.c:100
+#: ../raster3d/r3.flow/main.c:396 ../raster/r.stream.extract/close.c:38
+#: ../raster/r.flow/io.c:178 ../raster/r.sim/simlib/output.c:46
+#: ../raster/r.sim/simlib/output.c:52 ../raster/r.drain/main.c:201
+#: ../raster/r.resamp.bspline/main.c:476 ../raster/r.carve/vect.c:32
+#: ../raster/r.random/random.c:63 ../raster/r.path/main.c:240
+#: ../raster/r.to.vect/main.c:157 ../raster/r.volume/main.c:155
+#: ../raster/r.contour/main.c:157 ../scripts/v.what.strds/v.what.strds.py:212
+#, c-format, python-format
+msgid "Unable to create vector map <%s>"
+msgstr "Impossible de créer la carte vecteur <%s>"
+
+#: ../display/d.extract/main.c:122
+msgid "Copying tables..."
+msgstr ""
+
+#: ../display/d.extract/main.c:130
+msgid "Cannot get db link info -> cannot copy table."
+msgstr ""
+
+#: ../display/d.colorlist/main.c:39
+msgid "Outputs a list of all available display colors."
+msgstr ""
+
+#: ../display/d.info/main.c:38
+msgid "Displays information about the active display monitor."
+msgstr ""
+
+#: ../display/d.info/main.c:40
+msgid "Display monitors are maintained by d.mon."
+msgstr ""
+
+#: ../display/d.info/main.c:45
+msgid "Display screen rectangle (left, right, top, bottom)"
+msgstr ""
+
+#: ../display/d.info/main.c:49
+msgid "Display screen dimensions (width, height)"
+msgstr ""
+
+#: ../display/d.info/main.c:53
+msgid "Display active frame rectangle"
+msgstr ""
+
+#: ../display/d.info/main.c:57
+msgid "Display frame dimensions (width, height)"
+msgstr ""
+
+#: ../display/d.info/main.c:61
+msgid "Display screen rectangle of current region"
+msgstr ""
+
+#: ../display/d.info/main.c:66
+msgid "Display geographic coordinates and resolution of entire frame"
+msgstr ""
+
+#: ../display/d.graph/do_graph.c:65 ../display/d.graph/do_graph.c:81
+#, c-format
+msgid "Problem parsing coordinates [%s]"
+msgstr "Problème d'interprétation des coordonnées [%s]"
+
+#: ../display/d.graph/do_graph.c:98
+msgid "Unable to read color"
+msgstr "Impossible de lire cette couleur"
+
+#: ../display/d.graph/do_graph.c:129 ../display/d.graph/do_graph.c:195
+#: ../display/d.graph/do_graph.c:216 ../display/d.graph/do_graph.c:267
+#: ../display/d.graph/do_graph.c:334 ../display/d.graph/graphics.c:60
+#, c-format
+msgid "Problem parsing command [%s]"
+msgstr "Problem pour interpréter la commande [%s]"
+
+#: ../display/d.graph/do_graph.c:377
+msgid "Cannot read symbol, cannot display points"
+msgstr "Impossible de lire le symbole, impossible d'afficher les points"
+
+#: ../display/d.graph/main.c:61
+msgid "Program for generating and displaying simple graphics on the display monitor."
+msgstr "Programme pour générer et afficher de simples graphiques dans le moniteur actif."
+
+#: ../display/d.graph/main.c:66
+msgid "Name of file containing graphics commands, if not given reads from standard input"
+msgstr "Nom du fichier contenant les commandes graphiques, s'il n'y en a pas, les prendre à partirde la ligne de commande"
+
+#: ../display/d.graph/main.c:73
+msgid "Color to draw with, either a standard GRASS color or R:G:B triplet"
+msgstr "Couleur pour le traçage, soit une couleur GRASS standard, soit un triplet R:G:B"
+
+#: ../display/d.graph/main.c:80
+msgid "Coordinates are given in map units"
+msgstr "Les coordonnées sont données en unités de la carte"
+
+#: ../display/d.graph/main.c:91
+#, c-format
+msgid "Graph file <%s> not found"
+msgstr "fichier graphique <%s> non trouvé"
+
+#: ../display/d.mon/list.c:80
+msgid "List of running monitors:"
+msgstr ""
+
+#: ../display/d.mon/list.c:82
+msgid "No monitors running"
+msgstr ""
+
+#: ../display/d.mon/list.c:116 ../scripts/d.what.vect/d.what.vect.py:35
+#: ../scripts/d.what.rast/d.what.rast.py:35 ../scripts/d.redraw/d.redraw.py:37
+#, c-format, python-format
+msgid "Unable to open file '%s'"
+msgstr ""
+
+#: ../display/d.mon/list.c:145
+#, c-format
+msgid "No support files found for monitor <%s>"
+msgstr ""
+
+#: ../display/d.mon/stop.c:18 ../display/d.mon/select.c:30
+#, c-format
+msgid "Monitor <%s> is not running"
+msgstr ""
+
+#: ../display/d.mon/stop.c:41
+#, c-format
+msgid "Unable to delete file <%s>"
+msgstr ""
+
+#: ../display/d.mon/stop.c:46
+#, c-format
+msgid "Unable to delete directory <%s>"
+msgstr ""
+
+#: ../display/d.mon/stop.c:75
+#, c-format
+msgid "Unable to read file <%s>"
+msgstr ""
+
+#: ../display/d.mon/main.c:53
+msgid "Controls graphics display monitors from the command line."
+msgstr ""
+
+#: ../display/d.mon/main.c:58
+msgid "Name of monitor to start"
+msgstr ""
+
+#: ../display/d.mon/main.c:60 ../display/d.mon/main.c:67
+#: ../display/d.mon/main.c:74 ../display/d.mon/main.c:135
+#: ../display/d.mon/main.c:140
+msgid "Manage"
+msgstr ""
+
+#: ../display/d.mon/main.c:65
+msgid "Name of monitor to stop"
+msgstr ""
+
+#: ../display/d.mon/main.c:72
+msgid "Name of monitor to select"
+msgstr ""
+
+#: ../display/d.mon/main.c:79
+msgid "Default value: 720"
+msgstr ""
+
+#: ../display/d.mon/main.c:87
+msgid "Default value: 480"
+msgstr ""
+
+#: ../display/d.mon/main.c:94
+msgid "Dimensions of display monitor versus current size"
+msgstr ""
+
+#: ../display/d.mon/main.c:95
+msgid "Example: resolution=2 enlarge display monitor twice to 1280x960"
+msgstr ""
+
+#: ../display/d.mon/main.c:108
+msgid "Name for output file (when starting new monitor)"
+msgstr ""
+
+#: ../display/d.mon/main.c:109
+msgid "Ignored for 'wx' monitors"
+msgstr ""
+
+#: ../display/d.mon/main.c:114
+msgid "List running monitors and exit"
+msgstr ""
+
+#: ../display/d.mon/main.c:119
+msgid "Print name of currently selected monitor and exit"
+msgstr ""
+
+#: ../display/d.mon/main.c:124
+msgid "Print commands for currently selected monitor and exit"
+msgstr ""
+
+#: ../display/d.mon/main.c:130
+msgid "Print path to support files of currently selected monitor and exit"
+msgstr ""
+
+#: ../display/d.mon/main.c:134
+msgid "Do not automatically select when starting"
+msgstr "Ne pas sélectionner automatiquement le moniteur au démarrage"
+
+#: ../display/d.mon/main.c:139
+msgid "Release and stop currently selected monitor and exit"
+msgstr ""
+
+#: ../display/d.mon/main.c:144
+msgid "Disable true colors"
+msgstr ""
+
+#: ../display/d.mon/main.c:149
+msgid "Open output file in update mode"
+msgstr ""
+
+#: ../display/d.mon/main.c:150
+msgid "Requires --overwrite flag"
+msgstr ""
+
+#: ../display/d.mon/main.c:155
+msgid "Launch light-weight wx monitor without toolbars and statusbar"
+msgstr ""
+
+#: ../display/d.mon/main.c:156
+msgid "Requires 'start=wx0-7'"
+msgstr ""
+
+#: ../display/d.mon/main.c:163
+#, c-format
+msgid "Flag -%c has effect only for wx monitors (%s=wx0-7)"
+msgstr ""
+
+#: ../display/d.mon/main.c:169 ../general/g.mapsets/main.c:136
+#: ../general/g.mapsets/main.c:138 ../general/g.mapsets/main.c:148
+#, c-format
+msgid "Flag -%c ignored"
+msgstr "Option '-%c' ignorée"
+
+#: ../display/d.mon/main.c:173
+msgid "Currently selected monitor:"
+msgstr ""
+
+#: ../display/d.mon/main.c:177
+#, c-format
+msgid "List of commands for monitor <%s>:"
+msgstr ""
+
+#: ../display/d.mon/main.c:185
+#, c-format
+msgid "Monitor <%s> released"
+msgstr ""
+
+#: ../display/d.mon/main.c:190
+msgid "No monitor selected"
+msgstr "Pas de moniteur sélectionné"
+
+#: ../display/d.mon/main.c:209
+#, c-format
+msgid "Either <%s>, <%s> or <%s> must be given"
+msgstr ""
+
+#: ../display/d.mon/main.c:214 ../general/g.mapsets/main.c:140
+#: ../general/g.mapsets/main.c:150 ../general/g.mapsets/main.c:158
+#, c-format
+msgid "Option <%s> ignored"
+msgstr "Option <%s> ignorée"
+
+#: ../display/d.mon/start.c:46 ../display/d.mon/start.c:74
+#: ../misc/m.nviz.image/main.c:75
+#, c-format
+msgid "File <%s> already exists and will be overwritten"
+msgstr ""
+
+#: ../display/d.mon/start.c:67
+#, c-format
+msgid "Unable to start monitor, don't have write permission for <%s>"
+msgstr ""
+
+#: ../display/d.mon/start.c:76
+#, c-format
+msgid "Unable to delete <%s>"
+msgstr ""
+
+#: ../display/d.mon/start.c:86 ../raster/r.external/main.c:182
+msgid "Unable to get current working directory"
+msgstr ""
+
+#: ../display/d.mon/start.c:93
+#, c-format
+msgid "Output file: %s"
+msgstr ""
+
+#: ../display/d.mon/start.c:148
+#, c-format
+msgid "Monitor <%s> already running"
+msgstr ""
+
+#: ../display/d.mon/start.c:151
+#, c-format
+msgid "Starting monitor <%s>..."
+msgstr ""
+
+#: ../display/d.mon/start.c:169
+msgid "Unable to copy render command file"
+msgstr ""
+
+#: ../display/d.mon/start.c:181 ../display/d.mon/start.c:224
+#: ../raster3d/r3.out.bin/main.c:321 ../raster/r.out.bin/main.c:144
+#: ../raster/r.out.bin/main.c:228 ../raster/r.out.bin/main.c:415
+#, c-format
+msgid "Unable to create file <%s>"
+msgstr "Impossible de créer le fichier <%s>"
+
+#: ../display/d.mon/select.c:14
+#, c-format
+msgid "Monitor <%s> is already selected"
+msgstr ""
+
+#: ../display/d.grid/fiducial.c:61
+msgid "Reading symbol"
+msgstr ""
+
+#: ../display/d.grid/main.c:54
+msgid "graticule"
+msgstr ""
+
+#: ../display/d.grid/main.c:55 ../vector/v.mkgrid/main.c:72
+msgid "grid"
+msgstr ""
+
+#: ../display/d.grid/main.c:57
+msgid "Overlays a user-specified grid in the active display frame on the graphics monitor."
+msgstr "Superpose une grille dont le pas est spécifié par l'utilisateur dans le moniteuractif."
+
+#: ../display/d.grid/main.c:65
+msgid "Size of grid to be drawn (in map units)"
+msgstr ""
+
+#: ../display/d.grid/main.c:67
+msgid "0 for north-south resolution of the current region. In map units or DDD:MM:SS format. Example: \"1000\" or \"0:10\""
+msgstr ""
+
+#: ../display/d.grid/main.c:75
+msgid "Lines of the grid pass through this coordinate"
+msgstr "Les lignes de la grille passent par ces coordonnées"
+
+#: ../display/d.grid/main.c:84
+msgid "Draw only east-west lines, north-south lines, or both "
+msgstr ""
+
+#: ../display/d.grid/main.c:85 ../display/d.grid/main.c:158
+#: ../display/d.grid/main.c:163 ../display/d.grid/main.c:168
+msgid "Disable"
+msgstr "Désactiver"
+
+#: ../display/d.grid/main.c:91
+msgid "Grid line width"
+msgstr ""
+
+#: ../display/d.grid/main.c:121
+msgid "Font size for gridline coordinate labels"
+msgstr ""
+
+#: ../display/d.grid/main.c:126
+msgid "Align the origin to the east-north corner of the current region"
+msgstr ""
+
+#: ../display/d.grid/main.c:131
+msgid "Draw geographic grid (referenced to current ellipsoid)"
+msgstr ""
+
+#: ../display/d.grid/main.c:132 ../display/d.grid/main.c:138
+#: ../display/d.grid/main.c:143 ../display/d.grid/main.c:148
+#: ../display/d.grid/main.c:153 ../misc/m.nviz.image/args.c:233
+#: ../misc/m.nviz.image/args.c:244 ../misc/m.nviz.image/args.c:255
+#: ../misc/m.nviz.image/args.c:267 ../misc/m.nviz.image/args.c:279
+#: ../misc/m.nviz.image/args.c:288 ../misc/m.nviz.image/args.c:298
+#: ../misc/m.nviz.image/args.c:608 ../misc/m.nviz.image/args.c:620
+msgid "Draw"
+msgstr "Dessiner"
+
+#: ../display/d.grid/main.c:137
+msgid "Draw geographic grid (referenced to WGS84 ellipsoid)"
+msgstr ""
+
+#: ../display/d.grid/main.c:142
+msgid "Draw '+' marks instead of grid lines"
+msgstr ""
+
+#: ../display/d.grid/main.c:147
+msgid "Draw '.' marks instead of grid lines"
+msgstr ""
+
+#: ../display/d.grid/main.c:152
+msgid "Draw fiducial marks instead of grid lines"
+msgstr ""
+
+#: ../display/d.grid/main.c:157
+msgid "Disable grid drawing"
+msgstr "Traçage de la grille désactivé"
+
+#: ../display/d.grid/main.c:162
+msgid "Disable border drawing"
+msgstr "Traçage de la bordure désactivé"
+
+#: ../display/d.grid/main.c:167
+msgid "Disable text drawing"
+msgstr "Traçage du texte désactivé"
+
+#: ../display/d.grid/main.c:177
+msgid "Both grid and border drawing are disabled"
+msgstr "Le traçage de la grille et de la bordure sont désactivés"
+
+#: ../display/d.grid/main.c:181
+msgid "Geo-grid option not available for LL projection, use without -g/-w"
+msgstr ""
+
+#: ../display/d.grid/main.c:183
+msgid "Geo-grid option not available for XY projection, use without -g/-w"
+msgstr ""
+
+#: ../display/d.grid/main.c:202
+msgid "Choose a single mark style"
+msgstr ""
+
+#: ../display/d.grid/main.c:233
+#, c-format
+msgid "Invalid geo-grid size <%s>"
+msgstr "Taille de géo-grid invalide <%s>"
+
+#: ../display/d.grid/main.c:238
+#, c-format
+msgid "Invalid grid size <%s>"
+msgstr "Taille de grille invalide <%s>"
+
+#: ../display/d.grid/main.c:258 ../raster3d/r3.in.bin/main.c:428
+#: ../raster/r.in.bin/main.c:525 ../raster/r.geomorphon/main.c:315
+#, c-format
+msgid "Illegal east coordinate <%s>"
+msgstr "Coordonnées est <%s> non autorisée"
+
+#: ../display/d.grid/main.c:265 ../raster3d/r3.in.bin/main.c:424
+#: ../raster/r.in.bin/main.c:521 ../raster/r.geomorphon/main.c:320
+#, c-format
+msgid "Illegal north coordinate <%s>"
+msgstr "Coordonnée nord <%s> non autorisée"
+
+#: ../display/d.grid/plot.c:289 ../display/d.grid/plot.c:296
+#: ../display/d.grid/plot.c:338 ../display/d.grid/plot.c:345
+#: ../display/d.grid/plot.c:433 ../display/d.grid/plot.c:440
+#: ../display/d.grid/plot.c:493 ../display/d.grid/plot.c:500
+#: ../display/d.grid/plot.c:650 ../display/d.grid/plot.c:667
+#: ../display/d.grid/plot.c:685 ../display/d.grid/plot.c:703
+#: ../display/d.grid/plot.c:764 ../display/d.grid/plot.c:771
+#: ../display/d.grid/plot.c:776 ../display/d.grid/plot.c:786
+#: ../display/d.grid/plot.c:791 ../display/d.where/where.c:63
+msgid "Error in GPJ_transform()"
+msgstr ""
+
+#: ../display/d.grid/plot.c:378
+msgid "Geo-grid option only available for LL projection, use without -g/-w"
+msgstr ""
+
+#: ../display/d.grid/plot.c:581
+msgid ""
+"WGS84 grid output not possible as this location does not contain\n"
+"datum transformation parameters. Try running g.setproj."
+msgstr ""
+
+#: ../display/d.grid/plot.c:595 ../display/d.where/main.c:141
+msgid "Unable to set up lat/long projection parameters"
+msgstr "Impossible de fixer les paramètres de projection latitude/longitude"
+
+#: ../display/d.linegraph/main.c:234
+msgid "Generates and displays simple line graphs in the active graphics monitor display frame."
+msgstr ""
+
+#: ../display/d.linegraph/main.c:238
+msgid "Name of data file for X axis of graph"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:244
+msgid "Name of data file(s) for Y axis of graph"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:251
+msgid "Path to files"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:253
+msgid "Path to the directory where the input files are located"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:261
+msgid "Color for Y data"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:274
+msgid "Width of the lines"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:281
+msgid "Color for axis, tics, numbers, and title"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:289
+msgid "Title for X data"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:296
+msgid "Title for Y data"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:303
+msgid "Title for Graph"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:311
+msgid "Minimum and maximun value for Y axis (min,max)"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:318
+msgid "Tic values for the Y axis"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:325
+msgid "Scale for X values"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:331
+msgid "Scale for Y values"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:352
+msgid "Symbol for point"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:361
+msgid "Point size"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:370
+msgid "Color for point symbol edge color"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:376
+msgid "Width of point symbol lines"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:437
+msgid "Maximum of 10 Y data files exceeded"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:494
+#, c-format
+msgid "Cannot find/open symbol: '%s'"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:511
+#, c-format
+msgid "Color <%s> cannot for option %s be parsed"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:549
+#, c-format
+msgid "Only <%d> colors given for <%d> lines"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:593
+#, c-format
+msgid "Number of widths (%d) is higher then the number of files (%d)"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:606
+#, c-format
+msgid "Number of widths (%d) is lower then the number of files (%d)"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:659
+#, c-format
+msgid "Y input file <%s> contains fewer data points than the X input file"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:663
+#, c-format
+msgid "Y input file <%s> contains more data points than the X input file"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:668
+#, c-format
+msgid "The last point will be ignored"
+msgid_plural "The last %d points will be ignored"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../display/d.linegraph/main.c:722
+#, c-format
+msgid "Scale X labels cannot be used with this range of data (%f, %f)"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:752
+#, c-format
+msgid "Problem reading X data file at line %d"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:764
+#, c-format
+msgid "Problem reading <%s> data file at line %d"
+msgstr ""
+
+#: ../display/d.linegraph/main.c:971
+#, c-format
+msgid "Scale Y labels cannot be used with this range of data (%f, %f)"
+msgstr ""
+
+#: ../display/d.path/main.c:52
+msgid "Finds shortest path for selected starting and ending node."
+msgstr ""
+
+#: ../display/d.path/main.c:60 ../vector/v.net.iso/main.c:124
+#: ../vector/v.net.alloc/main.c:103 ../vector/v.net.salesman/main.c:156
+#: ../vector/v.net.path/main.c:61 ../vector/v.net/args.c:63
+#: ../vector/v.net.steiner/main.c:363 ../vector/v.net.distance/main.c:89
+msgid "Arc type"
+msgstr ""
+
+#: ../display/d.path/main.c:70 ../vector/v.net.iso/main.c:117
+#: ../vector/v.net.connectivity/main.c:64 ../vector/v.net.flow/main.c:70
+#: ../vector/v.net.bridge/main.c:60 ../vector/v.net.alloc/main.c:96
+#: ../vector/v.net.salesman/main.c:149 ../vector/v.net.path/main.c:54
+#: ../vector/v.net.centrality/main.c:109 ../vector/v.net.spanningtree/main.c:59
+#: ../vector/v.net.timetable/main.c:274 ../vector/v.net/args.c:56
+#: ../vector/v.net.components/main.c:84 ../vector/v.net.steiner/main.c:368
+#: ../vector/v.net.allpairs/main.c:74 ../vector/v.net.distance/main.c:82
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgid "Arc layer"
 msgstr ""
 
@@ -63334,6 +65618,7 @@ msgstr[1] ""
 #: ../vector/v.kernel/main.c:388
 #, c-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Cannot select attributes for cat = %d"
 msgstr "Impossible de sélectionner les attributs pour cat = %d"
 
@@ -63373,13 +65658,58 @@ msgstr ""
 #: ../vector/v.out.vtk/writeVTK.c:732 ../vector/v.out.vtk/writeVTK.c:763
 #: ../vector/v.out.vtk/writeVTK.c:794 ../vector/v.out.vtk/writeVTK.c:823
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgid ""
 "Automatic choice of smoothing parameter (radius), maximum possible value of "
 "radius is set to %f"
 msgstr ""
 
 #: ../vector/v.kernel/main.c:398
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+msgid "Cannot select attributes for cat = %d"
+msgstr "Impossible de sélectionner les attributs pour cat = %d"
+
+#: ../vector/v.out.vtk/writeVTK.c:589 ../vector/v.out.svg/main.c:401
+#: ../vector/v.lrs/v.lrs.label/main.c:331 ../vector/v.out.ogr/attrb.c:53
+#: ../vector/v.overlay/main.c:503
+msgid "Unable to fetch data from table"
+msgstr "Impossible de récupérer les données depuis la table"
+
+#: ../vector/v.out.vtk/writeVTK.c:632
+msgid "Cannot export attribute table fields for layer < 1. Skipping export"
+msgstr ""
+
+#: ../vector/v.out.vtk/writeVTK.c:640
+msgid "No attribute table found"
+msgstr ""
+
+#: ../vector/v.out.vtk/writeVTK.c:655 ../vector/v.out.svg/main.c:166
+#: ../vector/v.profile/main.c:433 ../vector/v.profile/main.c:586
+#: ../vector/v.out.postgis/table.c:41 ../vector/v.info/print.c:169
+#: ../vector/v.random/main.c:285 ../vector/v.random/main.c:319
+#: ../vector/v.out.ogr/main.c:762 ../vector/v.patch/main.c:169
+#: ../vector/v.patch/main.c:215 ../vector/v.db.connect/main.c:231
+#: ../vector/v.in.ascii/main.c:443 ../vector/v.extract/main.c:233
+#: ../vector/v.to.db/main.c:148 ../vector/v.to.db/main.c:174
+#: ../vector/v.reclass/main.c:193 ../doc/vector/v.example/main.c:142
+#: ../db/db.columns/main.c:62 ../db/db.describe/main.c:67
+#: ../scripts/db.univar/db.univar.py:107
+#, c-format, python-format
+msgid "Unable to describe table <%s>"
+msgstr "Impossible de décrire la table <%s>"
+
+#: ../vector/v.out.vtk/writeVTK.c:673
+msgid "No numerical attributes found. Skipping export"
+msgstr ""
+
+#: ../vector/v.out.vtk/writeVTK.c:732 ../vector/v.out.vtk/writeVTK.c:763
+#: ../vector/v.out.vtk/writeVTK.c:794 ../vector/v.out.vtk/writeVTK.c:823
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 #, c-format
 msgid "Using maximum distance between points: %f"
 msgstr "Distance maximum entre les points en unités carte :%f"
@@ -63789,6 +66119,7 @@ msgid ""
 msgstr ""
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../vector/v.external/list.c:94 ../vector/v.external.out/list.c:102
 #: ../vector/v.out.ogr/list.c:116 ../vector/v.in.ogr/main.c:442
 #: ../raster/r.in.gdal/main.c:314 ../raster/r.external/list.c:23
@@ -63816,6 +66147,35 @@ msgstr ""
 #: ../vector/v.in.db/main.c:228 ../display/d.vect.chart/plot.c:83
 #: ../display/d.vect/attr.c:109
 >>>>>>> osgeo-main
+=======
+#: ../vector/v.in.db/main.c:228 ../display/d.vect.chart/plot.c:83
+#: ../display/d.vect/attr.c:109
+=======
+#: ../vector/v.external/list.c:94 ../vector/v.external.out/list.c:102
+#: ../vector/v.out.ogr/list.c:116 ../vector/v.in.ogr/main.c:442
+#: ../raster/r.in.gdal/main.c:314 ../raster/r.external/list.c:23
+msgid "Supported formats:"
+msgstr "Formats supportés : "
+
+#: ../vector/v.external/list.c:111
+msgid "GRASS is not compiled with PostgreSQL support"
+msgstr ""
+
+#: ../vector/v.external/list.c:117
+msgid "GRASS is not compiled with OGR support"
+msgstr ""
+
+#: ../vector/v.external/list.c:158
+msgid "Connection to PostgreSQL database failed."
+msgstr ""
+
+#: ../vector/v.external/list.c:168
+msgid "No feature tables found in database."
+msgstr ""
+
+#: ../vector/v.external/list.c:179
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 #, c-format
 msgid "Unable to open select cursor: '%s'"
 msgstr ""
@@ -65730,6 +68090,7 @@ msgstr ""
 #: ../vector/v.surf.idw/read_sites.c:126
 #, c-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Mean = %.5lf"
 msgstr ""
 
@@ -66126,6 +68487,404 @@ msgid_plural "%d points outside threshold"
 msgid "%ld point loaded"
 msgid_plural "%ld points loaded"
 >>>>>>> osgeo-main
+=======
+msgid "%ld point loaded"
+msgid_plural "%ld points loaded"
+=======
+msgid "Mean = %.5lf"
+msgstr ""
+
+#: ../vector/v.surf.bspline/crosscorr.c:296
+#: ../raster/r.resamp.bspline/crosscorr.c:307
+#, c-format
+msgid "Root Mean Square (RMS) = %.5lf"
+msgstr ""
+
+#: ../vector/v.surf.bspline/crosscorr.c:313
+#: ../raster/r.resamp.bspline/crosscorr.c:324
+msgid "Different number of splines and lambda_i values have been taken for the cross correlation"
+msgstr ""
+
+#: ../vector/v.surf.bspline/crosscorr.c:315
+#: ../raster/r.resamp.bspline/crosscorr.c:326
+#, c-format
+msgid "The minimum value for the test (rms=%lf) was obtained with: lambda_i = %.3f"
+msgstr ""
+
+#: ../vector/v.surf.bspline/crosscorr.c:323
+#: ../raster/r.resamp.bspline/crosscorr.c:334
+msgid "Table of results:"
+msgstr ""
+
+#: ../vector/v.surf.bspline/crosscorr.c:324
+#: ../raster/r.resamp.bspline/crosscorr.c:335
+#, c-format
+msgid "    lambda |       mean |        rms |\n"
+msgstr ""
+
+#: ../vector/v.surf.bspline/crosscorr.c:334
+#: ../raster/r.resamp.bspline/crosscorr.c:345
+msgid "No point lies into the current region"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:96
+msgid "Performs bicubic or bilinear spline interpolation with Tykhonov regularization."
+msgstr "Effectue une interpolation spline bicubique ou bilinéaire avec régularisation de Tykhonov."
+
+#: ../vector/v.surf.bspline/main.c:101 ../raster/r.resamp.bspline/main.c:147
+msgid "Find the best Tykhonov regularizing parameter using a \"leave-one-out\" cross validation method"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:105 ../vector/v.outlier/main.c:79
+msgid "Estimate point density and distance"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:118 ../vector/v.surf.rst/main.c:187
+msgid "Name of the attribute column with values to be used for approximation"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:119
+msgid "If not given and input is 3D vector map then z-coordinates are used."
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:126
+msgid "Name of input vector map with sparse points"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:130 ../vector/v.surf.bspline/main.c:135
+#: ../vector/v.surf.rst/main.c:175 ../vector/v.surf.rst/main.c:199
+#: ../vector/v.surf.rst/main.c:205 ../vector/v.surf.rst/main.c:211
+#: ../vector/v.surf.rst/main.c:217 ../vector/v.surf.rst/main.c:223
+#: ../vector/v.surf.rst/main.c:229 ../vector/v.surf.rst/main.c:235
+#: ../vector/v.surf.rst/main.c:242 ../vector/v.surf.rst/main.c:249
+#: ../vector/v.surf.rst/main.c:256 ../vector/v.vol.rst/main.c:293
+#: ../vector/v.vol.rst/main.c:299 ../vector/v.vol.rst/main.c:362
+#: ../vector/v.vol.rst/main.c:368 ../vector/v.vol.rst/main.c:374
+#: ../vector/v.vol.rst/main.c:381 ../vector/v.vol.rst/main.c:387
+#: ../vector/v.vol.rst/main.c:393 ../vector/v.vol.rst/main.c:399
+#: ../vector/v.vol.rst/main.c:405 ../raster/r.watershed/front/main.c:148
+#: ../raster/r.watershed/front/main.c:155
+#: ../raster/r.watershed/front/main.c:161
+#: ../raster/r.watershed/front/main.c:168
+#: ../raster/r.watershed/front/main.c:174
+#: ../raster/r.watershed/front/main.c:180
+#: ../raster/r.watershed/front/main.c:187
+#: ../raster/r.watershed/front/main.c:194
+#: ../raster/r.watershed/front/main.c:201 ../raster/r.slope.aspect/main.c:184
+#: ../raster/r.slope.aspect/main.c:190 ../raster/r.slope.aspect/main.c:214
+#: ../raster/r.slope.aspect/main.c:221 ../raster/r.slope.aspect/main.c:228
+#: ../raster/r.slope.aspect/main.c:235 ../raster/r.slope.aspect/main.c:242
+#: ../raster/r.slope.aspect/main.c:249 ../raster/r.slope.aspect/main.c:256
+msgid "Outputs"
+msgstr "Sorties"
+
+#: ../vector/v.surf.bspline/main.c:139
+msgid "Raster map to use for masking (applies to raster output only)"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:140 ../raster/r.resamp.bspline/main.c:102
+msgid "Only cells that are not NULL and not zero are interpolated"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:163 ../raster/r.resamp.bspline/main.c:122
+msgid "Spline interpolation algorithm"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:171 ../raster/r.resamp.bspline/main.c:129
+msgid "Bicubic interpolation"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:201
+msgid "Choose either vector or raster output, not both"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:204
+msgid "No raster or vector or cross-validation output"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:225
+msgid "Unable to set default DB connection"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:230
+msgid "No default DB defined"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:261 ../vector/v.surf.bspline/main.c:330
+#: ../vector/v.outlier/main.c:205
+#, c-format
+msgid "Unable to open vector map <%s> at the topological level"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:271 ../vector/v.surf.rst/main.c:578
+msgid "Input is 3D: using attribute values instead of z-coordinates for approximation"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:273 ../vector/v.surf.rst/main.c:580
+msgid "Input is 3D: using z-coordinates for approximation"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:277
+#, c-format
+msgid "Input vector map is 2D. Parameter <%s> required."
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:289
+#, c-format
+msgid "Estimated point density: %.4g"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:290
+#, c-format
+msgid "Estimated mean distance between points: %.4g"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:293
+#, c-format
+msgid "No points in current region"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:307 ../raster/r.resamp.bspline/main.c:363
+msgid "Cross validation didn't finish correctly"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:313 ../raster/r.resamp.bspline/main.c:367
+#, c-format
+msgid "Cross validation finished for ew_step = %f and ns_step = %f"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:322
+#, c-format
+msgid "Vector map <%s> of sparse points will be interpolated"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:338
+#, c-format
+msgid "Sorry, the <%s> driver is not compatible with the vector output of this module. Try with raster output or another driver."
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:361
+#, c-format
+msgid "Points in input vector map <%s> will be interpolated"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:368
+msgid "Reading values from attribute table..."
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:372
+msgid "Cannot read layer info"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:394 ../vector/v.normal/main.c:135
+#, c-format
+msgid "%d records selected from table"
+msgstr "%d enregistrements sélectionnés dans le tableau"
+
+#: ../vector/v.surf.bspline/main.c:414
+#, c-format
+msgid "Interpolation: Creating table: It was impossible to create table <%s>."
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:431
+#, c-format
+msgid "Cells for raster map <%s> will be interpolated"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:454 ../raster/r.resamp.bspline/main.c:298
+msgid "Memory in MB must be >= 3"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:468 ../vector/v.surf.bspline/main.c:491
+#: ../raster/r.resamp.bspline/main.c:314 ../raster/r.resamp.bspline/main.c:392
+#: ../raster/r.resamp.bspline/main.c:459 ../raster/r.walk/main.c:599
+#: ../raster/r.walk/main.c:604 ../raster/r.walk/main.c:613
+#: ../raster/r.cost/main.c:475 ../raster/r.cost/main.c:480
+#: ../raster/r.cost/main.c:488
+msgid "Can not create temporary file"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:471 ../raster/r.resamp.bspline/main.c:462
+msgid "Initializing output..."
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:486
+msgid "Load masking map"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:609 ../vector/v.outlier/main.c:357
+#, c-format
+msgid "Processing subregion %d of %d..."
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:693
+#, c-format
+msgid "%d points found in this subregion"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:740
+#, c-format
+msgid "Interpolation: (%d,%d): No record for point (cat = %d)"
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:876 ../vector/v.outlier/main.c:450
+msgid "No data within this subregion. Consider increasing spline step values."
+msgstr ""
+
+#: ../vector/v.surf.bspline/main.c:882 ../vector/v.out.postgis/main.c:178
+#: ../vector/v.net.components/main.c:213 ../raster/r.resamp.bspline/main.c:723
+msgid "Writing output..."
+msgstr "Écriture de la sortie ..."
+
+#: ../vector/v.kernel/main.c:68
+#, c-format
+msgid "\tScore Value=%f\tsmoothing parameter (standard deviation)=%f"
+msgstr "\tScore Value=%f\t paramètre de lissage (écart type)=%f"
+
+#: ../vector/v.kernel/main.c:111
+msgid "point density"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:113
+msgid "hotspot"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:115
+msgid "Generates a raster density map from vector points map."
+msgstr ""
+
+#: ../vector/v.kernel/main.c:116
+msgid "Density is computed using a moving kernel. Optionally generates a vector density map on a vector network."
+msgstr ""
+
+#: ../vector/v.kernel/main.c:120
+msgid "Name of input vector map with training points"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:126
+msgid "Name of input network vector map"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:129 ../vector/v.kernel/main.c:143
+#: ../vector/v.kernel/main.c:165 ../vector/v.kernel/main.c:173
+#: ../vector/v.kernel/main.c:195 ../vector/v.kernel/main.c:220
+#: ../vector/v.kernel/main.c:226
+msgid "Network"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:141
+msgid "Name for output vector density map"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:142
+msgid "Outputs vector map if network map is given"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:149
+msgid "Kernel radius in map units"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:156
+msgid "Discretization error in map units"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:163
+msgid "Maximum length of segment on network"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:171
+msgid "Maximum distance from point to network"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:179
+msgid "Multiply the density result by this number"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:186
+msgid "Node method"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:192
+msgid "No method applied at nodes with more than 2 arcs"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:193
+msgid "Equal split (Okabe 2009) applied at nodes"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:201
+msgid "Kernel function"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:209
+msgid "Try to calculate an optimal radius with given 'radius' taken as maximum (experimental)"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:214
+msgid "Only calculate optimal radius and exit (no map is written)"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:219
+msgid "In network mode, normalize values by sum of density multiplied by length of each segment. Integral over the output map then gives 1.0 * multiplier"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:225
+msgid "In network mode, multiply the result by number of input points"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:238
+msgid "Use option net_output if you compute network density. Name provided in option output will be used for net_output."
+msgstr ""
+
+#: ../vector/v.kernel/main.c:257
+msgid "Unknown node method"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:275
+msgid "Unknown kernel function"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:281
+msgid "Optimal standard deviation calculation is supported only for node method 'none' and kernel function 'gaussian'."
+msgstr ""
+
+#: ../vector/v.kernel/main.c:285
+msgid "Optimal standard deviation calculation is supported only for kernel function 'gaussian'."
+msgstr ""
+
+#: ../vector/v.kernel/main.c:302
+#, c-format
+msgid "Standard deviation: %f"
+msgstr ""
+
+#. GTC Count of window columns
+#. GTC Count of raster columns
+#. GTC Count of window columns
+#: ../vector/v.kernel/main.c:304 ../vector/v.surf.idw/main.c:261
+#: ../raster/r.thin/io.c:107 ../raster/r.thin/io.c:174
+#: ../raster/r.thin/io.c:183
+#, c-format
+msgid "%d column"
+msgid_plural "%d columns"
+msgstr[0] "%d colonne"
+msgstr[1] "%d colonnes"
+
+#: ../vector/v.kernel/main.c:307
+#, c-format
+msgid "Output raster map: resolution: %f\t%s\t%s"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:310
+#, c-format
+msgid "Output raster map resolution: %f"
+msgstr ""
+
+#: ../vector/v.kernel/main.c:358
+#, c-format
+msgid "%d point outside threshold"
+msgid_plural "%d points outside threshold"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgstr[0] ""
 msgstr[1] ""
 
@@ -69120,6 +71879,7 @@ msgid ""
 msgstr ""
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../vector/v.out.postgis/args.c:66
 msgid "Do not export attribute table"
 msgstr "Ne pas exporter de table attributaire"
@@ -69141,6 +71901,29 @@ msgstr ""
 =======
 #: ../vector/v.external.out/link.c:97
 >>>>>>> osgeo-main
+=======
+#: ../vector/v.external.out/link.c:97
+=======
+#: ../vector/v.out.postgis/args.c:66
+msgid "Do not export attribute table"
+msgstr "Ne pas exporter de table attributaire"
+
+#: ../vector/v.out.postgis/args.c:72
+msgid "Export PostGIS topology instead of simple features"
+msgstr ""
+
+#: ../vector/v.out.postgis/args.c:77
+msgid "Force 2D output even if input is 3D "
+msgstr ""
+
+#: ../vector/v.out.postgis/args.c:78 ../vector/v.out.ogr/args.c:114
+#: ../vector/v.in.ogr/main.c:377
+msgid "Useful if input is 3D but all z coordinates are identical"
+msgstr ""
+
+#: ../vector/v.out.postgis/create.c:28
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 #, c-format
 msgid "Switched to OGR format (%s)"
 msgstr ""
@@ -69208,15 +71991,25 @@ msgstr ""
 #: ../vector/v.what.rast/main.c:268 ../vector/v.to.db/main.c:422
 #, c-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unable to open vector map <%s> on topological level"
 msgstr "Impossible d'ouvrir la carte vecteur <%s> au niveau topologique"
 =======
 msgid "Unable to write history for vector map <%s>"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+msgid "Unable to write history for vector map <%s>"
+msgstr ""
+=======
+msgid "Unable to open vector map <%s> on topological level"
+msgstr "Impossible d'ouvrir la carte vecteur <%s> au niveau topologique"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../vector/v.what.rast/main.c:276
 #, c-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Unable to create PostGIS layer <%s>"
 msgstr "Impossible de créer la couche PostGIS <%s>"
@@ -69224,9 +72017,18 @@ msgstr "Impossible de créer la couche PostGIS <%s>"
 msgid "No features of type (%s) found in the current computational region"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+msgid "No features of type (%s) found in the current computational region"
+msgstr ""
+=======
+msgid "Unable to create PostGIS layer <%s>"
+msgstr "Impossible de créer la couche PostGIS <%s>"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../vector/v.what.rast/main.c:300
 #, c-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Feature type '%s' not supported"
 msgstr "Type d'entité '%s' non supporté"
@@ -69234,9 +72036,18 @@ msgstr "Type d'entité '%s' non supporté"
 msgid "%d points outside current region were skipped"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+msgid "%d points outside current region were skipped"
+msgstr ""
+=======
+msgid "Feature type '%s' not supported"
+msgstr "Type d'entité '%s' non supporté"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../vector/v.what.rast/main.c:304
 #, c-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Feature type %d is not supported"
 msgstr "Type d'entité %d non supporté"
@@ -69247,11 +72058,26 @@ msgstr "Échec de la copie des objets"
 
 #: ../vector/v.out.postgis/main.c:185
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgid "%d points without category were skipped"
 msgstr ""
 
 #: ../vector/v.what.rast/main.c:559 ../vector/v.what.rast/main.c:601
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+msgid "Feature type %d is not supported"
+msgstr "Type d'entité %d non supporté"
+
+#: ../vector/v.out.postgis/main.c:172
+msgid "Copying features failed"
+msgstr "Échec de la copie des objets"
+
+#: ../vector/v.out.postgis/main.c:185
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 #, c-format
 msgid "Multiple points (%d) of category %d, value set to 'NULL'"
 msgstr ""
@@ -70188,14 +73014,24 @@ msgstr[1] ""
 #: ../vector/v.lrs/v.lrs.segment/main.c:362
 #, c-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "No database connection for layer <%s>"
 msgstr "Connexion à la base de données non définie pour la couche <%s>"
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgid "[%d] line read from input"
 msgid_plural "[%d] lines read from input"
 msgstr[0] ""
 msgstr[1] ""
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+msgid "No database connection for layer <%s>"
+msgstr "Connexion à la base de données non définie pour la couche <%s>"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #. GTC %s will be replaced with a message about lost lines.
 #: ../vector/v.lrs/v.lrs.segment/main.c:368
@@ -73314,6 +76150,7 @@ msgid "Option %s cannot be combined with %s=%s"
 msgstr ""
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../vector/v.edit/select.c:160
 #, c-format
 msgid "Threshold value for querying is %.2f"
@@ -73958,11 +76795,661 @@ msgstr ""
 msgid "Invalid out_type enumeration: %d"
 msgstr ""
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 #: ../vector/v.fill.holes/main.c:176
 #, fuzzy, c-format
 msgid "Copying attributes for layer <%s>"
 msgstr "Mise à jour des statistiques pour <%s>"
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+#: ../vector/v.edit/select.c:160
+#, c-format
+msgid "Threshold value for querying is %.2f"
+msgstr ""
+
+#: ../vector/v.edit/select.c:176
+#, c-format
+msgid "%d of %d feature selected from vector map <%s>"
+msgid_plural "%d of %d features selected from vector map <%s>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../vector/v.edit/select.c:496
+msgid "Layer must be > 0 for 'where'"
+msgstr ""
+
+#: ../vector/v.in.db/main.c:57
+msgid "Creates new vector (points) map from database table containing coordinates."
+msgstr "Crée une nouvelle carte vecteur (points) à partir d'une table de base de données contenant des coordonnées."
+
+#: ../vector/v.in.db/main.c:61
+msgid "Input table name"
+msgstr "Nom de la table source"
+
+#: ../vector/v.in.db/main.c:66 ../vector/v.in.db/main.c:70
+msgid "Input DB"
+msgstr ""
+
+#: ../vector/v.in.db/main.c:75
+msgid "Name of column containing x coordinate"
+msgstr ""
+
+#: ../vector/v.in.db/main.c:80
+msgid "Name of column containing y coordinate"
+msgstr ""
+
+#: ../vector/v.in.db/main.c:84
+msgid "Name of column containing z coordinate"
+msgstr ""
+
+#: ../vector/v.in.db/main.c:90
+msgid "Name of column containing category number"
+msgstr ""
+
+#: ../vector/v.in.db/main.c:91
+msgid "Must refer to an integer column"
+msgstr ""
+
+#: ../vector/v.in.db/main.c:101
+msgid "Use imported table as attribute table for new map"
+msgstr ""
+
+#: ../vector/v.in.db/main.c:141
+#, c-format
+msgid "Vector map <%s> cannot be overwritten because input table <%s> is linked to this map."
+msgstr ""
+
+#: ../vector/v.in.db/main.c:177
+#, c-format
+msgid "Output vector map, table <%s> (driver: <%s>, database: <%s>) already exists"
+msgstr ""
+
+#: ../vector/v.in.db/main.c:190 ../vector/v.db.connect/main.c:299
+msgid "Data type of key column must be integer"
+msgstr ""
+
+#: ../vector/v.in.db/main.c:194
+#, c-format
+msgid "Option <%s> must be specified when -%c flag is given"
+msgstr ""
+
+#: ../vector/v.in.db/main.c:199
+#, c-format
+msgid "Unable to define key column. This operation is not supported by <%s> driver. You need to define <%s> option."
+msgstr ""
+
+#: ../vector/v.in.db/main.c:235 ../vector/v.voronoi/main.c:430
+msgid "Writing features..."
+msgstr ""
+
+#: ../vector/v.in.db/main.c:243
+msgid "Key column must be integer"
+msgstr "La clef primaire doit être un entier"
+
+#: ../vector/v.in.db/main.c:256
+msgid "x/y/z column must be integer or double"
+msgstr "Les colonnes x/y/z doivent être des entiers ou des doubles"
+
+#: ../vector/v.in.db/main.c:282 ../vector/v.transform/main.c:302
+#: ../vector/v.net/main.c:156 ../vector/v.to.3d/main.c:96
+#: ../vector/v.to.3d/main.c:117
+msgid "Copying attributes..."
+msgstr ""
+
+#: ../vector/v.in.db/main.c:288
+msgid "Unable to copy table"
+msgstr ""
+
+#: ../vector/v.in.db/main.c:313
+#, c-format
+msgid "Unable to add key column <%s>: SERIAL type is not supported by <%s>"
+msgstr ""
+
+#: ../vector/v.in.db/main.c:324
+#, c-format
+msgid "Failed to update key column <%s>"
+msgstr ""
+
+#: ../vector/v.in.db/main.c:340
+#, c-format
+msgid "%d point written to vector map."
+msgid_plural "%d points written to vector map."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:103 ../vector/v.lrs/v.lrs.where/main.c:58
+#: ../vector/v.lrs/v.lrs.segment/main.c:72
+#: ../vector/v.lrs/v.lrs.create/main.c:122
+msgid "linear reference system"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:105
+msgid "Creates stationing from input lines, and linear reference system."
+msgstr "Créer des placement à partir de lignes, et d'un système de référence linéaire"
+
+#: ../vector/v.lrs/v.lrs.label/main.c:109 ../vector/v.lrs/v.lrs.where/main.c:66
+#: ../vector/v.lrs/v.lrs.segment/main.c:79
+#: ../vector/v.lrs/v.lrs.create/main.c:128
+msgid "Input vector map containing lines"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:113
+msgid "Output vector map where stationing will be written"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:118 ../vector/v.lrs/v.lrs.where/main.c:75
+#: ../vector/v.lrs/v.lrs.segment/main.c:88
+#: ../vector/v.lrs/v.lrs.create/main.c:147
+msgid "Line layer"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:124 ../vector/v.lrs/v.lrs.where/main.c:86
+#: ../vector/v.lrs/v.lrs.segment/main.c:94
+#: ../vector/v.lrs/v.lrs.create/main.c:207
+msgid "Driver name for reference system table"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:132 ../vector/v.lrs/v.lrs.where/main.c:94
+#: ../vector/v.lrs/v.lrs.segment/main.c:102
+#: ../vector/v.lrs/v.lrs.create/main.c:215
+msgid "Database name for reference system table"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:139
+#: ../vector/v.lrs/v.lrs.where/main.c:101
+#: ../vector/v.lrs/v.lrs.segment/main.c:109
+msgid "Name of the reference system table"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:147
+msgid "Label file"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:156
+msgid "PM left, MP right, stationing left, stationing right offset"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:161
+msgid "Offset label in label x-direction in map units"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:168
+msgid "Offset label in label y-direction in map units"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:174 ../vector/v.label/main.c:113
+msgid "Reference position"
+msgstr "Position de référence"
+
+#: ../vector/v.lrs/v.lrs.label/main.c:181 ../vector/v.label.sa/main.c:72
+#: ../vector/v.label.sa/main.c:80 ../vector/v.label/main.c:125
+#: ../vector/v.label/main.c:132 ../vector/v.label/main.c:140
+#: ../vector/v.label/main.c:148
+msgid "Font"
+msgstr "Police"
+
+#: ../vector/v.lrs/v.lrs.label/main.c:187 ../vector/v.label.sa/main.c:77
+#: ../vector/v.label/main.c:129
+msgid "Label size (in map-units)"
+msgstr "Taille de l'étiquette (en unités de la carte)"
+
+#: ../vector/v.lrs/v.lrs.label/main.c:197
+msgid "Line width of text"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:198
+#: ../vector/v.lrs/v.lrs.label/main.c:211
+msgid "Only for d.label output"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:205 ../vector/v.label.sa/main.c:107
+#: ../vector/v.label/main.c:174
+msgid "Highlight color for text"
+msgstr "Couleur de mise en valeur du texte"
+
+#: ../vector/v.lrs/v.lrs.label/main.c:210
+msgid "Line width of highlight color"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:228
+msgid "Opaque to vector"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:229
+msgid "Only relevant if background color is selected"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:292
+#: ../vector/v.lrs/v.lrs.where/main.c:147
+#: ../vector/v.lrs/v.lrs.segment/main.c:155
+#: ../vector/v.lrs/v.lrs.create/main.c:315
+msgid "Unable to open database for reference table"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:322
+#, c-format
+msgid "Unable to select records from LRS table: %s"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:412
+msgid "No record in LR table"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.label/main.c:416
+msgid "More than one record in LR table"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.where/main.c:61
+msgid "Finds line id and real km+offset for given points in vector map using linear reference system."
+msgstr "Trouvez l'id de ligne et le km réel pour les points donnés de la carte vectorielle en utilisant un système de référence linéaire"
+
+#: ../vector/v.lrs/v.lrs.where/main.c:70
+msgid "Input vector map containing points"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.where/main.c:80
+#: ../vector/v.lrs/v.lrs.create/main.c:151
+msgid "Point layer"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.where/main.c:108
+msgid "Maximum distance to nearest line"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.where/main.c:222
+#: ../vector/v.lrs/v.lrs.segment/main.c:357
+#, c-format
+msgid "[%d] point read from input"
+msgid_plural "[%d] points read from input"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../vector/v.lrs/v.lrs.where/main.c:225
+#, c-format
+msgid "[%d] position found"
+msgid_plural "[%d] positions found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../vector/v.lrs/v.lrs.where/main.c:229
+#, c-format
+msgid "[%d] point outside threshold"
+msgid_plural "[%d] points outside threshold"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../vector/v.lrs/v.lrs.where/main.c:233
+#, c-format
+msgid "[%d] point - no record found"
+msgid_plural "[%d] points - no record found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../vector/v.lrs/v.lrs.where/main.c:237
+#, c-format
+msgid "[%d] point - too many records found"
+msgid_plural "[%d] points - too many records found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:75
+msgid "Creates points/segments from input lines, linear reference system and positions read from stdin or a file."
+msgstr "Créer des points/segments à partir des lignes en entrée, un système de référence linéaire et des positions lues depuis l'entrée standard ou un fichier."
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:83
+msgid "Output vector map where segments will be written"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:114
+msgid "Name of file containing segment rules. If not given, read from stdin."
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:184
+#: ../vector/v.lrs/v.lrs.segment/main.c:238
+#, c-format
+msgid "Cannot read input: %s"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:196
+#, c-format
+msgid "No record in LR table for: %s"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:200
+#, c-format
+msgid "More than one record in LR table for: %s"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:207
+#: ../vector/v.lrs/v.lrs.segment/main.c:294
+#, c-format
+msgid "Unable to find line of cat [%d]"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:217
+#, c-format
+msgid ""
+"Cannot get point on line: cat = [%d] distance = [%f] (line length = %f)\n"
+"%s"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:253
+#, c-format
+msgid ""
+"No record in LRS table for 1. point of:\n"
+"  %s"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:258
+#, c-format
+msgid ""
+"Using last from more offsets found for 1. point of:\n"
+"  %s"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:262
+#, c-format
+msgid ""
+"Requested offset for the 1. point not found, using nearest found:\n"
+"  %s"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:273
+#, c-format
+msgid ""
+"No record in LRS table for 2. point of:\n"
+"  %s"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:278
+#, c-format
+msgid ""
+"Requested offset for the 2. point not found, using nearest found:\n"
+"  %s"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:282
+#, c-format
+msgid ""
+"Using first from more offsets found for 2. point of:\n"
+"  %s"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:287
+msgid "Segment over 2 (or more) segments, not yet supported"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:304
+#, c-format
+msgid "End of segment > line length (%e) -> cut"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:313
+#, c-format
+msgid ""
+"Cannot make line segment: cat = %d : %f - %f (line length = %f)\n"
+"%s"
+msgstr ""
+
+#. GTC %s will be replaced with a message about lost points.
+#: ../vector/v.lrs/v.lrs.segment/main.c:364
+#, c-format
+msgid "[%d] point written to output map (%s)"
+msgid_plural "[%d] points written to output map (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../vector/v.lrs/v.lrs.segment/main.c:369
+#, c-format
+msgid "[%d] line read from input"
+msgid_plural "[%d] lines read from input"
+msgstr[0] ""
+msgstr[1] ""
+
+#. GTC %s will be replaced with a message about lost lines.
+#: ../vector/v.lrs/v.lrs.segment/main.c:376
+#, c-format
+msgid "[%d] line written to output map (%s)"
+msgid_plural "[%d] lines written to output map (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:124
+msgid "Creates a linear reference system."
+msgstr "Créer un système de référence linéaire"
+
+#: ../vector/v.lrs/v.lrs.create/main.c:133
+msgid "Output vector map where oriented lines are written"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:138
+msgid "Output vector map of errors"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:143
+msgid "Input vector map containing reference points"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:158
+msgid "Column containing line identifiers for lines"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:165
+msgid "Column containing line identifiers for points"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:173
+msgid "Column containing milepost position for the beginning of next segment"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:182
+msgid "Column containing offset from milepost for the beginning of next segment"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:191
+msgid "Column containing milepost position for the end of previous segment"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:200
+msgid "Column containing offset from milepost for the end of previous segment"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:223
+msgid "Name of table where the reference system will be written"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:224
+msgid "New table is created by this module"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:231
+msgid "Maximum distance of point to line allowed"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:286
+msgid "Cannot get layer info for lines"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:289
+msgid "Cannot get layer info for points"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:327
+#, c-format
+msgid "Unable to drop table: %s"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:346
+#, c-format
+msgid "Unable to select line id values from %s.%s."
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:356
+msgid "Line id column must be integer"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:367
+#: ../vector/v.lrs/v.lrs.create/main.c:469
+msgid "Unable to fetch line id from line table"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:419
+#, c-format
+msgid "Line [%d] without category (layer [%d])"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:439
+#, c-format
+msgid "No lines selected for line id [%d]"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:459
+#, c-format
+msgid "Unable to select point attributes from <%s>"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:490
+#, c-format
+msgid "Milepost (start) %f+%f used as %f+%f (change MP to integer)"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:512
+#, c-format
+msgid "Milepost (end) %f+%f used as %f+%f (change MP to integer)"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:538
+#, c-format
+msgid "Point [%d] without category (layer [%d])"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:585
+#, c-format
+msgid "Point [%d] cat [%d] is out of threshold (distance = %f)"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:717
+#, c-format
+msgid "End > start for point cat [%d]"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:734
+#, c-format
+msgid "Start of 1. MP >= end of 2. MP for points' cats [%d], [%d]"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:751
+#, c-format
+msgid "Start of 1. MP >= start of 2. MP for points' cats [%d], [%d]"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:761
+#, c-format
+msgid "Distance along line identical for points' cats [%d], [%d]"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:775
+#, c-format
+msgid "Not enough points (%d) attached to the line (cat %d), line skip."
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:780
+#, c-format
+msgid "Unable to guess direction for the line (cat %d), line skip."
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:784
+#, c-format
+msgid "Incorrect order of points along line cat [%d]"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:834
+#, c-format
+msgid "Unable to insert reference records: %s"
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:875
+msgid "Building topology for output (out_lines) map..."
+msgstr ""
+
+#: ../vector/v.lrs/v.lrs.create/main.c:886
+msgid "Building topology for error (err) map..."
+msgstr ""
+
+#: ../vector/v.net.path/main.c:45
+msgid "Finds shortest path on vector network."
+msgstr "Détermines un plus court chemin sur un réseau vectoriel."
+
+#: ../vector/v.net.path/main.c:72
+msgid "Name of file containing start and end points. If not given, read from stdin"
+msgstr ""
+
+#: ../vector/v.net.path/main.c:101
+msgid "Maximum distance to the network"
+msgstr ""
+
+#: ../vector/v.net.path/main.c:102
+msgid "If start/end are given as coordinates. If start/end point is outside this threshold, the path is not found and error message is printed. To speed up the process, keep this value as low as possible."
+msgstr ""
+
+#: ../vector/v.net.path/main.c:136 ../vector/v.net.distance/main.c:165
+msgid "Write output as original input segments, not each path as one line."
+msgstr ""
+
+#: ../vector/v.net.path/path.c:82
+#, c-format
+msgid "[%d] points without category (nfield: [%d])"
+msgstr ""
+
+#: ../vector/v.net.path/path.c:146 ../vector/v.net.path/path.c:211
+#, c-format
+msgid "From and to are identical (id %d)"
+msgstr ""
+
+#: ../vector/v.net.path/path.c:153 ../vector/v.net.timetable/main.c:482
+#, c-format
+msgid "Wrong input format: %s"
+msgstr ""
+
+#: ../vector/v.net.path/path.c:164 ../vector/v.net.path/path.c:188
+#, c-format
+msgid "No point with category [%d]"
+msgstr ""
+
+#: ../vector/v.net.path/path.c:234
+#, c-format
+msgid "Point with category [%d] is not reachable from point with category [%d]"
+msgstr ""
+
+#: ../vector/v.net.path/path.c:303
+#, c-format
+msgid "Point %f,%f is not reachable from point %f,%f"
+msgstr ""
+
+#: ../vector/v.net.path/path.c:368
+#, c-format
+msgid "[%d] input format errors"
+msgstr ""
+
+#: ../vector/v.net.path/path.c:370
+#, c-format
+msgid "[%d] points of given category missing"
+msgstr ""
+
+#: ../vector/v.net.path/path.c:372
+#, c-format
+msgid "%d destination(s) unreachable (including points out of threshold)"
+msgstr ""
+
+#: ../vector/v.neighbors/main.c:82 ../raster/r.neighbors/main.c:121
+#, c-format
+msgid "Invalid out_type enumeration: %d"
+msgstr ""
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../vector/v.neighbors/main.c:123
 msgid "Neighborhood analysis tool for vector point maps."

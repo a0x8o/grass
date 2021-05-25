@@ -1820,16 +1820,26 @@ msgstr "Não existem pontos na região atual"
 #: ../lib/rst/interp_float/vinput2d.c:285
 #, c-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Segmentation parameters set to invalid values: npmin= %d, segmax= %d for smooth connection of segments, npmin > segmax (see manual)"
 msgstr "Parâmetros de segmentação definidos com valores inválidos: npmin= %d, segmax= %dpara conexão suave de segmentos, npmin > segmax (consulte o manual)"
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgid ""
 "Segmentation parameters set to invalid values: npmin= %d, segmax= %d for "
 "smooth connection of segments, npmin > segmax (see manual)"
 msgstr ""
 "Parâmetros de segmentação definidos com valores inválidos: npmin= %d, "
 "segmax= %dpara conexão suave de segmentos, npmin > segmax (consulte o manual)"
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+msgid "Segmentation parameters set to invalid values: npmin= %d, segmax= %d for smooth connection of segments, npmin > segmax (see manual)"
+msgstr "Parâmetros de segmentação definidos com valores inválidos: npmin= %d, segmax= %dpara conexão suave de segmentos, npmin > segmax (consulte o manual)"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../lib/rst/interp_float/vinput2d.c:292
 #, c-format
@@ -5045,6 +5055,7 @@ msgid "ZSTD compression error %d: %s"
 msgstr "Erro na compressão ZSTD %d: %s"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../lib/gis/parser_dependencies.c:122
 msgid "Internal error: option or flag not found"
 msgstr "Erro interno: opção ou flag não encontrada"
@@ -5567,6 +5578,530 @@ msgstr "Não foi possível abrir diretório %s"
 =======
 #: ../lib/gis/parser_standard_options.c:152
 >>>>>>> osgeo-main
+=======
+#: ../lib/gis/parser_standard_options.c:152
+=======
+#: ../lib/gis/parser_dependencies.c:122
+msgid "Internal error: option or flag not found"
+msgstr "Erro interno: opção ou flag não encontrada"
+
+#: ../lib/gis/parser_dependencies.c:179
+#, c-format
+msgid "<%s> or <%s>"
+msgstr "<%s> ou <%s>"
+
+#: ../lib/gis/parser_dependencies.c:179
+#, c-format
+msgid "<%s> and <%s>"
+msgstr "<%s> e <%s>"
+
+#: ../lib/gis/parser_dependencies.c:212
+#, c-format
+msgid "Options %s are mutually exclusive"
+msgstr "Opções %s são mutuamente excludentes"
+
+#: ../lib/gis/parser_dependencies.c:236
+#, c-format
+msgid "At least one of the following options is required: %s"
+msgstr "É necessária pelo menos uma das seguintes opções: %s"
+
+#: ../lib/gis/parser_dependencies.c:270
+#, c-format
+msgid "Option <%s> requires at least one of %s"
+msgstr "Opção <%s> requer pelo menos um de %s"
+
+#: ../lib/gis/parser_dependencies.c:273
+#, c-format
+msgid "Option <%s> requires <%s>"
+msgstr "Opção <%s> requer <%s>"
+
+#: ../lib/gis/parser_dependencies.c:305
+#, c-format
+msgid "Option <%s> requires all of %s"
+msgstr "Opção <%s> requer todos de %s"
+
+#: ../lib/gis/parser_dependencies.c:332
+#, c-format
+msgid "Option <%s> is mutually exclusive with all of %s"
+msgstr "Opção <%s> é mutuamente excludente com todos de %s"
+
+#: ../lib/gis/parser_dependencies.c:358
+#, c-format
+msgid "Either all or none of %s must be given"
+msgstr "Todos ou nenhum de %s deve ser dado"
+
+#: ../lib/gis/parser_dependencies.c:391 ../lib/gis/parser_dependencies.c:428
+#, c-format
+msgid "Internal error: invalid rule type: %d"
+msgstr "Erro interno: tipo de regra inválido:%d"
+
+#: ../lib/gis/find_file.c:114
+#, c-format
+msgid "Data element '%s/%s' was found in more mapsets (also found in <%s>)"
+msgstr "Elemento de dados '%s/%s' foi encontrado em outros mapsets (também encontrado em <%s>)"
+
+#: ../lib/gis/find_file.c:127
+#, c-format
+msgid "Using <%s@%s>..."
+msgstr "Usando <%s@%s>..."
+
+#: ../lib/gis/debug.c:80
+#, c-format
+msgid "Cannot open debug file '%s'"
+msgstr "Não consegui abrir arquivo de depuração '%s'"
+
+#: ../lib/gis/key_value3.c:36
+#, c-format
+msgid "Error writing file <%s>: %s"
+msgstr "Erro escrevendo o arquivo <%s>: %s"
+
+#: ../lib/gis/key_value3.c:64
+#, c-format
+msgid "Error reading file <%s>: %s"
+msgstr "Erro lendo arquivo <%s>: %s"
+
+#: ../lib/gis/key_value3.c:67
+#, c-format
+msgid "Error closing input file <%s>: %s"
+msgstr "Erro ao fechar arquivo de entrada <%s>: %s"
+
+#: ../lib/gis/cmprbzip.c:97 ../lib/gis/cmprbzip.c:176
+msgid "GRASS needs to be compiled with BZIP2 for BZIP2 compression"
+msgstr "GRASS precisa ser compilado com BZIP2 para compactação BZIP2"
+
+#: ../lib/gis/cmprbzip.c:141
+#, c-format
+msgid "BZIP2 version %s compression error %d"
+msgstr "Erro de compactação%d da versão BZIP2%s"
+
+#: ../lib/gis/cmprbzip.c:208
+#, c-format
+msgid "BZIP2 version %s decompression error %d"
+msgstr "Erro de descompactação%d da versão BZIP2%s"
+
+#: ../lib/gis/compress.c:143 ../lib/gis/compress.c:208
+#: ../lib/gis/compress.c:225 ../lib/gis/compress.c:240
+msgid "Request for unsupported compressor"
+msgstr "Solicitação de compactador não suportado"
+
+#: ../lib/gis/compress.c:255
+msgid "No destination buffer allocated"
+msgstr "Nenhum buffer de destino alocado"
+
+#: ../lib/gis/compress.c:262
+#, c-format
+msgid "Invalid read size %d"
+msgstr "Tamanho de leitura inválido %d"
+
+#: ../lib/gis/compress.c:283
+#, c-format
+msgid "Unable to read %d bytes: end of file"
+msgstr "Não foi possível ler %d bytes: fim do arquivo"
+
+#: ../lib/gis/compress.c:285
+#, c-format
+msgid "Unable to read %d bytes: %s"
+msgstr "Não foi possível ler %d bytes: %s"
+
+#: ../lib/gis/compress.c:360 ../lib/gis/compress.c:383
+#: ../lib/gis/compress.c:424
+msgid "Unable to write compression flag"
+msgstr "Não foi possível escrever flag de compactação"
+
+#: ../lib/gis/compress.c:371 ../lib/gis/compress.c:394
+#: ../lib/gis/compress.c:437
+#, c-format
+msgid "Unable to write %d bytes: nothing written"
+msgstr "Não foi possível escrever %d bytes: nada escrito"
+
+#: ../lib/gis/compress.c:373 ../lib/gis/compress.c:396
+#: ../lib/gis/compress.c:439
+#, c-format
+msgid "Unable to write %d bytes: %s"
+msgstr "Não foi possível escrever %d bytes: %s"
+
+#: ../lib/gis/token.c:169
+msgid "parse error"
+msgstr "erro de interpretação"
+
+#: ../lib/gis/env.c:311
+msgid "GISRC - variable not set"
+msgstr "GISRC - variável não incializada"
+
+#: ../lib/gis/env.c:343 ../lib/gis/env.c:369
+#, c-format
+msgid "Variable '%s' not set"
+msgstr "Variável '%s' não definida"
+
+#: ../lib/gis/location.c:61
+#, c-format
+msgid "LOCATION <%s> not available"
+msgstr "LOCATION <%s> não disponível"
+
+#: ../lib/gis/parser_wps.c:490
+msgid "Multiple outputs are not supported by WPS 1.0.0"
+msgstr "Múltiplas saídas não são suportadas por WPS 1.0.0"
+
+#: ../lib/gis/spawn.c:386
+#, c-format
+msgid "CreateProcess() failed: error = %d"
+msgstr "CreateProcess() falhou: erro = %d"
+
+#: ../lib/gis/spawn.c:421
+#, c-format
+msgid "G_spawn: unable to redirect descriptor %d"
+msgstr "G_spawn: incapaz de redirecionar o descritor %d"
+
+#: ../lib/gis/spawn.c:429 ../lib/gis/spawn.c:619
+#, c-format
+msgid "G_spawn: unable to open file %s"
+msgstr "G_spawn: não consegui abrir o arquivo %s"
+
+#: ../lib/gis/spawn.c:503
+msgid "G_spawn: unable to execute command"
+msgstr "G_spawn: não foi possível executar comando"
+
+#: ../lib/gis/spawn.c:528 ../lib/gis/spawn.c:536
+#, c-format
+msgid "G_spawn: unable to restore signal %d"
+msgstr "G_spawn: não é possível restabelecer o sinal %d"
+
+#: ../lib/gis/spawn.c:567
+#, c-format
+msgid "G_spawn: unable to reset signal %d"
+msgstr "G_spawn: não é possível reiniciar o sinal %d"
+
+#: ../lib/gis/spawn.c:576
+#, c-format
+msgid "G_spawn: unable to ignore signal %d"
+msgstr "G_spawn: não é possível ignorar o sinal %d"
+
+#: ../lib/gis/spawn.c:587
+#, c-format
+msgid "G_spawn: unable to block signal %d"
+msgstr "G_spawn: não é possível bloquear o sinal %d"
+
+#: ../lib/gis/spawn.c:595
+#, c-format
+msgid "G_spawn: unable to unblock signal %d"
+msgstr "G_spawn: não é possível desbloquear o sinal %d"
+
+#: ../lib/gis/spawn.c:624 ../lib/gis/spawn.c:633
+#, c-format
+msgid "G_spawn: unable to duplicate descriptor %d to %d"
+msgstr "G_spawn: não consegui duplicar o descritor %d para %d"
+
+#: ../lib/gis/spawn.c:666
+#, c-format
+msgid "Unable to create a new process: %s"
+msgstr "Não foi possível criar um processo novo: %s"
+
+#: ../lib/gis/spawn.c:681
+#, c-format
+msgid "Unable to change directory to %s"
+msgstr "Impossível mudar de diretório para %s"
+
+#: ../lib/gis/spawn.c:689
+#, c-format
+msgid "Unable to execute command '%s': %s"
+msgstr "Não foi possível executar comando '%s': %s"
+
+#: ../lib/gis/timestamp.c:292
+#, c-format
+msgid "Unable to create timestamp file for %s map <%s@%s>"
+msgstr "Não foi possível criar arquivo de timestamp para o mapa %s <%s@%s>"
+
+#: ../lib/gis/timestamp.c:301
+#, c-format
+msgid "Invalid timestamp specified for %s map <%s@%s>"
+msgstr "Timestamp inválido especificado para o mapa %s <%s@%s>"
+
+#: ../lib/gis/timestamp.c:331
+#, c-format
+msgid "Unable to open timestamp file for %s map <%s@%s>"
+msgstr "Não foi possível abrir arquivo de timestamp para o mapa %s <%s@%s>"
+
+#: ../lib/gis/timestamp.c:340
+#, c-format
+msgid "Invalid timestamp file for %s map <%s@%s>"
+msgstr "Arquivo de timestamp inválido para o mapa %s <%s@%s>"
+
+#: ../lib/gis/timestamp.c:479
+#, c-format
+msgid "Unable to open timestamp file for vector map <%s@%s>"
+msgstr "Não foi possível abrir arquivo de timestamp para o mapa vetorial <%s@%s>"
+
+#: ../lib/gis/timestamp.c:488
+#, c-format
+msgid "Invalid timestamp file for vector map <%s@%s>"
+msgstr "Arquivo de timestamp inválido para o mapa vetorial <%s@%s>"
+
+#: ../lib/gis/timestamp.c:524
+#, c-format
+msgid "Unable to create timestamp file for vector map <%s@%s>"
+msgstr "Não foi possível criar arquivo de timestamp para o mapa vetorial <%s@%s>"
+
+#: ../lib/gis/timestamp.c:533
+#, c-format
+msgid "Invalid timestamp specified for vector map <%s@%s>"
+msgstr "Timestamp inválido especificado para mapa vetorial <%s@%s>"
+
+#: ../lib/gis/parser_rest.c:60 ../lib/gis/parser_html.c:69
+msgid "NAME"
+msgstr "NOME"
+
+#: ../lib/gis/parser_rest.c:73 ../lib/gis/parser_html.c:82
+msgid "KEYWORDS"
+msgstr "PALAVRAS CHAVE"
+
+#: ../lib/gis/parser_rest.c:78 ../lib/gis/parser_html.c:87
+msgid "SYNOPSIS"
+msgstr "SINOPSE"
+
+#: ../lib/gis/parser_rest.c:223 ../lib/gis/parser_html.c:245
+msgid "Options"
+msgstr "Opções"
+
+#: ../lib/gis/parser_rest.c:230 ../lib/gis/parser_html.c:251
+msgid "Default"
+msgstr "Padrão"
+
+#: ../lib/gis/mapset.c:38
+msgid "MAPSET is not set"
+msgstr "MAPSET não foi definido"
+
+#: ../lib/gis/mapset.c:80
+#, c-format
+msgid "MAPSET <%s> not available"
+msgstr "MAPSET <%s> não disponível"
+
+#: ../lib/gis/worker.c:84
+msgid "Task already has a worker"
+msgstr "Tarefa em execuçao"
+
+#: ../lib/gis/rd_cellhd.c:141 ../lib/gis/rd_cellhd.c:180
+#: ../lib/gis/rd_cellhd.c:357
+#, c-format
+msgid "Syntax error in cell header, line %d: %s"
+msgstr "Erro de sintaxe no cabeçalho da célula, linha %d: %s"
+
+#: ../lib/gis/rd_cellhd.c:150
+msgid "Duplicate projection field"
+msgstr "Campo de projeção duplicado"
+
+#: ../lib/gis/rd_cellhd.c:153
+#, c-format
+msgid "Invalid projection field: %s"
+msgstr "Campo de projeção inválido: %s"
+
+#: ../lib/gis/rd_cellhd.c:160
+msgid "Duplicate zone field"
+msgstr "Campo de zona duplicado"
+
+#: ../lib/gis/rd_cellhd.c:163
+#, c-format
+msgid "Invalid zone field: %s"
+msgstr "Campo zona inválido: %s"
+
+#: ../lib/gis/rd_cellhd.c:170 ../lib/gis/rd_cellhd.c:172
+#: ../lib/gis/rd_cellhd.c:363 ../lib/gis/rd_cellhd.c:365
+#: ../lib/gis/rd_cellhd.c:367 ../lib/gis/rd_cellhd.c:369
+#: ../lib/gis/rd_cellhd.c:371 ../lib/gis/rd_cellhd.c:373
+#: ../lib/gis/rd_cellhd.c:384 ../lib/gis/rd_cellhd.c:386
+#: ../lib/gis/rd_cellhd.c:388 ../lib/gis/rd_cellhd.c:390
+#, c-format
+msgid "Field <%s> missing"
+msgstr "Campo <%s> faltante"
+
+#: ../lib/gis/rd_cellhd.c:195
+msgid "Duplicate north field"
+msgstr "Campo norte duplicado"
+
+#: ../lib/gis/rd_cellhd.c:197
+#, c-format
+msgid "Invalid north field: %s"
+msgstr "Campo norte inválido: %s"
+
+#: ../lib/gis/rd_cellhd.c:203
+msgid "Duplicate south field"
+msgstr "Campo sul duplicado"
+
+#: ../lib/gis/rd_cellhd.c:205
+#, c-format
+msgid "Invalid south field: %s"
+msgstr "Campo sul inválido: %s"
+
+#: ../lib/gis/rd_cellhd.c:211
+msgid "Duplicate east field"
+msgstr "Campo leste duplicado"
+
+#: ../lib/gis/rd_cellhd.c:213
+#, c-format
+msgid "Invalid east field: %s"
+msgstr "Campo leste inválido: %s"
+
+#: ../lib/gis/rd_cellhd.c:219
+msgid "Duplicate west field"
+msgstr "Campo oeste duplicado"
+
+#: ../lib/gis/rd_cellhd.c:221
+#, c-format
+msgid "Invalid west field: %s"
+msgstr "Campo oeste inválido: %s"
+
+#: ../lib/gis/rd_cellhd.c:227
+msgid "Duplicate top field"
+msgstr "Campo superior duplicado"
+
+#: ../lib/gis/rd_cellhd.c:229
+#, c-format
+msgid "Invalid top field: %s"
+msgstr "Campo superior inválido: %s"
+
+#: ../lib/gis/rd_cellhd.c:235
+msgid "Duplicate bottom field"
+msgstr "Campo inferior duplicado"
+
+#: ../lib/gis/rd_cellhd.c:237
+#, c-format
+msgid "Invalid bottom field: %s"
+msgstr "Campo inferior inválido: %s"
+
+#: ../lib/gis/rd_cellhd.c:243
+msgid "Duplicate e-w resolution field"
+msgstr "Campo de resolução de e-w duplicado"
+
+#: ../lib/gis/rd_cellhd.c:245 ../lib/gis/rd_cellhd.c:247
+#, c-format
+msgid "Invalid e-w resolution field: %s"
+msgstr "Campo de resolução de e-w inválido: %s"
+
+#: ../lib/gis/rd_cellhd.c:253
+msgid "Duplicate 3D e-w resolution field"
+msgstr "Campo de resolução 3D e-w duplicado"
+
+#: ../lib/gis/rd_cellhd.c:255 ../lib/gis/rd_cellhd.c:257
+#, c-format
+msgid "Invalid 3D e-w resolution field: %s"
+msgstr "Campo de resolução 3D e-w inválido: %s"
+
+#: ../lib/gis/rd_cellhd.c:263
+msgid "Duplicate n-s resolution field"
+msgstr "Campo de resolução n-s duplicado"
+
+#: ../lib/gis/rd_cellhd.c:265 ../lib/gis/rd_cellhd.c:267
+#, c-format
+msgid "Invalid n-s resolution field: %s"
+msgstr "Campo de resolução n-s inválido: %s"
+
+#: ../lib/gis/rd_cellhd.c:273
+msgid "Duplicate 3D n-s resolution field"
+msgstr "Campo de resolução 3D n-s duplicado"
+
+#: ../lib/gis/rd_cellhd.c:275 ../lib/gis/rd_cellhd.c:277
+#, c-format
+msgid "Invalid 3D n-s resolution field: %s"
+msgstr "Campo de resolução 3D n-s inválido: %s"
+
+#: ../lib/gis/rd_cellhd.c:283
+msgid "Duplicate t-b resolution field"
+msgstr "Campo de resolução s-i duplicado"
+
+#: ../lib/gis/rd_cellhd.c:285 ../lib/gis/rd_cellhd.c:287
+#, c-format
+msgid "Invalid t-b resolution field: %s"
+msgstr "Campo de resolução s-i inválido: %s"
+
+#: ../lib/gis/rd_cellhd.c:293
+msgid "Duplicate rows field"
+msgstr "Campo de linhas duplicadas"
+
+#: ../lib/gis/rd_cellhd.c:295 ../lib/gis/rd_cellhd.c:297
+#, c-format
+msgid "Invalid rows field: %s"
+msgstr "Campo de linhas inválido: %s"
+
+#: ../lib/gis/rd_cellhd.c:303
+msgid "Duplicate 3D rows field"
+msgstr "Campo de linhas 3D duplicadas"
+
+#: ../lib/gis/rd_cellhd.c:305 ../lib/gis/rd_cellhd.c:307
+#, c-format
+msgid "Invalid 3D rows field: %s"
+msgstr "Campo de linhas 3D inválido: %s"
+
+#: ../lib/gis/rd_cellhd.c:313
+msgid "Duplicate cols field"
+msgstr "Campo de colunas duplicado"
+
+#: ../lib/gis/rd_cellhd.c:315 ../lib/gis/rd_cellhd.c:317
+#, c-format
+msgid "Invalid cols field: %s"
+msgstr "Campo de colunas inválido:%s"
+
+#: ../lib/gis/rd_cellhd.c:323
+msgid "Duplicate 3D cols field"
+msgstr "Campo de colunas 3D duplicado"
+
+#: ../lib/gis/rd_cellhd.c:325 ../lib/gis/rd_cellhd.c:327
+#, c-format
+msgid "Invalid 3D cols field: %s"
+msgstr "Campo de colunas 3D inválido:%s"
+
+#: ../lib/gis/rd_cellhd.c:333
+msgid "Duplicate depths field"
+msgstr "Campo de profundidades duplicado"
+
+#: ../lib/gis/rd_cellhd.c:335 ../lib/gis/rd_cellhd.c:337
+#, c-format
+msgid "Invalid depths field: %s"
+msgstr "Campo de profundidades inválido:%s"
+
+#: ../lib/gis/rd_cellhd.c:343
+msgid "Duplicate format field"
+msgstr "Campo de formato duplicado"
+
+#: ../lib/gis/rd_cellhd.c:345
+#, c-format
+msgid "Invalid format field: %s"
+msgstr "Campo de formato inválido:%s"
+
+#: ../lib/gis/rd_cellhd.c:351
+msgid "Duplicate compressed field"
+msgstr "Campo compactado duplicado"
+
+#: ../lib/gis/rd_cellhd.c:353
+#, c-format
+msgid "Invalid compressed field: %s"
+msgstr "Campo compactado inválido:%s"
+
+#: ../lib/gis/mkstemp.c:132
+msgid "Attempt to create read-only temporary file"
+msgstr "Tentativa de criar arquivo temporário somente leitura"
+
+#: ../lib/gis/mkstemp.c:138
+#, c-format
+msgid "Unrecognised access mode: %o"
+msgstr "Modo de acesso não reconhecido: %o"
+
+#: ../lib/gis/get_window.c:118
+#, c-format
+msgid "Unable to open element file <%s> for <%s@%s>"
+msgstr "Não foi possível abrir elemento do arquivo <%s> para <%s@%s>"
+
+#: ../lib/gis/get_window.c:123
+#, c-format
+msgid "Region file %s/%s/%s is empty"
+msgstr "Arquivo da região %s/%s/%s está vazio"
+
+#: ../lib/gis/ls.c:103
+#, c-format
+msgid "Unable to open directory %s"
+msgstr "Não foi possível abrir diretório %s"
+
+#: ../lib/gis/parser_standard_options.c:151
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgid "SQL SELECT statement"
 msgstr "Instrução SQL SELECT"
 
@@ -8355,12 +8890,21 @@ msgstr "Campo de resolução n-s duplicado"
 #: ../lib/gis/rd_cellhd.c:263 ../lib/gis/rd_cellhd.c:265
 #, c-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Centroid skipped (output feature type: %s)"
 msgstr "Centroide ignorado (tipo de feição de saída: %s)"
 =======
 msgid "Invalid n-s resolution field: %s"
 msgstr "Campo de resolução n-s inválido: %s"
 >>>>>>> osgeo-main
+=======
+msgid "Invalid n-s resolution field: %s"
+msgstr "Campo de resolução n-s inválido: %s"
+=======
+msgid "Centroid skipped (output feature type: %s)"
+msgstr "Centroide ignorado (tipo de feição de saída: %s)"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../lib/gis/rd_cellhd.c:271
 msgid "Duplicate 3D n-s resolution field"
@@ -9189,6 +9733,7 @@ msgstr[1] "%d primitivas registradas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9245,6 +9790,8 @@ msgstr[1] "%d primitivas registradas"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 #, fuzzy, c-format
 msgid "Incomplete GRASS session: Variable '%s' not set"
@@ -9384,6 +9931,7 @@ msgstr[1] ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9486,6 +10034,14 @@ msgstr[1] ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+#, fuzzy, c-format
+msgid "One vertex registered"
+msgid_plural "%<PRId64> vertices registered"
+msgstr[0] "Um vértice registrado"
+msgstr[1] "%jd vértices registrados"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../lib/gis/mkstemp.c:133
 msgid "Attempt to create read-only temporary file"
@@ -9493,6 +10049,7 @@ msgstr "Tentativa de criar arquivo temporário somente leitura"
 
 #: ../lib/gis/mkstemp.c:139
 #, c-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "One area built"
 msgid_plural "%d areas built"
@@ -9502,9 +10059,20 @@ msgstr[1] "%d áreas construídas"
 msgid "Unrecognised access mode: %o"
 msgstr "Modo de acesso não reconhecido: %o"
 >>>>>>> osgeo-main
+=======
+msgid "Unrecognised access mode: %o"
+msgstr "Modo de acesso não reconhecido: %o"
+=======
+msgid "One area built"
+msgid_plural "%d areas built"
+msgstr[0] "Uma área construída"
+msgstr[1] "%d áreas construídas"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../lib/gis/mapset_msc.c:223
 #, c-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "One isle built"
 msgid_plural "%d isles built"
@@ -9514,6 +10082,16 @@ msgstr[1] "%d ilhas construídas"
 msgid "Unable to make mapset element %s (%s): %s"
 msgstr "Não foi possível fazer elemento do mapset %s (%s): %s"
 >>>>>>> osgeo-main
+=======
+msgid "Unable to make mapset element %s (%s): %s"
+msgstr "Não foi possível fazer elemento do mapset %s (%s): %s"
+=======
+msgid "One isle built"
+msgid_plural "%d isles built"
+msgstr[0] "Uma ilha construída"
+msgstr[1] "%d ilhas construídas"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../lib/gis/mapset_msc.c:229
 #, c-format
@@ -9521,15 +10099,26 @@ msgid "Unable to access mapset element %s (%s): %s"
 msgstr "Não foi possível acessar elemento do mapset %s (%s): %s"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../lib/vector/Vlib/build_nat.c:189
 msgid "Attaching centroids..."
 msgstr "Anexando centroides..."
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 #: ../lib/gis/cmprzlib.c:140
 #, c-format
 msgid "ZLIB compression error %d: %s"
 msgstr "Erro de compactação ZLIB %d:%s"
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+#: ../lib/vector/Vlib/build_nat.c:189
+msgid "Attaching centroids..."
+msgstr "Anexando centroides..."
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../lib/gis/cmprzlib.c:199
 #, c-format
@@ -9672,6 +10261,7 @@ msgstr ""
 
 #: ../lib/raster/put_row.c:413
 #, c-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Modifications: %d"
 msgstr "Modificações:%d"
@@ -9906,6 +10496,241 @@ msgid "Unable to close cursor %s"
 =======
 msgid "Error writing uncompressed data for row %d of <%s>: %s"
 >>>>>>> osgeo-main
+=======
+msgid "Error writing uncompressed data for row %d of <%s>: %s"
+=======
+msgid "Modifications: %d"
+msgstr "Modificações:%d"
+
+#: ../lib/vector/Vlib/cindex.c:32
+msgid "Category index is not up to date"
+msgstr "Índice de categoria não está atualizado"
+
+#: ../lib/vector/Vlib/cindex.c:38
+msgid "Layer index out of range"
+msgstr "Índice de camada fora do intervalo"
+
+#: ../lib/vector/Vlib/cindex.c:268
+msgid "Category index out of range"
+msgstr "Índice de categoria fora do intervalo"
+
+#: ../lib/vector/Vlib/cindex.c:389
+msgid "Mixing IDs of areas and primitives"
+msgstr "Misturando IDs de áreas e primitivas"
+
+#: ../lib/vector/Vlib/cindex.c:491
+#, c-format
+msgid "Unable to create category index file for vector map <%s>"
+msgstr "Não foi possível criar arquivo de índice de categoria para o mapa vetorial <%s>"
+
+#: ../lib/vector/Vlib/cindex.c:500
+msgid "Error writing out category index file"
+msgstr "Erro ao gravar arquivo de índice ce categoria"
+
+#: ../lib/vector/Vlib/write_ogr.c:211 ../lib/db/dbmi_client/table.c:110
+#: ../lib/db/dbmi_client/copy_tab.c:242 ../lib/db/dbmi_client/copy_tab.c:319
+#, c-format
+msgid "Unable to open select cursor: '%s'"
+msgstr "Não foi possível abrir o cursor de seleção: '%s'"
+
+#: ../lib/vector/Vlib/write_ogr.c:240
+#, c-format
+msgid "Creating field <%s> failed"
+msgstr "A criação do campo <%s> falhou"
+
+#: ../lib/vector/Vlib/write_ogr.c:328
+#, c-format
+msgid "Unable to create OGR layer <%s> in '%s'"
+msgstr "Não foi possível criar a camada OGR <%s> em '%s'"
+
+#: ../lib/vector/Vlib/write_ogr.c:430
+msgid "Feature is not a point. Skipping."
+msgstr "A feição não é um ponto. Ignorando."
+
+#: ../lib/vector/Vlib/write_ogr.c:438
+msgid "Feature is not a line. Skipping."
+msgstr "A feição não é uma linha. Ignorando."
+
+#: ../lib/vector/Vlib/write_ogr.c:445
+msgid "Feature is not a polygon. Skipping."
+msgstr "A feição não é um polígono. Ignorando."
+
+#: ../lib/vector/Vlib/write_ogr.c:452
+msgid "Feature is not a face. Skipping."
+msgstr "A feição não é uma face. Ignorando."
+
+#: ../lib/vector/Vlib/write_ogr.c:458
+#, c-format
+msgid "Unsupported feature type (%d)"
+msgstr "Tipo de feição não suportada (%d)"
+
+#: ../lib/vector/Vlib/write_ogr.c:477
+msgid "Boundary is not closed. Feature skipped."
+msgstr "A fronteira não está fechada. Feição ignorada."
+
+#: ../lib/vector/Vlib/write_ogr.c:506
+msgid "Unable to writes feature attributes"
+msgstr "Não foi possível escrever atributos da feição"
+
+#: ../lib/vector/Vlib/write_ogr.c:571
+#, c-format
+msgid "Feature without category of layer %d"
+msgstr "Feição sem categoria de camada %d"
+
+#: ../lib/vector/Vlib/write_ogr.c:630
+#, c-format
+msgid "Unable to create field <%s>"
+msgstr "Não foi possível criar campo <%s>"
+
+#: ../lib/vector/Vlib/legal_vname.c:43
+#, c-format
+msgid "Illegal vector map name <%s>. May not contain '.' or 'NULL'."
+msgstr "Nome ilegal para mapa vetorial <%s>. Não pode conter '.' ou 'NULL'."
+
+#: ../lib/vector/Vlib/legal_vname.c:50
+#, c-format
+msgid "Illegal vector map name <%s>. Must start with a letter."
+msgstr "Nome ilegal para mapa vetorial <%s>. Deve começar com uma letra."
+
+#: ../lib/vector/Vlib/legal_vname.c:58
+#, c-format
+msgid "Illegal vector map name <%s>. Character '%c' not allowed."
+msgstr "Nome ilegal para mapa vetorial <%s>. Caractere <%c> não permitido."
+
+#: ../lib/vector/Vlib/legal_vname.c:65
+#, c-format
+msgid "Illegal vector map name <%s>. SQL keyword cannot be used as vector map name."
+msgstr "Nome ilegal para mapa vetorial <%s>. Palavra-chave SQL não pode ser usada como nome de mapa vetorial."
+
+#: ../lib/vector/Vlib/legal_vname.c:100 ../lib/vector/Vlib/legal_vname.c:104
+#, c-format
+msgid "Output vector map name <%s> is not in the current mapset (%s)"
+msgstr "Nome do mapa vetorial de saída <%s> não está no mapset atual (%s)"
+
+#: ../lib/vector/Vlib/legal_vname.c:117 ../lib/vector/Vlib/legal_vname.c:121
+#, c-format
+msgid "Output vector map name <%s> is not SQL compliant"
+msgstr "O nome do mapa vetorial de saída <%s> não é compatível com SQL"
+
+#: ../lib/vector/Vlib/legal_vname.c:159 ../lib/vector/Vlib/legal_vname.c:163
+#, c-format
+msgid "Output vector map <%s> is used as input"
+msgstr "O mapa vetorial de saída <%s> é usado como entrada"
+
+#: ../lib/vector/Vlib/level_two.c:23
+#, c-format
+msgid "Vector map <%s> is not open at topological level"
+msgstr "Mapa vetorial <%s> não está aberto no nível topológico."
+
+#: ../lib/vector/Vlib/level_two.c:284
+#, c-format
+msgid "Invalid node id: %d"
+msgstr "Nó inválido id:%d"
+
+#: ../lib/vector/Vlib/level_two.c:316
+#, c-format
+msgid "Nodes not available for line %d"
+msgstr "Nós não disponíveis para linha %d"
+
+#: ../lib/vector/Vlib/level_two.c:357
+#, c-format
+msgid "Areas not available for line %d"
+msgstr "Áreas não disponíveis para linha %d"
+
+#: ../lib/vector/Vlib/level_two.c:362
+#, c-format
+msgid "Line %d is not a boundary"
+msgstr "A linha %d não é uma fronteira"
+
+#: ../lib/vector/Vlib/level_two.c:445
+#, c-format
+msgid "Topology info not available for feature %d"
+msgstr "As informações de topologia não estão disponíveis para a feição %d"
+
+#: ../lib/vector/Vlib/close_ogr.c:104 ../lib/vector/Vlib/close_pg.c:139
+#, c-format
+msgid "Unable to save feature index file for vector map <%s>"
+msgstr "Não foi possível salvar o arquivo de índice de feição para o mapa vetorial <%s>"
+
+#: ../lib/vector/Vlib/read_pg.c:272 ../lib/vector/Vlib/read_pg.c:471
+#, c-format
+msgid "Feature %ld without geometry skipped"
+msgstr "Feição % ld sem geometria ignorada"
+
+#: ../lib/vector/Vlib/read_pg.c:365
+#, c-format
+msgid "Requesting invalid feature from cache (%d). Number of features in cache: %d"
+msgstr "Solicitando feição inválida do cache (%d). Número de feições no cache: %d"
+
+#: ../lib/vector/Vlib/read_pg.c:368
+#, c-format
+msgid "Feature %d: unexpected type (%d) - should be %d"
+msgstr "Feição %d: tipo inesperado (%d) - deveria ser %d"
+
+#: ../lib/vector/Vlib/read_pg.c:378 ../lib/vector/Vlib/build_sfa.c:354
+#: ../lib/vector/Vlib/build_sfa.c:364
+#, c-format
+msgid "Feature %d without geometry skipped"
+msgstr "Feição %d sem geometria ignorada"
+
+#: ../lib/vector/Vlib/read_pg.c:482 ../lib/vector/Vlib/read_ogr.c:382
+msgid "Feature without geometry. Skipped."
+msgstr "Feição sem geometria. Ignorado."
+
+#: ../lib/vector/Vlib/read_pg.c:575
+msgid "No geometry or topo geometry column defined"
+msgstr "Coluna de geometria ou topo geometria não definida"
+
+#: ../lib/vector/Vlib/read_pg.c:585
+msgid "Random access not supported. Primary key not defined."
+msgstr "Acesso aleatório não suportado. Chave primária não definida."
+
+#: ../lib/vector/Vlib/read_pg.c:652
+msgid "Inconsistency in topology: detected centroid (should be point)"
+msgstr "Inconsistência na topologia: centroide detectado (deveria ser ponto)"
+
+#: ../lib/vector/Vlib/read_pg.c:662
+msgid "Inconsistency in topology: detected boundary (should be line)"
+msgstr "Inconsistência na topologia: fronteira detectada (deveria ser linha)"
+
+#: ../lib/vector/Vlib/read_pg.c:787
+#, c-format
+msgid "Invalid WKB content: %d bytes"
+msgstr "Conteúdo WKB inválido: %d bytes"
+
+#: ../lib/vector/Vlib/read_pg.c:803
+msgid "Reading EWKB with 4-dimensional coordinates (XYZM) is not supported"
+msgstr "A leitura de EWKB com coordenadas em 4 dimensões (XYZM) não é suportada"
+
+#: ../lib/vector/Vlib/read_pg.c:996 ../lib/vector/Vlib/read_pg.c:1066
+#: ../lib/vector/Vlib/read_pg.c:1137
+msgid "Length of input WKB is too small"
+msgstr "O comprimento do WKB de entrada é muito pequeno"
+
+#: ../lib/vector/Vlib/read_pg.c:1077
+#, c-format
+msgid "Invalid cache index %d (max: %d)"
+msgstr "Índice de cache inválido %d (max: %d)"
+
+#: ../lib/vector/Vlib/read_pg.c:1215
+#, c-format
+msgid "Corrupted data. %s."
+msgstr "Dados corrompidos. %s."
+
+#: ../lib/vector/Vlib/read_pg.c:1217
+msgid "Corrupted data"
+msgstr "Dados corrompidos"
+
+#: ../lib/vector/Vlib/read_pg.c:1252
+#, c-format
+msgid "Unable to parse '%s'"
+msgstr "Não foi possível interpretar '%s'"
+
+#: ../lib/vector/Vlib/read_pg.c:1420 ../lib/vector/Vlib/close_pg.c:66
+#, c-format
+msgid "Unable to close cursor %s"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgstr ""
 
 #: ../lib/raster/put_row.c:473
@@ -10197,6 +11022,7 @@ msgstr "Não é possível criar link GDAL"
 #: ../lib/raster/open.c:620 ../lib/raster/open.c:780
 #, c-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "One category loaded"
 msgid_plural "%d categories loaded"
 msgstr[0] "Uma categoria carregada"
@@ -10205,6 +11031,16 @@ msgstr[1] "%d categorias carregadas"
 msgid "Raster map <%s> is not in the current mapset (%s)"
 msgstr "O mapa raster <%s> não está no mapset atual (%s)"
 >>>>>>> osgeo-main
+=======
+msgid "Raster map <%s> is not in the current mapset (%s)"
+msgstr "O mapa raster <%s> não está no mapset atual (%s)"
+=======
+msgid "One category loaded"
+msgid_plural "%d categories loaded"
+msgstr[0] "Uma categoria carregada"
+msgstr[1] "%d categorias carregadas"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../lib/raster/open.c:627
 #, c-format
@@ -10219,12 +11055,21 @@ msgstr "Nenhum arquivo temporário disponível: %s"
 #: ../lib/raster/open.c:776
 #, c-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unable to calculate centroid for area %d"
 msgstr "Não foi possível calcular centroide para área %d"
 =======
 msgid "Raster map <%s> does not exist in the current mapset (%s)"
 msgstr "O mapa raster <%s> não existe no mapset atual (%s)"
 >>>>>>> osgeo-main
+=======
+msgid "Raster map <%s> does not exist in the current mapset (%s)"
+msgstr "O mapa raster <%s> não existe no mapset atual (%s)"
+=======
+msgid "Unable to calculate centroid for area %d"
+msgstr "Não foi possível calcular centroide para área %d"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../lib/raster/open.c:843
 msgid "Rast_set_fp_type(): can only be called with FCELL_TYPE or DCELL_TYPE"
@@ -10243,6 +11088,7 @@ msgstr "Não foi possível encontrar '%s'"
 #: ../lib/raster/open.c:975
 #, c-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "One feature without geometry skipped"
 msgid_plural "%d features without geometry skipped"
 msgstr[0] "Uma feição sem geometria ignorada"
@@ -10251,6 +11097,16 @@ msgstr[1] "%d feições sem geometria ignoradas"
 msgid "Invalid type: field '%s' in file '%s'"
 msgstr "Tipo inválido: campo '%s' no arquivo '%s'"
 >>>>>>> osgeo-main
+=======
+msgid "Invalid type: field '%s' in file '%s'"
+msgstr "Tipo inválido: campo '%s' no arquivo '%s'"
+=======
+msgid "One feature without geometry skipped"
+msgid_plural "%d features without geometry skipped"
+msgstr[0] "Uma feição sem geometria ignorada"
+msgstr[1] "%d feições sem geometria ignoradas"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../lib/raster/open.c:981
 #, c-format
@@ -10258,10 +11114,13 @@ msgid "Missing type: field in file '%s'"
 msgstr "Tipo ausente: campo no arquivo '%s'"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../lib/vector/Vlib/build_sfa.c:751
 msgid "Feature index is built only for non-native formats. Nothing to dump."
 msgstr "O índice de feições é criado apenas para formatos não nativos. Nada para descartar."
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 #: ../lib/raster/open.c:986
 #, c-format
 msgid "Raster map <%s> is not xdr: byte_order: %s"
@@ -10334,10 +11193,19 @@ msgstr "não consegui escrever as informações de categoria para [%s] em [%s]"
 #: ../lib/raster/raster_metadata.c:158
 msgid "Semantic label is too long"
 msgstr ""
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+#: ../lib/vector/Vlib/build_sfa.c:751
+msgid "Feature index is built only for non-native formats. Nothing to dump."
+msgstr "O índice de feições é criado apenas para formatos não nativos. Nada para descartar."
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../lib/raster/raster_metadata.c:169
 #, c-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Unable to determine bbox for feature %d"
 msgstr "Não foi possível determinar bbox para a feição %d"
@@ -10370,6 +11238,39 @@ msgstr "Intersecções: %d"
 msgid "Character '%c' not allowed in a semantic label."
 msgstr ""
 >>>>>>> osgeo-main
+=======
+msgid "Character '%c' not allowed in a semantic label."
+msgstr ""
+=======
+msgid "Unable to determine bbox for feature %d"
+msgstr "Não foi possível determinar bbox para a feição %d"
+
+#: ../lib/vector/Vlib/box.c:313 ../lib/vector/Vlib/box.c:359
+#, c-format
+msgid "Attempt to access area with invalid id (%d)"
+msgstr "Tentativa de acessar a área com id inválido (%d)"
+
+#: ../lib/vector/Vlib/box.c:325
+#, c-format
+msgid "Unable to determine bbox for area %d"
+msgstr "Não foi possível determinar bbox para a área %d"
+
+#: ../lib/vector/Vlib/box.c:371
+#, c-format
+msgid "Unable to determine bbox for isle %d"
+msgstr "Não foi possível determinar bbox para a ilha %d"
+
+#: ../lib/vector/Vlib/box.c:429
+#, c-format
+msgid "Topology not available for vector map <%s>. Registering primitives..."
+msgstr "Topologia não disponível para mapa vetorial <%s>. Registrando primitivas..."
+
+#: ../lib/vector/Vlib/break_lines.c:574
+#, c-format
+msgid "Intersections: %d"
+msgstr "Intersecções: %d"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../lib/raster/raster_metadata.c:202
 #, c-format
@@ -11955,6 +12856,7 @@ msgid ""
 msgstr ""
 >>>>>>> osgeo-main
 
+<<<<<<< HEAD
 #: ../lib/init/grass.py:1176
 msgid "Creating new GRASS GIS mapset <{}>..."
 msgstr "Criando novo mapset GRASS GIS <{}>..."
@@ -12189,13 +13091,153 @@ msgstr ""
 msgid "3D raster MASK present"
 >>>>>>> osgeo-main
 msgstr ""
+=======
+#: ../lib/vector/Vlib/snap.c:527 ../lib/vector/Vlib/snap.c:890
+#, c-format
+msgid "New vertices: %d"
+msgstr "Novos vértices: %d"
+
+#: ../lib/vector/Vlib/snap.c:917
+msgid "Reading features..."
+msgstr "Lendo feições..."
+
+#: ../lib/vector/Vlib/level.c:34
+msgid "Map structure was never initialized"
+msgstr "A estrutura do mapa nunca foi inicializada"
+
+#: ../lib/vector/Vlib/level.c:36
+msgid "Map structure has been closed"
+msgstr "A estrutura do mapa foi fechada"
+
+#: ../lib/vector/Vlib/build_ogr.c:72
+msgid "Empty OGR layer, nothing to build"
+msgstr "Camada OGR vazia, nada para construir"
+
+#: ../lib/vector/Vlib/build_ogr.c:87 ../lib/vector/Vlib/build_pg.c:93
+#, c-format
+msgid "Feature table <%s> has no primary key defined"
+msgstr "Tabela de feição <%s> não tem chave primária definida"
+
+#: ../lib/vector/Vlib/build_ogr.c:89
+msgid "Random read is not supported by OGR for this layer. Unable to build topology."
+msgstr "A leitura aleatória não é suportada por OGR para esta camada. Não foi possível construir topologia."
+
+#: ../lib/vector/Vlib/build_ogr.c:95 ../lib/vector/Vlib/build_pg.c:101
+#, c-format
+msgid "Using external data format '%s' (feature type '%s')"
+msgstr "Usando formato de dados externos '%s' (tipo de feição '%s')"
+
+#: ../lib/vector/Vlib/build_ogr.c:139
+#, c-format
+msgid "Unable to open fidx file for write <%s>"
+msgstr "Não foi possível abrir o arquivo fidx para escrita <%s>"
+
+#: ../lib/vector/Vlib/build_pg.c:88
+msgid "No DB connection"
+msgstr "Nenhuma conexão de banco de dados"
+
+#: ../lib/vector/Vlib/build_pg.c:95
+msgid "Random read is not supported for this layer. Unable to build topology."
+msgstr "A leitura aleatória não é suportada para esta camada. Não foi possível construir topologia."
+
+#: ../lib/vector/Vlib/build_pg.c:105
+msgid "Building pseudo-topology over simple features..."
+msgstr "Construindo pseudo-topologia sobre feições simples ..."
+
+#: ../lib/vector/Vlib/build_pg.c:107
+#, c-format
+msgid "Building topology from PostGIS topology schema <%s>..."
+msgstr "Construindo topologia a partir do esquema de topologia PostGIS <%s>..."
+
+#: ../lib/vector/Vlib/build_pg.c:237
+msgid "Cleaning-up topology schema..."
+msgstr "Limpando o esquema de topologia..."
+
+#: ../lib/vector/Vlib/build_pg.c:282
+msgid "Updating faces..."
+msgstr "Atualizando faces..."
+
+#: ../lib/vector/Vlib/build_pg.c:314
+msgid "Updating edges..."
+msgstr "Atualizando bordas..."
+
+#: ../lib/vector/Vlib/build_pg.c:323
+msgid "Inconsistency in topology detected. Dead line found."
+msgstr "Inconsistência na topologia detectada. Linha morta encontrada."
+
+#: ../lib/vector/Vlib/build_pg.c:377
+msgid "Updating TopoGeometry data..."
+msgstr "Atualizando dados TopoGeometry..."
+
+#: ../lib/vector/Vlib/build_pg.c:464
+#, c-format
+msgid "Unsupported topo geometry type %d"
+msgstr "Tipo de geometria %d de topologia não suportado "
+
+#: ../lib/vector/Vlib/build_pg.c:493
+#, c-format
+msgid "Unable to create <%s.%s>"
+msgstr "Não foi possível criar <%s.%s>"
+
+#: ../lib/vector/Vlib/build_pg.c:644
+msgid "Unable to write nodes, offset array mismatch"
+msgstr "Não foi possível escrever nós, incompatibilidade de array de deslocamento"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 
 #: ../lib/init/grass.py:2121
 msgid "Done."
 msgstr "Feito."
 
+<<<<<<< HEAD
 #: ../lib/init/grass.py:2123
 msgid "Goodbye from GRASS GIS"
+=======
+#: ../lib/vector/Vlib/build_pg.c:718
+#, c-format
+msgid "Inconsistency in topology: number of boundaries %d (should be %d)"
+msgstr "Inconsistência na topologia: número de fronteiras %d (deveria ser %d)"
+
+#: ../lib/vector/Vlib/build_pg.c:741
+msgid "Unable to write lines"
+msgstr "Não foi possível escrever linhas"
+
+#: ../lib/vector/Vlib/build_pg.c:792
+#, c-format
+msgid "Topology for centroid %d not available. Area %d skipped"
+msgstr "Topologia para centroide %d não disponível. Área %d ignorada"
+
+#: ../lib/vector/Vlib/build_pg.c:1002
+msgid "Create simple features topology from topogeometry data..."
+msgstr "Crie uma topologia de feições simples a partir de dados de topogeometria..."
+
+#: ../lib/vector/Vlib/build_pg.c:1020
+#, c-format
+msgid "Unable to build simple features from topogeometry data. Unsupported type %d."
+msgstr "Não foi possível construir feições simples de dados de topogeometria. Tipo não suportado %d."
+
+#: ../lib/vector/Vlib/break_polygons.c:102
+msgid "Break polygons: Bug in binary tree!"
+msgstr "Quebrar polígonos: Bug na árvore binária!"
+
+#: ../lib/vector/Vlib/break_polygons.c:156
+#: ../lib/vector/Vlib/break_polygons.c:435
+msgid "Breaking polygons (pass 1: select break points)..."
+msgstr "Quebrando polígonos (passo 1: selecione os pontos de quebra)..."
+
+#: ../lib/vector/Vlib/break_polygons.c:286
+#: ../lib/vector/Vlib/break_polygons.c:552
+msgid "Breaking polygons (pass 2: break at selected points)..."
+msgstr "Quebrando polígonos (passo 2: quebra em pontos selecionados) ..."
+
+#: ../lib/vector/Vlib/break_polygons.c:398
+#: ../lib/vector/Vlib/break_polygons.c:650
+#, c-format
+msgid "Breaks: %d"
+msgstr "Quebras: %d"
+
+#: ../lib/vector/Vlib/break_polygons.c:592
+msgid "Point not in search tree!"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 msgstr ""
 
 #: ../lib/init/grass.py:2184
@@ -16230,6 +17272,7 @@ msgid "Out of matrix stack space"
 msgstr ""
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../lib/raster/interp.c:211
 #, c-format
 msgid "Unknown interpolation method: %s"
@@ -16300,13 +17343,88 @@ msgstr "Não foi possível abrir o mapa raster <%s@%s> uma vez que é uma reclas
 msgid "Tried to pop an empty stack"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+#: ../lib/ogsf/trans.c:191
+msgid "Tried to pop an empty stack"
+msgstr ""
+=======
+#: ../lib/raster/interp.c:211
+#, c-format
+msgid "Unknown interpolation method: %s"
+msgstr "Método de interpolação desconhecido: %s"
+
+#: ../lib/raster/format.c:162
+#, c-format
+msgid "Fail of initial read of compressed file [%s in %s]"
+msgstr "Falha na leitura inicial do arquivo compactado [%s en %s]"
+
+#: ../lib/raster/format.c:176
+#, c-format
+msgid "Fail of initial read of compressed null file [%s in %s]"
+msgstr "Falha na leitura inicial do arquivo nulo compactado [%s in %s]"
+
+#: ../lib/raster/mask_info.c:43
+#, c-format
+msgid "<%s> in mapset <%s>"
+msgstr "<%s> no mapset <%s>"
+
+#: ../lib/raster/mask_info.c:46
+msgid "none"
+msgstr "nenhum"
+
+#: ../lib/raster/mask_info.c:49
+msgid "not known"
+msgstr "desconhecido"
+
+#: ../lib/raster/quant_rw.c:88
+#, c-format
+msgid "Unable to read fp range for raster map <%s>"
+msgstr "Não foi possível ler o intervalo fp para o mapa raster <%s>"
+
+#: ../lib/raster/quant_rw.c:92
+#, c-format
+msgid "Raster map <%s> is empty"
+msgstr "O mapa raster <%s> está vazio"
+
+#: ../lib/raster/quant_rw.c:157
+#, c-format
+msgid "Unable to write quant rules: raster map <%s> is integer"
+msgstr "Não foi possível escrever regras de quantização: o mapa raster <%s> é inteiro"
+
+#: ../lib/raster/quant_rw.c:166
+#, c-format
+msgid "Unable to write quant rules for raster map <%s>"
+msgstr "Não foi possível escrever regras de quantização para o mapa raster <%s>"
+
+#: ../lib/raster/color_read.c:103
+msgid "missing"
+msgstr "ausente"
+
+#: ../lib/raster/color_read.c:106
+msgid "invalid"
+msgstr "inválido"
+
+#: ../lib/raster/color_read.c:112
+#, c-format
+msgid "Color support for <%s@%s> %s"
+msgstr "Suporte de cor para <%s@%s> %s"
+
+#: ../lib/raster/open.c:192
+#, c-format
+msgid "Unable to open raster map <%s@%s> since it is a reclass of raster map <%s@%s> which does not exist"
+msgstr "Não foi possível abrir o mapa raster <%s@%s> uma vez que é uma reclassificaçãao do mapa raster <%s@%s> que não existe"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../lib/vector/Vlib/close_nat.c:74
 #, c-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Error reading reclass file for raster map <%s>"
 msgstr "Erro ao ler arquivo de reclassificação para mapa raster <%s>"
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgid "Unable to create '%s': %s"
 msgstr "Não foi possível criar '%s': %s"
 
@@ -16413,7 +17531,14 @@ msgstr "Tentativa de acessar a feição com id inválido (%d)"
 #, c-format
 msgid "Attempt to access dead feature %d"
 msgstr ""
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+msgid "Error reading reclass file for raster map <%s>"
+msgstr "Erro ao ler arquivo de reclassificação para mapa raster <%s>"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../lib/vector/Vlib/read_pg.c:375
 #, c-format
@@ -16777,6 +17902,7 @@ msgstr ""
 "to 0)"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../lib/raster/gdal.c:89
 #, c-format
 msgid "Unable to locate symbol <%s>"
@@ -16937,6 +18063,8 @@ msgstr "Muitas categorias de reclassificação para <%s@%s>"
 msgid "Illegal reclass format in header file for <%s@%s>"
 msgstr "Formato de reclassificação ilegal no arquivo de cabeçalho para <%s@%s>"
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 #: ../lib/vector/Vlib/net_build.c:467
 msgid "Cannot add network arc representing turn."
 msgstr ""
@@ -16948,7 +18076,171 @@ msgstr ""
 #: ../lib/vector/Vlib/net_build.c:539 ../lib/vector/Vlib/net_build.c:832
 msgid "Registering arcs..."
 msgstr ""
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+#: ../lib/raster/gdal.c:89
+#, c-format
+msgid "Unable to locate symbol <%s>"
+msgstr "Não foi possível localizar o símbolo <%s>"
+
+#: ../lib/raster/gdal.c:149
+msgid "Unable to load GDAL library"
+msgstr "Não foi possível carregar a biblioteca GDAL"
+
+#: ../lib/raster/gdal.c:382
+msgid "Unable to open GDAL file"
+msgstr "Não foi possível abrir o arquivo GDAL"
+
+#: ../lib/raster/gdal.c:490
+#, c-format
+msgid "Unable to get <%s> driver"
+msgstr "Não foi possível obter driver <%s>"
+
+#: ../lib/raster/gdal.c:499
+#, c-format
+msgid "Unable to create <%s> dataset using <%s> driver"
+msgstr "Não é possível criar conjunto de dados <%s> usando driver <%s>"
+
+#: ../lib/raster/gdal.c:507
+#, c-format
+msgid "Driver <%s> does not support direct writing. Using MEM driver for intermediate dataset."
+msgstr "O driver <%s> não suporta escrita direta. Usando o driver MEM para um conjunto de dados intermediário."
+
+#: ../lib/raster/gdal.c:513
+msgid "Unable to get in-memory raster driver"
+msgstr "Não foi possível obter o driver de raster na memória"
+
+#: ../lib/raster/gdal.c:520
+#, c-format
+msgid "Unable to create <%s> dataset using memory driver"
+msgstr "Não foi possível criar conjunto de dados <%s> usando driver da memória"
+
+#: ../lib/raster/gdal.c:524
+#, c-format
+msgid "Driver <%s> does not support creating rasters"
+msgstr "O driver <%s> não suporta a criação de rasters"
+
+#: ../lib/raster/gdal.c:540
+msgid "Unable to set geo transform"
+msgstr "Não é possível definir a transformação geográfica"
+
+#: ../lib/raster/gdal.c:544
+msgid "Unable to set projection"
+msgstr "Não é possível definir a projeção"
+
+#: ../lib/raster/gdal.c:548
+#, c-format
+msgid "Unable to create cell_misc/%s/gdal file"
+msgstr "Não foi possível criar arquivo cell_misc/%s/gdal"
+
+#: ../lib/raster/gdal.c:564
+#, c-format
+msgid "Error writing cell_misc/%s/gdal file"
+msgstr "Erro escrevendo arquivo cell_misc/%s/gdal"
+
+#: ../lib/raster/gdal.c:612
+#, c-format
+msgid "Unable to create output file <%s> using driver <%s>"
+msgstr "Não é possível criar arquivo de saída <%s> usando o driver <%s>"
+
+#: ../lib/raster/alloc_cell.c:151
+#, c-format
+msgid "Rast__null_bitstream_size: cols (%d) is negative"
+msgstr "Rast__null_bitstream_size: cols (%d) é negativo"
+
+#: ../lib/raster/init.c:61
+msgid "Raster library not initialized. Programmer forgot to call Rast_init()."
+msgstr "Biblioteca raster não inicializada. O programador esqueceu de chamar Rast_init()."
+
+#: ../lib/raster/init.c:112
+#, c-format
+msgid "Unknown compression method <%s>, using default %s"
+msgstr "Método de compressão desconhecido <%s>, usando padrão %s"
+
+#: ../lib/raster/init.c:116
+#, c-format
+msgid "No compression is not supported for GRASS raster maps, using default %s"
+msgstr "A compressão não é suportada para mapas raster GRASS, usando padrão %s"
+
+#: ../lib/raster/init.c:123
+#, c-format
+msgid "This GRASS version does not support %s compression, using default %s"
+msgstr "Esta versão GRASS não suporta compressão %s, usando padrão %s"
+
+#: ../lib/raster/put_row.c:121
+#, c-format
+msgid "Error writing uncompressed FP data for row %d of <%s>: %s"
+msgstr "Erro ao escrever dados FP descompactados para linha %dde <%s>: %s"
+
+#: ../lib/raster/put_row.c:131
+#, c-format
+msgid "Error writing compressed FP data for row %d of <%s>: %s"
+msgstr "Erro ao escrever dados FP compactados para linha %dde <%s>: %s"
+
+#: ../lib/raster/put_row.c:391 ../lib/raster/put_row.c:397
+#, c-format
+msgid "Error writing compressed data for row %d of <%s>"
+msgstr "Erro ao escrever dados compactados para linha %dde <%s>"
+
+#: ../lib/raster/put_row.c:407
+#, c-format
+msgid "Error writing uncompressed data for row %d of <%s>"
+msgstr "Erro ao escrever dados descompactados para linha %dde <%s>"
+
+#: ../lib/raster/put_row.c:467
+#, c-format
+msgid "Error writing data via GDAL for row %d of <%s>"
+msgstr "Erro ao escrever dados via GDAL para linha %d de <%s>"
+
+#: ../lib/raster/put_row.c:491
+msgid "GDAL output doesn't support writing null rows separately"
+msgstr "A saída GDAL não suporta a escrita de linhas nulas separadamente"
+
+#: ../lib/raster/put_row.c:494
+#, c-format
+msgid "No null file for <%s>"
+msgstr "Nenhum arquivo nulo para <%s>"
+
+#: ../lib/raster/put_row.c:521 ../lib/raster/put_row.c:526
+#, c-format
+msgid "Error writing compressed null data for row %d of <%s>"
+msgstr "Erro ao escrever dados nulos compactados para linha %d de <%s>"
+
+#: ../lib/raster/put_row.c:560 ../lib/raster/put_row.c:563
+#, c-format
+msgid "Error writing null row %d of <%s>"
+msgstr "Erro ao escrever linha nula %d de <%s>"
+
+#: ../lib/raster/put_row.c:688
+#, c-format
+msgid "put_raster_row: raster map <%s> not open for write - request ignored"
+msgstr "put_raster_row: mapa raster <%s> não aberto para escrita - solicitação ignorada"
+
+#: ../lib/raster/put_row.c:695
+msgid "put_raster_row: unopened file descriptor - request ignored"
+msgstr "put_raster_row: descritor de arquivo não aberto - solicitação ignorada"
+
+#: ../lib/raster/null_val.c:64
+msgid "EmbedGivenNulls: wrong data type"
+msgstr "EmbedGivenNulls: tipo de dados errado"
+
+#: ../lib/raster/null_val.c:114
+msgid "Rast_set_null_value: wrong data type!"
+msgstr "Rast_set_null_value: tipo de dados errado!"
+
+#: ../lib/raster/reclass.c:168
+#, c-format
+msgid "Too many reclass categories for <%s@%s>"
+msgstr "Muitas categorias de reclassificação para <%s@%s>"
+
+#: ../lib/raster/reclass.c:171
+#, c-format
+msgid "Illegal reclass format in header file for <%s@%s>"
+msgstr "Formato de reclassificação ilegal no arquivo de cabeçalho para <%s@%s>"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../lib/vector/Vlib/net_build.c:557
 #, c-format
@@ -17071,6 +18363,7 @@ msgstr "Quebrando polígonos (passo 1: selecione os pontos de quebra)..."
 #: ../lib/vector/Vlib/break_polygons.c:337
 #, c-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Error in datum table file <%s>, line %d"
 msgstr "Erro no arquivo da tabela de dados <%s>, linha %d"
 
@@ -17111,6 +18404,48 @@ msgid "Datum <%s> not recognised by GRASS and no parameters found"
 =======
 msgid "File reading error in %s() %d:%s"
 >>>>>>> osgeo-main
+=======
+msgid "File reading error in %s() %d:%s"
+=======
+msgid "Error in datum table file <%s>, line %d"
+msgstr "Erro no arquivo da tabela de dados <%s>, linha %d"
+
+#: ../lib/proj/convert.c:194
+msgid "Unable parse GRASS PROJ_INFO file"
+msgstr "Não foi possível interpretar o arquivo GRASS PROJ_INFO"
+
+#: ../lib/proj/convert.c:201
+msgid "Unable get PROJ.4-style parameter string"
+msgstr "Não é possível obter string de parâmetro com estilo PROJ.4"
+
+#: ../lib/proj/convert.c:219
+#, c-format
+msgid "OGR can't parse PROJ.4-style parameter string: %s (OGR Error code was %d)"
+msgstr "O OGR não consegue interpretar a string de parâmetros no estilo PROJ.4: %s (o código de erro OGR era %d)"
+
+#: ../lib/proj/convert.c:232
+#, c-format
+msgid "OGR can't get WKT-style parameter string (OGR Error code was %d)"
+msgstr "OGR não pode obter a string de parâmetros com estilo WKT (o código de erro OGR era %d)"
+
+#: ../lib/proj/convert.c:471
+#, c-format
+msgid "Updating spatial reference with embedded proj4 definition failed. Proj4 definition: <%s>"
+msgstr "A atualização da referência espacial com a definição proj4 incorporada falhou. Definição Proj4: <%s>"
+
+#: ../lib/proj/convert.c:478
+msgid "Updating spatial reference with embedded proj4 definition"
+msgstr "Atualizando referência espacial com definição de proj4 incorporada"
+
+#: ../lib/proj/convert.c:611
+msgid "No projection name! Projection parameters likely to be meaningless."
+msgstr "Sem nome de projeção! Os parâmetros de projeção provavelmente não têm sentido."
+
+#: ../lib/proj/convert.c:678
+#, c-format
+msgid "Datum <%s> not recognised by GRASS and no parameters found"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgstr ""
 
 #: ../lib/vector/Vlib/break_polygons.c:291
@@ -22132,6 +23467,7 @@ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%
 #~ msgstr "Cenário de downgrade do TGIS DB não suportado: da versão %s para %s"
 
 #~ msgid "Downgrading temporal database <%s> from version %s to %s..."
+<<<<<<< HEAD
 #~ msgstr ""
 #~ "Fazendo downgrade do banco de dados temporal <%s> da versão %s para %s..."
 
@@ -22323,6 +23659,7 @@ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -22385,3 +23722,14 @@ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+#~ msgstr "Fazendo downgrade do banco de dados temporal <%s> da versão %s para %s..."
+
+#~ msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of raster map <%s@%s> %s"
+#~ msgstr "Não foi possível ler o arquivo de cabeçalho do mapa raster <%s@%s>. É uma reclassificação do mapa raster <%s@%s> %s"
+
+#~ msgid "which is missing."
+#~ msgstr "que está faltando."
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))

@@ -18646,6 +18646,7 @@ msgstr "[%s] : cette couleur n'existe pas"
 #~ msgid "Unsupported shell <%(sh)s>: %(env)s"
 #~ msgstr "Shell <%(sh)s> non supporté : %(env)s"
 
+<<<<<<< HEAD
 #, fuzzy
 #~ msgid ""
 #~ "Job file '%s' has been defined in the 'GRASS_BATCH_JOB' variable but not "
@@ -19520,6 +19521,7 @@ msgstr "Pour exécuter le module <%s>, ajouter un tiret-bas à la fin de l'optio
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -19607,3 +19609,12 @@ msgstr "Pour exécuter le module <%s>, ajouter un tiret-bas à la fin de l'optio
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+#~ msgid "Copy %s <%s> to current mapset as <%s>"
+#~ msgstr "Copie %s <%s> vers <%s> dans le jeu de cartes courant"
+
+#~ msgid "Invalid value <%s> for parameter <%s>"
+#~ msgstr "Valeur <%s> manquante pour le paramètre <%s>"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))

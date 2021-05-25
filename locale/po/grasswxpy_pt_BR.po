@@ -18198,7 +18198,12 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 msgstr ""
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+"Conjunto de dados temporais raster (strds)\n"
+"Pressione ENTER após digitar o nome ou selecione com a combobox"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/gcp/statusbar.py:52
 #: ../gui/wxpython/image2target/ii2t_statusbar.py:52
@@ -18212,6 +18217,7 @@ msgstr "Intervalo válido:"
 msgid "RMS error"
 msgstr "Erro RMS"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 #: ../gui/wxpython/tplot/frame.py:209 ../gui/wxpython/tplot/frame.py:264
@@ -18309,6 +18315,98 @@ msgstr "Sem conexão entre o mapa vetorial {vmap} e a camada {la}"
 #: ../gui/wxpython/image2target/ii2t_statusbar.py:123
 #: ../gui/wxpython/photo2image/ip2i_statusbar.py:123
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/gcp/statusbar.py:123
+#: ../gui/wxpython/image2target/ii2t_statusbar.py:123
+#: ../gui/wxpython/photo2image/ip2i_statusbar.py:123
+=======
+#: ../gui/wxpython/tplot/frame.py:209 ../gui/wxpython/tplot/frame.py:264
+msgid "Show simple linear regression line"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:226
+msgid "STRDS"
+msgstr "STRDS"
+
+#: ../gui/wxpython/tplot/frame.py:234
+msgid ""
+"Vector temporal dataset (stvds)\n"
+"Press ENTER after typing the name or select with the combobox"
+msgstr ""
+"Conjunto de dados temporais de vetor (stvds)\n"
+"Pressione ENTER após digitar o nome ou selecione com a combobox"
+
+#: ../gui/wxpython/tplot/frame.py:248
+msgid "Select attribute column"
+msgstr "Selecionar a coluna de atributo"
+
+#: ../gui/wxpython/tplot/frame.py:261
+msgid "Select category of vector(s)"
+msgstr "Selecionar a categoria de vetor(es)"
+
+#: ../gui/wxpython/tplot/frame.py:284
+msgid "STVDS"
+msgstr "STVDS"
+
+#: ../gui/wxpython/tplot/frame.py:291
+msgid "Set title for the plot"
+msgstr "Defina o título do gráfico"
+
+#: ../gui/wxpython/tplot/frame.py:296
+msgid "Set label for X axis"
+msgstr "Defina o rótulo do eixo X"
+
+#: ../gui/wxpython/tplot/frame.py:301
+msgid "Set label for Y axis"
+msgstr "Defina o rótulo do eixo Y"
+
+#: ../gui/wxpython/tplot/frame.py:313
+msgid "Labels"
+msgstr "Rótulos"
+
+#: ../gui/wxpython/tplot/frame.py:320
+msgid "Path for output CSV file with plotted data"
+msgstr "Caminho para o arquivo CSV de saída com dados plotados"
+
+#: ../gui/wxpython/tplot/frame.py:326
+msgid "CVS path"
+msgstr "Caminho CVS"
+
+#: ../gui/wxpython/tplot/frame.py:332
+msgid "Do you want the CSV header?"
+msgstr "Você quer o cabeçalho CSV?"
+
+#: ../gui/wxpython/tplot/frame.py:373 ../gui/wxpython/tplot/frame.py:922
+#: ../gui/wxpython/tplot/frame.py:926 ../gui/wxpython/tplot/frame.py:947
+#: ../gui/wxpython/tplot/frame.py:1073
+msgid "Invalid input coordinates"
+msgstr "Coordenadas de entrada inválidas"
+
+#: ../gui/wxpython/tplot/frame.py:464
+#, python-brace-format
+msgid "Category {ca} is not on vector map {ma} and it will be not used"
+msgstr "A categoria {ca} não está no mapa vetorial {ma} e não será usada"
+
+#: ../gui/wxpython/tplot/frame.py:483
+msgid "Both coordinates and categories are set, coordinates will be used. The use categories remove text from coordinate form"
+msgstr "As coordenadas e categorias são definidas, as coordenadas serão usadas. As categorias de uso removem o texto da forma de coordenadas"
+
+#: ../gui/wxpython/tplot/frame.py:488
+msgid "With Vector temporal dataset you have to select an attribute column"
+msgstr "Com o conjunto de dados temporais Vetorial, você deve selecionar uma coluna de atributo"
+
+#: ../gui/wxpython/tplot/frame.py:540
+msgid "Difference number of vector layers and maps in the vector temporal dataset"
+msgstr "Número de diferença de camadas vetoriais e mapas no conjunto de dados temporais vetoriais"
+
+#: ../gui/wxpython/tplot/frame.py:582
+#, python-brace-format
+msgid "No connection between vector map {vmap} and layer {la}"
+msgstr "Sem conexão entre o mapa vetorial {vmap} e a camada {la}"
+
+#: ../gui/wxpython/tplot/frame.py:648
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 #, python-format
 msgid "Forward: %(forw)s, Backward: %(back)s"
 msgstr ""
@@ -38623,6 +38721,7 @@ msgid "Show g.extension manual page"
 msgstr "Mostrar página do manual g.extension"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/modules/vclean.py:84
 msgid "break polygons"
 msgstr "quebrar polígonos "
@@ -38690,6 +38789,8 @@ msgstr "face"
 
 #: ../gui/wxpython/modules/vclean.py:402
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 #: ../gui/wxpython/modules/extensions.py:188
 msgid "Extension not defined"
 msgstr "Extensão não definida"
@@ -38699,6 +38800,12 @@ msgstr "Extensão não definida"
 msgid "Fetching list of tools from GRASS-Addons (be patient)..."
 msgstr ""
 =======
+=======
+#: ../gui/wxpython/modules/vclean.py:84
+msgid "break polygons"
+msgstr "quebrar polígonos "
+
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 #: ../gui/wxpython/modules/vclean.py:85
 msgid "prune lines/boundaries"
 msgstr "aparar linhas/fronteiras"
@@ -38830,8 +38937,72 @@ msgstr "aparar linhas/fronteiras"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 
+<<<<<<< HEAD
 #: ../gui/wxpython/modules/extensions.py:227
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+#: ../gui/wxpython/modules/vclean.py:86
+msgid "remove small areas"
+msgstr "remove áreas pequenas"
+
+#: ../gui/wxpython/modules/vclean.py:87
+msgid "remove lines/boundaries of zero length"
+msgstr "remova linhas/fronteiras de comprimento zero"
+
+#: ../gui/wxpython/modules/vclean.py:88
+msgid "remove small angles at nodes"
+msgstr "remova pequenos ângulos nos nós"
+
+#: ../gui/wxpython/modules/vclean.py:123
+msgid "Choose cleaning tools and set thresholds"
+msgstr "Escolher ferramentas de limpeza e definir limiares"
+
+#: ../gui/wxpython/modules/vclean.py:127
+msgid "Select input vector map:"
+msgstr "Seleciona mapa vetorial de entrada:"
+
+#: ../gui/wxpython/modules/vclean.py:133
+msgid " Feature type: "
+msgstr "Tipo de feição:"
+
+#: ../gui/wxpython/modules/vclean.py:137
+msgid "Select output vector map:"
+msgstr "Seleciona mapa vetorial de saída:"
+
+#: ../gui/wxpython/modules/vclean.py:178
+msgid "Copy the current command string to the clipboard (Ctrl+C)"
+msgstr "Copie a string de comando atual para a área de transferência (Ctrl+C)"
+
+#: ../gui/wxpython/modules/vclean.py:223 ../gui/wxpython/psmap/utils.py:105
+msgid "point"
+msgstr "ponto"
+
+#: ../gui/wxpython/modules/vclean.py:224
+msgid "line"
+msgstr "linha"
+
+#: ../gui/wxpython/modules/vclean.py:225
+msgid "boundary"
+msgstr "contorno"
+
+#: ../gui/wxpython/modules/vclean.py:226
+msgid "centroid"
+msgstr "centroide"
+
+#: ../gui/wxpython/modules/vclean.py:227
+#: ../gui/wxpython/vdigit/preferences.py:694
+msgid "area"
+msgstr "area"
+
+#: ../gui/wxpython/modules/vclean.py:228
+msgid "face"
+msgstr "face"
+
+#: ../gui/wxpython/modules/vclean.py:402
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 #, python-format
 msgid "%d extensions loaded"
 msgstr "%dextensões carregadas"
@@ -38874,6 +39045,7 @@ msgid "Reinstall selected Addons extensions"
 msgstr "Reinstalar as extensões de complementos selecionadas"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/modules/vclean.py:489
 #, python-format
 msgid "Threshold for %(num)s. tool '%(tool)s': %(thresh)s"
@@ -38883,6 +39055,17 @@ msgstr "Limiar para %(num)s. ferramenta '%(tool)s': %(thresh)s"
 msgid "No extension selected. Operation canceled."
 msgstr "Nenhuma extensão selecionada. Operação cancelada."
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/modules/extensions.py:477
+msgid "No extension selected. Operation canceled."
+msgstr "Nenhuma extensão selecionada. Operação cancelada."
+=======
+#: ../gui/wxpython/modules/vclean.py:489
+#, python-format
+msgid "Threshold for %(num)s. tool '%(tool)s': %(thresh)s"
+msgstr "Limiar para %(num)s. ferramenta '%(tool)s': %(thresh)s"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/modules/extensions.py:503
 #, python-format
@@ -40700,6 +40883,7 @@ msgid "Sample units"
 msgstr "Unidades de amostra"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/rlisetup/wizard.py:894 ../gui/wxpython/menustrings.py:342
 #: ../gui/wxpython/menustrings.py:1287
 msgid "Moving window"
@@ -40709,6 +40893,17 @@ msgstr "Janela móvel"
 =======
 #: ../gui/wxpython/rlisetup/wizard.py:986
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/rlisetup/wizard.py:986
+=======
+#: ../gui/wxpython/rlisetup/wizard.py:894 ../gui/wxpython/menustrings.py:342
+#: ../gui/wxpython/menustrings.py:1287
+msgid "Moving window"
+msgstr "Janela móvel"
+
+#: ../gui/wxpython/rlisetup/wizard.py:895
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgid ""
 "Select areas from the\n"
 "overlaid vector map"
@@ -55444,6 +55639,7 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/web_services/dialogs.py:1045
 #, python-format
 msgid "Region <%s> does not exist."
@@ -55483,10 +55679,49 @@ msgstr "GSelect: item inválido: %s"
 =======
 #: ../gui/wxpython/animation/utils.py:194
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/animation/utils.py:194
+=======
+#: ../gui/wxpython/web_services/dialogs.py:1045
+#, python-format
+msgid "Region <%s> does not exist."
+msgstr ""
+
+#: ../gui/wxpython/web_services/dialogs.py:1074
+msgid "Downloading data..."
+msgstr ""
+
+#: ../gui/wxpython/web_services/dialogs.py:1101
+msgid "Unable to fetch data.\n"
+msgstr ""
+
+#: ../gui/wxpython/gui_core/gselect.py:499
+msgid "Not selectable element"
+msgstr "Elemento não selecionável"
+
+#: ../gui/wxpython/gui_core/gselect.py:536
+#: ../gui/wxpython/gui_core/preferences.py:2196
+msgid "Mapset"
+msgstr "Mapset"
+
+#: ../gui/wxpython/gui_core/gselect.py:548
+msgid "Type: "
+msgstr "Tipo:"
+
+#: ../gui/wxpython/gui_core/gselect.py:566
+#, python-format
+msgid "GSelect: invalid item: %s"
+msgstr "GSelect: item inválido: %s"
+
+#: ../gui/wxpython/gui_core/gselect.py:758
+#, python-format
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgid ""
 "The temporal type (absolute/relative) of space-time datasets has to be the "
 "same."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Erro temporal de GIS:\n"
 "%s"
@@ -55494,11 +55729,20 @@ msgstr ""
 "O tipo temporal (absoluto/relativo) dos conjuntos de dados espaço-temporais "
 "deve ser o mesmo."
 >>>>>>> osgeo-main
+=======
+"O tipo temporal (absoluto/relativo) dos conjuntos de dados espaço-temporais "
+"deve ser o mesmo."
+=======
+"Erro temporal de GIS:\n"
+"%s"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/animation/utils.py:202
 msgid ""
 "The map type (point/interval) of space-time datasets has to be the same."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Não foi possível importar pyGRASS: %s\n"
 "Algumas funcionalidades não estarão acessíveis"
@@ -55506,6 +55750,14 @@ msgstr ""
 "O tipo de mapa (ponto/intervalo) dos conjuntos de dados de espaço-tempo deve "
 "ser o mesmo."
 >>>>>>> osgeo-main
+=======
+"O tipo de mapa (ponto/intervalo) dos conjuntos de dados de espaço-tempo deve "
+"ser o mesmo."
+=======
+"Não foi possível importar pyGRASS: %s\n"
+"Algumas funcionalidades não estarão acessíveis"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55979,6 +56231,7 @@ msgid ""
 "The temporal extents of maps in space-time datasets have to be the same."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Não foi possível escrever o arquivo '%(path)s'.\n"
 "\n"
 "Detalhes: %(error)s"
@@ -55986,6 +56239,15 @@ msgstr ""
 "A extensão temporal dos mapas nos conjuntos de dados espaço-tempo deve ser a "
 "mesma."
 >>>>>>> osgeo-main
+=======
+"A extensão temporal dos mapas nos conjuntos de dados espaço-tempo deve ser a "
+"mesma."
+=======
+"Não foi possível escrever o arquivo '%(path)s'.\n"
+"\n"
+"Detalhes: %(error)s"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/animation/utils.py:222
 msgid "The number of maps to animate has to be the same for each map series."
@@ -56048,16 +56310,26 @@ msgstr ""
 #: ../gui/wxpython/animation/g.gui.animation.py:93
 #, python-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Command output saved into '%s'"
 msgstr "Saída de comando salva em '%s'"
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgid "%s=, %s=, %s= and %s= are mutually exclusive."
 msgstr "%s=, %s=, %s= e %s= são mutuamente excludentes."
 
 #: ../gui/wxpython/animation/g.gui.animation.py:137
 msgid "Animation Tool - GRASS GIS"
 msgstr ""
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+msgid "Command output saved into '%s'"
+msgstr "Saída de comando salva em '%s'"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/animation/dialogs.py:81
 msgid "Adjust speed of animation"
@@ -56191,6 +56463,7 @@ msgstr ""
 "Detalhes: {error}"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/gui_core/goutput.py:451
 msgid "Command log saved to '{}'"
 msgstr "Log de comando salvo em '{}'"
@@ -56199,6 +56472,16 @@ msgstr "Log de comando salvo em '{}'"
 msgid "Use saved region:"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/animation/dialogs.py:527
+msgid "Use saved region:"
+msgstr ""
+=======
+#: ../gui/wxpython/gui_core/goutput.py:451
+msgid "Command log saved to '{}'"
+msgstr "Log de comando salvo em '{}'"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/animation/dialogs.py:536
 msgid "Animate region change"
@@ -56864,6 +57147,7 @@ msgstr "O mapa vetorial <%s> foi criado"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 
+<<<<<<< HEAD
 #: ../gui/wxpython/animation/dialogs.py:1676
 msgid "Multiple raster maps"
 msgstr "Multiplos mapas raster"
@@ -56895,7 +57179,46 @@ msgstr "Entrada do tipo de dado:"
 #: ../gui/wxpython/animation/dialogs.py:1797
 msgid "Select raster/vector maps."
 msgstr "Selecione mapas raster/vetoriais."
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+#: ../gui/wxpython/gui_core/vselect.py:48
+msgid "category"
+msgstr "categoria"
+
+#: ../gui/wxpython/gui_core/vselect.py:73
+msgid "Select features"
+msgstr "Selecionar feições"
+
+#: ../gui/wxpython/gui_core/vselect.py:136
+msgid "Create a new map"
+msgstr "Criar novo mapa"
+
+#: ../gui/wxpython/gui_core/vselect.py:269
+#, python-format
+msgid "Selected map <%s> has been disabled for rendering. Operation canceled."
+msgstr "O mapa selecionado <%s> foi desativado para renderização. Operação cancelada."
+
+#: ../gui/wxpython/gui_core/vselect.py:277
+msgid "No vector map layer selected. Operation canceled."
+msgstr "Nenhuma camada de mapa vetorial selecionada. Operação cancelada."
+
+#: ../gui/wxpython/gui_core/vselect.py:306
+#, python-format
+msgid "Failed to query vector map(s) <%s>."
+msgstr "Falha ao consultar mapa(s) vetorial(is) <%s>."
+
+#: ../gui/wxpython/gui_core/vselect.py:331
+msgid "No features selected"
+msgstr "Nenhuma feição selecionada"
+
+#: ../gui/wxpython/gui_core/vselect.py:355
+#, python-format
+msgid "Vector map <%s> was created"
+msgstr "O mapa vetorial <%s> foi criado"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/animation/dialogs.py:1825
 msgid "Please select maps or dataset first."
@@ -56927,6 +57250,7 @@ msgid ""
 "formats. Type custom format string."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Não foi possível criar um novo mapa vetorial.\n"
 "\n"
 "Razão: %s"
@@ -56940,6 +57264,8 @@ msgstr " (...)"
 msgid "Name <%(name)s> is not a valid name for GRASS map. Please use only ASCII characters excluding %(chars)s and space."
 msgstr "Nome <%(name)s> não é um nome válido para o mapa GRASS. Use apenas caracteres ASCII excluindo %(chars)s e espaço."
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 "Clique e pressione a tecla para cima ou para baixo para visualizar "
 "diferentes formatos de data e hora. Digite a string de formato "
 "personalizado. "
@@ -56951,7 +57277,24 @@ msgstr "Aprenda mais sobre opções de formatação"
 #: ../gui/wxpython/animation/dialogs.py:2039
 msgid "Display instances with no data"
 msgstr "Exibir instâncias sem dados "
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+"Não foi possível criar um novo mapa vetorial.\n"
+"\n"
+"Razão: %s"
+
+#: ../gui/wxpython/gui_core/widgets.py:115
+msgid " (...)"
+msgstr " (...)"
+
+#: ../gui/wxpython/gui_core/widgets.py:850
+#, python-format
+msgid "Name <%(name)s> is not a valid name for GRASS map. Please use only ASCII characters excluding %(chars)s and space."
+msgstr "Nome <%(name)s> não é um nome válido para o mapa GRASS. Use apenas caracteres ASCII excluindo %(chars)s e espaço."
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 <<<<<<< HEAD
 #: ../gui/wxpython/animation/dialogs.py:2042
@@ -57352,6 +57695,7 @@ msgid ""
 "display 'no data frame' (checked option) or keep last frame."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\n"
 "Nota: Isso controla apenas as coordenadas exibidas no canto inferior esquerdo da barra de status da janela da Exibição do Mapa.\n"
 "É puramente cosmético e não afeta a projeção da location de trabalho\n"
@@ -57361,6 +57705,17 @@ msgstr ""
 "Ao animar dados que possuem formatos de data/hora irregulares, você pode "
 "exibir 'nenhum quadro de dados' (opção marcada) ou manter o último quadro. "
 >>>>>>> osgeo-main
+=======
+"Ao animar dados que possuem formatos de data/hora irregulares, você pode "
+"exibir 'nenhum quadro de dados' (opção marcada) ou manter o último quadro. "
+=======
+"\n"
+"Nota: Isso controla apenas as coordenadas exibidas no canto inferior esquerdo da barra de status da janela da Exibição do Mapa.\n"
+"É puramente cosmético e não afeta a projeção da location de trabalho\n"
+" de qualquer forma. Você precisará habilitar a caixa de seleção Projeção no menu suspenso\n"
+"localizado na parte inferior da janela de Exibição do Mapa.\n"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 <<<<<<< HEAD
 #: ../gui/wxpython/animation/dialogs.py:2073
@@ -57620,6 +57975,7 @@ msgid "Rendering map layers"
 msgstr "Renderizando camadas do mapa"
 =======
 #: ../gui/wxpython/gui_core/preferences.py:1739
+<<<<<<< HEAD
 msgid "PROJ string (required):"
 msgstr "String PROJ (obrigatório):"
 <<<<<<< HEAD
@@ -57765,7 +58121,18 @@ msgstr "Arquivo EPSG:"
 #: ../gui/wxpython/animation/provider.py:562
 msgid "Overlaying map layers"
 msgstr "Sobrepondo camadas do mapa"
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+msgid "Proj.4 string (required):"
+msgstr "String Proj.4 (obrigatório):"
+
+#: ../gui/wxpython/gui_core/preferences.py:1756
+msgid "EPSG file:"
+msgstr "Arquivo EPSG:"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57806,6 +58173,7 @@ msgstr "Carregue os códigos EPSG (seja paciente), digite o código EPSG ou insi
 #: ../gui/wxpython/animation/provider.py:789
 =======
 #: ../gui/wxpython/gui_core/preferences.py:1773
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Load EPSG codes (be patient), enter EPSG code or insert Proj.4 string directly."
 msgstr "Carregue os códigos EPSG (seja paciente), digite o código EPSG ou insira a seqüência Proj.4 diretamente."
@@ -57984,6 +58352,14 @@ msgstr "Carregue os códigos EPSG (seja paciente), digite o código EPSG ou insi
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+msgid "Load EPSG codes (be patient), enter EPSG code or insert PROJ string directly."
+msgstr "Carregue os códigos EPSG (seja paciente), digite o código EPSG ou insira a seqüência PROJ diretamente."
+=======
+msgid "Load EPSG codes (be patient), enter EPSG code or insert Proj.4 string directly."
+msgstr "Carregue os códigos EPSG (seja paciente), digite o código EPSG ou insira a seqüência Proj.4 diretamente."
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/gui_core/preferences.py:1781
 msgid "&Load EPSG codes"
@@ -58116,7 +58492,11 @@ msgstr ""
 #: ../gui/wxpython/gui_core/dialogs.py:486
 #, python-format
 msgid "Vector map <%s> already exists in the current mapset. Do you want to overwrite it?"
+<<<<<<< HEAD
 msgstr "O mapa vetorial <%s> já existe no mapset atual. Você deseja substituí-lo?"
+=======
+msgstr "O mapa vetorial <%s> já existe no mapset atual. Você deseja sobrescrever isso?"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/gui_core/dialogs.py:576
 msgid "Load region:"
@@ -58836,12 +59216,21 @@ msgstr ""
 >>>>>>> osgeo-main
 #, python-brace-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "The {map_type} map {map_name} exists. Do you want to overwrite?"
 msgstr "O mapa {map_type} {map_name} existe. Você deseja substituir?"
 =======
 msgid "Directory {t} not removed."
 msgstr "O diretório {t} não foi removido."
 >>>>>>> osgeo-main
+=======
+msgid "Directory {t} not removed."
+msgstr "O diretório {t} não foi removido."
+=======
+msgid "The {map_type} map {map_name} exists. Do you want to overwrite?"
+msgstr "O mapa {map_type} {map_name} existe. Você deseja substituir?"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60265,12 +60654,20 @@ msgstr "Falha ao ler a instrução %s."
 msgid "Failed to read instruction %(inst)s: file %(file)s not found."
 msgstr "Falha ao ler a instrução %(inst)s: arquivo %(file)s não encontrado."
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/psmap/g.gui.psmap.py:52
 msgid "Cartographic Composer - GRASS GIS"
 msgstr ""
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/psmap/utils.py:101
 msgid "inch"
@@ -60329,6 +60726,7 @@ msgid "Show preview"
 msgstr "Mostrar prévia"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/psmap/toolbars.py:87
 msgid "Quit Cartographic Composer"
 msgstr "Sair do Compositor Cartográfico"
@@ -60337,6 +60735,16 @@ msgstr "Sair do Compositor Cartográfico"
 =======
 #: ../gui/wxpython/psmap/toolbars.py:106
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/psmap/toolbars.py:106
+=======
+#: ../gui/wxpython/psmap/toolbars.py:87
+msgid "Quit Cartographic Composer"
+msgstr "Sair do Compositor Cartográfico"
+
+#: ../gui/wxpython/psmap/toolbars.py:107
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgid "Add overlays"
 msgstr "Adicionar sobreposições"
 
@@ -60352,6 +60760,7 @@ msgstr "Adicionar gráficos simples: linhas"
 msgid "Add simple graphics: rectangles"
 msgstr "Adicionar gráficos simples: retângulos"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: ../gui/wxpython/psmap/utils.py:104
 msgid "inch"
@@ -60405,6 +60814,60 @@ msgstr "Não foi possível executar `ps.map -b`"
 =======
 #: ../gui/wxpython/psmap/dialogs.py:267
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/psmap/dialogs.py:267
+=======
+#: ../gui/wxpython/psmap/utils.py:104
+msgid "inch"
+msgstr "polegada"
+
+#: ../gui/wxpython/psmap/utils.py:106
+msgid "centimeter"
+msgstr "centímetro"
+
+#: ../gui/wxpython/psmap/utils.py:107
+msgid "millimeter"
+msgstr "millimeter"
+
+#: ../gui/wxpython/psmap/utils.py:111
+msgid "meters"
+msgstr "metros"
+
+#: ../gui/wxpython/psmap/utils.py:114
+msgid "kilometers"
+msgstr "kilômetros"
+
+#: ../gui/wxpython/psmap/utils.py:117
+msgid "feet"
+msgstr "pés"
+
+#: ../gui/wxpython/psmap/utils.py:120
+msgid "miles"
+msgstr "milhas"
+
+#: ../gui/wxpython/psmap/utils.py:123 ../gui/wxpython/psmap/utils.py:127
+msgid "nautical miles"
+msgstr "milhas naúticas"
+
+#: ../gui/wxpython/psmap/utils.py:125
+msgid "pixel"
+msgstr "pixel"
+
+#: ../gui/wxpython/psmap/utils.py:126
+msgid "meter"
+msgstr "metro"
+
+#: ../gui/wxpython/psmap/utils.py:129
+msgid "degree"
+msgstr "grau"
+
+#: ../gui/wxpython/psmap/utils.py:392
+msgid "Unable to run `ps.map -b`"
+msgstr "Não foi possível executar `ps.map -b`"
+
+#: ../gui/wxpython/psmap/dialogs.py:229
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgid "Units:"
 msgstr "Unidades:"
 
@@ -60467,6 +60930,17 @@ msgstr "Altura"
 #: ../gui/wxpython/psmap/dialogs.py:607
 msgid "Left"
 msgstr "Esquerda"
+<<<<<<< HEAD
+=======
+
+#: ../gui/wxpython/psmap/dialogs.py:530
+msgid "Right"
+msgstr "Direita"
+
+#: ../gui/wxpython/psmap/dialogs.py:594
+msgid "Literal is not allowed!"
+msgstr "Literal não é permitido!"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/psmap/dialogs.py:608
 msgid "Right"
@@ -60743,7 +61217,11 @@ msgstr "arquivo eps:"
 
 #: ../gui/wxpython/psmap/dialogs.py:2735 ../gui/wxpython/psmap/dialogs.py:3041
 msgid "Type filename or click browse to choose file"
+<<<<<<< HEAD
 msgstr "Digite o nome do arquivo ou clique em procurar para escolher o arquivo"
+=======
+msgstr "Digite o nome do arquivo ou clique em navegar para escolher o arquivo"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/psmap/dialogs.py:2736 ../gui/wxpython/psmap/dialogs.py:3042
 msgid "Choose a file"
@@ -61162,6 +61640,7 @@ msgstr ""
 #: ../gui/wxpython/psmap/frame.py:281
 #, python-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Characters on position %s are not supported by ISO-8859-1 (Latin 1) encoding which is required by module ps.map."
 msgstr "Os caracteres na posição%s não são suportados pela codificação ISO-8859-1 (Latin 1), que é exigida pelo módulo ps.map."
 
@@ -61169,6 +61648,8 @@ msgstr "Os caracteres na posição%s não são suportados pela codificação ISO
 msgid "Not all characters are supported by ISO-8859-1 (Latin 1) encoding which is required by module ps.map."
 msgstr "Nem todos os caracteres são suportados pela codificação ISO-8859-1 (Latin 1), que é exigida pelo módulo ps.map."
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 msgid ""
 "Characters on position %s are not supported by ISO-8859-1 (Latin 1) encoding "
 "which is required by module ps.map."
@@ -61183,16 +61664,35 @@ msgid ""
 msgstr ""
 "Nem todos os caracteres são suportados pela codificação ISO-8859-1 (Latin "
 "1), que é exigida pelo módulo ps.map."
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+msgid "Characters on position %s are not supported by ISO-8859-1 (Latin 1) encoding which is required by module ps.map."
+msgstr "Os caracteres na posição%s não são suportados pela codificação ISO-8859-1 (Latin 1), que é exigida pelo módulo ps.map."
+
+#: ../gui/wxpython/psmap/frame.py:286
+msgid "Not all characters are supported by ISO-8859-1 (Latin 1) encoding which is required by module ps.map."
+msgstr "Nem todos os caracteres são suportados pela codificação ISO-8859-1 (Latin 1), que é exigida pelo módulo ps.map."
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/psmap/frame.py:320
 msgid "Program ps2pdf is not available. Please install it first to create PDF."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "O programa ps2pdf não está disponível. Por favor, instale-o para criar PDF."
 =======
 msgstr ""
 "O programa ps2pdf não está disponível. Por favor, instale-o para criar PDF."
 >>>>>>> osgeo-main
+=======
+msgstr ""
+"O programa ps2pdf não está disponível. Por favor, instale-o para criar PDF."
+=======
+msgstr "O programa ps2pdf não está disponível. Por favor, instale-o para criar PDF."
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/psmap/frame.py:374
 msgid "Generating PDF..."
@@ -61211,6 +61711,7 @@ msgstr "Gerando visualização..."
 msgid "Ps.map exited with return code %s"
 msgstr "Ps.map saiu com o código de retorno %s"
 
+<<<<<<< HEAD
 #: ../gui/wxpython/psmap/frame.py:437
 #, fuzzy
 msgid "Program {} is not available."
@@ -61218,6 +61719,19 @@ msgstr "Visualização não disponível"
 
 #: ../gui/wxpython/psmap/frame.py:438
 #, fuzzy, python-brace-format
+=======
+#: ../gui/wxpython/psmap/frame.py:422
+#, python-format
+msgid "%(prg)s exited with return code %(code)s"
+msgstr "%(prg)s saiu com o código de retorno %(code)s"
+
+#: ../gui/wxpython/psmap/frame.py:426
+msgid "PDF generated"
+msgstr "PDF gerado"
+
+#: ../gui/wxpython/psmap/frame.py:429
+#, python-format
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 msgid ""
 "{title} Please install it to create PDF.\n"
 "\n"
@@ -61226,6 +61740,7 @@ msgstr ""
 "\n"
 "%s"
 
+<<<<<<< HEAD
 #: ../gui/wxpython/psmap/frame.py:451
 #, fuzzy
 msgid ""
@@ -61236,6 +61751,15 @@ msgstr ""
 "O programa ps2pdf não está disponível. Por favor, instale-o para criar PDF.\n"
 "\n"
 "%s"
+=======
+#: ../gui/wxpython/psmap/frame.py:432
+msgid "PostScript file generated"
+msgstr "Arquivo PostScript gerado"
+
+#: ../gui/wxpython/psmap/frame.py:442
+msgid "Generating preview, wait please"
+msgstr "Gerando visualização, por favor aguarde"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/psmap/frame.py:460
 #, python-format
@@ -61282,6 +61806,7 @@ msgstr "Gerando visualização, por favor aguarde"
 msgid "Preview not available"
 msgstr "Visualização não disponível"
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #: ../gui/wxpython/psmap/frame.py:462
 msgid "Preview is not available probably because Ghostscript is not installed or not on PATH."
@@ -61299,6 +61824,8 @@ msgstr "Visualização gerada"
 msgid "Save file as"
 msgstr "Salvar arquivo como"
 =======
+=======
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/psmap/frame.py:509
 msgid ""
@@ -61315,6 +61842,18 @@ msgstr ""
 >>>>>>> osgeo-main
 
 #: ../gui/wxpython/psmap/frame.py:531
+=======
+
+#: ../gui/wxpython/psmap/frame.py:462
+msgid "Preview is not available probably because Ghostscript is not installed or not on PATH."
+msgstr "A visualização provavelmente não está disponível porque o Ghostscript não está instalado ou não está no PATH."
+
+#: ../gui/wxpython/psmap/frame.py:465
+msgid "Please follow instructions on GRASS Trac Wiki."
+msgstr "Por favor, siga as instruções no GRASS Trac Wiki."
+
+#: ../gui/wxpython/psmap/frame.py:476
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 msgid "Preview generated"
 msgstr "Visualização gerada"
 
@@ -61334,11 +61873,19 @@ msgstr "A barra de escala não é apropriada para esta projeção"
 #: ../gui/wxpython/psmap/frame.py:1333
 msgid "Press button with green triangle icon to generate preview."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pressione o botão com o ícone de triângulo verde para gerar a visualização."
 =======
 msgstr ""
 "Pressione o botão com o ícone de triângulo verde para gerar a visualização."
 >>>>>>> osgeo-main
+=======
+msgstr ""
+"Pressione o botão com o ícone de triângulo verde para gerar a visualização."
+=======
+msgstr "Pressione o botão com o ícone de triângulo verde para gerar a visualização."
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 
 #: ../gui/wxpython/psmap/frame.py:1348
 msgid "wxGUI Cartographic Composer"
@@ -62410,6 +62957,7 @@ msgstr "Importação de formatos comuns com reprojeção"
 #~ "Importa um mapa vetorial como arquivo de arquivo específico do GRASS GIS "
 #~ "(empacotado com v.pack)"
 
+<<<<<<< HEAD
 #~ msgid ""
 #~ "Exports a vector map layer to any of the supported OGR vector formats. By "
 #~ "default a vector map layer is exported to Esri Shapefile format."
@@ -66458,6 +67006,7 @@ msgstr "Clique aqui para ocultar o mecanismo do módulo de pesquisa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -66520,3 +67069,27 @@ msgstr "Clique aqui para ocultar o mecanismo do módulo de pesquisa"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+#~ msgid "Copies available data files in the current mapset search path to the user's current mapset."
+#~ msgstr "Copia os arquivos de dados disponíveis no caminho de pesquisa do mapset atual para o mapset atual do usuário."
+
+#~ msgid "Generates a raster map containing distances to nearest raster features."
+#~ msgstr "Gera um mapa raster contendo distâncias para as feições raster mais próximas."
+
+#~ msgid "Neighborhood analysis tool for vector point maps. Makes each cell value a function of the attribute values assigned to the vector points or centroids around it, and stores new cell values in an output raster map."
+#~ msgstr "Ferramenta de análise de vizinhança para mapas de pontos vetoriais. Torna cada valor de célula uma função dos valores de atributo atribuídos aos pontos vetoriais ou centroides ao seu redor e armazena novos valores de célula em um mapa raster de saída."
+
+#~ msgid "GRASS GIS SQL Query Utility"
+#~ msgstr "GRASS GIS SQL Query Utility"
+
+#~ msgid "Do you want to quit GRASS including shell prompt or just close the GUI?"
+#~ msgstr "Você deseja sair do GRASS incluindo o prompt do shell ou apenas fechar a GUI?"
+
+#~ msgid "Double-click or Ctrl-Enter to run selected module"
+#~ msgstr "Clique duas vezes ou Ctrl-Enter para executar o módulo selecionado"
+
+#~ msgid "GRASS GIS Cartographic Composer"
+#~ msgstr "Compositor Cartográfico GRASS GIS"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
