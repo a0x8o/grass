@@ -3173,6 +3173,7 @@ msgstr "Não existem pontos na região atual"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Segmentation parameters set to invalid values: npmin= %d, segmax= %d for smooth connection of segments, npmin > segmax (see manual)"
 msgstr "Parâmetros de segmentação definidos com valores inválidos: npmin= %d, segmax= %dpara conexão suave de segmentos, npmin > segmax (consulte o manual)"
 =======
@@ -3180,6 +3181,8 @@ msgstr "Parâmetros de segmentação definidos com valores inválidos: npmin= %d
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 =======
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 msgid ""
 "Segmentation parameters set to invalid values: npmin= %d, segmax= %d for "
 "smooth connection of segments, npmin > segmax (see manual)"
@@ -3187,12 +3190,16 @@ msgstr ""
 "Parâmetros de segmentação definidos com valores inválidos: npmin= %d, "
 "segmax= %dpara conexão suave de segmentos, npmin > segmax (consulte o manual)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 =======
 msgid "Segmentation parameters set to invalid values: npmin= %d, segmax= %d for smooth connection of segments, npmin > segmax (see manual)"
 msgstr "Parâmetros de segmentação definidos com valores inválidos: npmin= %d, segmax= %dpara conexão suave de segmentos, npmin > segmax (consulte o manual)"
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 =======
@@ -3201,6 +3208,8 @@ msgid "Segmentation parameters set to invalid values: npmin= %d, segmax= %d for 
 msgstr "Parâmetros de segmentação definidos com valores inválidos: npmin= %d, segmax= %dpara conexão suave de segmentos, npmin > segmax (consulte o manual)"
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../lib/rst/interp_float/vinput2d.c:292
 #, c-format
@@ -11818,6 +11827,7 @@ msgstr "Erro na compressão ZSTD %d: %s"
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../lib/gis/parser_dependencies.c:122
 msgid "Internal error: option or flag not found"
 msgstr "Erro interno: opção ou flag não encontrada"
@@ -12343,6 +12353,9 @@ msgstr "Não foi possível abrir diretório %s"
 =======
 #: ../lib/gis/parser_standard_options.c:152
 =======
+#: ../lib/gis/parser_standard_options.c:152
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
+=======
 #: ../lib/gis/parser_dependencies.c:122
 msgid "Internal error: option or flag not found"
 msgstr "Erro interno: opção ou flag não encontrada"
@@ -12863,7 +12876,10 @@ msgstr "Não foi possível abrir diretório %s"
 
 #: ../lib/gis/parser_standard_options.c:151
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 msgid "SQL SELECT statement"
 msgstr "Instrução SQL SELECT"
 
@@ -17053,6 +17069,7 @@ msgstr "Campo de resolução n-s duplicado"
 #, c-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Centroid skipped (output feature type: %s)"
 msgstr "Centroide ignorado (tipo de feição de saída: %s)"
 =======
@@ -17073,6 +17090,14 @@ msgstr "Centroide ignorado (tipo de feição de saída: %s)"
 =======
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+msgid "Invalid n-s resolution field: %s"
+msgstr "Campo de resolução n-s inválido: %s"
+=======
+msgid "Centroid skipped (output feature type: %s)"
+msgstr "Centroide ignorado (tipo de feição de saída: %s)"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../lib/gis/rd_cellhd.c:271
 msgid "Duplicate 3D n-s resolution field"
@@ -17971,6 +17996,7 @@ msgstr[1] "%d primitivas registradas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -18536,6 +18562,8 @@ msgstr[1] "%d primitivas registradas"
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 #, fuzzy, c-format
 msgid "Incomplete GRASS session: Variable '%s' not set"
@@ -19239,6 +19267,7 @@ msgstr[1] ""
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -19344,12 +19373,15 @@ msgstr[1] ""
 =======
 =======
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 #, fuzzy, c-format
 msgid "One vertex registered"
 msgid_plural "%<PRId64> vertices registered"
 msgstr[0] "Um vértice registrado"
 msgstr[1] "%jd vértices registrados"
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 =======
@@ -19715,6 +19747,8 @@ msgstr[1] ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../lib/gis/mkstemp.c:133
 msgid "Attempt to create read-only temporary file"
@@ -19724,6 +19758,7 @@ msgstr "Tentativa de criar arquivo temporário somente leitura"
 #, c-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "One area built"
 msgid_plural "%d areas built"
 msgstr[0] "Uma área construída"
@@ -19736,10 +19771,15 @@ msgstr "Modo de acesso não reconhecido: %o"
 msgid "Unrecognised access mode: %o"
 msgstr "Modo de acesso não reconhecido: %o"
 =======
+msgid "Unrecognised access mode: %o"
+msgstr "Modo de acesso não reconhecido: %o"
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
+=======
 msgid "One area built"
 msgid_plural "%d areas built"
 msgstr[0] "Uma área construída"
 msgstr[1] "%d áreas construídas"
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 <<<<<<< HEAD
@@ -19748,11 +19788,15 @@ msgstr[1] "%d áreas construídas"
 =======
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../lib/gis/mapset_msc.c:223
 #, c-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "One isle built"
 msgid_plural "%d isles built"
 msgstr[0] "Uma ilha construída"
@@ -19765,10 +19809,15 @@ msgstr "Não foi possível fazer elemento do mapset %s (%s): %s"
 msgid "Unable to make mapset element %s (%s): %s"
 msgstr "Não foi possível fazer elemento do mapset %s (%s): %s"
 =======
+msgid "Unable to make mapset element %s (%s): %s"
+msgstr "Não foi possível fazer elemento do mapset %s (%s): %s"
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
+=======
 msgid "One isle built"
 msgid_plural "%d isles built"
 msgstr[0] "Uma ilha construída"
 msgstr[1] "%d ilhas construídas"
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 <<<<<<< HEAD
@@ -19777,6 +19826,9 @@ msgstr[1] "%d ilhas construídas"
 =======
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../lib/gis/mapset_msc.c:229
 #, c-format
@@ -19785,23 +19837,30 @@ msgstr "Não foi possível acessar elemento do mapset %s (%s): %s"
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../lib/vector/Vlib/build_nat.c:189
 msgid "Attaching centroids..."
 msgstr "Anexando centroides..."
 =======
 =======
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 #: ../lib/gis/cmprzlib.c:140
 #, c-format
 msgid "ZLIB compression error %d: %s"
 msgstr "Erro de compactação ZLIB %d:%s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 =======
 #: ../lib/vector/Vlib/build_nat.c:189
 msgid "Attaching centroids..."
 msgstr "Anexando centroides..."
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 <<<<<<< HEAD
@@ -19810,6 +19869,9 @@ msgstr "Anexando centroides..."
 =======
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../lib/gis/cmprzlib.c:199
 #, c-format
@@ -19954,6 +20016,7 @@ msgstr ""
 #, c-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Modifications: %d"
 msgstr "Modificações:%d"
 
@@ -20190,6 +20253,9 @@ msgid "Error writing uncompressed data for row %d of <%s>: %s"
 =======
 msgid "Error writing uncompressed data for row %d of <%s>: %s"
 =======
+msgid "Error writing uncompressed data for row %d of <%s>: %s"
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
+=======
 msgid "Modifications: %d"
 msgstr "Modificações:%d"
 
@@ -20421,7 +20487,10 @@ msgstr "Não foi possível interpretar '%s'"
 #, c-format
 msgid "Unable to close cursor %s"
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 msgstr ""
 
 #: ../lib/raster/put_row.c:473
@@ -20714,6 +20783,7 @@ msgstr "Não é possível criar link GDAL"
 #, c-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "One category loaded"
 msgid_plural "%d categories loaded"
 msgstr[0] "Uma categoria carregada"
@@ -20726,10 +20796,15 @@ msgstr "O mapa raster <%s> não está no mapset atual (%s)"
 msgid "Raster map <%s> is not in the current mapset (%s)"
 msgstr "O mapa raster <%s> não está no mapset atual (%s)"
 =======
+msgid "Raster map <%s> is not in the current mapset (%s)"
+msgstr "O mapa raster <%s> não está no mapset atual (%s)"
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
+=======
 msgid "One category loaded"
 msgid_plural "%d categories loaded"
 msgstr[0] "Uma categoria carregada"
 msgstr[1] "%d categorias carregadas"
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 <<<<<<< HEAD
@@ -20738,6 +20813,9 @@ msgstr[1] "%d categorias carregadas"
 =======
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../lib/raster/open.c:627
 #, c-format
@@ -20753,6 +20831,7 @@ msgstr "Nenhum arquivo temporário disponível: %s"
 #, c-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unable to calculate centroid for area %d"
 msgstr "Não foi possível calcular centroide para área %d"
 =======
@@ -20773,6 +20852,14 @@ msgstr "Não foi possível calcular centroide para área %d"
 =======
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+msgid "Raster map <%s> does not exist in the current mapset (%s)"
+msgstr "O mapa raster <%s> não existe no mapset atual (%s)"
+=======
+msgid "Unable to calculate centroid for area %d"
+msgstr "Não foi possível calcular centroide para área %d"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../lib/raster/open.c:843
 msgid "Rast_set_fp_type(): can only be called with FCELL_TYPE or DCELL_TYPE"
@@ -20792,6 +20879,7 @@ msgstr "Não foi possível encontrar '%s'"
 #, c-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "One feature without geometry skipped"
 msgid_plural "%d features without geometry skipped"
 msgstr[0] "Uma feição sem geometria ignorada"
@@ -20804,10 +20892,15 @@ msgstr "Tipo inválido: campo '%s' no arquivo '%s'"
 msgid "Invalid type: field '%s' in file '%s'"
 msgstr "Tipo inválido: campo '%s' no arquivo '%s'"
 =======
+msgid "Invalid type: field '%s' in file '%s'"
+msgstr "Tipo inválido: campo '%s' no arquivo '%s'"
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
+=======
 msgid "One feature without geometry skipped"
 msgid_plural "%d features without geometry skipped"
 msgstr[0] "Uma feição sem geometria ignorada"
 msgstr[1] "%d feições sem geometria ignoradas"
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 <<<<<<< HEAD
@@ -20816,6 +20909,9 @@ msgstr[1] "%d feições sem geometria ignoradas"
 =======
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../lib/raster/open.c:981
 #, c-format
@@ -20824,12 +20920,15 @@ msgstr "Tipo ausente: campo no arquivo '%s'"
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../lib/vector/Vlib/build_sfa.c:751
 msgid "Feature index is built only for non-native formats. Nothing to dump."
 msgstr "O índice de feições é criado apenas para formatos não nativos. Nada para descartar."
 =======
 =======
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 #: ../lib/raster/open.c:986
 #, c-format
 msgid "Raster map <%s> is not xdr: byte_order: %s"
@@ -20903,12 +21002,16 @@ msgstr "não consegui escrever as informações de categoria para [%s] em [%s]"
 msgid "Semantic label is too long"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 =======
 #: ../lib/vector/Vlib/build_sfa.c:751
 msgid "Feature index is built only for non-native formats. Nothing to dump."
 msgstr "O índice de feições é criado apenas para formatos não nativos. Nada para descartar."
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 <<<<<<< HEAD
@@ -20917,9 +21020,13 @@ msgstr "O índice de feições é criado apenas para formatos não nativos. Nada
 =======
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../lib/raster/raster_metadata.c:169
 #, c-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Unable to determine bbox for feature %d"
@@ -20957,6 +21064,10 @@ msgstr ""
 msgid "Character '%c' not allowed in a semantic label."
 msgstr ""
 =======
+msgid "Character '%c' not allowed in a semantic label."
+msgstr ""
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
+=======
 msgid "Unable to determine bbox for feature %d"
 msgstr "Não foi possível determinar bbox para a feição %d"
 
@@ -20985,8 +21096,12 @@ msgstr "Topologia não disponível para mapa vetorial <%s>. Registrando primitiv
 msgid "Intersections: %d"
 msgstr "Intersecções: %d"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../lib/raster/raster_metadata.c:202
 #, c-format
@@ -25246,9 +25361,13 @@ msgstr "Não foi possível criar <%s.%s>"
 msgid "Unable to write nodes, offset array mismatch"
 msgstr "Não foi possível escrever nós, incompatibilidade de array de deslocamento"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 =======
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
+=======
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../lib/init/grass.py:2121
 msgid "Done."
@@ -31134,6 +31253,7 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../lib/raster/interp.c:211
 #, c-format
 msgid "Unknown interpolation method: %s"
@@ -31209,6 +31329,11 @@ msgstr ""
 msgid "Tried to pop an empty stack"
 msgstr ""
 =======
+#: ../lib/ogsf/trans.c:191
+msgid "Tried to pop an empty stack"
+msgstr ""
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
+=======
 #: ../lib/raster/interp.c:211
 #, c-format
 msgid "Unknown interpolation method: %s"
@@ -31275,6 +31400,7 @@ msgstr "Suporte de cor para <%s@%s> %s"
 msgid "Unable to open raster map <%s@%s> since it is a reclass of raster map <%s@%s> which does not exist"
 msgstr "Não foi possível abrir o mapa raster <%s@%s> uma vez que é uma reclassificaçãao do mapa raster <%s@%s> que não existe"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 <<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
@@ -31282,9 +31408,13 @@ msgstr "Não foi possível abrir o mapa raster <%s@%s> uma vez que é uma reclas
 =======
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../lib/vector/Vlib/close_nat.c:74
 #, c-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Error reading reclass file for raster map <%s>"
@@ -31292,6 +31422,8 @@ msgstr "Erro ao ler arquivo de reclassificação para mapa raster <%s>"
 =======
 =======
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 msgid "Unable to create '%s': %s"
 msgstr "Não foi possível criar '%s': %s"
 
@@ -31399,6 +31531,7 @@ msgstr "Tentativa de acessar a feição com id inválido (%d)"
 msgid "Attempt to access dead feature %d"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 =======
@@ -31407,6 +31540,12 @@ msgstr "Erro ao ler arquivo de reclassificação para mapa raster <%s>"
 <<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+=======
+msgid "Error reading reclass file for raster map <%s>"
+msgstr "Erro ao ler arquivo de reclassificação para mapa raster <%s>"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../lib/vector/Vlib/read_pg.c:375
 #, c-format
@@ -31773,6 +31912,7 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../lib/raster/gdal.c:89
 #, c-format
 msgid "Unable to locate symbol <%s>"
@@ -31935,6 +32075,8 @@ msgstr "Formato de reclassificação ilegal no arquivo de cabeçalho para <%s@%s
 =======
 =======
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 #: ../lib/vector/Vlib/net_build.c:467
 msgid "Cannot add network arc representing turn."
 msgstr ""
@@ -31947,8 +32089,11 @@ msgstr ""
 msgid "Registering arcs..."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 =======
 #: ../lib/raster/gdal.c:89
 #, c-format
@@ -32110,8 +32255,12 @@ msgstr "Muitas categorias de reclassificação para <%s@%s>"
 msgid "Illegal reclass format in header file for <%s@%s>"
 msgstr "Formato de reclassificação ilegal no arquivo de cabeçalho para <%s@%s>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../lib/vector/Vlib/net_build.c:557
 #, c-format
@@ -32237,6 +32386,7 @@ msgstr "Quebrando polígonos (passo 1: selecione os pontos de quebra)..."
 #, c-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Error in datum table file <%s>, line %d"
 msgstr "Erro no arquivo da tabela de dados <%s>, linha %d"
 
@@ -32280,6 +32430,9 @@ msgid "File reading error in %s() %d:%s"
 =======
 msgid "File reading error in %s() %d:%s"
 =======
+msgid "File reading error in %s() %d:%s"
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
+=======
 msgid "Error in datum table file <%s>, line %d"
 msgstr "Erro no arquivo da tabela de dados <%s>, linha %d"
 
@@ -32318,7 +32471,10 @@ msgstr "Sem nome de projeção! Os parâmetros de projeção provavelmente não 
 #, c-format
 msgid "Datum <%s> not recognised by GRASS and no parameters found"
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 msgstr ""
 
 #: ../lib/vector/Vlib/break_polygons.c:291
@@ -40136,6 +40292,7 @@ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -40249,6 +40406,8 @@ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
+=======
 #~ msgstr "Fazendo downgrade do banco de dados temporal <%s> da versão %s para %s..."
 
 #~ msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of raster map <%s@%s> %s"
@@ -40256,6 +40415,7 @@ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%
 
 #~ msgid "which is missing."
 #~ msgstr "que está faltando."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
@@ -40799,3 +40959,6 @@ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))

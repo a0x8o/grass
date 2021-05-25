@@ -61714,6 +61714,7 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../display/d.text/main.c:591
 msgid "Invalid coordinates"
 msgstr ""
@@ -63993,6 +63994,8 @@ msgstr ""
 =======
 =======
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 #: ../vector/v.net.salesman/main.c:148 ../vector/v.net.components/main.c:83
 #: ../vector/v.net.distance/main.c:84 ../vector/v.net.timetable/main.c:268
 #: ../vector/v.net.iso/main.c:116 ../vector/v.net.bridge/main.c:59
@@ -64002,8 +64005,11 @@ msgstr ""
 #: ../vector/v.net.allpairs/main.c:74 ../vector/v.net.connectivity/main.c:63
 #: ../vector/v.net/args.c:55 ../display/d.path/main.c:69
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 =======
 #: ../display/d.text/main.c:591
 msgid "Invalid coordinates"
@@ -66282,7 +66288,10 @@ msgstr ""
 #: ../vector/v.net.components/main.c:84 ../vector/v.net.steiner/main.c:368
 #: ../vector/v.net.allpairs/main.c:74 ../vector/v.net.distance/main.c:82
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 msgid "Arc layer"
 msgstr ""
 
@@ -67009,6 +67018,7 @@ msgstr[1] ""
 #, c-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Cannot select attributes for cat = %d"
 msgstr "Impossible de sélectionner les attributs pour cat = %d"
 
@@ -67050,6 +67060,8 @@ msgstr ""
 =======
 =======
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 msgid ""
 "Automatic choice of smoothing parameter (radius), maximum possible value of "
 "radius is set to %f"
@@ -67057,8 +67069,11 @@ msgstr ""
 
 #: ../vector/v.kernel/main.c:398
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 =======
 msgid "Cannot select attributes for cat = %d"
 msgstr "Impossible de sélectionner les attributs pour cat = %d"
@@ -67099,7 +67114,10 @@ msgstr ""
 #: ../vector/v.out.vtk/writeVTK.c:732 ../vector/v.out.vtk/writeVTK.c:763
 #: ../vector/v.out.vtk/writeVTK.c:794 ../vector/v.out.vtk/writeVTK.c:823
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 #, c-format
 msgid "Using maximum distance between points: %f"
 msgstr "Distance maximum entre les points en unités carte :%f"
@@ -67510,6 +67528,7 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../vector/v.external/list.c:94 ../vector/v.external.out/list.c:102
 #: ../vector/v.out.ogr/list.c:116 ../vector/v.in.ogr/main.c:442
 #: ../raster/r.in.gdal/main.c:314 ../raster/r.external/list.c:23
@@ -67541,6 +67560,10 @@ msgstr ""
 #: ../vector/v.in.db/main.c:228 ../display/d.vect.chart/plot.c:83
 #: ../display/d.vect/attr.c:109
 =======
+#: ../vector/v.in.db/main.c:228 ../display/d.vect.chart/plot.c:83
+#: ../display/d.vect/attr.c:109
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
+=======
 #: ../vector/v.external/list.c:94 ../vector/v.external.out/list.c:102
 #: ../vector/v.out.ogr/list.c:116 ../vector/v.in.ogr/main.c:442
 #: ../raster/r.in.gdal/main.c:314 ../raster/r.external/list.c:23
@@ -67565,7 +67588,10 @@ msgstr ""
 
 #: ../vector/v.external/list.c:179
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 #, c-format
 msgid "Unable to open select cursor: '%s'"
 msgstr ""
@@ -70045,6 +70071,7 @@ msgstr ""
 #, c-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Mean = %.5lf"
 msgstr ""
 
@@ -70445,6 +70472,10 @@ msgid_plural "%ld points loaded"
 msgid "%ld point loaded"
 msgid_plural "%ld points loaded"
 =======
+msgid "%ld point loaded"
+msgid_plural "%ld points loaded"
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
+=======
 msgid "Mean = %.5lf"
 msgstr ""
 
@@ -70838,7 +70869,10 @@ msgstr ""
 msgid "%d point outside threshold"
 msgid_plural "%d points outside threshold"
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 msgstr[0] ""
 msgstr[1] ""
 
@@ -73834,6 +73868,7 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../vector/v.out.postgis/args.c:66
 msgid "Do not export attribute table"
 msgstr "Ne pas exporter de table attributaire"
@@ -73858,6 +73893,9 @@ msgstr ""
 =======
 #: ../vector/v.external.out/link.c:97
 =======
+#: ../vector/v.external.out/link.c:97
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
+=======
 #: ../vector/v.out.postgis/args.c:66
 msgid "Do not export attribute table"
 msgstr "Ne pas exporter de table attributaire"
@@ -73877,7 +73915,10 @@ msgstr ""
 
 #: ../vector/v.out.postgis/create.c:28
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 #, c-format
 msgid "Switched to OGR format (%s)"
 msgstr ""
@@ -73946,6 +73987,7 @@ msgstr ""
 #, c-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unable to open vector map <%s> on topological level"
 msgstr "Impossible d'ouvrir la carte vecteur <%s> au niveau topologique"
 =======
@@ -73966,11 +74008,20 @@ msgstr "Impossible d'ouvrir la carte vecteur <%s> au niveau topologique"
 =======
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+msgid "Unable to write history for vector map <%s>"
+msgstr ""
+=======
+msgid "Unable to open vector map <%s> on topological level"
+msgstr "Impossible d'ouvrir la carte vecteur <%s> au niveau topologique"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../vector/v.what.rast/main.c:276
 #, c-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unable to create PostGIS layer <%s>"
 msgstr "Impossible de créer la couche PostGIS <%s>"
 =======
@@ -73991,9 +74042,18 @@ msgstr "Impossible de créer la couche PostGIS <%s>"
 =======
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+msgid "No features of type (%s) found in the current computational region"
+msgstr ""
+=======
+msgid "Unable to create PostGIS layer <%s>"
+msgstr "Impossible de créer la couche PostGIS <%s>"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../vector/v.what.rast/main.c:300
 #, c-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Feature type '%s' not supported"
@@ -74011,9 +74071,18 @@ msgstr "Type d'entité '%s' non supporté"
 <<<<<<< HEAD
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+msgid "%d points outside current region were skipped"
+msgstr ""
+=======
+msgid "Feature type '%s' not supported"
+msgstr "Type d'entité '%s' non supporté"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../vector/v.what.rast/main.c:304
 #, c-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Feature type %d is not supported"
@@ -74027,6 +74096,8 @@ msgstr "Échec de la copie des objets"
 =======
 =======
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 msgid "%d points without category were skipped"
 msgstr ""
 =======
@@ -74034,8 +74105,11 @@ msgstr ""
 
 #: ../vector/v.what.rast/main.c:559 ../vector/v.what.rast/main.c:601
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 =======
 msgid "Feature type %d is not supported"
 msgstr "Type d'entité %d non supporté"
@@ -74046,7 +74120,10 @@ msgstr "Échec de la copie des objets"
 
 #: ../vector/v.out.postgis/main.c:185
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 #, c-format
 msgid "Multiple points (%d) of category %d, value set to 'NULL'"
 msgstr ""
@@ -74984,15 +75061,19 @@ msgstr[1] ""
 #, c-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "No database connection for layer <%s>"
 msgstr "Connexion à la base de données non définie pour la couche <%s>"
 =======
 =======
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 msgid "[%d] line read from input"
 msgid_plural "[%d] lines read from input"
 msgstr[0] ""
 msgstr[1] ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
@@ -75007,6 +75088,12 @@ msgstr "Connexion à la base de données non définie pour la couche <%s>"
 =======
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+=======
+msgid "No database connection for layer <%s>"
+msgstr "Connexion à la base de données non définie pour la couche <%s>"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #. GTC %s will be replaced with a message about lost lines.
 #: ../vector/v.lrs/v.lrs.segment/main.c:368
@@ -78126,6 +78213,7 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../vector/v.edit/select.c:160
 #, c-format
 msgid "Threshold value for querying is %.2f"
@@ -78772,13 +78860,18 @@ msgstr ""
 =======
 =======
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 #: ../vector/v.fill.holes/main.c:176
 #, fuzzy, c-format
 msgid "Copying attributes for layer <%s>"
 msgstr "Mise à jour des statistiques pour <%s>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 =======
 #: ../vector/v.edit/select.c:160
 #, c-format
@@ -79424,7 +79517,10 @@ msgstr ""
 msgid "Invalid out_type enumeration: %d"
 msgstr ""
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
 
 #: ../vector/v.neighbors/main.c:123
 msgid "Neighborhood analysis tool for vector point maps."

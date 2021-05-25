@@ -28868,6 +28868,7 @@ msgstr "Pour exécuter le module <%s>, ajouter un tiret-bas à la fin de l'optio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -29290,3 +29291,12 @@ msgstr "Pour exécuter le module <%s>, ajouter un tiret-bas à la fin de l'optio
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#~ msgid "Copy %s <%s> to current mapset as <%s>"
+#~ msgstr "Copie %s <%s> vers <%s> dans le jeu de cartes courant"
+
+#~ msgid "Invalid value <%s> for parameter <%s>"
+#~ msgstr "Valeur <%s> manquante pour le paramètre <%s>"
+>>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
+>>>>>>> 3b1d810250 (i18n: Transifex sync (#1592))
