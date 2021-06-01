@@ -27142,6 +27142,7 @@ msgid "Unable to flush all tiles"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -27243,6 +27244,8 @@ msgid "Unable to flush all tiles"
 >>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
 =======
 =======
+=======
+>>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
@@ -27396,12 +27399,18 @@ msgstr "Não foi possível limpar o índice"
 =======
 >>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2c7457226a (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/raster3d/close.c:84
 msgid "Unable to flush index"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27526,6 +27535,8 @@ msgstr "Não foi possível limpar o índice"
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2c7457226a (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -27837,7 +27848,12 @@ msgid "Unable to flush index"
 msgstr "Não foi possível limpar o índice"
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/raster3d/close.c:94
 msgid "Unable to position file"

@@ -10598,6 +10598,7 @@ def get_addon_path():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10760,6 +10761,8 @@ def get_addon_path():
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
@@ -11124,7 +11127,12 @@ def get_addon_path():
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
         """'addons_paths.json' is file created during install extension
         check get_addons_paths() function in the g.extension.py file
         """
@@ -11139,6 +11147,7 @@ def get_addon_path():
                     return True, addon["path"]
     return None, None
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11272,6 +11281,8 @@ def get_addon_path():
 >>>>>>> 2c7457226a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12428,7 +12439,12 @@ def get_addon_path():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 
 >>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))

@@ -10753,6 +10753,7 @@ RUN echo "  => Configure and compile grass" && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11032,6 +11033,8 @@ RUN echo "  => Configure and compile grass" && \
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD:docker/alpine/Dockerfile
+=======
+>>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD:docker/alpine/Dockerfile
 # Get rid of version number here, restore in next stage via symbolic link
 RUN mv $(grass --config path) /usr/local/grass
@@ -11054,6 +11057,7 @@ RUN ./configure \
     make install -j $NUMTHREADS
 =======
 # Reduce the image size - Remove unnecessary grass files
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11187,6 +11191,8 @@ RUN ./configure \
 >>>>>>> 2c7457226a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5b921dce64 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -11579,7 +11585,12 @@ RUN ./configure \
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/alpine/Dockerfile_alpine
 >>>>>>> e14069d05d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 4126e4bd7d (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 5b921dce64 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
     rm -rf /usr/local/grass80/demolocation; \
     rm -rf /usr/local/grass80/fonts; \
@@ -11587,6 +11598,7 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
     rm -rf /usr/local/grass80/share; \
     mkdir -p /usr/local/grass80/gui/wxpython/xml/; \
     mv module_items.xml /usr/local/grass80/gui/wxpython/xml/module_items.xml;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11760,6 +11772,8 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
 >>>>>>> 2c7457226a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5b921dce64 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -13302,7 +13316,13 @@ RUN cp /usr/local/grass83/gui/wxpython/xml/module_items.xml module_items.xml; \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/alpine/Dockerfile_alpine
+>>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 
 FROM common as grass
@@ -15708,6 +15728,7 @@ RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15883,6 +15904,8 @@ RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 =======
 =======
 =======
+=======
+>>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 8e84f40070 (Dockerfile: fix broken lib link (#1625))
@@ -17582,6 +17605,8 @@ RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 >>>>>>> d6e1feb5a7 (g.proj: fix reading input WKT (#1582))
 
 RUN ln -s /usr/local/grass /usr/local/grass7
+=======
+>>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 RUN ln -s /usr/local/grass `grass --config path`
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 >>>>>>> 18ee803302 (Dockerfile_alpine: fix broken pip six installation (#1568))
