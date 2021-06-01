@@ -59,6 +59,7 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -685,7 +686,12 @@ Usage:
 =======
 =======
 >>>>>>> c4ee228391 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> f3d76d90e7 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 (C) 2008-2024 by the GRASS Development Team
 =======
 (C) 2008-2021 by the GRASS Development Team
@@ -733,6 +739,7 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -802,6 +809,8 @@ Usage:
 >>>>>>> b425480f72 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 182ae4a08e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1754,7 +1763,12 @@ Usage:
 (C) 2008-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> c4ee228391 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> f3d76d90e7 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 This program is free software under the GNU General Public
 License (>=v2). Read the file COPYING that comes with GRASS
 for details.
@@ -4195,6 +4209,7 @@ def parser() -> tuple[dict[str, str], dict[str, bool]]:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4310,6 +4325,8 @@ def parser() -> tuple[dict[str, str], dict[str, bool]]:
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -4638,12 +4655,15 @@ def parser() -> tuple[dict[str, str], dict[str, bool]]:
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
     https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5234,7 +5254,12 @@ def parser() -> tuple[dict[str, str], dict[str, bool]]:
     https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     """
     if not os.getenv("GISBASE"):
         print("You must be in GRASS GIS to run this program.", file=sys.stderr)

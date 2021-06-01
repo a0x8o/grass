@@ -4397,6 +4397,7 @@ containing the source code):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4655,6 +4656,8 @@ docker build -t grassgis .
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
@@ -4860,6 +4863,8 @@ docker build -t grassgis .
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
 A. Docker image **without graphical user interface - wxGUI**.
 
 =======
@@ -4890,6 +4895,7 @@ A. Docker image **without graphical user interface - wxGUI**.
 ```bash
 docker build -t grassgis .
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5694,7 +5700,15 @@ docker build -t grassgis80 .
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+```
+docker build -t grassgis80 .
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 ```
 
 A test run (assuming you have the existing GRASS GIS test location; it can be
@@ -5784,6 +5798,7 @@ docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5899,6 +5914,8 @@ docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -6227,12 +6244,15 @@ docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
     --env HOME=/data/ grassgis grass --text nc_basic_spm_grass7/user1 \
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6823,7 +6843,12 @@ docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
     --env HOME=/data/ grassgis grass --text nc_basic_spm_grass7/user1 \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         --exec g.region -p
 
 # case 2: launching anywhere
@@ -6908,6 +6933,7 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7083,6 +7109,8 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -7362,12 +7390,18 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     --volume /your/test/grassdata/:/data --env HOME=/data/ grassgis \
         grass /data/nc_basic_spm_grass7/PERMANENT --exec g.region -p
 ```
 
 Note that the first `grassgis` is the name of the image while the second
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7402,6 +7436,8 @@ Note that the first `grassgis` is the name of the image while the second
 >>>>>>> f67335359e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b425480f72 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7473,12 +7509,15 @@ Note that the first `grassgis` is the name of the image while the second
 =======
 >>>>>>> d4ef6f4dbb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
     --volume /your/test/grassdata/:/data --env HOME=/data/ grassgis80 \
         grass /data/nc_basic_spm_grass7/PERMANENT --exec g.region -p
 ```
 
 Note that the first `grassgis80` is the name of the image while the second
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7599,6 +7638,8 @@ Note that the first `grassgis80` is the name of the image while the second
 >>>>>>> b425480f72 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 182ae4a08e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 7ae4f4de7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -8378,7 +8419,12 @@ Note that the first `grassgis` is the name of the image while the second
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 `grass` is the name of the executable.
 
 To run the tests (again assuming local location):
@@ -8466,6 +8512,7 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8581,6 +8628,8 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -8909,12 +8958,15 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
         grassgis grass /data/nc_basic_spm_grass7/PERMANENT --exec \
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9505,7 +9557,12 @@ docker run -it --rm --user=$(id -u):$(id -g) \
         grassgis grass /data/nc_basic_spm_grass7/PERMANENT --exec \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
             python -m grass.gunittest.main \
                 --location nc_basic_spm_grass7 --location-type nc
 ```
@@ -9848,6 +9905,7 @@ make distclean
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -9931,6 +9989,8 @@ make distclean
 >>>>>>> b425480f72 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 182ae4a08e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -10284,7 +10344,14 @@ make distclean
 =======
 =======
 >>>>>>> 2d98a74fb2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 182ae4a08e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+[![GRASS contributors](https://contrib.rocks/image?repo=OSGeo/grass "GRASS contributors")](https://github.com/OSGeo/grass/graphs/contributors)
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 You can generate locally the [GRASS GIS Programmer's Manual](https://grass.osgeo.org/programming8/).
 
 This needs doxygen (<http://www.doxygen.org>) and optionally
@@ -10321,6 +10388,7 @@ To generate the documents in PDF format, run
 make pdfdocs
 ```
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10433,6 +10501,8 @@ make pdfdocs
 >>>>>>> b425480f72 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -10808,4 +10878,9 @@ make pdfdocs
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))

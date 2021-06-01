@@ -81,6 +81,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 3
@@ -315,6 +316,8 @@ dev
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 5
 =======
 =======
@@ -865,11 +868,25 @@ dev
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2d98a74fb2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 182ae4a08e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+5
+=======
+<<<<<<< HEAD
+4
+>>>>>>> 9fa78e6a12 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+0dev
+2024
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 0
 dev
 2021
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -933,6 +950,8 @@ dev
 >>>>>>> b425480f72 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -1745,4 +1764,9 @@ dev
 2023
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> c4ee228391 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> f3d76d90e7 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
