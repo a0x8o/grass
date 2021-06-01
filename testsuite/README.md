@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Tests are in directories `tests` and `testsuite` under each directory which has tests.
 This directory contains additional scripts and information to test functionality
 without a focus on a specific part of the code.
@@ -521,6 +522,14 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 =======
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+Tests are in directories `tests` and `testsuite` under each directory which has tests.
+This directory contains additional scripts and information to test functionality
+without a focus on a specific part of the code.
+=======
+GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b9c7d40d9b (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1527,6 +1536,9 @@ _grass.gunittest_ documentation:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b9c7d40d9b (Programmer's manual: update GRASS GIS arch drawing (#1610))
 ## Running tests
 
 <<<<<<< HEAD
@@ -1541,12 +1553,15 @@ export LD_LIBRARY_PATH=\$(grass --config path)/lib:\$LD_LIBRARY_PATH
 pytest
 =======
 ```
+<<<<<<< HEAD
 =======
 ```bash
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 ```bash
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b9c7d40d9b (Programmer's manual: update GRASS GIS arch drawing (#1610))
 # create new mapset for test
 grass ../demolocation/user1 -c
 # run the test

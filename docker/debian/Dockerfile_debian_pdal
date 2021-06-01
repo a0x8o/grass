@@ -2,6 +2,7 @@ FROM debian:10.1
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,weinmann@mundialis.de"
 =======
@@ -12,6 +13,10 @@ LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,bettge@mundialis.de
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,weinmann@mundialis.de"
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+LABEL authors="Carmen Tawalika,Markus Neteler,Anika Bettge"
+LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,bettge@mundialis.de"
+>>>>>>> b9c7d40d9b (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -51,15 +56,19 @@ RUN apt-get update && apt-get upgrade -y && \
     libjsoncpp-dev \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     libnetcdf-dev \
     libncurses5-dev \
     libopenblas-base \
     libopenblas-dev \
 =======
+=======
+>>>>>>> b9c7d40d9b (Programmer's manual: update GRASS GIS arch drawing (#1610))
     libopenblas-base \
     libopenblas-dev \
     libnetcdf-dev \
     libncurses5-dev \
+<<<<<<< HEAD
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
     libnetcdf-dev \
@@ -67,6 +76,8 @@ RUN apt-get update && apt-get upgrade -y && \
     libopenblas-base \
     libopenblas-dev \
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> b9c7d40d9b (Programmer's manual: update GRASS GIS arch drawing (#1610))
     libopenjp2-7 \
     libopenjp2-7-dev \
     libpnglite-dev \
@@ -104,10 +115,14 @@ RUN echo LANG="en_US.UTF-8" > /etc/default/locale
 RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## install a more recent projection library for GRASS GIS
 =======
 ## install the latest projection library for GRASS GIS
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+## install the latest projection library for GRASS GIS
+>>>>>>> b9c7d40d9b (Programmer's manual: update GRASS GIS arch drawing (#1610))
 WORKDIR /src
 RUN wget -q http://download.osgeo.org/proj/proj-${PROJ_VERSION}.tar.gz && \
     tar xzf proj-${PROJ_VERSION}.tar.gz && \
@@ -134,6 +149,7 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## fetch vertical datums for PDAL and store into PROJ dir
 =======
 ## fetch vertical datums and store into PROJ dir
@@ -141,6 +157,9 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 =======
 ## fetch vertical datums for PDAL and store into PROJ dir
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+## fetch vertical datums and store into PROJ dir
+>>>>>>> b9c7d40d9b (Programmer's manual: update GRASS GIS arch drawing (#1610))
 WORKDIR /src
 RUN mkdir vdatum && \
     cd vdatum && \
@@ -248,6 +267,7 @@ ENV GRASS_SKIP_MAPSET_OWNER_CHECK 1
 # Create generic GRASS GIS lib name regardless of version number
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 RUN ln -sf /usr/local/grass80 /usr/local/grass
 =======
 RUN ln -sf `grass --config path` /usr/local/grass
@@ -255,6 +275,9 @@ RUN ln -sf `grass --config path` /usr/local/grass
 =======
 RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+RUN ln -sf `grass --config path` /usr/local/grass
+>>>>>>> b9c7d40d9b (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
@@ -287,6 +310,7 @@ COPY docker/testdata/test_grass_session.py .
 ## just scan the LAZ file
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Not yet ready for GRASS GIS 8:
 #RUN /usr/bin/python3 /scripts/test_grass_session.py
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
@@ -298,6 +322,9 @@ RUN /usr/bin/python3 /scripts/test_grass_session.py
 #RUN /usr/bin/python3 /scripts/test_grass_session.py
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+RUN /usr/bin/python3 /scripts/test_grass_session.py
+>>>>>>> b9c7d40d9b (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 WORKDIR /grassdb
 VOLUME /grassdb

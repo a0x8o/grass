@@ -173,6 +173,7 @@ RUN echo "  => Configure and compile grass" && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Reduce the image size - Remove unnecessary grass files
 RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
     rm -rf /usr/local/grass80/demolocation; \
@@ -200,6 +201,9 @@ RUN cp /usr/local/grass79/gui/wxpython/xml/module_items.xml module_items.xml; \
 >>>>>>> 42a6a4145b (g.proj: fix reading input WKT (#1582))
 =======
 # Reduce the image size - Remove unnecessary grass files
+=======
+# Reduce the image size - Remove unnecessary grass files
+>>>>>>> b9c7d40d9b (Programmer's manual: update GRASS GIS arch drawing (#1610))
 RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
     rm -rf /usr/local/grass80/demolocation; \
     rm -rf /usr/local/grass80/fonts; \
@@ -207,9 +211,12 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
     rm -rf /usr/local/grass80/share; \
     mkdir -p /usr/local/grass80/gui/wxpython/xml/; \
     mv module_items.xml /usr/local/grass80/gui/wxpython/xml/module_items.xml;
+<<<<<<< HEAD
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 79c09abba5 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> b9c7d40d9b (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 
 FROM common as grass
@@ -266,7 +273,6 @@ RUN pip3 install --upgrade grass-session
 RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
 
-RUN ln -s /usr/local/grass /usr/local/grass7
 RUN ln -s /usr/local/grass `grass --config path`
 >>>>>>> 79c09abba5 (g.proj: fix reading input WKT (#1582))
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
