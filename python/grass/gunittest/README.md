@@ -209,6 +209,7 @@ For more information on the test suite and unit tests, visit:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -408,6 +409,8 @@ For more information on the test suite and unit tests, visit:
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -1117,6 +1120,8 @@ https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1157,7 +1162,11 @@ https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2c59b4c8e3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+<<<<<<< HEAD
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 <<<<<<< HEAD
 >>>>>>> a8edd4b153 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -2466,6 +2475,7 @@ https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
@@ -3070,3 +3080,7 @@ https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))

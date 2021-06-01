@@ -109,6 +109,7 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a48c908497 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -175,6 +176,8 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 >>>>>>> 9b7ec184c4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 3454fc4883 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -782,6 +785,7 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 >>>>>>> 4d9eb9010a (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 11368ff97a (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -967,6 +971,10 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 >>>>>>> 9b7ec184c4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 3454fc4883 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 # PACKAGES VERSIONS
 ARG PYTHON_VERSION=3
 
@@ -1130,6 +1138,7 @@ RUN echo "  => Configure and compile grass";\
     rm -rf /var/cache/apk/*; \
     rm -rf /root/.cache; \
     # Remove unnecessary grass files
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1453,6 +1462,8 @@ RUN echo "  => Configure and compile grass";\
 >>>>>>> 9b7ec184c4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2061,6 +2072,7 @@ RUN echo "  => Configure and compile grass";\
 =======
 >>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -2180,10 +2192,15 @@ RUN echo "  => Configure and compile grass";\
 =======
 >>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 9b7ec184c4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     rm -rf /usr/local/grass80/demolocation; \
     rm -rf /usr/local/grass80/fonts; \
     rm -rf /usr/local/grass80/gui; \
     rm -rf /usr/local/grass80/share;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2364,6 +2381,8 @@ RUN echo "  => Configure and compile grass";\
 >>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 9b7ec184c4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -2665,6 +2684,7 @@ RUN echo "  => Configure and compile grass";\
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2876,6 +2896,10 @@ RUN echo "  => Configure and compile grass";\
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 
 # Unset environmental variables to avoid later compilation issues

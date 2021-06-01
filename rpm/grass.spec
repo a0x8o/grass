@@ -208,6 +208,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 %global shortver 82
@@ -485,6 +486,8 @@ Version:	8.2.0
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 %global shortver 84
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -678,6 +681,13 @@ Version:	8.2.0
 %global shortver 83
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+%global shortver 84
+=======
+<<<<<<< HEAD
+%global shortver 83
+>>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 %global macrosdir %(d=%{_rpmconfigdir}/macros.d; [ -d $d ] || d=%{_sysconfdir}/rpm; echo $d)
 
 Name:		grass
@@ -1377,6 +1387,7 @@ Name:		grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1574,6 +1585,8 @@ Name:		grass
 >>>>>>> 9b7ec184c4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> a8edd4b153 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 7ae4f4de7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -3169,7 +3182,13 @@ Version:	8.0.0
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+Version:	8.0.0
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 Release:	1%{?dist}
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 Summary:	GRASS GIS - Geographic Resources Analysis Support System
@@ -8590,6 +8609,7 @@ fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8849,6 +8869,8 @@ fi
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7589c3e701 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -8864,6 +8886,7 @@ fi
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9071,6 +9094,10 @@ fi
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 * Sat Oct 26 2024 Markus Neteler <neteler@mundialis.de> - 8.4.0-3
 - Sort requirements and flags (https://github.com/OSGeo/grass/pull/4563/ by Edouard Choinière)
 
@@ -9181,6 +9208,7 @@ fi
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10351,7 +10379,13 @@ fi
 <<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 * Sun Aug 06 2023 Alexandre Detiste <alexandre.detiste@gmail.com> - 8.3.0-3
 - Remove support for RHEL6: Grass is now Python3 only
 
@@ -10493,9 +10527,12 @@ fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 9b7ec184c4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 <<<<<<< HEAD
 >>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -10587,10 +10624,13 @@ fi
 =======
 >>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 * Sun May 23 2021 Markus Neteler <neteler@mundialis.de> - 8.0.0-1
 - New upstream version GRASS GIS 8.0.0
 
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13220,6 +13260,7 @@ fi
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -13636,6 +13677,10 @@ fi
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 * Mon Oct 05 2020 Markus Neteler <neteler@mundialis.de> - 7.8.4-1
 - New upstream version GRASS GIS 7.8.4
 - disabled %%{name}-config.h

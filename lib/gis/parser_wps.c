@@ -7650,6 +7650,7 @@ static void wps_print_process_description_begin(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7923,6 +7924,8 @@ static void wps_print_process_description_begin(
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
@@ -8835,6 +8838,7 @@ static void wps_print_process_description_begin(
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -9114,10 +9118,15 @@ static void wps_print_process_description_begin(
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     if (abstract) {
         fprintf(stdout, "\t\t<ows:Abstract>");
         fprintf(stdout, "https://grass.osgeo.org/grass-devel/manuals/%s.html",
                 identifier);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9786,6 +9795,7 @@ static void wps_print_process_description_begin(
 =======
 >>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -9926,11 +9936,17 @@ static void wps_print_process_description_begin(
 =======
 >>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 9b7ec184c4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
     if(abstract)
     {
         fprintf(stdout,"\t\t<ows:Abstract>");
         fprintf(stdout, "https://grass.osgeo.org/grass80/manuals/%s.html", identifier);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10046,6 +10062,8 @@ static void wps_print_process_description_begin(
 >>>>>>> 9b7ec184c4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> a8edd4b153 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 4126e4bd7d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> c06b25ffae (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -11469,6 +11487,7 @@ static void wps_print_process_description_begin(
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -11875,6 +11894,11 @@ static void wps_print_process_description_begin(
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         fprintf(stdout, "</ows:Abstract>\n");
     }
 

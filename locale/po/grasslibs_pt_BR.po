@@ -39202,6 +39202,7 @@ msgid "Unable to flush all tiles"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -39315,6 +39316,8 @@ msgid "Unable to flush all tiles"
 >>>>>>> 9b7ec184c4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
@@ -39571,6 +39574,7 @@ msgstr "Não foi possível limpar o índice"
 =======
 >>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dca52defdd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -39684,11 +39688,16 @@ msgstr "Não foi possível limpar o índice"
 =======
 >>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 9b7ec184c4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/raster3d/close.c:84
 msgid "Unable to flush index"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39878,6 +39887,8 @@ msgstr "Não foi possível limpar o índice"
 >>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 9b7ec184c4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40547,7 +40558,12 @@ msgstr "Não foi possível limpar todos os mosaicos"
 msgid "Unable to flush index"
 msgstr "Não foi possível limpar o índice"
 >>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/raster3d/close.c:94
 msgid "Unable to position file"
