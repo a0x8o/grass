@@ -386,6 +386,7 @@ def create_grass_config_dir():
     Configuration directory is for example used for grass env file
     (the one which caries mapset settings from session to session).
     """
+<<<<<<< HEAD
     from grass.app.runtime import get_grass_config_dir
 
     try:
@@ -395,6 +396,46 @@ def create_grass_config_dir():
     except (RuntimeError, NotADirectoryError) as e:
         fatal(f"{e}")
 
+=======
+<<<<<<< HEAD
+    # The code is in sync with grass.app.runtime (but not the same).
+=======
+<<<<<<< HEAD
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+    if WINDOWS:
+        grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
+=======
+    if sys.platform == "win32":
+        grass_config_dirname = "GRASS8"
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+        win_conf_path = os.getenv("APPDATA")
+        # this can happen with some strange settings
+        if not win_conf_path:
+            fatal(
+                _(
+                    "The APPDATA variable is not set, ask your operating"
+                    " system support"
+                )
+            )
+        if not os.path.exists(win_conf_path):
+            fatal(
+                _(
+                    "The APPDATA variable points to directory which does"
+                    " not exist, ask your operating system support"
+                )
+            )
+        directory = os.path.join(win_conf_path, grass_config_dirname)
+    elif MACOS:
+        version = f"{GRASS_VERSION_MAJOR}.{GRASS_VERSION_MINOR}"
+        return os.path.join(os.getenv("HOME"), "Library", "GRASS", version)
+    else:
+<<<<<<< HEAD
+        grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
+=======
+        grass_config_dirname = ".grass8"
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+        directory = os.path.join(os.getenv("HOME"), grass_config_dirname)
+>>>>>>> d4ef6f4dbb (Programmer's manual: update GRASS GIS arch drawing (#1610))
     if not os.path.isdir(directory):
         try:
             os.makedirs(directory)
@@ -426,7 +467,13 @@ def create_tmp(user, gis_lock):
 
     tmpdir_name = f"grass{GRASS_VERSION_MAJOR}-{user}-{gis_lock}"
     if tmp:
+<<<<<<< HEAD
         tmpdir = os.path.join(tmp, tmpdir_name)
+=======
+        tmpdir = os.path.join(
+            tmp, "grass8-%(user)s-%(lock)s" % {"user": user, "lock": gis_lock}
+        )
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         try:
             os.mkdir(tmpdir, 0o700)
         except:  # noqa: E722
@@ -435,7 +482,13 @@ def create_tmp(user, gis_lock):
     if not tmp:
         for ttmp in ("/tmp", "/var/tmp", "/usr/tmp"):
             tmp = ttmp
+<<<<<<< HEAD
             tmpdir = os.path.join(tmp, tmpdir_name)
+=======
+            tmpdir = os.path.join(
+                tmp, "grass8-%(user)s-%(lock)s" % {"user": user, "lock": gis_lock}
+            )
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
             try:
                 os.mkdir(tmpdir, 0o700)
             except:  # noqa: E722
@@ -445,8 +498,14 @@ def create_tmp(user, gis_lock):
 
     if not tmp:
         fatal(
+<<<<<<< HEAD
             _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
                 tmpdir_name=tmpdir_name
+=======
+            _(
+                "Unable to create temporary directory <grass8-%(user)s-"
+                "%(lock)s>! Exiting."
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
             )
         )
 
