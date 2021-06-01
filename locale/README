@@ -91,6 +91,7 @@ This file contains following sections:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a48c908497 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -113,6 +114,8 @@ This file contains following sections:
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -491,6 +494,7 @@ Updating the message catalogs currently only works on
 Updating the message catalogs currently only works on
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -751,6 +755,11 @@ Updating the message catalogs currently only works on
 Updating the message catalogs currently only works on
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+Updating the message catalogs currently only works on 
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 unix-like systems and requires xgettext.
 
 ------------------------------------------------------
@@ -878,6 +887,7 @@ NOTE3: Notices to translators can be added by placing
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a48c908497 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -900,6 +910,8 @@ NOTE3: Notices to translators can be added by placing
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1278,6 +1290,7 @@ NOTE3: Notices to translators can be added by placing
         /* GTC A comma separated keyword list.
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1538,6 +1551,11 @@ NOTE3: Notices to translators can be added by placing
         /* GTC A comma separated keyword list.
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+        /* GTC A comma separated keyword list. 
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
            Should not contain spaces! */
         keywords = _("first,second,third");
 
@@ -1627,6 +1645,7 @@ NOTE4:  Any string containing a number that requires a correct plural form of
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a48c908497 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1649,6 +1668,8 @@ NOTE4:  Any string containing a number that requires a correct plural form of
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -2027,6 +2048,7 @@ NOTE4:  Any string containing a number that requires a correct plural form of
         plural case", number)
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -2287,6 +2309,11 @@ NOTE4:  Any string containing a number that requires a correct plural form of
         plural case", number)
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+        plural case", number) 
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 Examples of messages with plural forms.
 Wrong:
@@ -2374,6 +2401,7 @@ Wrong:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -2479,6 +2507,8 @@ Wrong:
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -2835,12 +2865,16 @@ Wrong:
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
     G_warning( _("%d %s without geometry skipped"), n, 
         n == 1 ? "feature" : "features"); 
 >>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f67335359e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -3103,6 +3137,8 @@ Wrong:
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     G_message( _("%d maps selected"), n);
     G_message( n == 1 ? _("Remove map") : _("Remove maps"));
 
@@ -3190,6 +3226,7 @@ Correct:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -3309,6 +3346,8 @@ Correct:
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
@@ -3726,6 +3765,7 @@ Correct:
 =======
     G_warning( n_("One feature without geometry skipped",
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
@@ -4246,6 +4286,18 @@ Correct:
     G_warning( n_("One feature without geometry skipped",
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+    G_message( n_("%d map from mapset <%s> removed", 
+        "%d maps from mapset <%s> removed", n), n, ms);
+    /* Notice double use of number "n" - as an argument for 
+    both functions - n_() and G_message() */
+    G_message( n_("One file removed", "%d files removed", n) n);
+    /* Both of forms of singular case "%d file" or "One file" are correct. 
+    The choice between them is purely stylistic one. */
+    G_warning( n_("One feature without geometry skipped", 
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         "%d features without geometry skipped", n), n);
     G_message( n_("%d map selected", "%d maps selected", n), n);
     /* Although in English it is not necessary to provide a separate
@@ -4335,6 +4387,7 @@ Correct:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -4440,6 +4493,8 @@ Correct:
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -4858,13 +4913,17 @@ All these messages strings will be then automatically
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
         
         
 All these messages strings will be then automatically 
 >>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f67335359e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -5120,6 +5179,8 @@ All these messages strings will be then automatically
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 extracted into the message files.
 
 See for example ./vector/v.what.rast/main.c
@@ -5212,6 +5273,7 @@ can be found in gettext manual.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a48c908497 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -5234,6 +5296,8 @@ can be found in gettext manual.
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -5612,6 +5676,7 @@ How to prepare program source:
 How to prepare program source:
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -5872,6 +5937,11 @@ How to prepare program source:
 How to prepare program source:
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+How to prepare program source: 
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 https://www.gnu.org/software/gettext/manual/gettext.html#Sources
 
 More advanced tricks like resolving ambiguties and handling of plural forms:
@@ -5891,6 +5961,7 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
  see also: https://grasswiki.osgeo.org/wiki/GRASS_messages_translation#Get_the_translated_po_files
 
 [1] .pot files are auto-generated on grass.osgeo.org and
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6109,6 +6180,8 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -6974,11 +7047,21 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 =======
 [2] Transifex job copies daily from [1] to here:
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+    stored in https://grass.osgeo.org/grass80/binary/linux/snapshot/transifex/
+     --> cronjob (on grasslxd container): /home/neteler/cronjobs/cron_grass8_HEAD_build_bins.sh
+
+[2] Transifex job copies daily from [1] to here: 
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	https://www.transifex.com/grass-gis/grass7/dashboard/
 
 [3] Translators work in Transifex,
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7184,6 +7267,8 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 =======
@@ -7666,6 +7751,7 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
     Script: https://github.com/OSGeo/grass-addons/blob/grass8/utils/transifex_merge.sh
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -7990,6 +8076,13 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
     Script: https://github.com/OSGeo/grass-addons/blob/grass8/utils/transifex_merge.sh
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+[4] Updated po files are taken from Transifex and merged into GRASS GIS source repo 
+    (MO files are generated when compiling GRASS GIS)
+    Script: https://github.com/OSGeo/grass-addons/blob/master/tools/transifex_merge.sh
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
     # trim disconnected=obsolete translations
     POFILE=grassYXZ_LANG.po
@@ -8081,6 +8174,7 @@ Semi-automated procedure:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a48c908497 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -8103,6 +8197,8 @@ Semi-automated procedure:
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -8481,6 +8577,7 @@ Semi-automated procedure:
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -8741,6 +8838,11 @@ Semi-automated procedure:
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+     
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         ./configured --with-nls [...further options...]
         make
 
@@ -8832,6 +8934,7 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a48c908497 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -8854,6 +8957,8 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -9232,6 +9337,7 @@ TODO OLD    make update-po  merges new messages into existing *.po files
   3. Now translate the messages in the po/*.po files (using kbabel or
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -9492,6 +9598,11 @@ TODO OLD    make update-po  merges new messages into existing *.po files
   3. Now translate the messages in the po/*.po files (using kbabel or
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+  3. Now translate the messages in the po/*.po files (using kbabel or 
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
      other editor). Just open the .po file(s) in your preferred translation
      software.
 
@@ -9578,6 +9689,7 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a48c908497 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -9600,6 +9712,8 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -9978,6 +10092,7 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -10238,6 +10353,11 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+      
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         make mo         creates the mo files (containing translated messages as
                         binary file)
 
@@ -10364,6 +10484,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a48c908497 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -10386,6 +10507,8 @@ DETAILED PROCEDURE :
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -10764,6 +10887,7 @@ DETAILED PROCEDURE :
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -11024,6 +11148,11 @@ DETAILED PROCEDURE :
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+    
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
    This will create
     ./templates/grasslibs.pot
     ./templates/grassmods.pot
@@ -11119,6 +11248,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -11238,6 +11368,8 @@ DETAILED PROCEDURE :
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
@@ -11655,6 +11787,7 @@ DETAILED PROCEDURE :
 =======
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
@@ -12175,6 +12308,18 @@ DETAILED PROCEDURE :
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+       
+  3.a) First CASE: Messages have not yet been translated to your language.
+       No .po file is present for your language in the ./po/ directory.
+      
+       Run:
+        make pot
+        make update-po
+ 
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
        Move the generated file from the ./template/ directory
        to the ./po/ directory (for example German language):
         mv ./template/grasslibs.pot ./po/grasslibs_de.po
@@ -12269,6 +12414,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a48c908497 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -12291,6 +12437,8 @@ DETAILED PROCEDURE :
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -12669,6 +12817,7 @@ DETAILED PROCEDURE :
   3.b) Second CASE: Some messages have already been translated to
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -12929,6 +13078,11 @@ DETAILED PROCEDURE :
   3.b) Second CASE: Some messages have already been translated to
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+  3.b) Second CASE: Some messages have already been translated to 
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
        your language (files present in ./po/ directory), and
        you want to continue with translating new and still
        untranslated messages.
@@ -13016,6 +13170,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -13135,6 +13290,8 @@ DETAILED PROCEDURE :
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
@@ -13594,6 +13751,7 @@ DETAILED PROCEDURE :
 =======
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
@@ -14180,6 +14338,21 @@ DETAILED PROCEDURE :
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+       First we have to merge new messages into existing .po files 
+       (which contain already translated messages) as new messages
+       might have been added into the GRASS system. 
+       To do so, run:
+    
+       make pot
+       make update-po
+    
+       This will update the messages in all existing files in 
+       the .po/ directory.
+    
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 4. TRANSLATE MESSAGES
 
@@ -14267,6 +14440,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a48c908497 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -14289,6 +14463,8 @@ DETAILED PROCEDURE :
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -14667,6 +14843,7 @@ DETAILED PROCEDURE :
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -14927,6 +15104,11 @@ DETAILED PROCEDURE :
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+   
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
    Run 'kbabel' or equivalent program
     kbabel ./po/grasslibs_<LANGUAGE>.po
     kbabel ./po/grassmods_<LANGUAGE>.po
@@ -15025,6 +15207,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -15144,6 +15327,8 @@ DETAILED PROCEDURE :
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
@@ -15575,6 +15760,7 @@ DETAILED PROCEDURE :
 =======
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
@@ -16117,6 +16303,19 @@ DETAILED PROCEDURE :
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+   * Pay attention to keep '%s', '\n' and other stuff also 
+     in the translated messages!
+   
+   * Please use 'ISO-8859-1' or 'ISO-8859-15' for western languages.
+     See https://en.wikipedia.org/wiki/ISO_8859 for details.
+   
+   After finishing the translation, save the files.
+
+     
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 5. CREATE MO FILES
 
    run
@@ -16222,6 +16421,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -16341,6 +16541,8 @@ DETAILED PROCEDURE :
 >>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
@@ -16730,6 +16932,7 @@ DETAILED PROCEDURE :
 =======
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
@@ -17206,6 +17409,16 @@ DETAILED PROCEDURE :
 
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> c2460610a9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+   
+   git diff file.c > file.diff
+   
+   Thanks for submitting.
+
+   
+>>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 PLEASE HELP TO TRANSLATE GRASS MESSAGES!
 
 ----------------------------------------------
