@@ -1,7 +1,12 @@
 FROM debian:10.1
 
+<<<<<<< HEAD
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,weinmann@mundialis.de"
+=======
+LABEL authors="Carmen Tawalika,Markus Neteler,Anika Bettge"
+LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,bettge@mundialis.de"
+>>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -39,10 +44,17 @@ RUN apt-get update && apt-get upgrade -y && \
     libgsl0-dev \
     libjpeg-dev \
     libjsoncpp-dev \
+<<<<<<< HEAD
     libnetcdf-dev \
     libncurses5-dev \
     libopenblas-base \
     libopenblas-dev \
+=======
+    libopenblas-base \
+    libopenblas-dev \
+    libnetcdf-dev \
+    libncurses5-dev \
+>>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     libopenjp2-7 \
     libopenjp2-7-dev \
     libpnglite-dev \
@@ -79,7 +91,11 @@ RUN apt-get update && apt-get upgrade -y && \
 RUN echo LANG="en_US.UTF-8" > /etc/default/locale
 RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 
+<<<<<<< HEAD
 ## install a more recent projection library for GRASS GIS
+=======
+## install the latest projection library for GRASS GIS
+>>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 WORKDIR /src
 RUN wget -q http://download.osgeo.org/proj/proj-${PROJ_VERSION}.tar.gz && \
     tar xzf proj-${PROJ_VERSION}.tar.gz && \
@@ -104,7 +120,11 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
     make && \
     make install
 
+<<<<<<< HEAD
 ## fetch vertical datums for PDAL and store into PROJ dir
+=======
+## fetch vertical datums and store into PROJ dir
+>>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 WORKDIR /src
 RUN mkdir vdatum && \
     cd vdatum && \
@@ -210,7 +230,11 @@ ENV LC_ALL "en_US.UTF-8"
 ENV GRASS_SKIP_MAPSET_OWNER_CHECK 1
 
 # Create generic GRASS GIS lib name regardless of version number
+<<<<<<< HEAD
 RUN ln -sf /usr/local/grass80 /usr/local/grass
+=======
+RUN ln -sf `grass --config path` /usr/local/grass
+>>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
@@ -241,9 +265,13 @@ COPY docker/testdata/simple.laz .
 WORKDIR /scripts
 COPY docker/testdata/test_grass_session.py .
 ## just scan the LAZ file
+<<<<<<< HEAD
 # Not yet ready for GRASS GIS 8:
 #RUN /usr/bin/python3 /scripts/test_grass_session.py
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
+=======
+RUN /usr/bin/python3 /scripts/test_grass_session.py
+>>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 WORKDIR /grassdb
 VOLUME /grassdb

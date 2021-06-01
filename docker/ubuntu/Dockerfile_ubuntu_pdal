@@ -147,7 +147,11 @@ COPY . /src/grass_build/
 WORKDIR /src/grass_build
 
 # Cleanup potentially leftover GISRC file with wrong path to "demolocation"
+<<<<<<< HEAD
 RUN rm -f /src/grass_build/dist.*/demolocation/.grassrc*
+=======
+RUN rm -f /src/grass_build/dist.*/demolocation/.grassrc7?
+>>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 # Set environmental variables for GRASS GIS compilation, without debug symbols
 # Set gcc/g++ environmental variables for GRASS GIS compilation, without debug symbols
@@ -202,7 +206,11 @@ ENV LC_ALL "en_US.UTF-8"
 ENV GRASS_SKIP_MAPSET_OWNER_CHECK 1
 
 # Create generic GRASS GIS lib name regardless of version number
+<<<<<<< HEAD
 RUN ln -sf /usr/local/grass80 /usr/local/grass
+=======
+RUN ln -sf `grass --config path` /usr/local/grass
+>>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
@@ -233,9 +241,13 @@ COPY docker/testdata/simple.laz .
 WORKDIR /scripts
 COPY docker/testdata/test_grass_session.py .
 ## just scan the LAZ file
+<<<<<<< HEAD
 # Not yet ready for GRASS GIS 8:
 #RUN /usr/bin/python3 /scripts/test_grass_session.py
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
+=======
+RUN /usr/bin/python3 /scripts/test_grass_session.py
+>>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 WORKDIR /grassdb
 VOLUME /grassdb

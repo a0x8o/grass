@@ -1,8 +1,12 @@
 # Test suite
 
+<<<<<<< HEAD
 Tests are in directories `tests` and `testsuite` under each directory which has tests.
 This directory contains additional scripts and information to test functionality
 without a focus on a specific part of the code.
+=======
+GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -402,6 +406,7 @@ assert methods to accommodate different data and outputs typical in GRASS GIS.
 _grass.gunittest_ documentation:
 <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
 
+<<<<<<< HEAD
 ## Running tests
 
 Tests can be executed using _pytest_:
@@ -413,6 +418,13 @@ export PYTHONPATH=\$(grass --config python_path):\$PYTHONPATH
 export LD_LIBRARY_PATH=\$(grass --config path)/lib:\$LD_LIBRARY_PATH
 # Run the test.
 pytest
+=======
+```
+# create new mapset for test
+grass ../demolocation/user1 -c
+# run the test
+make
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 ```
 
 ## Test data
