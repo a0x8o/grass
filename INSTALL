@@ -147,6 +147,7 @@ explains the options used to disable the compilation of non-mandatory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -296,6 +297,8 @@ explains the options used to disable the compilation of non-mandatory
 >>>>>>> bb4f048d28 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 785f930004 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> dee46b522d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -791,6 +794,7 @@ GRASS modules. See REQUIREMENTS.html for details.
 >>>>>>> 965183f78e (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> f1ad29e40c (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c3d683896b (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -1031,6 +1035,11 @@ GRASS modules. See REQUIREMENTS.html for details.
 >>>>>>> 965183f78e (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> f1ad29e40c (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 785f930004 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+GRASS modules. See REQUIREMENTS.html for details.
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
   
 First step of the compilation (-g for debugging, or -O2 for optimization):
 
@@ -1059,6 +1068,7 @@ Explanation of make targets:
 
 Next step is the compilation itself:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1260,6 +1270,8 @@ Next step is the compilation itself:
 =======
 >>>>>>> 785f930004 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+>>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 4178ebd75e (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> c428eb98e4 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -1447,12 +1459,18 @@ Next step is the compilation itself:
 =======
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> bb4f048d28 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
     make       
 
 Detailed Wiki notes for various operating systems (MS-Windows, GNU/Linux distros,
 FreeBSD, AIX, etc) are available at:
 https://grasswiki.osgeo.org/wiki/Compile_and_Install
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1604,6 +1622,8 @@ https://grasswiki.osgeo.org/wiki/Compile_and_Install
 >>>>>>> 795aee5c6f (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> bb4f048d28 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1727,6 +1747,7 @@ https://grasswiki.osgeo.org/wiki/Compile_and_Install
     make
 >>>>>>> 965183f78e (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> f1ad29e40c (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c3d683896b (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -1974,6 +1995,10 @@ https://grasswiki.osgeo.org/wiki/Compile_and_Install
 >>>>>>> 965183f78e (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> f1ad29e40c (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 785f930004 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 8d33ff1f0a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 Note for Solaris users (see also Wiki page above):
 
