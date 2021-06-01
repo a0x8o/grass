@@ -87,6 +87,7 @@ MENU
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -212,6 +213,8 @@ MENU
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1f7cb2bbf2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> e421dd047f (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -550,12 +553,15 @@ MENU
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2196f43bbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 1e537538ac (Programmer's manual: update GRASS GIS arch drawing (#1610))
   https://grass.osgeo.org/grass-devel/manuals/wxGUI.toolboxes.html
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1186,7 +1192,15 @@ MENU
 =======
 =======
 >>>>>>> 2196f43bbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 1f7cb2bbf2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+  https://grass.osgeo.org/grass80/manuals/wxGUI.toolboxes.html
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1e537538ac (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> e421dd047f (Programmer's manual: update GRASS GIS arch drawing (#1610))
   (../docs/wxgui_sphinx/src/)
 - additionally
   https://trac.osgeo.org/grass/wiki/wxGUIDevelopment/Toolboxes
