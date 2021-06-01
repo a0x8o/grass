@@ -63,6 +63,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -704,8 +705,13 @@
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
@@ -742,11 +748,21 @@
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
    [1] display/d.mon/render_cmd.py
    [2] lib/display/r_raster.c
    [3] https://grass.osgeo.org/grass-devel/manuals/displaydrivers.html
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -820,6 +836,11 @@
 =======
 >>>>>>> 69dd884040 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -845,6 +866,8 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 8c79884a51 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
    [1] display/d.mon/render_cmd.py
    [2] lib/display/r_raster.c
    [3] https://grass.osgeo.org/grass-devel/manuals/displaydrivers.html
@@ -853,6 +876,7 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
@@ -885,6 +909,9 @@
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
  [1] https://github.com/OSGeo/grass/tree/master/display/d.mon/render_cmd.py
  [2] https://github.com/OSGeo/grass/tree/master/lib/display/r_raster.c#L107
  [3] https://grass.osgeo.org/grass80/manuals/displaydrivers.html
@@ -1409,11 +1436,15 @@
 <<<<<<< HEAD
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+<<<<<<< HEAD
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1495,14 +1526,18 @@
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> osgeo-main
 =======
  [1] https://github.com/OSGeo/grass/tree/master/display/d.mon/render_cmd.py
  [2] https://github.com/OSGeo/grass/tree/master/lib/display/r_raster.c#L107
  [3] https://grass.osgeo.org/grass80/manuals/displaydrivers.html
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -2179,6 +2214,11 @@
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
  */
 

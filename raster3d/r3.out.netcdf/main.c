@@ -1875,8 +1875,13 @@
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
+=======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
@@ -1913,7 +1918,16 @@
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+<<<<<<< HEAD
+=======
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 #define UNITS           "units"
 #define DEGREES_EAST    "degrees_east"
 #define DEGREES_NORTH   "degrees_north"
@@ -1924,6 +1938,7 @@
 #define DEGREES_EAST "degrees_east"
 #define DEGREES_NORTH "degrees_north"
 #define HISTORY_TEXT "GRASS GIS 8 netCDF export of r3.out.netcdf"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2439,11 +2454,16 @@
 >>>>>>> b3ae6fbd5e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 9948fbb36e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -2470,6 +2490,9 @@
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 3777db3c7d (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 #define CF_SUPPORT "CF-1.5"
 =======
 <<<<<<< HEAD

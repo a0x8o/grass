@@ -141,6 +141,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 3
@@ -643,8 +644,12 @@ dev
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c439bf056d (version: Start 8.5.0dev (#3789))
+=======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 5
 =======
+=======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 3
 dev
 2023
@@ -718,6 +723,7 @@ dev
 <<<<<<< HEAD
 >>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -772,6 +778,8 @@ dev
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -830,6 +838,7 @@ dev
 >>>>>>> 3777db3c7d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c06a348ee6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -855,12 +864,18 @@ dev
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+5
+=======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 4
 >>>>>>> 9fa78e6a12 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 0dev
 2024
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -1507,10 +1522,15 @@ dev
 >>>>>>> b3ae6fbd5e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 9948fbb36e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 0
 dev
 2021
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1723,6 +1743,8 @@ dev
 =======
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 3
 dev
 <<<<<<< HEAD
@@ -1934,6 +1956,8 @@ dev
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 3
 dev
@@ -2986,6 +3010,7 @@ dev
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
@@ -3066,4 +3091,12 @@ dev
 2023
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 30bd67812c (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> b8d5485baf (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))

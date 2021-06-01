@@ -9189,6 +9189,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -9333,6 +9334,10 @@ msgstr ""
 >>>>>>> b3ae6fbd5e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgid "Unable to rewrite feature/offset %"
 msgstr ""
 
@@ -9357,6 +9362,7 @@ msgstr ""
 <<<<<<< HEAD
 =======
 #, fuzzy
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Unable to rewrite feature/offset %"
@@ -9509,6 +9515,7 @@ msgstr "피처를 삭제할 수 없습니다"
 =======
 msgstr ""
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9989,6 +9996,18 @@ msgstr "피처를 삭제할 수 없습니다"
 msgstr ""
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to rewrite feature/offset %"
+msgstr "피처 (%s) %d를 삭제할 수 없습니다"
+
+#: ../lib/vector/Vlib/write.c:266
+#, fuzzy
+msgid "Unable to delete feature/offset %"
+msgstr "피처를 삭제할 수 없습니다"
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/write.c:299
 msgid "Unable to restore feature/offset %"
@@ -10614,6 +10633,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\n"
 "++ 열 복사 검정 ++"
 =======
@@ -10817,6 +10837,8 @@ msgstr ""
 >>>>>>> b3ae6fbd5e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 "\n"
 "++ 열 복사 검정 ++"
 =======
@@ -10867,15 +10889,20 @@ msgstr ""
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 "\n"
 "++ 열 복사 검정 ++"
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -11138,6 +11165,9 @@ msgstr ""
 >>>>>>> b3ae6fbd5e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/db/dbmi_base/test/test_columns.c:150
 msgid ""

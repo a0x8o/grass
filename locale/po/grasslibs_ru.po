@@ -15967,6 +15967,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -16111,6 +16112,10 @@ msgstr ""
 >>>>>>> b3ae6fbd5e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgid "Unable to rewrite feature/offset %"
 msgstr ""
 
@@ -16135,6 +16140,7 @@ msgstr ""
 <<<<<<< HEAD
 =======
 #, fuzzy
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Unable to rewrite feature/offset %"
@@ -16287,6 +16293,7 @@ msgstr "Невозможно удалить файл '%s'"
 =======
 msgstr ""
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16767,6 +16774,18 @@ msgstr "Невозможно удалить файл '%s'"
 msgstr ""
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to rewrite feature/offset %"
+msgstr "Невозможно восстановить объект %d из векторного слоя <%s>"
+
+#: ../lib/vector/Vlib/write.c:266
+#, fuzzy
+msgid "Unable to delete feature/offset %"
+msgstr "Невозможно удалить файл '%s'"
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/write.c:299
 msgid "Unable to restore feature/offset %"

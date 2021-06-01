@@ -1807,8 +1807,14 @@ class MapWindowBase:
 =======
 >>>>>>> 9948fbb36e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+        @deprecated This method is deprecated. Use Signal with coordinates as parameters.
+=======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
+=======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1830,12 +1836,21 @@ class MapWindowBase:
 =======
 =======
 >>>>>>> 3777db3c7d (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 9948fbb36e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         @deprecated This method is deprecated. Use Signal with coordinates as
         parameters.
 =======
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2016,6 +2031,8 @@ class MapWindowBase:
 =======
 >>>>>>> 9948fbb36e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -2138,6 +2155,8 @@ class MapWindowBase:
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -2150,6 +2169,7 @@ class MapWindowBase:
 <<<<<<< HEAD
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2188,12 +2208,16 @@ class MapWindowBase:
 >>>>>>> 3777db3c7d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c06a348ee6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -2490,6 +2514,9 @@ class MapWindowBase:
 >>>>>>> b3ae6fbd5e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 9948fbb36e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
         :func:`OnMotion`
         """

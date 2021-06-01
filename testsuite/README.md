@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -53,6 +54,8 @@
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 Tests are in directories `tests` and `testsuite` under each directory which has tests.
 This directory contains additional scripts and information to test functionality
 without a focus on a specific part of the code.
@@ -129,6 +132,8 @@ GRASS GIS testsuite documentation: <https://grass.osgeo.org/grass-devel/manuals/
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 GRASS GIS testsuite documentation: <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -598,6 +603,7 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 >>>>>>> osgeo-main
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -689,10 +695,13 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 >>>>>>> 5de9e271af (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+=======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 GRASS GIS testsuite documentation: <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
 =======
 GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 9fa78e6a12 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> b3ae6fbd5e (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -702,7 +711,13 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 3777db3c7d (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 9948fbb36e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 <<<<<<< HEAD
 <<<<<<< HEAD

@@ -362,6 +362,7 @@ void #N_write_array_2d_to_rast (N_array_2d * array, char *name);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -586,6 +587,8 @@ void #N_write_array_2d_to_rast (N_array_2d * array, char *name);
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -649,6 +652,7 @@ void #N_write_array_2d_to_rast (N_array_2d * array, char *name);
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -752,6 +756,10 @@ void #N_write_array_2d_to_rast (N_array_2d * array, char *name);
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 The GRASS module <a href="https://grass.osgeo.org/grass-devel/manuals/r.gwflow.html">r.gwflow</a>
 =======
 <<<<<<< HEAD
@@ -929,6 +937,7 @@ The GRASS module <a href="https://grass.osgeo.org/grass-devel/manuals/r.gwflow.h
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1547,6 +1556,7 @@ The GRASS module <a href="https://grass.osgeo.org/grass-devel/manuals/r.gwflow.h
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1560,10 +1570,16 @@ The GRASS module <a href="https://grass.osgeo.org/grass-devel/manuals/r.gwflow.h
 >>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> e14069d05d (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 The GRASS module <a href="https://grass.osgeo.org/grass-devel/manuals/r.gwflow.html">r.gwflow</a>
 =======
 The GRASS module <a href="https://grass.osgeo.org/grass80/manuals/r.gwflow.html">r.gwflow</a>
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2171,6 +2187,10 @@ The GRASS module <a href="https://grass.osgeo.org/grass80/manuals/r.gwflow.html"
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 implements numerical calculation program for transient,
 confined and unconfined groundwater flow in two dimensions.
 
@@ -2380,6 +2400,7 @@ void #N_write_array_3d_to_rast3d (N_array_3d * array, char *name, int mask);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2604,6 +2625,8 @@ void #N_write_array_3d_to_rast3d (N_array_3d * array, char *name, int mask);
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -2667,6 +2690,7 @@ void #N_write_array_3d_to_rast3d (N_array_3d * array, char *name, int mask);
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2770,6 +2794,10 @@ void #N_write_array_3d_to_rast3d (N_array_3d * array, char *name, int mask);
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 The GRASS module <a href="http://grass.osgeo.org/grass-devel/manuals/r3.gwflow.html">r3.gwflow</a>
 =======
 <<<<<<< HEAD
@@ -2947,6 +2975,7 @@ The GRASS module <a href="http://grass.osgeo.org/grass-devel/manuals/r3.gwflow.h
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -3565,6 +3594,7 @@ The GRASS module <a href="http://grass.osgeo.org/grass-devel/manuals/r3.gwflow.h
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3578,10 +3608,16 @@ The GRASS module <a href="http://grass.osgeo.org/grass-devel/manuals/r3.gwflow.h
 >>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> e14069d05d (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 The GRASS module <a href="http://grass.osgeo.org/grass-devel/manuals/r3.gwflow.html">r3.gwflow</a>
 =======
 The GRASS module <a href="http://grass.itc.it/grass80/manuals/r3.gwflow.html">r3.gwflow</a>
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4189,6 +4225,10 @@ The GRASS module <a href="http://grass.itc.it/grass80/manuals/r3.gwflow.html">r3
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> ac7f228232 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 implements numerical calculation program for transient, confined
 groundwater flow in three dimensions.
 
