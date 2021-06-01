@@ -20342,6 +20342,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -20403,6 +20404,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -20761,7 +20764,13 @@ msgid ""
 "%d features without category skipped. To export also features without "
 "category use '%s=-1'."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "%d features without category skipped. To export also features without category use '%s=-1'."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/vector/Vlib/intersect2.c:1260 ../lib/vector/Vlib/intersect2.c:1266
@@ -20822,6 +20831,7 @@ msgid "Error while adding point to array. Out of memory"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -20883,6 +20893,8 @@ msgid "Error while adding point to array. Out of memory"
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -21241,7 +21253,13 @@ msgstr ""
 "Fehler beim Hinzufügen eines Punktes zum Array. Nicht genügend "
 "Arbeitsspeicher."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgstr "Fehler beim Hinzufügen eines Punktes zum Array. Nicht genügend Arbeitsspeicher."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/close.c:91
 #, c-format
@@ -21382,6 +21400,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -21443,6 +21462,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -21801,7 +21822,13 @@ msgid ""
 "More DB links defined for input vector map. Using only first DB link for "
 "output."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "More DB links defined for input vector map. Using only first DB link for output."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/vector/Vlib/field.c:290
@@ -21853,6 +21880,7 @@ msgid "Unable to open OGR DBMI driver"
 msgstr "Kann den OGR DBMI-Treiber nicht öffnen."
 
 #: ../lib/vector/Vlib/field.c:818
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22002,6 +22030,8 @@ msgstr "Kann den OGR DBMI-Treiber nicht öffnen."
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -22308,13 +22338,19 @@ msgid ""
 =======
 =======
 >>>>>>> cf7da16d77 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgid "All FID tests failed. Neither 'FID' nor 'ogc_fid' nor 'ogr_fid' nor 'gid' available in OGR DB table"
 msgstr "Alle FID Tests fehlgeschlagen. Weder 'FID' noch 'ogc_fid', 'ogr_fid', 'gid' sind in der OGR DB Tabelle vorhanden."
 
 #: ../lib/vector/Vlib/field.c:885
 #, c-format
 msgid "Feature table <%s> has no primary key defined. Unable to define DB links."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22427,6 +22463,8 @@ msgid ""
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -22669,7 +22707,12 @@ msgid ""
 msgid ""
 "Feature table <%s> has no primary key defined. Unable to define DB links."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/vector/Vlib/field.c:905
@@ -22737,6 +22780,7 @@ msgid "Bug: attempt to update map which is not in current mapset"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -22798,6 +22842,8 @@ msgid "Bug: attempt to update map which is not in current mapset"
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -23122,7 +23168,13 @@ msgstr "Bug: Versuch eine Karte zu aktualisieren, die nicht im aktuellen Mapset 
 msgstr ""
 "Bug: Versuch eine Karte zu aktualisieren, die nicht im aktuellen Mapset ist."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgstr "Bug: Versuch eine Karte zu aktualisieren, die nicht im aktuellen Mapset ist."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/bridges.c:213
 #, c-format
@@ -23232,6 +23284,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -23293,6 +23346,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -23651,7 +23706,13 @@ msgid ""
 "Connection to PostgreSQL database failed. Try to set up username/password by "
 "db.login."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Connection to PostgreSQL database failed. Try to set up username/password by db.login."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/vector/Vlib/open_pg.c:566
@@ -23789,6 +23850,7 @@ msgid "Changed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Geändert"
 =======
 msgstr ""
@@ -23918,6 +23980,8 @@ msgstr "Geändert"
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -24132,7 +24196,13 @@ msgstr ""
 =======
 msgstr "Geändert"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgstr ""
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/dangles.c:151
 msgid "Removed"
@@ -24305,6 +24375,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -24404,6 +24475,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -24715,7 +24788,12 @@ msgstr ""
 =======
 =======
 >>>>>>> cf7da16d77 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgid "Feature index format version %d.%d is not supported by this release. Try to rebuild topology or upgrade GRASS."
 msgstr "Objekt Indexformat Version %d.%d wird von dieser Version nicht unterstützt. Versuchen Sie die Topologie zu erneuern oder GRASS zu aktualisieren."
 
@@ -24723,6 +24801,7 @@ msgstr "Objekt Indexformat Version %d.%d wird von dieser Version nicht unterstü
 #, c-format
 msgid "Your GRASS version does not fully support feature index format %d.%d of the vector. Consider to rebuild topology or upgrade GRASS."
 msgstr "Ihre GRASS Version unterstützt nicht vollständig das Objekt-Indexformat %d.%d der Vektoren. Versuchen Sie die Topologie zu erneuern oder GRASS zu aktualisieren."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24843,6 +24922,8 @@ msgstr ""
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -25108,7 +25189,12 @@ msgstr ""
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/read.c:25 ../lib/vector/Vlib/write.c:30
 #: ../lib/vector/Vlib/write.c:36 ../lib/vector/Vlib/write.c:42
@@ -25299,6 +25385,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -25398,6 +25485,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -25822,7 +25911,14 @@ msgstr "Eine Karte, die sich nicht im aktuellen Mapset befindet, kann nicht zum 
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Vector map which is not in the current mapset cannot be opened for update"
+msgstr "Eine Karte, die sich nicht im aktuellen Mapset befindet, kann nicht zum Aktualisierung geöffnet werden."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/open.c:311
 #, c-format
@@ -25841,6 +25937,7 @@ msgstr "Kann die Kategorieindex-Datei der Vektorkarte <%s> nicht öffnen."
 
 #: ../lib/vector/Vlib/open.c:419
 #, c-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25952,6 +26049,8 @@ msgstr "Kann die Kategorieindex-Datei der Vektorkarte <%s> nicht öffnen."
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -26310,7 +26409,13 @@ msgid ""
 "Unable to open vector map <%s> on level %d. Try to rebuild vector topology "
 "with v.build."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to open vector map <%s> on level %d. Try to rebuild vector topology with v.build."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/vector/Vlib/open.c:445
@@ -26422,6 +26527,7 @@ msgid "Size of 'coor' file differs from value saved in topology file"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -26483,6 +26589,8 @@ msgid "Size of 'coor' file differs from value saved in topology file"
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -26841,7 +26949,13 @@ msgstr ""
 "Größe der 'coor' Datei unterscheidet sich von dem in der Topologie-Datei "
 "gespeicherten Wert."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgstr "Größe der 'coor' Datei unterscheidet sich von dem in der Topologie-Datei gespeicherten Wert."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/open.c:1149 ../lib/vector/Vlib/open.c:1248
 #, c-format
@@ -26918,6 +27032,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -26979,6 +27094,8 @@ msgid ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -27303,7 +27420,13 @@ msgid ""
 "There exists more than one point on node <%d> with unique category in field  "
 "<%d>.\n"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+"There exists more than one point on node <%d> with unique category in field  <%d>.\n"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 "The unique category layer may not be valid."
 msgstr ""
 
@@ -27461,6 +27584,7 @@ msgid "Illegal vector map name <%s>. May not contain '.' or 'NULL'."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -27522,6 +27646,8 @@ msgid "Illegal vector map name <%s>. May not contain '.' or 'NULL'."
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -27846,7 +27972,13 @@ msgstr "Ungültiger Name der Vektorkarte <%s>. Darf nicht '.' oder 'NULL' enthal
 msgstr ""
 "Ungültiger Name der Vektorkarte <%s>. Darf nicht '.' oder 'NULL' enthalten."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgstr "Ungültiger Name der Vektorkarte <%s>. Darf nicht '.' oder 'NULL' enthalten."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/legal_vname.c:50
 #, c-format
@@ -27901,6 +28033,7 @@ msgid "Illegal vector map name <%s>. Must start with a letter."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -27962,6 +28095,8 @@ msgid "Illegal vector map name <%s>. Must start with a letter."
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -28286,7 +28421,13 @@ msgstr "Ungültiger Name der Vektorkarte <%s>. Muss mit einem Buchstaben beginne
 msgstr ""
 "Ungültiger Name der Vektorkarte <%s>. Muss mit einem Buchstaben beginnen."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgstr "Ungültiger Name der Vektorkarte <%s>. Muss mit einem Buchstaben beginnen."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/legal_vname.c:58
 #, c-format
@@ -28345,6 +28486,7 @@ msgstr "Ungültiger Name der Vektorkarte <%s>. Zeichen '%c' ist nicht erlaubt."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -28444,6 +28586,8 @@ msgstr "Ungültiger Name der Vektorkarte <%s>. Zeichen '%c' ist nicht erlaubt."
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -28868,7 +29012,14 @@ msgstr "Ungültiger Name der Vektorkarte <%s>. SQL-Schlüsselwort darf nicht als
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Illegal vector map name <%s>. SQL keyword cannot be used as vector map name."
+msgstr "Ungültiger Name der Vektorkarte <%s>. SQL-Schlüsselwort darf nicht als Vektorkartenname benutzt werden."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/legal_vname.c:100 ../lib/vector/Vlib/legal_vname.c:104
 #, c-format
@@ -28927,6 +29078,7 @@ msgstr ""
 
 #: ../lib/vector/Vlib/read_pg.c:365
 #, c-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29038,6 +29190,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -29362,7 +29516,13 @@ msgid "Requesting invalid feature from cache (%d). Number of features in cache: 
 msgid ""
 "Requesting invalid feature from cache (%d). Number of features in cache: %d"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Requesting invalid feature from cache (%d). Number of features in cache: %d"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/vector/Vlib/read_pg.c:368
@@ -29517,6 +29677,7 @@ msgid "Unable to convert category string '%s' (from '%s') to category range"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -29578,6 +29739,8 @@ msgid "Unable to convert category string '%s' (from '%s') to category range"
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -29936,7 +30099,13 @@ msgstr ""
 "Kann die Kategorie-Zeichenkette '%s' (von '%s') nicht in eine "
 "Kategoriespanne konvertieren."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgstr "Kann die Kategorie-Zeichenkette '%s' (von '%s') nicht in eine Kategoriespanne konvertieren."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/cats.c:572 ../lib/vector/Vlib/cats.c:673
 msgid "Layer number must be > 0 for category constraints"
@@ -30226,6 +30395,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -30313,6 +30483,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -30774,7 +30946,20 @@ msgstr "Kann Objekt %d nicht schreiben."
 =======
 msgstr ""
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "Unable to rewrite feature/offset %"
+msgstr "Kann Objekt %d nicht schreiben."
+
+#: ../lib/vector/Vlib/write.c:266
+#, fuzzy
+msgid "Unable to delete feature/offset %"
+msgstr "Kann Objekt %d nicht schreiben."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/write.c:299
 msgid "Unable to restore feature/offset %"
@@ -30876,6 +31061,7 @@ msgid "Data type of column <%s> not supported (must be numeric)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -30937,6 +31123,8 @@ msgid "Data type of column <%s> not supported (must be numeric)"
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -31261,7 +31449,13 @@ msgstr "Spaltentyp der Spalte <%s> wird nicht unterstützt (muss numerisch sein)
 msgstr ""
 "Spaltentyp der Spalte <%s> wird nicht unterstützt (muss numerisch sein)."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgstr "Spaltentyp der Spalte <%s> wird nicht unterstützt (muss numerisch sein)."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/net_build.c:202 ../lib/vector/Vlib/net_build.c:967
 msgid "Setting node costs..."
@@ -31320,6 +31514,7 @@ msgid "Database record for node %d (cat = %d) not found (cost set to 0)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -31381,6 +31576,8 @@ msgid "Database record for node %d (cat = %d) not found (cost set to 0)"
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -31739,7 +31936,13 @@ msgstr ""
 "Datenbankeintrag für Knoten %d (cat = %d) nicht gefunden (Kosten auf 0 "
 "gesetzt)."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgstr "Datenbankeintrag für Knoten %d (cat = %d) nicht gefunden (Kosten auf 0 gesetzt)."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/net_build.c:332 ../lib/vector/Vlib/net_build.c:352
 msgid "Cannot add network arc for virtual node connection."
@@ -31748,6 +31951,7 @@ msgstr ""
 #: ../lib/vector/Vlib/net_build.c:364
 #, c-format
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31897,6 +32101,8 @@ msgid ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -32320,7 +32526,14 @@ msgid ""
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+"There exists more than one point of node <%d> with unique category field  <%d>.\n"
+"The unique categories layer is not valid therefore you will probably get incorrect results."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/vector/Vlib/net_build.c:393
@@ -32377,6 +32590,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -32464,6 +32678,8 @@ msgid ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -32863,7 +33079,15 @@ msgid ""
 "The unique categories layer is not valid therefore you will probably get "
 "incorrect results."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+"Unable to find point representing intersection <%d> in unique categories field <%d>.\n"
+"Cost for the intersection was set to 0.\n"
+"The unique categories layer is not valid therefore you will probably get incorrect results."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/vector/Vlib/net_build.c:407
@@ -32920,6 +33144,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -33007,6 +33232,8 @@ msgid ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -33406,7 +33633,15 @@ msgid ""
 "The unique categories layer is not valid therefore you will probably get "
 "incorrect results."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+"Unable to find node for point representing intersection <%d> in unique categories field <%d>.\n"
+"Cost for the intersection was set to 0.\n"
+"The unique categories layer is not valid therefore you will probably get incorrect results."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/vector/Vlib/net_build.c:432
@@ -33461,6 +33696,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -33522,6 +33758,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -33846,7 +34084,13 @@ msgid "Database record for turn with cat = %d in not found. (The turn was skippe
 msgid ""
 "Database record for turn with cat = %d in not found. (The turn was skipped."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Database record for turn with cat = %d in not found. (The turn was skipped."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/vector/Vlib/net_build.c:465
@@ -33915,6 +34159,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -33976,6 +34221,8 @@ msgid ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -34300,7 +34547,13 @@ msgid ""
 "The unique categories layer is not valid therefore you will probably get "
 "incorrect results."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+"The unique categories layer is not valid therefore you will probably get incorrect results."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/vector/Vlib/net_build.c:579
@@ -34355,6 +34608,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -34416,6 +34670,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -34774,7 +35030,13 @@ msgid ""
 "Database record for line %d (cat = %d, forward/both direction(s)) not found "
 "(cost was set to 0)"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Database record for line %d (cat = %d, forward/both direction(s)) not found (cost was set to 0)"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/vector/Vlib/net_build.c:596
@@ -34829,6 +35091,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -34890,6 +35153,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -35248,7 +35513,13 @@ msgid ""
 "Database record for line %d (cat = %d, backword direction) not found(cost "
 "was set to 0)"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Database record for line %d (cat = %d, backword direction) not found(cost was set to 0)"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/vector/Vlib/net_build.c:658 ../lib/vector/Vlib/net_build.c:1064
@@ -35311,6 +35582,7 @@ msgstr "Graph wurde erstellt."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -35410,6 +35682,8 @@ msgstr "Graph wurde erstellt."
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -35720,7 +35994,12 @@ msgstr ""
 =======
 =======
 >>>>>>> cf7da16d77 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgid "Database record for line %d (cat = %d, forward/both direction(s)) not found (forward/both direction(s) of line skipped)"
 msgstr "Datenbankeintrag für Linie %d (cat = %d, vorwärts/beide Richtung(en)) nicht gefunden (vorwärts/beide Richtung(en) der Linie übersprungen)."
 
@@ -35728,6 +36007,7 @@ msgstr "Datenbankeintrag für Linie %d (cat = %d, vorwärts/beide Richtung(en)) 
 #, c-format
 msgid "Database record for line %d (cat = %d, backword direction) not found(direction of line skipped)"
 msgstr "Datenbankeintrag für Linie %d (cat = %d, rückwärts Richtung) nicht gefunden (Richtung der Linie übersprungen)."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35847,6 +36127,8 @@ msgstr ""
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -36110,7 +36392,12 @@ msgstr ""
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/net_build.c:937
 msgid "Cannot add network arc"
@@ -36210,6 +36497,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -36271,6 +36559,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -36595,7 +36885,13 @@ msgid "Random read is not supported by OGR for this layer. Unable to build topol
 msgid ""
 "Random read is not supported by OGR for this layer. Unable to build topology."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Random read is not supported by OGR for this layer. Unable to build topology."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/vector/Vlib/build_ogr.c:95 ../lib/vector/Vlib/build_pg.c:101
@@ -36733,6 +37029,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -36794,6 +37091,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -37118,7 +37417,13 @@ msgid "Unable to build simple features from topogeometry data. Unsupported type 
 msgid ""
 "Unable to build simple features from topogeometry data. Unsupported type %d."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to build simple features from topogeometry data. Unsupported type %d."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/vector/Vlib/break_polygons.c:102
@@ -37227,6 +37532,7 @@ msgid "Vect_segment_intersection() ERROR (collinear non vertical segments)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -37288,6 +37594,8 @@ msgid "Vect_segment_intersection() ERROR (collinear non vertical segments)"
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -37612,7 +37920,13 @@ msgstr "Vect_segment_intersection() FEHLER (kollineare nicht vertikale Segmente)
 msgstr ""
 "Vect_segment_intersection() FEHLER (kollineare nicht vertikale Segmente)"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgstr "Vect_segment_intersection() FEHLER (kollineare nicht vertikale Segmente)"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/select.c:116
 #, c-format
@@ -37696,6 +38010,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -37757,6 +38072,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -38081,7 +38398,13 @@ msgid "Cairo: input mask file has incorrect dimensions: expected: %dx%d got: %dx
 msgid ""
 "Cairo: input mask file has incorrect dimensions: expected: %dx%d got: %dx%d"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Cairo: input mask file has incorrect dimensions: expected: %dx%d got: %dx%d"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/cairodriver/read_bmp.c:96
@@ -38286,6 +38609,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -38347,6 +38671,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -38705,7 +39031,13 @@ msgid ""
 "DB connection <%s/%s> already exists. Re-run '%s' with '--%s' flag to "
 "overwrite existing settings."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "DB connection <%s/%s> already exists. Re-run '%s' with '--%s' flag to overwrite existing settings."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/db/dbmi_base/test/test_main.c:83
@@ -38767,6 +39099,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\n"
 "++ Führe Tests für Spalten aus ++"
 =======
@@ -38911,6 +39244,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -39127,7 +39462,12 @@ msgstr ""
 "\n"
 "++ Führe Tests für Spalten aus ++"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/db/dbmi_base/test/test_columns.c:42
 msgid ""
@@ -39196,6 +39536,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\n"
 "++ Teste das Kopieren von Spalten ++"
 =======
@@ -39340,6 +39681,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -39556,7 +39899,12 @@ msgstr ""
 "\n"
 "++ Teste das Kopieren von Spalten ++"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/db/dbmi_base/test/test_columns.c:150
 msgid ""
@@ -39613,6 +39961,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\n"
 "++ Tests für das Kopieren von Spalten beendet ++"
 =======
@@ -39757,6 +40106,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -39973,7 +40324,12 @@ msgstr ""
 "\n"
 "++ Tests für das Kopieren von Spalten beendet ++"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/db/dbmi_base/test/test_table.c:38
 msgid ""
@@ -40030,6 +40386,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\n"
 "++ Führe Tests für Tabellen aus ++"
 =======
@@ -40174,6 +40531,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -40390,7 +40749,12 @@ msgstr ""
 "\n"
 "++ Führe Tests für Tabellen aus ++"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/db/dbmi_base/test/test_table.c:43
 msgid ""
@@ -40547,6 +40911,7 @@ msgstr "Kann die Symbol-Linien-Koordinaten %s nicht lesen."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -40646,6 +41011,8 @@ msgstr "Kann die Symbol-Linien-Koordinaten %s nicht lesen."
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -41069,7 +41436,14 @@ msgstr "Falscher Symbolname: '%s' (sollte sein: Gruppe/Name oder Gruppe/Name@Map
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Incorrect symbol name: '%s' (should be: group/name or group/name@mapset)"
+msgstr "Falscher Symbolname: '%s' (sollte sein: Gruppe/Name oder Gruppe/Name@Mapset)."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/symbol/read.c:284
 #, c-format
@@ -41227,6 +41601,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -41288,6 +41663,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -41646,7 +42023,15 @@ msgstr "Rasterkarte <%s> nicht im Mapset <%s> gefunden."
 msgid "Map <{}> not found in current mapset"
 msgstr "Karte <{}> nicht im aktuellen Mapset <%s> gefunden."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "Map <{}> not found in current mapset"
+msgstr "Rasterkarte <%s> nicht im Mapset <%s> gefunden."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/python/pygrass/vector/table.py:1042
 #, python-format
@@ -41802,6 +42187,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -41889,6 +42275,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -42609,7 +42997,25 @@ msgid "Projections are different. Unable to compute cover_2d for spatial extents
 msgid ""
 "Projections are different. Unable to compute cover_2d for spatial extents"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Projections are different. Unable to compute overlapping_2d for spatial extents"
+msgstr ""
+
+#: ../lib/python/temporal/spatial_extent.py:526
+msgid "Projections are different. Unable to compute is_in_2d for spatial extents"
+msgstr ""
+
+#: ../lib/python/temporal/spatial_extent.py:658
+msgid "Projections are different. Unable to compute equivalent_2d for spatial extents"
+msgstr ""
+
+#: ../lib/python/temporal/spatial_extent.py:763
+msgid "Projections are different. Unable to compute cover_2d for spatial extents"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/spatial_extent.py:835
@@ -42706,6 +43112,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -42767,6 +43174,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -43125,7 +43534,13 @@ msgid ""
 "Start time must be of type datetime for %(type)s map <%(id)s> with layer: "
 "%(l)s"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Start time must be of type datetime for %(type)s map <%(id)s> with layer: %(l)s"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_map_dataset.py:357
@@ -43185,6 +43600,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -43246,6 +43662,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -43570,7 +43988,13 @@ msgid "End time must be of type datetime for %(type)s map <%(id)s> with layer: %
 msgid ""
 "End time must be of type datetime for %(type)s map <%(id)s> with layer: %(l)s"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "End time must be of type datetime for %(type)s map <%(id)s> with layer: %(l)s"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_map_dataset.py:372
@@ -43630,6 +44054,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -43691,6 +44116,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -44049,7 +44476,13 @@ msgid ""
 "End time must be greater than start time for %(type)s map <%(id)s> with "
 "layer: %(l)s"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "End time must be greater than start time for %(type)s map <%(id)s> with layer: %(l)s"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_map_dataset.py:389
@@ -44114,6 +44547,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -44175,6 +44609,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -44533,7 +44969,13 @@ msgid ""
 "Unable to update dataset <%(ds)s> of type %(type)s in the temporal database. "
 "The mapset of the dataset does not match the current mapset"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to update dataset <%(ds)s> of type %(type)s in the temporal database. The mapset of the dataset does not match the current mapset"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_map_dataset.py:460
@@ -44588,6 +45030,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -44649,6 +45092,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -45007,7 +45452,13 @@ msgid ""
 "Unsupported relative time unit type for %(type)s map <%(id)s> with layer "
 "%(l)s: %(u)s"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unsupported relative time unit type for %(type)s map <%(id)s> with layer %(l)s: %(u)s"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_map_dataset.py:467
@@ -45067,6 +45518,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -45128,6 +45580,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -45486,7 +45940,13 @@ msgid ""
 "End time must be greater than start time for %(typ)s map <%(id)s> with layer "
 "%(l)s"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "End time must be greater than start time for %(typ)s map <%(id)s> with layer %(l)s"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_map_dataset.py:800
@@ -45541,6 +46001,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -45602,6 +46063,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -45960,7 +46423,13 @@ msgid ""
 "Map <%(id)s> with layer %(layer)s has incorrect time interval, start time is "
 "greater than end time"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Map <%(id)s> with layer %(layer)s has incorrect time interval, start time is greater than end time"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_map_dataset.py:806
@@ -46015,6 +46484,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -46076,6 +46546,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -46400,7 +46872,13 @@ msgid "Map <%s> has incorrect time interval, start time is greater than end time
 msgid ""
 "Map <%s> has incorrect time interval, start time is greater than end time"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Map <%s> has incorrect time interval, start time is greater than end time"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_map_dataset.py:812
@@ -46461,6 +46939,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -46522,6 +47001,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -46880,7 +47361,13 @@ msgid ""
 "Unable to delete dataset <%(ds)s> of type %(type)s from the temporal "
 "database. The mapset of the dataset does not match the current mapset"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to delete dataset <%(ds)s> of type %(type)s from the temporal database. The mapset of the dataset does not match the current mapset"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_map_dataset.py:859
@@ -46940,6 +47427,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -47001,6 +47489,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -47359,7 +47849,13 @@ msgid ""
 "Unable to unregister dataset <%(ds)s> of type %(type)s from the temporal "
 "database. The mapset of the dataset does not match the current mapset"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to unregister dataset <%(ds)s> of type %(type)s from the temporal database. The mapset of the dataset does not match the current mapset"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_map_dataset.py:1074
@@ -47433,6 +47929,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -47520,6 +48017,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -48021,7 +48520,19 @@ msgid ""
 "Space time %(sp)s dataset <%(name)s> is already in the database. Use the "
 "overwrite flag."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "Illegal dataset name <{}>. Character '.' not allowed."
+msgstr "Ungültiger Name der Vektorkarte <%s>. Zeichen '%c' ist nicht erlaubt."
+
+#: ../lib/python/temporal/open_stds.py:134
+#, python-format
+msgid "Space time %(sp)s dataset <%(name)s> is already in the database. Use the overwrite flag."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/open_stds.py:169
@@ -48076,6 +48587,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -48137,6 +48649,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -48461,7 +48975,13 @@ msgid "Overwriting space time %(sp)s dataset <%(name)s> and unregistering all ma
 msgid ""
 "Overwriting space time %(sp)s dataset <%(name)s> and unregistering all maps"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Overwriting space time %(sp)s dataset <%(name)s> and unregistering all maps"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/open_stds.py:177
@@ -48522,6 +49042,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -48583,6 +49104,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -48907,7 +49430,13 @@ msgid "Map <%s> is already in temporal database, use overwrite flag to overwrite
 msgid ""
 "Map <%s> is already in temporal database, use overwrite flag to overwrite"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Map <%s> is already in temporal database, use overwrite flag to overwrite"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/stds_export.py:105
@@ -49026,6 +49555,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -49113,6 +49643,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -49240,12 +49772,18 @@ msgid ""
 =======
 =======
 >>>>>>> cf7da16d77 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgid "Space time %(sp)s dataset <%(name)s> with relative time found, but no relative unit set for %(sp)s maps"
 msgstr ""
 
 #: ../lib/python/temporal/register.py:192
 msgid "The increment option will be ignored because of time stamps in input file"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49370,6 +49908,8 @@ msgid ""
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -49657,7 +50197,12 @@ msgstr ""
 msgid ""
 "The increment option will be ignored because of time stamps in input file"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/register.py:196
@@ -49725,6 +50270,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -49786,6 +50332,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -50144,7 +50692,13 @@ msgid ""
 "Unable to register %(t)s map <%(id)s> with layer %(l)s. The map has "
 "timestamp and the start time is not set."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to register %(t)s map <%(id)s> with layer %(l)s. The map has timestamp and the start time is not set."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/register.py:244
@@ -50199,6 +50753,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -50260,6 +50815,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -50618,7 +51175,13 @@ msgid ""
 "Unable to register %(t)s map <%(id)s>. The map has no timestamp and the "
 "start time is not set."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to register %(t)s map <%(id)s>. The map has no timestamp and the start time is not set."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/register.py:252
@@ -50683,6 +51246,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -50744,6 +51308,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -51102,7 +51668,13 @@ msgid ""
 "Map is already registered in temporal database. Unable to update %(t)s map <"
 "%(id)s> with layer %(l)s. Overwrite flag is not set."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Map is already registered in temporal database. Unable to update %(t)s map <%(id)s> with layer %(l)s. Overwrite flag is not set."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/register.py:275
@@ -51157,6 +51729,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -51218,6 +51791,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -51576,7 +52151,13 @@ msgid ""
 "Map is already registered in temporal database. Unable to update %(t)s map <"
 "%(id)s>. Overwrite flag is not set."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Map is already registered in temporal database. Unable to update %(t)s map <%(id)s>. Overwrite flag is not set."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/register.py:299
@@ -51631,6 +52212,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -51692,6 +52274,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -52050,7 +52634,13 @@ msgid ""
 "Unable to update %(t)s map <%(id)s> with layer %(l)s. The temporal types are "
 "different."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to update %(t)s map <%(id)s> with layer %(l)s. The temporal types are different."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/register.py:305
@@ -52133,6 +52723,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -52194,6 +52785,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -52552,7 +53145,13 @@ msgid ""
 "Set absolute valid time for map <%(id)s> with layer %(layer)s to %(start)s - "
 "%(end)s"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Set absolute valid time for map <%(id)s> with layer %(layer)s to %(start)s - %(end)s"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/register.py:460
@@ -52612,6 +53211,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -52673,6 +53273,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -52997,7 +53599,13 @@ msgid "Set relative valid time for map <%s> with layer %s to %i - %s with unit %
 msgid ""
 "Set relative valid time for map <%s> with layer %s to %i - %s with unit %s"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Set relative valid time for map <%s> with layer %s to %i - %s with unit %s"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/register.py:482
@@ -53094,6 +53702,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -53155,6 +53764,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -53513,7 +54124,13 @@ msgid ""
 "Unable to shift dataset <%(ds)s> of type %(type)s in the temporal database. "
 "The mapset of the dataset does not match the current mapset"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to shift dataset <%(ds)s> of type %(type)s in the temporal database. The mapset of the dataset does not match the current mapset"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_space_time_dataset.py:1704
@@ -53574,6 +54191,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -53635,6 +54253,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -53993,7 +54613,13 @@ msgid ""
 "Unable to snap dataset <%(ds)s> of type %(type)s in the temporal database. "
 "The mapset of the dataset does not match the current mapset"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to snap dataset <%(ds)s> of type %(type)s in the temporal database. The mapset of the dataset does not match the current mapset"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_space_time_dataset.py:1968
@@ -54048,6 +54674,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -54109,6 +54736,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -54467,7 +55096,13 @@ msgid ""
 "Unable to rename dataset <%(ds)s> of type %(type)s in the temporal database. "
 "The mapset of the dataset does not match the current mapset"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to rename dataset <%(ds)s> of type %(type)s in the temporal database. The mapset of the dataset does not match the current mapset"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_space_time_dataset.py:1977
@@ -54541,6 +55176,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -54628,6 +55264,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -54756,12 +55394,18 @@ msgid ""
 =======
 =======
 >>>>>>> cf7da16d77 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgid "Unable to register map in dataset <%(ds)s> of type %(type)s. The mapset of the dataset does not match the current mapset"
 msgstr ""
 
 #: ../lib/python/temporal/abstract_space_time_dataset.py:2154
 msgid "Only a map that was inserted in the temporal database can be registered in a space time dataset"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54890,6 +55534,8 @@ msgid ""
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -55192,7 +55838,12 @@ msgid ""
 "Only a map that was inserted in the temporal database can be registered in a "
 "space time dataset"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_space_time_dataset.py:2177
@@ -55257,6 +55908,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -55318,6 +55970,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -55676,7 +56330,13 @@ msgid ""
 "Temporal type of space time dataset <%(id)s> and map <%(map)s> with layer "
 "%(l)s are different"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Temporal type of space time dataset <%(id)s> and map <%(map)s> with layer %(l)s are different"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_space_time_dataset.py:2205
@@ -55731,6 +56391,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -55792,6 +56453,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -56116,7 +56779,13 @@ msgid "Temporal type of space time dataset <%(id)s> and map <%(map)s> are differ
 msgid ""
 "Temporal type of space time dataset <%(id)s> and map <%(map)s> are different"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Temporal type of space time dataset <%(id)s> and map <%(map)s> are different"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_space_time_dataset.py:2220
@@ -56176,6 +56845,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -56237,6 +56907,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -56595,7 +57267,13 @@ msgid ""
 "Relative time units of space time dataset <%(id)s> and map <%(map)s> with "
 "layer %(l)s are different"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Relative time units of space time dataset <%(id)s> and map <%(map)s> with layer %(l)s are different"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_space_time_dataset.py:2236
@@ -56650,6 +57328,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -56711,6 +57390,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -57069,7 +57750,13 @@ msgid ""
 "Relative time units of space time dataset <%(id)s> and map <%(map)s> are "
 "different"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Relative time units of space time dataset <%(id)s> and map <%(map)s> are different"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_space_time_dataset.py:2242
@@ -57138,6 +57825,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -57237,6 +57925,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -57641,11 +58331,18 @@ msgid "Unable to unregister map from dataset <%(ds)s> of type %(type)s in the te
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to unregister map from dataset <%(ds)s> of type %(type)s in the temporal database. The mapset of the dataset does not match the current mapset"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_space_time_dataset.py:2312
 #, python-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57757,6 +58454,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -58115,7 +58814,13 @@ msgid ""
 "Map <%(map)s> with layer %(l)s is not registered in space time dataset <"
 "%(base)s>"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Map <%(map)s> with layer %(l)s is not registered in space time dataset <%(base)s>"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/abstract_space_time_dataset.py:2318
@@ -58175,6 +58880,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -58236,6 +58942,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -58560,7 +59268,13 @@ msgid "Update metadata, spatial and temporal extent from all registered maps of 
 msgid ""
 "Update metadata, spatial and temporal extent from all registered maps of <%s>"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Update metadata, spatial and temporal extent from all registered maps of <%s>"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/mapcalc.py:117
@@ -58626,6 +59340,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -58725,6 +59440,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -59129,7 +59846,13 @@ msgid "Found more than a single map in a sample granule. Only the first map is u
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Found more than a single map in a sample granule. Only the first map is used for computation. Use t.rast.aggregate.ds to create synchronous raster datasets."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/mapcalc.py:185
@@ -59223,6 +59946,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -59284,6 +60008,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -59642,7 +60368,13 @@ msgid ""
 "Output granularity seems not to be valid. Please use one of the following "
 "values : {gr}"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Output granularity seems not to be valid. Please use one of the following values : {gr}"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/temporal_granularity.py:1055
@@ -59707,6 +60439,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -59768,6 +60501,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -60126,7 +60861,13 @@ msgid ""
 "Error vector maps with basename %s exist. Use --o flag to overwrite existing "
 "file"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Error vector maps with basename %s exist. Use --o flag to overwrite existing file"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/temporal_vector_algebra.py:420
@@ -60194,6 +60935,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -60255,6 +60997,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -60613,7 +61357,13 @@ msgid ""
 "Spatio-temporal topological operators are not supported in granularity "
 "algebra mode"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Spatio-temporal topological operators are not supported in granularity algebra mode"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/temporal_algebra.py:867
@@ -60687,6 +61437,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -60748,6 +61499,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -61106,7 +61859,13 @@ msgid ""
 "Wrong temporal type of space time dataset <"
 "%s>                                       <%s> time is required"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Wrong temporal type of space time dataset <%s>                                       <%s> time is required"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/temporal_algebra.py:1234
@@ -61166,6 +61925,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -61253,6 +62013,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -61381,12 +62143,18 @@ msgid ""
 =======
 =======
 >>>>>>> cf7da16d77 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgid "The resulting space time dataset type <%(a)s> is different from the requested type <%(b)s>"
 msgstr ""
 
 #: ../lib/python/temporal/temporal_algebra.py:2219
 msgid "Maps that should be registered in the resulting space time dataset have different types."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61515,6 +62283,8 @@ msgid ""
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -61817,7 +62587,12 @@ msgid ""
 "Maps that should be registered in the resulting space time dataset have "
 "different types."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/temporal_algebra.py:2434
@@ -61877,6 +62652,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -61938,6 +62714,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -62296,7 +63074,13 @@ msgid ""
 "Wrong map type. TMAP only supports single maps that are registered in the "
 "temporal GRASS database"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Wrong map type. TMAP only supports single maps that are registered in the temporal GRASS database"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/temporal_algebra.py:2468
@@ -62389,6 +63173,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -62450,6 +63235,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -62808,7 +63595,13 @@ msgid ""
 "Unable to initialize the temporal DBMI interface. Please use t.connect to "
 "specify the driver and the database string"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to initialize the temporal DBMI interface. Please use t.connect to specify the driver and the database string"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/core.py:654
@@ -62870,6 +63663,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -62957,6 +63751,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -63091,12 +63887,18 @@ msgid ""
 =======
 =======
 >>>>>>> cf7da16d77 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgid "Run t.upgrade command installed from GRASS Addons in order to upgrade your temporal database.\n"
 msgstr ""
 
 #: ../lib/python/temporal/core.py:662
 msgid "You need to export it by restoring the GRASS GIS version used for creating this DB.Notes: Use t.rast.export and t.vect.export to make a backup of your existing space time datasets. To save the timestamps of your existing maps and space time datasets, use t.rast.list, t.vect.list and t.rast3d.list. You can register the existing time stamped maps easily if you export columns=id,start_time,end_time into text files and use t.register to register them again in new created space time datasets (t.create). After the backup remove the existing temporal database, a new one will be created automatically.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63231,6 +64033,8 @@ msgid ""
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -63545,7 +64349,12 @@ msgid ""
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/core.py:686 ../lib/python/temporal/core.py:879
@@ -63851,6 +64660,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -63912,6 +64722,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -64270,7 +65082,13 @@ msgid ""
 "Space time %(t)s dataset <%(sp)s> is already in the database. Use the "
 "overwrite flag."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Space time %(t)s dataset <%(sp)s> is already in the database. Use the overwrite flag."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/stds_import.py:454
@@ -64442,6 +65260,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -64503,6 +65322,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -64861,7 +65682,13 @@ msgid ""
 "Unable to insert dataset <%(ds)s> of type %(type)s in the temporal database. "
 "The mapset of the dataset does not match the current mapset"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to insert dataset <%(ds)s> of type %(type)s in the temporal database. The mapset of the dataset does not match the current mapset"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/aggregation.py:126
@@ -64921,6 +65748,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -64982,6 +65810,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -65340,7 +66170,13 @@ msgid ""
 "Raster map <%(name)s> is already in temporal database, use overwrite flag to "
 "overwrite"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Raster map <%(name)s> is already in temporal database, use overwrite flag to overwrite"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/aggregation.py:145
@@ -65409,6 +66245,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -65470,6 +66307,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -65828,7 +66667,13 @@ msgid ""
 "Unable to perform aggregation. Output raster map <%(name)s> exists and "
 "overwrite flag was not set"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to perform aggregation. Output raster map <%(name)s> exists and overwrite flag was not set"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/aggregation.py:318
@@ -65883,6 +66728,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -65944,6 +66790,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -66302,7 +67150,13 @@ msgid ""
 "The limit of open files (%i) was reached (%i). The module r.series will be "
 "run with flag z, to avoid open files limit exceeding."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "The limit of open files (%i) was reached (%i). The module r.series will be run with flag z, to avoid open files limit exceeding."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/temporal/list_stds.py:206
@@ -66393,6 +67247,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -66454,6 +67309,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -66778,7 +67635,13 @@ msgid "Mapset <{mapset}> or Location <{location}> is invalid for an unknown reas
 msgid ""
 "Mapset <{mapset}> or Location <{location}> is invalid for an unknown reason"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Mapset <{mapset}> or Location <{location}> is invalid for an unknown reason"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/grassdb/checks.py:268
@@ -66843,6 +67706,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -66904,6 +67768,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -67262,7 +68128,13 @@ msgid ""
 "<%s> is not a valid GRASS Location because PERMANENT Mapset does not have a "
 "DEFAULT_WIND file (default computational region)"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "<%s> is not a valid GRASS Location because PERMANENT Mapset does not have a DEFAULT_WIND file (default computational region)"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/grassdb/checks.py:294
@@ -67322,6 +68194,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -67383,6 +68256,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -67741,7 +68616,13 @@ msgid ""
 "<{location}> looks like a mapset, not a location. Did you mean just "
 "<{one_dir_up}>?"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "<{location}> looks like a mapset, not a location. Did you mean just <{one_dir_up}>?"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/grassdb/checks.py:317
@@ -67797,6 +68678,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -67884,6 +68766,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -68524,7 +69408,21 @@ msgid ""
 "Name '{}' is reserved for direct read access to OGR layers. Please use "
 "another name for your mapset."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "It looks like <{location}> contains locations. Did you mean to specify one of them?"
+msgstr ""
+
+#: ../lib/python/grassdb/checks.py:339 ../lib/python/grassdb/checks.py:372
+msgid "Name '{}' is not a valid name for location or mapset. Please use only ASCII characters excluding characters {} and space."
+msgstr ""
+
+#: ../lib/python/grassdb/checks.py:345
+msgid "Name '{}' is reserved for direct read access to OGR layers. Please use another name for your mapset."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/grassdb/checks.py:351
@@ -68579,6 +69477,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -68640,6 +69539,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -68998,7 +69899,13 @@ msgid ""
 "Mapset  <{mapset}> already exists. Please consider using another name for "
 "your mapset."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Mapset  <{mapset}> already exists. Please consider using another name for your mapset."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/grassdb/checks.py:378
@@ -69053,6 +69960,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -69114,6 +70022,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -69472,7 +70382,13 @@ msgid ""
 "Location  <{location}> already exists. Please consider using another name "
 "for your location."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Location  <{location}> already exists. Please consider using another name for your location."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/grassdb/checks.py:433
@@ -69532,6 +70448,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -69619,6 +70536,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -70120,7 +71039,20 @@ msgstr "Mapset <%s> existiert nicht."
 =======
 msgstr "Mapset <{mapset}> ist in Gebrauch."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy, python-brace-format
+msgid "Mapset <{mapset}> is the current mapset."
+msgstr "Rasterkarte <%s> ist nicht im aktuellen Mapset (%s)."
+
+#: ../lib/python/grassdb/checks.py:441
+#, fuzzy, python-brace-format
+msgid "Mapset <{mapset}> is in use."
+msgstr "Mapset <%s> existiert nicht."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/python/grassdb/checks.py:445
 #, python-brace-format
@@ -70218,6 +71150,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -70279,6 +71212,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -70637,7 +71572,13 @@ msgid ""
 "Install a newer version of PIL or Pillow to use this function (missing "
 "ImageOps module)"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Install a newer version of PIL or Pillow to use this function (missing ImageOps module)"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/script/task.py:60
@@ -70688,6 +71629,7 @@ msgstr ""
 
 #: ../lib/python/script/core.py:318
 #, python-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70849,6 +71791,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -71291,7 +72235,13 @@ msgid "To run the module <%s> add underscore at the end of the option <%s> to av
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "To run the module <%s> add underscore at the end of the option <%s> to avoid conflict with Python keywords. Underscore at the beginning is deprecated in GRASS GIS 7.0 and will be removed in version 7.1."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/script/core.py:385
@@ -71425,6 +72375,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -71486,6 +72437,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -71844,7 +72797,13 @@ msgid ""
 "Unable to write history for <%(map)s>. Raster map <%(map)s> not found in "
 "current mapset."
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Unable to write history for <%(map)s>. Raster map <%(map)s> not found in current mapset."
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/script/raster.py:120
@@ -71920,6 +72879,7 @@ msgstr "Farbe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -71981,6 +72941,8 @@ msgstr "Farbe"
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -72305,7 +73267,13 @@ msgid "Programmer error: '%(sql)s', '%(filename)s', or '%(table)s' must be provi
 msgid ""
 "Programmer error: '%(sql)s', '%(filename)s', or '%(table)s' must be provided"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Programmer error: '%(sql)s', '%(filename)s', or '%(table)s' must be provided"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/script/db.py:172
@@ -72376,6 +73344,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -72437,6 +73406,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -72795,7 +73766,13 @@ msgid ""
 "grass.script.array.read is deprecated and does not work on MS Windows, pass "
 "raster name in the constructor"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "grass.script.array.read is deprecated and does not work on MS Windows, pass raster name in the constructor"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/script/array.py:250 ../lib/python/script/array.py:400
@@ -72859,6 +73836,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -72920,6 +73898,8 @@ msgstr ""
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -73278,7 +74258,13 @@ msgid ""
 "grass.script.array3d.read is deprecated and does not work on MS Windows, "
 "pass 3D raster name in the constructor"
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "grass.script.array3d.read is deprecated and does not work on MS Windows, pass 3D raster name in the constructor"
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/python/script/setup.py:229

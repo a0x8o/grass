@@ -893,6 +893,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1046,6 +1047,8 @@
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1319,7 +1322,12 @@
 =======
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 #define UNITS           "units"
 #define DEGREES_EAST    "degrees_east"
 #define DEGREES_NORTH   "degrees_north"
@@ -1330,6 +1338,7 @@
 #define DEGREES_EAST "degrees_east"
 #define DEGREES_NORTH "degrees_north"
 #define HISTORY_TEXT "GRASS GIS 8 netCDF export of r3.out.netcdf"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1519,6 +1528,8 @@
 =======
 >>>>>>> 6b0b0c9640 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1684,6 +1695,9 @@
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 1f45827248 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 #define CF_SUPPORT "CF-1.5"
 =======
 <<<<<<< HEAD

@@ -150,6 +150,7 @@ if "%1" == "qthelp" (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -668,7 +669,12 @@ if "%1" == "qthelp" (
 =======
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\grass_gis.qhcp
 	echo.To view the help file:
 	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\grass_gis.ghc
@@ -727,6 +733,7 @@ if "%1" == "qthelp" (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -824,6 +831,8 @@ if "%1" == "qthelp" (
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6b0b0c9640 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 7ae4f4de7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1750,7 +1759,12 @@ if "%1" == "qthelp" (
 =======
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	goto end
 )
 

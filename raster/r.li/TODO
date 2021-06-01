@@ -100,6 +100,7 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
@@ -985,4 +986,13 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+
+
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))

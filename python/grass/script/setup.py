@@ -120,6 +120,7 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -327,6 +328,8 @@ Usage::
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -686,7 +689,12 @@ Usage::
 =======
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     executable = "grass"
     if sys.platform.startswith("win"):
         # MS Windows
@@ -775,6 +783,9 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1714,7 +1725,25 @@ Usage::
 =======
 <<<<<<< HEAD
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    grass8bin = 'grass'
+    if sys.platform.startswith('win'):
+        # MS Windows
+        grass8bin = r'C:\OSGeo4W\bin\grass.bat'
+        # uncomment when using standalone WinGRASS installer
+        # grass8bin = r'C:\Program Files (x86)\GRASS GIS 8.0.0\grass.bat'
+        # this can be avoided if GRASS executable is added to PATH
+    elif sys.platform == 'darwin':
+        # Mac OS X
+        # TODO: this have to be checked, maybe unix way is good enough
+        grass8bin = '/Applications/GRASS/GRASS-8.0.app/'
+
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     # query GRASS GIS itself for its GISBASE
     startcmd = [grass8bin, '--config', 'path']
     try:
@@ -1733,6 +1762,7 @@ Usage::
     # set GISBASE environment variable
     os.environ['GISBASE'] = gisbase
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1880,6 +1910,8 @@ Usage::
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -2519,7 +2551,12 @@ Usage::
 =======
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
     # define GRASS-Python environment
     sys.path.append(process.stdout.strip())
@@ -2627,6 +2664,7 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2774,6 +2812,8 @@ Usage::
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -3134,12 +3174,15 @@ Usage::
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     gs.message("Current GRASS GIS 8 environment:")
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3866,7 +3909,12 @@ Usage::
     gs.message("Current GRASS GIS 8 environment:")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     print(gs.gisenv())
 
     gs.message("Available raster maps:")
@@ -3956,6 +4004,7 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -4702,7 +4751,12 @@ Usage::
 =======
 =======
 >>>>>>> fb8e87c2a1 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> 115d1c2b17 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 (C) 2010-2024 by the GRASS Development Team
 =======
 (C) 2010-2021 by the GRASS Development Team
@@ -4758,6 +4812,7 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -4843,6 +4898,8 @@ Usage::
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6b0b0c9640 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -5999,7 +6056,12 @@ Usage::
 (C) 2010-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> fb8e87c2a1 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> 115d1c2b17 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 This program is free software under the GNU General Public
 License (>=v2). Read the file COPYING that comes with GRASS
 for details.
@@ -12645,10 +12707,16 @@ def init(path, location=None, mapset=None, grass_path=None):
 
         # ... setup GISBASE and sys.path before import
         import grass.script as gs
+<<<<<<< HEAD
         session = gs.setup.init(
             "~/grassdata/nc_spm_08/user1",
             grass_path="/usr/lib/grass",
         )
+=======
+        gisrc = gs.setup.init("/usr/bin/grass8",
+                              "/home/john/grassdata",
+                              "nc_spm_08", "user1")
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         # ... use GRASS modules here
         # end the session
         session.finish()
@@ -12678,6 +12746,7 @@ def init(path, location=None, mapset=None, grass_path=None):
     from grass.grassdb.checks import get_mapset_invalid_reason, is_mapset_valid
     from grass.grassdb.manage import resolve_mapset_path
 
+<<<<<<< HEAD
     # Support ~ in the path for user home directory.
     path = Path(path).expanduser()
     # A simple existence test. The directory, whatever it is, should exist.
@@ -12698,6 +12767,21 @@ def init(path, location=None, mapset=None, grass_path=None):
                 ),
             )
         )
+=======
+    # add addons to the PATH
+    # copied and simplified from lib/init/grass.py
+    if mswin:
+        config_dirname = "GRASS8"
+        config_dir = os.path.join(os.getenv("APPDATA"), config_dirname)
+    else:
+        config_dirname = ".grass8"
+        config_dir = os.path.join(os.getenv("HOME"), config_dirname)
+    addon_base = os.path.join(config_dir, "addons")
+    os.environ["GRASS_ADDON_BASE"] = addon_base
+    if not mswin:
+        os.environ["PATH"] += os.pathsep + os.path.join(addon_base, "scripts")
+    os.environ["PATH"] += os.pathsep + os.path.join(addon_base, "bin")
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
     setup_runtime_env(grass_path)
 
