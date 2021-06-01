@@ -46,6 +46,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1563,7 +1564,12 @@
 =======
 =======
 >>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> fac409e8c0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> fd0bbace5c (Programmer's manual: update GRASS GIS arch drawing (#1610))
  * COPYRIGHT:   (C) 2000-2024 by the GRASS Development Team
 =======
  * COPYRIGHT:   (C) 2000-2021 by the GRASS Development Team
@@ -1651,6 +1657,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1770,6 +1777,8 @@
 >>>>>>> cbdc95a863 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> fd0bbace5c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -3035,13 +3044,17 @@
 =======
 >>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f67335359e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> fd0bbace5c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
  * COPYRIGHT:   (C) 2000-2021 by the GRASS Development Team
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> fac409e8c0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2c0d04b22e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -3861,6 +3874,8 @@
 =======
 >>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> fd0bbace5c (Programmer's manual: update GRASS GIS arch drawing (#1610))
  *
  *              This program is free software under the GNU General Public
  *              License (>=v2). Read the file COPYING that comes with GRASS
