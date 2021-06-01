@@ -153,6 +153,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -220,6 +221,8 @@ def main():
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -276,7 +279,20 @@ def main():
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     grass_executable = args.grassbin
 
     # Software
@@ -324,6 +340,7 @@ def main():
 <<<<<<< HEAD
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -1065,8 +1082,16 @@ def main():
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     p = subprocess.Popen(
         startcmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
     )
@@ -1122,6 +1147,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1175,6 +1201,8 @@ def main():
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1234,7 +1262,12 @@ def main():
 =======
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
             "ERROR: Cannot find GRASS GIS start script (%s):\n%s" % (startcmd, err),
 =======
 <<<<<<< HEAD
@@ -1641,13 +1674,27 @@ def main():
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
             "ERROR: Cannot find GRASS GIS start script (%s):\n%s" % (startcmd, err),
 =======
             "ERROR: Cannot find GRASS GIS 8 start script (%s):\n%s" % (startcmd, err),
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+=======
+            "ERROR: Cannot find GRASS GIS 8 start script (%s):\n%s" % (startcmd, err),
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
             file=sys.stderr,
         )
         return 1

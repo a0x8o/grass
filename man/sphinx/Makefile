@@ -81,7 +81,10 @@ qthelp:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/GRASS83Documentation.qhcp"
 	@echo "To view the help file:"
@@ -307,8 +310,16 @@ qthelp:
 <<<<<<< HEAD
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/grass_gis.qhcp"
 	@echo "To view the help file:"
 	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/grass_gis.qhc"
@@ -344,6 +355,7 @@ qthelp:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -395,6 +407,8 @@ qthelp:
 >>>>>>> c06a348ee6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 7ae4f4de7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -668,13 +682,20 @@ qthelp:
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/GRASS80Documentation.qhcp"
 	@echo "To view the help file:"
 	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/GRASS80Documentation.qhc"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/GRASS83Documentation.qhcp"
 	@echo "To view the help file:"
@@ -765,8 +786,16 @@ qthelp:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
@@ -777,7 +806,10 @@ devhelp:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 	@echo "# mkdir -p $$HOME/.local/share/devhelp/GRASS83Documentation"
 	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/GRASS83Documentation"
@@ -1001,8 +1033,16 @@ devhelp:
 <<<<<<< HEAD
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	@echo "# mkdir -p $$HOME/.local/share/devhelp/grass_gis"
 	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/grass_gis"
 =======
@@ -1036,6 +1076,7 @@ devhelp:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1088,6 +1129,8 @@ devhelp:
 =======
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 7ae4f4de7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1095,9 +1138,14 @@ devhelp:
 =======
 >>>>>>> 3777db3c7d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 	@echo "# mkdir -p $$HOME/.local/share/devhelp/GRASS80Documentation"
 	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/GRASS80Documentation"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1165,6 +1213,10 @@ devhelp:
 >>>>>>> aec07d6302 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c06a348ee6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 	@echo "# mkdir -p $$HOME/.local/share/devhelp/GRASS83Documentation"
 	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/GRASS83Documentation"
@@ -1450,8 +1502,16 @@ devhelp:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	@echo "# devhelp"
 
 epub:

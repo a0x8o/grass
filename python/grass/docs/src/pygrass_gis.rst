@@ -63,6 +63,7 @@ GIS 7 User's Manual: GRASS GIS Quickstart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -116,6 +117,8 @@ GIS 7 User's Manual: GRASS GIS Quickstart
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -175,7 +178,12 @@ GIS 7 User's Manual: GRASS GIS Quickstart
 =======
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <https://grass.osgeo.org/grass-devel/manuals/helptext.html>`_.
 =======
 <<<<<<< HEAD
@@ -582,13 +590,27 @@ GIS 7 User's Manual: GRASS GIS Quickstart
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <https://grass.osgeo.org/grass-devel/manuals/helptext.html>`_.
 =======
 <https://grass.osgeo.org/grass80/manuals/helptext.html>`_.
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+=======
+<https://grass.osgeo.org/grass80/manuals/helptext.html>`_.
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 .. _Region-label:
 

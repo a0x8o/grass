@@ -2574,14 +2574,20 @@ Maintainer: M. Neteler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 - Backups:
 =======
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 =======
 - Backups:
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 * GRASS programmer's manual (https://grass.osgeo.org/programming8/)
     * HTML: cronjob run Wednesday morning California time
     * HTML: cronjob run Saturday morning California time
@@ -7620,6 +7626,7 @@ Details:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -7668,6 +7675,8 @@ Details:
 >>>>>>> c06a348ee6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -7807,6 +7816,8 @@ Details:
 =======
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -7985,8 +7996,19 @@ Details:
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 The redirect to the latest `grassX` directory is defined on grass.osgeo.org:
 `/etc/apache2/includes/grass.osgeo.org.inc`

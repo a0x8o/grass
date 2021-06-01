@@ -3,7 +3,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 # GRASS GIS 8.3 Documentation documentation build configuration file, created by
 =======
@@ -148,6 +151,7 @@
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -176,7 +180,17 @@
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+<<<<<<< HEAD
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 # GRASS GIS Python documentation build configuration file
 # originally created by sphinx-quickstart.
 =======
@@ -521,7 +535,10 @@ master_doc = "index"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 project = "GRASS GIS 8.3 Documentation"
 copyright = "2023, GRASS Development Team"
@@ -745,14 +762,23 @@ copyright = "2023, GRASS Development Team"
 <<<<<<< HEAD
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 project = "GRASS GIS"
 copyright = "2024, GRASS Development Team"
 =======
 project = "GRASS GIS 8.0 Documentation"
 copyright = "2021, GRASS Development Team"
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -832,6 +858,8 @@ copyright = "2021, GRASS Development Team"
 =======
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 7ae4f4de7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -841,9 +869,14 @@ copyright = "2021, GRASS Development Team"
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 project = "GRASS GIS 8.0 Documentation"
 copyright = "2021, GRASS Development Team"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -904,6 +937,10 @@ copyright = "2021, GRASS Development Team"
 >>>>>>> aec07d6302 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c06a348ee6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 project = "GRASS GIS 8.3 Documentation"
 <<<<<<< HEAD
@@ -1323,8 +1360,16 @@ copyright = "2023, GRASS Development Team"
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -1335,7 +1380,10 @@ copyright = "2023, GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 version = "8.3"
 =======
@@ -1557,8 +1605,16 @@ version = "8.3"
 <<<<<<< HEAD
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 version = "8.4"
 =======
 version = "8.0"
@@ -1591,6 +1647,7 @@ version = "8.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1635,8 +1692,12 @@ version = "8.0"
 >>>>>>> c06a348ee6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 version = "8.0"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1932,8 +1993,19 @@ version = "8.3"
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+=======
+version = "8.0"
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 # The full version, including alpha/beta/rc tags.
 release = "dev"
 
@@ -2053,7 +2125,10 @@ html_use_index = False
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 htmlhelp_basename = "grass83Documentationdoc"
 =======
@@ -2275,8 +2350,16 @@ htmlhelp_basename = "grass83Documentationdoc"
 <<<<<<< HEAD
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 htmlhelp_basename = "grass_gis"
 =======
 htmlhelp_basename = "grass80Documentationdoc"
@@ -2309,6 +2392,7 @@ htmlhelp_basename = "grass80Documentationdoc"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -2353,8 +2437,12 @@ htmlhelp_basename = "grass80Documentationdoc"
 >>>>>>> c06a348ee6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 htmlhelp_basename = "grass80Documentationdoc"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -2650,8 +2738,19 @@ htmlhelp_basename = "grass83Documentationdoc"
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+=======
+htmlhelp_basename = "grass80Documentationdoc"
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -2674,7 +2773,10 @@ latex_documents = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
         "grass83Documentation.tex",
         "GRASS GIS 8.3 Documentation",
@@ -2898,8 +3000,16 @@ latex_documents = [
 <<<<<<< HEAD
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         "grass_gis.tex",
         project,
 =======
@@ -2933,6 +3043,7 @@ latex_documents = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -2985,6 +3096,8 @@ latex_documents = [
 =======
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 7ae4f4de7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -2992,9 +3105,14 @@ latex_documents = [
 =======
 >>>>>>> 3777db3c7d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
         "grass80Documentation.tex",
         "GRASS GIS 8.0 Documentation",
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3062,6 +3180,10 @@ latex_documents = [
 >>>>>>> aec07d6302 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c06a348ee6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
         "grass83Documentation.tex",
         "GRASS GIS 8.3 Documentation",
@@ -3347,8 +3469,16 @@ latex_documents = [
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         "GRASS Development Team",
         "manual",
     ),
@@ -3386,7 +3516,10 @@ man_pages = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
         "grass83documentation",
         "GRASS GIS 8.3 Documentation",
@@ -3610,8 +3743,16 @@ man_pages = [
 <<<<<<< HEAD
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         "grass_gis",
         project,
 =======
@@ -3645,6 +3786,7 @@ man_pages = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -3697,6 +3839,8 @@ man_pages = [
 =======
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 7ae4f4de7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -3704,9 +3848,14 @@ man_pages = [
 =======
 >>>>>>> 3777db3c7d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
         "grass80documentation",
         "GRASS GIS 8.0 Documentation",
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3774,6 +3923,10 @@ man_pages = [
 >>>>>>> aec07d6302 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c06a348ee6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
         "grass83documentation",
         "GRASS GIS 8.3 Documentation",
@@ -4059,8 +4212,16 @@ man_pages = [
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         ["GRASS Development Team"],
         1,
     )
@@ -4082,7 +4243,10 @@ texinfo_documents = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
         "grass83Documentation",
         "GRASS GIS 8.3 Documentation",
@@ -4310,8 +4474,16 @@ texinfo_documents = [
 <<<<<<< HEAD
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         "grass_gis",
         project,
         "GRASS Development Team",
@@ -4348,6 +4520,7 @@ texinfo_documents = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -4401,6 +4574,8 @@ texinfo_documents = [
 =======
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 =======
 =======
 =======
@@ -4409,6 +4584,15 @@ texinfo_documents = [
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+        "grass80Documentation",
+        "GRASS GIS 8.0 Documentation",
+        "GRASS Development Team",
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
         "grass80Documentation",
         "GRASS GIS 8.0 Documentation",
         "GRASS Development Team",
@@ -4836,7 +5020,10 @@ texinfo_documents = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 epub_title = "GRASS GIS 8.3 Documentation"
 epub_author = "GRASS Development Team"
@@ -5064,13 +5251,22 @@ epub_copyright = "2023, GRASS Development Team"
 <<<<<<< HEAD
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 epub_title = project
 epub_author = "GRASS Development Team"
 epub_publisher = epub_author
 epub_copyright = copyright
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5112,6 +5308,8 @@ epub_copyright = copyright
 >>>>>>> c06a348ee6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -5245,15 +5443,28 @@ epub_copyright = copyright
 =======
 =======
 =======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 epub_title = "GRASS GIS 8.0 Documentation"
 epub_author = "GRASS Development Team"
 epub_publisher = "GRASS Development Team"
 epub_copyright = "2021, GRASS Development Team"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5333,6 +5544,8 @@ epub_copyright = "2021, GRASS Development Team"
 >>>>>>> c06a348ee6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -5554,6 +5767,8 @@ epub_copyright = "2023, GRASS Development Team"
 =======
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -5885,8 +6100,19 @@ epub_copyright = "2022, GRASS Development Team"
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
