@@ -47,6 +47,7 @@ GIS 7 User's Manual: GRASS GIS Quickstart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -67,6 +68,8 @@ GIS 7 User's Manual: GRASS GIS Quickstart
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <https://grass.osgeo.org/grass-devel/manuals/helptext.html>`_.
 =======
 <<<<<<< HEAD
@@ -196,6 +199,7 @@ GIS 7 User's Manual: GRASS GIS Quickstart
 =======
 <https://grass.osgeo.org/grass80/manuals/helptext.html>`_.
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,6 +348,11 @@ GIS 7 User's Manual: GRASS GIS Quickstart
 <https://grass.osgeo.org/grass80/manuals/helptext.html>`_.
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+<https://grass.osgeo.org/grass80/manuals/helptext.html>`_.
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 .. _Region-label:
 

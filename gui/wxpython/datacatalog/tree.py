@@ -1344,6 +1344,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1399,6 +1400,8 @@ class DataCatalogTree(TreeView):
 >>>>>>> osgeo-main
 =======
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
                             "Map <{map_name}@{map_mapset}> is not in the current "
                             "project. To be able to display it you need to switch to "
                             "<{map_location}> project. Note that if you switch there "
@@ -1519,11 +1522,17 @@ class DataCatalogTree(TreeView):
 =======
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
                             "Map <{map_name}@{map_mapset}> is not in the current location. "
                             "To be able to display it you need to switch to <{map_location}> "
                             "location. Note that if you switch there all current "
                             "Map Displays will be closed.\n\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1668,18 +1677,26 @@ class DataCatalogTree(TreeView):
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
                             "Do you want to switch anyway?"
                         ).format(
                             map_name=selected_layer.data["name"],
                             map_mapset=selected_mapset.data["name"],
                             map_location=selected_loc.data["name"],
                         ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1760,6 +1777,8 @@ class DataCatalogTree(TreeView):
 >>>>>>> osgeo-main
 =======
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
                         caption=_("Map in a different project"),
 =======
                         caption=_("Map in a different location"),
@@ -1899,7 +1918,13 @@ class DataCatalogTree(TreeView):
 =======
                         caption=_("Map in a different location"),
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+                        caption=_("Map in a different location"),
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
                         style=wx.YES_NO | wx.NO_DEFAULT | wx.ICON_QUESTION,
                     )
                     dlg.SetYesNoLabels("S&witch", "C&ancel")
@@ -1919,10 +1944,14 @@ class DataCatalogTree(TreeView):
             self._reloadMapsetNode(node)
             self.RefreshNode(node, recursive=True)
 <<<<<<< HEAD
+<<<<<<< HEAD
         if node.data["type"] in {"mapset", "location", "grassdb"}:
 =======
         if node.data["type"] in ("mapset", "location", "grassdb"):
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+        if node.data["type"] in ("mapset", "location", "grassdb"):
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
             # expand/collapse location/mapset...
             if self.IsNodeExpanded(node):
                 self.CollapseNode(node, recursive=False)
