@@ -667,6 +667,7 @@ This directory contains scripts to check some functionality of GRASS GIS.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -957,6 +958,7 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 =======
 >>>>>>> 1e537538ac (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1048,6 +1050,10 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 >>>>>>> 203bdcfaf9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 8adb120ce5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 GRASS GIS testsuite documentation: <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
 =======
 GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
@@ -1156,6 +1162,7 @@ GRASS GIS testsuite documentation: <https://grass.osgeo.org/grass-devel/manuals/
 =======
 GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1913,8 +1920,27 @@ GRASS GIS testsuite documentation: <https://grass.osgeo.org/grass-devel/manuals/
 =======
 =======
 GRASS GIS testsuite documentation: <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+There are two testing mechanism in place, _pytest_ which is the modern way of testing
+GRASS GIS. Tests using _pytest_ are written just as any other Python tests.
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 GRASS GIS testsuite documentation: <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>

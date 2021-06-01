@@ -241,6 +241,7 @@ Usage: crosscompile.sh [OPTIONS]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -546,6 +547,8 @@ Usage: crosscompile.sh [OPTIONS]
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1032,6 +1035,8 @@ Usage: crosscompile.sh [OPTIONS]
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
                              grassVV-x86_64-w64-mingw32-YYYYMMDD.zip
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1061,7 +1066,11 @@ Usage: crosscompile.sh [OPTIONS]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2c59b4c8e3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+<<<<<<< HEAD
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 <<<<<<< HEAD
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -2726,7 +2735,15 @@ Usage: crosscompile.sh [OPTIONS]
 =======
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+                             grass80-x86_64-w64-mingw32-YYYYMMDD.zip
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 EOT
 		exit
 		;;
@@ -4856,6 +4873,7 @@ rem for %%i in (%GRASS_PYTHON%) do set PYTHONHOME=%%~dpi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5204,6 +5222,8 @@ rem for %%i in (%GRASS_PYTHON%) do set PYTHONHOME=%%~dpi
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -6020,6 +6040,7 @@ rem for %%i in (%GRASS_PYTHON%) do set PYTHONHOME=%%~dpi
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -6462,6 +6483,10 @@ rem for %%i in (%GRASS_PYTHON%) do set PYTHONHOME=%%~dpi
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 rem If GRASS_SH is externally defined, that shell will be used; Otherwise,
 rem GISBASE\etc\sh.bat will be used if it exists; If not, cmd.exe will be used;
 rem This check is mainly for supporting BusyBox for Windows (busybox64.exe)
@@ -7017,6 +7042,7 @@ if not exist "%GISBASE%\etc\fontcap" (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -7057,6 +7083,8 @@ if not exist "%GISBASE%\etc\fontcap" (
 >>>>>>> 8adb120ce5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -7995,6 +8023,7 @@ if not exist "%GISBASE%\etc\fontcap" (
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -8468,6 +8497,10 @@ if not exist "%GISBASE%\etc\fontcap" (
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 if %ERRORLEVEL% geq 1 pause
 EOT
 unix2dos $dist/grass.bat

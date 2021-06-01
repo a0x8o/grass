@@ -284,6 +284,9 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1370,7 +1373,12 @@ def main():
 =======
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
     grass_executable = args.grassbin
 
     # Software
@@ -1387,6 +1395,7 @@ def main():
     grass8bin = args.grassbin  # TODO: can be used if pressent
 
     # Software
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1481,6 +1490,8 @@ def main():
 =======
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 14b9d48f9a (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1509,6 +1520,7 @@ def main():
 =======
 >>>>>>> 1e537538ac (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1556,11 +1568,16 @@ def main():
 >>>>>>> 203bdcfaf9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 8adb120ce5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
     # grass8bin = 'C:\Program Files (x86)\GRASS GIS 8.0.git\grass.bat'
     grass8bin = args.grassbin  # TODO: can be used if pressent
 
     # Software
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1611,6 +1628,8 @@ def main():
 >>>>>>> 203bdcfaf9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 8adb120ce5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
     # grass8bin = 'C:\Program Files (x86)\GRASS GIS 8.0.git\grass.bat'
     grass8bin = args.grassbin  # TODO: can be used if pressent
@@ -2539,11 +2558,17 @@ def main():
 =======
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
     # query GRASS GIS 8 itself for its GISBASE
     # we assume that GRASS GIS' start script is available and in the PATH
     # the shell=True is here because of MS Windows? (code taken from wiki)
     startcmd = grass8bin + " --config path"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4231,7 +4256,15 @@ def main():
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
     p = subprocess.Popen(
         startcmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
     )
@@ -4418,6 +4451,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4723,6 +4757,8 @@ def main():
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -5209,6 +5245,8 @@ def main():
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
             "ERROR: Cannot find GRASS GIS start script (%s):\n%s" % (startcmd, err),
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5238,7 +5276,11 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2c59b4c8e3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+<<<<<<< HEAD
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 <<<<<<< HEAD
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -6903,7 +6945,15 @@ def main():
 =======
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+            "ERROR: Cannot find GRASS GIS 8 start script (%s):\n%s" % (startcmd, err),
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
             file=sys.stderr,
         )
         return 1

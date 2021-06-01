@@ -179,6 +179,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -478,6 +479,8 @@
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1408,10 +1411,13 @@ URL=https://grass.osgeo.org/grass-devel/binary/mswindows/native/README.html
 >>>>>>> 5bd99675a5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 1e537538ac (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 URL=https://grass.osgeo.org/grass-devel/binary/mswindows/native/README.html
 =======
 URL=https://grass.osgeo.org/grass80/binary/mswindows/native/README.html
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2246,13 +2252,17 @@ URL=https://grass.osgeo.org/grass80/binary/mswindows/native/README.html
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 URL=https://grass.osgeo.org/grass80/binary/mswindows/native/README.html
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -2789,6 +2799,8 @@ URL=https://grass.osgeo.org/grass80/binary/mswindows/native/README.html
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 IDList=
 IconFile=https://grass.osgeo.org/images/favicon/favicon.ico
 IconIndex=1

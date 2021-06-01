@@ -17487,6 +17487,7 @@ RUN echo "  => Configure and compile grass" && \
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD:docker/alpine/Dockerfile
+<<<<<<< HEAD:docker/alpine/Dockerfile
 # Get rid of version number here, restore in next stage via symbolic link
 RUN mv $(grass --config path) /usr/local/grass
 
@@ -17508,6 +17509,7 @@ RUN ./configure \
     make install -j $NUMTHREADS
 =======
 # Reduce the image size - Remove unnecessary grass files
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17721,6 +17723,8 @@ RUN ./configure \
 >>>>>>> 8adb120ce5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -18126,13 +18130,17 @@ RUN ./configure \
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 # Reduce the image size - Remove unnecessary grass files
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/alpine/Dockerfile_alpine
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -18338,6 +18346,8 @@ RUN ./configure \
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
     rm -rf /usr/local/grass80/demolocation; \
     rm -rf /usr/local/grass80/fonts; \
@@ -18345,6 +18355,7 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
     rm -rf /usr/local/grass80/share; \
     mkdir -p /usr/local/grass80/gui/wxpython/xml/; \
     mv module_items.xml /usr/local/grass80/gui/wxpython/xml/module_items.xml;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18607,6 +18618,8 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
 =======
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 14b9d48f9a (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -18829,11 +18842,17 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
 =======
 =======
 >>>>>>> 1e537538ac (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 8adb120ce5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD:docker/alpine/Dockerfile
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/alpine/Dockerfile_alpine
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/alpine/Dockerfile_alpine
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19089,6 +19108,8 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
 >>>>>>> 8adb120ce5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21149,7 +21170,12 @@ RUN cp /usr/local/grass83/gui/wxpython/xml/module_items.xml module_items.xml; \
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/alpine/Dockerfile_alpine
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 
 FROM common as grass

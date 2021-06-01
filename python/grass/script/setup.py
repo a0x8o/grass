@@ -204,6 +204,9 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -956,6 +959,7 @@ Usage::
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -1405,6 +1409,10 @@ Usage::
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
     executable = "grass"
     if sys.platform.startswith("win"):
         # MS Windows
@@ -3428,6 +3436,8 @@ Usage::
 =======
 =======
 =======
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
     grass8bin = 'grass'
     if sys.platform.startswith('win'):
         # MS Windows
@@ -5201,6 +5211,7 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5506,6 +5517,8 @@ Usage::
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -5992,6 +6005,8 @@ Usage::
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
     gs.message("Current GRASS GIS 8 environment:")
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6021,7 +6036,11 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2c59b4c8e3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+<<<<<<< HEAD
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 <<<<<<< HEAD
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -7686,7 +7705,15 @@ Usage::
 =======
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+    gs.message('Current GRASS GIS 8 environment:')
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
     print(gs.gisenv())
 
     gs.message("Available raster maps:")
@@ -7701,6 +7728,7 @@ Usage::
     session.finish()
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9402,7 +9430,12 @@ Usage::
 =======
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 (C) 2010-2024 by the GRASS Development Team
 =======
 (C) 2010-2021 by the GRASS Development Team
@@ -9498,6 +9531,7 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -9633,6 +9667,8 @@ Usage::
 >>>>>>> 8adb120ce5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -11182,13 +11218,17 @@ Usage::
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 (C) 2010-2021 by the GRASS Development Team
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -11908,6 +11948,8 @@ Usage::
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 This program is free software under the GNU General Public
 License (>=v2). Read the file COPYING that comes with GRASS
 for details.
@@ -13198,6 +13240,7 @@ def init(path, location=None, mapset=None, *, grass_path=None, env=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cbdc95a863 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -13208,6 +13251,8 @@ def init(path, location=None, mapset=None, *, grass_path=None, env=None):
 >>>>>>> 203bdcfaf9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 8adb120ce5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 301e8b1961 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -13224,6 +13269,7 @@ def init(path, location=None, mapset=None, *, grass_path=None, env=None):
 >>>>>>> 5bd99675a5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 1e537538ac (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -13261,6 +13307,10 @@ def init(path, location=None, mapset=None, *, grass_path=None, env=None):
 >>>>>>> 203bdcfaf9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 8adb120ce5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
         session = gs.setup.init(
             "~/grassdata/nc_spm_08/user1",
             grass_path="/usr/lib/grass",
@@ -13288,6 +13338,7 @@ def init(path, location=None, mapset=None, *, grass_path=None, env=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 32ab3d616a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -13300,6 +13351,8 @@ def init(path, location=None, mapset=None, *, grass_path=None, env=None):
 >>>>>>> 203bdcfaf9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 8adb120ce5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -13322,6 +13375,7 @@ def init(path, location=None, mapset=None, *, grass_path=None, env=None):
 >>>>>>> 5bd99675a5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 1e537538ac (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -13361,6 +13415,10 @@ def init(path, location=None, mapset=None, *, grass_path=None, env=None):
 >>>>>>> 203bdcfaf9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 8adb120ce5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
         gisrc = gs.setup.init("/usr/bin/grass8",
                               "/home/john/grassdata",
                               "nc_spm_08", "user1")
