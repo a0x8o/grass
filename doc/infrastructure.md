@@ -2431,6 +2431,7 @@ Maintainer: M. Neteler
 <<<<<<< HEAD
   * generated during compilation of Linux binary snapshot, stats of `(cd locale; make)` are extracted into text file
 =======
+<<<<<<< HEAD
   * generated during compilation of Linux binary snapshot, stats of
     `(cd locale; make)` are extracted into text file
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -2546,6 +2547,95 @@ Maintainer: M. Neteler
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> osgeo-main
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+- <https://grass.osgeo.org>
+
+  - osgeo7-grass: LXD container on osgeo7 (<https://wiki.osgeo.org/wiki/SAC_Service_Status#osgeo_7>)
+    - OS: Debian Buster
+    - Apache Server with Hugo (<https://github.com/OSGeo/grass-website>)
+  - for migration details (7/2020), see <https://github.com/OSGeo/grass-website/issues/180>
+  - ssh login: via jumphost hop.osgeo8.osgeo.org
+  - deployment via cronjob: <https://github.com/OSGeo/grass-addons/tree/grass8/utils/cronjobs_osgeo_lxd/>
+
+- <https://old.grass.osgeo.org> (CMSMS, replaced in 2020 by above Hugo based solution)
+
+  - Shared virtual OSGeo machine (osgeo6) hosted at Oregon State University
+    Open Source Lab server: osgeo6.osgeo.osuosl.org)
+  - Login: via OSGeo LDAP, there is a "grass" LDAP group
+  - Software:
+    - OS: Debian Wheezy
+    - Apache Server with PHP
+  - Login: via OSGeo LDAP, there is a "grass" LDAP group
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- Backups:
+=======
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+- Backups:
+=======
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+* GRASS programmer's manual (https://grass.osgeo.org/programming8/)
+    * HTML: cronjob run Wednesday morning California time
+    * HTML: cronjob run Saturday morning California time
+    * disabled: PDF: cronjob run Saturday morning California time
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+
+  - osgeo7-grass: container on osgeo8 is backup'ed, see <http://wiki.osgeo.org/wiki/SAC:Backups>
+
+- Mirrors:
+
+  - rsync, see <https://grass.osgeo.org/contribute/> --> Mirror
+  - mirror list, see <https://grass.osgeo.org/about/mirrors/>
+
+- RSS feed: offered by Hugo at <https://grass.osgeo.org/index.xml>, used at <https://planet.osgeo.org>
+
+- Weekly software snapshots (generated Saturday morning Portland (OR), US time):
+
+  - Source code tarball of git (GitHub) <https://github.com/OSGeo/grass>
+  - Linux binary snapshot is compiled on osgeo7-grass
+    - GRASS is compiled with GDAL, PROJ, SQLite, MySQL, PostgreSQL, FFTW, C++ support,
+      see <https://github.com/OSGeo/grass-addons/tree/grass8/utils/cronjobs_osgeo_lxd/>
+    - binary tar.gz and manuals are moved into Web space
+
+- GRASS user manual HTML:
+
+  - generated during compilation of weekly Linux binary snapshot on osgeo7-grass
+
+- GRASS addons manual HTML:
+
+  - generated during compilation of weekly Linux binary snapshot on osgeo7-grass
+
+- GRASS programmer's manual (<https://grass.osgeo.org/programming8/>)
+
+  - HTML: cronjob run Wednesday morning Portland (OR), US time
+  - HTML: cronjob run Saturday morning Portland (OR), US time
+  - disabled: PDF: cronjob run Saturday morning Portland (OR), US time
+
+- Mailman mailing lists + automated greylisting (at lists.osgeo.org since 11/2007)
+
+  - Mailman is doing the job, only registered users can post
+  - messages from unsubscribed people is auto-discarded without notification
+  - the open "weblist" operates instead like this:
+    - User -> grass-web at lists osgeo.org -> greylisting -> Mailman
+    - for greylisting, see <http://postgrey.schweikert.ch/>
+
+- Backup of mailing lists (mbox files)
+
+  - nightly backup at OSGeo.org, bacula
+
+- Web statistics
+  - Matomo: <https://2022.foss4g.org/matomo/> (not publicly accessible;
+    access: Markus Neteler)
+  - Selected stats: <http://wiki.osgeo.org/wiki/Project_Stats>
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 * <https://grass.osgeo.org>
   * osgeo8-grass: LXD container on osgeo8 (<https://wiki.osgeo.org/wiki/SAC_Service_Status#osgeo_8>)
@@ -7310,6 +7400,7 @@ Details:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 * Windows-addons: grass-addons/utils/addons/README.txt
@@ -7392,7 +7483,14 @@ Details:
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 - Windows-addons: `grass-addons/utils/addons/README.txt`
+=======
+* Windows-addons: grass-addons/utils/addons/README.txt
+* Addon manual pages cronjob: <https://github.com/OSGeo/grass-addons/tree/master/utils/cronjobs_osgeo_lxd>
+* Rendered manuals: <https://grass.osgeo.org/grass8/manuals/addons/>
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -7436,6 +7534,7 @@ Details:
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -7472,7 +7571,16 @@ Details:
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+<<<<<<< HEAD
+=======
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 - Windows-addons: grass-addons/utils/addons/README.txt
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 - Addon manual pages cronjob: <https://github.com/OSGeo/grass-addons/tree/grass8/utils/cronjobs_osgeo_lxd>
@@ -7481,6 +7589,7 @@ Details:
 - Windows-addons: grass-addons/tools/addons/README.txt
 - Addon manual pages cronjob: https://github.com/OSGeo/grass-addons/tree/master/tools/cronjobs_osgeo_lxd
 - Rendered manuals: https://grass.osgeo.org/grass8/manuals/addons/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7557,6 +7666,8 @@ Details:
 >>>>>>> b603a5c6bb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> c06a348ee6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -7694,6 +7805,8 @@ Details:
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -7801,6 +7914,7 @@ Details:
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -7863,7 +7977,16 @@ Details:
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 The redirect to the latest `grassX` directory is defined on grass.osgeo.org:
 `/etc/apache2/includes/grass.osgeo.org.inc`
