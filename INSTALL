@@ -74,6 +74,7 @@ explains the options used to disable the compilation of non-mandatory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -104,6 +105,9 @@ GRASS modules. See REQUIREMENTS.html for details.
 >>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 3141a6d48c (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+GRASS modules. See REQUIREMENTS.html for details.
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
   
 First step of the compilation (-g for debugging, or -O2 for optimization):
 
@@ -138,15 +142,19 @@ Next step is the compilation itself:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     make
 =======
 =======
 >>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
     make       
 
 Detailed Wiki notes for various operating systems (MS-Windows, GNU/Linux distros,
 FreeBSD, AIX, etc) are available at:
 https://grasswiki.osgeo.org/wiki/Compile_and_Install
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -163,6 +171,8 @@ https://grasswiki.osgeo.org/wiki/Compile_and_Install
 =======
     make
 >>>>>>> 3141a6d48c (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 Note for Solaris users (see also Wiki page above):
 

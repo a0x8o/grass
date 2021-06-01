@@ -25,6 +25,7 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 (C) 2008-2023 by the GRASS Development Team
 =======
 <<<<<<< HEAD
@@ -66,10 +67,13 @@ Usage:
 >>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 (C) 2008-2024 by the GRASS Development Team
 =======
 (C) 2008-2021 by the GRASS Development Team
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +174,8 @@ Usage:
 (C) 2008-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 This program is free software under the GNU General Public
 License (>=v2). Read the file COPYING that comes with GRASS
 for details.
@@ -1253,6 +1259,7 @@ def parser():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1366,6 +1373,12 @@ def parser():
     https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
+=======
+    https://grass.osgeo.org/grass80/manuals/parser_standard_options.html
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
     """
     if not os.getenv("GISBASE"):
         print("You must be in GRASS GIS to run this program.", file=sys.stderr)

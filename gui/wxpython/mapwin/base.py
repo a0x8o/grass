@@ -525,6 +525,7 @@ class MapWindowBase:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.
 =======
 <<<<<<< HEAD
@@ -545,6 +546,8 @@ class MapWindowBase:
 >>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 9f683ad6d3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
         @deprecated This method is deprecated. Use Signal with coordinates as
         parameters.
 =======
@@ -556,6 +559,7 @@ class MapWindowBase:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -590,6 +594,8 @@ class MapWindowBase:
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 9f683ad6d3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
         :func:`OnMotion`
         """

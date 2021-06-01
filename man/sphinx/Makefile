@@ -90,6 +90,7 @@ qthelp:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/GRASS83Documentation.qhcp"
 	@echo "To view the help file:"
 	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/GRASS83Documentation.qhc"
@@ -123,6 +124,8 @@ qthelp:
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/grass_gis.qhcp"
 	@echo "To view the help file:"
 	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/grass_gis.qhc"
@@ -131,6 +134,7 @@ qthelp:
 	@echo "To view the help file:"
 	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/GRASS80Documentation.qhc"
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,6 +223,8 @@ qthelp:
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
@@ -238,6 +244,7 @@ devhelp:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo "# mkdir -p $$HOME/.local/share/devhelp/GRASS83Documentation"
 	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/GRASS83Documentation"
 =======
@@ -270,12 +277,15 @@ devhelp:
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	@echo "# mkdir -p $$HOME/.local/share/devhelp/grass_gis"
 	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/grass_gis"
 =======
 	@echo "# mkdir -p $$HOME/.local/share/devhelp/GRASS80Documentation"
 	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/GRASS80Documentation"
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -361,6 +371,8 @@ devhelp:
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	@echo "# devhelp"
 
 epub:

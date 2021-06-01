@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * updated 8/2005, 2006-2008, 2010-2011, 2017-2023
 =======
 <<<<<<< HEAD
@@ -59,10 +60,13 @@
 >>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
      * updated 8/2005, 2006-2024
 =======
      * updated 8/2005, 2006-2008, 2010-2011, 2017, 2018, 2019, 2021
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,6 +167,8 @@
      * updated 8/2005, 2006-2008, 2010-2011, 2017-2023
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
   -->
 
 <a href="https://grass.osgeo.org">GRASS GIS</a> (<b>Geographic
@@ -328,6 +334,7 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,11 +370,14 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <!--
   original:
   doc/grass_arch.odg
 -->
 \image html "grass_arch.png" "GRASS GIS Architecture"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -389,11 +399,14 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 =======
 >>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 <!-- original:
   https://github.com/OSGeo/grass/blob/master/doc/grass8_arch.odg
 -->
 \image html "grass8_arch.png" "GRASS GIS 8 Architecture"
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -487,6 +500,8 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 \section libsOverview Libraries
 
@@ -510,6 +525,7 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -623,6 +639,12 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
  - Temporal GIS API: See https://grass.osgeo.org/grass-devel/manuals/libpython/temporal_framework.html
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+ - Temporal GIS API: See https://grass.osgeo.org/grass-devel/manuals/libpython/temporal_framework.html
+=======
+ - Temporal GIS API: See https://grass.osgeo.org/grass80/manuals/libpython/temporal_framework.html
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 \section libs Further libraries
 
@@ -696,6 +718,7 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -809,6 +832,12 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
  - python:	See GRASS GIS Python library (https://grass.osgeo.org/grass-devel/manuals/libpython/)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+ - python:	See GRASS GIS Python library (https://grass.osgeo.org/grass-devel/manuals/libpython/)
+=======
+ - python:	See GRASS GIS Python library (https://grass.osgeo.org/grass80/manuals/libpython/)
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 \subsection projlibs Projection Libraries
 

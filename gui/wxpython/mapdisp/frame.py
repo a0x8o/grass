@@ -3274,6 +3274,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3298,6 +3299,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 8c89098fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
     def IsStandalone(self):
         """Check if Map display is standalone
@@ -3335,6 +3338,7 @@ class MapPanel(SingleMapPanel):
         return self._layerManager
 
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3380,6 +3384,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 8c89098fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
     def GetMapToolbar(self):
         """Returns toolbar with zooming tools"""
         return self.toolbars["map"] if "map" in self.toolbars else None

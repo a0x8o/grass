@@ -551,6 +551,7 @@ Maintainer: M. Neteler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -583,6 +584,10 @@ Maintainer: M. Neteler
 >>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 9f683ad6d3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+- Backups:
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 * GRASS programmer's manual (https://grass.osgeo.org/programming8/)
     * HTML: cronjob run Wednesday morning California time
     * HTML: cronjob run Saturday morning California time
@@ -2042,6 +2047,7 @@ Details:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * Windows-addons: grass-addons/utils/addons/README.txt
 * Addon manual pages cronjob: <https://github.com/OSGeo/grass-addons/tree/master/utils/cronjobs_osgeo_lxd>
 * Rendered manuals: <https://grass.osgeo.org/grass8/manuals/addons/>
@@ -2069,6 +2075,8 @@ Details:
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 - Windows-addons: grass-addons/utils/addons/README.txt
 - Addon manual pages cronjob: <https://github.com/OSGeo/grass-addons/tree/grass8/utils/cronjobs_osgeo_lxd>
 - Rendered manuals: <https://grass.osgeo.org/grass8/manuals/addons/>
@@ -2076,6 +2084,7 @@ Details:
 - Windows-addons: grass-addons/tools/addons/README.txt
 - Addon manual pages cronjob: https://github.com/OSGeo/grass-addons/tree/master/tools/cronjobs_osgeo_lxd
 - Rendered manuals: https://grass.osgeo.org/grass8/manuals/addons/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2153,6 +2162,9 @@ Details:
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 The redirect to the latest grassX directory is defined on grass.osgeo.org:
 /etc/apache2/includes/grass.osgeo.org.inc

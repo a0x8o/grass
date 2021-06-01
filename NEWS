@@ -15,6 +15,7 @@ GRASS GIS 8
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -116,6 +117,11 @@ GRASS GIS 8
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+ o https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures82
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 GRASS GIS 7
  o https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78
