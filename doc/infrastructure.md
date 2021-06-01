@@ -52,7 +52,14 @@ Maintainer: M. Neteler
     `neteler@grasslxd:old-grass-website/old.grass.osgeo.org/` (13 GB)
   - otherwise: <https://web.archive.org/web/20191220035849/https://grass.osgeo.org/>
 
+<<<<<<< HEAD
 - Backups:
+=======
+* GRASS programmer's manual (https://grass.osgeo.org/programming8/)
+    * HTML: cronjob run Wednesday morning California time
+    * HTML: cronjob run Saturday morning California time
+    * disabled: PDF: cronjob run Saturday morning California time
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
   - osgeo8-grass + wiki: container on osgeo8 is backup'ed,
     see <https://wiki.osgeo.org/wiki/SAC:Backups>
@@ -188,9 +195,19 @@ Maintainer: Martin Landa, Tomas Zigo, and Markus Neteler
 
 Details:
 
+<<<<<<< HEAD
 - Windows-addons: `grass-addons/utils/addons/README.txt`
+=======
+<<<<<<< HEAD
+- Windows-addons: grass-addons/utils/addons/README.txt
+>>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 - Addon manual pages cronjob: <https://github.com/OSGeo/grass-addons/tree/grass8/utils/cronjobs_osgeo_lxd>
 - Rendered manuals: <https://grass.osgeo.org/grass8/manuals/addons/>
+=======
+- Windows-addons: grass-addons/tools/addons/README.txt
+- Addon manual pages cronjob: https://github.com/OSGeo/grass-addons/tree/master/tools/cronjobs_osgeo_lxd
+- Rendered manuals: https://grass.osgeo.org/grass8/manuals/addons/
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 The redirect to the latest `grassX` directory is defined on grass.osgeo.org:
 `/etc/apache2/includes/grass.osgeo.org.inc`

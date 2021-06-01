@@ -349,6 +349,104 @@ def update_toc(data):
     return "\n".join(ret_data)
 
 
+<<<<<<< HEAD
+=======
+def get_addon_path():
+    """Check if pgm is in the addons list and get addon path
+
+    Make or update list of the official addons source
+    code paths g.extension prefix parameter plus /grass-addons directory
+    using Git repository
+
+    :return str|None: pgm path if pgm is addon else None
+    """
+<<<<<<< HEAD
+    addons_base_dir = os.getenv("GRASS_ADDON_BASE")
+    if addons_base_dir and major:
+        grass_addons_dir = pathlib.Path(addons_base_dir) / "grass-addons"
+        if gs:
+            call = gs.call
+            popen = gs.Popen
+            fatal = gs.fatal
+        else:
+            call = subprocess.call
+            popen = subprocess.Popen
+            fatal = sys.stderr.write
+        addons_branch = get_version_branch(
+            major_version=major,
+            addons_git_repo_url=urlparse.urljoin(base_url, "grass-addons/"),
+        )
+        if not pathlib.Path(addons_base_dir).exists():
+            pathlib.Path(addons_base_dir).mkdir(parents=True, exist_ok=True)
+        if not grass_addons_dir.exists():
+            call(
+                [
+                    "git",
+                    "clone",
+                    "-q",
+                    "--no-checkout",
+                    f"--branch={addons_branch}",
+                    "--filter=blob:none",
+                    urlparse.urljoin(base_url, "grass-addons/"),
+                ],
+                cwd=addons_base_dir,
+            )
+        addons_file_list = popen(
+            ["git", "ls-tree", "--name-only", "-r", addons_branch],
+            cwd=grass_addons_dir,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+        addons_file_list, stderr = addons_file_list.communicate()
+        if stderr:
+            message = (
+                "Failed to get addons files list from the"
+                " Git repository <{repo_path}>.\n{error}"
+            )
+            if gs:
+                fatal(
+                    _(
+                        message,
+                    ).format(
+                        repo_path=grass_addons_dir,
+                        error=gs.decode(stderr),
+                    )
+                )
+            else:
+                message += "\n"
+                fatal(
+                    message.format(
+                        repo_path=grass_addons_dir,
+                        error=stderr.decode(),
+                    )
+                )
+        addon_paths = re.findall(
+            rf".*{pgm}*.",
+            gs.decode(addons_file_list) if gs else addons_file_list.decode(),
+        )
+        for addon_path in addon_paths:
+            if pgm == pathlib.Path(addon_path).name:
+                return addon_path
+=======
+    addon_base = os.getenv("GRASS_ADDON_BASE")
+    if addon_base:
+        """'addons_paths.json' is file created during install extension
+        check get_addons_paths() function in the g.extension.py file
+        """
+        addons_paths = os.path.join(addon_base, "addons_paths.json")
+        if os.path.exists(addons_paths):
+            with open(addons_paths, "r") as f:
+                addons_paths = json.load(f)
+            for addon in addons_paths["tree"]:
+                split_path = addon["path"].split("/")
+                root_dir, module_dir = split_path[0], split_path[-1]
+                if "grass8" == root_dir and pgm == module_dir:
+                    return True, addon["path"]
+    return None, None
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+
+
+>>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
 # process header
 src_data = read_file(src_file)
 name = re.search("(<!-- meta page name:)(.*)(-->)", src_data, re.IGNORECASE)
