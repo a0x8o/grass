@@ -63,6 +63,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -719,7 +720,12 @@
 =======
 =======
 >>>>>>> d88b10832d (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> 4c14c5377c (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 2196f43bbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1f7cb2bbf2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
  * COPYRIGHT:   (C) 2000-2024 by the GRASS Development Team
 =======
  * COPYRIGHT:   (C) 2000-2021 by the GRASS Development Team
@@ -769,6 +775,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -842,6 +849,8 @@
 >>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 14bf5d86fb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 1f7cb2bbf2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1845,7 +1854,12 @@
  * COPYRIGHT:   (C) 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> d88b10832d (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> 4c14c5377c (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 2196f43bbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1f7cb2bbf2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
  *
  *              This program is free software under the GNU General Public
  *              License (>=v2). Read the file COPYING that comes with GRASS

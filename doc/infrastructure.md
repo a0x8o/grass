@@ -3852,6 +3852,7 @@ Maintainer: M. Neteler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -3965,6 +3966,10 @@ Maintainer: M. Neteler
 >>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5bd99675a5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+- Backups:
+=======
+>>>>>>> 2196f43bbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 * GRASS programmer's manual (https://grass.osgeo.org/programming8/)
     * HTML: cronjob run Wednesday morning California time
     * HTML: cronjob run Saturday morning California time
@@ -13798,6 +13803,7 @@ Details:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 * Windows-addons: grass-addons/utils/addons/README.txt
@@ -13934,6 +13940,8 @@ Details:
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1f7cb2bbf2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 - Windows-addons: `grass-addons/utils/addons/README.txt`
 =======
 =======
@@ -14200,7 +14208,12 @@ Details:
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2196f43bbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1f7cb2bbf2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 - Windows-addons: grass-addons/utils/addons/README.txt
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 - Addon manual pages cronjob: <https://github.com/OSGeo/grass-addons/tree/grass8/utils/cronjobs_osgeo_lxd>
@@ -14209,6 +14222,7 @@ Details:
 - Windows-addons: grass-addons/tools/addons/README.txt
 - Addon manual pages cronjob: https://github.com/OSGeo/grass-addons/tree/master/tools/cronjobs_osgeo_lxd
 - Rendered manuals: https://grass.osgeo.org/grass8/manuals/addons/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14281,6 +14295,8 @@ Details:
 >>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 14bf5d86fb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 1f7cb2bbf2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 >>>>>>> dcd1c3ec53 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -15030,7 +15046,13 @@ Details:
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 2196f43bbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1f7cb2bbf2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 The redirect to the latest `grassX` directory is defined on grass.osgeo.org:
 `/etc/apache2/includes/grass.osgeo.org.inc`
