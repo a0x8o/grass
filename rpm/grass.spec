@@ -1,9 +1,22 @@
+<<<<<<< HEAD
 %global shortver 84
+=======
+<<<<<<< HEAD
+%global shortver 83
+>>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 %global macrosdir %(d=%{_rpmconfigdir}/macros.d; [ -d $d ] || d=%{_sysconfdir}/rpm; echo $d)
 
 Name:		grass
 Version:	8.4.0
 Release:	3%{?dist}
+=======
+%global shortver 80
+%global macrosdir %(d=%{_rpmconfigdir}/macros.d; [ -d $d ] || d=%{_sysconfdir}/rpm; echo $d)
+
+Name:		grass
+Version:	8.0.0
+Release:	1%{?dist}
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 Summary:	GRASS GIS - Geographic Resources Analysis Support System
 
 %if 0%{?fedora} >= 33 || 0%{?rhel} >= 9
@@ -340,6 +353,7 @@ fi
 %{_libdir}/%{name}%{shortver}/include
 
 %changelog
+<<<<<<< HEAD
 * Sat Oct 26 2024 Markus Neteler <neteler@mundialis.de> - 8.4.0-3
 - Sort requirements and flags (https://github.com/OSGeo/grass/pull/4563/ by Edouard Choinière)
 
@@ -382,6 +396,9 @@ fi
 * Sat Oct 14 2023 Sandro Mani <manisandro@gmail.com> - 8.3.0-4
 - Rebuild (PDAL)
 
+=======
+<<<<<<< HEAD
+>>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 * Sun Aug 06 2023 Alexandre Detiste <alexandre.detiste@gmail.com> - 8.3.0-3
 - Remove support for RHEL6: Grass is now Python3 only
 
@@ -508,6 +525,11 @@ fi
 * Sat Oct 17 2020 Markus Neteler <neteler@mundialis.de> - 7.8.4-2
 - reinstate %%{name}-config.h (RHBZ #1889035) as being needed for QGIS
 
+=======
+* Sun May 23 2021 Markus Neteler <neteler@mundialis.de> - 8.0.0-1
+- New upstream version GRASS GIS 8.0.0
+
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 * Mon Oct 05 2020 Markus Neteler <neteler@mundialis.de> - 7.8.4-1
 - New upstream version GRASS GIS 7.8.4
 - disabled %%{name}-config.h
