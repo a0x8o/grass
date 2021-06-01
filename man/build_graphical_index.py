@@ -1580,6 +1580,7 @@ index_items = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1729,6 +1730,8 @@ index_items = [
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 961f30fb7c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -2091,12 +2094,15 @@ index_items = [
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 6d53e5e968 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         "https://grass.osgeo.org/grass-devel/manuals/libpython/index.html",
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2829,7 +2835,15 @@ index_items = [
 =======
 =======
 >>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+        "https://grass.osgeo.org/grass80/manuals/libpython/index.html",
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 6d53e5e968 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 961f30fb7c (Programmer's manual: update GRASS GIS arch drawing (#1610))
         std_img_name("python"),
         "Python",
     ),

@@ -409,15 +409,19 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 There are two testing mechanism in place, _pytest_ which is the modern way of testing
 GRASS GIS. Tests using _pytest_ are written just as any other Python tests.
 =======
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 GRASS GIS testsuite documentation: <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
 =======
 GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -616,11 +620,14 @@ GRASS GIS testsuite documentation: <https://grass.osgeo.org/grass-devel/manuals/
 GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+=======
+>>>>>>> 6d53e5e968 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -1088,7 +1095,13 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 6d53e5e968 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 961f30fb7c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 In parallel, there is also custom unittest-based framework centered around
 _grass.gunittest_ package. These tests run in the NC sample datasets and can be

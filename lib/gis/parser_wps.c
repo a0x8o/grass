@@ -4833,6 +4833,7 @@ static void wps_print_process_description_begin(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4dd6d0bd5b (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -4871,6 +4872,8 @@ static void wps_print_process_description_begin(
 >>>>>>> 6b0b0c9640 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 961f30fb7c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 >>>>>>> dcd1c3ec53 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -5646,7 +5649,15 @@ static void wps_print_process_description_begin(
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 440306d285 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> a9c8ff66a0 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 6d53e5e968 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 961f30fb7c (Programmer's manual: update GRASS GIS arch drawing (#1610))
         fprintf(stdout, "</ows:Abstract>\n");
     }
 
