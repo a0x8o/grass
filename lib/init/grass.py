@@ -4872,6 +4872,7 @@ def create_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -5056,14 +5057,19 @@ def create_grass_config_dir():
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7ae4f4de7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -5843,6 +5849,8 @@ def create_grass_config_dir():
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> a344872c74 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
         win_conf_path = os.getenv("APPDATA")
         # this can happen with some strange settings
         if not win_conf_path:
@@ -5992,6 +6000,7 @@ def create_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6464,6 +6473,12 @@ def create_grass_config_dir():
 >>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
         grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
 =======
         grass_config_dirname = ".grass8"
@@ -6476,8 +6491,11 @@ def create_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
         grass_config_dirname = ".grass8"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -7625,7 +7643,15 @@ def create_grass_config_dir():
 =======
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> a344872c74 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+        grass_config_dirname = ".grass8"
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
         directory = os.path.join(os.getenv("HOME"), grass_config_dirname)
 >>>>>>> d4ef6f4dbb (Programmer's manual: update GRASS GIS arch drawing (#1610))
     if not os.path.isdir(directory):

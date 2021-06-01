@@ -837,12 +837,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b9c7d40d9b (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> a2602d8078 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> a344872c74 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1295,14 +1298,19 @@
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7ae4f4de7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -2006,6 +2014,8 @@
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> a344872c74 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
  */
 

@@ -101,6 +101,9 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> a344872c74 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -516,9 +519,13 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 >>>>>>> osgeo-main
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))

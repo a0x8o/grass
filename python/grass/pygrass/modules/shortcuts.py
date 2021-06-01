@@ -199,6 +199,7 @@ class MetaModule:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -667,6 +668,12 @@ class MetaModule:
 >>>>>>> e14069d05d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 # https://grass.osgeo.org/grass-devel/manuals/full_index.html
 =======
 # https://grass.osgeo.org/grass80/manuals/full_index.html
@@ -677,8 +684,11 @@ class MetaModule:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 # https://grass.osgeo.org/grass80/manuals/full_index.html
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1835,7 +1845,15 @@ class MetaModule:
 =======
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> a344872c74 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+# https://grass.osgeo.org/grass80/manuals/full_index.html
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 # [ d.* | db.* | g.* | i.* | m.* | ps.* | r.* | r3.* | t.* | v.* ]
 #
 #  d.*	display commands

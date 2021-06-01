@@ -13998,11 +13998,13 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> a344872c74 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+<<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 # https://proj.org/usage/environmentvars.html#envvar-PROJ_NETWORK
 ENV PROJ_NETWORK=ON
 
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/debian/Dockerfile_debian_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14097,10 +14099,19 @@ ENV PROJ_NETWORK=ON
 >>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+>>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/debian/Dockerfile_debian_pdal
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> a344872c74 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/debian/Dockerfile_debian_pdal
+>>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 # Create generic GRASS GIS lib name regardless of version number
 <<<<<<< HEAD
 <<<<<<< HEAD
