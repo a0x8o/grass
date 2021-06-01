@@ -9,6 +9,7 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # without PDAL
 
 =======
@@ -25,6 +26,8 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 # without PDAL
 
 >>>>>>> osgeo-main
+=======
+>>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 # PACKAGES VERSIONS
 ARG PYTHON_VERSION=3
 
@@ -192,6 +195,7 @@ RUN echo "  => Configure and compile grass";\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -206,10 +210,13 @@ RUN echo "  => Configure and compile grass";\
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     rm -rf /usr/local/grass80/demolocation; \
     rm -rf /usr/local/grass80/fonts; \
     rm -rf /usr/local/grass80/gui; \
     rm -rf /usr/local/grass80/share;
+<<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -217,6 +224,8 @@ RUN echo "  => Configure and compile grass";\
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 
 # Unset environmental variables to avoid later compilation issues

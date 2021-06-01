@@ -70,6 +70,7 @@ Usage: crosscompile.sh [OPTIONS]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -156,6 +157,12 @@ Usage: crosscompile.sh [OPTIONS]
                              grassVV-x86_64-w64-mingw32-YYYYMMDD.zip
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+                             grassVV-x86_64-w64-mingw32-YYYYMMDD.zip
+=======
+                             grass80-x86_64-w64-mingw32-YYYYMMDD.zip
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 EOT
 		exit
 		;;
@@ -540,6 +547,7 @@ rem for %%i in (%GRASS_PYTHON%) do set PYTHONHOME=%%~dpi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -583,6 +591,8 @@ rem for %%i in (%GRASS_PYTHON%) do set PYTHONHOME=%%~dpi
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 rem If GRASS_SH is externally defined, that shell will be used; Otherwise,
 rem GISBASE\etc\sh.bat will be used if it exists; If not, cmd.exe will be used;
 rem This check is mainly for supporting BusyBox for Windows (busybox64.exe)
@@ -628,6 +638,7 @@ if not exist "%GISBASE%\etc\fontcap" (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -692,6 +703,11 @@ if not exist "%GISBASE%\etc\fontcap" (
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+"%GRASS_PYTHON%" "%GISBASE%\etc\grass80.py" %*
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 if %ERRORLEVEL% geq 1 pause
 EOT
 unix2dos $dist/grass.bat
