@@ -2891,6 +2891,12 @@ class GMFrame(wx.Frame):
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> main
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -3571,6 +3577,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 >>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3715,12 +3722,16 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -4019,10 +4030,14 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         self.workspace_manager.CreateRecentFilesMenu(
             menu=self.menubar,
         )
         self.statusbar = SbMain(parent=self, giface=self._giface)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4087,6 +4102,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -6263,8 +6280,20 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+        self.statusbar = self.CreateStatusBar(number=1)
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         self.notebook = self._createNotebook()
         self._createDataCatalog(self.notebook)
         self._createDisplay(self.notebook)
@@ -6556,6 +6585,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 =======
@@ -7277,11 +7310,15 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 >>>>>>> 14bf5d86fb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> 0d6a6602db (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+<<<<<<< HEAD
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         self._createHistoryBrowser(self.notebook)
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -7303,11 +7340,17 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> osgeo-main
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
         self._createHistoryBrowser(self.notebook)
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7387,6 +7430,7 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e3f80cd27d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -7603,6 +7647,11 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         self._createPythonShell(self.notebook)
         self._addPagesToNotebook()
         self.toolbars = {
@@ -7826,6 +7875,19 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9023,15 +9085,20 @@ class GMFrame(wx.Frame):
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> e3f80cd27d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+>>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -9218,6 +9285,9 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     def _createDisplayPanel(self, parent):
         """Creates display panel"""
         # create superior display panel
@@ -9344,6 +9414,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -9497,6 +9568,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 6905d5ab06 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -10085,6 +10160,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 >>>>>>> 7df781f836 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -10229,12 +10305,16 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -10533,6 +10613,9 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     def _setCopyingOfSelectedText(self):
         copy = UserSettings.Get(
             group="manager", key="copySelectedTextToClipboard", subkey="enabled"
@@ -10608,6 +10691,9 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -11688,6 +11774,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 55237d751f (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 5bd99675a5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 203bdcfaf9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -11819,7 +11906,15 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     def SetStatusText(self, *args):
         """Override SbMain statusbar method"""
 =======
@@ -12990,6 +13085,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a344872c74 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -13088,7 +13184,15 @@ class GMFrame(wx.Frame):
 >>>>>>> 0d6a6602db (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 <<<<<<< HEAD
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -14067,7 +14171,10 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -14118,13 +14225,17 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e3f80cd27d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -14348,6 +14459,9 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     def _createDataCatalog(self, parent):
         """Initialize Data Catalog widget"""
         self.datacatalog = DataCatalog(parent=parent, giface=self._giface)
@@ -14381,6 +14495,19 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15620,7 +15747,10 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -15826,12 +15956,16 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -16229,6 +16363,9 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         # create display notebook
         self.notebookLayers = GNotebook(parent=parent, style=globalvar.FNPageStyle)
         menu = self._createTabMenu()
@@ -16287,6 +16424,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -16297,6 +16435,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -18403,8 +18543,20 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+        self.displayPanel, self.notebookLayers = self._createDisplayPanel(parent)
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         # bindings
         self.notebookLayers.Bind(FN.EVT_FLATNOTEBOOK_PAGE_CHANGED, self.OnCBPageChanged)
         self.notebookLayers.Bind(FN.EVT_FLATNOTEBOOK_PAGE_CLOSING, self.OnCBPageClosing)
@@ -18743,6 +18895,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 =======
@@ -18933,7 +19089,10 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -18984,12 +19143,16 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e3f80cd27d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -19215,6 +19378,9 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     def _createHistoryBrowser(self, parent):
         """Initialize history browser widget"""
         if not UserSettings.Get(group="manager", key="hideTabs", subkey="history"):
@@ -19228,6 +19394,7 @@ class GMFrame(wx.Frame):
 
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19469,6 +19636,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -19511,6 +19680,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -20125,8 +20296,17 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     def _createPythonShell(self, parent):
         """Initialize Python shell widget"""
         if not UserSettings.Get(group="manager", key="hideTabs", subkey="pyshell"):
@@ -20164,6 +20344,19 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21403,7 +21596,10 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -21609,12 +21805,16 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -22012,6 +22212,9 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     def OnNewDisplay(self, event=None):
         """Create new layer tree and map display window instance"""
         self.NewDisplay()
@@ -32943,6 +33146,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -32953,6 +33157,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -35003,8 +35209,19 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     def _addPagesToNotebook(self):
         """Add pages to notebook widget"""
         # add 'data catalog' widget to main notebook page
@@ -35074,6 +35291,9 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -36387,13 +36607,23 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         self.notebook.AddPage(page=self.notebookLayers, text=_("Layers"), name="layers")
 
         # add 'tools' widget to main notebook page
         if self.search:
             self.notebook.AddPage(page=self.search, text=_("Tools"), name="search")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36433,6 +36663,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -38559,6 +38791,7 @@ class GMFrame(wx.Frame):
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -38883,7 +39116,22 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+        self.notebook.AddPage(page=self.displayPanel, text=_("Display"), name="layers")
+
+        # add 'modules' widget to main notebook page
+        if self.search:
+            self.notebook.AddPage(page=self.search, text=_("Modules"), name="search")
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
         # add 'console' widget to main notebook page and add connect switch page signal
         self.notebook.AddPage(page=self.goutput, text=_("Console"), name="output")
@@ -39441,6 +39689,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 =======
@@ -39615,6 +39867,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -39656,13 +39909,22 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         # add 'history module' widget to main notebook page
         if self.history:
             self.notebook.AddPage(page=self.history, text=_("History"), name="history")
 
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39904,6 +40166,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -39946,6 +40210,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -40560,8 +40826,17 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         # add 'python shell' widget to main notebook page
         if self.pyshell:
             self.notebook.AddPage(page=self.pyshell, text=_("Python"), name="pyshell")

@@ -10229,6 +10229,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -10384,6 +10385,10 @@ msgstr ""
 >>>>>>> 6905d5ab06 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -10843,7 +10848,10 @@ msgstr ""
 <<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 #, fuzzy
 =======
@@ -10972,12 +10980,16 @@ msgstr "피처를 삭제할 수 없습니다"
 msgstr ""
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> osgeo-main
 =======
 #, fuzzy
+<<<<<<< HEAD
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Unable to rewrite feature/offset %"
@@ -11438,6 +11450,17 @@ msgstr "피처를 삭제할 수 없습니다"
 msgstr ""
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+msgid "Unable to rewrite feature/offset %"
+msgstr "피처 (%s) %d를 삭제할 수 없습니다"
+
+#: ../lib/vector/Vlib/write.c:266
+#, fuzzy
+msgid "Unable to delete feature/offset %"
+msgstr "피처를 삭제할 수 없습니다"
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/write.c:299
 msgid "Unable to restore feature/offset %"
@@ -12093,6 +12116,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a48c908497 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -12152,6 +12176,8 @@ msgstr ""
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -12165,7 +12191,12 @@ msgstr ""
 =======
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> d9ea5124d9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 "\n"
 "++ 열 복사 검정 ++"
 =======
@@ -12901,8 +12932,17 @@ msgstr ""
 =======
 "\n"
 "++ 열 복사 검정 ++"
+<<<<<<< HEAD
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/db/dbmi_base/test/test_columns.c:150
 msgid ""

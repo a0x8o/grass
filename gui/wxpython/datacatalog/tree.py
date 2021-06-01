@@ -2971,6 +2971,10 @@ class DataCatalogTree(TreeView):
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 =======
@@ -3161,7 +3165,10 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -3212,12 +3219,16 @@ class DataCatalogTree(TreeView):
 =======
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e3f80cd27d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -3443,11 +3454,15 @@ class DataCatalogTree(TreeView):
 =======
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
                             "Map <{map_name}@{map_mapset}> is not in the current "
                             "project. To be able to display it you need to switch to "
                             "<{map_location}> project. Note that if you switch there "
                             "all current Map Displays will be closed.\n\n"
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3689,6 +3704,8 @@ class DataCatalogTree(TreeView):
 =======
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -3731,6 +3748,8 @@ class DataCatalogTree(TreeView):
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -4345,8 +4364,17 @@ class DataCatalogTree(TreeView):
 =======
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
                             "Map <{map_name}@{map_mapset}> is not in the current location. "
                             "To be able to display it you need to switch to <{map_location}> "
                             "location. Note that if you switch there all current "
@@ -4457,6 +4485,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6eb93fb226 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -4566,6 +4595,10 @@ class DataCatalogTree(TreeView):
 >>>>>>> 6905d5ab06 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -5158,15 +5191,20 @@ class DataCatalogTree(TreeView):
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> e3f80cd27d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+>>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -5346,6 +5384,9 @@ class DataCatalogTree(TreeView):
 =======
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
                             "Do you want to switch anyway?"
                         ).format(
                             map_name=selected_layer.data["name"],
@@ -5456,6 +5497,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         caption=_("Map in a different location"),
 =======
 <<<<<<< HEAD
@@ -5926,6 +5968,8 @@ class DataCatalogTree(TreeView):
 =======
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -5936,6 +5980,8 @@ class DataCatalogTree(TreeView):
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
                         caption=_("Map in a different location"),
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -6093,6 +6139,7 @@ class DataCatalogTree(TreeView):
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 99eee3faab (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -6134,7 +6181,15 @@ class DataCatalogTree(TreeView):
 =======
 =======
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
                         caption=_("Map in a different project"),
 =======
                         caption=_("Map in a different location"),
@@ -6238,6 +6293,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -6378,6 +6434,8 @@ class DataCatalogTree(TreeView):
 =======
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -6418,6 +6476,8 @@ class DataCatalogTree(TreeView):
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
                         caption=_("Map in a different location"),
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -6887,14 +6947,19 @@ class DataCatalogTree(TreeView):
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> e3f80cd27d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+>>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -7079,6 +7144,9 @@ class DataCatalogTree(TreeView):
 =======
 >>>>>>> bf5f36a3d4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 33f84048ae (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
                         style=wx.YES_NO | wx.NO_DEFAULT | wx.ICON_QUESTION,
                     )
                     dlg.SetYesNoLabels("S&witch", "C&ancel")

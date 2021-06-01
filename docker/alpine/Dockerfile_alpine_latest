@@ -105,6 +105,7 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a48c908497 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -164,6 +165,8 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 =======
 >>>>>>> 7b80a7eedd (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
@@ -177,7 +180,12 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 =======
 =======
 >>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> c70eab3a1d (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 # without PDAL
 
 =======
@@ -913,8 +921,17 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 =======
 # without PDAL
 
+<<<<<<< HEAD
 >>>>>>> f70372cb5d (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 7b80a7eedd (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 # PACKAGES VERSIONS
 ARG PYTHON_VERSION=3
 
@@ -1078,6 +1095,7 @@ RUN echo "  => Configure and compile grass";\
     rm -rf /var/cache/apk/*; \
     rm -rf /root/.cache; \
     # Remove unnecessary grass files
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1390,6 +1408,8 @@ RUN echo "  => Configure and compile grass";\
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1594,6 +1614,8 @@ RUN echo "  => Configure and compile grass";\
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2023,6 +2045,7 @@ RUN echo "  => Configure and compile grass";\
 =======
 =======
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> bb4f048d28 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -2074,11 +2097,19 @@ RUN echo "  => Configure and compile grass";\
 =======
 =======
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 6905d5ab06 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     rm -rf /usr/local/grass80/demolocation; \
     rm -rf /usr/local/grass80/fonts; \
     rm -rf /usr/local/grass80/gui; \
     rm -rf /usr/local/grass80/share;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2253,6 +2284,8 @@ RUN echo "  => Configure and compile grass";\
 >>>>>>> 91926d3c70 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6905d5ab06 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -2330,6 +2363,7 @@ RUN echo "  => Configure and compile grass";\
 =======
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -2337,6 +2371,10 @@ RUN echo "  => Configure and compile grass";\
 >>>>>>> 795aee5c6f (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> bb4f048d28 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 6eb93fb226 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -2458,7 +2496,10 @@ RUN echo "  => Configure and compile grass";\
 <<<<<<< HEAD
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2509,12 +2550,16 @@ RUN echo "  => Configure and compile grass";\
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -2733,6 +2778,9 @@ RUN echo "  => Configure and compile grass";\
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 
 # Unset environmental variables to avoid later compilation issues

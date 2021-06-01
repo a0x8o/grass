@@ -38038,6 +38038,7 @@ msgid "Unable to flush all tiles"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -38193,6 +38194,10 @@ msgid "Unable to flush all tiles"
 >>>>>>> 6905d5ab06 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 8d53b00588 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f8d32d9e3a (libpython: Save and load benchmark results (#1711))
@@ -38443,6 +38448,7 @@ msgstr "Não foi possível limpar o índice"
 =======
 =======
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> bb4f048d28 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -38494,12 +38500,20 @@ msgstr "Não foi possível limpar o índice"
 =======
 =======
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 6905d5ab06 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/raster3d/close.c:84
 msgid "Unable to flush index"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38683,6 +38697,8 @@ msgstr "Não foi possível limpar o índice"
 >>>>>>> 91926d3c70 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6905d5ab06 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38769,6 +38785,7 @@ msgstr "Não foi possível limpar o índice"
 =======
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -38776,6 +38793,10 @@ msgstr "Não foi possível limpar o índice"
 >>>>>>> 795aee5c6f (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> bb4f048d28 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 6eb93fb226 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -39244,6 +39265,7 @@ msgstr "Não foi possível limpar o índice"
 >>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+<<<<<<< HEAD
 msgstr "Não foi possível limpar todos os mosaicos"
 
 #: ../lib/raster3d/close.c:84
@@ -39310,7 +39332,15 @@ msgstr "Não foi possível limpar todos os mosaicos"
 msgid "Unable to flush index"
 msgstr "Não foi possível limpar o índice"
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> b2fc7618a1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/raster3d/close.c:94
 msgid "Unable to position file"
