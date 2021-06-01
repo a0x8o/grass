@@ -5985,6 +5985,7 @@ RUN echo "  => Configure and compile grass" && \
 =======
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD:docker/alpine/Dockerfile
+<<<<<<< HEAD:docker/alpine/Dockerfile
 # Get rid of version number here, restore in next stage via symbolic link
 RUN mv $(grass --config path) /usr/local/grass
 
@@ -6006,6 +6007,7 @@ RUN ./configure \
     make install -j $NUMTHREADS
 =======
 # Reduce the image size - Remove unnecessary grass files
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6071,6 +6073,8 @@ RUN ./configure \
 =======
 >>>>>>> 8c79884a51 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -6081,6 +6085,8 @@ RUN ./configure \
 >>>>>>> dcd1c3ec53 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 # Reduce the image size - Remove unnecessary grass files
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/alpine/Dockerfile_alpine
@@ -6294,8 +6300,19 @@ RUN ./configure \
 =======
 =======
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 8c79884a51 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+=======
+# Reduce the image size - Remove unnecessary grass files
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/alpine/Dockerfile_alpine
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
     rm -rf /usr/local/grass80/demolocation; \
     rm -rf /usr/local/grass80/fonts; \
@@ -6303,6 +6320,7 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
     rm -rf /usr/local/grass80/share; \
     mkdir -p /usr/local/grass80/gui/wxpython/xml/; \
     mv module_items.xml /usr/local/grass80/gui/wxpython/xml/module_items.xml;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6408,6 +6426,8 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
 =======
 >>>>>>> 8c79884a51 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 14b9d48f9a (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -6447,6 +6467,8 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
 =======
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> osgeo-main
@@ -6454,12 +6476,21 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
 >>>>>>> osgeo-main
 =======
 >>>>>>> 9f683ad6d3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> dcd1c3ec53 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> c1e589bfdb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD:docker/alpine/Dockerfile
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/alpine/Dockerfile_alpine
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/alpine/Dockerfile_alpine
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6522,6 +6553,8 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
 =======
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -6532,6 +6565,8 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
 >>>>>>> dcd1c3ec53 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -7210,8 +7245,16 @@ RUN cp /usr/local/grass83/gui/wxpython/xml/module_items.xml module_items.xml; \
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/alpine/Dockerfile_alpine
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 8c79884a51 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 
 FROM common as grass

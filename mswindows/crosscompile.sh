@@ -126,6 +126,7 @@ Usage: crosscompile.sh [OPTIONS]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -211,6 +212,8 @@ Usage: crosscompile.sh [OPTIONS]
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8c79884a51 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -476,6 +479,8 @@ Usage: crosscompile.sh [OPTIONS]
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -805,10 +810,13 @@ Usage: crosscompile.sh [OPTIONS]
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 9f683ad6d3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
                              grassVV-x86_64-w64-mingw32-YYYYMMDD.zip
 =======
                              grass80-x86_64-w64-mingw32-YYYYMMDD.zip
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -949,8 +957,19 @@ Usage: crosscompile.sh [OPTIONS]
                              grass80-x86_64-w64-mingw32-YYYYMMDD.zip
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 8c79884a51 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+=======
+                             grass80-x86_64-w64-mingw32-YYYYMMDD.zip
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 EOT
 		exit
 		;;
@@ -1980,6 +1999,10 @@ rem for %%i in (%GRASS_PYTHON%) do set PYTHONHOME=%%~dpi
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 =======
@@ -2354,8 +2377,16 @@ rem for %%i in (%GRASS_PYTHON%) do set PYTHONHOME=%%~dpi
 =======
 =======
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 8c79884a51 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 rem If GRASS_SH is externally defined, that shell will be used; Otherwise,
 rem GISBASE\etc\sh.bat will be used if it exists; If not, cmd.exe will be used;
 rem This check is mainly for supporting BusyBox for Windows (busybox64.exe)
@@ -2856,6 +2887,7 @@ if not exist "%GISBASE%\etc\fontcap" (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0a0b3c899e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 40aaffdfff (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -2911,6 +2943,8 @@ if not exist "%GISBASE%\etc\fontcap" (
 =======
 =======
 >>>>>>> dcd1c3ec53 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -3041,8 +3075,19 @@ if not exist "%GISBASE%\etc\fontcap" (
 "%GRASS_PYTHON%" "%GISBASE%\etc\grass80.py" %*
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 8c79884a51 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+=======
+"%GRASS_PYTHON%" "%GISBASE%\etc\grass80.py" %*
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 if %ERRORLEVEL% geq 1 pause
 EOT
 unix2dos $dist/grass.bat

@@ -79,6 +79,7 @@ GIS 7 User's Manual: GRASS GIS Quickstart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -164,6 +165,8 @@ GIS 7 User's Manual: GRASS GIS Quickstart
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8c79884a51 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -429,6 +432,8 @@ GIS 7 User's Manual: GRASS GIS Quickstart
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -758,10 +763,13 @@ GIS 7 User's Manual: GRASS GIS Quickstart
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 9f683ad6d3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <https://grass.osgeo.org/grass-devel/manuals/helptext.html>`_.
 =======
 <https://grass.osgeo.org/grass80/manuals/helptext.html>`_.
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -902,8 +910,19 @@ GIS 7 User's Manual: GRASS GIS Quickstart
 <https://grass.osgeo.org/grass80/manuals/helptext.html>`_.
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 5eec7c15bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 8c79884a51 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+=======
+<https://grass.osgeo.org/grass80/manuals/helptext.html>`_.
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 0779700f84 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 .. _Region-label:
 
