@@ -150,6 +150,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 3
@@ -670,6 +671,8 @@ dev
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2c59b4c8e3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 32ab3d616a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 5
 =======
 =======
@@ -1631,16 +1634,28 @@ dev
 >>>>>>> 8fa2e934ed (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+=======
+>>>>>>> 301e8b1961 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 5
 =======
+=======
+>>>>>>> 3777db3c7d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 4
 >>>>>>> 9fa78e6a12 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 0dev
 2024
 =======
+<<<<<<< HEAD
 >>>>>>> 5168f3664a (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 2c59b4c8e3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 301e8b1961 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 32ab3d616a (Programmer's manual: update GRASS GIS arch drawing (#1610))
 0
 dev
 2021
