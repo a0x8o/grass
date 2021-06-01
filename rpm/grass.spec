@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 %global shortver 82
@@ -96,6 +97,13 @@ Version:	8.2.0
 =======
 %global shortver 84
 >>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+%global shortver 84
+=======
+<<<<<<< HEAD
+%global shortver 83
+>>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 %global macrosdir %(d=%{_rpmconfigdir}/macros.d; [ -d $d ] || d=%{_sysconfdir}/rpm; echo $d)
 
 Name:		grass
@@ -106,6 +114,7 @@ Release:	3%{?dist}
 %global macrosdir %(d=%{_rpmconfigdir}/macros.d; [ -d $d ] || d=%{_sysconfdir}/rpm; echo $d)
 
 Name:		grass
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,6 +303,9 @@ Version:	8.0.0
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+Version:	8.0.0
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 Release:	1%{?dist}
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 Summary:	GRASS GIS - Geographic Resources Analysis Support System
@@ -1163,6 +1175,7 @@ fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1226,6 +1239,8 @@ fi
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 * Sat Oct 26 2024 Markus Neteler <neteler@mundialis.de> - 8.4.0-3
 - Sort requirements and flags (https://github.com/OSGeo/grass/pull/4563/ by Edouard Choinière)
 
@@ -1268,7 +1283,13 @@ fi
 * Sat Oct 14 2023 Sandro Mani <manisandro@gmail.com> - 8.3.0-4
 - Rebuild (PDAL)
 
+<<<<<<< HEAD
 >>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 * Sun Aug 06 2023 Alexandre Detiste <alexandre.detiste@gmail.com> - 8.3.0-3
 - Remove support for RHEL6: Grass is now Python3 only
 
@@ -1413,6 +1434,7 @@ fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1454,10 +1476,13 @@ fi
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 * Sun May 23 2021 Markus Neteler <neteler@mundialis.de> - 8.0.0-1
 - New upstream version GRASS GIS 8.0.0
 
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1856,6 +1881,8 @@ fi
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 * Mon Oct 05 2020 Markus Neteler <neteler@mundialis.de> - 7.8.4-1
 - New upstream version GRASS GIS 7.8.4
 - disabled %%{name}-config.h

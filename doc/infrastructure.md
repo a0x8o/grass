@@ -976,6 +976,7 @@ Maintainer: M. Neteler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1073,6 +1074,10 @@ Maintainer: M. Neteler
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+- Backups:
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 * GRASS programmer's manual (https://grass.osgeo.org/programming8/)
     * HTML: cronjob run Wednesday morning California time
     * HTML: cronjob run Saturday morning California time
@@ -4200,6 +4205,7 @@ Details:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 * Windows-addons: grass-addons/utils/addons/README.txt
@@ -4273,6 +4279,11 @@ Details:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+- Windows-addons: `grass-addons/utils/addons/README.txt`
+=======
+<<<<<<< HEAD
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 - Windows-addons: grass-addons/utils/addons/README.txt
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 - Addon manual pages cronjob: <https://github.com/OSGeo/grass-addons/tree/grass8/utils/cronjobs_osgeo_lxd>
@@ -4281,6 +4292,7 @@ Details:
 - Windows-addons: grass-addons/tools/addons/README.txt
 - Addon manual pages cronjob: https://github.com/OSGeo/grass-addons/tree/master/tools/cronjobs_osgeo_lxd
 - Rendered manuals: https://grass.osgeo.org/grass8/manuals/addons/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4472,6 +4484,9 @@ Details:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 The redirect to the latest `grassX` directory is defined on grass.osgeo.org:
 `/etc/apache2/includes/grass.osgeo.org.inc`

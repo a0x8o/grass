@@ -4089,6 +4089,7 @@ ENV GRASS_SKIP_MAPSET_OWNER_CHECK 1
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 # Create generic GRASS GIS lib name regardless of version number
@@ -4146,12 +4147,15 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD:docker/debian/Dockerfile
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD:docker/debian/Dockerfile
 # https://proj.org/usage/environmentvars.html#envvar-PROJ_NETWORK
 ENV PROJ_NETWORK=ON
 
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/ubuntu/Dockerfile_ubuntu_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4188,6 +4192,8 @@ ENV PROJ_NETWORK=ON
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/ubuntu/Dockerfile_ubuntu_pdal
 >>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 # Create generic GRASS GIS lib name regardless of version number
 <<<<<<< HEAD
 <<<<<<< HEAD

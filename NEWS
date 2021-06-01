@@ -28,6 +28,7 @@ GRASS GIS 8
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -230,6 +231,11 @@ GRASS GIS 8
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+ o https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures82
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 GRASS GIS 7
  o https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78

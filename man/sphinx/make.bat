@@ -125,6 +125,7 @@ if "%1" == "qthelp" (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\GRASS83Documentation.qhcp
@@ -190,6 +191,8 @@ if "%1" == "qthelp" (
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\grass_gis.qhcp
 	echo.To view the help file:
 	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\grass_gis.ghc
@@ -198,6 +201,7 @@ if "%1" == "qthelp" (
 	echo.To view the help file:
 	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\GRASS80Documentation.ghc
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -431,6 +435,8 @@ if "%1" == "qthelp" (
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	goto end
 )
 
