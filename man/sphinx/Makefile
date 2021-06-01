@@ -101,6 +101,7 @@ qthelp:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -484,7 +485,12 @@ qthelp:
 =======
 =======
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/grass_gis.qhcp"
 	@echo "To view the help file:"
 	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/grass_gis.qhc"
@@ -530,6 +536,7 @@ qthelp:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -602,6 +609,8 @@ qthelp:
 =======
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 7ae4f4de7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -625,10 +634,13 @@ qthelp:
 =======
 >>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/GRASS80Documentation.qhcp"
 	@echo "To view the help file:"
 	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/GRASS80Documentation.qhc"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -728,6 +740,8 @@ qthelp:
 >>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -1244,13 +1258,19 @@ qthelp:
 =======
 =======
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1656,7 +1676,12 @@ devhelp:
 =======
 =======
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	@echo "# mkdir -p $$HOME/.local/share/devhelp/grass_gis"
 	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/grass_gis"
 =======
@@ -1700,6 +1725,7 @@ devhelp:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1772,6 +1798,8 @@ devhelp:
 =======
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 7ae4f4de7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1799,9 +1827,12 @@ devhelp:
 =======
 >>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 	@echo "# mkdir -p $$HOME/.local/share/devhelp/GRASS80Documentation"
 	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/GRASS80Documentation"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1898,6 +1929,8 @@ devhelp:
 >>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -2408,7 +2441,12 @@ devhelp:
 =======
 =======
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	@echo "# devhelp"
 
 epub:

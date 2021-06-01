@@ -972,6 +972,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1081,6 +1082,8 @@
 >>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1194,6 +1197,11 @@
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 #define CF_SUPPORT "CF-1.5"
 =======
 <<<<<<< HEAD

@@ -71,6 +71,7 @@ GRASS GIS 8
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -156,6 +157,8 @@ GRASS GIS 8
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -443,7 +446,12 @@ GRASS GIS 8
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
  o https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures82
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -463,9 +471,12 @@ GRASS GIS 8
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fa1b49d230 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
  o https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures82
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -864,7 +875,12 @@ GRASS GIS 8
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 GRASS GIS 7
  o https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78

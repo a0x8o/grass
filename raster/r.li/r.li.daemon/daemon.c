@@ -135,6 +135,7 @@ int calculateIndex(char *file, rli_func *f, char **parameters, char *raster,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -274,6 +275,8 @@ int calculateIndex(char *file, rli_func *f, char **parameters, char *raster,
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -474,11 +477,17 @@ int calculateIndex(char *file, rli_func *f, char **parameters, char *raster,
 =======
 =======
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     /* conf files go into ~/.grass8/r.li/ */
     sprintf(rlipath, "%s%c%s%c", G_config_path(), HOST_DIRSEP, "r.li",
             HOST_DIRSEP);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -610,6 +619,8 @@ int calculateIndex(char *file, rli_func *f, char **parameters, char *raster,
 =======
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -658,6 +669,8 @@ int calculateIndex(char *file, rli_func *f, char **parameters, char *raster,
 >>>>>>> 301e8b1961 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 9f683ad6d3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1497,6 +1510,7 @@ int calculateIndex(char *file, rli_func *f, char **parameters, char *raster,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -2049,7 +2063,15 @@ int calculateIndex(char *file, rli_func *f, char **parameters, char *raster,
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         sprintf(out, "%s", G_config_path());
         doneDir = G_mkdir(out);
         if (doneDir == -1 && errno != EEXIST)
@@ -2112,6 +2134,7 @@ int calculateIndex(char *file, rli_func *f, char **parameters, char *raster,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2210,6 +2233,8 @@ int calculateIndex(char *file, rli_func *f, char **parameters, char *raster,
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -2637,7 +2662,12 @@ int calculateIndex(char *file, rli_func *f, char **parameters, char *raster,
 =======
 =======
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         /* check if ~/.grass8/r.li/ exists */
         sprintf(out, "%s", rlipath);
         doneDir = G_mkdir(out);
@@ -2934,6 +2964,7 @@ int calculateIndex(char *file, rli_func *f, char **parameters, char *raster,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -2967,6 +2998,8 @@ int calculateIndex(char *file, rli_func *f, char **parameters, char *raster,
 >>>>>>> 3a05fedbc9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 4dd6d0bd5b (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -3191,7 +3224,14 @@ int calculateIndex(char *file, rli_func *f, char **parameters, char *raster,
 =======
 =======
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> b40f45f8a4 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> adeb201999 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	/* check if ~/.grass8/r.li/ exists */
 	sprintf(out, "%s", rlipath);
 	doneDir = G_mkdir(out);
