@@ -169,6 +169,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1610,6 +1611,8 @@ List of releases:
 >>>>>>> de2caeece8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 55237d751f (Programmer's manual: update GRASS GIS arch drawing (#1610))
 CHANGES in GRASS GIS 8.x
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -2986,7 +2989,19 @@ List of releases:
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
 CHANGES in GRASS GIS 8.x
+=======
+CHANGES in GRASS GIS 8.x compared to GRASS GIS 7.x
+
+Efforts have concentrated on making the user experience even better,
+providing many new useful additional functionalities to modules and
+further improving the graphical user interface. The new graphical user
+interface with entirely rewritten startup sequence.
+
+https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures80
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures80
 https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures82
