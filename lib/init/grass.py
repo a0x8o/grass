@@ -493,6 +493,7 @@ def get_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if WINDOWS:
         grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
 =======
@@ -536,6 +537,14 @@ def get_grass_config_dir():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if WINDOWS:
+        grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
+=======
+    if sys.platform == "win32":
+        grass_config_dirname = "GRASS8"
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         win_conf_path = os.getenv("APPDATA")
         # this can happen with some strange settings
         if not win_conf_path:
@@ -554,6 +563,7 @@ def get_grass_config_dir():
             )
         directory = os.path.join(win_conf_path, grass_config_dirname)
     else:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -596,6 +606,12 @@ def get_grass_config_dir():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
+=======
+        grass_config_dirname = ".grass8"
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         directory = os.path.join(os.getenv("HOME"), grass_config_dirname)
     if not os.path.isdir(directory):
         try:
@@ -630,28 +646,34 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-        tmpdir = os.path.join(tmp, tmpdir_name)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< HEAD
         tmpdir = os.path.join(tmp, tmpdir_name)
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        tmpdir = os.path.join(tmp, tmpdir_name)
+=======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+        tmpdir = os.path.join(tmp, tmpdir_name)
+=======
+>>>>>>> osgeo-main
+=======
 <<<<<<< HEAD
         tmpdir = os.path.join(tmp, tmpdir_name)
 =======
 >>>>>>> osgeo-main
 =======
-<<<<<<< HEAD
         tmpdir = os.path.join(tmp, tmpdir_name)
 =======
->>>>>>> osgeo-main
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         tmpdir = os.path.join(
             tmp, "grass8-%(user)s-%(lock)s" % {"user": user, "lock": gis_lock}
         )
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 =======
         tmpdir = os.path.join(tmp, tmpdir_name)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -665,6 +687,8 @@ def create_tmp(user, gis_lock):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         try:
             os.mkdir(tmpdir, 0o700)
         except:  # noqa: E722
@@ -676,28 +700,34 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-            tmpdir = os.path.join(tmp, tmpdir_name)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< HEAD
             tmpdir = os.path.join(tmp, tmpdir_name)
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            tmpdir = os.path.join(tmp, tmpdir_name)
+=======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+            tmpdir = os.path.join(tmp, tmpdir_name)
+=======
+>>>>>>> osgeo-main
+=======
 <<<<<<< HEAD
             tmpdir = os.path.join(tmp, tmpdir_name)
 =======
 >>>>>>> osgeo-main
 =======
-<<<<<<< HEAD
             tmpdir = os.path.join(tmp, tmpdir_name)
 =======
->>>>>>> osgeo-main
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
             tmpdir = os.path.join(
                 tmp, "grass8-%(user)s-%(lock)s" % {"user": user, "lock": gis_lock}
             )
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 =======
             tmpdir = os.path.join(tmp, tmpdir_name)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -711,6 +741,8 @@ def create_tmp(user, gis_lock):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
             try:
                 os.mkdir(tmpdir, 0o700)
             except:  # noqa: E722
@@ -723,32 +755,39 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-            _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
-                tmpdir_name=tmpdir_name
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< HEAD
             _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
                 tmpdir_name=tmpdir_name
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
+                tmpdir_name=tmpdir_name
+=======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+            _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
+                tmpdir_name=tmpdir_name
+=======
+>>>>>>> osgeo-main
+=======
 <<<<<<< HEAD
             _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
                 tmpdir_name=tmpdir_name
 =======
 >>>>>>> osgeo-main
 =======
-<<<<<<< HEAD
             _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
                 tmpdir_name=tmpdir_name
 =======
->>>>>>> osgeo-main
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
             _(
                 "Unable to create temporary directory <grass8-%(user)s-"
                 "%(lock)s>! Exiting."
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 =======
             _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
                 tmpdir_name=tmpdir_name
@@ -764,6 +803,8 @@ def create_tmp(user, gis_lock):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
             )
         )
 

@@ -12486,11 +12486,19 @@ msgstr "Não foi possível mover o mapa raster temporário <%s> para o mapa rast
 
 #: ../lib/raster3d/close.c:79
 msgid "Unable to flush all tiles"
+<<<<<<< HEAD
 msgstr "Não foi possível limpar todos os mosaicos"
 
 #: ../lib/raster3d/close.c:84
 msgid "Unable to flush index"
 msgstr "Não foi possível limpar o índice"
+=======
+msgstr ""
+
+#: ../lib/raster3d/close.c:84
+msgid "Unable to flush index"
+msgstr ""
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/raster3d/close.c:94
 msgid "Unable to position file"
