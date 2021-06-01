@@ -3384,6 +3384,7 @@ def create_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3774,6 +3775,8 @@ def create_grass_config_dir():
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
     from grass.app.runtime import get_grass_config_dir
 
     try:
@@ -3784,6 +3787,7 @@ def create_grass_config_dir():
         fatal(f"{e}")
 
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4055,10 +4059,14 @@ def create_grass_config_dir():
 <<<<<<< HEAD
 >>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 69dd884040 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+<<<<<<< HEAD
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
     # The code is in sync with grass.app.runtime (but not the same).
 =======
 <<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4711,11 +4719,14 @@ def create_grass_config_dir():
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
     if WINDOWS:
         grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
 =======
     if sys.platform == "win32":
         grass_config_dirname = "GRASS8"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5641,6 +5652,9 @@ def create_grass_config_dir():
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
         win_conf_path = os.getenv("APPDATA")
         # this can happen with some strange settings
         if not win_conf_path:
@@ -5782,6 +5796,7 @@ def create_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6231,10 +6246,13 @@ def create_grass_config_dir():
 >>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> e14069d05d (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
         grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
 =======
         grass_config_dirname = ".grass8"
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7351,6 +7369,8 @@ def create_grass_config_dir():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
         directory = os.path.join(os.getenv("HOME"), grass_config_dirname)
 >>>>>>> d4ef6f4dbb (Programmer's manual: update GRASS GIS arch drawing (#1610))
     if not os.path.isdir(directory):
@@ -7477,6 +7497,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -8095,6 +8116,10 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 69dd884040 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+        tmpdir = os.path.join(tmp, tmpdir_name)
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
         tmpdir = os.path.join(
             tmp, "grass8-%(user)s-%(lock)s" % {"user": user, "lock": gis_lock}
         )
@@ -8162,6 +8187,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -8892,6 +8918,8 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
         try:
             os.mkdir(tmpdir, 0o700)
         except:  # noqa: E722
@@ -8993,6 +9021,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -9611,6 +9640,10 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 69dd884040 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+            tmpdir = os.path.join(tmp, tmpdir_name)
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
             tmpdir = os.path.join(
                 tmp, "grass8-%(user)s-%(lock)s" % {"user": user, "lock": gis_lock}
             )
@@ -9678,6 +9711,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -10408,6 +10442,8 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
             try:
                 os.mkdir(tmpdir, 0o700)
             except:  # noqa: E722
@@ -10510,6 +10546,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -11168,6 +11205,11 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 69dd884040 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+            _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
+                tmpdir_name=tmpdir_name
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
             _(
                 "Unable to create temporary directory <grass8-%(user)s-"
                 "%(lock)s>! Exiting."
@@ -11234,6 +11276,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12184,6 +12227,8 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
             )
         )
 

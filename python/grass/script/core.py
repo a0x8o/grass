@@ -119,6 +119,7 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -1077,6 +1078,8 @@ Usage:
 =======
 >>>>>>> c1fe2d6941 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> c745556f47 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
 (C) 2008-2024 by the GRASS Development Team
 =======
 (C) 2008-2021 by the GRASS Development Team
@@ -1144,6 +1147,7 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -2745,6 +2749,8 @@ Usage:
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> c1fe2d6941 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> c745556f47 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
 This program is free software under the GNU General Public
 License (>=v2). Read the file COPYING that comes with GRASS
 for details.
@@ -6008,6 +6014,7 @@ def parser() -> tuple[dict[str, str], dict[str, bool]]:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7579,6 +7586,12 @@ def parser() -> tuple[dict[str, str], dict[str, bool]]:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
+=======
+    https://grass.osgeo.org/grass80/manuals/parser_standard_options.html
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
     """
     if not os.getenv("GISBASE"):
         print("You must be in GRASS GIS to run this program.", file=sys.stderr)

@@ -134,6 +134,7 @@ GIS 7 User's Manual: GRASS GIS Quickstart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1705,6 +1706,12 @@ GIS 7 User's Manual: GRASS GIS Quickstart
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<https://grass.osgeo.org/grass-devel/manuals/helptext.html>`_.
+=======
+<https://grass.osgeo.org/grass80/manuals/helptext.html>`_.
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 .. _Region-label:
 

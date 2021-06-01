@@ -11562,6 +11562,7 @@ RUN echo "  => Configure and compile grass" && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11855,6 +11856,8 @@ RUN echo "  => Configure and compile grass" && \
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD:docker/alpine/Dockerfile
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD:docker/alpine/Dockerfile
 # Get rid of version number here, restore in next stage via symbolic link
 RUN mv $(grass --config path) /usr/local/grass
@@ -11877,6 +11880,7 @@ RUN ./configure \
     make install -j $NUMTHREADS
 =======
 # Reduce the image size - Remove unnecessary grass files
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12441,6 +12445,8 @@ RUN ./configure \
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/alpine/Dockerfile_alpine
 >>>>>>> 84a2937271 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> cede709cae (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
 RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
     rm -rf /usr/local/grass80/demolocation; \
     rm -rf /usr/local/grass80/fonts; \
@@ -12448,6 +12454,7 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
     rm -rf /usr/local/grass80/share; \
     mkdir -p /usr/local/grass80/gui/wxpython/xml/; \
     mv module_items.xml /usr/local/grass80/gui/wxpython/xml/module_items.xml;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14288,6 +14295,9 @@ RUN cp /usr/local/grass83/gui/wxpython/xml/module_items.xml module_items.xml; \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/alpine/Dockerfile_alpine
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 
 FROM common as grass
@@ -16835,6 +16845,7 @@ RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -16846,6 +16857,9 @@ RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 =======
 >>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
 RUN ln -sf /usr/local/grass `grass --config path`
+=======
+RUN ln -s /usr/local/grass `grass --config path`
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 =======
 <<<<<<< HEAD

@@ -28074,6 +28074,7 @@ msgid "Unable to flush all tiles"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -28347,11 +28348,14 @@ msgstr "Não foi possível limpar o índice"
 =======
 >>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 69dd884040 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgstr ""
 
 #: ../lib/raster3d/close.c:84
 msgid "Unable to flush index"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28824,6 +28828,8 @@ msgid "Unable to flush index"
 msgstr "Não foi possível limpar o índice"
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/raster3d/close.c:94
 msgid "Unable to position file"
