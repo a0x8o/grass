@@ -181,6 +181,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 3
@@ -763,6 +764,8 @@ dev
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 5
 =======
 =======
@@ -1439,6 +1442,7 @@ dev
 >>>>>>> 1e537538ac (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e421dd047f (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -1456,12 +1460,18 @@ dev
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+5
+=======
+>>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 4
 >>>>>>> 9fa78e6a12 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 0dev
 2024
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -2028,6 +2038,9 @@ dev
 >>>>>>> 0d6a6602db (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 8adb120ce5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 0
 dev
 2021
@@ -2123,6 +2136,9 @@ dev
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4131,4 +4147,9 @@ dev
 2023
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 385c333a86 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> c92112410b (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 987a3940c6 (Programmer's manual: update GRASS GIS arch drawing (#1610))
