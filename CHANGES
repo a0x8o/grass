@@ -99,6 +99,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -397,6 +398,8 @@ List of releases:
 =======
 >>>>>>> 26d1969f01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> faaa995e8d (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 >>>>>>> 1f45827248 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 6b0b0c9640 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 CHANGES in GRASS GIS 8.x
@@ -478,6 +481,11 @@ CHANGES in GRASS GIS 8.x
 =======
 CHANGES in GRASS GIS 8.x compared to GRASS GIS 7.x
 =======
+CHANGES in GRASS GIS 8.x
+=======
+CHANGES in GRASS GIS 8.x compared to GRASS GIS 7.x
+>>>>>>> 1602cb9170 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
 CHANGES in GRASS GIS 8.x compared to GRASS GIS 7.x
 
 Efforts have concentrated on making the user experience even better,
@@ -487,12 +495,15 @@ interface with entirely rewritten startup sequence.
 
 https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures80
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 6d53e5e968 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 CHANGES in GRASS GIS 8.x
 =======
 CHANGES in GRASS GIS 8.x compared to GRASS GIS 7.x
 >>>>>>> 92dccbb571 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 1602cb9170 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 Efforts have concentrated on making the user experience even better,
 providing many new useful additional functionalities to modules and

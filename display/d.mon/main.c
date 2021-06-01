@@ -1586,9 +1586,18 @@
  [1] https://github.com/OSGeo/grass/tree/master/display/d.mon/render_cmd.py
  [2] https://github.com/OSGeo/grass/tree/master/lib/display/r_raster.c#L107
  [3] https://grass.osgeo.org/grass80/manuals/displaydrivers.html
+<<<<<<< HEAD
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 92dccbb571 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 26d1969f01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1602cb9170 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> faaa995e8d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
  */
 
