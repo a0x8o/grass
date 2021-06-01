@@ -29,6 +29,7 @@ This file contains following sections:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Updating the message catalogs currently only works on
 =======
 Updating the message catalogs currently only works on 
@@ -98,6 +99,12 @@ Updating the message catalogs currently only works on
 =======
 Updating the message catalogs currently only works on
 >>>>>>> osgeo-main
+=======
+Updating the message catalogs currently only works on
+=======
+Updating the message catalogs currently only works on 
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 unix-like systems and requires xgettext.
 
 ------------------------------------------------------
@@ -163,6 +170,7 @@ NOTE3: Notices to translators can be added by placing
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* GTC A comma separated keyword list.
 =======
         /* GTC A comma separated keyword list. 
@@ -232,6 +240,12 @@ NOTE3: Notices to translators can be added by placing
 =======
         /* GTC A comma separated keyword list.
 >>>>>>> osgeo-main
+=======
+        /* GTC A comma separated keyword list.
+=======
+        /* GTC A comma separated keyword list. 
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
            Should not contain spaces! */
         keywords = _("first,second,third");
 
@@ -259,6 +273,7 @@ NOTE4:  Any string containing a number that requires a correct plural form of
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         plural case", number)
 =======
         plural case", number) 
@@ -328,6 +343,12 @@ NOTE4:  Any string containing a number that requires a correct plural form of
 =======
         plural case", number)
 >>>>>>> osgeo-main
+=======
+        plural case", number)
+=======
+        plural case", number) 
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 Examples of messages with plural forms.
 Wrong:
@@ -353,11 +374,15 @@ Wrong:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     G_warning( _("%d %s without geometry skipped"), n,
         n == 1 ? "feature" : "features");
 =======
     G_warning( _("%d %s without geometry skipped"), n, 
         n == 1 ? "feature" : "features"); 
+<<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
     G_warning( _("%d %s without geometry skipped"), n,
@@ -445,6 +470,9 @@ Wrong:
     G_warning( _("%d %s without geometry skipped"), n,
         n == 1 ? "feature" : "features");
 >>>>>>> osgeo-main
+=======
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     G_message( _("%d maps selected"), n);
     G_message( n == 1 ? _("Remove map") : _("Remove maps"));
 
@@ -470,6 +498,7 @@ Correct:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -500,6 +529,8 @@ Correct:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     G_message( n_("%d map from mapset <%s> removed",
         "%d maps from mapset <%s> removed", n), n, ms);
     /* Notice double use of number "n" - as an argument for
@@ -508,6 +539,7 @@ Correct:
     /* Both of forms of singular case "%d file" or "One file" are correct.
     The choice between them is purely stylistic one. */
     G_warning( n_("One feature without geometry skipped",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -620,6 +652,18 @@ Correct:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    G_message( n_("%d map from mapset <%s> removed", 
+        "%d maps from mapset <%s> removed", n), n, ms);
+    /* Notice double use of number "n" - as an argument for 
+    both functions - n_() and G_message() */
+    G_message( n_("One file removed", "%d files removed", n) n);
+    /* Both of forms of singular case "%d file" or "One file" are correct. 
+    The choice between them is purely stylistic one. */
+    G_warning( n_("One feature without geometry skipped", 
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         "%d features without geometry skipped", n), n);
     G_message( n_("%d map selected", "%d maps selected", n), n);
     /* Although in English it is not necessary to provide a separate
@@ -647,6 +691,9 @@ Correct:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 
 All these messages strings will be then automatically
@@ -654,6 +701,7 @@ All these messages strings will be then automatically
         
         
 All these messages strings will be then automatically 
+<<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 
@@ -762,6 +810,9 @@ All these messages strings will be then automatically
 
 All these messages strings will be then automatically
 >>>>>>> osgeo-main
+=======
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 extracted into the message files.
 
 See for example ./vector/v.what.rast/main.c
@@ -792,6 +843,7 @@ can be found in gettext manual.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 How to prepare program source:
 =======
 How to prepare program source: 
@@ -861,6 +913,12 @@ How to prepare program source:
 =======
 How to prepare program source:
 >>>>>>> osgeo-main
+=======
+How to prepare program source:
+=======
+How to prepare program source: 
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 https://www.gnu.org/software/gettext/manual/gettext.html#Sources
 
 More advanced tricks like resolving ambiguties and handling of plural forms:
@@ -880,6 +938,7 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
  see also: https://grasswiki.osgeo.org/wiki/GRASS_messages_translation#Get_the_translated_po_files
 
 [1] .pot files are auto-generated on grass.osgeo.org and
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -943,6 +1002,8 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     stored in https://grass.osgeo.org/grass-devel/binary/linux/snapshot/transifex/
      --> cronjob (on grasslxd container): /home/neteler/cronjobs/cron_grass8_main_src_snapshot.sh
 =======
@@ -980,6 +1041,7 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1061,6 +1123,14 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    stored in https://grass.osgeo.org/grass80/binary/linux/snapshot/transifex/
+     --> cronjob (on grasslxd container): /home/neteler/cronjobs/cron_grass8_HEAD_build_bins.sh
+
+[2] Transifex job copies daily from [1] to here: 
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 	https://www.transifex.com/grass-gis/grass7/dashboard/
 
 [3] Translators work in Transifex,
@@ -1085,6 +1155,7 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -1093,12 +1164,15 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 [4] Updated po files are taken from Transifex and merged into GRASS GIS source repo
     (MO files are generated when compiling GRASS GIS)
     Script: https://github.com/OSGeo/grass-addons/blob/grass8/utils/transifex_merge.sh
 =======
 [4] Updated po files are taken from Transifex and merged into GRASS GIS source repo 
     (MO files are generated when compiling GRASS GIS)
+<<<<<<< HEAD
 <<<<<<< HEAD
     Script: https://github.com/OSGeo/grass-addons/blob/master/tools/transifex_merge.sh
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1204,6 +1278,10 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
     (MO files are generated when compiling GRASS GIS)
     Script: https://github.com/OSGeo/grass-addons/blob/grass8/utils/transifex_merge.sh
 >>>>>>> osgeo-main
+=======
+    Script: https://github.com/OSGeo/grass-addons/blob/master/tools/transifex_merge.sh
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
     # trim disconnected=obsolete translations
     POFILE=grassYXZ_LANG.po
@@ -1233,6 +1311,7 @@ Semi-automated procedure:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
      
@@ -1302,6 +1381,12 @@ Semi-automated procedure:
 =======
 
 >>>>>>> osgeo-main
+=======
+
+=======
+     
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         ./configured --with-nls [...further options...]
         make
 
@@ -1331,6 +1416,7 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   3. Now translate the messages in the po/*.po files (using kbabel or
 =======
   3. Now translate the messages in the po/*.po files (using kbabel or 
@@ -1400,6 +1486,12 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 =======
   3. Now translate the messages in the po/*.po files (using kbabel or
 >>>>>>> osgeo-main
+=======
+  3. Now translate the messages in the po/*.po files (using kbabel or
+=======
+  3. Now translate the messages in the po/*.po files (using kbabel or 
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
      other editor). Just open the .po file(s) in your preferred translation
      software.
 
@@ -1424,6 +1516,7 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
       
@@ -1493,6 +1586,12 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 =======
 
 >>>>>>> osgeo-main
+=======
+
+=======
+      
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         make mo         creates the mo files (containing translated messages as
                         binary file)
 
@@ -1557,6 +1656,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
@@ -1626,6 +1726,12 @@ DETAILED PROCEDURE :
 =======
 
 >>>>>>> osgeo-main
+=======
+
+=======
+    
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
    This will create
     ./templates/grasslibs.pot
     ./templates/grassmods.pot
@@ -1659,6 +1765,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1689,6 +1796,8 @@ DETAILED PROCEDURE :
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
   3.a) First CASE: Messages have not yet been translated to your language.
        No .po file is present for your language in the ./po/ directory.
@@ -1697,6 +1806,7 @@ DETAILED PROCEDURE :
         make pot
         make update-po
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1809,6 +1919,18 @@ DETAILED PROCEDURE :
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+       
+  3.a) First CASE: Messages have not yet been translated to your language.
+       No .po file is present for your language in the ./po/ directory.
+      
+       Run:
+        make pot
+        make update-po
+ 
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
        Move the generated file from the ./template/ directory
        to the ./po/ directory (for example German language):
         mv ./template/grasslibs.pot ./po/grasslibs_de.po
@@ -1841,6 +1963,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   3.b) Second CASE: Some messages have already been translated to
 =======
   3.b) Second CASE: Some messages have already been translated to 
@@ -1910,6 +2033,12 @@ DETAILED PROCEDURE :
 =======
   3.b) Second CASE: Some messages have already been translated to
 >>>>>>> osgeo-main
+=======
+  3.b) Second CASE: Some messages have already been translated to
+=======
+  3.b) Second CASE: Some messages have already been translated to 
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
        your language (files present in ./po/ directory), and
        you want to continue with translating new and still
        untranslated messages.
@@ -1935,6 +2064,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1965,6 +2095,8 @@ DETAILED PROCEDURE :
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
        First we have to merge new messages into existing .po files
        (which contain already translated messages) as new messages
        might have been added into the GRASS system.
@@ -1976,6 +2108,7 @@ DETAILED PROCEDURE :
        This will update the messages in all existing files in
        the .po/ directory.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2100,6 +2233,21 @@ DETAILED PROCEDURE :
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+       First we have to merge new messages into existing .po files 
+       (which contain already translated messages) as new messages
+       might have been added into the GRASS system. 
+       To do so, run:
+    
+       make pot
+       make update-po
+    
+       This will update the messages in all existing files in 
+       the .po/ directory.
+    
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 4. TRANSLATE MESSAGES
 
@@ -2125,6 +2273,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
    
@@ -2194,6 +2343,12 @@ DETAILED PROCEDURE :
 =======
 
 >>>>>>> osgeo-main
+=======
+
+=======
+   
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
    Run 'kbabel' or equivalent program
     kbabel ./po/grasslibs_<LANGUAGE>.po
     kbabel ./po/grassmods_<LANGUAGE>.po
@@ -2230,6 +2385,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -2260,6 +2416,8 @@ DETAILED PROCEDURE :
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
    * Pay attention to keep '%s', '\n' and other stuff also
      in the translated messages!
 
@@ -2269,6 +2427,7 @@ DETAILED PROCEDURE :
    After finishing the translation, save the files.
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2385,6 +2544,19 @@ DETAILED PROCEDURE :
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+   * Pay attention to keep '%s', '\n' and other stuff also 
+     in the translated messages!
+   
+   * Please use 'ISO-8859-1' or 'ISO-8859-15' for western languages.
+     See https://en.wikipedia.org/wiki/ISO_8859 for details.
+   
+   After finishing the translation, save the files.
+
+     
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 5. CREATE MO FILES
 
    run
@@ -2428,6 +2600,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -2458,12 +2631,15 @@ DETAILED PROCEDURE :
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
    git diff file.c > file.diff
 
    Thanks for submitting.
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2568,6 +2744,16 @@ DETAILED PROCEDURE :
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+   
+   git diff file.c > file.diff
+   
+   Thanks for submitting.
+
+   
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 PLEASE HELP TO TRANSLATE GRASS MESSAGES!
 
 ----------------------------------------------

@@ -7387,6 +7387,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -7417,12 +7418,15 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 msgid "Unable to rewrite feature/offset %"
 msgstr ""
 
 #: ../lib/vector/Vlib/write.c:266
 msgid "Unable to delete feature/offset %"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7527,6 +7531,18 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+#, fuzzy
+msgid "Unable to rewrite feature/offset %"
+msgstr "피처 (%s) %d를 삭제할 수 없습니다"
+
+#: ../lib/vector/Vlib/write.c:266
+#, fuzzy
+msgid "Unable to delete feature/offset %"
+msgstr "피처를 삭제할 수 없습니다"
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/vector/Vlib/write.c:299
 msgid "Unable to restore feature/offset %"
@@ -8102,6 +8118,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\n"
 "++ 열 복사 검정 ++"
 =======
@@ -8186,6 +8203,12 @@ msgstr ""
 "\n"
 "++ 열 복사 검정 ++"
 >>>>>>> osgeo-main
+=======
+"\n"
+"++ 열 복사 검정 ++"
+=======
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 #: ../lib/db/dbmi_base/test/test_columns.c:150
 msgid ""
