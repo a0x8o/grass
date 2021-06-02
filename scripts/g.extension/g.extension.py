@@ -17,12 +17,21 @@
 # TODO:         - update temporary workaround of using grass7 subdir of addon-repo, see
 #                 https://github.com/OSGeo/grass-addons/issues/528
 <<<<<<< HEAD
+<<<<<<< HEAD
 #               - add sudo support where needed (i.e. check first permission to write into
 #                 $GISBASE directory)
 =======
 #               - add sudo support where needed (i.e. check first permission to write
 #                 into $GISBASE directory)
 >>>>>>> osgeo-main
+=======
+#               - add sudo support where needed (i.e. check first permission to write
+#                 into $GISBASE directory)
+=======
+#               - add sudo support where needed (i.e. check first permission to write into
+#                 $GISBASE directory)
+>>>>>>> f2b6a32ea0 (g.extension: workaround to use grass7 addon repo (#1612))
+>>>>>>> 1c92abe7ee (g.extension: workaround to use grass7 addon repo (#1612))
 #               - fix toolbox support in install_private_extension_xml()
 #############################################################################
 
@@ -5522,6 +5531,7 @@ def install_extension_std_platforms(name, source, url, branch):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5600,6 +5610,8 @@ def install_extension_std_platforms(name, source, url, branch):
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 1c92abe7ee (g.extension: workaround to use grass7 addon repo (#1612))
     path_to_src_code_message = _("Path to the source code:")
 =======
     source_url = "https://github.com/OSGeo/grass-addons/tree/master/grass8/"
@@ -5696,6 +5708,7 @@ def install_extension_std_platforms(name, source, url, branch):
 =======
     source_url = "https://github.com/OSGeo/grass-addons/tree/master/grass8/"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> f9d61299d7 (r.in.pdal: use fabs for double values (#1752))
@@ -5811,6 +5824,12 @@ def install_extension_std_platforms(name, source, url, branch):
     source_url = "https://github.com/OSGeo/grass-addons/tree/master/grass8/"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+    # TODO: workaround, https://github.com/OSGeo/grass-addons/issues/528
+    source_url = "https://github.com/OSGeo/grass-addons/tree/master/grass7/"
+>>>>>>> f2b6a32ea0 (g.extension: workaround to use grass7 addon repo (#1612))
+>>>>>>> 1c92abe7ee (g.extension: workaround to use grass7 addon repo (#1612))
 
     # to hide non-error messages from subprocesses
     outdev = open(os.devnull, "w") if gs.verbosity() <= 2 else sys.stdout
@@ -7219,6 +7238,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -7269,6 +7289,8 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 1c92abe7ee (g.extension: workaround to use grass7 addon repo (#1612))
     >>> resolve_source_code("https://svn.osgeo.org/grass/grass-addons/grass7")
     ('svn', 'https://svn.osgeo.org/grass/grass-addons/grass7')
 =======
@@ -7416,7 +7438,14 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
     >>> resolve_source_code('https://svn.osgeo.org/grass/grass-addons/grass8')
     ('svn', 'https://svn.osgeo.org/grass/grass-addons/grass8')
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+    >>> resolve_source_code('https://svn.osgeo.org/grass/grass-addons/grass7')
+    ('svn', 'https://svn.osgeo.org/grass/grass-addons/grass7')
+>>>>>>> f2b6a32ea0 (g.extension: workaround to use grass7 addon repo (#1612))
+>>>>>>> 1c92abe7ee (g.extension: workaround to use grass7 addon repo (#1612))
 
     ZIP files online:
 
@@ -9044,6 +9073,7 @@ if __name__ == "__main__":
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -9081,6 +9111,15 @@ if __name__ == "__main__":
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    # TODO: update temporary workaround of using grass7 subdir of addon-repo, see
+    #       https://github.com/OSGeo/grass-addons/issues/528
+    version[0] = 7
+    version[1] = 9
+    build_platform = grass_version["build_platform"].split("-", 1)[0]
+>>>>>>> f2b6a32ea0 (g.extension: workaround to use grass7 addon repo (#1612))
+>>>>>>> 1c92abe7ee (g.extension: workaround to use grass7 addon repo (#1612))
 
 <<<<<<< HEAD
     build_platform = grass_version["build_platform"].split("-", 1)[0]
