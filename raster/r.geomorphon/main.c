@@ -167,6 +167,7 @@ typedef struct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -199,6 +200,8 @@ typedef struct
 >>>>>>> osgeo-main
 =======
 >>>>>>> bbc8032a88 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> ac8cc291d8 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
@@ -236,6 +239,7 @@ typedef struct
 >>>>>>> osgeo-main
 =======
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 >>>>>>> 4501265c62 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
@@ -352,6 +356,10 @@ typedef struct
 =======
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> bbc8032a88 (Dockerfile_alpine: fix broken link creatio)
+=======
+=======
+>>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> ac8cc291d8 (Dockerfile_alpine: fix broken link creatio)
 int main(int argc, char **argv)
 {
     struct { /* struct is used both for interface and output */
