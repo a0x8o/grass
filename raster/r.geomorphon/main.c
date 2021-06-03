@@ -74,6 +74,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -143,6 +144,10 @@ typedef enum {
 =======
 >>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> f1378f3ee0 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> 14e8d0fff4 (Dockerfile_alpine: fix broken link creatio)
+=======
 typedef struct
 {
     char name[100];
@@ -150,6 +155,7 @@ typedef struct
     CELL *forms_buffer;
 } MULTI;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,6 +214,8 @@ typedef struct
 >>>>>>> bbc8032a88 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> ac8cc291d8 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> 14e8d0fff4 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
@@ -258,6 +266,7 @@ typedef struct
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -376,6 +385,11 @@ typedef struct
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> f1378f3ee0 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> 14e8d0fff4 (Dockerfile_alpine: fix broken link creatio)
 int main(int argc, char **argv)
 {
     struct { /* struct is used both for interface and output */
