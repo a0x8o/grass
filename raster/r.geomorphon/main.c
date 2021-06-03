@@ -178,6 +178,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -490,6 +491,8 @@ typedef enum {
 =======
 >>>>>>> 67ed37bf9b (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
+=======
 =======
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 =======
@@ -787,6 +790,8 @@ typedef enum {
 =======
 >>>>>>> e29d325b37 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 5da9dcb42f (Dockerfile_alpine: fix broken link creatio)
+=======
 typedef struct
 {
     char name[100];
@@ -900,8 +905,11 @@ typedef struct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 0d86d5b20a (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 39fa8752f5 (Dockerfile_alpine: fix broken link creatio)
@@ -2280,6 +2288,7 @@ typedef struct
 >>>>>>> e29d325b37 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b974eae31d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -2696,6 +2705,11 @@ typedef struct
 >>>>>>> e29d325b37 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 67ed37bf9b (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> 5da9dcb42f (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
 int main(int argc, char **argv)
 {
     struct { /* struct is used both for interface and output */

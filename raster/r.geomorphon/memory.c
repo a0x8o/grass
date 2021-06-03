@@ -154,6 +154,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -298,6 +299,8 @@
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -669,6 +672,7 @@
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -919,6 +923,10 @@
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5da9dcb42f (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
 typedef struct {
 =======
 <<<<<<< HEAD
@@ -1063,6 +1071,7 @@ typedef struct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e3effd5180 (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -1127,6 +1136,8 @@ typedef struct
 >>>>>>> c0c25e9fb1 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> dc63e15d62 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
@@ -2943,7 +2954,13 @@ typedef struct {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> 5da9dcb42f (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
     const char *sname;
     int r;
     int g;
@@ -3174,6 +3191,7 @@ static const CATCOLORS ccolors[CNT] = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3365,6 +3383,8 @@ static const CATCOLORS ccolors[CNT] = {
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -4776,7 +4796,12 @@ static const CATCOLORS ccolors[CNT] = {
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5da9dcb42f (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
     [__] = {"ERROR", 255, 0, 255, "ERROR"}};
 =======
     [__] = {"ERROR", 255, 0, 255, "ERROR"}
@@ -4811,6 +4836,7 @@ static const CATCOLORS ccolors[CNT] = {
 >>>>>>> ec61ba71a1 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> fc0e454e42 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6324,7 +6350,12 @@ static const CATCOLORS ccolors[CNT] = {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5da9dcb42f (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
 
 static int get_cell(int, float *, void *, RASTER_MAP_TYPE);
 
@@ -8430,6 +8461,7 @@ int write_form_cat_colors(char *raster)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8676,6 +8708,8 @@ int write_form_cat_colors(char *raster)
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
+=======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9437,11 +9471,17 @@ int write_form_cat_colors(char *raster)
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5da9dcb42f (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
         Rast_add_color_rule(&i, ccolors[i].r, ccolors[i].g, ccolors[i].b, &i,
                             ccolors[i].r, ccolors[i].g, ccolors[i].b, &colors,
                             CELL_TYPE);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9502,6 +9542,8 @@ int write_form_cat_colors(char *raster)
 =======
 >>>>>>> c0c25e9fb1 (Dockerfile_alpine: fix broken link creatio)
 =======
+=======
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9649,11 +9691,17 @@ int write_form_cat_colors(char *raster)
 =======
 >>>>>>> bfe8ef7462 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> ac664b5010 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 >>>>>>> be891357ff (Dockerfile_alpine: fix broken link creatio)
+=======
+=======
+>>>>>>> 5da9dcb42f (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
         Rast_add_color_rule(&i, ccolors[i].r, ccolors[i].g, ccolors[i].b,
                             &i, ccolors[i].r, ccolors[i].g, ccolors[i].b,
                             &colors, CELL_TYPE);
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9825,6 +9873,8 @@ int write_form_cat_colors(char *raster)
 >>>>>>> be891357ff (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 39fa8752f5 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 676e1c2264 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 773376d1b7 (Dockerfile_alpine: fix broken link creatio)
@@ -12557,7 +12607,12 @@ int write_form_cat_colors(char *raster)
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5da9dcb42f (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> 6a1bb336b6 (Dockerfile_alpine: fix broken link creatio)
     Rast_write_colors(raster, G_mapset(), &colors);
     Rast_free_colors(&colors);
     Rast_init_cats("Forms", &cats);
