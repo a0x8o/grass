@@ -619,6 +619,7 @@ typedef struct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8e092b1c91 (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -769,6 +770,8 @@ typedef struct
 >>>>>>> 438b70ed86 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 8c5590e502 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> c3ee3c9e6b (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
@@ -1002,6 +1005,8 @@ typedef struct
 =======
 =======
 >>>>>>> 28669afb85 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> f4c2280fda (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
@@ -1234,16 +1239,21 @@ typedef struct
 >>>>>>> 4501265c62 (Dockerfile_alpine: fix broken link creatio)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 28669afb85 (Dockerfile_alpine: fix broken link creatio)
 <<<<<<< HEAD
 >>>>>>> a849405357 (Dockerfile_alpine: fix broken link creatio)
 =======
+=======
+>>>>>>> 28669afb85 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> c3ee3c9e6b (Dockerfile_alpine: fix broken link creatio)
 =======
 =======
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 44a37129bc (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f4c2280fda (Dockerfile_alpine: fix broken link creatio)
 <<<<<<< HEAD
@@ -1808,6 +1818,9 @@ typedef struct
 =======
 >>>>>>> 28669afb85 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 8c5590e502 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> f4c2280fda (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> c3ee3c9e6b (Dockerfile_alpine: fix broken link creatio)
 int main(int argc, char **argv)
 {
     struct { /* struct is used both for interface and output */
