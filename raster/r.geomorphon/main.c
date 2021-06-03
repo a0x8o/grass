@@ -485,6 +485,12 @@ typedef enum {
 >>>>>>> de3b023788 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+>>>>>>> main
+=======
+>>>>>>> ac664b5010 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 =======
@@ -765,6 +771,8 @@ typedef enum {
 =======
 >>>>>>> 30a903a5ae (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> bfe8ef7462 (Dockerfile_alpine: fix broken link creatio)
+=======
 typedef struct
 {
     char name[100];
@@ -876,6 +884,11 @@ typedef struct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ac664b5010 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> be891357ff (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> dc63e15d62 (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -2613,8 +2626,18 @@ typedef struct
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 30a903a5ae (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> de3b023788 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> bfe8ef7462 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> ac664b5010 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> be891357ff (Dockerfile_alpine: fix broken link creatio)
 int main(int argc, char **argv)
 {
     struct { /* struct is used both for interface and output */
