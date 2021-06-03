@@ -746,6 +746,9 @@ typedef struct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 954f0ded75 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> d3f9fd48f9 (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -1713,13 +1716,17 @@ typedef struct
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 9b3c6a74d0 (Dockerfile_alpine: fix broken link creatio)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d83998449d (Dockerfile_alpine: fix broken link creatio)
 =======
+=======
+>>>>>>> 954f0ded75 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> a912bf2f7c (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75779fa36f (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -2228,6 +2235,8 @@ typedef struct
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 9b3c6a74d0 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> d3f9fd48f9 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> 954f0ded75 (Dockerfile_alpine: fix broken link creatio)
 int main(int argc, char **argv)
 {
     struct { /* struct is used both for interface and output */
