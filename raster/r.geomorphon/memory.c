@@ -944,6 +944,7 @@ typedef struct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e3effd5180 (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -990,6 +991,8 @@ typedef struct
 >>>>>>> da76952b56 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> e8a20a0473 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> df3d9be151 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
@@ -2574,7 +2577,15 @@ typedef struct {
 =======
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 3ae27d9ff1 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 >>>>>>> e8a20a0473 (Dockerfile_alpine: fix broken link creatio)
+=======
+=======
+>>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> 4e5e825162 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> df3d9be151 (Dockerfile_alpine: fix broken link creatio)
     const char *sname;
     int r;
     int g;
@@ -2782,6 +2793,7 @@ static const CATCOLORS ccolors[CNT] = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3087,6 +3099,8 @@ static const CATCOLORS ccolors[CNT] = {
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a20a0473 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> df3d9be151 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> f1378f3ee0 (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -4220,7 +4234,12 @@ static const CATCOLORS ccolors[CNT] = {
 =======
 =======
 >>>>>>> 3ae27d9ff1 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 >>>>>>> e8a20a0473 (Dockerfile_alpine: fix broken link creatio)
+=======
+=======
+>>>>>>> 4e5e825162 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> df3d9be151 (Dockerfile_alpine: fix broken link creatio)
     [__] = {"ERROR", 255, 0, 255, "ERROR"}};
 =======
     [__] = {"ERROR", 255, 0, 255, "ERROR"}
@@ -4268,6 +4287,7 @@ static const CATCOLORS ccolors[CNT] = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 676e1c2264 (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -4289,9 +4309,12 @@ static const CATCOLORS ccolors[CNT] = {
 =======
 >>>>>>> 254407610a (Dockerfile_alpine: fix broken link creatio)
 =======
+>>>>>>> 4e5e825162 (Dockerfile_alpine: fix broken link creatio)
+=======
     [__] = {"ERROR", 255, 0, 255, "ERROR"}
 };
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4330,6 +4353,9 @@ static const CATCOLORS ccolors[CNT] = {
 =======
 <<<<<<< HEAD
 >>>>>>> da76952b56 (Dockerfile_alpine: fix broken link creatio)
+=======
+<<<<<<< HEAD
+>>>>>>> df3d9be151 (Dockerfile_alpine: fix broken link creatio)
 =======
 =======
     [__] = {"ERROR", 255, 0, 255, "ERROR"}};
@@ -5529,7 +5555,12 @@ static const CATCOLORS ccolors[CNT] = {
 =======
 =======
 >>>>>>> 3ae27d9ff1 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 >>>>>>> e8a20a0473 (Dockerfile_alpine: fix broken link creatio)
+=======
+=======
+>>>>>>> 4e5e825162 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> df3d9be151 (Dockerfile_alpine: fix broken link creatio)
 
 static int get_cell(int, float *, void *, RASTER_MAP_TYPE);
 
@@ -7394,6 +7425,7 @@ int write_form_cat_colors(char *raster)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7732,6 +7764,8 @@ int write_form_cat_colors(char *raster)
 =======
 >>>>>>> e8a20a0473 (Dockerfile_alpine: fix broken link creatio)
 =======
+>>>>>>> df3d9be151 (Dockerfile_alpine: fix broken link creatio)
+=======
 >>>>>>> 28669afb85 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> a849405357 (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -8219,7 +8253,12 @@ int write_form_cat_colors(char *raster)
 =======
 =======
 >>>>>>> 3ae27d9ff1 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 >>>>>>> e8a20a0473 (Dockerfile_alpine: fix broken link creatio)
+=======
+=======
+>>>>>>> 4e5e825162 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> df3d9be151 (Dockerfile_alpine: fix broken link creatio)
         Rast_add_color_rule(&i, ccolors[i].r, ccolors[i].g, ccolors[i].b, &i,
                             ccolors[i].r, ccolors[i].g, ccolors[i].b, &colors,
                             CELL_TYPE);
@@ -8425,6 +8464,7 @@ int write_form_cat_colors(char *raster)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 44a37129bc (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -8517,6 +8557,8 @@ int write_form_cat_colors(char *raster)
 =======
 >>>>>>> e8a20a0473 (Dockerfile_alpine: fix broken link creatio)
 =======
+>>>>>>> df3d9be151 (Dockerfile_alpine: fix broken link creatio)
+=======
 >>>>>>> 676e1c2264 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 773376d1b7 (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -8550,10 +8592,13 @@ int write_form_cat_colors(char *raster)
 =======
 >>>>>>> 254407610a (Dockerfile_alpine: fix broken link creatio)
 =======
+>>>>>>> 4e5e825162 (Dockerfile_alpine: fix broken link creatio)
+=======
         Rast_add_color_rule(&i, ccolors[i].r, ccolors[i].g, ccolors[i].b,
                             &i, ccolors[i].r, ccolors[i].g, ccolors[i].b,
                             &colors, CELL_TYPE);
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8678,6 +8723,8 @@ int write_form_cat_colors(char *raster)
 >>>>>>> da76952b56 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df3d9be151 (Dockerfile_alpine: fix broken link creatio)
 =======
 =======
 <<<<<<< HEAD
@@ -10509,6 +10556,7 @@ int write_form_cat_colors(char *raster)
 =======
 >>>>>>> 3ae27d9ff1 (Dockerfile_alpine: fix broken link creatio)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 09429ff6a1 (Dockerfile_alpine: fix broken link creatio)
 =======
 =======
@@ -10952,6 +11000,10 @@ int write_form_cat_colors(char *raster)
 =======
 >>>>>>> 3ae27d9ff1 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> e8a20a0473 (Dockerfile_alpine: fix broken link creatio)
+=======
+=======
+>>>>>>> 4e5e825162 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> df3d9be151 (Dockerfile_alpine: fix broken link creatio)
     Rast_write_colors(raster, G_mapset(), &colors);
     Rast_free_colors(&colors);
     Rast_init_cats("Forms", &cats);
