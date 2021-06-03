@@ -584,6 +584,7 @@ typedef struct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8e092b1c91 (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -726,6 +727,8 @@ typedef struct
 >>>>>>> 773376d1b7 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 1c78ad3a7a (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 86935e499c (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
@@ -1096,13 +1099,17 @@ typedef struct
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 2e905dea83 (Dockerfile_alpine: fix broken link creatio)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09aabfdb7 (Merge branch 'a0x8o' into stag0)
 =======
+=======
+>>>>>>> 86935e499c (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> ca092cdc49 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 62c4e6e3da (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -1700,6 +1707,8 @@ typedef struct
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 2e905dea83 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 1c78ad3a7a (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 86935e499c (Dockerfile_alpine: fix broken link creatio)
 int main(int argc, char **argv)
 {
     struct { /* struct is used both for interface and output */
