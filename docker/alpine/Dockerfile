@@ -666,6 +666,7 @@ RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582)):docker/alpine/Dockerfile_alpine
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 RUN ln -sf /usr/local/grass `grass --config path`
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 =======
@@ -720,6 +721,9 @@ RUN ln -s /usr/local/grass /usr/local/grass7
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 RUN ln -s /usr/local/grass `grass --config path`
+=======
+RUN ln -sf `grass --config path` /usr/local/grass
+>>>>>>> 4501265c62 (Dockerfile_alpine: fix broken link creatio)
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 >>>>>>> d6939b41ae (Dockerfile_alpine: fix broken pip six installation (#1568))
     pdal --version && \
