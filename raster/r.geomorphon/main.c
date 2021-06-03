@@ -395,6 +395,10 @@ typedef enum {
 >>>>>>> f8bd1aaad8 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+>>>>>>> b157eb6234 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 =======
@@ -579,6 +583,8 @@ typedef enum {
 =======
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 02fc806ed8 (Dockerfile_alpine: fix broken link creatio)
+=======
 typedef struct
 {
     char name[100];
@@ -586,6 +592,7 @@ typedef struct
     CELL *forms_buffer;
 } MULTI;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -738,9 +745,13 @@ typedef struct
 =======
 >>>>>>> 1d40713330 (Dockerfile_alpine: fix broken link creatio)
 =======
+=======
+>>>>>>> df0dfa353d (Dockerfile_alpine: fix broken link creatio)
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> main
 =======
@@ -826,6 +837,9 @@ typedef struct
 >>>>>>> f15ec04eb2 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> a23124a131 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> b157eb6234 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> df0dfa353d (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
@@ -1956,8 +1970,18 @@ typedef struct
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> f8bd1aaad8 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> 02fc806ed8 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> b157eb6234 (Dockerfile_alpine: fix broken link creatio)
+>>>>>>> df0dfa353d (Dockerfile_alpine: fix broken link creatio)
 int main(int argc, char **argv)
 {
     struct { /* struct is used both for interface and output */

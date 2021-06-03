@@ -21008,6 +21008,9 @@ RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> df0dfa353d (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 795aee5c6f (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -21026,6 +21029,8 @@ RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 >>>>>>> main
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> b157eb6234 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -23580,6 +23585,9 @@ RUN ln -s /usr/local/grass /usr/local/grass7
 =======
 >>>>>>> 795aee5c6f (Programmer's manual: update GRASS GIS arch drawing (#1610))
 RUN ln -s /usr/local/grass `grass --config path`
+=======
+RUN ln -sf `grass --config path` /usr/local/grass
+>>>>>>> 02fc806ed8 (Dockerfile_alpine: fix broken link creatio)
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 >>>>>>> 29b3914770 (Dockerfile_alpine: fix broken pip six installation (#1568))
 >>>>>>> 5ad2f4afa8 (Dockerfile_alpine: fix broken pip six installation (#1568))
