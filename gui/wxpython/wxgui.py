@@ -533,6 +533,7 @@ class GMApp(wx.App):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 
+<<<<<<< HEAD
             mainframe = GMFrame(parent=None, id=wx.ID_ANY, workspace=self.workspaceFile)
             mainframe.Show()
             self.SetTopWindow(mainframe)
@@ -677,6 +678,14 @@ class GMApp(wx.App):
 =======
 >>>>>>> osgeo-main
         wx.CallAfter(show_main_gui)
+=======
+        # testing purposes
+        # from main_window.frame import GMFrame
+        # mainframe = GMFrame(parent=None, id=wx.ID_ANY, workspace=self.workspaceFile)
+
+        mainframe.Show()
+        self.SetTopWindow(mainframe)
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         return True
 

@@ -7,9 +7,15 @@ panes for display management and access to command console.
 Classes:
  - frame::GMFrame
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  - frame::SingleWindowAuiManager
 >>>>>>> osgeo-main
+=======
+ - frame::SingleWindowAuiManager
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
 (C) 2006-2021 by the GRASS Development Team
 
@@ -28,6 +34,7 @@ import stat
 import platform
 import re
 
+<<<<<<< HEAD
 from pathlib import Path
 
 from core import globalvar
@@ -38,6 +45,11 @@ except ImportError:
     from wx.lib.agw import aui
 
 import wx
+=======
+from core import globalvar
+import wx
+import wx.aui
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
 try:
     import wx.lib.agw.flatnotebook as FN
@@ -54,10 +66,13 @@ from core.gcmd import RunCommand, GError, GMessage
 from core.settings import UserSettings, GetDisplayVectSettings
 from core.utils import SetAddOnPath, GetLayerNameFromCmd, command2ltype, get_shell_pid
 <<<<<<< HEAD
+<<<<<<< HEAD
 from gui_core.preferences import MapsetAccess, PreferencesDialog
 from lmgr.layertree import LayerTree, LMIcons
 from lmgr.menudata import LayerManagerMenuData, LayerManagerModuleTree
 =======
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 from core.watchdog import (
     EVT_UPDATE_MAPSET,
     EVT_CURRENT_MAPSET_CHANGED,
@@ -217,6 +232,12 @@ from main_window.notebook import MainNotebook
 =======
 >>>>>>> osgeo-main
 from gui_core.widgets import GNotebook
+=======
+from gui_core.preferences import MapsetAccess, PreferencesDialog
+from lmgr.layertree import LayerTree, LMIcons
+from lmgr.menudata import LayerManagerMenuData, LayerManagerModuleTree
+from gui_core.widgets import GNotebook, FormNotebook
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 from core.gconsole import GConsole, EVT_IGNORED_CMD_RUN
 from core.giface import Notification
 from gui_core.goutput import GConsoleWindow, GC_PROMPT
@@ -229,9 +250,12 @@ from gui_core.dialogs import (
     QuitDialog,
 )
 <<<<<<< HEAD
+<<<<<<< HEAD
 from gui_core.menu import SearchModuleWindow
 from gui_core.menu import Menu as GMenu
 =======
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 from gui_core.menu import SearchModuleWindow, Menu as GMenu
 >>>>>>> osgeo-main
 from core.debug import Debug
@@ -540,6 +564,19 @@ from history.browser import HistoryBrowser
 >>>>>>> osgeo-main
 from gui_core.forms import GUI
 from gui_core.wrap import Menu, TextEntryDialog, SimpleTabArt
+=======
+from gui_core.menu import SearchModuleWindow
+from gui_core.menu import Menu as GMenu
+from core.debug import Debug
+from lmgr.toolbars import LMWorkspaceToolbar, LMToolsToolbar
+from lmgr.toolbars import LMMiscToolbar, LMNvizToolbar, DisplayPanelToolbar
+from lmgr.workspace import WorkspaceManager
+from lmgr.pyshell import PyShellWindow
+from lmgr.giface import LayerManagerGrassInterface
+from datacatalog.catalog import DataCatalog
+from gui_core.forms import GUI
+from gui_core.wrap import Menu, TextEntryDialog
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 from startup.guiutils import (
     can_switch_mapset_interactive,
     switch_mapset_interactively,
@@ -548,7 +585,10 @@ from startup.guiutils import (
 )
 from grass.grassdb.checks import is_first_time_user
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 from grass.grassdb.history import Status
 
 
@@ -562,7 +602,12 @@ class SingleWindowAuiManager(aui.AuiManager):
 
     def OnClose(self, event):
         event.Skip()
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
 
 class GMFrame(wx.Frame):
@@ -598,6 +643,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         size=wx.Display().GetGeometry().GetSize(),
 =======
 <<<<<<< HEAD
@@ -652,6 +698,8 @@ class GMFrame(wx.Frame):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         size=wx.GetClientDisplayRect().GetSize(),
 =======
         size=wx.Display().GetGeometry().GetSize(),
@@ -681,6 +729,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -786,6 +835,11 @@ class GMFrame(wx.Frame):
         size=wx.Display().GetGeometry().GetSize(),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        size=globalvar.GM_WINDOW_SIZE,
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         style=wx.DEFAULT_FRAME_STYLE,
         **kwargs,
     ):
@@ -796,7 +850,10 @@ class GMFrame(wx.Frame):
             self.baseTitle = _("GRASS GIS")
 
         self.iconsize = (16, 16)
+<<<<<<< HEAD
         self.size = size
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         self.displayIndex = 0  # index value for map displays and layer trees
         self.currentPage = None  # currently selected page for layer tree notebook
@@ -826,7 +883,11 @@ class GMFrame(wx.Frame):
         def show_menu_errors(messages):
             if messages:
                 self._gconsole.WriteError(
+<<<<<<< HEAD
                     _("There were some issues when loading menu or Tools:")
+=======
+                    _("There were some issues when loading menu" " or Modules tab:")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 )
                 for message in messages:
                     self._gconsole.WriteError(message)
@@ -835,6 +896,7 @@ class GMFrame(wx.Frame):
         self._menuTreeBuilder = LayerManagerMenuData(message_handler=add_menu_error)
         # the search tree and command console
         self._moduleTreeBuilder = LayerManagerModuleTree(message_handler=add_menu_error)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -912,6 +974,8 @@ class GMFrame(wx.Frame):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self._auimgr = SingleWindowAuiManager(self)
 =======
         self._auimgr = aui.AuiManager(self)
@@ -1631,11 +1695,74 @@ class GMFrame(wx.Frame):
 >>>>>>> osgeo-main
         self.BuildPanes()
         self.BindEvents()
+=======
+        self._auimgr = wx.aui.AuiManager(self)
+
+        # list of open dialogs
+        self.dialogs = dict()
+        self.dialogs["preferences"] = None
+        self.dialogs["nvizPreferences"] = None
+        self.dialogs["atm"] = list()
+
+        # create widgets
+        self._createMenuBar()
+        self.statusbar = self.CreateStatusBar(number=1)
+        self.notebook = self._createNotebook()
+        self._createDataCatalog(self.notebook)
+        self._createDisplay(self.notebook)
+        self._createSearchModule(self.notebook)
+        self._createConsole(self.notebook)
+        self._createPythonShell(self.notebook)
+        self._addPagesToNotebook()
+        self.toolbars = {
+            "workspace": LMWorkspaceToolbar(parent=self),
+            "tools": LMToolsToolbar(parent=self),
+            "misc": LMMiscToolbar(parent=self),
+            "nviz": LMNvizToolbar(parent=self),
+        }
+        self._toolbarsData = {
+            "workspace": (
+                "toolbarWorkspace",  # name
+                _("Workspace Toolbar"),  # caption
+                1,
+                0,
+            ),  # row, position
+            "tools": ("toolbarTools", _("Tools Toolbar"), 1, 1),
+            "misc": ("toolbarMisc", _("Misc Toolbar"), 1, 2),
+            "nviz": ("toolbarNviz", _("3D view Toolbar"), 1, 3),
+        }
+        toolbarsList = ("workspace", "tools", "misc", "nviz")
+        for toolbar in toolbarsList:
+            name, caption, row, position = self._toolbarsData[toolbar]
+            self._auimgr.AddPane(
+                self.toolbars[toolbar],
+                wx.aui.AuiPaneInfo()
+                .Name(name)
+                .Caption(caption)
+                .ToolbarPane()
+                .Top()
+                .Row(row)
+                .Position(position)
+                .LeftDockable(False)
+                .RightDockable(False)
+                .BottomDockable(False)
+                .TopDockable(True)
+                .CloseButton(False)
+                .Layer(2)
+                .BestSize((self.toolbars[toolbar].GetBestSize())),
+            )
+
+        self._auimgr.GetPane("toolbarNviz").Hide()
+        # bindings
+        self.Bind(wx.EVT_CLOSE, self.OnCloseWindowOrExit)
+        self.Bind(wx.EVT_KEY_DOWN, self.OnKeyDown)
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         self._giface.mapCreated.connect(self.OnMapCreated)
         self._giface.updateMap.connect(self._updateCurrentMap)
         self._giface.currentMapsetChanged.connect(self.OnMapsetChanged)
 
+<<<<<<< HEAD
         # use default window layout ?
         if UserSettings.Get(group="general", key="defWindowPos", subkey="enabled"):
 <<<<<<< HEAD
@@ -1751,6 +1878,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1797,10 +1925,38 @@ class GMFrame(wx.Frame):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        # minimal frame size
+        self.SetMinSize(globalvar.GM_WINDOW_MIN_SIZE)
+
+        # AUI stuff
+        self._auimgr.AddPane(
+            self.notebook,
+            wx.aui.AuiPaneInfo()
+            .Left()
+            .CentrePane()
+            .BestSize((-1, -1))
+            .Dockable(False)
+            .CloseButton(False)
+            .DestroyOnClose(True)
+            .Row(1)
+            .Layer(0),
+        )
+
+        self._auimgr.Update()
+
+        wx.CallAfter(self.notebook.SetSelectionByName, "catalog")
+
+        # use default window layout ?
+        if UserSettings.Get(group="general", key="defWindowPos", subkey="enabled"):
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             dim = UserSettings.Get(group="general", key="defWindowPos", subkey="dim")
             try:
                 x, y = map(int, dim.split(",")[0:2])
                 w, h = map(int, dim.split(",")[2:4])
+<<<<<<< HEAD
                 client_disp = wx.ClientDisplayRect()
                 if x == 1:
                     # Get client display x offset (OS panel)
@@ -1808,10 +1964,13 @@ class GMFrame(wx.Frame):
                 if y == 1:
                     # Get client display y offset (OS panel)
                     y = client_disp[1]
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 self.SetPosition((x, y))
                 self.SetSize((w, h))
             except Exception:
                 pass
+<<<<<<< HEAD
             self.Layout()
             if w <= globalvar.GM_WINDOW_SIZE[0] or h <= globalvar.GM_WINDOW_SIZE[1]:
                 self.Fit()
@@ -1849,6 +2008,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1963,6 +2123,15 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        else:
+            # does center (of screen) make sense for lmgr?
+            self.Centre()
+
+        self.Layout()
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.Show()
 
         # load workspace file if requested
@@ -1973,7 +2142,11 @@ class GMFrame(wx.Frame):
             # start default initial display
             self.NewDisplay(show=False)
 
+<<<<<<< HEAD
         # show map display window
+=======
+        # show map display widnow
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # -> OnSize() -> UpdateMap()
         for mapdisp in self.GetMapDisplay(onlyCurrent=False):
             mapdisp.Show()
@@ -1982,7 +2155,10 @@ class GMFrame(wx.Frame):
         self._gconsole.Redirect()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         #  mapset watchdog
         self._mapset_watchdog = MapsetWatchdog(
             elements_dirs=(("raster", "cell"),),
@@ -1995,7 +2171,12 @@ class GMFrame(wx.Frame):
             lambda evt: self._onMapsetWatchdog(evt.src_path, evt.dest_path),
         )
         self.Bind(EVT_CURRENT_MAPSET_CHANGED, self._onMapsetChanged)
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # fix goutput's pane size (required for Mac OSX)`
         self.goutput.SetSashPosition(int(self.GetSize()[1] * 0.8))
 
@@ -2009,13 +2190,21 @@ class GMFrame(wx.Frame):
         self._show_demo_map()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _repaintLayersPaneMapDisplayToolbar(self):
         """Repaint Layers pane map display toolbar widget on the wxMac"""
         if sys.platform == "darwin":
             wx.CallLater(100, self.notebookLayers.Refresh)
 
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _setTitle(self):
         """Set frame title"""
         gisenv = grass.gisenv()
@@ -2040,7 +2229,11 @@ class GMFrame(wx.Frame):
                 )
             )
 
+<<<<<<< HEAD
     def CreateMenuBar(self):
+=======
+    def _createMenuBar(self):
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         """Creates menu bar"""
         self.menubar = GMenu(
             parent=self, model=self._menuTreeBuilder.GetModel(separators=True)
@@ -2060,6 +2253,33 @@ class GMFrame(wx.Frame):
 
         return menu
 
+<<<<<<< HEAD
+=======
+    def _createDisplayPanel(self, parent):
+        """Creates display panel"""
+        # create superior display panel
+        displayPanel = wx.Panel(parent, id=wx.ID_ANY)
+        # create display toolbar
+        dmgrToolbar = DisplayPanelToolbar(guiparent=displayPanel, parent=self)
+        # create display notebook
+        notebookLayers = GNotebook(parent=displayPanel, style=globalvar.FNPageStyle)
+        notebookLayers.SetTabAreaColour(globalvar.FNPageColor)
+        menu = self._createTabMenu()
+        notebookLayers.SetRightClickMenu(menu)
+
+        # layout
+        sizer = wx.BoxSizer(wx.VERTICAL)
+        sizer.Add(dmgrToolbar, proportion=0, flag=wx.EXPAND)
+        sizer.Add(notebookLayers, proportion=1, flag=wx.EXPAND)
+
+        displayPanel.SetAutoLayout(True)
+        displayPanel.SetSizer(sizer)
+        displayPanel.Fit()
+        displayPanel.Layout()
+
+        return displayPanel, notebookLayers
+
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _setCopyingOfSelectedText(self):
         copy = UserSettings.Get(
             group="manager", key="copySelectedTextToClipboard", subkey="enabled"
@@ -2072,6 +2292,7 @@ class GMFrame(wx.Frame):
             return self._auimgr.GetPane(name).IsShown()
         return False
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2191,6 +2412,8 @@ class GMFrame(wx.Frame):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def SetStatusText(self, *args):
         """Override SbMain statusbar method"""
         self.statusbar.SetStatusText(*args)
@@ -2603,6 +2826,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -2798,6 +3022,17 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+    def _createNotebook(self):
+        """Initialize notebook widget"""
+        if sys.platform == "win32":
+            return GNotebook(parent=self, style=globalvar.FNPageDStyle)
+        else:
+            return FormNotebook(parent=self, style=wx.NB_BOTTOM)
+
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _createDataCatalog(self, parent):
         """Initialize Data Catalog widget"""
         self.datacatalog = DataCatalog(parent=parent, giface=self._giface)
@@ -2807,6 +3042,7 @@ class GMFrame(wx.Frame):
 
     def _createDisplay(self, parent):
         """Initialize Display widget"""
+<<<<<<< HEAD
         # create display notebook
         self.notebookLayers = GNotebook(parent=parent, style=globalvar.FNPageStyle)
         menu = self._createTabMenu()
@@ -2817,7 +3053,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 =======
         self.notebookLayers.Bind(FN.EVT_FLATNOTEBOOK_PAGE_CLOSED, self.OnCBPageClosed)
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+        self.displayPanel, self.notebookLayers = self._createDisplayPanel(parent)
+        # bindings
+        self.notebookLayers.Bind(FN.EVT_FLATNOTEBOOK_PAGE_CHANGED, self.OnCBPageChanged)
+        self.notebookLayers.Bind(FN.EVT_FLATNOTEBOOK_PAGE_CLOSING, self.OnCBPageClosing)
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
     def _createSearchModule(self, parent):
         """Initialize Search module widget"""
@@ -2841,6 +3086,7 @@ class GMFrame(wx.Frame):
             guiparent=self,
             giface=self._giface,
 <<<<<<< HEAD
+<<<<<<< HEAD
             ignoredCmdPattern=r"^d\..*|^r[3]?\.mapcalc$|^i.group$|^r.import$|"
             "^r.external$|^r.external.out$|"
             "^v.import$|^v.external$|^v.external.out$|"
@@ -2848,6 +3094,15 @@ class GMFrame(wx.Frame):
 =======
             ignoredCmdPattern=globalvar.ignoredCmdPattern,
 >>>>>>> osgeo-main
+=======
+            ignoredCmdPattern=globalvar.ignoredCmdPattern,
+=======
+            ignoredCmdPattern=r"^d\..*|^r[3]?\.mapcalc$|^i.group$|^r.import$|"
+            "^r.external$|^r.external.out$|"
+            "^v.import$|^v.external$|^v.external.out$|"
+            "^cd$|^cd .*",
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         )
         # create 'console' widget
         self.goutput = GConsoleWindow(
@@ -2860,9 +3115,12 @@ class GMFrame(wx.Frame):
         self.goutput.showNotification.connect(
             lambda message: self.SetStatusText(message)
         )
+<<<<<<< HEAD
         self.goutput.contentChanged.connect(
             lambda notification: self._focusPage(notification)
         )
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         self._gconsole.mapCreated.connect(self.OnMapCreated)
         self._gconsole.Bind(
@@ -2872,7 +3130,10 @@ class GMFrame(wx.Frame):
         self._setCopyingOfSelectedText()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _createHistoryBrowser(self, parent):
         """Initialize history browser widget"""
         if not UserSettings.Get(group="manager", key="hideTabs", subkey="history"):
@@ -2886,7 +3147,12 @@ class GMFrame(wx.Frame):
         else:
             self.history = None
 
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _createPythonShell(self, parent):
         """Initialize Python shell widget"""
         if not UserSettings.Get(group="manager", key="hideTabs", subkey="pyshell"):
@@ -2898,6 +3164,7 @@ class GMFrame(wx.Frame):
         else:
             self.pyshell = None
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2979,6 +3246,8 @@ class GMFrame(wx.Frame):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -8273,6 +8542,38 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> osgeo-main
 
+=======
+    def _addPagesToNotebook(self):
+        """Add pages to notebook widget"""
+        # add 'data catalog' widget to main notebook page
+        self.notebook.AddPage(page=self.datacatalog, text=_("Data"), name="catalog")
+
+        # add 'display' widget to main notebook page
+        self.notebook.AddPage(page=self.displayPanel, text=_("Display"), name="layers")
+
+        # add 'modules' widget to main notebook page
+        if self.search:
+            self.notebook.AddPage(page=self.search, text=_("Modules"), name="search")
+
+        # add 'console' widget to main notebook page and add connect switch page signal
+        self.notebook.AddPage(page=self.goutput, text=_("Console"), name="output")
+        self.goutput.contentChanged.connect(
+            lambda notification: self._switchPage(notification)
+        )
+
+        # add 'python shell' widget to main notebook page
+        if self.pyshell:
+            self.notebook.AddPage(page=self.pyshell, text=_("Python"), name="pyshell")
+
+        # bindings
+        if sys.platform == "win32":
+            self.notebook.Bind(FN.EVT_FLATNOTEBOOK_PAGE_CHANGED, self.OnPageChanged)
+        else:
+            self.notebook.Bind(wx.EVT_NOTEBOOK_PAGE_CHANGED, self.OnPageChanged)
+
+        wx.CallAfter(self.datacatalog.LoadItems)
+
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _show_demo_map(self):
         """If in demolocation, add demo map to map display
 
@@ -8320,6 +8621,7 @@ class GMFrame(wx.Frame):
             ("toolbarWorkspace", "toolbarTools", "toolbarMisc", "toolbarNviz")
         ):
             self._auimgr.GetPane(toolbar).Row(1).Position(pos)
+<<<<<<< HEAD
 
         # create nviz tools tab
         self.nviz = NvizToolWindow(
@@ -8531,7 +8833,25 @@ class GMFrame(wx.Frame):
         # this is a bit strange here since a new window is created everytime
 =======
         # this is a bit strange here since a new window is created every time
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+        self._auimgr.Update()
+
+        # create nviz tools tab
+        self.nviz = NvizToolWindow(
+            parent=self.notebook, tree=self.GetLayerTree(), display=self.GetMapDisplay()
+        )
+        idx = self.notebook.GetPageIndexByName("layers")
+        self.notebook.InsertNBPage(
+            index=idx + 1, page=self.nviz, text=_("3D view"), name="nviz"
+        )
+        self.notebook.SetSelectionByName("nviz")
+
+        # this is a bit strange here since a new window is created everytime
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         if not firstTime:
             for page in ("view", "light", "fringe", "constant", "cplane", "animation"):
                 self.nviz.UpdatePage(page)
@@ -8540,6 +8860,11 @@ class GMFrame(wx.Frame):
         """Remove nviz notebook page"""
         # if more mapwindow3D were possible, check here if nb page should be
         # removed
+<<<<<<< HEAD
+=======
+        self.notebook.SetSelectionByName("layers")
+        self.notebook.DeleteNBPage("nviz")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         # hide toolbar
         self._auimgr.GetPane("toolbarNviz").Hide()
@@ -8547,8 +8872,11 @@ class GMFrame(wx.Frame):
             ("toolbarWorkspace", "toolbarTools", "toolbarMisc")
         ):
             self._auimgr.GetPane(toolbar).Row(1).Position(pos)
+<<<<<<< HEAD
         self._auimgr.DetachPane(self.nviz)
         self.nviz.Destroy()
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self._auimgr.Update()
 
     def OnLocationWizard(self, event):
@@ -8561,7 +8889,14 @@ class GMFrame(wx.Frame):
             self._giface.grassdbChanged.emit(
                 grassdb=grassdb, location=location, action="new", element="location"
             )
+<<<<<<< HEAD
             switch_grassdb = grassdb if grassdb != gisenv["GISDBASE"] else None
+=======
+            if grassdb == gisenv["GISDBASE"]:
+                switch_grassdb = None
+            else:
+                switch_grassdb = grassdb
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             if can_switch_mapset_interactive(self, grassdb, location, mapset):
                 switch_mapset_interactively(
                     self,
@@ -8589,12 +8924,15 @@ class GMFrame(wx.Frame):
     def OnGModeler(self, event=None, cmd=None):
         """Launch Graphical Modeler. See OnIClass documentation"""
 <<<<<<< HEAD
+<<<<<<< HEAD
         from gmodeler.frame import ModelFrame
 
         win = ModelFrame(parent=self, giface=self._giface)
         win.CentreOnScreen()
         win.Show()
 =======
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         from gmodeler.panels import ModelerPanel
         from gmodeler.menudata import ModelerMenuData
 
@@ -8610,7 +8948,17 @@ class GMFrame(wx.Frame):
 
         # add map display panel to notebook and make it current
         self.mainnotebook.AddPage(gmodeler_panel, _("Graphical Modeler"))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+        from gmodeler.frame import ModelFrame
+
+        win = ModelFrame(parent=self, giface=self._giface)
+        win.CentreOnScreen()
+        win.Show()
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
     def OnPsMap(self, event=None, cmd=None):
         """Launch Cartographic Composer. See OnIClass documentation"""
@@ -8622,6 +8970,7 @@ class GMFrame(wx.Frame):
 
     def OnMapSwipe(self, event=None, cmd=None):
         """Launch Map Swipe. See OnIClass documentation"""
+<<<<<<< HEAD
         from mapswipe.frame import SwipeMapDisplay
 
         frame = wx.Frame(
@@ -8631,6 +8980,11 @@ class GMFrame(wx.Frame):
             parent=frame,
             giface=self._giface,
         )
+=======
+        from mapswipe.frame import SwipeMapFrame
+
+        win = SwipeMapFrame(parent=self, giface=self._giface)
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         rasters = []
         tree = self.GetLayerTree()
@@ -8678,7 +9032,11 @@ class GMFrame(wx.Frame):
         dlg = wx.FileDialog(
             parent=self,
             message=_("Choose model to run"),
+<<<<<<< HEAD
             defaultDir=str(Path.cwd()),
+=======
+            defaultDir=os.getcwd(),
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             wildcard=_("GRASS Model File (*.gxm)|*.gxm"),
         )
         if dlg.ShowModal() == wx.ID_OK:
@@ -8707,6 +9065,7 @@ class GMFrame(wx.Frame):
             )
 
     def OnCBPageChanged(self, event):
+<<<<<<< HEAD
         """Page in notebook (display) changed.
         Also change active map notebook tab."""
         self.currentPage = self.notebookLayers.GetCurrentPage()
@@ -9137,7 +9496,36 @@ class GMFrame(wx.Frame):
         """Page of notebook is being closed
         from Layer Manager (x button next to arrows)
         Also close associated map display (whether docked or undocked).
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+        """Page in notebook (display) changed"""
+        self.currentPage = self.notebookLayers.GetCurrentPage()
+        self.currentPageNum = self.notebookLayers.GetSelection()
+        try:
+            self.GetMapDisplay().SetFocus()
+            self.GetMapDisplay().Raise()
+        except Exception:
+            pass
+
+        event.Skip()
+
+    def OnPageChanged(self, event):
+        """Page in notebook changed"""
+        page = event.GetSelection()
+        if page == self.notebook.GetPageIndexByName("output"):
+            wx.CallAfter(self.goutput.ResetFocus)
+        self.SetStatusText("", 0)
+
+        event.Skip()
+
+    def OnCBPageClosing(self, event):
+        """Page of notebook is being closed
+        from Layer Manager (x button next to arrows)
+        Also close associated map display.
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         """
         # save changes in the workspace
         name = self.notebookLayers.GetPageText(event.GetSelection())
@@ -9171,6 +9559,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.mapnotebook.DeletePage(self.GetMapDisplayIndex())
 =======
 <<<<<<< HEAD
@@ -9225,6 +9614,8 @@ class GMFrame(wx.Frame):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.mainnotebook.DeleteMainPage(self.GetMapDisplay())
 =======
         self.mapnotebook.DeletePage(self.GetMapDisplayIndex())
@@ -9254,6 +9645,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -9359,12 +9751,17 @@ class GMFrame(wx.Frame):
         self.mapnotebook.DeletePage(self.GetMapDisplayIndex())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         maptree.Close(True)
 
         self.currentPage = None
 
         event.Skip()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9457,18 +9854,23 @@ class GMFrame(wx.Frame):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _renamePageNoEvent(self, pgnum_dict, is_docked, text):
         if is_docked:
             self.mainnotebook.SetMainPageText(
                 self.mainnotebook.GetPage(pgnum_dict["mainnotebook"]), text
             )
 =======
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _closePageNoEvent(self, page_index):
         """Close page and destroy map display without
         generating notebook page closing event"""
         self.notebookLayers.Unbind(FN.EVT_FLATNOTEBOOK_PAGE_CLOSING)
         self.notebookLayers.DeletePage(page_index)
         self.notebookLayers.Bind(FN.EVT_FLATNOTEBOOK_PAGE_CLOSING, self.OnCBPageClosing)
+<<<<<<< HEAD
         self.mapnotebook.DeletePage(page_index)
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 <<<<<<< HEAD
@@ -10063,7 +10465,32 @@ class GMFrame(wx.Frame):
         result = True
         if re.compile(r"^d\..*").search(command[0]):
             result = self.RunDisplayCmd(command)
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+
+    def _switchPageHandler(self, event, notification):
+        self._switchPage(notification=notification)
+        event.Skip()
+
+    def _switchPage(self, notification):
+        """Manages @c 'output' notebook page according to event notification."""
+        if notification == Notification.HIGHLIGHT:
+            self.notebook.HighlightPageByName("output")
+        if notification == Notification.MAKE_VISIBLE:
+            self.notebook.SetSelectionByName("output")
+        if notification == Notification.RAISE_WINDOW:
+            self.notebook.SetSelectionByName("output")
+            self.SetFocus()
+            self.Raise()
+
+    def RunSpecialCmd(self, command):
+        """Run command from command line, check for GUI wrappers"""
+        if re.compile(r"^d\..*").search(command[0]):
+            self.RunDisplayCmd(command)
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         elif re.compile(r"r[3]?\.mapcalc").search(command[0]):
             self.OnMapCalculator(event=None, cmd=command)
         elif command[0] == "i.group":
@@ -10084,29 +10511,49 @@ class GMFrame(wx.Frame):
             self.OnChangeCWD(event=None, cmd=command)
         else:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             result = False
 >>>>>>> osgeo-main
+=======
+            result = False
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             raise ValueError(
                 "Layer Manager special command (%s)"
                 " not supported." % " ".join(command)
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         if result:
             self._gconsole.UpdateHistory(status=Status.SUCCESS)
         else:
             self._gconsole.UpdateHistory(status=Status.FAILED)
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
     def RunDisplayCmd(self, command):
         """Handles display commands.
 
         :param command: command in a list
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         :return int: False if failed, True if succcess
 >>>>>>> osgeo-main
+=======
+        :return int: False if failed, True if succcess
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         """
         if not self.currentPage:
             self.NewDisplay(show=True)
@@ -10115,10 +10562,17 @@ class GMFrame(wx.Frame):
             # rest of d.erase is ignored
             self.GetLayerTree().DeleteAllLayers()
 <<<<<<< HEAD
+<<<<<<< HEAD
             return
 =======
             return False
 >>>>>>> osgeo-main
+=======
+            return False
+=======
+            return
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         try:
             # display GRASS commands
             layertype = command2ltype[command[0]]
@@ -10132,10 +10586,17 @@ class GMFrame(wx.Frame):
                 % command[0],
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
             return
 =======
             return False
 >>>>>>> osgeo-main
+=======
+            return False
+=======
+            return
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         if layertype == "barscale":
             if len(command) > 1:
@@ -10190,7 +10651,10 @@ class GMFrame(wx.Frame):
                 lcmd=command,
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         return True
 
     def GetAuiManager(self):
@@ -10206,7 +10670,12 @@ class GMFrame(wx.Frame):
         :return: aui notebook instance
         """
         return self.mainnotebook
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
     def GetLayerNotebook(self):
         """Get Layers Notebook"""
@@ -10228,12 +10697,17 @@ class GMFrame(wx.Frame):
         :param bool onlyCurrent: True to return only active mapdisplay
                                  False for list of all mapdisplays
 
+<<<<<<< HEAD
         :return: MapPanel instance (or list)
+=======
+        :return: MapFrame instance (or list)
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         :return: None no mapdisplay selected
         """
         if onlyCurrent:
             if self.currentPage:
                 return self.GetLayerTree().GetMapDisplay()
+<<<<<<< HEAD
             return None
         # -> return list of all mapdisplays
         mlist = []
@@ -10241,16 +10715,29 @@ class GMFrame(wx.Frame):
             mlist.append(self.notebookLayers.GetPage(idx).maptree.GetMapDisplay())
 
         return mlist
+=======
+            else:
+                return None
+        else:  # -> return list of all mapdisplays
+            mlist = list()
+            for idx in range(0, self.notebookLayers.GetPageCount()):
+                mlist.append(self.notebookLayers.GetPage(idx).maptree.GetMapDisplay())
+
+            return mlist
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
     def GetAllMapDisplays(self):
         """Get all (open) map displays"""
         return self.GetMapDisplay(onlyCurrent=False)
 
+<<<<<<< HEAD
     def GetMapDisplayIndex(self):
         """Get the index of the currently active map display tab.
         Can be different than index of related layertree."""
         return self.mapnotebook.GetPageIndex(self.GetMapDisplay())
 
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def GetLogWindow(self):
         """Gets console for command output and messages"""
         return self._gconsole
@@ -10267,7 +10754,14 @@ class GMFrame(wx.Frame):
 
         :return: command as a list"""
         layer = None
+<<<<<<< HEAD
         cmd = self.menucmd[event.GetId()] if event else ""
+=======
+        if event:
+            cmd = self.menucmd[event.GetId()]
+        else:
+            cmd = ""
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         try:
             cmdlist = cmd.split(" ")
@@ -10276,7 +10770,11 @@ class GMFrame(wx.Frame):
 
         # check list of dummy commands for GUI modules that do not have GRASS
         # bin modules or scripts.
+<<<<<<< HEAD
         if cmd in {"vcolors", "r.mapcalc", "r3.mapcalc"}:
+=======
+        if cmd in ["vcolors", "r.mapcalc", "r3.mapcalc"]:
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             return cmdlist
 
         try:
@@ -10371,7 +10869,11 @@ class GMFrame(wx.Frame):
         dlg = wx.FileDialog(
             parent=self,
             message=_("Choose script file to run"),
+<<<<<<< HEAD
             defaultDir=str(Path.cwd()),
+=======
+            defaultDir=os.getcwd(),
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             wildcard=_("Python script (*.py)|*.py|Bash script (*.sh)|*.sh"),
         )
 
@@ -10385,7 +10887,11 @@ class GMFrame(wx.Frame):
         if not os.path.exists(filename):
             GError(
                 parent=self,
+<<<<<<< HEAD
                 message=_("Script file '%s' doesn't exist. Operation canceled.")
+=======
+                message=_("Script file '%s' doesn't exist. " "Operation canceled.")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 % filename,
             )
             return
@@ -10399,8 +10905,13 @@ class GMFrame(wx.Frame):
                     "Do you want to set the permissions "
                     "that allows you to run this script "
                     "(note that you must be the owner of the file)?"
+<<<<<<< HEAD
                 )
                 % os.path.basename(filename),
+=======
+                    % os.path.basename(filename)
+                ),
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 caption=_("Set permission?"),
                 style=wx.YES_NO | wx.YES_DEFAULT | wx.ICON_QUESTION,
             )
@@ -10451,10 +10962,17 @@ class GMFrame(wx.Frame):
                 GError(
                     parent=self,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     message=_("No location/mapset provided. Operation canceled."),
 =======
                     message=_("No project provided. Operation canceled."),
 >>>>>>> osgeo-main
+=======
+                    message=_("No project provided. Operation canceled."),
+=======
+                    message=_("No location/mapset provided. Operation canceled."),
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 )
                 return  # this should not happen
             if can_switch_mapset_interactive(
@@ -10520,9 +11038,15 @@ class GMFrame(wx.Frame):
         :param cmd: command as a list (must start with 'cd')
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> osgeo-main
+=======
+
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # local functions
         def write_beginning(parameter=None, command=None):
             if parameter:
@@ -10532,13 +11056,25 @@ class GMFrame(wx.Frame):
                 self._giface.WriteCmdLog(" ".join(command))
 
         def write_changed():
+<<<<<<< HEAD
             self._giface.WriteLog(_('Working directory changed to:\n"%s"') % Path.cwd())
+=======
+            self._giface.WriteLog(
+                _('Working directory changed to:\n"%s"') % os.getcwd()
+            )
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         def write_end():
             self._giface.WriteCmdLog(" ")
 
         def write_help():
+<<<<<<< HEAD
             self._giface.WriteLog(_("Changes current working directory for this GUI."))
+=======
+            self._giface.WriteLog(
+                _("Changes current working directory" " for this GUI.")
+            )
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             self._giface.WriteLog(_("Usage: cd [directory]"))
             self._giface.WriteLog(_("Without parameters it opens a dialog."))
             # TODO: the following is longer then 80 chars
@@ -10571,7 +11107,11 @@ class GMFrame(wx.Frame):
         # use chdir or dialog
         if cmd and len(cmd) == 2:
             write_beginning(parameter=cmd[1])
+<<<<<<< HEAD
             if cmd[1] in {"-h", "--h", "--help", "help"}:
+=======
+            if cmd[1] in ["-h", "--h", "--help", "help"]:
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 write_help()
                 write_end()
                 return
@@ -10586,7 +11126,11 @@ class GMFrame(wx.Frame):
             dlg = wx.DirDialog(
                 parent=self,
                 message=_("Choose a working directory"),
+<<<<<<< HEAD
                 defaultPath=str(Path.cwd()),
+=======
+                defaultPath=os.getcwd(),
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             )
 
             if dlg.ShowModal() == wx.ID_OK:
@@ -10640,7 +11184,11 @@ class GMFrame(wx.Frame):
         # which appears in the platform.platform() string
         platform_ = decode(platform.platform())
         self._gconsole.WriteLog(
+<<<<<<< HEAD
             "%s: %s\n%s: %s\n%s: %s\n%s: %s\n"
+=======
+            "%s: %s\n" "%s: %s\n" "%s: %s\n" "%s: %s\n"
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             # "%s: %s (%s)\n"
             "GDAL: %s\n"
             "PROJ: %s\n"
@@ -10776,6 +11324,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.mapnotebook.SetPageText(page_idx=self.GetMapDisplayIndex(), text=name)
 =======
 <<<<<<< HEAD
@@ -10830,6 +11379,8 @@ class GMFrame(wx.Frame):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             self.mainnotebook.SetMainPageText(page=self.GetMapDisplay(), text=name)
 =======
             self.mapnotebook.SetPageText(page_idx=self.GetMapDisplayIndex(), text=name)
@@ -10859,6 +11410,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -10964,6 +11516,12 @@ class GMFrame(wx.Frame):
             self.mapnotebook.SetPageText(page_idx=self.GetMapDisplayIndex(), text=name)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+            mapdisplay = self.GetMapDisplay()
+            mapdisplay.SetTitle(name)
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         dlg.Destroy()
 
     def OnRasterRules(self, event):
@@ -11046,21 +11604,33 @@ class GMFrame(wx.Frame):
             This documentation is actually documentation of some
             component related to gui_core/menu.py file.
         """
+<<<<<<< HEAD
         from iclass.frame import IClassMapDisplay, haveIClass, errMsg
 
         if not haveIClass:
             GError(
                 _('Unable to launch "Supervised Classification Tool".\n\nReason: %s')
+=======
+        from iclass.frame import IClassMapFrame, haveIClass, errMsg
+
+        if not haveIClass:
+            GError(
+                _('Unable to launch "Supervised Classification Tool".\n\n' "Reason: %s")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 % errMsg
             )
             return
 
+<<<<<<< HEAD
         frame = wx.Frame(
             parent=None,
             size=globalvar.MAP_WINDOW_SIZE,
             title=_("Supervised Classification Tool"),
         )
         win = IClassMapDisplay(parent=frame, giface=self._giface)
+=======
+        win = IClassMapFrame(parent=self, giface=self._giface)
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         win.CentreOnScreen()
 
         win.Show()
@@ -11135,6 +11705,17 @@ class GMFrame(wx.Frame):
         win.CentreOnScreen()
         win.Show()
 
+<<<<<<< HEAD
+=======
+    def OnVectorCleaning(self, event, cmd=""):
+        """Init interactive vector cleaning"""
+        from modules.vclean import VectorCleaningFrame
+
+        win = VectorCleaningFrame(parent=self)
+        win.CentreOnScreen()
+        win.Show()
+
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def OnRasterOutputFormat(self, event):
         """Set raster output format handler"""
         self.OnMenuCmd(cmd=["r.external.out"])
@@ -11252,16 +11833,129 @@ class GMFrame(wx.Frame):
         # show ATM window
         dbmanager.Show()
 
+<<<<<<< HEAD
+=======
+    def OnNewDisplay(self, event=None):
+        """Create new layer tree and map display instance"""
+        self.NewDisplay()
+
+    def NewDisplay(self, name=None, show=True):
+        """Create new layer tree, which will
+        create an associated map display frame
+
+        :param name: name of new map display
+        :param show: show map display window if True
+
+        :return: reference to mapdisplay intance
+        """
+        Debug.msg(1, "GMFrame.NewDisplay(): idx=%d" % self.displayIndex)
+
+        # make a new page in the bookcontrol for the layer tree (on page 0 of
+        # the notebook)
+        self.pg_panel = wx.Panel(self.notebookLayers, id=wx.ID_ANY, style=wx.EXPAND)
+        if name:
+            dispName = name
+        else:
+            dispName = _("Map Display {number}").format(number=self.displayIndex + 1)
+        self.notebookLayers.AddPage(page=self.pg_panel, text=dispName, select=True)
+        self.currentPage = self.notebookLayers.GetCurrentPage()
+
+        # create layer tree (tree control for managing GIS layers)  and put on
+        # new notebook page
+        self.currentPage.maptree = LayerTree(
+            self.currentPage,
+            giface=self._giface,
+            id=wx.ID_ANY,
+            pos=wx.DefaultPosition,
+            size=wx.DefaultSize,
+            style=wx.TR_HAS_BUTTONS
+            | wx.TR_LINES_AT_ROOT
+            | wx.TR_HIDE_ROOT
+            | wx.TR_DEFAULT_STYLE
+            | wx.NO_BORDER
+            | wx.FULL_REPAINT_ON_RESIZE,
+            idx=self.displayIndex,
+            lmgr=self,
+            notebook=self.notebookLayers,
+            showMapDisplay=show,
+            title=dispName,
+        )
+
+        # layout for controls
+        cb_boxsizer = wx.BoxSizer(wx.VERTICAL)
+        cb_boxsizer.Add(self.GetLayerTree(), proportion=1, flag=wx.EXPAND, border=1)
+        self.currentPage.SetSizer(cb_boxsizer)
+        cb_boxsizer.Fit(self.GetLayerTree())
+        self.currentPage.Layout()
+        self.GetLayerTree().Layout()
+
+        mapdisplay = self.currentPage.maptree.mapdisplay
+        mapdisplay.Bind(
+            wx.EVT_ACTIVATE,
+            lambda event, page=self.currentPage: self._onMapDisplayFocus(page),
+        )
+        mapdisplay.starting3dMode.connect(
+            lambda firstTime, mapDisplayPage=self.currentPage: self._onStarting3dMode(
+                mapDisplayPage
+            )
+        )
+        mapdisplay.starting3dMode.connect(self.AddNvizTools)
+        mapdisplay.ending3dMode.connect(self.RemoveNvizTools)
+        mapdisplay.closingDisplay.connect(self._closePageNoEvent)
+
+        # use default window layout
+        if UserSettings.Get(group="general", key="defWindowPos", subkey="enabled"):
+            dim = UserSettings.Get(group="general", key="defWindowPos", subkey="dim")
+            idx = 4 + self.displayIndex * 4
+            try:
+                x, y = map(int, dim.split(",")[idx : idx + 2])
+                w, h = map(int, dim.split(",")[idx + 2 : idx + 4])
+                self.GetMapDisplay().SetPosition((x, y))
+                self.GetMapDisplay().SetSize((w, h))
+            except Exception:
+                pass
+
+        # set default properties
+        mapdisplay.SetProperties(
+            render=UserSettings.Get(
+                group="display", key="autoRendering", subkey="enabled"
+            ),
+            mode=UserSettings.Get(
+                group="display", key="statusbarMode", subkey="selection"
+            ),
+            alignExtent=UserSettings.Get(
+                group="display", key="alignExtent", subkey="enabled"
+            ),
+            constrainRes=UserSettings.Get(
+                group="display", key="compResolution", subkey="enabled"
+            ),
+            showCompExtent=UserSettings.Get(
+                group="display", key="showCompExtent", subkey="enabled"
+            ),
+        )
+
+        self.displayIndex += 1
+
+        return self.GetMapDisplay()
+
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _onMapDisplayFocus(self, notebookLayerPage):
         """Changes bookcontrol page to page associated with display."""
         # moved from mapdisp/frame.py
         # TODO: why it is called 3 times when getting focus?
         # and one times when loosing focus?
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.workspace_manager.loadingWorkspace:
             return
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        if self.workspace_manager.loadingWorkspace:
+            return
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         pgnum = self.notebookLayers.GetPageIndex(notebookLayerPage)
         if pgnum > -1:
             self.notebookLayers.SetSelection(pgnum)
@@ -11271,7 +11965,11 @@ class GMFrame(wx.Frame):
         """Disables 3D mode for all map displays except for @p mapDisplay"""
         # TODO: it should be disabled also for newly created map windows
         # moreover mapdisp.Disable3dMode() does not work properly
+<<<<<<< HEAD
         for page in range(self.GetLayerNotebook().GetPageCount()):
+=======
+        for page in range(0, self.GetLayerNotebook().GetPageCount()):
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             mapdisp = self.GetLayerNotebook().GetPage(page).maptree.GetMapDisplay()
             if self.GetLayerNotebook().GetPage(page) != mapDisplayPage:
                 mapdisp.Disable3dMode()
@@ -11348,7 +12046,11 @@ class GMFrame(wx.Frame):
     def AddOrUpdateMap(self, mapName, ltype):
         """Add map layer or update"""
         # start new map display if no display is available
+<<<<<<< HEAD
         if ltype not in {"raster", "raster_3d", "vector"}:
+=======
+        if ltype not in ["raster", "raster_3d", "vector"]:
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             GError(parent=self, message=_("Unsupported map layer type <%s>.") % ltype)
             return
 
@@ -11356,8 +12058,13 @@ class GMFrame(wx.Frame):
             self.AddMaps([mapName], ltype, check=True)
         else:
             display = self.GetMapDisplay()
+<<<<<<< HEAD
             mapLayers = (
                 x.GetName() for x in display.GetMap().GetListOfLayers(ltype=ltype)
+=======
+            mapLayers = map(
+                lambda x: x.GetName(), display.GetMap().GetListOfLayers(ltype=ltype)
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             )
             if mapName in mapLayers:
                 display.GetWindow().UpdateMap(render=True)
@@ -11370,6 +12077,10 @@ class GMFrame(wx.Frame):
         if not self.currentPage:
             self.NewDisplay(show=True)
 
+<<<<<<< HEAD
+=======
+        self.notebook.SetSelectionByName("layers")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("raster")
 
     def OnAddRasterMisc(self, event):
@@ -11392,12 +12103,22 @@ class GMFrame(wx.Frame):
             )
         )
 
+<<<<<<< HEAD
+=======
+        # show map display
+        self.GetMapDisplay().Show()
+
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def OnAddVector(self, event):
         """Add vector map to the current layer tree"""
         # start new map display if no display is available
         if not self.currentPage:
             self.NewDisplay(show=True)
 
+<<<<<<< HEAD
+=======
+        self.notebook.SetSelectionByName("layers")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("vector")
 
     def OnAddVectorMisc(self, event):
@@ -11413,12 +12134,25 @@ class GMFrame(wx.Frame):
             )
         )
 
+<<<<<<< HEAD
     def OnAddVectorTheme(self, event):
         """Add thematic vector map to the current layer tree"""
+=======
+        # show map display
+        self.GetMapDisplay().Show()
+
+    def OnAddVectorTheme(self, event):
+        """Add thematic vector map to the current layer tree"""
+        self.notebook.SetSelectionByName("layers")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("thememap")
 
     def OnAddVectorChart(self, event):
         """Add chart vector map to the current layer tree"""
+<<<<<<< HEAD
+=======
+        self.notebook.SetSelectionByName("layers")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("themechart")
 
     def OnAddOverlay(self, event):
@@ -11438,24 +12172,49 @@ class GMFrame(wx.Frame):
             )
         )
 
+<<<<<<< HEAD
     def OnAddRaster3D(self, event):
         """Add 3D raster map to the current layer tree"""
+=======
+        # show map display
+        self.GetMapDisplay().Show()
+
+    def OnAddRaster3D(self, event):
+        """Add 3D raster map to the current layer tree"""
+        self.notebook.SetSelectionByName("layers")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("raster_3d")
 
     def OnAddRasterRGB(self, event):
         """Add RGB raster map to the current layer tree"""
+<<<<<<< HEAD
+=======
+        self.notebook.SetSelectionByName("layers")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("rgb")
 
     def OnAddRasterHIS(self, event):
         """Add HIS raster map to the current layer tree"""
+<<<<<<< HEAD
+=======
+        self.notebook.SetSelectionByName("layers")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("his")
 
     def OnAddRasterShaded(self, event):
         """Add shaded relief raster map to the current layer tree"""
+<<<<<<< HEAD
+=======
+        self.notebook.SetSelectionByName("layers")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("shaded")
 
     def OnAddRasterArrow(self, event):
         """Add flow arrows raster map to the current layer tree"""
+<<<<<<< HEAD
+=======
+        self.notebook.SetSelectionByName("layers")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # here it seems that it should be retrieved from the mapwindow
         mapdisplay = self.GetMapDisplay()
         resolution = mapdisplay.mapWindowProperties.resolution
@@ -11469,6 +12228,10 @@ class GMFrame(wx.Frame):
 
     def OnAddRasterNum(self, event):
         """Add cell number raster map to the current layer tree"""
+<<<<<<< HEAD
+=======
+        self.notebook.SetSelectionByName("layers")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         mapdisplay = self.GetMapDisplay()
         resolution = mapdisplay.mapWindowProperties.resolution
         if not resolution:
@@ -11493,26 +12256,55 @@ class GMFrame(wx.Frame):
         if not self.currentPage:
             self.NewDisplay(show=True)
 
+<<<<<<< HEAD
         self.GetLayerTree().AddLayer("command")
 
+=======
+        self.notebook.SetSelectionByName("layers")
+        self.GetLayerTree().AddLayer("command")
+
+        # show map display
+        self.GetMapDisplay().Show()
+
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def OnAddGroup(self, event):
         """Add layer group"""
         # start new map display if no display is available
         if not self.currentPage:
             self.NewDisplay(show=True)
 
+<<<<<<< HEAD
         self.GetLayerTree().AddLayer("group")
 
     def OnAddGrid(self, event):
         """Add grid map layer to the current layer tree"""
+=======
+        self.notebook.SetSelectionByName("layers")
+        self.GetLayerTree().AddLayer("group")
+
+        # show map display
+        self.GetMapDisplay().Show()
+
+    def OnAddGrid(self, event):
+        """Add grid map layer to the current layer tree"""
+        self.notebook.SetSelectionByName("layers")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("grid")
 
     def OnAddGeodesic(self, event):
         """Add geodesic line map layer to the current layer tree"""
+<<<<<<< HEAD
+=======
+        self.notebook.SetSelectionByName("layers")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("geodesic")
 
     def OnAddRhumb(self, event):
         """Add rhumb map layer to the current layer tree"""
+<<<<<<< HEAD
+=======
+        self.notebook.SetSelectionByName("layers")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("rhumb")
 
     def OnAddLabels(self, event):
@@ -11521,8 +12313,17 @@ class GMFrame(wx.Frame):
         if not self.currentPage:
             self.NewDisplay(show=True)
 
+<<<<<<< HEAD
         self.GetLayerTree().AddLayer("labels")
 
+=======
+        self.notebook.SetSelectionByName("layers")
+        self.GetLayerTree().AddLayer("labels")
+
+        # show map display
+        self.GetMapDisplay().Show()
+
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def OnShowRegionExtent(self, event):
         """Add vector labels map layer to the current layer tree"""
         # start new map display if no display is available
@@ -11537,7 +12338,12 @@ class GMFrame(wx.Frame):
         # redraw map if auto-rendering is enabled
         # seems little too low level for this place
         # no redraw when Render is unchecked
+<<<<<<< HEAD
         mapdisp.GetMapWindow().UpdateMap(render=False)
+=======
+        if mapdisp.IsAutoRendered():
+            mapdisp.GetMapWindow().UpdateMap(render=False)
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
     def OnDeleteLayer(self, event):
         """Remove selected map layer from the current layer Tree"""
@@ -11558,12 +12364,20 @@ class GMFrame(wx.Frame):
 
             if len(layerName) > 2:  # <>
                 message = (
+<<<<<<< HEAD
                     _("Do you want to remove map layer(s)\n%s\nfrom layer tree?")
+=======
+                    _("Do you want to remove map layer(s)\n%s\n" "from layer tree?")
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                     % layerName
                 )
             else:
                 message = _(
+<<<<<<< HEAD
                     "Do you want to remove selected map layer(s) from layer tree?"
+=======
+                    "Do you want to remove selected map layer(s) " "from layer tree?"
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 )
 
             dlg = wx.MessageDialog(
@@ -11588,6 +12402,7 @@ class GMFrame(wx.Frame):
             except ValueError:
                 pass
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11687,10 +12502,27 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def OnKeyDown(self, event):
         """Key pressed"""
         kc = event.GetKeyCode()
 
+<<<<<<< HEAD
+=======
+        if event.ControlDown():
+            if kc == wx.WXK_TAB:
+                # switch layer list / command output
+                if self.notebook.GetSelection() == self.notebook.GetPageIndexByName(
+                    "layers"
+                ):
+                    self.notebook.SetSelectionByName("output")
+                else:
+                    self.notebook.SetSelectionByName("layers")
+
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         try:
             kc = chr(kc)
         except ValueError:
@@ -11705,6 +12537,7 @@ class GMFrame(wx.Frame):
 
         event.Skip()
 
+<<<<<<< HEAD
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11849,7 +12682,18 @@ class GMFrame(wx.Frame):
 
     def OnCloseWindowOrExit(self, event):
         """Cleanup when wxGUI is quit
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+    def OnCloseWindow(self, event):
+        """Cleanup when wxGUI is quitted"""
+        self._closeWindow(event)
+
+    def OnCloseWindowOrExit(self, event):
+        """Cleanup when wxGUI is quitted
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         Ask user also to quit GRASS including terminal
         """
@@ -11863,6 +12707,13 @@ class GMFrame(wx.Frame):
 
     def _closeWindow(self, event):
         """Close wxGUI"""
+<<<<<<< HEAD
+=======
+        # save command protocol if actived
+        if self.goutput.btnCmdProtocol.GetValue():
+            self.goutput.CmdProtocolSave()
+
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         if not self.currentPage:
             self._auimgr.UnInit()
             self.Destroy()
@@ -11913,12 +12764,17 @@ class GMFrame(wx.Frame):
         )
         if limitText:
             message += "\n\n%s" % _(limitText)
+<<<<<<< HEAD
         return wx.MessageDialog(
+=======
+        dlg = wx.MessageDialog(
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             parent=self,
             message=message,
             caption=_("Constrain map to region geometry?"),
             style=wx.YES_NO | wx.YES_DEFAULT | wx.ICON_QUESTION | wx.CENTRE,
         )
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12154,6 +13010,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -12268,3 +13125,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        return dlg
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))

@@ -9,12 +9,21 @@ include $(MODULE_TOPDIR)/include/Make/Python.make
 DSTDIR = $(GUIDIR)/wxpython
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 SRCFILES := $(wildcard icons/*.py scripts/*.py xml/*) \
 	$(wildcard animation/*.py core/*.py datacatalog/*.py dbmgr/*.py gcp/*.py gmodeler/*.py \
 =======
 SRCFILES := $(wildcard icons/*.py xml/*) \
 	$(wildcard animation/*.py core/*.py datacatalog/*.py history/*.py dbmgr/*.py gcp/*.py gmodeler/*.py \
 >>>>>>> osgeo-main
+=======
+SRCFILES := $(wildcard icons/*.py xml/*) \
+	$(wildcard animation/*.py core/*.py datacatalog/*.py history/*.py dbmgr/*.py gcp/*.py gmodeler/*.py \
+=======
+SRCFILES := $(wildcard icons/*.py scripts/*.py xml/*) \
+	$(wildcard animation/*.py core/*.py datacatalog/*.py dbmgr/*.py gcp/*.py gmodeler/*.py \
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 	gui_core/*.py iclass/*.py lmgr/*.py location_wizard/*.py main_window/*.py mapwin/*.py mapdisp/*.py \
 	mapswipe/*.py modules/*.py nviz/*.py psmap/*.py rdigit/*.py \
 	rlisetup/*.py startup/*.py timeline/*.py vdigit/*.py \
@@ -25,10 +34,17 @@ DSTFILES := $(patsubst %,$(DSTDIR)/%,$(SRCFILES)) \
 	$(patsubst %.py,$(DSTDIR)/%.pyc,$(filter %.py,$(SRCFILES)))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 PYDSTDIRS := $(patsubst %,$(DSTDIR)/%,animation core datacatalog dbmgr gcp gmodeler \
 =======
 PYDSTDIRS := $(patsubst %,$(DSTDIR)/%,animation core datacatalog history dbmgr gcp gmodeler \
 >>>>>>> osgeo-main
+=======
+PYDSTDIRS := $(patsubst %,$(DSTDIR)/%,animation core datacatalog history dbmgr gcp gmodeler \
+=======
+PYDSTDIRS := $(patsubst %,$(DSTDIR)/%,animation core datacatalog dbmgr gcp gmodeler \
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 	gui_core iclass lmgr location_wizard main_window mapwin mapdisp modules nviz psmap \
 	mapswipe vdigit wxplot web_services rdigit rlisetup startup \
 	vnet timeline iscatt tplot photo2image image2target)
