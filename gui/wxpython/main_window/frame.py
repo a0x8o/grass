@@ -10,6 +10,7 @@ Classes:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  - frame::SingleWindowAuiManager
 >>>>>>> osgeo-main
@@ -30,6 +31,13 @@ Classes:
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+ - frame::SingleWindowAuiManager
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
 (C) 2006-2021 by the GRASS Development Team
 
@@ -51,8 +59,11 @@ import re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 from pathlib import Path
 
 from core import globalvar
@@ -96,7 +107,15 @@ import wx.aui
 import wx
 import wx.aui
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+from core import globalvar
+import wx
+import wx.aui
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
 try:
     import wx.lib.agw.flatnotebook as FN
@@ -116,6 +135,7 @@ from core.utils import SetAddOnPath, GetLayerNameFromCmd, command2ltype, get_she
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from gui_core.preferences import MapsetAccess, PreferencesDialog
 from lmgr.layertree import LayerTree, LMIcons
 from lmgr.menudata import LayerManagerMenuData, LayerManagerModuleTree
@@ -126,6 +146,8 @@ from lmgr.menudata import LayerManagerMenuData, LayerManagerModuleTree
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 from core.watchdog import (
     EVT_UPDATE_MAPSET,
     EVT_CURRENT_MAPSET_CHANGED,
@@ -923,6 +945,7 @@ from main_window.notebook import MainNotebook
 from gui_core.widgets import GNotebook
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 from gui_core.preferences import MapsetAccess, PreferencesDialog
@@ -941,12 +964,22 @@ from gui_core.widgets import GNotebook
 from gui_core.widgets import GNotebook
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 from gui_core.preferences import MapsetAccess, PreferencesDialog
 from lmgr.layertree import LayerTree, LMIcons
 from lmgr.menudata import LayerManagerMenuData, LayerManagerModuleTree
 from gui_core.widgets import GNotebook, FormNotebook
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 from core.gconsole import GConsole, EVT_IGNORED_CMD_RUN
 from core.giface import Notification
 from gui_core.goutput import GConsoleWindow, GC_PROMPT
@@ -962,6 +995,7 @@ from gui_core.dialogs import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from gui_core.menu import SearchModuleWindow
 from gui_core.menu import Menu as GMenu
 =======
@@ -971,6 +1005,8 @@ from gui_core.menu import Menu as GMenu
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 from gui_core.menu import SearchModuleWindow, Menu as GMenu
 >>>>>>> osgeo-main
 from core.debug import Debug
@@ -2288,10 +2324,15 @@ from gui_core.forms import GUI
 from gui_core.wrap import Menu, TextEntryDialog, SimpleTabArt
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 from gui_core.menu import SearchModuleWindow
 from gui_core.menu import Menu as GMenu
 from core.debug import Debug
@@ -2328,8 +2369,14 @@ from lmgr.giface import LayerManagerGrassInterface
 from datacatalog.catalog import DataCatalog
 from gui_core.forms import GUI
 from gui_core.wrap import Menu, TextEntryDialog
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 from startup.guiutils import (
     can_switch_mapset_interactive,
     switch_mapset_interactively,
@@ -2341,6 +2388,7 @@ from grass.grassdb.checks import is_first_time_user
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -2348,6 +2396,8 @@ from grass.grassdb.checks import is_first_time_user
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 from grass.grassdb.history import Status
 
 
@@ -2368,6 +2418,7 @@ class SingleWindowAuiManager(aui.AuiManager):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
@@ -2377,6 +2428,10 @@ class SingleWindowAuiManager(aui.AuiManager):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
 
 class GMFrame(wx.Frame):
@@ -2389,6 +2444,7 @@ class GMFrame(wx.Frame):
         id=wx.ID_ANY,
         title=None,
         workspace=None,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2862,6 +2918,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         size=wx.GetClientDisplayRect().GetSize(),
 =======
         size=wx.Display().GetGeometry().GetSize(),
@@ -3145,6 +3203,7 @@ class GMFrame(wx.Frame):
         size=globalvar.GM_WINDOW_SIZE,
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
@@ -3477,6 +3536,11 @@ class GMFrame(wx.Frame):
         size=globalvar.GM_WINDOW_SIZE,
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+        size=globalvar.GM_WINDOW_SIZE,
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         style=wx.DEFAULT_FRAME_STYLE,
         **kwargs,
     ):
@@ -3492,11 +3556,15 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.size = size
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
         self.size = size
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3508,6 +3576,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         self.displayIndex = 0  # index value for map displays and layer trees
         self.currentPage = None  # currently selected page for layer tree notebook
@@ -3543,12 +3613,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                     _("There were some issues when loading menu or Tools:")
 =======
                     _("There were some issues when loading menu" " or Modules tab:")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                     _("There were some issues when loading menu" " or Modules tab:")
@@ -3564,6 +3638,11 @@ class GMFrame(wx.Frame):
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+                    _("There were some issues when loading menu" " or Modules tab:")
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 )
                 for message in messages:
                     self._gconsole.WriteError(message)
@@ -3572,6 +3651,7 @@ class GMFrame(wx.Frame):
         self._menuTreeBuilder = LayerManagerMenuData(message_handler=add_menu_error)
         # the search tree and command console
         self._moduleTreeBuilder = LayerManagerModuleTree(message_handler=add_menu_error)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4039,6 +4119,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 1f6c520760 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self._auimgr = SingleWindowAuiManager(self)
 =======
         self._auimgr = aui.AuiManager(self)
@@ -6885,6 +6967,7 @@ class GMFrame(wx.Frame):
         self.BindEvents()
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self._auimgr = wx.aui.AuiManager(self)
@@ -6980,6 +7063,10 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self._auimgr = wx.aui.AuiManager(self)
 
         # list of open dialogs
@@ -7041,6 +7128,7 @@ class GMFrame(wx.Frame):
         # bindings
         self.Bind(wx.EVT_CLOSE, self.OnCloseWindowOrExit)
         self.Bind(wx.EVT_KEY_DOWN, self.OnKeyDown)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -7198,6 +7286,11 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         self._giface.mapCreated.connect(self.OnMapCreated)
         self._giface.updateMap.connect(self._updateCurrentMap)
@@ -7208,8 +7301,11 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # use default window layout ?
         if UserSettings.Get(group="general", key="defWindowPos", subkey="enabled"):
 <<<<<<< HEAD
@@ -7522,6 +7618,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> main
 >>>>>>> osgeo-main
 =======
@@ -7627,6 +7724,10 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # minimal frame size
         self.SetMinSize(globalvar.GM_WINDOW_MIN_SIZE)
 
@@ -7789,12 +7890,19 @@ class GMFrame(wx.Frame):
 =======
         # use default window layout ?
         if UserSettings.Get(group="general", key="defWindowPos", subkey="enabled"):
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             dim = UserSettings.Get(group="general", key="defWindowPos", subkey="dim")
             try:
                 x, y = map(int, dim.split(",")[0:2])
                 w, h = map(int, dim.split(",")[2:4])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7860,6 +7968,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 client_disp = wx.ClientDisplayRect()
                 if x == 1:
                     # Get client display x offset (OS panel)
@@ -7892,6 +8002,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7936,10 +8047,13 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 self.SetPosition((x, y))
                 self.SetSize((w, h))
             except Exception:
                 pass
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8003,6 +8117,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             self.Layout()
             if w <= globalvar.GM_WINDOW_SIZE[0] or h <= globalvar.GM_WINDOW_SIZE[1]:
                 self.Fit()
@@ -8671,13 +8787,21 @@ class GMFrame(wx.Frame):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         else:
             # does center (of screen) make sense for lmgr?
             self.Centre()
 
         self.Layout()
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.Show()
 
         # load workspace file if requested
@@ -8693,12 +8817,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # show map display window
 =======
         # show map display widnow
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         # show map display widnow
@@ -8711,6 +8839,11 @@ class GMFrame(wx.Frame):
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+        # show map display widnow
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # -> OnSize() -> UpdateMap()
         for mapdisp in self.GetMapDisplay(onlyCurrent=False):
             mapdisp.Show()
@@ -8722,6 +8855,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -8729,6 +8863,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         #  mapset watchdog
         self._mapset_watchdog = MapsetWatchdog(
             elements_dirs=(("raster", "cell"),),
@@ -8748,6 +8884,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
@@ -8757,6 +8894,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # fix goutput's pane size (required for Mac OSX)`
         self.goutput.SetSashPosition(int(self.GetSize()[1] * 0.8))
 
@@ -8773,6 +8914,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -8780,6 +8922,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _repaintLayersPaneMapDisplayToolbar(self):
         """Repaint Layers pane map display toolbar widget on the wxMac"""
         if sys.platform == "darwin":
@@ -8792,6 +8936,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
@@ -8801,6 +8946,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _setTitle(self):
         """Set frame title"""
         gisenv = grass.gisenv()
@@ -8830,12 +8979,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def CreateMenuBar(self):
 =======
     def _createMenuBar(self):
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     def _createMenuBar(self):
@@ -8848,6 +9001,11 @@ class GMFrame(wx.Frame):
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+    def _createMenuBar(self):
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         """Creates menu bar"""
         self.menubar = GMenu(
             parent=self, model=self._menuTreeBuilder.GetModel(separators=True)
@@ -8872,12 +9030,18 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _createDisplayPanel(self, parent):
         """Creates display panel"""
         # create superior display panel
@@ -8904,6 +9068,7 @@ class GMFrame(wx.Frame):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -8914,6 +9079,11 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _setCopyingOfSelectedText(self):
         copy = UserSettings.Get(
             group="manager", key="copySelectedTextToClipboard", subkey="enabled"
@@ -8926,6 +9096,7 @@ class GMFrame(wx.Frame):
             return self._auimgr.GetPane(name).IsShown()
         return False
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9831,6 +10002,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def SetStatusText(self, *args):
         """Override SbMain statusbar method"""
         self.statusbar.SetStatusText(*args)
@@ -11712,6 +11885,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 50aa049e59 (Add Binder badge/button to readme (#1628))
 =======
 =======
@@ -11835,6 +12009,10 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _createNotebook(self):
         """Initialize notebook widget"""
         if sys.platform == "win32":
@@ -11842,6 +12020,7 @@ class GMFrame(wx.Frame):
         else:
             return FormNotebook(parent=self, style=wx.NB_BOTTOM)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -12783,6 +12962,11 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _createDataCatalog(self, parent):
         """Initialize Data Catalog widget"""
         self.datacatalog = DataCatalog(parent=parent, giface=self._giface)
@@ -12795,12 +12979,15 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # create display notebook
         self.notebookLayers = GNotebook(parent=parent, style=globalvar.FNPageStyle)
         menu = self._createTabMenu()
@@ -12838,12 +13025,20 @@ class GMFrame(wx.Frame):
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.displayPanel, self.notebookLayers = self._createDisplayPanel(parent)
         # bindings
         self.notebookLayers.Bind(FN.EVT_FLATNOTEBOOK_PAGE_CHANGED, self.OnCBPageChanged)
         self.notebookLayers.Bind(FN.EVT_FLATNOTEBOOK_PAGE_CLOSING, self.OnCBPageClosing)
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
     def _createSearchModule(self, parent):
         """Initialize Search module widget"""
@@ -12868,10 +13063,18 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ignoredCmdPattern=globalvar.ignoredCmdPattern,
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             ignoredCmdPattern=r"^d\..*|^r[3]?\.mapcalc$|^i.group$|^r.import$|"
             "^r.external$|^r.external.out$|"
             "^v.import$|^v.external$|^v.external.out$|"
             "^cd$|^cd .*",
+<<<<<<< HEAD
 =======
             ignoredCmdPattern=globalvar.ignoredCmdPattern,
 >>>>>>> osgeo-main
@@ -12902,6 +13105,12 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+<<<<<<< HEAD
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         )
         # create 'console' widget
         self.goutput = GConsoleWindow(
@@ -12920,13 +13129,17 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.goutput.contentChanged.connect(
             lambda notification: self._focusPage(notification)
         )
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -12946,6 +13159,10 @@ class GMFrame(wx.Frame):
 >>>>>>> b0292214bb (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         self._gconsole.mapCreated.connect(self.OnMapCreated)
         self._gconsole.Bind(
@@ -12958,6 +13175,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -12965,6 +13183,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _createHistoryBrowser(self, parent):
         """Initialize history browser widget"""
         if not UserSettings.Get(group="manager", key="hideTabs", subkey="history"):
@@ -12983,6 +13203,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
@@ -12992,6 +13213,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _createPythonShell(self, parent):
         """Initialize Python shell widget"""
         if not UserSettings.Get(group="manager", key="hideTabs", subkey="pyshell"):
@@ -13003,6 +13228,7 @@ class GMFrame(wx.Frame):
         else:
             self.pyshell = None
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13404,6 +13630,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -37240,10 +37468,15 @@ class GMFrame(wx.Frame):
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _addPagesToNotebook(self):
         """Add pages to notebook widget"""
         # add 'data catalog' widget to main notebook page
@@ -37610,8 +37843,14 @@ class GMFrame(wx.Frame):
 
         wx.CallAfter(self.datacatalog.LoadItems)
 
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _show_demo_map(self):
         """If in demolocation, add demo map to map display
 
@@ -37664,10 +37903,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         # create nviz tools tab
         self.nviz = NvizToolWindow(
@@ -38330,6 +38572,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self._auimgr.Update()
 
         # create nviz tools tab
@@ -38343,8 +38587,14 @@ class GMFrame(wx.Frame):
         self.notebook.SetSelectionByName("nviz")
 
         # this is a bit strange here since a new window is created everytime
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         if not firstTime:
             for page in ("view", "light", "fringe", "constant", "cplane", "animation"):
                 self.nviz.UpdatePage(page)
@@ -38358,23 +38608,32 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
         self.notebook.DeleteNBPage("nviz")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
         self.notebook.DeleteNBPage("nviz")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         # hide toolbar
         self._auimgr.GetPane("toolbarNviz").Hide()
@@ -38387,12 +38646,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self._auimgr.DetachPane(self.nviz)
         self.nviz.Destroy()
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -38406,6 +38669,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self._auimgr.Update()
 
     def OnLocationWizard(self, event):
@@ -38421,26 +38688,38 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             switch_grassdb = grassdb if grassdb != gisenv["GISDBASE"] else None
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
             switch_grassdb = grassdb if grassdb != gisenv["GISDBASE"] else None
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             if grassdb == gisenv["GISDBASE"]:
                 switch_grassdb = None
             else:
                 switch_grassdb = grassdb
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             if can_switch_mapset_interactive(self, grassdb, location, mapset):
                 switch_mapset_interactively(
                     self,
@@ -38471,6 +38750,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         from gmodeler.frame import ModelFrame
 
         win = ModelFrame(parent=self, giface=self._giface)
@@ -38483,6 +38763,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         from gmodeler.panels import ModelerPanel
         from gmodeler.menudata import ModelerMenuData
 
@@ -38503,16 +38785,21 @@ class GMFrame(wx.Frame):
 >>>>>>> osgeo-main
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         from gmodeler.frame import ModelFrame
 
         win = ModelFrame(parent=self, giface=self._giface)
         win.CentreOnScreen()
         win.Show()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -38525,6 +38812,11 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
     def OnPsMap(self, event=None, cmd=None):
         """Launch Cartographic Composer. See OnIClass documentation"""
@@ -38541,8 +38833,11 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         from mapswipe.frame import SwipeMapDisplay
 
         frame = wx.Frame(
@@ -38558,11 +38853,15 @@ class GMFrame(wx.Frame):
         win = SwipeMapFrame(parent=self, giface=self._giface)
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         from mapswipe.frame import SwipeMapFrame
 
         win = SwipeMapFrame(parent=self, giface=self._giface)
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
         from mapswipe.frame import SwipeMapDisplay
 
@@ -38583,6 +38882,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         rasters = []
         tree = self.GetLayerTree()
@@ -38633,18 +38934,27 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             defaultDir=str(Path.cwd()),
 =======
             defaultDir=os.getcwd(),
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             defaultDir=os.getcwd(),
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+            defaultDir=os.getcwd(),
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             wildcard=_("GRASS Model File (*.gxm)|*.gxm"),
         )
         if dlg.ShowModal() == wx.ID_OK:
@@ -38678,8 +38988,11 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         """Page in notebook (display) changed.
         Also change active map notebook tab."""
         self.currentPage = self.notebookLayers.GetCurrentPage()
@@ -40315,6 +40628,8 @@ class GMFrame(wx.Frame):
             self.mapnotebook.SetSelection(self.GetMapDisplayIndex())
 =======
 =======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         """Page in notebook (display) changed"""
         self.currentPage = self.notebookLayers.GetCurrentPage()
         self.currentPageNum = self.notebookLayers.GetSelection()
@@ -40345,6 +40660,7 @@ class GMFrame(wx.Frame):
         Also close associated map display.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -40355,6 +40671,11 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         """
         # save changes in the workspace
         name = self.notebookLayers.GetPageText(event.GetSelection())
@@ -40365,6 +40686,7 @@ class GMFrame(wx.Frame):
 
         maptree = self.notebookLayers.GetPage(event.GetSelection()).maptree
         maptree.GetMapDisplay().CleanUp()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40835,6 +41157,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.mainnotebook.DeleteMainPage(self.GetMapDisplay())
 =======
         self.mapnotebook.DeletePage(self.GetMapDisplayIndex())
@@ -41116,6 +41440,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
@@ -41444,12 +41769,17 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         maptree.Close(True)
 
         self.currentPage = None
 
         event.Skip()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42124,6 +42454,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _renamePageNoEvent(self, pgnum_dict, is_docked, text):
         if is_docked:
             self.mainnotebook.SetMainPageText(
@@ -42152,6 +42484,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> b983b20647 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -42190,6 +42523,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _closePageNoEvent(self, page_index):
         """Close page and destroy map display without
         generating notebook page closing event"""
@@ -42217,8 +42552,11 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.mapnotebook.DeletePage(page_index)
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 <<<<<<< HEAD
@@ -44372,6 +44710,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
 =======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
     def _switchPageHandler(self, event, notification):
         self._switchPage(notification=notification)
@@ -44395,6 +44735,7 @@ class GMFrame(wx.Frame):
             self.RunDisplayCmd(command)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -44405,6 +44746,11 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         elif re.compile(r"r[3]?\.mapcalc").search(command[0]):
             self.OnMapCalculator(event=None, cmd=command)
         elif command[0] == "i.group":
@@ -44428,6 +44774,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             result = False
 >>>>>>> osgeo-main
@@ -44448,10 +44795,18 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+            result = False
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             raise ValueError(
                 "Layer Manager special command (%s)"
                 " not supported." % " ".join(command)
             )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44463,6 +44818,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         if result:
             self._gconsole.UpdateHistory(status=Status.SUCCESS)
         else:
@@ -44474,6 +44831,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
@@ -44483,11 +44841,16 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
     def RunDisplayCmd(self, command):
         """Handles display commands.
 
         :param command: command in a list
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44512,14 +44875,26 @@ class GMFrame(wx.Frame):
         :return int: False if failed, True if success
 >>>>>>> 9313630b83 (wxGUI: Fix various typos in comments, strings, and methods (#4710))
 =======
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         :return int: False if failed, True if success
 =======
+=======
+>>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
         :return int: False if failed, True if succcess
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         """
         if not self.currentPage:
             self.NewDisplay(show=True)
@@ -44531,6 +44906,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return
 =======
             return False
@@ -44538,10 +44914,13 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             return False
 =======
             return
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
@@ -44555,6 +44934,11 @@ class GMFrame(wx.Frame):
             return
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+            return
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         try:
             # display GRASS commands
             layertype = command2ltype[command[0]]
@@ -44571,6 +44955,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return
 =======
             return False
@@ -44578,10 +44963,13 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             return False
 =======
             return
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
@@ -44595,6 +44983,11 @@ class GMFrame(wx.Frame):
             return
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+            return
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         if layertype == "barscale":
             if len(command) > 1:
@@ -44652,6 +45045,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -44659,6 +45053,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         return True
 
     def GetAuiManager(self):
@@ -44681,6 +45077,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
@@ -44690,6 +45087,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
     def GetLayerNotebook(self):
         """Get Layers Notebook"""
@@ -44716,12 +45117,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         :return: MapPanel instance (or list)
 =======
         :return: MapFrame instance (or list)
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         :return: MapFrame instance (or list)
@@ -44734,6 +45139,11 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+        :return: MapFrame instance (or list)
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         :return: None no mapdisplay selected
         """
         if onlyCurrent:
@@ -44742,8 +45152,11 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             return None
         # -> return list of all mapdisplays
         mlist = []
@@ -44753,6 +45166,7 @@ class GMFrame(wx.Frame):
         return mlist
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             else:
@@ -44760,6 +45174,10 @@ class GMFrame(wx.Frame):
         else:  # -> return list of all mapdisplays
             mlist = []
 =======
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             else:
                 return None
         else:  # -> return list of all mapdisplays
@@ -44771,17 +45189,24 @@ class GMFrame(wx.Frame):
             return mlist
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
     def GetAllMapDisplays(self):
         """Get all (open) map displays"""
         return self.GetMapDisplay(onlyCurrent=False)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44844,6 +45269,8 @@ class GMFrame(wx.Frame):
 >>>>>>> ba259679a9 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def GetMapDisplayIndex(self):
         """Get the index of the currently active map display tab.
         Can be different than index of related layertree."""
@@ -44873,6 +45300,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -44915,6 +45343,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def GetLogWindow(self):
         """Gets console for command output and messages"""
         return self._gconsole
@@ -44934,26 +45364,38 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         cmd = self.menucmd[event.GetId()] if event else ""
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
         cmd = self.menucmd[event.GetId()] if event else ""
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         if event:
             cmd = self.menucmd[event.GetId()]
         else:
             cmd = ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         try:
             cmdlist = cmd.split(" ")
@@ -44966,12 +45408,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         if cmd in {"vcolors", "r.mapcalc", "r3.mapcalc"}:
 =======
         if cmd in ["vcolors", "r.mapcalc", "r3.mapcalc"]:
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         if cmd in ["vcolors", "r.mapcalc", "r3.mapcalc"]:
@@ -44981,6 +45427,11 @@ class GMFrame(wx.Frame):
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+        if cmd in ["vcolors", "r.mapcalc", "r3.mapcalc"]:
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             return cmdlist
 
         try:
@@ -45078,18 +45529,27 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             defaultDir=str(Path.cwd()),
 =======
             defaultDir=os.getcwd(),
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             defaultDir=os.getcwd(),
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+            defaultDir=os.getcwd(),
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             wildcard=_("Python script (*.py)|*.py|Bash script (*.sh)|*.sh"),
         )
 
@@ -45107,12 +45567,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 message=_("Script file '%s' doesn't exist. Operation canceled.")
 =======
                 message=_("Script file '%s' doesn't exist. " "Operation canceled.")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 message=_("Script file '%s' doesn't exist. " "Operation canceled.")
@@ -45122,6 +45586,11 @@ class GMFrame(wx.Frame):
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+                message=_("Script file '%s' doesn't exist. " "Operation canceled.")
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 % filename,
             )
             return
@@ -45138,8 +45607,11 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 )
                 % os.path.basename(filename),
 =======
@@ -45147,12 +45619,18 @@ class GMFrame(wx.Frame):
                 ),
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
                     % os.path.basename(filename)
                 ),
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 caption=_("Set permission?"),
                 style=wx.YES_NO | wx.YES_DEFAULT | wx.ICON_QUESTION,
             )
@@ -45206,6 +45684,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     message=_("No location/mapset provided. Operation canceled."),
 =======
                     message=_("No project provided. Operation canceled."),
@@ -45213,10 +45692,13 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                     message=_("No project provided. Operation canceled."),
 =======
                     message=_("No location/mapset provided. Operation canceled."),
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
@@ -45230,6 +45712,11 @@ class GMFrame(wx.Frame):
                     message=_("No location/mapset provided. Operation canceled."),
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+                    message=_("No location/mapset provided. Operation canceled."),
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 )
                 return  # this should not happen
             if can_switch_mapset_interactive(
@@ -45298,6 +45785,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> osgeo-main
@@ -45318,6 +45806,13 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # local functions
         def write_beginning(parameter=None, command=None):
             if parameter:
@@ -45330,8 +45825,11 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             self._giface.WriteLog(_('Working directory changed to:\n"%s"') % Path.cwd())
 =======
             self._giface.WriteLog(
@@ -45339,13 +45837,19 @@ class GMFrame(wx.Frame):
             )
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
             self._giface.WriteLog(
                 _('Working directory changed to:\n"%s"') % os.getcwd()
             )
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         def write_end():
             self._giface.WriteCmdLog(" ")
@@ -45355,8 +45859,11 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             self._giface.WriteLog(_("Changes current working directory for this GUI."))
 =======
             self._giface.WriteLog(
@@ -45364,16 +45871,22 @@ class GMFrame(wx.Frame):
             )
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
             self._giface.WriteLog(
                 _("Changes current working directory" " for this GUI.")
             )
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
             self._giface.WriteLog(_("Changes current working directory for this GUI."))
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             self._giface.WriteLog(_("Usage: cd [directory]"))
             self._giface.WriteLog(_("Without parameters it opens a dialog."))
             # TODO: the following is longer then 80 chars
@@ -45410,12 +45923,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             if cmd[1] in {"-h", "--h", "--help", "help"}:
 =======
             if cmd[1] in ["-h", "--h", "--help", "help"]:
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             if cmd[1] in ["-h", "--h", "--help", "help"]:
@@ -45425,6 +45942,11 @@ class GMFrame(wx.Frame):
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+            if cmd[1] in ["-h", "--h", "--help", "help"]:
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 write_help()
                 write_end()
                 return
@@ -45442,18 +45964,27 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 defaultPath=str(Path.cwd()),
 =======
                 defaultPath=os.getcwd(),
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 defaultPath=os.getcwd(),
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+                defaultPath=os.getcwd(),
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             )
 
             if dlg.ShowModal() == wx.ID_OK:
@@ -45511,12 +46042,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             "%s: %s\n%s: %s\n%s: %s\n%s: %s\n"
 =======
             "%s: %s\n" "%s: %s\n" "%s: %s\n" "%s: %s\n"
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             "%s: %s\n" "%s: %s\n" "%s: %s\n" "%s: %s\n"
@@ -45526,6 +46061,11 @@ class GMFrame(wx.Frame):
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+            "%s: %s\n" "%s: %s\n" "%s: %s\n" "%s: %s\n"
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             # "%s: %s (%s)\n"
             "GDAL: %s\n"
             "PROJ: %s\n"
@@ -45638,6 +46178,7 @@ class GMFrame(wx.Frame):
         if dlg.ShowModal() == wx.ID_OK:
             name = dlg.GetValue()
             self.notebookLayers.SetPageText(page=self.currentPageNum, text=name)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46108,6 +46649,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             self.mainnotebook.SetMainPageText(page=self.GetMapDisplay(), text=name)
 =======
             self.mapnotebook.SetPageText(page_idx=self.GetMapDisplayIndex(), text=name)
@@ -46394,12 +46937,16 @@ class GMFrame(wx.Frame):
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
             mapdisplay = self.GetMapDisplay()
             mapdisplay.SetTitle(name)
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
@@ -46722,6 +47269,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         dlg.Destroy()
 
     def OnRasterRules(self, event):
@@ -46809,8 +47358,11 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         from iclass.frame import IClassMapDisplay, haveIClass, errMsg
 
         if not haveIClass:
@@ -46830,12 +47382,15 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         from iclass.frame import IClassMapFrame, haveIClass, errMsg
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         if not haveIClass:
             GError(
                 _('Unable to launch "Supervised Classification Tool".\n\n' "Reason: %s")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -46846,10 +47401,16 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 % errMsg
             )
             return
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46861,6 +47422,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         frame = wx.Frame(
             parent=None,
             size=globalvar.MAP_WINDOW_SIZE,
@@ -46876,6 +47439,7 @@ class GMFrame(wx.Frame):
 =======
         win = IClassMapFrame(parent=self, giface=self._giface)
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -46885,6 +47449,8 @@ class GMFrame(wx.Frame):
         win = IClassMapFrame(parent=self, giface=self._giface)
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         win.CentreOnScreen()
 
         win.Show()
@@ -46964,12 +47530,18 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def OnVectorCleaning(self, event, cmd=""):
         """Init interactive vector cleaning"""
         from modules.vclean import VectorCleaningFrame
@@ -46978,6 +47550,7 @@ class GMFrame(wx.Frame):
         win.CentreOnScreen()
         win.Show()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -46990,6 +47563,11 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def OnRasterOutputFormat(self, event):
         """Set raster output format handler"""
         self.OnMenuCmd(cmd=["r.external.out"])
@@ -47112,12 +47690,18 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def OnNewDisplay(self, event=None):
         """Create new layer tree and map display instance"""
         self.NewDisplay()
@@ -47223,6 +47807,7 @@ class GMFrame(wx.Frame):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -47233,11 +47818,17 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def _onMapDisplayFocus(self, notebookLayerPage):
         """Changes bookcontrol page to page associated with display."""
         # moved from mapdisp/frame.py
         # TODO: why it is called 3 times when getting focus?
         # and one times when loosing focus?
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47252,20 +47843,28 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
         if self.workspace_manager.loadingWorkspace:
             return
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         if self.workspace_manager.loadingWorkspace:
             return
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         pgnum = self.notebookLayers.GetPageIndex(notebookLayerPage)
         if pgnum > -1:
             self.notebookLayers.SetSelection(pgnum)
@@ -47278,18 +47877,27 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         for page in range(self.GetLayerNotebook().GetPageCount()):
 =======
         for page in range(0, self.GetLayerNotebook().GetPageCount()):
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         for page in range(0, self.GetLayerNotebook().GetPageCount()):
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+        for page in range(0, self.GetLayerNotebook().GetPageCount()):
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             mapdisp = self.GetLayerNotebook().GetPage(page).maptree.GetMapDisplay()
             if self.GetLayerNotebook().GetPage(page) != mapDisplayPage:
                 mapdisp.Disable3dMode()
@@ -47370,12 +47978,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         if ltype not in {"raster", "raster_3d", "vector"}:
 =======
         if ltype not in ["raster", "raster_3d", "vector"]:
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         if ltype not in ["raster", "raster_3d", "vector"]:
@@ -47385,6 +47997,11 @@ class GMFrame(wx.Frame):
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+        if ltype not in ["raster", "raster_3d", "vector"]:
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             GError(parent=self, message=_("Unsupported map layer type <%s>.") % ltype)
             return
 
@@ -47395,8 +48012,11 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             mapLayers = (
                 x.GetName() for x in display.GetMap().GetListOfLayers(ltype=ltype)
 =======
@@ -47404,12 +48024,18 @@ class GMFrame(wx.Frame):
                 lambda x: x.GetName(), display.GetMap().GetListOfLayers(ltype=ltype)
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
             mapLayers = map(
                 lambda x: x.GetName(), display.GetMap().GetListOfLayers(ltype=ltype)
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             )
             if mapName in mapLayers:
                 display.GetWindow().UpdateMap(render=True)
@@ -47427,12 +48053,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
@@ -47442,6 +48072,8 @@ class GMFrame(wx.Frame):
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("raster")
 
     def OnAddRasterMisc(self, event):
@@ -47469,25 +48101,34 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         # show map display
         self.GetMapDisplay().Show()
 
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         # show map display
         self.GetMapDisplay().Show()
 
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def OnAddVector(self, event):
         """Add vector map to the current layer tree"""
         # start new map display if no display is available
@@ -47499,12 +48140,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
@@ -47514,6 +48159,8 @@ class GMFrame(wx.Frame):
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("vector")
 
     def OnAddVectorMisc(self, event):
@@ -47534,6 +48181,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def OnAddVectorTheme(self, event):
         """Add thematic vector map to the current layer tree"""
 =======
@@ -47560,17 +48208,27 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def OnAddVectorTheme(self, event):
         """Add thematic vector map to the current layer tree"""
 =======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # show map display
         self.GetMapDisplay().Show()
 
     def OnAddVectorTheme(self, event):
         """Add thematic vector map to the current layer tree"""
         self.notebook.SetSelectionByName("layers")
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("thememap")
 
     def OnAddVectorChart(self, event):
@@ -47580,12 +48238,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
@@ -47595,6 +48257,8 @@ class GMFrame(wx.Frame):
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("themechart")
 
     def OnAddOverlay(self, event):
@@ -47619,6 +48283,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def OnAddRaster3D(self, event):
         """Add 3D raster map to the current layer tree"""
 =======
@@ -47645,17 +48310,27 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def OnAddRaster3D(self, event):
         """Add 3D raster map to the current layer tree"""
 =======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # show map display
         self.GetMapDisplay().Show()
 
     def OnAddRaster3D(self, event):
         """Add 3D raster map to the current layer tree"""
         self.notebook.SetSelectionByName("layers")
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("raster_3d")
 
     def OnAddRasterRGB(self, event):
@@ -47665,12 +48340,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
@@ -47680,6 +48359,8 @@ class GMFrame(wx.Frame):
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("rgb")
 
     def OnAddRasterHIS(self, event):
@@ -47689,12 +48370,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
@@ -47704,6 +48389,8 @@ class GMFrame(wx.Frame):
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("his")
 
     def OnAddRasterShaded(self, event):
@@ -47713,12 +48400,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
@@ -47728,6 +48419,8 @@ class GMFrame(wx.Frame):
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("shaded")
 
     def OnAddRasterArrow(self, event):
@@ -47737,12 +48430,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
@@ -47752,6 +48449,8 @@ class GMFrame(wx.Frame):
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # here it seems that it should be retrieved from the mapwindow
         mapdisplay = self.GetMapDisplay()
         resolution = mapdisplay.mapWindowProperties.resolution
@@ -47770,12 +48469,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
@@ -47785,6 +48488,8 @@ class GMFrame(wx.Frame):
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         mapdisplay = self.GetMapDisplay()
         resolution = mapdisplay.mapWindowProperties.resolution
         if not resolution:
@@ -47814,6 +48519,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.GetLayerTree().AddLayer("command")
 
 <<<<<<< HEAD
@@ -47840,17 +48546,27 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("command")
 
 =======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.notebook.SetSelectionByName("layers")
         self.GetLayerTree().AddLayer("command")
 
         # show map display
         self.GetMapDisplay().Show()
 
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def OnAddGroup(self, event):
         """Add layer group"""
         # start new map display if no display is available
@@ -47862,13 +48578,17 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("group")
 
     def OnAddGrid(self, event):
         """Add grid map layer to the current layer tree"""
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -47893,6 +48613,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.notebook.SetSelectionByName("layers")
         self.GetLayerTree().AddLayer("group")
 
@@ -47902,8 +48626,14 @@ class GMFrame(wx.Frame):
     def OnAddGrid(self, event):
         """Add grid map layer to the current layer tree"""
         self.notebook.SetSelectionByName("layers")
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("grid")
 
     def OnAddGeodesic(self, event):
@@ -47913,12 +48643,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
@@ -47928,6 +48662,8 @@ class GMFrame(wx.Frame):
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("geodesic")
 
     def OnAddRhumb(self, event):
@@ -47937,12 +48673,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
@@ -47952,6 +48692,8 @@ class GMFrame(wx.Frame):
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("rhumb")
 
     def OnAddLabels(self, event):
@@ -47965,6 +48707,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.GetLayerTree().AddLayer("labels")
 
 <<<<<<< HEAD
@@ -47991,17 +48734,27 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.GetLayerTree().AddLayer("labels")
 
 =======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.notebook.SetSelectionByName("layers")
         self.GetLayerTree().AddLayer("labels")
 
         # show map display
         self.GetMapDisplay().Show()
 
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def OnShowRegionExtent(self, event):
         """Add vector labels map layer to the current layer tree"""
         # start new map display if no display is available
@@ -48020,23 +48773,32 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         mapdisp.GetMapWindow().UpdateMap(render=False)
 =======
         if mapdisp.IsAutoRendered():
             mapdisp.GetMapWindow().UpdateMap(render=False)
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         if mapdisp.IsAutoRendered():
             mapdisp.GetMapWindow().UpdateMap(render=False)
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
         mapdisp.GetMapWindow().UpdateMap(render=False)
 >>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
     def OnDeleteLayer(self, event):
         """Remove selected map layer from the current layer Tree"""
@@ -48061,12 +48823,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                     _("Do you want to remove map layer(s)\n%s\nfrom layer tree?")
 =======
                     _("Do you want to remove map layer(s)\n%s\n" "from layer tree?")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                     _("Do you want to remove map layer(s)\n%s\n" "from layer tree?")
@@ -48076,6 +48842,11 @@ class GMFrame(wx.Frame):
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+                    _("Do you want to remove map layer(s)\n%s\n" "from layer tree?")
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                     % layerName
                 )
             else:
@@ -48084,12 +48855,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                     "Do you want to remove selected map layer(s) from layer tree?"
 =======
                     "Do you want to remove selected map layer(s) " "from layer tree?"
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                     "Do you want to remove selected map layer(s) " "from layer tree?"
@@ -48099,6 +48874,11 @@ class GMFrame(wx.Frame):
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+                    "Do you want to remove selected map layer(s) " "from layer tree?"
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
                 )
 
             dlg = wx.MessageDialog(
@@ -48123,6 +48903,7 @@ class GMFrame(wx.Frame):
             except ValueError:
                 pass
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48528,10 +49309,13 @@ class GMFrame(wx.Frame):
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f723e019f3 (Add Binder badge/button to readme (#1628))
@@ -48647,10 +49431,13 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def OnKeyDown(self, event):
         """Key pressed"""
         kc = event.GetKeyCode()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48679,6 +49466,11 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         if event.ControlDown():
             if kc == wx.WXK_TAB:
                 # switch layer list / command output
@@ -48689,6 +49481,7 @@ class GMFrame(wx.Frame):
                 else:
                     self.notebook.SetSelectionByName("layers")
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -48735,6 +49528,11 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         try:
             kc = chr(kc)
         except ValueError:
@@ -48769,8 +49567,11 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49492,6 +50293,7 @@ class GMFrame(wx.Frame):
 >>>>>>> osgeo-main
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
@@ -49501,12 +50303,16 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
     def OnCloseWindow(self, event):
         """Cleanup when wxGUI is quitted"""
         self._closeWindow(event)
 
     def OnCloseWindowOrExit(self, event):
         """Cleanup when wxGUI is quitted
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -49519,6 +50325,11 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         Ask user also to quit GRASS including terminal
         """
@@ -49537,16 +50348,23 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # save command protocol if actived
         if self.goutput.btnCmdProtocol.GetValue():
             self.goutput.CmdProtocolSave()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -49559,6 +50377,11 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         if not self.currentPage:
             self._auimgr.UnInit()
             self.Destroy()
@@ -49612,18 +50435,27 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         return wx.MessageDialog(
 =======
         dlg = wx.MessageDialog(
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         dlg = wx.MessageDialog(
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+        dlg = wx.MessageDialog(
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             parent=self,
             message=message,
             caption=_("Constrain map to region geometry?"),
@@ -49632,8 +50464,11 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51297,4 +52132,10 @@ class GMFrame(wx.Frame):
 =======
         return dlg
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+        return dlg
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))

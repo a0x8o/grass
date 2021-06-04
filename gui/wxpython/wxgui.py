@@ -2886,6 +2886,9 @@ class GMApp(wx.App):
         # mainframe = GMFrame(parent=None, id=wx.ID_ANY, workspace=self.workspaceFile)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         # testing purposes
         # from main_window.frame import GMFrame
         # mainframe = GMFrame(parent=None, id=wx.ID_ANY, workspace=self.workspaceFile)

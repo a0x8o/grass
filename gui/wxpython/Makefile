@@ -37,8 +37,14 @@ SRCFILES := $(wildcard icons/*.py xml/*) \
 =======
 SRCFILES := $(wildcard icons/*.py scripts/*.py xml/*) \
 	$(wildcard animation/*.py core/*.py datacatalog/*.py dbmgr/*.py gcp/*.py gmodeler/*.py \
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 	gui_core/*.py iclass/*.py lmgr/*.py location_wizard/*.py main_window/*.py mapwin/*.py mapdisp/*.py \
 	mapswipe/*.py modules/*.py nviz/*.py psmap/*.py rdigit/*.py \
 	rlisetup/*.py startup/*.py timeline/*.py vdigit/*.py \
@@ -71,8 +77,14 @@ PYDSTDIRS := $(patsubst %,$(DSTDIR)/%,animation core datacatalog dbmgr gcp gmode
 PYDSTDIRS := $(patsubst %,$(DSTDIR)/%,animation core datacatalog history dbmgr gcp gmodeler \
 =======
 PYDSTDIRS := $(patsubst %,$(DSTDIR)/%,animation core datacatalog dbmgr gcp gmodeler \
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 	gui_core iclass lmgr location_wizard main_window mapwin mapdisp modules nviz psmap \
 	mapswipe vdigit wxplot web_services rdigit rlisetup startup \
 	vnet timeline iscatt tplot photo2image image2target)
