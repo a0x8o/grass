@@ -2318,6 +2318,7 @@ class GMApp(wx.App):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> e3f946d7fe (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
@@ -2369,6 +2370,8 @@ class GMApp(wx.App):
 =======
 
 >>>>>>> 0d77b1a89c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+>>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
             mainframe = GMFrame(parent=None, id=wx.ID_ANY, workspace=self.workspaceFile)
             mainframe.Show()
             self.SetTopWindow(mainframe)
@@ -2882,6 +2885,7 @@ class GMApp(wx.App):
         # from main_window.frame import GMFrame
         # mainframe = GMFrame(parent=None, id=wx.ID_ANY, workspace=self.workspaceFile)
 
+<<<<<<< HEAD
         # testing purposes
         # from main_window.frame import GMFrame
         # mainframe = GMFrame(parent=None, id=wx.ID_ANY, workspace=self.workspaceFile)
@@ -3028,6 +3032,11 @@ class GMApp(wx.App):
 
         wx.CallAfter(show_main_gui)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        mainframe.Show()
+        self.SetTopWindow(mainframe)
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 
         return True
 

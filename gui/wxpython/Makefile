@@ -10,6 +10,7 @@ DSTDIR = $(GUIDIR)/wxpython
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SRCFILES := $(wildcard icons/*.py scripts/*.py xml/*) \
 	$(wildcard animation/*.py core/*.py datacatalog/*.py dbmgr/*.py gcp/*.py gmodeler/*.py \
 =======
@@ -30,6 +31,14 @@ SRCFILES := $(wildcard icons/*.py scripts/*.py xml/*) \
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+SRCFILES := $(wildcard icons/*.py xml/*) \
+	$(wildcard animation/*.py core/*.py datacatalog/*.py history/*.py dbmgr/*.py gcp/*.py gmodeler/*.py \
+=======
+SRCFILES := $(wildcard icons/*.py scripts/*.py xml/*) \
+	$(wildcard animation/*.py core/*.py datacatalog/*.py dbmgr/*.py gcp/*.py gmodeler/*.py \
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 	gui_core/*.py iclass/*.py lmgr/*.py location_wizard/*.py main_window/*.py mapwin/*.py mapdisp/*.py \
 	mapswipe/*.py modules/*.py nviz/*.py psmap/*.py rdigit/*.py \
 	rlisetup/*.py startup/*.py timeline/*.py vdigit/*.py \
@@ -41,6 +50,7 @@ DSTFILES := $(patsubst %,$(DSTDIR)/%,$(SRCFILES)) \
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 PYDSTDIRS := $(patsubst %,$(DSTDIR)/%,animation core datacatalog dbmgr gcp gmodeler \
 =======
 PYDSTDIRS := $(patsubst %,$(DSTDIR)/%,animation core datacatalog history dbmgr gcp gmodeler \
@@ -57,6 +67,12 @@ PYDSTDIRS := $(patsubst %,$(DSTDIR)/%,animation core datacatalog dbmgr gcp gmode
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+PYDSTDIRS := $(patsubst %,$(DSTDIR)/%,animation core datacatalog history dbmgr gcp gmodeler \
+=======
+PYDSTDIRS := $(patsubst %,$(DSTDIR)/%,animation core datacatalog dbmgr gcp gmodeler \
+>>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+>>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 	gui_core iclass lmgr location_wizard main_window mapwin mapdisp modules nviz psmap \
 	mapswipe vdigit wxplot web_services rdigit rlisetup startup \
 	vnet timeline iscatt tplot photo2image image2target)
