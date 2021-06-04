@@ -683,6 +683,10 @@ class GMApp(wx.App):
         # from main_window.frame import GMFrame
         # mainframe = GMFrame(parent=None, id=wx.ID_ANY, workspace=self.workspaceFile)
 
+        # testing purposes
+        # from main_window.frame import GMFrame
+        # mainframe = GMFrame(parent=None, id=wx.ID_ANY, workspace=self.workspaceFile)
+
         mainframe.Show()
         self.SetTopWindow(mainframe)
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
