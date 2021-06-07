@@ -590,8 +590,14 @@ you would use::
 =======
 >>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
 =======
+        raster/r.contour/testsuite/testrc.py
+=======
+>>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
+=======
 >>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> c87c9f60da (Dockerfile: fix broken lib link (#1625))
@@ -613,11 +619,20 @@ you would use::
 =======
 =======
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0daaa332d3 (Dockerfile: fix broken lib link (#1625))
         raster/r.contour/testsuite/test_broken.py
 =======
         raster/r.contour/testsuite/testrc.py
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -799,6 +814,8 @@ you would use::
 =======
 >>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 0daaa332d3 (Dockerfile: fix broken lib link (#1625))
+=======
         raster/r.contour/testsuite/testrc.py
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -921,6 +938,8 @@ you would use::
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
+=======
         raster/r.contour/testsuite/testrc.py
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -933,6 +952,7 @@ you would use::
 <<<<<<< HEAD
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -971,12 +991,16 @@ you would use::
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 0daaa332d3 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -1278,6 +1302,9 @@ you would use::
 >>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0daaa332d3 (Dockerfile: fix broken lib link (#1625))
 
 
 Running tests and creating report
