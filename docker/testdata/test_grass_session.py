@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -109,6 +110,8 @@
 =======
 >>>>>>> 4e55b69d96 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> e494d37988 (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 =======
 <<<<<<< HEAD
@@ -159,11 +162,17 @@
 =======
 =======
 >>>>>>> 73cc5e30fa (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 4e55b69d96 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 7de156f16b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> e494d37988 (Dockerfile: fix broken lib link (#1625))
 # Import GRASS GIS Python bindings (requires 8.4+) and test r.in.pdal
 
 # PYTHONPATH=$(grass --config python-path) python
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -524,6 +533,8 @@
 >>>>>>> 8c24ed3811 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 4e55b69d96 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> e494d37988 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 <<<<<<< HEAD
@@ -1160,7 +1171,19 @@
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 4385ab760c (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> d597f9a6d8 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+# Import GRASS Python bindings
+# https://github.com/zarch/grass-session
+<<<<<<< HEAD
+# pip install grass-session
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 7de156f16b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> e494d37988 (Dockerfile: fix broken lib link (#1625))
 
 =======
 =======
