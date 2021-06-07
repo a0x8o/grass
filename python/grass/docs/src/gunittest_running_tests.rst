@@ -133,6 +133,7 @@ you would use::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raster/r.contour/testsuite/testrc.py
 =======
 <<<<<<< HEAD
@@ -209,6 +210,8 @@ you would use::
 =======
 >>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 0544516662 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
         raster/r.contour/testsuite/testrc.py
@@ -261,7 +264,12 @@ you would use::
 =======
 =======
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0544516662 (Dockerfile: fix broken lib link (#1625))
         raster/r.contour/testsuite/test_broken.py
 =======
         raster/r.contour/testsuite/testrc.py
@@ -295,6 +303,7 @@ you would use::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -312,6 +321,8 @@ you would use::
 =======
 =======
 >>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 0544516662 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 0db65d5784 (Dockerfile: fix broken lib link (#1625))
@@ -502,7 +513,15 @@ you would use::
 =======
 =======
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+=======
+        raster/r.contour/testsuite/testrc.py
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0544516662 (Dockerfile: fix broken lib link (#1625))
 
 
 Running tests and creating report

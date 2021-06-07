@@ -85,6 +85,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -175,6 +176,8 @@ typedef enum {
 =======
 >>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 0544516662 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -215,6 +218,8 @@ typedef enum {
 >>>>>>> 4501265c62 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
 typedef struct
 {
@@ -343,6 +348,7 @@ typedef struct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -357,6 +363,8 @@ typedef struct
 >>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 0544516662 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -648,7 +656,14 @@ typedef struct
 =======
 =======
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0544516662 (Dockerfile: fix broken lib link (#1625))
 int main(int argc, char **argv)
 {
     struct { /* struct is used both for interface and output */
@@ -1045,6 +1060,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1097,6 +1113,8 @@ int main(int argc, char **argv)
 >>>>>>> 0db65d5784 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 0544516662 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -1467,7 +1485,15 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0544516662 (Dockerfile: fix broken lib link (#1625))
     struct Flag *flag_units, *flag_extended;
 
     struct History history;
@@ -2256,6 +2282,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -2595,7 +2622,15 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0544516662 (Dockerfile: fix broken lib link (#1625))
         }
     }
 
