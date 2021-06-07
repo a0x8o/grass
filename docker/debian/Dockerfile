@@ -10556,6 +10556,7 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 =======
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD:docker/debian/Dockerfile
+<<<<<<< HEAD
 =======
 RUN ln -sf /usr/local/grass85 /usr/local/grass
 =======
@@ -10577,10 +10578,14 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 =======
 <<<<<<< HEAD:docker/debian/Dockerfile
 >>>>>>> 8fe9780667 (Dockerfile Debian: versionless link fix)
+=======
+<<<<<<< HEAD:docker/debian/Dockerfile
+>>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
 RUN ln -sf /usr/local/grass84 /usr/local/grass
 =======
 RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/ubuntu/Dockerfile_ubuntu_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10655,6 +10660,8 @@ RUN ln -sf /usr/local/grass `grass --config path`
 =======
 =======
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
 =======
 RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/ubuntu/Dockerfile_ubuntu_pdal
@@ -11190,12 +11197,18 @@ RUN ln -sf /usr/local/grass `grass --config path`
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/ubuntu/Dockerfile_ubuntu_pdal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
@@ -11431,7 +11444,13 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
@@ -13454,14 +13473,27 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 # Not yet ready for GRASS GIS 8:
 #RUN /usr/bin/python3 /scripts/test_grass_session.py
 <<<<<<< HEAD:docker/debian/Dockerfile
+<<<<<<< HEAD:docker/debian/Dockerfile
 # test LAZ file
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
 =======
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/ubuntu/Dockerfile_ubuntu_pdal
+<<<<<<< HEAD
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+=======
+RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/ubuntu/Dockerfile_ubuntu_pdal
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
 
 WORKDIR /grassdb
 VOLUME /grassdb

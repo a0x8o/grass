@@ -1964,6 +1964,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
@@ -1974,6 +1975,10 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+=======
+>>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
+>>>>>>> afe85dd104 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
@@ -2230,8 +2235,19 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
+>>>>>>> afe85dd104 (Dockerfile: fix broken lib link (#1625))
         self._stream.write("Running {file}...\n".format(file=module.file_path))
         # get the above line and all previous ones to the report
         self._stream.flush()
@@ -2772,6 +2788,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2904,6 +2921,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> afe85dd104 (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -2916,6 +2935,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
 =======
 <<<<<<< HEAD
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
@@ -3051,8 +3072,16 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
+>>>>>>> afe85dd104 (Dockerfile: fix broken lib link (#1625))
             self._stream.write(f"FAILED {module.file_path}")
             if timed_out:
                 self._stream.write(f" - Timeout >{timed_out}s")
@@ -3212,6 +3241,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -3636,8 +3666,16 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
             self._stream.write("FAILED {file}".format(file=module.file_path))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
+>>>>>>> afe85dd104 (Dockerfile: fix broken lib link (#1625))
             num_failed = test_summary.get("failures", 0)
             num_failed += test_summary.get("errors", 0)
             if num_failed:
