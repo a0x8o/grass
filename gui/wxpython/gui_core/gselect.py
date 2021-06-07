@@ -7207,6 +7207,7 @@ class VectorCategorySelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """Check if selected map in 'input' widget is the same as selected map in lmgr"""
 =======
 <<<<<<< HEAD
@@ -7619,6 +7620,8 @@ class VectorCategorySelect(wx.Panel):
 =======
 >>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
@@ -7637,7 +7640,12 @@ class VectorCategorySelect(wx.Panel):
 =======
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
         """Check if selected map in 'input' widget is the same as selected map in
         lmgr"""
 =======
@@ -7712,6 +7720,7 @@ class VectorCategorySelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -7820,6 +7829,8 @@ class VectorCategorySelect(wx.Panel):
 >>>>>>> e39e7f602e (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
 =======
         """Check if selected map in 'input' widget is the same as selected map in lmgr"""
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -7981,13 +7992,17 @@ class VectorCategorySelect(wx.Panel):
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
         """Check if selected map in 'input' widget is the same as selected map in lmgr"""
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -8294,6 +8309,8 @@ class VectorCategorySelect(wx.Panel):
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
         if self._isMapSelected():
             layerList = self.giface.GetLayerList()
             layerSelected = layerList.GetSelectedLayer()
