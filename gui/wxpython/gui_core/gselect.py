@@ -6994,6 +6994,7 @@ class VectorCategorySelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """Check if selected map in 'input' widget is the same as selected map in lmgr"""
 =======
 <<<<<<< HEAD
@@ -7394,6 +7395,10 @@ class VectorCategorySelect(wx.Panel):
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
         """Check if selected map in 'input' widget is the same as selected map in
         lmgr"""
 =======
@@ -7463,6 +7468,7 @@ class VectorCategorySelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -7561,6 +7567,8 @@ class VectorCategorySelect(wx.Panel):
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 =======
         """Check if selected map in 'input' widget is the same as selected map in lmgr"""
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -7686,6 +7694,7 @@ class VectorCategorySelect(wx.Panel):
 =======
         """Check if selected map in 'input' widget is the same as selected map in lmgr"""
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
 =======
@@ -8004,6 +8013,10 @@ class VectorCategorySelect(wx.Panel):
         """Check if selected map in 'input' widget is the same as selected map in lmgr"""
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
         if self._isMapSelected():
             layerList = self.giface.GetLayerList()
             layerSelected = layerList.GetSelectedLayer()

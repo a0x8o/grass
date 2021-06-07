@@ -71347,6 +71347,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -71467,12 +71468,15 @@ msgstr ""
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 msgid "Coordinates to profile"
 msgstr ""
 =======
 #, fuzzy
 msgid "Coordinates to profile"
 msgstr "ค่าพิกัด E และ N ของจุดเริ่มต้น"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
@@ -71907,6 +71911,9 @@ msgstr "ค่าพิกัด E และ N ของจุดเริ่ม
 msgid "Coordinates to profile"
 msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
@@ -71982,6 +71989,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -72102,12 +72110,15 @@ msgstr ""
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 msgid "Profile output format"
 msgstr ""
 =======
 #, fuzzy
 msgid "Profile output format"
 msgstr "คำนำหน้า สำหรับ แผนที่เชิงภาพ ผลลัพธ์"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
@@ -72542,6 +72553,9 @@ msgstr "คำนำหน้า สำหรับ แผนที่เชิ�
 msgid "Profile output format"
 msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:292
 #, c-format

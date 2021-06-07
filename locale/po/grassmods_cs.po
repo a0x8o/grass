@@ -89724,6 +89724,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -89844,12 +89845,15 @@ msgstr ""
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 msgid "Scale for color rule values"
 msgstr ""
 =======
 #, fuzzy
 msgid "Scale for color rule values"
 msgstr "Měřítkový faktor pro výškový model"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
@@ -90284,6 +90288,9 @@ msgstr "Měřítkový faktor pro výškový model"
 msgid "Scale for color rule values"
 msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.colors/edit_colors.c:284 ../raster/r.colors/edit_colors.c:318
 #, c-format
@@ -90437,6 +90444,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -90557,12 +90565,15 @@ msgstr ""
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 msgid "Unable to open color rule"
 msgstr ""
 =======
 #, fuzzy
 msgid "Unable to open color rule"
 msgstr "Nelze otevřít prolog <%s>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
@@ -90997,6 +91008,9 @@ msgstr "Nelze otevřít prolog <%s>"
 msgid "Unable to open color rule"
 msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.colors/rules.c:179
 #, c-format
@@ -92780,6 +92794,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -92912,6 +92927,8 @@ msgstr ""
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 msgid "Coordinates to profile"
 msgstr ""
 
@@ -92932,6 +92949,7 @@ msgstr ""
 #, c-format
 msgid "Failed parsing <%s>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93883,6 +93901,34 @@ msgstr "Exportuji <%s>"
 =======
 msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Souřadnice dotazu"
+
+#: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
+#: ../raster/r.geomorphon/main.c:272
+#, fuzzy
+msgid "Profile"
+msgstr "profil"
+
+#: ../raster/r.geomorphon/main.c:261
+#, fuzzy
+msgid "Profile output file name (\"-\" for stdout)"
+msgstr "Název výstupního souboru (pro standardní výstup použijte output=-)"
+
+#: ../raster/r.geomorphon/main.c:271
+#, fuzzy
+msgid "Profile output format"
+msgstr "Výstupní formát"
+
+#: ../raster/r.geomorphon/main.c:292
+#, fuzzy, c-format
+msgid "Failed parsing <%s>"
+msgstr "Exportuji <%s>"
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:302
 #, c-format
@@ -93955,6 +94001,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -94087,6 +94134,8 @@ msgstr ""
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 msgid "The coordinates are outside of the computational region"
 msgstr ""
 
@@ -94094,6 +94143,7 @@ msgstr ""
 #, c-format
 msgid "Failed to open output file <%s>: %d (%s)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94707,6 +94757,18 @@ msgstr "Nelze otevřít výstupní soubor <%s>"
 =======
 msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "The coordinates are outside of the computational region"
+msgstr "Koncový bod je mimo aktuální region"
+
+#: ../raster/r.geomorphon/main.c:332
+#, fuzzy, c-format
+msgid "Failed to open output file <%s>: %d (%s)"
+msgstr "Nelze otevřít výstupní soubor <%s>"
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"
@@ -94810,6 +94872,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -94930,6 +94993,8 @@ msgstr ""
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 #, c-format
 msgid "Internal error in %s()"
 msgstr ""
@@ -94937,6 +95002,7 @@ msgstr ""
 #, fuzzy, c-format
 msgid "Internal error in %s()"
 msgstr "Interní chba funkce %s()"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
@@ -95411,6 +95477,9 @@ msgstr "Interní chba funkce %s()"
 msgid "Internal error in %s()"
 msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.proj/bordwalk.c:92 ../raster/r.proj/bordwalk.c:139
 #, c-format
