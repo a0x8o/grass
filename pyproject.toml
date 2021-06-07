@@ -210,6 +210,7 @@ line-length = 88
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 target-version = ['py37', 'py38', 'py39', 'py310']
@@ -454,6 +455,8 @@ target-version = ['py37', 'py38', 'py39', 'py310']
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3454fc4883 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 6286b6659a (Dockerfile: fix broken lib link (#1625))
 target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -1626,8 +1629,12 @@ target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
 >>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+=======
+>>>>>>> 41ab2f7485 (Dockerfile: fix broken lib link (#1625))
 target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
 =======
+=======
+>>>>>>> 4385ab760c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> 4d9eb9010a (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 3454fc4883 (Dockerfile: fix broken lib link (#1625))
@@ -1638,6 +1645,7 @@ extend-exclude = '''
 (
     python/libgrass_interface_generator/
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1937,6 +1945,8 @@ extend-exclude = '''
 =======
 >>>>>>> 3454fc4883 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 6286b6659a (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
 =======
@@ -2055,6 +2065,8 @@ extend-exclude = '''
 >>>>>>> 30a903a5ae (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> e29d325b37 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 41ab2f7485 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 target-version = ['py36', 'py37', 'py38', 'py39']
@@ -4626,6 +4638,7 @@ exclude = '''
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -4741,6 +4754,8 @@ exclude = '''
 >>>>>>> 5ec1e27d83 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 3454fc4883 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 6286b6659a (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b974eae31d (Dockerfile: fix broken lib link (#1625))
@@ -6505,7 +6520,15 @@ exclude = '''
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 4d9eb9010a (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 3454fc4883 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 41ab2f7485 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 6286b6659a (Dockerfile: fix broken lib link (#1625))
 )
 '''
 
