@@ -194,6 +194,7 @@ line-length = 88
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 target-version = ['py37', 'py38', 'py39', 'py310']
@@ -628,6 +629,8 @@ target-version = ['py37', 'py38', 'py39', 'py310']
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
 =======
 =======
@@ -1487,8 +1490,12 @@ target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
 >>>>>>> e494d37988 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+=======
+>>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
 =======
+=======
+>>>>>>> 4385ab760c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> b6e5194011 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
@@ -1499,6 +1506,7 @@ extend-exclude = '''
 (
     python/libgrass_interface_generator/
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1774,6 +1782,8 @@ extend-exclude = '''
 =======
 >>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
 =======
@@ -1880,6 +1890,8 @@ extend-exclude = '''
 >>>>>>> 4385ab760c (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> eb0461e127 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 target-version = ['py36', 'py37', 'py38', 'py39']
@@ -4239,6 +4251,7 @@ exclude = '''
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -4388,6 +4401,8 @@ exclude = '''
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 6cb714f843 (Dockerfile: fix broken lib link (#1625))
@@ -5949,7 +5964,15 @@ exclude = '''
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b6e5194011 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 )
 '''
 
