@@ -92263,6 +92263,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -92310,6 +92311,8 @@ msgstr ""
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -92641,7 +92644,36 @@ msgstr "Re-compression de <%s>"
 msgstr ""
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Coordonnées pour la requête"
+
+#: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
+#: ../raster/r.geomorphon/main.c:272
+#, fuzzy
+msgid "Profile"
+msgstr "profil"
+
+#: ../raster/r.geomorphon/main.c:261
+#, fuzzy
+msgid "Profile output file name (\"-\" for stdout)"
+msgstr "Nom du fichier en sortie (utilisez output=- pour le flux de sortie stdout)"
+
+#: ../raster/r.geomorphon/main.c:271
+#, fuzzy
+msgid "Profile output format"
+msgstr "Format de sortie"
+
+#: ../raster/r.geomorphon/main.c:292
+#, fuzzy, c-format
+msgid "Failed parsing <%s>"
+msgstr "Re-compression de <%s>"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 
 #: ../raster/r.geomorphon/main.c:302
 #, c-format
@@ -92678,6 +92710,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -92725,6 +92758,8 @@ msgstr ""
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -92939,7 +92974,20 @@ msgstr "Impossible d'ouvrir le fichier de sortie <%s>"
 msgstr ""
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "The coordinates are outside of the computational region"
+msgstr "Les points des extrémités sont en dehors des paramètres de la région courante"
+
+#: ../raster/r.geomorphon/main.c:332
+#, fuzzy, c-format
+msgid "Failed to open output file <%s>: %d (%s)"
+msgstr "Impossible d'ouvrir le fichier de sortie <%s>"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"
@@ -92996,6 +93044,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -93043,6 +93092,8 @@ msgstr ""
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -93248,7 +93299,20 @@ msgstr "Échec de l'écriture du fichier V5D"
 msgstr ""
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "Profile data has been written"
+msgstr "Écrire les données en entiers"
+
+#: ../raster/r.geomorphon/main.c:655
+#, fuzzy
+msgid "Failed writing profile data"
+msgstr "Échec de l'écriture du fichier V5D"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 
 #: ../raster/r.geomorphon/main.c:751
 msgid "Failed to profile the computation, please check the parameters"

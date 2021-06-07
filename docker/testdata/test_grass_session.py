@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -115,10 +116,15 @@
 =======
 =======
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 # Import GRASS GIS Python bindings (requires 8.4+) and test r.in.pdal
 
 # PYTHONPATH=$(grass --config python-path) python
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -260,6 +266,7 @@
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
 =======
 <<<<<<< HEAD
@@ -302,8 +309,11 @@
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 # Import GRASS Python bindings
 # https://github.com/zarch/grass-session
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # pip install grass-session
@@ -323,6 +333,13 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+# pip install grass-session
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 
 =======
 =======

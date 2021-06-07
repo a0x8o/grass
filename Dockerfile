@@ -3188,6 +3188,7 @@ RUN if [ ! -e /usr/local/bin/grass ] ; then ln -s /usr/local/bin/grass* /usr/loc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -3209,6 +3210,8 @@ RUN if [ ! -e /usr/local/bin/grass ] ; then ln -s /usr/local/bin/grass* /usr/loc
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -3379,7 +3382,13 @@ RUN if [ ! -e /usr/local/bin/grass ] ; then ln -s /usr/local/bin/grass* /usr/loc
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 0db65d5784 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 
 # Leave build stage
 FROM grass_gis as grass_gis_final
