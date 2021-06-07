@@ -126,10 +126,15 @@ class TestTemporalAlgebra(TestCase):
 
     def test_temporal_select1(self):
         """Testing the temporal select operator with equal relations."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
             expression="R = A : A", stdstype="strds", basename="r", overwrite=True
         )
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=True)
+        ta.parse(expression="R = A : A", stdstype="strds", basename="r", overwrite=True)
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 
         result_strds = tgis.open_old_stds("R", type="strds")
         self.assertTrue(result_strds.is_in_db())
@@ -145,10 +150,15 @@ class TestTemporalAlgebra(TestCase):
 
     def test_temporal_select2(self):
         """Testing the temporal select operator with equal relations."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
             expression="R = A : D", stdstype="strds", basename="r", overwrite=True
         )
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=True)
+        ta.parse(expression="R = A : D", stdstype="strds", basename="r", overwrite=True)
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 
         result_strds = tgis.open_old_stds("R", type="strds")
         self.assertTrue(result_strds.is_in_db())
@@ -164,8 +174,13 @@ class TestTemporalAlgebra(TestCase):
 
     def test_temporal_select3(self):
         """Testing the temporal select operator with equal relations."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=True)
+        ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = A !: D", stdstype="strds", basename="r", overwrite=True
         )
 
@@ -183,8 +198,13 @@ class TestTemporalAlgebra(TestCase):
 
     def test_temporal_select_operators1(self):
         """Testing the temporal select operator. Including temporal relations."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=True)
+        ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = A {:,during} C",
             stdstype="strds",
             basename="r",
@@ -205,8 +225,13 @@ class TestTemporalAlgebra(TestCase):
 
     def test_temporal_select_operators2(self):
         """Testing the temporal select operator. Including temporal relations."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=True)
+        ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = A {:,equal|during} C",
             stdstype="strds",
             basename="r",
@@ -306,8 +331,13 @@ class TestTemporalAlgebra(TestCase):
 
     def test_temporal_extent1(self):
         """Testing the temporal extent operators."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=True)
+        ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = A {:,during,r} C",
             stdstype="strds",
             basename="r",
@@ -328,8 +358,13 @@ class TestTemporalAlgebra(TestCase):
 
     def test_temporal_extent2(self):
         """Testing the temporal extent operators."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=True)
+        ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = A {:,during,d} C",
             stdstype="strds",
             basename="r",
@@ -350,8 +385,13 @@ class TestTemporalAlgebra(TestCase):
 
     def test_temporal_extent3(self):
         """Testing the temporal extent operators."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=True)
+        ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = A {:,during,u} C",
             stdstype="strds",
             basename="r",
@@ -377,8 +417,13 @@ class TestTemporalAlgebra(TestCase):
 
     def test_temporal_hash1(self):
         """Testing the hash function in conditional statement."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=True)
+        ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = if(A # D == 1, A)",
             stdstype="strds",
             basename="r",
@@ -399,8 +444,13 @@ class TestTemporalAlgebra(TestCase):
 
     def test_temporal_hash_operator1(self):
         """Testing the hash operator function in conditional statement."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=True)
+        ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = if(A {#,during} C == 1, A)",
             stdstype="strds",
             basename="r",
@@ -421,8 +471,13 @@ class TestTemporalAlgebra(TestCase):
 
     def test_temporal_hash_operator2(self):
         """Testing the hash operator function in conditional statement."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=True)
+        ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = if({during}, C {#,contains} A == 2, A)",
             stdstype="strds",
             basename="r",
@@ -443,8 +498,13 @@ class TestTemporalAlgebra(TestCase):
 
     def test_tmap_function1(self):
         """Testing the tmap function."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=True)
+        ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = tmap(singletmap)",
             stdstype="strds",
             basename="r",
@@ -465,8 +525,13 @@ class TestTemporalAlgebra(TestCase):
 
     def test_tmap_function2(self):
         """Testing the tmap function."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=True)
+        ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = A : tmap(singletmap)",
             stdstype="strds",
             basename="r",
@@ -487,8 +552,13 @@ class TestTemporalAlgebra(TestCase):
 
     def test_merge_function1(self):
         """Testing the merge function."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=True)
+        ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = merge(A,D)", stdstype="strds", basename="r", overwrite=True
         )
 
@@ -506,8 +576,13 @@ class TestTemporalAlgebra(TestCase):
 
     def test_merge_function2(self):
         """Testing the merge function."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=True)
+        ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = merge(A, B {!:,contains} A)",
             stdstype="strds",
             basename="r",
@@ -636,10 +711,15 @@ class TestTemporalAlgebraDryRun(TestCase):
 
     def test_merge_function1(self):
         """Testing the merge function."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(
             run=True, debug=False, dry_run=True
         )
         parser_content = temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
+        pc = ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = merge(A, B {:,contains} A)",
             stdstype="strds",
             basename="r",
@@ -652,10 +732,15 @@ class TestTemporalAlgebraDryRun(TestCase):
 
     def test_merge_function2(self):
         """Testing the merge function."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(
             run=True, debug=False, dry_run=True
         )
         parser_content = temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
+        pc = ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = merge(A, B {!:,contains} A)",
             stdstype="strds",
             basename="r",
@@ -668,10 +753,15 @@ class TestTemporalAlgebraDryRun(TestCase):
 
     def test_merge_function3(self):
         """Testing the merge function."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(
             run=True, debug=False, dry_run=True
         )
         parser_content = temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
+        pc = ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression="R = merge(A, D {!:,equal} A)",
             stdstype="strds",
             basename="r",
@@ -684,10 +774,15 @@ class TestTemporalAlgebraDryRun(TestCase):
 
     def test_shift1(self):
         """Testing the shift function."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(
             run=True, debug=False, dry_run=True
         )
         parser_content = temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
+        pc = ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression='R = tshift(A, "3 days")',
             stdstype="strds",
             basename="r",
@@ -700,10 +795,15 @@ class TestTemporalAlgebraDryRun(TestCase):
 
     def test_shift2(self):
         """Testing the shift function."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(
             run=True, debug=False, dry_run=True
         )
         parser_content = temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
+        pc = ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression='R = tshift(A, "2 days") {:,during,l} C',
             stdstype="strds",
             basename="r",
@@ -716,10 +816,15 @@ class TestTemporalAlgebraDryRun(TestCase):
 
     def test_buffer1(self):
         """Testing the shift function."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(
             run=True, debug=False, dry_run=True
         )
         parser_content = temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
+        pc = ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression='R = buff_t(A, "1 day") ',
             stdstype="strds",
             basename="r",
@@ -732,10 +837,15 @@ class TestTemporalAlgebraDryRun(TestCase):
 
     def test_buff2(self):
         """Testing the shift function."""
+<<<<<<< HEAD
         temporal_algebra_parser = tgis.TemporalAlgebraParser(
             run=True, debug=False, dry_run=True
         )
         parser_content = temporal_algebra_parser.parse(
+=======
+        ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
+        pc = ta.parse(
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             expression='R = buff_t(A, "1 day") {:,contains,l} C',
             stdstype="strds",
             basename="r",
