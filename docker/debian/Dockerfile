@@ -16482,6 +16482,7 @@ ENV PROJ_NETWORK=ON
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -16803,10 +16804,16 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 =======
 <<<<<<< HEAD:docker/debian/Dockerfile
 >>>>>>> df3774e05d (Dockerfile Debian: versionless link fix)
+=======
+RUN ln -sf /usr/local/grass85 /usr/local/grass
+=======
+<<<<<<< HEAD:docker/debian/Dockerfile
+>>>>>>> 73cc5e30fa (Dockerfile: fix broken lib link (#1625))
 RUN ln -sf /usr/local/grass84 /usr/local/grass
 =======
 RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/ubuntu/Dockerfile_ubuntu_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17935,7 +17942,13 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 73cc5e30fa (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 63948171f2 (Dockerfile: fix broken lib link (#1625))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
@@ -19385,6 +19398,7 @@ COPY docker/testdata/test_grass_session.py .
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -19449,6 +19463,8 @@ COPY docker/testdata/test_grass_session.py .
 =======
 >>>>>>> c0392b8321 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 63948171f2 (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
 =======
@@ -19500,13 +19516,19 @@ COPY docker/testdata/test_grass_session.py .
 =======
 =======
 >>>>>>> 2e1ad6cb7b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> c0392b8321 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 73cc5e30fa (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 63948171f2 (Dockerfile: fix broken lib link (#1625))
 ## run GRASS GIS python session and scan the test LAZ file
 RUN python /scripts/test_grass_session.py
 RUN rm -rf /tmp/grasstest_epsg_25832
 # test LAZ file
 RUN grass --tmp-project EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19782,6 +19804,8 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 =======
 >>>>>>> c0392b8321 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 63948171f2 (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 <<<<<<< HEAD
 >>>>>>> 624386edf7 (docker: Use only native Python API, set only necessary variables (#3819))
@@ -19967,10 +19991,18 @@ RUN rm -rf /tmp/grasstest_epsg_25832
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 # test LAZ file
 >>>>>>> 2e1ad6cb7b (Dockerfile: fix broken lib link (#1625))
+=======
+## just scan the LAZ file
+# Not yet ready for GRASS GIS 8:
+#RUN /usr/bin/python3 /scripts/test_grass_session.py
+<<<<<<< HEAD:docker/debian/Dockerfile
+# test LAZ file
+>>>>>>> 73cc5e30fa (Dockerfile: fix broken lib link (#1625))
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
 =======
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/ubuntu/Dockerfile_ubuntu_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20749,7 +20781,13 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 73cc5e30fa (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 63948171f2 (Dockerfile: fix broken lib link (#1625))
 
 WORKDIR /grassdb
 VOLUME /grassdb
