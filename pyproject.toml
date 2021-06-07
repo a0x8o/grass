@@ -6,8 +6,11 @@ requires-python = ">=3.9"
 required-version = '24'
 line-length = 88
 <<<<<<< HEAD
+<<<<<<< HEAD
 target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
 =======
+=======
+>>>>>>> 4385ab760c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 target-version = ['py38', 'py39', 'py310', 'py311', 'py312']
 >>>>>>> 73cc5e30fa (Dockerfile: fix broken lib link (#1625))
@@ -16,6 +19,8 @@ extend-exclude = '''
 (
     python/libgrass_interface_generator/
 =======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 target-version = ['py36', 'py37', 'py38', 'py39']
 include = '\.pyi?$'
 exclude = '''
@@ -40,7 +45,10 @@ exclude = '''
     # at the time of writing.
     # https://github.com/psf/black/issues/1244
     | python/grass/pygrass/utils.py
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 )
 '''
 
