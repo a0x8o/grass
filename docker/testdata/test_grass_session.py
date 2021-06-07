@@ -661,12 +661,24 @@
 # Import GRASS Python bindings
 # https://github.com/zarch/grass-session
 <<<<<<< HEAD
+<<<<<<< HEAD
 # pip install grass-session
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> b6e5194011 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 31257efc18 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 7c712c5b7d (Dockerfile: fix broken lib link (#1625))
 
 =======
 =======
