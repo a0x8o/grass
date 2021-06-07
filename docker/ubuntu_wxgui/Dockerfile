@@ -1116,7 +1116,9 @@ FROM ubuntu:22.04
 FROM ubuntu:22.04@sha256:340d9b015b194dc6e2a13938944e0d016e57b9679963fdeb9ce021daac430221
 >>>>>>> 16b69e4c3e (CI(deps): Update ubuntu:22.04 Docker digest to 340d9b0 (#3971))
 
+<<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Tomas Zigo"
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1207,8 +1209,19 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 =======
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+=======
+LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
 LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,weinmann@mundialis.de"
 
 ENV DEBIAN_FRONTEND noninteractive
@@ -2627,6 +2640,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
@@ -2638,6 +2652,8 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
     libnotify4 \
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
@@ -2954,8 +2970,20 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+<<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+    libnotify4 \
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
     libopenblas-base \
     libopenblas-dev \
     libopenjp2-7 \
@@ -3572,6 +3600,7 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -3580,6 +3609,8 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 >>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 =======
 <<<<<<< HEAD
 =======
@@ -4143,8 +4174,19 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 ## install a more recent projection library for GRASS GIS
 >>>>>>> aac6232e2b (Dockerfile Debian: versionless link fix):docker/debian/Dockerfile_debian_pdal
 >>>>>>> 72881fef5b (Dockerfile Debian: versionless link fix)
+<<<<<<< HEAD
 >>>>>>> 99be8d13e5 (Dockerfile Debian: versionless link fix)
+<<<<<<< HEAD
 >>>>>>> 5cc90d3cf8 (Dockerfile Debian: versionless link fix)
+=======
+=======
+=======
+<<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+=======
+## install the latest projection library for GRASS GIS
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
 WORKDIR /src
 RUN wget -q http://download.osgeo.org/proj/proj-${PROJ_VERSION}.tar.gz && \
     tar xzf proj-${PROJ_VERSION}.tar.gz && \
@@ -4158,6 +4200,7 @@ RUN wget -q http://download.osgeo.org/proj/proj-${PROJ_VERSION}.tar.gz && \
     make install
 
 ## install laz-perf
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4220,6 +4263,8 @@ RUN wget -q http://download.osgeo.org/proj/proj-${PROJ_VERSION}.tar.gz && \
 =======
 >>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -4228,6 +4273,8 @@ RUN wget -q http://download.osgeo.org/proj/proj-${PROJ_VERSION}.tar.gz && \
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 =======
 ## install laz-perf (missing from https://packages.ubuntu.com/)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -4439,8 +4486,16 @@ RUN wget -q http://download.osgeo.org/proj/proj-${PROJ_VERSION}.tar.gz && \
 ## install laz-perf (missing from https://packages.ubuntu.com/)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
 RUN apt-get install cmake
 WORKDIR /src
 RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz -O laz-perf-${LAZ_PERF_VERSION}.tar.gz && \
@@ -4452,6 +4507,7 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
     make && \
     make install
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4594,6 +4650,8 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 =======
 >>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
@@ -4647,6 +4705,8 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 >>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -5245,8 +5305,17 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
 ## fetch vertical datums for PDAL and store into PROJ dir
 WORKDIR /src
 RUN mkdir vdatum && \
@@ -7247,6 +7316,7 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
@@ -7414,6 +7484,8 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 >>>>>>> osgeo-main
 =======
 >>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD
@@ -7440,6 +7512,8 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
@@ -7450,9 +7524,14 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 RUN ln -sf /usr/local/grass85 /usr/local/grass
 =======
+=======
+=======
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 =======
@@ -7478,6 +7557,7 @@ RUN ln -sf /usr/local/grass84 /usr/local/grass
 =======
 RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7555,6 +7635,8 @@ RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 =======
 RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
@@ -8404,7 +8486,13 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 =======
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
@@ -8485,6 +8573,7 @@ COPY docker/testdata/test_grass_session.py .
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -8538,6 +8627,10 @@ COPY docker/testdata/test_grass_session.py .
 =======
 =======
 =======
+=======
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -8552,14 +8645,23 @@ COPY docker/testdata/test_grass_session.py .
 >>>>>>> osgeo-main
 =======
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
 ## run GRASS GIS python session and scan the test LAZ file
 RUN python /scripts/test_grass_session.py
 RUN rm -rf /tmp/grasstest_epsg_25832
 # test LAZ file
 RUN grass --tmp-project EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8767,6 +8869,8 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 =======
 >>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 <<<<<<< HEAD
 >>>>>>> 624386edf7 (docker: Use only native Python API, set only necessary variables (#3819))
@@ -8777,6 +8881,8 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+=======
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
@@ -9418,7 +9524,22 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+=======
+## just scan the LAZ file
+# Not yet ready for GRASS GIS 8:
+#RUN /usr/bin/python3 /scripts/test_grass_session.py
+<<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+# test LAZ file
+RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
+=======
+RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 
 WORKDIR /grassdb
 VOLUME /grassdb

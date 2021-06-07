@@ -2079,6 +2079,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
@@ -2090,6 +2091,10 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+=======
+=======
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
 >>>>>>> afe85dd104 (Dockerfile: fix broken lib link (#1625))
@@ -2360,8 +2365,17 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> afe85dd104 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
         self._stream.write("Running {file}...\n".format(file=module.file_path))
         # get the above line and all previous ones to the report
         self._stream.flush()
@@ -2962,6 +2976,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3100,6 +3115,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -3118,6 +3135,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 =======
 <<<<<<< HEAD
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
@@ -3277,8 +3296,16 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
             self._stream.write(f"FAILED {module.file_path}")
             if timed_out:
                 self._stream.write(f" - Timeout >{timed_out}s")
@@ -3322,7 +3349,11 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
+<<<<<<< HEAD
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
             self._stream.write(f"FAILED {module.file_path}")
             if timed_out:
                 self._stream.write(f" - Timeout >{timed_out}s")
@@ -3913,8 +3944,18 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            self._stream.write("FAILED {file}".format(file=module.file_path))
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
             num_failed = test_summary.get("failures", 0)
             num_failed += test_summary.get("errors", 0)
             if num_failed:
