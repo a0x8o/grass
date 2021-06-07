@@ -78,6 +78,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -154,6 +155,8 @@ typedef enum {
 =======
 >>>>>>> d09aabfdb7 (Merge branch 'a0x8o' into stag0)
 =======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> f1378f3ee0 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 14e8d0fff4 (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -162,6 +165,8 @@ typedef enum {
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2e905dea83 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
 =======
 typedef struct
 {
@@ -267,10 +272,13 @@ typedef struct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -453,7 +461,12 @@ typedef struct
 =======
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> ca092cdc49 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 >>>>>>> 62c4e6e3da (Dockerfile_alpine: fix broken link creatio)
+=======
+=======
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 int main(int argc, char **argv)
 {
     struct { /* struct is used both for interface and output */
@@ -495,6 +508,7 @@ int main(int argc, char **argv)
          FCELL_TYPE, -1, NULL}};
 
     struct GModule *module;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -603,6 +617,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -611,7 +627,12 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
     struct Option *opt_input, *opt_output[o_size], *par_search_radius,
         *par_skip_radius, *par_flat_threshold, *par_flat_distance,
         *par_comparison, *par_coords, *par_profiledata, *par_profileformat;
@@ -724,6 +745,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -762,6 +784,8 @@ int main(int argc, char **argv)
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -998,7 +1022,13 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
     struct Flag *flag_units, *flag_extended;
 
     struct History history;
@@ -1275,6 +1305,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1332,6 +1363,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -1457,7 +1490,12 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
                 G_warning(
                     _("There may be a notable processing delay because the "
                       "computational region is %lu times larger than "
@@ -1495,11 +1533,14 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
@@ -1585,10 +1626,16 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
                 G_warning(_("There may be a notable processing delay because the "
                            "computational region is %lu times larger than necessary"),
                           window_square / search_square);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1810,7 +1857,13 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
         }
     }
 

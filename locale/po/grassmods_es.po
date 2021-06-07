@@ -83231,6 +83231,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -83265,6 +83266,8 @@ msgstr ""
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 #, c-format
 msgid "DONE: uncompressed file is %lu %s (%.2f%%) smaller"
 msgstr ""
@@ -83467,7 +83470,30 @@ msgstr "HECHO: el archivo comprimido es %lu bytes mayor"
 =======
 msgstr ""
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy, c-format
+msgid "DONE: uncompressed file is %lu %s (%.2f%%) smaller"
+msgstr "HECHO: el archivo descomprimido es %lu bytes más pequeño"
+
+#: ../raster/r.compress/main.c:220
+#, fuzzy, c-format
+msgid "DONE: compressed file is %lu %s (%.2f%%) smaller"
+msgstr "HECHO: el archivo comprimido es %lu bytes más pequeño"
+
+#: ../raster/r.compress/main.c:224
+#, fuzzy, c-format
+msgid "DONE: uncompressed file is %lu %s (%.2f%%) larger"
+msgstr "HECHO: el archivo descomprimido es %lu bytes mayor"
+
+#: ../raster/r.compress/main.c:225
+#, fuzzy, c-format
+msgid "DONE: compressed file is %lu %s (%.2f%%) larger"
+msgstr "HECHO: el archivo comprimido es %lu bytes mayor"
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.compress/main.c:228
 msgid "same size"
@@ -88359,10 +88385,13 @@ msgstr "\"-\" para leer reglas desde entrada estándar (stdin)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 msgid "Offset for color rule values"
 msgstr ""
 =======
@@ -88469,7 +88498,15 @@ msgstr ""
 msgid "Offset for color rule values"
 msgstr ""
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "Offset for color rule values"
+msgstr "Nombre de la columna para valores z"
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.colors/edit_colors.c:139 ../raster/r.colors/edit_colors.c:148
 msgid "New value = (old value + offset) * scale"
@@ -88498,10 +88535,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 msgid "Scale for color rule values"
 msgstr ""
 =======
@@ -88608,7 +88648,15 @@ msgstr ""
 msgid "Scale for color rule values"
 msgstr ""
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "Scale for color rule values"
+msgstr "Factor de escalamiento para valores ráster muestreados"
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.colors/edit_colors.c:284 ../raster/r.colors/edit_colors.c:318
 #, c-format
@@ -88720,10 +88768,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 msgid "Unable to open color rule"
 msgstr ""
 =======
@@ -88830,7 +88881,15 @@ msgstr ""
 msgid "Unable to open color rule"
 msgstr ""
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "Unable to open color rule"
+msgstr "No ha sido posible abrir archivo de script"
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.colors/rules.c:179
 #, c-format
@@ -90570,6 +90629,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -90604,6 +90664,8 @@ msgstr ""
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 msgid "Coordinates to profile"
 msgstr ""
 
@@ -90818,7 +90880,36 @@ msgstr "Re-comprimiendo <%s>"
 =======
 msgstr ""
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Coordenadas para consulta"
+
+#: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
+#: ../raster/r.geomorphon/main.c:272
+#, fuzzy
+msgid "Profile"
+msgstr "perfil"
+
+#: ../raster/r.geomorphon/main.c:261
+#, fuzzy
+msgid "Profile output file name (\"-\" for stdout)"
+msgstr "Nombre para archivo de salida que contendrá secuencia de nodos (\"-\" para salida a estándar)"
+
+#: ../raster/r.geomorphon/main.c:271
+#, fuzzy
+msgid "Profile output format"
+msgstr "Formato de salida"
+
+#: ../raster/r.geomorphon/main.c:292
+#, fuzzy, c-format
+msgid "Failed parsing <%s>"
+msgstr "Re-comprimiendo <%s>"
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:302
 #, c-format
@@ -90849,6 +90940,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -90883,6 +90975,8 @@ msgstr ""
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 msgid "The coordinates are outside of the computational region"
 msgstr ""
 
@@ -91019,7 +91113,20 @@ msgstr "No se puede abrir el archivo de salida <%s>"
 =======
 msgstr ""
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "The coordinates are outside of the computational region"
+msgstr "Usar la resolución del ráster base en lugar de la región computacional "
+
+#: ../raster/r.geomorphon/main.c:332
+#, fuzzy, c-format
+msgid "Failed to open output file <%s>: %d (%s)"
+msgstr "No se puede abrir el archivo de salida <%s>"
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"
@@ -91070,6 +91177,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -91104,6 +91212,8 @@ msgstr ""
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 msgid "Profile data has been written"
 msgstr ""
 
@@ -91234,7 +91344,20 @@ msgstr "Fallo al copiar archivo V5D"
 =======
 msgstr ""
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "Profile data has been written"
+msgstr "Escribir datos como enteros"
+
+#: ../raster/r.geomorphon/main.c:655
+#, fuzzy
+msgid "Failed writing profile data"
+msgstr "Fallo al copiar archivo V5D"
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:751
 msgid "Failed to profile the computation, please check the parameters"
@@ -91263,10 +91386,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 #, c-format
 msgid "Internal error in %s()"
 msgstr ""
@@ -91393,7 +91519,15 @@ msgstr ""
 msgid "Internal error in %s()"
 msgstr ""
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy, c-format
+msgid "Internal error in %s()"
+msgstr "Error interno para la función %s()"
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.proj/bordwalk.c:92 ../raster/r.proj/bordwalk.c:139
 #, c-format

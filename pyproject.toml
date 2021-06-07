@@ -45,6 +45,7 @@ line-length = 88
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 target-version = ['py37', 'py38', 'py39', 'py310']
@@ -127,6 +128,8 @@ target-version = ['py37', 'py38', 'py39', 'py310']
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
 =======
 =======
@@ -188,7 +191,12 @@ target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 target-version = ['py38', 'py39', 'py310', 'py311', 'py312']
 >>>>>>> 73cc5e30fa (Dockerfile: fix broken lib link (#1625))
 # 'extend-exclude' excludes files or directories in addition to the defaults
@@ -196,6 +204,7 @@ extend-exclude = '''
 (
     python/libgrass_interface_generator/
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -259,6 +268,8 @@ extend-exclude = '''
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
@@ -458,7 +469,13 @@ target-version = ['py36', 'py37', 'py38', 'py39']
 target-version = ['py37', 'py38', 'py39', 'py310']
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+target-version = ['py36', 'py37', 'py38', 'py39']
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 include = '\.pyi?$'
 exclude = '''
 (
@@ -509,6 +526,7 @@ exclude = '''
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     | python/libgrass_interface_generator/
@@ -585,6 +603,8 @@ exclude = '''
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -593,13 +613,19 @@ exclude = '''
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
     | python/grass/ctypes/
     # Bug in Black related to r-string prefix capitalization reformats
     # a line in this file unnecessarily. File is however fully Black-formatted
     # at the time of writing.
     # https://github.com/psf/black/issues/1244
     | python/grass/pygrass/utils.py
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -664,6 +690,8 @@ exclude = '''
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -874,7 +902,13 @@ exclude = '''
     | python/libgrass_interface_generator/
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
 )
 '''
 
