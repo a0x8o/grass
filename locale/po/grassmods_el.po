@@ -71773,6 +71773,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 =======
@@ -71801,6 +71802,11 @@ msgstr "Όνομα εισαγώμενου ράστερ χάρτη "
 msgid "Coordinates to profile"
 msgstr ""
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Όνομα εισαγώμενου ράστερ χάρτη "
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
@@ -71818,6 +71824,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Profile output format"
 msgstr ""
 =======
@@ -71846,6 +71853,11 @@ msgstr "Όνομα εξαγόμενου ράστερ χάρτη"
 msgid "Profile output format"
 msgstr ""
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Profile output format"
+msgstr "Όνομα εξαγόμενου ράστερ χάρτη"
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:292
 #, c-format

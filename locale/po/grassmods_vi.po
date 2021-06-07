@@ -71327,6 +71327,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 =======
@@ -71355,6 +71356,11 @@ msgstr "Tọa độ của (các) điểm bắt đầu (Đ,B)"
 msgid "Coordinates to profile"
 msgstr ""
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Tọa độ của (các) điểm bắt đầu (Đ,B)"
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
@@ -71372,6 +71378,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Profile output format"
 msgstr ""
 =======
@@ -71400,6 +71407,11 @@ msgstr "Tiền tố dùng cho (các) bản đồ raster đầu ra"
 msgid "Profile output format"
 msgstr ""
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Profile output format"
+msgstr "Tiền tố dùng cho (các) bản đồ raster đầu ra"
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:292
 #, c-format

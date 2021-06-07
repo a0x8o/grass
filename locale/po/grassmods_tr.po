@@ -79114,6 +79114,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 =======
@@ -79142,6 +79143,11 @@ msgstr "Sorgulanacak koordinatlar"
 msgid "Coordinates to profile"
 msgstr ""
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Sorgulanacak koordinatlar"
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
@@ -79159,6 +79165,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -79208,6 +79215,16 @@ msgstr "Dışa aktarılıyor <%s>"
 =======
 msgstr ""
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Profile output format"
+msgstr "Çıktı biçimi"
+
+#: ../raster/r.geomorphon/main.c:292
+#, fuzzy, c-format
+msgid "Failed parsing <%s>"
+msgstr "Dışa aktarılıyor <%s>"
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:302
 #, c-format
@@ -79221,6 +79238,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -79270,6 +79288,16 @@ msgstr "<%s> çıktı dosyası açılamıyor"
 =======
 msgstr ""
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "The coordinates are outside of the computational region"
+msgstr "Son nokta koordinatları geçerli bölge ayarları dışındadır"
+
+#: ../raster/r.geomorphon/main.c:332
+#, fuzzy, c-format
+msgid "Failed to open output file <%s>: %d (%s)"
+msgstr "<%s> çıktı dosyası açılamıyor"
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"

@@ -81376,6 +81376,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 =======
@@ -81404,6 +81405,11 @@ msgstr "Coordenadas para pesquisa"
 msgid "Coordinates to profile"
 msgstr ""
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Coordenadas para pesquisa"
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
@@ -81417,6 +81423,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -81463,6 +81470,16 @@ msgstr "Formato de saída"
 =======
 msgstr ""
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Profile output file name (\"-\" for stdout)"
+msgstr "Nome do arquivo de saída (use output=- para saída padrão)"
+
+#: ../raster/r.geomorphon/main.c:271
+#, fuzzy
+msgid "Profile output format"
+msgstr "Formato de saída"
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:292
 #, c-format
