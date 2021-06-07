@@ -316,6 +316,7 @@ class GifWriter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -476,6 +477,10 @@ class GifWriter:
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+=======
+>>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b974eae31d (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 8e84f40070 (Dockerfile: fix broken lib link (#1625))
@@ -1447,8 +1452,12 @@ class GifWriter:
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> e29d325b37 (Dockerfile: fix broken lib link (#1625))
             loops = 2**16 - 1
 =======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
             loops = 2 ** 16 - 1
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
@@ -1952,6 +1961,7 @@ def readGif(filename, asNumpy=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise IOError("File not found: " + str(filename))
 =======
 <<<<<<< HEAD
@@ -2084,6 +2094,8 @@ def readGif(filename, asNumpy=True):
 =======
 >>>>>>> 8e84f40070 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> b974eae31d (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -2096,6 +2108,8 @@ def readGif(filename, asNumpy=True):
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
         raise IOError("File not found: " + str(filename))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
@@ -2302,8 +2316,16 @@ def readGif(filename, asNumpy=True):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 8e84f40070 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> e29d325b37 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b974eae31d (Dockerfile: fix broken lib link (#1625))
         raise OSError("File not found: " + str(filename))
 =======
         raise IOError("File not found: " + str(filename))
@@ -2365,6 +2387,7 @@ def readGif(filename, asNumpy=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -2439,6 +2462,8 @@ def readGif(filename, asNumpy=True):
 =======
 >>>>>>> 8e84f40070 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> b974eae31d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 0db65d5784 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -2451,6 +2476,8 @@ def readGif(filename, asNumpy=True):
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
 =======
         raise IOError("File not found: " + str(filename))
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -2836,8 +2863,19 @@ def readGif(filename, asNumpy=True):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 8e84f40070 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+=======
+        raise IOError("File not found: " + str(filename))
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> e29d325b37 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b974eae31d (Dockerfile: fix broken lib link (#1625))
 
     # Load file using PIL
     pilIm = PIL.Image.open(filename)
