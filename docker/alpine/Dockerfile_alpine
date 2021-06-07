@@ -247,6 +247,7 @@ RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 RUN ln -sf /usr/local/grass `grass --config path`
 =======
 RUN ln -s /usr/local/grass /usr/local/grass7
@@ -279,6 +280,9 @@ RUN ln -s /usr/local/grass `grass --config path`
 =======
 RUN ln -sf `grass --config path` /usr/local/grass
 >>>>>>> e3effd5180 (Dockerfile_alpine: fix broken link creatio)
+=======
+RUN ln -sf /usr/local/grass `grass --config path`
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
     pdal --version && \
     python3 --version
@@ -296,12 +300,16 @@ RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.in.pdal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
 
 # Not yet ready for GRASS GIS 8:
 #RUN /usr/bin/python3 /scripts/test_grass_session.py
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 RUN /usr/bin/python3 /scripts/test_grass_session.py
@@ -311,6 +319,8 @@ RUN /usr/bin/python3 /scripts/test_grass_session.py
 =======
 RUN /usr/bin/python3 /scripts/test_grass_session.py
 >>>>>>> 79c09abba5 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
 
 # Test addon installation
 RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.learn.ml

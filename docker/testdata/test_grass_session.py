@@ -898,6 +898,7 @@ from grass_session import Session
 # https://github.com/zarch/grass-session
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # pip install grass-session
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -984,7 +985,14 @@ from grass_session import Session
 =======
 >>>>>>> a3451b0781 (Dockerfile: fix broken lib link (#1625))
 
+<<<<<<< HEAD
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+=======
+=======
+
+from grass_session import Session
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
 import grass.script as gs
 
 # full path to new project

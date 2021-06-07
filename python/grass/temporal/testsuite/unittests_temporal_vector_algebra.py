@@ -167,9 +167,13 @@ class TestTemporalVectorAlgebra(TestCase):
 =======
     def test_temporal_select(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator."""
         tva = tgis.TemporalVectorAlgebraParser(run=True, debug=True)
         tva.parse(expression="R = A : A", basename="r", overwrite=True)
@@ -192,9 +196,13 @@ class TestTemporalVectorAlgebra(TestCase):
 =======
     def test_temporal_extent1(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal extent operators."""
         ta = tgis.TemporalVectorAlgebraParser(run=True, debug=True)
         ta.parse(expression="R = A {:,during,r} C", basename="r", overwrite=True)
@@ -216,9 +224,13 @@ class TestTemporalVectorAlgebra(TestCase):
 =======
     def test_temporal_select_operators(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator. Including temporal relations."""
         tva = tgis.TemporalVectorAlgebraParser(run=True, debug=True)
         tva.parse(expression="R = A {:,during} C", basename="r", overwrite=True)

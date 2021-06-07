@@ -473,9 +473,13 @@ def main():
 =======
     except:
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
         pass
 
 
@@ -545,9 +549,13 @@ def brovey(pan, ms1, ms2, ms3, out, pid, sproc):
 =======
         except:
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
             pass
 
     # Cleanup
@@ -564,9 +572,13 @@ def brovey(pan, ms1, ms2, ms3, out, pid, sproc):
 =======
     except:
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
         pass
 
 
@@ -607,12 +619,16 @@ def ihs(pan, ms1, ms2, ms3, out, pid, sproc):
     try:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
         gs.run_command("g.remove", flags="f", quiet=True, type="raster", name=panmatch)
     except CalledModuleError:
 =======
         grass.run_command(
             "g.remove", flags="f", quiet=True, type="raster", name=panmatch
         )
+<<<<<<< HEAD
 =======
         gs.run_command("g.remove", flags="f", quiet=True, type="raster", name=panmatch)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
@@ -621,6 +637,10 @@ def ihs(pan, ms1, ms2, ms3, out, pid, sproc):
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+    except:
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
         pass
 
 
@@ -751,9 +771,13 @@ def pca(pan, ms1, ms2, ms3, out, pid, sproc):
 =======
         except:
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
             pass
 
     # Cleanup

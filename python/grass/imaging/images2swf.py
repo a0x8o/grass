@@ -394,10 +394,15 @@ class Tag:
         """Implement this to create the tag."""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise NotImplementedError
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+        raise NotImplementedError
+=======
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
         raise NotImplementedError()
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 

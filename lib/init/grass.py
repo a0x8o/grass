@@ -12581,6 +12581,7 @@ def set_paths(grass_config_dir):
     # addons (base)
     addon_base = os.getenv("GRASS_ADDON_BASE")
     if not addon_base:
+<<<<<<< HEAD
         if MACOS:
             version = f"{GRASS_VERSION_MAJOR}.{GRASS_VERSION_MINOR}"
             addon_base = os.path.join(
@@ -12588,6 +12589,9 @@ def set_paths(grass_config_dir):
             )
         else:
             addon_base = os.path.join(grass_config_dir, "addons")
+=======
+        addon_base = os.path.join(grass_config_dir, "addons")
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
         os.environ["GRASS_ADDON_BASE"] = addon_base
     if not WINDOWS:
         path_prepend(os.path.join(addon_base, "scripts"), "PATH")
@@ -12688,7 +12692,11 @@ def set_browser():
     # GRASS_HTML_BROWSER
     browser = os.getenv("GRASS_HTML_BROWSER")
     if not browser:
+<<<<<<< HEAD
         if MACOS:
+=======
+        if MACOSX:
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
             # OSX doesn't execute browsers from the shell PATH - route through a
             # script
             browser = gpath("etc", "html_browser_mac.sh")
@@ -12723,7 +12731,11 @@ def set_browser():
                     browser = b
                     break
 
+<<<<<<< HEAD
     elif MACOS:
+=======
+    elif MACOSX:
+>>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
         # OSX doesn't execute browsers from the shell PATH - route through a
         # script
         os.environ["GRASS_HTML_BROWSER_MACOSX"] = "-b %s" % browser
