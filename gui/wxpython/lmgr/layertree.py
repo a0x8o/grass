@@ -153,6 +153,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -221,6 +222,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -278,6 +281,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -765,6 +770,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
         createNewMapDisplay,
 =======
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> decbe5b393 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -785,7 +791,18 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+        createNewMapDisplay,
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
         id=wx.ID_ANY,
         style=wx.SUNKEN_BORDER,
         ctstyle=CT.TR_HAS_BUTTONS
@@ -912,6 +929,10 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 =======
@@ -978,12 +999,22 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
         if "style" in kwargs:
             ctstyle |= kwargs["style"]
             del kwargs["style"]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1040,10 +1071,14 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -1222,8 +1257,17 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 
         if "style" in kwargs:
             ctstyle |= kwargs["style"]
@@ -1371,6 +1415,10 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -1868,8 +1916,20 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+        self.displayIndex = kwargs["idx"]
+        del kwargs["idx"]
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
         self.lmgr = kwargs["lmgr"]
         del kwargs["lmgr"]
         # GIS Manager notebook for layer tree
@@ -2053,6 +2113,10 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -2097,9 +2161,12 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+=======
         showMapDisplay = kwargs["showMapDisplay"]
         del kwargs["showMapDisplay"]
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2188,12 +2255,16 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2458a1951e (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -2597,6 +2668,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
@@ -2610,7 +2682,15 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 
         self._giface = giface
         self.treepg = parent  # notebook page holding layer tree
@@ -2672,6 +2752,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             super(LayerTree, self).__init__(parent, id, agwStyle=ctstyle, **kwargs)
         else:
             super(LayerTree, self).__init__(parent, id, style=ctstyle, **kwargs)
@@ -2756,8 +2837,12 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
             super(LayerTree, self).__init__(parent, id, agwStyle=ctstyle, **kwargs)
         else:
             super(LayerTree, self).__init__(parent, id, style=ctstyle, **kwargs)
@@ -2824,8 +2909,17 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
             super().__init__(parent, id, agwStyle=ctstyle, **kwargs)
         else:
             super().__init__(parent, id, style=ctstyle, **kwargs)
@@ -2866,6 +2960,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -2928,6 +3023,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
 =======
@@ -2938,6 +3035,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -3124,8 +3223,17 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
         self.SetName("LayerTree")
         self.SetBackgroundColour(wx.SystemSettings().GetColour(wx.SYS_COLOUR_WINDOW))
 
@@ -3153,6 +3261,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
@@ -3161,6 +3270,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
         self.mapdisplay = createNewMapDisplay(layertree=self)
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
@@ -3435,6 +3546,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
@@ -3446,11 +3558,20 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
         # create instance of Map Display interface
         self._gifaceForDisplay = LayerManagerGrassInterfaceForMapDisplay(giface, self)
         self.mapdisplay = createNewMapDisplay(self._gifaceForDisplay, layertree=self)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3507,6 +3628,10 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -3679,8 +3804,17 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
         pos = wx.Point((self.displayIndex + 1) * 25, (self.displayIndex + 1) * 25)
         self._gifaceForDisplay = LayerManagerGrassInterfaceForMapDisplay(
             self._giface, self
@@ -3693,6 +3827,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
             size=globalvar.MAP_WINDOW_SIZE,
             style=wx.DEFAULT_FRAME_STYLE,
             tree=self,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3763,10 +3898,17 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> 5b0d02a49f (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 4178ebd75e (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> c428eb98e4 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
             lmgr=self.lmgr,
 =======
             notebook=self.notebook,
@@ -3954,8 +4096,20 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
             lmgr=self.lmgr,
+<<<<<<< HEAD
 >>>>>>> d658b14f51 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> 5b0d02a49f (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+            notebook=self.notebook,
+            lmgr=self.lmgr,
+            page=self.treepg,
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
             Map=self.Map,
             title=title,
         )
@@ -3966,6 +4120,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
             self.mapdisplay.Refresh()
             self.mapdisplay.Update()
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4052,6 +4207,10 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
@@ -4297,6 +4456,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 =======
         self.mapdisplay = createNewMapDisplay(layertree=self)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4306,7 +4466,15 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 
         self.root = self.AddRoot(_("Map Layers"))
         self.SetPyData(self.root, (None, None))
@@ -4645,6 +4813,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4712,6 +4881,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -4785,6 +4956,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -5289,6 +5462,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
@@ -5302,7 +5476,19 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+                "check",
+                "uncheck",
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
             ):
                 self.popupID[key] = NewId()
 
@@ -5329,6 +5515,11 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -6019,6 +6210,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 
         if numSelected > 1:
@@ -6128,6 +6320,11 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
                 self.OnCheckUncheckSelectedLayer,
                 id=self.popupID["uncheck"],
             )
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 
         if numSelected > 1:
             item = wx.MenuItem(
@@ -6152,6 +6349,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
                 self.OnCheckUncheckSelectedLayer,
                 id=self.popupID["uncheck"],
             )
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 
         # when multiple maps are selected of different types
         # we cannot zoom or change region
@@ -6226,6 +6425,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6302,6 +6502,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
@@ -6376,6 +6578,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6949,8 +7153,21 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
                 if not (ltype == "raster_3d" or self.mapdisplay.IsPaneShown("3d")):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+                if not (ltype == "raster_3d" or self.mapdisplay.IsPaneShown("3d")):
+=======
+                if ltype != "raster_3d":
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
                     item = wx.MenuItem(
                         self.popupMenu,
                         id=self.popupID["opacity"],
@@ -7037,6 +7254,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
@@ -7184,6 +7402,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 94f2c5172b (style(gui): Fixes literal-membership (PLR6201) (#3952))
+=======
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
                 if ltype in {
                     "raster",
                     "vector",
@@ -7206,6 +7426,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 <<<<<<< HEAD
 =======
@@ -8559,14 +8781,44 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
                 if ltype in {
                     "raster",
                     "vector",
                     "raster_3d",
                 } and self.mapdisplay.IsPaneShown("3d"):
+<<<<<<< HEAD
 >>>>>>> 2ae07bc17e (style(gui): Fixes literal-membership (PLR6201) (#3952))
+<<<<<<< HEAD
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+<<<<<<< HEAD
 >>>>>>> 94f2c5172b (style(gui): Fixes literal-membership (PLR6201) (#3952))
+=======
+=======
+=======
+=======
+<<<<<<< HEAD
+                if ltype in (
+                    "raster",
+                    "vector",
+                    "raster_3d",
+                ) and self.mapdisplay.IsPaneShown("3d"):
+=======
+                if (
+                    ltype
+                    in (
+                        "raster",
+                        "vector",
+                        "raster_3d",
+                    )
+                    and self.mapdisplay.IsPaneShown("3d")
+                ):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> decbe5b393 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
                     self.popupMenu.Append(self.popupID["nviz"], _("3D view properties"))
                     self.Bind(
                         wx.EVT_MENU, self.OnNvizProperties, id=self.popupID["nviz"]
@@ -8749,6 +9001,10 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 =======
@@ -8815,8 +9071,17 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
         elif ltype == "group":
             # Dynamically add Change opacity level menu item according
             # if any layer inside group layer is map layer
@@ -8878,6 +9143,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -8902,10 +9168,14 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -9084,8 +9354,17 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 
         # vector layers (specific items)
         if ltype and ltype == "vector" and numSelected == 1:
@@ -9840,6 +10119,10 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> a2ef6edc89 (r.report: add default units, change to full unit names (#1666))
 =======
 =======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 4ce3494716 (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
 =======
@@ -10132,6 +10415,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
@@ -10145,7 +10429,15 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> c7e767a1cc (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> a2ef6edc89 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
                 [
                     "r.report",
                     "map=%s" % ",".join(rasters),
@@ -10169,8 +10461,11 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 4ce3494716 (r.report: add default units, change to full unit names (#1666))
@@ -10719,8 +11014,20 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> c7e767a1cc (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> a2ef6edc89 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+                ["r.report", "map=%s" % ",".join(rasters), "units=h,c,p"]
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
             )
 
     def OnStartEditing(self, event):
@@ -10912,6 +11219,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
@@ -10920,6 +11228,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
         if not UserSettings.Get(
             group="general",
 =======
@@ -11196,6 +11506,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
@@ -11207,7 +11518,15 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
         if not UserSettings.Get(
             group="appearance",
 =======
@@ -11525,8 +11844,11 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -12075,8 +12397,20 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+        self.lmgr.notebook.SetSelectionByName("nviz")
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
         ltype = self.GetLayerInfo(self.layer_selected, key="type")
         if ltype == "raster":
             self.lmgr.nviz.SetPage("surface")
@@ -12330,6 +12664,10 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -12622,6 +12960,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
@@ -12635,7 +12974,15 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
     def OnCheckUncheckSelectedLayer(self, event):
         """Check/uncheck selected layer(s)"""
         check = wx.CHK_CHECKED
@@ -12663,8 +13010,11 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -13196,8 +13546,19 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
     def AddLayer(
         self,
         ltype,

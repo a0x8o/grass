@@ -131,6 +131,7 @@ GLOBAL struct Cell_head window;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -199,6 +200,8 @@ GLOBAL struct Cell_head window;
 =======
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -256,6 +259,8 @@ GLOBAL struct Cell_head window;
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -743,6 +748,7 @@ GLOBAL struct Cell_head window;
 =======
 
 =======
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> decbe5b393 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -763,7 +769,18 @@ GLOBAL struct Cell_head window;
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 /* Zenith/nadir comparison modes. */
 GLOBAL enum { ANGLEV1, ANGLEV2, ANGLEV2_DISTANCE } compmode;
 

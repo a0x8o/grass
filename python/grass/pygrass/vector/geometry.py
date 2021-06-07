@@ -1340,6 +1340,11 @@ class Boundary(Line):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1608,8 +1613,18 @@ class Boundary(Line):
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
     # geometry type

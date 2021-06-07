@@ -188,6 +188,10 @@ typedef enum {
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b157eb6234 (Dockerfile_alpine: fix broken link creatio)
 <<<<<<< HEAD
 =======
@@ -241,6 +245,8 @@ typedef enum {
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 02fc806ed8 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
 =======
 typedef struct
 {
@@ -390,6 +396,7 @@ typedef struct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -410,6 +417,10 @@ typedef struct
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -754,8 +765,16 @@ typedef struct
 =======
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 1bccffe3c4 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 >>>>>>> 0076229ec5 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 >>>>>>> d6707ca55d (Dockerfile_alpine: fix broken link creatio)
+=======
+=======
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 int main(int argc, char **argv)
 {
     struct { /* struct is used both for interface and output */
@@ -797,6 +816,7 @@ int main(int argc, char **argv)
          FCELL_TYPE, -1, NULL}};
 
     struct GModule *module;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -949,6 +969,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -957,6 +979,8 @@ int main(int argc, char **argv)
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -1044,13 +1068,22 @@ int main(int argc, char **argv)
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
     struct Option *opt_input, *opt_output[o_size], *par_search_radius,
         *par_skip_radius, *par_flat_threshold, *par_flat_distance,
         *par_comparison, *par_coords, *par_profiledata, *par_profileformat;
@@ -1095,7 +1128,11 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
+=======
+<<<<<<< HEAD
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
     struct Option *opt_input, *opt_output[o_size], *par_search_radius,
         *par_skip_radius, *par_flat_threshold, *par_flat_distance,
         *par_comparison, *par_coords, *par_profiledata, *par_profileformat;
@@ -1154,8 +1191,17 @@ int main(int argc, char **argv)
 >>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> decbe5b393 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
     struct Option
         *opt_input,
         *opt_output[o_size],
@@ -1203,11 +1249,15 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+<<<<<<< HEAD
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
@@ -1261,6 +1311,9 @@ int main(int argc, char **argv)
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> f01dbb07ac (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -1681,6 +1734,7 @@ int main(int argc, char **argv)
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -1695,7 +1749,16 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
     struct Flag *flag_units, *flag_extended;
 
     struct History history;
@@ -2067,6 +2130,10 @@ int main(int argc, char **argv)
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -2319,6 +2386,7 @@ int main(int argc, char **argv)
 >>>>>>> 4ea4e163d5 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
@@ -2327,7 +2395,15 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
                 G_warning(
                     _("There may be a notable processing delay because the "
                       "computational region is %lu times larger than "
@@ -2351,8 +2427,11 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2868,9 +2947,12 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+=======
                 G_warning(_("There may be a notable processing delay because the "
                            "computational region is %lu times larger than necessary"),
                           window_square / search_square);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -2961,8 +3043,18 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
         }
     }
 
