@@ -218,6 +218,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -410,6 +411,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
@@ -634,6 +637,7 @@ class TestTemporalAlgebra(TestCase):
 =======
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -867,11 +871,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
             expression="R = A : A", stdstype="strds", basename="r", overwrite=True
         )
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1104,6 +1113,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
@@ -1536,12 +1547,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cf6e2e0efd (Dockerfile: fix broken lib link (#1625))
 =======
@@ -1754,6 +1769,8 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(expression="R = A : A", stdstype="strds", basename="r", overwrite=True)
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -1859,6 +1876,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2051,6 +2069,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
@@ -2275,6 +2295,7 @@ class TestTemporalAlgebra(TestCase):
 =======
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -2508,11 +2529,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
             expression="R = A : D", stdstype="strds", basename="r", overwrite=True
         )
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2745,6 +2771,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
@@ -3177,12 +3205,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cf6e2e0efd (Dockerfile: fix broken lib link (#1625))
 =======
@@ -3395,6 +3427,8 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(expression="R = A : D", stdstype="strds", basename="r", overwrite=True)
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -3499,6 +3533,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3680,6 +3715,8 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -3799,6 +3836,7 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7c712c5b7d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -3915,11 +3953,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4111,6 +4154,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
     def test_temporal_select3(self):
         """Testing the temporal select operator with equal relations."""
@@ -4450,6 +4495,7 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -4696,6 +4742,10 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -4802,6 +4852,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4983,6 +5034,8 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -5102,6 +5155,7 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7c712c5b7d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -5218,11 +5272,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5414,6 +5473,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
     def test_temporal_select_operators1(self):
         """Testing the temporal select operator. Including temporal relations."""
@@ -5753,6 +5814,7 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -5999,6 +6061,10 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -6108,6 +6174,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -6289,6 +6356,8 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -6408,6 +6477,7 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7c712c5b7d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -6524,11 +6594,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6720,6 +6795,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
     def test_temporal_select_operators2(self):
         """Testing the temporal select operator. Including temporal relations."""
@@ -7059,6 +7136,7 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -7305,6 +7383,10 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -7493,6 +7575,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7674,6 +7757,8 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -7793,6 +7878,7 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7c712c5b7d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -7909,11 +7995,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8105,6 +8196,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
     def test_temporal_extent1(self):
         """Testing the temporal extent operators."""
@@ -8444,6 +8537,7 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -8690,6 +8784,10 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -8799,6 +8897,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8980,6 +9079,8 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -9099,6 +9200,7 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7c712c5b7d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -9215,11 +9317,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9411,6 +9518,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
     def test_temporal_extent2(self):
         """Testing the temporal extent operators."""
@@ -9750,6 +9859,7 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -9996,6 +10106,10 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -10105,6 +10219,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -10286,6 +10401,8 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -10405,6 +10522,7 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7c712c5b7d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -10521,11 +10639,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10717,6 +10840,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
     def test_temporal_extent3(self):
         """Testing the temporal extent operators."""
@@ -11056,6 +11181,7 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -11302,6 +11428,10 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -11416,6 +11546,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -11597,6 +11728,8 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -11716,6 +11849,7 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7c712c5b7d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -11832,11 +11966,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12028,6 +12167,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
     def test_temporal_hash1(self):
         """Testing the hash function in conditional statement."""
@@ -12367,6 +12508,7 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -12613,6 +12755,10 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -12722,6 +12868,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12903,6 +13050,8 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -13022,6 +13171,7 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7c712c5b7d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -13138,11 +13288,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13334,6 +13489,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
     def test_temporal_hash_operator1(self):
         """Testing the hash operator function in conditional statement."""
@@ -13673,6 +13830,7 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -13919,6 +14077,10 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -14028,6 +14190,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -14209,6 +14372,8 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -14328,6 +14493,7 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7c712c5b7d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -14444,11 +14610,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14640,6 +14811,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
     def test_temporal_hash_operator2(self):
         """Testing the hash operator function in conditional statement."""
@@ -14979,6 +15152,7 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -15225,6 +15399,10 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -15334,6 +15512,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -15515,6 +15694,8 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -15634,6 +15815,7 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7c712c5b7d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -15750,11 +15932,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15946,6 +16133,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
     def test_tmap_function1(self):
         """Testing the tmap function."""
@@ -16285,6 +16474,7 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -16531,6 +16721,10 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -16640,6 +16834,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16821,6 +17016,8 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -16940,6 +17137,7 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7c712c5b7d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -17056,11 +17254,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17252,6 +17455,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
     def test_tmap_function2(self):
         """Testing the tmap function."""
@@ -17591,6 +17796,7 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -17837,6 +18043,10 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -17946,6 +18156,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -18127,6 +18338,8 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -18246,6 +18459,7 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7c712c5b7d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -18362,11 +18576,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18558,6 +18777,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
     def test_merge_function1(self):
         """Testing the merge function."""
@@ -18897,6 +19118,7 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -19143,6 +19365,10 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -19249,6 +19475,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -19430,6 +19657,8 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -19549,6 +19778,7 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7c712c5b7d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -19665,11 +19895,16 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> bf584e8231 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(run=True, debug=True)
         temporal_algebra_parser.parse(
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19861,6 +20096,8 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
     def test_merge_function2(self):
         """Testing the merge function."""
@@ -20200,6 +20437,7 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -20446,6 +20684,10 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -20664,6 +20906,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -20856,6 +21099,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
@@ -21080,6 +21325,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -21313,11 +21559,16 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(
             run=True, debug=False, dry_run=True
         )
         parser_content = temporal_algebra_parser.parse(
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21550,6 +21801,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
@@ -21982,12 +22235,16 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cf6e2e0efd (Dockerfile: fix broken lib link (#1625))
 =======
@@ -22200,6 +22457,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
         pc = ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -22302,6 +22561,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -22494,6 +22754,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
@@ -22718,6 +22980,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -22951,11 +23214,16 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(
             run=True, debug=False, dry_run=True
         )
         parser_content = temporal_algebra_parser.parse(
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23188,6 +23456,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
@@ -23620,12 +23890,16 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cf6e2e0efd (Dockerfile: fix broken lib link (#1625))
 =======
@@ -23838,6 +24112,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
         pc = ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -23940,6 +24216,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -24132,6 +24409,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
@@ -24356,6 +24635,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -24589,11 +24869,16 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(
             run=True, debug=False, dry_run=True
         )
         parser_content = temporal_algebra_parser.parse(
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24826,6 +25111,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
@@ -25258,12 +25545,16 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cf6e2e0efd (Dockerfile: fix broken lib link (#1625))
 =======
@@ -25476,6 +25767,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
         pc = ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -25578,6 +25871,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -25770,6 +26064,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
@@ -25994,6 +26290,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -26227,11 +26524,16 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(
             run=True, debug=False, dry_run=True
         )
         parser_content = temporal_algebra_parser.parse(
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26464,6 +26766,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
@@ -26896,12 +27200,16 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cf6e2e0efd (Dockerfile: fix broken lib link (#1625))
 =======
@@ -27114,6 +27422,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
         pc = ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -27216,6 +27526,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -27408,6 +27719,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
@@ -27632,6 +27945,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -27865,11 +28179,16 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(
             run=True, debug=False, dry_run=True
         )
         parser_content = temporal_algebra_parser.parse(
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28102,6 +28421,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
@@ -28534,12 +28855,16 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cf6e2e0efd (Dockerfile: fix broken lib link (#1625))
 =======
@@ -28752,6 +29077,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
         pc = ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -28854,6 +29181,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -29046,6 +29374,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
@@ -29270,6 +29600,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -29503,11 +29834,16 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(
             run=True, debug=False, dry_run=True
         )
         parser_content = temporal_algebra_parser.parse(
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29740,6 +30076,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
@@ -30172,12 +30510,16 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cf6e2e0efd (Dockerfile: fix broken lib link (#1625))
 =======
@@ -30390,6 +30732,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
         pc = ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -30492,6 +30836,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -30684,6 +31029,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
@@ -30908,6 +31255,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -31141,11 +31489,16 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         temporal_algebra_parser = tgis.TemporalAlgebraParser(
             run=True, debug=False, dry_run=True
         )
         parser_content = temporal_algebra_parser.parse(
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31378,6 +31731,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> b30eba7edb (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
@@ -31810,12 +32165,16 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72ee0b4513 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cf6e2e0efd (Dockerfile: fix broken lib link (#1625))
 =======
@@ -32028,6 +32387,8 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
         pc = ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
