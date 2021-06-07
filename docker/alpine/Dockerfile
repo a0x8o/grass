@@ -14800,6 +14800,7 @@ RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -14975,6 +14976,10 @@ RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 =======
 =======
 =======
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8e84f40070 (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> ac664b5010 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> ed90fc7c13 (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -15042,6 +15047,7 @@ RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 =======
 =======
 >>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
@@ -15093,7 +15099,14 @@ RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 =======
 =======
 >>>>>>> f70372cb5d (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 3ced4bb2db (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8e84f40070 (Dockerfile: fix broken lib link (#1625))
 RUN ln -sf /usr/local/grass `grass --config path`
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 =======
@@ -18404,7 +18417,10 @@ RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.learn.ml
 >>>>>>> osgeo-main
 =======
 RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.in.pdal
-RUN /usr/bin/python3 /scripts/test_grass_session.py
+
+# Not yet ready for GRASS GIS 8:
+#RUN /usr/bin/python3 /scripts/test_grass_session.py
+RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
 
 # Test addon installation
 RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.learn.ml
