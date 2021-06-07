@@ -1337,7 +1337,10 @@ class Node:
 
 class Boundary(Line):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
     # geometry type
