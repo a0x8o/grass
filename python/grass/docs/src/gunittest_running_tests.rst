@@ -203,6 +203,7 @@ you would use::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raster/r.contour/testsuite/testrc.py
 =======
 <<<<<<< HEAD
@@ -671,6 +672,8 @@ you would use::
 =======
 >>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 7b80a7eedd (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -869,7 +872,12 @@ you would use::
 =======
 =======
 >>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> f70372cb5d (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 7b80a7eedd (Dockerfile: fix broken lib link (#1625))
         raster/r.contour/testsuite/test_broken.py
 =======
         raster/r.contour/testsuite/testrc.py
@@ -972,6 +980,7 @@ you would use::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -1107,6 +1116,8 @@ you would use::
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 7b80a7eedd (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 0db65d5784 (Dockerfile: fix broken lib link (#1625))
@@ -1600,6 +1611,7 @@ you would use::
 >>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cf6e2e0efd (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -1802,6 +1814,10 @@ you would use::
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> f70372cb5d (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 7b80a7eedd (Dockerfile: fix broken lib link (#1625))
 
 
 Running tests and creating report
