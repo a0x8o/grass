@@ -26084,6 +26084,9 @@ RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b18a407011 (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -26236,7 +26239,12 @@ RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 =======
 =======
 >>>>>>> 7de156f16b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> e494d37988 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> b6e5194011 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
 RUN ln -sf /usr/local/grass `grass --config path`
 =======
 RUN ln -s /usr/local/grass `grass --config path`
@@ -32584,7 +32592,10 @@ RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.learn.ml
 =======
 =======
 RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.in.pdal
-RUN /usr/bin/python3 /scripts/test_grass_session.py
+
+# Not yet ready for GRASS GIS 8:
+#RUN /usr/bin/python3 /scripts/test_grass_session.py
+RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
 
 # Test addon installation
 RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.learn.ml

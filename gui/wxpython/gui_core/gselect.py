@@ -8911,6 +8911,7 @@ class VectorCategorySelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """Check if selected map in 'input' widget is the same as selected map in lmgr"""
 =======
 <<<<<<< HEAD
@@ -9371,6 +9372,8 @@ class VectorCategorySelect(wx.Panel):
 =======
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -9549,7 +9552,12 @@ class VectorCategorySelect(wx.Panel):
 =======
 =======
 >>>>>>> eb0461e127 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> b6e5194011 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
         """Check if selected map in 'input' widget is the same as selected map in
         lmgr"""
 =======
@@ -9649,6 +9657,7 @@ class VectorCategorySelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -9776,6 +9785,8 @@ class VectorCategorySelect(wx.Panel):
 >>>>>>> e494d37988 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 0db65d5784 (Dockerfile: fix broken lib link (#1625))
@@ -10233,6 +10244,7 @@ class VectorCategorySelect(wx.Panel):
 >>>>>>> eb0461e127 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cbb81e2ed9 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -10449,6 +10461,10 @@ class VectorCategorySelect(wx.Panel):
 >>>>>>> e494d37988 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> b6e5194011 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
         if self._isMapSelected():
             layerList = self.giface.GetLayerList()
             layerSelected = layerList.GetSelectedLayer()

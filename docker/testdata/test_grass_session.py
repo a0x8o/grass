@@ -46,6 +46,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -112,6 +113,8 @@
 =======
 >>>>>>> e494d37988 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 =======
 <<<<<<< HEAD
@@ -167,11 +170,17 @@
 =======
 =======
 >>>>>>> 7de156f16b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> e494d37988 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> b6e5194011 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
 # Import GRASS GIS Python bindings (requires 8.4+) and test r.in.pdal
 
 # PYTHONPATH=$(grass --config python-path) python
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -536,6 +545,8 @@
 =======
 >>>>>>> e494d37988 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -898,11 +909,15 @@
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> eb0461e127 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cbb81e2ed9 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+>>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
+=======
 # Import GRASS Python bindings
 # https://github.com/zarch/grass-session
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # pip install grass-session
@@ -1196,6 +1211,13 @@
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> eb0461e127 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 9087bcf6fe (Dockerfile: fix broken lib link (#1625))
+=======
+# pip install grass-session
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b6e5194011 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 56f3d5a1bd (Dockerfile: fix broken lib link (#1625))
 
 =======
 =======
