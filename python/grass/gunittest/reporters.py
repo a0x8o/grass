@@ -3028,6 +3028,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
@@ -3085,6 +3086,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 =======
 >>>>>>> 11368ff97a (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 68d3c5771d (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b974eae31d (Dockerfile: fix broken lib link (#1625))
@@ -3555,7 +3558,15 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 4d9eb9010a (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 11368ff97a (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 41ab2f7485 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 68d3c5771d (Dockerfile: fix broken lib link (#1625))
         self._stream.write("Running {file}...\n".format(file=module.file_path))
         # get the above line and all previous ones to the report
         self._stream.flush()
@@ -4667,6 +4678,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4898,6 +4910,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 =======
 >>>>>>> 11368ff97a (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 68d3c5771d (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -5362,7 +5376,12 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 =======
 >>>>>>> 4d9eb9010a (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 11368ff97a (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 41ab2f7485 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 68d3c5771d (Dockerfile: fix broken lib link (#1625))
             self._stream.write(f"FAILED {module.file_path}")
             if timed_out:
                 self._stream.write(f" - Timeout >{timed_out}s")
@@ -5494,6 +5513,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> af77d3065d (Dockerfile: fix broken lib link (#1625))
             self._stream.write("FAILED {file}".format(file=module.file_path))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6606,7 +6626,15 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
             self._stream.write("FAILED {file}".format(file=module.file_path))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 4d9eb9010a (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 11368ff97a (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+            self._stream.write("FAILED {file}".format(file=module.file_path))
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 41ab2f7485 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 68d3c5771d (Dockerfile: fix broken lib link (#1625))
             num_failed = test_summary.get("failures", 0)
             num_failed += test_summary.get("errors", 0)
             if num_failed:

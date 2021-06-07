@@ -862,6 +862,7 @@ from grass_session import Session
 <<<<<<< HEAD
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -921,14 +922,19 @@ from grass_session import Session
 =======
 =======
 =======
+>>>>>>> 41ab2f7485 (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> e29d325b37 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 41ab2f7485 (Dockerfile: fix broken lib link (#1625))
 
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 import grass.script as gs
