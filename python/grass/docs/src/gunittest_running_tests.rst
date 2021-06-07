@@ -209,6 +209,7 @@ you would use::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raster/r.contour/testsuite/testrc.py
 =======
 <<<<<<< HEAD
@@ -354,6 +355,8 @@ you would use::
 >>>>>>> 3454fc4883 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 6286b6659a (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 52e6c1ff9f (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
@@ -596,6 +599,7 @@ you would use::
 =======
 =======
 >>>>>>> 41ab2f7485 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68d3c5771d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -929,6 +933,10 @@ you would use::
 =======
 >>>>>>> 41ab2f7485 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 6286b6659a (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 6242fe69ba (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 52e6c1ff9f (Dockerfile: fix broken lib link (#1625))
         raster/r.contour/testsuite/test_broken.py
 =======
         raster/r.contour/testsuite/testrc.py
@@ -1037,6 +1045,7 @@ you would use::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -1184,6 +1193,8 @@ you would use::
 >>>>>>> 3454fc4883 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 6286b6659a (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 52e6c1ff9f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 0db65d5784 (Dockerfile: fix broken lib link (#1625))
@@ -1747,6 +1758,7 @@ you would use::
 >>>>>>> 41ab2f7485 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68d3c5771d (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -1921,6 +1933,10 @@ you would use::
 >>>>>>> 3454fc4883 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 6286b6659a (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 6242fe69ba (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 52e6c1ff9f (Dockerfile: fix broken lib link (#1625))
 
 
 Running tests and creating report
