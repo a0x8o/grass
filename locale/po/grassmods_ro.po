@@ -79964,6 +79964,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Profile output format"
 msgstr ""
 =======
@@ -79983,6 +79984,11 @@ msgstr ""
 msgid "Profile output format"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+#, fuzzy
+msgid "Profile output format"
+msgstr "Format de ieșiere neacceptat"
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:292
 #, c-format
@@ -79999,6 +80005,7 @@ msgid "The coordinates are outside of the computational region"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:332
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80026,6 +80033,11 @@ msgstr ""
 msgid "Failed to open output file <%s>: %d (%s)"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+#, fuzzy, c-format
+msgid "Failed to open output file <%s>: %d (%s)"
+msgstr "Imposibil de deschis fișierul de ieșire <%s>"
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"
@@ -80069,6 +80081,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, c-format
 msgid "Internal error in %s()"
 msgstr ""
@@ -80092,6 +80105,11 @@ msgstr ""
 msgid "Internal error in %s()"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+#, fuzzy, c-format
+msgid "Internal error in %s()"
+msgstr "eroare internă"
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.proj/bordwalk.c:92 ../raster/r.proj/bordwalk.c:139
 #, c-format

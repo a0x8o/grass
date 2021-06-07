@@ -71761,6 +71761,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 =======
@@ -71780,6 +71781,11 @@ msgstr ""
 msgid "Coordinates to profile"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Όνομα εισαγώμενου ράστερ χάρτη "
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
@@ -71791,6 +71797,7 @@ msgid "Profile output file name (\"-\" for stdout)"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:271
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71814,6 +71821,11 @@ msgstr ""
 msgid "Profile output format"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+#, fuzzy
+msgid "Profile output format"
+msgstr "Όνομα εξαγόμενου ράστερ χάρτη"
+>>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:292
 #, c-format
