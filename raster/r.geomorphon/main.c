@@ -54,6 +54,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -76,6 +77,8 @@ typedef enum {
 >>>>>>> 02fc806ed8 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
 =======
 typedef struct
 {
@@ -100,6 +103,7 @@ typedef struct
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +150,10 @@ typedef struct
 >>>>>>> 1bccffe3c4 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
 int main(int argc, char **argv)
 {
     struct { /* struct is used both for interface and output */
@@ -261,6 +269,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -317,6 +326,11 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
     struct Flag *flag_units, *flag_extended;
 
     struct History history;
@@ -674,6 +688,7 @@ int main(int argc, char **argv)
                           window_square / search_square);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
@@ -698,6 +713,11 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
         }
     }
 
