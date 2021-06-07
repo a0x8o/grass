@@ -16846,6 +16846,7 @@ RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -16860,6 +16861,9 @@ RUN ln -sf /usr/local/grass `grass --config path`
 =======
 RUN ln -s /usr/local/grass `grass --config path`
 >>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+RUN ln -sf /usr/local/grass `grass --config path`
+>>>>>>> 738af27d93 (Dockerfile: fix broken lib link (#1625))
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 =======
 <<<<<<< HEAD

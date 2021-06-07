@@ -166,6 +166,7 @@ you would use::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raster/r.contour/testsuite/testrc.py
 =======
 <<<<<<< HEAD
@@ -558,6 +559,8 @@ you would use::
 =======
 >>>>>>> a3451b0781 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 5ec1e27d83 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 738af27d93 (Dockerfile: fix broken lib link (#1625))
         raster/r.contour/testsuite/test_broken.py
 =======
         raster/r.contour/testsuite/testrc.py
@@ -624,6 +627,7 @@ you would use::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -1146,6 +1150,8 @@ you would use::
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> a3451b0781 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 5ec1e27d83 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 738af27d93 (Dockerfile: fix broken lib link (#1625))
 
 
 Running tests and creating report

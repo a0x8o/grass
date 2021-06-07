@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -73,10 +74,13 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> 624386edf7 (docker: Use only native Python API, set only necessary variables (#3819))
+=======
+>>>>>>> 738af27d93 (Dockerfile: fix broken lib link (#1625))
 # Import GRASS GIS Python bindings (requires 8.4+) and test r.in.pdal
 
 # PYTHONPATH=$(grass --config python-path) python
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,6 +128,15 @@
 >>>>>>> osgeo-main
 =======
 # Import GRASS GIS Python bindings (requires 8.4+) and test r.in.pdal
+=======
+# Import GRASS Python bindings
+# https://github.com/zarch/grass-session
+<<<<<<< HEAD
+# pip install grass-session
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 738af27d93 (Dockerfile: fix broken lib link (#1625))
 
 # PYTHONPATH=$(grass --config python-path) python
 >>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))
