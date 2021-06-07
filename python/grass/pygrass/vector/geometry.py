@@ -1344,6 +1344,10 @@ class Node:
 
 
 class Boundary(Line):
+<<<<<<< HEAD
+=======
+
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
     # geometry type
     gtype = libvect.GV_BOUNDARY
 
