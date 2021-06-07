@@ -79108,6 +79108,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -79236,6 +79237,8 @@ msgstr ""
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 msgid "Coordinates to profile"
 msgstr ""
 =======
@@ -79374,13 +79377,17 @@ msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 =======
 #, fuzzy
 msgid "Coordinates to profile"
 msgstr "要查询的坐标"
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -79698,6 +79705,8 @@ msgstr ""
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
@@ -79774,6 +79783,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -79914,6 +79924,8 @@ msgstr ""
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 msgid "Profile output file name (\"-\" for stdout)"
 msgstr ""
 
@@ -80068,6 +80080,7 @@ msgstr "输出的格式"
 =======
 msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -80549,6 +80562,18 @@ msgstr "输出的格式"
 msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "Profile output file name (\"-\" for stdout)"
+msgstr "输出文件的名称(output=-用于标准输出)"
+
+#: ../raster/r.geomorphon/main.c:271
+#, fuzzy
+msgid "Profile output format"
+msgstr "输出的格式"
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:292
 #, c-format
@@ -80633,6 +80658,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -80761,6 +80787,8 @@ msgstr ""
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 #, c-format
 msgid "Failed to open output file <%s>: %d (%s)"
 msgstr ""
@@ -80920,13 +80948,17 @@ msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 =======
 #, fuzzy, c-format
 msgid "Failed to open output file <%s>: %d (%s)"
 msgstr "无法打开输出文件 <%s>"
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -81264,6 +81296,8 @@ msgstr ""
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"

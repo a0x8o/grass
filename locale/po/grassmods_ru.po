@@ -73628,6 +73628,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -73756,6 +73757,8 @@ msgstr ""
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 msgid "Coordinates to profile"
 msgstr ""
 =======
@@ -73894,13 +73897,17 @@ msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 =======
 #, fuzzy
 msgid "Coordinates to profile"
 msgstr "Координаты E и N начальной точки (точек)"
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -74218,6 +74225,8 @@ msgstr ""
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
@@ -74297,6 +74306,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -74425,6 +74435,8 @@ msgstr ""
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 msgid "Profile output format"
 msgstr ""
 =======
@@ -74563,13 +74575,17 @@ msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 =======
 #, fuzzy
 msgid "Profile output format"
 msgstr "Префикс выходного растрового слоя (слоев)"
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -74887,6 +74903,8 @@ msgstr ""
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:292
 #, c-format

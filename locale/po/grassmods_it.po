@@ -84485,6 +84485,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -84625,6 +84626,8 @@ msgstr ""
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 msgid "Coordinates to profile"
 msgstr ""
 
@@ -84877,6 +84880,7 @@ msgstr "Esportazione di <%s>"
 =======
 msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -85666,6 +85670,34 @@ msgstr "Esportazione di <%s>"
 msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Coordinate da interrogare"
+
+#: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
+#: ../raster/r.geomorphon/main.c:272
+#, fuzzy
+msgid "Profile"
+msgstr "profilo"
+
+#: ../raster/r.geomorphon/main.c:261
+#, fuzzy
+msgid "Profile output file name (\"-\" for stdout)"
+msgstr "Nome del file di output (utilizzare output=- per stampare a monitor)"
+
+#: ../raster/r.geomorphon/main.c:271
+#, fuzzy
+msgid "Profile output format"
+msgstr "Formato di output"
+
+#: ../raster/r.geomorphon/main.c:292
+#, fuzzy, c-format
+msgid "Failed parsing <%s>"
+msgstr "Esportazione di <%s>"
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:302
 #, c-format
@@ -85742,6 +85774,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -85882,6 +85915,8 @@ msgstr ""
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 msgid "The coordinates are outside of the computational region"
 msgstr ""
 
@@ -86043,6 +86078,7 @@ msgstr "impossibile aprire il file di output <%s>"
 =======
 msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -86546,6 +86582,18 @@ msgstr "impossibile aprire il file di output <%s>"
 msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "The coordinates are outside of the computational region"
+msgstr "Le coordinate del punto finale sono al di fuori della regione corrente"
+
+#: ../raster/r.geomorphon/main.c:332
+#, fuzzy, c-format
+msgid "Failed to open output file <%s>: %d (%s)"
+msgstr "impossibile aprire il file di output <%s>"
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"
@@ -86645,6 +86693,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -86773,6 +86822,8 @@ msgstr ""
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 msgid "Failed writing profile data"
 msgstr ""
 =======
@@ -86911,13 +86962,17 @@ msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 =======
 #, fuzzy
 msgid "Failed writing profile data"
 msgstr "Scrittura del file V5D non riuscita"
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -87235,6 +87290,8 @@ msgstr ""
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:751
 msgid "Failed to profile the computation, please check the parameters"

@@ -25801,6 +25801,7 @@ ENV PROJ_NETWORK=ON
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -25891,6 +25892,8 @@ ENV PROJ_NETWORK=ON
 >>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 RUN ln -sf /usr/local/grass85 /usr/local/grass
 =======
 <<<<<<< HEAD
@@ -25924,11 +25927,14 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 <<<<<<< HEAD:docker/debian/Dockerfile
 <<<<<<< HEAD:docker/debian/Dockerfile
 <<<<<<< HEAD:docker/debian/Dockerfile
+=======
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD:docker/debian/Dockerfile
 RUN ln -sf /usr/local/grass84 /usr/local/grass
 =======
 RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/ubuntu/Dockerfile_ubuntu_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26140,6 +26146,8 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> e39e7f602e (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c4b5697244 (version: Start 8.5.0dev (#3789))
@@ -28622,6 +28630,8 @@ RUN ln -sf /usr/local/grass80 /usr/local/grass
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
@@ -32548,6 +32558,7 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -32566,11 +32577,15 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 >>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2458a1951e (Dockerfile: fix broken lib link (#1625))
+=======
+<<<<<<< HEAD:docker/debian/Dockerfile
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 # test LAZ file
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
 =======
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/ubuntu/Dockerfile_ubuntu_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32874,7 +32889,12 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/ubuntu/Dockerfile_ubuntu_pdal
 >>>>>>> 2458a1951e (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> e39e7f602e (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 
 WORKDIR /grassdb
 VOLUME /grassdb

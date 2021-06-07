@@ -174,6 +174,7 @@ you would use::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raster/r.contour/testsuite/testrc.py
 =======
 <<<<<<< HEAD
@@ -584,6 +585,8 @@ you would use::
 =======
 >>>>>>> e39e7f602e (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
@@ -597,7 +600,12 @@ you would use::
 =======
 =======
 >>>>>>> 2458a1951e (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> e39e7f602e (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
         raster/r.contour/testsuite/test_broken.py
 =======
         raster/r.contour/testsuite/testrc.py
@@ -670,6 +678,7 @@ you would use::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -776,6 +785,8 @@ you would use::
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> e39e7f602e (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 =======
         raster/r.contour/testsuite/testrc.py
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -930,6 +941,7 @@ you would use::
         raster/r.contour/testsuite/testrc.py
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 2458a1951e (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a6a89d8471 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -1245,6 +1257,10 @@ you would use::
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 2458a1951e (Dockerfile: fix broken lib link (#1625))
 >>>>>>> e39e7f602e (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
 
 
 Running tests and creating report
