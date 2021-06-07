@@ -155,7 +155,11 @@ class TestTemporalConditionals(TestCase):
         cls.runModule("t.remove", flags="rf", inputs="A,B,C,D,E", quiet=True)
         cls.del_temp_region()
 
+<<<<<<< HEAD
     def test_temporal_condition_1(self) -> None:
+=======
+    def test_temporal_condition_1(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -175,7 +179,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_condition_2(self) -> None:
+=======
+    def test_temporal_condition_2(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(expression="R = if(td(A) == 1, A)", basename="r", overwrite=True)
@@ -191,7 +199,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_condition_3(self) -> None:
+=======
+    def test_temporal_condition_3(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -211,7 +223,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_condition_4(self) -> None:
+=======
+    def test_temporal_condition_4(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -231,7 +247,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_condition_5(self) -> None:
+=======
+    def test_temporal_condition_5(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -249,7 +269,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_condition_6(self) -> None:
+=======
+    def test_temporal_condition_6(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -269,7 +293,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_condition_7(self) -> None:
+=======
+    def test_temporal_condition_7(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -289,7 +317,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "2 days")
 
+<<<<<<< HEAD
     def test_temporal_condition_8(self) -> None:
+=======
+    def test_temporal_condition_8(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -309,7 +341,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "2 days")
 
+<<<<<<< HEAD
     def test_temporal_condition_9(self) -> None:
+=======
+    def test_temporal_condition_9(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -329,7 +365,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "2 days")
 
+<<<<<<< HEAD
     def test_temporal_condition_10(self) -> None:
+=======
+    def test_temporal_condition_10(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -349,7 +389,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "2 days")
 
+<<<<<<< HEAD
     def test_temporal_condition_11(self) -> None:
+=======
+    def test_temporal_condition_11(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -369,7 +413,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "2 days")
 
+<<<<<<< HEAD
     def test_temporal_condition_12(self) -> None:
+=======
+    def test_temporal_condition_12(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -389,7 +437,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "2 days")
 
+<<<<<<< HEAD
     def test_temporal_conditional_13(self) -> None:
+=======
+    def test_temporal_conditional_13(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the hash operator function in conditional statement."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -410,7 +462,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_condition_else_1(self) -> None:
+=======
+    def test_temporal_condition_else_1(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -430,7 +486,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_condition_else_2(self) -> None:
+=======
+    def test_temporal_condition_else_2(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -450,7 +510,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_condition_else_3(self) -> None:
+=======
+    def test_temporal_condition_else_3(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -470,7 +534,11 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_condition_else_4(self) -> None:
+=======
+    def test_temporal_condition_else_4(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(

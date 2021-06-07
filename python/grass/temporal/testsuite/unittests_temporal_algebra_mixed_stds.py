@@ -111,7 +111,11 @@ class TestTemporalAlgebraMixedDatasets(TestCase):
         cls.runModule("t.remove", flags="rf", type="stvds", inputs="C", quiet=True)
         cls.del_temp_region()
 
+<<<<<<< HEAD
     def test_temporal_select_operators1(self) -> None:
+=======
+    def test_temporal_select_operators1(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator. Including temporal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -146,7 +150,11 @@ class TestTemporalAlgebraMixedDatasets(TestCase):
         self.assertEqual(pc["STDS"]["name"], "R")
         self.assertEqual(pc["STDS"]["stdstype"], "str3ds")
 
+<<<<<<< HEAD
     def test_temporal_select_operators2(self) -> None:
+=======
+    def test_temporal_select_operators2(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator. Including temporal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -243,7 +251,11 @@ class TestTemporalAlgebraMixedDatasets(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_hash_operator1(self) -> None:
+=======
+    def test_temporal_hash_operator1(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the hash operator function in conditional statement."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -264,7 +276,11 @@ class TestTemporalAlgebraMixedDatasets(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_hash_operator2(self) -> None:
+=======
+    def test_temporal_hash_operator2(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the hash operator function in conditional statement."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -285,7 +301,11 @@ class TestTemporalAlgebraMixedDatasets(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_different_stds_handling1(self) -> None:
+=======
+    def test_different_stds_handling1(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the handling of different stds types as output."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -306,7 +326,11 @@ class TestTemporalAlgebraMixedDatasets(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_different_stds_handling2(self) -> None:
+=======
+    def test_different_stds_handling2(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the handling of different stds types as output."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True, dry_run=True)
         pc = ta.parse(

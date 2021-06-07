@@ -84,6 +84,7 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -129,10 +130,13 @@ class Category(list):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         super().__init__(*args, **kargs)
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,6 +218,10 @@ class Category(list):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         super(Category, self).__init__(*args, **kargs)
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 
@@ -221,8 +229,13 @@ class Category(list):
         return self._mtype
 
     def _set_mtype(self, mtype):
+<<<<<<< HEAD
         if mtype.upper() not in {"CELL", "FCELL", "DCELL"}:
             raise ValueError(_("Raster type: {0} not supported").format(mtype))
+=======
+        if mtype.upper() not in ("CELL", "FCELL", "DCELL"):
+            raise ValueError(_("Raster type: {0} not supported".format(mtype)))
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         self._mtype = mtype
         self._gtype = RTYPE[self.mtype]["grass type"]
 
@@ -307,6 +320,7 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super(Category, self).__setitem__(
             self._chk_index(index), self._chk_value(value)
         )
@@ -363,6 +377,8 @@ class Category(list):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         return super().__setitem__(self._chk_index(index), self._chk_value(value))
 =======
         return super(Category, self).__setitem__(
@@ -451,6 +467,7 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -505,6 +522,13 @@ class Category(list):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        return super(Category, self).__setitem__(
+            self._chk_index(index), self._chk_value(value)
+        )
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
 
     def _get_c_cat(self, index):
         """Returns i-th description and i-th data range from the list of
@@ -680,6 +704,7 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -725,10 +750,13 @@ class Category(list):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         """Copy categories from a rules file, default separator is ':', the
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -810,6 +838,10 @@ class Category(list):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         """Copy categories from a rules file, default separetor is ':', the
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         columns must be: min and/or max and label. ::
@@ -827,8 +859,13 @@ class Category(list):
 
         """
         self.reset()
+<<<<<<< HEAD
         with open(filename) as f:
             for row in f:
+=======
+        with open(filename, "r") as f:
+            for row in f.readlines():
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
                 cat = row.strip().split(sep)
                 if len(cat) == 2:
                     label, min_cat = cat
@@ -863,6 +900,7 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -908,10 +946,13 @@ class Category(list):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         """Copy categories from a rules file, default separator is ':', the
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -993,6 +1034,10 @@ class Category(list):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         """Copy categories from a rules file, default separetor is ':', the
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         columns must be: min and/or max and label. ::
@@ -1008,12 +1053,22 @@ class Category(list):
         :param str filename: the name of file with categories rules
         :param str sep: the separator used to divide values and category
         """
+<<<<<<< HEAD
         cats = []
         for cat in iter(self):
             if cat[-1] is None:
                 cat = cat[:-1]
             cats.append(sep.join([str(i) for i in cat]))
         Path(filename).write_text("\n".join(cats))
+=======
+        with open(filename, "w") as f:
+            cats = []
+            for cat in self.__iter__():
+                if cat[-1] is None:
+                    cat = cat[:-1]
+                cats.append(sep.join([str(i) for i in cat]))
+            f.write("\n".join(cats))
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 
     def sort(self):
         libraster.Rast_sort_cats(ctypes.byref(self.c_cats))

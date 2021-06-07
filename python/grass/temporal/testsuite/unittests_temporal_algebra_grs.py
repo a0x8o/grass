@@ -153,7 +153,11 @@ class TestTemporalAlgebraGranularity(TestCase):
         # cls.runModule("t.remove", flags="rf", inputs="A,B,C,D", quiet=True)
         cls.del_temp_region()
 
+<<<<<<< HEAD
     def test_common_granularity_1(self) -> None:
+=======
+    def test_common_granularity_1(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the common granularity function."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         expr = "R = A : B"
@@ -185,7 +189,11 @@ class TestTemporalAlgebraGranularity(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 month")
 
+<<<<<<< HEAD
     def test_common_granularity_2(self) -> None:
+=======
+    def test_common_granularity_2(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the common granularity function year to month samping."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         expr = "R = A : C"
@@ -204,7 +212,11 @@ class TestTemporalAlgebraGranularity(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 month")
 
+<<<<<<< HEAD
     def test_common_granularity_3(self) -> None:
+=======
+    def test_common_granularity_3(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the common granularity function with gaps."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         expr = "R = A : D"
@@ -223,7 +235,11 @@ class TestTemporalAlgebraGranularity(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 month")
 
+<<<<<<< HEAD
     def test_common_granularity_4(self) -> None:
+=======
+    def test_common_granularity_4(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the common granularity function year to month with gaps."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         expr = "R = C : D"
@@ -242,7 +258,11 @@ class TestTemporalAlgebraGranularity(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 month")
 
+<<<<<<< HEAD
     def test_common_granularity_4(self) -> None:
+=======
+    def test_common_granularity_4(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the common granularity function year to month with gaps."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         expr = "R = C : D"
@@ -261,7 +281,11 @@ class TestTemporalAlgebraGranularity(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 month")
 
+<<<<<<< HEAD
     def test_common_granularity_5(self) -> None:
+=======
+    def test_common_granularity_5(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the common granularity function year to month with gaps."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         expr = "R = A : C : D"
@@ -280,7 +304,11 @@ class TestTemporalAlgebraGranularity(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 month")
 
+<<<<<<< HEAD
     def test_common_granularity_6(self) -> None:
+=======
+    def test_common_granularity_6(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the common granularity function year to month with gaps."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         expr = "R = if(start_month(A) > 2, A : C : D)"

@@ -158,7 +158,11 @@ class TestTemporalVectorAlgebra(TestCase):
         )
         cls.del_temp_region()
 
+<<<<<<< HEAD
     def test_temporal_select(self) -> None:
+=======
+    def test_temporal_select(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator."""
         tva = tgis.TemporalVectorAlgebraParser(run=True, debug=True)
         tva.parse(expression="R = A : A", basename="r", overwrite=True)
@@ -176,7 +180,11 @@ class TestTemporalVectorAlgebra(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_extent1(self) -> None:
+=======
+    def test_temporal_extent1(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal extent operators."""
         ta = tgis.TemporalVectorAlgebraParser(run=True, debug=True)
         ta.parse(expression="R = A {:,during,r} C", basename="r", overwrite=True)
@@ -193,7 +201,11 @@ class TestTemporalVectorAlgebra(TestCase):
         self.assertEqual(D.check_temporal_topology(), False)
         self.assertEqual(D.get_granularity(), "2 days")
 
+<<<<<<< HEAD
     def test_temporal_select_operators(self) -> None:
+=======
+    def test_temporal_select_operators(self):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator. Including temporal relations."""
         tva = tgis.TemporalVectorAlgebraParser(run=True, debug=True)
         tva.parse(expression="R = A {:,during} C", basename="r", overwrite=True)

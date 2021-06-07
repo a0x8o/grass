@@ -239,6 +239,7 @@ class GifWriter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -249,6 +250,8 @@ class GifWriter:
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
             loops = 2**16 - 1
 =======
 <<<<<<< HEAD
@@ -328,6 +331,8 @@ class GifWriter:
 >>>>>>> osgeo-main
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             loops = 2 ** 16 - 1
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
@@ -933,6 +938,7 @@ def readGif(filename, asNumpy=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise IOError("File not found: " + str(filename))
 =======
 <<<<<<< HEAD
@@ -987,6 +993,8 @@ def readGif(filename, asNumpy=True):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         raise OSError("File not found: " + str(filename))
 =======
         raise IOError("File not found: " + str(filename))
@@ -1016,6 +1024,7 @@ def readGif(filename, asNumpy=True):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1121,6 +1130,11 @@ def readGif(filename, asNumpy=True):
         raise IOError("File not found: " + str(filename))
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
+=======
+=======
+        raise IOError("File not found: " + str(filename))
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
 
     # Load file using PIL
     pilIm = PIL.Image.open(filename)
@@ -1535,8 +1549,14 @@ class NeuQuant:
         """
         if get_cKDTree():
             return self.quantize_with_scipy(image)
+<<<<<<< HEAD
         print("Scipy not available, falling back to slower version.")
         return self.quantize_without_scipy(image)
+=======
+        else:
+            print("Scipy not available, falling back to slower version.")
+            return self.quantize_without_scipy(image)
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 
     def quantize_with_scipy(self, image):
         w, h = image.size
@@ -1579,7 +1599,12 @@ class NeuQuant:
     def inxsearch(self, r, g, b):
         """Search for BGR values 0..255 and return colour index"""
         dists = self.colormap[:, :3] - np.array([r, g, b])
+<<<<<<< HEAD
         return np.argmin((dists * dists).sum(1))
+=======
+        a = np.argmin((dists * dists).sum(1))
+        return a
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 
 
 if __name__ == "__main__":

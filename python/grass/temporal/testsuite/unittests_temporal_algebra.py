@@ -125,6 +125,7 @@ class TestTemporalAlgebra(TestCase):
         cls.runModule("t.remove", flags="rf", inputs="A,B,C,D", quiet=True)
         cls.del_temp_region()
 
+<<<<<<< HEAD
     def test_temporal_select1(self) -> None:
         """Testing the temporal select operator with equal relations."""
 <<<<<<< HEAD
@@ -232,6 +233,7 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -319,6 +321,12 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
+=======
+=======
+    def test_temporal_select1(self):
+        """Testing the temporal select operator with equal relations."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(expression="R = A : A", stdstype="strds", basename="r", overwrite=True)
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -335,6 +343,7 @@ class TestTemporalAlgebra(TestCase):
         self.assertEqual(result_strds.check_temporal_topology(), True)
         self.assertEqual(result_strds.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_select2(self) -> None:
         """Testing the temporal select operator with equal relations."""
 <<<<<<< HEAD
@@ -442,6 +451,7 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -529,6 +539,12 @@ class TestTemporalAlgebra(TestCase):
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
+=======
+=======
+    def test_temporal_select2(self):
+        """Testing the temporal select operator with equal relations."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(expression="R = A : D", stdstype="strds", basename="r", overwrite=True)
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -545,6 +561,7 @@ class TestTemporalAlgebra(TestCase):
         self.assertEqual(result_strds.check_temporal_topology(), True)
         self.assertEqual(result_strds.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_select3(self) -> None:
         """Testing the temporal select operator with equal relations."""
 <<<<<<< HEAD
@@ -639,6 +656,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -705,6 +723,12 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    def test_temporal_select3(self):
+        """Testing the temporal select operator with equal relations."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -723,6 +747,7 @@ class TestTemporalAlgebra(TestCase):
         self.assertEqual(result_strds.check_temporal_topology(), True)
         self.assertEqual(result_strds.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_select_operators1(self) -> None:
         """Testing the temporal select operator. Including temporal relations."""
 <<<<<<< HEAD
@@ -817,6 +842,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -883,6 +909,12 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    def test_temporal_select_operators1(self):
+        """Testing the temporal select operator. Including temporal relations."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -904,6 +936,7 @@ class TestTemporalAlgebra(TestCase):
         self.assertEqual(result_strds.check_temporal_topology(), True)
         self.assertEqual(result_strds.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_select_operators2(self) -> None:
         """Testing the temporal select operator. Including temporal relations."""
 <<<<<<< HEAD
@@ -998,6 +1031,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1064,6 +1098,12 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    def test_temporal_select_operators2(self):
+        """Testing the temporal select operator. Including temporal relations."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -1164,6 +1204,7 @@ class TestTemporalAlgebra(TestCase):
         self.assertEqual(result_strds.check_temporal_topology(), True)
         self.assertEqual(result_strds.get_granularity(), "2 days")
 
+<<<<<<< HEAD
     def test_temporal_extent1(self) -> None:
         """Testing the temporal extent operators."""
 <<<<<<< HEAD
@@ -1258,6 +1299,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1324,6 +1366,12 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    def test_temporal_extent1(self):
+        """Testing the temporal extent operators."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -1345,6 +1393,7 @@ class TestTemporalAlgebra(TestCase):
         self.assertEqual(result_strds.check_temporal_topology(), False)
         self.assertEqual(result_strds.get_granularity(), "2 days")
 
+<<<<<<< HEAD
     def test_temporal_extent2(self) -> None:
         """Testing the temporal extent operators."""
 <<<<<<< HEAD
@@ -1439,6 +1488,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1505,6 +1555,12 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    def test_temporal_extent2(self):
+        """Testing the temporal extent operators."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -1526,6 +1582,7 @@ class TestTemporalAlgebra(TestCase):
         self.assertEqual(result_strds.check_temporal_topology(), False)
         self.assertEqual(result_strds.get_granularity(), "2 days")
 
+<<<<<<< HEAD
     def test_temporal_extent3(self) -> None:
         """Testing the temporal extent operators."""
 <<<<<<< HEAD
@@ -1620,6 +1677,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1686,6 +1744,12 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    def test_temporal_extent3(self):
+        """Testing the temporal extent operators."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -1712,6 +1776,7 @@ class TestTemporalAlgebra(TestCase):
         self.assertEqual(result_strds.check_temporal_topology(), False)
         self.assertEqual(result_strds.get_granularity(), "2 days")
 
+<<<<<<< HEAD
     def test_temporal_hash1(self) -> None:
         """Testing the hash function in conditional statement."""
 <<<<<<< HEAD
@@ -1806,6 +1871,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1872,6 +1938,12 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    def test_temporal_hash1(self):
+        """Testing the hash function in conditional statement."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -1893,6 +1965,7 @@ class TestTemporalAlgebra(TestCase):
         self.assertEqual(result_strds.check_temporal_topology(), True)
         self.assertEqual(result_strds.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_hash_operator1(self) -> None:
         """Testing the hash operator function in conditional statement."""
 <<<<<<< HEAD
@@ -1987,6 +2060,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2053,6 +2127,12 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    def test_temporal_hash_operator1(self):
+        """Testing the hash operator function in conditional statement."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -2074,6 +2154,7 @@ class TestTemporalAlgebra(TestCase):
         self.assertEqual(result_strds.check_temporal_topology(), True)
         self.assertEqual(result_strds.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_temporal_hash_operator2(self) -> None:
         """Testing the hash operator function in conditional statement."""
 <<<<<<< HEAD
@@ -2168,6 +2249,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2234,6 +2316,12 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    def test_temporal_hash_operator2(self):
+        """Testing the hash operator function in conditional statement."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -2255,6 +2343,7 @@ class TestTemporalAlgebra(TestCase):
         self.assertEqual(result_strds.check_temporal_topology(), True)
         self.assertEqual(result_strds.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_tmap_function1(self) -> None:
         """Testing the tmap function."""
 <<<<<<< HEAD
@@ -2349,6 +2438,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2415,6 +2505,12 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    def test_tmap_function1(self):
+        """Testing the tmap function."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -2436,6 +2532,7 @@ class TestTemporalAlgebra(TestCase):
         self.assertEqual(result_strds.check_temporal_topology(), True)
         self.assertEqual(result_strds.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_tmap_function2(self) -> None:
         """Testing the tmap function."""
 <<<<<<< HEAD
@@ -2530,6 +2627,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2596,6 +2694,12 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    def test_tmap_function2(self):
+        """Testing the tmap function."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -2617,6 +2721,7 @@ class TestTemporalAlgebra(TestCase):
         self.assertEqual(result_strds.check_temporal_topology(), True)
         self.assertEqual(result_strds.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_merge_function1(self) -> None:
         """Testing the merge function."""
 <<<<<<< HEAD
@@ -2711,6 +2816,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2777,6 +2883,12 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    def test_merge_function1(self):
+        """Testing the merge function."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -2795,6 +2907,7 @@ class TestTemporalAlgebra(TestCase):
         self.assertEqual(result_strds.check_temporal_topology(), False)
         self.assertEqual(result_strds.get_granularity(), "1 day")
 
+<<<<<<< HEAD
     def test_merge_function2(self) -> None:
         """Testing the merge function."""
 <<<<<<< HEAD
@@ -2889,6 +3002,7 @@ class TestTemporalAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2955,6 +3069,12 @@ class TestTemporalAlgebra(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    def test_merge_function2(self):
+        """Testing the merge function."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -3084,6 +3204,7 @@ class TestTemporalAlgebraDryRun(TestCase):
         cls.runModule("t.remove", flags="rf", inputs="A,B,C,D", quiet=True)
         cls.del_temp_region()
 
+<<<<<<< HEAD
     def test_merge_function1(self) -> None:
         """Testing the merge function."""
 <<<<<<< HEAD
@@ -3191,6 +3312,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3278,6 +3400,12 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
+=======
+=======
+    def test_merge_function1(self):
+        """Testing the merge function."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
         pc = ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -3291,6 +3419,7 @@ class TestTemporalAlgebraDryRun(TestCase):
         self.assertEqual(parser_content["STDS"]["name"], "R")
         self.assertEqual(parser_content["STDS"]["stdstype"], "strds")
 
+<<<<<<< HEAD
     def test_merge_function2(self) -> None:
         """Testing the merge function."""
 <<<<<<< HEAD
@@ -3398,6 +3527,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3485,6 +3615,12 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
+=======
+=======
+    def test_merge_function2(self):
+        """Testing the merge function."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
         pc = ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -3498,6 +3634,7 @@ class TestTemporalAlgebraDryRun(TestCase):
         self.assertEqual(parser_content["STDS"]["name"], "R")
         self.assertEqual(parser_content["STDS"]["stdstype"], "strds")
 
+<<<<<<< HEAD
     def test_merge_function3(self) -> None:
         """Testing the merge function."""
 <<<<<<< HEAD
@@ -3605,6 +3742,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3692,6 +3830,12 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
+=======
+=======
+    def test_merge_function3(self):
+        """Testing the merge function."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
         pc = ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -3705,6 +3849,7 @@ class TestTemporalAlgebraDryRun(TestCase):
         self.assertEqual(parser_content["STDS"]["name"], "R")
         self.assertEqual(parser_content["STDS"]["stdstype"], "strds")
 
+<<<<<<< HEAD
     def test_shift1(self) -> None:
         """Testing the shift function."""
 <<<<<<< HEAD
@@ -3812,6 +3957,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3899,6 +4045,12 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
+=======
+=======
+    def test_shift1(self):
+        """Testing the shift function."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
         pc = ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -3912,6 +4064,7 @@ class TestTemporalAlgebraDryRun(TestCase):
         self.assertEqual(parser_content["STDS"]["name"], "R")
         self.assertEqual(parser_content["STDS"]["stdstype"], "strds")
 
+<<<<<<< HEAD
     def test_shift2(self) -> None:
         """Testing the shift function."""
 <<<<<<< HEAD
@@ -4019,6 +4172,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -4106,6 +4260,12 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
+=======
+=======
+    def test_shift2(self):
+        """Testing the shift function."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
         pc = ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -4119,6 +4279,7 @@ class TestTemporalAlgebraDryRun(TestCase):
         self.assertEqual(parser_content["STDS"]["name"], "R")
         self.assertEqual(parser_content["STDS"]["stdstype"], "strds")
 
+<<<<<<< HEAD
     def test_buffer1(self) -> None:
         """Testing the shift function."""
 <<<<<<< HEAD
@@ -4226,6 +4387,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -4313,6 +4475,12 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
+=======
+=======
+    def test_buffer1(self):
+        """Testing the shift function."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
         pc = ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -4326,6 +4494,7 @@ class TestTemporalAlgebraDryRun(TestCase):
         self.assertEqual(parser_content["STDS"]["name"], "R")
         self.assertEqual(parser_content["STDS"]["stdstype"], "strds")
 
+<<<<<<< HEAD
     def test_buff2(self) -> None:
         """Testing the shift function."""
 <<<<<<< HEAD
@@ -4433,6 +4602,7 @@ class TestTemporalAlgebraDryRun(TestCase):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -4520,6 +4690,12 @@ class TestTemporalAlgebraDryRun(TestCase):
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
+=======
+=======
+    def test_buff2(self):
+        """Testing the shift function."""
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
         ta = tgis.TemporalAlgebraParser(run=True, debug=False, dry_run=True)
         pc = ta.parse(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))

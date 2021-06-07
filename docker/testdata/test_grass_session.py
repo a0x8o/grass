@@ -224,6 +224,7 @@
 # https://github.com/zarch/grass-session
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # pip install grass-session
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -300,6 +301,10 @@
 =======
 >>>>>>> osgeo-main
 
+=======
+
+from grass_session import Session
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 import grass.script as gs
 
 # full path to new project

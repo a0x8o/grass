@@ -2587,7 +2587,11 @@ class TemporalAlgebraParser:
         """
         t[0] = t[1]
 
+<<<<<<< HEAD
     def p_paren_expr(self, t) -> None:
+=======
+    def p_paren_expr(self, t):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         """expr : LPAREN expr RPAREN"""
         t[0] = t[2]
 

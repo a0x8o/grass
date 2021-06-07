@@ -459,7 +459,11 @@ def main():
         gs.run_command(
             "g.remove", flags="f", type="raster", pattern="tmp%s*" % pid, quiet=True
         )
+<<<<<<< HEAD
     except CalledModuleError:
+=======
+    except:
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         pass
 
 
@@ -524,7 +528,11 @@ def brovey(pan, ms1, ms2, ms3, out, pid, sproc):
         pb.wait(), pg.wait(), pr.wait()
         try:
             pb.terminate(), pg.terminate(), pr.terminate()
+<<<<<<< HEAD
         except OSError:
+=======
+        except:
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             pass
 
     # Cleanup
@@ -536,7 +544,11 @@ def brovey(pan, ms1, ms2, ms3, out, pid, sproc):
             type="raster",
             name="%s,%s,%s" % (panmatch1, panmatch2, panmatch3),
         )
+<<<<<<< HEAD
     except CalledModuleError:
+=======
+    except:
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         pass
 
 
@@ -575,8 +587,15 @@ def ihs(pan, ms1, ms2, ms3, out, pid, sproc):
 
     # Cleanup
     try:
+<<<<<<< HEAD
         gs.run_command("g.remove", flags="f", quiet=True, type="raster", name=panmatch)
     except CalledModuleError:
+=======
+        grass.run_command(
+            "g.remove", flags="f", quiet=True, type="raster", name=panmatch
+        )
+    except:
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         pass
 
 
@@ -702,7 +721,11 @@ def pca(pan, ms1, ms2, ms3, out, pid, sproc):
         pb.wait(), pg.wait(), pr.wait()
         try:
             pb.terminate(), pg.terminate(), pr.terminate()
+<<<<<<< HEAD
         except OSError:
+=======
+        except:
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             pass
 
     # Cleanup
