@@ -19,6 +19,7 @@ line-length = 88
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 target-version = ['py37', 'py38', 'py39', 'py310']
 =======
 <<<<<<< HEAD
@@ -52,12 +53,15 @@ target-version = ['py37', 'py38', 'py39', 'py310']
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
 target-version = ['py38', 'py39', 'py310', 'py311', 'py312']
 # 'extend-exclude' excludes files or directories in addition to the defaults
 extend-exclude = '''
 (
     python/libgrass_interface_generator/
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,6 +77,8 @@ extend-exclude = '''
 >>>>>>> osgeo-main
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 target-version = ['py36', 'py37', 'py38', 'py39']
@@ -197,6 +203,7 @@ exclude = '''
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -266,6 +273,11 @@ exclude = '''
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
 )
 '''
 
