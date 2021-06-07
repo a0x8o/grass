@@ -167,6 +167,7 @@ CONFIG_FILENAME = ".gunittest.cfg"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -226,6 +227,8 @@ CONFIG_FILENAME = ".gunittest.cfg"
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -341,7 +344,12 @@ CONFIG_FILENAME = ".gunittest.cfg"
 =======
 =======
 >>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
 def get_config(start_directory, config_file):
     """Read configuration if available, return empty section proxy if not
 
@@ -506,6 +514,7 @@ def get_config(start_directory, config_file):
 >>>>>>> osgeo-main
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 def get_config(start_directory):
@@ -849,6 +858,10 @@ def get_config(start_directory):
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 def get_config(start_directory):
     """Read configuration if available, return empty dict if not"""
     config_parser = configparser.ConfigParser()
@@ -858,9 +871,18 @@ def get_config(start_directory):
     if "gunittest" in config_parser:
         return config_parser["gunittest"]
     return {}
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
 
 
 def main():
@@ -1153,6 +1175,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1212,6 +1235,8 @@ def main():
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1327,7 +1352,12 @@ def main():
 =======
 =======
 >>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
     try:
         config = get_config(start_directory=start_dir, config_file=args.config)
     except OSError as error:
@@ -1442,6 +1472,7 @@ def main():
 =======
     config = get_config(start_dir)
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1626,7 +1657,12 @@ def main():
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
 
     invoker = GrassTestFilesInvoker(
         start_dir=start_dir,
