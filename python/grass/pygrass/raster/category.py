@@ -348,6 +348,10 @@ class Category(list):
 >>>>>>> de3b023788 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 =======
@@ -1058,7 +1062,10 @@ class Category(list):
 <<<<<<< HEAD
 >>>>>>> 6b3d2a4cfb (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
         super().__init__(*args, **kargs)
 =======
@@ -1150,14 +1157,18 @@ class Category(list):
 =======
 >>>>>>> 30a903a5ae (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1014ac8589 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> osgeo-main
 =======
         super().__init__(*args, **kargs)
 =======
 >>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -1358,6 +1369,9 @@ class Category(list):
 =======
 >>>>>>> 30a903a5ae (Dockerfile: fix broken lib link (#1625))
 >>>>>>> de3b023788 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
         super(Category, self).__init__(*args, **kargs)
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 
@@ -1563,6 +1577,7 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super(Category, self).__setitem__(
             self._chk_index(index), self._chk_value(value)
         )
@@ -1790,12 +1805,16 @@ class Category(list):
 =======
 >>>>>>> de3b023788 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
+=======
 =======
 >>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
         return super(Category, self).__setitem__(
             self._chk_index(index), self._chk_value(value)
         )
@@ -2080,8 +2099,19 @@ class Category(list):
 >>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 30a903a5ae (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> de3b023788 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
         return super().__setitem__(self._chk_index(index), self._chk_value(value))
 =======
 =======
@@ -2219,6 +2249,7 @@ class Category(list):
             self._chk_index(index), self._chk_value(value)
         )
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2491,6 +2522,8 @@ class Category(list):
 =======
 >>>>>>> de3b023788 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
 =======
@@ -2565,6 +2598,8 @@ class Category(list):
 >>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -3069,7 +3104,10 @@ class Category(list):
 <<<<<<< HEAD
 >>>>>>> 63948171f2 (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> 4385ab760c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -3120,12 +3158,16 @@ class Category(list):
 =======
 >>>>>>> 30a903a5ae (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1014ac8589 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -3338,6 +3380,9 @@ class Category(list):
 =======
 >>>>>>> 30a903a5ae (Dockerfile: fix broken lib link (#1625))
 >>>>>>> de3b023788 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 
     def _get_c_cat(self, index):
         """Returns i-th description and i-th data range from the list of
@@ -3777,6 +3822,10 @@ class Category(list):
 >>>>>>> de3b023788 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 =======
@@ -4487,7 +4536,10 @@ class Category(list):
 <<<<<<< HEAD
 >>>>>>> 6b3d2a4cfb (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
         """Copy categories from a rules file, default separator is ':', the
 =======
@@ -4579,14 +4631,18 @@ class Category(list):
 =======
 >>>>>>> 30a903a5ae (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1014ac8589 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> osgeo-main
 =======
         """Copy categories from a rules file, default separator is ':', the
 =======
 >>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -4787,6 +4843,9 @@ class Category(list):
 =======
 >>>>>>> 30a903a5ae (Dockerfile: fix broken lib link (#1625))
 >>>>>>> de3b023788 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
         """Copy categories from a rules file, default separetor is ':', the
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         columns must be: min and/or max and label. ::
@@ -5124,6 +5183,10 @@ class Category(list):
 >>>>>>> de3b023788 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 =======
@@ -5834,7 +5897,10 @@ class Category(list):
 <<<<<<< HEAD
 >>>>>>> 6b3d2a4cfb (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
         """Copy categories from a rules file, default separator is ':', the
 =======
@@ -5926,14 +5992,18 @@ class Category(list):
 =======
 >>>>>>> 30a903a5ae (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1014ac8589 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> osgeo-main
 =======
         """Copy categories from a rules file, default separator is ':', the
 =======
 >>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -6134,6 +6204,9 @@ class Category(list):
 =======
 >>>>>>> 30a903a5ae (Dockerfile: fix broken lib link (#1625))
 >>>>>>> de3b023788 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
         """Copy categories from a rules file, default separetor is ':', the
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         columns must be: min and/or max and label. ::

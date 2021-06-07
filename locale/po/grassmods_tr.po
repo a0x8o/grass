@@ -82436,6 +82436,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -82578,6 +82579,8 @@ msgstr ""
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -82605,6 +82608,7 @@ msgstr ""
 =======
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -82654,6 +82658,10 @@ msgstr ""
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> d9ea5124d9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 msgid "Coordinates to profile"
 msgstr ""
 =======
@@ -83334,8 +83342,20 @@ msgstr ""
 =======
 msgid "Coordinates to profile"
 msgstr ""
+<<<<<<< HEAD
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Sorgulanacak koordinatlar"
+>>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
@@ -83448,6 +83468,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -83603,6 +83624,10 @@ msgstr ""
 >>>>>>> 7b80a7eedd (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -84079,7 +84104,10 @@ msgstr ""
 <<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 #, fuzzy
 =======
@@ -84214,12 +84242,16 @@ msgstr "Dışa aktarılıyor <%s>"
 msgstr ""
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> osgeo-main
 =======
 #, fuzzy
+<<<<<<< HEAD
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Profile output format"
@@ -84702,6 +84734,17 @@ msgstr "Dışa aktarılıyor <%s>"
 msgstr ""
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+msgid "Profile output format"
+msgstr "Çıktı biçimi"
+
+#: ../raster/r.geomorphon/main.c:292
+#, fuzzy, c-format
+msgid "Failed parsing <%s>"
+msgstr "Dışa aktarılıyor <%s>"
+>>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:302
 #, c-format
@@ -84810,6 +84853,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -84965,6 +85009,10 @@ msgstr ""
 >>>>>>> 7b80a7eedd (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -85441,7 +85489,10 @@ msgstr ""
 <<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 #, fuzzy
 =======
@@ -85576,12 +85627,16 @@ msgstr "<%s> çıktı dosyası açılamıyor"
 msgstr ""
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> osgeo-main
 =======
 #, fuzzy
+<<<<<<< HEAD
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 msgid "The coordinates are outside of the computational region"
@@ -86064,6 +86119,17 @@ msgstr "<%s> çıktı dosyası açılamıyor"
 msgstr ""
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+msgid "The coordinates are outside of the computational region"
+msgstr "Son nokta koordinatları geçerli bölge ayarları dışındadır"
+
+#: ../raster/r.geomorphon/main.c:332
+#, fuzzy, c-format
+msgid "Failed to open output file <%s>: %d (%s)"
+msgstr "<%s> çıktı dosyası açılamıyor"
+>>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"

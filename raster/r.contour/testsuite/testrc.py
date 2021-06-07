@@ -101,6 +101,7 @@ Purpose:    Tests r.contour and its flags/options.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 97f6c15849 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
@@ -160,6 +161,8 @@ Purpose:    Tests r.contour and its flags/options.
 =======
 >>>>>>> 67806956ee (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
@@ -173,7 +176,12 @@ Purpose:    Tests r.contour and its flags/options.
 =======
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 
 =======
     
@@ -903,8 +911,18 @@ Purpose:    Tests r.contour and its flags/options.
 =======
 =======
 
+<<<<<<< HEAD
 >>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 67806956ee (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    
+>>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 Author:     Sunveer Singh, Google Code-in 2018
 Copyright:  (C) 2018 by Sunveer Singh and the GRASS Development Team
 Licence:    This program is free software under the GNU General Public

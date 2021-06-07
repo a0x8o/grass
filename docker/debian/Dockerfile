@@ -39014,11 +39014,14 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> 03ab9cbc7f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c70eab3a1d (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD:docker/debian/Dockerfile
 <<<<<<< HEAD:docker/debian/Dockerfile
 <<<<<<< HEAD
@@ -39078,6 +39081,8 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 =======
 =======
 >>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
@@ -39098,8 +39103,13 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 >>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD:docker/debian/Dockerfile
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+=======
+>>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD:docker/debian/Dockerfile
 >>>>>>> 304e67f77b (Dockerfile Debian: versionless link fix)
 =======
@@ -39225,6 +39235,7 @@ RUN ln -sf /usr/local/grass84 /usr/local/grass
 =======
 RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/ubuntu/Dockerfile_ubuntu_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39759,6 +39770,8 @@ RUN ln -sf /usr/local/grass `grass --config path`
 =======
 >>>>>>> de3b023788 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -39832,6 +39845,7 @@ RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
@@ -39846,6 +39860,10 @@ RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> c70eab3a1d (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 42e7bdd0cf (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/ubuntu/Dockerfile_ubuntu_pdal
 <<<<<<< HEAD
@@ -43133,7 +43151,34 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
@@ -45678,6 +45723,7 @@ COPY docker/testdata/test_grass_session.py .
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -45777,6 +45823,8 @@ COPY docker/testdata/test_grass_session.py .
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 7b80a7eedd (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> d6e3a02d5b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 0f6c3b23ed (Dockerfile: fix broken lib link (#1625))
@@ -45971,8 +46019,19 @@ COPY docker/testdata/test_grass_session.py .
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> f70372cb5d (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 7b80a7eedd (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 ## run GRASS GIS python session and scan the test LAZ file
 RUN python /scripts/test_grass_session.py
 RUN rm -rf /tmp/grasstest_epsg_25832
@@ -45991,6 +46050,11 @@ RUN grass --tmp-project EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" outp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49588,8 +49652,24 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+## just scan the LAZ file
+# Not yet ready for GRASS GIS 8:
+#RUN /usr/bin/python3 /scripts/test_grass_session.py
+<<<<<<< HEAD:docker/debian/Dockerfile
+# test LAZ file
+RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
+=======
+RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/ubuntu/Dockerfile_ubuntu_pdal
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 
 WORKDIR /grassdb
 VOLUME /grassdb

@@ -210,6 +210,7 @@ class TestTRastAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 97f6c15849 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
@@ -269,6 +270,8 @@ class TestTRastAlgebra(TestCase):
 =======
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
@@ -282,7 +285,12 @@ class TestTRastAlgebra(TestCase):
 =======
 =======
 >>>>>>> 8d53b00588 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> dcc1810d30 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
         self.runModule("t.remove", flags="df", inputs="R", quiet=True)
 =======
         self.runModule("t.remove", flags="rf", inputs="R", quiet=True)
@@ -1012,8 +1020,18 @@ class TestTRastAlgebra(TestCase):
 =======
 =======
         self.runModule("t.remove", flags="df", inputs="R", quiet=True)
+<<<<<<< HEAD
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+        self.runModule("t.remove", flags="rf", inputs="R", quiet=True)
+>>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
 
     @classmethod
     def tearDownClass(cls):
@@ -1118,6 +1136,7 @@ class TestTRastAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 97f6c15849 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
@@ -1177,6 +1196,8 @@ class TestTRastAlgebra(TestCase):
 =======
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
@@ -1190,7 +1211,12 @@ class TestTRastAlgebra(TestCase):
 =======
 =======
 >>>>>>> 8d53b00588 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> dcc1810d30 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
         cls.runModule("t.remove", flags="df", inputs="A,B,C,D", quiet=True)
 =======
         cls.runModule("t.remove", flags="rf", inputs="A,B,C,D", quiet=True)
@@ -1920,8 +1946,18 @@ class TestTRastAlgebra(TestCase):
 =======
 =======
         cls.runModule("t.remove", flags="df", inputs="A,B,C,D", quiet=True)
+<<<<<<< HEAD
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+        cls.runModule("t.remove", flags="rf", inputs="A,B,C,D", quiet=True)
+>>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
         cls.runModule("t.unregister", maps="singletmap", quiet=True)
         cls.del_temp_region()
 
