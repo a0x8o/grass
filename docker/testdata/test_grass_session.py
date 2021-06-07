@@ -899,6 +899,7 @@ from grass_session import Session
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # pip install grass-session
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -989,6 +990,8 @@ from grass_session import Session
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 =======
 =======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 
 from grass_session import Session
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))

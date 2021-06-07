@@ -169,12 +169,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_1(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -200,12 +206,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_2(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(expression="R = if(td(A) == 1, A)", basename="r", overwrite=True)
@@ -227,12 +239,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_3(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -258,12 +276,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_4(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -289,12 +313,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_5(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -318,12 +348,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_6(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -349,12 +385,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_7(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -380,12 +422,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_8(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -411,12 +459,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_9(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -442,12 +496,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_10(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -473,12 +533,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_11(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -504,12 +570,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_12(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -535,12 +607,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_conditional_13(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the hash operator function in conditional statement."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -567,12 +645,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_else_1(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -598,12 +682,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_else_2(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -629,12 +719,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_else_3(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -660,12 +756,18 @@ class TestTemporalConditionals(TestCase):
     def test_temporal_condition_else_4(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
