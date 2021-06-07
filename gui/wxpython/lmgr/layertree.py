@@ -94,7 +94,10 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
         self,
         parent,
         giface,
+<<<<<<< HEAD
         createNewMapDisplay,
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         id=wx.ID_ANY,
         style=wx.SUNKEN_BORDER,
         ctstyle=CT.TR_HAS_BUTTONS
@@ -106,14 +109,28 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
         title=None,
         **kwargs,
     ):
+<<<<<<< HEAD
         if "style" in kwargs:
             ctstyle |= kwargs["style"]
             del kwargs["style"]
+=======
+
+        if "style" in kwargs:
+            ctstyle |= kwargs["style"]
+            del kwargs["style"]
+        self.displayIndex = kwargs["idx"]
+        del kwargs["idx"]
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         self.lmgr = kwargs["lmgr"]
         del kwargs["lmgr"]
         # GIS Manager notebook for layer tree
         self.notebook = kwargs["notebook"]
         del kwargs["notebook"]
+<<<<<<< HEAD
+=======
+        showMapDisplay = kwargs["showMapDisplay"]
+        del kwargs["showMapDisplay"]
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 
         self._giface = giface
         self.treepg = parent  # notebook page holding layer tree
@@ -139,9 +156,15 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
             pass
 
         if globalvar.hasAgw:
+<<<<<<< HEAD
             super().__init__(parent, id, agwStyle=ctstyle, **kwargs)
         else:
             super().__init__(parent, id, style=ctstyle, **kwargs)
+=======
+            super(LayerTree, self).__init__(parent, id, agwStyle=ctstyle, **kwargs)
+        else:
+            super(LayerTree, self).__init__(parent, id, style=ctstyle, **kwargs)
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         self.SetName("LayerTree")
         self.SetBackgroundColour(wx.SystemSettings().GetColour(wx.SYS_COLOUR_WINDOW))
 
@@ -154,9 +177,36 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
         self._setGradient()
 
         # init associated map display
+<<<<<<< HEAD
         # create instance of Map Display interface
         self._gifaceForDisplay = LayerManagerGrassInterfaceForMapDisplay(giface, self)
         self.mapdisplay = createNewMapDisplay(self._gifaceForDisplay, layertree=self)
+=======
+        pos = wx.Point((self.displayIndex + 1) * 25, (self.displayIndex + 1) * 25)
+        self._gifaceForDisplay = LayerManagerGrassInterfaceForMapDisplay(
+            self._giface, self
+        )
+        self.mapdisplay = MapFrame(
+            self,
+            giface=self._gifaceForDisplay,
+            id=wx.ID_ANY,
+            pos=pos,
+            size=globalvar.MAP_WINDOW_SIZE,
+            style=wx.DEFAULT_FRAME_STYLE,
+            tree=self,
+            notebook=self.notebook,
+            lmgr=self.lmgr,
+            page=self.treepg,
+            Map=self.Map,
+            title=title,
+        )
+
+        # show new display
+        if showMapDisplay is True:
+            self.mapdisplay.Show()
+            self.mapdisplay.Refresh()
+            self.mapdisplay.Update()
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 
         self.root = self.AddRoot(_("Map Layers"))
         self.SetPyData(self.root, (None, None))
@@ -435,8 +485,11 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
                 "export-pg",
                 "export-attr",
                 "pack",
+<<<<<<< HEAD
                 "check",
                 "uncheck",
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             ):
                 self.popupID[key] = NewId()
 
@@ -455,6 +508,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
         if ltype != "command" and numSelected == 1:
             self.popupMenu.Append(self.popupID["rename"], _("Rename"))
             self.Bind(wx.EVT_MENU, self.OnRenameLayer, id=self.popupID["rename"])
+<<<<<<< HEAD
 
         if numSelected > 1:
             item = wx.MenuItem(
@@ -479,6 +533,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
                 self.OnCheckUncheckSelectedLayer,
                 id=self.popupID["uncheck"],
             )
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 
         # when multiple maps are selected of different types
         # we cannot zoom or change region
@@ -493,7 +549,11 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
         if ltype not in {"group", "command"}:
             if numSelected == 1:
                 self.popupMenu.AppendSeparator()
+<<<<<<< HEAD
                 if not (ltype == "raster_3d" or self.mapdisplay.IsPaneShown("3d")):
+=======
+                if ltype != "raster_3d":
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
                     item = wx.MenuItem(
                         self.popupMenu,
                         id=self.popupID["opacity"],
@@ -517,11 +577,31 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
                     wx.EVT_MENU, self.OnPopupProperties, id=self.popupID["properties"]
                 )
 
+<<<<<<< HEAD
                 if ltype in {
                     "raster",
                     "vector",
                     "raster_3d",
                 } and self.mapdisplay.IsPaneShown("3d"):
+=======
+<<<<<<< HEAD
+                if ltype in (
+                    "raster",
+                    "vector",
+                    "raster_3d",
+                ) and self.mapdisplay.IsPaneShown("3d"):
+=======
+                if (
+                    ltype
+                    in (
+                        "raster",
+                        "vector",
+                        "raster_3d",
+                    )
+                    and self.mapdisplay.IsPaneShown("3d")
+                ):
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> decbe5b393 (Dockerfile: fix broken lib link (#1625))
                     self.popupMenu.Append(self.popupID["nviz"], _("3D view properties"))
                     self.Bind(
                         wx.EVT_MENU, self.OnNvizProperties, id=self.popupID["nviz"]
@@ -577,6 +657,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
                         self.OnAlignCompRegToRaster,
                         id=self.popupID["align"],
                     )
+<<<<<<< HEAD
         elif ltype == "group":
             # Dynamically add Change opacity level menu item according
             # if any layer inside group layer is map layer
@@ -604,6 +685,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
                     self.OnPopupGroupOpacityLevel,
                     id=self.popupID["opacity"],
                 )
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 
         # vector layers (specific items)
         if ltype and ltype == "vector" and numSelected == 1:
@@ -1159,11 +1242,15 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 
         if rasters:
             self._giface.RunCmd(
+<<<<<<< HEAD
                 [
                     "r.report",
                     "map=%s" % ",".join(rasters),
                     "units=hectares,cells,percent",
                 ]
+=======
+                ["r.report", "map=%s" % ",".join(rasters), "units=h,c,p"]
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
             )
 
     def OnStartEditing(self, event):
@@ -1328,12 +1415,16 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
         .. todo::
             vector/volume
         """
+<<<<<<< HEAD
         if not UserSettings.Get(
             group="appearance",
             key="singleWindow",
             subkey="enabled",
         ):
             self.lmgr.notebook.SetSelectionByName("nviz")
+=======
+        self.lmgr.notebook.SetSelectionByName("nviz")
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         ltype = self.GetLayerInfo(self.layer_selected, key="type")
         if ltype == "raster":
             self.lmgr.nviz.SetPage("surface")
@@ -1415,6 +1506,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
                     )
                     self.SetItemText(item, newlabel)
 
+<<<<<<< HEAD
     def OnCheckUncheckSelectedLayer(self, event):
         """Check/uncheck selected layer(s)"""
         check = wx.CHK_CHECKED
@@ -1424,6 +1516,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
         for layer in self.GetSelections():
             self.CheckItem(layer, checked=check)
 
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
     def AddLayer(
         self,
         ltype,
