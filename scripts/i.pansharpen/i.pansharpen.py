@@ -463,7 +463,10 @@ def main():
     except CalledModuleError:
 =======
     except:
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         pass
 
 
@@ -532,7 +535,10 @@ def brovey(pan, ms1, ms2, ms3, out, pid, sproc):
         except OSError:
 =======
         except:
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
             pass
 
     # Cleanup
@@ -548,7 +554,10 @@ def brovey(pan, ms1, ms2, ms3, out, pid, sproc):
     except CalledModuleError:
 =======
     except:
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         pass
 
 
@@ -595,7 +604,10 @@ def ihs(pan, ms1, ms2, ms3, out, pid, sproc):
             "g.remove", flags="f", quiet=True, type="raster", name=panmatch
         )
     except:
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         pass
 
 
@@ -725,7 +737,10 @@ def pca(pan, ms1, ms2, ms3, out, pid, sproc):
         except OSError:
 =======
         except:
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
             pass
 
     # Cleanup

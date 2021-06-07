@@ -131,7 +131,10 @@ class TestTemporalRasterAlgebra(TestCase):
     def test_temporal_extent1(self) -> None:
 =======
     def test_temporal_extent1(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal extent operators."""
         ta = tgis.TemporalRasterAlgebraParser(run=True, debug=True)
         ta.parse(expression="R = A {:,during,r} C", basename="r", overwrite=True)
@@ -617,7 +620,10 @@ class TestTemporalRasterAlgebra(TestCase):
     def test_tmap_function1(self) -> None:
 =======
     def test_tmap_function1(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the tmap function."""
         tra = tgis.TemporalRasterAlgebraParser(run=True, debug=True)
         tra.parse(expression="R = tmap(singletmap)", basename="r", overwrite=True)
@@ -638,7 +644,10 @@ class TestTemporalRasterAlgebra(TestCase):
     def test_tmap_function2(self) -> None:
 =======
     def test_tmap_function2(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the tmap function."""
         tra = tgis.TemporalRasterAlgebraParser(run=True, debug=True)
         tra.parse(expression="R = tmap(singletmap) + 1", basename="r", overwrite=True)
@@ -659,7 +668,10 @@ class TestTemporalRasterAlgebra(TestCase):
     def test_map_function1(self) -> None:
 =======
     def test_map_function1(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the map function."""
         tra = tgis.TemporalRasterAlgebraParser(run=True, debug=True)
         tra.parse(expression="R = map(singlemap) + A", basename="r", overwrite=True)
@@ -680,7 +692,10 @@ class TestTemporalRasterAlgebra(TestCase):
     def test_map_function2(self) -> None:
 =======
     def test_map_function2(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the map function."""
         tra = tgis.TemporalRasterAlgebraParser(run=True, debug=True)
         tra.parse(expression="R =  A * map(singlemap)", basename="r", overwrite=True)
@@ -701,7 +716,10 @@ class TestTemporalRasterAlgebra(TestCase):
     def test_temporal_select(self) -> None:
 =======
     def test_temporal_select(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator."""
         tra = tgis.TemporalRasterAlgebraParser(run=True, debug=True)
         tra.parse(expression="R = A : A", basename="r", overwrite=True)
@@ -721,7 +739,10 @@ class TestTemporalRasterAlgebra(TestCase):
     def test_temporal_select(self) -> None:
 =======
     def test_temporal_select(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator."""
         tra = tgis.TemporalRasterAlgebraParser(run=True, debug=True)
         tra.parse(expression="R = A : D", basename="r", overwrite=True)
@@ -741,7 +762,10 @@ class TestTemporalRasterAlgebra(TestCase):
     def test_temporal_select_operators1(self) -> None:
 =======
     def test_temporal_select_operators1(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator. Including temporal relations."""
         tra = tgis.TemporalRasterAlgebraParser(run=True, debug=True)
         tra.parse(expression="R = A : D", basename="r", overwrite=True)
@@ -761,7 +785,10 @@ class TestTemporalRasterAlgebra(TestCase):
     def test_temporal_select_operators2(self) -> None:
 =======
     def test_temporal_select_operators2(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator. Including temporal relations."""
         tra = tgis.TemporalRasterAlgebraParser(run=True, debug=True)
         tra.parse(expression="R = A {!:,during} C", basename="r", overwrite=True)
@@ -820,7 +847,10 @@ class TestTemporalRasterAlgebra(TestCase):
     def test_temporal_hash_operator1(self) -> None:
 =======
     def test_temporal_hash_operator1(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal hash operator in the raster algebra."""
         tra = tgis.TemporalRasterAlgebraParser(run=True, debug=True)
         tra.parse(expression="R = if(A # D == 1, A)", basename="r", overwrite=True)
@@ -840,7 +870,10 @@ class TestTemporalRasterAlgebra(TestCase):
     def test_temporal_hash_operator2(self) -> None:
 =======
     def test_temporal_hash_operator2(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal hash operator in the raster algebra."""
         tra = tgis.TemporalRasterAlgebraParser(run=True, debug=True)
         tra.parse(expression="R = A # D", basename="r", overwrite=True)
@@ -860,7 +893,10 @@ class TestTemporalRasterAlgebra(TestCase):
     def test_temporal_hash_operator3(self) -> None:
 =======
     def test_temporal_hash_operator3(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal hash operator in the raster algebra."""
         tra = tgis.TemporalRasterAlgebraParser(run=True, debug=True)
         tra.parse(expression="R = C {#,contains} A", basename="r", overwrite=True)
@@ -880,7 +916,10 @@ class TestTemporalRasterAlgebra(TestCase):
     def test_temporal_hash_operator4(self) -> None:
 =======
     def test_temporal_hash_operator4(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal hash operator in the raster algebra."""
         tra = tgis.TemporalRasterAlgebraParser(run=True, debug=True)
         tra.parse(

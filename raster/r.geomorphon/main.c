@@ -73,6 +73,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -139,6 +140,8 @@ typedef enum {
 >>>>>>> osgeo-main
 =======
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
 =======
 typedef struct
 {
@@ -367,7 +370,12 @@ typedef struct
 =======
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
 int main(int argc, char **argv)
 {
     struct { /* struct is used both for interface and output */
@@ -609,6 +617,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -641,6 +650,8 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -742,6 +753,7 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -822,6 +834,10 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
     struct Flag *flag_units, *flag_extended;
 
     struct History history;
@@ -1340,6 +1356,7 @@ int main(int argc, char **argv)
                           window_square / search_square);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -1416,6 +1433,7 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -1510,6 +1528,10 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
         }
     }
 

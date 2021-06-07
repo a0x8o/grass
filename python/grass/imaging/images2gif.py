@@ -240,6 +240,7 @@ class GifWriter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -252,6 +253,8 @@ class GifWriter:
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
             loops = 2**16 - 1
 =======
 <<<<<<< HEAD
@@ -333,6 +336,8 @@ class GifWriter:
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
             loops = 2 ** 16 - 1
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
@@ -939,6 +944,7 @@ def readGif(filename, asNumpy=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise IOError("File not found: " + str(filename))
 =======
 <<<<<<< HEAD
@@ -995,6 +1001,8 @@ def readGif(filename, asNumpy=True):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
         raise OSError("File not found: " + str(filename))
 =======
         raise IOError("File not found: " + str(filename))
@@ -1134,7 +1142,13 @@ def readGif(filename, asNumpy=True):
 =======
         raise IOError("File not found: " + str(filename))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+        raise IOError("File not found: " + str(filename))
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
 
     # Load file using PIL
     pilIm = PIL.Image.open(filename)
@@ -1600,8 +1614,11 @@ class NeuQuant:
         """Search for BGR values 0..255 and return colour index"""
         dists = self.colormap[:, :3] - np.array([r, g, b])
 <<<<<<< HEAD
+<<<<<<< HEAD
         return np.argmin((dists * dists).sum(1))
 =======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         a = np.argmin((dists * dists).sum(1))
         return a
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))

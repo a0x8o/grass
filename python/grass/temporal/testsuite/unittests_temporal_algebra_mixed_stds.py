@@ -115,7 +115,10 @@ class TestTemporalAlgebraMixedDatasets(TestCase):
     def test_temporal_select_operators1(self) -> None:
 =======
     def test_temporal_select_operators1(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator. Including temporal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -154,7 +157,10 @@ class TestTemporalAlgebraMixedDatasets(TestCase):
     def test_temporal_select_operators2(self) -> None:
 =======
     def test_temporal_select_operators2(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the temporal select operator. Including temporal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -255,7 +261,10 @@ class TestTemporalAlgebraMixedDatasets(TestCase):
     def test_temporal_hash_operator1(self) -> None:
 =======
     def test_temporal_hash_operator1(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the hash operator function in conditional statement."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -280,7 +289,10 @@ class TestTemporalAlgebraMixedDatasets(TestCase):
     def test_temporal_hash_operator2(self) -> None:
 =======
     def test_temporal_hash_operator2(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the hash operator function in conditional statement."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -305,7 +317,10 @@ class TestTemporalAlgebraMixedDatasets(TestCase):
     def test_different_stds_handling1(self) -> None:
 =======
     def test_different_stds_handling1(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the handling of different stds types as output."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -330,7 +345,10 @@ class TestTemporalAlgebraMixedDatasets(TestCase):
     def test_different_stds_handling2(self) -> None:
 =======
     def test_different_stds_handling2(self):
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         """Testing the handling of different stds types as output."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True, dry_run=True)
         pc = ta.parse(

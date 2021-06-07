@@ -132,6 +132,7 @@ class OptTable(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -252,12 +253,19 @@ class OptTable(object):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
     def __init__(self, list_of_dict):
         self.options = list_of_dict
         self.columns = sorted({key for _, d in self.options for key in d.keys()})

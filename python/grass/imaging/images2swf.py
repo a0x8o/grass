@@ -393,8 +393,11 @@ class Tag:
     def ProcessTag(self):
         """Implement this to create the tag."""
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise NotImplementedError
 =======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         raise NotImplementedError()
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 

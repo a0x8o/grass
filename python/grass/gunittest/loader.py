@@ -81,6 +81,38 @@ def fnmatch_exclude_with_base(files, base, exclude):
     return not_excluded
 
 
+def fnmatch_exclude_with_base(files, base, exclude):
+    """Return list of files not matching any exclusion pattern
+
+    :param files: list of file names
+    :param base: directory (path) where the files are
+    :param exclude: list of fnmatch glob patterns for exclusion
+    """
+    not_excluded = []
+    patterns = []
+    # Make all dir separators slashes and drop leading current dir
+    # for both patterns and (later) for files.
+    for pattern in exclude:
+        pattern = pattern.replace(os.sep, "/")
+        if pattern.startswith("./"):
+            patterns.append(pattern[2:])
+        else:
+            patterns.append(pattern)
+    for filename in files:
+        full_file_path = os.path.join(base, filename)
+        test_filename = full_file_path.replace(os.sep, "/")
+        if full_file_path.startswith("./"):
+            test_filename = full_file_path[2:]
+        matches = False
+        for pattern in patterns:
+            if fnmatch.fnmatch(test_filename, pattern):
+                matches = True
+                break
+        if not matches:
+            not_excluded.append(filename)
+    return not_excluded
+
+
 # TODO: resolve test file versus test module
 GrassTestPythonModule = collections.namedtuple(
     "GrassTestPythonModule",
@@ -157,7 +189,10 @@ def discover_modules(
                 files = [f for f in files if re.match(file_regexp, f)]
 =======
                 files = [f for f in all_files if re.match(file_regexp, f)]
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
             if exclude:
                 files = fnmatch_exclude_with_base(files, full, exclude)
             files = sorted(files)

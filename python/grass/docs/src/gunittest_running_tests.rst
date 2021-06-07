@@ -124,6 +124,7 @@ you would use::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raster/r.contour/testsuite/testrc.py
 =======
 <<<<<<< HEAD
@@ -180,6 +181,8 @@ you would use::
 >>>>>>> osgeo-main
 =======
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
         raster/r.contour/testsuite/test_broken.py
 =======
         raster/r.contour/testsuite/testrc.py
@@ -319,7 +322,13 @@ you would use::
 =======
         raster/r.contour/testsuite/testrc.py
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+        raster/r.contour/testsuite/testrc.py
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
 
 
 Running tests and creating report
