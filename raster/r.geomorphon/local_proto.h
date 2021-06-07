@@ -252,6 +252,7 @@ GLOBAL struct Cell_head window;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -548,6 +549,8 @@ GLOBAL struct Cell_head window;
 =======
 >>>>>>> 4e55b69d96 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> d597f9a6d8 (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -664,6 +667,8 @@ GLOBAL struct Cell_head window;
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4385ab760c (Dockerfile: fix broken lib link (#1625))
 
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -850,6 +855,7 @@ GLOBAL struct Cell_head window;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e39e7f602e (Dockerfile: fix broken lib link (#1625))
 =======
@@ -882,6 +888,8 @@ GLOBAL struct Cell_head window;
 >>>>>>> 09d2c97e04 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d597f9a6d8 (Dockerfile: fix broken lib link (#1625))
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2618,7 +2626,12 @@ GLOBAL struct Cell_head window;
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 73cc5e30fa (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 4e55b69d96 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 4385ab760c (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d597f9a6d8 (Dockerfile: fix broken lib link (#1625))
 /* Zenith/nadir comparison modes. */
 GLOBAL enum { ANGLEV1, ANGLEV2, ANGLEV2_DISTANCE } compmode;
 
