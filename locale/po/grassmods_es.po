@@ -83137,6 +83137,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -83167,6 +83168,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 #, c-format
 msgid "DONE: uncompressed file is %lu %s (%.2f%%) smaller"
 msgstr ""
@@ -83185,6 +83188,7 @@ msgstr ""
 #, c-format
 msgid "DONE: compressed file is %lu %s (%.2f%%) larger"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83337,6 +83341,28 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+#, fuzzy, c-format
+msgid "DONE: uncompressed file is %lu %s (%.2f%%) smaller"
+msgstr "HECHO: el archivo descomprimido es %lu bytes más pequeño"
+
+#: ../raster/r.compress/main.c:220
+#, fuzzy, c-format
+msgid "DONE: compressed file is %lu %s (%.2f%%) smaller"
+msgstr "HECHO: el archivo comprimido es %lu bytes más pequeño"
+
+#: ../raster/r.compress/main.c:224
+#, fuzzy, c-format
+msgid "DONE: uncompressed file is %lu %s (%.2f%%) larger"
+msgstr "HECHO: el archivo descomprimido es %lu bytes mayor"
+
+#: ../raster/r.compress/main.c:225
+#, fuzzy, c-format
+msgid "DONE: compressed file is %lu %s (%.2f%%) larger"
+msgstr "HECHO: el archivo comprimido es %lu bytes mayor"
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.compress/main.c:228
 msgid "same size"
@@ -88226,12 +88252,16 @@ msgstr "\"-\" para leer reglas desde entrada estándar (stdin)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 msgid "Offset for color rule values"
 msgstr ""
 =======
 #, fuzzy
 msgid "Offset for color rule values"
 msgstr "Nombre de la columna para valores z"
+<<<<<<< HEAD
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 =======
 msgid "Offset for color rule values"
@@ -88322,6 +88352,9 @@ msgstr ""
 msgid "Offset for color rule values"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.colors/edit_colors.c:139 ../raster/r.colors/edit_colors.c:148
 msgid "New value = (old value + offset) * scale"
@@ -88348,12 +88381,16 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 msgid "Scale for color rule values"
 msgstr ""
 =======
 #, fuzzy
 msgid "Scale for color rule values"
 msgstr "Factor de escalamiento para valores ráster muestreados"
+<<<<<<< HEAD
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 =======
 msgid "Scale for color rule values"
@@ -88444,6 +88481,9 @@ msgstr ""
 msgid "Scale for color rule values"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.colors/edit_colors.c:284 ../raster/r.colors/edit_colors.c:318
 #, c-format
@@ -88553,12 +88593,16 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 msgid "Unable to open color rule"
 msgstr ""
 =======
 #, fuzzy
 msgid "Unable to open color rule"
 msgstr "No ha sido posible abrir archivo de script"
+<<<<<<< HEAD
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 =======
 msgid "Unable to open color rule"
@@ -88649,6 +88693,9 @@ msgstr ""
 msgid "Unable to open color rule"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.colors/rules.c:179
 #, c-format
@@ -90386,6 +90433,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -90416,6 +90464,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 msgid "Coordinates to profile"
 msgstr ""
 
@@ -90436,6 +90486,7 @@ msgstr ""
 #, c-format
 msgid "Failed parsing <%s>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90596,6 +90647,34 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Coordenadas para consulta"
+
+#: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
+#: ../raster/r.geomorphon/main.c:272
+#, fuzzy
+msgid "Profile"
+msgstr "perfil"
+
+#: ../raster/r.geomorphon/main.c:261
+#, fuzzy
+msgid "Profile output file name (\"-\" for stdout)"
+msgstr "Nombre para archivo de salida que contendrá secuencia de nodos (\"-\" para salida a estándar)"
+
+#: ../raster/r.geomorphon/main.c:271
+#, fuzzy
+msgid "Profile output format"
+msgstr "Formato de salida"
+
+#: ../raster/r.geomorphon/main.c:292
+#, fuzzy, c-format
+msgid "Failed parsing <%s>"
+msgstr "Re-comprimiendo <%s>"
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:302
 #, c-format
@@ -90624,6 +90703,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -90654,6 +90734,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 msgid "The coordinates are outside of the computational region"
 msgstr ""
 
@@ -90661,6 +90743,7 @@ msgstr ""
 #, c-format
 msgid "Failed to open output file <%s>: %d (%s)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90769,6 +90852,18 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+#, fuzzy
+msgid "The coordinates are outside of the computational region"
+msgstr "Usar la resolución del ráster base en lugar de la región computacional "
+
+#: ../raster/r.geomorphon/main.c:332
+#, fuzzy, c-format
+msgid "Failed to open output file <%s>: %d (%s)"
+msgstr "No se puede abrir el archivo de salida <%s>"
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"
@@ -90817,6 +90912,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -90847,12 +90943,15 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 msgid "Profile data has been written"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:655
 msgid "Failed writing profile data"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90957,6 +91056,18 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+#, fuzzy
+msgid "Profile data has been written"
+msgstr "Escribir datos como enteros"
+
+#: ../raster/r.geomorphon/main.c:655
+#, fuzzy
+msgid "Failed writing profile data"
+msgstr "Fallo al copiar archivo V5D"
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:751
 msgid "Failed to profile the computation, please check the parameters"
@@ -90983,6 +91094,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 #, c-format
 msgid "Internal error in %s()"
 msgstr ""
@@ -90990,6 +91104,7 @@ msgstr ""
 #, fuzzy, c-format
 msgid "Internal error in %s()"
 msgstr "Error interno para la función %s()"
+<<<<<<< HEAD
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 =======
 #, c-format
@@ -91098,6 +91213,9 @@ msgstr ""
 msgid "Internal error in %s()"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.proj/bordwalk.c:92 ../raster/r.proj/bordwalk.c:139
 #, c-format
