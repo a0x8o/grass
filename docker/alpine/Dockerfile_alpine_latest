@@ -88,6 +88,7 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a48c908497 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -112,6 +113,8 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 >>>>>>> 4dcb386cb0 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> e630edf2f6 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -529,12 +532,16 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 =======
 >>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f67335359e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> e630edf2f6 (Dockerfile: fix broken lib link (#1625))
 =======
 # without PDAL
 
 >>>>>>> 751b93eb74 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e2aaf4c841 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -769,6 +776,8 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 =======
 >>>>>>> 9f5464914c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> cef7c42a97 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> e630edf2f6 (Dockerfile: fix broken lib link (#1625))
 # PACKAGES VERSIONS
 ARG PYTHON_VERSION=3
 
