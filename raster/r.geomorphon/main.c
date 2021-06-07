@@ -82,6 +82,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -166,6 +167,8 @@ typedef enum {
 =======
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> f1378f3ee0 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 14e8d0fff4 (Dockerfile_alpine: fix broken link creatio)
 =======
@@ -182,6 +185,8 @@ typedef enum {
 >>>>>>> ca0bf9560b (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
 =======
 typedef struct
 {
@@ -296,6 +301,7 @@ typedef struct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -306,6 +312,8 @@ typedef struct
 >>>>>>> a6a89d8471 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -519,7 +527,14 @@ typedef struct
 =======
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
 int main(int argc, char **argv)
 {
     struct { /* struct is used both for interface and output */
@@ -825,6 +840,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -869,6 +885,8 @@ int main(int argc, char **argv)
 >>>>>>> a6a89d8471 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -1146,7 +1164,15 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
     struct Flag *flag_units, *flag_extended;
 
     struct History history;
@@ -1816,6 +1842,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -2070,7 +2097,15 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
         }
     }
 

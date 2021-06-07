@@ -231,6 +231,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # pip install grass-session
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -339,6 +340,13 @@
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+=======
+# pip install grass-session
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
 
 from grass_session import Session
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))

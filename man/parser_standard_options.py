@@ -138,6 +138,7 @@ class OptTable(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -270,6 +271,8 @@ class OptTable(object):
 >>>>>>> a6a89d8471 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -314,7 +317,15 @@ class OptTable(object):
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
     def __init__(self, list_of_dict):
         self.options = list_of_dict
         self.columns = sorted({key for _, d in self.options for key in d.keys()})

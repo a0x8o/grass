@@ -1622,6 +1622,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -1754,6 +1755,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> a6a89d8471 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -1798,7 +1801,15 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
         self._stream.write("Running {file}...\n".format(file=module.file_path))
         # get the above line and all previous ones to the report
         self._stream.flush()
@@ -2161,6 +2172,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2262,6 +2274,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
@@ -2300,7 +2314,12 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
             self._stream.write(f"FAILED {module.file_path}")
             if timed_out:
                 self._stream.write(f" - Timeout >{timed_out}s")
@@ -2369,6 +2388,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> osgeo-main
             self._stream.write("FAILED {file}".format(file=module.file_path))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2690,7 +2710,15 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+            self._stream.write("FAILED {file}".format(file=module.file_path))
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
             num_failed = test_summary.get("failures", 0)
             num_failed += test_summary.get("errors", 0)
             if num_failed:

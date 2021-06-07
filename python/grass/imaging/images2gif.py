@@ -252,6 +252,7 @@ class GifWriter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -289,6 +290,8 @@ class GifWriter:
 =======
 =======
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -601,8 +604,12 @@ class GifWriter:
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
             loops = 2**16 - 1
 =======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
             loops = 2 ** 16 - 1
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
@@ -1074,6 +1081,7 @@ def readGif(filename, asNumpy=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise IOError("File not found: " + str(filename))
 =======
 <<<<<<< HEAD
@@ -1144,6 +1152,8 @@ def readGif(filename, asNumpy=True):
 =======
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
@@ -1162,7 +1172,12 @@ def readGif(filename, asNumpy=True):
 =======
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
         raise OSError("File not found: " + str(filename))
 =======
         raise IOError("File not found: " + str(filename))
@@ -1192,6 +1207,7 @@ def readGif(filename, asNumpy=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -1202,6 +1218,8 @@ def readGif(filename, asNumpy=True):
 >>>>>>> a6a89d8471 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
 =======
         raise IOError("File not found: " + str(filename))
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -1354,7 +1372,15 @@ def readGif(filename, asNumpy=True):
 =======
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+        raise IOError("File not found: " + str(filename))
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
 
     # Load file using PIL
     pilIm = PIL.Image.open(filename)

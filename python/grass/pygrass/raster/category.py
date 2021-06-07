@@ -91,6 +91,7 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -152,14 +153,22 @@ class Category(list):
 =======
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2458a1951e (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a6a89d8471 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
         super().__init__(*args, **kargs)
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,6 +259,8 @@ class Category(list):
 =======
 >>>>>>> a6a89d8471 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
@@ -287,7 +298,12 @@ class Category(list):
         super().__init__(*args, **kargs)
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
         super(Category, self).__init__(*args, **kargs)
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 
@@ -396,6 +412,7 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super(Category, self).__setitem__(
             self._chk_index(index), self._chk_value(value)
         )
@@ -468,6 +485,8 @@ class Category(list):
 =======
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
@@ -486,7 +505,12 @@ class Category(list):
 =======
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
         return super().__setitem__(self._chk_index(index), self._chk_value(value))
 =======
         return super(Category, self).__setitem__(
@@ -518,6 +542,7 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -566,15 +591,20 @@ class Category(list):
 =======
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2458a1951e (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+=======
         return super(Category, self).__setitem__(
             self._chk_index(index), self._chk_value(value)
         )
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -657,6 +687,8 @@ class Category(list):
 =======
 >>>>>>> a6a89d8471 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
+=======
         return super(Category, self).__setitem__(
             self._chk_index(index), self._chk_value(value)
         )
@@ -694,7 +726,12 @@ class Category(list):
 =======
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
 
     def _get_c_cat(self, index):
         """Returns i-th description and i-th data range from the list of
@@ -877,6 +914,7 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -938,14 +976,22 @@ class Category(list):
 =======
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2458a1951e (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a6a89d8471 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
         """Copy categories from a rules file, default separator is ':', the
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1036,6 +1082,8 @@ class Category(list):
 =======
 >>>>>>> a6a89d8471 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
@@ -1073,7 +1121,12 @@ class Category(list):
         """Copy categories from a rules file, default separator is ':', the
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
         """Copy categories from a rules file, default separetor is ':', the
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         columns must be: min and/or max and label. ::
@@ -1142,6 +1195,7 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1203,14 +1257,22 @@ class Category(list):
 =======
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2458a1951e (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a6a89d8471 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
         """Copy categories from a rules file, default separator is ':', the
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1301,6 +1363,8 @@ class Category(list):
 =======
 >>>>>>> a6a89d8471 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
@@ -1338,7 +1402,12 @@ class Category(list):
         """Copy categories from a rules file, default separator is ':', the
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
         """Copy categories from a rules file, default separetor is ':', the
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         columns must be: min and/or max and label. ::
