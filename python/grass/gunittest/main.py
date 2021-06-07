@@ -574,6 +574,10 @@ CONFIG_FILENAME = ".gunittest.cfg"
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 =======
@@ -643,6 +647,7 @@ CONFIG_FILENAME = ".gunittest.cfg"
 >>>>>>> osgeo-main
 =======
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -1382,6 +1387,14 @@ CONFIG_FILENAME = ".gunittest.cfg"
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 0daaa332d3 (Dockerfile: fix broken lib link (#1625))
+=======
+<<<<<<< HEAD
+>>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a1ee3698d5 (Dockerfile: fix broken lib link (#1625))
 def get_config(start_directory, config_file):
     """Read configuration if available, return empty section proxy if not
 
@@ -4053,6 +4066,8 @@ def get_config(start_directory):
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 def get_config(start_directory):
     """Read configuration if available, return empty dict if not"""
     config_parser = configparser.ConfigParser()
@@ -4062,10 +4077,22 @@ def get_config(start_directory):
     if "gunittest" in config_parser:
         return config_parser["gunittest"]
     return {}
+<<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 0daaa332d3 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a1ee3698d5 (Dockerfile: fix broken lib link (#1625))
 
 
 def main():
@@ -5422,6 +5449,10 @@ def main():
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 =======
@@ -5491,6 +5522,7 @@ def main():
 >>>>>>> osgeo-main
 =======
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -6230,6 +6262,14 @@ def main():
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 0daaa332d3 (Dockerfile: fix broken lib link (#1625))
+=======
+<<<<<<< HEAD
+>>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a1ee3698d5 (Dockerfile: fix broken lib link (#1625))
     try:
         config = get_config(start_directory=start_dir, config_file=args.config)
     except OSError as error:
@@ -7045,8 +7085,11 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0daaa332d3 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> a1ee3698d5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7114,6 +7157,7 @@ def main():
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -7123,12 +7167,16 @@ def main():
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> a1ee3698d5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 =======
 =======
     config = get_config(start_dir)
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -7728,6 +7776,9 @@ def main():
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 0daaa332d3 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> a1ee3698d5 (Dockerfile: fix broken lib link (#1625))
 
     invoker = GrassTestFilesInvoker(
         start_dir=start_dir,
