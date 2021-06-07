@@ -10017,6 +10017,7 @@ RUN if [ ! -e /usr/local/bin/grass ] ; then ln -s /usr/local/bin/grass* /usr/loc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -10128,6 +10129,8 @@ RUN if [ ! -e /usr/local/bin/grass ] ; then ln -s /usr/local/bin/grass* /usr/loc
 >>>>>>> b0becb6826 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> e630edf2f6 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 2f8632904c (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -10519,13 +10522,17 @@ RUN if [ ! -e /usr/local/bin/grass ] ; then ln -s /usr/local/bin/grass* /usr/loc
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 751b93eb74 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e2aaf4c841 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 2f8632904c (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 85c3a81f34 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e092a36981 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -10769,6 +10776,8 @@ RUN if [ ! -e /usr/local/bin/grass ] ; then ln -s /usr/local/bin/grass* /usr/loc
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 751b93eb74 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> e630edf2f6 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 2f8632904c (Dockerfile: fix broken lib link (#1625))
 
 # Leave build stage
 FROM grass_gis as grass_gis_final

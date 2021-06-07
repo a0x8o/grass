@@ -1411,6 +1411,7 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
 =======
@@ -1516,6 +1517,8 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> b0becb6826 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 2f8632904c (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 44155ccad2 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 0db65d5784 (Dockerfile: fix broken lib link (#1625))
@@ -3068,7 +3071,12 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
 >>>>>>> 751b93eb74 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> e630edf2f6 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 85c3a81f34 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 2f8632904c (Dockerfile: fix broken lib link (#1625))
 LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,weinmann@mundialis.de"
 
 ENV DEBIAN_FRONTEND noninteractive
@@ -7279,9 +7287,11 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+<<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
     libnotify4 \
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7613,7 +7623,14 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
 >>>>>>> 751b93eb74 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> e630edf2f6 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+>>>>>>> 85c3a81f34 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 2f8632904c (Dockerfile: fix broken lib link (#1625))
     libopenblas-base \
     libopenblas-dev \
     libopenjp2-7 \
@@ -11709,6 +11726,7 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11943,6 +11961,8 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 =======
 >>>>>>> e630edf2f6 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 2f8632904c (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
@@ -12093,6 +12113,7 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 =======
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a82cfbcefa (Fix missing function prototypes (#2727))
 =======
@@ -12318,6 +12339,10 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 85c3a81f34 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 2f8632904c (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
 =======
@@ -12404,6 +12429,9 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f8632904c (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 =======
@@ -13328,6 +13356,7 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
 >>>>>>> 751b93eb74 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e2aaf4c841 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -13989,6 +14018,10 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
 >>>>>>> 751b93eb74 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> e630edf2f6 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 85c3a81f34 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 2f8632904c (Dockerfile: fix broken lib link (#1625))
 ## fetch vertical datums for PDAL and store into PROJ dir
 WORKDIR /src
 RUN mkdir vdatum && \
@@ -19138,6 +19171,7 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19230,10 +19264,13 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 =======
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 >>>>>>> 751b93eb74 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 85c3a81f34 (Dockerfile: fix broken lib link (#1625))
 RUN ln -sf /usr/local/grass84 /usr/local/grass
 =======
 RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19716,6 +19753,8 @@ RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> b0becb6826 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> e630edf2f6 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 2f8632904c (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
@@ -21704,7 +21743,18 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 751b93eb74 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> e630edf2f6 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+RUN ln -sf /usr/local/grass `grass --config path`
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 85c3a81f34 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 2f8632904c (Dockerfile: fix broken lib link (#1625))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
@@ -23724,6 +23774,7 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 >>>>>>> 4dcb386cb0 (Dockerfile: fix broken lib link (#1625))
 =======
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+<<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 # test LAZ file
 >>>>>>> 751b93eb74 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> e630edf2f6 (Dockerfile: fix broken lib link (#1625))
@@ -23743,12 +23794,15 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 85c3a81f34 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
@@ -23760,6 +23814,7 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 =======
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23859,6 +23914,9 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 751b93eb74 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 85c3a81f34 (Dockerfile: fix broken lib link (#1625))
 
 WORKDIR /grassdb
 VOLUME /grassdb
