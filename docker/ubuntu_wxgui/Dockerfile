@@ -1,6 +1,10 @@
 FROM ubuntu:22.04@sha256:340d9b015b194dc6e2a13938944e0d016e57b9679963fdeb9ce021daac430221
 
+<<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Tomas Zigo"
+=======
+LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
 LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,weinmann@mundialis.de"
 
 ENV DEBIAN_FRONTEND noninteractive
@@ -58,7 +62,10 @@ RUN apt-get update && apt-get upgrade -y && \
     libjsoncpp-dev \
     libnetcdf-dev \
     libncurses5-dev \
+<<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
     libnotify4 \
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
     libopenblas-base \
     libopenblas-dev \
     libopenjp2-7 \
@@ -116,6 +123,34 @@ ENV NO_AT_BRIDGE=1
 RUN echo LANG="en_US.UTF-8" > /etc/default/locale
 RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 
+<<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+=======
+## install the latest projection library for GRASS GIS
+WORKDIR /src
+RUN wget -q http://download.osgeo.org/proj/proj-${PROJ_VERSION}.tar.gz && \
+    tar xzf proj-${PROJ_VERSION}.tar.gz && \
+    cd /src/proj-${PROJ_VERSION}/ && \
+    wget -q http://download.osgeo.org/proj/proj-datumgrid-${PROJ_DATUMGRID_VERSION}.zip && \
+    cd nad && \
+    unzip ../proj-datumgrid-${PROJ_DATUMGRID_VERSION}.zip && \
+    cd .. && \
+    ./configure --prefix=/usr/ && \
+    make && \
+    make install
+
+## install laz-perf
+RUN apt-get install cmake
+WORKDIR /src
+RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz -O laz-perf-${LAZ_PERF_VERSION}.tar.gz && \
+    tar -zxf laz-perf-${LAZ_PERF_VERSION}.tar.gz && \
+    cd laz-perf-${LAZ_PERF_VERSION} && \
+    mkdir build && \
+    cd build && \
+    cmake .. && \
+    make && \
+    make install
+
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
 ## fetch vertical datums for PDAL and store into PROJ dir
 WORKDIR /src
 RUN mkdir vdatum && \
@@ -237,7 +272,15 @@ ENV PROJ_NETWORK=ON
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/debian/Dockerfile_debian_pdal
 # Create generic GRASS GIS lib name regardless of version number
+<<<<<<< HEAD
 RUN ln -sf /usr/local/grass85 /usr/local/grass
+=======
+<<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+RUN ln -sf /usr/local/grass84 /usr/local/grass
+=======
+RUN ln -sf /usr/local/grass `grass --config path`
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
@@ -262,11 +305,23 @@ WORKDIR /tmp
 COPY docker/testdata/simple.laz .
 WORKDIR /scripts
 COPY docker/testdata/test_grass_session.py .
+<<<<<<< HEAD
 ## run GRASS GIS python session and scan the test LAZ file
 RUN python /scripts/test_grass_session.py
 RUN rm -rf /tmp/grasstest_epsg_25832
 # test LAZ file
 RUN grass --tmp-project EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
+=======
+## just scan the LAZ file
+# Not yet ready for GRASS GIS 8:
+#RUN /usr/bin/python3 /scripts/test_grass_session.py
+<<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+# test LAZ file
+RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
+=======
+RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 
 WORKDIR /grassdb
 VOLUME /grassdb
