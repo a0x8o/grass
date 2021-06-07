@@ -71299,6 +71299,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 =======
@@ -71378,6 +71379,11 @@ msgstr ""
 msgid "Coordinates to profile"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "ค่าพิกัด E และ N ของจุดเริ่มต้น"
+>>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
@@ -71405,6 +71411,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Profile output format"
 msgstr ""
 =======
@@ -71484,6 +71491,11 @@ msgstr ""
 msgid "Profile output format"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+#, fuzzy
+msgid "Profile output format"
+msgstr "คำนำหน้า สำหรับ แผนที่เชิงภาพ ผลลัพธ์"
+>>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:292
 #, c-format
