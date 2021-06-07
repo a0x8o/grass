@@ -85969,8 +85969,14 @@ msgid "New value = (old value + offset) * scale"
 msgstr ""
 
 #: ../raster/r.colors/edit_colors.c:147
+<<<<<<< HEAD
 msgid "Scale for color rule values"
 msgstr ""
+=======
+#, fuzzy
+msgid "Scale for color rule values"
+msgstr "Měřítkový faktor pro výškový model"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.colors/edit_colors.c:284 ../raster/r.colors/edit_colors.c:318
 #, c-format
@@ -86060,8 +86066,14 @@ msgstr ""
 " (pravidla %f do %f, data %f do %f)"
 
 #: ../raster/r.colors/rules.c:81
+<<<<<<< HEAD
 msgid "Unable to open color rule"
 msgstr ""
+=======
+#, fuzzy
+msgid "Unable to open color rule"
+msgstr "Nelze otevřít prolog <%s>"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.colors/rules.c:179
 #, c-format
@@ -87780,6 +87792,7 @@ msgid "Use extended form correction"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:250
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 
@@ -87800,6 +87813,32 @@ msgstr ""
 #, c-format
 msgid "Failed parsing <%s>"
 msgstr ""
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Souřadnice dotazu"
+
+#: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
+#: ../raster/r.geomorphon/main.c:272
+#, fuzzy
+msgid "Profile"
+msgstr "profil"
+
+#: ../raster/r.geomorphon/main.c:261
+#, fuzzy
+msgid "Profile output file name (\"-\" for stdout)"
+msgstr "Název výstupního souboru (pro standardní výstup použijte output=-)"
+
+#: ../raster/r.geomorphon/main.c:271
+#, fuzzy
+msgid "Profile output format"
+msgstr "Výstupní formát"
+
+#: ../raster/r.geomorphon/main.c:292
+#, fuzzy, c-format
+msgid "Failed parsing <%s>"
+msgstr "Exportuji <%s>"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:302
 #, c-format
@@ -87807,6 +87846,7 @@ msgid "At least one output is required, e.g. %s"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:325
+<<<<<<< HEAD
 msgid "The coordinates are outside of the computational region"
 msgstr ""
 
@@ -87814,6 +87854,16 @@ msgstr ""
 #, c-format
 msgid "Failed to open output file <%s>: %d (%s)"
 msgstr ""
+=======
+#, fuzzy
+msgid "The coordinates are outside of the computational region"
+msgstr "Koncový bod je mimo aktuální region"
+
+#: ../raster/r.geomorphon/main.c:332
+#, fuzzy, c-format
+msgid "Failed to open output file <%s>: %d (%s)"
+msgstr "Nelze otevřít výstupní soubor <%s>"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"
@@ -87853,9 +87903,15 @@ msgid "Failed to profile the computation, please check the parameters"
 msgstr ""
 
 #: ../raster/r.geomorphon/pattern.c:231
+<<<<<<< HEAD
 #, c-format
 msgid "Internal error in %s()"
 msgstr ""
+=======
+#, fuzzy, c-format
+msgid "Internal error in %s()"
+msgstr "Interní chba funkce %s()"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.proj/bordwalk.c:92 ../raster/r.proj/bordwalk.c:139
 #, c-format

@@ -82422,6 +82422,7 @@ msgid "<%s> is a virtual raster map - can't (un)compress"
 msgstr ""
 
 #: ../raster/r.compress/main.c:219
+<<<<<<< HEAD
 #, c-format
 msgid "DONE: uncompressed file is %lu %s (%.2f%%) smaller"
 msgstr ""
@@ -82440,6 +82441,26 @@ msgstr ""
 #, c-format
 msgid "DONE: compressed file is %lu %s (%.2f%%) larger"
 msgstr ""
+=======
+#, fuzzy, c-format
+msgid "DONE: uncompressed file is %lu %s (%.2f%%) smaller"
+msgstr "HECHO: el archivo descomprimido es %lu bytes más pequeño"
+
+#: ../raster/r.compress/main.c:220
+#, fuzzy, c-format
+msgid "DONE: compressed file is %lu %s (%.2f%%) smaller"
+msgstr "HECHO: el archivo comprimido es %lu bytes más pequeño"
+
+#: ../raster/r.compress/main.c:224
+#, fuzzy, c-format
+msgid "DONE: uncompressed file is %lu %s (%.2f%%) larger"
+msgstr "HECHO: el archivo descomprimido es %lu bytes mayor"
+
+#: ../raster/r.compress/main.c:225
+#, fuzzy, c-format
+msgid "DONE: compressed file is %lu %s (%.2f%%) larger"
+msgstr "HECHO: el archivo comprimido es %lu bytes mayor"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.compress/main.c:228
 msgid "same size"
@@ -87309,16 +87330,28 @@ msgid "\"-\" to read rules from stdin"
 msgstr "\"-\" para leer reglas desde entrada estándar (stdin)"
 
 #: ../raster/r.colors/edit_colors.c:138
+<<<<<<< HEAD
 msgid "Offset for color rule values"
 msgstr ""
+=======
+#, fuzzy
+msgid "Offset for color rule values"
+msgstr "Nombre de la columna para valores z"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.colors/edit_colors.c:139 ../raster/r.colors/edit_colors.c:148
 msgid "New value = (old value + offset) * scale"
 msgstr ""
 
 #: ../raster/r.colors/edit_colors.c:147
+<<<<<<< HEAD
 msgid "Scale for color rule values"
 msgstr ""
+=======
+#, fuzzy
+msgid "Scale for color rule values"
+msgstr "Factor de escalamiento para valores ráster muestreados"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.colors/edit_colors.c:284 ../raster/r.colors/edit_colors.c:318
 #, c-format
@@ -87408,8 +87441,14 @@ msgstr ""
 " (reglas de %f a %f pero datos de %f a %f)"
 
 #: ../raster/r.colors/rules.c:81
+<<<<<<< HEAD
 msgid "Unable to open color rule"
 msgstr ""
+=======
+#, fuzzy
+msgid "Unable to open color rule"
+msgstr "No ha sido posible abrir archivo de script"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.colors/rules.c:179
 #, c-format
@@ -89126,6 +89165,7 @@ msgid "Use extended form correction"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:250
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 
@@ -89146,6 +89186,32 @@ msgstr ""
 #, c-format
 msgid "Failed parsing <%s>"
 msgstr ""
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Coordenadas para consulta"
+
+#: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
+#: ../raster/r.geomorphon/main.c:272
+#, fuzzy
+msgid "Profile"
+msgstr "perfil"
+
+#: ../raster/r.geomorphon/main.c:261
+#, fuzzy
+msgid "Profile output file name (\"-\" for stdout)"
+msgstr "Nombre para archivo de salida que contendrá secuencia de nodos (\"-\" para salida a estándar)"
+
+#: ../raster/r.geomorphon/main.c:271
+#, fuzzy
+msgid "Profile output format"
+msgstr "Formato de salida"
+
+#: ../raster/r.geomorphon/main.c:292
+#, fuzzy, c-format
+msgid "Failed parsing <%s>"
+msgstr "Re-comprimiendo <%s>"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:302
 #, c-format
@@ -89153,6 +89219,7 @@ msgid "At least one output is required, e.g. %s"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:325
+<<<<<<< HEAD
 msgid "The coordinates are outside of the computational region"
 msgstr ""
 
@@ -89160,6 +89227,16 @@ msgstr ""
 #, c-format
 msgid "Failed to open output file <%s>: %d (%s)"
 msgstr ""
+=======
+#, fuzzy
+msgid "The coordinates are outside of the computational region"
+msgstr "Usar la resolución del ráster base en lugar de la región computacional "
+
+#: ../raster/r.geomorphon/main.c:332
+#, fuzzy, c-format
+msgid "Failed to open output file <%s>: %d (%s)"
+msgstr "No se puede abrir el archivo de salida <%s>"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"
@@ -89187,21 +89264,38 @@ msgid "Unknown output data type"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:653
+<<<<<<< HEAD
 msgid "Profile data has been written"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:655
 msgid "Failed writing profile data"
 msgstr ""
+=======
+#, fuzzy
+msgid "Profile data has been written"
+msgstr "Escribir datos como enteros"
+
+#: ../raster/r.geomorphon/main.c:655
+#, fuzzy
+msgid "Failed writing profile data"
+msgstr "Fallo al copiar archivo V5D"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:751
 msgid "Failed to profile the computation, please check the parameters"
 msgstr ""
 
 #: ../raster/r.geomorphon/pattern.c:231
+<<<<<<< HEAD
 #, c-format
 msgid "Internal error in %s()"
 msgstr ""
+=======
+#, fuzzy, c-format
+msgid "Internal error in %s()"
+msgstr "Error interno para la función %s()"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.proj/bordwalk.c:92 ../raster/r.proj/bordwalk.c:139
 #, c-format

@@ -117556,6 +117556,7 @@ msgid "z flag is supported only for points"
 msgstr "Der Schalter '-z' wird nur für Punkte unterstützt."
 
 #: ../raster/r.to.vect/main.c:142
+<<<<<<< HEAD
 msgid ""
 "Raster is not CELL, '-v' flag ignored, raster values will be written to the "
 "table."
@@ -117566,6 +117567,13 @@ msgstr ""
 #: ../raster/r.to.vect/main.c:144
 msgid ""
 "Raster is not CELL, '-v' flag ignored, raster values will be z coordinate."
+=======
+msgid "Raster is not CELL, '-v' flag ignored, raster values will be written to the table."
+msgstr "Die Rasterkarte hat nicht den Typ integer (CELL) daher wird der Schalter '-v' ignoriert. Rasterwerte werden in die Tabelle geschrieben."
+
+#: ../raster/r.to.vect/main.c:144
+msgid "Raster is not CELL, '-v' flag ignored, raster values will be z coordinate."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../raster/r.to.vect/main.c:146
@@ -117590,6 +117598,7 @@ msgid "Extracting points..."
 msgstr "Extrahiere Punkte ... "
 
 #: ../raster/r.patch/main.c:66
+<<<<<<< HEAD
 msgid ""
 "Creates a composite raster map layer by using known category values from one "
 "(or more) map layer(s) to fill in areas of \"no data\" in another map layer."
@@ -117597,6 +117606,10 @@ msgstr ""
 "Erstellt eine Komposit-Karte, indem bekannte Kategorie-Werte einer (oder "
 "mehrerer) Rasterkarte(n) in \"NO DATA\"-Bereiche einer anderen Rasterkarte "
 "gefüllt werden."
+=======
+msgid "Creates a composite raster map layer by using known category values from one (or more) map layer(s) to fill in areas of \"no data\" in another map layer."
+msgstr "Erstellt eine Komposit-Karte, indem bekannte Kategorie-Werte einer (oder mehrerer) Rasterkarte(n) in \"NO DATA\"-Bereiche einer anderen Rasterkarte gefüllt werden."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.patch/main.c:73
 msgid "Name of raster maps to be patched together"
@@ -117641,6 +117654,7 @@ msgstr ""
 
 #: ../raster/r.lake/main.c:194
 msgid "Overwrite seed map with result (lake) map"
+<<<<<<< HEAD
 msgstr ""
 "Überschreibe die Karte mit Startpunkten mit der resultierenden Seekarte."
 
@@ -117655,6 +117669,17 @@ msgid "Seed map or seed coordinates must be set!"
 msgstr ""
 "Entweder eine Karte mit Startpunkten oder Startkoordinaten müssen angegeben "
 "werden."
+=======
+msgstr "Überschreibe die Karte mit Startpunkten mit der resultierenden Seekarte."
+
+#: ../raster/r.lake/main.c:201
+msgid "Both seed map and coordinates cannot be specified"
+msgstr "Eine Karte mit Startpunkten und Koordinaten können nicht gleichzeitig verwendet werden."
+
+#: ../raster/r.lake/main.c:204
+msgid "Seed map or seed coordinates must be set!"
+msgstr "Entweder eine Karte mit Startpunkten oder Startkoordinaten müssen angegeben werden."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.lake/main.c:207
 msgid "Seed coordinates and output map lake= must be set!"
@@ -117662,6 +117687,7 @@ msgstr "Start-Koordinaten und Ausgabekarten müssen bestimmt werden."
 
 #: ../raster/r.lake/main.c:210
 msgid "Both lake and overwrite cannot be specified"
+<<<<<<< HEAD
 msgstr ""
 "Die Einstellungen 'lake' und 'overwrite' können nicht zugleich verwendet "
 "werden."
@@ -117671,6 +117697,13 @@ msgid "Output lake map or overwrite flag must be set!"
 msgstr ""
 "Entweder eine Ausgabe-Seekarte oder das Überschreiben-'flag' muss angegeben "
 "werden."
+=======
+msgstr "Die Einstellungen 'lake' und 'overwrite' können nicht zugleich verwendet werden."
+
+#: ../raster/r.lake/main.c:213
+msgid "Output lake map or overwrite flag must be set!"
+msgstr "Entweder eine Ausgabe-Seekarte oder das Überschreiben-'flag' muss angegeben werden."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.lake/main.c:240
 msgid "Seed point outside the current region"
@@ -117681,6 +117714,7 @@ msgid "G_malloc: out of memory"
 msgstr "G_malloc: Kein Speicher mehr da."
 
 #: ../raster/r.lake/main.c:276
+<<<<<<< HEAD
 msgid ""
 "Given water level at seed point is below earth surface. Increase water level "
 "or move seed point."
@@ -117688,6 +117722,10 @@ msgstr ""
 "Der angegebene Wasserstand am Startpunkt befindet sich unter der "
 "Erdoberfläche. Erhöhen Sie den Wasserstand oder verschieben Sie den "
 "Startpunkt."
+=======
+msgid "Given water level at seed point is below earth surface. Increase water level or move seed point."
+msgstr "Der angegebene Wasserstand am Startpunkt befindet sich unter der Erdoberfläche. Erhöhen Sie den Wasserstand oder verschieben Sie den Startpunkt."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.lake/main.c:355
 #, c-format
@@ -117706,6 +117744,7 @@ msgstr "Seevolumen %f Kubikmeter."
 
 #: ../raster/r.lake/main.c:358
 msgid "Volume is correct only if lake depth (terrain raster map) is in meters"
+<<<<<<< HEAD
 msgstr ""
 "Das Volumen ist nur korrekt, wenn die Seetiefe (Terrain-Rasterkarte) in "
 "Metern angegeben wurde."
@@ -117719,6 +117758,13 @@ msgstr ""
 "Erzeugt eine Rasterkarte, die die kumulativen Kosten, die beim Bewegen "
 "zwischen unterschiedlichen geographischen Orten entstehen, zeigt. Die "
 "Kategoriewerte der Eingabekarte repräsentieren die Kosten."
+=======
+msgstr "Das Volumen ist nur korrekt, wenn die Seetiefe (Terrain-Rasterkarte) in Metern angegeben wurde."
+
+#: ../raster/r.cost/main.c:169
+msgid "Creates a raster map showing the cumulative cost of moving between different geographic locations on an input raster map whose cell category values represent cost."
+msgstr "Erzeugt eine Rasterkarte, die die kumulativen Kosten, die beim Bewegen zwischen unterschiedlichen geographischen Orten entstehen, zeigt. Die Kategoriewerte der Eingabekarte repräsentieren die Kosten."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.cost/main.c:176
 msgid "Name of input raster map containing grid cell cost information"
@@ -117731,6 +117777,7 @@ msgstr ""
 
 #: ../raster/r.cost/main.c:555
 #, c-format
+<<<<<<< HEAD
 msgid ""
 "Negative cell value found at row %d, col %d. Setting negative value to "
 "null_cost value"
@@ -117743,6 +117790,13 @@ msgid ""
 "Generates red, green and blue (RGB) raster map layers combining hue, "
 "intensity and saturation (HIS) values from user-specified input raster map "
 "layers."
+=======
+msgid "Negative cell value found at row %d, col %d. Setting negative value to null_cost value"
+msgstr "Negative Werte in Zeile %d, Spalte %d gefunden. Setze die negativen Werte auf den null_cost-Wert."
+
+#: ../raster/r.his/main.c:73
+msgid "Generates red, green and blue (RGB) raster map layers combining hue, intensity and saturation (HIS) values from user-specified input raster map layers."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../raster/r.his/main.c:103
@@ -117764,9 +117818,13 @@ msgstr ""
 
 #: ../raster/r.support/main.c:56
 msgid "Allows creation and/or modification of raster map layer support files."
+<<<<<<< HEAD
 msgstr ""
 "Erlaubt das Erzeugen und/oder das Modifizieren von Rasterkarten-Support-"
 "Dateien."
+=======
+msgstr "Erlaubt das Erzeugen und/oder das Modifizieren von Rasterkarten-Support-Dateien."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.support/main.c:80
 msgid "Text to use for map data units"
@@ -117839,11 +117897,16 @@ msgid "%s: STEP 3 ... "
 msgstr "%s: Schritt 3 ... "
 
 #: ../raster/r.cross/main.c:71
+<<<<<<< HEAD
 msgid ""
 "Creates a cross product of the category values from multiple raster map "
 "layers."
 msgstr ""
 "Erzeugt ein Kreuzprodukt von Kategoriewerten auf Basis mehrerer Rasterkarten."
+=======
+msgid "Creates a cross product of the category values from multiple raster map layers."
+msgstr "Erzeugt ein Kreuzprodukt von Kategoriewerten auf Basis mehrerer Rasterkarten."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.cross/main.c:80
 #, c-format
@@ -117903,9 +117966,13 @@ msgstr "Unerlaubter Feldtyp: verwende Typ int."
 
 #: ../raster/r.in.ascii/gethead.c:169
 msgid "ignoring type filed in header, type is set on command line"
+<<<<<<< HEAD
 msgstr ""
 "Ignoriere Feldtypen des Headers, da der Typ auf der Kommandozeile gesetzt "
 "wurde."
+=======
+msgstr "Ignoriere Feldtypen des Headers, da der Typ auf der Kommandozeile gesetzt wurde."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.in.ascii/gethead.c:176
 msgid "illegal multiplier field: using 1.0"
@@ -117913,6 +117980,7 @@ msgstr "Unerlaubtes Multiplikator-Feld: verwende 1.0."
 
 #: ../raster/r.in.ascii/gethead.c:181
 msgid "ignoring multiplier filed in header, multiplier is set on command line"
+<<<<<<< HEAD
 msgstr ""
 "Ignoriere Multiplikator-Feld im Header, da der Multiplikator auf der "
 "Kommandozeile gesetzt wurde."
@@ -117922,6 +117990,13 @@ msgid "ignoring null filed in header, null string is set on command line"
 msgstr ""
 "Ignoriere NULL-Feld im Header, da der NULL-Wert auf der Kommandozeile "
 "gesetzt wurde."
+=======
+msgstr "Ignoriere Multiplikator-Feld im Header, da der Multiplikator auf der Kommandozeile gesetzt wurde."
+
+#: ../raster/r.in.ascii/gethead.c:189
+msgid "ignoring null filed in header, null string is set on command line"
+msgstr "Ignoriere NULL-Feld im Header, da der NULL-Wert auf der Kommandozeile gesetzt wurde."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.in.ascii/gethead.c:218
 msgid "error in ascii data format"
@@ -117998,6 +118073,7 @@ msgid "Name for output ASCII grid map (use out=- for stdout)"
 msgstr "Name der Ausgabe ASCII-Grid Datei (verwende out=- für stdout)."
 
 #: ../raster/r.out.ascii/main.c:87
+<<<<<<< HEAD
 msgid ""
 "Number of values printed before wrapping a line (only SURFER or MODFLOW "
 "format)"
@@ -118009,6 +118085,14 @@ msgstr ""
 msgid "String to represent null cell (GRASS grid only)"
 msgstr ""
 "Zeichenkette, der NULL-Werte repräsentiert (nur bei GRASS Rasterkarten)."
+=======
+msgid "Number of values printed before wrapping a line (only SURFER or MODFLOW format)"
+msgstr "Anzahl der ausgegebenen Werte, bevor ein Zeilenumbruch eingefügt wird (nur beim SURFER oder MODFLOW-Format)"
+
+#: ../raster/r.out.ascii/main.c:92
+msgid "String to represent null cell (GRASS grid only)"
+msgstr "Zeichenkette, der NULL-Werte repräsentiert (nur bei GRASS Rasterkarten)."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.out.ascii/main.c:100
 msgid "Write SURFER (Golden Software) ASCII grid"
@@ -118207,6 +118291,7 @@ msgid "%ld bytes written to '%s'"
 msgstr "%ld Bytes nach '%s' geschrieben."
 
 #: ../raster/r.series/main.c:142
+<<<<<<< HEAD
 msgid ""
 "Makes each output cell value a function of the values assigned to the "
 "corresponding cells in the input raster map layers."
@@ -118223,6 +118308,17 @@ msgstr ""
 #: ../raster/r.series/main.c:177
 msgid ""
 "Weighting factor for each input map, default value is 1.0 for each input map"
+=======
+msgid "Makes each output cell value a function of the values assigned to the corresponding cells in the input raster map layers."
+msgstr "Macht aus jeder Ausgabezelle eine Funktion der Werte, die einer korrespondierenden Zelle einer Eingabekarte zugewiesen ist."
+
+#: ../raster/r.series/main.c:151
+msgid "Input file with one raster map name and optional one weight per line, field separator between name and weight is |"
+msgstr ""
+
+#: ../raster/r.series/main.c:177
+msgid "Weighting factor for each input map, default value is 1.0 for each input map"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../raster/r.series/main.c:253 ../raster/r.series/main.c:325
@@ -118254,6 +118350,7 @@ msgstr ""
 
 #: ../raster/r.geomorphon/memory.c:42
 #, c-format
+<<<<<<< HEAD
 msgid ""
 "Region resolution shoudn't be lesser than map %s resolution. Run g.region "
 "raster=%s to set proper resolution"
@@ -118263,6 +118360,13 @@ msgstr ""
 msgid ""
 "Calculates geomorphons (terrain forms) and associated geometry using machine "
 "vision approach."
+=======
+msgid "Region resolution shoudn't be lesser than map %s resolution. Run g.region raster=%s to set proper resolution"
+msgstr ""
+
+#: ../raster/r.geomorphon/main.c:163
+msgid "Calculates geomorphons (terrain forms) and associated geometry using machine vision approach."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:165
@@ -118306,6 +118410,7 @@ msgid "Use extended form correction"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:250
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 
@@ -118326,6 +118431,32 @@ msgstr ""
 #, c-format
 msgid "Failed parsing <%s>"
 msgstr ""
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Koordinaten für die Abfrage."
+
+#: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
+#: ../raster/r.geomorphon/main.c:272
+#, fuzzy
+msgid "Profile"
+msgstr "Profil"
+
+#: ../raster/r.geomorphon/main.c:261
+#, fuzzy
+msgid "Profile output file name (\"-\" for stdout)"
+msgstr "Name der Ausgabedatei (verwende output=- für stdout)"
+
+#: ../raster/r.geomorphon/main.c:271
+#, fuzzy
+msgid "Profile output format"
+msgstr "Ausgabeformat."
+
+#: ../raster/r.geomorphon/main.c:292
+#, fuzzy, c-format
+msgid "Failed parsing <%s>"
+msgstr "Exportiere <%s>."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:302
 #, c-format
@@ -118333,6 +118464,7 @@ msgid "At least one output is required, e.g. %s"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:325
+<<<<<<< HEAD
 msgid "The coordinates are outside of the computational region"
 msgstr ""
 
@@ -118340,6 +118472,16 @@ msgstr ""
 #, c-format
 msgid "Failed to open output file <%s>: %d (%s)"
 msgstr ""
+=======
+#, fuzzy
+msgid "The coordinates are outside of the computational region"
+msgstr "Koordinaten des Endpunkts sind außerhalb der aktuellen Region."
+
+#: ../raster/r.geomorphon/main.c:332
+#, fuzzy, c-format
+msgid "Failed to open output file <%s>: %d (%s)"
+msgstr "Kann Ausgabedatei <%s> nicht öffnen."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"
@@ -118354,15 +118496,23 @@ msgid "Flatness threshold must be grater than 0"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:381
+<<<<<<< HEAD
 msgid ""
 "Flatness distance should be between skip and search radius. Otherwise ignored"
+=======
+msgid "Flatness distance should be between skip and search radius. Otherwise ignored"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:431
 #, c-format
+<<<<<<< HEAD
 msgid ""
 "There may be a notable processing delay because the computational region is "
 "%lu times larger than necessary"
+=======
+msgid "There may be a notable processing delay because the computational region is %lu times larger than necessary"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:520
@@ -118374,17 +118524,29 @@ msgid "Profile data has been written"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:655
+<<<<<<< HEAD
 msgid "Failed writing profile data"
 msgstr ""
+=======
+#, fuzzy
+msgid "Failed writing profile data"
+msgstr "Schreiben der V5D-Datei fehlgeschlagen."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:751
 msgid "Failed to profile the computation, please check the parameters"
 msgstr ""
 
 #: ../raster/r.geomorphon/pattern.c:231
+<<<<<<< HEAD
 #, c-format
 msgid "Internal error in %s()"
 msgstr ""
+=======
+#, fuzzy, c-format
+msgid "Internal error in %s()"
+msgstr "Interner Fehler in der Funktion %s()."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.proj/bordwalk.c:92 ../raster/r.proj/bordwalk.c:139
 #, c-format
@@ -118422,6 +118584,7 @@ msgstr ""
 
 #: ../raster/r.proj/main.c:218
 msgid "Print input map's bounds in the current projection and exit"
+<<<<<<< HEAD
 msgstr ""
 "Gibt die Grenzen der Eingabekarte in der aktuellen Projektion aus und "
 "beendet sich."
@@ -118432,6 +118595,13 @@ msgid ""
 msgstr ""
 "Gibt die Grenzen der Eingabekarte in der aktuellen Projektion im Shellskript-"
 "Format aus und beendet sich."
+=======
+msgstr "Gibt die Grenzen der Eingabekarte in der aktuellen Projektion aus und beendet sich."
+
+#: ../raster/r.proj/main.c:224
+msgid "Print input map's bounds in the current projection and exit (shell style)"
+msgstr "Gibt die Grenzen der Eingabekarte in der aktuellen Projektion im Shellskript-Format aus und beendet sich."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.proj/main.c:259
 msgid "Input and output locations are the same"
@@ -118439,8 +118609,12 @@ msgstr "Eingabe- und Ausgabe-Location sind identisch."
 
 #: ../raster/r.proj/main.c:269
 msgid "Unable to get projection info of output raster map"
+<<<<<<< HEAD
 msgstr ""
 "Kann die Projektionsinformation der Ausgabe-Rasterkarte nicht ermitteln."
+=======
+msgstr "Kann die Projektionsinformation der Ausgabe-Rasterkarte nicht ermitteln."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.proj/main.c:272
 msgid "Unable to get projection units of output raster map"
@@ -118448,8 +118622,12 @@ msgstr "Kann die Projektionseinheit der Ausgabe-Rasterkarte nicht ermitteln."
 
 #: ../raster/r.proj/main.c:275
 msgid "Unable to get projection key values of output raster map"
+<<<<<<< HEAD
 msgstr ""
 "Kann die Kennzahlen der Projektion der Ausgabe-Rasterkarte nicht ermitteln."
+=======
+msgstr "Kann die Kennzahlen der Projektion der Ausgabe-Rasterkarte nicht ermitteln."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.proj/main.c:288
 #, c-format
@@ -118557,12 +118735,17 @@ msgid "reclass"
 msgstr "Reklassifizieren"
 
 #: ../raster/r.clump/main.c:63
+<<<<<<< HEAD
 msgid ""
 "Recategorizes data in a raster map by grouping cells that form physically "
 "discrete areas into unique categories."
 msgstr ""
 "Re-Kategorisiert Daten einer Rasterkarte, indem Zellen physikalisch "
 "diskreter Areale zu eindeutigen Kategorie gruppiert werden."
+=======
+msgid "Recategorizes data in a raster map by grouping cells that form physically discrete areas into unique categories."
+msgstr "Re-Kategorisiert Daten einer Rasterkarte, indem Zellen physikalisch diskreter Areale zu eindeutigen Kategorie gruppiert werden."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.clump/main.c:82
 msgid "Threshold to identify similar cells"
@@ -118628,11 +118811,16 @@ msgid "End coordinate: %.15g, %.15g"
 msgstr "End-Koordinate: %.15g, %.15g"
 
 #: ../raster/r.transect/main.c:107
+<<<<<<< HEAD
 msgid ""
 "Outputs raster map layer values lying along user defined transect line(s)."
 msgstr ""
 "Gibt die Werte einer Rasterkarte aus, die entlang einer/mehrerer durch den "
 "Benutzer festgelegten Linie(n) liegen."
+=======
+msgid "Outputs raster map layer values lying along user defined transect line(s)."
+msgstr "Gibt die Werte einer Rasterkarte aus, die entlang einer/mehrerer durch den Benutzer festgelegten Linie(n) liegen."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.transect/main.c:111
 msgid "Raster map to be queried"
@@ -118780,9 +118968,13 @@ msgid "Spatial weights neighborhood (cells):"
 msgstr ""
 
 #: ../raster/r.fill.stats/main.c:781
+<<<<<<< HEAD
 msgid ""
 "Rapidly fills 'no data' cells (NULLs) of a raster map with interpolated "
 "values (IDW)."
+=======
+msgid "Rapidly fills 'no data' cells (NULLs) of a raster map with interpolated values (IDW)."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../raster/r.fill.stats/main.c:789
@@ -118882,8 +119074,12 @@ msgstr ""
 
 #: ../raster/r.fill.stats/main.c:938
 #, c-format
+<<<<<<< HEAD
 msgid ""
 "Maximum distance too large. Adjusted to '%.6f' (diagonal of current region)."
+=======
+msgid "Maximum distance too large. Adjusted to '%.6f' (diagonal of current region)."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../raster/r.fill.stats/main.c:948
@@ -118892,9 +119088,13 @@ msgstr ""
 
 #: ../raster/r.fill.stats/main.c:954
 #, c-format
+<<<<<<< HEAD
 msgid ""
 "Maximum distance too large. Adjusted to '%lu' cells (diagonal of current "
 "region)."
+=======
+msgid "Maximum distance too large. Adjusted to '%lu' cells (diagonal of current region)."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../raster/r.fill.stats/main.c:961
@@ -118958,8 +119158,12 @@ msgstr ""
 
 #: ../raster/r.fill.stats/main.c:1111
 #, c-format
+<<<<<<< HEAD
 msgid ""
 "Input data type is '%s' (%i bytes) and output data type is '%s' (%i bytes)."
+=======
+msgid "Input data type is '%s' (%i bytes) and output data type is '%s' (%i bytes)."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../raster/r.fill.stats/main.c:1252
@@ -119001,20 +119205,29 @@ msgid "depressions"
 msgstr ""
 
 #: ../raster/r.fill.dir/main.c:94
+<<<<<<< HEAD
 msgid ""
 "Filters and generates a depressionless elevation map and a flow direction "
 "map from a given elevation raster map."
 msgstr ""
 "Filtert und generiert ein depressionsloses Höhenmodell und eine "
 "Fließrichtungskarte auf Basis eines gegebenen Höhenmodells."
+=======
+msgid "Filters and generates a depressionless elevation map and a flow direction map from a given elevation raster map."
+msgstr "Filtert und generiert ein depressionsloses Höhenmodell und eine Fließrichtungskarte auf Basis eines gegebenen Höhenmodells."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.fill.dir/main.c:101
 msgid "Name for output depressionless elevation raster map"
 msgstr ""
 
 #: ../raster/r.fill.dir/main.c:105
+<<<<<<< HEAD
 msgid ""
 "Name for output flow direction map for depressionless elevation raster map"
+=======
+msgid "Name for output flow direction map for depressionless elevation raster map"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../raster/r.fill.dir/main.c:110
@@ -119064,6 +119277,7 @@ msgid "Calculates the volume of data \"clumps\"."
 msgstr ""
 
 #: ../raster/r.volume/main.c:81
+<<<<<<< HEAD
 msgid ""
 "Optionally produces a GRASS vector points map containing the calculated "
 "centroids of these clumps."
@@ -119072,6 +119286,13 @@ msgstr ""
 #: ../raster/r.volume/main.c:86
 msgid ""
 "Name of input raster map representing data that will be summed within clumps"
+=======
+msgid "Optionally produces a GRASS vector points map containing the calculated centroids of these clumps."
+msgstr ""
+
+#: ../raster/r.volume/main.c:86
+msgid "Name of input raster map representing data that will be summed within clumps"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../raster/r.volume/main.c:92
@@ -119079,8 +119300,12 @@ msgid "Name of input clump raster map"
 msgstr ""
 
 #: ../raster/r.volume/main.c:93
+<<<<<<< HEAD
 msgid ""
 "Preferably the output of r.clump. If no clump map is given than MASK is used."
+=======
+msgid "Preferably the output of r.clump. If no clump map is given than MASK is used."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../raster/r.volume/main.c:99
@@ -119100,9 +119325,13 @@ msgid "Generate unformatted report (items separated by colon)"
 msgstr ""
 
 #: ../raster/r.volume/main.c:143
+<<<<<<< HEAD
 msgid ""
 "No MASK found. If no clump map is given than the MASK is required. You need "
 "to define a clump raster map or create a MASK by r.mask command."
+=======
+msgid "No MASK found. If no clump map is given than the MASK is required. You need to define a clump raster map or create a MASK by r.mask command."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../raster/r.volume/main.c:145
@@ -119173,8 +119402,12 @@ msgstr ""
 
 #: ../raster/r.contour/main.c:92
 msgid "Produces a vector map of specified contours from a raster map."
+<<<<<<< HEAD
 msgstr ""
 "Erzeugt eine Vektorkarte mit bestimmten Kontourlinien aus einer Rasterkarte."
+=======
+msgstr "Erzeugt eine Vektorkarte mit bestimmten Kontourlinien aus einer Rasterkarte."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.contour/main.c:103 ../raster/r.contour/main.c:111
 #: ../raster/r.contour/main.c:118 ../raster/r.contour/main.c:125
@@ -119375,9 +119608,13 @@ msgid "Unable to process extension:%s"
 msgstr ""
 
 #: ../scripts/v.to.lines/v.to.lines.py:68
+<<<<<<< HEAD
 msgid ""
 "The input vector map contains both polygons and points, cannot handle mixed "
 "types"
+=======
+msgid "The input vector map contains both polygons and points, cannot handle mixed types"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../scripts/v.to.lines/v.to.lines.py:78
@@ -119444,9 +119681,13 @@ msgstr ""
 
 #: ../scripts/r.mask/r.mask.py:134
 #, python-format
+<<<<<<< HEAD
 msgid ""
 "The raster map <%s> must be integer (CELL type)  in order to use the "
 "'maskcats' parameter"
+=======
+msgid "The raster map <%s> must be integer (CELL type)  in order to use the 'maskcats' parameter"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../scripts/r.mask/r.mask.py:159
@@ -119472,9 +119713,13 @@ msgid "Raster MASK created"
 msgstr ""
 
 #: ../scripts/r.mask/r.mask.py:193
+<<<<<<< HEAD
 msgid ""
 "All subsequent raster operations will be limited to the MASK area. Removing "
 "or renaming raster map named 'MASK' will restore raster operations to normal."
+=======
+msgid "All subsequent raster operations will be limited to the MASK area. Removing or renaming raster map named 'MASK' will restore raster operations to normal."
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 msgstr ""
 
 #: ../scripts/r.unpack/r.unpack.py:65

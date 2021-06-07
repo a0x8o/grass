@@ -112349,6 +112349,7 @@ msgid "Use extended form correction"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:250
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 
@@ -112369,6 +112370,32 @@ msgstr ""
 #, c-format
 msgid "Failed parsing <%s>"
 msgstr ""
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Coordenadas para os nodos de linha para criação de perfil"
+
+#: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
+#: ../raster/r.geomorphon/main.c:272
+#, fuzzy
+msgid "Profile"
+msgstr "perfil"
+
+#: ../raster/r.geomorphon/main.c:261
+#, fuzzy
+msgid "Profile output file name (\"-\" for stdout)"
+msgstr "Nome do arquivo de saída (use output=- para saída padrão)"
+
+#: ../raster/r.geomorphon/main.c:271
+#, fuzzy
+msgid "Profile output format"
+msgstr "Formato de saída"
+
+#: ../raster/r.geomorphon/main.c:292
+#, fuzzy, c-format
+msgid "Failed parsing <%s>"
+msgstr "zrange inválido <%s>"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:302
 #, c-format
@@ -112376,6 +112403,7 @@ msgid "At least one output is required, e.g. %s"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:325
+<<<<<<< HEAD
 msgid "The coordinates are outside of the computational region"
 msgstr ""
 
@@ -112383,6 +112411,16 @@ msgstr ""
 #, c-format
 msgid "Failed to open output file <%s>: %d (%s)"
 msgstr ""
+=======
+#, fuzzy
+msgid "The coordinates are outside of the computational region"
+msgstr "ponto de origem fora da região atual"
+
+#: ../raster/r.geomorphon/main.c:332
+#, fuzzy, c-format
+msgid "Failed to open output file <%s>: %d (%s)"
+msgstr "Não consegui abrir arquivo de saída <%s>"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"

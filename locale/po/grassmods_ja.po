@@ -78697,6 +78697,7 @@ msgid "Use extended form correction"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:250
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 
@@ -78712,6 +78713,27 @@ msgstr ""
 #: ../raster/r.geomorphon/main.c:271
 msgid "Profile output format"
 msgstr ""
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "検索する座標"
+
+#: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
+#: ../raster/r.geomorphon/main.c:272
+#, fuzzy
+msgid "Profile"
+msgstr "プロファイル"
+
+#: ../raster/r.geomorphon/main.c:261
+#, fuzzy
+msgid "Profile output file name (\"-\" for stdout)"
+msgstr "出力するファイル 名（'output=-' で標準出力）"
+
+#: ../raster/r.geomorphon/main.c:271
+#, fuzzy
+msgid "Profile output format"
+msgstr "出力する形式はサポートされていません"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:292
 #, c-format
@@ -78724,6 +78746,7 @@ msgid "At least one output is required, e.g. %s"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:325
+<<<<<<< HEAD
 msgid "The coordinates are outside of the computational region"
 msgstr ""
 
@@ -78731,6 +78754,16 @@ msgstr ""
 #, c-format
 msgid "Failed to open output file <%s>: %d (%s)"
 msgstr ""
+=======
+#, fuzzy
+msgid "The coordinates are outside of the computational region"
+msgstr "終了点の座標が現在の領域設定外です"
+
+#: ../raster/r.geomorphon/main.c:332
+#, fuzzy, c-format
+msgid "Failed to open output file <%s>: %d (%s)"
+msgstr "出力するファイルが開けません <%s>"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"
@@ -78758,21 +78791,38 @@ msgid "Unknown output data type"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:653
+<<<<<<< HEAD
 msgid "Profile data has been written"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:655
 msgid "Failed writing profile data"
 msgstr ""
+=======
+#, fuzzy
+msgid "Profile data has been written"
+msgstr "整数値としてデータを出力"
+
+#: ../raster/r.geomorphon/main.c:655
+#, fuzzy
+msgid "Failed writing profile data"
+msgstr "ファイルをコピーできませんでした"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:751
 msgid "Failed to profile the computation, please check the parameters"
 msgstr ""
 
 #: ../raster/r.geomorphon/pattern.c:231
+<<<<<<< HEAD
 #, c-format
 msgid "Internal error in %s()"
 msgstr ""
+=======
+#, fuzzy, c-format
+msgid "Internal error in %s()"
+msgstr "内部エラー"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.proj/bordwalk.c:92 ../raster/r.proj/bordwalk.c:139
 #, c-format

@@ -4,6 +4,7 @@ line-length = 88
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 target-version = ['py37', 'py38', 'py39', 'py310']
 =======
 <<<<<<< HEAD
@@ -15,12 +16,15 @@ target-version = ['py37', 'py38', 'py39', 'py310']
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 target-version = ['py38', 'py39', 'py310', 'py311', 'py312']
 # 'extend-exclude' excludes files or directories in addition to the defaults
 extend-exclude = '''
 (
     python/libgrass_interface_generator/
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 target-version = ['py36', 'py37', 'py38', 'py39']
@@ -37,6 +41,9 @@ target-version = ['py37', 'py38', 'py39', 'py310']
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+target-version = ['py36', 'py37', 'py38', 'py39']
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 include = '\.pyi?$'
 exclude = '''
 (
@@ -57,6 +64,7 @@ exclude = '''
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     | python/libgrass_interface_generator/
 =======
 <<<<<<< HEAD
@@ -65,12 +73,15 @@ exclude = '''
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
     | python/grass/ctypes/
     # Bug in Black related to r-string prefix capitalization reformats
     # a line in this file unnecessarily. File is however fully Black-formatted
     # at the time of writing.
     # https://github.com/psf/black/issues/1244
     | python/grass/pygrass/utils.py
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
@@ -88,6 +99,9 @@ exclude = '''
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 )
 '''
 

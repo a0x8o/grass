@@ -72775,8 +72775,14 @@ msgid "Use extended form correction"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:250
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
+=======
+#, fuzzy
+msgid "Coordinates to profile"
+msgstr "Координаты E и N начальной точки (точек)"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
@@ -72788,8 +72794,14 @@ msgid "Profile output file name (\"-\" for stdout)"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:271
+<<<<<<< HEAD
 msgid "Profile output format"
 msgstr ""
+=======
+#, fuzzy
+msgid "Profile output format"
+msgstr "Префикс выходного растрового слоя (слоев)"
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 
 #: ../raster/r.geomorphon/main.c:292
 #, c-format

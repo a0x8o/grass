@@ -6,10 +6,15 @@ LABEL authors="Pietro Zambelli,Markus Neteler"
 LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # without PDAL
 
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+# without PDAL
+
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
 # PACKAGES VERSIONS
 ARG PYTHON_VERSION=3
 
