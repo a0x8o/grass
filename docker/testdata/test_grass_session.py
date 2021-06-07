@@ -1640,7 +1640,13 @@ from grass_session import Session
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 5ac978468c (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 42e7bdd0cf (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> e29d325b37 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 67ed37bf9b (Dockerfile: fix broken lib link (#1625))
 
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 >>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))

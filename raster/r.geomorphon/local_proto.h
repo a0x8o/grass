@@ -272,6 +272,7 @@ GLOBAL struct Cell_head window;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -464,6 +465,10 @@ GLOBAL struct Cell_head window;
 =======
 >>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b974eae31d (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 67ed37bf9b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 8e84f40070 (Dockerfile: fix broken lib link (#1625))
@@ -2887,8 +2892,21 @@ GLOBAL struct Cell_head window;
 =======
 =======
 >>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> e29d325b37 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 67ed37bf9b (Dockerfile: fix broken lib link (#1625))
 /* Zenith/nadir comparison modes. */
 GLOBAL enum { ANGLEV1, ANGLEV2, ANGLEV2_DISTANCE } compmode;
 

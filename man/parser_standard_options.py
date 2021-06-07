@@ -216,6 +216,7 @@ class OptTable(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d94037aca8 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
@@ -282,6 +283,10 @@ class OptTable(object):
 =======
 >>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b974eae31d (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 67ed37bf9b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 8e84f40070 (Dockerfile: fix broken lib link (#1625))
@@ -936,10 +941,14 @@ class OptTable(object):
 >>>>>>> 705b9dfdcf (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 >>>>>>> 8e84f40070 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 67ed37bf9b (Dockerfile: fix broken lib link (#1625))
 =======
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -947,6 +956,7 @@ class OptTable(object):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> e29d325b37 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b974eae31d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -1122,6 +1132,8 @@ class OptTable(object):
 =======
 >>>>>>> 1109ae34ce (Dockerfile: fix broken lib link (#1625))
 >>>>>>> ea2d110c6b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 67ed37bf9b (Dockerfile: fix broken lib link (#1625))
     def __init__(self, list_of_dict):
         self.options = list_of_dict
         self.columns = sorted({key for _, d in self.options for key in d.keys()})
