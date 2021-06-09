@@ -41542,6 +41542,7 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD:docker/debian/Dockerfile
+<<<<<<< HEAD
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -41583,6 +41584,9 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 >>>>>>> 4ed1049f79 (Dockerfile Debian: versionless link fix)
 =======
 >>>>>>> 6bb0c82a5b (Dockerfile Debian: versionless link fix)
+=======
+<<<<<<< HEAD:docker/debian/Dockerfile
+>>>>>>> abc2aa55d4 (Dockerfile Debian: versionless link fix)
 RUN ln -sf /usr/local/grass84 /usr/local/grass
 =======
 RUN ln -sf /usr/local/grass `grass --config path`
@@ -41778,6 +41782,7 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 =======
 RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/ubuntu/Dockerfile_ubuntu_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
@@ -42542,6 +42547,7 @@ RUN ln -sf /usr/local/grass `grass --config path`
 >>>>>>> d18bc3cd4c (Dockerfile Debian: versionless link fix)
 =======
 >>>>>>> abc2aa55d4 (Dockerfile Debian: versionless link fix)
+<<<<<<< HEAD
 =======
 RUN ln -sf /usr/local/grass80 /usr/local/grass
 >>>>>>> a8e084d159 (Dockerfile Debian: versionless link fix):docker/ubuntu/Dockerfile_ubuntu_pdal
@@ -43017,6 +43023,8 @@ RUN ln -sf /usr/local/grass `grass --config path`
 =======
 >>>>>>> 8cc7f6495c (Dockerfile Debian: versionless link fix)
 =======
+>>>>>>> 15074414dc (Dockerfile Debian: versionless link fix)
+=======
 RUN ln -sf /usr/local/grass80 /usr/local/grass
 >>>>>>> a8e084d159 (Dockerfile Debian: versionless link fix):docker/ubuntu/Dockerfile_ubuntu_pdal
 <<<<<<< HEAD
@@ -43024,6 +43032,18 @@ RUN ln -sf /usr/local/grass80 /usr/local/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> abc2aa55d4 (Dockerfile Debian: versionless link fix)
 >>>>>>> d59e928d20 (Dockerfile Debian: versionless link fix)
 =======
 >>>>>>> d59e928d20 (Dockerfile Debian: versionless link fix)
@@ -43222,7 +43242,13 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 =======
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> e29d325b37 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 1c91f3d31b (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> d59e928d20 (Dockerfile Debian: versionless link fix)
+>>>>>>> d18bc3cd4c (Dockerfile Debian: versionless link fix)
+>>>>>>> abc2aa55d4 (Dockerfile Debian: versionless link fix)
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
