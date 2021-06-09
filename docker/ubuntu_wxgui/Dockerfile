@@ -8635,11 +8635,13 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+<<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 =======
 ## install the latest projection library for GRASS GIS
 =======
 ## install a more recent projection library for GRASS GIS
 >>>>>>> a8e084d159 (Dockerfile Debian: versionless link fix):docker/debian/Dockerfile_debian_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8804,6 +8806,8 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 >>>>>>> a9ac76ebbe (Dockerfile Debian: versionless link fix)
 =======
 >>>>>>> 7ca9ad480c (Dockerfile Debian: versionless link fix)
+=======
+>>>>>>> e628808fbf (Dockerfile Debian: versionless link fix)
 =======
 >>>>>>> fec14a3f97 (Dockerfile Debian: versionless link fix)
 >>>>>>> 01195ef350 (Dockerfile Debian: versionless link fix)
@@ -9125,12 +9129,16 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 =======
 >>>>>>> 60e3e40072 (Dockerfile Debian: versionless link fix)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fc18dfe648 (Dockerfile Debian: versionless link fix)
 =======
+=======
+>>>>>>> e628808fbf (Dockerfile Debian: versionless link fix)
 =======
 =======
 ## install a more recent projection library for GRASS GIS
 >>>>>>> aac6232e2b (Dockerfile Debian: versionless link fix):docker/debian/Dockerfile_debian_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8fe9780667 (Dockerfile Debian: versionless link fix)
 <<<<<<< HEAD
@@ -9545,6 +9553,9 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 =======
 >>>>>>> 60e3e40072 (Dockerfile Debian: versionless link fix)
 >>>>>>> 7ca9ad480c (Dockerfile Debian: versionless link fix)
+=======
+>>>>>>> 8fe9780667 (Dockerfile Debian: versionless link fix)
+>>>>>>> e628808fbf (Dockerfile Debian: versionless link fix)
 WORKDIR /src
 RUN wget -q http://download.osgeo.org/proj/proj-${PROJ_VERSION}.tar.gz && \
     tar xzf proj-${PROJ_VERSION}.tar.gz && \
@@ -16930,6 +16941,7 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 <<<<<<< HEAD
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
@@ -16979,6 +16991,9 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 >>>>>>> decbe5b393 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 05c87d8d29 (Dockerfile: fix broken lib link (#1625))
+=======
+<<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+>>>>>>> 8fe9780667 (Dockerfile Debian: versionless link fix)
 RUN ln -sf /usr/local/grass84 /usr/local/grass
 =======
 RUN ln -sf /usr/local/grass `grass --config path`
@@ -18205,6 +18220,9 @@ RUN ln -sf /usr/local/grass80 /usr/local/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8fe9780667 (Dockerfile Debian: versionless link fix)
 >>>>>>> d59e928d20 (Dockerfile Debian: versionless link fix)
 <<<<<<< HEAD
 >>>>>>> 304e67f77b (Dockerfile Debian: versionless link fix)
@@ -18219,6 +18237,7 @@ RUN ln -sf /usr/local/grass80 /usr/local/grass
 =======
 RUN ln -sf /usr/local/grass80 /usr/local/grass
 >>>>>>> aac6232e2b (Dockerfile Debian: versionless link fix):docker/debian/Dockerfile_debian_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19296,7 +19315,13 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 =======
 >>>>>>> d59e928d20 (Dockerfile Debian: versionless link fix)
 >>>>>>> 60e3e40072 (Dockerfile Debian: versionless link fix)
+<<<<<<< HEAD
 >>>>>>> 7ca9ad480c (Dockerfile Debian: versionless link fix)
+=======
+=======
+>>>>>>> 40d5941958 (Dockerfile Debian: versionless link fix)
+>>>>>>> 8fe9780667 (Dockerfile Debian: versionless link fix)
+>>>>>>> e628808fbf (Dockerfile Debian: versionless link fix)
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
