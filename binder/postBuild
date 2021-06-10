@@ -9,6 +9,7 @@ set -e
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     --enable-largefile=yes \
 =======
 >>>>>>> osgeo-main
@@ -36,6 +37,8 @@ set -e
 =======
 =======
 >>>>>>> 89e695d85c (Add Binder setup files (#1603))
+=======
+>>>>>>> 59a7b4bfb4 (Add Binder setup files (#1603))
     --with-bzlib \
     --with-cairo \
     --with-cxx \
@@ -56,6 +59,8 @@ set -e
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
     --enable-largefile=yes \
     --with-nls \
     --with-cxx \
@@ -68,8 +73,14 @@ set -e
     --with-opengl-libs=/usr/include/GL \
     --with-freetype=yes --with-freetype-includes="/usr/include/freetype2/" \
     --with-sqlite=yes
+<<<<<<< HEAD
 >>>>>>> eec6314975 (Add Binder setup files (#1603))
+<<<<<<< HEAD
 >>>>>>> 89e695d85c (Add Binder setup files (#1603))
+=======
+=======
+>>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
+>>>>>>> 59a7b4bfb4 (Add Binder setup files (#1603))
 make
 
 # put command on path
@@ -85,6 +96,10 @@ mkdir -p data/grassdata \
   && mv nc_basic_spm_grass7 data/grassdata \
   && rm nc_basic_spm_grass7.zip
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   
 >>>>>>> eec6314975 (Add Binder setup files (#1603))
+=======
+  
+>>>>>>> 4c7000bc90 (Add Binder setup files (#1603))

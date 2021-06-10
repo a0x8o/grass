@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 folium
 matplotlib
 numpy
@@ -248,9 +249,17 @@ PyVirtualDisplay
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
 numpy
 matplotlib
 Pillow
 ply
+<<<<<<< HEAD
 >>>>>>> eec6314975 (Add Binder setup files (#1603))
+<<<<<<< HEAD
 >>>>>>> 89e695d85c (Add Binder setup files (#1603))
+=======
+=======
+>>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
+>>>>>>> 59a7b4bfb4 (Add Binder setup files (#1603))
