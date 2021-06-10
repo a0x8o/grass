@@ -11,6 +11,7 @@ set -e
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     --enable-largefile=yes \
 =======
 >>>>>>> osgeo-main
@@ -42,6 +43,8 @@ set -e
 >>>>>>> 59a7b4bfb4 (Add Binder setup files (#1603))
 =======
 >>>>>>> 358e3de0db (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+>>>>>>> d61771ce2d (Add Binder setup files (#1603))
     --with-bzlib \
     --with-cairo \
     --with-cxx \
@@ -59,6 +62,7 @@ set -e
     --with-sqlite=yes \
     --without-pdal
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 =======
@@ -67,6 +71,9 @@ set -e
 =======
 =======
 >>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
+=======
+=======
+>>>>>>> d61771ce2d (Add Binder setup files (#1603))
     --enable-largefile=yes \
     --with-nls \
     --with-cxx \
@@ -75,6 +82,7 @@ set -e
     --with-pthread \
     --with-proj-share=/usr/share/proj \
     --with-geos=/usr/bin/geos-config \
+<<<<<<< HEAD
 =======
     --with-bzlib \
 >>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
@@ -111,6 +119,13 @@ set -e
 >>>>>>> osgeo-main
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 >>>>>>> 358e3de0db (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+    --with-cairo \
+    --with-opengl-libs=/usr/include/GL \
+    --with-freetype=yes --with-freetype-includes="/usr/include/freetype2/" \
+    --with-sqlite=yes
+>>>>>>> eec6314975 (Add Binder setup files (#1603))
+>>>>>>> d61771ce2d (Add Binder setup files (#1603))
 make
 
 # put command on path
@@ -129,6 +144,7 @@ mkdir -p data/grassdata \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   
 >>>>>>> eec6314975 (Add Binder setup files (#1603))
@@ -139,3 +155,8 @@ mkdir -p data/grassdata \
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+  
+>>>>>>> eec6314975 (Add Binder setup files (#1603))
+>>>>>>> d61771ce2d (Add Binder setup files (#1603))

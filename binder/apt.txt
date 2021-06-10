@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 autoconf2.13
 =======
 autoconf
@@ -19,6 +20,12 @@ autoconf2.13
 autoconf2.13
 >>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
 >>>>>>> 59a7b4bfb4 (Add Binder setup files (#1603))
+=======
+autoconf
+=======
+autoconf2.13
+>>>>>>> eec6314975 (Add Binder setup files (#1603))
+>>>>>>> d61771ce2d (Add Binder setup files (#1603))
 autotools-dev
 bison
 flex
@@ -28,10 +35,14 @@ gettext
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d61771ce2d (Add Binder setup files (#1603))
 git
 imagemagick
 =======
 >>>>>>> eec6314975 (Add Binder setup files (#1603))
+<<<<<<< HEAD
 =======
 >>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
 =======
@@ -42,6 +53,8 @@ imagemagick
 git
 imagemagick
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d61771ce2d (Add Binder setup files (#1603))
 libblas-dev
 libbz2-dev
 libcairo2-dev
@@ -52,6 +65,7 @@ libgeos-dev
 libglu1-mesa-dev
 libjpeg-dev
 liblapack-dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,10 +92,16 @@ libnetcdf-dev
 libpdal-dev
 <<<<<<< HEAD
 =======
+libncurses5-dev
+libnetcdf-dev
+libpdal-dev
+>>>>>>> d61771ce2d (Add Binder setup files (#1603))
+=======
 liblas-c-dev
 libncurses5-dev
 libnetcdf-dev
 >>>>>>> eec6314975 (Add Binder setup files (#1603))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 89e695d85c (Add Binder setup files (#1603))
 =======
@@ -101,6 +121,8 @@ libgeos-dev
 >>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 >>>>>>> 358e3de0db (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+>>>>>>> d61771ce2d (Add Binder setup files (#1603))
 libpng-dev
 libpq-dev
 libproj-dev
@@ -115,6 +137,9 @@ netcdf-bin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d61771ce2d (Add Binder setup files (#1603))
 p7zip
 proj-bin
 <<<<<<< HEAD
@@ -126,6 +151,7 @@ unixodbc-dev
 xvfb
 zlib1g-dev
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
 =======
@@ -152,3 +178,13 @@ git
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+proj-bin
+sqlite3
+unixodbc-dev
+zlib1g-dev
+p7zip
+imagemagick
+git
+>>>>>>> eec6314975 (Add Binder setup files (#1603))
+>>>>>>> d61771ce2d (Add Binder setup files (#1603))
