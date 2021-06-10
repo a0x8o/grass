@@ -3,10 +3,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d61771ce2d (Add Binder setup files (#1603))
+=======
+>>>>>>> 104e187247 (Add Binder setup files (#1603))
 folium
 matplotlib
 numpy
@@ -1369,9 +1372,17 @@ PyVirtualDisplay
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
 numpy
 matplotlib
 Pillow
 ply
+<<<<<<< HEAD
 >>>>>>> eec6314975 (Add Binder setup files (#1603))
+<<<<<<< HEAD
 >>>>>>> d61771ce2d (Add Binder setup files (#1603))
+=======
+=======
+>>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
+>>>>>>> 104e187247 (Add Binder setup files (#1603))
