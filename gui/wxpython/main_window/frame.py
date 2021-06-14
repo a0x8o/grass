@@ -90,8 +90,11 @@ import wx.aui
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 from core import globalvar
+<<<<<<< HEAD
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 
 try:
     from agw import aui
@@ -99,6 +102,9 @@ except ImportError:
     import wx.lib.agw.aui as aui
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 import wx
 <<<<<<< HEAD
 import wx.aui
@@ -107,6 +113,7 @@ import wx.aui
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
@@ -128,6 +135,8 @@ import wx.aui
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 
 try:
     import wx.lib.agw.flatnotebook as FN
@@ -168,6 +177,7 @@ from core.watchdog import (
 from gui_core.preferences import MapsetAccess, PreferencesDialog
 from lmgr.layertree import LayerTree, LMIcons
 from lmgr.menudata import LayerManagerMenuData, LayerManagerModuleTree
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -492,6 +502,8 @@ from lmgr.menudata import LayerManagerMenuData, LayerManagerModuleTree
 =======
 >>>>>>> aea856fa83 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> 1f6c520760 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 from main_window.notebook import MainNotebook
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
@@ -975,6 +987,7 @@ from gui_core.widgets import GNotebook
 =======
 from gui_core.widgets import GNotebook
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -999,6 +1012,8 @@ from gui_core.widgets import GNotebook, FormNotebook
 from gui_core.widgets import GNotebook
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 from core.gconsole import GConsole, EVT_IGNORED_CMD_RUN
 from core.giface import Notification
 from gui_core.goutput import GConsoleWindow, GC_PROMPT
@@ -3741,6 +3756,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self._auimgr = aui.AuiManager(self)
 =======
 <<<<<<< HEAD
@@ -4143,6 +4159,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self._auimgr = SingleWindowAuiManager(self)
 =======
         self._auimgr = aui.AuiManager(self)
@@ -6997,6 +7015,7 @@ class GMFrame(wx.Frame):
         self._auimgr = aui.AuiManager(self)
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0503a5c10a (Add Binder badge/button to readme (#1628))
 =======
@@ -7093,6 +7112,11 @@ class GMFrame(wx.Frame):
         self._auimgr = wx.aui.AuiManager(self)
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+=======
+        self._auimgr = aui.AuiManager(self)
+>>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 
         # list of open dialogs
         self.dialogs = dict()
@@ -7106,10 +7130,14 @@ class GMFrame(wx.Frame):
         self.PANE_MIN_SIZE = tuple(t / 10 for t in size)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 <<<<<<< HEAD
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+<<<<<<< HEAD
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self._auimgr.GetPane("toolbarNviz").Hide()
         # bindings
         self.Bind(wx.EVT_CLOSE, self.OnCloseWindowOrExit)
@@ -7121,6 +7149,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
@@ -7279,18 +7308,29 @@ class GMFrame(wx.Frame):
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
+=======
+=======
+>>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         # create widgets and build panes
         self.CreateMenuBar()
         self.CreateStatusBar(number=1)
         self.BuildPanes()
         self.BindEvents()
+<<<<<<< HEAD
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+<<<<<<< HEAD
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+=======
+>>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 
         self._giface.mapCreated.connect(self.OnMapCreated)
         self._giface.updateMap.connect(self._updateCurrentMap)
         self._giface.currentMapsetChanged.connect(self.OnMapsetChanged)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7304,6 +7344,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         # use default window layout ?
         if UserSettings.Get(group="general", key="defWindowPos", subkey="enabled"):
 <<<<<<< HEAD
@@ -7753,10 +7795,13 @@ class GMFrame(wx.Frame):
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         # use default window layout ?
         if UserSettings.Get(group="general", key="defWindowPos", subkey="enabled"):
 <<<<<<< HEAD
@@ -8823,12 +8868,15 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         # show map display window
 =======
         # show map display widnow
@@ -8842,6 +8890,7 @@ class GMFrame(wx.Frame):
         # show map display window
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         # show map display window
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
@@ -8854,6 +8903,11 @@ class GMFrame(wx.Frame):
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+=======
+        # show map display window
+>>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         # -> OnSize() -> UpdateMap()
         for mapdisp in self.GetMapDisplay(onlyCurrent=False):
             mapdisp.Show()
@@ -8991,12 +9045,15 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
     def CreateMenuBar(self):
 =======
     def _createMenuBar(self):
@@ -9010,6 +9067,7 @@ class GMFrame(wx.Frame):
     def CreateMenuBar(self):
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     def CreateMenuBar(self):
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
@@ -9022,6 +9080,11 @@ class GMFrame(wx.Frame):
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+=======
+    def CreateMenuBar(self):
+>>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         """Creates menu bar"""
         self.menubar = GMenu(
             parent=self, model=self._menuTreeBuilder.GetModel(separators=True)
@@ -9112,6 +9175,7 @@ class GMFrame(wx.Frame):
             return self._auimgr.GetPane(name).IsShown()
         return False
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10023,6 +10087,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
     def SetStatusText(self, *args):
         """Override SbMain statusbar method"""
         self.statusbar.SetStatusText(*args)
@@ -12990,7 +13056,12 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+<<<<<<< HEAD
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+=======
+>>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
     def _createDataCatalog(self, parent):
         """Initialize Data Catalog widget"""
         self.datacatalog = DataCatalog(parent=parent, giface=self._giface)
@@ -13252,6 +13323,7 @@ class GMFrame(wx.Frame):
         else:
             self.pyshell = None
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13659,6 +13731,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -28593,6 +28667,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 >>>>>>> f723e019f3 (Add Binder badge/button to readme (#1628))
 =======
@@ -29475,10 +29550,13 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
     def _createMapDisplay(self, parent):
         """Set up Map Display"""
         # blank panel for testing
         self.mapdisplay = wx.Panel(parent=parent)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -37520,6 +37598,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 
@@ -37855,6 +37934,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 
     def BuildPanes(self):
         """Build panes - toolbars as well as panels"""
@@ -37991,6 +38072,7 @@ class GMFrame(wx.Frame):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -38001,6 +38083,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
+=======
+>>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self._auimgr.Update()
 
     def BindEvents(self):
@@ -38008,8 +38092,14 @@ class GMFrame(wx.Frame):
         self.Bind(wx.EVT_CLOSE, self.OnCloseWindowOrExit)
         self.Bind(wx.EVT_KEY_DOWN, self.OnKeyDown)
 
+<<<<<<< HEAD
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+<<<<<<< HEAD
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+=======
+>>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
     def _show_demo_map(self):
         """If in demolocation, add demo map to map display
 
@@ -42965,6 +43055,7 @@ class GMFrame(wx.Frame):
         """Close page and destroy map display without generating notebook
         page closing event.
 
+<<<<<<< HEAD
         :param dict pgnum_dict: dict "layers" key represent map display
                                 notebook layers tree page index and
                                 "mapnotebook" key represent map display
@@ -44870,6 +44961,7 @@ class GMFrame(wx.Frame):
 
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -44894,6 +44986,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
     def RunSpecialCmd(self, command):
         """Run command from command line, check for GUI wrappers"""
         if re.compile(r"^d\..*").search(command[0]):
@@ -48220,10 +48314,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -48236,6 +48333,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 =======
         self.notebook.SetSelectionByName("layers")
@@ -48247,6 +48345,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("raster")
 
     def OnAddRasterMisc(self, event):
@@ -48315,10 +48415,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -48331,6 +48434,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 =======
         self.notebook.SetSelectionByName("layers")
@@ -48342,6 +48446,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("vector")
 
     def OnAddVectorMisc(self, event):
@@ -48402,6 +48508,7 @@ class GMFrame(wx.Frame):
     def OnAddVectorTheme(self, event):
         """Add thematic vector map to the current layer tree"""
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.notebook.SetSelectionByName("layers")
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -48415,7 +48522,12 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+<<<<<<< HEAD
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+=======
+>>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("thememap")
 
     def OnAddVectorChart(self, event):
@@ -48427,10 +48539,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -48443,6 +48558,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 =======
         self.notebook.SetSelectionByName("layers")
@@ -48454,6 +48570,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("themechart")
 
     def OnAddOverlay(self, event):
@@ -48518,6 +48636,7 @@ class GMFrame(wx.Frame):
     def OnAddRaster3D(self, event):
         """Add 3D raster map to the current layer tree"""
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.notebook.SetSelectionByName("layers")
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -48531,7 +48650,12 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+<<<<<<< HEAD
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+=======
+>>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("raster_3d")
 
     def OnAddRasterRGB(self, event):
@@ -48543,10 +48667,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -48559,6 +48686,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 =======
         self.notebook.SetSelectionByName("layers")
@@ -48570,6 +48698,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("rgb")
 
     def OnAddRasterHIS(self, event):
@@ -48581,10 +48711,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -48597,6 +48730,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 =======
         self.notebook.SetSelectionByName("layers")
@@ -48608,6 +48742,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("his")
 
     def OnAddRasterShaded(self, event):
@@ -48619,10 +48755,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -48635,6 +48774,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 =======
         self.notebook.SetSelectionByName("layers")
@@ -48646,6 +48786,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("shaded")
 
     def OnAddRasterArrow(self, event):
@@ -48657,10 +48799,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -48673,6 +48818,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 =======
         self.notebook.SetSelectionByName("layers")
@@ -48684,6 +48830,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         # here it seems that it should be retrieved from the mapwindow
         mapdisplay = self.GetMapDisplay()
         resolution = mapdisplay.mapWindowProperties.resolution
@@ -48704,10 +48852,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -48720,6 +48871,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 =======
         self.notebook.SetSelectionByName("layers")
@@ -48731,6 +48883,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         mapdisplay = self.GetMapDisplay()
         resolution = mapdisplay.mapWindowProperties.resolution
         if not resolution:
@@ -48762,6 +48916,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.GetLayerTree().AddLayer("command")
 
 <<<<<<< HEAD
@@ -48792,6 +48947,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("command")
 
 =======
@@ -48800,6 +48957,8 @@ class GMFrame(wx.Frame):
         self.notebook.SetSelectionByName("layers")
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("command")
 
         # show map display
@@ -48826,12 +48985,15 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("group")
 
     def OnAddGrid(self, event):
@@ -48844,6 +49006,7 @@ class GMFrame(wx.Frame):
         self.notebook.SetSelectionByName("layers")
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
@@ -48870,6 +49033,10 @@ class GMFrame(wx.Frame):
         self.notebook.SetSelectionByName("layers")
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+=======
+>>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("group")
 
         # show map display
@@ -48878,6 +49045,7 @@ class GMFrame(wx.Frame):
     def OnAddGrid(self, event):
         """Add grid map layer to the current layer tree"""
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.notebook.SetSelectionByName("layers")
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -48891,7 +49059,12 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+<<<<<<< HEAD
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+=======
+>>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("grid")
 
     def OnAddGeodesic(self, event):
@@ -48903,10 +49076,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -48919,6 +49095,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 =======
         self.notebook.SetSelectionByName("layers")
@@ -48930,6 +49107,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("geodesic")
 
     def OnAddRhumb(self, event):
@@ -48941,10 +49120,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -48957,6 +49139,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 =======
 =======
         self.notebook.SetSelectionByName("layers")
@@ -48968,6 +49151,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("rhumb")
 
     def OnAddLabels(self, event):
@@ -48976,6 +49161,7 @@ class GMFrame(wx.Frame):
         if not self.currentPage:
             self.NewDisplay(show=True)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49013,6 +49199,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("labels")
 
 =======
@@ -49021,6 +49209,8 @@ class GMFrame(wx.Frame):
         self.notebook.SetSelectionByName("layers")
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         self.GetLayerTree().AddLayer("labels")
 
         # show map display
@@ -49740,8 +49930,11 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -49771,6 +49964,7 @@ class GMFrame(wx.Frame):
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
@@ -49818,6 +50012,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
+=======
+=======
+>>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+>>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
         try:
             kc = chr(kc)
         except ValueError:
