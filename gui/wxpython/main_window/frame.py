@@ -281,6 +281,7 @@ from lmgr.menudata import LayerManagerMenuData, LayerManagerModuleTree
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5bdb150894 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
@@ -476,6 +477,8 @@ from lmgr.menudata import LayerManagerMenuData, LayerManagerModuleTree
 >>>>>>> ef1baf1027 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 603790c360 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
@@ -1338,13 +1341,17 @@ from main_window.notebook import MainNotebook
 >>>>>>> 7a0b48f61f (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 827eab9e4a (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 from main_window.notebook import MainNotebook
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> acaabcedb1 (Add Binder badge/button to readme (#1628))
 =======
@@ -1528,6 +1535,8 @@ from main_window.notebook import MainNotebook
 >>>>>>> 7a0b48f61f (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 from gui_core.widgets import GNotebook
 =======
 <<<<<<< HEAD
@@ -5996,6 +6005,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self._auimgr = aui.AuiManager(self)
 =======
 <<<<<<< HEAD
@@ -6141,6 +6151,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 9e5adb4441 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 1f6c520760 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 =======
 >>>>>>> 3a5870f1be (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
@@ -6371,6 +6383,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 7a0b48f61f (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 827eab9e4a (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
@@ -6706,6 +6719,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 7a0b48f61f (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+=======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
         self._auimgr = SingleWindowAuiManager(self)
 =======
         self._auimgr = aui.AuiManager(self)
@@ -6810,6 +6827,9 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
@@ -7427,6 +7447,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> 7a0b48f61f (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 827eab9e4a (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
@@ -9994,6 +10015,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 7a0b48f61f (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+=======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 
         # list of open dialogs
         self.dialogs = {}
@@ -10002,6 +10027,7 @@ class GMFrame(wx.Frame):
         self.dialogs["atm"] = []
 
         # set pane sizes according to the full screen size of the primary monitor
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10491,7 +10517,12 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
         self.PANE_BEST_SIZE = tuple(t // 5 for t in self.size)
         self.PANE_MIN_SIZE = tuple(t // 8 for t in self.size)
 
@@ -10570,6 +10601,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2c51b13e9f (Add Binder badge/button to readme (#1628))
 =======
@@ -10592,6 +10624,8 @@ class GMFrame(wx.Frame):
 >>>>>>> bf116f53b0 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 0a9ba2e3fa (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11305,6 +11339,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 8ac294c05f (Add Binder badge/button to readme (#1628))
 =======
 =======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+=======
         size = wx.Display().GetGeometry().GetSize()
         self.PANE_BEST_SIZE = tuple(t / 5 for t in size)
         self.PANE_MIN_SIZE = tuple(t / 10 for t in size)
@@ -11312,6 +11348,7 @@ class GMFrame(wx.Frame):
         # create widgets and build panes
         self.CreateMenuBar()
         self.CreateStatusBar(number=1)
+<<<<<<< HEAD
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 <<<<<<< HEAD
 >>>>>>> 40afbfe8f0 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
@@ -11371,6 +11408,9 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
         self.BuildPanes()
         self.BindEvents()
 =======
@@ -14352,6 +14392,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
         self.Show()
+        self.Maximize(True)
 
         # load workspace file if requested
         if workspace:
@@ -14689,6 +14730,7 @@ class GMFrame(wx.Frame):
             return self._auimgr.GetPane(name).IsShown()
         return False
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15690,6 +15732,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -16309,6 +16352,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
     def SetStatusText(self, *args):
         """Override SbMain statusbar method"""
         self.statusbar.SetStatusText(*args)
@@ -16320,6 +16367,7 @@ class GMFrame(wx.Frame):
 
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16495,6 +16543,8 @@ class GMFrame(wx.Frame):
 >>>>>>> ef1baf1027 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 0503a5c10a (Add Binder badge/button to readme (#1628))
 >>>>>>> ac15d23554 (Add Binder badge/button to readme (#1628))
@@ -21352,7 +21402,12 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
     def _createDataCatalog(self, parent):
         """Initialize Data Catalog widget"""
         self.datacatalog = DataCatalog(parent=parent, giface=self._giface)
@@ -21656,6 +21711,7 @@ class GMFrame(wx.Frame):
         else:
             self.pyshell = None
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23202,6 +23258,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -23593,6 +23650,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
     def OnNewDisplay(self, event=None):
         """Create new layer tree and map display window instance"""
         self.NewDisplay()
@@ -47722,6 +47783,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dc9386ff19 (Add Binder badge/button to readme (#1628))
 =======
@@ -47752,6 +47814,8 @@ class GMFrame(wx.Frame):
 >>>>>>> bf116f53b0 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 0a9ba2e3fa (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
@@ -47804,6 +47868,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 8ac294c05f (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+<<<<<<< HEAD
 =======
 >>>>>>> 8257ecf53a (Add Binder badge/button to readme (#1628))
 =======
@@ -47852,10 +47917,13 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 8ac294c05f (Add Binder badge/button to readme (#1628))
 >>>>>>> 0a9ba2e3fa (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
     def _createMapDisplay(self, parent):
         """Set up Map Display"""
         # blank panel for testing
         self.mapdisplay = wx.Panel(parent=parent)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48677,12 +48745,23 @@ class GMFrame(wx.Frame):
         self._createMapNotebook()
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+    def BuildPanes(self):
+        """Build panes - toolbars as well as panels"""
+
+        # initialize all main widgets
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
         self._createDataCatalog(parent=self)
         self._createDisplay(parent=self)
         self._createSearchModule(parent=self)
         self._createConsole(parent=self)
         self._createPythonShell(parent=self)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48872,6 +48951,8 @@ class GMFrame(wx.Frame):
 >>>>>>> ef1baf1027 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
         self._createMapDisplay(parent=self)
 >>>>>>> f723e019f3 (Add Binder badge/button to readme (#1628))
@@ -49114,7 +49195,13 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        self._createMapDisplay(parent=self)
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
         self.toolbars = {
             "workspace": LMWorkspaceToolbar(parent=self),
             "tools": LMToolsToolbar(parent=self),
@@ -49156,6 +49243,7 @@ class GMFrame(wx.Frame):
             )
 
         self._auimgr.AddPane(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49332,6 +49420,8 @@ class GMFrame(wx.Frame):
 >>>>>>> ef1baf1027 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -49870,7 +49960,14 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            self.mapdisplay,
+            aui.AuiPaneInfo().Name("map display").CenterPane().PaneBorder(True),
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
         )
 
         self._auimgr.AddPane(
@@ -49889,6 +49986,7 @@ class GMFrame(wx.Frame):
         )
 
         self._auimgr.AddPane(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50025,6 +50123,8 @@ class GMFrame(wx.Frame):
 >>>>>>> ef1baf1027 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 0503a5c10a (Add Binder badge/button to readme (#1628))
 =======
@@ -50498,7 +50598,14 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            self.displayPanel,
+            aui.AuiPaneInfo()
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
             .Name("display")
             .Caption("Display")
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
@@ -50585,6 +50692,7 @@ class GMFrame(wx.Frame):
             pane.MinSize(self.PANE_MIN_SIZE)
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59721,9 +59829,58 @@ class GMFrame(wx.Frame):
             pane = self._auimgr.GetPane(notebook)
             pane.BestSize(self.PANE_BEST_SIZE)
             pane.MinSize(self.PANE_MIN_SIZE)
+=======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
 
+        self._auimgr.AddPane(
+            self.search,
+            aui.AuiPaneInfo()
+            .Name("modules")
+            .Caption("Modules")
+            .Right()
+            .Layer(2)
+            .Position(1)
+            .BestSize(self.PANE_BEST_SIZE)
+            .MinSize(self.PANE_MIN_SIZE)
+            .CloseButton(False)
+            .MinimizeButton(True)
+            .MaximizeButton(True),
+        )
+
+        self._auimgr.AddPane(
+            self.goutput,
+            aui.AuiPaneInfo()
+            .Name("console")
+            .Caption("Console")
+            .Right()
+            .Layer(2)
+            .Position(2)
+            .BestSize(self.PANE_BEST_SIZE)
+            .MinSize(self.PANE_MIN_SIZE)
+            .CloseButton(False)
+            .MinimizeButton(True)
+            .MaximizeButton(True),
+        )
+
+        self._auimgr.AddPane(
+            self.pyshell,
+            aui.AuiPaneInfo()
+            .Name("python")
+            .Caption("Python")
+            .Right()
+            .Layer(2)
+            .Position(3)
+            .BestSize(self.PANE_BEST_SIZE)
+            .MinSize(self.PANE_MIN_SIZE)
+            .CloseButton(False)
+            .MinimizeButton(True)
+            .MaximizeButton(True),
+        )
+
+        self._auimgr.GetPane("toolbarNviz").Hide()
         wx.CallAfter(self.datacatalog.LoadItems)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60010,6 +60167,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 622608d2dc (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
+=======
 =======
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 <<<<<<< HEAD
@@ -60288,6 +60447,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 827eab9e4a (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
 =======
@@ -60502,6 +60662,10 @@ class GMFrame(wx.Frame):
 >>>>>>> ef1baf1027 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+=======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
         single_win_panes_layout_pos_enabled = UserSettings.Get(
             group="general",
             key="singleWinPanesLayoutPos",
@@ -60617,6 +60781,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8914cb631b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
@@ -60742,6 +60907,8 @@ class GMFrame(wx.Frame):
 >>>>>>> ef1baf1027 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 0503a5c10a (Add Binder badge/button to readme (#1628))
 =======
@@ -61219,6 +61386,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 7a0b48f61f (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 827eab9e4a (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
 =======
@@ -61402,11 +61570,16 @@ class GMFrame(wx.Frame):
 >>>>>>> 7a0b48f61f (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+=======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
         self._auimgr.Update()
 
     def BindEvents(self):
         # bindings
         self.Bind(wx.EVT_CLOSE, self.OnCloseWindowOrExit)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63154,13 +63327,17 @@ class GMFrame(wx.Frame):
 >>>>>>> da4381783c (Add Binder badge/button to readme (#1628))
 >>>>>>> 855c626fb4 (Add Binder badge/button to readme (#1628))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b1889b7764 (Add Binder badge/button to readme (#1628))
 =======
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 =======
         self.Bind(wx.EVT_KEY_DOWN, self.OnKeyDown)
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 >>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> acaabcedb1 (Add Binder badge/button to readme (#1628))
 =======
@@ -63397,6 +63574,8 @@ class GMFrame(wx.Frame):
 >>>>>>> da4381783c (Add Binder badge/button to readme (#1628))
 >>>>>>> 855c626fb4 (Add Binder badge/button to readme (#1628))
 >>>>>>> ef1baf1027 (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 
 =======
 <<<<<<< HEAD
@@ -66719,6 +66898,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8e6cd350bf (Add Binder badge/button to readme (#1628))
 =======
@@ -67472,7 +67652,12 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 7a0b48f61f (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+=======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
     def OnCBPageClosed(self, event):
         """Page of notebook has been closed from the Layers pane via x
         button or via closing map display notebook page"""
@@ -67481,6 +67666,7 @@ class GMFrame(wx.Frame):
 
 =======
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67797,6 +67983,8 @@ class GMFrame(wx.Frame):
 >>>>>>> ef1baf1027 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 8e6cd350bf (Add Binder badge/button to readme (#1628))
 >>>>>>> d8b5d4044b (Add Binder badge/button to readme (#1628))
@@ -68172,6 +68360,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 7a0b48f61f (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 827eab9e4a (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
 =======
@@ -68372,6 +68561,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 7a0b48f61f (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+=======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
     def OnCBPageClosing(self, event):
         """Page of notebook is being closed
         from Layer Manager (x button next to arrows)
@@ -73664,6 +73857,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d7010890e1 (Add Binder badge/button to readme (#1628))
 =======
@@ -73867,6 +74061,8 @@ class GMFrame(wx.Frame):
 >>>>>>> ef1baf1027 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> f723e019f3 (Add Binder badge/button to readme (#1628))
 =======
@@ -74149,6 +74345,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 827eab9e4a (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
 =======
@@ -74334,6 +74531,10 @@ class GMFrame(wx.Frame):
 >>>>>>> ef1baf1027 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+=======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
     def _focusPage(self, notification):
         """Focus the 'Console' notebook page according to event notification."""
         if notification in {
@@ -74453,6 +74654,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
@@ -74669,6 +74871,8 @@ class GMFrame(wx.Frame):
 >>>>>>> ef1baf1027 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 8e6cd350bf (Add Binder badge/button to readme (#1628))
 >>>>>>> d8b5d4044b (Add Binder badge/button to readme (#1628))
@@ -75044,6 +75248,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 7a0b48f61f (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 827eab9e4a (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
 =======
@@ -75244,6 +75449,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 7a0b48f61f (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> 17bf8ba096 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> f670fc2aad (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+=======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
     def RunSpecialCmd(self, command):
         """Run command from command line, check for GUI wrappers"""
         result = True
@@ -80997,6 +81206,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -81108,6 +81318,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -81677,6 +81889,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
@@ -81785,10 +81998,16 @@ class GMFrame(wx.Frame):
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
     def OnKeyDown(self, event):
         """Key pressed"""
         kc = event.GetKeyCode()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81863,6 +82082,8 @@ class GMFrame(wx.Frame):
 >>>>>>> bf116f53b0 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 0a9ba2e3fa (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -81941,6 +82162,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 8ac294c05f (Add Binder badge/button to readme (#1628))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
 =======
@@ -82003,6 +82225,10 @@ class GMFrame(wx.Frame):
 >>>>>>> bf116f53b0 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 0a9ba2e3fa (Add Binder badge/button to readme (#1628))
+=======
+=======
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
         try:
             kc = chr(kc)
         except ValueError:
@@ -82017,6 +82243,7 @@ class GMFrame(wx.Frame):
 
         event.Skip()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82087,6 +82314,8 @@ class GMFrame(wx.Frame):
 >>>>>>> bf116f53b0 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 0a9ba2e3fa (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83047,6 +83276,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -83331,6 +83561,11 @@ class GMFrame(wx.Frame):
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+>>>>>>> 8e2ca9c153 (Add Binder badge/button to readme (#1628))
+>>>>>>> bc8c26248b (Add Binder badge/button to readme (#1628))
     def OnCloseWindow(self, event):
         """Cleanup when wxGUI is quit"""
         self._closeWindow(event)
