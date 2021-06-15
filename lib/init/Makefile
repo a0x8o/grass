@@ -30,9 +30,13 @@ FILES = \
 =======
 	$(HTMLDIR)/help_loc_struct.png \
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+>>>>>>> b9a54acd98 (Add Binder badge/button to readme (#1628))
 	$(HTMLDIR)/grassdb.png \
 	$(HTMLDIR)/location.png \
 	$(HTMLDIR)/location-add.png \
