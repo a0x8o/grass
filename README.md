@@ -2643,6 +2643,7 @@ visualization.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3081,6 +3082,8 @@ Jupyter Notebooks by clicking the button below:
 =======
 >>>>>>> ef2654d3c4 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 0902609bfc (Add Binder badge/button to readme (#1628))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3128,6 +3131,8 @@ Jupyter Notebooks by clicking the button below:
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 50aa049e59 (Add Binder badge/button to readme (#1628))
 Launch this repository in Binder and experiment with GRASS's Python API in
 Jupyter Notebooks by clicking the button below:
 >>>>>>> 0503a5c10a (Add Binder badge/button to readme (#1628))
@@ -4101,6 +4106,7 @@ Jupyter Notebooks by clicking the button below:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4949,6 +4955,7 @@ Launch this repository in Binder and experiment with GRASS's Python API in Jupyt
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -5753,6 +5760,17 @@ Launch this repository in Binder and experiment with GRASS's Python API in Jupyt
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+Launch this repository in Binder and experiment with GRASS's Python API in Jupyter Notebooks by clicking the button below:
+
+[![Binder](https://camo.githubusercontent.com/581c077bdbc6ca6899c86d0acc6145ae85e9d80e6f805a1071793dbe48917982/68747470733a2f2f6d7962696e6465722e6f72672f62616467655f6c6f676f2e737667)](https://mybinder.org/v2/gh/OSGeo/grass/master?urlpath=lab%2Ftree%2Fdoc%2Fnotebooks%2Fexample_notebook.ipynb)
+
+
+## How to get write access here
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+>>>>>>> 50aa049e59 (Add Binder badge/button to readme (#1628))
+>>>>>>> 0902609bfc (Add Binder badge/button to readme (#1628))
 
 In general: you don't really need write access as you can simply open
 a [pull request](https://github.com/OSGeo/grass/pulls) to contribute to
