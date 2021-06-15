@@ -25,7 +25,11 @@ FILES = \
 	$(ETC)/echo$(EXE) \
 	$(ETC)/license \
 	$(ETC)/VERSIONNUMBER \
+<<<<<<< HEAD
 	$(HTMLDIR)/help_project_structure.png \
+=======
+	$(HTMLDIR)/help_loc_struct.png \
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 	$(HTMLDIR)/grassdb.png \
 	$(HTMLDIR)/location.png \
 	$(HTMLDIR)/location-add.png \

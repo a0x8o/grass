@@ -56,7 +56,14 @@ except ImportError:
 import wx
 =======
 from core import globalvar
+
+try:
+    from agw import aui
+except ImportError:
+    import wx.lib.agw.aui as aui
+
 import wx
+<<<<<<< HEAD
 import wx.aui
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
@@ -64,6 +71,8 @@ from core import globalvar
 import wx
 import wx.aui
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 
 try:
     import wx.lib.agw.flatnotebook as FN
@@ -255,11 +264,15 @@ from gui_core.widgets import GNotebook
 from gui_core.preferences import MapsetAccess, PreferencesDialog
 from lmgr.layertree import LayerTree, LMIcons
 from lmgr.menudata import LayerManagerMenuData, LayerManagerModuleTree
+<<<<<<< HEAD
 from gui_core.widgets import GNotebook, FormNotebook
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+from gui_core.widgets import GNotebook
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 from core.gconsole import GConsole, EVT_IGNORED_CMD_RUN
 from core.giface import Notification
 from gui_core.goutput import GConsoleWindow, GC_PROMPT
@@ -975,6 +988,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self._auimgr = aui.AuiManager(self)
 =======
 <<<<<<< HEAD
@@ -1033,6 +1047,8 @@ class GMFrame(wx.Frame):
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 95499cb16f (Add Binder badge/button to readme (#1628))
         self._auimgr = SingleWindowAuiManager(self)
 =======
         self._auimgr = aui.AuiManager(self)
@@ -1756,6 +1772,9 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self._auimgr = wx.aui.AuiManager(self)
+=======
+        self._auimgr = aui.AuiManager(self)
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 
         # list of open dialogs
         self.dialogs = dict()
@@ -1763,54 +1782,12 @@ class GMFrame(wx.Frame):
         self.dialogs["nvizPreferences"] = None
         self.dialogs["atm"] = list()
 
-        # create widgets
-        self._createMenuBar()
-        self.statusbar = self.CreateStatusBar(number=1)
-        self.notebook = self._createNotebook()
-        self._createDataCatalog(self.notebook)
-        self._createDisplay(self.notebook)
-        self._createSearchModule(self.notebook)
-        self._createConsole(self.notebook)
-        self._createPythonShell(self.notebook)
-        self._addPagesToNotebook()
-        self.toolbars = {
-            "workspace": LMWorkspaceToolbar(parent=self),
-            "tools": LMToolsToolbar(parent=self),
-            "misc": LMMiscToolbar(parent=self),
-            "nviz": LMNvizToolbar(parent=self),
-        }
-        self._toolbarsData = {
-            "workspace": (
-                "toolbarWorkspace",  # name
-                _("Workspace Toolbar"),  # caption
-                1,
-                0,
-            ),  # row, position
-            "tools": ("toolbarTools", _("Tools Toolbar"), 1, 1),
-            "misc": ("toolbarMisc", _("Misc Toolbar"), 1, 2),
-            "nviz": ("toolbarNviz", _("3D view Toolbar"), 1, 3),
-        }
-        toolbarsList = ("workspace", "tools", "misc", "nviz")
-        for toolbar in toolbarsList:
-            name, caption, row, position = self._toolbarsData[toolbar]
-            self._auimgr.AddPane(
-                self.toolbars[toolbar],
-                wx.aui.AuiPaneInfo()
-                .Name(name)
-                .Caption(caption)
-                .ToolbarPane()
-                .Top()
-                .Row(row)
-                .Position(position)
-                .LeftDockable(False)
-                .RightDockable(False)
-                .BottomDockable(False)
-                .TopDockable(True)
-                .CloseButton(False)
-                .Layer(2)
-                .BestSize((self.toolbars[toolbar].GetBestSize())),
-            )
+        # set pane sizes according to the full screen size of the primary monitor
+        size = wx.Display().GetGeometry().GetSize()
+        self.PANE_BEST_SIZE = tuple(t / 5 for t in size)
+        self.PANE_MIN_SIZE = tuple(t / 10 for t in size)
 
+<<<<<<< HEAD
         self._auimgr.GetPane("toolbarNviz").Hide()
         # bindings
         self.Bind(wx.EVT_CLOSE, self.OnCloseWindowOrExit)
@@ -1819,11 +1796,19 @@ class GMFrame(wx.Frame):
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+        # create widgets and build panes
+        self.CreateMenuBar()
+        self.CreateStatusBar(number=1)
+        self.BuildPanes()
+        self.BindEvents()
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 
         self._giface.mapCreated.connect(self.OnMapCreated)
         self._giface.updateMap.connect(self._updateCurrentMap)
         self._giface.currentMapsetChanged.connect(self.OnMapsetChanged)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         # use default window layout ?
@@ -2013,6 +1998,8 @@ class GMFrame(wx.Frame):
 
         wx.CallAfter(self.notebook.SetSelectionByName, "catalog")
 
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         # use default window layout ?
         if UserSettings.Get(group="general", key="defWindowPos", subkey="enabled"):
 <<<<<<< HEAD
@@ -2216,6 +2203,7 @@ class GMFrame(wx.Frame):
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.Show()
+        self.Maximize(True)
 
         # load workspace file if requested
         if workspace:
@@ -2227,6 +2215,7 @@ class GMFrame(wx.Frame):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # show map display window
 =======
         # show map display widnow
@@ -2234,6 +2223,9 @@ class GMFrame(wx.Frame):
 =======
         # show map display widnow
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+        # show map display window
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         # -> OnSize() -> UpdateMap()
         for mapdisp in self.GetMapDisplay(onlyCurrent=False):
             mapdisp.Show()
@@ -2334,6 +2326,7 @@ class GMFrame(wx.Frame):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def CreateMenuBar(self):
 =======
     def _createMenuBar(self):
@@ -2341,6 +2334,9 @@ class GMFrame(wx.Frame):
 =======
     def _createMenuBar(self):
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+    def CreateMenuBar(self):
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         """Creates menu bar"""
         self.menubar = GMenu(
             parent=self, model=self._menuTreeBuilder.GetModel(separators=True)
@@ -2405,6 +2401,7 @@ class GMFrame(wx.Frame):
             return self._auimgr.GetPane(name).IsShown()
         return False
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2530,6 +2527,8 @@ class GMFrame(wx.Frame):
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 95499cb16f (Add Binder badge/button to readme (#1628))
     def SetStatusText(self, *args):
         """Override SbMain statusbar method"""
         self.statusbar.SetStatusText(*args)
@@ -3156,7 +3155,12 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+>>>>>>> 95499cb16f (Add Binder badge/button to readme (#1628))
     def _createDataCatalog(self, parent):
         """Initialize Data Catalog widget"""
         self.datacatalog = DataCatalog(parent=parent, giface=self._giface)
@@ -3353,6 +3357,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3406,6 +3411,8 @@ class GMFrame(wx.Frame):
 >>>>>>> deb8b6fca0 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 95499cb16f (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -6590,6 +6597,8 @@ class GMFrame(wx.Frame):
             .Name("layers")
             .Caption(_("Layers"))
 =======
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
     def _createMapDisplay(self, parent):
         """Set up Map Display"""
         # blank panel for testing
@@ -6614,6 +6623,9 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 95499cb16f (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -8707,36 +8719,156 @@ class GMFrame(wx.Frame):
         """Add pages to notebook widget"""
         # add 'data catalog' widget to main notebook page
         self.notebook.AddPage(page=self.datacatalog, text=_("Data"), name="catalog")
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 
-        # add 'display' widget to main notebook page
-        self.notebook.AddPage(page=self.displayPanel, text=_("Display"), name="layers")
+    def BuildPanes(self):
+        """Build panes - toolbars as well as panels"""
 
-        # add 'modules' widget to main notebook page
-        if self.search:
-            self.notebook.AddPage(page=self.search, text=_("Modules"), name="search")
+        # initialize all main widgets
+        self._createDataCatalog(parent=self)
+        self._createDisplay(parent=self)
+        self._createSearchModule(parent=self)
+        self._createConsole(parent=self)
+        self._createPythonShell(parent=self)
+        self._createMapDisplay(parent=self)
+        self.toolbars = {
+            "workspace": LMWorkspaceToolbar(parent=self),
+            "tools": LMToolsToolbar(parent=self),
+            "misc": LMMiscToolbar(parent=self),
+            "nviz": LMNvizToolbar(parent=self),
+        }
+        self._toolbarsData = {
+            "workspace": (
+                "toolbarWorkspace",  # name
+                _("Workspace Toolbar"),  # caption
+                1,
+                0,
+            ),  # row, position
+            "tools": ("toolbarTools", _("Tools Toolbar"), 1, 1),
+            "misc": ("toolbarMisc", _("Misc Toolbar"), 1, 2),
+            "nviz": ("toolbarNviz", _("3D view Toolbar"), 1, 3),
+        }
 
-        # add 'console' widget to main notebook page and add connect switch page signal
-        self.notebook.AddPage(page=self.goutput, text=_("Console"), name="output")
-        self.goutput.contentChanged.connect(
-            lambda notification: self._switchPage(notification)
+        # add a bunch of panes
+        toolbarsList = ("workspace", "tools", "misc", "nviz")
+        for toolbar in toolbarsList:
+            name, caption, row, position = self._toolbarsData[toolbar]
+            self._auimgr.AddPane(
+                self.toolbars[toolbar],
+                aui.AuiPaneInfo()
+                .Name(name)
+                .Caption(caption)
+                .ToolbarPane()
+                .Top()
+                .Row(row)
+                .Position(position)
+                .LeftDockable(False)
+                .RightDockable(False)
+                .BottomDockable(False)
+                .TopDockable(True)
+                .CloseButton(False)
+                .Layer(2)
+                .BestSize((self.toolbars[toolbar].GetBestSize())),
+            )
+
+        self._auimgr.AddPane(
+            self.mapdisplay,
+            aui.AuiPaneInfo().Name("map display").CenterPane().PaneBorder(True),
         )
 
-        # add 'python shell' widget to main notebook page
-        if self.pyshell:
-            self.notebook.AddPage(page=self.pyshell, text=_("Python"), name="pyshell")
+        self._auimgr.AddPane(
+            self.datacatalog,
+            aui.AuiPaneInfo()
+            .Name("datacatalog")
+            .Caption("Data Catalog")
+            .Left()
+            .Layer(1)
+            .Position(1)
+            .BestSize(self.PANE_BEST_SIZE)
+            .MinSize(self.PANE_MIN_SIZE)
+            .CloseButton(False)
+            .MinimizeButton(True)
+            .MaximizeButton(True),
+        )
 
-        # bindings
-        if sys.platform == "win32":
-            self.notebook.Bind(FN.EVT_FLATNOTEBOOK_PAGE_CHANGED, self.OnPageChanged)
-        else:
-            self.notebook.Bind(wx.EVT_NOTEBOOK_PAGE_CHANGED, self.OnPageChanged)
+        self._auimgr.AddPane(
+            self.displayPanel,
+            aui.AuiPaneInfo()
+            .Name("display")
+            .Caption("Display")
+            .Left()
+            .Layer(1)
+            .Position(2)
+            .BestSize(self.PANE_BEST_SIZE)
+            .MinSize(self.PANE_MIN_SIZE)
+            .CloseButton(False)
+            .MinimizeButton(True)
+            .MaximizeButton(True),
+        )
 
+        self._auimgr.AddPane(
+            self.search,
+            aui.AuiPaneInfo()
+            .Name("modules")
+            .Caption("Modules")
+            .Right()
+            .Layer(2)
+            .Position(1)
+            .BestSize(self.PANE_BEST_SIZE)
+            .MinSize(self.PANE_MIN_SIZE)
+            .CloseButton(False)
+            .MinimizeButton(True)
+            .MaximizeButton(True),
+        )
+
+        self._auimgr.AddPane(
+            self.goutput,
+            aui.AuiPaneInfo()
+            .Name("console")
+            .Caption("Console")
+            .Right()
+            .Layer(2)
+            .Position(2)
+            .BestSize(self.PANE_BEST_SIZE)
+            .MinSize(self.PANE_MIN_SIZE)
+            .CloseButton(False)
+            .MinimizeButton(True)
+            .MaximizeButton(True),
+        )
+
+        self._auimgr.AddPane(
+            self.pyshell,
+            aui.AuiPaneInfo()
+            .Name("python")
+            .Caption("Python")
+            .Right()
+            .Layer(2)
+            .Position(3)
+            .BestSize(self.PANE_BEST_SIZE)
+            .MinSize(self.PANE_MIN_SIZE)
+            .CloseButton(False)
+            .MinimizeButton(True)
+            .MaximizeButton(True),
+        )
+
+        self._auimgr.GetPane("toolbarNviz").Hide()
         wx.CallAfter(self.datacatalog.LoadItems)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+        self._auimgr.Update()
+
+    def BindEvents(self):
+        # bindings
+        self.Bind(wx.EVT_CLOSE, self.OnCloseWindowOrExit)
+        self.Bind(wx.EVT_KEY_DOWN, self.OnKeyDown)
+
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
     def _show_demo_map(self):
         """If in demolocation, add demo map to map display
 
@@ -9721,15 +9853,6 @@ class GMFrame(wx.Frame):
 
         event.Skip()
 
-    def OnPageChanged(self, event):
-        """Page in notebook changed"""
-        page = event.GetSelection()
-        if page == self.notebook.GetPageIndexByName("output"):
-            wx.CallAfter(self.goutput.ResetFocus)
-        self.SetStatusText("", 0)
-
-        event.Skip()
-
     def OnCBPageClosing(self, event):
         """Page of notebook is being closed
         from Layer Manager (x button next to arrows)
@@ -10701,21 +10824,6 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
-
-    def _switchPageHandler(self, event, notification):
-        self._switchPage(notification=notification)
-        event.Skip()
-
-    def _switchPage(self, notification):
-        """Manages @c 'output' notebook page according to event notification."""
-        if notification == Notification.HIGHLIGHT:
-            self.notebook.HighlightPageByName("output")
-        if notification == Notification.MAKE_VISIBLE:
-            self.notebook.SetSelectionByName("output")
-        if notification == Notification.RAISE_WINDOW:
-            self.notebook.SetSelectionByName("output")
-            self.SetFocus()
-            self.Raise()
 
     def RunSpecialCmd(self, command):
         """Run command from command line, check for GUI wrappers"""
@@ -12499,12 +12607,15 @@ class GMFrame(wx.Frame):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         self.GetLayerTree().AddLayer("raster")
 
     def OnAddRasterMisc(self, event):
@@ -12547,12 +12658,15 @@ class GMFrame(wx.Frame):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         self.GetLayerTree().AddLayer("vector")
 
     def OnAddVectorMisc(self, event):
@@ -12580,23 +12694,29 @@ class GMFrame(wx.Frame):
 
     def OnAddVectorTheme(self, event):
         """Add thematic vector map to the current layer tree"""
+<<<<<<< HEAD
         self.notebook.SetSelectionByName("layers")
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         self.GetLayerTree().AddLayer("thememap")
 
     def OnAddVectorChart(self, event):
         """Add chart vector map to the current layer tree"""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         self.GetLayerTree().AddLayer("themechart")
 
     def OnAddOverlay(self, event):
@@ -12628,59 +12748,74 @@ class GMFrame(wx.Frame):
 
     def OnAddRaster3D(self, event):
         """Add 3D raster map to the current layer tree"""
+<<<<<<< HEAD
         self.notebook.SetSelectionByName("layers")
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         self.GetLayerTree().AddLayer("raster_3d")
 
     def OnAddRasterRGB(self, event):
         """Add RGB raster map to the current layer tree"""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         self.GetLayerTree().AddLayer("rgb")
 
     def OnAddRasterHIS(self, event):
         """Add HIS raster map to the current layer tree"""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         self.GetLayerTree().AddLayer("his")
 
     def OnAddRasterShaded(self, event):
         """Add shaded relief raster map to the current layer tree"""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         self.GetLayerTree().AddLayer("shaded")
 
     def OnAddRasterArrow(self, event):
         """Add flow arrows raster map to the current layer tree"""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         # here it seems that it should be retrieved from the mapwindow
         mapdisplay = self.GetMapDisplay()
         resolution = mapdisplay.mapWindowProperties.resolution
@@ -12696,12 +12831,15 @@ class GMFrame(wx.Frame):
         """Add cell number raster map to the current layer tree"""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         mapdisplay = self.GetMapDisplay()
         resolution = mapdisplay.mapWindowProperties.resolution
         if not resolution:
@@ -12728,12 +12866,15 @@ class GMFrame(wx.Frame):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.GetLayerTree().AddLayer("command")
 
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.notebook.SetSelectionByName("layers")
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         self.GetLayerTree().AddLayer("command")
 
         # show map display
@@ -12751,6 +12892,7 @@ class GMFrame(wx.Frame):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.GetLayerTree().AddLayer("group")
 
     def OnAddGrid(self, event):
@@ -12759,6 +12901,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.notebook.SetSelectionByName("layers")
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         self.GetLayerTree().AddLayer("group")
 
         # show map display
@@ -12766,35 +12910,44 @@ class GMFrame(wx.Frame):
 
     def OnAddGrid(self, event):
         """Add grid map layer to the current layer tree"""
+<<<<<<< HEAD
         self.notebook.SetSelectionByName("layers")
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         self.GetLayerTree().AddLayer("grid")
 
     def OnAddGeodesic(self, event):
         """Add geodesic line map layer to the current layer tree"""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         self.GetLayerTree().AddLayer("geodesic")
 
     def OnAddRhumb(self, event):
         """Add rhumb map layer to the current layer tree"""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         self.notebook.SetSelectionByName("layers")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         self.GetLayerTree().AddLayer("rhumb")
 
     def OnAddLabels(self, event):
@@ -12805,12 +12958,15 @@ class GMFrame(wx.Frame):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.GetLayerTree().AddLayer("labels")
 
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.notebook.SetSelectionByName("layers")
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         self.GetLayerTree().AddLayer("labels")
 
         # show map display
@@ -13026,6 +13182,7 @@ class GMFrame(wx.Frame):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -13043,6 +13200,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
         try:
             kc = chr(kc)
         except ValueError:
