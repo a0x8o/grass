@@ -5125,6 +5125,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5502,6 +5503,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 98bb69619b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5755,6 +5758,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6267,12 +6271,17 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 047446473b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 98bb69619b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 #define U_YEARS          DATETIME_YEAR
 #define U_MONTHS         DATETIME_MONTH
 #define U_DAYS           DATETIME_DAY
 #define U_HOURS          DATETIME_HOUR
 #define U_MINUTES        DATETIME_MINUTE
 #define U_SECONDS        DATETIME_SECOND
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6572,6 +6581,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 98bb69619b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
@@ -6727,6 +6738,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 >>>>>>> ce2336a470 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5e881b2ad2 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
@@ -7037,6 +7049,11 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> e71c665a53 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> f7b0361d9b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+=======
+=======
+>>>>>>> 047446473b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 98bb69619b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 #define U_YEARS         DATETIME_YEAR
 #define U_MONTHS        DATETIME_MONTH
 #define U_DAYS          DATETIME_DAY
@@ -7115,6 +7132,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 43085d2b40 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
@@ -7259,6 +7277,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> e71c665a53 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> f7b0361d9b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+>>>>>>> 98bb69619b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 >>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
@@ -7662,6 +7682,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
@@ -8256,6 +8277,11 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 047446473b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 98bb69619b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 
 /*! \brief Projection code - XY coordinate system (unreferenced data) */
 #define PROJECTION_XY    0
@@ -8760,6 +8786,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
@@ -8769,6 +8796,8 @@ typedef enum {
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 98bb69619b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
     G_OPT_C,  /*!< color */
@@ -9387,7 +9416,12 @@ typedef enum {
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 047446473b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 98bb69619b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
     G_OPT_M_UNITS,      /*!< units */
     G_OPT_M_DATATYPE,   /*!< datatype */
     G_OPT_M_MAPSET,     /*!< mapset */
@@ -9472,6 +9506,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
@@ -9483,6 +9518,8 @@ typedef enum {
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 98bb69619b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> c660f119eb (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 >>>>>>> 9d728eab21 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
@@ -9757,6 +9794,7 @@ typedef enum {
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 047446473b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
@@ -9918,6 +9956,10 @@ typedef enum {
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 047446473b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+>>>>>>> 98bb69619b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
     G_OPT_M_UNITS,              /*!< units */
     G_OPT_M_DATATYPE,           /*!< datatype */
     G_OPT_M_MAPSET,             /*!< mapset */
@@ -10019,6 +10061,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -10157,6 +10200,8 @@ typedef enum {
 >>>>>>> e71c665a53 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 98bb69619b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10386,6 +10431,7 @@ typedef enum {
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10783,6 +10829,10 @@ typedef enum {
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 047446473b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 98bb69619b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 
     G_OPT_STDS_INPUT, /*!< old input space time dataset of type strds, str3ds or
                          stvds */
