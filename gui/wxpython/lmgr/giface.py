@@ -404,6 +404,7 @@ class LayerManagerGrassInterface:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -623,6 +624,8 @@ class LayerManagerGrassInterface:
 >>>>>>> 969385adae (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d178e98fad (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -863,6 +866,7 @@ class LayerManagerGrassInterface:
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1277,6 +1281,10 @@ class LayerManagerGrassInterface:
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7cac712ee3 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> d178e98fad (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 class LayerManagerGrassInterfaceForMapDisplay:
 =======
     def ShowStatusbar(self, show=True):
@@ -1384,6 +1392,7 @@ class LayerManagerGrassInterfaceForMapDisplay:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1513,6 +1522,8 @@ class LayerManagerGrassInterfaceForMapDisplay:
 >>>>>>> 04a31aa925 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> 969385adae (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> d178e98fad (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> 8d53b00588 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f8d32d9e3a (libpython: Save and load benchmark results (#1711))
@@ -2431,7 +2442,12 @@ class LayerManagerGrassInterfaceForMapDisplay:
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7cac712ee3 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> d178e98fad (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 
 class LayerManagerGrassInterfaceForMapDisplay(object):
 >>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
