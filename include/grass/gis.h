@@ -4681,6 +4681,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5036,6 +5037,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0165b4754d (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+>>>>>>> 48c92dd29d (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6128,6 +6131,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6d10bb4d89 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 =======
@@ -6445,12 +6449,17 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 >>>>>>> 0165b4754d (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+=======
+>>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 48c92dd29d (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 #define U_YEARS         DATETIME_YEAR
 #define U_MONTHS        DATETIME_MONTH
 #define U_DAYS          DATETIME_DAY
 #define U_HOURS         DATETIME_HOUR
 #define U_MINUTES       DATETIME_MINUTE
 #define U_SECONDS       DATETIME_SECOND
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6652,6 +6661,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> 43085d2b40 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> 0165b4754d (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+>>>>>>> 48c92dd29d (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 >>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
@@ -6824,6 +6835,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> osgeo-main
 =======
 >>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c9e7c8086a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
@@ -7575,6 +7587,10 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 >>>>>>> 0165b4754d (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+=======
+>>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 48c92dd29d (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 
 /*! \brief Projection code - XY coordinate system (unreferenced data) */
 #define PROJECTION_XY    0
