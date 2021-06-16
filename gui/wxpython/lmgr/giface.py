@@ -286,6 +286,7 @@ class LayerManagerGrassInterface:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -310,6 +311,8 @@ class LayerManagerGrassInterface:
 >>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1abf332f3e (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 class LayerManagerGrassInterfaceForMapDisplay:
 =======
     def ShowStatusbar(self, show=True):
@@ -329,6 +332,7 @@ class LayerManagerGrassInterfaceForMapDisplay:
     def AreAllToolbarsShown(self):
         return self.lmgr.GetMapDisplay().GetMapToolbar().IsShown()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,6 +378,8 @@ class LayerManagerGrassInterfaceForMapDisplay:
 >>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1abf332f3e (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 
 class LayerManagerGrassInterfaceForMapDisplay(object):
 >>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
