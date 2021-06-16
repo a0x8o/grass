@@ -3037,6 +3037,7 @@ struct Option *G_define_standard_option(int opt)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3343,6 +3344,8 @@ struct Option *G_define_standard_option(int opt)
 >>>>>>> 693b38ddef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 876d0d5a74 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -3983,6 +3986,7 @@ struct Option *G_define_standard_option(int opt)
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4460,6 +4464,10 @@ struct Option *G_define_standard_option(int opt)
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 1abf332f3e (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 876d0d5a74 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
         /* start dynamic answer */
         /* check NPROCS in GISRC, set with g.gisenv */
         memstr = G_store(G_getenv_nofatal("NPROCS"));
@@ -5440,6 +5448,7 @@ struct Option *G_define_standard_option(int opt)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6652,7 +6661,18 @@ struct Option *G_define_standard_option(int opt)
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        Opt->description = _("Number of threads for parallel computing");
+        break;
+
+    /* Spatio-temporal modules of the temporal GIS framework */
+>>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 1abf332f3e (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 876d0d5a74 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
     case G_OPT_STDS_INPUT:
         Opt->key = "input";
         Opt->type = TYPE_STRING;

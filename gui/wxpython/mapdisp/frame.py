@@ -5541,6 +5541,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5847,6 +5848,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 693b38ddef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 876d0d5a74 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -6487,6 +6490,7 @@ class MapPanel(SingleMapPanel):
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -6964,6 +6968,10 @@ class MapPanel(SingleMapPanel):
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 1abf332f3e (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 876d0d5a74 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
             # items for choice
             statusbarItems = [
                 sb.SbCoordinates,
@@ -9742,6 +9750,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 0943599d80 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
@@ -10887,13 +10896,17 @@ class MapPanel(SingleMapPanel):
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 876d0d5a74 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 =======
             self.statusbar = self.CreateStatusbar()
 >>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 >>>>>>> 1abf332f3e (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7582fc9ff1 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
@@ -11486,6 +11499,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 876d0d5a74 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 
         # init decoration objects
         self.decorations = {}
@@ -13574,6 +13589,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> aeb2a68635 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
@@ -14184,6 +14200,7 @@ class MapPanel(SingleMapPanel):
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -14672,10 +14689,15 @@ class MapPanel(SingleMapPanel):
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 1abf332f3e (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 876d0d5a74 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
         # statusbar
         if self.statusbar:
             self.AddStatusbarPane()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15467,7 +15489,13 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 >>>>>>> edc1ad4ff0 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 >>>>>>> bd4e4b319f (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+<<<<<<< HEAD
 >>>>>>> 2094945168 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+=======
+=======
+>>>>>>> 1abf332f3e (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 876d0d5a74 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
         self._mgr.AddPane(
             self.statusbar,
             wx.aui.AuiPaneInfo()
@@ -15566,6 +15594,9 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 876d0d5a74 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> 2094945168 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
@@ -17295,7 +17326,13 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 1abf332f3e (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 876d0d5a74 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
         self._mgr.Update()
 
         #
@@ -18750,10 +18787,64 @@ class MapPanel(SingleMapPanel):
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
+<<<<<<< HEAD
         def show_hide_toolbar_label():
             return (
                 _("Hide toolbars") if self.AreAllToolbarsShown() else _("Show toolbars")
+<<<<<<< HEAD
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+        # items for choice
+        self.statusbarItems = [
+            sb.SbCoordinates,
+            sb.SbRegionExtent,
+            sb.SbCompRegionExtent,
+            sb.SbShowRegion,
+            sb.SbAlignExtent,
+            sb.SbResolution,
+            sb.SbDisplayGeometry,
+            sb.SbMapScale,
+            sb.SbGoTo,
+            sb.SbProjection,
+        ]
+
+        self.statusbarItemsHiddenInNviz = (
+            sb.SbAlignExtent,
+            sb.SbDisplayGeometry,
+            sb.SbShowRegion,
+            sb.SbResolution,
+            sb.SbMapScale,
+        )
+
+        statusbar = wx.StatusBar(self, id=wx.ID_ANY)
+        statusbar.SetMinHeight(24)
+        statusbar.SetFieldsCount(4)
+        statusbar.SetStatusWidths([-5, -2, -1, -1])
+        self.statusbarManager = sb.SbManager(mapframe=self, statusbar=statusbar)
+
+        # fill statusbar manager
+        self.statusbarManager.AddStatusbarItemsByClass(
+            self.statusbarItems, mapframe=self, statusbar=statusbar
+        )
+        self.statusbarManager.AddStatusbarItem(
+            sb.SbMask(self, statusbar=statusbar, position=2)
+        )
+        sbRender = sb.SbRender(self, statusbar=statusbar, position=3)
+        self.statusbarManager.AddStatusbarItem(sbRender)
+
+        self.statusbarManager.Update()
+
+        #
+        self.Map.GetRenderMgr().updateProgress.connect(
+            self.statusbarManager.SetProgress
+        )
+        self.Map.GetRenderMgr().renderingFailed.connect(
+            lambda cmd, error: self._giface.WriteError(
+                _("Failed to run command '%(command)s'. Details:\n%(error)s")
+                % dict(command=" ".join(cmd), error=error)
+>>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> 1abf332f3e (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
             )
 
         def on_show_hide_toolbar(event):
@@ -18780,7 +18871,24 @@ class MapPanel(SingleMapPanel):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return statusbar
+=======
+        return statusbar
+
+    def ShowStatusbar(self, show):
+        """Show/hide statusbar and associated pane"""
+        self._mgr.GetPane("statusbar").Show(show)
+        self._mgr.Update()
+
+    def IsStatusbarShown(self):
+        """Check if statusbar is shown"""
+        return self._mgr.GetPane("statusbar").IsShown()
+
+    def SetStatusText(self, *args):
+        """Overide wx.StatusBar method"""
+        self.statusbar.SetStatusText(*args)
+>>>>>>> 1abf332f3e (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 
     def ShowStatusbar(self, show):
         """Show/hide statusbar and associated pane"""
