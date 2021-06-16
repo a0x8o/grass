@@ -4210,6 +4210,7 @@ class SbManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4257,6 +4258,8 @@ class SbManager:
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b96783bb3a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> c660f119eb (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
@@ -4875,6 +4878,7 @@ class SbManager:
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -5338,6 +5342,10 @@ class SbManager:
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ef8e26d203 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> b96783bb3a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
     def OnContextMenu(self, event):
         """Popup context menu enabling to choose a widget that will be shown in
         statusbar."""
@@ -6407,6 +6415,7 @@ class SbManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
         def setSbItemProperty(idx):
@@ -6699,6 +6708,8 @@ class SbManager:
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b96783bb3a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -7692,12 +7703,16 @@ class SbManager:
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> b96783bb3a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 =======
 >>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 >>>>>>> ef8e26d203 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1b0c82c3cd (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
@@ -8214,6 +8229,8 @@ class SbManager:
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b96783bb3a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 
 class SbItem:
     """Base class for statusbar items.
