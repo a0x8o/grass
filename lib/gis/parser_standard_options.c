@@ -1743,6 +1743,10 @@ struct Option *G_define_standard_option(int opt)
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> bd4e4b319f (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> f114e7aa14 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 <<<<<<< HEAD
 =======
@@ -2117,8 +2121,16 @@ struct Option *G_define_standard_option(int opt)
 =======
 =======
 >>>>>>> 1abf332f3e (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+<<<<<<< HEAD
 >>>>>>> f114e7aa14 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+<<<<<<< HEAD
 >>>>>>> 0fd325371d (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+=======
+=======
+>>>>>>> edc1ad4ff0 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> bd4e4b319f (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> fe652fab2f (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
         /* start dynamic answer */
         /* check NPROCS in GISRC, set with g.gisenv */
         memstr = G_store(G_getenv_nofatal("NPROCS"));
@@ -2988,6 +3000,8 @@ struct Option *G_define_standard_option(int opt)
 =======
 =======
 =======
+=======
+>>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
         Opt->description = _("Number of threads for parallel computing");
         break;
 
