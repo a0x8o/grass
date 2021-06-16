@@ -2244,6 +2244,7 @@ struct Option *G_define_standard_option(int opt)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3202,8 +3203,16 @@ struct Option *G_define_standard_option(int opt)
 >>>>>>> osgeo-main
 =======
 >>>>>>> b3428cff9f (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+<<<<<<< HEAD
 >>>>>>> d78873d16e (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+<<<<<<< HEAD
 >>>>>>> 6ad2b2c24d (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+=======
+=======
+>>>>>>> 9b7fa9d273 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> b0540bd24a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> c9b16b100b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
         /* start dynamic answer */
         /* check NPROCS in GISRC, set with g.gisenv */
         memstr = G_store(G_getenv_nofatal("NPROCS"));
@@ -4700,6 +4709,8 @@ struct Option *G_define_standard_option(int opt)
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
         Opt->description = _("Number of threads for parallel computing");
         break;
 
