@@ -3073,6 +3073,10 @@ struct Option *G_define_standard_option(int opt)
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> e2e2590594 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 0943599d80 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 <<<<<<< HEAD
 =======
@@ -3142,6 +3146,7 @@ struct Option *G_define_standard_option(int opt)
 >>>>>>> osgeo-main
 =======
 >>>>>>> c9e7c8086a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+<<<<<<< HEAD
 =======
 >>>>>>> 06036d3399 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
@@ -3873,6 +3878,14 @@ struct Option *G_define_standard_option(int opt)
 =======
 >>>>>>> 0943599d80 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 >>>>>>> c7f7308f2f (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+<<<<<<< HEAD
+>>>>>>> 0943599d80 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+=======
+>>>>>>> 06036d3399 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> e2e2590594 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+>>>>>>> eed879a954 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
         /* start dynamic answer */
         /* check NPROCS in GISRC, set with g.gisenv */
         memstr = G_store(G_getenv_nofatal("NPROCS"));
@@ -5783,6 +5796,8 @@ struct Option *G_define_standard_option(int opt)
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
         Opt->description = _("Number of threads for parallel computing");
         break;
 
