@@ -47,6 +47,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -128,6 +129,10 @@
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+=======
+>>>>>>> 5266d51455 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> a26fd2ca4d (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 6f5fb4923c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -331,8 +336,16 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 6f5fb4923c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+=======
+>>>>>>> cb0f743d05 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 5266d51455 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> a26fd2ca4d (Add session initiations functions for Jupyter Notebooks (#1629))
 # MODULE:    grass.jupyter
 #
 # AUTHOR(S): Caitlin Haedrich <caitlin DOT haedrich AT gmail>
@@ -1345,11 +1358,14 @@ from .setup import *
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 33ce7dd98b (Add session initiations functions for Jupyter Notebooks (#1629))
 <<<<<<< HEAD
 >>>>>>> 0aa28c169d (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 =======
+=======
+>>>>>>> a26fd2ca4d (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1586,5 +1602,13 @@ from .utils import *
 =======
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 6f5fb4923c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+=======
+>>>>>>> cb0f743d05 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 5266d51455 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> a26fd2ca4d (Add session initiations functions for Jupyter Notebooks (#1629))
