@@ -69,6 +69,7 @@ PYDIR = $(ETC)/python/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -1048,6 +1049,7 @@ PYDIR = $(ETC)/python/grass
 =======
 >>>>>>> 510052984c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 024f004a0e (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -1588,6 +1590,10 @@ PYDIR = $(ETC)/python/grass
 =======
 >>>>>>> 510052984c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> cef6c84d7f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> 8b43f772e0 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 694004b532 (Add session initiations functions for Jupyter Notebooks (#1629))
 SUBDIRS = \
 	app \
 	benchmark \
@@ -3955,6 +3961,7 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -5783,13 +5790,17 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 =======
 >>>>>>> 510052984c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 024f004a0e (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
+=======
+>>>>>>> 694004b532 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 =======
 SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imaging gunittest bandref jupyter
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> 8b43f772e0 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 84abe8434d (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
@@ -6400,6 +6411,8 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 =======
 >>>>>>> 510052984c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> cef6c84d7f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 694004b532 (Add session initiations functions for Jupyter Notebooks (#1629))
 
 default: $(PYDIR)/__init__.py
 	$(MAKE) subdirs
