@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -53,6 +54,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40118f6d63 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 869427c771 (Add session initiations functions for Jupyter Notebooks (#1629))
 # MODULE:    grass.jupyter
 #
 # AUTHOR(S): Caitlin Haedrich <caitlin DOT haedrich AT gmail>
@@ -266,6 +269,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -332,3 +336,5 @@ from .utils import *
 =======
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 40118f6d63 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 869427c771 (Add session initiations functions for Jupyter Notebooks (#1629))

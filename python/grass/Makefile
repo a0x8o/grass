@@ -16,6 +16,7 @@ PYDIR = $(ETC)/python/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -57,6 +58,8 @@ PYDIR = $(ETC)/python/grass
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40118f6d63 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 869427c771 (Add session initiations functions for Jupyter Notebooks (#1629))
 SUBDIRS = \
 	app \
 	benchmark \
@@ -198,6 +201,7 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -257,6 +261,8 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imaging gunittest bandref jupyter
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 40118f6d63 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 869427c771 (Add session initiations functions for Jupyter Notebooks (#1629))
 
 default: $(PYDIR)/__init__.py
 	$(MAKE) subdirs
