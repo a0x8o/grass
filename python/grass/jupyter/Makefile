@@ -24,8 +24,11 @@ DSTDIR = $(ETC)/python/grass/jupyter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> d8b1a8d49c (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 <<<<<<< HEAD
 =======
@@ -1260,8 +1263,16 @@ DSTDIR = $(ETC)/python/grass/jupyter
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40118f6d63 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 4566710e5b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+=======
+>>>>>>> 869427c771 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> d8b1a8d49c (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 312886bea2 (Add session initiations functions for Jupyter Notebooks (#1629))
 MODULES = \
 	setup \
 	map \
@@ -5169,10 +5180,25 @@ MODULES = \
 =======
 MODULES = setup
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 40118f6d63 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 4566710e5b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+=======
+=======
+=======
+MODULES = setup
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> dc994d1258 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 869427c771 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> d8b1a8d49c (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 312886bea2 (Add session initiations functions for Jupyter Notebooks (#1629))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
