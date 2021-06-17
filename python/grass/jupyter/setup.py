@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -985,7 +986,12 @@
 =======
 =======
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 855503a984 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> cb0f743d05 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 4fc859df4b (Add session initiations functions for Jupyter Notebooks (#1629))
 #            Vaclav Petras <wenzeslaus gmail com>
 #
 # PURPOSE:   This module contains functions for launching a GRASS session
@@ -3784,6 +3790,8 @@ def _set_notebook_defaults():
 =======
 =======
 =======
+=======
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 #
 # PURPOSE:   This module contains functions for launching a GRASS session
 #           in Jupyter Notebooks
@@ -3802,9 +3810,18 @@ import grass.script.setup as gsetup
 
 def _set_notebook_defaults():
     """
+<<<<<<< HEAD
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 855503a984 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+=======
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> cb0f743d05 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 4fc859df4b (Add session initiations functions for Jupyter Notebooks (#1629))
     This function sets several GRASS environment variables that are
     important for GRASS to run smoothly in Jupyter.
 
@@ -3827,6 +3844,7 @@ def _set_notebook_defaults():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4803,7 +4821,12 @@ def _set_notebook_defaults():
 =======
 =======
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 855503a984 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> cb0f743d05 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 4fc859df4b (Add session initiations functions for Jupyter Notebooks (#1629))
 class _JupyterGlobalSession:
     """Represents a global GRASS session for Jupyter Notebooks.
 
@@ -5303,6 +5326,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a09cd63835 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -5417,6 +5441,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> 7c97eea09f (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> 855503a984 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 4fc859df4b (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
@@ -5587,12 +5613,16 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3229dc2622 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
+=======
+>>>>>>> 4fc859df4b (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 =======
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> cb0f743d05 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b08a53e4f5 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
@@ -5860,6 +5890,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 855503a984 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 4fc859df4b (Add session initiations functions for Jupyter Notebooks (#1629))
 def init(path, location, mapset):
     """
     This function initiates a GRASS session and sets GRASS
@@ -7904,6 +7936,7 @@ def display_settings(font="sans", driver="cairo"):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -13067,13 +13100,17 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3229dc2622 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
+=======
+>>>>>>> 4fc859df4b (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> cb0f743d05 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b08a53e4f5 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
@@ -13792,3 +13829,5 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 855503a984 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 4fc859df4b (Add session initiations functions for Jupyter Notebooks (#1629))
