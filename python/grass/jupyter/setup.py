@@ -79,6 +79,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -197,6 +198,8 @@
 =======
 >>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
+>>>>>>> 6ce1bc9e11 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3217,6 +3220,8 @@ def _set_notebook_defaults():
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 #
 # PURPOSE:   This module contains functions for launching a GRASS session
 #           in Jupyter Notebooks
@@ -3235,8 +3240,14 @@ import grass.script.setup as gsetup
 
 def _set_notebook_defaults():
     """
+<<<<<<< HEAD
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 6ce1bc9e11 (Add session initiations functions for Jupyter Notebooks (#1629))
     This function sets several GRASS environment variables that are
     important for GRASS to run smoothly in Jupyter.
 
@@ -3329,6 +3340,7 @@ def _set_notebook_defaults():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3446,6 +3458,8 @@ def _set_notebook_defaults():
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 6ce1bc9e11 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -4714,6 +4728,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1cb35c2fc8 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -5003,10 +5018,15 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 6ce1bc9e11 (Add session initiations functions for Jupyter Notebooks (#1629))
 def init(path, location, mapset):
     """
     This function initiates a GRASS session and sets GRASS
     environment variables.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6312,6 +6332,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
+>>>>>>> 6ce1bc9e11 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
 class _JupyterGlobalSession:
     """Represents a global GRASS session for Jupyter Notebooks.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -6424,21 +6446,29 @@ def init(path, location=None, mapset=None, grass_path=None):
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 
     Inputs:
         path - path to grass databases
         location - name of GRASS location
         mapset - name of mapset within location
     """
+<<<<<<< HEAD
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
     # Create a GRASS GIS session.
     gsetup.init(os.environ["GISBASE"], path, location, mapset)
     # Set GRASS env. variables
     _set_notebook_defaults()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 
 
 def display_settings(font="sans", driver="cairo"):
@@ -6465,6 +6495,7 @@ def display_settings(font="sans", driver="cairo"):
     os.environ["GRASS_RENDER_IMMEDIATE"] = driver
     os.environ["GRASS_RENDER_FILE_READ"] = "TRUE"
 >>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -10926,6 +10957,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -11861,3 +11893,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 6ce1bc9e11 (Add session initiations functions for Jupyter Notebooks (#1629))
