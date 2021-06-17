@@ -59,6 +59,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -968,6 +969,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 =======
 >>>>>>> 2942a2fdfb (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d3be45bfb5 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -1526,6 +1528,10 @@ DSTDIR = $(ETC)/python/grass/jupyter
 =======
 >>>>>>> 2942a2fdfb (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 16ac4aec37 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> d81fafbb37 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> bc2e157fe7 (Add session initiations functions for Jupyter Notebooks (#1629))
 MODULES = \
 	setup \
 	map \
@@ -2091,6 +2097,7 @@ MODULES = setup
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 MODULES = setup
@@ -2560,6 +2567,7 @@ MODULES = setup
 >>>>>>> 75b16d1ce2 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> d81fafbb37 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 =======
 >>>>>>> d722540a80 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
@@ -2574,6 +2582,8 @@ MODULES = setup
 =======
 >>>>>>> 75b16d1ce2 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> 999b001fa8 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+>>>>>>> bc2e157fe7 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2633,6 +2643,7 @@ MODULES = setup
 =======
 MODULES = setup
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2739,6 +2750,8 @@ MODULES = setup
 >>>>>>> 999b001fa8 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> d86c47b865 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> bc2e157fe7 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
 =======
@@ -4898,6 +4911,7 @@ MODULES = \
 >>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 2942a2fdfb (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d3be45bfb5 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -6271,6 +6285,11 @@ MODULES = \
 >>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 2942a2fdfb (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 16ac4aec37 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> dc994d1258 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> d81fafbb37 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> bc2e157fe7 (Add session initiations functions for Jupyter Notebooks (#1629))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
