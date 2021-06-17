@@ -84,6 +84,9 @@ DSTDIR = $(ETC)/python/grass/jupyter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cfe27a5876 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -1686,8 +1689,16 @@ DSTDIR = $(ETC)/python/grass/jupyter
 >>>>>>> osgeo-main
 =======
 >>>>>>> 05e3f88683 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 425a31d95b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+=======
+>>>>>>> 0aa28c169d (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> cfe27a5876 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 01214770dc (Add session initiations functions for Jupyter Notebooks (#1629))
 MODULES = \
 	setup \
 	map \
@@ -2307,6 +2318,142 @@ MODULES = setup
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+MODULES = setup
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+MODULES = setup display
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+=======
+MODULES = \
+	setup \
+<<<<<<< HEAD
+	display \
+<<<<<<< HEAD
+	interact_display
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+	interact_display \
+	utils
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+	map \
+	interactivemap \
+	region \
+	map3d \
+	reprojection_renderer \
+	utils \
+	timeseriesmap
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+	reprojection_renderer \
+	utils \
+	timeseriesmap
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+	timeseriesmap \
+	baseseriesmap
+>>>>>>> 2653d7b383 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+=======
+	timeseriesmap \
+	baseseriesmap
+=======
+	timeseriesmap
+=======
+=======
+>>>>>>> osgeo-main
+=======
+	timeseriesmap \
+	baseseriesmap
+=======
+	timeseriesmap
+=======
+>>>>>>> osgeo-main
+=======
+	timeseriesmap \
+	baseseriesmap
+=======
+	timeseriesmap
+=======
+>>>>>>> osgeo-main
+=======
+	timeseriesmap \
+	baseseriesmap
+=======
+	timeseriesmap
+=======
+>>>>>>> osgeo-main
+=======
+	timeseriesmap \
+	baseseriesmap
+=======
+	timeseriesmap
+=======
+>>>>>>> osgeo-main
+=======
+	timeseriesmap \
+	baseseriesmap
+=======
+	timeseriesmap
+=======
+>>>>>>> osgeo-main
+=======
+	timeseriesmap \
+	baseseriesmap
+=======
+	timeseriesmap
+=======
+>>>>>>> osgeo-main
+=======
+	timeseriesmap \
+	baseseriesmap
+=======
+	timeseriesmap
+=======
+>>>>>>> osgeo-main
+=======
+	timeseriesmap \
+	baseseriesmap
+=======
+	timeseriesmap
+=======
+>>>>>>> osgeo-main
+=======
+	timeseriesmap \
+	baseseriesmap
+=======
+	timeseriesmap
+=======
+>>>>>>> osgeo-main
+=======
+	timeseriesmap \
+	baseseriesmap
+=======
+	timeseriesmap
+=======
+>>>>>>> osgeo-main
+=======
+	timeseriesmap \
+	baseseriesmap
+=======
+	timeseriesmap
+=======
+>>>>>>> osgeo-main
+MODULES = setup
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
+>>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> cfe27a5876 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2336,6 +2483,7 @@ MODULES = setup
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 MODULES = setup
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
@@ -2630,6 +2778,65 @@ MODULES = setup
 =======
 >>>>>>> 3e7ec13245 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
+=======
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 33ca8caf20 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 0aa28c169d (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+MODULES = setup
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> dc994d1258 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cfe27a5876 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 01214770dc (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> cb0f743d05 (Add session initiations functions for Jupyter Notebooks (#1629))
 <<<<<<< HEAD
 >>>>>>> 4fc859df4b (Add session initiations functions for Jupyter Notebooks (#1629))
@@ -5716,14 +5923,19 @@ MODULES = \
 >>>>>>> 05e3f88683 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 >>>>>>> 1eade8c933 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
+>>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 01214770dc (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
 =======
 >>>>>>> dc994d1258 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> 0aa28c169d (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cfe27a5876 (Add session initiations functions for Jupyter Notebooks (#1629))
 <<<<<<< HEAD
@@ -7055,6 +7267,9 @@ MODULES = \
 =======
 >>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 425a31d95b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> cfe27a5876 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 01214770dc (Add session initiations functions for Jupyter Notebooks (#1629))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
