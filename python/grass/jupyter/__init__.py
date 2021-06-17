@@ -133,6 +133,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -399,6 +400,8 @@
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 08a756738c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 3e7ec13245 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -719,6 +722,7 @@
 =======
 =======
 >>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 150ef7b78e (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -1230,6 +1234,10 @@
 =======
 >>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 08a756738c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> dc994d1258 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 3e7ec13245 (Add session initiations functions for Jupyter Notebooks (#1629))
 # MODULE:    grass.jupyter
 #
 # AUTHOR(S): Caitlin Haedrich <caitlin DOT haedrich AT gmail>
@@ -3334,6 +3342,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 095dc4def6 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 <<<<<<< HEAD
@@ -5405,4 +5414,12 @@ from .utils import *
 =======
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 08a756738c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+=======
+from .setup import *
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> dc994d1258 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 3e7ec13245 (Add session initiations functions for Jupyter Notebooks (#1629))

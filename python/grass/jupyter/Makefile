@@ -116,6 +116,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -285,6 +286,8 @@ DSTDIR = $(ETC)/python/grass/jupyter
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 08a756738c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 3e7ec13245 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
@@ -481,6 +484,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 =======
 =======
 >>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 150ef7b78e (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -1099,6 +1103,10 @@ DSTDIR = $(ETC)/python/grass/jupyter
 =======
 >>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 08a756738c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> dc994d1258 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 3e7ec13245 (Add session initiations functions for Jupyter Notebooks (#1629))
 MODULES = \
 	setup \
 	map \
@@ -1487,6 +1495,7 @@ MODULES = setup
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 MODULES = setup
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
@@ -1778,6 +1787,8 @@ MODULES = setup
 >>>>>>> a7d7103a05 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> 08a756738c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 3e7ec13245 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4563,7 +4574,15 @@ MODULES = setup
 =======
 =======
 >>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 08a756738c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+=======
+MODULES = setup
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> dc994d1258 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> 3e7ec13245 (Add session initiations functions for Jupyter Notebooks (#1629))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
