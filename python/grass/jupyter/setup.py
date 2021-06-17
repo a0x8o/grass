@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -742,6 +743,7 @@
 =======
 =======
 >>>>>>> 8b762d062b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 667b6aa79a (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -1206,6 +1208,10 @@
 =======
 >>>>>>> 8b762d062b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 3468665ca3 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> bc9da00f6f (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> b936c56515 (Add session initiations functions for Jupyter Notebooks (#1629))
 #            Vaclav Petras <wenzeslaus gmail com>
 #
 # PURPOSE:   This module contains functions for launching a GRASS session
@@ -4561,6 +4567,8 @@ def _set_notebook_defaults():
 =======
 =======
 =======
+=======
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 #
 # PURPOSE:   This module contains functions for launching a GRASS session
 #           in Jupyter Notebooks
@@ -4579,9 +4587,18 @@ import grass.script.setup as gsetup
 
 def _set_notebook_defaults():
     """
+<<<<<<< HEAD
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 8b762d062b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 3468665ca3 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+=======
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> bc9da00f6f (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> b936c56515 (Add session initiations functions for Jupyter Notebooks (#1629))
     This function sets several GRASS environment variables that are
     important for GRASS to run smoothly in Jupyter.
 
@@ -4632,6 +4649,7 @@ def _set_notebook_defaults():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -5336,6 +5354,7 @@ def _set_notebook_defaults():
 =======
 >>>>>>> 8b762d062b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 667b6aa79a (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -5801,6 +5820,10 @@ def _set_notebook_defaults():
 =======
 >>>>>>> 8b762d062b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 3468665ca3 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> bc9da00f6f (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> b936c56515 (Add session initiations functions for Jupyter Notebooks (#1629))
 class _JupyterGlobalSession:
     """Represents a global GRASS session for Jupyter Notebooks.
 
@@ -6379,6 +6402,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a09cd63835 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -6482,6 +6506,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> 69f2b75f34 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> 3468665ca3 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> b936c56515 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 83a2bf0c85 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -6818,12 +6844,16 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 8b762d062b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 667b6aa79a (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
+=======
+>>>>>>> b936c56515 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 =======
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> bc9da00f6f (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e08e1ba00d (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
@@ -7065,6 +7095,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 8b762d062b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 3468665ca3 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> b936c56515 (Add session initiations functions for Jupyter Notebooks (#1629))
 def init(path, location, mapset):
     """
     This function initiates a GRASS session and sets GRASS
@@ -10039,6 +10071,7 @@ def display_settings(font="sans", driver="cairo"):
     os.environ["GRASS_RENDER_IMMEDIATE"] = driver
     os.environ["GRASS_RENDER_FILE_READ"] = "TRUE"
 >>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16538,4 +16571,12 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 8b762d062b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 3468665ca3 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> bc9da00f6f (Add session initiations functions for Jupyter Notebooks (#1629))
+>>>>>>> b936c56515 (Add session initiations functions for Jupyter Notebooks (#1629))
