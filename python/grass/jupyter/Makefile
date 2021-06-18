@@ -18,6 +18,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -394,7 +395,12 @@ DSTDIR = $(ETC)/python/grass/jupyter
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 02f32ae2d4 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 9d1090ec82 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 MODULES = \
 	setup \
 	map \
@@ -486,6 +492,7 @@ MODULES = \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	timeseriesmap \
 	baseseriesmap
 =======
@@ -493,6 +500,11 @@ MODULES = \
 >>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 =======
 >>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+	timeseriesmap \
+	baseseriesmap
+=======
+>>>>>>> 02f32ae2d4 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 	timeseriesmap
 =======
 <<<<<<< HEAD
@@ -702,6 +714,7 @@ MODULES = \
 >>>>>>> osgeo-main
 MODULES = setup
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1782,7 +1795,13 @@ MODULES = \
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 02f32ae2d4 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 9d1090ec82 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)

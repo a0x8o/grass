@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -146,6 +147,8 @@
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9d1090ec82 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -420,7 +423,12 @@
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 02f32ae2d4 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 9d1090ec82 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 # MODULE:    grass.jupyter
 #
 # AUTHOR(S): Caitlin Haedrich <caitlin DOT haedrich AT gmail>
@@ -1169,6 +1177,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1247,6 +1256,8 @@ from .setup import *
 >>>>>>> de5b9cd94f (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> c1e96d556f (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 9d1090ec82 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1961,4 +1972,10 @@ from .utils import *
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 02f32ae2d4 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 9d1090ec82 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
