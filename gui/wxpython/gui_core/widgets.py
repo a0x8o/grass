@@ -2335,6 +2335,11 @@ class SearchModuleWidget(wx.Panel):
         self._resultIndex = -1
         return sorted([node.data["command"] for node in nodes if node.data["command"]])
 
+<<<<<<< HEAD
+=======
+        return commands
+
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
     def OnSelectModule(self, event=None):
         """Module selected from choice, update command prompt"""
         cmd = self._searchChoice.GetStringSelection()

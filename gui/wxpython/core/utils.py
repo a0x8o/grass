@@ -42,6 +42,7 @@ import operator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,6 +57,8 @@ import operator
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1cb35c2fc8 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 from string import digits
 =======
 =======
@@ -169,6 +172,8 @@ from string import digits
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 import six
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 9051310ffd (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -830,7 +835,11 @@ def _parseFormats(output, writableOnly=False):
         patt = re.compile(r"\(rw\+?\)$", re.IGNORECASE)
 
     for line in output.splitlines():
+<<<<<<< HEAD
         key, name = (x.strip() for x in line.strip().split(":", 1))
+=======
+        key, name = map(lambda x: x.strip(), line.strip().split(":", 1))
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
         if writableOnly and not patt.search(key):
             continue
 
@@ -849,16 +858,26 @@ def _parseFormats(output, writableOnly=False):
             "CouchDB",
             "MSSQLSpatial",
             "FileGDB",
+<<<<<<< HEAD
         }:
             formats["database"][key.split(" ")[0]] = name
         elif name in {
+=======
+        ):
+            formats["database"][key.split(" ")[0]] = name
+        elif name in (
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
             "GeoJSON",
             "OGC Web Coverage Service",
             "OGC Web Map Service",
             "WFS",
             "GeoRSS",
             "HTTP Fetching Wrapper",
+<<<<<<< HEAD
         }:
+=======
+        ):
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
             formats["protocol"][key.split(" ")[0]] = name
         else:
             formats["file"][key.split(" ")[0]] = name
