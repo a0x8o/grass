@@ -6448,9 +6448,13 @@ class SearchModuleWidget(wx.Panel):
         return commands
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
     def OnSelectModule(self, event=None):
         """Module selected from choice, update command prompt"""
         cmd = self._searchChoice.GetStringSelection()

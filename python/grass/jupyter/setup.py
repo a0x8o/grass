@@ -78,6 +78,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -193,6 +194,8 @@
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -1599,6 +1602,7 @@ def _set_notebook_defaults():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3211,6 +3215,28 @@ def _set_notebook_defaults():
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#
+# PURPOSE:   This module contains functions for launching a GRASS session
+#           in Jupyter Notebooks
+#
+# COPYRIGHT: (C) 2021 Caitlin Haedrich, and by the GRASS Development Team
+#
+#           This program is free software under the GNU General Public
+#           License (>=v2). Read the file COPYING that comes with GRASS
+#           for details.
+
+import os
+
+import grass.script as gs
+import grass.script.setup as gsetup
+
+
+def _set_notebook_defaults():
+    """
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
     This function sets several GRASS environment variables that are
     important for GRASS to run smoothly in Jupyter.
 
@@ -3302,6 +3328,7 @@ def _set_notebook_defaults():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3417,6 +3444,8 @@ def _set_notebook_defaults():
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -4600,6 +4629,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -4970,10 +5000,14 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> e8f170298b (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> 59435e22e5 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 def init(path, location, mapset):
     """
     This function initiates a GRASS session and sets GRASS
     environment variables.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6276,6 +6310,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
 class _JupyterGlobalSession:
     """Represents a global GRASS session for Jupyter Notebooks.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -6384,6 +6420,51 @@ def init(path, location=None, mapset=None, grass_path=None):
     Notably, only the mapset is closed, but the libraries and GRASS modules
     remain on path.
     """
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+
+    Inputs:
+        path - path to grass databases
+        location - name of GRASS location
+        mapset - name of mapset within location
+    """
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+    # Create a GRASS GIS session.
+    gsetup.init(os.environ["GISBASE"], path, location, mapset)
+    # Set GRASS env. variables
+    _set_notebook_defaults()
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+
+
+def display_settings(font="sans", driver="cairo"):
+    """
+    This function sets the display settings for a GRASS session
+    in Jupyter Notebooks.
+
+    Example Usage: display_settings(font="sans", driver="cairo")
+
+    Inputs:
+        font - specifies the font as either the name of a font from
+        $GISBASE/etc/fontcap (or alternative fontcap file specified by
+        GRASS_FONT_CAP), or alternatively the full path to a FreeType
+        font file.
+
+        driver - tell teh display library which driver to use
+            Possible values: "cairo", "png", "ps", "html"
+    """
+    # Set display font
+    os.environ["GRASS_FONT"] = font
+
+    # Set display modeules to render to a file (named map.png by
+    # default).
+    os.environ["GRASS_RENDER_IMMEDIATE"] = driver
+    os.environ["GRASS_RENDER_FILE_READ"] = "TRUE"
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -10830,6 +10911,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -11775,3 +11857,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))

@@ -120,6 +120,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -421,6 +422,8 @@
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3390,6 +3393,7 @@ from .utils import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 =======
@@ -4973,3 +4977,8 @@ from .utils import *
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+from .setup import *
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))

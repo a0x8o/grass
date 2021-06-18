@@ -2035,6 +2035,7 @@ class FormatSelect(wx.Choice):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         formats = []
 =======
         formats = list()
@@ -2045,6 +2046,12 @@ class FormatSelect(wx.Choice):
 =======
         formats = []
 >>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
+=======
+        formats = []
+=======
+        formats = list()
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
         for f in GetFormats()[ftype][srcType].items():
             formats += f
         self.SetItems(formats)
@@ -2727,6 +2734,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3135,6 +3143,8 @@ class GdalSelect(wx.Panel):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
                 db_formats = self.dbFormats.values()
                 if "PostgreSQL" in db_formats:
 =======
@@ -3441,6 +3451,7 @@ class GdalSelect(wx.Panel):
                 db_formats = self.dbFormats.values()
                 if "PostgreSQL" in db_formats:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4113,6 +4124,11 @@ class GdalSelect(wx.Panel):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                if "PostgreSQL" in self.dbFormats.values():
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
                     self.dbWidgets["format"].SetStringSelection("PostgreSQL")
                 elif "PostgreSQL/PostGIS" in db_formats:
                     self.dbWidgets["format"].SetStringSelection("PostgreSQL/PostGIS")

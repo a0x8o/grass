@@ -100,6 +100,7 @@ PYDIR = $(ETC)/python/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -238,6 +239,8 @@ PYDIR = $(ETC)/python/grass
 >>>>>>> 4f584ea5cd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -3319,6 +3322,7 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4080,6 +4084,11 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 >>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imaging gunittest bandref jupyter
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 
 default: $(PYDIR)/__init__.py
 	$(MAKE) subdirs

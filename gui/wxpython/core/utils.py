@@ -53,6 +53,7 @@ import operator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -597,6 +598,8 @@ import six
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 from string import digits
 =======
 =======
@@ -605,6 +608,8 @@ from string import digits
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 import six
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 9051310ffd (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -1281,9 +1286,13 @@ def _parseFormats(output, writableOnly=False):
 =======
         key, name = map(lambda x: x.strip(), line.strip().split(":", 1))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
         if writableOnly and not patt.search(key):
             continue
 
@@ -1304,6 +1313,9 @@ def _parseFormats(output, writableOnly=False):
             "FileGDB",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
         }:
             formats["database"][key.split(" ")[0]] = name
         elif name in {
@@ -1312,17 +1324,21 @@ def _parseFormats(output, writableOnly=False):
             formats["database"][key.split(" ")[0]] = name
         elif name in (
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 =======
         }:
             formats["database"][key.split(" ")[0]] = name
         elif name in {
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+=======
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
             "GeoJSON",
             "OGC Web Coverage Service",
             "OGC Web Map Service",
             "WFS",
             "GeoRSS",
             "HTTP Fetching Wrapper",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         }:
@@ -1335,6 +1351,12 @@ def _parseFormats(output, writableOnly=False):
 =======
         }:
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+=======
+        }:
+=======
+        ):
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
             formats["protocol"][key.split(" ")[0]] = name
         else:
             formats["file"][key.split(" ")[0]] = name
