@@ -106,6 +106,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -294,6 +295,10 @@
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 1eade8c933 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -817,6 +822,7 @@
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
@@ -972,7 +978,15 @@
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 05e3f88683 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 1eade8c933 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 # MODULE:    grass.jupyter
 #
 # AUTHOR(S): Caitlin Haedrich <caitlin DOT haedrich AT gmail>
@@ -1994,6 +2008,7 @@ from .timeseriesmap import TimeSeriesMap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2002,6 +2017,8 @@ from .timeseriesmap import TimeSeriesMap
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 <<<<<<< HEAD
 =======
@@ -2112,8 +2129,16 @@ from .timeseriesmap import TimeSeriesMap
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 05e3f88683 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 1eade8c933 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 
 __all__ = [
     "InteractiveMap",
@@ -2133,6 +2158,7 @@ __all__ = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -2143,6 +2169,10 @@ __all__ = [
 >>>>>>> e502e3849e (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 1eade8c933 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4192,13 +4222,20 @@ from .utils import *
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+=======
+>>>>>>> osgeo-main
+>>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 1eade8c933 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 from .seriesmap import SeriesMap
 =======
 from .setup import *
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 095dc4def6 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
@@ -4237,4 +4274,11 @@ from .display import *
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 095dc4def6 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 05e3f88683 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 1eade8c933 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))

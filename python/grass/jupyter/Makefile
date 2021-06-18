@@ -83,6 +83,9 @@ DSTDIR = $(ETC)/python/grass/jupyter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -860,8 +863,17 @@ DSTDIR = $(ETC)/python/grass/jupyter
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 05e3f88683 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 1eade8c933 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 MODULES = \
 	setup \
 	map \
@@ -1063,6 +1075,11 @@ MODULES = \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2830,11 +2847,18 @@ MODULES = \
 	baseseriesmap
 >>>>>>> 9e134ec08d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
+<<<<<<< HEAD
 =======
 	timeseriesmap \
 	baseseriesmap
 =======
 >>>>>>> 9e134ec08d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+	timeseriesmap \
+	baseseriesmap
+>>>>>>> 05e3f88683 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 	timeseriesmap
 =======
 MODULES = setup
@@ -3097,6 +3121,7 @@ MODULES = \
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
@@ -3566,7 +3591,16 @@ MODULES = \
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 05e3f88683 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 1eade8c933 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
