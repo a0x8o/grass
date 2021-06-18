@@ -34,6 +34,7 @@ import operator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -381,7 +382,15 @@ import six
 import six
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 75f1063afc (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 4ea1bcfd13 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+=======
+import six
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> b479d694c0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> d2b40d15ca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 
 from grass.script import core as grass
 from grass.script import task as gtask
