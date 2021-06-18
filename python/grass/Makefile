@@ -43,6 +43,7 @@ PYDIR = $(ETC)/python/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -841,6 +842,7 @@ PYDIR = $(ETC)/python/grass
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1427,6 +1429,10 @@ PYDIR = $(ETC)/python/grass
 >>>>>>> 4707957876 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b479d694c0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> d0b3ffd998 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 SUBDIRS = \
 	app \
 	benchmark \
@@ -3533,6 +3539,7 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -5088,6 +5095,7 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -5774,6 +5782,10 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b479d694c0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> d0b3ffd998 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 
 default: $(PYDIR)/__init__.py
 	$(MAKE) subdirs
