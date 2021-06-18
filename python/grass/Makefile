@@ -110,6 +110,7 @@ PYDIR = $(ETC)/python/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -268,6 +269,8 @@ PYDIR = $(ETC)/python/grass
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 75ca885908 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -421,6 +424,7 @@ PYDIR = $(ETC)/python/grass
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -1050,6 +1054,10 @@ PYDIR = $(ETC)/python/grass
 >>>>>>> 73992ddf8e (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b8162a916c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 75ca885908 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 SUBDIRS = \
 	app \
 	benchmark \
@@ -2797,6 +2805,9 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75ca885908 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 836a40382b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -4299,7 +4310,12 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b8162a916c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 75ca885908 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 
 default: $(PYDIR)/__init__.py
 	$(MAKE) subdirs

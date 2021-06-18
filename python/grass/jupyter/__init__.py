@@ -128,6 +128,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -384,6 +385,8 @@
 =======
 >>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 6f5fb4923c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 75ca885908 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -664,6 +667,7 @@
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1184,6 +1188,10 @@
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b8162a916c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 75ca885908 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 # MODULE:    grass.jupyter
 #
 # AUTHOR(S): Caitlin Haedrich <caitlin DOT haedrich AT gmail>
@@ -3010,6 +3018,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3058,6 +3067,8 @@ from .setup import *
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 75ca885908 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -3997,6 +4008,7 @@ from .utils import *
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5225,3 +5237,8 @@ from .utils import *
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> b8162a916c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 75ca885908 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))

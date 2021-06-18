@@ -57,6 +57,7 @@ import operator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -609,6 +610,8 @@ import six
 >>>>>>> 836a40382b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 75ca885908 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 from string import digits
 =======
 =======
@@ -655,7 +658,15 @@ import six
 import six
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 793ee713c5 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> 836a40382b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+=======
+import six
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> b8162a916c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 75ca885908 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 
 from grass.script import core as grass
 from grass.script import task as gtask
