@@ -2822,6 +2822,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2985,6 +2986,8 @@ class GdalSelect(wx.Panel):
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 793ee713c5 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -3294,7 +3297,12 @@ class GdalSelect(wx.Panel):
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
                 db_formats = self.dbFormats.values()
                 if "PostgreSQL" in db_formats:
 =======
@@ -3742,6 +3750,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -3976,6 +3985,7 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3989,11 +3999,17 @@ class GdalSelect(wx.Panel):
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
                 db_formats = self.dbFormats.values()
                 if "PostgreSQL" in db_formats:
 =======
                 if "PostgreSQL" in self.dbFormats.values():
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4377,6 +4393,10 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
                     self.dbWidgets["format"].SetStringSelection("PostgreSQL")
                 elif "PostgreSQL/PostGIS" in db_formats:
                     self.dbWidgets["format"].SetStringSelection("PostgreSQL/PostGIS")

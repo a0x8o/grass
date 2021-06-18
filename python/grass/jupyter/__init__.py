@@ -136,6 +136,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -409,6 +410,10 @@
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -599,6 +604,7 @@
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
@@ -668,6 +674,8 @@
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -757,12 +765,16 @@
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
@@ -1260,6 +1272,9 @@
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 # MODULE:    grass.jupyter
 #
 # AUTHOR(S): Caitlin Haedrich <caitlin DOT haedrich AT gmail>
@@ -3191,6 +3206,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3251,6 +3267,8 @@ from .setup import *
 >>>>>>> 7439490972 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 3e81947fcf (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -3787,6 +3805,7 @@ from .setup import *
 =======
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -3987,6 +4006,10 @@ from .setup import *
 =======
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 3e81947fcf (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 >>>>>>> 095dc4def6 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -4137,6 +4160,7 @@ from .setup import *
 <<<<<<< HEAD
 >>>>>>> 1cb35c2fc8 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
+<<<<<<< HEAD
 =======
 from .setup import *
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
@@ -5563,4 +5587,13 @@ from .utils import *
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))

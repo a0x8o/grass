@@ -9,6 +9,11 @@ PYDIR = $(ETC)/python/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -305,6 +310,7 @@ PYDIR = $(ETC)/python/grass
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,6 +428,8 @@ PYDIR = $(ETC)/python/grass
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 >>>>>>> 793ee713c5 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
@@ -523,12 +531,16 @@ PYDIR = $(ETC)/python/grass
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
@@ -1132,6 +1144,9 @@ PYDIR = $(ETC)/python/grass
 >>>>>>> ee7f864362 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 SUBDIRS = \
 	app \
 	benchmark \
@@ -2987,6 +3002,9 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 3e7ec13245 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
@@ -3764,6 +3782,7 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 <<<<<<< HEAD
 >>>>>>> a09cd63835 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3856,13 +3875,17 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> osgeo-main
 =======
 SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imaging gunittest bandref jupyter
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
@@ -4580,6 +4603,10 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 
 default: $(PYDIR)/__init__.py
 	$(MAKE) subdirs

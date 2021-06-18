@@ -9,6 +9,11 @@ DSTDIR = $(ETC)/python/grass/jupyter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -305,6 +310,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,6 +428,8 @@ DSTDIR = $(ETC)/python/grass/jupyter
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 >>>>>>> 793ee713c5 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
@@ -523,12 +531,16 @@ DSTDIR = $(ETC)/python/grass/jupyter
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
@@ -1132,6 +1144,9 @@ DSTDIR = $(ETC)/python/grass/jupyter
 >>>>>>> 3e81947fcf (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 MODULES = \
 	setup \
 	map \
@@ -1388,11 +1403,13 @@ MODULES = \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	timeseriesmap \
 	baseseriesmap
 =======
 =======
 >>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -1521,6 +1538,10 @@ MODULES = \
 >>>>>>> main
 =======
 >>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+=======
+=======
+>>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 	timeseriesmap
 =======
 MODULES = setup
@@ -4678,8 +4699,24 @@ MODULES = setup
 	timeseriesmap \
 	baseseriesmap
 >>>>>>> 2653d7b383 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+<<<<<<< HEAD
 >>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+<<<<<<< HEAD
 >>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+=======
+=======
+=======
+	timeseriesmap \
+	baseseriesmap
+=======
+	timeseriesmap
+=======
+MODULES = setup
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 6433ad1296 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 756f105374 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
