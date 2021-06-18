@@ -62,6 +62,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -166,6 +167,10 @@
 =======
 =======
 =======
+=======
+=======
+>>>>>>> 7eeb1e86e5 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 19273bf354 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
@@ -520,8 +525,16 @@
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 9e134ec08d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 7eeb1e86e5 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 19273bf354 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 # MODULE:    grass.jupyter
 #
 # AUTHOR(S): Caitlin Haedrich <caitlin DOT haedrich AT gmail>
@@ -1399,6 +1412,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1489,6 +1503,8 @@ from .setup import *
 >>>>>>> d56ffd79c6 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 21cac8ec4f (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 19273bf354 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1829,6 +1845,8 @@ from .setup import *
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 4d38e4070b (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 7eeb1e86e5 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
@@ -2368,5 +2386,14 @@ from .utils import *
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 9e134ec08d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 7eeb1e86e5 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 19273bf354 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
