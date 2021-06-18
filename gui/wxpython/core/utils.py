@@ -44,6 +44,7 @@ import operator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62,6 +63,8 @@ import operator
 >>>>>>> 1cb35c2fc8 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a09cd63835 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 from string import digits
 =======
 =======
@@ -185,6 +188,7 @@ import six
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 import six
@@ -205,6 +209,13 @@ import six
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+import six
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 793ee713c5 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> a09cd63835 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 
 from grass.script import core as grass
 from grass.script import task as gtask
