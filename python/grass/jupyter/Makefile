@@ -93,6 +93,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1256,6 +1257,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1765,6 +1767,10 @@ DSTDIR = $(ETC)/python/grass/jupyter
 >>>>>>> 2cf278b2b8 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bd71b111b3 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> c5b4570ccf (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 MODULES = \
 	setup \
 	map \
@@ -2166,6 +2172,7 @@ MODULES = \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2283,11 +2290,15 @@ MODULES = \
 =======
 >>>>>>> fa3a181fb0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c5b4570ccf (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 	timeseriesmap \
 	baseseriesmap
 =======
 >>>>>>> bd71b111b3 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 	timeseriesmap
 =======
 <<<<<<< HEAD
@@ -2395,10 +2406,13 @@ MODULES = \
 >>>>>>> cd0f28f571 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> ea91af519a (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> c5b4570ccf (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 	timeseriesmap
 =======
 MODULES = setup
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7531,7 +7545,13 @@ MODULES = \
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> bd71b111b3 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> c5b4570ccf (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
