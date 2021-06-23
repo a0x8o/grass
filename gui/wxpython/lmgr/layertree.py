@@ -7986,6 +7986,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -8073,6 +8074,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 21cd7af3aa (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 11368ff97a (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 5696c23d46 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -8506,7 +8509,13 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
             lmgr=self.lmgr,
             page=self.treepg,
 >>>>>>> 4d9eb9010a (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 11368ff97a (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+            lmgr=self.lmgr,
+>>>>>>> 82d549ef1b (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 5696c23d46 (WMS: replace broken URLs with alternative WMS (#1635))
             Map=self.Map,
             title=title,
         )
