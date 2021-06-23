@@ -221,6 +221,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -306,6 +307,10 @@
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 enum OutputFormat { PLAIN, JSON, CSV, VERTICAL };
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -1689,7 +1694,10 @@ enum OutputFormat { PLAIN, JSON, CSV, VERTICAL };
 <<<<<<< HEAD
 >>>>>>> 8c4bd4121e (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
 >>>>>>> cfcd5b1277 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
@@ -1706,8 +1714,11 @@ enum OutputFormat { PLAIN, JSON, CSV, VERTICAL };
 =======
 >>>>>>> 66396a47ed (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fc1d729f83 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+=======
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> osgeo-main
@@ -1715,6 +1726,7 @@ enum OutputFormat { PLAIN, JSON, CSV, VERTICAL };
 enum OutputFormat { PLAIN, JSON, CSV, VERTICAL };
 =======
 >>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
@@ -1907,6 +1919,9 @@ enum OutputFormat { PLAIN, JSON, CSV, VERTICAL };
 =======
 >>>>>>> 66396a47ed (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 721df60534 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 enum OutputFormat {
     PLAIN,
     JSON,
@@ -2017,6 +2032,11 @@ enum OutputFormat {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 721df60534 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -3849,8 +3869,18 @@ enum OutputFormat { PLAIN, JSON, CSV, VERTICAL };
 =======
 enum OutputFormat { PLAIN, JSON, CSV, VERTICAL };
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 
 void fatal_error_option_value_excludes_flag(struct Option *option,
                                             struct Flag *excluded,
@@ -4094,6 +4124,19 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5331,7 +5374,10 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -5537,12 +5583,16 @@ int main(int argc, char **argv)
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
@@ -5938,6 +5988,9 @@ int main(int argc, char **argv)
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
         fatal_error_option_value_excludes_flag(
             options.format, flags.escape, _("Escaping is based on the format"));
         fatal_error_option_value_excludes_flag(
@@ -6738,6 +6791,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7f8e88ce75 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -7366,8 +7420,18 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> 66396a47ed (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> 721df60534 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
         fatal_error_option_value_excludes_flag(options.format, flags.escape,
                                                _("Escaping is based on the format"));
         fatal_error_option_value_excludes_flag(options.format, flags.colnames,
@@ -7484,6 +7548,11 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 721df60534 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -8763,7 +8832,10 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -8983,13 +9055,17 @@ int main(int argc, char **argv)
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
@@ -9421,6 +9497,9 @@ int main(int argc, char **argv)
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
     }
 
     min_box = line_box = NULL;
@@ -9510,6 +9589,9 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 7f8e88ce75 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -10820,14 +10902,24 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
                 fsep = G_store("=");
             else
                 fsep = G_store("|");
         }
         else
             fsep = NULL; /* Something like a separator is part of the format. */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10867,6 +10959,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> f1ad29e40c (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -13025,6 +13119,7 @@ int main(int argc, char **argv)
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -13357,7 +13452,23 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+               fsep = G_store("=");
+            else
+               fsep = G_store("|");
+        }
+        else
+            fsep = NULL;  /* Something like a separator is part of the format. */
+>>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
     }
     if (options.vsep->answer)
         vsep = G_option_to_separator(options.vsep);
@@ -13633,6 +13744,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13976,6 +14088,10 @@ int main(int argc, char **argv)
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> dee46b522d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -16300,7 +16416,10 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
 >>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
@@ -16459,8 +16578,11 @@ int main(int argc, char **argv)
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> osgeo-main
 =======
@@ -16471,6 +16593,7 @@ int main(int argc, char **argv)
         format != JSON && format != VERTICAL) {
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
@@ -16930,6 +17053,9 @@ int main(int argc, char **argv)
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
         for (col = 0; col < ncols; col++) {
             column = db_get_table_column(table, col);
             if (col)
@@ -17048,6 +17174,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else
             fprintf(stdout, "{\"records\":[\n");
 =======
@@ -17518,6 +17645,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 721df60534 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
 =======
 >>>>>>> eea17500b3 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -17528,6 +17657,8 @@ int main(int argc, char **argv)
 >>>>>>> f1ad29e40c (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 39e3ee1d76 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
         else
             fprintf(stdout, "{\"records\":[\n");
 =======
@@ -17686,6 +17817,7 @@ int main(int argc, char **argv)
 >>>>>>> 333b795855 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 5faac46788 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
 >>>>>>> 179aa8f0a6 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -17727,7 +17859,15 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 66396a47ed (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> 721df60534 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
         else {
             fprintf(stdout, "{\"info\":\n{\"columns\":[\n");
             for (col = 0; col < ncols; col++) {
@@ -17856,6 +17996,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -18046,6 +18187,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 721df60534 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
 >>>>>>> 46043e6899 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 222e9db261 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -18128,6 +18271,8 @@ int main(int argc, char **argv)
 >>>>>>> f1ad29e40c (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 39e3ee1d76 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -18558,7 +18703,10 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 >>>>>>> 46a71dc1f2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
 >>>>>>> 5faac46788 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
@@ -18609,12 +18757,16 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 66396a47ed (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fc1d729f83 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+=======
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
@@ -18830,6 +18982,9 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 66396a47ed (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 721df60534 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
     }
 
     /* fetch the data */
@@ -18994,6 +19149,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 /* Escaped charcters in different formats
 =======
 <<<<<<< HEAD
@@ -19462,6 +19618,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 721df60534 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
 =======
 >>>>>>> eea17500b3 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -19472,6 +19630,8 @@ int main(int argc, char **argv)
 >>>>>>> f1ad29e40c (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 39e3ee1d76 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
                 /* Escaped charcters in different formats
 =======
 >>>>>>> 4178ebd75e (WMS: replace broken URLs with alternative WMS (#1635))
@@ -19629,6 +19789,7 @@ int main(int argc, char **argv)
 >>>>>>> 333b795855 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 5faac46788 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
 >>>>>>> 179aa8f0a6 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -19670,7 +19831,15 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 66396a47ed (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> 721df60534 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
                 /* Escaped characters in different formats
 =======
                 /* Escaped charcters in different formats
@@ -19773,6 +19942,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a1668d1b51 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -19913,6 +20083,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 721df60534 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
 >>>>>>> eea17500b3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 8ce884c47f (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -19953,6 +20125,8 @@ int main(int argc, char **argv)
 >>>>>>> f1ad29e40c (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 39e3ee1d76 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
 =======
                 /* Escaped charcters in different formats
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -20422,14 +20596,19 @@ int main(int argc, char **argv)
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 66396a47ed (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
 >>>>>>> fc1d729f83 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
+>>>>>>> 66396a47ed (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
@@ -20612,6 +20791,9 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 66396a47ed (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 721df60534 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
                  * JSON (mandatory): \" \\ \r \n \t \f \b
                  * CSV (usually none, here optional): \\ \r \n \t \f \b
                  * Plain, vertical (optional): v7: \\ \r \n, v8 also: \t \f \b
@@ -20690,6 +20872,9 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 7f8e88ce75 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -22000,8 +22185,17 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
                     if (strchr(str, '\f')) /* form feed, somewhat unlikely */
                         str = G_str_replace(str, "\f", "\\f");
                     if (strchr(str, '\b')) /* backspace, quite unlikely */
@@ -22042,6 +22236,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7f8e88ce75 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -22049,6 +22244,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> f1ad29e40c (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -24321,6 +24518,7 @@ int main(int argc, char **argv)
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -24677,7 +24875,24 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+                    if (strchr(str, '\f'))  /* form feed, somewhat unlikely */
+                        str = G_str_replace(str, "\f", "\\f");
+                    if (strchr(str, '\b'))  /* backspace, quite unlikely */
+                        str = G_str_replace(str, "\b", "\\b");
+                }
+                /* Common CSV does not escape, but doubles quotes (and we quote all
+                 * text fields which takes care of a separator character in text). */
+>>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7ffa554725 (WMS: replace broken URLs with alternative WMS (#1635))
                 if (format == CSV && strchr(str, '"')) {
                     str = G_str_replace(str, "\"", "\"\"");
                 }
