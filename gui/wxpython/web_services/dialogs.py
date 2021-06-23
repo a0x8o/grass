@@ -109,6 +109,7 @@ class WSDialogBase(wx.Dialog):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7f8e88ce75 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -539,7 +540,12 @@ class WSDialogBase(wx.Dialog):
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5392ccd487 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7a02ec5519 (WMS: replace broken URLs with alternative WMS (#1635))
             "NASA GIBS WMTS": [
                 "http://gibs.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi",
 =======
@@ -551,6 +557,7 @@ class WSDialogBase(wx.Dialog):
             ],
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1064,6 +1071,8 @@ class WSDialogBase(wx.Dialog):
 >>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7a02ec5519 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> eea17500b3 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -2792,7 +2801,12 @@ class WSDialogBase(wx.Dialog):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5392ccd487 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7a02ec5519 (WMS: replace broken URLs with alternative WMS (#1635))
             "tiles.maps.eox.at (Sentinel-2)": [
                 "https://tiles.maps.eox.at/wms",
                 "",
