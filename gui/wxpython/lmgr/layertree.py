@@ -421,12 +421,16 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
             style=wx.DEFAULT_FRAME_STYLE,
             tree=self,
 <<<<<<< HEAD
+<<<<<<< HEAD
             lmgr=self.lmgr,
 =======
             notebook=self.notebook,
             lmgr=self.lmgr,
             page=self.treepg,
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+=======
+            lmgr=self.lmgr,
+>>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
             Map=self.Map,
             title=title,
         )
