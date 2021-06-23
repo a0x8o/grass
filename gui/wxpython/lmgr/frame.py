@@ -9527,6 +9527,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9607,6 +9608,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fe9d137f79 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
 >>>>>>> dee46b522d (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> a1668d1b51 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -9619,6 +9622,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 729c1b17f8 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
     def OnNewDisplay(self, event=None):
         """Create new layer tree and map display instance"""
@@ -9762,6 +9767,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -9800,6 +9806,8 @@ class GMFrame(wx.Frame):
 >>>>>>> ddd3218bfa (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fe9d137f79 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9942,7 +9950,12 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 729c1b17f8 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> fe9d137f79 (WMS: replace broken URLs with alternative WMS (#1635))
     def _onMapDisplayFocus(self, notebookLayerPage):
         """Changes bookcontrol page to page associated with display."""
         # moved from mapdisp/frame.py
