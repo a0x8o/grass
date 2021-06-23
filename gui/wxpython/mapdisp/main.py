@@ -739,6 +739,7 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
@@ -831,6 +832,8 @@ class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> a1668d1b51 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 222e9db261 (WMS: replace broken URLs with alternative WMS (#1635))
 class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
     """@implements GrassInterface"""
 =======
@@ -838,12 +841,16 @@ class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> dee46b522d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 46043e6899 (WMS: replace broken URLs with alternative WMS (#1635))
 class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
     """@implements GrassInterface"""
 
     def __init__(self, mapframe):
         StandaloneMapDisplayGrassInterface.__init__(self, mapframe)
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
         self._mapframe.ShowStatusbar(show)
 
     def IsStatusbarShown(self):
