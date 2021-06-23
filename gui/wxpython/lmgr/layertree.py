@@ -799,6 +799,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             lmgr=self.lmgr,
 =======
             notebook=self.notebook,
@@ -827,6 +828,9 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
             lmgr=self.lmgr,
             page=self.treepg,
 >>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+=======
+            lmgr=self.lmgr,
+>>>>>>> 965183f78e (WMS: replace broken URLs with alternative WMS (#1635))
             Map=self.Map,
             title=title,
         )

@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # COPYRIGHT:    (C) 2021 by Vaclav Petras the GRASS Development Team
 =======
 <<<<<<< HEAD
@@ -32,6 +33,8 @@
 >>>>>>> 3141a6d48c (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 271754f563 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 965183f78e (WMS: replace broken URLs with alternative WMS (#1635))
 # COPYRIGHT:    (C) 2021-2023 by Vaclav Petras the GRASS Development Team
 =======
 # COPYRIGHT:    (C) 2021 by Vaclav Petras the GRASS Development Team
@@ -42,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # COPYRIGHT:    (C) 2021 by Vaclav Petras the GRASS Development Team
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -76,6 +80,8 @@
 # COPYRIGHT:    (C) 2021 by Vaclav Petras the GRASS Development Team
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 271754f563 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 965183f78e (WMS: replace broken URLs with alternative WMS (#1635))
 #
 #               This program is free software under the GNU General Public
 #               License (>=v2). Read the file COPYING that comes with GRASS
@@ -254,6 +260,7 @@ class DifficultValueTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -273,6 +280,8 @@ class DifficultValueTest(TestCase):
 >>>>>>> 3141a6d48c (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 271754f563 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 965183f78e (WMS: replace broken URLs with alternative WMS (#1635))
 
         column_info = data["info"]["columns"]
         self.assertEqual(column_info[0]["name"], "cat")
@@ -296,6 +305,7 @@ class DifficultValueTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
@@ -325,6 +335,8 @@ class DifficultValueTest(TestCase):
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 271754f563 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 965183f78e (WMS: replace broken URLs with alternative WMS (#1635))
         data = data["records"]
         self.assertIsNone(data[2]["place_name"])
         self.assertEqual(data[3]["place_name"], 'The "Great" Place')
