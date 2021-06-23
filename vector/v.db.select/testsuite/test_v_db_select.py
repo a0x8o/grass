@@ -193,6 +193,7 @@ out_sep = """1076,366545504,324050.96875,1077,1076,Zwe,366545512.376,324050.9723
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 out_json = """{"records":[
 =======
 <<<<<<< HEAD
@@ -263,6 +264,8 @@ out_json = """{"records":[
 =======
 >>>>>>> fe9d137f79 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+>>>>>>> e528a47086 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
 >>>>>>> dee46b522d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 46043e6899 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -281,7 +284,12 @@ out_json = """{"records":[
 =======
 =======
 >>>>>>> 729c1b17f8 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> fe9d137f79 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 77081d5e9a (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> e528a47086 (WMS: replace broken URLs with alternative WMS (#1635))
 out_json = """\
 {"info":
 {"columns":[
@@ -323,6 +331,7 @@ out_json = """{"records":[
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a1668d1b51 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -333,6 +342,8 @@ out_json = """{"records":[
 >>>>>>> 0f3e7ebb9c (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> fe9d137f79 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> e528a47086 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 out_json = """{"records":[
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -485,7 +496,15 @@ out_json = """{"records":[
 =======
 =======
 >>>>>>> 729c1b17f8 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> fe9d137f79 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+out_json = """{"records":[
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 77081d5e9a (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> e528a47086 (WMS: replace broken URLs with alternative WMS (#1635))
 {"cat":1,"onemap_pro":963738.75,"PERIMETER":4083.97998,"GEOL250_":2,"GEOL250_ID":1,"GEO_NAME":"Zml","SHAPE_area":963738.608571,"SHAPE_len":4083.979839},
 {"cat":2,"onemap_pro":22189124,"PERIMETER":26628.261719,"GEOL250_":3,"GEOL250_ID":2,"GEO_NAME":"Zmf","SHAPE_area":22189123.2296,"SHAPE_len":26628.261112},
 {"cat":3,"onemap_pro":579286.875,"PERIMETER":3335.55835,"GEOL250_":4,"GEOL250_ID":3,"GEO_NAME":"Zml","SHAPE_area":579286.829631,"SHAPE_len":3335.557182},
