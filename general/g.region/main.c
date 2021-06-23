@@ -2334,9 +2334,18 @@ int main(int argc, char *argv[])
     int flat_flag;
 =======
     int flat_flag; 
+<<<<<<< HEAD
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
     double x, xs, ys, zs;
     int ival;
     int row_flag = 0, col_flag = 0;
@@ -5981,6 +5990,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -8223,7 +8233,15 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 
     if (G_parser(argc, argv))
         exit(EXIT_FAILURE);
@@ -8395,6 +8413,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8727,6 +8746,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -9475,6 +9496,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -9931,6 +9953,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         mapset = G_find_file2("windows", name, "");
         if (!mapset)
@@ -9962,6 +9988,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10941,7 +10968,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	mapset = G_find_file2("windows", name, "");
 	if (!mapset)
@@ -12149,6 +12183,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12481,6 +12516,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -13229,6 +13266,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -13685,6 +13723,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         rast_ptr = parm.raster->answers;
         for (; *rast_ptr != NULL; rast_ptr++) {
@@ -13715,6 +13757,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14694,7 +14737,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	rast_ptr = parm.raster->answers;
 	for (; *rast_ptr != NULL; rast_ptr++) {
@@ -16021,6 +16071,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -16232,11 +16285,17 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         if ((mapset = G_find_raster3d(name, "")) == NULL)
             G_fatal_error(_("3D raster map <%s> not found"), name);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16891,6 +16950,8 @@ int main(int argc, char *argv[])
 >>>>>>> 897ec22b89 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 <<<<<<< HEAD
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -17718,7 +17779,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if ((mapset = G_find_raster3d(name, "")) == NULL)
 	    G_fatal_error(_("3D raster map <%s> not found"), name);
@@ -19398,6 +19466,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -19609,11 +19680,17 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         vect_ptr = parm.vect->answers;
         for (; *vect_ptr != NULL; vect_ptr++) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20268,6 +20345,8 @@ int main(int argc, char *argv[])
 >>>>>>> 897ec22b89 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 <<<<<<< HEAD
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -21095,7 +21174,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	vect_ptr = parm.vect->answers;
 	for (; *vect_ptr != NULL; vect_ptr++) {
@@ -22751,6 +22837,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -23083,6 +23170,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -23831,6 +23920,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -24287,6 +24377,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         if ((i = nsew(value, "n+", "n-", "s+"))) {
             if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -24336,6 +24430,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25315,7 +25410,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if ((i = nsew(value, "n+", "n-", "s+"))) {
 	    if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -26536,6 +26638,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -26868,6 +26971,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -27616,6 +27721,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -28072,6 +28178,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         if ((i = nsew(value, "s+", "s-", "n-"))) {
             if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -28121,6 +28231,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29100,7 +29211,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if ((i = nsew(value, "s+", "s-", "n-"))) {
 	    if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -30321,6 +30439,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -30653,6 +30772,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -31401,6 +31522,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -31857,6 +31979,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         if ((i = nsew(value, "e+", "e-", "w+"))) {
             if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -31906,6 +32032,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32885,7 +33012,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if ((i = nsew(value, "e+", "e-", "w+"))) {
 	    if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -34106,6 +34240,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -34438,6 +34573,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -35186,6 +35323,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -35642,6 +35780,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         if ((i = nsew(value, "w+", "w-", "e-"))) {
             if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -35691,6 +35833,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36670,7 +36813,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if ((i = nsew(value, "w+", "w-", "e-"))) {
 	    if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -37891,6 +38041,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -38223,6 +38374,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -38971,6 +39124,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -39427,6 +39581,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         if ((i = nsew(value, "t+", "t-", "b+"))) {
             if (sscanf(value + 2, "%lf", &x) != 1)
@@ -39473,6 +39631,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40452,7 +40611,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if ((i = nsew(value, "t+", "t-", "b+"))) {
 	    if (sscanf(value + 2, "%lf", &x) != 1)
@@ -41673,6 +41839,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -42005,6 +42172,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -42753,6 +42922,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -43209,6 +43379,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         if ((i = nsew(value, "b+", "b-", "t-"))) {
             if (sscanf(value + 2, "%lf", &x) != 1)
@@ -43255,6 +43429,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44234,7 +44409,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if ((i = nsew(value, "b+", "b-", "t-"))) {
 	    if (sscanf(value + 2, "%lf", &x) != 1)
@@ -45455,6 +45637,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -45787,6 +45970,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -46535,6 +46720,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -46991,6 +47177,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         if (!G_scan_resolution(value, &x, window.proj))
             die(parm.res);
@@ -47022,6 +47212,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48001,7 +48192,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if (!G_scan_resolution(value, &x, window.proj))
 	    die(parm.res);
@@ -49214,6 +49412,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -49546,6 +49745,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -50294,6 +50495,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -50750,6 +50952,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         if (!G_scan_resolution(value, &x, window.proj))
             die(parm.res);
@@ -50782,6 +50988,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51761,7 +51968,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if (!G_scan_resolution(value, &x, window.proj))
 	    die(parm.res);
@@ -52968,6 +53182,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -53300,6 +53515,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -54048,6 +54265,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -54504,6 +54722,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         if (!G_scan_resolution(value, &x, window.proj))
             die(parm.nsres);
@@ -54534,6 +54756,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55513,7 +55736,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if (!G_scan_resolution(value, &x, window.proj))
 	    die(parm.nsres);
@@ -56723,6 +56953,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -57055,6 +57286,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -57803,6 +58036,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -58259,6 +58493,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         if (!G_scan_resolution(value, &x, window.proj))
             die(parm.ewres);
@@ -58289,6 +58527,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59268,7 +59507,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if (!G_scan_resolution(value, &x, window.proj))
 	    die(parm.ewres);
@@ -60478,6 +60724,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -60810,6 +61057,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -61558,6 +61807,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -62014,6 +62264,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         if (sscanf(value, "%lf", &x) != 1)
             die(parm.tbres);
@@ -62044,6 +62298,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63023,7 +63278,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if (sscanf(value, "%lf", &x) != 1)
 	    die(parm.tbres);
@@ -64233,6 +64495,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -64565,6 +64828,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -65313,6 +65578,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -65769,6 +66035,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         if (sscanf(value, "%i", &ival) != 1)
             die(parm.rows);
@@ -65800,6 +66070,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66779,7 +67050,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if (sscanf(value, "%i", &ival) != 1)
 	    die(parm.rows);
@@ -67985,6 +68263,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -68317,6 +68596,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -69065,6 +69346,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -69521,6 +69803,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         if (sscanf(value, "%i", &ival) != 1)
             die(parm.cols);
@@ -69552,6 +69838,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70531,7 +70818,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if (sscanf(value, "%i", &ival) != 1)
 	    die(parm.cols);
@@ -71737,6 +72031,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -72069,6 +72364,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -72817,6 +73114,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -73273,6 +73571,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         mapset = G_find_raster2(name, "");
         if (!mapset)
@@ -73304,6 +73606,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74283,7 +74586,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	mapset = G_find_raster2(name, "");
 	if (!mapset)
@@ -75583,6 +75893,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -76271,6 +76584,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -76726,6 +77040,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = true;
         mapset = G_find_raster2(name, "");
         if (!mapset)
@@ -76827,6 +77145,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -76871,6 +77190,10 @@ int main(int argc, char *argv[])
 >>>>>>> c06825b488 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	mapset = G_find_raster2(name, "");
 	if (!mapset)
@@ -79838,6 +80161,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -80170,6 +80494,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -80918,6 +81244,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
@@ -81374,6 +81701,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
         update_file = false;
         temp_window = window;
         G_adjust_Cell_head3(&temp_window, 0, 0, 0);
@@ -81405,6 +81736,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82384,7 +82716,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 05a8ed60c3 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = false;
 	temp_window = window;
 	G_adjust_Cell_head3(&temp_window, 0, 0, 0);
@@ -83684,6 +84023,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -84000,6 +84340,8 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9ac05e439 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 84365c60c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> eea17500b3 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -85656,9 +85998,13 @@ int main(int argc, char *argv[])
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 7b90f7974c (WMS: replace broken URLs with alternative WMS (#1635))
         if (G_put_window(&window) < 0)
             G_fatal_error(_("Unable to update current region"));
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	if (G_put_window(&window) < 0)
 	    G_fatal_error(_("Unable to update current region"));
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
