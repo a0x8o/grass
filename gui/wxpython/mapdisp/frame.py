@@ -1776,8 +1776,15 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> 12a24d0ffd (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+        # checks for saving workspace
+        self.canCloseDisplayCallback = None
+=======
+>>>>>>> 4178ebd75e (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
+=======
 >>>>>>> dee46b522d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+<<<<<<< HEAD
 >>>>>>> 46043e6899 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
 >>>>>>> d00e4a3f7c (WMS: replace broken URLs with alternative WMS (#1635))
@@ -1799,7 +1806,15 @@ class MapPanel(SingleMapPanel):
 =======
 =======
 >>>>>>> 77081d5e9a (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> 12a24d0ffd (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 4178ebd75e (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 6510fbe5c0 (WMS: replace broken URLs with alternative WMS (#1635))
 
         # Saved Map Display output img size
         self._saved_output_img_size = None
@@ -1807,6 +1822,7 @@ class MapPanel(SingleMapPanel):
         # checks for saving workspace
         self.canCloseDisplayCallback = None
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2004,6 +2020,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> d7b5d9cf78 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 12a24d0ffd (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 6510fbe5c0 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 46043e6899 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 222e9db261 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -2466,12 +2484,17 @@ class MapPanel(SingleMapPanel):
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4178ebd75e (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> eea17500b3 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+=======
+>>>>>>> 4178ebd75e (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 6510fbe5c0 (WMS: replace broken URLs with alternative WMS (#1635))
         # checks for saving workspace
         self.canCloseDisplayCallback = None
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -2527,8 +2550,11 @@ class MapPanel(SingleMapPanel):
         self.onFocus = Signal("MapPanel.onFocus")
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 6510fbe5c0 (WMS: replace broken URLs with alternative WMS (#1635))
 
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -21801,8 +21827,22 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+        Debug.msg(2, "MapPanel.OnCloseWindow()")
+        if self.canCloseDisplayCallback:
+            pgnum_dict = self.canCloseDisplayCallback(
+                askIfSaveWorkspace=askIfSaveWorkspace
+            )
+            if pgnum_dict is not None:
+                self.CleanUp()
+                if pgnum_dict["layers"] > -1:
+                    self.closingDisplay.emit(pgnum_dict=pgnum_dict)
+=======
+>>>>>>> 4178ebd75e (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
+=======
 >>>>>>> dee46b522d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
@@ -21839,7 +21879,16 @@ class MapPanel(SingleMapPanel):
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+<<<<<<< HEAD
+=======
+>>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 4178ebd75e (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 6510fbe5c0 (WMS: replace broken URLs with alternative WMS (#1635))
         Debug.msg(2, "MapPanel.OnCloseWindow()")
         if self.canCloseCallback:
             pgnum_dict = self.canCloseCallback(askIfSaveWorkspace=askIfSaveWorkspace)
@@ -21849,6 +21898,7 @@ class MapPanel(SingleMapPanel):
         if self.canCloseDisplayCallback:
             pgnum = self.canCloseDisplayCallback(askIfSaveWorkspace=askIfSaveWorkspace)
             if pgnum is not None:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22062,6 +22112,10 @@ class MapPanel(SingleMapPanel):
 >>>>>>> d7b5d9cf78 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 12a24d0ffd (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 4178ebd75e (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 6510fbe5c0 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -22072,11 +22126,14 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> c428eb98e4 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 6510fbe5c0 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
@@ -22236,6 +22293,7 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 77081d5e9a (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e528a47086 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -22540,6 +22598,11 @@ class MapPanel(SingleMapPanel):
 >>>>>>> d7b5d9cf78 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 12a24d0ffd (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 4178ebd75e (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 6510fbe5c0 (WMS: replace broken URLs with alternative WMS (#1635))
                 self.CleanUp()
                 if pgnum_dict["layers"] > -1:
                     if self.IsDockable():
