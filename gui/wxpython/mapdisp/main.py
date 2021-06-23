@@ -1712,6 +1712,7 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -2099,16 +2100,47 @@ class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
 >>>>>>> 290b426053 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 8feebafec2 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> add85036f3 (WMS: replace broken URLs with alternative WMS (#1635))
 class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
     """@implements GrassInterface"""
 =======
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> dee46b522d (WMS: replace broken URLs with alternative WMS (#1635))
 class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
     """@implements GrassInterface"""
 
     def __init__(self, mapframe):
         StandaloneMapDisplayGrassInterface.__init__(self, mapframe)
+=======
+        self._mapframe.ShowStatusbar(show)
+
+    def IsStatusbarShown(self):
+        if not self._mapframe.statusbarManager:
+            return False
+
+        return self._mapframe.IsStatusbarShown()
+
+    def ShowAllToolbars(self, show=True):
+        if not show:  # hide
+            action = self._mapframe.RemoveToolbar
+        else:
+            action = self._mapframe.AddToolbar
+        toolbars = list(self._mapframe.GetToolbarNames())
+        if not toolbars:
+            toolbars.append("map")
+        for toolbar in toolbars:
+            action(toolbar)
+
+    def AreAllToolbarsShown(self):
+        toolbar = self._mapframe.GetMapToolbar()
+        if toolbar is None:
+            return False
+
+        return toolbar.IsShown()
+>>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 
 
 <<<<<<< HEAD
