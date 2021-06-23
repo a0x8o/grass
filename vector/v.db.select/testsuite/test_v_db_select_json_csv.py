@@ -97,6 +97,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # COPYRIGHT:    (C) 2021 by Vaclav Petras the GRASS Development Team
 =======
 <<<<<<< HEAD
@@ -547,6 +548,8 @@
 =======
 >>>>>>> 333b795855 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+>>>>>>> 179aa8f0a6 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
 =======
 >>>>>>> eea17500b3 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -710,7 +713,12 @@
 =======
 =======
 >>>>>>> f8d608e69c (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> 333b795855 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 5faac46788 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 179aa8f0a6 (WMS: replace broken URLs with alternative WMS (#1635))
 # COPYRIGHT:    (C) 2021-2023 by Vaclav Petras the GRASS Development Team
 =======
 # COPYRIGHT:    (C) 2021 by Vaclav Petras the GRASS Development Team
@@ -804,6 +812,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a1668d1b51 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -925,6 +934,8 @@
 >>>>>>> 7a02ec5519 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 333b795855 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 179aa8f0a6 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> eea17500b3 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 8ce884c47f (WMS: replace broken URLs with alternative WMS (#1635))
@@ -1352,13 +1363,17 @@
 =======
 >>>>>>> f8d608e69c (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 46a71dc1f2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+=======
+>>>>>>> 179aa8f0a6 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 # COPYRIGHT:    (C) 2021 by Vaclav Petras the GRASS Development Team
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 5faac46788 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 35e6a92378 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -1574,6 +1589,8 @@
 =======
 >>>>>>> f8d608e69c (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 333b795855 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 179aa8f0a6 (WMS: replace broken URLs with alternative WMS (#1635))
 #
 #               This program is free software under the GNU General Public
 #               License (>=v2). Read the file COPYING that comes with GRASS
@@ -1825,6 +1842,7 @@ class DifficultValueTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2009,6 +2027,8 @@ class DifficultValueTest(TestCase):
 >>>>>>> 7a02ec5519 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 333b795855 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 179aa8f0a6 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> 39e3ee1d76 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -2197,6 +2217,7 @@ class DifficultValueTest(TestCase):
 =======
 =======
 >>>>>>> f8d608e69c (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 46a71dc1f2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -2436,6 +2457,10 @@ class DifficultValueTest(TestCase):
 =======
 >>>>>>> f8d608e69c (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 333b795855 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 5faac46788 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 179aa8f0a6 (WMS: replace broken URLs with alternative WMS (#1635))
 
         column_info = data["info"]["columns"]
         self.assertEqual(column_info[0]["name"], "cat")
@@ -2542,6 +2567,7 @@ class DifficultValueTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a1668d1b51 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -2665,6 +2691,8 @@ class DifficultValueTest(TestCase):
 >>>>>>> 7a02ec5519 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 333b795855 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 179aa8f0a6 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 4178ebd75e (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> c428eb98e4 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -3045,12 +3073,16 @@ class DifficultValueTest(TestCase):
 =======
 >>>>>>> f8d608e69c (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 46a71dc1f2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+=======
+>>>>>>> 179aa8f0a6 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 5faac46788 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 35e6a92378 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -3271,6 +3303,8 @@ class DifficultValueTest(TestCase):
 =======
 >>>>>>> f8d608e69c (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 333b795855 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 179aa8f0a6 (WMS: replace broken URLs with alternative WMS (#1635))
         data = data["records"]
         self.assertIsNone(data[2]["place_name"])
         self.assertEqual(data[3]["place_name"], 'The "Great" Place')
