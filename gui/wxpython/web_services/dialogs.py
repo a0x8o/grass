@@ -102,6 +102,7 @@ class WSDialogBase(wx.Dialog):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -196,6 +197,8 @@ class WSDialogBase(wx.Dialog):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 3dbf181f4a (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 3a39def153 (WMS: replace broken URLs with alternative WMS (#1635))
             "NASA GIBS WMTS": [
                 "http://gibs.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi",
 =======
@@ -278,6 +281,7 @@ class WSDialogBase(wx.Dialog):
             "tiles.maps.eox.at (Sentinel-2)": [
                 "https://tiles.maps.eox.at/wms",
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
                 "",
                 "",
             ],
@@ -460,6 +464,10 @@ class WSDialogBase(wx.Dialog):
 =======
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 3dbf181f4a (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 3a39def153 (WMS: replace broken URLs with alternative WMS (#1635))
             "tiles.maps.eox.at (Sentinel-2)": [
                 "https://tiles.maps.eox.at/wms",
                 "",
