@@ -35,7 +35,10 @@ int main(int argc, char *argv[])
     int flat_flag;
 =======
     int flat_flag; 
+<<<<<<< HEAD
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
     double x, xs, ys, zs;
     int ival;
     int row_flag = 0, col_flag = 0;
@@ -408,7 +411,10 @@ int main(int argc, char *argv[])
     G_option_requires(flag.noupdate, flag.savedefault, flag.print, flag.lprint,
                       flag.eprint, flag.center, flag.gmt_style, flag.wms_style,
                       flag.dist_res, flag.nangle, flag.z, flag.bbox, flag.gprint, parm.save, NULL);
+<<<<<<< HEAD
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 
     if (G_parser(argc, argv))
         exit(EXIT_FAILURE);
@@ -484,12 +490,15 @@ int main(int argc, char *argv[])
     /* region= */
     if ((name = parm.region->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         mapset = G_find_file2("windows", name, "");
         if (!mapset)
             G_fatal_error(_("Region <%s> not found"), name);
         G_get_element_window(&window, "windows", name, mapset);
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	mapset = G_find_file2("windows", name, "");
 	if (!mapset)
@@ -503,11 +512,14 @@ int main(int argc, char *argv[])
         int first = 0;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         rast_ptr = parm.raster->answers;
         for (; *rast_ptr != NULL; rast_ptr++) {
             char rast_name[GNAME_MAX];
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	rast_ptr = parm.raster->answers;
 	for (; *rast_ptr != NULL; rast_ptr++) {
@@ -546,10 +558,13 @@ int main(int argc, char *argv[])
         RASTER3D_Region win;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         if ((mapset = G_find_raster3d(name, "")) == NULL)
             G_fatal_error(_("3D raster map <%s> not found"), name);
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if ((mapset = G_find_raster3d(name, "")) == NULL)
 	    G_fatal_error(_("3D raster map <%s> not found"), name);
@@ -567,10 +582,13 @@ int main(int argc, char *argv[])
         int first = 0;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         vect_ptr = parm.vect->answers;
         for (; *vect_ptr != NULL; vect_ptr++) {
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	vect_ptr = parm.vect->answers;
 	for (; *vect_ptr != NULL; vect_ptr++) {
@@ -658,6 +676,7 @@ int main(int argc, char *argv[])
     /* n= */
     if ((value = parm.north->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         if ((i = nsew(value, "n+", "n-", "s+"))) {
             if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -682,6 +701,8 @@ int main(int argc, char *argv[])
         if (flag.res_set->answer)
             window.north = ceil(window.north / window.ns_res) * window.ns_res;
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if ((i = nsew(value, "n+", "n-", "s+"))) {
 	    if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -708,6 +729,7 @@ int main(int argc, char *argv[])
     /* s= */
     if ((value = parm.south->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         if ((i = nsew(value, "s+", "s-", "n-"))) {
             if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -732,6 +754,8 @@ int main(int argc, char *argv[])
         if (flag.res_set->answer)
             window.south = floor(window.south / window.ns_res) * window.ns_res;
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if ((i = nsew(value, "s+", "s-", "n-"))) {
 	    if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -758,6 +782,7 @@ int main(int argc, char *argv[])
     /* e= */
     if ((value = parm.east->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         if ((i = nsew(value, "e+", "e-", "w+"))) {
             if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -782,6 +807,8 @@ int main(int argc, char *argv[])
         if (flag.res_set->answer)
             window.east = ceil(window.east / window.ew_res) * window.ew_res;
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if ((i = nsew(value, "e+", "e-", "w+"))) {
 	    if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -808,6 +835,7 @@ int main(int argc, char *argv[])
     /* w= */
     if ((value = parm.west->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         if ((i = nsew(value, "w+", "w-", "e-"))) {
             if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -832,6 +860,8 @@ int main(int argc, char *argv[])
         if (flag.res_set->answer)
             window.west = floor(window.west / window.ew_res) * window.ew_res;
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if ((i = nsew(value, "w+", "w-", "e-"))) {
 	    if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -858,6 +888,7 @@ int main(int argc, char *argv[])
     /* t= */
     if ((value = parm.top->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         if ((i = nsew(value, "t+", "t-", "b+"))) {
             if (sscanf(value + 2, "%lf", &x) != 1)
@@ -879,6 +910,8 @@ int main(int argc, char *argv[])
         else
             die(parm.top);
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if ((i = nsew(value, "t+", "t-", "b+"))) {
 	    if (sscanf(value + 2, "%lf", &x) != 1)
@@ -905,6 +938,7 @@ int main(int argc, char *argv[])
     /* b= */
     if ((value = parm.bottom->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         if ((i = nsew(value, "b+", "b-", "t-"))) {
             if (sscanf(value + 2, "%lf", &x) != 1)
@@ -926,6 +960,8 @@ int main(int argc, char *argv[])
         else
             die(parm.bottom);
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if ((i = nsew(value, "b+", "b-", "t-"))) {
 	    if (sscanf(value + 2, "%lf", &x) != 1)
@@ -952,12 +988,15 @@ int main(int argc, char *argv[])
     /* res= */
     if ((value = parm.res->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         if (!G_scan_resolution(value, &x, window.proj))
             die(parm.res);
         window.ns_res = x;
         window.ew_res = x;
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if (!G_scan_resolution(value, &x, window.proj))
 	    die(parm.res);
@@ -976,6 +1015,7 @@ int main(int argc, char *argv[])
     /* res3= */
     if ((value = parm.res3->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         if (!G_scan_resolution(value, &x, window.proj))
             die(parm.res);
@@ -983,6 +1023,8 @@ int main(int argc, char *argv[])
         window.ew_res3 = x;
         window.tb_res = x;
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if (!G_scan_resolution(value, &x, window.proj))
 	    die(parm.res);
@@ -995,11 +1037,14 @@ int main(int argc, char *argv[])
     /* nsres= */
     if ((value = parm.nsres->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         if (!G_scan_resolution(value, &x, window.proj))
             die(parm.nsres);
         window.ns_res = x;
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if (!G_scan_resolution(value, &x, window.proj))
 	    die(parm.nsres);
@@ -1015,11 +1060,14 @@ int main(int argc, char *argv[])
     /* ewres= */
     if ((value = parm.ewres->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         if (!G_scan_resolution(value, &x, window.proj))
             die(parm.ewres);
         window.ew_res = x;
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if (!G_scan_resolution(value, &x, window.proj))
 	    die(parm.ewres);
@@ -1035,11 +1083,14 @@ int main(int argc, char *argv[])
     /* tbres= */
     if ((value = parm.tbres->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         if (sscanf(value, "%lf", &x) != 1)
             die(parm.tbres);
         window.tb_res = x;
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if (sscanf(value, "%lf", &x) != 1)
 	    die(parm.tbres);
@@ -1055,12 +1106,15 @@ int main(int argc, char *argv[])
     /* rows= */
     if ((value = parm.rows->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         if (sscanf(value, "%i", &ival) != 1)
             die(parm.rows);
         window.rows = ival;
         row_flag = 1;
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if (sscanf(value, "%i", &ival) != 1)
 	    die(parm.rows);
@@ -1072,12 +1126,15 @@ int main(int argc, char *argv[])
     /* cols= */
     if ((value = parm.cols->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         if (sscanf(value, "%i", &ival) != 1)
             die(parm.cols);
         window.cols = ival;
         col_flag = 1;
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	if (sscanf(value, "%i", &ival) != 1)
 	    die(parm.cols);
@@ -1089,12 +1146,15 @@ int main(int argc, char *argv[])
     /* zoom= */
     if ((name = parm.zoom->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         mapset = G_find_raster2(name, "");
         if (!mapset)
             G_fatal_error(_("Raster map <%s> not found"), name);
         zoom(&window, name, mapset);
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	mapset = G_find_raster2(name, "");
 	if (!mapset)
@@ -1106,6 +1166,7 @@ int main(int argc, char *argv[])
     /* align= */
     if ((name = parm.align->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = true;
         mapset = G_find_raster2(name, "");
         if (!mapset)
@@ -1113,6 +1174,8 @@ int main(int argc, char *argv[])
         Rast_get_cellhd(name, mapset, &temp_window);
         Rast_align_window(&window, &temp_window);
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = true;
 	mapset = G_find_raster2(name, "");
 	if (!mapset)
@@ -1177,12 +1240,15 @@ int main(int argc, char *argv[])
     /* save= */
     if ((name = parm.save->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         update_file = false;
         temp_window = window;
         G_adjust_Cell_head3(&temp_window, 0, 0, 0);
         if (G_put_element_window(&temp_window, "windows", name) < 0)
             G_fatal_error(_("Unable to set region <%s>"), name);
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	update_file = false;
 	temp_window = window;
 	G_adjust_Cell_head3(&temp_window, 0, 0, 0);
@@ -1194,9 +1260,12 @@ int main(int argc, char *argv[])
     G_adjust_Cell_head3(&window, row_flag, col_flag, 0);
     if (flag.force->answer || (update_file && !flag.noupdate->answer)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (G_put_window(&window) < 0)
             G_fatal_error(_("Unable to update current region"));
 =======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 	if (G_put_window(&window) < 0)
 	    G_fatal_error(_("Unable to update current region"));
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
