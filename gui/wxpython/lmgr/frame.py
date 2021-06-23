@@ -36246,6 +36246,10 @@ class GMFrame(wx.Frame):
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> f1ad29e40c (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -36448,6 +36452,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 965183f78e (WMS: replace broken URLs with alternative WMS (#1635))
+=======
     def OnNewDisplay(self, event=None):
         """Create new layer tree and map display instance"""
         self.NewDisplay()
@@ -36565,6 +36571,7 @@ class GMFrame(wx.Frame):
         return self.GetMapDisplay()
 
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36762,6 +36769,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> f1ad29e40c (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> c3d683896b (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> f1ad29e40c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 785f930004 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -37557,8 +37568,16 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 965183f78e (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> f1ad29e40c (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 785f930004 (WMS: replace broken URLs with alternative WMS (#1635))
     def _onMapDisplayFocus(self, notebookLayerPage):
         """Changes bookcontrol page to page associated with display."""
         # moved from mapdisp/frame.py
