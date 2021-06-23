@@ -136,6 +136,7 @@ explains the options used to disable the compilation of non-mandatory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -264,9 +265,12 @@ explains the options used to disable the compilation of non-mandatory
 =======
 >>>>>>> b3ae6fbd5e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> d7b5d9cf78 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
 >>>>>>> dee46b522d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 29d48abc97 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ddd3218bfa (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -409,10 +413,15 @@ explains the options used to disable the compilation of non-mandatory
 =======
 >>>>>>> 29d48abc97 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 5a9d1aa9f5 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 729c1b17f8 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> d7b5d9cf78 (WMS: replace broken URLs with alternative WMS (#1635))
 GRASS modules. See REQUIREMENTS.html for details on dependencies.
 Detailed Wiki notes for various operating systems (MS-Windows, GNU/Linux 
 distributions, FreeBSD, AIX, etc) are available at:
 https://grasswiki.osgeo.org/wiki/Compile_and_Install
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,6 +567,8 @@ GRASS modules. See REQUIREMENTS.html for details.
 =======
 >>>>>>> 5a9d1aa9f5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+>>>>>>> d7b5d9cf78 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
 GRASS modules. See REQUIREMENTS.html for details.
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -582,6 +593,7 @@ GRASS modules. See REQUIREMENTS.html for details.
 =======
 GRASS modules. See REQUIREMENTS.html for details.
 >>>>>>> 9fa78e6a12 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b603a5c6bb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -846,6 +858,10 @@ GRASS modules. See REQUIREMENTS.html for details.
 GRASS modules. See REQUIREMENTS.html for details.
 >>>>>>> 9fa78e6a12 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b3ae6fbd5e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 729c1b17f8 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> d7b5d9cf78 (WMS: replace broken URLs with alternative WMS (#1635))
   
 First step of the compilation (-g for debugging, or -O2 for optimization):
 
@@ -874,6 +890,7 @@ Explanation of make targets:
 
 Next step is the compilation itself:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1043,6 +1060,8 @@ Next step is the compilation itself:
 >>>>>>> 5a9d1aa9f5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> b3ae6fbd5e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> d7b5d9cf78 (WMS: replace broken URLs with alternative WMS (#1635))
     make
 =======
 =======
@@ -1351,6 +1370,7 @@ https://grasswiki.osgeo.org/wiki/Compile_and_Install
 =======
 >>>>>>> 9fa78e6a12 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b603a5c6bb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -1608,6 +1628,11 @@ https://grasswiki.osgeo.org/wiki/Compile_and_Install
 =======
 >>>>>>> 9fa78e6a12 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> b3ae6fbd5e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+    make
+>>>>>>> 729c1b17f8 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> d7b5d9cf78 (WMS: replace broken URLs with alternative WMS (#1635))
 
 Note for Solaris users (see also Wiki page above):
 
