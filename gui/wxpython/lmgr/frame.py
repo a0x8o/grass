@@ -25236,6 +25236,12 @@ class GMFrame(wx.Frame):
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> main
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -25379,6 +25385,8 @@ class GMFrame(wx.Frame):
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
     def OnNewDisplay(self, event=None):
         """Create new layer tree and map display instance"""
@@ -25554,6 +25562,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -25651,6 +25660,10 @@ class GMFrame(wx.Frame):
 >>>>>>> b9a5537334 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 21cd7af3aa (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -26056,6 +26069,7 @@ class GMFrame(wx.Frame):
 >>>>>>> f9bac2dde2 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
@@ -26166,7 +26180,15 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 58bb426d95 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> fc13117aec (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 21cd7af3aa (WMS: replace broken URLs with alternative WMS (#1635))
     def _onMapDisplayFocus(self, notebookLayerPage):
         """Changes bookcontrol page to page associated with display."""
         # moved from mapdisp/frame.py
