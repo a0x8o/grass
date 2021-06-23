@@ -42967,6 +42967,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -43257,6 +43258,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 5208988082 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -43519,6 +43522,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 99a8c96662 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
     def OnNewDisplay(self, event=None):
         """Create new layer tree and map display instance"""
@@ -43731,6 +43736,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -43872,6 +43878,8 @@ class GMFrame(wx.Frame):
 >>>>>>> d7828caa6b (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5208988082 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -44526,6 +44534,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -44849,6 +44858,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 99a8c96662 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> 5208988082 (WMS: replace broken URLs with alternative WMS (#1635))
     def _onMapDisplayFocus(self, notebookLayerPage):
         """Changes bookcontrol page to page associated with display."""
         # moved from mapdisp/frame.py
