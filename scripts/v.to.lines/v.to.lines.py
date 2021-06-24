@@ -193,6 +193,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.warning(_("No table for layer %d") % 1)
 =======
 =======
@@ -203,8 +204,12 @@ def main():
         gs.warning(_("No table for layer %d" % 1))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
+=======
+>>>>>>> 9d16205fbc (Reduce usage of bare except (#1608))
         gs.warning(_("No table for layer %d") % 1)
 =======
+=======
+>>>>>>> 8ad82fd6e2 (Reduce usage of bare except (#1608))
         grass.warning(_("No table for layer %d" % 1))
 >>>>>>> 6c3f79e423 (Reduce usage of bare except (#1608))
 >>>>>>> 9bf98ea03b (Reduce usage of bare except (#1608))
