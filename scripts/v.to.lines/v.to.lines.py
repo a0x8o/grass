@@ -190,8 +190,11 @@ def main():
     # TODO: when this except is happaning, it seems that never, so it seems wrong
     except Exception:
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.warning(_("No table for layer %d") % 1)
 =======
+=======
+>>>>>>> 8ad82fd6e2 (Reduce usage of bare except (#1608))
         grass.warning(_("No table for layer %d" % 1))
 >>>>>>> 6c3f79e423 (Reduce usage of bare except (#1608))
     try:
