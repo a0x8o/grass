@@ -78,10 +78,17 @@ def main():
         no = float(options["northing"])
     except ValueError:
         try:
+<<<<<<< HEAD
             ea = float(gs.utils.float_or_dms(options["easting"]))
             no = float(gs.utils.float_or_dms(options["northing"]))
         except Exception:
             gs.fatal(_("Input coordinates seems to be invalid"))
+=======
+            ea = float(gscript.utils.float_or_dms(options["easting"]))
+            no = float(gscript.utils.float_or_dms(options["northing"]))
+        except Exception:
+            gscript.fatal(_("Input coordinates seems to be invalid"))
+>>>>>>> 6c3f79e423 (Reduce usage of bare except (#1608))
     el = float(options["elevation"])
 
     # reg = gscript.region()

@@ -189,7 +189,11 @@ def main():
             gs.fatal(_("Error removing table from layer 1"))
     # TODO: when this except is happaning, it seems that never, so it seems wrong
     except Exception:
+<<<<<<< HEAD
         gs.warning(_("No table for layer %d") % 1)
+=======
+        grass.warning(_("No table for layer %d" % 1))
+>>>>>>> 6c3f79e423 (Reduce usage of bare except (#1608))
     try:
         gs.run_command(
             "v.category",
