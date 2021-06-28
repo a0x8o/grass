@@ -17338,6 +17338,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -17505,6 +17506,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> 901aaec734 (r.report: add default units, change to full unit names (#1666))
 =======
+>>>>>>> 2f250dd5e8 (r.report: add default units, change to full unit names (#1666))
+=======
 =======
 >>>>>>> 60fcd6afe6 (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
@@ -17588,9 +17591,12 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> 57aae04049 (r.report: add default units, change to full unit names (#1666))
 =======
+>>>>>>> 1c84c0d40e (r.report: add default units, change to full unit names (#1666))
+=======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17671,6 +17677,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 8dcc73d184 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 3ff45b1287 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 2f250dd5e8 (r.report: add default units, change to full unit names (#1666))
 =======
 =======
 >>>>>>> 95128cd1b3 (r.report: add default units, change to full unit names (#1666))
@@ -18159,7 +18167,12 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> e9045a0d92 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> 901aaec734 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> 1c84c0d40e (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 2f250dd5e8 (r.report: add default units, change to full unit names (#1666))
                 [
                     "r.report",
                     "map=%s" % ",".join(rasters),
@@ -18215,6 +18228,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -18527,6 +18541,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> 57aae04049 (r.report: add default units, change to full unit names (#1666))
 =======
+>>>>>>> 1c84c0d40e (r.report: add default units, change to full unit names (#1666))
+=======
                 ["r.report", "map=%s" % ",".join(rasters), "units=h,c,p"]
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -18547,6 +18563,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18609,6 +18626,9 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 <<<<<<< HEAD
 >>>>>>> 3ff45b1287 (r.report: add default units, change to full unit names (#1666))
+=======
+<<<<<<< HEAD
+>>>>>>> 2f250dd5e8 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
@@ -19236,7 +19256,14 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> e9045a0d92 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> 901aaec734 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 1c84c0d40e (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 2f250dd5e8 (r.report: add default units, change to full unit names (#1666))
             )
 
     def OnStartEditing(self, event):
