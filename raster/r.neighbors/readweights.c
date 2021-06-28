@@ -74,6 +74,7 @@ void compute_weights(const char *function_type, double factor)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 48db7d0390 (r.report: add default units, change to full unit names (#1666))
 =======
@@ -99,6 +100,8 @@ void compute_weights(const char *function_type, double factor)
 =======
 >>>>>>> 2686990028 (r.report: add default units, change to full unit names (#1666))
 =======
+>>>>>>> 60fcd6afe6 (r.report: add default units, change to full unit names (#1666))
+=======
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
@@ -121,11 +124,17 @@ void compute_weights(const char *function_type, double factor)
 =======
 =======
 >>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> 2686990028 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> f3a6d92ee7 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 60fcd6afe6 (r.report: add default units, change to full unit names (#1666))
     double (*weight)(double, double);
 =======
     double (*weight) (double, double);
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,6 +149,8 @@ void compute_weights(const char *function_type, double factor)
 >>>>>>> 95128cd1b3 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 2686990028 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 60fcd6afe6 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> osgeo-main
 =======
@@ -193,7 +204,15 @@ void compute_weights(const char *function_type, double factor)
 =======
 =======
 >>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> 2686990028 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+    double (*weight) (double, double);
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> f3a6d92ee7 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 60fcd6afe6 (r.report: add default units, change to full unit names (#1666))
 
     if (!strcmp(function_type, "gaussian")) {
         weight = gaussian;
@@ -212,11 +231,14 @@ void compute_weights(const char *function_type, double factor)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 95128cd1b3 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 2686990028 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 60fcd6afe6 (r.report: add default units, change to full unit names (#1666))
 =======
 {
     double sigma2 = factor * factor;
@@ -248,7 +270,18 @@ void compute_weights(const char *function_type, double factor)
 =======
 =======
 >>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> 2686990028 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+
+>>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+=======
+
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> f3a6d92ee7 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 60fcd6afe6 (r.report: add default units, change to full unit names (#1666))
 
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 9e11460799 (r.report: add default units, change to full unit names (#1666))
