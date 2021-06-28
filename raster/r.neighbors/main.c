@@ -2441,6 +2441,12 @@ struct weight_functions
     char *text;			/* weight types display - full description */
 };
 
+struct weight_functions
+{
+    char *name;			/* name  of the weight type */
+    char *text;			/* weight types display - full description */
+};
+
 enum out_type {
     T_FLOAT	= 1,
     T_INT	= 2,
@@ -6483,6 +6489,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f68b0fd740 (r.report: add default units, change to full unit names (#1666))
@@ -6505,6 +6512,8 @@ int main(int argc, char *argv[])
 >>>>>>> 24754e005d (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> ba75bc97c9 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> ebf514d546 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 26eb6eb23c (r.report: add default units, change to full unit names (#1666))
 =======
@@ -6550,7 +6559,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> ba75bc97c9 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> ebf514d546 (r.report: add default units, change to full unit names (#1666))
 
     parm.method = G_define_option();
     parm.method->key = "method";
@@ -6589,6 +6603,7 @@ int main(int argc, char *argv[])
 
 >>>>>>> 3953b29f4d (r.report: add default units, change to full unit names (#1666))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6967,7 +6982,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> ba75bc97c9 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> ebf514d546 (r.report: add default units, change to full unit names (#1666))
 
     parm.method = G_define_option();
     parm.method->key = "method";
@@ -7097,6 +7119,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbc81233ab (r.report: add default units, change to full unit names (#1666))
 =======
 =======
@@ -7111,6 +7134,8 @@ int main(int argc, char *argv[])
 >>>>>>> bf8e093a53 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> ba75bc97c9 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> ebf514d546 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 4e857df9d2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -8950,13 +8975,17 @@ int main(int argc, char *argv[])
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> de7c0c8532 (r.report: add default units, change to full unit names (#1666))
 =======
+=======
+>>>>>>> ebf514d546 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7ec793d809 (r.report: add default units, change to full unit names (#1666))
 =======
@@ -9241,6 +9270,8 @@ int main(int argc, char *argv[])
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> ba75bc97c9 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> ebf514d546 (r.report: add default units, change to full unit names (#1666))
     parm.weighting_factor = G_define_option();
     parm.weighting_factor->key = "weighting_factor";
     parm.weighting_factor->type = TYPE_DOUBLE;
@@ -9389,6 +9420,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9655,6 +9687,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> ba75bc97c9 (r.report: add default units, change to full unit names (#1666))
 =======
+>>>>>>> ebf514d546 (r.report: add default units, change to full unit names (#1666))
+=======
 >>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
 >>>>>>> aa6627647b (r.report: add default units, change to full unit names (#1666))
 =======
@@ -9779,12 +9813,15 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
     parm.weighting_factor->description =
         _("Factor used in the selected weighting function (ignored for none "
           "and file)");
 =======
     parm.weighting_factor->description = _("Factor used in the selected weighting function (ignored for none and file)");
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11856,7 +11893,15 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> ba75bc97c9 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+    parm.weighting_factor->description = _("Factor used in the selected weighting function (ignored for none and file)");
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> ebf514d546 (r.report: add default units, change to full unit names (#1666))
 
     parm.weight = G_define_standard_option(G_OPT_F_INPUT);
     parm.weight->key = "weight";
@@ -11884,6 +11929,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12508,11 +12554,15 @@ int main(int argc, char *argv[])
     parm.memory = G_define_standard_option(G_OPT_MEMORYMB);
 =======
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
 
     parm.nprocs = G_define_standard_option(G_OPT_M_NPROCS);
     parm.memory = G_define_standard_option(G_OPT_MEMORYMB);
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 
     flag.align = G_define_flag();
     flag.align->key = 'a';
@@ -12590,6 +12640,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12882,6 +12933,8 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 =======
 >>>>>>> ba75bc97c9 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> ebf514d546 (r.report: add default units, change to full unit names (#1666))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -13340,6 +13393,7 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> de7c0c8532 (r.report: add default units, change to full unit names (#1666))
 =======
@@ -13838,6 +13892,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> ba75bc97c9 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> ebf514d546 (r.report: add default units, change to full unit names (#1666))
     sscanf(parm.nprocs->answer, "%d", &ncb.threads);
     if (ncb.threads < 1) {
         G_fatal_error(_("<%d> is not valid number of threads."), ncb.threads);
@@ -17323,6 +17381,12 @@ int main(int argc, char *argv[])
 	G_fatal_error(_("-%c and %s= are mutually exclusive"),
 			flag.circle->key, parm.weighting_function->answer);
 
+=======
+    if (strcmp(parm.weighting_function->answer, "none") && flag.circle->answer)
+	G_fatal_error(_("-%c and %s= are mutually exclusive"),
+			flag.circle->key, parm.weighting_function->answer);
+
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
     if (strcmp(parm.weighting_function->answer, "file") == 0 && !parm.weight->answer)
 	G_fatal_error(_("File with weighting matrix is missing."));
 
@@ -17332,9 +17396,18 @@ int main(int argc, char *argv[])
         !parm.weighting_factor->answer)
 	G_fatal_error(_("Weighting function '%s' requires a %s."),
 			parm.weighting_function->answer, parm.weighting_factor->key);
+<<<<<<< HEAD
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> ba75bc97c9 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> ebf514d546 (r.report: add default units, change to full unit names (#1666))
 
     ncb.oldcell = parm.input->answer;
 
@@ -17403,6 +17476,7 @@ int main(int argc, char *argv[])
     ncb.weights = NULL;
     ncb.mask = NULL;
     if (strcmp(parm.weighting_function->answer, "file") == 0) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18897,6 +18971,8 @@ int main(int argc, char *argv[])
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ba75bc97c9 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> ebf514d546 (r.report: add default units, change to full unit names (#1666))
         read_weights(parm.weight->answer);
         weights = 1;
     }
@@ -20500,6 +20576,8 @@ int main(int argc, char *argv[])
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
         read_weights(parm.weight->answer);
         weights = 1;
     }
@@ -20510,6 +20588,8 @@ int main(int argc, char *argv[])
                         atof(parm.weighting_factor->answer));
         weights = 1;
 =======
+=======
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 	read_weights(parm.weight->answer);
 	weights = 1;
     }
