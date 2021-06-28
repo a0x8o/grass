@@ -161,6 +161,12 @@ struct weight_functions
     char *text;			/* weight types display - full description */
 };
 
+struct weight_functions
+{
+    char *name;			/* name  of the weight type */
+    char *text;			/* weight types display - full description */
+};
+
 enum out_type {
     T_FLOAT	= 1,
     T_INT	= 2,
@@ -1378,6 +1384,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
 =======
@@ -1418,6 +1425,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 9f5f54c7c3 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 29da11ce98 (r.report: add default units, change to full unit names (#1666))
 
     parm.method = G_define_option();
     parm.method->key = "method";
@@ -1474,6 +1483,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> main
 =======
 =======
@@ -1568,6 +1578,10 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 9f5f54c7c3 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 29da11ce98 (r.report: add default units, change to full unit names (#1666))
 
     parm.method = G_define_option();
     parm.method->key = "method";
@@ -1822,6 +1836,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
@@ -1920,11 +1935,17 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 9f5f54c7c3 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 29da11ce98 (r.report: add default units, change to full unit names (#1666))
     parm.weighting_factor = G_define_option();
     parm.weighting_factor->key = "weighting_factor";
     parm.weighting_factor->type = TYPE_DOUBLE;
     parm.weighting_factor->required = NO;
     parm.weighting_factor->multiple = NO;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2015,6 +2036,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 9f5f54c7c3 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 29da11ce98 (r.report: add default units, change to full unit names (#1666))
     parm.weighting_factor->description =
         _("Factor used in the selected weighting function (ignored for none "
           "and file)");
@@ -2080,6 +2103,7 @@ int main(int argc, char *argv[])
 =======
     parm.weighting_factor->description = _("Factor used in the selected weighting function (ignored for none and file)");
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2270,6 +2294,8 @@ int main(int argc, char *argv[])
     parm.weighting_factor->description = _("Factor used in the selected weighting function (ignored for none and file)");
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 9f5f54c7c3 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 29da11ce98 (r.report: add default units, change to full unit names (#1666))
 
     parm.weight = G_define_standard_option(G_OPT_F_INPUT);
     parm.weight->key = "weight";
@@ -2291,6 +2317,7 @@ int main(int argc, char *argv[])
     parm.title->type = TYPE_STRING;
     parm.title->required = NO;
     parm.title->description = _("Title for output raster map");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2403,11 +2430,15 @@ int main(int argc, char *argv[])
     parm.memory = G_define_standard_option(G_OPT_MEMORYMB);
 =======
 >>>>>>> 9f5f54c7c3 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 29da11ce98 (r.report: add default units, change to full unit names (#1666))
 
     parm.nprocs = G_define_standard_option(G_OPT_M_NPROCS);
     parm.memory = G_define_standard_option(G_OPT_MEMORYMB);
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 
     flag.align = G_define_flag();
     flag.align->key = 'a';
@@ -2455,6 +2486,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2584,6 +2616,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 9f5f54c7c3 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 29da11ce98 (r.report: add default units, change to full unit names (#1666))
     sscanf(parm.nprocs->answer, "%d", &ncb.threads);
     if (ncb.threads < 1) {
         G_fatal_error(_("<%d> is not valid number of threads."), ncb.threads);
@@ -3051,6 +3085,12 @@ int main(int argc, char *argv[])
 	G_fatal_error(_("-%c and %s= are mutually exclusive"),
 			flag.circle->key, parm.weighting_function->answer);
 
+=======
+    if (strcmp(parm.weighting_function->answer, "none") && flag.circle->answer)
+	G_fatal_error(_("-%c and %s= are mutually exclusive"),
+			flag.circle->key, parm.weighting_function->answer);
+
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
     if (strcmp(parm.weighting_function->answer, "file") == 0 && !parm.weight->answer)
 	G_fatal_error(_("File with weighting matrix is missing."));
 
@@ -3060,8 +3100,14 @@ int main(int argc, char *argv[])
         !parm.weighting_factor->answer)
 	G_fatal_error(_("Weighting function '%s' requires a %s."),
 			parm.weighting_function->answer, parm.weighting_factor->key);
+<<<<<<< HEAD
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> 9f5f54c7c3 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 29da11ce98 (r.report: add default units, change to full unit names (#1666))
 
     ncb.oldcell = parm.input->answer;
 
@@ -3157,6 +3203,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3181,6 +3228,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 9f5f54c7c3 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 29da11ce98 (r.report: add default units, change to full unit names (#1666))
         read_weights(parm.weight->answer);
         weights = 1;
     }
@@ -3192,11 +3241,16 @@ int main(int argc, char *argv[])
         weights = 1;
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 	read_weights(parm.weight->answer);
 	weights = 1;
 =======
+=======
+=======
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 29da11ce98 (r.report: add default units, change to full unit names (#1666))
 	read_weights(parm.weight->answer);
 	weights = 1;
     }
