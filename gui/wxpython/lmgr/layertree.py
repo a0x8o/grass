@@ -19588,6 +19588,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -20590,7 +20591,14 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> 41ab2f7485 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 68d3c5771d (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 3cc5926ebf (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 029e33e9f0 (r.report: add default units, change to full unit names (#1666))
                 [
                     "r.report",
                     "map=%s" % ",".join(rasters),
@@ -20654,6 +20662,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -20887,12 +20896,18 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> 6a73bac014 (r.report: add default units, change to full unit names (#1666))
 =======
+<<<<<<< HEAD
 >>>>>>> bd55e4817e (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 3cc5926ebf (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 029e33e9f0 (r.report: add default units, change to full unit names (#1666))
                 ["r.report", "map=%s" % ",".join(rasters), "units=h,c,p"]
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
                 ["r.report", "map=%s" % ",".join(rasters), "units=h,c,p"]
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21807,7 +21822,14 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> 41ab2f7485 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 68d3c5771d (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 3cc5926ebf (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 029e33e9f0 (r.report: add default units, change to full unit names (#1666))
             )
 
     def OnStartEditing(self, event):
