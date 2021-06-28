@@ -29,14 +29,42 @@ void read_weights(const char *filename)
 double gaussian(double factor, double squared_distance)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 {
     double sigma2 = factor * factor;
 =======
 {
     double sigma2 = factor * factor;
 =======
+=======
+>>>>>>> 3953b29f4d (r.report: add default units, change to full unit names (#1666))
 {
     double sigma2 = factor * factor;
+=======
+{
+    double sigma2 = factor * factor;
+
+    return exp(-squared_distance / (2 * sigma2)) / (2 * M_PI * sigma2);
+}
+
+double exponential(double factor, double squared_distance)
+{
+    return exp(factor * sqrt(squared_distance));
+}
+
+void compute_weights(const char *function_type, double factor)
+{
+    int i, j;
+    double (*weight) (double, double);
+
+    if (!strcmp(function_type, "gaussian")) {
+        weight = gaussian;
+    }
+    else if (!strcmp(function_type, "exponential")) {
+        weight = exponential;
+    }
+
+>>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 
     return exp(-squared_distance / (2 * sigma2)) / (2 * M_PI * sigma2);
 }
