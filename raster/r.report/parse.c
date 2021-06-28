@@ -109,6 +109,7 @@ int parse_command_line(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -417,6 +418,8 @@ int parse_command_line(int argc, char *argv[])
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> f1d253615b (r.report: add default units, change to full unit names (#1666))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -1063,6 +1066,7 @@ int parse_command_line(int argc, char *argv[])
 =======
 >>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a405775a95 (r.report: add default units, change to full unit names (#1666))
 =======
 =======
@@ -1543,6 +1547,10 @@ int parse_command_line(int argc, char *argv[])
 =======
 >>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> f3a6d92ee7 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> f1d253615b (r.report: add default units, change to full unit names (#1666))
                "miles;%s;meters;%s;kilometers;%s;acres;%s;hectares;%s;cells;%s;"
                "percent;%s",
                _("area in square miles"), _("area in square meters"),
@@ -2140,6 +2148,7 @@ int parse_command_line(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -2567,7 +2576,14 @@ int parse_command_line(int argc, char *argv[])
 =======
 =======
 >>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> f3a6d92ee7 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> f1d253615b (r.report: add default units, change to full unit names (#1666))
 	       "miles;%s;meters;%s;kilometers;%s;acres;%s;hectares;%s;cells;%s;percent;%s",
 	       _("area in square miles"),
 	       _("area in square meters"),
@@ -2663,6 +2679,9 @@ int parse_command_line(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1d253615b (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
 =======
@@ -3703,13 +3722,17 @@ int parse_command_line(int argc, char *argv[])
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a405775a95 (r.report: add default units, change to full unit names (#1666))
 =======
+=======
+>>>>>>> f1d253615b (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> f3a6d92ee7 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a37726dc18 (r.report: add default units, change to full unit names (#1666))
 =======
@@ -4230,6 +4253,8 @@ int parse_command_line(int argc, char *argv[])
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> f1d253615b (r.report: add default units, change to full unit names (#1666))
     parms.units->answer = "cells,percent";
     parms.units->guisection = _("Statistics");
 

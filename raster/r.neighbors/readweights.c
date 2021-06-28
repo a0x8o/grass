@@ -90,6 +90,7 @@ void compute_weights(const char *function_type, double factor)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 48db7d0390 (r.report: add default units, change to full unit names (#1666))
 =======
@@ -151,10 +152,13 @@ void compute_weights(const char *function_type, double factor)
 >>>>>>> 60fcd6afe6 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> f3a6d92ee7 (r.report: add default units, change to full unit names (#1666))
     double (*weight)(double, double);
 =======
     double (*weight) (double, double);
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,6 +241,11 @@ void compute_weights(const char *function_type, double factor)
 >>>>>>> 60fcd6afe6 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+    double (*weight) (double, double);
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> f3a6d92ee7 (r.report: add default units, change to full unit names (#1666))
 
     if (!strcmp(function_type, "gaussian")) {
         weight = gaussian;
@@ -244,6 +253,7 @@ void compute_weights(const char *function_type, double factor)
     else if (!strcmp(function_type, "exponential")) {
         weight = exponential;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +293,14 @@ void compute_weights(const char *function_type, double factor)
 
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+
+>>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+=======
+
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> f3a6d92ee7 (r.report: add default units, change to full unit names (#1666))
 
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 382767a94c (r.report: add default units, change to full unit names (#1666))
