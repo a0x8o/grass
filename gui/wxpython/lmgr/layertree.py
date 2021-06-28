@@ -7072,6 +7072,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7151,14 +7152,19 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> fcadc7e13f (r.report: add default units, change to full unit names (#1666))
 =======
+>>>>>>> d60d422dbe (r.report: add default units, change to full unit names (#1666))
+=======
 >>>>>>> 70b9875805 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> c01342bea9 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> a9170040dc (r.report: add default units, change to full unit names (#1666))
 =======
+>>>>>>> f3162d6aeb (r.report: add default units, change to full unit names (#1666))
+=======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7198,6 +7204,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> c01342bea9 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> bfcc03842f (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> d60d422dbe (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
@@ -7332,7 +7340,12 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 48db7d0390 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> fcadc7e13f (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> f3162d6aeb (r.report: add default units, change to full unit names (#1666))
+>>>>>>> d60d422dbe (r.report: add default units, change to full unit names (#1666))
                 [
                     "r.report",
                     "map=%s" % ",".join(rasters),
@@ -7375,6 +7388,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c01342bea9 (r.report: add default units, change to full unit names (#1666))
@@ -7388,6 +7402,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> fcadc7e13f (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> d60d422dbe (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 26eb6eb23c (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 9c120ffe33 (Merge branch 'a0x8o' into stag0)
@@ -7525,6 +7541,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> a9170040dc (r.report: add default units, change to full unit names (#1666))
 =======
+>>>>>>> f3162d6aeb (r.report: add default units, change to full unit names (#1666))
+=======
                 ["r.report", "map=%s" % ",".join(rasters), "units=h,c,p"]
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -7547,6 +7565,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
 =======
 =======
@@ -7562,6 +7581,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> c01342bea9 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> bfcc03842f (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> d60d422dbe (r.report: add default units, change to full unit names (#1666))
 =======
 =======
                 ["r.report", "map=%s" % ",".join(rasters), "units=h,c,p"]
@@ -7743,7 +7764,12 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 48db7d0390 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> fcadc7e13f (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> f3162d6aeb (r.report: add default units, change to full unit names (#1666))
+>>>>>>> d60d422dbe (r.report: add default units, change to full unit names (#1666))
             )
 
     def OnStartEditing(self, event):
