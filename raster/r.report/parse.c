@@ -108,6 +108,7 @@ int parse_command_line(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -414,6 +415,8 @@ int parse_command_line(int argc, char *argv[])
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -1054,6 +1057,7 @@ int parse_command_line(int argc, char *argv[])
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1535,6 +1539,10 @@ int parse_command_line(int argc, char *argv[])
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
                "miles;%s;meters;%s;kilometers;%s;acres;%s;hectares;%s;cells;%s;"
                "percent;%s",
                _("area in square miles"), _("area in square meters"),
@@ -2131,6 +2139,7 @@ int parse_command_line(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -2553,7 +2562,12 @@ int parse_command_line(int argc, char *argv[])
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> f3a6d92ee7 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 60fcd6afe6 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> a78b7099e3 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
 	       "miles;%s;meters;%s;kilometers;%s;acres;%s;hectares;%s;cells;%s;percent;%s",
 	       _("area in square miles"),
 	       _("area in square meters"),
@@ -2648,6 +2662,9 @@ int parse_command_line(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> a78b7099e3 (r.report: add default units, change to full unit names (#1666))
 =======
@@ -3679,6 +3696,7 @@ int parse_command_line(int argc, char *argv[])
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4207,6 +4225,11 @@ int parse_command_line(int argc, char *argv[])
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+>>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
     parms.units->answer = "cells,percent";
     parms.units->guisection = _("Statistics");
 
@@ -4458,6 +4481,7 @@ int parse_units(char *s)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4729,6 +4753,8 @@ int parse_units(char *s)
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
+=======
 >>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
 >>>>>>> aa6627647b (r.report: add default units, change to full unit names (#1666))
 =======
@@ -4892,6 +4918,7 @@ int parse_units(char *s)
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4955,10 +4982,22 @@ int parse_units(char *s)
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
+        x = HECTARES;
+    else if (match(s, "cells", 1))
+        x = CELL_COUNTS;
+>>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
+=======
 <<<<<<< HEAD
 >>>>>>> d79db3d3aa (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 61cfc5bf9d (r.report: add default units, change to full unit names (#1666))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
 =======
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
@@ -5490,6 +5529,7 @@ int parse_units(char *s)
 >>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 2686990028 (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 852e51da65 (r.report: add default units, change to full unit names (#1666))
 =======
 =======
@@ -5589,6 +5629,10 @@ int parse_units(char *s)
 >>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 2686990028 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 3aa8160733 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
 	x = HECTARES;
     else if (match(s, "cells", 1))
 	x = CELL_COUNTS;
@@ -5672,6 +5716,7 @@ int parse_units(char *s)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5821,6 +5866,8 @@ int parse_units(char *s)
 >>>>>>> 3aa8160733 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> d9ea5124d9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -6974,7 +7021,12 @@ int parse_units(char *s)
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> b7dd487b9b (r.report: add default units, change to full unit names (#1666))
     else if (match(s, "percent_cover", 1))
         x = PERCENT_COVER;
     else {
