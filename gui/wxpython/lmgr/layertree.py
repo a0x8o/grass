@@ -21732,6 +21732,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -22096,6 +22097,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> c87c9f60da (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 4e857df9d2 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
@@ -22292,12 +22295,16 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 4e857df9d2 (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 26eb6eb23c (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 9c120ffe33 (Merge branch 'a0x8o' into stag0)
 =======
@@ -22815,6 +22822,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> c87c9f60da (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 4e857df9d2 (Merge branch 'a0x8o' into stag0)
                 [
                     "r.report",
                     "map=%s" % ",".join(rasters),
@@ -22887,6 +22896,11 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 26eb6eb23c (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 4e857df9d2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 7772b0ba15 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -23177,8 +23191,11 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c87c9f60da (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 4e857df9d2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
@@ -23513,12 +23530,16 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 4e857df9d2 (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 26eb6eb23c (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 9c120ffe33 (Merge branch 'a0x8o' into stag0)
 =======
@@ -24159,6 +24180,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> c87c9f60da (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 4e857df9d2 (Merge branch 'a0x8o' into stag0)
             )
 
     def OnStartEditing(self, event):
