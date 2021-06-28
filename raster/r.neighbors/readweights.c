@@ -99,7 +99,11 @@ double exponential(double factor, double squared_distance)
 void compute_weights(const char *function_type, double factor)
 {
     int i, j;
+<<<<<<< HEAD
     double (*weight)(double, double);
+=======
+    double (*weight) (double, double);
+>>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 
     if (!strcmp(function_type, "gaussian")) {
         weight = gaussian;
@@ -107,6 +111,10 @@ void compute_weights(const char *function_type, double factor)
     else if (!strcmp(function_type, "exponential")) {
         weight = exponential;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 
 <<<<<<< HEAD
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
