@@ -485,6 +485,10 @@ int parse_command_line(int argc, char *argv[])
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -615,6 +619,7 @@ int parse_command_line(int argc, char *argv[])
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
@@ -684,6 +689,8 @@ int parse_command_line(int argc, char *argv[])
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -773,12 +780,16 @@ int parse_command_line(int argc, char *argv[])
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
@@ -1276,6 +1287,9 @@ int parse_command_line(int argc, char *argv[])
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
                "miles;%s;meters;%s;kilometers;%s;acres;%s;hectares;%s;cells;%s;"
                "percent;%s",
                _("area in square miles"), _("area in square meters"),
@@ -1839,6 +1853,7 @@ int parse_command_line(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -2127,7 +2142,24 @@ int parse_command_line(int argc, char *argv[])
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> f3162d6aeb (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> bf8e093a53 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+    parms.units->descriptions = desc;
+    parms.units->options =
+        "miles,meters,kilometers,acres,hectares,cells,percent";
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
 	       "miles;%s;meters;%s;kilometers;%s;acres;%s;hectares;%s;cells;%s;percent;%s",
 	       _("area in square miles"),
 	       _("area in square meters"),
@@ -2138,6 +2170,7 @@ int parse_command_line(int argc, char *argv[])
 	       _("percent cover"));
     parms.units->descriptions = desc;
     parms.units->options = "miles,meters,kilometers,acres,hectares,cells,percent";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2360,6 +2393,8 @@ int parse_command_line(int argc, char *argv[])
 >>>>>>> 28ba50a5ea (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> bf8e093a53 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
@@ -2757,6 +2792,8 @@ int parse_command_line(int argc, char *argv[])
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
@@ -2879,11 +2916,15 @@ int parse_command_line(int argc, char *argv[])
 <<<<<<< HEAD
 >>>>>>> 9c120ffe33 (Merge branch 'a0x8o' into stag0)
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> 9766eb6ce9 (r.report: add default units, change to full unit names (#1666))
+=======
+<<<<<<< HEAD
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
@@ -2964,13 +3005,17 @@ int parse_command_line(int argc, char *argv[])
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
@@ -3507,6 +3552,9 @@ int parse_command_line(int argc, char *argv[])
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
     parms.units->answer = "cells,percent";
     parms.units->guisection = _("Statistics");
 
@@ -3743,6 +3791,7 @@ int parse_units(char *s)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4382,8 +4431,13 @@ int parse_units(char *s)
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
+=======
 >>>>>>> 26eb6eb23c (r.report: add default units, change to full unit names (#1666))
 =======
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
@@ -4420,11 +4474,21 @@ int parse_units(char *s)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
         x = HECTARES;
     else if (match(s, "cells", 1))
         x = CELL_COUNTS;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4497,6 +4561,11 @@ int parse_units(char *s)
 =======
 >>>>>>> a9b0c66c34 (r.report: add default units, change to full unit names (#1666))
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4522,6 +4591,8 @@ int parse_units(char *s)
 =======
 <<<<<<< HEAD
 >>>>>>> 852e51da65 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
         x = HECTARES;
     else if (match(s, "cells", 1))
         x = CELL_COUNTS;
@@ -4532,6 +4603,7 @@ int parse_units(char *s)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
@@ -4670,6 +4742,9 @@ int parse_units(char *s)
 =======
 >>>>>>> 796386b4d9 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> a9b0c66c34 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
 	x = HECTARES;
     else if (match(s, "cells", 1))
 	x = CELL_COUNTS;
@@ -4743,6 +4818,7 @@ int parse_units(char *s)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4872,6 +4948,8 @@ int parse_units(char *s)
 >>>>>>> 28ba50a5ea (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -5368,6 +5446,8 @@ int parse_units(char *s)
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
+=======
         x = HECTARES;
     else if (match(s, "cells", 1))
         x = CELL_COUNTS;
@@ -5418,7 +5498,10 @@ int parse_units(char *s)
 <<<<<<< HEAD
 >>>>>>> 9c120ffe33 (Merge branch 'a0x8o' into stag0)
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -5463,12 +5546,16 @@ int parse_units(char *s)
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
@@ -5816,6 +5903,9 @@ int parse_units(char *s)
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 9b491a9166 (r.report: add default units, change to full unit names (#1666))
     else if (match(s, "percent_cover", 1))
         x = PERCENT_COVER;
     else {
