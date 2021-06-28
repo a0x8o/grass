@@ -26518,6 +26518,10 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> a8f007a736 (r.report: add default units, change to full unit names (#1666))
 =======
 =======
+>>>>>>> 2c11d30dc6 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 =======
@@ -27540,8 +27544,18 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 1e47dd9d44 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+=======
+>>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 9e11460799 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 2c11d30dc6 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 004496fb45 (r.report: add default units, change to full unit names (#1666))
                 [
                     "r.report",
                     "map=%s" % ",".join(rasters),
@@ -27566,10 +27580,15 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 9e11460799 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 2c11d30dc6 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 4ce3494716 (r.report: add default units, change to full unit names (#1666))
@@ -28132,6 +28151,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aa6627647b (r.report: add default units, change to full unit names (#1666))
 =======
 <<<<<<< HEAD
@@ -28205,6 +28225,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> ebf514d546 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> a8f007a736 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 004496fb45 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
@@ -29187,8 +29209,16 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
                 ["r.report", "map=%s" % ",".join(rasters), "units=h,c,p"]
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> dc4ad92f5f (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 1e47dd9d44 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> 9e11460799 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 2c11d30dc6 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 004496fb45 (r.report: add default units, change to full unit names (#1666))
             )
 
     def OnStartEditing(self, event):
