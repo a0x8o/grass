@@ -75,6 +75,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
@@ -531,12 +532,18 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
     struct Option *semantic_label_opt;
     struct Option *map_opt, *units_opt, *vdatum_opt;
     struct Option *load_opt, *save_opt;
     struct Flag *stats_flag, *null_flag, *del_flag, *semantic_label_rm_flag;
     int is_reclass; /* Is raster reclass? */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -796,9 +803,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+=======
     struct Option *bandref_opt;
     struct Option *map_opt, *units_opt, *vdatum_opt;
     struct Option *load_opt, *save_opt;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1487,7 +1497,15 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    struct Flag *stats_flag, *null_flag, *del_flag, *bandref_rm_flag;
+    int is_reclass;		/* Is raster reclass? */
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
     const char *infile;
     struct History hist;
 
@@ -1642,6 +1660,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1761,6 +1780,8 @@ int main(int argc, char *argv[])
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -2246,7 +2267,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
     semantic_label_opt = G_define_option();
     semantic_label_opt->key = "semantic_label";
     semantic_label_opt->key_desc = "phrase";
@@ -2651,6 +2677,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2907,7 +2934,13 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
     bandref_opt = G_define_option();
     bandref_opt->key = "bandref";
     bandref_opt->key_desc = "phrase";
@@ -2921,6 +2954,7 @@ int main(int argc, char *argv[])
     bandref_rm_flag->key = 'b';
     bandref_rm_flag->guisection = _("Band reference");
     bandref_rm_flag->description = _("Delete the band reference");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3570,7 +3604,13 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
 
     stats_flag = G_define_flag();
     stats_flag->key = 's';
@@ -3963,6 +4003,10 @@ int main(int argc, char *argv[])
     if (semantic_label_rm_flag->answer && semantic_label_opt->answer)
         G_fatal_error(_("Semantic label removal and setting semantic "
                         "label values simultaneously doesn't make sense"));
+
+    if (bandref_rm_flag->answer && bandref_opt->answer)
+        G_fatal_error(_("Band reference removal and setting band "
+                        "reference values simultaneously doesn't make sense"));
 
     Rast_get_cellhd(raster->answer, "", &cellhd);
     is_reclass = (Rast_is_reclass(raster->answer, "", rname, rmapset) > 0);
@@ -6352,6 +6396,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
@@ -6808,7 +6853,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
     if (semantic_label_opt->answer) {
         if (Rast_legal_semantic_label(semantic_label_opt->answer) == false)
             G_fatal_error(_("Provided semantic label is not valid. "
@@ -7216,6 +7266,24 @@ int main(int argc, char *argv[])
 
         Rast_write_semantic_label(infile, semantic_label_opt->answer);
     }
+=======
+    if (bandref_opt->answer) {
+        if (Rast_legal_bandref(bandref_opt->answer) < 0)
+            G_fatal_error(_("Provided band reference is not valid. "
+                            "See documentation for valid examples"));
+
+        Rast_write_bandref(infile, bandref_opt->answer);
+    }
+
+    if (bandref_rm_flag->answer)
+        G_remove_misc("cell_misc", "bandref", infile);
+
+    if (title_opt->answer || history_opt->answer || units_opt->answer
+	|| vdatum_opt->answer || datasrc1_opt->answer || datasrc2_opt->answer
+	|| datadesc_opt->answer || map_opt->answer
+	|| bandref_opt->answer || bandref_rm_flag->answer)
+	exit(EXIT_SUCCESS);
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 <<<<<<< HEAD
     if (bandref_rm_flag->answer)
