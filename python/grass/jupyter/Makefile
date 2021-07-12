@@ -20,6 +20,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -406,7 +407,12 @@ DSTDIR = $(ETC)/python/grass/jupyter
 =======
 =======
 >>>>>>> 5bc040cb45 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 >>>>>>> 9f6f1fd01a (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+>>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> fb4ab822d8 (libpython: Save and load benchmark results (#1711))
 MODULES = \
 	setup \
 	map \
@@ -810,10 +816,15 @@ MODULES = setup
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b08a53e4f5 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> 9f6f1fd01a (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+>>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> fb4ab822d8 (libpython: Save and load benchmark results (#1711))
 >>>>>>> dc994d1258 (Add session initiations functions for Jupyter Notebooks (#1629))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -885,6 +896,9 @@ MODULES = setup display
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fb4ab822d8 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1819,7 +1833,13 @@ MODULES = \
 =======
 >>>>>>> dc994d1258 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> 5bc040cb45 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 >>>>>>> 9f6f1fd01a (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> fb4ab822d8 (libpython: Save and load benchmark results (#1711))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
