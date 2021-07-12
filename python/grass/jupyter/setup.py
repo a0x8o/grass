@@ -10506,6 +10506,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -10591,6 +10592,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> 6d0d0f1535 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 2942a2fdfb (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
 
 
 def display_settings(font="sans", driver="cairo"):
@@ -10698,6 +10701,7 @@ def display_settings(font="sans", driver="cairo"):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
 =======
 <<<<<<< HEAD
@@ -10738,6 +10742,8 @@ def display_settings(font="sans", driver="cairo"):
 >>>>>>> d86c47b865 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 =======
 =======
@@ -17255,4 +17261,9 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> d81fafbb37 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 >>>>>>> bc2e157fe7 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+>>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+>>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
