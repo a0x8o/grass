@@ -45,6 +45,7 @@ PYDIR = $(ETC)/python/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -855,6 +856,7 @@ PYDIR = $(ETC)/python/grass
 =======
 >>>>>>> 26a8d0137f (Add session initiations functions for Jupyter Notebooks (#1629))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4fb74ee464 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 =======
@@ -1439,6 +1441,10 @@ PYDIR = $(ETC)/python/grass
 =======
 >>>>>>> 26a8d0137f (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> 69f2b75f34 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+>>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
 SUBDIRS = \
 	app \
 	benchmark \
@@ -3657,6 +3663,7 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydispatch imaging gunittest bandref jupyter
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -5799,7 +5806,15 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 >>>>>>> d0b3ffd998 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 26a8d0137f (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 >>>>>>> 69f2b75f34 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+=======
+SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydispatch imaging gunittest bandref jupyter
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
 
 default: $(PYDIR)/__init__.py
 	$(MAKE) subdirs

@@ -200,6 +200,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -451,6 +452,8 @@ def main():
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -1292,13 +1295,17 @@ def main():
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
 =======
 =======
         title=_("Map Swipe Tool - GRASS GIS"),
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
 =======
@@ -1690,6 +1697,8 @@ def main():
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
     )
 
     if first:

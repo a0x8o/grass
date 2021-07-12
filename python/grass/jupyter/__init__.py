@@ -3982,6 +3982,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4086,6 +4087,8 @@ from .setup import *
 >>>>>>> c41f2eb779 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> d0b3ffd998 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -4762,6 +4765,7 @@ from .setup import *
 =======
 >>>>>>> 1691c94d89 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 949d58a435 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
@@ -4929,6 +4933,10 @@ from .setup import *
 =======
 >>>>>>> 1691c94d89 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> c41f2eb779 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 >>>>>>> 095dc4def6 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -4939,6 +4947,7 @@ from .setup import *
 =======
 from .setup import *
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5028,6 +5037,8 @@ from .setup import *
 >>>>>>> a29c4a1571 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 23a05fbab6 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5910,6 +5921,7 @@ from .utils import *
 from .setup import *
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> 26a8d0137f (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4fb74ee464 (Add session initiations functions for Jupyter Notebooks (#1629))
@@ -6998,3 +7010,10 @@ from .utils import *
 >>>>>>> d0b3ffd998 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 69f2b75f34 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+=======
+from .display import *
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
