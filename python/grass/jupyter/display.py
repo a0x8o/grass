@@ -29,6 +29,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 import shutil
@@ -1305,11 +1306,19 @@ from IPython.display import Image
 =======
 import tempfile
 >>>>>>> be3c74c20a (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 >>>>>>> a094b1adaf (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+=======
+from pathlib import Path
+from IPython.display import Image
+>>>>>>> 4f7b5aea0b (libpython: Save and load benchmark results (#1711))
+>>>>>>> 969385adae (libpython: Save and load benchmark results (#1711))
 import grass.script as gs
 
 
 class GrassRenderer:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1441,6 +1450,8 @@ class GrassRenderer:
 >>>>>>> 23a05fbab6 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 969385adae (libpython: Save and load benchmark results (#1711))
     """GrassRenderer creates and displays GRASS maps in
     Jupyter Notebooks.
 
@@ -2799,10 +2810,13 @@ class GrassRenderer:
 >>>>>>> 8984405ebb (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 4f7b5aea0b (libpython: Save and load benchmark results (#1711))
     """The grassRenderer class creates and displays GRASS maps in
     Jupyter Notebooks."""
 
     def __init__(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3225,11 +3239,21 @@ class GrassRenderer:
 
         # Copy Environment
 >>>>>>> be3c74c20a (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 >>>>>>> a094b1adaf (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+=======
+        self, env=None, width=600, height=400, filename="map.png", text_size=12
+    ):
+        """Initiates an instance of the GrassRenderer class."""
+
+>>>>>>> 4f7b5aea0b (libpython: Save and load benchmark results (#1711))
+>>>>>>> 969385adae (libpython: Save and load benchmark results (#1711))
         if env:
             self._env = env.copy()
         else:
             self._env = os.environ.copy()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3451,6 +3475,8 @@ class GrassRenderer:
 >>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> a094b1adaf (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 969385adae (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> ea09951b82 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> 51c2c65241 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -4340,6 +4366,7 @@ class GrassRenderer:
 
 <<<<<<< HEAD
 >>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
 =======
@@ -5267,10 +5294,26 @@ class GrassRenderer:
 <<<<<<< HEAD
 >>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
 >>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+
+        self._env["GRASS_RENDER_WIDTH"] = str(width)
+        self._env["GRASS_RENDER_HEIGHT"] = str(height)
+        self._env["GRASS_TEXT_SIZE"] = str(text_size)
+        self._env["GRASS_RENDER_IMMEDIATE"] = "cairo"
+        self._env["GRASS_RENDER_FILE"] = str(filename)
+        self._env["GRASS_RENDER_FILE_READ"] = "TRUE"
+
+        self._legend_file = Path(filename).with_suffix(".grass_vector_legend")
+        self._env["GRASS_LEGEND_FILE"] = str(self._legend_file)
+
+>>>>>>> 4f7b5aea0b (libpython: Save and load benchmark results (#1711))
+>>>>>>> 969385adae (libpython: Save and load benchmark results (#1711))
         self._filename = filename
 
         self.run("d.erase")
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5419,6 +5462,8 @@ class GrassRenderer:
 >>>>>>> 23a05fbab6 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 969385adae (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5582,6 +5627,7 @@ class GrassRenderer:
 =======
 =======
 >>>>>>> be3c74c20a (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> eae04b13cd (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -5810,6 +5856,10 @@ class GrassRenderer:
 =======
 >>>>>>> be3c74c20a (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> a094b1adaf (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+=======
+>>>>>>> 4f7b5aea0b (libpython: Save and load benchmark results (#1711))
+>>>>>>> 969385adae (libpython: Save and load benchmark results (#1711))
     def run(self, module, **kwargs):
         """Run modules from "d." GRASS library"""
         # Check module is from display library then run
@@ -5818,6 +5868,7 @@ class GrassRenderer:
         else:
             raise ValueError("Module must begin with letter 'd'.")
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5949,6 +6000,8 @@ class GrassRenderer:
 >>>>>>> 23a05fbab6 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 969385adae (libpython: Save and load benchmark results (#1711))
     def __getattr__(self, name):
         """Parse attribute to GRASS display module. Attribute should be in
         the form 'd_module_name'. For example, 'd.rast' is called with 'd_rast'.
@@ -6391,6 +6444,7 @@ class GrassRenderer:
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
 >>>>>>> 03ae449941 (libraster: fix Rast_legal_bandref() (#1796))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6d9bf88380 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 =======
@@ -6824,4 +6878,10 @@ class GrassRenderer:
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
 >>>>>>> 03ae449941 (libraster: fix Rast_legal_bandref() (#1796))
 >>>>>>> d3bc1c59f9 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+=======
+    def show(self):
+        """Displays a PNG image of the map (non-interactive)"""
+>>>>>>> 4f7b5aea0b (libpython: Save and load benchmark results (#1711))
+>>>>>>> 969385adae (libpython: Save and load benchmark results (#1711))
         return Image(self._filename)
