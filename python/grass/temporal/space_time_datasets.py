@@ -1455,6 +1455,9 @@ class RasterDataset(AbstractMapDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
 <<<<<<< HEAD
 =======
@@ -2261,8 +2264,17 @@ class RasterDataset(AbstractMapDataset):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
         semantic_label = self.ciface.read_raster_semantic_label(
             self.get_name(), self.get_mapset()
         )
@@ -2276,7 +2288,10 @@ class RasterDataset(AbstractMapDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2750,11 +2765,15 @@ class RasterDataset(AbstractMapDataset):
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> osgeo-main
 =======
 =======
 >>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
@@ -3156,6 +3175,9 @@ class RasterDataset(AbstractMapDataset):
 >>>>>>> 0d0bc8bfd9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
         band_ref = self.ciface.read_raster_band_reference(
             self.get_name(), self.get_mapset()
         )
@@ -3172,12 +3194,15 @@ class RasterDataset(AbstractMapDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3786,8 +3811,17 @@ class RasterDataset(AbstractMapDataset):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
             return False
 
         self.metadata.set_semantic_label(semantic_label)
@@ -3916,6 +3950,9 @@ class RasterDataset(AbstractMapDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
 <<<<<<< HEAD
 =======
@@ -4722,8 +4759,17 @@ class RasterDataset(AbstractMapDataset):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
             # Fill semantic label if defined
             semantic_label = self.ciface.read_raster_semantic_label(
                 self.get_name(), self.get_mapset()
@@ -4738,7 +4784,10 @@ class RasterDataset(AbstractMapDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5132,7 +5181,19 @@ class RasterDataset(AbstractMapDataset):
 =======
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 56976800a2 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
             # Fill band reference if defined
             band_ref = self.ciface.read_raster_band_reference(
                 self.get_name(), self.get_mapset()
@@ -5236,6 +5297,7 @@ class RasterDataset(AbstractMapDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -5288,6 +5350,8 @@ class RasterDataset(AbstractMapDataset):
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6311,8 +6375,17 @@ class RasterDataset(AbstractMapDataset):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
 
             return True
 

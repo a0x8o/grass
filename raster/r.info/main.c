@@ -185,6 +185,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -367,6 +368,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -425,6 +428,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1807,6 +1812,7 @@ int main(int argc, char **argv)
 >>>>>>> 0d0bc8bfd9 (libpython: Save and load benchmark results (#1711))
 =======
 =======
+<<<<<<< HEAD
 =======
     char *units, *vdatum, *semantic_label;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1816,7 +1822,19 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    char *units, *vdatum, *semantic_label;
+=======
+    char *units, *vdatum, *bandref;
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
     int i;
     CELL mincat = 0, maxcat = 0, cat;
     FILE *out;
@@ -2096,6 +2114,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2278,6 +2297,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -2336,6 +2357,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -3718,6 +3741,7 @@ int main(int argc, char **argv)
 >>>>>>> 0d0bc8bfd9 (libpython: Save and load benchmark results (#1711))
 =======
 =======
+<<<<<<< HEAD
 =======
     semantic_label = Rast_read_semantic_label(name, "");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3727,7 +3751,19 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    semantic_label = Rast_read_semantic_label(name, "");
+=======
+    bandref = Rast_read_bandref(name, "");
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
 
     /*Check the Timestamp */
     time_ok = G_read_raster_timestamp(name, "", &ts) > 0;
@@ -5429,6 +5465,10 @@ int main(int argc, char **argv)
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -6247,6 +6287,7 @@ int main(int argc, char **argv)
 >>>>>>> 0d0bc8bfd9 (libpython: Save and load benchmark results (#1711))
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
@@ -6255,7 +6296,15 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
         compose_line(out, "  Data Type:    %-20.20s Semantic label: %s ",
                      (data_type == CELL_TYPE
                           ? "CELL"
@@ -6281,10 +6330,13 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6845,8 +6897,18 @@ int main(int argc, char **argv)
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 0d0bc8bfd9 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
 	compose_line(out, "  Data Type:    %-20.20s Band reference: %s ",
 		     (data_type == CELL_TYPE ? "CELL" :
 		      (data_type == DCELL_TYPE ? "DCELL" :
@@ -7002,6 +7064,16 @@ int main(int argc, char **argv)
 >>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7374,7 +7446,10 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 >>>>>>> de5b9cd94f (libpython: Save and load benchmark results (#1711))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -7409,12 +7484,16 @@ int main(int argc, char **argv)
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
@@ -7800,6 +7879,9 @@ int main(int argc, char **argv)
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
 
         /* For now hide these unless they exist to keep the noise low. In
          *   future when the two are used more widely they can be printed
@@ -8730,6 +8812,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -8910,10 +8993,21 @@ int main(int argc, char **argv)
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 =======
 =======
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
+<<<<<<< HEAD
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 0d0bc8bfd9 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
                 switch (format) {
                 case PLAIN:
                     /*Create the r.info timestamp string */
@@ -8924,6 +9018,7 @@ int main(int argc, char **argv)
                     break;
                 }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9331,6 +9426,14 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 56976800a2 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> osgeo-main
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11830,6 +11933,26 @@ int main(int argc, char **argv)
                 fprintf(out, "timestamp=\"%s\"\n", timebuff);
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+                /*Create the r.info timestamp string */
+                fprintf(out, "timestamp=\"%s\"\n", timebuff);
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+
+<<<<<<< HEAD
+                /*Create the r.info timestamp string */
+                fprintf(out, "timestamp=\"%s\"\n", timebuff);
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
             }
             else {
                 switch (format) {
@@ -11844,16 +11967,22 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 59c95cc2a6 (r.info: Add JSON output (#3744))
 <<<<<<< HEAD
 >>>>>>> d02b2d1fc6 (r.info: Add JSON output (#3744))
@@ -11870,7 +11999,93 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 0d0bc8bfd9 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+
+            switch (format) {
+            case PLAIN:
+                fprintf(out, "units=%s\n", units ? units : "\"none\"");
+                fprintf(out, "vdatum=%s\n", vdatum ? vdatum : "\"none\"");
+                fprintf(out, "semantic_label=%s\n",
+                        semantic_label ? semantic_label : "\"none\"");
+                fprintf(out, "source1=\"%s\"\n",
+                        hist_ok ? Rast_get_history(&hist, HIST_DATSRC_1)
+                                : "\"none\"");
+                fprintf(out, "source2=\"%s\"\n",
+                        hist_ok ? Rast_get_history(&hist, HIST_DATSRC_2)
+                                : "\"none\"");
+                fprintf(out, "description=\"%s\"\n",
+                        hist_ok ? Rast_get_history(&hist, HIST_KEYWRD)
+                                : "\"none\"");
+                if (Rast_history_length(&hist)) {
+                    fprintf(out, "comments=\"");
+                    for (i = 0; i < Rast_history_length(&hist); i++)
+                        fprintf(out, "%s", Rast_history_line(&hist, i));
+                    fprintf(out, "\"\n");
+                }
+                break;
+            case JSON:
+                if (units) {
+                    json_object_set_string(root_object, "units", units);
+                }
+                else {
+                    json_object_set_null(root_object, "units");
+                }
+                if (vdatum) {
+                    json_object_set_string(root_object, "vdatum", vdatum);
+                }
+                else {
+                    json_object_set_null(root_object, "vdatum");
+                }
+                if (semantic_label) {
+                    json_object_set_string(root_object, "semantic_label",
+                                           semantic_label);
+                }
+                else {
+                    json_object_set_null(root_object, "semantic_label");
+                }
+
+                if (hist_ok) {
+                    json_object_set_string(
+                        root_object, "source1",
+                        Rast_get_history(&hist, HIST_DATSRC_1));
+                    json_object_set_string(
+                        root_object, "source2",
+                        Rast_get_history(&hist, HIST_DATSRC_2));
+                    json_object_set_string(
+                        root_object, "description",
+                        Rast_get_history(&hist, HIST_KEYWRD));
+                    JSON_Value *comments_value = json_value_init_array();
+                    JSON_Array *comments = json_array(comments_value);
+                    if (Rast_history_length(&hist)) {
+                        for (i = 0; i < Rast_history_length(&hist); i++) {
+                            json_array_append_string(
+                                comments, Rast_history_line(&hist, i));
+                        }
+                    }
+                    json_object_set_value(root_object, "comments",
+                                          comments_value);
+                }
+                else {
+                    json_object_set_null(root_object, "source1");
+                    json_object_set_null(root_object, "source2");
+                    json_object_set_null(root_object, "description");
+                    json_object_set_null(root_object, "comments");
+                }
+                break;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
             fprintf(out, "units=%s\n", units ? units : "\"none\"");
             fprintf(out, "vdatum=%s\n", vdatum ? vdatum : "\"none\"");
             fprintf(out, "semantic_label=%s\n",
@@ -11890,6 +12105,11 @@ int main(int argc, char **argv)
                     fprintf(out, "%s", Rast_history_line(&hist, i));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11938,6 +12158,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+=======
 		/*Create the r.info timestamp string */
 		fprintf(out, "timestamp=\"%s\"\n", timebuff);
 
@@ -11966,6 +12188,9 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11993,7 +12218,20 @@ int main(int argc, char **argv)
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
                 fprintf(out, "\"\n");
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+                fprintf(out, "\"\n");
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
             }
         }
 

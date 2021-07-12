@@ -8472,6 +8472,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -8501,6 +8502,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
@@ -8513,7 +8516,12 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40118f6d63 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 
 
 def display_settings(font="sans", driver="cairo"):
@@ -8589,6 +8597,7 @@ def display_settings(font="sans", driver="cairo"):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
 =======
 <<<<<<< HEAD
@@ -8601,8 +8610,12 @@ def display_settings(font="sans", driver="cairo"):
 >>>>>>> 0d0bc8bfd9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -14601,5 +14614,13 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> 869427c771 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 >>>>>>> d8b1a8d49c (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 >>>>>>> 312886bea2 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+=======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
