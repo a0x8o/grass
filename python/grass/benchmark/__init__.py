@@ -109,6 +109,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -303,6 +304,8 @@
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 >>>>>>> d56ffd79c6 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -712,6 +715,7 @@
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1080,6 +1084,10 @@
 >>>>>>> 824e32212e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 # MODULE:    grass.benchmark
 #
 # AUTHOR(S): Vaclav Petras <wenzeslaus gmail com>
@@ -1102,6 +1110,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2289,7 +2298,14 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 """Benchmarking for GRASS GIS modules
 
 This subpackage of the grass package is experimental and the API can change anytime.
@@ -2393,6 +2409,7 @@ file of the subpackage.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2586,6 +2603,8 @@ file of the subpackage.
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+=======
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2999,6 +3018,7 @@ file of the subpackage.
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3368,6 +3388,10 @@ file of the subpackage.
 >>>>>>> 824e32212e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 
 The functions in the Python API raise exceptions, although calls of other functions from
 the grass package may call grass.script.fatal and exit
@@ -3385,6 +3409,7 @@ traceback. Messages and other user-visible texts in this package are not transla
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -4572,7 +4597,14 @@ traceback. Messages and other user-visible texts in this package are not transla
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 """
 
 from .plots import nprocs_plot, num_cells_plot
@@ -4648,6 +4680,7 @@ from .results import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4789,6 +4822,8 @@ from .results import (
 >>>>>>> 824e32212e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -5994,7 +6029,15 @@ from .results import (
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    join_results_from_files,
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
     load_results,
     load_results_from_file,
     save_results,
@@ -6111,6 +6154,7 @@ from .results import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6278,6 +6322,8 @@ from .results import (
 >>>>>>> 824e32212e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7717,4 +7763,13 @@ from .runners import benchmark_nprocs, benchmark_resolutions, benchmark_single
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+from .runners import benchmark_nprocs, benchmark_resolutions, benchmark_single
+=======
+from .runners import benchmark_nprocs, benchmark_resolutions
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))

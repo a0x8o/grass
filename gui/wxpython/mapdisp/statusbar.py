@@ -1596,6 +1596,7 @@ class SbManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -1787,6 +1788,8 @@ class SbManager:
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
@@ -2193,13 +2196,17 @@ class SbManager:
 =======
 >>>>>>> 56976800a2 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2dfa9a433 (libpython: Save and load benchmark results (#1711))
 =======
+=======
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 =======
     def SetMode(self, mode):
         """Sets current mode and updates statusbar
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> de5b9cd94f (libpython: Save and load benchmark results (#1711))
 =======
@@ -2353,6 +2360,8 @@ class SbManager:
 =======
 >>>>>>> 56976800a2 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 9cac1201a9 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
     def OnToggleStatus(self, event):
         """Toggle status text"""
         self.Update()
@@ -2385,6 +2394,7 @@ class SbManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 =======
@@ -2393,6 +2403,8 @@ class SbManager:
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 7439490972 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3447,7 +3459,13 @@ class SbManager:
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 
         Mode is usually driven by user through map display settings.
         """
@@ -8443,6 +8461,7 @@ class SbRender(SbItem):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8679,6 +8698,8 @@ class SbRender(SbItem):
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -8853,6 +8874,8 @@ class SbRender(SbItem):
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 class SbShowRegion(SbItem):
     """Checkbox to enable and disable showing of computational region.
@@ -9094,6 +9117,7 @@ class SbResolution(SbItem):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -9221,6 +9245,8 @@ class SbResolution(SbItem):
 >>>>>>> d56ffd79c6 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 56976800a2 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f2dfa9a433 (libpython: Save and load benchmark results (#1711))
@@ -9550,6 +9576,7 @@ class SbResolution(SbItem):
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -9925,6 +9952,10 @@ class SbResolution(SbItem):
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 class SbMapScale(SbItem):
     """Editable combobox to get/set current map scale.
 

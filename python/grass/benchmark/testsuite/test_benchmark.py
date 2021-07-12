@@ -132,6 +132,7 @@ from grass.benchmark import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -924,10 +925,15 @@ from grass.benchmark import (
 >>>>>>> 824e32212e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
     benchmark_nprocs,
 =======
 <<<<<<< HEAD
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -1830,7 +1836,15 @@ from grass.benchmark import (
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    benchmark_single,
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
     join_results,
     load_results,
     load_results_from_file,
@@ -2026,6 +2040,7 @@ class TestBenchmarksRun(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2219,6 +2234,8 @@ class TestBenchmarksRun(TestCase):
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+=======
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2632,6 +2649,7 @@ class TestBenchmarksRun(TestCase):
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3001,6 +3019,10 @@ class TestBenchmarksRun(TestCase):
 >>>>>>> 824e32212e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
     def test_single(self):
         """Test that single benchmark function runs"""
         label = "Standard output"
@@ -3066,6 +3088,7 @@ class TestBenchmarksRun(TestCase):
             self.assertEqual(len(result.all_times), repeat)
         self.assertEqual(results[0].label, label)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4861,6 +4884,8 @@ class TestBenchmarksRun(TestCase):
 >>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
     def test_nprocs(self):
         """Test that benchmark function runs for nprocs"""
         label = "Standard output"
@@ -4886,6 +4911,7 @@ class TestBenchmarksRun(TestCase):
         self.assertEqual(results[0].label, label)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
 <<<<<<< HEAD
 >>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
@@ -4895,9 +4921,12 @@ class TestBenchmarksRun(TestCase):
 =======
 =======
 =======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
@@ -4931,7 +4960,12 @@ class TestBenchmarksRun(TestCase):
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 
 class TestBenchmarkResults(TestCase):
     """Tests that saving results work"""

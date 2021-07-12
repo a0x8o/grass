@@ -1384,6 +1384,7 @@ class RasterDataset(AbstractMapDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1783,6 +1784,7 @@ class RasterDataset(AbstractMapDataset):
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2159,11 +2161,16 @@ class RasterDataset(AbstractMapDataset):
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
         semantic_label = self.ciface.read_raster_semantic_label(
             self.get_name(), self.get_mapset()
         )
 
         if not semantic_label:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2628,6 +2635,7 @@ class RasterDataset(AbstractMapDataset):
 =======
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
@@ -3032,12 +3040,17 @@ class RasterDataset(AbstractMapDataset):
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 7439490972 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
         band_ref = self.ciface.read_raster_band_reference(
             self.get_name(), self.get_mapset()
         )
 
         if not band_ref:
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3219,6 +3232,7 @@ class RasterDataset(AbstractMapDataset):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3611,6 +3625,10 @@ class RasterDataset(AbstractMapDataset):
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
             return False
 
         self.metadata.set_semantic_label(semantic_label)
@@ -3733,6 +3751,7 @@ class RasterDataset(AbstractMapDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4132,6 +4151,7 @@ class RasterDataset(AbstractMapDataset):
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4508,12 +4528,17 @@ class RasterDataset(AbstractMapDataset):
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
             # Fill semantic label if defined
             semantic_label = self.ciface.read_raster_semantic_label(
                 self.get_name(), self.get_mapset()
             )
             if semantic_label:
                 self.metadata.set_semantic_label(semantic_label)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4944,11 +4969,17 @@ class RasterDataset(AbstractMapDataset):
 =======
 >>>>>>> 7439490972 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
             # Fill band reference if defined
             band_ref = self.ciface.read_raster_band_reference(
                 self.get_name(), self.get_mapset()
             )
+<<<<<<< HEAD
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
             if band_ref:
                 self.metadata.set_band_reference(band_ref)
@@ -5571,13 +5602,17 @@ class RasterDataset(AbstractMapDataset):
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 =======
             if band_ref:
                 self.metadata.set_band_reference(band_ref)
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> de5b9cd94f (libpython: Save and load benchmark results (#1711))
 =======
@@ -6015,6 +6050,8 @@ class RasterDataset(AbstractMapDataset):
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 
             return True
 

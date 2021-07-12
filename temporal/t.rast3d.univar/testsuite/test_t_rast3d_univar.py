@@ -156,6 +156,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -330,6 +331,8 @@ class TestRasterUnivar(TestCase):
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+=======
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1427,7 +1430,11 @@ class TestRasterUnivar(TestCase):
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
         cls.runModule("g.remove", flags="f", type="raster_3d", name="zones")
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
         cls.del_temp_region()
 
     def test_with_all_maps(self):

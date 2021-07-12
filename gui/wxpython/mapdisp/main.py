@@ -1376,6 +1376,7 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1579,6 +1580,7 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1833,6 +1835,10 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2420,6 +2426,8 @@ class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
         return toolbar.IsShown()
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 <<<<<<< HEAD
 class DMonFrame(MapFrame):
