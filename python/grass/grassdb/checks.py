@@ -96,6 +96,7 @@ def is_location_valid(path, location=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -276,6 +277,12 @@ def is_location_valid(path, location=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    :param path: Path to a Location or to a GRASS GIS database directory
+=======
+    :param database: Path to a Location or to a GRASS GIS database directory
+>>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> c427da62e8 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
     :param location: name of a Location if not part of *path*
     """
     # DEFAULT_WIND file should not be required until you do something
@@ -306,6 +313,7 @@ def is_location_valid(path, location=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -486,6 +494,12 @@ def is_location_valid(path, location=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        path = os.path.join(path, location)
+=======
+        path = os.path.join(location)
+>>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> c427da62e8 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
     return os.access(os.path.join(path, "PERMANENT", "DEFAULT_WIND"), os.F_OK)
 
 
