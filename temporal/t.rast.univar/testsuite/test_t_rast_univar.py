@@ -4400,6 +4400,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
 =======
@@ -4416,9 +4417,14 @@ class TestRasterUnivar(TestCase):
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
         cls.runModule("t.remove", flags="df", type="strds", inputs="A,B")
 =======
         cls.runModule("t.remove", flags="df", type="strds", inputs="A")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4880,6 +4886,10 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
         cls.runModule("t.remove", flags="df", type="strds", inputs="B")
 >>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
         cls.runModule("g.remove", flags="f", type="raster", name="zones")
@@ -4893,11 +4903,15 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
 =======
         cls.runModule("t.remove", flags="df", type="strds", inputs="A")
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 =======
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
 =======
@@ -4913,6 +4927,8 @@ class TestRasterUnivar(TestCase):
         cls.runModule("t.remove", flags="df", type="strds", inputs="A")
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
         cls.del_temp_region()
 
     @xfail_windows
