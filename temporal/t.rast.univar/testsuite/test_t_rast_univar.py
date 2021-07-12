@@ -3115,6 +3115,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3370,6 +3371,8 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
         cls.runModule("t.remove", flags="df", type="strds", inputs="B")
 >>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
         cls.runModule("g.remove", flags="f", type="raster", name="zones")
@@ -3701,9 +3704,13 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
         cls.runModule("t.remove", flags="df", type="strds", inputs="B")
         cls.runModule("g.remove", flags="f", type="raster", name="zones")
 
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
         cls.del_temp_region()
 
     def test_with_all_maps(self):

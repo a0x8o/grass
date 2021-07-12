@@ -185,6 +185,7 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2296,6 +2297,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> cbf3352a7e (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 964321810a (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 import sys
 from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
@@ -2379,7 +2382,12 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
 =======
 >>>>>>> e2d3096606 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 964321810a (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
@@ -2644,6 +2652,7 @@ from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
@@ -2659,6 +2668,8 @@ from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
 from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2771,7 +2782,12 @@ from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> e2d3096606 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 964321810a (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 from datetime import datetime
 from multiprocessing import Lock, Pipe, Process
 <<<<<<< HEAD
@@ -4327,6 +4343,7 @@ def _read_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4479,6 +4496,8 @@ def _read_semantic_label(lock, conn, data):
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -4488,6 +4507,7 @@ def _read_semantic_label(lock, conn, data):
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4584,6 +4604,10 @@ def _read_semantic_label(lock, conn, data):
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
     Rast_read_semantic_label: either a semantic label string or None.
 =======
 <<<<<<< HEAD
@@ -4671,6 +4695,9 @@ def _read_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
 =======
@@ -5713,7 +5740,12 @@ def _read_semantic_label(lock, conn, data):
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 
     :param lock: A multiprocessing.Lock instance
     :param conn: A multiprocessing.connection.Connection object obtained from
@@ -5825,6 +5857,7 @@ def _read_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5977,6 +6010,8 @@ def _read_semantic_label(lock, conn, data):
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -5986,6 +6021,7 @@ def _read_semantic_label(lock, conn, data):
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6082,6 +6118,10 @@ def _read_semantic_label(lock, conn, data):
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
     semantic_label = None
 =======
 <<<<<<< HEAD
@@ -6169,6 +6209,9 @@ def _read_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
 =======
@@ -7211,7 +7254,12 @@ def _read_semantic_label(lock, conn, data):
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
     try:
         maptype = data[1]
         name = data[2]
@@ -7262,6 +7310,7 @@ def _read_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7732,6 +7781,8 @@ def _read_semantic_label(lock, conn, data):
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
             ret = libraster.Rast_read_semantic_label(name, mapset)
             if ret:
                 semantic_label = decode(ret)
@@ -8854,9 +8905,16 @@ def _read_semantic_label(lock, conn, data):
 =======
 =======
 =======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
             ret = libraster.Rast_read_semantic_label(name, mapset)
             if ret:
                 semantic_label = decode(ret)
+=======
+            ret = libraster.Rast_read_bandref(name, mapset)
+            if ret:
+                bandref = decode(ret)
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
         else:
             logging.error(
                 "Unable to read semantic label. " "Unsupported map type %s" % maptype
@@ -8866,6 +8924,7 @@ def _read_semantic_label(lock, conn, data):
             )
             return -1
     finally:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9121,6 +9180,8 @@ def _read_semantic_label(lock, conn, data):
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -9130,6 +9191,7 @@ def _read_semantic_label(lock, conn, data):
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9226,6 +9288,10 @@ def _read_semantic_label(lock, conn, data):
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
         conn.send(semantic_label)
 =======
 <<<<<<< HEAD
@@ -9313,6 +9379,9 @@ def _read_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
 =======
@@ -10357,12 +10426,18 @@ def _read_semantic_label(lock, conn, data):
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 
 
 ###############################################################################
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10742,6 +10817,8 @@ def _write_semantic_label(lock, conn, data):
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 def _write_semantic_label(lock: _LockLike, conn: Connection, data):
 =======
 =======
@@ -11045,13 +11122,22 @@ def _write_band_reference(lock, conn, data):
 <<<<<<< HEAD
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 def _write_semantic_label(lock, conn, data):
     """Write the file based GRASS band identifier.
 
     Rises ValueError on invalid semantic label.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> osgeo-main
@@ -11336,6 +11422,7 @@ def _write_semantic_label(lock, conn, data):
 >>>>>>> osgeo-main
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11503,6 +11590,10 @@ def _write_semantic_label(lock, conn, data):
 =======
 =======
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 def _write_band_reference(lock, conn, data):
     """Write the file based GRASS band identifier.
 
@@ -11541,6 +11632,9 @@ def _write_band_reference(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11554,6 +11648,7 @@ def _write_band_reference(lock, conn, data):
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12087,6 +12182,10 @@ def _write_semantic_label(lock, conn, data):
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
     Always sends back True.
 
     :param lock: A multiprocessing.Lock instance
@@ -12167,6 +12266,7 @@ def _write_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12269,10 +12369,13 @@ def _write_semantic_label(lock, conn, data):
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -12764,6 +12867,10 @@ def _write_semantic_label(lock, conn, data):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
         semantic_label = data[5]
 
         if maptype == RPCDefs.TYPE_RASTER:
@@ -12812,6 +12919,11 @@ def _write_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12983,6 +13095,7 @@ def _write_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13023,6 +13136,8 @@ def _write_semantic_label(lock, conn, data):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 345367a7c1 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
         semantic_label = data[5]
 
@@ -13876,6 +13991,8 @@ def _write_semantic_label(lock, conn, data):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
         else:
             logging.error(
                 "Unable to write semantic label. " "Unsupported map type %s" % maptype
@@ -14005,6 +14122,7 @@ def _write_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15086,6 +15204,8 @@ def _remove_semantic_label(lock: _LockLike, conn: Connection, data):
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 def _remove_semantic_label(lock: _LockLike, conn: Connection, data):
 =======
 =======
@@ -15278,7 +15398,16 @@ def _remove_semantic_label(lock, conn, data):
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+def _remove_semantic_label(lock, conn, data):
+=======
+def _remove_band_reference(lock, conn, data):
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
     """Remove the file based GRASS band identifier.
 
     The value to be send via pipe is the return value of G_remove_misc.
@@ -15298,6 +15427,7 @@ def _remove_semantic_label(lock, conn, data):
         # layer = data[4]
 
         if maptype == RPCDefs.TYPE_RASTER:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16219,6 +16349,8 @@ def _remove_semantic_label(lock, conn, data):
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
             check = libgis.G_remove_misc("cell_misc", "semantic_label", name)
 =======
             check = libgis.G_remove_misc("cell_misc", "bandref", name)
@@ -16519,7 +16651,12 @@ def _remove_semantic_label(lock, conn, data):
 =======
 =======
 =======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
             check = libgis.G_remove_misc("cell_misc", "semantic_label", name)
+=======
+            check = libgis.G_remove_misc("cell_misc", "bandref", name)
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
         else:
             logging.error(
                 "Unable to remove semantic label. " "Unsupported map type %s" % maptype
@@ -20799,6 +20936,7 @@ class CLibrariesInterface(RPCServerBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -20949,6 +21087,8 @@ class CLibrariesInterface(RPCServerBase):
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -20958,6 +21098,7 @@ class CLibrariesInterface(RPCServerBase):
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -21312,11 +21453,16 @@ class CLibrariesInterface(RPCServerBase):
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
     def remove_raster_semantic_label(self, name, mapset):
         """Remove a file based raster semantic label
 =======
     def remove_raster_band_reference(self, name, mapset):
         """Remove a file based raster band reference
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -22174,7 +22320,13 @@ class CLibrariesInterface(RPCServerBase):
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 
         :param name: The name of the map
         :param mapset: The mapset of the map
@@ -22255,6 +22407,7 @@ class CLibrariesInterface(RPCServerBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -22356,6 +22509,8 @@ class CLibrariesInterface(RPCServerBase):
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
@@ -22487,6 +22642,7 @@ class CLibrariesInterface(RPCServerBase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -22885,6 +23041,10 @@ class CLibrariesInterface(RPCServerBase):
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
         Returns semantic label or None
 
         :param name: The name of the map
@@ -22933,13 +23093,17 @@ class CLibrariesInterface(RPCServerBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
 =======
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
@@ -23728,12 +23892,17 @@ class CLibrariesInterface(RPCServerBase):
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 >>>>>>> 56976800a2 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
         Returns band reference or None
 
         :param name: The name of the map
         :param mapset: The mapset of the map
         :returns: The return value of Rast_read_bandref
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -23806,6 +23975,7 @@ class CLibrariesInterface(RPCServerBase):
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -24210,6 +24380,10 @@ class CLibrariesInterface(RPCServerBase):
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
         """
         self.check_server()
         self.client_conn.send(
@@ -24283,6 +24457,7 @@ class CLibrariesInterface(RPCServerBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -24482,6 +24657,8 @@ class CLibrariesInterface(RPCServerBase):
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -24903,7 +25080,12 @@ class CLibrariesInterface(RPCServerBase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
     def write_raster_semantic_label(self, name, mapset, semantic_label):
         """Write a file based raster semantic label
 
@@ -25128,6 +25310,7 @@ class CLibrariesInterface(RPCServerBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 =======
@@ -25151,6 +25334,8 @@ class CLibrariesInterface(RPCServerBase):
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -26292,7 +26477,23 @@ class CLibrariesInterface(RPCServerBase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    def write_raster_band_reference(self, name, mapset, band_reference):
+        """Write a file based raster band reference
+
+        Note:
+            Only band references of maps from the current mapset can be written.
+
+        :param name: The name of the map
+        :param mapset: The mapset of the map
+        :param band_reference: band reference identifier
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
         :returns: always True
         """
         self.check_server()

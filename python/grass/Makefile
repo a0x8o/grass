@@ -112,6 +112,7 @@ PYDIR = $(ETC)/python/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -273,6 +274,8 @@ PYDIR = $(ETC)/python/grass
 >>>>>>> 75ca885908 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> a7d7103a05 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
@@ -440,6 +443,7 @@ PYDIR = $(ETC)/python/grass
 =======
 =======
 >>>>>>> f4bab26ef2 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6483842150 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
@@ -1066,6 +1070,10 @@ PYDIR = $(ETC)/python/grass
 =======
 >>>>>>> f4bab26ef2 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> a7d7103a05 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 SUBDIRS = \
 	app \
 	benchmark \
@@ -2896,6 +2904,7 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82a986a7e1 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
@@ -2924,6 +2933,8 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 >>>>>>> 4f92c9c12f (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 0d77b1a89c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
 	temporal \
 	utils
@@ -3597,6 +3608,7 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imaging gunittest bandref jupyter
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> f4bab26ef2 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6483842150 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
@@ -4335,6 +4347,10 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> f4bab26ef2 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> a7d7103a05 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 
 default: $(PYDIR)/__init__.py
 	$(MAKE) subdirs
