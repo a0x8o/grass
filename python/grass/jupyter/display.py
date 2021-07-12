@@ -15,6 +15,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import shutil
 =======
 <<<<<<< HEAD
@@ -38,10 +39,15 @@ from IPython.display import Image
 =======
 >>>>>>> osgeo-main
 import tempfile
+=======
+from pathlib import Path
+from IPython.display import Image
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 import grass.script as gs
 
 
 class GrassRenderer:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,10 +133,21 @@ class GrassRenderer:
 >>>>>>> osgeo-main
 
         # Copy Environment
+=======
+    """The grassRenderer class creates and displays GRASS maps in
+    Jupyter Notebooks."""
+
+    def __init__(
+        self, env=None, width=600, height=400, filename="map.png", text_size=12
+    ):
+        """Initiates an instance of the GrassRenderer class."""
+
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
         if env:
             self._env = env.copy()
         else:
             self._env = os.environ.copy()
+<<<<<<< HEAD
         # Environment Settings
         self._env["GRASS_RENDER_WIDTH"] = str(width)
         self._env["GRASS_RENDER_HEIGHT"] = str(height)
@@ -180,6 +197,23 @@ class GrassRenderer:
         self._legend_file = os.path.join(self._tmpdir.name, "legend.txt")
         self._env["GRASS_LEGEND_FILE"] = str(self._legend_file)
 
+=======
+
+        self._env["GRASS_RENDER_WIDTH"] = str(width)
+        self._env["GRASS_RENDER_HEIGHT"] = str(height)
+        self._env["GRASS_TEXT_SIZE"] = str(text_size)
+        self._env["GRASS_RENDER_IMMEDIATE"] = "cairo"
+        self._env["GRASS_RENDER_FILE"] = str(filename)
+        self._env["GRASS_RENDER_FILE_READ"] = "TRUE"
+
+        self._legend_file = Path(filename).with_suffix(".grass_vector_legend")
+        self._env["GRASS_LEGEND_FILE"] = str(self._legend_file)
+
+        self._filename = filename
+
+        self.run("d.erase")
+
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
     def run(self, module, **kwargs):
         """Run modules from "d." GRASS library"""
         # Check module is from display library then run
@@ -188,6 +222,7 @@ class GrassRenderer:
         else:
             raise ValueError("Module must begin with letter 'd'.")
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -235,4 +270,8 @@ class GrassRenderer:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    def show(self):
+        """Displays a PNG image of the map (non-interactive)"""
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
         return Image(self._filename)

@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import random
 =======
 <<<<<<< HEAD
@@ -49,12 +50,18 @@ import random
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+import random
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 import shutil
 from types import SimpleNamespace
 
 import grass.script as gs
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68,6 +75,8 @@ def benchmark_single(module, label, repeat=5):
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 def benchmark_single(module, label, repeat=5):
     """Benchmark module as is without changing anything.
 =======
@@ -171,6 +180,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5, shuffle=True):
     need to be executed in order based on number of threads.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -209,6 +219,17 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+def benchmark_nprocs(module, label, max_nprocs, repeat):
+    """Benchmark module using values of nprocs up to *max_nprocs*.
+
+    *module* is an instance of PyGRASS Module class.
+    The module is executed  used to generate range of values from 1 up to *max_nprocs*.
+    *repeat* sets how many times the each run is repeated.
+    So, the module will run ``max_nprocs * repeat`` times.
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 
     *label* is a text to add to the result (for user-facing display).
     Optional *nprocs* is passed to the module if present.
@@ -217,6 +238,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -234,6 +256,8 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
     *all_times* (list of lists of measured execution times),
     *efficiency* (parallel efficiency), *nprocs* (list of *nprocs* values used),
     and *label* (the provided parameter as is).
@@ -265,6 +289,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
             times[nprocs] = [module.time]
     for nprocs in sorted(times):
         avg = sum(times[nprocs]) / repeat
+<<<<<<< HEAD
 <<<<<<< HEAD
         avg_times.append(avg)
         all_times.append(times[nprocs])
@@ -334,11 +359,47 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
         result.times.append(avg)
         result.all_times.append(times[nprocs])
 >>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+=======
+        result.times.append(avg)
+        result.all_times.append(times[nprocs])
+=======
+        avg_times.append(avg)
+        all_times.append(times[nprocs])
+=======
+    *all_times* (list of lists of measured execution times), *nprocs*
+    (list of *nprocs* values used), and *label* (the provided parameter as is).
+    """
+    term_size = shutil.get_terminal_size()
+    print(module.get_bash())
+
+    min_avg = float("inf")
+    min_time = 1
+    avg_times = []
+    all_times = []
+    nprocs_list = list(range(1, max_nprocs + 1))
+    for nprocs in nprocs_list:
+        print("\u2500" * term_size.columns)
+        print(f"Benchmark with {nprocs} thread(s)...\n")
+        time_sum = 0
+        measured_times = []
+        for _ in range(repeat):
+            module(nprocs=nprocs).run()
+            print(f"{module.time}s")
+            time_sum += module.time
+            measured_times.append(module.time)
+
+        avg = time_sum / repeat
+        avg_times.append(avg)
+        all_times.append(measured_times)
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
         if nprocs == 1:
             serial_avg = avg
         if avg < min_avg:
             min_avg = avg
             min_time = nprocs
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -367,10 +428,19 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
         result.speedup.append(serial_avg / avg)
         result.efficiency.append(serial_avg / (nprocs * avg))
 >>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+=======
+        result.speedup.append(serial_avg / avg)
+        result.efficiency.append(serial_avg / (nprocs * avg))
+=======
+<<<<<<< HEAD
+        efficiency.append(serial_avg / (nprocs * avg))
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 
     print("\u2500" * term_size.columns)
     if serial_avg is not None:
         print(f"\nSerial average time - {serial_avg}s")
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -447,11 +517,36 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 =======
     return result
 >>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+=======
+=======
+        print(f"\nResult - {avg}s")
+
+    print("\u2500" * term_size.columns)
+    print(f"\nSerial average time - {serial_avg}s")
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+    print(f"Best average time - {min_avg}s ({min_time} threads)\n")
+
+<<<<<<< HEAD
+    return result
+=======
+    return SimpleNamespace(
+        all_times=all_times,
+        times=avg_times,
+<<<<<<< HEAD
+        efficiency=efficiency,
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+        nprocs=nprocs_list,
+        label=label,
+    )
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 
 
 def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
     """Benchmark module using different resolutions.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -474,10 +569,13 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
     *module* is an instance of PyGRASS Module class or any object
     with attributes as specified in :func:`benchmark_nprocs`
     except that the *update* method is required only when *nprocs* is set.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -502,12 +600,18 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    *module* is an instance of PyGRASS Module class.
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
     *resolutions* is a list of resolutions to set (current region is currently
     used and changed but that may change in the future).
     *repeat* sets how many times the each run is repeated.
     So, the module will run ``len(resolutions) * repeat`` times.
 
     *label* is a text to add to the result (for user-facing display).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -550,6 +654,13 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    Optional *nprocs* is passed to the module if present
+    (the called module does not have to support nprocs parameter).
+=======
+    Optional *nprocs* is passed to the module if present.
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 
     Returns an object with attributes *times* (list of average execution times),
     *all_times* (list of lists of measured execution times), *resolutions*
@@ -557,6 +668,7 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
     and *label* (the provided parameter as is).
     """
     term_size = shutil.get_terminal_size()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -579,10 +691,13 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
     if hasattr(module, "get_bash"):
         print(module.get_bash())
     else:
         print(module)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -607,6 +722,11 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    print(module.get_bash())
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 
     avg_times = []
     all_times = []
@@ -621,6 +741,7 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
         measured_times = []
         for _ in range(repeat):
             if nprocs:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -657,6 +778,12 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+                module.update(nprocs=nprocs)
+=======
+                module(nprocs=nprocs)
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
             module.run()
             print(f"{module.time}s")
             time_sum += module.time
