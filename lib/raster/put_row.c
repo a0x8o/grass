@@ -2794,10 +2794,13 @@ static void put_data(int fd, char *null_buf, const CELL *cell, int row, int n,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
             if (write(fcb->data_fd, compressed_buf, nwrite) != nwrite)
                 G_fatal_error(
                     _("Error writing compressed data for row %d of <%s>: %s"),
@@ -2812,6 +2815,9 @@ static void put_data(int fd, char *null_buf, const CELL *cell, int row, int n,
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
 =======
 	    if (write(fcb->data_fd, compressed_buf, nwrite) != nwrite)
 		G_fatal_error(_("Error writing compressed data for row %d of <%s>: %s"),
@@ -2824,10 +2830,13 @@ static void put_data(int fd, char *null_buf, const CELL *cell, int row, int n,
 			      row, fcb->name, strerror(errno));
 	}
 >>>>>>> 5c819a5793 (lib/raster: add strerror(errno) to write failures (#1722))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
 
         G_free(compressed_buf);
     }
@@ -2837,20 +2846,27 @@ static void put_data(int fd, char *null_buf, const CELL *cell, int row, int n,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
         if (write(fcb->data_fd, work_buf, nwrite) != nwrite)
             G_fatal_error(
                 _("Error writing uncompressed data for row %d of <%s>: %s"),
                 row, fcb->name, strerror(errno));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
 =======
 	if (write(fcb->data_fd, work_buf, nwrite) != nwrite)
 	    G_fatal_error(_("Error writing uncompressed data for row %d of <%s>: %s"),
 			  row, fcb->name, strerror(errno));
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5c819a5793 (lib/raster: add strerror(errno) to write failures (#1722))
 =======
@@ -2859,6 +2875,9 @@ static void put_data(int fd, char *null_buf, const CELL *cell, int row, int n,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c819a5793 (lib/raster: add strerror(errno) to write failures (#1722))
+>>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
     }
 
     G_free(work_buf);
@@ -3731,6 +3750,9 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
         if (write(fcb->null_fd, compressed_buf, nwrite) != nwrite)
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -7140,6 +7162,16 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
             G_fatal_error(
                 _("Error writing compressed null data for row %d of <%s>: %s"),
                 row, fcb->name, strerror(errno));
+=======
+	if (write(fcb->null_fd, compressed_buf, nwrite) != nwrite)
+	    G_fatal_error(_("Error writing compressed null data for row %d of <%s>: %s"),
+			  row, fcb->name, strerror(errno));
+    }
+    else {
+	if (write(fcb->null_fd, flags, size) != size)
+	    G_fatal_error(_("Error writing compressed null data for row %d of <%s>: %s"),
+			  row, fcb->name, strerror(errno));
+>>>>>>> 5c819a5793 (lib/raster: add strerror(errno) to write failures (#1722))
     }
     else {
 <<<<<<< HEAD
@@ -7200,11 +7232,15 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
         G_fatal_error(_("Error writing null row %d of <%s>"), row, fcb->name);
 =======
 	G_fatal_error(_("Error writing null row %d of <%s>"),
 	              row, fcb->name);
 >>>>>>> 5c819a5793 (lib/raster: add strerror(errno) to write failures (#1722))
+<<<<<<< HEAD
 =======
 	G_fatal_error(_("Error writing null row %d of <%s>"),
 	              row, fcb->name);
@@ -7215,6 +7251,8 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 =======
         G_fatal_error(_("Error writing null row %d of <%s>"), row, fcb->name);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7825,6 +7863,9 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -8839,6 +8880,7 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 	G_fatal_error(_("Error writing null row %d of <%s>: %s"),
 	              row, fcb->name, strerror(errno));
 >>>>>>> 5c819a5793 (lib/raster: add strerror(errno) to write failures (#1722))
+<<<<<<< HEAD
 =======
 	G_fatal_error(_("Error writing null row %d of <%s>: %s"),
 	              row, fcb->name, strerror(errno));
@@ -8851,6 +8893,8 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
         G_fatal_error(_("Error writing null row %d of <%s>: %s"), row,
                       fcb->name, strerror(errno));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
 }
 
 static void convert_and_write_if(int fd, const void *vbuf)
