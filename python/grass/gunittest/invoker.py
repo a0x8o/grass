@@ -245,6 +245,7 @@ class GrassTestFilesInvoker:
                 try:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return decode(data, encoding=encoding)
 =======
                     return decode(stdout, encoding=encoding)
@@ -252,6 +253,9 @@ class GrassTestFilesInvoker:
 =======
                     return decode(stdout, encoding=encoding)
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+=======
+                    return decode(data, encoding=encoding)
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):

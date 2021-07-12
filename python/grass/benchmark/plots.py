@@ -37,10 +37,21 @@ def get_pyplot(to_file):
     return plt
 
 
+<<<<<<< HEAD
 def nprocs_plot(results, filename=None, title=None, metric="time"):
+=======
+<<<<<<< HEAD
+def nprocs_plot(results, filename=None, title=None):
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
     """Plot results from a multiple nprocs (thread) benchmarks.
 
     *results* is a list of individual results from separate benchmarks.
+=======
+def nprocs_plot(results, filename=None):
+    """Plot results from a multiple nprocs (thread) benchmarks.
+
+    *results* is a list of individual results from separate benchmars.
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
     One result is required to have attributes: *nprocs*, *times*, *label*.
     The *nprocs* attribute is a list of all processing elements
     (cores, threads, processes) used in the benchmark.
@@ -80,6 +91,7 @@ def nprocs_plot(results, filename=None, title=None, metric="time"):
                 'time', 'speedup' or 'efficiency'"
             )
     plt.legend()
+<<<<<<< HEAD
     # If there is not many x values, show ticks for each, but use default
     # ticks when there is a lot of x values.
     if len(x_ticks) < 10:
@@ -96,18 +108,37 @@ def nprocs_plot(results, filename=None, title=None, metric="time"):
         plt.title(title)
     elif metric == "times":
         plt.title("Execution time by processing elements")
+<<<<<<< HEAD
     elif metric in {"speedup", "efficiency"}:
+=======
+<<<<<<< HEAD
+    elif metric in ["speedup", "efficiency"]:
+>>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
         plt.title(f"{metric.title()} by processing elements")
+=======
+=======
+    axes.set(xticks=sorted(x_ticks))
+    plt.xlabel("Number of cores (threads, processes)")
+    plt.ylabel("Time [s]")
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
     if filename:
         plt.savefig(filename)
     else:
         plt.show()
 
 
+<<<<<<< HEAD
 def num_cells_plot(results, filename=None, title=None, show_resolution=False):
     """Plot results from a multiple raster grid size benchmarks.
 
     *results* is a list of individual results from separate benchmarks
+=======
+def num_cells_plot(results, filename=None, show_resolution=False):
+    """Plot results from a multiple raster grid size benchmarks.
+
+    *results* is a list of individual results from separate benchmars
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
     with one result being similar to the :func:`nprocs_plot` function.
     The result is required to have *times* and *label* attributes
     and may have an *all_times* attribute.
@@ -144,12 +175,15 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
     else:
         plt.xlabel("Number of cells")
     plt.ylabel("Time [s]")
+<<<<<<< HEAD
     if title:
         plt.title(title)
     elif show_resolution:
         plt.title("Execution time by resolution")
     else:
         plt.title("Execution time by cell count")
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
     if filename:
         plt.savefig(filename)
     else:
