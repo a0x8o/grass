@@ -25964,6 +25964,7 @@ msgstr "Impossible de lire le fichier header de la carte raster <%s@%s>. II s'ag
 =======
 =======
 
+<<<<<<< HEAD
 msgid "Coor file of vector map <%s@%s> is larger than it should be (%ld bytes excess)"
 msgstr "Le fichier coor de la carte vecteur <%s@%s> est plus grand qu'il ne devrait (%ld bytes en trop)"
 
@@ -26499,7 +26500,13 @@ msgstr "Pour exécuter le module <%s>, ajouter un tiret-bas à la fin de l'optio
 =======
 <<<<<<< HEAD
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 094016f111 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+>>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
 #~ msgid ""
 #~ "To run the module <%s> add underscore at the end of the option <%s> to "
 #~ "avoid conflict with Python keywords. Underscore at the beginning is "
@@ -26511,6 +26518,7 @@ msgstr "Pour exécuter le module <%s>, ajouter un tiret-bas à la fin de l'optio
 =======
 #~ msgid "Invalid value <%s> for parameter <%s>"
 #~ msgstr "Valeur <%s> manquante pour le paramètre <%s>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26613,6 +26621,8 @@ msgstr "Pour exécuter le module <%s>, ajouter un tiret-bas à la fin de l'optio
 >>>>>>> 094016f111 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
@@ -26867,11 +26877,17 @@ msgstr "Pour exécuter le module <%s>, ajouter un tiret-bas à la fin de l'optio
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+>>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
 
 #~ msgid "To run the module <%s> add underscore at the end of the option <%s> to avoid conflict with Python keywords. Underscore at the beginning is depreciated in GRASS GIS 7.0 and will be removed in version 7.1."
 #~ msgstr "Pour exécuter le module <%s>, ajouter un tiret-bas à la fin de l'option <%s> pour éviter un conflit avec les mots-clefs Python. Le tiret-bas est obsolète dans GRASS 7.0 et sera supprimé dans la version 7.1."
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26987,6 +27003,8 @@ msgstr "Pour exécuter le module <%s>, ajouter un tiret-bas à la fin de l'optio
 >>>>>>> 094016f111 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 >>>>>>> d56ffd79c6 (libpython: Save and load benchmark results (#1711))
@@ -27361,4 +27379,9 @@ msgstr "Pour exécuter le module <%s>, ajouter un tiret-bas à la fin de l'optio
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+>>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))

@@ -17051,6 +17051,7 @@ msgstr "No elexiste el Directorio de mapas <{mapset}> en la Localización <{loc}
 msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of raster map <%s@%s> %s"
 msgstr "No ha sido posible leer archivo de encabezado para mapa ráster <%s@%s>. Es un mapa de reclasificación del mapa ráster <%s@%s> %s"
 
+<<<<<<< HEAD
 msgid "Coor file of vector map <%s@%s> is larger than it should be (%ld bytes excess)"
 msgstr "El archivo de coordenadas del mapa vectorial <%s@%s> es mayor de lo que debiera (%ld bytes sobrantes)"
 
@@ -17452,7 +17453,13 @@ msgstr "Copiar %s <%s> al Directorio de mapas actual con el nombre <%s>"
 =======
 <<<<<<< HEAD
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 094016f111 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+>>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
 #~ msgid ""
 #~ "To run the module <%s> add underscore at the end of the option <%s> to "
 #~ "avoid conflict with Python keywords. Underscore at the beginning is "
@@ -17466,6 +17473,7 @@ msgstr "Copiar %s <%s> al Directorio de mapas actual con el nombre <%s>"
 #~ msgid "To run the module <%s> add underscore at the end of the option <%s> to avoid conflict with Python keywords. Underscore at the beginning is depreciated in GRASS GIS 7.0 and will be removed in version 7.1."
 #~ msgstr "Para correr el módulo <%s> añada guión bajo al final de la opción <%s> para evitar conflicto con las palabras reservadas de Python. El guión bajo al inicio es despreciado en GRASS 7.0 y será removido en la versión 7.1."
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17625,6 +17633,8 @@ msgstr "Copiar %s <%s> al Directorio de mapas actual con el nombre <%s>"
 >>>>>>> 094016f111 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -18833,4 +18843,9 @@ msgstr "Para correr el módulo <%s> añada guión bajo al final de la opción <%
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+>>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
