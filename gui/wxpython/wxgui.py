@@ -236,6 +236,7 @@ class GMApp(wx.App):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
             single = UserSettings.Get(
@@ -430,6 +431,8 @@ class GMApp(wx.App):
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c355a1ccb4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -1282,7 +1285,12 @@ class GMApp(wx.App):
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 4f92c9c12f (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> c355a1ccb4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
             single = UserSettings.Get(
                 group="appearance", key="singleWindow", subkey="enabled"
 =======
@@ -3373,6 +3381,7 @@ class GMApp(wx.App):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
@@ -3450,6 +3459,8 @@ class GMApp(wx.App):
 >>>>>>> 77e6855cbe (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c355a1ccb4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
@@ -3992,6 +4003,7 @@ class GMApp(wx.App):
 =======
 
 >>>>>>> 4f92c9c12f (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+<<<<<<< HEAD
 =======
 
 >>>>>>> 0d77b1a89c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
@@ -4051,11 +4063,14 @@ class GMApp(wx.App):
 
 >>>>>>> 4fa1057fa6 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 >>>>>>> 6600c69532 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+>>>>>>> c355a1ccb4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
             mainframe = GMFrame(parent=None, id=wx.ID_ANY, workspace=self.workspaceFile)
             mainframe.Show()
             self.SetTopWindow(mainframe)
 
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4311,6 +4326,8 @@ class GMApp(wx.App):
 >>>>>>> 3d6a303e3c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c355a1ccb4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> bd181bd378 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 >>>>>>> 4a727d4dd1 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
@@ -4747,6 +4764,7 @@ class GMApp(wx.App):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4874,6 +4892,10 @@ class GMApp(wx.App):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 4f92c9c12f (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> c355a1ccb4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
         wx.CallAfter(show_main_gui)
 =======
         # testing purposes
