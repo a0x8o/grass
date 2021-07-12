@@ -26,24 +26,32 @@ def get_pyplot(to_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
     import matplotlib as mpl  # pylint: disable=import-outside-toplevel
 
     backend = "agg" if to_file else None
     if backend:
         mpl.use(backend)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     import matplotlib  # pylint: disable=import-outside-toplevel
 =======
     import matplotlib as mpl  # pylint: disable=import-outside-toplevel
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+    import matplotlib  # pylint: disable=import-outside-toplevel
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 
     if to_file:
         backend = "agg"
     else:
         backend = None
     if backend:
+<<<<<<< HEAD
 <<<<<<< HEAD
         matplotlib.use(backend)
 <<<<<<< HEAD
@@ -53,12 +61,17 @@ def get_pyplot(to_file):
 =======
         mpl.use(backend)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+        matplotlib.use(backend)
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 
     import matplotlib.pyplot as plt  # pylint: disable=import-outside-toplevel
 
     return plt
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1864,6 +1877,8 @@ def nprocs_plot(results, filename=None):
 >>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 def nprocs_plot(results, filename=None, title=None, metric="time"):
 =======
 <<<<<<< HEAD
@@ -2069,6 +2084,7 @@ def nprocs_plot(results, filename=None):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
@@ -2307,6 +2323,14 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+def nprocs_plot(results, filename=None):
+    """Plot results from a multiple nprocs (thread) benchmarks.
+
+    *results* is a list of individual results from separate benchmars.
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
     One result is required to have attributes: *nprocs*, *times*, *label*.
     The *nprocs* attribute is a list of all processing elements
     (cores, threads, processes) used in the benchmark.
@@ -2317,11 +2341,15 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
     *metric* can be "time", "speedup", or "efficiency".
     This function plots a corresponding figure based on the chosen metric.
 
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2329,6 +2357,8 @@ def nprocs_plot(results, filename=None):
     This function plots a corresponding figure based on the chosen metric.
 
 >>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
     Optionally, result can have an *all_times* attribute which is a list
     of lists. One sublist is all times recorded for each value of nprocs.
 
@@ -2338,6 +2368,9 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
     ylabel = ""
     plt = get_pyplot(to_file=bool(filename))
     _, axes = plt.subplots()
@@ -2345,6 +2378,7 @@ def nprocs_plot(results, filename=None):
     plt = get_pyplot(to_file=bool(filename))
     axes = plt.gca()
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 =======
     plt = get_pyplot(to_file=bool(filename))
     axes = plt.gca()
@@ -2354,6 +2388,8 @@ def nprocs_plot(results, filename=None):
     plt = get_pyplot(to_file=bool(filename))
     _, axes = plt.subplots()
 >>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 
     x_ticks = set()  # gather x values
     for result in results:
@@ -2362,6 +2398,9 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
         if metric == "time":
             mins = [min(i) for i in result.all_times]
             maxes = [max(i) for i in result.all_times]
@@ -4614,6 +4653,7 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -5213,10 +5253,20 @@ def nprocs_plot(results, filename=None):
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        plt.plot(x, result.times, label=result.label)
+        if hasattr(result, "all_times"):
+            mins = [min(i) for i in result.all_times]
+            maxes = [max(i) for i in result.all_times]
+            plt.fill_between(x, mins, maxes, color="gray", alpha=0.3)
+    plt.legend()
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
     axes.set(xticks=sorted(x_ticks))
     plt.xlabel("Number of cores (threads, processes)")
     plt.ylabel("Time [s]")
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5905,6 +5955,8 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
     if filename:
         plt.savefig(filename)
     else:
@@ -5970,6 +6022,7 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6060,6 +6113,8 @@ def nprocs_plot(results, filename=None):
 >>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -6613,6 +6668,7 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
@@ -6941,6 +6997,10 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 =======
 =======
 >>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 def num_cells_plot(results, filename=None, show_resolution=False):
     """Plot results from a multiple raster grid size benchmarks.
 
@@ -6964,6 +7024,9 @@ def num_cells_plot(results, filename=None, show_resolution=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7201,6 +7264,7 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> c1e96d556f (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7838,6 +7902,8 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
     with one result being similar to the :func:`nprocs_plot` function.
     The result is required to have *times* and *label* attributes
     and may have an *all_times* attribute.
@@ -7856,18 +7922,27 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
     for result in results:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         x = result.resolutions if show_resolution else result.cells
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        x = result.resolutions if show_resolution else result.cells
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
         if show_resolution:
             x = result.resolutions
         else:
             x = result.cells
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
         x_ticks.update(x)
         plt.plot(x, result.times, label=result.label)
         if hasattr(result, "all_times"):
@@ -7970,6 +8045,7 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8222,6 +8298,8 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -9267,6 +9345,7 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
@@ -9825,6 +9904,10 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
     if filename:
         plt.savefig(filename)
     else:

@@ -176,6 +176,9 @@ int G_vsnaprintf(char *, size_t, const char *, va_list);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 /* strlcat.c */
 size_t G_strlcat(char *, const char *, size_t);
 
@@ -184,8 +187,11 @@ size_t G_strlcpy(char *, const char *, size_t);
 
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 /* basename.c */
 char *G_basename(char *, const char *);
 size_t G_get_num_decimals(const char *);

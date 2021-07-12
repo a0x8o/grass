@@ -61,6 +61,7 @@
 # % description: Force removal (required for actual deletion of files)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 # %end
@@ -69,6 +70,9 @@
 # % key: d
 # % description: Remove stds, unregister maps from temporal database and delete them from mapset
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 # %end
 
 # %flag
@@ -159,16 +163,22 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
         gs.message(_("The following data base element files will be deleted:"))
 =======
         grass.message(_("The following data base element files will be deleted:"))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 =======
         grass.message(_("The following data base element files will be deleted:"))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
         gs.message(_("The following data base element files will be deleted:"))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 
     for name in dataset_list:
         name = name.strip()
@@ -177,10 +187,14 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
             gs.message(
                 _("{stds}: {gid}").format(stds=sp.get_type().upper(), gid=sp.get_id())
 =======
             grass.message(
+<<<<<<< HEAD
 =======
             gs.message(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
@@ -190,32 +204,48 @@ def main():
             grass.message(
                 _("{stds}: {gid}".format(stds=sp.get_type().upper(), gid=sp.get_id()))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                _("{stds}: {gid}".format(stds=sp.get_type().upper(), gid=sp.get_id()))
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
             )
         if recursive or clean:
             if not force:
                 if recursive:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
                     msg = _(
 =======
                     msg = (
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 =======
                     msg = (
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
                         "The following maps of {stds} {gid} will be "
                         "unregistered from temporal database:"
                     )
                 elif clean:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
                     msg = _(
 =======
                     msg = (
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 =======
                     msg = (
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
                         "The following maps of {stds} {gid} will be "
                         "unregistered from temporal database and removed "
                         "from spatial database:"
@@ -223,6 +253,9 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 
                 if recursive or clean:
                     gs.message(msg.format(stds=sp.get_type(), gid=sp.get_id()))
@@ -230,12 +263,15 @@ def main():
 =======
                 grass.message(_(msg.format(stds=sp.get_type(), gid=sp.get_id())))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 =======
                 grass.message(_(msg.format(stds=sp.get_type(), gid=sp.get_id())))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
                 gs.message(_(msg.format(stds=sp.get_type(), gid=sp.get_id())))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
             maps = sp.get_registered_maps_as_objects(dbif=dbif)
             map_statement = ""
             count = 1
@@ -249,16 +285,22 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
                     gs.message(_("- %s") % map.get_name())
 =======
                     grass.message(_("- %s" % map.get_name()))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 =======
                     grass.message(_("- %s" % map.get_name()))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
                     gs.message(_("- %s" % map.get_name()))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
                     continue
                 if clean and force:
                     if map.get_name() not in name_list:
@@ -295,26 +337,37 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
         gs.message(
             _(
                 "Nothing removed. You must use the force flag (-{flag}) to actually "
                 "remove them."
             ).format(flag="f")
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         grass.message(
 =======
         gs.message(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+        grass.message(
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
             _(
                 "Nothing removed. You must use the force flag (-{flag}) to actually "
                 "remove them.".format(flag="f")
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
         )
     else:
         # Execute the collected SQL statenents

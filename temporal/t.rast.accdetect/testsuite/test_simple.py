@@ -64,15 +64,21 @@ class TestRasterExtraction(TestCase):
         """Remove generated data"""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
         self.runModule("t.remove", flags="df", type="strds", inputs="B,C")
 =======
         self.runModule("t.remove", flags="df", type="strds", inputs="B")
         self.runModule("t.remove", flags="df", type="strds", inputs="C")
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 =======
         self.runModule("t.remove", flags="df", type="strds", inputs="B")
         self.runModule("t.remove", flags="df", type="strds", inputs="C")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 
     def test_simple(self):
         self.assertModule(
