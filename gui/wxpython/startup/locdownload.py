@@ -162,6 +162,7 @@ LOCATIONS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -330,6 +331,8 @@ LOCATIONS = [
 >>>>>>> 0d10010492 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32399d4902 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -991,6 +994,7 @@ class RedirectText:
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1222,6 +1226,12 @@ class RedirectText:
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+class RedirectText:
+=======
+>>>>>>> ee6eb01aa7 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> 32399d4902 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 class RedirectText(object):
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
     def __init__(self, window):
@@ -1357,6 +1367,7 @@ class RedirectText(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1536,6 +1547,8 @@ class RedirectText(object):
 =======
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 32399d4902 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1705,6 +1718,7 @@ class RedirectText(object):
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1949,6 +1963,10 @@ class RedirectText(object):
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ee6eb01aa7 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> 32399d4902 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 # based on
 # https://blog.shichao.io/2012/10/04/
 # progress_speed_indicator_for_urlretrieve_in_python.html
@@ -2040,6 +2058,7 @@ class RedirectText(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
@@ -2157,6 +2176,8 @@ class RedirectText(object):
 >>>>>>> 0d10010492 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 32399d4902 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 8179f73812 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 >>>>>>> 5d71474136 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
@@ -2514,6 +2535,7 @@ class RedirectText(object):
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2751,6 +2773,10 @@ class RedirectText(object):
 >>>>>>> 0d10010492 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ee6eb01aa7 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> 32399d4902 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 # based on https://blog.shichao.io/2012/10/04/progress_speed_indicator_for_urlretrieve_in_python.html
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 def reporthook(count, block_size, total_size):
