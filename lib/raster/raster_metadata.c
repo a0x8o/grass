@@ -96,6 +96,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1393,6 +1394,12 @@
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+   "semantic label" and "vertical datum" meta-data info
+=======
+   "band reference" and "vertical datum" meta-data info
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
 
    (C) 2007-2009, 2021 by Hamish Bowman, Maris Nartiss,
    and the GRASS Development Team
@@ -1504,6 +1511,7 @@ void Rast_write_vdatum(const char *name, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1844,10 +1852,13 @@ void Rast_write_vdatum(const char *name, const char *str)
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
  * \brief Get a raster map semantic label metadata string
  *
  * Read raster semantic label metadata file and put string in to str
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1919,588 +1930,8 @@ void Rast_write_vdatum(const char *name, const char *str)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
- * \brief Get a raster map's band reference metadata string
- *
- * Read the raster's band reference metadata file and put string in str
->>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
->>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
-=======
-<<<<<<< HEAD
->>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
->>>>>>> main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
-=======
- * \brief Get a raster map semantic label metadata string
- *
- * Read raster semantic label metadata file and put string in to str
->>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
-=======
-<<<<<<< HEAD
->>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
->>>>>>> main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
- * \brief Get a raster map semantic label metadata string
- *
- * Read raster semantic label metadata file and put string in to str
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> main
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
-=======
-<<<<<<< HEAD
->>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
->>>>>>> main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
-=======
-=======
-=======
->>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> fb4ab822d8 (libpython: Save and load benchmark results (#1711))
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> d56ffd79c6 (libpython: Save and load benchmark results (#1711))
-=======
-=======
-=======
->>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-=======
->>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-=======
->>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> 8d53b00588 (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> f8d32d9e3a (libpython: Save and load benchmark results (#1711))
-=======
-=======
-=======
->>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-=======
->>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> ae5deb8874 (libpython: Save and load benchmark results (#1711))
-=======
-=======
->>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 8984405ebb (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> f91c52c645 (libpython: Save and load benchmark results (#1711))
-=======
-=======
->>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
-=======
-=======
->>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 4f7b5aea0b (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> 3627af9569 (libpython: Save and load benchmark results (#1711))
-=======
-=======
->>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6d0d0f1535 (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> f1ae4cefc3 (libpython: Save and load benchmark results (#1711))
-=======
-=======
->>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
-=======
-=======
->>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
-=======
-=======
->>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> 980c935a7d (libpython: Save and load benchmark results (#1711))
-=======
-=======
->>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> 094016f111 (libpython: Save and load benchmark results (#1711))
-=======
-=======
->>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
-=======
-=======
->>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
-=======
-=======
-=======
->>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-=======
->>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> 4480ca2a94 (libpython: Save and load benchmark results (#1711))
-=======
-=======
->>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
-=======
-=======
->>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
- * \brief Get a raster map semantic label metadata string
- *
- * Read raster semantic label metadata file and put string in to str
->>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- * \brief Get a raster map semantic label metadata string
- *
- * Read raster semantic label metadata file and put string in to str
-=======
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
-<<<<<<< HEAD
->>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
-=======
-=======
->>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
->>>>>>> 8d53b00588 (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> 8984405ebb (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> 4f7b5aea0b (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> 6d0d0f1535 (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
-=======
-<<<<<<< HEAD
->>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
->>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+>>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
  * \brief Get a raster map's band reference metadata string
  *
  * Read the raster's band reference metadata file and put string in str
@@ -2527,6 +1958,589 @@ void Rast_write_vdatum(const char *name, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
+=======
+ * \brief Get a raster map semantic label metadata string
+ *
+ * Read raster semantic label metadata file and put string in to str
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+ * \brief Get a raster map semantic label metadata string
+ *
+ * Read raster semantic label metadata file and put string in to str
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+=======
+=======
+>>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> fb4ab822d8 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> d56ffd79c6 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> 8d53b00588 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> f8d32d9e3a (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> ae5deb8874 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8984405ebb (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> f91c52c645 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 4f7b5aea0b (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> 3627af9569 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6d0d0f1535 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> f1ae4cefc3 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> 980c935a7d (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> 094016f111 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> 4480ca2a94 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+ * \brief Get a raster map semantic label metadata string
+ *
+ * Read raster semantic label metadata file and put string in to str
+>>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ * \brief Get a raster map semantic label metadata string
+ *
+ * Read raster semantic label metadata file and put string in to str
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+>>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8d53b00588 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8984405ebb (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 4f7b5aea0b (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 6d0d0f1535 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+>>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+>>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+ * \brief Get a raster map's band reference metadata string
+ *
+ * Read the raster's band reference metadata file and put string in str
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3246,10 +3260,13 @@ void Rast_write_vdatum(const char *name, const char *str)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
  *
  * \param name raster map name
  * \param mapset mapset name
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3899,6 +3916,8 @@ void Rast_write_vdatum(const char *name, const char *str)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
  * \return  string representing semantic label on success
  * \return  NULL on error
  */
@@ -3932,6 +3951,7 @@ char *Rast_get_semantic_label_or_name(const char *name, const char *mapset)
  *
  * It is up to the caller to validate semantic label string in advance
  * with Rast_legal_semantic_label().
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5885,6 +5905,25 @@ char *Rast_get_semantic_label_or_name(const char *name, const char *mapset)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+ * \return  string representing band reference on success
+ * \return  NULL on error
+ */
+char *Rast_read_bandref(const char *name, const char *mapset)
+{
+    return misc_read_line("bandref", name, mapset);
+}
+
+/*!
+ * \brief Write a string into a raster's band reference metadata file
+ *
+ * Raster map must exist in the current mapset.
+ *
+ * It is up to the caller to validate band reference string in advance
+ * with Rast_legal_bandref().
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
  *
  * \param name raster map name
  * \param str  string containing data to be written
@@ -5946,6 +5985,7 @@ char *Rast_get_semantic_label_or_name(const char *name, const char *mapset)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6538,6 +6578,8 @@ char *Rast_get_semantic_label_or_name(const char *name, const char *mapset)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
 void Rast_write_semantic_label(const char *name, const char *str)
 {
     misc_write_line("semantic_label", name, str);
@@ -6869,6 +6911,7 @@ bool Rast_legal_semantic_label(const char *semantic_label)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -9122,6 +9165,62 @@ bool Rast_legal_semantic_label(const char *semantic_label)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void Rast_write_bandref(const char *name, const char *str)
+{
+    misc_write_line("bandref", name, str);
+}
+
+/*!
+ * \brief Check for legal band reference
+ *
+ * Legal band identifiers must be legal GRASS file names.
+ * They are in format <shortcut>_<bandname>.
+ * Band identifiers are capped in legth to GNAME_MAX.
+ *
+ * This function will return -1 if provided band id is not considered
+ * to be valid.
+ * This function does not check if band id maps to any entry in band
+ * metadata files as not all band id's have files with extra metadata.
+ *
+ * The function prints a warning on error.
+ *
+ * \param bandref band reference to check
+ *
+ * \return 1 success
+ * \return -1 failure
+ */
+int Rast_legal_bandref(const char *bandref)
+{
+    char **tokens;
+    int ntok;
+
+    if (strlen(bandref) >= GNAME_MAX) {
+        G_warning(_("Band reference is too long"));
+        return -1;
+    }
+
+    if (G_legal_filename(bandref) != 1)
+        return -1;
+
+    tokens = G_tokenize(bandref, "_");
+    ntok = G_number_of_tokens(tokens);
+    if (ntok < 2) {
+        G_warning(_("Band reference must be in form <shortcut>_<bandname>"));
+        G_free_tokens(tokens);
+        return -1;
+    }
+
+    if (strlen(tokens[1]) < 1) {
+        G_free_tokens(tokens);
+        return -1;
+    }
+
+    G_free_tokens(tokens);
+    return 1;
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
 }
 
 /*!
@@ -9238,6 +9337,7 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9830,11 +9930,14 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
         G_fatal_error(
             _("Unable to create <%s> metadata file for raster map <%s@%s>"),
             elem, name, G_mapset());
     } /* This else block is unnecessary but helps to silence static code
          analysis tools */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10174,10 +10277,14 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 =======
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
         G_fatal_error(_("Unable to create <%s> metadata file for raster map <%s@%s>"),
             elem, name, G_mapset());
     } /* This else block is unnecessary but helps to silence static code analysis tools */
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11106,6 +11213,8 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
     else {
         fprintf(fp, "%s\n", str);
 
@@ -11204,6 +11313,7 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12484,6 +12594,13 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            G_fatal_error(
+                _("Error closing <%s> metadata file for raster map <%s@%s>"),
+=======
+            G_fatal_error(_("Error closing <%s> metadata file for raster map <%s@%s>"),
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
                 elem, name, G_mapset());
     }
 }

@@ -2841,6 +2841,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3692,6 +3693,8 @@ from .utils import *
 =======
 =======
 from .setup import *
+=======
+>>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 >>>>>>> 1cb35c2fc8 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -4607,7 +4610,9 @@ from .utils import *
 =======
 from .setup import *
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 >>>>>>> 33ce7dd98b (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ef8caaafc7 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
@@ -4883,10 +4888,13 @@ from .display import *
 <<<<<<< HEAD
 >>>>>>> 59435e22e5 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
+>>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
+=======
 =======
 from .display import *
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
@@ -4910,3 +4918,5 @@ from .utils import *
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
