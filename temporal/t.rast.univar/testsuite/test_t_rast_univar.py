@@ -2754,6 +2754,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
 =======
@@ -2762,9 +2763,12 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
         cls.runModule("t.remove", flags="df", type="strds", inputs="A,B")
 =======
         cls.runModule("t.remove", flags="df", type="strds", inputs="A")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2984,6 +2988,8 @@ class TestRasterUnivar(TestCase):
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3072,13 +3078,19 @@ class TestRasterUnivar(TestCase):
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+>>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
         cls.runModule("t.remove", flags="df", type="strds", inputs="B")
 >>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
         cls.runModule("g.remove", flags="f", type="raster", name="zones")
 
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3094,6 +3106,8 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
         cls.del_temp_region()
 
     @xfail_windows
