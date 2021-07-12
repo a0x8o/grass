@@ -21,6 +21,7 @@ PYDIR = $(ETC)/python/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -412,7 +413,12 @@ PYDIR = $(ETC)/python/grass
 =======
 =======
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> fb4ab822d8 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> cea31271cd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> 9cb19e11bd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 SUBDIRS = \
 	app \
 	benchmark \
@@ -563,6 +569,7 @@ SUBDIRS = \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
@@ -616,6 +623,8 @@ SUBDIRS = \
 >>>>>>> 74df1483b5 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9cb19e11bd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 	benchmark \
 	exceptions \
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
@@ -844,7 +853,17 @@ SUBDIRS = \
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+	bandref \
+	benchmark \
+	ctypes \
+	exceptions \
+>>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> cea31271cd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> 9cb19e11bd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 	grassdb \
 	gunittest \
 	imaging \
@@ -852,6 +871,7 @@ SUBDIRS = \
 	pydispatch \
 	pygrass \
 	script \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -931,6 +951,8 @@ SUBDIRS = \
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9cb19e11bd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1121,6 +1143,8 @@ SUBDIRS = \
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cea31271cd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 	semantic_label \
 	temporal \
 	utils
@@ -1232,12 +1256,16 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82a986a7e1 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+>>>>>>> cea31271cd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 	temporal \
 	utils
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1299,6 +1327,8 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 >>>>>>> osgeo-main
 =======
 >>>>>>> 74df1483b5 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+>>>>>>> 9cb19e11bd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -1717,7 +1747,12 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydispatch imaging gunittest bandref jupyter
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> fb4ab822d8 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> cea31271cd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> 9cb19e11bd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 
 default: $(PYDIR)/__init__.py
 	$(MAKE) subdirs

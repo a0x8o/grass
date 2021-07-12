@@ -119,6 +119,7 @@ def is_location_valid(path, location=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -166,6 +167,8 @@ def is_location_valid(path, location=None):
 >>>>>>> c167de6248 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9cb19e11bd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> e3f946d7fe (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
@@ -237,7 +240,12 @@ def is_location_valid(path, location=None):
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cea31271cd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> 9cb19e11bd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
     :param path: Path to a Location or to a GRASS GIS database directory
 =======
 <<<<<<< HEAD
@@ -314,6 +322,7 @@ def is_location_valid(path, location=None):
 >>>>>>> osgeo-main
     :param database: Path to a Location or to a GRASS GIS database directory
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -591,7 +600,12 @@ def is_location_valid(path, location=None):
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cea31271cd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> 9cb19e11bd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
     :param location: name of a Location if not part of *path*
     """
     # DEFAULT_WIND file should not be required until you do something
@@ -599,6 +613,7 @@ def is_location_valid(path, location=None):
     # containing a PERMANENT/DEFAULT_WIND file is probably a GRASS
     # location, while a directory lacking it probably isn't.
     if location:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -693,6 +708,8 @@ def is_location_valid(path, location=None):
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 9cb19e11bd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
 >>>>>>> 1797d7c620 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
@@ -733,7 +750,12 @@ def is_location_valid(path, location=None):
 =======
 =======
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> c167de6248 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> cea31271cd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> 9cb19e11bd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
         path = os.path.join(path, location)
 =======
 <<<<<<< HEAD
@@ -810,6 +832,7 @@ def is_location_valid(path, location=None):
 >>>>>>> osgeo-main
         path = os.path.join(location)
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1039,6 +1062,8 @@ def is_mapset_current(database, location, mapset) -> bool:
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cea31271cd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
     return os.access(os.path.join(path, "PERMANENT", "DEFAULT_WIND"), os.F_OK)
 
 
