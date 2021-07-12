@@ -49,6 +49,7 @@ PYDIR = $(ETC)/python/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -76,6 +77,8 @@ PYDIR = $(ETC)/python/grass
 >>>>>>> cc77d8a6fa (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -208,7 +211,12 @@ PYDIR = $(ETC)/python/grass
 =======
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> e3f946d7fe (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 SUBDIRS = \
 	app \
 	benchmark \
@@ -308,6 +316,7 @@ SUBDIRS = \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -338,6 +347,8 @@ SUBDIRS = \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 	benchmark \
 	exceptions \
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
@@ -453,7 +464,17 @@ SUBDIRS = \
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+	bandref \
+	benchmark \
+	ctypes \
+	exceptions \
+>>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> e3f946d7fe (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 	grassdb \
 	gunittest \
 	imaging \
@@ -492,6 +513,7 @@ SUBDIRS = \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -499,6 +521,8 @@ SUBDIRS = \
 <<<<<<< HEAD
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -634,6 +658,8 @@ SUBDIRS = \
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e3f946d7fe (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 	semantic_label \
 	temporal \
 	utils
@@ -941,8 +967,11 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 	utils
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 490780e974 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
+=======
+>>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 	semantic_label \
 	temporal \
@@ -966,7 +995,12 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 =======
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> e3f946d7fe (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 
 default: $(PYDIR)/__init__.py
 	$(MAKE) subdirs

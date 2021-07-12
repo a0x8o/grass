@@ -113,6 +113,7 @@ class GMApp(wx.App):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
             single = UserSettings.Get(
@@ -185,6 +186,10 @@ class GMApp(wx.App):
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> e3f946d7fe (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
             single = UserSettings.Get(
                 group="appearance", key="singleWindow", subkey="enabled"
 =======
@@ -477,6 +482,9 @@ class GMApp(wx.App):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -563,11 +571,15 @@ class GMApp(wx.App):
 >>>>>>> osgeo-main
 
 <<<<<<< HEAD
+=======
+
+>>>>>>> e3f946d7fe (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
             mainframe = GMFrame(parent=None, id=wx.ID_ANY, workspace=self.workspaceFile)
             mainframe.Show()
             self.SetTopWindow(mainframe)
 
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -627,12 +639,15 @@ class GMApp(wx.App):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
 
             mainframe = GMFrame(parent=None, id=wx.ID_ANY, workspace=self.workspaceFile)
             mainframe.Show()
             self.SetTopWindow(mainframe)
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -706,6 +721,10 @@ class GMApp(wx.App):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> e3f946d7fe (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
         wx.CallAfter(show_main_gui)
 =======
         # testing purposes
