@@ -3696,6 +3696,9 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 4d810f7f30 (pythonlib: Remove star imports (#1546))
 =======
@@ -4192,6 +4195,7 @@ class GrassTestFilesInvoker:
 >>>>>>> 9bd3ee5790 (pythonlib: Remove star imports (#1546))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 0915ba12ad (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 >>>>>>> db4f0c5e9e (pythonlib: Remove star imports (#1546))
@@ -4368,7 +4372,13 @@ class GrassTestFilesInvoker:
 =======
 =======
 >>>>>>> c9ede9fa1e (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> c72ebf83a6 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+>>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
                     return decode(data, encoding=encoding)
 =======
 <<<<<<< HEAD
@@ -4520,6 +4530,10 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> osgeo-main
@@ -4546,6 +4560,7 @@ class GrassTestFilesInvoker:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -4586,6 +4601,9 @@ class GrassTestFilesInvoker:
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
 =======
                     return decode(data, encoding=encoding)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -5445,8 +5463,16 @@ class GrassTestFilesInvoker:
                     return decode(stdout, encoding=encoding)
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> c190252548 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 4d810f7f30 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> aaf70da5d9 (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+>>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):
