@@ -90,6 +90,7 @@ PYDIR = $(ETC)/python/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1230,6 +1231,7 @@ PYDIR = $(ETC)/python/grass
 =======
 >>>>>>> 9407f56951 (Add session initiations functions for Jupyter Notebooks (#1629))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5707da07bf (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 =======
@@ -1746,6 +1748,10 @@ PYDIR = $(ETC)/python/grass
 =======
 >>>>>>> 9407f56951 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> 156c684414 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 SUBDIRS = \
 	app \
 	benchmark \
@@ -4525,6 +4531,7 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
@@ -6447,13 +6454,17 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 >>>>>>> 9407f56951 (Add session initiations functions for Jupyter Notebooks (#1629))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5707da07bf (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
+=======
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 =======
 =======
 SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydispatch imaging gunittest bandref jupyter
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4480ca2a94 (libpython: Save and load benchmark results (#1711))
 =======
@@ -7005,6 +7016,8 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 >>>>>>> ea91af519a (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 156c684414 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 
 default: $(PYDIR)/__init__.py
 	$(MAKE) subdirs

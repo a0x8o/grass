@@ -253,6 +253,7 @@ def get_pyplot(to_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -792,6 +793,8 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 99dbae4f6d (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -2676,9 +2679,20 @@ def nprocs_plot(results, filename=None, title=None):
 <<<<<<< HEAD
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 =======
+def nprocs_plot(results, filename=None, title=None, metric="time"):
+=======
+<<<<<<< HEAD
+def nprocs_plot(results, filename=None, title=None):
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+    """Plot results from a multiple nprocs (thread) benchmarks.
+
+    *results* is a list of individual results from separate benchmarks.
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+=======
 def nprocs_plot(results, filename=None):
     """Plot results from a multiple nprocs (thread) benchmarks.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2759,6 +2773,8 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -3826,7 +3842,14 @@ def nprocs_plot(results, filename=None):
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    *results* is a list of individual results from separate benchmars.
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
     One result is required to have attributes: *nprocs*, *times*, *label*.
     The *nprocs* attribute is a list of all processing elements
     (cores, threads, processes) used in the benchmark.
@@ -4055,6 +4078,7 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4133,6 +4157,8 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 99dbae4f6d (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -4793,6 +4819,7 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4951,6 +4978,10 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 6e84cf14b2 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
     # If there is not many x values, show ticks for each, but use default
     # ticks when there is a lot of x values.
     if len(x_ticks) < 10:
@@ -6064,6 +6095,7 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6517,6 +6549,8 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 1c3c7a612a (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
     elif metric in {"speedup", "efficiency"}:
 =======
 =======
@@ -6616,10 +6650,16 @@ def nprocs_plot(results, filename=None):
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+=======
+    elif metric in {"speedup", "efficiency"}:
+=======
+<<<<<<< HEAD
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
     elif metric in ["speedup", "efficiency"]:
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
         plt.title(f"{metric.title()} by processing elements")
 =======
+<<<<<<< HEAD
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -6863,6 +6903,7 @@ def nprocs_plot(results, filename=None):
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -6970,10 +7011,16 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
     axes.set(xticks=sorted(x_ticks))
     plt.xlabel("Number of cores (threads, processes)")
     plt.ylabel("Time [s]")
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7063,6 +7110,8 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> osgeo-main
@@ -9426,6 +9475,7 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -10014,6 +10064,11 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
     if filename:
         plt.savefig(filename)
     else:
@@ -10071,6 +10126,7 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10837,6 +10893,7 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -11135,10 +11192,15 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 def num_cells_plot(results, filename=None, title=None, show_resolution=False):
     """Plot results from a multiple raster grid size benchmarks.
 
     *results* is a list of individual results from separate benchmarks
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11620,6 +11682,7 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -11751,6 +11814,11 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 1c3c7a612a (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 def num_cells_plot(results, filename=None, show_resolution=False):
     """Plot results from a multiple raster grid size benchmarks.
 
@@ -11790,6 +11858,7 @@ def num_cells_plot(results, filename=None, show_resolution=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 =======
@@ -11822,6 +11891,8 @@ def num_cells_plot(results, filename=None, show_resolution=False):
 >>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12965,6 +13036,7 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -13305,6 +13377,11 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
     with one result being similar to the :func:`nprocs_plot` function.
     The result is required to have *times* and *label* attributes
     and may have an *all_times* attribute.
@@ -13508,6 +13585,7 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13777,6 +13855,8 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 >>>>>>> 9c4cb0749b (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> 547913387f (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -14663,6 +14743,7 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -14945,6 +15026,10 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 >>>>>>> 9c4cb0749b (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
     if title:
         plt.title(title)
     elif show_resolution:
@@ -14997,6 +15082,7 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16674,7 +16760,14 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
     if filename:
         plt.savefig(filename)
     else:

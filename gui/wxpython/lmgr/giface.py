@@ -426,6 +426,7 @@ class LayerManagerGrassInterface:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -614,6 +615,8 @@ class LayerManagerGrassInterface:
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1cc6936fc1 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -1469,7 +1472,12 @@ class LayerManagerGrassInterface:
 =======
 =======
 >>>>>>> 6dc9b532d4 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+<<<<<<< HEAD
 >>>>>>> 1cc6936fc1 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+=======
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 class LayerManagerGrassInterfaceForMapDisplay:
 =======
     def ShowStatusbar(self, show=True):
@@ -1592,6 +1600,7 @@ class LayerManagerGrassInterfaceForMapDisplay:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1701,6 +1710,8 @@ class LayerManagerGrassInterfaceForMapDisplay:
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 1cc6936fc1 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
@@ -2539,12 +2550,16 @@ class LayerManagerGrassInterfaceForMapDisplay:
 =======
 >>>>>>> 6dc9b532d4 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68e94e2177 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
+=======
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4480ca2a94 (libpython: Save and load benchmark results (#1711))
 =======
@@ -2822,6 +2837,8 @@ class LayerManagerGrassInterfaceForMapDisplay:
 =======
 >>>>>>> 6dc9b532d4 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 >>>>>>> 1cc6936fc1 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+>>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 
 class LayerManagerGrassInterfaceForMapDisplay(object):
 >>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
