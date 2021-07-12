@@ -2868,6 +2868,7 @@ static void put_data(int fd, char *null_buf, const CELL *cell, int row, int n,
 			  row, fcb->name, strerror(errno));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5c819a5793 (lib/raster: add strerror(errno) to write failures (#1722))
 =======
 >>>>>>> 6837d544f9 (lib/raster: add strerror(errno) to write failures (#1722))
@@ -2878,6 +2879,11 @@ static void put_data(int fd, char *null_buf, const CELL *cell, int row, int n,
 =======
 >>>>>>> 5c819a5793 (lib/raster: add strerror(errno) to write failures (#1722))
 >>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
+=======
+>>>>>>> 5c819a5793 (lib/raster: add strerror(errno) to write failures (#1722))
+=======
+>>>>>>> 6837d544f9 (lib/raster: add strerror(errno) to write failures (#1722))
+>>>>>>> 84f214df04 (lib/raster: add strerror(errno) to write failures (#1722))
     }
 
     G_free(work_buf);
@@ -7171,7 +7177,10 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 	if (write(fcb->null_fd, flags, size) != size)
 	    G_fatal_error(_("Error writing compressed null data for row %d of <%s>: %s"),
 			  row, fcb->name, strerror(errno));
+<<<<<<< HEAD
 >>>>>>> 5c819a5793 (lib/raster: add strerror(errno) to write failures (#1722))
+=======
+>>>>>>> 6837d544f9 (lib/raster: add strerror(errno) to write failures (#1722))
     }
     else {
 <<<<<<< HEAD
@@ -7233,18 +7242,25 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
+=======
+>>>>>>> 84f214df04 (lib/raster: add strerror(errno) to write failures (#1722))
         G_fatal_error(_("Error writing null row %d of <%s>"), row, fcb->name);
 =======
 	G_fatal_error(_("Error writing null row %d of <%s>"),
 	              row, fcb->name);
 >>>>>>> 5c819a5793 (lib/raster: add strerror(errno) to write failures (#1722))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 84f214df04 (lib/raster: add strerror(errno) to write failures (#1722))
 =======
 	G_fatal_error(_("Error writing null row %d of <%s>"),
 	              row, fcb->name);
 >>>>>>> 6837d544f9 (lib/raster: add strerror(errno) to write failures (#1722))
+<<<<<<< HEAD
 =======
         G_fatal_error(_("Error writing null row %d of <%s>"), row, fcb->name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -7253,6 +7269,8 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
+=======
+>>>>>>> 84f214df04 (lib/raster: add strerror(errno) to write failures (#1722))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7864,8 +7882,11 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
+=======
+>>>>>>> 84f214df04 (lib/raster: add strerror(errno) to write failures (#1722))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -8881,10 +8902,14 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 	              row, fcb->name, strerror(errno));
 >>>>>>> 5c819a5793 (lib/raster: add strerror(errno) to write failures (#1722))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 84f214df04 (lib/raster: add strerror(errno) to write failures (#1722))
 =======
 	G_fatal_error(_("Error writing null row %d of <%s>: %s"),
 	              row, fcb->name, strerror(errno));
 >>>>>>> 6837d544f9 (lib/raster: add strerror(errno) to write failures (#1722))
+<<<<<<< HEAD
 =======
         G_fatal_error(_("Error writing null row %d of <%s>: %s"), row,
                       fcb->name, strerror(errno));
@@ -8895,6 +8920,8 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a1fae660a9 (lib/raster: add strerror(errno) to write failures (#1722))
+=======
+>>>>>>> 84f214df04 (lib/raster: add strerror(errno) to write failures (#1722))
 }
 
 static void convert_and_write_if(int fd, const void *vbuf)
