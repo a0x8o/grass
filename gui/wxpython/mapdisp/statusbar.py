@@ -2003,6 +2003,9 @@ class SbManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 102ca719c3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3013,7 +3016,15 @@ class SbManager:
         """Sets current mode and updates statusbar
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+    def SetMode(self, mode):
+        """Sets current mode and updates statusbar
+=======
+>>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 102ca719c3 (libpython: Save and load benchmark results (#1711))
     def OnToggleStatus(self, event):
         """Toggle status text"""
         self.Update()
@@ -3023,6 +3034,7 @@ class SbManager:
             # redraw map if auto-rendering is enabled
             if self.mapFrame.IsAutoRendered():
                 self.mapFrame.GetWindow().UpdateMap(render=False)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3085,6 +3097,8 @@ class SbManager:
 >>>>>>> 0d0bc8bfd9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 102ca719c3 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4506,7 +4520,13 @@ class SbManager:
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 102ca719c3 (libpython: Save and load benchmark results (#1711))
 
         Mode is usually driven by user through map display settings.
         """
@@ -11045,6 +11065,7 @@ class SbRender(SbItem):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11329,6 +11350,8 @@ class SbRender(SbItem):
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 102ca719c3 (libpython: Save and load benchmark results (#1711))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -11587,6 +11610,8 @@ class SbRender(SbItem):
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
 =======
 class SbShowRegion(SbItem):
     """Checkbox to enable and disable showing of computational region.
@@ -11848,6 +11873,7 @@ class SbResolution(SbItem):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -11985,6 +12011,8 @@ class SbResolution(SbItem):
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 102ca719c3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -12613,6 +12641,7 @@ class SbResolution(SbItem):
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -12945,6 +12974,10 @@ class SbResolution(SbItem):
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 102ca719c3 (libpython: Save and load benchmark results (#1711))
 class SbMapScale(SbItem):
     """Editable combobox to get/set current map scale.
 
