@@ -213,6 +213,7 @@ def debug(*args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     # Lazy import to avoding potential circular dependency.
 =======
 <<<<<<< HEAD
@@ -358,6 +359,8 @@ def debug(*args, **kwargs):
 >>>>>>> c355a1ccb4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 08f56f7d61 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -600,6 +603,7 @@ def debug(*args, **kwargs):
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -931,6 +935,10 @@ def debug(*args, **kwargs):
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0d77b1a89c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> 08f56f7d61 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
     # Lazy import to avoiding potential circular dependency.
 =======
     # Lazy import to avoding potential circular dependency.
@@ -1038,6 +1046,7 @@ def debug(*args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
@@ -1185,6 +1194,8 @@ def debug(*args, **kwargs):
 >>>>>>> c355a1ccb4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 08f56f7d61 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1748,6 +1759,7 @@ def debug(*args, **kwargs):
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1920,6 +1932,10 @@ def debug(*args, **kwargs):
 >>>>>>> c355a1ccb4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0d77b1a89c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> 08f56f7d61 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
     import grass.script as gs  # pylint: disable=import-outside-toplevel
 
     gs.debug(*args, **kwargs)
@@ -2049,6 +2065,7 @@ def extract_tar(name, directory, tmpdir):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tar.extractall(path=extract_dir)
 =======
 <<<<<<< HEAD
@@ -2194,6 +2211,8 @@ def extract_tar(name, directory, tmpdir):
 >>>>>>> c355a1ccb4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 08f56f7d61 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2436,6 +2455,7 @@ def extract_tar(name, directory, tmpdir):
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2767,6 +2787,10 @@ def extract_tar(name, directory, tmpdir):
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0d77b1a89c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> 08f56f7d61 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 
         # Extraction filters were added in Python 3.12,
         # and backported to 3.8.17, 3.9.17, 3.10.12, and 3.11.4
@@ -2888,6 +2912,7 @@ def extract_tar(name, directory, tmpdir):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
@@ -3037,6 +3062,8 @@ def extract_tar(name, directory, tmpdir):
 >>>>>>> c355a1ccb4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 08f56f7d61 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 8179f73812 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 >>>>>>> 5d71474136 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
@@ -3599,6 +3626,7 @@ def extract_tar(name, directory, tmpdir):
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3772,6 +3800,10 @@ def extract_tar(name, directory, tmpdir):
 >>>>>>> c355a1ccb4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0d77b1a89c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> 08f56f7d61 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
         files = os.listdir(extract_dir)
         _move_extracted_files(
             extract_dir=extract_dir, target_dir=directory, files=files
