@@ -215,6 +215,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -382,6 +383,8 @@ class Info:
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -663,9 +666,14 @@ class Info:
         """Get semantic label identifier.
 >>>>>>> 8984405ebb (libpython: Save and load benchmark results (#1711))
 =======
+    def _get_semantic_label(self):
+        """Get semantic label identifier.
+>>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+=======
     def _get_bandref(self):
         """Get band reference identifier.
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -951,7 +959,12 @@ class Info:
 =======
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+>>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
 
         :return str: semantic label (eg. S2_1) or None
         """
@@ -980,6 +993,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
@@ -1368,7 +1382,12 @@ class Info:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+>>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
         semantic_label = libraster.Rast_read_semantic_label(self.name, self.mapset)
         if semantic_label:
             return utils.decode(semantic_label)
@@ -1388,6 +1407,7 @@ class Info:
             libgis.G_remove_misc("cell_misc", "semantic_label", self.name)
 
     semantic_label = property(_get_semantic_label, _set_semantic_label)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1557,10 +1577,16 @@ class Info:
 =======
 >>>>>>> 8984405ebb (libpython: Save and load benchmark results (#1711))
 =======
+<<<<<<< HEAD
 >>>>>>> f91c52c645 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
         bandref = libraster.Rast_read_bandref(self.name, self.mapset)
         if bandref:
             return utils.decode(bandref)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2362,7 +2388,29 @@ class Info:
 =======
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        return None
+
+    @must_be_in_current_mapset
+    def _set_bandref(self, bandref):
+        """Set/Unset band reference identifier.
+
+        :param str bandref: band reference to assign or None to remove (unset)
+        """
+        if bandref:
+            if libraster.Rast_legal_bandref(bandref) < 0:
+                raise ValueError(_("Invalid band reference"))
+            libraster.Rast_write_bandref(self.name, bandref)
+        else:
+            libgis.G_remove_misc("cell_misc", "bandref", self.name)
+
+    bandref = property(_get_bandref, _set_bandref)
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+>>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
 
     def _get_units(self):
         units = libraster.Rast_read_units(self.name, self.mapset)
