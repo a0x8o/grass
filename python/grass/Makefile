@@ -35,6 +35,7 @@ PYDIR = $(ETC)/python/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -775,6 +776,7 @@ PYDIR = $(ETC)/python/grass
 =======
 >>>>>>> 33ca8caf20 (Add session initiations functions for Jupyter Notebooks (#1629))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 874a1d323f (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 =======
@@ -1377,6 +1379,10 @@ PYDIR = $(ETC)/python/grass
 =======
 >>>>>>> 33ca8caf20 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> fd0478acc8 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+>>>>>>> a29c4a1571 (libpython: Save and load benchmark results (#1711))
 SUBDIRS = \
 	app \
 	benchmark \
@@ -3475,6 +3481,7 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydispatch imaging gunittest bandref jupyter
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -4846,13 +4853,17 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 >>>>>>> 33ca8caf20 (Add session initiations functions for Jupyter Notebooks (#1629))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 874a1d323f (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
+=======
+>>>>>>> a29c4a1571 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydispatch imaging gunittest bandref jupyter
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ae5deb8874 (libpython: Save and load benchmark results (#1711))
 =======
@@ -5555,6 +5566,8 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 >>>>>>> fa7df22047 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> fd0478acc8 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+>>>>>>> a29c4a1571 (libpython: Save and load benchmark results (#1711))
 
 default: $(PYDIR)/__init__.py
 	$(MAKE) subdirs

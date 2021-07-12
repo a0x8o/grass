@@ -35,6 +35,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -775,6 +776,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 =======
 >>>>>>> 33ca8caf20 (Add session initiations functions for Jupyter Notebooks (#1629))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 874a1d323f (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 =======
@@ -1377,6 +1379,10 @@ DSTDIR = $(ETC)/python/grass/jupyter
 =======
 >>>>>>> 33ca8caf20 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> fd0478acc8 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+>>>>>>> a29c4a1571 (libpython: Save and load benchmark results (#1711))
 MODULES = \
 	setup \
 	map \
@@ -2260,6 +2266,7 @@ MODULES = setup
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4fc859df4b (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
@@ -2270,6 +2277,12 @@ MODULES = setup
 =======
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 0d0bc8bfd9 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+>>>>>>> a29c4a1571 (libpython: Save and load benchmark results (#1711))
 >>>>>>> dc994d1258 (Add session initiations functions for Jupyter Notebooks (#1629))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2577,10 +2590,13 @@ MODULES = setup display
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 0d0bc8bfd9 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> a29c4a1571 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
@@ -4164,6 +4180,7 @@ MODULES = \
 >>>>>>> dc994d1258 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> 33ca8caf20 (Add session initiations functions for Jupyter Notebooks (#1629))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 874a1d323f (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 =======
@@ -5566,6 +5583,11 @@ MODULES = \
 >>>>>>> dc994d1258 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> 33ca8caf20 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> fd0478acc8 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+>>>>>>> a29c4a1571 (libpython: Save and load benchmark results (#1711))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
