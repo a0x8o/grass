@@ -4984,6 +4984,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5138,6 +5139,8 @@ from .setup import *
 =======
 >>>>>>> 2cf278b2b8 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+>>>>>>> 5faab49e7e (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -5151,7 +5154,12 @@ from .setup import *
 =======
 =======
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 2cf278b2b8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+>>>>>>> 5faab49e7e (libpython: Save and load benchmark results (#1711))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -5402,6 +5410,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> 33ce7dd98b (Add session initiations functions for Jupyter Notebooks (#1629))
@@ -5525,6 +5534,8 @@ from .utils import *
 >>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 2cf278b2b8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 5faab49e7e (libpython: Save and load benchmark results (#1711))
 =======
 from .interact_display import *
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -8818,4 +8829,12 @@ from .display import *
 =======
 =======
 >>>>>>> e8f170298b (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 >>>>>>> 87f8137363 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+from .display import *
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+>>>>>>> 5faab49e7e (libpython: Save and load benchmark results (#1711))
