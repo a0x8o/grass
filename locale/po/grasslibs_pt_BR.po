@@ -256,6 +256,7 @@ msgstr "GUI <%s> não suportado nesta versão"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #, fuzzy
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
@@ -360,6 +361,8 @@ msgstr "GUI <%s> não suportado nesta versão"
 >>>>>>> f1ae4cefc3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 =======
 #, fuzzy
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
@@ -525,7 +528,13 @@ msgstr "GUI <%s> não suportado nesta versão"
 =======
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+>>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 msgid ""
 "The python command does not work as expected.\n"
 "Please check your installation or set the GRASS_PYTHON environment variable."
@@ -576,6 +585,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
@@ -627,6 +637,8 @@ msgstr ""
 >>>>>>> f1ae4cefc3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 56976800a2 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f2dfa9a433 (libpython: Save and load benchmark results (#1711))
@@ -879,7 +891,15 @@ msgstr ""
 =======
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+"O comando python não funciona como esperado!\n"
+"Por favor verifique seu ambiente de variável GRASS_PYTHON.\n"
+"Use a opção -help para obter mais detalhes.\n"
+>>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 
 #: ../lib/init/grass.py:810
 msgid "GRASS GUI not found. Please check your installation."
@@ -970,6 +990,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
@@ -1023,6 +1044,8 @@ msgstr ""
 >>>>>>> f1ae4cefc3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 56976800a2 (libpython: Save and load benchmark results (#1711))
 =======
@@ -1351,7 +1374,15 @@ msgstr "Mapset <%s> não existe."
 msgid "Mapset <{}> already exists."
 msgstr ""
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "Mapset <{}> already exists."
+msgstr "Mapset <%s> não existe."
+>>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 
 #: ../lib/init/grass.py:985
 msgid "A new mapset can be created using '-c' flag."
@@ -10605,6 +10636,7 @@ msgstr "As dimensões dos mosaicos usados ​​no mapa raster3d de saída (XxYx
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> de5b9cd94f (libpython: Save and load benchmark results (#1711))
@@ -10638,6 +10670,8 @@ msgstr "As dimensões dos mosaicos usados ​​no mapa raster3d de saída (XxYx
 >>>>>>> f1ae4cefc3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -11005,7 +11039,13 @@ msgstr "As dimensões dos mosaicos usados ​​no mapa raster3d de saída (XxYx
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 
 #: ../lib/gis/parser_standard_options.c:484
 msgid "Name of input vector map"
@@ -14911,6 +14951,7 @@ msgstr[1] "%d primitivas registradas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15054,6 +15095,8 @@ msgstr[1] "%d primitivas registradas"
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
@@ -15285,7 +15328,12 @@ msgstr[1] "%d primitivas registradas"
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 #, fuzzy, c-format
 msgid "Incomplete GRASS session: Variable '%s' not set"
@@ -17566,6 +17614,7 @@ msgstr "Não foi possível excluir linha de coor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -17663,6 +17712,8 @@ msgstr "Não foi possível excluir linha de coor"
 >>>>>>> f1ae4cefc3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -17831,7 +17882,12 @@ msgstr "Não foi possível excluir linha de coor"
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 #: ../lib/raster/histogram.c:53
@@ -18172,6 +18228,7 @@ msgstr "opções: arch,build,compiler,date,path,revision,svn_revision,version"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -18249,6 +18306,8 @@ msgstr "opções: arch,build,compiler,date,path,revision,svn_revision,version"
 >>>>>>> f1ae4cefc3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -18587,6 +18646,15 @@ msgstr "Não foi possível apagar o arquivo '%s'"
 =======
 msgstr ""
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+msgid "Unable to rewrite feature/offset %"
+msgstr "Impossível mudar de diretório para %s"
+
+#: ../lib/vector/Vlib/write.c:266
+#, fuzzy
+msgid "Unable to delete feature/offset %"
+msgstr "Não foi possível apagar o arquivo '%s'"
+>>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
 
 #: ../lib/vector/Vlib/write.c:299
 msgid "Unable to restore feature/offset %"
@@ -18661,6 +18729,7 @@ msgid ""
 msgstr ""
 "Existe mais de um ponto de nó <%d> com campo de categoria exclusivo <%d>.\n"
 "A camada de categorias exclusivas não é válida, portanto, você provavelmente obterá resultados incorretos."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20026,7 +20095,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 
 #: ../lib/init/grass.py:387
 msgid "initial GRASS database directory"
@@ -23989,6 +24064,7 @@ msgid "Unable to flush all tiles"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -24070,6 +24146,8 @@ msgid "Unable to flush all tiles"
 >>>>>>> f1ae4cefc3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8d53b00588 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f8d32d9e3a (libpython: Save and load benchmark results (#1711))
@@ -24521,7 +24599,17 @@ msgstr "Não foi possível limpar o índice"
 =======
 =======
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+msgstr "Não foi possível limpar todos os mosaicos"
+
+#: ../lib/raster3d/close.c:84
+msgid "Unable to flush index"
+msgstr "Não foi possível limpar o índice"
+>>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 
 #: ../lib/raster3d/close.c:94
 msgid "Unable to position file"
@@ -25020,6 +25108,7 @@ msgstr "Não foi possível limpar o arquivo %s para o mapa raster %s: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -25117,6 +25206,8 @@ msgstr "Não foi possível limpar o arquivo %s para o mapa raster %s: %s"
 >>>>>>> f1ae4cefc3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -25285,7 +25376,12 @@ msgstr "Não foi possível limpar o arquivo %s para o mapa raster %s: %s"
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 #: ../lib/ogsf/gsds.c:109
@@ -33866,6 +33962,7 @@ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -33955,6 +34052,8 @@ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%
 >>>>>>> f1ae4cefc3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -34739,4 +34838,9 @@ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+>>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
