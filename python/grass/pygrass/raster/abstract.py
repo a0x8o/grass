@@ -308,6 +308,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -685,6 +686,10 @@ class Info:
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1c3c7a612a (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -2261,6 +2266,7 @@ class Info:
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 6d0d0f1535 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> d86c47b865 (libpython: Save and load benchmark results (#1711))
@@ -2347,7 +2353,21 @@ class Info:
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    def _get_semantic_label(self):
+        """Get semantic label identifier.
+=======
+    def _get_bandref(self):
+        """Get band reference identifier.
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+>>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1c3c7a612a (libpython: Save and load benchmark results (#1711))
 
         :return str: semantic label (eg. S2_1) or None
         """
@@ -2400,6 +2420,9 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
@@ -2934,7 +2957,13 @@ class Info:
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+>>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
         semantic_label = libraster.Rast_read_semantic_label(self.name, self.mapset)
         if semantic_label:
             return utils.decode(semantic_label)
@@ -3386,6 +3415,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
@@ -3393,6 +3423,8 @@ class Info:
 =======
 >>>>>>> 8d53b00588 (libpython: Save and load benchmark results (#1711))
 =======
+=======
+>>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -4597,6 +4629,7 @@ class Info:
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -4607,9 +4640,14 @@ class Info:
 >>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> dcc1810d30 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 1c3c7a612a (libpython: Save and load benchmark results (#1711))
         bandref = libraster.Rast_read_bandref(self.name, self.mapset)
         if bandref:
             return utils.decode(bandref)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4624,6 +4662,8 @@ class Info:
 >>>>>>> dcc1810d30 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> d9ea5124d9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 1c3c7a612a (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4979,7 +5019,10 @@ class Info:
 <<<<<<< HEAD
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1c3c7a612a (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -5268,6 +5311,7 @@ class Info:
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6176,6 +6220,30 @@ class Info:
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+        return None
+
+    @must_be_in_current_mapset
+    def _set_bandref(self, bandref):
+        """Set/Unset band reference identifier.
+
+        :param str bandref: band reference to assign or None to remove (unset)
+        """
+        if bandref:
+            if libraster.Rast_legal_bandref(bandref) < 0:
+                raise ValueError(_("Invalid band reference"))
+            libraster.Rast_write_bandref(self.name, bandref)
+        else:
+            libgis.G_remove_misc("cell_misc", "bandref", self.name)
+
+    bandref = property(_get_bandref, _set_bandref)
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+>>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1c3c7a612a (libpython: Save and load benchmark results (#1711))
 
     def _get_units(self):
         units = libraster.Rast_read_units(self.name, self.mapset)
