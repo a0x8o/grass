@@ -79,6 +79,7 @@ SUBDIRS = \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -223,6 +224,8 @@ SUBDIRS = \
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 73992ddf8e (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 	g.bands \
 <<<<<<< HEAD
@@ -371,13 +374,17 @@ SUBDIRS = \
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
+=======
+>>>>>>> 73992ddf8e (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 =======
 	g.bands \
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 >>>>>>> e3f946d7fe (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a57bd0b80c (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
@@ -1014,6 +1021,8 @@ SUBDIRS = \
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 73992ddf8e (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 	g.download.location \
 	g.download.project \
 =======
