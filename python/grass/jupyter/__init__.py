@@ -2258,6 +2258,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2404,6 +2405,8 @@ from .setup import *
 >>>>>>> ff508b1907 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 724bccdb58 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 094016f111 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2889,7 +2892,12 @@ from .setup import *
 =======
 =======
 >>>>>>> 196a20892e (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> ff508b1907 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 094016f111 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 >>>>>>> 095dc4def6 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -2900,6 +2908,7 @@ from .setup import *
 =======
 from .setup import *
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2955,6 +2964,8 @@ from .setup import *
 >>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 980c935a7d (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 094016f111 (libpython: Save and load benchmark results (#1711))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3915,4 +3926,12 @@ from .utils import *
 from .setup import *
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> 33ce7dd98b (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 >>>>>>> ef8caaafc7 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+=======
+from .display import *
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 094016f111 (libpython: Save and load benchmark results (#1711))
