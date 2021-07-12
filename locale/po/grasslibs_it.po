@@ -14443,6 +14443,7 @@ msgstr "Copia %s <%s> al mapset corrente come <%s>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
@@ -14489,6 +14490,10 @@ msgstr "Copia %s <%s> al mapset corrente come <%s>"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #~ msgid ""
 #~ "To run the module <%s> add underscore at the end of the option <%s> to "
 #~ "avoid conflict with Python keywords. Underscore at the beginning is "
@@ -14502,6 +14507,7 @@ msgstr "Copia %s <%s> al mapset corrente come <%s>"
 #~ msgid "To run the module <%s> add underscore at the end of the option <%s> to avoid conflict with Python keywords. Underscore at the beginning is depreciated in GRASS GIS 7.0 and will be removed in version 7.1."
 #~ msgstr "per eseguire il modulo <%s> aggiungere il trattino basso alla fine dell'opzione <%s> per evitare conflitti con le parole chiave di Python. Il trattino basso all'inizio è obsoleto in GRASS GIS 7.0 e sarà rimosso nella versione 7.1."
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14560,6 +14566,8 @@ msgstr "Copia %s <%s> al mapset corrente come <%s>"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 msgid "To run the module <%s> add underscore at the end of the option <%s> to avoid conflict with Python keywords. Underscore at the beginning is depreciated in GRASS GIS 7.0 and will be removed in version 7.1."
 msgstr "per eseguire il modulo <%s> aggiungere il trattino basso alla fine dell'opzione <%s> per evitare conflitti con le parole chiave di Python. Il trattino basso all'inizio è obsoleto in GRASS GIS 7.0 e sarà rimosso nella versione 7.1."
@@ -15009,4 +15017,9 @@ msgstr "per eseguire il modulo <%s> aggiungere il trattino basso alla fine dell'
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))

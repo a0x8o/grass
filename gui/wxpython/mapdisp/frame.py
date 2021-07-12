@@ -2117,6 +2117,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2133,6 +2134,10 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
         if self.statusbar:
             self._registerContextMenuActions()
 =======
@@ -2227,6 +2232,7 @@ class MapPanel(SingleMapPanel):
 >>>>>>> osgeo-main
         self._registerContextMenuActions()
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 =======
         if self.statusbar:
             self._registerContextMenuActions()
@@ -2379,7 +2385,12 @@ class MapPanel(SingleMapPanel):
         if self.statusbar:
             self._registerContextMenuActions()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
         self._giface.updateMap.connect(self.MapWindow2D.UpdateMap)
         # default is 2D display mode
@@ -3135,6 +3146,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3372,7 +3384,44 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
+=======
+=======
+=======
+
+        def show_hide_toolbar_label():
+            return (
+                _("Hide toolbars") if self.AreAllToolbarsShown() else _("Show toolbars")
+            )
+
+        def on_show_hide_toolbar(event):
+            self.ShowAllToolbars(not self.AreAllToolbarsShown())
+
+        self.MapWindow2D.RegisterContextAction(
+            name="showAllToolbars",
+            label=show_hide_toolbar_label,
+            action=on_show_hide_toolbar,
+        )
+
+        def show_hide_statusbar_label():
+            return (
+                _("Hide statusbar") if self.IsStatusbarShown() else _("Show statusbar")
+            )
+
+        def on_show_hide_statusbar(event):
+            self.ShowStatusbar(not self.IsStatusbarShown())
+
+        self.MapWindow2D.RegisterContextAction(
+            name="showStatusbar",
+            label=show_hide_statusbar_label,
+            action=on_show_hide_statusbar,
+        )
+
+    def CreateStatusbar(self):
+        if self.statusbarManager:
+            return
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 <<<<<<< HEAD
@@ -4535,6 +4584,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4606,8 +4656,13 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
+=======
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
     def ShowAllToolbars(self, show=True):
         if not show:  # hide
             action = self.RemoveToolbar
@@ -4626,6 +4681,7 @@ class MapPanel(SingleMapPanel):
         return False
 
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4677,6 +4733,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
@@ -4779,7 +4837,12 @@ class MapPanel(SingleMapPanel):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
     def RemoveQueryLayer(self):
         """Removes temporary map layers (queries)"""
         qlayer = self.GetMap().GetListOfLayers(name=globalvar.QUERYLAYER)

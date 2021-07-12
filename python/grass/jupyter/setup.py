@@ -2163,6 +2163,7 @@ class _JupyterGlobalSession:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -2219,6 +2220,8 @@ class _JupyterGlobalSession:
 =======
 >>>>>>> a09cd63835 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
@@ -2227,7 +2230,12 @@ class _JupyterGlobalSession:
 =======
 =======
 >>>>>>> 793ee713c5 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+<<<<<<< HEAD
 >>>>>>> a09cd63835 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 
 def display_settings(font="sans", driver="cairo"):
@@ -2342,6 +2350,7 @@ def display_settings(font="sans", driver="cairo"):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2380,6 +2389,8 @@ def display_settings(font="sans", driver="cairo"):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3074,4 +3085,9 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> d821fd6f6f (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 >>>>>>> cc77d8a6fa (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))

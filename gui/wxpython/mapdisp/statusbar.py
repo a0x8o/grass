@@ -517,6 +517,7 @@ class SbManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -539,6 +540,10 @@ class SbManager:
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
     def SetMode(self, mode):
         """Sets current mode and updates statusbar
 =======
@@ -659,6 +664,7 @@ class SbManager:
             # redraw map if auto-rendering is enabled
             if self.mapFrame.IsAutoRendered():
                 self.mapFrame.GetWindow().UpdateMap(render=False)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
@@ -884,7 +890,13 @@ class SbManager:
     def SetMode(self, mode):
         """Sets current mode and updates statusbar
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
         Mode is usually driven by user through map display settings.
         """
@@ -1906,6 +1918,7 @@ class SbRender(SbItem):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1974,6 +1987,10 @@ class SbRender(SbItem):
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 class SbShowRegion(SbItem):
     """Checkbox to enable and disable showing of computational region.
@@ -2163,6 +2180,7 @@ class SbResolution(SbItem):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -2193,6 +2211,8 @@ class SbResolution(SbItem):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2295,7 +2315,12 @@ class SbResolution(SbItem):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 class SbMapScale(SbItem):
     """Editable combobox to get/set current map scale.
 

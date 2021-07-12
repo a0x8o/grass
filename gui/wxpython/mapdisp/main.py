@@ -651,6 +651,7 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -706,6 +707,10 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -878,6 +883,8 @@ class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
         return toolbar.IsShown()
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 <<<<<<< HEAD
 <<<<<<< HEAD

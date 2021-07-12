@@ -398,6 +398,7 @@ msgstr "Exibição de Mapa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -459,6 +460,11 @@ msgstr "Exibição de Mapa"
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid ""
 "Adjusts the viewing height above the surface (angle of view automatically "
 "adjusts to maintain the same center of view)"
@@ -624,6 +630,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -680,6 +687,10 @@ msgstr ""
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "Falha ao executar o comando '%(command)s'. Detalhes:\n"
 "%(error)s"
 
@@ -720,6 +731,9 @@ msgstr "centro"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -821,6 +835,15 @@ msgstr "centro"
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 "Não foi possível iniciar o digitalizador vetorial wxGUI.\n"
 "Detalhes: %s"
+=======
+"Não foi possível iniciar o digitalizador vetorial wxGUI.\n"
+"Detalhes: %s"
+
+#: ../gui/wxpython/mapdisp/frame.py:302
+msgid "Vector Digitizer Toolbar"
+msgstr "Barra de ferramentas do Digitalizador Vetorial"
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/mapdisp/frame.py:302
 msgid "Vector Digitizer Toolbar"
@@ -1026,6 +1049,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1075,6 +1099,8 @@ msgstr ""
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "Define o visualizador diretamente sobre a posição central da cena. Esta "
 "visualização top orienta aproximadamente norte ao sul."
 =======
@@ -1174,7 +1200,15 @@ msgstr ""
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+"Define o visualizador diretamente sobre a posição central da cena. Esta "
+"visualização top orienta aproximadamente norte ao sul."
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "Não foi possível mudar para o modo de exibição 3D.\n"
 "A extensão Nviz python não foi encontrada ou carregada corretamente.\n"
 "Voltando para o modo de exibição 2D.\n"
@@ -1205,6 +1239,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -1327,6 +1362,8 @@ msgstr ""
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1337,12 +1374,19 @@ msgstr ""
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/nviz/tools.py:498
 msgid "reset"
 msgstr "redefinir"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1459,6 +1503,13 @@ msgstr "redefinir"
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/nviz/tools.py:499
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/nviz/tools.py:431
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 msgid "Reset to default view"
@@ -1485,6 +1536,7 @@ msgstr "Por favor aguarde, carregando dados..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1496,6 +1548,9 @@ msgstr "Por favor aguarde, carregando dados..."
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/mapdisp/frame.py:451
 msgid "Please wait, unloading data..."
@@ -1646,6 +1701,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Data Catalog - GRASS GIS"
 msgstr ""
 =======
@@ -1684,6 +1740,11 @@ msgstr "Catálogo de dados"
 msgid "Data Catalog - GRASS GIS"
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Data Catalog - GRASS GIS"
+msgstr "Catálogo de dados"
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/toolbars.py:25
 msgid "Reload GRASS locations"
@@ -1702,6 +1763,7 @@ msgstr "Recarregar apenas Mapset atual do GRASS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Restrict edits to the current mapset only"
 msgstr ""
 
@@ -1768,6 +1830,16 @@ msgstr "Somente possível copiar mapas para o Mapset atual"
 =======
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Restrict edits to the current mapset only"
+msgstr "Clicar para restringir edição apenas ao Mapset atual"
+
+#: ../gui/wxpython/datacatalog/toolbars.py:34
+#, fuzzy
+msgid "Allow edits outside of the current mapset"
+msgstr "Somente possível copiar mapas para o Mapset atual"
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/toolbars.py:37
 msgid "Add existing or create new database"
@@ -1782,6 +1854,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Create new mapset in current location"
 msgstr ""
 =======
@@ -1820,6 +1893,11 @@ msgstr "Criar novo Mapset na Location selecionada"
 msgid "Create new mapset in current location"
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Create new mapset in current location"
+msgstr "Criar novo Mapset na Location selecionada"
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/toolbars.py:43
 msgid "Create new location in current GRASS database"
@@ -1838,6 +1916,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Import raster data  [r.import]"
 msgstr ""
 
@@ -1904,6 +1983,16 @@ msgstr "Importar dados vetoriais"
 =======
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Import raster data  [r.import]"
+msgstr "Importar dados raster"
+
+#: ../gui/wxpython/datacatalog/toolbars.py:52
+#, fuzzy
+msgid "Import vector data  [v.import]"
+msgstr "Importar dados vetoriais"
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/toolbars.py:55
 msgid "Select another import option"
@@ -1920,6 +2009,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Search"
 msgstr ""
 
@@ -1986,6 +2076,16 @@ msgstr "Busca no banco de dados por tipo ou nome do mapa. Utilize os prefixos 'r
 =======
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Search"
+msgstr "Buscar:"
+
+#: ../gui/wxpython/datacatalog/toolbars.py:91
+#, fuzzy
+msgid "Type to search database by map type or name. Use Python regular expressions to refine your search."
+msgstr "Busca no banco de dados por tipo ou nome do mapa. Utilize os prefixos 'r:', 'v:' e 'r3:' para filtrar raster, vetor ou raster 3D, respectivamente. Expressões regulares do Python podem ser utilizadas para refinar a busca."
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/dialogs.py:33
 #: ../gui/wxpython/modules/import_export.py:909
@@ -2055,6 +2155,7 @@ msgstr "Sobrepor arquivo?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "name unknown"
 msgstr ""
 =======
@@ -2093,6 +2194,11 @@ msgstr "desconhecido"
 msgid "name unknown"
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "name unknown"
+msgstr "desconhecido"
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/tree.py:226
 #, python-brace-format
@@ -2123,6 +2229,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-brace-format
 msgid "{name}"
 msgstr ""
@@ -2166,6 +2273,11 @@ msgstr "&Renomear"
 msgid "{name}"
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy, python-brace-format
+msgid "{name}"
+msgstr "&Renomear"
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/tree.py:791
 #, python-brace-format
@@ -2218,6 +2330,7 @@ msgstr "Renomear mapa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Cannot rename mapset"
 msgstr ""
 =======
@@ -2256,6 +2369,11 @@ msgstr "Criar novo mapset:"
 msgid "Cannot rename mapset"
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Cannot rename mapset"
+msgstr "Criar novo mapset:"
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/tree.py:1074
 #, python-brace-format
@@ -2271,6 +2389,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Cannot rename location"
 msgstr ""
 =======
@@ -2280,12 +2399,15 @@ msgstr ""
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #, fuzzy
 msgid "Cannot rename location"
 msgstr ""
 "Não foi possível renomear a Location.\n"
 "\n"
 "%s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2312,6 +2434,8 @@ msgstr ""
 msgid "Cannot rename location"
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/tree.py:1093
 #, python-brace-format
@@ -2455,6 +2579,7 @@ msgstr "&Alterar mapset"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "&Delete mapset"
 msgstr ""
 
@@ -2621,6 +2746,41 @@ msgstr "Renomear location seleccionada"
 =======
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "&Delete mapset"
+msgstr "Apagar mapset"
+
+#: ../gui/wxpython/datacatalog/tree.py:1790
+#, fuzzy
+msgid "&Rename mapset"
+msgstr "Renomear mapa"
+
+#: ../gui/wxpython/datacatalog/tree.py:1803
+#, fuzzy
+msgid "&Create mapset"
+msgstr "Criar novo mapset:"
+
+#: ../gui/wxpython/datacatalog/tree.py:1807
+#, fuzzy
+msgid "&Delete location"
+msgstr "Apagar lcoation"
+
+#: ../gui/wxpython/datacatalog/tree.py:1813
+#, fuzzy
+msgid "&Rename location"
+msgstr "Renomear location seleccionada"
+
+#: ../gui/wxpython/datacatalog/tree.py:1828
+#, fuzzy
+msgid "&Create new location"
+msgstr "Definir nova location"
+
+#: ../gui/wxpython/datacatalog/tree.py:1832
+#, fuzzy
+msgid "&Download sample location"
+msgstr "Renomear location seleccionada"
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/tree.py:1836
 msgid "&Remove GRASS database from data catalog"
@@ -2639,6 +2799,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "&Delete locations"
 msgstr ""
 
@@ -2705,6 +2866,16 @@ msgstr "Apagar mapset"
 =======
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "&Delete locations"
+msgstr "Apagar lcoation"
+
+#: ../gui/wxpython/datacatalog/tree.py:1880
+#, fuzzy
+msgid "&Delete mapsets"
+msgstr "Apagar mapset"
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/tree.py:1892
 msgid "No available options"
@@ -2728,6 +2899,7 @@ msgstr "Escolha o diretório de dados GRASS:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Do you want to create a location?"
 msgstr ""
 
@@ -2834,6 +3006,26 @@ msgstr "Fazer link com dados vetoriais externos"
 =======
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Do you want to create a location?"
+msgstr "Deseja importar <%(name)s> para a nova Location criada?"
+
+#: ../gui/wxpython/datacatalog/catalog.py:115
+#, fuzzy
+msgid "Create location?"
+msgstr "Apagar lcoation"
+
+#: ../gui/wxpython/datacatalog/catalog.py:199
+#, fuzzy
+msgid "Link external raster data  [r.external]"
+msgstr "Fazer link com dados raster externos"
+
+#: ../gui/wxpython/datacatalog/catalog.py:203
+#, fuzzy
+msgid "Link external vector data  [v.external]"
+msgstr "Fazer link com dados vetoriais externos"
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/catalog.py:209
 msgid "Set raster output format  [r.external.out]"
@@ -2856,6 +3048,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unpack GRASS vector map  [v.unpack]"
 msgstr ""
 
@@ -2922,6 +3115,16 @@ msgstr "Cria mapas ráster a partir de arquivos de dados de polígonos/líneas/p
 =======
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Unpack GRASS vector map  [v.unpack]"
+msgstr "Informação base da Metadata vectorial"
+
+#: ../gui/wxpython/datacatalog/catalog.py:230
+#, fuzzy
+msgid "Create raster map from x,y,z data  [r.in.xyz]"
+msgstr "Cria mapas ráster a partir de arquivos de dados de polígonos/líneas/puntos ASCII."
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/catalog.py:234
 msgid "Create vector map from x,y,z data  [v.in.ascii]"
@@ -2941,6 +3144,7 @@ msgstr "Dados externos de link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "More options..."
 msgstr ""
 
@@ -3007,6 +3211,16 @@ msgstr "Catálogo de dados"
 =======
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "More options..."
+msgstr "Estabelecer opções"
+
+#: ../gui/wxpython/datacatalog/frame.py:31 ../gui/wxpython/menustrings.py:1999
+#, fuzzy
+msgid "Data Catalog"
+msgstr "Catálogo de dados"
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/frame.py:47
 msgid "Close GRASS GIS Data Catalog"
@@ -3540,6 +3754,7 @@ msgstr "círculo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-brace-format
 msgid ""
 "Unable to read settings file <{path}>:\n"
@@ -3552,11 +3767,14 @@ msgstr ""
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #, fuzzy, python-brace-format
 msgid ""
 "Unable to read settings file <{path}>:\n"
 "{err}"
 msgstr "Não foi possível abrir o arquivo de configuração <%s>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3595,6 +3813,8 @@ msgid ""
 "{err}"
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/core/settings.py:1069
 #, python-format
@@ -3922,6 +4142,7 @@ msgstr "%s=, %s=, %s= e %s= são mutuamente excludentes."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3946,6 +4167,11 @@ msgstr "Barra de Ferramentas de Animação"
 msgid "Animation Tool - GRASS GIS"
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Animation Tool - GRASS GIS"
+msgstr "Barra de Ferramentas de Animação"
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/animation/temporal_manager.py:110
 msgid "It is not allowed to display data with different temporal types (absolute and relative)."
@@ -4158,12 +4384,23 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Use saved region:"
 msgstr ""
 
 #: ../gui/wxpython/animation/dialogs.py:575
 msgid "Animate region change"
 msgstr ""
+=======
+#, fuzzy
+msgid "Use saved region:"
+msgstr "Região final:"
+
+#: ../gui/wxpython/animation/dialogs.py:575
+#, fuzzy
+msgid "Animate region change"
+msgstr "Animar mudança de região (somente visualização 2D) "
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/animation/dialogs.py:581
 msgid "End region:"
@@ -4487,6 +4724,7 @@ msgstr "Selecione mapas raster/vetoriais."
 msgid "Please select maps or dataset first."
 msgstr "Por favor, selecione mapas ou conjunto de dados primeiramente."
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -4517,6 +4755,9 @@ msgstr "Por favor, selecione mapas ou conjunto de dados primeiramente."
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/mapdisp/frame.py:451
 msgid "Please wait, unloading data..."
@@ -6718,6 +6959,7 @@ msgstr "Cor de fundo:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -6815,6 +7057,13 @@ msgstr "Cor de fundo:"
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/nviz/tools.py:562
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/nviz/tools.py:494
 =======
 #: ../gui/wxpython/animation/dialogs.py:1990
@@ -6879,12 +7128,16 @@ msgstr "Inválido"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Animation Tool"
 msgstr ""
 =======
 #, fuzzy
 msgid "Animation Tool"
 msgstr "Barra de Ferramentas de Animação"
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Animation Tool"
@@ -6975,6 +7228,9 @@ msgstr ""
 msgid "Animation Tool"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/animation/frame.py:157 ../gui/wxpython/mapswipe/frame.py:290
 msgid "Main Toolbar"
@@ -7174,6 +7430,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -7235,6 +7492,11 @@ msgstr ""
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid ""
 "Press 'Record' button and start changing the view. It is recommended to use "
 "fly-through mode (Map Display toolbar) to achieve smooth motion."
@@ -7264,6 +7526,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7321,6 +7584,10 @@ msgstr ""
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "Pressione o botão 'Gravar' e comece a mudar a visualização. Recomenda-se "
 "usar o modo fly-through (barra de ferramentas Map Display) para obter um "
 "movimento suave."
@@ -7345,6 +7612,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -7445,7 +7715,12 @@ msgstr ""
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "A Ferramenta Gráfico de Dispersão Interativo não pode ser usada.\n"
 "O número de células (linhas*colunas) <%d> na região atual é maior que o limite máximo <%d>.\n"
 "\n"
@@ -7475,6 +7750,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -7597,6 +7873,8 @@ msgstr ""
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -7607,7 +7885,13 @@ msgstr ""
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/nviz/tools.py:574
 msgid "Record"
@@ -7704,6 +7988,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7761,6 +8046,10 @@ msgstr ""
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "Os nomes dos arquivos gerados serão semelhantes a este: prefixo_1.ppm, "
 "prefixo_2.ppm,..."
 
@@ -7788,6 +8077,9 @@ msgstr "Formato do arquivo:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -7888,12 +8180,18 @@ msgstr "Formato do arquivo:"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "O número de células (linhas*cols) <%d> na região atual é maior que o limite recomendado <%d>.\n"
 "É altamente recomendável reduzir o número de células na região atual para um número abaixo do limite recomendado.\n"
 "Isso pode ser feito pelo comando <g.region>.\n"
 "\n"
 "Deseja continuar usando a Ferramenta Gráfico de Dispersão Interativo com esta região?"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7923,6 +8221,9 @@ msgstr "Formato do arquivo:"
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/iscatt/controllers.py:287
 msgid "Scatter plot with same band combination (regardless x y order) is already displayed."
@@ -7937,6 +8238,7 @@ msgstr "Um gráfico de dispersão com a mesma combinação de bandas (independen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -7978,6 +8280,10 @@ msgstr "Um gráfico de dispersão com a mesma combinação de bandas (independen
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/iscatt/controllers.py:287
 msgid "Scatter plot with same band combination (regardless x y order) is already displayed."
@@ -8103,6 +8409,7 @@ msgstr "Superfície constante"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -8200,6 +8507,13 @@ msgstr "Superfície constante"
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/nviz/tools.py:777 ../gui/wxpython/nviz/preferences.py:557
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/nviz/tools.py:707 ../gui/wxpython/nviz/preferences.py:557
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 msgid "Vector"
@@ -8539,12 +8853,16 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Timeline Tool - GRASS GIS"
 msgstr ""
 =======
 #, fuzzy
 msgid "Timeline Tool - GRASS GIS"
 msgstr "Bem-vindo ao GRASS GIS"
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Timeline Tool - GRASS GIS"
@@ -8635,6 +8953,9 @@ msgstr ""
 msgid "Timeline Tool - GRASS GIS"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/timeline/frame.py:38
 #, python-brace-format
@@ -8662,12 +8983,16 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Timeline Tool"
 msgstr ""
 =======
 #, fuzzy
 msgid "Timeline Tool"
 msgstr "GRASS GIS Timeline"
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Timeline Tool"
@@ -8758,6 +9083,9 @@ msgstr ""
 msgid "Timeline Tool"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/timeline/frame.py:134 ../gui/wxpython/tplot/frame.py:353
 #: ../gui/wxpython/nviz/preferences.py:405 ../gui/wxpython/nviz/tools.py:847
@@ -10930,12 +11258,16 @@ msgstr "Sim"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Graphical Modeler - GRASS GIS"
 msgstr ""
 =======
 #, fuzzy
 msgid "Graphical Modeler - GRASS GIS"
 msgstr "Modelador Gráfico"
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Graphical Modeler - GRASS GIS"
@@ -11026,6 +11358,9 @@ msgstr ""
 msgid "Graphical Modeler - GRASS GIS"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/gmodeler/frame.py:78 ../gui/wxpython/lmgr/toolbars.py:155
 #: ../gui/wxpython/gui_core/forms.py:1458
@@ -11483,12 +11818,16 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Create a generic cartesian coordinate system (XY)"
 msgstr ""
 =======
 #, fuzzy
 msgid "Create a generic cartesian coordinate system (XY)"
 msgstr "Arquivo <%s> não encontrado para locação <%s>"
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Create a generic cartesian coordinate system (XY)"
@@ -11579,6 +11918,9 @@ msgstr ""
 msgid "Create a generic cartesian coordinate system (XY)"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/location_wizard/wizard.py:357
 #: ../gui/wxpython/location_wizard/wizard.py:1437
@@ -11616,12 +11958,16 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Additional methods:"
 msgstr ""
 =======
 #, fuzzy
 msgid "Additional methods:"
 msgstr "Opções adicionais:"
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Additional methods:"
@@ -11712,6 +12058,9 @@ msgstr ""
 msgid "Additional methods:"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/location_wizard/wizard.py:500
 #: ../gui/wxpython/location_wizard/wizard.py:1018
@@ -11824,12 +12173,16 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Select CRS from a list"
 msgstr ""
 =======
 #, fuzzy
 msgid "Select CRS from a list"
 msgstr "Selecionar fonte"
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Select CRS from a list"
@@ -11920,6 +12273,9 @@ msgstr ""
 msgid "Select CRS from a list"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/location_wizard/wizard.py:1514
 msgid "Filter by EPSG code or description:"
@@ -11946,12 +12302,16 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Find more information at:"
 msgstr ""
 =======
 #, fuzzy
 msgid "Find more information at:"
 msgstr "Imprime informação do sistema"
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Find more information at:"
@@ -12042,12 +12402,16 @@ msgstr ""
 msgid "Find more information at:"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/location_wizard/wizard.py:1531
 #: ../gui/wxpython/location_wizard/wizard.py:1744
 #: ../gui/wxpython/vnet/dialogs.py:371
 msgid "Parameters"
 msgstr "Parâmetros"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12195,6 +12559,8 @@ msgstr "Parâmetros"
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -12205,7 +12571,13 @@ msgstr "Parâmetros"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/infomanager.py:58
 #, python-brace-format
@@ -12371,6 +12743,7 @@ msgstr "Código IAU ausente."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12427,6 +12800,10 @@ msgstr "Código IAU ausente."
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/datacatalog/infomanager.py:96
@@ -13115,10 +13492,13 @@ msgid "File <%s> not found."
 msgstr "Arquivo <%s> não encontrado."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/history/tree.py:142
@@ -13234,6 +13614,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -13331,6 +13712,13 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/history/tree.py:491
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/history/tree.py:195
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 #, fuzzy
@@ -13363,6 +13751,7 @@ msgstr "Definir extensão e resolução da região padrão"
 #: ../gui/wxpython/location_wizard/dialogs.py:108
 msgid "&Set region"
 msgstr "&Definir região"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13446,6 +13835,8 @@ msgstr "&Definir região"
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/history/browser.py:40
@@ -13477,7 +13868,13 @@ msgstr "Máscara"
 #, fuzzy
 msgid "North:"
 msgstr "Norte"
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/history/browser.py:46
 #, fuzzy
@@ -13857,9 +14254,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
+=======
+"Não foi possível renomear o mapset.\n"
+"\n"
+"%s"
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 <<<<<<< HEAD
@@ -13881,6 +14284,24 @@ msgstr ""
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+=======
+msgid "Invalid location selected."
+msgstr "Location inválida selecionada."
+
+#: ../gui/wxpython/location_wizard/dialogs.py:159
+msgid "Invalid region"
+msgstr "Região inválida"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:190
+msgid "Click here to show 3D settings"
+msgstr "Clique aqui para mostrar as configurações 3D"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:191
+msgid "Click here to hide 3D settings"
+msgstr "Clique aqui para ocultar as configurações 3D"
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/location_wizard/dialogs.py:140
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -14388,6 +14809,7 @@ msgstr "Linhas: %d"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -14510,6 +14932,8 @@ msgstr "Linhas: %d"
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -14520,7 +14944,13 @@ msgstr "Linhas: %d"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 <<<<<<< HEAD
 #: ../gui/wxpython/startup/guiutils.py:662
@@ -14529,6 +14959,7 @@ msgstr "Linhas: %d"
 #: ../gui/wxpython/startup/guiutils.py:663
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:681
 #, python-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14609,6 +15040,11 @@ msgstr "Linhas: %d"
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid ""
 "Data file <%(name)s> imported successfully. The project's default region was "
 "set from this imported map."
@@ -14643,6 +15079,7 @@ msgstr "Colunas: %d"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -14765,6 +15202,8 @@ msgstr "Colunas: %d"
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -14775,7 +15214,13 @@ msgstr "Colunas: %d"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 <<<<<<< HEAD
 #: ../gui/wxpython/startup/guiutils.py:693
@@ -14820,6 +15265,7 @@ msgstr "Células: %d"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -14942,6 +15388,8 @@ msgstr "Células: %d"
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -14952,13 +15400,22 @@ msgstr "Células: %d"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/startup/guiutils.py:712
 #: ../gui/wxpython/lmgr/workspace.py:159
 #, python-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 msgid ""
 "Current location is <%(loc)s>.\n"
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
@@ -15054,6 +15511,7 @@ msgid "Depth: %d"
 msgstr "Profundidade: %d"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -15061,6 +15519,9 @@ msgstr "Profundidade: %d"
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/startup/guiutils.py:723
 #, python-format
@@ -15313,6 +15774,9 @@ msgstr "Gerenciar Pontos de Controle no Solo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -15416,7 +15880,12 @@ msgstr "Profundidade: %d"
 #: ../gui/wxpython/location_wizard/dialogs.py:530
 #, python-format
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "3D Cells: %d"
 msgstr "Células 3D: %d"
 
@@ -15556,6 +16025,7 @@ msgstr "A gravação do arquivo POINTS falhou"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -15617,6 +16087,11 @@ msgstr "A gravação do arquivo POINTS falhou"
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #, python-format
 msgid "At least %d GCPs required. Operation canceled."
 msgstr "São necessários pelo menos %d GCPs. Operação cancelada."
@@ -15723,6 +16198,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pontos insuficientes definidos e ativos (marcados) para o método de retificação selecionado (ordem: %d).\n"
 =======
 <<<<<<< HEAD
@@ -15781,6 +16257,10 @@ msgstr ""
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "Pontos insuficientes definidos e ativos (marcados) para o método de "
 "retificação selecionado (ordem: %d).\n"
 =======
@@ -15806,6 +16286,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 "Pontos insuficientes definidos e ativos (marcados) para o método de retificação selecionado (ordem: %d).\n"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -15927,7 +16410,12 @@ msgstr ""
 =======
 "Pontos insuficientes definidos e ativos (marcados) para o método de retificação selecionado (ordem: %d).\n"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "3+ pontos necessários para 1ª ordem,\n"
 "6+ pontos para 2ª ordem e\n"
 "Mais de 10 pontos para a 3ª ordem."
@@ -15962,6 +16450,7 @@ msgstr "Retificando imagens, por favor aguarde..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -16004,6 +16493,8 @@ msgstr "Retificando imagens, por favor aguarde..."
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/gcp/manager.py:1895
 #: ../gui/wxpython/image2target/ii2t_manager.py:1836
 =======
@@ -16025,6 +16516,7 @@ msgstr "Retificando imagens, por favor aguarde..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -16067,6 +16559,10 @@ msgstr "Retificando imagens, por favor aguarde..."
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/gcp/manager.py:1894
 #: ../gui/wxpython/image2target/ii2t_manager.py:1822
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
@@ -16102,6 +16598,7 @@ msgstr "Gravando imagem de saída para o grupo, por favor, aguarde..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -16224,6 +16721,8 @@ msgstr "Gravando imagem de saída para o grupo, por favor, aguarde..."
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -16234,7 +16733,13 @@ msgstr "Gravando imagem de saída para o grupo, por favor, aguarde..."
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/gcp/manager.py:1901
 #: ../gui/wxpython/image2target/ii2t_manager.py:1842
@@ -16324,6 +16829,7 @@ msgstr "uso"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -16366,6 +16872,8 @@ msgstr "uso"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/gcp/manager.py:2474 ../gui/wxpython/gcp/manager.py:2493
 #: ../gui/wxpython/image2target/ii2t_manager.py:2412
 #: ../gui/wxpython/image2target/ii2t_manager.py:2433
@@ -16388,6 +16896,7 @@ msgstr "uso"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -16430,6 +16939,10 @@ msgstr "uso"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/gcp/manager.py:2470 ../gui/wxpython/gcp/manager.py:2489
 #: ../gui/wxpython/image2target/ii2t_manager.py:2395
 #: ../gui/wxpython/image2target/ii2t_manager.py:2416
@@ -16477,6 +16990,7 @@ msgstr "origem X"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -16488,6 +17002,9 @@ msgstr "origem X"
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/photo2image/ip2i_manager.py:1527
 #: ../gui/wxpython/photo2image/ip2i_manager.py:1545
@@ -16513,6 +17030,7 @@ msgstr "destino Y"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -16554,6 +17072,10 @@ msgstr "destino Y"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/photo2image/ip2i_manager.py:1527
 #: ../gui/wxpython/photo2image/ip2i_manager.py:1545
@@ -16703,6 +17225,7 @@ msgstr "Valor de coordenada inválido. Operação cancelada."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -16745,6 +17268,8 @@ msgstr "Valor de coordenada inválido. Operação cancelada."
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/gcp/manager.py:2690
 #: ../gui/wxpython/image2target/ii2t_manager.py:2636
 =======
@@ -16766,6 +17291,7 @@ msgstr "Valor de coordenada inválido. Operação cancelada."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -16808,6 +17334,10 @@ msgstr "Valor de coordenada inválido. Operação cancelada."
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/gcp/manager.py:2686
 #: ../gui/wxpython/image2target/ii2t_manager.py:2619
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
@@ -16840,6 +17370,7 @@ msgstr "Selecione o(s) mapa(s) vetorial(is) para adicionar ao grupo:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -16851,6 +17382,9 @@ msgstr "Selecione o(s) mapa(s) vetorial(is) para adicionar ao grupo:"
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Edit GCP"
 msgstr "Edite GCP"
 
@@ -16885,6 +17419,7 @@ msgstr "destino Y:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -16896,10 +17431,14 @@ msgstr "destino Y:"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/gcp/manager.py:2827
 #: ../gui/wxpython/image2target/ii2t_manager.py:2755
 #: ../gui/wxpython/photo2image/ip2i_manager.py:1894
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -16930,6 +17469,9 @@ msgstr "destino Y:"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Edit GCP"
 msgstr "Edite GCP"
 
@@ -17161,6 +17703,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -17203,6 +17746,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/gcp/manager.py:3048
 #: ../gui/wxpython/image2target/ii2t_manager.py:2996
 #: ../gui/wxpython/photo2image/ip2i_manager.py:2118
@@ -17225,6 +17770,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -17267,6 +17813,10 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/gcp/manager.py:3043
 #: ../gui/wxpython/image2target/ii2t_manager.py:2978
 #: ../gui/wxpython/photo2image/ip2i_manager.py:2112
@@ -17333,9 +17883,12 @@ msgstr "Cor para o GCP selecionado:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 #: ../gui/wxpython/photo2image/ip2i_manager.py:1943
 #: ../gui/wxpython/gcp/manager.py:2856
@@ -17367,6 +17920,7 @@ msgstr "Cor para erro RMS alto:"
 #: ../gui/wxpython/image2target/ii2t_manager.py:2827
 msgid "Color for selected GCP:"
 msgstr "Cor para o GCP selecionado:"
+<<<<<<< HEAD
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
@@ -17405,10 +17959,86 @@ msgstr "Cor para o GCP selecionado:"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/photo2image/ip2i_manager.py:2011
 #: ../gui/wxpython/gcp/manager.py:2924
 #: ../gui/wxpython/image2target/ii2t_manager.py:2847
+msgid "Color for unused GCPs:"
+msgstr "Cor para GCPs não utilizados:"
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2027
+#: ../gui/wxpython/gcp/manager.py:2940
+#: ../gui/wxpython/image2target/ii2t_manager.py:2863
+msgid "Show unused GCPs"
+msgstr "Mostrar GCPs não utilizados"
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2044
+#: ../gui/wxpython/gui_core/preferences.py:1440
+#: ../gui/wxpython/gcp/manager.py:2957
+#: ../gui/wxpython/image2target/ii2t_manager.py:2880
+msgid "Symbol size:"
+msgstr "Tamanho do símbolo:"
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2066
+#: ../gui/wxpython/vnet/dialogs.py:1288 ../gui/wxpython/mapswipe/dialogs.py:330
+#: ../gui/wxpython/gui_core/preferences.py:1408
+#: ../gui/wxpython/gcp/manager.py:2979
+#: ../gui/wxpython/image2target/ii2t_manager.py:2902
+#: ../gui/wxpython/psmap/dialogs.py:6797
+msgid "Line width:"
+msgstr "Espessura da linha:"
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2112
+#: ../gui/wxpython/gcp/manager.py:752 ../gui/wxpython/gcp/manager.py:3032
+#: ../gui/wxpython/image2target/ii2t_manager.py:743
+#: ../gui/wxpython/image2target/ii2t_manager.py:2954
+msgid "Select source map to display:"
+msgstr "Selecione o mapa de origem para exibir:"
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2126
+#: ../gui/wxpython/gcp/manager.py:778 ../gui/wxpython/gcp/manager.py:3046
+#: ../gui/wxpython/image2target/ii2t_manager.py:769
+#: ../gui/wxpython/image2target/ii2t_manager.py:2968
+msgid "Select target raster map to display:"
+msgstr "Selecione o mapa raster de destino para exibir:"
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2151
+#: ../gui/wxpython/gcp/manager.py:3086
+#: ../gui/wxpython/image2target/ii2t_manager.py:3008
+msgid "Rectification"
+msgstr "Retificação"
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+
+<<<<<<< HEAD
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2011
+#: ../gui/wxpython/gcp/manager.py:2924
+#: ../gui/wxpython/image2target/ii2t_manager.py:2847
+=======
+#: ../gui/wxpython/gcp/manager.py:3095
+<<<<<<< HEAD
+#: ../gui/wxpython/image2target/ii2t_manager.py:3030
+=======
+#: ../gui/wxpython/image2target/ii2t_manager.py:3017
+msgid "Select rectification order"
+msgstr "Selecione a ordem de retificação"
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2162
+#: ../gui/wxpython/gcp/manager.py:3097
+#: ../gui/wxpython/image2target/ii2t_manager.py:3019
+msgid "1st order"
+msgstr "1ª ordem"
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2163
+#: ../gui/wxpython/gcp/manager.py:3098
+#: ../gui/wxpython/image2target/ii2t_manager.py:3020
+msgid "2nd order"
+msgstr "2ª ordem"
+
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2164
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 msgid "Color for unused GCPs:"
 msgstr "Cor para GCPs não utilizados:"
 
@@ -17788,6 +18418,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -17885,6 +18516,13 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/gcp/manager.py:3285
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/gcp/manager.py:3280
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 msgid "overwrite result map"
@@ -17896,6 +18534,7 @@ msgstr "substituir mapa de resultados"
 #: ../gui/wxpython/image2target/ii2t_manager.py:3059
 msgid "Extension for output maps:"
 msgstr "Extensão para mapas de saída:"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18043,6 +18682,8 @@ msgstr "Extensão para mapas de saída:"
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -18053,7 +18694,13 @@ msgstr "Extensão para mapas de saída:"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/gcp/manager.py:3331
 #: ../gui/wxpython/image2target/ii2t_manager.py:3282
@@ -19230,6 +19877,7 @@ msgstr "Problema ao obter dados do conjunto de dados temporais vetoriais. Lista 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -19241,6 +19889,9 @@ msgstr "Problema ao obter dados do conjunto de dados temporais vetoriais. Lista 
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/tplot/frame.py:848
 msgid "Problem getting data from vector temporal dataset. Empty list of values."
@@ -19314,6 +19965,7 @@ msgstr "Com stvds você deve usar a opção 'coordinates' ou 'cats'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Temporal Plot Tool - GRASS GIS"
 msgstr ""
 =======
@@ -19352,10 +20004,16 @@ msgstr "Ferramenta de plotagem temporal GRASS GIS"
 msgid "Temporal Plot Tool - GRASS GIS"
 msgstr ""
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#, fuzzy
+msgid "Temporal Plot Tool - GRASS GIS"
+msgstr "Ferramenta de plotagem temporal GRASS GIS"
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/nviz/wxnviz.py:35
 msgid "This module requires the NumPy module, which could not be imported. It probably is not installed (it's not part of the standard Python distribution). See the Numeric Python site (http://numpy.scipy.org) for information on downloading source or binaries."
 msgstr "Este módulo requer o módulo NumPy, que não pôde ser importado. Provavelmente não está instalado (não faz parte da distribuição padrão do Python). Consulte o site Numeric Python (http://numpy.scipy.org) para obter informações sobre como baixar source ou binários."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19397,6 +20055,10 @@ msgstr "Este módulo requer o módulo NumPy, que não pôde ser importado. Prova
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/tplot/frame.py:848
 msgid "Problem getting data from vector temporal dataset. Empty list of values."
@@ -19695,6 +20357,7 @@ msgstr "Mapa vetorial <%s> não encontrado"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -19817,6 +20480,8 @@ msgstr "Mapa vetorial <%s> não encontrado"
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -19827,7 +20492,13 @@ msgstr "Mapa vetorial <%s> não encontrado"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/location_wizard/dialogs.py:202
 #: ../gui/wxpython/location_wizard/dialogs.py:594
@@ -19868,6 +20539,7 @@ msgstr "Mapa raster 3d <%s> não encontrado"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -19879,6 +20551,9 @@ msgstr "Mapa raster 3d <%s> não encontrado"
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/nviz/preferences.py:35
 msgid "3D view default settings"
@@ -20065,6 +20740,7 @@ msgstr "A imagem é muito grande, sua implementação OpenGL suporta o tamanho m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -20106,6 +20782,10 @@ msgstr "A imagem é muito grande, sua implementação OpenGL suporta o tamanho m
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/nviz/preferences.py:35
 msgid "3D view default settings"
@@ -20426,6 +21106,7 @@ msgstr "Leste"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -20523,6 +21204,13 @@ msgstr "Leste"
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/location_wizard/dialogs.py:428
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/location_wizard/dialogs.py:415
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 msgid "South"
@@ -20780,6 +21468,7 @@ msgstr "Não é possível descarregar o mapa raster"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -20836,6 +21525,10 @@ msgstr "Não é possível descarregar o mapa raster"
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/gmodeler/preferences.py:695
@@ -21331,6 +22024,7 @@ msgstr "Incapaz de descarregar o mapa raster 3d"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -21372,6 +22066,44 @@ msgstr "Incapaz de descarregar o mapa raster 3d"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+#: ../gui/wxpython/nviz/mapwindow.py:1696
+msgid "3d raster map"
+msgstr "Mapa raster 3D"
+
+#: ../gui/wxpython/nviz/mapwindow.py:1708
+msgid "unloaded successfully"
+msgstr "descarregado com sucesso"
+
+#: ../gui/wxpython/nviz/mapwindow.py:1764
+#, python-format
+msgid "Loading vector map <%(name)s> (%(type)s) failed"
+msgstr "O carregamento do mapa vetorial <%(name)s> (%(type)s) falhou"
+
+#: ../gui/wxpython/nviz/mapwindow.py:1827
+#, python-format
+msgid "Unable to unload vector map <%(name)s> (%(type)s)"
+msgstr "Não foi possível descarregar o mapa vetorial <%(name)s> (%(type)s)"
+
+#: ../gui/wxpython/nviz/mapwindow.py:1831
+#, python-format
+msgid "Vector map <%(name)s> (%(type)s) unloaded successfully"
+msgstr "Mapa vetorial <%(name)s> (%(type)s) descarregado com sucesso"
+
+#: ../gui/wxpython/nviz/mapwindow.py:2208
+#, python-format
+msgid "Vector point layer not found (id = %d)"
+msgstr "Camada de ponto vetorial não encontrada (id = %d)"
+
+#: ../gui/wxpython/nviz/mapwindow.py:2210
+#, python-format
+msgid "Unable to set data layer properties (id = %d)"
+msgstr "Não é possível definir as propriedades da camada de dados (id = %d)"
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/nviz/mapwindow.py:1696
 msgid "3d raster map"
@@ -21769,6 +22501,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Falha ao definir as propriedades da camada de dados.\n"
 =======
 <<<<<<< HEAD
@@ -21827,6 +22560,10 @@ msgstr ""
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "O modelo não é válido. Quer rodar assim mesmo?\n"
 =======
 "Falha ao definir as propriedades da camada de dados.\n"
@@ -21851,6 +22588,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 "Falha ao definir as propriedades da camada de dados.\n"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -21972,7 +22712,12 @@ msgstr ""
 =======
 "Falha ao definir as propriedades da camada de dados.\n"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "\n"
 "%s"
 
@@ -21999,6 +22744,7 @@ msgstr "Rodar modelo?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -22096,6 +22842,13 @@ msgstr "Rodar modelo?"
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/gmodeler/model.py:696
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/gmodeler/model.py:688
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 msgid "Variables below not defined:"
@@ -22753,6 +23506,7 @@ msgstr "Nenhuma"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -22875,6 +23629,8 @@ msgstr "Nenhuma"
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -22885,7 +23641,13 @@ msgstr "Nenhuma"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/gmodeler/frame.py:85 ../gui/wxpython/gui_core/forms.py:1520
 #: ../gui/wxpython/lmgr/toolbars.py:208
@@ -23068,6 +23830,7 @@ msgstr "Editar ponto"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 msgid "Vector Network Analysis Tool"
@@ -23137,6 +23900,10 @@ msgstr ""
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 #, fuzzy
 msgid "{} script contains local modifications"
@@ -23483,6 +24250,7 @@ msgstr "Estilo da tabela de cores:%s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -23605,6 +24373,8 @@ msgstr "Estilo da tabela de cores:%s"
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -23615,10 +24385,17 @@ msgstr "Estilo da tabela de cores:%s"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/gmodeler/frame.py:311 ../gui/wxpython/core/gconsole.py:715
 #, python-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23694,6 +24471,10 @@ msgstr "Inverter cores %s:"
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "%(min)d min %(sec)d sec"
 msgstr "%(min)d minutos %(sec)d segundos"
 
@@ -23981,6 +24762,7 @@ msgstr "Inverter cores %s:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
@@ -24027,6 +24809,10 @@ msgstr "Inverter cores %s:"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/gmodeler/frame.py:1786
@@ -24192,6 +24978,7 @@ msgstr "Cor para ponto de Início/De/Origem/Usado:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -24270,12 +25057,20 @@ msgstr "Cor para ponto de Início/De/Origem/Usado:"
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/gmodeler/frame.py:1807
 msgid "string"
@@ -24485,6 +25280,7 @@ msgstr "Cor para o ponto selecionado:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -24541,6 +25337,10 @@ msgstr "Cor para o ponto selecionado:"
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/gmodeler/frame.py:2078
@@ -25047,6 +25847,7 @@ msgstr "Número máximo de resultados no histórico:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -25125,12 +25926,20 @@ msgstr "Número máximo de resultados no histórico:"
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/menustrings.py:63 ../gui/wxpython/menustrings.py:1101
 msgid "WMS/WMTS import"
@@ -25275,6 +26084,7 @@ msgstr "Salvar o resultado da análise"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -25331,6 +26141,10 @@ msgstr "Salvar o resultado da análise"
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/menustrings.py:65 ../gui/wxpython/menustrings.py:1105
@@ -34162,6 +34976,7 @@ msgstr "O mapa vetorial '%s' não existe."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -34219,6 +35034,10 @@ msgstr "O mapa vetorial '%s' não existe."
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/vnet/vnet_data.py:166
 msgid "Vector map was not chosen."
@@ -34249,6 +35068,9 @@ msgstr "O mapa vetorial não foi escolhido."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -34349,7 +35171,12 @@ msgstr "O mapa vetorial não foi escolhido."
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/vnet/vnet_data.py:172
 msgid "Vector map was not chosen."
@@ -34357,6 +35184,7 @@ msgstr "O mapa vetorial não foi escolhido."
 
 #: ../gui/wxpython/vnet/vnet_data.py:181
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34436,6 +35264,11 @@ msgstr "O mapa vetorial não foi escolhido."
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "arc layer"
 msgstr "camada de arco"
 
@@ -34480,6 +35313,7 @@ msgstr "%s '%s' escolhido não existe no mapa vetorial '%s'.\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -34537,6 +35371,10 @@ msgstr "%s '%s' escolhido não existe no mapa vetorial '%s'.\n"
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/vnet/vnet_data.py:188
 #, python-format
@@ -34577,6 +35415,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -34677,7 +35518,12 @@ msgstr ""
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/vnet/vnet_data.py:195
 #, python-format
@@ -34695,6 +35541,7 @@ msgstr "tipo"
 
 #: ../gui/wxpython/vnet/vnet_data.py:261
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34774,6 +35621,11 @@ msgstr "tipo"
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "topology"
 msgstr "topologia"
 
@@ -34909,6 +35761,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "O mapa temporário '%s' com o resultado foi alterado fora da ferramenta de análise de rede vetorial.\n"
 =======
 <<<<<<< HEAD
@@ -34967,6 +35820,10 @@ msgstr ""
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "O mapa temporário '%s' com o resultado foi alterado fora da ferramenta de "
 "análise de rede vetorial.\n"
 =======
@@ -34992,6 +35849,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 "O mapa temporário '%s' com o resultado foi alterado fora da ferramenta de análise de rede vetorial.\n"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -35113,7 +35973,12 @@ msgstr ""
 =======
 "O mapa temporário '%s' com o resultado foi alterado fora da ferramenta de análise de rede vetorial.\n"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "O resultado mostrado pode não corresponder ao resultado da análise original."
 
 #: ../gui/wxpython/vnet/vnet_core.py:233
@@ -35186,6 +36051,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "O mapa de entrada '%s' para análise foi alterado fora da ferramenta de análise de rede vetorial.\n"
 =======
 <<<<<<< HEAD
@@ -35244,6 +36110,10 @@ msgstr ""
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "O mapa de entrada '%s' para análise foi alterado fora da ferramenta de "
 "análise de rede vetorial.\n"
 =======
@@ -35269,6 +36139,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 "O mapa de entrada '%s' para análise foi alterado fora da ferramenta de análise de rede vetorial.\n"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -35390,7 +36263,12 @@ msgstr ""
 =======
 "O mapa de entrada '%s' para análise foi alterado fora da ferramenta de análise de rede vetorial.\n"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "A coluna de topologia pode não corresponder à situação alterada."
 
 #: ../gui/wxpython/vnet/vnet_core.py:958
@@ -35454,6 +36332,7 @@ msgstr "Substituir mapa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35515,10 +36394,17 @@ msgstr "Substituir mapa"
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 =======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/vnet/toolbars.py:50
 msgid "Insert points from Map Display"
@@ -35934,6 +36820,7 @@ msgstr "Digitalizar área"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -35990,6 +36877,10 @@ msgstr "Digitalizar área"
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rdigit/controller.py:122
@@ -36139,6 +37030,7 @@ msgstr "Digitalizar linha"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -36196,6 +37088,10 @@ msgstr "Digitalizar linha"
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rdigit/toolbars.py:30
 msgid "Digitize point"
@@ -36231,6 +37127,9 @@ msgstr "Desfazer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -36331,7 +37230,12 @@ msgstr "Desfazer"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rdigit/toolbars.py:31
 msgid "Digitize point"
@@ -36403,6 +37307,7 @@ msgstr "Largura da linha atualmente digitalizada ou diâmetro de um ponto digita
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -36525,6 +37430,8 @@ msgstr "Largura da linha atualmente digitalizada ou diâmetro de um ponto digita
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -36535,7 +37442,13 @@ msgstr "Largura da linha atualmente digitalizada ou diâmetro de um ponto digita
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rdigit/toolbars.py:168
 msgid "New raster map"
@@ -36746,12 +37659,16 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "GRASS GIS"
 msgstr ""
 =======
 #, fuzzy
 msgid "GRASS GIS"
 msgstr "Sobre GRASS GIS"
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 msgid "GRASS GIS"
@@ -36842,6 +37759,9 @@ msgstr ""
 msgid "GRASS GIS"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/lmgr/frame.py:129
 msgid "There were some issues when loading menu or Modules tab:"
@@ -36888,12 +37808,16 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Rename current Map Display"
 msgstr ""
 =======
 #, fuzzy
 msgid "Rename current Map Display"
 msgstr "Fechar janela de exibição de mapa atual"
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Rename current Map Display"
@@ -36984,6 +37908,9 @@ msgstr ""
 msgid "Rename current Map Display"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/lmgr/frame.py:362
 #: ../gui/wxpython/gui_core/preferences.py:322
@@ -37789,6 +38716,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -37886,6 +38814,13 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/core/render.py:1112
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/core/render.py:1111
 =======
 #: ../gui/wxpython/lmgr/frame.py:2481
@@ -38117,6 +39052,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -38178,6 +39114,11 @@ msgstr ""
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #, python-format
 msgid "Unable to zoom to raster map <%s>."
 msgstr "Não foi possível fazer o zoom no raster <%s>."
@@ -38516,6 +39457,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -38613,6 +39555,13 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/mapdisp/frame.py:163
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/mapdisp/frame.py:178
 =======
 #: ../gui/wxpython/mapswipe/toolbars.py:29
@@ -38720,6 +39669,7 @@ msgstr "Deslizar a Tela"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -38781,6 +39731,11 @@ msgstr "Deslizar a Tela"
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #, python-format
 msgid ""
 "Failed to run command '%(command)s'. Details:\n"
@@ -39561,10 +40516,17 @@ msgstr "Extensão não definida"
 msgid "Fetching list of tools from GRASS-Addons (be patient)..."
 msgstr ""
 =======
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/modules/vclean.py:84
 msgid "break polygons"
 msgstr "quebrar polígonos "
+=======
+#: ../gui/wxpython/modules/vclean.py:85
+msgid "prune lines/boundaries"
+msgstr "aparar linhas/fronteiras"
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 
 >>>>>>> a2cf2ce863 (i18n: Transifex sync (#1592))
 #: ../gui/wxpython/modules/vclean.py:85
@@ -40148,7 +41110,11 @@ msgstr "Mapeamento temático para mapa vetorial em visualização 3D"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "3D Raster Map Calculator"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40282,6 +41248,12 @@ msgid "3D Raster Map Calculator"
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#, fuzzy
+msgid "3D Raster Map Calculator"
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 msgstr "Calculadora de mapa raster"
 =======
@@ -41118,6 +42090,7 @@ msgstr "Nome para o novo arquivo de configuração a ser criado"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41242,6 +42215,8 @@ msgstr "Nome para o novo arquivo de configuração a ser criado"
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -41251,7 +42226,13 @@ msgstr "Nome para o novo arquivo de configuração a ser criado"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rlisetup/wizard.py:519
 msgid "Raster map to use to select areas"
@@ -41281,6 +42262,7 @@ msgstr "Mapa raster a ser usado para selecionar áreas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -41403,6 +42385,8 @@ msgstr "Mapa raster a ser usado para selecionar áreas"
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -41413,7 +42397,13 @@ msgstr "Mapa raster a ser usado para selecionar áreas"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rlisetup/wizard.py:530
 msgid "Raster map to use to select areas"
@@ -41487,6 +42477,7 @@ msgid "Vector %s has no table connected, please select another vector"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "O vetor %s não tem uma tabela conectada, por favor selecione outro vetor"
 =======
 <<<<<<< HEAD
@@ -41545,6 +42536,10 @@ msgstr "O vetor %s não tem uma tabela conectada, por favor selecione outro veto
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgstr ""
 "O vetor %s não tem uma tabela conectada, por favor selecione outro vetor"
 =======
@@ -41570,6 +42565,9 @@ msgstr "O vetor %s não tem uma tabela conectada, por favor selecione outro veto
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 msgstr "O vetor %s não tem uma tabela conectada, por favor selecione outro vetor"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -41691,7 +42689,12 @@ msgstr "O vetor %s não tem uma tabela conectada, por favor selecione outro veto
 =======
 msgstr "O vetor %s não tem uma tabela conectada, por favor selecione outro vetor"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rlisetup/wizard.py:763
 msgid "Insert sampling frame parameter"
@@ -41807,6 +42810,7 @@ msgid "Do you want to overwrite existing temporal maps if they exist?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Você deseja substituir os mapas temporais existentes, se eles existirem?"
 =======
 <<<<<<< HEAD
@@ -41865,6 +42869,10 @@ msgstr "Você deseja substituir os mapas temporais existentes, se eles existirem
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgstr ""
 "Você deseja substituir os mapas temporais existentes, se eles existirem?"
 =======
@@ -41890,6 +42898,9 @@ msgstr "Você deseja substituir os mapas temporais existentes, se eles existirem
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 msgstr "Você deseja substituir os mapas temporais existentes, se eles existirem?"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -42011,7 +43022,12 @@ msgstr "Você deseja substituir os mapas temporais existentes, se eles existirem
 =======
 msgstr "Você deseja substituir os mapas temporais existentes, se eles existirem?"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rlisetup/wizard.py:1044
 msgid "Do you want to check vector areas?"
@@ -42056,6 +43072,7 @@ msgstr "Analisando vetor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42180,6 +43197,8 @@ msgstr "Analisando vetor"
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -42189,7 +43208,13 @@ msgstr "Analisando vetor"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rlisetup/wizard.py:1080
 msgid "All feature are been analyzed."
@@ -42242,6 +43267,7 @@ msgstr "Desenhe a região de amostragem"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -42364,6 +43390,8 @@ msgstr "Desenhe a região de amostragem"
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -42374,7 +43402,13 @@ msgstr "Desenhe a região de amostragem"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rlisetup/wizard.py:1180
 msgid "All feature are been analyzed."
@@ -42482,6 +43516,7 @@ msgid "Systematic contiguos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -42604,6 +43639,8 @@ msgid "Systematic contiguos"
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -42614,7 +43651,13 @@ msgid "Systematic contiguos"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgstr "Contiguo sistemático"
 
 #: ../gui/wxpython/rlisetup/wizard.py:1353
@@ -42652,6 +43695,7 @@ msgid "Systematic non contiguos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -42774,6 +43818,8 @@ msgid "Systematic non contiguos"
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -42784,7 +43830,13 @@ msgid "Systematic non contiguos"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgstr "Não contiguo sistemático"
 
 #: ../gui/wxpython/rlisetup/wizard.py:1355
@@ -42819,6 +43871,7 @@ msgstr "Qual número de unidades de amostragem usar?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42943,6 +43996,8 @@ msgstr "Qual número de unidades de amostragem usar?"
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -42952,7 +44007,13 @@ msgstr "Qual número de unidades de amostragem usar?"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rlisetup/wizard.py:1322
 msgid "Insert number of row strates"
@@ -42998,6 +44059,7 @@ msgstr "Definir janelas móveis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -43120,6 +44182,8 @@ msgstr "Definir janelas móveis"
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -43130,7 +44194,13 @@ msgstr "Definir janelas móveis"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rlisetup/wizard.py:1451
 msgid "Insert number of row strates"
@@ -43268,6 +44338,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -43306,6 +44377,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -43422,7 +44495,12 @@ msgstr "Número da área de amostragem a ser desenhada:"
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rlisetup/wizard.py:1566
 msgid "Draw Sampling "
@@ -43471,6 +44549,7 @@ msgstr "Selecione a área de amostra"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -43593,6 +44672,8 @@ msgstr "Selecione a área de amostra"
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -43603,7 +44684,13 @@ msgstr "Selecione a área de amostra"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rlisetup/wizard.py:1865
 #: ../gui/wxpython/rlisetup/functions.py:156
@@ -43643,6 +44730,7 @@ msgstr "O mapa raster <%s> já existe. Remova ou renomeie os mapas com o prefixo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -43765,6 +44853,8 @@ msgstr "O mapa raster <%s> já existe. Remova ou renomeie os mapas com o prefixo
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -43775,7 +44865,13 @@ msgstr "O mapa raster <%s> já existe. Remova ou renomeie os mapas com o prefixo
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rlisetup/wizard.py:1920
 #: ../gui/wxpython/rlisetup/functions.py:140
@@ -44173,6 +45269,7 @@ msgstr "Defina o novo nome para o arquivo de configuração %s \"               
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -44295,6 +45392,8 @@ msgstr "Defina o novo nome para o arquivo de configuração %s \"               
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -44305,7 +45404,13 @@ msgstr "Defina o novo nome para o arquivo de configuração %s \"               
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/rlisetup/frame.py:279
 msgid "Rename configuration file"
@@ -44335,6 +45440,7 @@ msgstr "Renomear arquivo de configuração"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -44394,6 +45500,12 @@ msgstr "Renomear arquivo de configuração"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/main_window/frame.py:125 ../gui/wxpython/lmgr/frame.py:109
 msgid "GRASS GIS"
@@ -44436,6 +45548,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -44533,6 +45646,13 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/main_window/frame.py:430 ../gui/wxpython/lmgr/frame.py:484
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/main_window/frame.py:430 ../gui/wxpython/lmgr/frame.py:483
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 #, python-brace-format
@@ -44641,6 +45761,7 @@ msgstr "Área: {area} {unit}\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -44697,6 +45818,10 @@ msgstr "Área: {area} {unit}\n"
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/main_window/frame.py:526
@@ -44847,6 +45972,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -44944,6 +46070,13 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/main_window/frame.py:688 ../gui/wxpython/lmgr/frame.py:639
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/main_window/frame.py:691 ../gui/wxpython/lmgr/frame.py:638
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 msgid "Console"
@@ -44952,6 +46085,7 @@ msgstr ""
 #: ../gui/wxpython/mapwin/decorations.py:202
 msgid "Remove text"
 msgstr "Remover texto"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45099,6 +46233,8 @@ msgstr "Remover texto"
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -45109,7 +46245,13 @@ msgstr "Remover texto"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/main_window/frame.py:921 ../gui/wxpython/lmgr/frame.py:798
 #, fuzzy
@@ -45135,6 +46277,7 @@ msgstr "Deslizar a Tela"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -45177,6 +46320,8 @@ msgstr "Deslizar a Tela"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/main_window/frame.py:973 ../gui/wxpython/lmgr/frame.py:850
 msgid "Choose model to run"
 msgstr "Escolha o modelo para rodar"
@@ -45201,6 +46346,7 @@ msgstr "Escolha o modelo para rodar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -45243,6 +46389,10 @@ msgstr "Escolha o modelo para rodar"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/main_window/frame.py:952 ../gui/wxpython/lmgr/frame.py:849
 msgid "Choose model to run"
 msgstr "Escolha o modelo para rodar"
@@ -45451,6 +46601,7 @@ msgstr "Substituir arquivo?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -45512,6 +46663,11 @@ msgstr "Substituir arquivo?"
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #, python-format
 msgid ""
 "Command '%s' not yet implemented in the WxGUI. Try adding it as a command "
@@ -45769,6 +46925,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -45866,6 +47023,13 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/main_window/frame.py:2449 ../gui/wxpython/lmgr/frame.py:2355
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/main_window/frame.py:2413 ../gui/wxpython/lmgr/frame.py:2341
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 msgid "Constrain map to region geometry?"
@@ -45977,6 +47141,7 @@ msgstr "Nenhum arquivo gerado."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -46014,6 +47179,15 @@ msgstr "Nenhum arquivo gerado."
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+#: ../gui/wxpython/wxplot/profile.py:416
+msgid "Statistics for Profile(s)"
+msgstr "Estatísticas para Perfil(is)"
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/wxplot/profile.py:416
 msgid "Statistics for Profile(s)"
@@ -46860,6 +48034,7 @@ msgstr "Configurações de plotagem salvas no arquivo '%s'."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -46916,9 +48091,14 @@ msgstr "Configurações de plotagem salvas no arquivo '%s'."
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/lmgr/toolbars.py:93
 msgid "Add multiple raster or vector map layers (Ctrl+Shift+L)"
@@ -46973,6 +48153,7 @@ msgstr "Gerente de classe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -47029,6 +48210,10 @@ msgstr "Gerente de classe"
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/lmgr/toolbars.py:107
@@ -51311,6 +52496,7 @@ msgstr "Gerenciador de tabela de atributos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 msgid "Launch Data Catalog."
@@ -51380,6 +52566,10 @@ msgstr ""
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 #, fuzzy
 msgid "Delete map layer"
@@ -52092,6 +53282,7 @@ msgstr "A location chamada <%s> já existe, download cancelado"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -52148,14 +53339,22 @@ msgstr "A location chamada <%s> já existe, download cancelado"
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/lmgr/pyshell.py:50
 #, python-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 msgid "Type %s for more GRASS scripting related information."
 msgstr "Digite %s para mais informações relacionadas a scripts GRASS."
 
@@ -52272,6 +53471,7 @@ msgstr ""
 msgid "Vector map <%s> added"
 msgstr ""
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
@@ -52279,7 +53479,12 @@ msgstr ""
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Download failed: %s"
 msgstr "Falha no download: %s"
 
@@ -52313,12 +53518,16 @@ msgstr "A location chamada <%s> já existe, renomeie primeiro"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Location Download"
 msgstr ""
 =======
 #, fuzzy
 msgid "Location Download"
 msgstr "Assistente do location"
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Location Download"
@@ -52409,6 +53618,9 @@ msgstr ""
 msgid "Location Download"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/startup/locdownload.py:611
 msgid "Do you want to cancel location download?"
@@ -52439,12 +53651,16 @@ msgstr "Abortar download"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Invalid mapset name"
 msgstr ""
 =======
 #, fuzzy
 msgid "Invalid mapset name"
 msgstr "Tamanho do mapa inválido %d,%d\n"
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Invalid mapset name"
@@ -52535,6 +53751,9 @@ msgstr ""
 msgid "Invalid mapset name"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/startup/guiutils.py:106
 msgid "Invalid location name"
@@ -52571,12 +53790,16 @@ msgstr "Nome para o novo mapset:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Unable to create new mapset: {}"
 msgstr ""
 =======
 #, fuzzy
 msgid "Unable to create new mapset: {}"
 msgstr "Não é possível criar novo mapset: %s"
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Unable to create new mapset: {}"
@@ -52667,6 +53890,9 @@ msgstr ""
 msgid "Unable to create new mapset: {}"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/startup/guiutils.py:212
 #, fuzzy
@@ -52677,6 +53903,7 @@ msgstr "Deseja importar <%(name)s> para a nova Location criada?"
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:537
 msgid "Import data?"
 msgstr "Importar dados?"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52780,12 +54007,20 @@ msgstr "Importar dados?"
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/lmgr/workspace.py:72
 msgid ""
@@ -53066,6 +54301,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A importação de <%(name)s> falhou.\n"
 "Razão:%(msg)s"
 =======
@@ -53125,6 +54361,10 @@ msgstr ""
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "Leitura do arquivo de área de trabalho <%s> falhou.\n"
 "Arquivo inválido, não consegui verificar documento XML."
 =======
@@ -53151,6 +54391,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -53189,6 +54430,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 "A importação de <%(name)s> falhou.\n"
 "Razão:%(msg)s"
@@ -53279,7 +54522,12 @@ msgstr ""
 "A importação de <%(name)s> falhou.\n"
 "Razão:%(msg)s"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/lmgr/workspace.py:191
 msgid "Please wait, loading workspace..."
@@ -53341,6 +54589,7 @@ msgstr "Arquivo de dados <%(name)s> importado com sucesso. A região padrão do 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -53373,6 +54622,10 @@ msgstr "Arquivo de dados <%(name)s> importado com sucesso. A região padrão do 
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 <<<<<<< HEAD
@@ -53779,6 +55032,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Location atual é <%(loc)s>.\n"
 "Mapset atual é <%(mapset)s>."
@@ -53803,6 +55057,11 @@ msgstr ""
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+"Location atual é <%(loc)s>.\n"
+"Mapset atual é <%(mapset)s>."
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/startup/guiutils.py:743
 #, python-format
@@ -53837,6 +55096,7 @@ msgstr "Codificação {enc} incorreta usada. Defina a codificação em Configura
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -53878,6 +55138,10 @@ msgstr "Codificação {enc} incorreta usada. Defina a codificação em Configura
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/startup/guiutils.py:743
 #, python-format
@@ -54018,6 +55282,7 @@ msgstr "Gerenciar camadas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -54115,6 +55380,13 @@ msgstr "Gerenciar camadas"
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/dbmgr/manager.py:155
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/dbmgr/manager.py:154
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 msgid "Close Attribute Table Manager"
@@ -54123,6 +55395,7 @@ msgstr "Fechar Gerenciador de Tabela de Atributos"
 #: ../gui/wxpython/dbmgr/base.py:313
 msgid "Viewing limit: 100000 records."
 msgstr "Limite de visualização: 100000 registros."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54270,6 +55543,8 @@ msgstr "Limite de visualização: 100000 registros."
 =======
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -54280,7 +55555,13 @@ msgstr "Limite de visualização: 100000 registros."
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/dbmgr/manager.py:157
 msgid "Reload currently selected attribute data"
@@ -54397,9 +55678,13 @@ msgid "Slope steepness of 3D line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
+=======
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgstr ""
 
 #: ../gui/wxpython/dbmgr/base.py:511
@@ -54796,6 +56081,7 @@ msgstr ""
 #: ../gui/wxpython/dbmgr/sqlbuilder.py:133
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 msgid "Set SQL statement to default"
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -54836,6 +56122,9 @@ msgid "Set SQL statement to default"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgstr ""
 
 #: ../gui/wxpython/dbmgr/base.py:511
@@ -55615,6 +56904,7 @@ msgstr "Limite de visualização: 100000 registros."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -55712,6 +57002,13 @@ msgstr "Limite de visualização: 100000 registros."
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/dbmgr/base.py:392
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/dbmgr/base.py:385
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 msgid "Unknown value"
@@ -56009,6 +57306,7 @@ msgstr "Procurar nos dados"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -56050,6 +57348,31 @@ msgstr "Procurar nos dados"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+#: ../gui/wxpython/dbmgr/manager.py:123
+msgid "Manage tables"
+msgstr "Gerenciar tabelas"
+
+#: ../gui/wxpython/dbmgr/manager.py:130
+msgid "Manage layers"
+msgstr "Gerenciar camadas"
+
+#: ../gui/wxpython/dbmgr/manager.py:141
+msgid "Close Attribute Table Manager"
+msgstr "Fechar Gerenciador de Tabela de Atributos"
+
+#: ../gui/wxpython/dbmgr/manager.py:144
+msgid "Reload currently selected attribute data"
+msgstr "Recarregar dados de atributos selecionados atualmente"
+
+#: ../gui/wxpython/dbmgr/manager.py:147
+msgid "Reload all attribute data (drop current selection)"
+msgstr "Recarregar todos os dados de atributos (descartar a seleção atual)"
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/dbmgr/manager.py:123
 msgid "Manage tables"
@@ -56383,6 +57706,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Você deseja criar uma nova tabela de atributos e definir um link para o mapa vetorial <%s>?"
 =======
 <<<<<<< HEAD
@@ -56441,6 +57765,10 @@ msgstr ""
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 "Você deseja criar uma nova tabela de atributos e definir um link para o mapa "
 "vetorial <%s>?"
 =======
@@ -56466,6 +57794,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 "Você deseja criar uma nova tabela de atributos e definir um link para o mapa vetorial <%s>?"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -56587,7 +57918,12 @@ msgstr ""
 =======
 "Você deseja criar uma nova tabela de atributos e definir um link para o mapa vetorial <%s>?"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/dbmgr/dialogs.py:85
 msgid "Create table?"
@@ -56600,6 +57936,7 @@ msgstr "Fechar caixa de diálogo ao enviar"
 #: ../gui/wxpython/dbmgr/dialogs.py:119
 msgid "No attributes found"
 msgstr "Nenhum atributo encontrado"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56776,6 +58113,8 @@ msgstr "Mostrar atributos"
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -56785,7 +58124,22 @@ msgstr "Mostrar atributos"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+
+#: ../gui/wxpython/dbmgr/dialogs.py:121
+msgid "Define attributes"
+msgstr "Definir atributos"
+
+#: ../gui/wxpython/dbmgr/dialogs.py:123
+msgid "Display attributes"
+msgstr "Mostrar atributos"
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/dbmgr/dialogs.py:121
 msgid "Define attributes"
@@ -57183,6 +58537,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -57280,6 +58635,13 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/animation/utils.py:210
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #: ../gui/wxpython/animation/utils.py:209
 =======
 #: ../gui/wxpython/gui_core/gselect.py:886
@@ -57571,6 +58933,7 @@ msgstr "Arquivos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -57632,6 +58995,11 @@ msgstr "Arquivos"
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid ""
 "The temporal extents of maps in space-time datasets have to be the same."
 msgstr ""
@@ -58145,6 +59513,272 @@ msgstr "Adicionar camada de conjunto de dados espaço-temporais"
 #: ../gui/wxpython/gui_core/simplelmgr.py:108
 msgid "Toolbar"
 msgstr "Barra de ferramentas"
+<<<<<<< HEAD
+=======
+
+#: ../gui/wxpython/gui_core/simplelmgr.py:148
+msgid "Copy map names to clipboard (top to bottom)"
+msgstr "Copiar os nomes dos mapas para a área de transferência (de cima para baixo)"
+
+#: ../gui/wxpython/gui_core/simplelmgr.py:149
+msgid "Copy map names to clipboard (bottom to top)"
+msgstr "Copiar os nomes dos mapas para a área de transferência (de baixo para cima)"
+
+#: ../gui/wxpython/gui_core/simplelmgr.py:467
+msgid "Remove selected map(s) from list"
+msgstr "Remover mapa(s) selecionado(s) da lista"
+
+#: ../gui/wxpython/gui_core/simplelmgr.py:469
+msgid "Layer up"
+msgstr "Camada para cima"
+
+#: ../gui/wxpython/gui_core/simplelmgr.py:470
+msgid "Move selected layer(s) up"
+msgstr "Mover camada(s) selecionada(s) para cima"
+
+#: ../gui/wxpython/gui_core/simplelmgr.py:472
+msgid "Layer down"
+msgstr "Camada para baixo"
+
+#: ../gui/wxpython/gui_core/simplelmgr.py:473
+msgid "Move selected layer(s) down"
+msgstr "Mover camada(s) selecionada(s) para baixo"
+
+#: ../gui/wxpython/gui_core/simplelmgr.py:475
+#: ../gui/wxpython/gui_core/simplelmgr.py:476
+msgid "Edit layer properties"
+msgstr "Editar propriedades da camada"
+
+#: ../gui/wxpython/gui_core/simplelmgr.py:478
+msgid "Change opacity"
+msgstr "Altere a opacidade"
+
+#: ../gui/wxpython/gui_core/simplelmgr.py:479
+msgid "Change layer opacity"
+msgstr "Alterar a opacidade da camada"
+
+#: ../gui/wxpython/gui_core/toolbars.py:36
+msgid "Display map"
+msgstr "Mostrar mapa"
+
+#: ../gui/wxpython/gui_core/toolbars.py:37
+msgid "Re-render modified map layers only"
+msgstr "Re-renderizar apenas as camadas modificadas"
+
+#: ../gui/wxpython/gui_core/toolbars.py:39
+msgid "Render map"
+msgstr "Renderizar mapa"
+
+#: ../gui/wxpython/gui_core/toolbars.py:40
+msgid "Force re-rendering all map layers"
+msgstr "Forçar re-renderização de todas as camadas do mapa"
+
+#: ../gui/wxpython/gui_core/toolbars.py:42
+msgid "Erase display"
+msgstr "Apagar visualização"
+
+#: ../gui/wxpython/gui_core/toolbars.py:43
+msgid "Erase display canvas with given background color"
+msgstr "Apagar tela de display com cor de fundo dada"
+
+#: ../gui/wxpython/gui_core/toolbars.py:45
+msgid "Pointer"
+msgstr "Ponteiro"
+
+#: ../gui/wxpython/gui_core/toolbars.py:47
+msgid "Zoom in"
+msgstr "Aproximar"
+
+#: ../gui/wxpython/gui_core/toolbars.py:48
+msgid "Drag or click mouse to zoom"
+msgstr "Arrastar e clicar com o rato para aproximar"
+
+#: ../gui/wxpython/gui_core/toolbars.py:50
+msgid "Zoom out"
+msgstr "Afastar"
+
+#: ../gui/wxpython/gui_core/toolbars.py:51
+msgid "Drag or click mouse to unzoom"
+msgstr "Arrastar e clicar com o rato para afastar"
+
+#: ../gui/wxpython/gui_core/toolbars.py:53
+msgid "Return to previous zoom"
+msgstr "Regressar ao zoom anterior"
+
+#: ../gui/wxpython/gui_core/toolbars.py:55
+msgid "Various zoom options"
+msgstr "Várias opções de zoom"
+
+#: ../gui/wxpython/gui_core/toolbars.py:56
+msgid "Zoom to default or saved region, save to named region, ..."
+msgstr "Aplicar zoom na região padrão ou salva, salvar na região nomeada,..."
+
+#: ../gui/wxpython/gui_core/toolbars.py:58
+msgid "Zoom to selected map layer(s)"
+msgstr "Zoom para camada(s) de mapa selecionadas"
+
+#: ../gui/wxpython/gui_core/toolbars.py:60
+msgid "Zoom to computational region extent"
+msgstr "Zoom para a extensão da região computacional"
+
+#: ../gui/wxpython/gui_core/toolbars.py:62
+msgid "Pan"
+msgstr "Pan"
+
+#: ../gui/wxpython/gui_core/toolbars.py:63
+msgid "Drag with mouse to pan"
+msgstr "Arrastar com o rato para pan"
+
+#: ../gui/wxpython/gui_core/toolbars.py:65
+msgid "Save display to file"
+msgstr "Salvar exibição em arquivo"
+
+#: ../gui/wxpython/gui_core/toolbars.py:69
+#: ../gui/wxpython/gui_core/forms.py:1345
+#: ../gui/wxpython/gui_core/forms.py:2746
+msgid "Select font"
+msgstr "Selecionar fonte"
+
+#: ../gui/wxpython/gui_core/toolbars.py:79
+msgid "Add map elements"
+msgstr "Adicionar elementos de mapa"
+
+#: ../gui/wxpython/gui_core/toolbars.py:80
+msgid "Overlay elements like scale and legend onto map"
+msgstr "sobrepõe elementos como escala e legenda no mapa"
+
+#: ../gui/wxpython/gui_core/toolbars.py:82
+msgid "Create histogram with d.histogram"
+msgstr "Criar um histograma com d.histogram"
+
+#: ../gui/wxpython/gui_core/toolbars.py:259
+msgid "Select graphics tool"
+msgstr "Selecione a ferramenta de gráficos"
+
+#: ../gui/wxpython/gui_core/ghelp.py:82
+msgid "Info"
+msgstr "Info"
+
+#: ../gui/wxpython/gui_core/ghelp.py:83
+msgid "Copyright"
+msgstr "Copyright"
+
+#: ../gui/wxpython/gui_core/ghelp.py:84
+msgid "License"
+msgstr "Licença"
+
+#: ../gui/wxpython/gui_core/ghelp.py:85
+msgid "Citation"
+msgstr "Citação"
+
+#: ../gui/wxpython/gui_core/ghelp.py:86
+msgid "Authors"
+msgstr "Autores"
+
+#: ../gui/wxpython/gui_core/ghelp.py:87
+msgid "Contributors"
+msgstr "Contribuidores"
+
+#: ../gui/wxpython/gui_core/ghelp.py:88
+msgid "Extra contributors"
+msgstr "Outros contribuidores"
+
+#: ../gui/wxpython/gui_core/ghelp.py:89
+msgid "Translators"
+msgstr "Tradutores"
+
+#: ../gui/wxpython/gui_core/ghelp.py:90
+msgid "Translation status"
+msgstr "Status da tradução"
+
+#: ../gui/wxpython/gui_core/ghelp.py:151
+msgid "Official GRASS site:"
+msgstr "Site oficial do GRASS:"
+
+#: ../gui/wxpython/gui_core/ghelp.py:162
+msgid "Code Revision"
+msgstr "Revisão de Código"
+
+#: ../gui/wxpython/gui_core/ghelp.py:174
+msgid "Build Date"
+msgstr "Data da compilação"
+
+#: ../gui/wxpython/gui_core/ghelp.py:225 ../gui/wxpython/gui_core/ghelp.py:481
+msgid "Language"
+msgstr "Idioma"
+
+#: ../gui/wxpython/gui_core/ghelp.py:254 ../gui/wxpython/gui_core/ghelp.py:279
+#: ../gui/wxpython/gui_core/ghelp.py:329 ../gui/wxpython/gui_core/ghelp.py:392
+#: ../gui/wxpython/gui_core/ghelp.py:465 ../gui/wxpython/gui_core/ghelp.py:627
+#, python-format
+msgid "%s file missing"
+msgstr "arquivo %s faltando"
+
+#: ../gui/wxpython/gui_core/ghelp.py:302
+#, python-brace-format
+msgid "Unable to provide citation suggestion, see GRASS GIS website instead. The error was: {0}"
+msgstr "Não foi possível fornecer sugestão de citação, consulte o site GRASS GIS. O erro foi: {0}"
+
+#: ../gui/wxpython/gui_core/ghelp.py:377 ../gui/wxpython/gui_core/ghelp.py:450
+#, python-format
+msgid "Error when reading file '%s'."
+msgstr "Erro ao ler arquivo '%s'."
+
+#: ../gui/wxpython/gui_core/ghelp.py:378 ../gui/wxpython/gui_core/ghelp.py:451
+msgid "Lines:"
+msgstr "Linhas:"
+
+#: ../gui/wxpython/gui_core/ghelp.py:398 ../gui/wxpython/gui_core/ghelp.py:400
+#: ../gui/wxpython/gui_core/ghelp.py:477
+msgid "E-mail"
+msgstr "E-mail"
+
+#: ../gui/wxpython/gui_core/ghelp.py:398 ../gui/wxpython/gui_core/ghelp.py:400
+msgid "Country"
+msgstr "País"
+
+#: ../gui/wxpython/gui_core/ghelp.py:400
+msgid "OSGeo_ID"
+msgstr "OSGeo_ID"
+
+#: ../gui/wxpython/gui_core/ghelp.py:485
+msgid "Nation"
+msgstr "Nação"
+
+#: ../gui/wxpython/gui_core/ghelp.py:532
+#, python-format
+msgid "   %d translated"
+msgstr "%d traduzido"
+
+#: ../gui/wxpython/gui_core/ghelp.py:536 ../gui/wxpython/gui_core/ghelp.py:562
+#, python-format
+msgid "   %d fuzzy"
+msgstr "%d impreciso"
+
+#: ../gui/wxpython/gui_core/ghelp.py:540 ../gui/wxpython/gui_core/ghelp.py:571
+#, python-format
+msgid "   %d untranslated"
+msgstr "%d não traduzido"
+
+#: ../gui/wxpython/gui_core/ghelp.py:553
+#, python-format
+msgid "%d translated"
+msgstr "%d traduzido"
+
+#: ../gui/wxpython/gui_core/ghelp.py:624
+#, python-format
+msgid "File <%s> not found"
+msgstr "Arquivo <%s> não encontrado"
+
+#: ../gui/wxpython/gui_core/ghelp.py:795
+msgid "&Next"
+msgstr "&Próximo"
+
+#: ../gui/wxpython/gui_core/ghelp.py:798
+msgid "&Previous"
+msgstr "&Anterior"
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/gui_core/simplelmgr.py:148
 msgid "Copy map names to clipboard (top to bottom)"
@@ -58741,6 +60375,7 @@ msgstr "Exibir instâncias sem dados "
 "\n"
 "Razão: %s"
 
+<<<<<<< HEAD
 #: ../gui/wxpython/gui_core/widgets.py:115
 msgid " (...)"
 msgstr " (...)"
@@ -58758,6 +60393,8 @@ msgstr "Nome <%(name)s> não é um nome válido para o mapa GRASS. Use apenas ca
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
 
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 #: ../gui/wxpython/animation/dialogs.py:2042
 =======
@@ -59223,6 +60860,7 @@ msgstr "Código EPSG:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -59292,6 +60930,8 @@ msgstr "Código EPSG:"
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -59299,6 +60939,9 @@ msgstr "Código EPSG:"
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 
 <<<<<<< HEAD
 #: ../gui/wxpython/animation/provider.py:444
@@ -59621,6 +61264,7 @@ msgid "PROJ string (required):"
 msgstr "String PROJ (obrigatório):"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
 #: ../gui/wxpython/gui_core/preferences.py:1756
 msgid "EPSG file:"
 msgstr "Arquivo EPSG:"
@@ -59668,10 +61312,13 @@ msgstr "Carregue os códigos EPSG (seja paciente), digite o código EPSG ou insi
 =======
 #: ../gui/wxpython/animation/provider.py:792
 =======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 #: ../gui/wxpython/animation/provider.py:789
 =======
 #: ../gui/wxpython/gui_core/preferences.py:1773
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59858,6 +61505,8 @@ msgstr "Carregue os códigos EPSG (seja paciente), digite o código EPSG ou insi
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Load EPSG codes (be patient), enter EPSG code or insert PROJ string directly."
 msgstr "Carregue os códigos EPSG (seja paciente), digite o código EPSG ou insira a seqüência PROJ diretamente."
 =======
@@ -59884,7 +61533,675 @@ msgstr "Carregue os códigos EPSG (seja paciente), digite o código EPSG ou insi
 msgid "Load EPSG codes (be patient), enter EPSG code or insert PROJ string directly."
 msgstr "Carregue os códigos EPSG (seja paciente), digite o código EPSG ou insira a seqüência PROJ diretamente."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgid "Load EPSG codes (be patient), enter EPSG code or insert Proj.4 string directly."
+msgstr "Carregue os códigos EPSG (seja paciente), digite o código EPSG ou insira a seqüência Proj.4 diretamente."
+
+#: ../gui/wxpython/gui_core/preferences.py:1781
+msgid "&Load EPSG codes"
+msgstr "&Carregar códigos EPSG"
+
+#: ../gui/wxpython/gui_core/preferences.py:1801
+msgid "Coordinates format"
+msgstr "Formato de coordenadas"
+
+#: ../gui/wxpython/gui_core/preferences.py:1809
+msgid "Lat/long projections"
+msgstr "Projeções lat/long"
+
+#: ../gui/wxpython/gui_core/preferences.py:1830
+msgid "Precision:"
+msgstr "Precisão:"
+
+#: ../gui/wxpython/gui_core/preferences.py:1916
+#, python-format
+msgid "Unable to read EPSG codes: %s"
+msgstr "Não foi possível de ler os códigos EPSG: %s"
+
+#: ../gui/wxpython/gui_core/preferences.py:1949
+#: ../gui/wxpython/gui_core/preferences.py:1961
+#: ../gui/wxpython/gui_core/preferences.py:1973
+#, python-format
+msgid "EPSG code %s not found"
+msgstr "Código EPSG %s não encontrado"
+
+#: ../gui/wxpython/gui_core/preferences.py:1983
+msgid "Select default display font"
+msgstr "Seleccionar tipo de letra padrão"
+
+#: ../gui/wxpython/gui_core/preferences.py:1997
+msgid "Failed to set default display font. Try different font."
+msgstr "Falha ao definir a fonte de exibição padrão. Experimente uma fonte diferente."
+
+#: ../gui/wxpython/gui_core/preferences.py:2016
+msgid "Select default output font"
+msgstr "Selecione a fonte de saída padrão"
+
+#: ../gui/wxpython/gui_core/preferences.py:2105
+msgid "Manage access to mapsets"
+msgstr "Gerenciar o acesso aos mapsets"
+
+#: ../gui/wxpython/gui_core/preferences.py:2120
+msgid ""
+"Check a mapset to make it accessible, uncheck it to hide it.\n"
+"  Notes:\n"
+"    - The current mapset is always accessible.\n"
+"    - You may only write to the current mapset.\n"
+"    - You may only write to mapsets which you own."
+msgstr ""
+"Marque um mapset para torná-lo acessível, desmarque-o para ocultá-lo.\n"
+"Notas:\n"
+"- O mapset atual está sempre acessível.\n"
+"- Você só pode escrever para o mapset atual.\n"
+"- Você só pode escrever nos mapsets de sua propriedade."
+
+#: ../gui/wxpython/gui_core/preferences.py:2197
+msgid "Owner"
+msgstr "Proprietário"
+
+#: ../gui/wxpython/gui_core/dialogs.py:74
+msgid "Required item is not set."
+msgstr "O item obrigatório não está definido."
+
+#: ../gui/wxpython/gui_core/dialogs.py:105
+msgid "Select GRASS location and mapset"
+msgstr "Selecione a location GRASS e o mapset"
+
+#: ../gui/wxpython/gui_core/dialogs.py:125
+msgid "Location or mapset is not defined."
+msgstr "Location ou mapset não está definido."
+
+#: ../gui/wxpython/gui_core/dialogs.py:135
+msgid "Name of GRASS location:"
+msgstr "Nome da location GRASS:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:146
+#: ../gui/wxpython/gui_core/dialogs.py:203
+msgid "Name of mapset:"
+msgstr "Nome do mapset:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:175
+msgid "Select mapset in GRASS location"
+msgstr "Selecione o mapset na location GRASS "
+
+#: ../gui/wxpython/gui_core/dialogs.py:195
+msgid "Name of mapset is missing."
+msgstr "Falta o nome do mapset."
+
+#: ../gui/wxpython/gui_core/dialogs.py:216
+#: ../gui/wxpython/vdigit/toolbars.py:840
+#: ../gui/wxpython/vdigit/toolbars.py:997
+#: ../gui/wxpython/vdigit/toolbars.py:1095
+msgid "Select vector map"
+msgstr "Selecione o mapa vetorial"
+
+#: ../gui/wxpython/gui_core/dialogs.py:230
+msgid "Name of vector map is missing."
+msgstr "Falta o nome do mapa vetorial."
+
+#: ../gui/wxpython/gui_core/dialogs.py:292
+msgid "Create attribute table"
+msgstr "Criar tabela de atributos"
+
+#: ../gui/wxpython/gui_core/dialogs.py:326
+msgid "Name of new vector map is missing."
+msgstr "Falta o nome do novo mapa vetorial."
+
+#: ../gui/wxpython/gui_core/dialogs.py:348
+msgid "Name for new vector map:"
+msgstr "Nome para o novo mapa vetorial:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:450
+#, python-format
+msgid "Unable to create vector map <%s>."
+msgstr "Não foi possível criar mapa vetorial <%s>."
+
+#: ../gui/wxpython/gui_core/dialogs.py:455
+#, python-format
+msgid ""
+"Invalid or empty key column.\n"
+"Unable to create vector map <%s>."
+msgstr ""
+"Coluna chave inválida ou vazia.\n"
+"Não foi possível criar o mapa vetorial <%s>."
+
+#: ../gui/wxpython/gui_core/dialogs.py:486
+#, python-format
+msgid "Vector map <%s> already exists in the current mapset. Do you want to overwrite it?"
+msgstr "O mapa vetorial <%s> já existe no mapset atual. Você deseja substituí-lo?"
+
+#: ../gui/wxpython/gui_core/dialogs.py:576
+msgid "Load region:"
+msgstr "Carregar região:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:582
+msgid "Save region:"
+msgstr "Salvar região:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:634
+msgid "Name cannot begin with '.' and must not contain space, quotes, '/', ''', '@', ',', '=', '*', and all other non-alphanumeric characters."
+msgstr "O nome não pode começar com '.' e não deve conter espaço, aspas, '/', ''', '@', ',', '=', '*' e todos os outros caracteres não alfanuméricos."
+
+#: ../gui/wxpython/gui_core/dialogs.py:650
+msgid "Create or edit imagery groups"
+msgstr "Crie ou edite grupos de imagens"
+
+#: ../gui/wxpython/gui_core/dialogs.py:684
+msgid "Apply changes to selected group and close dialog"
+msgstr "Aplique as alterações ao grupo selecionado e feche a caixa de diálogo"
+
+#: ../gui/wxpython/gui_core/dialogs.py:685
+msgid "Apply changes to selected group"
+msgstr "Aplicar as alterações ao grupo selecionado"
+
+#: ../gui/wxpython/gui_core/dialogs.py:686
+msgid "Close dialog, changes are not applied"
+msgstr "Fechar caixa de diálogo, as alterações não são aplicadas"
+
+#: ../gui/wxpython/gui_core/dialogs.py:727
+#: ../gui/wxpython/gui_core/dialogs.py:1524
+msgid "Put here a regular expression. Characters '.*' stand for anything, character '^' stands for the beginning and '$' for the end."
+msgstr "Coloque aqui uma expressão regular. Os caracteres '.*' Representam qualquer coisa, o caractere '^' representa o início e '$' o fim."
+
+#: ../gui/wxpython/gui_core/dialogs.py:734
+msgid "Select existing group or enter name of new group:"
+msgstr "Selecione o grupo existente ou insira o nome do novo grupo:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:745
+msgid "Edit/create subgroup"
+msgstr "Edite/crie subgrupo"
+
+#: ../gui/wxpython/gui_core/dialogs.py:758
+msgid "Select existing subgroup or enter name of new subgroup:"
+msgstr "Selecione o subgrupo existente ou insira o nome do novo subgrupo:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:791
+#: ../gui/wxpython/gui_core/dialogs.py:859
+#: ../gui/wxpython/gui_core/dialogs.py:1509
+msgid "Pattern:"
+msgstr "Padrão:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:809
+#: ../gui/wxpython/gui_core/dialogs.py:877
+#: ../gui/wxpython/gui_core/dialogs.py:1533
+msgid "List of maps:"
+msgstr "Lista de mapas:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:825
+msgid "Select map layers and add them to the list."
+msgstr "Selecione as camadas do mapa e adicione-as à lista."
+
+#: ../gui/wxpython/gui_core/dialogs.py:830
+msgid "Remove selected layer(s) from list."
+msgstr "Remova a(s) camada(s) selecionada(s) da lista."
+
+#: ../gui/wxpython/gui_core/dialogs.py:887
+msgid "Check maps from group to be included into subgroup."
+msgstr "Verifique os mapas do grupo a serem incluídos no subgrupo."
+
+#: ../gui/wxpython/gui_core/dialogs.py:1051
+msgid "Add selected map layers into group"
+msgstr "Adicione camadas de mapa selecionadas ao grupo"
+
+#: ../gui/wxpython/gui_core/dialogs.py:1188
+#, python-format
+msgid "Group <%s> was changed, do you want to apply changes?"
+msgstr "O grupo <%s> foi alterado, deseja aplicar as alterações?"
+
+#: ../gui/wxpython/gui_core/dialogs.py:1191
+#: ../gui/wxpython/gui_core/dialogs.py:1207
+msgid "Unapplied changes"
+msgstr "Alterações não aplicadas"
+
+#: ../gui/wxpython/gui_core/dialogs.py:1204
+#, python-format
+msgid "Subgroup <%s> was changed, do you want to apply changes?"
+msgstr "O subgrupo <%s> foi alterado, deseja aplicar as alterações?"
+
+#: ../gui/wxpython/gui_core/dialogs.py:1261
+msgid "No raster maps selected."
+msgstr "Nenhum mapa raster selecionado."
+
+#: ../gui/wxpython/gui_core/dialogs.py:1290
+#, python-format
+msgid "No changes to apply in group <%s>."
+msgstr "Nenhuma alteração para aplicar no grupo <%s>."
+
+#: ../gui/wxpython/gui_core/dialogs.py:1293
+#, python-format
+msgid "Group <%s> was successfully created."
+msgstr "Grupo <%s> foi criado com sucesso."
+
+#: ../gui/wxpython/gui_core/dialogs.py:1295
+#, python-format
+msgid "Group <%s> was successfully changed."
+msgstr "Grupo <%s> foi alterado com sucesso."
+
+#: ../gui/wxpython/gui_core/dialogs.py:1298
+#, python-format
+msgid "Creating of new group <%s> failed."
+msgstr "A criação de novo grupo <%s> falhou."
+
+#: ../gui/wxpython/gui_core/dialogs.py:1300
+#, python-format
+msgid "Changing of group <%s> failed."
+msgstr "A alteração de novo grupo <%s> falhou."
+
+#: ../gui/wxpython/gui_core/dialogs.py:1339
+msgid "No group selected."
+msgstr "Nenhum grupo selecionado."
+
+#: ../gui/wxpython/gui_core/dialogs.py:1344
+msgid "No subgroup selected."
+msgstr "Nenhum subgrupo selecionado."
+
+#: ../gui/wxpython/gui_core/dialogs.py:1451
+msgid "Use fully-qualified map names"
+msgstr "Use nomes de mapa totalmente qualificados"
+
+#: ../gui/wxpython/gui_core/dialogs.py:1477
+msgid "Map type:"
+msgstr "Tipo de mapa:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:1492
+msgid "Select toggle"
+msgstr "Selecione alternar"
+
+#: ../gui/wxpython/gui_core/dialogs.py:1499
+msgid "Mapset:"
+msgstr "Mapset:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:1593
+msgid "Invert selection"
+msgstr "Seleção invertida"
+
+#: ../gui/wxpython/gui_core/dialogs.py:1736
+#, python-format
+msgid "Dynamic series (%s)"
+msgstr "Série dinâmica (%s)"
+
+#: ../gui/wxpython/gui_core/dialogs.py:1763
+msgid "Set Map Layer Opacity"
+msgstr "Defina a opacidade da camada do mapa"
+
+#: ../gui/wxpython/gui_core/dialogs.py:1794
+#: ../gui/wxpython/psmap/dialogs.py:6379 ../gui/wxpython/psmap/dialogs.py:6406
+#: ../gui/wxpython/psmap/dialogs.py:6732 ../gui/wxpython/psmap/dialogs.py:6762
+msgid "transparent"
+msgstr "transparente"
+
+#: ../gui/wxpython/gui_core/dialogs.py:1797
+msgid "opaque"
+msgstr "opaco"
+
+#: ../gui/wxpython/gui_core/dialogs.py:1898
+msgid "Set image size"
+msgstr "Definir tamanho da imagem"
+
+#: ../gui/wxpython/gui_core/dialogs.py:1913
+msgid "Image size"
+msgstr "Tamanho da imagem"
+
+#: ../gui/wxpython/gui_core/dialogs.py:1960
+msgid "Template:"
+msgstr "Modelo:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:2000
+msgid "SQL Query Utility"
+msgstr ""
+
+#: ../gui/wxpython/gui_core/dialogs.py:2016
+msgid " SQL statement "
+msgstr "Instrução SQL"
+
+#: ../gui/wxpython/gui_core/dialogs.py:2064
+msgid "Symbols"
+msgstr "Símbolos"
+
+#: ../gui/wxpython/gui_core/dialogs.py:2099
+msgid "Symbol directory:"
+msgstr "Diretório de símbolos:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:2111
+msgid "Symbol name:"
+msgstr "Nome do símbolo:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:2364
+msgid "Do you want to quit GRASS GIS including shell or just close the GUI?"
+msgstr ""
+
+#: ../gui/wxpython/gui_core/dialogs.py:2369
+msgid "Do you want to quit GRASS GIS?"
+msgstr ""
+
+#: ../gui/wxpython/gui_core/dialogs.py:2448
+msgid "Select font:"
+msgstr "Seleccionar tipo de letra:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:2479
+msgid "Character encoding:"
+msgstr "Codificação de caracteres:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:2497
+#: ../gui/wxpython/psmap/dialogs.py:397 ../gui/wxpython/psmap/dialogs.py:4980
+msgid "Font size:"
+msgstr "Tamanho da fonte:"
+
+#: ../gui/wxpython/gui_core/dialogs.py:2549
+msgid "Example"
+msgstr "Exemplo"
+
+#: ../gui/wxpython/gui_core/wrap.py:208
+msgid "Clear"
+msgstr "Limpar"
+
+#: ../gui/wxpython/gui_core/wrap.py:210
+msgid "&Clear"
+msgstr "&Limpar"
+
+#: ../gui/wxpython/gui_core/wrap.py:223
+msgid "&Cancel"
+msgstr "&Cancelar"
+
+#: ../gui/wxpython/gui_core/wrap.py:235
+msgid "&Close"
+msgstr "&Fechar"
+
+#: ../gui/wxpython/gui_core/wrap.py:245
+msgid "Apply"
+msgstr "Aplicar"
+
+#: ../gui/wxpython/gui_core/forms.py:564
+msgid "Enter parameters for '"
+msgstr "Insira os parâmetros para '"
+
+#: ../gui/wxpython/gui_core/forms.py:576
+msgid "Close this window without executing the command (Ctrl+Q)"
+msgstr "Feche esta janela sem executar o comando (Ctrl+Q)"
+
+#: ../gui/wxpython/gui_core/forms.py:607
+msgid "Run the command (Ctrl+R)"
+msgstr "Execute o comando (Ctrl+R)"
+
+#: ../gui/wxpython/gui_core/forms.py:631
+msgid "Show manual page of the command (Ctrl+H)"
+msgstr "Mostra a página de manual do comando (Ctrl+H)"
+
+#: ../gui/wxpython/gui_core/forms.py:670
+msgid "Add created map(s) into layer tree"
+msgstr "Adicione mapa(s) criado(s) à árvore de camadas"
+
+#: ../gui/wxpython/gui_core/forms.py:700
+msgid "Close dialog when command is successfully finished. Change this settings in Preferences dialog ('Command' tab)."
+msgstr "Feche a caixa de diálogo quando o comando for concluído com sucesso. Altere essas configurações na caixa de diálogo Preferências (guia 'Comando')."
+
+#: ../gui/wxpython/gui_core/forms.py:885
+#, python-format
+msgid "'%s' copied to clipboard"
+msgstr "'%s' copiado para a área de transferência"
+
+#: ../gui/wxpython/gui_core/forms.py:975 ../gui/wxpython/gui_core/forms.py:989
+msgid "Required"
+msgstr "Obrigatório"
+
+#: ../gui/wxpython/gui_core/forms.py:978 ../gui/wxpython/gui_core/forms.py:990
+msgid "Optional"
+msgstr "Opcional"
+
+#: ../gui/wxpython/gui_core/forms.py:1073
+#: ../gui/wxpython/gui_core/forms.py:2105
+msgid "Parameterized in model"
+msgstr "Parametrizado no modelo"
+
+#: ../gui/wxpython/gui_core/forms.py:1163
+msgid "[multiple]"
+msgstr "[multiple]"
+
+#: ../gui/wxpython/gui_core/forms.py:1221
+msgid "valid range"
+msgstr "intervalo válido"
+
+#: ../gui/wxpython/gui_core/forms.py:1578
+msgid "Show graphical representation of temporal extent of dataset(s) ."
+msgstr "Mostrar a representação gráfica da extensão temporal do(s) conjunto(s) de dados."
+
+#: ../gui/wxpython/gui_core/forms.py:1845
+#: ../gui/wxpython/gui_core/forms.py:1936
+#, python-format
+msgid "Choose %s"
+msgstr "Escolha %s"
+
+#: ../gui/wxpython/gui_core/forms.py:1890
+msgid "Load and edit content of a file"
+msgstr "Carregar e editar o conteúdo de um arquivo"
+
+#: ../gui/wxpython/gui_core/forms.py:1893
+msgid "&Save as"
+msgstr "&Salvar como"
+
+#: ../gui/wxpython/gui_core/forms.py:1895
+msgid "Save content to a file for further use"
+msgstr "Salve o conteúdo em um arquivo para uso posterior"
+
+#: ../gui/wxpython/gui_core/forms.py:1900
+msgid "or enter values directly:"
+msgstr "ou insira os valores diretamente:"
+
+#: ../gui/wxpython/gui_core/forms.py:1902
+msgid "Enter file content directly instead of specifying a file. Temporary file will be automatically created."
+msgstr "Insira o conteúdo do arquivo diretamente em vez de especificar um arquivo. O arquivo temporário será criado automaticamente."
+
+#: ../gui/wxpython/gui_core/forms.py:2318
+msgid "Manual"
+msgstr "Manual"
+
+#: ../gui/wxpython/gui_core/forms.py:2362
+msgid "Nothing to load."
+msgstr "Nada para carregar."
+
+#: ../gui/wxpython/gui_core/forms.py:2370
+#, python-format
+msgid ""
+"Unable to load file.\n"
+"\n"
+"Reason: %s"
+msgstr ""
+"Não foi possível carregar o arquivo.\n"
+"\n"
+"Razão: %s"
+
+#: ../gui/wxpython/gui_core/forms.py:2400
+msgid "Save input as..."
+msgstr "Salvar entrada como..."
+
+#: ../gui/wxpython/gui_core/forms.py:2733
+msgid "No dataset given."
+msgstr "Nenhum conjunto de dados fornecido."
+
+#: ../gui/wxpython/gui_core/forms.py:2902
+#: ../gui/wxpython/gui_core/forms.py:2919
+#, python-format
+msgid "Unable to parse command '%s'"
+msgstr "Não foi possível interpretar o comando '%s'"
+
+#: ../gui/wxpython/gui_core/forms.py:2926
+#, python-format
+msgid "%(cmd)s: parameter '%(key)s' not available"
+msgstr "%(cmd)s: parâmetro '%(key)s' não disponível"
+
+#: ../gui/wxpython/gui_core/forms.py:3008
+msgid "Try to set up GRASS_ADDON_PATH or GRASS_ADDON_BASE variable."
+msgstr "Tente configurar a variável GRASS_ADDON_PATH ou GRASS_ADDON_BASE."
+
+#: ../gui/wxpython/gui_core/menu.py:155
+msgid "Adva&nced search..."
+msgstr "Pesquisa ava&nçada"
+
+#: ../gui/wxpython/gui_core/menu.py:157
+#, python-format
+msgid "Do advanced search using %s module"
+msgstr "Faça pesquisa avançada usando o módulo %s"
+
+#: ../gui/wxpython/gui_core/menu.py:161
+msgid "Double-click to run selected module"
+msgstr ""
+
+#: ../gui/wxpython/gui_core/menu.py:164
+#, fuzzy
+msgid "&Run..."
+msgstr "&Executar"
+
+#: ../gui/wxpython/gui_core/menu.py:165
+msgid "Run selected module from the tree"
+msgstr "Execute o módulo selecionado da árvore"
+
+#: ../gui/wxpython/gui_core/menu.py:166
+msgid "H&elp"
+msgstr ""
+
+#: ../gui/wxpython/gui_core/menu.py:168
+msgid "Show manual for selected module from the tree"
+msgstr "Mostrar manual para o módulo selecionado da árvore"
+
+#: ../gui/wxpython/gui_core/menu.py:278
+#, python-format
+msgid "Documentation for %s is now open in the web browser"
+msgstr "A documentação de %s agora está aberta no navegador da web"
+
+#: ../gui/wxpython/gui_core/menu.py:356
+msgid "&Recent Files"
+msgstr ""
+
+#: ../gui/wxpython/icons/icon.py:39
+#, python-format
+msgid "Unknown iconset '%s', using default 'grass'...\n"
+msgstr "Conjunto de ícones desconhecido '%s', usando padrão 'grass'...\n"
+
+#: ../gui/wxpython/icons/icon.py:57
+#, python-format
+msgid "Unable to load icon theme. Reason: %s. Quiting wxGUI..."
+msgstr "Não foi possível carregar o tema de ícone. Razão: %s. Saindo do wxGUI..."
+
+#: ../gui/wxpython/gcp/mapdisplay.py:48 ../gui/wxpython/gcp/manager.py:994
+#: ../gui/wxpython/image2target/ii2t_manager.py:952
+msgid "Manage Ground Control Points"
+msgstr "Gerenciar Pontos de Controle no Solo"
+
+#: ../gui/wxpython/gcp/manager.py:150
+#: ../gui/wxpython/image2target/ii2t_manager.py:179
+msgid "Setup for georectification"
+msgstr "Configuração para georretificação"
+
+#: ../gui/wxpython/gcp/manager.py:183 ../gui/wxpython/gcp/manager.py:187
+#: ../gui/wxpython/image2target/ii2t_manager.py:212
+#: ../gui/wxpython/image2target/ii2t_manager.py:216
+msgid "Georectifying setup canceled."
+msgstr "Configuração de georretificação cancelada."
+
+#: ../gui/wxpython/gcp/manager.py:374
+#: ../gui/wxpython/image2target/ii2t_manager.py:381
+msgid "Select map type and location/mapset"
+msgstr "Selecione o tipo de mapa e location/mapset"
+
+#: ../gui/wxpython/gcp/manager.py:388
+#: ../gui/wxpython/image2target/ii2t_manager.py:395
+msgid "Map type to georectify"
+msgstr "Tipo de mapa para georretificar"
+
+#: ../gui/wxpython/gcp/manager.py:399
+#: ../gui/wxpython/image2target/ii2t_manager.py:406
+msgid "Select source location:"
+msgstr "Selecionar a Location de origem:"
+
+#: ../gui/wxpython/gcp/manager.py:420
+#: ../gui/wxpython/image2target/ii2t_manager.py:427
+msgid "Select source mapset:"
+msgstr "Selecione o mapset de origem:"
+
+#: ../gui/wxpython/gcp/manager.py:476
+#: ../gui/wxpython/image2target/ii2t_manager.py:483
+msgid "You must select a valid location before selecting a mapset"
+msgstr "Você deve selecionar uma location válida antes de selecionar um mapset"
+
+#: ../gui/wxpython/gcp/manager.py:489
+#: ../gui/wxpython/image2target/ii2t_manager.py:496
+msgid "You must select a valid location and mapset in order to continue"
+msgstr "Você deve selecionar uma location válida e um mapset para continuar"
+
+#: ../gui/wxpython/gcp/manager.py:511
+#: ../gui/wxpython/image2target/ii2t_manager.py:518
+msgid "Select image/map group to georectify"
+msgstr "Selecione o grupo de imagem/mapa para georectificar"
+
+#: ../gui/wxpython/gcp/manager.py:533
+msgid "Select/create group:"
+msgstr "Selecionar/criar grupo:"
+
+#: ../gui/wxpython/gcp/manager.py:550
+#: ../gui/wxpython/image2target/ii2t_manager.py:557
+msgid "Create group if none exists"
+msgstr "Crie um grupo se não houver nenhum"
+
+#: ../gui/wxpython/gcp/manager.py:564
+#: ../gui/wxpython/image2target/ii2t_manager.py:571
+msgid "Add vector map to group..."
+msgstr "Adicionar mapa vetorial ao grupo..."
+
+#: ../gui/wxpython/gcp/manager.py:655
+msgid "No vector maps."
+msgstr "Nenhum mapa vetorial"
+
+#: ../gui/wxpython/gcp/manager.py:662
+#: ../gui/wxpython/image2target/ii2t_manager.py:655
+msgid "You must select a valid image/map group in order to continue"
+msgstr "Você deve selecionar um grupo de imagem/mapa válido para continuar"
+
+#: ../gui/wxpython/gcp/manager.py:669
+#: ../gui/wxpython/image2target/ii2t_manager.py:662
+msgid "You must enter an map name extension in order to continue"
+msgstr "Você deve inserir uma extensão de nome de mapa para continuar"
+
+#: ../gui/wxpython/gcp/manager.py:738
+#: ../gui/wxpython/image2target/ii2t_manager.py:731
+msgid "Select maps to display for ground control point (GCP) creation"
+msgstr "Selecione os mapas a serem exibidos para a criação do ponto de controle no solo (ground control point - GCP)"
+
+#: ../gui/wxpython/gcp/manager.py:743
+msgid "Map Display Web Service Layer(s)"
+msgstr ""
+
+#: ../gui/wxpython/gcp/manager.py:802 ../gui/wxpython/gcp/manager.py:3060
+#: ../gui/wxpython/image2target/ii2t_manager.py:792
+#: ../gui/wxpython/image2target/ii2t_manager.py:2982
+msgid "Select target vector map to display:"
+msgstr "Selecione o mapa do vetor de destino para exibir:"
+
+#: ../gui/wxpython/gcp/manager.py:874
+#: ../gui/wxpython/image2target/ii2t_manager.py:864
+msgid "You must select a source map in order to continue"
+msgstr "Você deve selecionar um mapa de origem para continuar"
+
+#: ../gui/wxpython/gcp/manager.py:901 ../gui/wxpython/gcp/manager.py:920
+#: ../gui/wxpython/image2target/ii2t_manager.py:891
+#: ../gui/wxpython/image2target/ii2t_manager.py:922
+#, python-format
+msgid ""
+"No maps in selected group <%s>.\n"
+"Please edit group or select another group."
+msgstr ""
+"Sem mapas no grupo <%s> selecionado.\n"
+"Favor editar grupo ou selecionar outro grupo."
+
+#: ../gui/wxpython/gcp/manager.py:1691
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+#, python-brace-format
+msgid "Directory {t} not removed."
+msgstr "O diretório {t} não foi removido."
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/gui_core/preferences.py:1781
 msgid "&Load EPSG codes"
@@ -61018,6 +63335,7 @@ msgstr "Transformando <%s>..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -61066,13 +63384,20 @@ msgstr "Transformando <%s>..."
 >>>>>>> osgeo-main
 =======
 =======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/gcp/manager.py:1790
 #: ../gui/wxpython/image2target/ii2t_manager.py:1706
@@ -61464,12 +63789,16 @@ msgstr "Pontos insuficientes para linha"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 msgid "Vector Digitizer - GRASS GIS"
 msgstr ""
 =======
 #, fuzzy
 msgid "Vector Digitizer - GRASS GIS"
 msgstr "Bem-vindo ao GRASS GIS"
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Vector Digitizer - GRASS GIS"
@@ -61560,6 +63889,9 @@ msgstr ""
 msgid "Vector Digitizer - GRASS GIS"
 msgstr ""
 >>>>>>> osgeo-main
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #: ../gui/wxpython/vdigit/g.gui.vdigit.py:83
 #, python-format
@@ -65120,6 +67452,7 @@ msgstr "Digitalizador vetorial do GRASS GIS"
 msgid "GRASS GIS Animation tool"
 msgstr "Ferramenta de Animação GRASS GIS"
 
+<<<<<<< HEAD
 msgid "Start region:"
 msgstr "Região de partida:"
 
@@ -65219,6 +67552,8 @@ msgstr "Deslizar a Tela GRASS GIS"
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -65416,6 +67751,7 @@ msgstr "Deslizar a Tela GRASS GIS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -65454,6 +67790,8 @@ msgstr "Deslizar a Tela GRASS GIS"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Allocates subnets for nearest centers (direction from center). center node must be opened (costs >= 0). Costs of center node are used in calculation"
 msgstr "Aloca sub-redes para os centros mais próximos (direção do centro). o nó central deve ser aberto (custos >= 0). Os custos do nó central são usados ​​no cálculo"
@@ -65539,6 +67877,7 @@ msgstr "Aloca sub-redes para os centros mais próximos (direção do centro). o 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -65592,6 +67931,20 @@ msgstr "Aloca sub-redes para os centros mais próximos (direção do centro). o 
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+#~ msgid "Splits net by cost isolines. Splits net to bands between cost isolines (direction from center). Center node must be opened (costs >= 0). Costs of center node are used in calculation."
+#~ msgstr "Divide a rede por isolinhas de custo. Divide a rede em bandas entre as isolinhas de custo (direção do centro). O nó central deve ser aberto (custos >= 0). Os custos do nó central são usados ​​no cálculo."
+
+#~ msgid "Attaches, deletes or reports vector categories to map geometry."
+#~ msgstr "Anexa, exclui ou relata categorias de vetores para mapear a geometria."
+
+#~ msgid "Creates a Voronoi diagram in current region from an input vector map containing points or centroids."
+#~ msgstr "Cria um diagrama de Voronoi na região atual de um mapa vetorial de entrada contendo pontos ou centroides."
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 msgid "Splits net by cost isolines. Splits net to bands between cost isolines (direction from center). Center node must be opened (costs >= 0). Costs of center node are used in calculation."
 msgstr "Divide a rede por isolinhas de custo. Divide a rede em bandas entre as isolinhas de custo (direção do centro). O nó central deve ser aberto (custos >= 0). Os custos do nó central são usados ​​no cálculo."
@@ -65896,6 +68249,7 @@ msgstr "Relatórios e estatísticas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -65934,6 +68288,8 @@ msgstr "Relatórios e estatísticas"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Registers raster, vector and raster3d maps in a space time datasets."
 msgstr "Registra mapas raster, vetoriais e raster3d em conjuntos de dados de espaço-tempo."
@@ -66019,6 +68375,7 @@ msgstr "Registra mapas raster, vetoriais e raster3d em conjuntos de dados de esp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -66081,6 +68438,10 @@ msgstr "Registra mapas raster, vetoriais e raster3d em conjuntos de dados de esp
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 msgid "Documents"
 msgstr "Documentos"
@@ -66155,6 +68516,7 @@ msgstr "Definir o banco de dados GRASS e o Nome da Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 msgid "This option allows setting default computation region immediately after new location is created. Default computation region can be defined later using g.region based on imported data."
@@ -66221,6 +68583,10 @@ msgstr "Esta opção permite definir a região de computação padrão imediatam
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #~ msgid ""
 #~ "This option allows setting default computation region immediately after "
 #~ "new location is created. Default computation region can be defined later "
@@ -66233,6 +68599,7 @@ msgstr "Esta opção permite definir a região de computação padrão imediatam
 #~ msgid "This option allows setting default computation region immediately after new location is created. Default computation region can be defined later using g.region based on imported data."
 #~ msgstr "Esta opção permite definir a região de computação padrão imediatamente após a criação da nova location. A região de computação padrão pode ser definida posteriormente usando g.region com base nos dados importados."
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66291,6 +68658,8 @@ msgstr "Esta opção permite definir a região de computação padrão imediatam
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 msgid "This option allows setting default computation region immediately after new location is created. Default computation region can be defined later using g.region based on imported data."
 msgstr "Esta opção permite definir a região de computação padrão imediatamente após a criação da nova location. A região de computação padrão pode ser definida posteriormente usando g.region com base nos dados importados."
@@ -66376,6 +68745,7 @@ msgstr "Esta opção permite definir a região de computação padrão imediatam
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -66438,6 +68808,10 @@ msgstr "Esta opção permite definir a região de computação padrão imediatam
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 msgid "Create user mapset"
 msgstr "Criar mapset do usuário"
@@ -66542,6 +68916,13 @@ msgstr "Título da Location"
 #~ "ASCII excluindo %(chars)s e espaço."
 =======
 #~ msgstr "Título da location é opcional, você pode deixar este campo em branco."
+<<<<<<< HEAD
+=======
+
+#~ msgid "Name <%(name)s> is not a valid name for location. Please use only ASCII characters excluding %(chars)s and space."
+#~ msgstr "Nome <%(name)s> não é um nome válido para location. Use apenas caracteres ASCII excluindo %(chars)s e espaço."
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 
 #~ msgid "Name <%(name)s> is not a valid name for location. Please use only ASCII characters excluding %(chars)s and space."
 #~ msgstr "Nome <%(name)s> não é um nome válido para location. Use apenas caracteres ASCII excluindo %(chars)s e espaço."
@@ -67096,6 +69477,7 @@ msgstr "Selecione o código EPSG do sistema de referência espacial"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -67128,6 +69510,14 @@ msgstr "Selecione o código EPSG do sistema de referência espacial"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+#~ msgid "Read projection and datum terms from a Well Known Text (WKT) .prj file"
+#~ msgstr "Leia os termos de projeção e dado de um arquivo Well Known Text (WKT) .prj"
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 #~ msgid "Read projection and datum terms from a Well Known Text (WKT) .prj file"
 #~ msgstr "Leia os termos de projeção e dado de um arquivo Well Known Text (WKT) .prj"
@@ -67535,6 +69925,7 @@ msgstr "Especifique termos de projeção e dado usando parâmetros PROJ.4 person
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -67573,6 +69964,8 @@ msgstr "Especifique termos de projeção e dado usando parâmetros PROJ.4 person
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Specify projection and datum terms using custom PROJ.4 parameters"
 msgstr "Especifique termos de projeção e dado usando parâmetros PROJ.4 personalizados"
@@ -67658,6 +70051,7 @@ msgstr "Especifique termos de projeção e dado usando parâmetros PROJ.4 person
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -67720,6 +70114,10 @@ msgstr "Especifique termos de projeção e dado usando parâmetros PROJ.4 person
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 msgid "Create a generic Cartesian coordinate system (XY)"
 msgstr "Crie um sistema de coordenadas cartesianas genérico (XY)"
@@ -67853,6 +70251,7 @@ msgstr "Escolha o método de especificação de parâmetros de georreferenciamen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -67891,6 +70290,8 @@ msgstr "Escolha o método de especificação de parâmetros de georreferenciamen
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Choose method of specifying georeferencing parameters"
 msgstr "Escolha o método de especificação de parâmetros de georreferenciamento"
@@ -67976,6 +70377,7 @@ msgstr "Escolha o método de especificação de parâmetros de georreferenciamen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -68038,6 +70440,10 @@ msgstr "Escolha o método de especificação de parâmetros de georreferenciamen
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 msgid "Location Title:"
 msgstr "Título da Location:"
@@ -68079,6 +70485,7 @@ msgstr "Assistente de location cancelado. A location não foi criada."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 msgid "Location <%(loc)s> will be created in GIS data directory <%(dir)s>. You will need to change the default GIS data directory in the GRASS startup screen."
@@ -68145,6 +70552,10 @@ msgstr "A location <%(loc)s> será criada no diretório de dados GIS <%(dir)s>. 
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 #~ msgid ""
 #~ "Location <%(loc)s> will be created in GIS data directory <%(dir)s>. You "
 #~ "will need to change the default GIS data directory in the GRASS startup "
@@ -68157,6 +70568,7 @@ msgstr "A location <%(loc)s> será criada no diretório de dados GIS <%(dir)s>. 
 #~ msgid "Location <%(loc)s> will be created in GIS data directory <%(dir)s>. You will need to change the default GIS data directory in the GRASS startup screen."
 #~ msgstr "A location <%(loc)s> será criada no diretório de dados GIS <%(dir)s>. Você precisará alterar o diretório de dados GIS padrão na tela de inicialização do GRASS."
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68215,6 +70627,8 @@ msgstr "A location <%(loc)s> será criada no diretório de dados GIS <%(dir)s>. 
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Location <%(loc)s> will be created in GIS data directory <%(dir)s>. You will need to change the default GIS data directory in the GRASS startup screen."
 msgstr "A location <%(loc)s> será criada no diretório de dados GIS <%(dir)s>. Você precisará alterar o diretório de dados GIS padrão na tela de inicialização do GRASS."
@@ -68300,6 +70714,7 @@ msgstr "A location <%(loc)s> será criada no diretório de dados GIS <%(dir)s>. 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -68362,6 +70777,10 @@ msgstr "A location <%(loc)s> será criada no diretório de dados GIS <%(dir)s>. 
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 
 msgid "New GIS data directory"
 msgstr "Novo diretório de dados GIS"
@@ -68502,6 +70921,7 @@ msgstr "Clique aqui para ocultar o mecanismo do módulo de pesquisa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -68540,6 +70960,8 @@ msgstr "Clique aqui para ocultar o mecanismo do módulo de pesquisa"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 msgid "Click here to hide search module engine"
 msgstr "Clique aqui para ocultar o mecanismo do módulo de pesquisa"
@@ -69091,4 +71513,9 @@ msgstr "Clique aqui para ocultar o mecanismo do módulo de pesquisa"
 msgid "Click here to hide search module engine"
 msgstr "Clique aqui para ocultar o mecanismo do módulo de pesquisa"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))

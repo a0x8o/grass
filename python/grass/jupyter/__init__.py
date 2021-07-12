@@ -681,6 +681,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -731,6 +732,8 @@ from .setup import *
 >>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> a09cd63835 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1008,6 +1011,11 @@ from .seriesmap import SeriesMap
 from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 >>>>>>> 095dc4def6 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -1033,11 +1041,14 @@ from .display import *
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
 =======
 =======
+=======
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
 from .utils import *
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -1106,4 +1117,9 @@ from .timeseriesmap import TimeSeriesMap
 from .setup import *
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> d821fd6f6f (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 >>>>>>> cc77d8a6fa (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+>>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
