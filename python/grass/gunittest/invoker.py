@@ -2416,6 +2416,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2576,8 +2577,16 @@ class GrassTestFilesInvoker:
 =======
 =======
 >>>>>>> e2f520cfc3 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 3c9b290870 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 1493fa586e (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8d53b00588 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f8d32d9e3a (libpython: Save and load benchmark results (#1711))
                     return decode(data, encoding=encoding)
 =======
 <<<<<<< HEAD
@@ -2697,6 +2706,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -2739,6 +2749,8 @@ class GrassTestFilesInvoker:
 >>>>>>> d56ffd79c6 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f8d32d9e3a (libpython: Save and load benchmark results (#1711))
 =======
                     return decode(data, encoding=encoding)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3163,8 +3175,16 @@ class GrassTestFilesInvoker:
                     return decode(stdout, encoding=encoding)
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 1df4f6c1a9 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> b62c64d69c (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8d53b00588 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f8d32d9e3a (libpython: Save and load benchmark results (#1711))
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):
