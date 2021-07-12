@@ -5450,6 +5450,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4b68728a9f (pythonlib: Remove star imports (#1546))
 =======
@@ -5505,6 +5506,8 @@ class GrassTestFilesInvoker:
 >>>>>>> 32987ee457 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 64384cd976 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> dcc1810d30 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 =======
@@ -5588,8 +5591,16 @@ class GrassTestFilesInvoker:
 =======
 =======
 >>>>>>> e2f520cfc3 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 3c9b290870 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 8cba1d1209 (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8d53b00588 (libpython: Save and load benchmark results (#1711))
+>>>>>>> dcc1810d30 (libpython: Save and load benchmark results (#1711))
                     return decode(data, encoding=encoding)
 =======
                     return decode(stdout, encoding=encoding)
@@ -5610,6 +5621,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7439490972 (libpython: Save and load benchmark results (#1711))
 =======
@@ -5622,6 +5634,8 @@ class GrassTestFilesInvoker:
 >>>>>>> 8a286c75d5 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dcc1810d30 (libpython: Save and load benchmark results (#1711))
 =======
                     return decode(data, encoding=encoding)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -5803,7 +5817,12 @@ class GrassTestFilesInvoker:
                     return decode(stdout, encoding=encoding)
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 1df4f6c1a9 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+>>>>>>> 8d53b00588 (libpython: Save and load benchmark results (#1711))
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):
