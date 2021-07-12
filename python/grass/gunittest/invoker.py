@@ -6075,6 +6075,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7e83b17a18 (pythonlib: Remove star imports (#1546))
 =======
@@ -7011,12 +7012,18 @@ class GrassTestFilesInvoker:
 =======
 =======
 >>>>>>> da0563df3d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> dbedecb198 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
                     return decode(data, encoding=encoding)
 =======
                     return decode(stdout, encoding=encoding)
 <<<<<<< HEAD
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7468,6 +7475,11 @@ class GrassTestFilesInvoker:
 >>>>>>> ce79f96bcb (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> da0563df3d (pythonlib: Remove star imports (#1546))
+=======
+=======
+                    return decode(data, encoding=encoding)
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):

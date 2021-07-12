@@ -494,6 +494,7 @@ class Module:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -736,6 +737,8 @@ class Module:
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -878,6 +881,8 @@ class Module:
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
     'r.neighbors input=mapA size=5 method=average weighting_function=none quantile=0.5 nprocs=1 memory=300 output=mapB'
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -911,7 +916,11 @@ class Module:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 <<<<<<< HEAD
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
@@ -2553,7 +2562,12 @@ class Module:
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 
     >>> new_neighbors1 = copy.deepcopy(neighbors)
     >>> new_neighbors1.inputs.input = "mapD"
@@ -2708,6 +2722,7 @@ class Module:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2950,6 +2965,8 @@ class Module:
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -3092,6 +3109,8 @@ class Module:
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
     'r.neighbors input=mapD size=3 method=average weighting_function=none quantile=0.5 nprocs=1 memory=300 output=mapB'
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3125,7 +3144,11 @@ class Module:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 <<<<<<< HEAD
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
@@ -4767,7 +4790,12 @@ class Module:
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 
     >>> new_neighbors2 = copy.deepcopy(neighbors)
     >>> new_neighbors2(input="mapD", size=3, run_=False)
@@ -4815,6 +4843,7 @@ class Module:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
@@ -5506,6 +5535,7 @@ class Module:
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -5816,11 +5846,16 @@ class Module:
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
     'r.neighbors input=mapD size=3 method=average weighting_function=none quantile=0.5 nprocs=1 memory=300 output=mapB'
 
     >>> neighbors = Module("r.neighbors")
     >>> neighbors.get_bash()
     'r.neighbors size=3 method=average weighting_function=none nprocs=1 memory=300'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6131,13 +6166,20 @@ class Module:
 =======
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
     'r.neighbors input=mapD size=3 method=average weighting_function=none quantile=0.5 output=mapB'
 
     >>> neighbors = Module("r.neighbors")
     >>> neighbors.get_bash()
     'r.neighbors size=3 method=average weighting_function=none'
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7419,6 +7461,7 @@ class Module:
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -7744,6 +7787,10 @@ class Module:
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 
     >>> new_neighbors3 = copy.deepcopy(neighbors)
     >>> new_neighbors3(input="mapA", size=3, output="mapB", run_=False)
@@ -7897,6 +7944,7 @@ class Module:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8139,6 +8187,8 @@ class Module:
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -8281,6 +8331,8 @@ class Module:
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
     'r.neighbors input=mapA size=3 method=average weighting_function=none nprocs=1 memory=300 output=mapB'
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8314,7 +8366,11 @@ class Module:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 <<<<<<< HEAD
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
@@ -9956,7 +10012,12 @@ class Module:
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 
     >>> mapcalc = Module(
     ...     "r.mapcalc", expression="test_a = 1", overwrite=True, run_=False

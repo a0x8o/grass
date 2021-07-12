@@ -97,6 +97,7 @@ for details
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -281,6 +282,8 @@ for details
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -1066,13 +1069,17 @@ for details
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 094016f111 (libpython: Save and load benchmark results (#1711))
 =======
@@ -1297,6 +1304,8 @@ for details
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 import random
 import string
 
@@ -1437,6 +1446,7 @@ from grass.lib.gis import G_remove_misc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1690,6 +1700,8 @@ from grass.lib.gis import G_remove_misc
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -2462,6 +2474,7 @@ from grass.lib.gis import G_remove_misc
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2780,6 +2793,10 @@ from grass.lib.gis import G_remove_misc
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 from grass.lib.raster import (
     Rast_legal_semantic_label,
     Rast_read_semantic_label,
@@ -2823,6 +2840,7 @@ from grass.lib.raster import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4459,7 +4477,15 @@ from grass.lib.raster import Rast_legal_bandref, Rast_read_bandref, Rast_write_b
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+from grass.lib.raster import Rast_legal_bandref, Rast_read_bandref, Rast_write_bandref
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 
 
 class RastLegalBandIdTestCase(TestCase):
@@ -4593,6 +4619,7 @@ class RastLegalBandIdTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4846,6 +4873,8 @@ class RastLegalBandIdTestCase(TestCase):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -5618,6 +5647,7 @@ class RastLegalBandIdTestCase(TestCase):
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -5936,6 +5966,10 @@ class RastLegalBandIdTestCase(TestCase):
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
         ret = Rast_legal_semantic_label("")
         self.assertEqual(ret, False)
         ret = Rast_legal_semantic_label(" ")
@@ -6752,6 +6786,7 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7162,6 +7197,7 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 980c935a7d (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -7295,10 +7331,16 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
         ret = Rast_legal_bandref("")
         self.assertEqual(ret, -1)
         ret = Rast_legal_bandref(" ")
         self.assertEqual(ret, -1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7545,6 +7587,8 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -9161,6 +9205,7 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -9675,10 +9720,18 @@ class Rastsemantic_labelerenceTestCase(TestCase):
         self.assertEqual(ret, -1)
 <<<<<<< HEAD
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+
+    def test_illegal_name(self):
+        ret = Rast_legal_bandref(".a")
+        self.assertEqual(ret, -1)
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
         ret = Rast_legal_bandref("1")
         self.assertEqual(ret, -1)
         ret = Rast_legal_bandref("1a")
         self.assertEqual(ret, -1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9747,12 +9800,15 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> b0b193d204 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
         ret = Rast_legal_bandref("a/b")
         self.assertEqual(ret, -1)
         ret = Rast_legal_bandref("a@b")
         self.assertEqual(ret, -1)
         ret = Rast_legal_bandref("a#b")
         self.assertEqual(ret, -1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9810,10 +9866,13 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 >>>>>>> 102ca719c3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
         ret = Rast_legal_bandref("GRASS")
         self.assertEqual(ret, -1)
         ret = Rast_legal_bandref("USER")
         self.assertEqual(ret, -1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9912,6 +9971,8 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 >>>>>>> 102ca719c3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 
     def test_no_second_token(self):
         ret = Rast_legal_bandref("GRASS_")
@@ -9920,6 +9981,7 @@ class Rastsemantic_labelerenceTestCase(TestCase):
         self.assertEqual(ret, -1)
         ret = Rast_legal_bandref("S2_")
         self.assertEqual(ret, -1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10399,10 +10461,25 @@ class Rastsemantic_labelerenceTestCase(TestCase):
         ret = Rast_legal_bandref("rededge1")
         self.assertEqual(ret, 1)
 >>>>>>> b0b193d204 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+
+    def test_too_long(self):
+        ret = Rast_legal_bandref(
+            "a_" + "".join(random.choices(string.ascii_letters, k=253))
+        )
+        self.assertEqual(ret, 1)
+        ret = Rast_legal_bandref(
+            "a_" + "".join(random.choices(string.ascii_letters, k=254))
+        )
+        self.assertEqual(ret, -1)
+
+    def test_good_name(self):
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
         ret = Rast_legal_bandref("S2_1")
         self.assertEqual(ret, 1)
         ret = Rast_legal_bandref("GRASS_aspect_deg")
         self.assertEqual(ret, 1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10981,6 +11058,13 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+
+class RastBandReferenceTestCase(TestCase):
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
     @classmethod
     def setUpClass(cls):
         cls.map = tempname(10)
@@ -11133,6 +11217,7 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11375,6 +11460,8 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -11517,6 +11604,8 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
         cls.semantic_label = "The_Doors"
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11550,7 +11639,11 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 <<<<<<< HEAD
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
@@ -13192,7 +13285,12 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
         cls.use_temp_region()
         cls.runModule("g.region", n=1, s=0, e=1, w=0, res=1)
         cls.runModule("r.mapcalc", expression="{} = 1".format(cls.map))
@@ -13331,6 +13429,7 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13584,6 +13683,8 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -14356,6 +14457,7 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -14674,6 +14776,10 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
     def test_read_semantic_label_present(self):
         Rast_write_semantic_label(self.map, self.semantic_label)
         ret = utils.decode(Rast_read_semantic_label(self.map, self.mapset))
@@ -15472,6 +15578,7 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -15882,6 +15989,7 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 980c935a7d (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -16015,6 +16123,11 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
     def test_read_bandref_present(self):
         Rast_write_bandref(self.map, self.bandref)
         ret = utils.decode(Rast_read_bandref(self.map, self.mapset))
@@ -16118,6 +16231,7 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -16265,6 +16379,8 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -16844,6 +16960,7 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 =======
 <<<<<<< HEAD
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -17347,11 +17464,22 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 <<<<<<< HEAD
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+    def test_read_bandref_absent(self):
+        G_remove_misc("cell_misc", "bandref", self.map)
+        ret = Rast_read_bandref(self.map, self.mapset)
+        self.assertFalse(bool(ret))
+
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
     def test_write_bandref(self):
         G_remove_misc("cell_misc", "bandref", self.map)
         Rast_write_bandref(self.map, self.bandref)
         ret = utils.decode(Rast_read_bandref(self.map, self.mapset))
         self.assertEqual(ret, self.bandref)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17430,6 +17558,8 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 >>>>>>> 102ca719c3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18475,6 +18605,7 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -18852,6 +18983,11 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 
 
 if __name__ == "__main__":

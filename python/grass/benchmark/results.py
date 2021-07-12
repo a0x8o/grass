@@ -186,6 +186,7 @@ def save_results_to_file(results, filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -560,6 +561,8 @@ def save_results_to_file(results, filename):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
     Path(filename).write_text(text, encoding="utf-8")
 =======
 =======
@@ -799,6 +802,7 @@ def save_results_to_file(results, filename):
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 980c935a7d (libpython: Save and load benchmark results (#1711))
 =======
@@ -1173,10 +1177,18 @@ def save_results_to_file(results, filename):
 <<<<<<< HEAD
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+    Path(filename).write_text(text, encoding="utf-8")
+=======
+<<<<<<< HEAD
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
     with open(filename, "w", encoding="utf-8") as file:
 =======
     with open(filename, "w") as file:
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2075,7 +2087,14 @@ def save_results_to_file(results, filename):
         file.write(text)
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+        file.write(text)
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 
 
 def load_results(data):
@@ -2240,6 +2259,7 @@ def load_results_from_file(filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
     return load_results(Path(filename).read_text(encoding="utf-8"))
@@ -2485,6 +2505,8 @@ def load_results_from_file(filename):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3737,13 +3759,22 @@ def load_results_from_file(filename):
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    return load_results(Path(filename).read_text(encoding="utf-8"))
+=======
+<<<<<<< HEAD
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
     with open(filename, "r", encoding="utf-8") as file:
         return load_results(file.read())
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
 
 
 def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3867,6 +3898,8 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
@@ -5438,10 +5471,14 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 =======
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
     with open(filename, "r") as file:
         return load_results(file.read())
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5905,7 +5942,14 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+def join_results(results, prefixes=None):
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
     """Join multiple lists of results together
 
     The *results* argument either needs to be a list of result objects
@@ -5964,6 +6008,7 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
@@ -6645,6 +6690,7 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -6963,6 +7009,10 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 >>>>>>> 341119ec87 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
             if select and not select(result):
                 continue
             result = copy.deepcopy(result)
@@ -6988,6 +7038,7 @@ def join_results_from_files(
         select=select,
         prefixes_as_labels=prefixes_as_labels,
     )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8826,6 +8877,7 @@ def join_results_from_files(
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -10118,3 +10170,14 @@ def join_results_from_files(
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            result = copy.deepcopy(result)
+            if prefix:
+                result.label = f"{prefix}: {result.label}"
+            joined.append(result)
+    return joined
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))

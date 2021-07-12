@@ -215,6 +215,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -457,6 +458,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -599,6 +602,8 @@ int main(int argc, char **argv)
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
     char *units, *vdatum, *semantic_label;
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -632,7 +637,11 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 <<<<<<< HEAD
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
@@ -2274,7 +2283,12 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
     int i;
     CELL mincat = 0, maxcat = 0, cat;
     FILE *out;
@@ -2584,6 +2598,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2826,6 +2841,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -2968,6 +2985,8 @@ int main(int argc, char **argv)
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
     semantic_label = Rast_read_semantic_label(name, "");
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3001,7 +3020,11 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 <<<<<<< HEAD
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
@@ -4643,7 +4666,12 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 
     /*Check the Timestamp */
     time_ok = G_read_raster_timestamp(name, "", &ts) > 0;
@@ -6534,6 +6562,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6787,6 +6816,8 @@ int main(int argc, char **argv)
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -7559,6 +7590,7 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -7877,6 +7909,10 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
         compose_line(out, "  Data Type:    %-20.20s Semantic label: %s ",
                      (data_type == CELL_TYPE
                           ? "CELL"
@@ -7932,6 +7968,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8470,6 +8507,7 @@ int main(int argc, char **argv)
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 980c935a7d (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -8617,11 +8655,17 @@ int main(int argc, char **argv)
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 	compose_line(out, "  Data Type:    %-20.20s Band reference: %s ",
 		     (data_type == CELL_TYPE ? "CELL" :
 		      (data_type == DCELL_TYPE ? "DCELL" :
 		       (data_type == FCELL_TYPE ? "FCELL" : "??"))),
              (bandref ? bandref : "(none)"));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8683,6 +8727,8 @@ int main(int argc, char **argv)
 >>>>>>> 102ca719c3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9540,6 +9586,7 @@ int main(int argc, char **argv)
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -9866,6 +9913,11 @@ int main(int argc, char **argv)
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 
         /* For now hide these unless they exist to keep the noise low. In
          *   future when the two are used more widely they can be printed
@@ -10806,6 +10858,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -10898,6 +10951,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
@@ -10968,6 +11023,7 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 980c935a7d (libpython: Save and load benchmark results (#1711))
 =======
@@ -11067,6 +11123,10 @@ int main(int argc, char **argv)
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
                 switch (format) {
                 case PLAIN:
                     /*Create the r.info timestamp string */
@@ -11077,6 +11137,7 @@ int main(int argc, char **argv)
                     break;
                 }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11318,6 +11379,8 @@ int main(int argc, char **argv)
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 <<<<<<< HEAD
 >>>>>>> 56976800a2 (libpython: Save and load benchmark results (#1711))
@@ -11677,6 +11740,10 @@ int main(int argc, char **argv)
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+<<<<<<< HEAD
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
                 /*Create the r.info timestamp string */
                 fprintf(out, "timestamp=\"%s\"\n", timebuff);
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
@@ -12468,6 +12535,7 @@ int main(int argc, char **argv)
                 }
                 break;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14383,7 +14451,12 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
             fprintf(out, "units=%s\n", units ? units : "\"none\"");
             fprintf(out, "vdatum=%s\n", vdatum ? vdatum : "\"none\"");
             fprintf(out, "semantic_label=%s\n",
@@ -14401,6 +14474,7 @@ int main(int argc, char **argv)
                 fprintf(out, "comments=\"");
                 for (i = 0; i < Rast_history_length(&hist); i++)
                     fprintf(out, "%s", Rast_history_line(&hist, i));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14553,6 +14627,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+=======
 		/*Create the r.info timestamp string */
 		fprintf(out, "timestamp=\"%s\"\n", timebuff);
 
@@ -14571,6 +14647,7 @@ int main(int argc, char **argv)
 		for (i = 0; i < Rast_history_length(&hist); i++)
 		    fprintf(out, "%s", Rast_history_line(&hist, i));
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14795,7 +14872,14 @@ int main(int argc, char **argv)
                 fprintf(out, "\"\n");
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+                fprintf(out, "\"\n");
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+>>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
             }
         }
 
