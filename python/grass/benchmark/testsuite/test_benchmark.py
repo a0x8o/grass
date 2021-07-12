@@ -47,6 +47,7 @@ from grass.benchmark import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -299,6 +300,8 @@ from grass.benchmark import (
 >>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
     benchmark_nprocs,
 =======
 <<<<<<< HEAD
@@ -324,6 +327,7 @@ from grass.benchmark import (
 =======
     benchmark_single,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
@@ -448,6 +452,10 @@ from grass.benchmark import (
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
     join_results,
     load_results,
     load_results_from_file,
@@ -466,6 +474,7 @@ class TestBenchmarksRun(TestCase):
     def test_resolutions(self):
         """Test that resolution tests runs without nprocs and plots to file"""
         benchmarks = [
+<<<<<<< HEAD
             {
                 "module": Module(
                     "r.univar", map="elevation", stdout_=DEVNULL, run_=False
@@ -478,6 +487,18 @@ class TestBenchmarksRun(TestCase):
                 ),
                 "label": "Standard output",
             },
+=======
+            dict(
+                module=Module("r.univar", map="elevation", stdout_=DEVNULL, run_=False),
+                label="Standard output",
+            ),
+            dict(
+                module=Module(
+                    "r.univar", map="elevation", flags="g", stdout_=DEVNULL, run_=False
+                ),
+                label="Standard output",
+            ),
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
         ]
         resolutions = [300, 200, 100]
         results = []
@@ -492,6 +513,7 @@ class TestBenchmarksRun(TestCase):
         num_cells_plot(results, filename=plot_file)
         self.assertTrue(Path(plot_file).is_file())
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -568,6 +590,8 @@ class TestBenchmarksRun(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -999,6 +1023,7 @@ class TestBenchmarksRun(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
@@ -1090,6 +1115,10 @@ class TestBenchmarksRun(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 
 class TestBenchmarkResults(TestCase):
     """Tests that saving results work"""

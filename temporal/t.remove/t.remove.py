@@ -59,6 +59,14 @@
 # %flag
 # % key: f
 # % description: Force removal (required for actual deletion of files)
+<<<<<<< HEAD
+=======
+# %end
+
+# %flag
+# % key: d
+# % description: Remove stds, unregister maps from temporal database and delete them from mapset
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 # %end
 
 # %flag
@@ -128,32 +136,53 @@ def main():
     remove = pyg.Module("g.remove", quiet=True, flags="f", run_=False)
 
     if not force:
+<<<<<<< HEAD
         gs.message(_("The following data base element files will be deleted:"))
+=======
+        grass.message(_("The following data base element files will be deleted:"))
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
     for name in dataset_list:
         name = name.strip()
         sp = tgis.open_old_stds(name, type, dbif)
         if not force:
+<<<<<<< HEAD
             gs.message(
                 _("{stds}: {gid}").format(stds=sp.get_type().upper(), gid=sp.get_id())
+=======
+            grass.message(
+                _("{stds}: {gid}".format(stds=sp.get_type().upper(), gid=sp.get_id()))
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
             )
         if recursive or clean:
             if not force:
                 if recursive:
+<<<<<<< HEAD
                     msg = _(
+=======
+                    msg = (
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
                         "The following maps of {stds} {gid} will be "
                         "unregistered from temporal database:"
                     )
                 elif clean:
+<<<<<<< HEAD
                     msg = _(
+=======
+                    msg = (
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
                         "The following maps of {stds} {gid} will be "
                         "unregistered from temporal database and removed "
                         "from spatial database:"
                     )
+<<<<<<< HEAD
 
                 if recursive or clean:
                     gs.message(msg.format(stds=sp.get_type(), gid=sp.get_id()))
 
+=======
+                grass.message(_(msg.format(stds=sp.get_type(), gid=sp.get_id())))
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
             maps = sp.get_registered_maps_as_objects(dbif=dbif)
             map_statement = ""
             count = 1
@@ -164,7 +193,11 @@ def main():
                 # to avoid multiple deletions of the same map,
                 # but the database entries are still present and must be removed
                 if not force:
+<<<<<<< HEAD
                     gs.message(_("- %s") % map.get_name())
+=======
+                    grass.message(_("- %s" % map.get_name()))
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
                     continue
                 if clean and force:
                     if map.get_name() not in name_list:
@@ -198,11 +231,19 @@ def main():
             statement += sp.delete(dbif=dbif, execute=False)
 
     if not force:
+<<<<<<< HEAD
         gs.message(
             _(
                 "Nothing removed. You must use the force flag (-{flag}) to actually "
                 "remove them."
             ).format(flag="f")
+=======
+        grass.message(
+            _(
+                "Nothing removed. You must use the force flag (-{flag}) to actually "
+                "remove them.".format(flag="f")
+            )
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
         )
     else:
         # Execute the collected SQL statenents

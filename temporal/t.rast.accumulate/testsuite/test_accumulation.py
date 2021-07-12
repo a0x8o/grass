@@ -94,7 +94,13 @@ class TestAccumulate(TestCase):
     @classmethod
     def tearDownClass(cls):
         """Remove the temporary region"""
+<<<<<<< HEAD
         cls.runModule("t.remove", flags="df", type="strds", inputs="A,Lower,Upper")
+=======
+        cls.runModule("t.remove", flags="df", type="strds", inputs="A")
+        cls.runModule("t.remove", flags="df", type="strds", inputs="Lower")
+        cls.runModule("t.remove", flags="df", type="strds", inputs="Upper")
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
         cls.del_temp_region()
 
     def tearDown(self):
