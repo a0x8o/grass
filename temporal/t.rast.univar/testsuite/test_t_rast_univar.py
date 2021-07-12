@@ -4572,12 +4572,16 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
@@ -4597,9 +4601,14 @@ class TestRasterUnivar(TestCase):
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
         cls.runModule("t.remove", flags="df", type="strds", inputs="A,B")
 =======
         cls.runModule("t.remove", flags="df", type="strds", inputs="A")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4895,6 +4904,8 @@ class TestRasterUnivar(TestCase):
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
@@ -4922,6 +4933,7 @@ class TestRasterUnivar(TestCase):
 =======
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5105,6 +5117,10 @@ class TestRasterUnivar(TestCase):
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
         cls.runModule("t.remove", flags="df", type="strds", inputs="B")
 >>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
         cls.runModule("g.remove", flags="f", type="raster", name="zones")
@@ -5120,10 +5136,13 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e1fe7db7 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
 =======
         cls.runModule("t.remove", flags="df", type="strds", inputs="A")
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -5135,6 +5154,7 @@ class TestRasterUnivar(TestCase):
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 =======
 >>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
 =======
@@ -5152,6 +5172,8 @@ class TestRasterUnivar(TestCase):
 =======
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
         cls.del_temp_region()
 
     @xfail_windows

@@ -305,6 +305,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -676,6 +677,8 @@ class Info:
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -1862,9 +1865,14 @@ class Info:
         """Get semantic label identifier.
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
 =======
+    def _get_semantic_label(self):
+        """Get semantic label identifier.
+>>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+=======
     def _get_bandref(self):
         """Get band reference identifier.
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2304,7 +2312,12 @@ class Info:
 =======
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
 
         :return str: semantic label (eg. S2_1) or None
         """
@@ -2354,6 +2367,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
@@ -2881,6 +2895,8 @@ class Info:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
         semantic_label = libraster.Rast_read_semantic_label(self.name, self.mapset)
         if semantic_label:
             return utils.decode(semantic_label)
@@ -3330,6 +3346,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
@@ -3484,10 +3501,13 @@ class Info:
 =======
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+=======
         bandref = libraster.Rast_read_bandref(self.name, self.mapset)
         if bandref:
             return utils.decode(bandref)
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5161,6 +5181,7 @@ class Info:
 =======
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6071,6 +6092,27 @@ class Info:
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        return None
+
+    @must_be_in_current_mapset
+    def _set_bandref(self, bandref):
+        """Set/Unset band reference identifier.
+
+        :param str bandref: band reference to assign or None to remove (unset)
+        """
+        if bandref:
+            if libraster.Rast_legal_bandref(bandref) < 0:
+                raise ValueError(_("Invalid band reference"))
+            libraster.Rast_write_bandref(self.name, bandref)
+        else:
+            libgis.G_remove_misc("cell_misc", "bandref", self.name)
+
+    bandref = property(_get_bandref, _set_bandref)
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+>>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
 
     def _get_units(self):
         units = libraster.Rast_read_units(self.name, self.mapset)
