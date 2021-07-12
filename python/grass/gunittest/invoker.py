@@ -1037,6 +1037,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1057,6 +1058,8 @@ class GrassTestFilesInvoker:
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c97872ced (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
                     return decode(data, encoding=encoding)
 =======
 <<<<<<< HEAD
@@ -1137,6 +1140,7 @@ class GrassTestFilesInvoker:
 =======
                     return decode(data, encoding=encoding)
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1322,6 +1326,8 @@ class GrassTestFilesInvoker:
                     return decode(stdout, encoding=encoding)
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> c190252548 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):

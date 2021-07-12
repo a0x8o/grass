@@ -80,6 +80,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -313,7 +314,11 @@ class TestRasterUnivar(TestCase):
         cls.runModule("g.remove", flags="f", type="raster_3d", name="zones")
         cls.del_temp_region()
 =======
+=======
+>>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
         cls.runModule("g.remove", flags="f", type="raster_3d", name="zones")
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
         cls.del_temp_region()
 
     def test_with_all_maps(self):
