@@ -3,8 +3,13 @@
 #
 # MODULE:    g.download.location
 # AUTHOR(S): Vaclav Petras <wenzeslaus gmail com>
+<<<<<<< HEAD
 # PURPOSE:   Download and extract project (location) from web
 # COPYRIGHT: (C) 2017-2024 by the GRASS Development Team
+=======
+# PURPOSE:   Download and extract location from web
+# COPYRIGHT: (C) 2017 by the GRASS Development Team
+>>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 #
 #    This program is free software under the GNU General
 #    Public License (>=v2). Read the file COPYING that
@@ -12,11 +17,19 @@
 #
 #############################################################################
 
+<<<<<<< HEAD
 """Download GRASS projects"""
 
 # %module
 # % label: Download GRASS project (location) from the web
 # % description: Get GRASS project from an URL or file path
+=======
+"""Download GRASS Locations"""
+
+# %module
+# % label: Download GRASS Location from the web
+# % description: Get GRASS Location from an URL or file path
+>>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 # % keyword: general
 # % keyword: data
 # % keyword: download
@@ -26,7 +39,11 @@
 # % key: url
 # % multiple: no
 # % type: string
+<<<<<<< HEAD
 # % label: URL of the archive with a project to be downloaded
+=======
+# % label: URL of the archive with a location to be downloaded
+>>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 # % description: URL of ZIP, TAR.GZ, or other similar archive
 # % required: yes
 # %end
@@ -42,6 +59,7 @@
 # % multiple: no
 # %end
 
+<<<<<<< HEAD
 import grass.script as gs
 
 
@@ -50,6 +68,54 @@ def main(options, unused_flags):
     """Download and copy project to destination"""
     gs.run_command("g.download.project", **options)
 =======
+=======
+import atexit
+import os
+import shutil
+from pathlib import Path
+
+import grass.script as gs
+from grass.grassdb.checks import is_location_valid
+from grass.script.utils import try_rmdir
+from grass.utils.download import DownloadError, download_and_extract, name_from_url
+
+
+def find_location_in_directory(path, recurse=0):
+    """Return path to location in one of the subdirectories or None
+
+    The first location found is returned. The expected usage is looking for one
+    location somewhere nested in subdirectories.
+
+    By default only the immediate subdirectories of the provided directory are
+    tested, but with ``recurse >= 1`` additional levels of subdirectories
+    are tested for being locations.
+
+    Directory names are sorted to provide a stable result.
+
+    :param path: Path to the directory to search
+    :param recurse: How many additional levels of subdirectories to explore
+    """
+    assert recurse >= 0
+    full_paths = [os.path.join(path, i) for i in os.listdir(path)]
+    candidates = sorted([i for i in full_paths if os.path.isdir(i)])
+    for candidate in candidates:
+        if is_location_valid(candidate):
+            return candidate
+    if recurse:
+        for candidate in candidates:
+            result = find_location_in_directory(candidate, recurse - 1)
+            if result:
+                return result
+    return None
+
+
+def location_name_from_url(url):
+    """Create location name from URL"""
+    return gs.legalize_vector_name(name_from_url(url))
+
+
+def main(options, unused_flags):
+>>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
     """Download and copy location to destination"""
     url = options["url"]
     name = options["name"]
@@ -107,6 +173,7 @@ def main(options, unused_flags):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # full relative path, but the directory name is diffrent now.
 =======
 <<<<<<< HEAD
@@ -161,6 +228,8 @@ def main(options, unused_flags):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 490780e974 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
             # full relative path, but the directory name is different now.
 =======
             # full relative path, but the directory name is diffrent now.
@@ -190,6 +259,7 @@ def main(options, unused_flags):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -295,6 +365,11 @@ def main(options, unused_flags):
             # full relative path, but the directory name is diffrent now.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+            # full relative path, but the directory name is diffrent now.
+>>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> 490780e974 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
             # This is the consequence of how the extract functions work.)
             relative = os.path.relpath(result, start=directory)
             gs.verbose(
@@ -332,6 +407,7 @@ def main(options, unused_flags):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "The dowloaded file is not a valid GRASS Location."
 =======
 <<<<<<< HEAD
@@ -386,6 +462,8 @@ def main(options, unused_flags):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 490780e974 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
                     "The downloaded file is not a valid GRASS Location."
 =======
                     "The dowloaded file is not a valid GRASS Location."
@@ -415,6 +493,7 @@ def main(options, unused_flags):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -520,6 +599,11 @@ def main(options, unused_flags):
                     "The dowloaded file is not a valid GRASS Location."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+                    "The dowloaded file is not a valid GRASS Location."
+>>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+>>>>>>> 490780e974 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
                     " The extracted file contains these files and directories:"
                     "\n{files_and_dirs}"
                 ).format(files_and_dirs=" ".join(files_and_dirs))
@@ -527,7 +611,10 @@ def main(options, unused_flags):
     gs.verbose(_("Copying to final destination..."))
     shutil.copytree(src=directory, dst=destination)
     gs.message(_("Path to the location now <{path}>").format(path=destination))
+<<<<<<< HEAD
 >>>>>>> 3e9fe02ef5 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+>>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 
 
 if __name__ == "__main__":
