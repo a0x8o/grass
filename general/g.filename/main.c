@@ -353,6 +353,9 @@ int main(int argc, char *argv[])
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1dfda93def (pygrass: Add update parameters method to Module (#1712))
         G_make_mapset_object_group(element);
 <<<<<<< HEAD
     }
@@ -730,6 +733,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -990,10 +994,14 @@ int main(int argc, char *argv[])
 >>>>>>> c0f0b4ecd0 (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> aa257e5504 (pygrass: Add update parameters method to Module (#1712))
+=======
+=======
+>>>>>>> 1dfda93def (pygrass: Add update parameters method to Module (#1712))
         G_make_mapset_element(element);
     }
 
 >>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1286,6 +1294,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1dfda93def (pygrass: Add update parameters method to Module (#1712))
     G_file_name(path, element, name, mapset);
 
     fprintf(stdout, "file='%s'\n", path);
