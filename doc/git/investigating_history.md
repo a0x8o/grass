@@ -55,6 +55,7 @@ ignored with `git blame`, please open an issue.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -673,6 +674,7 @@ ignored with `git blame`, please open an issue.
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -868,6 +870,11 @@ ignored with `git blame`, please open an issue.
 >>>>>>> ef9dc99cf3 (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 790e05082d (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> 12feb43bc3 (pygrass: Add update parameters method to Module (#1712))
 
 ## On GitHub
 
@@ -978,6 +985,7 @@ which is the icon between commit info and line numbers.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ad14dca817 (pygrass: Add update parameters method to Module (#1712))
@@ -1083,6 +1091,8 @@ which is the icon between commit info and line numbers.
 >>>>>>> ef9dc99cf3 (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 12feb43bc3 (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -1657,6 +1667,7 @@ which is the icon between commit info and line numbers.
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1852,3 +1863,8 @@ which is the icon between commit info and line numbers.
 >>>>>>> ef9dc99cf3 (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> 790e05082d (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> 12feb43bc3 (pygrass: Add update parameters method to Module (#1712))
