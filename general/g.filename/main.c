@@ -381,6 +381,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -468,7 +469,35 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 =======
+=======
+=======
+<<<<<<< HEAD
+
+    /* Create element directory if requested and in current mapset. */
+    if (flag_create) {
+        if (strcmp(mapset, G_mapset()) != 0) {
+            G_fatal_error("Cannot create <%s> (flag -%c):"
+                          " <%s> is not the current mapset (%s)",
+                          element, flag_create->key, mapset, G_mapset());
+        }
+        G_make_mapset_object_group(element);
+<<<<<<< HEAD
+    }
+
+<<<<<<< HEAD
+=======
+>>>>>>> dea3ac3989 (pygrass: Add update parameters method to Module (#1712))
+=======
+    /* Create element directory if requested and in current mapset. */
+    if (flag_create) {
+        if (strcmp(mapset, G_mapset()) != 0) {
+            G_fatal_error("Cannot create <%s> (flag -%c):"
+                          " <%s> is not the current mapset (%s)",
+                          element, flag_create->key, mapset, G_mapset());
+        }
+>>>>>>> a5a8f46081 (pygrass: Add update parameters method to Module (#1712))
         G_make_mapset_element(element);
+<<<<<<< HEAD
 =======
         G_make_mapset_object_group(element);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -535,6 +564,7 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
@@ -547,7 +577,18 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    }
+
+>>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> dea3ac3989 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> a5a8f46081 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> 252e8801e9 (pygrass: Add update parameters method to Module (#1712))
     G_file_name(path, element, name, mapset);
 
     fprintf(stdout, "file='%s'\n", path);
