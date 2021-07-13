@@ -793,6 +793,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> aa770628e6 (pygrass: Add update parameters method to Module (#1712))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -953,8 +958,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8df6d7d3ff (pygrass: Add update parameters method to Module (#1712))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 11db328c38 (pygrass: Add update parameters method to Module (#1712))
 =======
+=======
+>>>>>>> 28c8bb52d5 (pygrass: Add update parameters method to Module (#1712))
 >>>>>>> 8df6d7d3ff (pygrass: Add update parameters method to Module (#1712))
 =======
 <<<<<<< HEAD
@@ -1002,7 +1010,13 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 790e05082d (pygrass: Add update parameters method to Module (#1712))
 =======
+<<<<<<< HEAD
 >>>>>>> 12feb43bc3 (pygrass: Add update parameters method to Module (#1712))
+=======
+>>>>>>> 9db651a043 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> aa770628e6 (pygrass: Add update parameters method to Module (#1712))
+=======
+>>>>>>> 28c8bb52d5 (pygrass: Add update parameters method to Module (#1712))
     /* Create element directory if requested and in current mapset. */
     if (flag_create) {
         if (strcmp(mapset, G_mapset()) != 0) {
@@ -1050,8 +1064,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11db328c38 (pygrass: Add update parameters method to Module (#1712))
+=======
+>>>>>>> 28c8bb52d5 (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     }
@@ -2178,8 +2195,20 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    }
+
+>>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> 9db651a043 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> aa770628e6 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> 28c8bb52d5 (pygrass: Add update parameters method to Module (#1712))
     G_file_name(path, element, name, mapset);
 
     fprintf(stdout, "file='%s'\n", path);
