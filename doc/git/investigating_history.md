@@ -34,6 +34,11 @@ ignored with `git blame`, please open an issue.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 979d695cf4 (pygrass: Add update parameters method to Module (#1712))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -302,8 +307,18 @@ ignored with `git blame`, please open an issue.
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8962f3c6a1 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> 979d695cf4 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> 92d65cd4a6 (pygrass: Add update parameters method to Module (#1712))
 
 ## On GitHub
 
@@ -347,6 +362,7 @@ which is the icon between commit info and line numbers.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ad14dca817 (pygrass: Add update parameters method to Module (#1712))
@@ -356,6 +372,10 @@ which is the icon between commit info and line numbers.
 >>>>>>> c68c553712 (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 979d695cf4 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> 92d65cd4a6 (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -599,5 +619,15 @@ which is the icon between commit info and line numbers.
 >>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> 8962f3c6a1 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> 979d695cf4 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> 92d65cd4a6 (pygrass: Add update parameters method to Module (#1712))
