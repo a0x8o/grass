@@ -643,6 +643,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> aa770628e6 (pygrass: Add update parameters method to Module (#1712))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -779,6 +784,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8df6d7d3ff (pygrass: Add update parameters method to Module (#1712))
 =======
+<<<<<<< HEAD
 >>>>>>> 8df6d7d3ff (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 5eabce4769 (pygrass: Add update parameters method to Module (#1712))
@@ -798,6 +804,9 @@ int main(int argc, char *argv[])
 >>>>>>> 0110f9a6c3 (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 790e05082d (pygrass: Add update parameters method to Module (#1712))
+=======
+>>>>>>> 9db651a043 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> aa770628e6 (pygrass: Add update parameters method to Module (#1712))
 =======
     /* Create element directory if requested and in current mapset. */
     if (flag_create) {
@@ -820,6 +829,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 >>>>>>> a5a8f46081 (pygrass: Add update parameters method to Module (#1712))
         G_make_mapset_element(element);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1150,8 +1160,20 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    }
+
+>>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> 9db651a043 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> aa770628e6 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> dd9ee76548 (pygrass: Add update parameters method to Module (#1712))
     G_file_name(path, element, name, mapset);
 
     fprintf(stdout, "file='%s'\n", path);
