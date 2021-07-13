@@ -533,6 +533,10 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 7ce58cb82a (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
@@ -1367,6 +1371,9 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 4d2040e836 (pygrass: Add update parameters method to Module (#1712))
+=======
+=======
+>>>>>>> 74d3fa3265 (pygrass: Add update parameters method to Module (#1712))
     /* Create element directory if requested and in current mapset. */
     if (flag_create) {
         if (strcmp(mapset, G_mapset()) != 0) {
@@ -1374,6 +1381,7 @@ int main(int argc, char *argv[])
                           " <%s> is not the current mapset (%s)",
                           element, flag_create->key, mapset, G_mapset());
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         G_make_mapset_object_group(element);
@@ -1386,10 +1394,13 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 4d2040e836 (pygrass: Add update parameters method to Module (#1712))
+=======
+>>>>>>> 74d3fa3265 (pygrass: Add update parameters method to Module (#1712))
         G_make_mapset_element(element);
     }
 
 >>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce5b8fc2e2 (pygrass: Add update parameters method to Module (#1712))
 <<<<<<< HEAD
@@ -1409,7 +1420,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 74d3fa3265 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> 7ce58cb82a (pygrass: Add update parameters method to Module (#1712))
     G_file_name(path, element, name, mapset);
 
     fprintf(stdout, "file='%s'\n", path);
