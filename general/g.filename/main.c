@@ -132,6 +132,7 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -148,6 +149,8 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 =======
+>>>>>>> dea3ac3989 (pygrass: Add update parameters method to Module (#1712))
+=======
     /* Create element directory if requested and in current mapset. */
     if (flag_create) {
         if (strcmp(mapset, G_mapset()) != 0) {
@@ -156,6 +159,7 @@ int main(int argc, char *argv[])
                           element, flag_create->key, mapset, G_mapset());
         }
         G_make_mapset_element(element);
+<<<<<<< HEAD
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     }
@@ -181,6 +185,11 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+    }
+
+>>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> dea3ac3989 (pygrass: Add update parameters method to Module (#1712))
     G_file_name(path, element, name, mapset);
 
     fprintf(stdout, "file='%s'\n", path);
