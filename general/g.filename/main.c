@@ -551,6 +551,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
@@ -573,6 +574,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 >>>>>>> main
 =======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> db8f3cba13 (pygrass: Add update parameters method to Module (#1712))
+=======
 <<<<<<< HEAD
 
     /* Create element directory if requested and in current mapset. */
@@ -590,12 +596,15 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> dea3ac3989 (pygrass: Add update parameters method to Module (#1712))
 =======
+<<<<<<< HEAD
 >>>>>>> 8962f3c6a1 (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 8df6d7d3ff (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 9db651a043 (pygrass: Add update parameters method to Module (#1712))
 =======
+=======
+>>>>>>> db8f3cba13 (pygrass: Add update parameters method to Module (#1712))
     /* Create element directory if requested and in current mapset. */
     if (flag_create) {
         if (strcmp(mapset, G_mapset()) != 0) {
@@ -603,6 +612,7 @@ int main(int argc, char *argv[])
                           " <%s> is not the current mapset (%s)",
                           element, flag_create->key, mapset, G_mapset());
         }
+<<<<<<< HEAD
         G_make_mapset_element(element);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1078,7 +1088,11 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 1dfda93def (pygrass: Add update parameters method to Module (#1712))
+=======
+>>>>>>> a5a8f46081 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> db8f3cba13 (pygrass: Add update parameters method to Module (#1712))
         G_make_mapset_element(element);
+<<<<<<< HEAD
 =======
         G_make_mapset_object_group(element);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -1439,6 +1453,7 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
@@ -1451,7 +1466,18 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    }
+
+>>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> dea3ac3989 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> a5a8f46081 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> db8f3cba13 (pygrass: Add update parameters method to Module (#1712))
     G_file_name(path, element, name, mapset);
 
     fprintf(stdout, "file='%s'\n", path);
