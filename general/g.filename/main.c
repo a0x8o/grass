@@ -572,6 +572,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
@@ -594,6 +595,8 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> c75ae04d0e (pygrass: Add update parameters method to Module (#1712))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -617,6 +620,7 @@ int main(int argc, char *argv[])
 >>>>>>> dea3ac3989 (pygrass: Add update parameters method to Module (#1712))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8962f3c6a1 (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 8df6d7d3ff (pygrass: Add update parameters method to Module (#1712))
@@ -625,6 +629,10 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> db8f3cba13 (pygrass: Add update parameters method to Module (#1712))
+=======
+>>>>>>> dea3ac3989 (pygrass: Add update parameters method to Module (#1712))
+=======
+>>>>>>> c75ae04d0e (pygrass: Add update parameters method to Module (#1712))
     /* Create element directory if requested and in current mapset. */
     if (flag_create) {
         if (strcmp(mapset, G_mapset()) != 0) {
@@ -632,6 +640,7 @@ int main(int argc, char *argv[])
                           " <%s> is not the current mapset (%s)",
                           element, flag_create->key, mapset, G_mapset());
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         G_make_mapset_element(element);
 <<<<<<< HEAD
@@ -1008,6 +1017,8 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> c75ae04d0e (pygrass: Add update parameters method to Module (#1712))
 >>>>>>> a5a8f46081 (pygrass: Add update parameters method to Module (#1712))
         G_make_mapset_element(element);
 <<<<<<< HEAD
@@ -1455,10 +1466,13 @@ int main(int argc, char *argv[])
 >>>>>>> 4d2040e836 (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 74d3fa3265 (pygrass: Add update parameters method to Module (#1712))
+=======
+>>>>>>> dea3ac3989 (pygrass: Add update parameters method to Module (#1712))
         G_make_mapset_element(element);
     }
 
 >>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce5b8fc2e2 (pygrass: Add update parameters method to Module (#1712))
@@ -1514,7 +1528,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dea3ac3989 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> c75ae04d0e (pygrass: Add update parameters method to Module (#1712))
     G_file_name(path, element, name, mapset);
 
     fprintf(stdout, "file='%s'\n", path);

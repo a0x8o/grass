@@ -5966,7 +5966,13 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 def benchmark_nprocs(module, label, max_nprocs, repeat):
     """Benchmark module using values of nprocs up to *max_nprocs*.
 
-    *module* is an instance of PyGRASS Module class.
+    *module* is an instance of PyGRASS Module class or any object which
+    has a *update* method taking *nprocs* as a keyword argument,
+    a *run* which takes no arguments and executes the benchmarked code,
+    and attribute *time* which is set to execution time after the *run*
+    function returned. Additionally, the object should be convertible to *str*
+    for printing.
+
     The module is executed  used to generate range of values from 1 up to *max_nprocs*.
     *repeat* sets how many times the each run is repeated.
     So, the module will run ``max_nprocs * repeat`` times.
@@ -9138,7 +9144,10 @@ def benchmark_nprocs(module, label, max_nprocs, repeat):
 =======
     """
     term_size = shutil.get_terminal_size()
-    print(module.get_bash())
+    if hasattr(module, "get_bash"):
+        print(module.get_bash())
+    else:
+        print(module)
 
     min_avg = float("inf")
     min_time = 1
@@ -9155,6 +9164,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             module.update(nprocs=nprocs)
             module.run()
 =======
@@ -9167,6 +9177,10 @@ def benchmark_nprocs(module, label, max_nprocs, repeat):
 =======
             module(nprocs=nprocs).run()
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
+=======
+            module.update(nprocs=nprocs)
+            module.run()
+>>>>>>> c75ae04d0e (pygrass: Add update parameters method to Module (#1712))
             print(f"{module.time}s")
             time_sum += module.time
             measured_times.append(module.time)
@@ -13068,6 +13082,7 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13263,6 +13278,8 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 <<<<<<< HEAD
 =======
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> c75ae04d0e (pygrass: Add update parameters method to Module (#1712))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -13682,12 +13699,16 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> de5b9cd94f (libpython: Save and load benchmark results (#1711))
 =======
+=======
+>>>>>>> c75ae04d0e (pygrass: Add update parameters method to Module (#1712))
 =======
 =======
 >>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
 >>>>>>> dea3ac3989 (pygrass: Add update parameters method to Module (#1712))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ad14dca817 (pygrass: Add update parameters method to Module (#1712))
 =======
@@ -14050,6 +14071,8 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> c75ae04d0e (pygrass: Add update parameters method to Module (#1712))
     *module* is an instance of PyGRASS Module class or any object
     with attributes as specified in :func:`benchmark_nprocs`
     except that the *update* method is required only when *nprocs* is set.
@@ -14065,6 +14088,7 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -14563,10 +14587,13 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> dea3ac3989 (pygrass: Add update parameters method to Module (#1712))
+=======
     *module* is an instance of PyGRASS Module class.
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14594,6 +14621,8 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 >>>>>>> 7ce58cb82a (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c75ae04d0e (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -15297,7 +15326,12 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
     *module* is an instance of PyGRASS Module class.
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> dea3ac3989 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> c75ae04d0e (pygrass: Add update parameters method to Module (#1712))
     *resolutions* is a list of resolutions to set (current region is currently
     used and changed but that may change in the future).
     *repeat* sets how many times the each run is repeated.
@@ -19525,6 +19559,7 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -19697,6 +19732,8 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> c75ae04d0e (pygrass: Add update parameters method to Module (#1712))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> ce5b8fc2e2 (pygrass: Add update parameters method to Module (#1712))
@@ -19760,6 +19797,8 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> dea3ac3989 (pygrass: Add update parameters method to Module (#1712))
                 module.update(nprocs=nprocs)
 >>>>>>> db8f3cba13 (pygrass: Add update parameters method to Module (#1712))
 =======
@@ -19767,6 +19806,7 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
                 module(nprocs=nprocs)
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19870,6 +19910,9 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
                 module.update(nprocs=nprocs)
 =======
 >>>>>>> osgeo-main
+=======
+<<<<<<< HEAD
+>>>>>>> c75ae04d0e (pygrass: Add update parameters method to Module (#1712))
 =======
                 module.update(nprocs=nprocs)
 =======
@@ -21083,7 +21126,15 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+                module.update(nprocs=nprocs)
+>>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> dea3ac3989 (pygrass: Add update parameters method to Module (#1712))
+>>>>>>> c75ae04d0e (pygrass: Add update parameters method to Module (#1712))
             module.run()
             print(f"{module.time}s")
             time_sum += module.time
