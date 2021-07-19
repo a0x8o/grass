@@ -157,6 +157,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -297,6 +298,8 @@
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -574,6 +577,8 @@
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 /****************************************************************************
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -582,6 +587,7 @@
 
  /****************************************************************************
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1834,6 +1840,7 @@
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2303,6 +2310,10 @@
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
  *
  * MODULE:    r.in.pdal
  *
@@ -2496,6 +2507,7 @@ void update_sum(void *, void *, int, int, int, RASTER_MAP_TYPE, double);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2642,6 +2654,8 @@ void update_sum(void *, void *, int, int, int, RASTER_MAP_TYPE, double);
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -2933,6 +2947,8 @@ void update_sum(void *, void *, int, int, int, RASTER_MAP_TYPE, double);
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 void update_m2(void *, void *, void *, int, int, int, RASTER_MAP_TYPE, double);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2973,7 +2989,11 @@ void update_m2(void *, void *, void *, int, int, int, RASTER_MAP_TYPE,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+<<<<<<< HEAD
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 <<<<<<< HEAD
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
@@ -4312,6 +4332,7 @@ void update_m2(void *, void *, void *, int, int, int, RASTER_MAP_TYPE, double);
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4741,6 +4762,10 @@ void update_m2(void *, void *, void *, int, int, int, RASTER_MAP_TYPE, double);
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 void update_moving_mean(void *, int, int, int, RASTER_MAP_TYPE, double, int);
 
 int add_z_node(struct BinIndex *, int, double);
@@ -4803,6 +4828,7 @@ void update_com_node(struct com_node *, int, double, double);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5592,6 +5618,7 @@ void update_com_node(struct com_node *, int, double, double);
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -5883,11 +5910,16 @@ void update_com_node(struct com_node *, int, double, double);
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 void update_bin_com_index(struct BinIndex *, void *, int, int, int, double,
                           double, double);
 
 int row_array_get_value_row_col(void *, int, int, int, RASTER_MAP_TYPE,
                                 double *);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6379,6 +6411,7 @@ int row_array_get_value_row_col(void *, int, int, int, RASTER_MAP_TYPE,
 =======
 >>>>>>> 198d7a13b2 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed582d44e5 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -6506,6 +6539,11 @@ int row_array_get_value_row_col(void *, int, int, int, RASTER_MAP_TYPE,
 =======
 >>>>>>> 198d7a13b2 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> daabc7fa04 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 void update_bin_com_index(struct BinIndex *, void *,
                           int, int, int, double, double, double);
 
@@ -6547,6 +6585,7 @@ int row_array_get_value_row_col(void *, int, int,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -6581,6 +6620,8 @@ int row_array_get_value_row_col(void *, int, int,
 >>>>>>> bc9e1a584f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> daabc7fa04 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7766,6 +7807,7 @@ int row_array_get_value_row_col(void *, int, int, int, RASTER_MAP_TYPE,
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -8098,5 +8140,10 @@ int row_array_get_value_row_col(void *, int, int, int, RASTER_MAP_TYPE,
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 
 #endif /* __BIN_UPDATE_H__ */

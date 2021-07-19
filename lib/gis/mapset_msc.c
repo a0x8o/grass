@@ -104,6 +104,7 @@ int G_make_mapset_element(const char *p_element)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -885,6 +886,7 @@ int G_make_mapset_element(const char *p_element)
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1185,6 +1187,10 @@ int G_make_mapset_element(const char *p_element)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
    \brief Create directory for group of elements of a given type.
 
    Creates the specified element directory in the current mapset.
@@ -1205,6 +1211,7 @@ int G_make_mapset_element(const char *p_element)
 
    \sa G_make_mapset_dir_object()
    \sa G_make_mapset_object_group_tmp()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4046,7 +4053,34 @@ int G_make_mapset_element(const char *p_element)
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    \brief Create directory for group of elements of a given type.
+
+    Creates the specified element directory in the current mapset.
+    It will check for the existence of the element and do nothing
+    if it is found so this routine can be called even if the element
+    already exists to ensure that it exists.
+
+    If creation fails, but the directory exists after the failure,
+    the function reports success. Therefore, two processes creating
+    a directory in this way can work in parallel.
+
+    Calls G_fatal_error() on failure.
+
+    \param type object type (e.g., `cell`)
+
+    \return 0 no element defined
+    \return 1 on success
+
+    \sa G_make_mapset_dir_object()
+    \sa G_make_mapset_object_group_tmp()
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
  */
 int G_make_mapset_object_group(const char *type)
 {
@@ -4111,6 +4145,7 @@ int G_make_mapset_object_group(const char *type)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4892,6 +4927,7 @@ int G_make_mapset_object_group(const char *type)
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -5192,6 +5228,10 @@ int G_make_mapset_object_group(const char *type)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
    \brief Create directory for an object of a given type.
 
    Creates the specified element directory in the current mapset.
@@ -5216,6 +5256,7 @@ int G_make_mapset_object_group(const char *type)
    \return 1 on success
 
    \sa G_make_mapset_object_group()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8201,7 +8242,38 @@ int G_make_mapset_object_group(const char *type)
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    \brief Create directory for an object of a given type.
+
+    Creates the specified element directory in the current mapset.
+    It will check for the existence of the element and do nothing
+    if it is found so this routine can be called even if the element
+    already exists to ensure that it exists.
+
+    Any failure to create it, including the case when it exists
+    (i.e., was created by another process after the existence test)
+    is considered a failure because two processes should not attempt
+    to create two objects of the same name (and type).
+
+    This function is for objects which are directories
+    (the function does not create files).
+
+    Calls G_fatal_error() on failure.
+
+    \param type object type (e.g., `vector`)
+    \param name object name (e.g., `bridges`)
+
+    \return 0 no element defined
+    \return 1 on success
+
+    \sa G_make_mapset_object_group()
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
  */
 int G_make_mapset_dir_object(const char *type, const char *name)
 {
@@ -8289,6 +8361,7 @@ int G_make_mapset_element_tmp(const char *p_element)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9078,6 +9151,7 @@ int G_make_mapset_element_tmp(const char *p_element)
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -9369,6 +9443,10 @@ int G_make_mapset_element_tmp(const char *p_element)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
    \brief Create directory for type of objects in the temporary directory.
 
    See G_file_name_tmp() for details.
@@ -9383,6 +9461,7 @@ int G_make_mapset_element_tmp(const char *p_element)
    \return 1 on success
  */
 int G_make_mapset_object_group_tmp(const char *type)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9807,6 +9886,23 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
 
    See G_file_name_tmp() for details.
 =======
+=======
+=======
+    \brief Create directory for type of objects in the temporary directory.
+
+    See G_file_name_tmp() for details.
+
+    \param type object type (e.g., `cell`)
+
+    \note
+    Use G_make_mapset_object_group_tmp() for creating common, shared
+    directories which are for multiple concrete elements (objects).
+
+    \return 0 no element defined
+    \return 1 on success
+ */
+int G_make_mapset_object_group_tmp(const char *type)
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 {
     char path[GPATH_MAX];
 
@@ -9814,6 +9910,7 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
     return make_mapset_element_no_fail_on_race(path, type);
 }
 
+<<<<<<< HEAD
 /*!
    \brief Create directory for type of objects in the temporary directory.
 
@@ -13354,12 +13451,16 @@ int make_mapset_element_impl(const char *p_path, const char *p_element, bool rac
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 int make_mapset_element_impl(const char *p_path, const char *p_element, bool race_ok)
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8f2d4463c9 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -13534,6 +13635,8 @@ int make_mapset_element_impl(const char *p_path, const char *p_element, bool rac
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 {
     char path[GPATH_MAX];
 
@@ -13641,6 +13744,7 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14424,6 +14528,7 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -14715,10 +14820,15 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
         if (*element == '/' || *element == 0) {
             *p = 0;
             char *msg = NULL;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16366,10 +16476,13 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
 =======
 >>>>>>> 198d7a13b2 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
 	if (*element == '/' || *element == 0) {
 	    *p = 0;
             char *msg = NULL;
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16734,7 +16847,12 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
             if (access(path, 0) != 0) {
                 /* Assuming that directory does not exist. */
                 if (G_mkdir(path) != 0) {
@@ -16796,6 +16914,7 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -17585,6 +17704,7 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -17876,6 +17996,10 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
                 /* Directory is not accessible even after attempt to create it.
                  */
                 if (msg) {
@@ -17895,6 +18019,7 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
                 return 1;
         }
         *p++ = *element++;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19741,7 +19866,25 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
 =======
 <<<<<<< HEAD
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                /* Directory is not accessible even after attempt to create it. */
+                if (msg) {
+                    /* Error already happened when mkdir. */
+                    G_fatal_error(_("Unable to make mapset element %s (%s): %s"),
+                                  p_element, path, strerror(errno));
+                }
+                else {
+                    /* Access error is not related to mkdir. */
+                    G_fatal_error(_("Unable to access mapset element %s (%s): %s"),
+                                  p_element, path, strerror(errno));
+                }
+            }
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 	    if (*element == 0)
 		return 1;
 	}
@@ -19850,6 +19993,7 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -20037,6 +20181,8 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
 >>>>>>> daabc7fa04 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -21096,6 +21242,7 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -21430,6 +21577,10 @@ int make_mapset_element_impl(const char *p_path, const char *p_element,
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     }
 }
 
@@ -21597,6 +21748,7 @@ int make_mapset_element(const char *p_path, const char *p_element)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -21743,6 +21895,8 @@ int make_mapset_element(const char *p_path, const char *p_element)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -22629,6 +22783,7 @@ int make_mapset_element_no_fail_on_race(const char *p_path,
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -22774,6 +22929,10 @@ int make_mapset_element_no_fail_on_race(const char *p_path,
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 int make_mapset_element_no_fail_on_race(const char *p_path,
                                         const char *p_element)
 =======
@@ -22907,6 +23066,7 @@ int make_mapset_element_no_fail_on_race(const char *p_path, const char *p_elemen
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23689,6 +23849,7 @@ int make_mapset_element_no_fail_on_race(const char *p_path, const char *p_elemen
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -24069,6 +24230,10 @@ int make_mapset_element_no_fail_on_race(const char *p_path, const char *p_elemen
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 {
     return make_mapset_element_impl(p_path, p_element, true);
 }
@@ -24212,6 +24377,7 @@ int make_mapset_element_no_fail_on_race(const char *p_path, const char *p_elemen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -24521,6 +24687,8 @@ int make_mapset_element_no_fail_on_race(const char *p_path, const char *p_elemen
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
@@ -25764,13 +25932,17 @@ int make_mapset_element_no_fail_on_race(const char *p_path, const char *p_elemen
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8f2d4463c9 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -26053,6 +26225,8 @@ int make_mapset_element_no_fail_on_race(const char *p_path, const char *p_elemen
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 /*!
    \brief Create misc element in the current mapset.
 
@@ -26222,6 +26396,7 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -26368,6 +26543,8 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 >>>>>>> 8f4e887107 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -26659,6 +26836,8 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 >>>>>>> 8fadce25e0 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     return G_make_mapset_dir_object(dir, name);
 >>>>>>> a5c9c945b5 (r.in.pdal: use fabs for double values (#1752))
 =======
@@ -26698,7 +26877,11 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+<<<<<<< HEAD
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 <<<<<<< HEAD
 >>>>>>> 8f4e887107 (r.in.pdal: use fabs for double values (#1752))
@@ -28027,6 +28210,7 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -28451,6 +28635,10 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 }
 
 static int check_owner(const struct stat *info)
