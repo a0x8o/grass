@@ -345,6 +345,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -398,6 +399,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
       <separator/>
       <module-item name="r.in.wms">
         <label>WMS/WMTS import</label>
@@ -783,6 +786,8 @@
       <module-item name="r.in.wms">
         <label>WMS/WMTS import</label>
       </module-item>
+=======
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
       <separator/>
       <module-item name="r.unpack">
         <label>Unpack raster map</label>

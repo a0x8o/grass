@@ -8916,34 +8916,50 @@ class SwipeMapPanel(DoubleMapPanel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
             def __init__(self2):  # noqa: N805
                 self2.called = 0
 
             def __call__(self2):  # noqa: N805
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
             def __init__(self2):
                 self2.called = 0
 
             def __call__(self2):
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
                 self2.called += 1
                 if self2.called == 2:
                     self2.process()
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
             def process(self2):  # noqa: N805
 =======
             def process(self2):
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 =======
             def process(self2):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
                 # create empty white image  - needed for line
                 im = wx.Image(width, height)
                 im.Replace(0, 0, 0, 255, 255, 255)
@@ -8960,13 +8976,19 @@ class SwipeMapPanel(DoubleMapPanel):
                         im.Paste(wx.Image(filename2), -x + lineWidth, -y)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
                 else:  # noqa: PLR5501
 =======
                 else:
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 =======
                 else:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
                     if self.splitter.GetSplitMode() == wx.SPLIT_HORIZONTAL:
                         im1 = wx.Image(filename1)
                         im.Paste(im1, 0, 0)
@@ -8981,12 +9003,16 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
                 gs.try_remove(filename1)
                 gs.try_remove(filename2)
 =======
                 grass.try_remove(filename1)
                 grass.try_remove(filename2)
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 =======
                 grass.try_remove(filename1)
                 grass.try_remove(filename2)
@@ -8995,6 +9021,8 @@ class SwipeMapPanel(DoubleMapPanel):
                 gs.try_remove(filename1)
                 gs.try_remove(filename2)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 
         callback = _onDone()
         if self._mode == "swipe":
