@@ -231,6 +231,7 @@ int db_set_default_connection(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -422,6 +423,8 @@ int db_set_default_connection(void)
 >>>>>>> d9ea5124d9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6837a8cea1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -628,7 +631,12 @@ int db_set_default_connection(void)
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f6958f78a7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 6837a8cea1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
         sprintf(buf, "%s/%s/dbf", G_location_path(), G_mapset());
         G_make_mapset_object_group("dbf");
 =======
@@ -743,10 +751,13 @@ int db_set_default_connection(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 0f48660671 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 6837a8cea1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
         sprintf(buf, "%s/%s/dbf", G_location_path(), G_mapset());
@@ -1604,6 +1615,7 @@ int db_set_default_connection(void)
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2023,6 +2035,11 @@ int db_set_default_connection(void)
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> f6958f78a7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 6837a8cea1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     }
     else if (strcmp(DB_DEFAULT_DRIVER, "sqlite") == 0) {
         /* Set default values and create sqlite db dir */
@@ -2129,6 +2146,7 @@ int db_set_default_connection(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2332,6 +2350,8 @@ int db_set_default_connection(void)
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6837a8cea1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -2886,6 +2906,7 @@ int db_set_default_connection(void)
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3248,6 +3269,10 @@ int db_set_default_connection(void)
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f6958f78a7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 6837a8cea1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
         connection.driverName = "sqlite";
         /*
          * TODO: Use one DB for entire mapset (LFS problems?)
@@ -3289,6 +3314,7 @@ int db_set_default_connection(void)
             "$GISDBASE/$LOCATION_NAME/$MAPSET/sqlite/sqlite.db";
         G_make_mapset_object_group("sqlite");
         db_set_connection(&connection);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3776,6 +3802,7 @@ int db_set_default_connection(void)
 >>>>>>> f6958f78a7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> d703f39c74 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 686d2e0404 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -3924,6 +3951,11 @@ int db_set_default_connection(void)
 >>>>>>> f6958f78a7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> d703f39c74 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 72e8ce6804 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+>>>>>>> f6958f78a7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 6837a8cea1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 	connection.driverName = "sqlite";
 	/*
 	 * TODO: Use one DB for entire mapset (LFS problems?)
@@ -4023,6 +4055,7 @@ int db_set_default_connection(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -4136,6 +4169,8 @@ int db_set_default_connection(void)
 =======
 >>>>>>> 97f957a0b7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> eab8a2b63d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 6837a8cea1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -4616,6 +4651,7 @@ int db_set_default_connection(void)
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4978,6 +5014,10 @@ int db_set_default_connection(void)
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f6958f78a7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 6837a8cea1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     }
     else
         G_fatal_error(_("Programmer error"));
