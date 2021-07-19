@@ -194,6 +194,7 @@ void G__temp_element(char *element, int tmp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -374,6 +375,12 @@ void G__temp_element(char *element, int tmp)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+=======
+    
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     G_debug(2, "G__temp_element(): %s (tmp=%d)", element, tmp);
 }
 

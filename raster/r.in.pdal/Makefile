@@ -36,6 +36,7 @@ include $(MODULE_TOPDIR)/include/Make/Module.make
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -255,6 +256,14 @@ $(OBJDIR)/grasslidarfilter.o : EXTRA_CFLAGS += $(PDALCPPFLAGS)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+$(OBJDIR)/main.o : EXTRA_CFLAGS += $(PDALCPPFLAGS)
+
+$(OBJDIR)/grasslidarfilter.o : EXTRA_CFLAGS += $(PDALCPPFLAGS)
+
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 LINK = $(CXX)
 
 ifneq ($(strip $(CXX)),)

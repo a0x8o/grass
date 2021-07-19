@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -181,6 +182,11 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 /****************************************************************************
  *
  * MODULE:       r.in.pdal
@@ -218,6 +224,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -311,6 +318,8 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 #ifndef GRASS_LIDAR_H
 #define GRASS_LIDAR_H
 
@@ -318,6 +327,7 @@
 #define LAS_FIRST 1
 #define LAS_MID   2
 #define LAS_LAST  3
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -529,6 +539,18 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+#ifndef GRASS_LIDAR_H
+#define GRASS_LIDAR_H
+
+#define LAS_ALL 0
+#define LAS_FIRST 1
+#define LAS_MID 2
+#define LAS_LAST 3
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 
 /* Type and format specifier for count of points */
 #ifdef HAVE_LONG_LONG_INT
@@ -564,6 +586,7 @@ typedef unsigned long gpoint_count;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -748,6 +771,13 @@ struct GLidarLayers {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+struct GLidarLayers {
+=======
+struct GLidarLayers
+{
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     int id_layer;
     int return_layer;
     int class_layer;
@@ -815,6 +845,7 @@ void GLidarLayers_set_no_layers(struct GLidarLayers *layers);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -999,6 +1030,13 @@ struct class_table {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+struct class_table {
+=======
+struct class_table
+{
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     int code;
     char *name;
 };

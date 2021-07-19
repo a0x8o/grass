@@ -133,6 +133,7 @@ static int G__open(const char *element, const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -252,10 +253,16 @@ static int G__open(const char *element, const char *name, const char *mapset,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        
+	if (mode == 1 || access(path, 0) != 0) {
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
             if (is_tmp)
                 G_make_mapset_object_group_tmp(element);
             else
                 G_make_mapset_object_group(element);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -381,6 +388,11 @@ static int G__open(const char *element, const char *name, const char *mapset,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+	    close(open(path, O_WRONLY | O_CREAT | O_TRUNC, 0666));
+	}
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 
         if (mode == 1 || access(path, 0) != 0) {
             if (is_tmp)

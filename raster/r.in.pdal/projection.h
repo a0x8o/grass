@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -181,6 +182,11 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 /****************************************************************************
  *
  * MODULE:       r.in.pdal
@@ -218,6 +224,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -378,6 +385,11 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 #ifndef PROJECTION_CHECKS_H
 #define PROJECTION_CHECKS_H
 
@@ -411,6 +423,7 @@ void projection_mismatch_report(struct Cell_head cellhd,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -464,10 +477,13 @@ void projection_mismatch_report(struct Cell_head cellhd,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 void projection_check_wkt(struct Cell_head cellhd, struct Cell_head loc_wind,
                           const char *projstr, int override, int return_value,
                           int verbose);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -530,11 +546,14 @@ void projection_check_wkt(struct Cell_head cellhd, struct Cell_head loc_wind,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 void projection_check_wkt(struct Cell_head cellhd,
                           struct Cell_head loc_wind,
                           const char *projstr, int override,
                           int return_value, int verbose);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -709,6 +728,8 @@ void projection_check_wkt(struct Cell_head cellhd, struct Cell_head loc_wind,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 
 int is_wkt_projection_same_as_loc(const char *wkt);
 void wkt_projection_mismatch_report(const char *wkt);
