@@ -117,6 +117,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -299,6 +300,8 @@
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -357,6 +360,8 @@
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1735,6 +1740,7 @@
 >>>>>>> 0f48660671 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
+<<<<<<< HEAD
 =======
  *
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1744,7 +1750,19 @@
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+ *
+=======
+ *  
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
  *   Copyright 2021 by Maris Nartiss, and The GRASS Development Team
  *   Author: Maris Nartiss
  *
@@ -1769,6 +1787,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 <<<<<<< HEAD
 =======
@@ -1809,6 +1830,7 @@
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1842,6 +1864,13 @@
 #include <cmath>
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+#include <cmath>
+=======
+
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 
 <<<<<<< HEAD
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -3657,6 +3686,7 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3905,6 +3935,8 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 >>>>>>> d54647dc67 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -3981,6 +4013,8 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -5878,6 +5912,7 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 >>>>>>> 0f48660671 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
+<<<<<<< HEAD
 =======
     *min_x = *max_x = *min_y = *max_y = *min_z = *max_z = 0.0 / 0.0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -5892,7 +5927,19 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d54647dc67 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    *min_x = *max_x = *min_y = *max_y = *min_z = *max_z = NAN;
+=======
+    *min_x = *max_x = *min_y = *max_y = *min_z = *max_z = 0.0 / 0.0;
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 
     for (int i = 0; i < infiles->num_items; i++) {
         const char *infile = infiles->items[i];
@@ -6025,6 +6072,7 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6207,6 +6255,8 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -6265,6 +6315,8 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -7641,6 +7693,7 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 >>>>>>> 0f48660671 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
+<<<<<<< HEAD
 =======
         const pdal::LasHeader &las_header = las_reader.header();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -7650,7 +7703,19 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+        const pdal::LasHeader &las_header = las_reader.header();
+=======
+        pdal::LasHeader las_header = las_reader.header();
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
         if (first) {
             *min_x = las_header.minX();
             *min_y = las_header.minY();
@@ -8023,6 +8088,10 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -9088,8 +9157,20 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 void print_extent(struct StringList *infiles)
 {
     double min_x, max_x, min_y, max_y, min_z, max_z;
@@ -9107,6 +9188,9 @@ void print_extent(struct StringList *infiles)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 <<<<<<< HEAD
 =======
@@ -9910,8 +9994,17 @@ void print_extent(struct StringList *infiles)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     fprintf(stdout, "n=%f s=%f e=%f w=%f b=%f t=%f\n", max_y, min_y, max_x,
             min_x, min_z, max_z);
 }
@@ -9924,8 +10017,11 @@ void print_extent(struct StringList *infiles)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10366,8 +10462,18 @@ void print_extent(struct StringList *infiles)
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 63c02ea43e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 0f48660671 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     fprintf(stdout, "n=%f s=%f e=%f w=%f b=%f t=%f\n",
             max_y, min_y, max_x, min_x, min_z, max_z);
 }
@@ -10438,6 +10544,7 @@ void print_extent(struct StringList *infiles)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10465,6 +10572,10 @@ void print_extent(struct StringList *infiles)
 =======
 =======
 >>>>>>> 4070153b86 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10478,6 +10589,8 @@ void print_extent(struct StringList *infiles)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10485,6 +10598,7 @@ void print_extent(struct StringList *infiles)
 =======
 >>>>>>> osgeo-main
 >>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 4070153b86 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
@@ -10518,6 +10632,8 @@ void print_extent(struct StringList *infiles)
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
     fprintf(stdout, "n=%f s=%f e=%f w=%f b=%f t=%f\n", max_y, min_y, max_x,
             min_x, min_z, max_z);
@@ -11464,8 +11580,17 @@ void print_extent(struct StringList *infiles)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 void print_lasinfo(struct StringList *infiles)
 {
     pdal::StageFactory factory;
@@ -11782,6 +11907,10 @@ void print_lasinfo(struct StringList *infiles)
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -12598,6 +12727,7 @@ void print_lasinfo(struct StringList *infiles)
 >>>>>>> 0f48660671 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
@@ -12606,7 +12736,15 @@ void print_lasinfo(struct StringList *infiles)
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     std::cout << std::endl
               << "Using PDAL library version '"
               << pdal::Config::fullVersionString() << "'" << std::endl
@@ -12627,7 +12765,10 @@ void print_lasinfo(struct StringList *infiles)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13197,6 +13338,7 @@ void print_lasinfo(struct StringList *infiles)
 =======
 >>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+<<<<<<< HEAD
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f6958f78a7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -13251,9 +13393,12 @@ void print_lasinfo(struct StringList *infiles)
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     std::cout << std::endl << "Using PDAL library version '" <<
         pdal::Config::fullVersionString() << "'" << std::endl << std::endl;
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13517,6 +13662,8 @@ void print_lasinfo(struct StringList *infiles)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
 >>>>>>> 671e6a355e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -13967,6 +14114,7 @@ void print_lasinfo(struct StringList *infiles)
 >>>>>>> 0f48660671 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
@@ -13975,7 +14123,15 @@ void print_lasinfo(struct StringList *infiles)
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 
     for (int i = 0; i < infiles->num_items; i++) {
         const char *infile = infiles->items[i];
@@ -14003,6 +14159,9 @@ void print_lasinfo(struct StringList *infiles)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 <<<<<<< HEAD
 =======
@@ -14806,8 +14965,17 @@ void print_lasinfo(struct StringList *infiles)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
         const pdal::LasHeader &h = las_reader.header();
         pdal::PointLayoutPtr point_layout = table.layout();
         const pdal::Dimension::IdList &dims = point_layout->dims();
@@ -14849,6 +15017,57 @@ void print_lasinfo(struct StringList *infiles)
                   << "\n";
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        pdal::LasHeader las_header = las_reader.header();
+=======
+        const pdal::LasHeader &h = las_reader.header();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+        pdal::PointLayoutPtr point_layout = table.layout();
+        const pdal::Dimension::IdList &dims = point_layout->dims();
+
+        std::cout << "File: " << infile << std::endl;
+<<<<<<< HEAD
+        std::cout << las_header;
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+        std::cout << "File version = "
+                  << "1." << (int)h.versionMinor() << "\n";
+        std::cout << "File signature: " << h.fileSignature() << "\n";
+        std::cout << "File source ID: " << h.fileSourceId() << "\n";
+        std::cout << "Global encoding: " << h.globalEncoding() << "\n";
+        std::cout << "Project UUID: " << h.projectId() << "\n";
+        std::cout << "System ID: " << h.getSystemIdentifier() << "\n";
+        std::cout << "Software ID: " << h.softwareId() << "\n";
+        std::cout << "Creation DOY: " << h.creationDOY() << "\n";
+        std::cout << "Creation Year: " << h.creationYear() << "\n";
+        std::cout << "VLR offset (header size): " << h.vlrOffset() << "\n";
+        std::cout << "VLR Count: " << h.vlrCount() << "\n";
+        std::cout << "Point format: " << (int)h.pointFormat() << "\n";
+        std::cout << "Point offset: " << h.pointOffset() << "\n";
+        std::cout << "Point count: " << h.pointCount() << "\n";
+        for (size_t i = 0; i < pdal::LasHeader::RETURN_COUNT; ++i)
+            std::cout << "Point count by return[" << i << "]: "
+                      << const_cast<pdal::LasHeader &>(h).pointCountByReturn(i)
+                      << "\n";
+        std::cout << "Scales X/Y/Z: " << h.scaleX() << "/" << h.scaleY() << "/"
+                  << h.scaleZ() << "\n";
+        std::cout << "Offsets X/Y/Z: " << h.offsetX() << "/" << h.offsetY()
+                  << "/" << h.offsetZ() << "\n";
+        std::cout << "Max X/Y/Z: " << h.maxX() << "/" << h.maxY() << "/"
+                  << h.maxZ() << "\n";
+        std::cout << "Min X/Y/Z: " << h.minX() << "/" << h.minY() << "/"
+                  << h.minZ() << "\n";
+        if (h.versionAtLeast(1, 4)) {
+            std::cout << "Ext. VLR offset: " << h.eVlrOffset() << "\n";
+            std::cout << "Ext. VLR count: " << h.eVlrCount() << "\n";
+        }
+        std::cout << "Compressed: " << (h.compressed() ? "true" : "false")
+                  << "\n";
+<<<<<<< HEAD
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17514,6 +17733,7 @@ void print_lasinfo(struct StringList *infiles)
 >>>>>>> 0f48660671 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
+<<<<<<< HEAD
 =======
         std::cout << "File version = "
                   << "1." << (int)h.versionMinor() << "\n";
@@ -17555,7 +17775,24 @@ void print_lasinfo(struct StringList *infiles)
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+        pdal::LasHeader las_header = las_reader.header();
+        pdal::PointLayoutPtr point_layout = table.layout();
+        const pdal::Dimension::IdList & dims = point_layout->dims();
+
+        std::cout << "File: " << infile << std::endl;
+        std::cout << las_header;
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> ebeb54c4e0 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 
         bool first = 1;
 
