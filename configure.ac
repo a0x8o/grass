@@ -25691,6 +25691,9 @@ else
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 97f957a0b7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
   AC_LINK_IFELSE([AC_LANG_PROGRAM([[#include <pdal/PointTable.hpp>
   #include <pdal/Streamable.hpp>
   class St:public pdal::Streamable {};]], [[pdal::PointTable table;]])],[],[
@@ -25973,8 +25976,63 @@ else
 >>>>>>> 5c566ffedc (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> d167c94555 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> a67b145d8f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+  ac_save_cppflags="$CPPFLAGS"
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+  LIBS="$LIBS $PDAL_LIBS"
+  CFLAGS="$CFLAGS $PDAL_CFLAGS"
+<<<<<<< HEAD:configure.ac
+>>>>>>> osgeo-main
+=======
+=======
+  ac_save_cppflags="$CPPFLAGS"
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+  LIBS="$LIBS $PDAL_LIBS"
+  CFLAGS="$CFLAGS $PDAL_CFLAGS"
+<<<<<<< HEAD:configure.ac
+>>>>>>> osgeo-main
+=======
+=======
+  ac_save_cppflags="$CPPFLAGS"
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+  LIBS="$LIBS $PDAL_LIBS"
+  CFLAGS="$CFLAGS $PDAL_CFLAGS"
+<<<<<<< HEAD:configure.ac
+>>>>>>> osgeo-main
+=======
+=======
+  ac_save_cppflags="$CPPFLAGS"
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+  LIBS="$LIBS $PDAL_LIBS"
+  CFLAGS="$CFLAGS $PDAL_CFLAGS"
+<<<<<<< HEAD:configure.ac
+>>>>>>> osgeo-main
+=======
+=======
+  ac_save_cppflags="$CPPFLAGS"
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+  LIBS="$LIBS $PDAL_LIBS"
+  CFLAGS="$CFLAGS $PDAL_CFLAGS"
+<<<<<<< HEAD:configure.ac
+>>>>>>> osgeo-main
+=======
+=======
+  ac_save_cppflags="$CPPFLAGS"
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+  LIBS="$LIBS $PDAL_LIBS"
+  CFLAGS="$CFLAGS $PDAL_CFLAGS"
+<<<<<<< HEAD:configure.ac
+>>>>>>> osgeo-main
+=======
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 97f957a0b7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> eab8a2b63d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
   AC_LINK_IFELSE([AC_LANG_PROGRAM([[#include <pdal/PointTable.hpp>
   #include <pdal/Streamable.hpp>
   class St:public pdal::Streamable {};]], [[pdal::PointTable table;]])],
@@ -25982,6 +26040,7 @@ else
   AC_MSG_ERROR([*** Unable to locate suitable (>=1.7.1) PDAL library.])
 =======
   CPPFLAGS="$CPPFLAGS $PDAL_CPPFLAGS $PDAL_INC"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26031,6 +26090,8 @@ else
 >>>>>>> d703f39c74 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 97f957a0b7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<<< HEAD:configure.in
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -26844,6 +26905,7 @@ else
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
   AC_TRY_LINK([#include <pdal/PointTable.hpp>
   #include <pdal/Streamable.hpp>
   class St:public pdal::Streamable {};],[pdal::PointTable table;],,[
@@ -26884,9 +26946,13 @@ else
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> osgeo-main
+>>>>>>> 97f957a0b7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
   AC_TRY_LINK([#include <pdal/PointTable.hpp>
   #include <pdal/Streamable.hpp>
   class St:public pdal::Streamable {};],[pdal::PointTable table;],,[
+<<<<<<< HEAD
 >>>>>>> e621aac8f3 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
 >>>>>>> fe292bf504 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -27160,12 +27226,19 @@ else
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 97f957a0b7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> eab8a2b63d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
   AC_TRY_LINK([#include <pdal/PointTable.hpp>
   #include <pdal/Streamable.hpp>
   class St:public pdal::Streamable {};],[pdal::PointTable table;],PDAL_LIBS="$PDAL_LIBS",[
   AC_MSG_ERROR([*** Unable to locate suitable (>=1.7.1) PDAL library.])
   ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27430,6 +27503,10 @@ else
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 97f957a0b7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> eab8a2b63d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -27660,6 +27737,7 @@ else
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> b95b0d8ab2 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
 >>>>>>> 5a342a7bc7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -27746,7 +27824,15 @@ else
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 97f957a0b7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> eab8a2b63d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697)):configure.in
   ])
 
