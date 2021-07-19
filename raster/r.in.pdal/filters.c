@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -37,6 +38,11 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 #include "filters.h"
 
 #include "lidar.h"
@@ -49,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -71,6 +78,11 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 int spatial_filter_from_option(struct Option *option, double *xmin,
                                double *ymin, double *xmax, double *ymax)
 {
@@ -96,6 +108,7 @@ int spatial_filter_from_option(struct Option *option, double *xmin,
     return TRUE;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,6 +152,14 @@ int spatial_filter_from_current_region(double *xmin, double *ymin, double *xmax,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+int spatial_filter_from_current_region(double *xmin, double *ymin, double *xmax,
+                                       double *ymax)
+=======
+int spatial_filter_from_current_region(double *xmin, double *ymin,
+                                       double *xmax, double *ymax)
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 {
     struct Cell_head region;
 

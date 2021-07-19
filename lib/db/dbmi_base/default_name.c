@@ -113,6 +113,7 @@ int db_set_default_connection(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         sprintf(buf, "%s/%s/dbf", G_location_path(), G_mapset());
         G_make_mapset_object_group("dbf");
 =======
@@ -153,10 +154,19 @@ int db_set_default_connection(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        sprintf(buf, "%s/%s/dbf", G_location_path(), G_mapset());
+        G_make_mapset_object_group("dbf");
+=======
+	sprintf(buf, "%s/%s/dbf", G_location_path(), G_mapset());
+	G_make_mapset_object_group("dbf");
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     }
     else if (strcmp(DB_DEFAULT_DRIVER, "sqlite") == 0) {
         /* Set default values and create sqlite db dir */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179,6 +189,8 @@ int db_set_default_connection(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
         connection.driverName = "sqlite";
         /*
          * TODO: Use one DB for entire mapset (LFS problems?)
@@ -199,6 +211,7 @@ int db_set_default_connection(void)
         db_set_connection(&connection);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,6 +221,9 @@ int db_set_default_connection(void)
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 	connection.driverName = "sqlite";
 	/*
 	 * TODO: Use one DB for entire mapset (LFS problems?)
@@ -227,6 +243,7 @@ int db_set_default_connection(void)
 	G_make_mapset_object_group("sqlite");
 	db_set_connection(&connection);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -238,6 +255,8 @@ int db_set_default_connection(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     }
     else
         G_fatal_error(_("Programmer error"));
