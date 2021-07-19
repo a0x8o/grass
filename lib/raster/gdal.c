@@ -304,6 +304,7 @@ static void read_gdal_options(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -564,6 +565,8 @@ static void read_gdal_options(void)
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -769,6 +772,7 @@ static void read_gdal_options(void)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1173,10 +1177,15 @@ static void read_gdal_options(void)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
         G_file_name(path, p, "", G_mapset());
         st->opts.dir = G_store(path);
         if (access(path, 0) != 0)
             G_make_mapset_object_group(p);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1252,6 +1261,8 @@ static void read_gdal_options(void)
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> aeb2dc26c5 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -1508,6 +1519,7 @@ static void read_gdal_options(void)
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -1672,6 +1684,10 @@ static void read_gdal_options(void)
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 	G_file_name(path, p, "", G_mapset());
 	st->opts.dir = G_store(path);
 	if (access(path, 0) != 0)
@@ -1696,10 +1712,13 @@ static void read_gdal_options(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> aeb2dc26c5 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2037,6 +2056,7 @@ static void read_gdal_options(void)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2467,6 +2487,11 @@ static void read_gdal_options(void)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     }
 
     p = G_find_key_value("extension", key_val);

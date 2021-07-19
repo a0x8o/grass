@@ -31355,6 +31355,7 @@ else
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:configure.ac
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32790,12 +32791,21 @@ else
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+  AC_TRY_LINK([#include <pdal/PointTable.hpp>
+  #include <pdal/Streamable.hpp>
+  class St:public pdal::Streamable {};],[pdal::PointTable table;],,[
+>>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
   AC_TRY_LINK([#include <pdal/PointTable.hpp>
   #include <pdal/Streamable.hpp>
   class St:public pdal::Streamable {};],[pdal::PointTable table;],PDAL_LIBS="$PDAL_LIBS",[
   AC_MSG_ERROR([*** Unable to locate suitable (>=1.7.1) PDAL library.])
   ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33488,6 +33498,8 @@ else
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -33496,7 +33508,12 @@ else
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697)):configure.in
   ])
 

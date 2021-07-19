@@ -100,6 +100,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -313,6 +314,8 @@
 >>>>>>> 485ab4c120 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -754,15 +757,19 @@
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> osgeo-main
 >>>>>>> 671e6a355e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
 =======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
@@ -1219,6 +1226,9 @@
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 /****************************************************************************
  *
  * MODULE:       r.in.pdal
@@ -1325,6 +1335,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1540,6 +1551,8 @@
 <<<<<<< HEAD
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -1981,15 +1994,19 @@
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> osgeo-main
 >>>>>>> 671e6a355e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
 =======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
@@ -2446,6 +2463,9 @@
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 #ifndef PROJECTION_CHECKS_H
 #define PROJECTION_CHECKS_H
 
@@ -2496,6 +2516,7 @@ void projection_mismatch_report(struct Cell_head cellhd,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2647,6 +2668,8 @@ void projection_mismatch_report(struct Cell_head cellhd,
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -2655,11 +2678,17 @@ void projection_mismatch_report(struct Cell_head cellhd,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 void projection_check_wkt(struct Cell_head cellhd, struct Cell_head loc_wind,
                           const char *projstr, int override, int return_value,
                           int verbose);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3382,10 +3411,17 @@ void projection_check_wkt(struct Cell_head cellhd, struct Cell_head loc_wind,
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> aeb2dc26c5 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 void projection_check_wkt(struct Cell_head cellhd,
                           struct Cell_head loc_wind,
                           const char *projstr, int override,
@@ -3410,10 +3446,13 @@ void projection_check_wkt(struct Cell_head cellhd,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> aeb2dc26c5 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3979,6 +4018,7 @@ void projection_check_wkt(struct Cell_head cellhd, struct Cell_head loc_wind,
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4359,6 +4399,11 @@ void projection_check_wkt(struct Cell_head cellhd, struct Cell_head loc_wind,
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 
 int is_wkt_projection_same_as_loc(const char *wkt);
 void wkt_projection_mismatch_report(const char *wkt);

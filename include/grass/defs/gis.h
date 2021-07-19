@@ -6409,6 +6409,7 @@ int G_make_mapset_object_group_tmp(const char *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6532,6 +6533,8 @@ int G_make_mapset_object_group_basedir(const char *, const char *);
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7093,15 +7096,19 @@ int G_make_mapset_object_group_basedir(const char *, const char *);
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> osgeo-main
 >>>>>>> 671e6a355e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
 int G_make_mapset_object_group_basedir(const char *, const char *);
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
@@ -7618,6 +7625,9 @@ int G_make_mapset_object_group_basedir(const char *, const char *);
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 int G__make_mapset_element_misc(const char *, const char *);
 int G_mapset_permissions(const char *);
 int G_mapset_permissions2(const char *, const char *, const char *);

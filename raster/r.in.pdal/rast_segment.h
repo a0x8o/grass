@@ -100,6 +100,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -246,6 +247,8 @@
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -255,6 +258,7 @@
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -361,6 +365,10 @@
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 /****************************************************************************
 =======
 <<<<<<< HEAD
@@ -456,6 +464,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> aeb2dc26c5 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -1435,7 +1446,12 @@
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
  *
  * MODULE:    r.in.pdal
  *
@@ -1497,6 +1513,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1855,6 +1872,8 @@
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -1863,7 +1882,12 @@
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 void rast_segment_open(SEGMENT *segment, const char *name,
                        RASTER_MAP_TYPE *map_type);
 int rast_segment_get_value_xy(SEGMENT *base_segment,
@@ -2723,6 +2747,7 @@ int rast_segment_get_value_xy(SEGMENT * base_segment,
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -2969,6 +2994,7 @@ int rast_segment_get_value_xy(SEGMENT *base_segment,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3331,6 +3357,10 @@ int rast_segment_get_value_xy(SEGMENT *base_segment,
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 8ace21395b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
                               struct Cell_head *input_region,
                               RASTER_MAP_TYPE rtype, double x, double y,
                               double *value);
