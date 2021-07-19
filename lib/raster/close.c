@@ -1639,6 +1639,7 @@ static int close_new_gdal(int fd, int ok)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1830,6 +1831,8 @@ static int close_new_gdal(int fd, int ok)
 =======
 >>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+=======
+>>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2241,6 +2244,7 @@ static int close_new_gdal(int fd, int ok)
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2612,11 +2616,16 @@ static int close_new_gdal(int fd, int ok)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
         /* write 0-length cell file */
         G_make_mapset_object_group("cell");
         G_file_name(path, "cell", fcb->name, fcb->mapset);
         cell_fd = creat(path, 0666);
         close(cell_fd);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3031,6 +3040,7 @@ static int close_new_gdal(int fd, int ok)
 >>>>>>> 671e6a355e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 485ab4c120 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -3181,6 +3191,11 @@ static int close_new_gdal(int fd, int ok)
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 018aecd8a6 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 	/* write 0-length cell file */
 	G_make_mapset_object_group("cell");
 	G_file_name(path, "cell", fcb->name, fcb->mapset);
@@ -3259,6 +3274,7 @@ static int close_new_gdal(int fd, int ok)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -3386,6 +3402,8 @@ static int close_new_gdal(int fd, int ok)
 >>>>>>> 4070153b86 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 671e6a355e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 485ab4c120 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -3715,6 +3733,7 @@ static int close_new_gdal(int fd, int ok)
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -4088,6 +4107,10 @@ static int close_new_gdal(int fd, int ok)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 
         if (fcb->map_type != CELL_TYPE) { /* floating point map */
             write_fp_format(fd);
@@ -4188,6 +4211,7 @@ static int close_new_gdal(int fd, int ok)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4379,6 +4403,8 @@ static int close_new_gdal(int fd, int ok)
 =======
 >>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+=======
+>>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -4790,6 +4816,7 @@ static int close_new_gdal(int fd, int ok)
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -5161,6 +5188,10 @@ static int close_new_gdal(int fd, int ok)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
             /* write 0-length fcell file */
             G_make_mapset_object_group("fcell");
             G_file_name(path, "fcell", fcb->name, fcb->mapset);
@@ -5176,6 +5207,7 @@ static int close_new_gdal(int fd, int ok)
                              fcb->mapset);
             remove(path);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5590,6 +5622,7 @@ static int close_new_gdal(int fd, int ok)
 >>>>>>> 671e6a355e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 485ab4c120 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -5740,6 +5773,11 @@ static int close_new_gdal(int fd, int ok)
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 018aecd8a6 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 	    /* write 0-length fcell file */
 	    G_make_mapset_object_group("fcell");
 	    G_file_name(path, "fcell", fcb->name, fcb->mapset);
@@ -5828,6 +5866,7 @@ static int close_new_gdal(int fd, int ok)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -5955,6 +5994,8 @@ static int close_new_gdal(int fd, int ok)
 >>>>>>> 4070153b86 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 671e6a355e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 485ab4c120 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -6284,6 +6325,7 @@ static int close_new_gdal(int fd, int ok)
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -6657,6 +6699,10 @@ static int close_new_gdal(int fd, int ok)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 
         if (Rast_close_gdal_write_link(fcb->gdal) < 0)
             stat = -1;
@@ -6883,6 +6929,7 @@ static int close_new(int fd, int ok)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7074,6 +7121,8 @@ static int close_new(int fd, int ok)
 =======
 >>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+=======
+>>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -7485,6 +7534,7 @@ static int close_new(int fd, int ok)
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -7856,6 +7906,10 @@ static int close_new(int fd, int ok)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
             /* now write 0-length cell file */
             G_make_mapset_object_group("cell");
             cell_fd =
@@ -7874,6 +7928,7 @@ static int close_new(int fd, int ok)
             CELL_DIR = "cell";
         }
     } /* ok */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8288,6 +8343,7 @@ static int close_new(int fd, int ok)
 >>>>>>> 671e6a355e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 485ab4c120 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -8438,6 +8494,11 @@ static int close_new(int fd, int ok)
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 018aecd8a6 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 	    /* now write 0-length cell file */
 	    G_make_mapset_object_group("cell");
 	    cell_fd =
@@ -8530,6 +8591,7 @@ static int close_new(int fd, int ok)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -8657,6 +8719,8 @@ static int close_new(int fd, int ok)
 >>>>>>> 4070153b86 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 671e6a355e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 485ab4c120 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -8986,6 +9050,7 @@ static int close_new(int fd, int ok)
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -9359,6 +9424,10 @@ static int close_new(int fd, int ok)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     /* NOW CLOSE THE FILE DESCRIPTOR */
 
     sync_and_close(fcb->data_fd,
