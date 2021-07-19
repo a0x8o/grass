@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 /****************************************************************************
@@ -74,6 +75,13 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+/****************************************************************************
+=======
+
+ /****************************************************************************
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
  *
  * MODULE:    r.in.pdal
  *
@@ -104,6 +112,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 static void rast_segment_load(SEGMENT *segment, int rowio,
@@ -170,6 +179,12 @@ static void rast_segment_load(SEGMENT *segment, int rowio,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+static void rast_segment_load(SEGMENT *segment, int rowio,
+=======
+static void rast_segment_load(SEGMENT * segment, int rowio,
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
                               RASTER_MAP_TYPE map_type)
 {
     void *raster_row = Rast_allocate_input_buf(map_type);
@@ -192,6 +207,7 @@ static void rast_segment_load(SEGMENT *segment, int rowio,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 void rast_segment_open(SEGMENT *segment, const char *name,
@@ -270,6 +286,14 @@ void rast_segment_open(SEGMENT *segment, const char *name,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+void rast_segment_open(SEGMENT *segment, const char *name,
+                       RASTER_MAP_TYPE *map_type)
+=======
+void rast_segment_open(SEGMENT * segment, const char *name,
+                       RASTER_MAP_TYPE * map_type)
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 {
     /* TODO: check if not passing the mapset is OK */
     int rowio = Rast_open_old(name, "");
@@ -292,6 +316,7 @@ void rast_segment_open(SEGMENT *segment, const char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -325,6 +350,8 @@ void rast_segment_open(SEGMENT *segment, const char *name,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
         G_fatal_error(
             _("Cannot create temporary file with segments of a raster map"));
     rast_segment_load(segment, rowio, *map_type);
@@ -333,6 +360,7 @@ void rast_segment_open(SEGMENT *segment, const char *name,
 
 /* 0 on out of region or NULL, 1 on success */
 int rast_segment_get_value_xy(SEGMENT *base_segment,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -411,6 +439,18 @@ int rast_segment_get_value_xy(SEGMENT *base_segment,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        G_fatal_error(_("Cannot create temporary file with segments of a raster map"));
+    rast_segment_load(segment, rowio, *map_type);
+    Rast_close(rowio);          /* we won't need the raster again */
+}
+
+
+/* 0 on out of region or NULL, 1 on success */
+int rast_segment_get_value_xy(SEGMENT * base_segment,
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
                               struct Cell_head *input_region,
                               RASTER_MAP_TYPE rtype, double x, double y,
                               double *value)
@@ -429,6 +469,7 @@ int rast_segment_get_value_xy(SEGMENT *base_segment,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
     if (base_row < 0 || base_col < 0 || base_row >= input_region->rows ||
@@ -507,6 +548,14 @@ int rast_segment_get_value_xy(SEGMENT *base_segment,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if (base_row < 0 || base_col < 0 || base_row >= input_region->rows ||
+        base_col >= input_region->cols)
+=======
+    if (base_row < 0 || base_col < 0 ||
+        base_row >= input_region->rows || base_col >= input_region->cols)
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
         return 0;
     if (rtype == DCELL_TYPE) {
         DCELL tmp;

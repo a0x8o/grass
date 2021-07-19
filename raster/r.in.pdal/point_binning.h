@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -67,6 +68,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 #define METHOD_NONE       0
 #define METHOD_N          1
 #define METHOD_MIN        2
@@ -84,6 +87,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -106,6 +110,9 @@
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 #define METHOD_NONE        0
 #define METHOD_N           1
 #define METHOD_MIN         2
@@ -117,6 +124,7 @@
 #define METHOD_VARIANCE    8
 #define METHOD_COEFF_VAR   9
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -151,6 +159,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 #define METHOD_MEDIAN     10
 #define METHOD_MODE       11
 #define METHOD_PERCENTILE 12
@@ -170,6 +180,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -204,10 +215,15 @@ struct z_node {
 struct z_node {
 =======
 >>>>>>> osgeo-main
+=======
+struct z_node {
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 
 struct z_node
 {
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,6 +261,8 @@ struct z_node {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     int next;
     double z;
 };
@@ -257,6 +275,7 @@ struct z_node {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 struct cnt_node {
@@ -325,6 +344,13 @@ struct cnt_node {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+struct cnt_node {
+=======
+struct cnt_node
+{
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     int next;
     CELL value;
     int count;
@@ -338,6 +364,7 @@ struct cnt_node {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 struct com_node {
@@ -406,6 +433,13 @@ struct com_node {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+struct com_node {
+=======
+struct com_node
+{
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     int n;
     double *meanx;
     double *meany;
@@ -420,6 +454,7 @@ struct com_node {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 struct BinIndex {
@@ -488,6 +523,13 @@ struct BinIndex {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+struct BinIndex {
+=======
+struct BinIndex
+{
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     int num_nodes;
     int max_nodes;
     void *nodes;
@@ -501,6 +543,7 @@ struct BinIndex {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 struct PointBinning {
@@ -569,6 +612,13 @@ struct PointBinning {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+struct PointBinning {
+=======
+struct PointBinning
+{
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     int method;
 
     int bin_n;
@@ -611,6 +661,7 @@ void point_binning_free(struct PointBinning *, struct BinIndex *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -651,10 +702,13 @@ void point_binning_free(struct PointBinning *, struct BinIndex *);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 void write_values(struct PointBinning *, struct BinIndex *, void *, int, int,
                   RASTER_MAP_TYPE);
 void update_value(struct PointBinning *, struct BinIndex *, int, int, int,
                   RASTER_MAP_TYPE, double, double, double);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -684,6 +738,9 @@ void update_value(struct PointBinning *, struct BinIndex *, int, int, int,
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 
 void write_values(struct PointBinning *,
                   struct BinIndex *, void *, int, int, RASTER_MAP_TYPE);
@@ -696,6 +753,7 @@ void update_value(struct PointBinning *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -726,5 +784,7 @@ void update_value(struct PointBinning *,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 
 #endif /* __POINT_BINNING_H__ */

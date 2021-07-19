@@ -2629,6 +2629,7 @@ else
   CFLAGS="$CFLAGS $PDAL_CFLAGS"
 <<<<<<< HEAD:configure.ac
 <<<<<<< HEAD
+<<<<<<< HEAD
   AC_LINK_IFELSE([AC_LANG_PROGRAM([[#include <pdal/PointTable.hpp>
   #include <pdal/Streamable.hpp>
   class St:public pdal::Streamable {};]], [[pdal::PointTable table;]])],[],[
@@ -2666,6 +2667,8 @@ else
   CFLAGS="$CFLAGS $PDAL_CFLAGS"
 <<<<<<< HEAD:configure.ac
 >>>>>>> osgeo-main
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
   AC_LINK_IFELSE([AC_LANG_PROGRAM([[#include <pdal/PointTable.hpp>
   #include <pdal/Streamable.hpp>
   class St:public pdal::Streamable {};]], [[pdal::PointTable table;]])],
@@ -2673,6 +2676,7 @@ else
   AC_MSG_ERROR([*** Unable to locate suitable (>=1.7.1) PDAL library.])
 =======
   CPPFLAGS="$CPPFLAGS $PDAL_CPPFLAGS $PDAL_INC"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2765,11 +2769,17 @@ else
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+  AC_TRY_LINK([#include <pdal/PointTable.hpp>
+  #include <pdal/Streamable.hpp>
+  class St:public pdal::Streamable {};],[pdal::PointTable table;],,[
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
   AC_TRY_LINK([#include <pdal/PointTable.hpp>
   #include <pdal/Streamable.hpp>
   class St:public pdal::Streamable {};],[pdal::PointTable table;],PDAL_LIBS="$PDAL_LIBS",[
   AC_MSG_ERROR([*** Unable to locate suitable (>=1.7.1) PDAL library.])
   ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2800,6 +2810,8 @@ else
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697)):configure.in
   ])
 

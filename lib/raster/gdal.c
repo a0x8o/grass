@@ -218,6 +218,7 @@ static void read_gdal_options(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -258,6 +259,8 @@ static void read_gdal_options(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
         G_file_name(path, p, "", G_mapset());
         st->opts.dir = G_store(path);
         if (access(path, 0) != 0)
@@ -269,6 +272,7 @@ static void read_gdal_options(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -291,11 +295,15 @@ static void read_gdal_options(void)
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 	G_file_name(path, p, "", G_mapset());
 	st->opts.dir = G_store(path);
 	if (access(path, 0) != 0)
 	    G_make_mapset_object_group(p);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -330,6 +338,8 @@ static void read_gdal_options(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
     }
 
     p = G_find_key_value("extension", key_val);

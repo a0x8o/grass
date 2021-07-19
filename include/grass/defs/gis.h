@@ -831,6 +831,7 @@ int G_make_mapset_object_group_tmp(const char *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int G_make_mapset_object_group_basedir(const char *, const char *);
 =======
 <<<<<<< HEAD
@@ -898,6 +899,11 @@ int G_make_mapset_object_group_basedir(const char *, const char *);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+int G_make_mapset_object_group_basedir(const char *, const char *);
+=======
+>>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+>>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 int G__make_mapset_element_misc(const char *, const char *);
 int G_mapset_permissions(const char *);
 int G_mapset_permissions2(const char *, const char *, const char *);
