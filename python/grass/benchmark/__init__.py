@@ -149,6 +149,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -381,6 +382,8 @@
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -1187,12 +1190,16 @@
 =======
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
 =======
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a5bc7458b9 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -1492,6 +1499,8 @@
 =======
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 # MODULE:    grass.benchmark
 #
 # AUTHOR(S): Vaclav Petras <wenzeslaus gmail com>
@@ -1545,6 +1554,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2114,9 +2124,12 @@
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2210,6 +2223,8 @@
 >>>>>>> 28bc5c68cb (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3158,7 +3173,12 @@
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 """Benchmarking for GRASS GIS modules
 
 This subpackage of the grass package is experimental and the API can change anytime.
@@ -3296,6 +3316,7 @@ file of the subpackage.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3557,6 +3578,8 @@ file of the subpackage.
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -4363,12 +4386,16 @@ file of the subpackage.
 =======
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
 =======
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a5bc7458b9 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -4669,6 +4696,8 @@ file of the subpackage.
 =======
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 The functions in the Python API raise exceptions, although calls of other functions from
 the grass package may call grass.script.fatal and exit
@@ -4717,6 +4746,7 @@ traceback. Messages and other user-visible texts in this package are not transla
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5286,9 +5316,12 @@ traceback. Messages and other user-visible texts in this package are not transla
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5382,6 +5415,8 @@ traceback. Messages and other user-visible texts in this package are not transla
 >>>>>>> 28bc5c68cb (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -6330,7 +6365,12 @@ traceback. Messages and other user-visible texts in this package are not transla
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 """
 
 from .plots import nprocs_plot, num_cells_plot
@@ -6378,6 +6418,7 @@ from .results import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -6904,6 +6945,8 @@ from .results import (
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
     join_results_from_files,
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6915,6 +6958,7 @@ from .results import (
 =======
     join_results_from_files,
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7866,6 +7910,7 @@ from .results import (
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -8241,6 +8286,10 @@ from .results import (
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
     load_results,
     load_results_from_file,
     save_results,
@@ -8397,6 +8446,7 @@ from .results import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8644,6 +8694,8 @@ from .results import (
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9189,6 +9241,7 @@ from .runners import benchmark_nprocs, benchmark_resolutions, benchmark_single
 =======
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -9229,6 +9282,10 @@ from .runners import benchmark_nprocs, benchmark_resolutions, benchmark_single
 =======
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 from .runners import benchmark_nprocs, benchmark_resolutions, benchmark_single
 =======
 from .runners import benchmark_nprocs, benchmark_resolutions, benchmark_single
@@ -9285,6 +9342,7 @@ from .runners import benchmark_nprocs, benchmark_resolutions
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d3014fcc0b (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -9320,11 +9378,16 @@ from .runners import benchmark_nprocs, benchmark_resolutions
 >>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 from .runners import benchmark_nprocs, benchmark_resolutions, benchmark_single
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9368,6 +9431,8 @@ from .runners import benchmark_nprocs, benchmark_resolutions, benchmark_single
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
@@ -10130,6 +10195,7 @@ from .runners import benchmark_nprocs, benchmark_resolutions, benchmark_single
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -10567,3 +10633,8 @@ from .runners import benchmark_nprocs, benchmark_resolutions, benchmark_single
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))

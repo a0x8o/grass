@@ -57,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d38e4070b (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -769,6 +770,7 @@
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1068,6 +1070,10 @@
 >>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 import sys
 from pathlib import Path
 from subprocess import DEVNULL
@@ -1078,6 +1084,7 @@ from grass.benchmark import (
     benchmark_resolutions,
     save_results_to_file,
 )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1526,6 +1533,7 @@ from grass.benchmark import (
 =======
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
@@ -1655,6 +1663,11 @@ from grass.benchmark import (
 =======
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 28bc5c68cb (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+=======
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 from pathlib import Path
 from subprocess import DEVNULL
 
@@ -1691,6 +1704,7 @@ from grass.benchmark import benchmark_resolutions, save_results_to_file
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -1726,6 +1740,8 @@ from grass.benchmark import benchmark_resolutions, save_results_to_file
 >>>>>>> 5fbea63c8d (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 28bc5c68cb (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2887,6 +2903,7 @@ from grass.benchmark import (
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3251,6 +3268,11 @@ from grass.benchmark import (
 >>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 from grass.benchmark.app import main as benchmark_main
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -3387,6 +3409,7 @@ from grass.pygrass.modules import Module
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3646,6 +3669,8 @@ from grass.pygrass.modules import Module
 >>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -4446,6 +4471,7 @@ from grass.pygrass.modules import Module
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4751,6 +4777,10 @@ from grass.pygrass.modules import Module
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 def remove_file(path):
     """Remove filename if exists"""
     if sys.version_info < (3, 8):
@@ -5538,6 +5568,7 @@ class TestBenchmarkCLI(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> dad564ed48 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -5588,6 +5619,8 @@ class TestBenchmarkCLI(TestCase):
 >>>>>>> 28bc5c68cb (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 4d38e4070b (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 3f42bae598 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -6410,10 +6443,21 @@ class TestBenchmarkCLI(TestCase):
         repeat = 4
 <<<<<<< HEAD
 >>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+class TestBenchmarkCLI(TestCase):
+    """Tests that benchmarkin CLI works"""
+
+    def test_plot_workflow(self):
+        """Test that plot workflow runs"""
+        label = "Standard output"
+        repeat = 4
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
         json_filename = "plot_test.json"
         png_filename = "plot_test.png"
         png_filename_resolutions = "plot_test_resolutions.png"
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6519,6 +6563,9 @@ class TestBenchmarkCLI(TestCase):
 =======
 <<<<<<< HEAD
 >>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+<<<<<<< HEAD
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -8795,6 +8842,7 @@ class TestBenchmarkCLI(TestCase):
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -9462,6 +9510,10 @@ class TestBenchmarkCLI(TestCase):
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
         # The benchmark part has only Python API, not CLI.
         result = benchmark_resolutions(
             module=Module("r.univar", map="elevation", stdout_=DEVNULL, run_=False),
@@ -9514,6 +9566,7 @@ class TestBenchmarkCLI(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d38e4070b (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -10150,6 +10203,7 @@ class TestBenchmarkCLI(TestCase):
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -10419,6 +10473,10 @@ class TestBenchmarkCLI(TestCase):
 >>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
         save_results_to_file([result], self.json_filename)
         benchmark_main(["plot", "cells", self.json_filename, self.png_filenames[0]])
         self.assertTrue(Path(self.png_filenames[0]).is_file())
@@ -10464,6 +10522,7 @@ class TestBenchmarkCLI(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -10589,6 +10648,8 @@ class TestBenchmarkCLI(TestCase):
 >>>>>>> 5fbea63c8d (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 28bc5c68cb (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
         self.assertTrue(Path(self.png_filenames[-1]).is_file())
 =======
 =======
@@ -10862,13 +10923,17 @@ class TestBenchmarkCLI(TestCase):
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
         self.assertTrue(Path(self.png_filenames[-1]).is_file())
 =======
         self.assertTrue(Path(self.png_filename2).is_file())
 >>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a5bc7458b9 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -10906,9 +10971,12 @@ class TestBenchmarkCLI(TestCase):
 >>>>>>> 5fbea63c8d (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 28bc5c68cb (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
         save_results_to_file([result], json_filename)
         benchmark_main(["plot", "cells", json_filename, png_filename])
         self.assertTrue(Path(png_filename).is_file())
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10997,6 +11065,8 @@ class TestBenchmarkCLI(TestCase):
 >>>>>>> 28bc5c68cb (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
 =======
@@ -13233,7 +13303,18 @@ class TestBenchmarkCLI(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        benchmark_main(
+            ["plot", "cells", "--resolutions", json_filename, png_filename_resolutions]
+        )
+        self.assertTrue(Path(png_filename_resolutions).is_file())
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0fd8e61114 (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 
 if __name__ == "__main__":
