@@ -159,6 +159,7 @@ DSTDIR = $(ETC)/python/grass/benchmark
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -305,6 +306,10 @@ DSTDIR = $(ETC)/python/grass/benchmark
 =======
 >>>>>>> 547913387f (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 86d855a90b (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> 547913387f (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 9c4cb0749b (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
@@ -916,6 +921,7 @@ MODULES = app plots results runners __main__
 =======
 >>>>>>> 434bf28e3d (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d3014fcc0b (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -944,10 +950,15 @@ MODULES = app plots results runners __main__
 >>>>>>> 9cac1201a9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 88accbfbad (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> d3014fcc0b (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 9c4cb0749b (libpython: Support benchmarks of non-parallel runs better (#1733))
 MODULES = app plots results runners __main__
 =======
 MODULES = plots results runners
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1547,6 +1558,8 @@ MODULES = plots results runners
 >>>>>>> 3f42bae598 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 88accbfbad (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 9c4cb0749b (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> 56976800a2 (libpython: Save and load benchmark results (#1711))
@@ -2304,8 +2317,19 @@ MODULES = app plots results runners __main__
 MODULES = plots results runners
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 1c3c7a612a (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+=======
+MODULES = app plots results runners __main__
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> d3014fcc0b (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 547913387f (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 9c4cb0749b (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
