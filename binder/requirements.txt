@@ -11,6 +11,7 @@ ply
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 PyVirtualDisplay
@@ -77,3 +78,9 @@ PyVirtualDisplay
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+PyVirtualDisplay
+=======
+folium
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> a4624812dc (libpython: Support benchmarks of non-parallel runs better (#1733))

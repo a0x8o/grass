@@ -18,6 +18,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -63,6 +64,8 @@ DSTDIR = $(ETC)/python/grass/jupyter
 >>>>>>> 869427c771 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> a4624812dc (libpython: Support benchmarks of non-parallel runs better (#1733))
 MODULES = \
 	setup \
 	map \
@@ -305,8 +308,20 @@ MODULES = setup
 =======
 MODULES = setup display
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+MODULES = \
+	setup \
+	display \
+	interact_display
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> a4624812dc (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
