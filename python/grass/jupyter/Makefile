@@ -66,6 +66,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c4d1702fe7 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -1022,6 +1023,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 =======
 >>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -1569,6 +1571,10 @@ DSTDIR = $(ETC)/python/grass/jupyter
 =======
 >>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 102ca719c3 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 58f65d161b (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 808f410679 (libpython: Support benchmarks of non-parallel runs better (#1733))
 MODULES = \
 	setup \
 	map \
@@ -4169,6 +4175,7 @@ MODULES = setup display
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dcc1810d30 (libpython: Save and load benchmark results (#1711))
 =======
@@ -4183,6 +4190,8 @@ MODULES = setup display
 >>>>>>> cb7d39cb66 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 808f410679 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4324,6 +4333,7 @@ MODULES = setup display
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 58f65d161b (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+<<<<<<< HEAD
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 196a20892e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -4355,9 +4365,12 @@ MODULES = setup display
 =======
 >>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+>>>>>>> 808f410679 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 MODULES = \
 	setup \
 	display \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4417,6 +4430,8 @@ MODULES = \
 >>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> d7a05702af (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> 808f410679 (libpython: Support benchmarks of non-parallel runs better (#1733))
 	interact_display
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
@@ -5130,6 +5145,7 @@ MODULES = \
 =======
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 >>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
 =======
@@ -6496,6 +6512,13 @@ MODULES = \
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 >>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 102ca719c3 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+	interact_display
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 58f65d161b (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 808f410679 (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
