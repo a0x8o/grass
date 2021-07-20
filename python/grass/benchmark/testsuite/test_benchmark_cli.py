@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -32,6 +33,8 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 import sys
 from pathlib import Path
 from subprocess import DEVNULL
@@ -43,6 +46,7 @@ from grass.benchmark import (
     save_results_to_file,
 )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52,11 +56,15 @@ from grass.benchmark import (
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 from pathlib import Path
 from subprocess import DEVNULL
 
 from grass.benchmark import benchmark_resolutions, save_results_to_file
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 =======
 import sys
 from pathlib import Path
@@ -78,6 +86,8 @@ from grass.benchmark import (
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 from grass.benchmark.app import main as benchmark_main
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -87,6 +97,7 @@ from grass.pygrass.modules import Module
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -106,6 +117,8 @@ from grass.pygrass.modules import Module
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 def remove_file(path):
     """Remove filename if exists"""
     if sys.version_info < (3, 8):
@@ -177,6 +190,7 @@ class TestBenchmarkCLI(TestCase):
         label = "Standard output"
         repeat = 4
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,10 +238,21 @@ class TestBenchmarkCLI(TestCase):
         label = "Standard output"
         repeat = 4
 <<<<<<< HEAD
+=======
+=======
+class TestBenchmarkCLI(TestCase):
+    """Tests that benchmarkin CLI works"""
+
+    def test_plot_workflow(self):
+        """Test that plot workflow runs"""
+        label = "Standard output"
+        repeat = 4
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
         json_filename = "plot_test.json"
         png_filename = "plot_test.png"
         png_filename_resolutions = "plot_test_resolutions.png"
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -239,6 +264,8 @@ class TestBenchmarkCLI(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
         # The benchmark part has only Python API, not CLI.
         result = benchmark_resolutions(
             module=Module("r.univar", map="elevation", stdout_=DEVNULL, run_=False),
@@ -249,6 +276,7 @@ class TestBenchmarkCLI(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -266,6 +294,8 @@ class TestBenchmarkCLI(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
         save_results_to_file([result], self.json_filename)
         benchmark_main(["plot", "cells", self.json_filename, self.png_filenames[0]])
         self.assertTrue(Path(self.png_filenames[0]).is_file())
@@ -278,6 +308,7 @@ class TestBenchmarkCLI(TestCase):
                 self.png_filenames[-1],
             ]
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.assertTrue(Path(self.png_filename2).is_file())
 <<<<<<< HEAD
@@ -319,6 +350,21 @@ class TestBenchmarkCLI(TestCase):
 =======
         self.assertTrue(Path(self.png_filenames[-1]).is_file())
 >>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+=======
+        self.assertTrue(Path(self.png_filenames[-1]).is_file())
+=======
+        self.assertTrue(Path(self.png_filename2).is_file())
+=======
+        save_results_to_file([result], json_filename)
+        benchmark_main(["plot", "cells", json_filename, png_filename])
+        self.assertTrue(Path(png_filename).is_file())
+        benchmark_main(
+            ["plot", "cells", "--resolutions", json_filename, png_filename_resolutions]
+        )
+        self.assertTrue(Path(png_filename_resolutions).is_file())
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 
 if __name__ == "__main__":
