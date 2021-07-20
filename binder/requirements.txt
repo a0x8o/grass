@@ -118,6 +118,7 @@ ply
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -567,6 +568,10 @@ ply
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))
 PyVirtualDisplay
 =======
 <<<<<<< HEAD
@@ -677,6 +682,9 @@ folium
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 PyVirtualDisplay
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -852,6 +860,7 @@ PyVirtualDisplay
 =======
 PyVirtualDisplay
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1421,3 +1430,7 @@ PyVirtualDisplay
 PyVirtualDisplay
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))

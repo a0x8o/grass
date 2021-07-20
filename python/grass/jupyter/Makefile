@@ -108,6 +108,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -262,6 +263,8 @@ DSTDIR = $(ETC)/python/grass/jupyter
 =======
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -399,6 +402,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 =======
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
@@ -1033,6 +1037,10 @@ DSTDIR = $(ETC)/python/grass/jupyter
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))
 MODULES = \
 	setup \
 	map \
@@ -2680,6 +2688,7 @@ MODULES = setup
 =======
 MODULES = setup display
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 MODULES = \
@@ -4365,7 +4374,18 @@ MODULES = setup
 =======
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+MODULES = \
+	setup \
+	display \
+	interact_display
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)

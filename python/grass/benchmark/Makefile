@@ -105,6 +105,7 @@ DSTDIR = $(ETC)/python/grass/benchmark
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -490,6 +491,12 @@ MODULES = app plots results runners __main__
 >>>>>>> d3014fcc0b (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))
 MODULES = app plots results runners __main__
 =======
 MODULES = plots results runners
@@ -500,8 +507,11 @@ MODULES = plots results runners
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
+=======
+>>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 MODULES = app plots results runners __main__
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -979,6 +989,7 @@ MODULES = app plots results runners __main__
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
 =======
@@ -1452,6 +1463,13 @@ MODULES = app plots results runners __main__
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+MODULES = app plots results runners __main__
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
