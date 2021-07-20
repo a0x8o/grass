@@ -67,6 +67,7 @@ DSTDIR = $(ETC)/python/grass/benchmark
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -146,6 +147,8 @@ DSTDIR = $(ETC)/python/grass/benchmark
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 81ee4cdfd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
@@ -511,7 +514,12 @@ MODULES = app plots results runners __main__
 =======
 =======
 >>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 94090db73c (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 81ee4cdfd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
 MODULES = app plots results runners __main__
 =======
 MODULES = plots results runners
@@ -535,11 +543,14 @@ MODULES = plots results runners
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f91c52c645 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 949d58a435 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 81ee4cdfd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 MODULES = app plots results runners __main__
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -838,7 +849,15 @@ MODULES = app plots results runners __main__
 =======
 =======
 >>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+MODULES = app plots results runners __main__
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 94090db73c (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 81ee4cdfd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
