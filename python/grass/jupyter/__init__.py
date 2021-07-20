@@ -4155,6 +4155,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4273,6 +4274,8 @@ from .setup import *
 >>>>>>> f9261b86c0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> d86c47b865 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> cb7d39cb66 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -4981,6 +4984,7 @@ from .setup import *
 =======
 >>>>>>> 6d0d0f1535 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1ae4cefc3 (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -5143,6 +5147,10 @@ from .setup import *
 =======
 >>>>>>> 6d0d0f1535 (libpython: Save and load benchmark results (#1711))
 >>>>>>> d86c47b865 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 2a88dad128 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> cb7d39cb66 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 >>>>>>> 095dc4def6 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -7321,6 +7329,9 @@ from .utils import *
 =======
 =======
 =======
+=======
+from .interact_display import *
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 from .display import *
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 4f7b5aea0b (libpython: Save and load benchmark results (#1711))
