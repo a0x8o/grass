@@ -86,6 +86,7 @@ ply
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -195,6 +196,8 @@ ply
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -428,7 +431,12 @@ ply
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
 PyVirtualDisplay
 =======
 <<<<<<< HEAD
@@ -505,6 +513,7 @@ PyVirtualDisplay
 >>>>>>> osgeo-main
 folium
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1093,4 +1102,9 @@ PyVirtualDisplay
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
