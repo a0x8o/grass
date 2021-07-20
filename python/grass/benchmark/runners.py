@@ -1408,6 +1408,7 @@ import grass.script as gs
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 def benchmark_single(module, label, repeat=5):
@@ -2003,6 +2004,8 @@ def benchmark_single(module, label, repeat=5):
 =======
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -2016,13 +2019,19 @@ def benchmark_single(module, label, repeat=5):
 =======
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
 def benchmark_single(module, label, repeat=5):
     """Benchmark module as is without changing anything.
 =======
 def benchmark_single(module, label, repeat=5):
     """Benchmark module as is without chaning anything.
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2209,6 +2218,8 @@ def benchmark_single(module, label, repeat=5):
 >>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -2703,7 +2714,12 @@ def benchmark_single(module, label, repeat=5):
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
 
     *module* is an instance of PyGRASS Module class or any object which
     has a *run* method which takes no arguments and executes the benchmarked code,
@@ -2778,6 +2794,7 @@ def benchmark_single(module, label, repeat=5):
     )
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3134,6 +3151,8 @@ def benchmark_single(module, label, repeat=5):
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3339,6 +3358,7 @@ def benchmark_single(module, label, repeat=5):
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3743,6 +3763,10 @@ def benchmark_single(module, label, repeat=5):
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
 def benchmark_nprocs(module, label, max_nprocs, repeat=5, shuffle=True):
     """Benchmark module using values of nprocs up to *max_nprocs*.
 
@@ -4525,6 +4549,9 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 =======
 =======
 def benchmark_nprocs(module, label, max_nprocs, repeat):
+=======
+def benchmark_nprocs(module, label, max_nprocs, repeat=5):
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
     """Benchmark module using values of nprocs up to *max_nprocs*.
 
     *module* is an instance of PyGRASS Module class or any object which
@@ -4534,8 +4561,13 @@ def benchmark_nprocs(module, label, max_nprocs, repeat):
     function returned. Additionally, the object should be convertible to *str*
     for printing.
 
+<<<<<<< HEAD
     The module is executed  used to generate range of values from 1 up to *max_nprocs*.
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+    The module is executed for each generated value of nprocs. *max_nprocs* is used
+    to generate a continuous range of integer values from 1 up to *max_nprocs*.
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
     *repeat* sets how many times the each run is repeated.
     So, the module will run ``max_nprocs * repeat`` times.
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -8502,7 +8534,8 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
         print(module)
 
     min_avg = float("inf")
-    min_time = 1
+    min_time = None
+    serial_avg = None
     avg_times = []
     all_times = []
     nprocs_list = list(range(1, max_nprocs + 1))
@@ -10427,12 +10460,16 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
     print("\u2500" * term_size.columns)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
     print(f"\nSerial average time - {serial_avg}s")
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
     if serial_avg is not None:
         print(f"\nSerial average time - {serial_avg}s")
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     print(f"Best average time - {min_avg}s ({min_time} threads)\n")
@@ -11694,7 +11731,12 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
     print(f"\nSerial average time - {serial_avg}s")
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
     print(f"Best average time - {min_avg}s ({min_time} threads)\n")
 
     return SimpleNamespace(
@@ -13961,6 +14003,7 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -14115,6 +14158,8 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -14130,6 +14175,7 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 345367a7c1 (libpython: Save and load benchmark results (#1711))
 =======
@@ -14397,11 +14443,16 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
     Optional *nprocs* is passed to the module if present
     (the called module does not have to support nprocs parameter).
 =======
     Optional *nprocs* is passed to the module if present.
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14429,8 +14480,12 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 >>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
     Optional *nprocs* is passed to the module if present
     (the called module does not have to support nprocs parameter).
@@ -14444,7 +14499,10 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -15018,6 +15076,7 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 345367a7c1 (libpython: Save and load benchmark results (#1711))
 =======
@@ -15430,6 +15489,10 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
 
     Returns an object with attributes *times* (list of average execution times),
     *all_times* (list of lists of measured execution times), *resolutions*
@@ -15530,6 +15593,7 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15796,6 +15860,8 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16008,12 +16074,16 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 345367a7c1 (libpython: Save and load benchmark results (#1711))
 =======
+=======
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 166e88ec39 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -16408,6 +16478,8 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
     if hasattr(module, "get_bash"):
         print(module.get_bash())
     else:
@@ -16472,6 +16544,7 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16568,6 +16641,8 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> c2d961e4a1 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -16885,10 +16960,13 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
     print(module.get_bash())
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16904,6 +16982,8 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 >>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -17044,6 +17124,7 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 345367a7c1 (libpython: Save and load benchmark results (#1711))
 =======
@@ -17533,6 +17614,10 @@ def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
 
     avg_times = []
     all_times = []

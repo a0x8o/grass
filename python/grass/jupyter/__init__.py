@@ -3028,6 +3028,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3080,6 +3081,8 @@ from .setup import *
 >>>>>>> 75ca885908 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -3597,6 +3600,7 @@ from .setup import *
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 345367a7c1 (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -3800,6 +3804,10 @@ from .setup import *
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 >>>>>>> 095dc4def6 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -3936,6 +3944,7 @@ from .setup import *
 >>>>>>> b53d4aed76 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 from .interact_display import *
@@ -5269,6 +5278,11 @@ from .utils import *
 >>>>>>> a7d7103a05 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 =======
+=======
+=======
+from .interact_display import *
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
 from .display import *
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))

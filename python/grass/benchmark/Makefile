@@ -108,6 +108,7 @@ DSTDIR = $(ETC)/python/grass/benchmark
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -262,6 +263,8 @@ DSTDIR = $(ETC)/python/grass/benchmark
 =======
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -277,6 +280,7 @@ DSTDIR = $(ETC)/python/grass/benchmark
 =======
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 345367a7c1 (libpython: Save and load benchmark results (#1711))
 =======
@@ -372,6 +376,10 @@ DSTDIR = $(ETC)/python/grass/benchmark
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
 MODULES = app plots results runners __main__
 =======
 <<<<<<< HEAD
@@ -460,6 +468,9 @@ MODULES = plots results runners
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
@@ -1501,7 +1512,15 @@ MODULES = app plots results runners __main__
 =======
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+MODULES = app plots results runners __main__
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
