@@ -94,6 +94,7 @@ from grass.benchmark import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -442,6 +443,8 @@ from grass.benchmark import (
 =======
 >>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 8e09c28a9a (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -520,11 +523,17 @@ from grass.benchmark import (
 =======
 =======
 >>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 58f65d161b (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 8e09c28a9a (libpython: Support benchmarks of non-parallel runs better (#1733))
     benchmark_nprocs,
 =======
 <<<<<<< HEAD
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -623,6 +632,11 @@ from grass.benchmark import (
 <<<<<<< HEAD
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> bcd8260293 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 58f65d161b (libpython: Support benchmarks of non-parallel runs better (#1733))
     benchmark_single,
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -632,6 +646,7 @@ from grass.benchmark import (
 =======
     benchmark_single,
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -677,6 +692,8 @@ from grass.benchmark import (
 >>>>>>> fb1415d5b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 5a369c18ab (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 8e09c28a9a (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
     benchmark_single,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1232,7 +1249,12 @@ from grass.benchmark import (
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 58f65d161b (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 8e09c28a9a (libpython: Support benchmarks of non-parallel runs better (#1733))
     join_results,
     load_results,
     load_results_from_file,
@@ -1371,6 +1393,7 @@ class TestBenchmarksRun(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1492,6 +1515,8 @@ class TestBenchmarksRun(TestCase):
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8e09c28a9a (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -1982,7 +2007,14 @@ class TestBenchmarksRun(TestCase):
 =======
 =======
 >>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 58f65d161b (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 8e09c28a9a (libpython: Support benchmarks of non-parallel runs better (#1733))
     def test_single(self):
         """Test that single benchmark function runs"""
         label = "Standard output"
@@ -2025,6 +2057,7 @@ class TestBenchmarksRun(TestCase):
             self.assertEqual(len(result.all_times), repeat)
         self.assertEqual(results[0].label, label)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2302,7 +2335,12 @@ class TestBenchmarksRun(TestCase):
 =======
 =======
 >>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 58f65d161b (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 8e09c28a9a (libpython: Support benchmarks of non-parallel runs better (#1733))
     def test_nprocs(self):
         """Test that benchmark function runs for nprocs"""
         label = "Standard output"
@@ -2423,6 +2461,7 @@ class TestBenchmarksRun(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -2479,6 +2518,8 @@ class TestBenchmarksRun(TestCase):
 >>>>>>> 5a369c18ab (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8e09c28a9a (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
@@ -3204,7 +3245,18 @@ class TestBenchmarksRun(TestCase):
 =======
 =======
 >>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 58f65d161b (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 8e09c28a9a (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 class TestBenchmarkResults(TestCase):
     """Tests that saving results work"""
