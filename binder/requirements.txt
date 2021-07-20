@@ -1379,10 +1379,17 @@ matplotlib
 Pillow
 ply
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> eec6314975 (Add Binder setup files (#1603))
 <<<<<<< HEAD
 >>>>>>> d61771ce2d (Add Binder setup files (#1603))
 =======
 =======
 >>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
+<<<<<<< HEAD
 >>>>>>> 104e187247 (Add Binder setup files (#1603))
+=======
+=======
+folium
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 2ba4dbc7e5 (libpython: Support benchmarks of non-parallel runs better (#1733))
