@@ -43,6 +43,7 @@ DSTDIR = $(ETC)/python/grass/benchmark
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -75,6 +76,8 @@ DSTDIR = $(ETC)/python/grass/benchmark
 =======
 >>>>>>> 4b334d121f (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -103,7 +106,12 @@ DSTDIR = $(ETC)/python/grass/benchmark
 =======
 =======
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4b334d121f (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
 MODULES = app plots results runners __main__
 =======
 <<<<<<< HEAD
@@ -180,6 +188,7 @@ MODULES = app plots results runners __main__
 >>>>>>> osgeo-main
 MODULES = plots results runners
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -376,7 +385,15 @@ MODULES = app plots results runners __main__
 =======
 =======
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4b334d121f (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+MODULES = app plots results runners __main__
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)

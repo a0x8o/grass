@@ -57,6 +57,7 @@ from grass.benchmark import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -329,6 +330,8 @@ from grass.benchmark import (
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4b334d121f (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
     benchmark_nprocs,
 =======
 <<<<<<< HEAD
@@ -347,6 +350,8 @@ from grass.benchmark import (
 >>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
     benchmark_single,
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -356,6 +361,7 @@ from grass.benchmark import (
 =======
     benchmark_single,
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -371,6 +377,8 @@ from grass.benchmark import (
 >>>>>>> 166e88ec39 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
 =======
     benchmark_single,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -564,7 +572,12 @@ from grass.benchmark import (
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4b334d121f (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
     join_results,
     load_results,
     load_results_from_file,
@@ -666,6 +679,7 @@ class TestBenchmarksRun(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -733,6 +747,8 @@ class TestBenchmarksRun(TestCase):
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4b334d121f (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -885,7 +901,14 @@ class TestBenchmarksRun(TestCase):
 =======
 =======
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4b334d121f (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
     def test_single(self):
         """Test that single benchmark function runs"""
         label = "Standard output"
@@ -922,6 +945,7 @@ class TestBenchmarksRun(TestCase):
             self.assertEqual(len(result.all_times), repeat)
         self.assertEqual(results[0].label, label)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1055,6 +1079,8 @@ class TestBenchmarksRun(TestCase):
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4b334d121f (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
     def test_nprocs(self):
         """Test that benchmark function runs for nprocs"""
         label = "Standard output"
@@ -1426,7 +1452,16 @@ class TestBenchmarksRun(TestCase):
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4b334d121f (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
 
 class TestBenchmarkResults(TestCase):
     """Tests that saving results work"""
