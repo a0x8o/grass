@@ -2355,6 +2355,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2509,6 +2510,12 @@ from .setup import *
 =======
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 >>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> a5bc7458b9 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2586,6 +2593,7 @@ from .setup import *
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> 33ce7dd98b (Add session initiations functions for Jupyter Notebooks (#1629))
@@ -2645,6 +2653,9 @@ from .utils import *
 =======
 <<<<<<< HEAD
 >>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+>>>>>>> a5bc7458b9 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 from .interact_display import *
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -4049,6 +4060,11 @@ from .setup import *
 =======
 =======
 =======
+=======
+=======
+from .interact_display import *
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
 from .display import *
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
