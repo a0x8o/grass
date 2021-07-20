@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -126,6 +127,8 @@
 >>>>>>> 81ee4cdfd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 86cfd7a703 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> 0fec5bf578 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -1233,11 +1236,35 @@ class InteractiveMap:
         import folium
 
         self._folium = folium
+=======
+#            This program is free software under the GNU Gernal Public
+#            License (>=v2). Read teh file COPYING that comes with GRASS
+#            for details.
+
+import os
+from pathlib import Path
+
+import folium
+
+import grass.script as gs
+
+
+class InteractiveMap:
+    """This class creates interative GRASS maps with folium"""
+
+    def __init__(self, width=400, height=400):
+        """This initiates a folium map centered on g.region.
+
+        Keyword arguments:
+            height -- height in pixels of figure (default 400)
+            width -- width in pixels of figure (default 400)"""
+>>>>>>> da95805ca1 (libpython: Support benchmarks of non-parallel runs better (#1733))
 
         # Store height and width
         self.width = width
         self.height = height
         # Make temporary folder for all our files
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1369,6 +1396,8 @@ class InteractiveMap:
 >>>>>>> 81ee4cdfd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
@@ -1647,7 +1676,12 @@ class InteractiveMap:
 =======
 =======
 >>>>>>> 94090db73c (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 81ee4cdfd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> da95805ca1 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
         self.tmp_dir = Path("./tmp/")
         try:
             os.mkdir(self.tmp_dir)
@@ -1656,6 +1690,7 @@ class InteractiveMap:
         # Create new environment for tmp WGS84 location
         rcfile, self._vector_env = gs.create_environment(
             self.tmp_dir, "temp_folium_WGS84", "PERMANENT"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1804,6 +1839,8 @@ class InteractiveMap:
 >>>>>>> 949d58a435 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 81ee4cdfd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -2124,7 +2161,34 @@ class InteractiveMap:
 =======
         self.map = self._folium.Map(
 >>>>>>> 03ae449941 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
 >>>>>>> 6d9bf88380 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+=======
+        )
+        # Location and mapset and region
+        gs.create_location(
+            self.tmp_dir, "temp_folium_WGS84", epsg="4326", overwrite=True
+        )
+        self._extent = self._convert_extent(
+            env=os.environ
+        )  # Get the extent of the original area in WGS84
+        # Set region to match original region extent
+        gs.run_command(
+            "g.region",
+            n=self._extent["north"],
+            s=self._extent["south"],
+            e=self._extent["east"],
+            w=self._extent["west"],
+            env=self._vector_env,
+        )
+        # Get Center of tmp GRASS region
+        center = gs.parse_command("g.region", flags="cg", env=self._vector_env)
+        center = (float(center["center_northing"]), float(center["center_easting"]))
+        # Create Folium Map
+        self.map = folium.Map(
+>>>>>>> da95805ca1 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
             width=self.width,
             height=self.height,
             location=center,
@@ -2175,6 +2239,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -2250,6 +2315,8 @@ class InteractiveMap:
 >>>>>>> 81ee4cdfd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 86cfd7a703 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> 0fec5bf578 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -2768,7 +2835,35 @@ class InteractiveMap:
         )
 <<<<<<< HEAD
 >>>>>>> 94090db73c (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 81ee4cdfd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+        # Create LayerControl default
+        self.layer_control = False
+
+    def _convert_coordinates(self, x, y, proj_in):
+        """This function reprojects coordinates to WGS84, the required
+        projection for vectors in folium.
+
+        Arguments:
+            x -- x coordinate (string)
+            y -- y coordinate (string)
+            proj_in -- proj4 string of location (for example, the output
+            of g.region run with the `g` flag."""
+
+        # Reformat input
+        coordinates = f"{x}, {y}"
+        # Reproject coordinates
+        coords_folium = gs.read_command(
+            "m.proj",
+            coordinates=coordinates,
+            proj_in=proj_in,
+            separator="comma",
+            flags="do",
+        )
+>>>>>>> da95805ca1 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
         # Reformat from string to array
         coords_folium = coords_folium.strip()  # Remove '\n' at end of string
         coords_folium = coords_folium.split(",")  # Split on comma
@@ -2792,6 +2887,7 @@ class InteractiveMap:
     def _folium_bounding_box(self, extent):
         """Reformats extent into bounding box to pass to folium"""
         return [[extent["north"], extent["west"]], [extent["south"], extent["east"]]]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2875,6 +2971,8 @@ class InteractiveMap:
 >>>>>>> 949d58a435 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 81ee4cdfd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
 >>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -3012,7 +3110,12 @@ class InteractiveMap:
 =======
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+>>>>>>> da95805ca1 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
 
     def add_vector(self, name):
         """Imports vector into temporary WGS84 location,
@@ -3062,6 +3165,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -3111,6 +3215,8 @@ class InteractiveMap:
 >>>>>>> 81ee4cdfd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -3455,7 +3561,15 @@ class InteractiveMap:
                          positional-only parameter
         """
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+        Arguments:
+            name -- a positional-only parameter; name of vector to be added
+            to map as a string"""
+>>>>>>> da95805ca1 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
 
         # Find full name of vector
         file_info = gs.find_file(name, element="vector")
@@ -3506,6 +3620,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -3581,6 +3696,8 @@ class InteractiveMap:
 >>>>>>> 81ee4cdfd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 6d9bf88380 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 3774f705e0 (libraster: fix Rast_legal_bandref() (#1796))
 >>>>>>> 6b7b02b03b (libraster: fix Rast_legal_bandref() (#1796))
@@ -5613,7 +5730,39 @@ class InteractiveMap:
 =======
         """This function returns a folium figure object with a GRASS raster
 >>>>>>> 03ae449941 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
 >>>>>>> 6d9bf88380 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+=======
+        # Reproject vector into WGS84 Location
+        env_info = gs.gisenv(env=os.environ)
+        gs.run_command(
+            "v.proj",
+            input=full_name,
+            location=env_info["LOCATION_NAME"],
+            dbase=env_info["GISDBASE"],
+            env=self._vector_env,
+        )
+        # Convert to GeoJSON
+        json_file = self.tmp_dir / f"tmp_{name}.json"
+        gs.run_command(
+            "v.out.ogr",
+            input=name,
+            output=json_file,
+            format="GeoJSON",
+            env=self._vector_env,
+        )
+        # Import GeoJSON to folium and add to map
+        folium.GeoJson(str(json_file), name=name).add_to(self.map)
+
+    def add_layer_control(self, **kwargs):
+        self.layer_control = True
+        self.layer_control_object = folium.LayerControl(**kwargs)
+
+    def show(self):
+        """This function creates a folium map with a GRASS raster
+>>>>>>> da95805ca1 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
         overlayed on a basemap.
 
         If map has layer control enabled, additional layers cannot be
@@ -5666,6 +5815,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         fig = self._folium.Figure(width=self.width, height=self.height)
 =======
         fig = folium.Figure(width=self.width, height=self.height)
@@ -5783,6 +5933,8 @@ class InteractiveMap:
 >>>>>>> 81ee4cdfd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 6d9bf88380 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 4d38e4070b (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -5961,11 +6113,18 @@ class InteractiveMap:
 =======
         fig = self._folium.Figure(width=self.width, height=self.height)
 >>>>>>> 03ae449941 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
 >>>>>>> 6d9bf88380 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+=======
+        fig = folium.Figure(width=self.width, height=self.height)
+>>>>>>> da95805ca1 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
         # Add map to figure
         fig.add_child(self.map)
 
         return fig
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6097,6 +6256,8 @@ class InteractiveMap:
 >>>>>>> 81ee4cdfd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
@@ -6429,4 +6590,9 @@ class InteractiveMap:
 =======
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+>>>>>>> da95805ca1 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))

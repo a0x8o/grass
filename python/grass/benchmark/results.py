@@ -4027,6 +4027,23 @@ def join_results_from_files(
                 result.label = f"{prefix}: {result.label}"
             joined.append(result)
     return joined
+<<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4f7b5aea0b (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 3627af9569 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+
+
+def join_results_from_files(source_filenames, prefixes):
+    """Join multiple files into one results object."""
+    to_merge = []
+    for result_file in source_filenames:
+        to_merge.append(load_results_from_file(result_file))
+    return join_results(to_merge, prefixes=prefixes)
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> da95805ca1 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 63045de622 (libpython: Support benchmarks of non-parallel runs better (#1733))
