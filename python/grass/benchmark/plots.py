@@ -1353,6 +1353,7 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     *results* is a list of individual results from separate benchmars.
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
@@ -1432,6 +1433,8 @@ def nprocs_plot(results, filename=None):
 =======
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 >>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> d23d575d0e (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -1490,12 +1493,18 @@ def nprocs_plot(results, filename=None):
 =======
 =======
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> aada9378f8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> 1b9dd510b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
     *results* is a list of individual results from separate benchmars.
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
     *results* is a list of individual results from separate benchmarks.
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1620,6 +1629,9 @@ def nprocs_plot(results, filename=None):
 =======
 <<<<<<< HEAD
 >>>>>>> aada9378f8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+<<<<<<< HEAD
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2228,7 +2240,12 @@ def nprocs_plot(results, filename=None):
     *results* is a list of individual results from separate benchmars.
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 1b9dd510b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
     One result is required to have attributes: *nprocs*, *times*, *label*.
     The *nprocs* attribute is a list of all processing elements
     (cores, threads, processes) used in the benchmark.
@@ -5753,6 +5770,7 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6332,7 +6350,12 @@ def nprocs_plot(results, filename=None):
 =======
 =======
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 1b9dd510b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 def num_cells_plot(results, filename=None, title=None, show_resolution=False):
     """Plot results from a multiple raster grid size benchmarks.
 
@@ -6745,6 +6768,9 @@ def num_cells_plot(results, filename=None, show_resolution=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> aada9378f8 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -6820,11 +6846,14 @@ def num_cells_plot(results, filename=None, show_resolution=False):
 =======
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+>>>>>>> 1b9dd510b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 def num_cells_plot(results, filename=None, title=None, show_resolution=False):
     """Plot results from a multiple raster grid size benchmarks.
 
     *results* is a list of individual results from separate benchmarks
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6925,6 +6954,8 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 >>>>>>> aada9378f8 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
 =======
 >>>>>>> 4d38e4070b (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -7560,7 +7591,12 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 1b9dd510b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
     with one result being similar to the :func:`nprocs_plot` function.
     The result is required to have *times* and *label* attributes
     and may have an *all_times* attribute.
@@ -7689,6 +7725,7 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7844,6 +7881,8 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
 >>>>>>> 547913387f (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -8488,7 +8527,14 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 =======
 =======
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 1b9dd510b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
     if title:
         plt.title(title)
     elif show_resolution:
@@ -8545,6 +8591,7 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8851,10 +8898,16 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1b9dd510b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9476,7 +9529,12 @@ def num_cells_plot(results, filename=None, title=None, show_resolution=False):
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 1b9dd510b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
     if filename:
         plt.savefig(filename)
     else:

@@ -97,6 +97,7 @@ DSTDIR = $(ETC)/python/grass/benchmark
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -233,6 +234,8 @@ DSTDIR = $(ETC)/python/grass/benchmark
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -750,7 +753,12 @@ MODULES = app plots results runners __main__
 =======
 =======
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 1b9dd510b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 MODULES = app plots results runners __main__
 =======
 MODULES = plots results runners
@@ -759,6 +767,7 @@ MODULES = plots results runners
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -833,6 +842,8 @@ MODULES = plots results runners
 >>>>>>> aada9378f8 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 MODULES = app plots results runners __main__
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -1360,7 +1371,15 @@ MODULES = app plots results runners __main__
 =======
 =======
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+MODULES = app plots results runners __main__
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 1b9dd510b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)

@@ -96,6 +96,7 @@ DSTDIR = $(ETC)/python/grass/jupyter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -969,7 +970,12 @@ DSTDIR = $(ETC)/python/grass/jupyter
 =======
 =======
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 1b9dd510b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 MODULES = \
 	setup \
 	map \
@@ -4117,9 +4123,24 @@ MODULES = \
 =======
 MODULES = setup display
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+=======
+MODULES = \
+	setup \
+	display \
+	interact_display
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 1b9dd510b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)

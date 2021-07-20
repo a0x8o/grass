@@ -2753,6 +2753,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2915,6 +2916,8 @@ from .setup import *
 =======
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -2933,7 +2936,12 @@ from .setup import *
 =======
 =======
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 1b9dd510b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3015,6 +3023,7 @@ from .setup import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> 33ce7dd98b (Add session initiations functions for Jupyter Notebooks (#1629))
@@ -3086,6 +3095,9 @@ from .utils import *
 =======
 <<<<<<< HEAD
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+>>>>>>> de0e6aa50e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 from .interact_display import *
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -4732,6 +4744,11 @@ from .setup import *
 >>>>>>> 5707da07bf (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 =======
+=======
+=======
+from .interact_display import *
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 1b9dd510b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
 from .display import *
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
