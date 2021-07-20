@@ -48,8 +48,11 @@ from grass.benchmark import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
+=======
+>>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
     nprocs_plot,
 =======
 <<<<<<< HEAD
@@ -131,6 +134,7 @@ from grass.benchmark import (
 =======
     nprocs_plot,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,6 +270,10 @@ from grass.benchmark import (
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
     num_cells_plot,
     save_results_to_file,
 )
@@ -307,6 +315,7 @@ class CliUsageError(ValueError):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -364,6 +373,8 @@ class CliUsageError(ValueError):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
     pass
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -390,6 +401,7 @@ class CliUsageError(ValueError):
 <<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -498,6 +510,11 @@ class CliUsageError(ValueError):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+    pass
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 
 def join_results_cli(args):
@@ -507,6 +524,7 @@ def join_results_cli(args):
             f"Number of prefixes ({len(args.prefixes)}) needs to be the same"
             f" as the number of input result files ({len(args.results)})"
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -583,6 +601,8 @@ def join_results_cli(args):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -971,6 +991,7 @@ def plot_nprocs_cli(args):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1145,6 +1166,17 @@ def plot_nprocs_cli(args):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    results = join_results_from_files(
+        source_filenames=args.results,
+        prefixes=args.prefixes,
+    )
+    save_results_to_file(results, args.output)
+
+
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
 def plot_cells_cli(args):
     """Translate CLI parser result to API calls."""
     results = load_results_from_file(args.input)
@@ -1247,6 +1279,7 @@ def add_results_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1295,6 +1328,8 @@ def add_results_subcommand(parent_subparsers):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -1822,6 +1857,7 @@ def add_plot_metric_argument(parser):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -1885,6 +1921,13 @@ def add_plot_metric_argument(parser):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    join.set_defaults(handler=join_results_cli)
+
+
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
 def add_plot_subcommand(parent_subparsers):
     """Add plot subcommand."""
     main_parser = add_subcommand_parser(
@@ -1893,6 +1936,7 @@ def add_plot_subcommand(parent_subparsers):
     main_subparsers = add_subparsers(main_parser, dest="subcommand")
 
     join = main_subparsers.add_parser("cells", help="Plot for variable number of cells")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2050,6 +2094,13 @@ def add_plot_subcommand(parent_subparsers):
     add_plot_title_argument(join)
 =======
 >>>>>>> osgeo-main
+=======
+    add_plot_io_arguments(join)
+    add_plot_title_argument(join)
+=======
+=======
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
     join.add_argument("input", help="file with results (JSON)", metavar="input_file")
     join.add_argument(
         "output", help="output file (e.g., PNG)", nargs="?", metavar="output_file"
@@ -2059,6 +2110,7 @@ def add_plot_subcommand(parent_subparsers):
         help="Title for the plot",
         metavar="text",
     )
+<<<<<<< HEAD
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2203,6 +2255,7 @@ def add_plot_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2265,6 +2318,10 @@ def add_plot_subcommand(parent_subparsers):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
     join.add_argument(
         "--resolutions",
         help="Use resolutions for x axis instead of cell count",
@@ -2272,6 +2329,7 @@ def add_plot_subcommand(parent_subparsers):
     )
     join.set_defaults(handler=plot_cells_cli)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2348,6 +2406,8 @@ def add_plot_subcommand(parent_subparsers):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -2550,6 +2610,7 @@ def add_plot_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2653,13 +2714,20 @@ def add_plot_subcommand(parent_subparsers):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 def define_arguments():
     """Define top level parser and create subparsers."""
     parser = argparse.ArgumentParser(
         description="Process results from module benchmarks.",
         prog=get_executable_name(),
+<<<<<<< HEAD
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+=======
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
     )
     subparsers = add_subparsers(parser, dest="command")
 
