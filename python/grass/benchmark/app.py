@@ -60,6 +60,7 @@ from grass.benchmark import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -88,6 +89,8 @@ from grass.benchmark import (
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 962d13bfd3 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -111,7 +114,12 @@ from grass.benchmark import (
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 962d13bfd3 (libpython: Support benchmarks of non-parallel runs better (#1733))
     nprocs_plot,
 =======
 <<<<<<< HEAD
@@ -263,6 +271,7 @@ from grass.benchmark import (
 =======
     nprocs_plot,
 =======
+<<<<<<< HEAD
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
 >>>>>>> a4624812dc (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -374,9 +383,13 @@ from grass.benchmark import (
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> osgeo-main
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
     nprocs_plot,
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
 >>>>>>> 166e88ec39 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -412,7 +425,13 @@ from grass.benchmark import (
     nprocs_plot,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 962d13bfd3 (libpython: Support benchmarks of non-parallel runs better (#1733))
     num_cells_plot,
     save_results_to_file,
 )
@@ -546,6 +565,10 @@ class CliUsageError(ValueError):
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
+=======
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 51791d82db (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -732,6 +755,13 @@ class CliUsageError(ValueError):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+    pass
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 962d13bfd3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
 >>>>>>> c2d961e4a1 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -749,9 +779,13 @@ class CliUsageError(ValueError):
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> osgeo-main
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 =======
     pass
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
 >>>>>>> 166e88ec39 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -785,7 +819,13 @@ class CliUsageError(ValueError):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 962d13bfd3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 
 def join_results_cli(args):
@@ -907,6 +947,10 @@ def join_results_cli(args):
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1023,6 +1067,7 @@ def join_results_cli(args):
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -1075,7 +1120,15 @@ def join_results_cli(args):
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 962d13bfd3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 
     def select_only(result):
         return result.label == args.only
@@ -1321,6 +1374,10 @@ def plot_nprocs_cli(args):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1497,6 +1554,7 @@ def plot_nprocs_cli(args):
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
     results = join_results_from_files(
         source_filenames=args.results,
@@ -1828,7 +1886,24 @@ def plot_nprocs_cli(args):
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+    results = join_results_from_files(
+        source_filenames=args.results,
+        prefixes=args.prefixes,
+    )
+    save_results_to_file(results, args.output)
+
+
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 962d13bfd3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 def plot_cells_cli(args):
     """Translate CLI parser result to API calls."""
     results = load_results_from_file(args.input)
@@ -2015,6 +2090,10 @@ def add_results_subcommand(parent_subparsers):
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2131,6 +2210,7 @@ def add_results_subcommand(parent_subparsers):
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -2183,7 +2263,15 @@ def add_results_subcommand(parent_subparsers):
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 962d13bfd3 (libpython: Support benchmarks of non-parallel runs better (#1733))
     join.add_argument(
         "--only",
         help="Select only results with matching label",
@@ -2251,6 +2339,7 @@ def add_plot_title_argument(parser):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2883,6 +2972,8 @@ def add_plot_metric_argument(parser):
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 def add_plot_metric_argument(parser):
     """Add metric argument to *parser*."""
     parser.add_argument(
@@ -2893,9 +2984,25 @@ def add_plot_metric_argument(parser):
     )
 
 
+<<<<<<< HEAD
 >>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+<<<<<<< HEAD
 >>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+<<<<<<< HEAD
 >>>>>>> cc3c0468f2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+=======
+=======
+    join.set_defaults(handler=join_results_cli)
+
+
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 962d13bfd3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 def add_plot_subcommand(parent_subparsers):
     """Add plot subcommand."""
     main_parser = add_subcommand_parser(
@@ -2944,6 +3051,7 @@ def add_plot_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3098,6 +3206,12 @@ def add_plot_subcommand(parent_subparsers):
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+    add_plot_io_arguments(join)
+    add_plot_title_argument(join)
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 962d13bfd3 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -3142,16 +3256,27 @@ def add_plot_subcommand(parent_subparsers):
     add_plot_io_arguments(join)
     add_plot_title_argument(join)
 =======
+<<<<<<< HEAD
 >>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
 >>>>>>> 166e88ec39 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
+>>>>>>> osgeo-main
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
     add_plot_io_arguments(join)
     add_plot_title_argument(join)
 =======
+<<<<<<< HEAD
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 962d13bfd3 (libpython: Support benchmarks of non-parallel runs better (#1733))
     join.add_argument("input", help="file with results (JSON)", metavar="input_file")
     join.add_argument(
         "output", help="output file (e.g., PNG)", nargs="?", metavar="output_file"
@@ -3409,8 +3534,11 @@ def add_plot_subcommand(parent_subparsers):
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+=======
+>>>>>>> 962d13bfd3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
     add_plot_io_arguments(join)
     add_plot_title_argument(join)
@@ -3432,6 +3560,7 @@ def add_plot_subcommand(parent_subparsers):
 >>>>>>> c2d961e4a1 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
 >>>>>>> 51791d82db (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -3470,7 +3599,15 @@ def add_plot_subcommand(parent_subparsers):
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 962d13bfd3 (libpython: Support benchmarks of non-parallel runs better (#1733))
     join.add_argument(
         "--resolutions",
         help="Use resolutions for x axis instead of cell count",
@@ -3590,6 +3727,10 @@ def add_plot_subcommand(parent_subparsers):
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3706,6 +3847,7 @@ def add_plot_subcommand(parent_subparsers):
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -3758,7 +3900,15 @@ def add_plot_subcommand(parent_subparsers):
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 962d13bfd3 (libpython: Support benchmarks of non-parallel runs better (#1733))
     nprocs = main_subparsers.add_parser(
         "nprocs", help="Plot for variable number of processing elements"
     )
@@ -3781,6 +3931,10 @@ def add_plot_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4044,6 +4198,7 @@ def add_plot_subcommand(parent_subparsers):
 >>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
+<<<<<<< HEAD
     nprocs.set_defaults(handler=plot_nprocs_cli)
 
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -4111,7 +4266,17 @@ def add_plot_subcommand(parent_subparsers):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> eda3ed4fd6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 962d13bfd3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 def define_arguments():
     """Define top level parser and create subparsers."""
