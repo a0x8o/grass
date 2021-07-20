@@ -49,6 +49,7 @@ from grass.benchmark import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -1380,13 +1381,17 @@ from grass.benchmark import (
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
     nprocs_plot,
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> bcd8260293 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a369c18ab (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -1808,6 +1813,8 @@ from grass.benchmark import (
 >>>>>>> d60db92912 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
     num_cells_plot,
     save_results_to_file,
 )
@@ -1939,6 +1946,7 @@ class CliUsageError(ValueError):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2208,6 +2216,8 @@ class CliUsageError(ValueError):
 >>>>>>> d60db92912 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -3163,13 +3173,17 @@ class CliUsageError(ValueError):
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
     pass
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> bcd8260293 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a369c18ab (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -3518,6 +3532,8 @@ class CliUsageError(ValueError):
 >>>>>>> d60db92912 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 
 def join_results_cli(args):
@@ -3645,6 +3661,7 @@ def join_results_cli(args):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3880,6 +3897,8 @@ def join_results_cli(args):
 >>>>>>> d60db92912 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -4568,6 +4587,7 @@ def join_results_cli(args):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4901,6 +4921,10 @@ def join_results_cli(args):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bcd8260293 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 
     def select_only(result):
         return result.label == args.only
@@ -5765,6 +5789,7 @@ def plot_nprocs_cli(args):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7094,6 +7119,7 @@ def plot_nprocs_cli(args):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -8053,6 +8079,19 @@ def plot_nprocs_cli(args):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    results = join_results_from_files(
+        source_filenames=args.results,
+        prefixes=args.prefixes,
+    )
+    save_results_to_file(results, args.output)
+
+
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> bcd8260293 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 def plot_cells_cli(args):
     """Translate CLI parser result to API calls."""
     results = load_results_from_file(args.input)
@@ -8245,6 +8284,7 @@ def add_results_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8480,6 +8520,8 @@ def add_results_subcommand(parent_subparsers):
 >>>>>>> d60db92912 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -9168,6 +9210,7 @@ def add_results_subcommand(parent_subparsers):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -9501,6 +9544,10 @@ def add_results_subcommand(parent_subparsers):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bcd8260293 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
     join.add_argument(
         "--only",
         help="Select only results with matching label",
@@ -9589,6 +9636,7 @@ def add_plot_title_argument(parser):
     )
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9981,6 +10029,7 @@ def add_plot_title_argument(parser):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -10189,6 +10238,10 @@ def add_plot_title_argument(parser):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bcd8260293 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 def add_plot_metric_argument(parser):
     """Add metric argument to *parser*."""
     parser.add_argument(
@@ -10222,6 +10275,7 @@ def add_plot_metric_argument(parser):
 >>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10324,6 +10378,8 @@ def add_plot_metric_argument(parser):
 >>>>>>> cb7d39cb66 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> d60db92912 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 9f045df12f (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
@@ -10636,6 +10692,7 @@ def add_plot_metric_argument(parser):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -10848,10 +10905,15 @@ def add_plot_metric_argument(parser):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bcd8260293 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
     join.set_defaults(handler=join_results_cli)
 
 
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11073,6 +11135,8 @@ def add_plot_metric_argument(parser):
 >>>>>>> cb7d39cb66 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> d60db92912 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -12656,7 +12720,13 @@ def add_plot_metric_argument(parser):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> bcd8260293 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 def add_plot_subcommand(parent_subparsers):
     """Add plot subcommand."""
     main_parser = add_subcommand_parser(
@@ -12802,6 +12872,7 @@ def add_plot_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13142,6 +13213,8 @@ def add_plot_subcommand(parent_subparsers):
 >>>>>>> d60db92912 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
 =======
@@ -13672,13 +13745,17 @@ def add_plot_subcommand(parent_subparsers):
 >>>>>>> 2a88dad128 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fb1415d5b7 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+=======
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
     add_plot_io_arguments(join)
     add_plot_title_argument(join)
 =======
 >>>>>>> bcd8260293 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a369c18ab (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -13830,6 +13907,8 @@ def add_plot_subcommand(parent_subparsers):
 >>>>>>> 7aeee7f0e9 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> cb7d39cb66 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
     join.add_argument("input", help="file with results (JSON)", metavar="input_file")
     join.add_argument(
         "output", help="output file (e.g., PNG)", nargs="?", metavar="output_file"
@@ -13867,6 +13946,7 @@ def add_plot_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c41f2eb779 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -13896,6 +13976,8 @@ def add_plot_subcommand(parent_subparsers):
 >>>>>>> dad564ed48 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 256f5d81a6 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15275,7 +15357,13 @@ def add_plot_subcommand(parent_subparsers):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> bcd8260293 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
     join.add_argument(
         "--resolutions",
         help="Use resolutions for x axis instead of cell count",
@@ -15401,6 +15489,7 @@ def add_plot_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15636,6 +15725,8 @@ def add_plot_subcommand(parent_subparsers):
 >>>>>>> d60db92912 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -16324,6 +16415,7 @@ def add_plot_subcommand(parent_subparsers):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -16657,6 +16749,10 @@ def add_plot_subcommand(parent_subparsers):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bcd8260293 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
     nprocs = main_subparsers.add_parser(
         "nprocs", help="Plot for variable number of processing elements"
     )
@@ -16709,6 +16805,7 @@ def add_plot_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -18184,7 +18281,14 @@ def add_plot_subcommand(parent_subparsers):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> bcd8260293 (libpython: Support benchmarks of non-parallel runs better (#1733))
+>>>>>>> 73a604b96c (libpython: Support benchmarks of non-parallel runs better (#1733))
 
 def define_arguments():
     """Define top level parser and create subparsers."""
