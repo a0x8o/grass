@@ -396,6 +396,7 @@ if sys.version_info.major == 3 and sys.version_info.minor < 8:
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
+<<<<<<< HEAD
 if sys.version_info.major == 3 and sys.version_info.minor < 8:
     from distutils.dir_util import copy_tree
 else:
@@ -679,15 +680,20 @@ else:
 
 =======
 >>>>>>> 3270e6468a (r.in.pdal: use fabs for double values (#1752))
+=======
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
 <<<<<<< HEAD
 if sys.version_info < (3, 8):
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> e4543c8b72 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 3270e6468a (r.in.pdal: use fabs for double values (#1752))
+=======
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
 if sys.version_info.major == 3 and sys.version_info.minor < 8:
 >>>>>>> 0f7db87b86 (r.in.pdal: use fabs for double values (#1752))
 >>>>>>> osgeo-main
@@ -1064,6 +1070,7 @@ from six.moves.urllib.parse import urlparse
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b2ab840ea4 (r.in.pdal: use fabs for double values (#1752))
@@ -1097,6 +1104,8 @@ from six.moves.urllib.parse import urlparse
 >>>>>>> 9bd9a00f13 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -1464,7 +1473,13 @@ from six.moves.urllib.parse import urlparse
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
 
 # Get the XML parsing exceptions to catch. The behavior changed with Python 2.7
 # and ElementTree 1.3.
@@ -3184,6 +3199,10 @@ def replace_shebang_win(python_file):
 
     os.remove(python_file)  # remove original
     os.rename(tmp_name, python_file)  # rename temp to original name
+=======
+HTTP_STATUS_CODES = list(http.HTTPStatus)
+GIT_URL = "https://github.com/OSGeo/grass-addons"
+>>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
 
 
 >>>>>>> 4b305e9816 (g.proj: fix reading input WKT (#1582))
@@ -3209,6 +3228,7 @@ def get_version_branch(major_version):
     if not, take branch for the previous version
     For the official repo we assume that at least one version branch is present"""
     version_branch = f"grass{major_version}"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3352,6 +3372,8 @@ def get_version_branch(major_version):
 >>>>>>> 9bd9a00f13 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -3520,7 +3542,12 @@ def get_version_branch(major_version):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
     if sys.platform == "win32":
         return version_branch
 <<<<<<< HEAD
@@ -3545,6 +3572,7 @@ def get_version_branch(major_version):
             stdout=PIPE,
             stderr=PIPE,
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3642,6 +3670,8 @@ def get_version_branch(major_version):
 >>>>>>> 9bd9a00f13 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 0cdf004d95 (r.in.pdal: use fabs for double values (#1752))
 >>>>>>> 0cbfb74ba9 (r.in.pdal: use fabs for double values (#1752))
@@ -3931,7 +3961,12 @@ def get_version_branch(major_version):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
     try:
         urlrequest.urlopen(f"{GIT_URL}/tree/{version_branch}/src")
     except URLError:
@@ -4083,6 +4118,7 @@ def download_addons_paths_file(url, response_format, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f9d61299d7 (r.in.pdal: use fabs for double values (#1752))
@@ -4187,6 +4223,8 @@ def download_addons_paths_file(url, response_format, *args, **kwargs):
 >>>>>>> 9bd9a00f13 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
 =======
 
 >>>>>>> 961d2e8d91 (r.in.pdal: use fabs for double values (#1752))
@@ -4352,7 +4390,13 @@ def download_addons_paths_file(url, response_format, *args, **kwargs):
 =======
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
     except HTTPError as err:
         if err.code == 403 and err.msg == "rate limit exceeded":
             gscript.warning(
@@ -12584,6 +12628,7 @@ def install_extension_std_platforms(name, source, url, branch):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -13066,7 +13111,12 @@ def install_extension_std_platforms(name, source, url, branch):
 =======
 =======
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
     path_to_src_code_message = _("Path to the source code:")
 =======
     source_url = "https://github.com/OSGeo/grass-addons/tree/master/grass8/"
@@ -13383,6 +13433,7 @@ def install_extension_std_platforms(name, source, url, branch):
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13817,7 +13868,13 @@ def install_extension_std_platforms(name, source, url, branch):
     source_url = "https://github.com/OSGeo/grass-addons/tree/master/grass8/"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
 
     # to hide non-error messages from subprocesses
     outdev = open(os.devnull, "w") if gs.verbosity() <= 2 else sys.stdout
@@ -15778,6 +15835,7 @@ def resolve_xmlurl_prefix(url, source=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         version_branch = get_version_branch(version[0])
 =======
 >>>>>>> 0cdf004d95 (r.in.pdal: use fabs for double values (#1752))
@@ -16067,10 +16125,13 @@ def resolve_xmlurl_prefix(url, source=None):
 >>>>>>> 0f7db87b86 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 3270e6468a (r.in.pdal: use fabs for double values (#1752))
+=======
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
         version_branch = get_version_branch(VERSION[0])
 =======
         version_branch = get_version_branch(version[0])
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16394,7 +16455,12 @@ def resolve_xmlurl_prefix(url, source=None):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
 
         url = "https://grass.osgeo.org/addons/{}/".format(version_branch)
     # else try to get extensions XMl from SVN repository (provided URL)
@@ -17483,6 +17549,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not url or url == GIT_URL:
 =======
         if not url:
@@ -17610,6 +17677,8 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> 9bd9a00f13 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 30c0a64bd6 (r.in.pdal: use fabs for double values (#1752))
 =======
@@ -17818,7 +17887,13 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 =======
         if not url or url == GIT_URL:
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        if not url:
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
             # Set URL for the given GRASS version
             git_url = f"{GIT_URL}/{svn_reference}/src/{module_class}/{name}"
             return "official", git_url
@@ -17827,6 +17902,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
             url = url.rstrip("/")
             git_url = f"{url}/{svn_reference}/src/{module_class}/{name}"
             return "official_fork", git_url
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17911,6 +17987,8 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> 9bd9a00f13 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -18278,7 +18356,13 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
 
     # Check if URL can be found
     # Catch corner case if local URL is given starting with file://
@@ -18334,6 +18418,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         message = None
 =======
 >>>>>>> f9d61299d7 (r.in.pdal: use fabs for double values (#1752))
@@ -18453,6 +18538,8 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> 9bd9a00f13 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
         message = None
 =======
 >>>>>>> 961d2e8d91 (r.in.pdal: use fabs for double values (#1752))
@@ -18620,7 +18707,12 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 =======
         message = None
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
         if url.startswith("http"):
             try:
                 open_url = urlopen(url)
@@ -18675,6 +18767,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> aaa2e34005 (r.in.pdal: use fabs for double values (#1752))
 =======
@@ -18732,6 +18825,8 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> 9bd9a00f13 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 0cdf004d95 (r.in.pdal: use fabs for double values (#1752))
 =======
@@ -19099,11 +19194,16 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
             except URLError as error:
                 message = error
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+            except URLError:
+                pass
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
         else:
             try:
                 open_url = urlopen("http://" + url)
                 open_url.close()
                 url_validated = True
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19376,7 +19476,14 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
             except URLError as error:
                 message = error
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            except URLError:
+                pass
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
             try:
                 open_url = urlopen("https://" + url)
                 open_url.close()
@@ -19442,6 +19549,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -19572,6 +19680,8 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -19831,7 +19941,12 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
             except URLError:
                 pass
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
@@ -21124,6 +21239,7 @@ def get_addons_paths(gg_addons_base_dir):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -21214,6 +21330,8 @@ def get_addons_paths(gg_addons_base_dir):
 >>>>>>> 9bd9a00f13 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -21769,7 +21887,12 @@ def get_addons_paths(gg_addons_base_dir):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
     # Define branch to fetch from (latest or current version)
     addons_branch = get_version_branch(version[0])
     url = f"https://api.github.com/repos/OSGeo/grass-addons/git/trees/{addons_branch}?recursive=1"
@@ -22310,6 +22433,7 @@ if __name__ == "__main__":
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -22380,6 +22504,8 @@ if __name__ == "__main__":
 =======
 >>>>>>> 9bd9a00f13 (r.in.pdal: use fabs for double values (#1752))
 =======
+>>>>>>> 61fdece06c (r.in.pdal: use fabs for double values (#1752))
+=======
 >>>>>>> 174a0a2c6b (r.in.pdal: use fabs for double values (#1752))
 >>>>>>> 78a52d42bb (r.in.pdal: use fabs for double values (#1752))
 =======
@@ -22409,6 +22535,11 @@ if __name__ == "__main__":
 =======
 =======
 =======
+=======
+
+    build_platform = grass_version["build_platform"].split("-", 1)[0]
+>>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 616b6d254e (r.in.pdal: use fabs for double values (#1752))
 
 <<<<<<< HEAD
     build_platform = grass_version["build_platform"].split("-", 1)[0]
