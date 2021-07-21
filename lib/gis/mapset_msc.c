@@ -19800,6 +19800,7 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -19990,6 +19991,8 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 =======
 >>>>>>> 72e8ce6804 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 460bcc93b2 (r.in.pdal: use fabs for double values (#1752))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 961d2e8d91 (r.in.pdal: use fabs for double values (#1752))
@@ -20070,6 +20073,8 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 =======
 =======
 >>>>>>> d703f39c74 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 174a0a2c6b (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -20325,6 +20330,7 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 >>>>>>> e4543c8b72 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 53e0308ffd (r.in.pdal: use fabs for double values (#1752))
+<<<<<<< HEAD
 =======
 >>>>>>> 938317f5e5 (r.in.pdal: use fabs for double values (#1752))
 =======
@@ -20351,10 +20357,13 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 =======
 >>>>>>> 671e6a355e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 018aecd8a6 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 460bcc93b2 (r.in.pdal: use fabs for double values (#1752))
     return G_make_mapset_dir_object(dir, name);
 =======
     G_make_mapset_dir_object(dir, name);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20951,6 +20960,8 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 <<<<<<< HEAD
 =======
 >>>>>>> a187971a2b (r.in.pdal: use fabs for double values (#1752))
+=======
+>>>>>>> 460bcc93b2 (r.in.pdal: use fabs for double values (#1752))
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
 >>>>>>> 671e6a355e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -21490,8 +21501,19 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
     G_make_mapset_dir_object(dir, name);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> f6958f78a7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> d703f39c74 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 72e8ce6804 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+=======
+    return G_make_mapset_dir_object(dir, name);
+>>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 53e0308ffd (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 174a0a2c6b (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 460bcc93b2 (r.in.pdal: use fabs for double values (#1752))
 }
 
 static int check_owner(const struct stat *info)
