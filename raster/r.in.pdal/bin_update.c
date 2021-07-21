@@ -82,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -226,6 +227,8 @@
 =======
 >>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> f63c120be9 (r.in.pdal: use fabs for double values (#1752))
+=======
 >>>>>>> 961d2e8d91 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -272,6 +275,7 @@
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -303,6 +307,10 @@
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f9d61299d7 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> f63c120be9 (r.in.pdal: use fabs for double values (#1752))
 #include <math.h>
 =======
 <<<<<<< HEAD
@@ -391,8 +399,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f63c120be9 (r.in.pdal: use fabs for double values (#1752))
 =======
 #include <math.h>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1433,7 +1444,12 @@
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> f9d61299d7 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> f63c120be9 (r.in.pdal: use fabs for double values (#1752))
 
 #include <grass/gis.h>
 #include <grass/raster.h>
@@ -14699,6 +14715,7 @@ void update_sum(void *sum_array, void *c_array, int cols, int row, int col,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -14871,6 +14888,8 @@ void update_sum(void *sum_array, void *c_array, int cols, int row, int col,
 =======
 >>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> f63c120be9 (r.in.pdal: use fabs for double values (#1752))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 961d2e8d91 (r.in.pdal: use fabs for double values (#1752))
@@ -14934,6 +14953,8 @@ void update_sum(void *sum_array, void *c_array, int cols, int row, int col,
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> f9d61299d7 (r.in.pdal: use fabs for double values (#1752))
     if (fabs(old_sum) >= fabs(value))
 >>>>>>> a5c9c945b5 (r.in.pdal: use fabs for double values (#1752))
 =======
@@ -14941,6 +14962,7 @@ void update_sum(void *sum_array, void *c_array, int cols, int row, int col,
 =======
     if (abs(old_sum) >= abs(value))
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15044,6 +15066,9 @@ void update_sum(void *sum_array, void *c_array, int cols, int row, int col,
     if (fabs(old_sum) >= fabs(value))
 =======
 >>>>>>> osgeo-main
+=======
+<<<<<<< HEAD
+>>>>>>> f63c120be9 (r.in.pdal: use fabs for double values (#1752))
 =======
     if (fabs(old_sum) >= fabs(value))
 =======
@@ -16251,7 +16276,15 @@ void update_sum(void *sum_array, void *c_array, int cols, int row, int col,
 =======
 =======
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+    if (fabs(old_sum) >= fabs(value))
+>>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> f9d61299d7 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> f63c120be9 (r.in.pdal: use fabs for double values (#1752))
         Rast_set_d_value(c_ptr, old_c + (old_sum - tmp) + value, map_type);
     else
         Rast_set_d_value(c_ptr, old_c + (value - tmp) + old_sum, map_type);
