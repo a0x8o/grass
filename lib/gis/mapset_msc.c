@@ -15769,6 +15769,7 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -16154,6 +16155,12 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 >>>>>>> 938317f5e5 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 961d2e8d91 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 666607eccb (r.in.pdal: use fabs for double values (#1752))
     return G_make_mapset_dir_object(dir, name);
 =======
     G_make_mapset_dir_object(dir, name);
@@ -16164,8 +16171,11 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+=======
+>>>>>>> 666607eccb (r.in.pdal: use fabs for double values (#1752))
 =======
     return G_make_mapset_dir_object(dir, name);
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
@@ -16644,6 +16654,7 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 =======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4b5e4db7d3 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -17110,6 +17121,13 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 =======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> aeb2dc26c5 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+    return G_make_mapset_dir_object(dir, name);
+>>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 961d2e8d91 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 666607eccb (r.in.pdal: use fabs for double values (#1752))
 }
 
 static int check_owner(const struct stat *info)
