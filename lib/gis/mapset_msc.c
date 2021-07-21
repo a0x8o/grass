@@ -4491,6 +4491,7 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4517,6 +4518,8 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 =======
 >>>>>>> 0545137c75 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 1ffad0fc5b (r.in.pdal: use fabs for double values (#1752))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 961d2e8d91 (r.in.pdal: use fabs for double values (#1752))
@@ -4530,7 +4533,12 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 =======
 =======
 >>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 0545137c75 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 3a69cb5ad8 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 1ffad0fc5b (r.in.pdal: use fabs for double values (#1752))
     return G_make_mapset_dir_object(dir, name);
 =======
 <<<<<<< HEAD
@@ -4607,6 +4615,7 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 >>>>>>> osgeo-main
     G_make_mapset_dir_object(dir, name);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4780,7 +4789,15 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 =======
 =======
 >>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 0545137c75 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+    return G_make_mapset_dir_object(dir, name);
+>>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 3a69cb5ad8 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 1ffad0fc5b (r.in.pdal: use fabs for double values (#1752))
 }
 
 static int check_owner(const struct stat *info)
