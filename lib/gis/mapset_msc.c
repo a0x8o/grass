@@ -6703,6 +6703,7 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6752,6 +6753,8 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 09e2da0f21 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> e5fc818f7d (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -6828,7 +6831,12 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 =======
 =======
 >>>>>>> 63c02ea43e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 09e2da0f21 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 4e28c55b49 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> e5fc818f7d (r.in.pdal: use fabs for double values (#1752))
     return G_make_mapset_dir_object(dir, name);
 =======
 <<<<<<< HEAD
@@ -6905,6 +6913,7 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 >>>>>>> osgeo-main
     G_make_mapset_dir_object(dir, name);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7188,7 +7197,15 @@ int G__make_mapset_element_misc(const char *dir, const char *name)
 =======
 =======
 >>>>>>> 63c02ea43e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 09e2da0f21 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+=======
+    return G_make_mapset_dir_object(dir, name);
+>>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> 4e28c55b49 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> e5fc818f7d (r.in.pdal: use fabs for double values (#1752))
 }
 
 static int check_owner(const struct stat *info)
