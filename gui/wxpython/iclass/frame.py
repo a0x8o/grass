@@ -3396,6 +3396,7 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3525,6 +3526,8 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 010ce4879d (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -4054,7 +4057,12 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
             if "vdigit" not in self.toolbars:
                 self.toolbars[name] = VDigitToolbar(
                     parent=self,
@@ -4076,6 +4084,7 @@ class IClassMapPanel(DoubleMapPanel):
                     ],
                 )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4459,7 +4468,13 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 =======
 >>>>>>> 83892d4f00 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> 885cbae99b (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
             self.toolbars[name] = VDigitToolbar(
                 parent=self,
                 toolSwitcher=self._toolSwitcher,
@@ -4533,6 +4548,7 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -4622,6 +4638,8 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 885cbae99b (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 010ce4879d (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 7293916d97 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> a26da7d1f7 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
@@ -5097,7 +5115,12 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
             self._mgr.AddPane(
                 self.toolbars[name],
                 wx.aui.AuiPaneInfo()

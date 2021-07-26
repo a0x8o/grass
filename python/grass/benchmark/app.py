@@ -59,6 +59,7 @@ from grass.benchmark import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -441,7 +442,12 @@ from grass.benchmark import (
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
     nprocs_plot,
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -457,6 +463,7 @@ from grass.benchmark import (
 >>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,6 +518,8 @@ from grass.benchmark import (
 >>>>>>> 885cbae99b (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
     nprocs_plot,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1010,7 +1019,12 @@ from grass.benchmark import (
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
     num_cells_plot,
     save_results_to_file,
 )
@@ -1095,6 +1109,7 @@ class CliUsageError(ValueError):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1237,6 +1252,8 @@ class CliUsageError(ValueError):
 =======
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1334,10 +1351,13 @@ class CliUsageError(ValueError):
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
     pass
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1447,6 +1467,8 @@ class CliUsageError(ValueError):
 >>>>>>> 885cbae99b (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> ea1d751118 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> fa5174ed4f (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -1955,7 +1977,12 @@ class CliUsageError(ValueError):
     pass
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 
 
 def join_results_cli(args):
@@ -2036,6 +2063,7 @@ def join_results_cli(args):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2169,6 +2197,8 @@ def join_results_cli(args):
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -2703,7 +2733,14 @@ def join_results_cli(args):
 =======
 =======
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 
     def select_only(result):
         return result.label == args.only
@@ -2722,6 +2759,7 @@ def join_results_cli(args):
     else:
         select_function = None
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3131,7 +3169,12 @@ def join_results_cli(args):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
     results = join_results_from_files(
         source_filenames=args.results,
         prefixes=args.prefixes,
@@ -4406,16 +4449,40 @@ def plot_nprocs_cli(args):
 =======
 =======
 =======
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
     results = join_results_from_files(
         source_filenames=args.results,
         prefixes=args.prefixes,
+        select=select_function,
+        prefixes_as_labels=args.re_label,
     )
+
     save_results_to_file(results, args.output)
 
 
+<<<<<<< HEAD
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+=======
+def plot_nprocs_cli(args):
+    """Translate CLI parser result to API calls."""
+    results = load_results_from_file(args.input)
+    nprocs_plot(
+        results.results,
+        filename=args.output,
+        title=args.title,
+    )
+
+
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 def plot_cells_cli(args):
     """Translate CLI parser result to API calls."""
     results = load_results_from_file(args.input)
@@ -4490,6 +4557,7 @@ def add_results_subcommand(parent_subparsers):
         nargs="*",
         metavar="text",
     )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4694,6 +4762,8 @@ def add_results_subcommand(parent_subparsers):
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -5228,7 +5298,14 @@ def add_results_subcommand(parent_subparsers):
 =======
 =======
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
     join.add_argument(
         "--only",
         help="Select only results with matching label",
@@ -5293,6 +5370,7 @@ def add_plot_title_argument(parser):
     )
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5636,7 +5714,12 @@ def add_plot_title_argument(parser):
 =======
 =======
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 def add_plot_metric_argument(parser):
     """Add metric argument to *parser*."""
     parser.add_argument(
@@ -5702,6 +5785,7 @@ def add_plot_metric_argument(parser):
 >>>>>>> osgeo-main
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6018,11 +6102,19 @@ def add_plot_metric_argument(parser):
 =======
 =======
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> 9f045df12f (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
     join.set_defaults(handler=join_results_cli)
 
 
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6183,6 +6275,8 @@ def add_plot_metric_argument(parser):
 =======
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
 >>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 947f9098cd (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -6226,11 +6320,17 @@ def add_plot_metric_argument(parser):
 =======
 =======
 >>>>>>> 83892d4f00 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> 885cbae99b (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6926,7 +7026,13 @@ def add_plot_metric_argument(parser):
 =======
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> 9f045df12f (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 def add_plot_subcommand(parent_subparsers):
     """Add plot subcommand."""
     main_parser = add_subcommand_parser(
@@ -6935,6 +7041,7 @@ def add_plot_subcommand(parent_subparsers):
     main_subparsers = add_subparsers(main_parser, dest="subcommand")
 
     join = main_subparsers.add_parser("cells", help="Plot for variable number of cells")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7248,6 +7355,8 @@ def add_plot_subcommand(parent_subparsers):
 =======
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
 =======
 =======
 >>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -7415,7 +7524,12 @@ def add_plot_subcommand(parent_subparsers):
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
     add_plot_io_arguments(join)
     add_plot_title_argument(join)
 =======
@@ -7608,6 +7722,7 @@ def add_plot_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> fc6bee21bf (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -7625,6 +7740,8 @@ def add_plot_subcommand(parent_subparsers):
 >>>>>>> b5b02a4bab (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 885cbae99b (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 <<<<<<< HEAD
 >>>>>>> 21cac8ec4f (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -7676,6 +7793,8 @@ def add_plot_subcommand(parent_subparsers):
 =======
 >>>>>>> 83892d4f00 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
     add_plot_io_arguments(join)
     add_plot_title_argument(join)
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -7686,6 +7805,7 @@ def add_plot_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fa5174ed4f (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8337,7 +8457,12 @@ def add_plot_subcommand(parent_subparsers):
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
     join.add_argument(
         "--resolutions",
         help="Use resolutions for x axis instead of cell count",
@@ -8416,6 +8541,7 @@ def add_plot_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8549,6 +8675,8 @@ def add_plot_subcommand(parent_subparsers):
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -9083,7 +9211,14 @@ def add_plot_subcommand(parent_subparsers):
 =======
 =======
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
     nprocs = main_subparsers.add_parser(
         "nprocs", help="Plot for variable number of processing elements"
     )
@@ -9135,6 +9270,7 @@ def add_plot_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -9396,10 +9532,16 @@ def add_plot_subcommand(parent_subparsers):
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9926,7 +10068,12 @@ def add_plot_subcommand(parent_subparsers):
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 479bcc2525 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 
 def define_arguments():
     """Define top level parser and create subparsers."""
