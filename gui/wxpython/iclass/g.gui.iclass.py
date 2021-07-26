@@ -205,6 +205,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -558,6 +559,8 @@ def main():
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f508af7b6f (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -2028,7 +2031,17 @@ def main():
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    from core import globalvar
+    from iclass.frame import IClassMapDisplay
+=======
+    from iclass.frame import IClassMapFrame
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 25e2ad2b00 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> f508af7b6f (wxGUI: fix layout flag assert in wms dialog (#1764))
 
     group_name = subgroup_name = map_name = trainingmap_name = None
 
@@ -2147,6 +2160,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2457,6 +2471,8 @@ def main():
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f508af7b6f (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
 >>>>>>> b4b5db6d74 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 5e89836168 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -2835,11 +2851,17 @@ def main():
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 25e2ad2b00 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> f508af7b6f (wxGUI: fix layout flag assert in wms dialog (#1764))
     frame = wx.Frame(
         parent=None,
         size=globalvar.MAP_WINDOW_SIZE,
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2885,6 +2907,8 @@ def main():
 >>>>>>> d60db92912 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> bbd5e9b440 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> f508af7b6f (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2987,11 +3011,17 @@ def main():
 =======
 =======
 >>>>>>> c1fc87d90c (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> bbd5e9b440 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> 25e2ad2b00 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> f508af7b6f (wxGUI: fix layout flag assert in wms dialog (#1764))
     frame = IClassMapFrame(
         parent=None,
         giface=None,
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3121,6 +3151,8 @@ def main():
 >>>>>>> bbd5e9b440 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f508af7b6f (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
@@ -4586,6 +4618,7 @@ def main():
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4917,6 +4950,10 @@ def main():
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 25e2ad2b00 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> f508af7b6f (wxGUI: fix layout flag assert in wms dialog (#1764))
         title=_("Supervised Classification Tool - GRASS GIS"),
     )
     frame = IClassMapDisplay(
