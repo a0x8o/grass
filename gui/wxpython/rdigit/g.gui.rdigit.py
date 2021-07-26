@@ -155,6 +155,9 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
             self.rdigit.quitDigitizer.connect(lambda: self.Close())
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -431,6 +434,9 @@ def main():
             sizer.Add(self, proportion=1, flag=wx.EXPAND)
             parent.SetSizer(sizer)
             parent.Layout()
+=======
+            self.rdigit.quitDigitizer.connect(lambda: self.Close())
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 
         def _addLayer(self, name, ltype="raster"):
             """Add layer into map

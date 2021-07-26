@@ -967,6 +967,13 @@ class IClassMapPanel(DoubleMapPanel):
         for i in self.stats_data.GetCategories():
             self.RemoveTempRaster(self.stats_data.GetStatistics(i).rasterName)
 
+<<<<<<< HEAD
+=======
+    def OnHelp(self, event):
+        """Show help page"""
+        self.giface.Help(entry="wxGUI.iclass")
+
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
     def _getTempVectorName(self):
         """Return new name for temporary vector map (training areas)"""
         vectorPath = gs.tempfile(create=False)

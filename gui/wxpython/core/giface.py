@@ -144,6 +144,10 @@ class GrassInterface:
         """Returns file-like object for writing."""
         raise NotImplementedError
 
+    def GetLog(self, err=False):
+        """Returns file-like object for writing."""
+        raise NotImplementedError()
+
     def GetLayerTree(self):
         """Returns LayerManager's tree GUI object.
         .. note::
