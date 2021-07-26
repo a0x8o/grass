@@ -131,6 +131,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -310,6 +311,8 @@ def main():
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 383842366e (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -926,7 +929,17 @@ def main():
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    from core import globalvar
+    from iclass.frame import IClassMapDisplay
+=======
+    from iclass.frame import IClassMapFrame
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 4a9fc58c09 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 383842366e (wxGUI: fix layout flag assert in wms dialog (#1764))
 
     group_name = subgroup_name = map_name = trainingmap_name = None
 
@@ -1033,6 +1046,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1174,6 +1188,8 @@ def main():
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 383842366e (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> b4b5db6d74 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 5e89836168 (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -1685,12 +1701,18 @@ def main():
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 4a9fc58c09 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 383842366e (wxGUI: fix layout flag assert in wms dialog (#1764))
     frame = wx.Frame(
         parent=None,
         size=globalvar.MAP_WINDOW_SIZE,
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1737,10 +1759,13 @@ def main():
 >>>>>>> fd058b270f (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> a7a7e73225 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 4a9fc58c09 (wxGUI: fix layout flag assert in wms dialog (#1764))
     frame = IClassMapFrame(
         parent=None,
         giface=None,
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1809,6 +1834,8 @@ def main():
 >>>>>>> 0f77eb70a6 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 383842366e (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -2191,7 +2218,12 @@ def main():
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 4a9fc58c09 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 383842366e (wxGUI: fix layout flag assert in wms dialog (#1764))
         title=_("Supervised Classification Tool - GRASS GIS"),
     )
     frame = IClassMapDisplay(
