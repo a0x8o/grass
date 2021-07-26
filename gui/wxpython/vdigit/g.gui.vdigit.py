@@ -135,6 +135,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -169,6 +170,8 @@ def main():
 =======
 >>>>>>> b661c10652 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+>>>>>>> 5bdb91a7d7 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
 >>>>>>> b0292214bb (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
 =======
 >>>>>>> ea1d751118 (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -182,7 +185,12 @@ def main():
 =======
 =======
 >>>>>>> ee77e9ab5c (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> 267c735c0f (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 5bdb91a7d7 (wxGUI: fix layout flag assert in wms dialog (#1764))
             self.toolbars["vdigit"].quitDigitizer.connect(lambda: self.Close())
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -935,12 +943,25 @@ def main():
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            self.toolbars["vdigit"].quitDigitizer.connect(lambda: self.Close())
+=======
+<<<<<<< HEAD
+            self.toolbars["vdigit"].quitDigitizer.connect(self.Close)
+=======
+            self.toolbars["vdigit"].quitDigitizer.connect(lambda: self.Close())
+<<<<<<< HEAD
+>>>>>>> 947f9098cd (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> fd058b270f (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 65fcf97c3a (wxGUI: fix layout flag assert in wms dialog (#1764))
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)
             sizer.Add(self, proportion=1, flag=wx.EXPAND)
             parent.SetSizer(sizer)
             parent.Layout()
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 
     if not haveVDigit:
         gs.fatal(_("Vector digitizer not available. %s") % errorMsg)

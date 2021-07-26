@@ -1412,6 +1412,12 @@ class MapPanel(SingleMapPanel):
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> main
+=======
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -1873,6 +1879,7 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 0f77eb70a6 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 54821cb4b4 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
@@ -1983,7 +1990,15 @@ class MapPanel(SingleMapPanel):
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 65fcf97c3a (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 5bdb91a7d7 (wxGUI: fix layout flag assert in wms dialog (#1764))
             if "map" not in self.toolbars:
                 self.toolbars["map"] = MapToolbar(
                     self, self._toolSwitcher, self._giface
@@ -2031,6 +2046,9 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 <<<<<<< HEAD
 =======
@@ -2769,15 +2787,20 @@ class MapPanel(SingleMapPanel):
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> osgeo-main
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
 =======
             self.toolbars["map"] = MapToolbar(self, self._toolSwitcher, self._giface)
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> a7a7e73225 (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
 >>>>>>> 0f77eb70a6 (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -2911,7 +2934,13 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 65fcf97c3a (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 5bdb91a7d7 (wxGUI: fix layout flag assert in wms dialog (#1764))
 
             self._mgr.AddPane(
                 self.toolbars["map"],
