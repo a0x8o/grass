@@ -33473,6 +33473,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -33708,6 +33709,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -34968,14 +34971,18 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
         Debug.msg(3, "MapPanel.OnZoomToMap()")
 =======
         Debug.msg(3, "MapFrame.OnZoomToMap()")
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -35317,6 +35324,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
         self.MapWindow.ZoomToMap(layers=None)
 
     def OnZoomToRaster(self, event):
@@ -35531,6 +35540,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -35829,6 +35839,8 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> 91926d3c70 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -36099,6 +36111,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 92dccbb571 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
     def IsStandalone(self):
         """Check if Map display is standalone
@@ -36233,6 +36247,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -36380,6 +36395,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 341119ec87 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 91926d3c70 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> ee77e9ab5c (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 267c735c0f (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -37066,12 +37083,16 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> 92dccbb571 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 26d1969f01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> da97348a02 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -37379,6 +37400,8 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> 92dccbb571 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 91926d3c70 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
     def GetMapToolbar(self):
         """Returns toolbar with zooming tools"""
 <<<<<<< HEAD
@@ -37646,6 +37669,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -37899,6 +37923,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -38671,6 +38697,7 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -38987,6 +39014,10 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
 
 
 class MapDisplay(FrameMixin, MapPanel):
@@ -39082,6 +39113,7 @@ class MapDisplay(FrameMixin, MapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -40661,4 +40693,11 @@ class MapDisplay(FrameMixin, MapPanel):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
