@@ -125,6 +125,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -138,6 +139,8 @@ def main():
 >>>>>>> 90e532a7f7 (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
 =======
 >>>>>>> 267c735c0f (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> fc6bee21bf (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> b0292214bb (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
 =======
@@ -422,9 +425,12 @@ def main():
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 19eb1e1772 (wxGUI: fix layout flag assert in wms dialog (#1764))
             self.toolbars["vdigit"].quitDigitizer.connect(self.Close)
 =======
             self.toolbars["vdigit"].quitDigitizer.connect(lambda: self.Close())
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 947f9098cd (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -620,12 +626,17 @@ def main():
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 947f9098cd (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 19eb1e1772 (wxGUI: fix layout flag assert in wms dialog (#1764))
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)
             sizer.Add(self, proportion=1, flag=wx.EXPAND)
             parent.SetSizer(sizer)
             parent.Layout()
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 
     if not haveVDigit:
         gs.fatal(_("Vector digitizer not available. %s") % errorMsg)
