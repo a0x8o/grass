@@ -156,6 +156,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -180,6 +181,8 @@ def main():
 >>>>>>> bbd5e9b440 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> f508af7b6f (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 341119ec87 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> b0292214bb (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
 =======
@@ -662,11 +665,15 @@ def main():
 <<<<<<< HEAD
 >>>>>>> 25e2ad2b00 (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 341119ec87 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
             self.rdigit.quitDigitizer.connect(lambda: self.Close())
 =======
 <<<<<<< HEAD
 >>>>>>> 83892d4f00 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 =======
             self.rdigit.quitDigitizer.connect(lambda: self.Close())
 =======
@@ -1135,9 +1142,12 @@ def main():
 >>>>>>> bbd5e9b440 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> f508af7b6f (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 341119ec87 (wxGUI: fix layout flag assert in wms dialog (#1764))
             self.rdigit.quitDigitizer.connect(self.Close)
 =======
             self.rdigit.quitDigitizer.connect(lambda: self.Close())
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1546,12 +1556,18 @@ def main():
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 947f9098cd (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> fd058b270f (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 83892d4f00 (wxGUI: fix layout flag assert in wms dialog (#1764))
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)
             sizer.Add(self, proportion=1, flag=wx.EXPAND)
             parent.SetSizer(sizer)
             parent.Layout()
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 
         def _addLayer(self, name, ltype="raster"):
             """Add layer into map
