@@ -137,6 +137,7 @@ def get_pyplot(to_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -636,6 +637,8 @@ def nprocs_plot(results, filename=None):
 =======
 >>>>>>> 980c935a7d (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 885cbae99b (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1078,9 +1081,16 @@ def nprocs_plot(results, filename=None, title=None):
 <<<<<<< HEAD
 >>>>>>> ab99037454 (libpython: Save and load benchmark results (#1711))
 =======
+=======
+>>>>>>> 83892d4f00 (wxGUI: fix layout flag assert in wms dialog (#1764))
 def nprocs_plot(results, filename=None, title=None, metric="time"):
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 9f045df12f (wxGUI: fix layout flag assert in wms dialog (#1764))
 def nprocs_plot(results, filename=None, title=None):
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
     """Plot results from a multiple nprocs (thread) benchmarks.
@@ -1937,6 +1947,7 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1984,6 +1995,8 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 980c935a7d (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 885cbae99b (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2304,11 +2317,19 @@ def nprocs_plot(results, filename=None):
 =======
 =======
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 980c935a7d (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 83892d4f00 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 885cbae99b (wxGUI: fix layout flag assert in wms dialog (#1764))
     # If there is not many x values, show ticks for each, but use default
     # ticks when there is a lot of x values.
     if len(x_ticks) < 10:
         axes.set(xticks=sorted(x_ticks))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2461,6 +2482,8 @@ def nprocs_plot(results, filename=None):
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 885cbae99b (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2738,7 +2761,12 @@ def nprocs_plot(results, filename=None):
 =======
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 83892d4f00 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 885cbae99b (wxGUI: fix layout flag assert in wms dialog (#1764))
     else:
         from matplotlib.ticker import (  # pylint: disable=import-outside-toplevel
             MaxNLocator,
@@ -4075,6 +4103,7 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4127,6 +4156,10 @@ def nprocs_plot(results, filename=None):
 =======
 >>>>>>> 25e2ad2b00 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 83892d4f00 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
     plt.xlabel("Number of processing elements (cores, threads, processes)")
     plt.ylabel("Time [s]")
     if title:
@@ -4134,6 +4167,7 @@ def nprocs_plot(results, filename=None):
     else:
         plt.title("Execution time by processing elements")
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4526,7 +4560,13 @@ def nprocs_plot(results, filename=None):
 =======
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 >>>>>>> eb42b06b22 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 980c935a7d (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 9f045df12f (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 83892d4f00 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 885cbae99b (wxGUI: fix layout flag assert in wms dialog (#1764))
     if filename:
         plt.savefig(filename)
     else:
