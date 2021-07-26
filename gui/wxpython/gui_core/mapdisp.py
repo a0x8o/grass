@@ -3585,6 +3585,7 @@ class MapPanelBase(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -3627,6 +3628,8 @@ class MapPanelBase(wx.Panel):
 >>>>>>> 4ff0c573d6 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 54529c0b40 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+>>>>>>> 12630fd17f (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
@@ -3701,6 +3704,8 @@ class MapPanelBase(wx.Panel):
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
     def ShowAllToolbars(self, show=True):
         if not show:  # hide
             action = self.RemoveToolbar
@@ -4128,6 +4133,7 @@ class MapPanelBase(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4373,7 +4379,14 @@ class MapPanelBase(wx.Panel):
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 783d161725 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> cfd421bf4a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
 >>>>>>> 2f9dd78a3c (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+=======
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 12630fd17f (wxGUI: fix layout flag assert in wms dialog (#1764))
     def OnRender(self, event):
         """Re-render map composition (each map layer)"""
         raise NotImplementedError("OnRender")

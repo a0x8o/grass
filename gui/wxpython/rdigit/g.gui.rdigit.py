@@ -175,6 +175,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -409,6 +410,8 @@ def main():
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 12630fd17f (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -534,12 +537,16 @@ def main():
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)
             sizer.Add(self, proportion=1, flag=wx.EXPAND)
             parent.SetSizer(sizer)
             parent.Layout()
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 
         def _addLayer(self, name, ltype="raster"):
             """Add layer into map

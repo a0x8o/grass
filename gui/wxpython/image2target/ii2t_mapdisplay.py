@@ -1027,6 +1027,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1098,6 +1099,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 54529c0b40 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 12630fd17f (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1316,7 +1319,12 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 12630fd17f (wxGUI: fix layout flag assert in wms dialog (#1764))
             if "map" not in self.toolbars:
                 self.toolbars["map"] = MapToolbar(
                     self, self._toolSwitcher, self._giface
@@ -1331,6 +1339,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1723,7 +1732,15 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            self.toolbars["map"] = MapToolbar(self, self._toolSwitcher, self._giface)
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 12630fd17f (wxGUI: fix layout flag assert in wms dialog (#1764))
 
             self._mgr.AddPane(
                 self.toolbars["map"],
