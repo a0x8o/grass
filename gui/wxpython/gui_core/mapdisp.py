@@ -379,6 +379,7 @@ class MapPanelBase(wx.Panel):
             if toolbar:
                 toolbar.EnableLongHelp(enable)
 
+<<<<<<< HEAD
     def ShowAllToolbars(self, show=True):
         action = self.RemoveToolbar if not show else self.AddToolbar
         for toolbar in self.GetToolbarNames():
@@ -417,6 +418,8 @@ class MapPanelBase(wx.Panel):
             return self._mgr.GetPane(name).IsShown()
         return False
 
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
     def OnRender(self, event):
         """Re-render map composition (each map layer)"""
         raise NotImplementedError("OnRender")
