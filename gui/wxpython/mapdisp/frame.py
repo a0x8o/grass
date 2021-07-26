@@ -1663,7 +1663,11 @@ class MapPanel(SingleMapPanel, MainPageBase):
         """Set display extents to match selected raster (including
         NULLs) or vector map.
         """
+<<<<<<< HEAD
         Debug.msg(3, "MapPanel.OnZoomToMap()")
+=======
+        Debug.msg(3, "MapFrame.OnZoomToMap()")
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
         self.MapWindow.ZoomToMap(layers=None)
 
     def OnZoomToRaster(self, event):
@@ -1752,6 +1756,7 @@ class MapPanel(SingleMapPanel, MainPageBase):
         self.mapWindowProperties.resolution = constrainRes
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     def IsStandalone(self):
         """Check if Map display is standalone
@@ -1789,6 +1794,8 @@ class MapPanel(SingleMapPanel, MainPageBase):
         return self._layerManager
 
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
     def GetMapToolbar(self):
         """Returns toolbar with zooming tools"""
         return self.toolbars.get("map", None)
@@ -1911,6 +1918,7 @@ class MapPanel(SingleMapPanel, MainPageBase):
         """Quit VDigit"""
         # disable the toolbar
         self.RemoveToolbar("vdigit", destroy=True)
+<<<<<<< HEAD
 
 
 class MapDisplay(FrameMixin, MapPanel):
@@ -1969,3 +1977,5 @@ class MapDisplay(FrameMixin, MapPanel):
         sizer.Add(self, proportion=1, flag=wx.EXPAND)
         parent.SetSizer(sizer)
         parent.Layout()
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
