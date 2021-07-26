@@ -223,8 +223,14 @@ class MapToolbar(BaseToolbar):
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+                    "Note that the wxGUI's vector digitizer is disabled in this installation. "
+=======
+>>>>>>> b4b5db6d74 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
+=======
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -246,12 +252,21 @@ class MapToolbar(BaseToolbar):
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> b4b5db6d74 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 5e89836168 (wxGUI: fix layout flag assert in wms dialog (#1764))
                     "Note that the wxGUI's vector digitizer is disabled in this "
                     "installation."
 =======
                     "Note that the wxGUI's vector digitizer is disabled in this installation. "
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,6 +305,8 @@ class MapToolbar(BaseToolbar):
 >>>>>>> 4ff0c573d6 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5e89836168 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
                     "Note that the wxGUI's vector digitizer is disabled in this installation. "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -409,6 +426,8 @@ class MapToolbar(BaseToolbar):
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
+>>>>>>> b4b5db6d74 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
                     "Note that the wxGUI's vector digitizer is disabled in this installation. "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -420,6 +439,7 @@ class MapToolbar(BaseToolbar):
 >>>>>>> 51791d82db (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
+<<<<<<< HEAD
 =======
                     "Note that the wxGUI's vector digitizer is disabled in this installation. "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -450,7 +470,15 @@ class MapToolbar(BaseToolbar):
                     "Note that the wxGUI's vector digitizer is disabled in this installation. "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> b4b5db6d74 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 5e89836168 (wxGUI: fix layout flag assert in wms dialog (#1764))
                     "Please keep an eye out for updated versions of GRASS. "
                     'In the meantime you can use "v.edit" for non-interactive editing '
                     "from the Develop vector map menu."
