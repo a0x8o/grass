@@ -786,6 +786,7 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
@@ -886,6 +887,8 @@ class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
 >>>>>>> ddd3218bfa (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 0f3e7ebb9c (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 8219efca34 (wxGUI: fix layout flag assert in wms dialog (#1764))
 class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
     """@implements GrassInterface"""
 =======
@@ -904,8 +907,23 @@ class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
 >>>>>>> 29d48abc97 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 866f2dbd13 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> c001cb7fb4 (wxGUI: fix layout flag assert in wms dialog (#1764))
 class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
     """@implements GrassInterface"""
+=======
+class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
+    """@implements GrassInterface"""
+
+    def __init__(self, mapframe):
+        StandaloneMapDisplayGrassInterface.__init__(self, mapframe)
+
+
+class DMonFrame(MapFrame):
+    def OnZoomToMap(self, event):
+        layers = self.MapWindow.GetMap().GetListOfLayers()
+        self.MapWindow.ZoomToMap(layers=layers)
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 
     def __init__(self, mapframe):
         StandaloneMapDisplayGrassInterface.__init__(self, mapframe)
