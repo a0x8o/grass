@@ -890,6 +890,7 @@ class MapPanelBase(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -916,6 +917,8 @@ class MapPanelBase(wx.Panel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 8c89098fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
     def ShowAllToolbars(self, show=True):
         if not show:  # hide
             action = self.RemoveToolbar
@@ -1103,6 +1106,7 @@ class MapPanelBase(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -1132,6 +1136,10 @@ class MapPanelBase(wx.Panel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 8c89098fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
     def OnRender(self, event):
         """Re-render map composition (each map layer)"""
         raise NotImplementedError("OnRender")

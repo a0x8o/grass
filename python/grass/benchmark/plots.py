@@ -46,6 +46,7 @@ def get_pyplot(to_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 def nprocs_plot(results, filename=None, title=None, metric="time"):
 =======
@@ -60,10 +61,13 @@ def nprocs_plot(results, filename=None, title=None, metric="time"):
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 8c89098fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 def nprocs_plot(results, filename=None, title=None, metric="time"):
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
@@ -94,6 +98,11 @@ def nprocs_plot(results, filename=None, title=None, metric="time"):
 >>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 9f045df12f (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 8c89098fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 def nprocs_plot(results, filename=None, title=None):
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
@@ -261,6 +270,7 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -303,10 +313,15 @@ def nprocs_plot(results, filename=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 8c89098fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
     # If there is not many x values, show ticks for each, but use default
     # ticks when there is a lot of x values.
     if len(x_ticks) < 10:
         axes.set(xticks=sorted(x_ticks))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -355,6 +370,8 @@ def nprocs_plot(results, filename=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 8c89098fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
     else:
         from matplotlib.ticker import (  # pylint: disable=import-outside-toplevel
             MaxNLocator,
@@ -414,6 +431,7 @@ def nprocs_plot(results, filename=None):
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
@@ -466,6 +484,10 @@ def nprocs_plot(results, filename=None):
 >>>>>>> osgeo-main
 =======
 =======
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8c89098fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
     plt.xlabel("Number of processing elements (cores, threads, processes)")
     plt.ylabel("Time [s]")
     if title:
@@ -473,6 +495,7 @@ def nprocs_plot(results, filename=None):
     else:
         plt.title("Execution time by processing elements")
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 9f045df12f (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
@@ -499,6 +522,9 @@ def nprocs_plot(results, filename=None):
 =======
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 >>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 9f045df12f (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 8c89098fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
     if filename:
         plt.savefig(filename)
     else:
