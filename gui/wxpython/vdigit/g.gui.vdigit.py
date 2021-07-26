@@ -106,6 +106,12 @@ def main():
             self.toolbars["vdigit"].quitDigitizer.disconnect(self.QuitVDigit)
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            self.toolbars["vdigit"].quitDigitizer.connect(lambda: self.Close())
+=======
+>>>>>>> 8feebafec2 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1066,6 +1072,9 @@ def main():
             sizer.Add(self, proportion=1, flag=wx.EXPAND)
             parent.SetSizer(sizer)
             parent.Layout()
+=======
+            self.toolbars["vdigit"].quitDigitizer.connect(lambda: self.Close())
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 
     if not haveVDigit:
         gs.fatal(_("Vector digitizer not available. %s") % errorMsg)

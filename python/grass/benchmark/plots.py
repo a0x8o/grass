@@ -169,6 +169,7 @@ def get_pyplot(to_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1879,6 +1880,8 @@ def nprocs_plot(results, filename=None):
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8feebafec2 (wxGUI: fix layout flag assert in wms dialog (#1764))
 def nprocs_plot(results, filename=None, title=None, metric="time"):
 =======
 <<<<<<< HEAD
@@ -1896,6 +1899,9 @@ def nprocs_plot(results, filename=None, title=None, metric="time"):
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 def nprocs_plot(results, filename=None, title=None):
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+=======
+def nprocs_plot(results, filename=None, title=None):
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
     """Plot results from a multiple nprocs (thread) benchmarks.
 
     *results* is a list of individual results from separate benchmarks.
@@ -5268,11 +5274,21 @@ def nprocs_plot(results, filename=None):
             maxes = [max(i) for i in result.all_times]
             plt.fill_between(x, mins, maxes, color="gray", alpha=0.3)
     plt.legend()
+<<<<<<< HEAD
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
     axes.set(xticks=sorted(x_ticks))
     plt.xlabel("Number of cores (threads, processes)")
+=======
+    # If there is not many x values, show ticks for each, but use default
+    # ticks when there is a lot of x values.
+    if len(x_ticks) < 10:
+        axes.set(xticks=sorted(x_ticks))
+    plt.xlabel("Number of processing elements (cores, threads, processes)")
+>>>>>>> 8feebafec2 (wxGUI: fix layout flag assert in wms dialog (#1764))
     plt.ylabel("Time [s]")
+<<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5377,11 +5393,15 @@ def nprocs_plot(results, filename=None):
 =======
     plt.xlabel("Number of processing elements (cores, threads, processes)")
     plt.ylabel("Time [s]")
+=======
+=======
+>>>>>>> 8feebafec2 (wxGUI: fix layout flag assert in wms dialog (#1764))
     if title:
         plt.title(title)
     else:
         plt.title("Execution time by processing elements")
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5964,6 +5984,8 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8feebafec2 (wxGUI: fix layout flag assert in wms dialog (#1764))
     if filename:
         plt.savefig(filename)
     else:

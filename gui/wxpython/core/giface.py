@@ -148,10 +148,13 @@ class GrassInterface:
         """Returns file-like object for writing."""
         raise NotImplementedError()
 
+<<<<<<< HEAD
     def GetLog(self, err=False):
         """Returns file-like object for writing."""
         raise NotImplementedError()
 
+=======
+>>>>>>> 8feebafec2 (wxGUI: fix layout flag assert in wms dialog (#1764))
     def GetLayerTree(self):
         """Returns LayerManager's tree GUI object.
         .. note::
