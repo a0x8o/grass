@@ -5742,6 +5742,7 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def join_results(results, prefixes=None):
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
@@ -5749,6 +5750,8 @@ def join_results(results, prefixes=None):
 <<<<<<< HEAD
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
 =======
+=======
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 =======
@@ -5793,7 +5796,33 @@ def join_results(results, prefixes=None):
 =======
 =======
 >>>>>>> 19eb1e1772 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> ee77e9ab5c (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 65fcf97c3a (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
 def join_results(results, prefixes=None):
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
@@ -5805,10 +5834,24 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c001cb7fb4 (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
 >>>>>>> b5d70161ed (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6236,8 +6279,16 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 def join_results(results, prefixes=None):
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 1c3c7a612a (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> 65fcf97c3a (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 6e84cf14b2 (wxGUI: fix layout flag assert in wms dialog (#1764))
     """Join multiple lists of results together
 
     The *results* argument either needs to be a list of result objects
@@ -6303,6 +6354,9 @@ def join_results(results, prefixes=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 =======
@@ -7344,8 +7398,16 @@ def join_results(results, prefixes=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 1c3c7a612a (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> 65fcf97c3a (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 6e84cf14b2 (wxGUI: fix layout flag assert in wms dialog (#1764))
             if select and not select(result):
                 continue
             result = copy.deepcopy(result)
@@ -9363,10 +9425,14 @@ def join_results_from_files(
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6e84cf14b2 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
             if select and not select(result):
                 continue
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
             result = copy.deepcopy(result)
             if prefix:
                 if prefixes_as_labels:
@@ -10646,9 +10712,14 @@ def join_results_from_files(
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 6e84cf14b2 (wxGUI: fix layout flag assert in wms dialog (#1764))
             result = copy.deepcopy(result)
             if prefix:
-                result.label = f"{prefix}: {result.label}"
+                if prefixes_as_labels:
+                    result.label = prefix
+                else:
+                    result.label = f"{prefix}: {result.label}"
             joined.append(result)
     return joined
 <<<<<<< HEAD
@@ -10665,13 +10736,33 @@ def join_results_from_files(
 =======
 
 
-def join_results_from_files(source_filenames, prefixes):
+def join_results_from_files(
+    source_filenames, prefixes=None, select=None, prefixes_as_labels=False
+):
     """Join multiple files into one results object."""
     to_merge = []
     for result_file in source_filenames:
         to_merge.append(load_results_from_file(result_file))
+<<<<<<< HEAD
     return join_results(to_merge, prefixes=prefixes)
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> d3014fcc0b (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 547913387f (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 9c4cb0749b (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+=======
+=======
+    return join_results(
+        to_merge,
+        prefixes=prefixes,
+        select=select,
+        prefixes_as_labels=prefixes_as_labels,
+    )
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 65fcf97c3a (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 6e84cf14b2 (wxGUI: fix layout flag assert in wms dialog (#1764))

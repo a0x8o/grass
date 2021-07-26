@@ -15091,6 +15091,24 @@ class MapPanelBase(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15218,6 +15236,129 @@ class MapPanelBase(wx.Panel):
 =======
 >>>>>>> 1efa7f7b91 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 65fcf97c3a (wxGUI: fix layout flag assert in wms dialog (#1764))
+    def ShowAllToolbars(self, show=True):
+        action = self.RemoveToolbar if not show else self.AddToolbar
+        for toolbar in self.GetToolbarNames():
+            action(toolbar)
+<<<<<<< HEAD
+=======
+
+    def AreAllToolbarsShown(self):
+        return self.GetMapToolbar().IsShown()
+
+    def GetToolbarNames(self):
+        """Return toolbar names"""
+        return list(self.toolbars.keys())
+
+    def AddToolbar(self):
+        """Add defined toolbar to the window"""
+        raise NotImplementedError("AddToolbar")
+
+    def RemoveToolbar(self, name, destroy=False):
+        """Removes defined toolbar from the window
+
+        :param name toolbar to remove
+        :param destroy True to destroy otherwise toolbar is only hidden
+        """
+        self._mgr.DetachPane(self.toolbars[name])
+        if destroy:
+            self._toolSwitcher.RemoveToolbarFromGroup("mouseUse", self.toolbars[name])
+            self.toolbars[name].Destroy()
+            self.toolbars.pop(name)
+        else:
+            self.toolbars[name].Hide()
+
+        self._mgr.Update()
+
+    def IsPaneShown(self, name):
+        """Check if pane (toolbar, mapWindow ...) of given name is currently shown"""
+        if self._mgr.GetPane(name).IsOk():
+            return self._mgr.GetPane(name).IsShown()
+        return False
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
+
+    def AreAllToolbarsShown(self):
+        return self.GetMapToolbar().IsShown()
+
+    def GetToolbarNames(self):
+        """Return toolbar names"""
+        return list(self.toolbars.keys())
+
+    def AddToolbar(self):
+        """Add defined toolbar to the window"""
+        raise NotImplementedError("AddToolbar")
+
+    def RemoveToolbar(self, name, destroy=False):
+        """Removes defined toolbar from the window
+
+        :param name toolbar to remove
+        :param destroy True to destroy otherwise toolbar is only hidden
+        """
+        self._mgr.DetachPane(self.toolbars[name])
+        if destroy:
+            self._toolSwitcher.RemoveToolbarFromGroup("mouseUse", self.toolbars[name])
+            self.toolbars[name].Destroy()
+            self.toolbars.pop(name)
+        else:
+            self.toolbars[name].Hide()
+
+        self._mgr.Update()
+
+    def IsPaneShown(self, name):
+        """Check if pane (toolbar, mapWindow ...) of given name is currently shown"""
+        if self._mgr.GetPane(name).IsOk():
+            return self._mgr.GetPane(name).IsShown()
+        return False
+=======
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+            if toolbar:
+                toolbar.EnableLongHelp(enable)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 524f6f69f9 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
@@ -16498,6 +16639,7 @@ class MapPanelBase(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ea1d751118 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -16506,6 +16648,8 @@ class MapPanelBase(wx.Panel):
 >>>>>>> ee77e9ab5c (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 7293916d97 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 <<<<<<< HEAD
 =======
@@ -17136,6 +17280,7 @@ class MapPanelBase(wx.Panel):
 <<<<<<< HEAD
 >>>>>>> 96abfa32e7 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -17245,14 +17390,18 @@ class MapPanelBase(wx.Panel):
 =======
 >>>>>>> 5dad4218c6 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3af5373555 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
+=======
+>>>>>>> 6e84cf14b2 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 65fcf97c3a (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
@@ -17454,6 +17603,9 @@ class MapPanelBase(wx.Panel):
 =======
 >>>>>>> 5dad4218c6 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 2e272216e8 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+>>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 6e84cf14b2 (wxGUI: fix layout flag assert in wms dialog (#1764))
     def OnRender(self, event):
         """Re-render map composition (each map layer)"""
         raise NotImplementedError("OnRender")
