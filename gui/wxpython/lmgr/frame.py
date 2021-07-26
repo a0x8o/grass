@@ -43232,6 +43232,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -43501,6 +43502,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
@@ -44387,6 +44390,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -44671,6 +44675,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6fa8764e3e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
         frame = wx.Frame(
             parent=None,
             size=globalvar.MAP_WINDOW_SIZE,
@@ -44723,6 +44731,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -45986,13 +45995,17 @@ class GMFrame(wx.Frame):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
         win = IClassMapFrame(parent=self)
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 6fa8764e3e (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0221192d22 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -46457,6 +46470,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
         win.CentreOnScreen()
 
         win.Show()

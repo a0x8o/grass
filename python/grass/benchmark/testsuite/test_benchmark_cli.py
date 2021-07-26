@@ -64,6 +64,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -835,6 +836,7 @@
 =======
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aada9378f8 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
@@ -1130,6 +1132,10 @@
 =======
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 2cf278b2b8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> 6fa8764e3e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 import sys
 from pathlib import Path
 from subprocess import DEVNULL
@@ -1894,6 +1900,7 @@ from grass.benchmark import benchmark_resolutions, save_results_to_file
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -1937,6 +1944,8 @@ from grass.benchmark import benchmark_resolutions, save_results_to_file
 >>>>>>> 99dbae4f6d (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 6e84cf14b2 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 547913387f (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 86d855a90b (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -2089,10 +2098,13 @@ from grass.benchmark import benchmark_resolutions, save_results_to_file
 =======
 >>>>>>> 65fcf97c3a (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+>>>>>>> 6fa8764e3e (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
 import sys
 from pathlib import Path
 from subprocess import DEVNULL
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2158,6 +2170,8 @@ from subprocess import DEVNULL
 >>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 3b9f6cedaf (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 import sys
 from pathlib import Path
@@ -2212,6 +2226,7 @@ from subprocess import DEVNULL
 >>>>>>> e29a7cbc33 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 6fa8764e3e (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 =======
 >>>>>>> a253ccf34e (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -2262,12 +2277,15 @@ from subprocess import DEVNULL
 =======
 >>>>>>> e29a7cbc33 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 3b9f6cedaf (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 import grass
 from grass.benchmark import (
     benchmark_nprocs,
     benchmark_resolutions,
     save_results_to_file,
 )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2334,6 +2352,8 @@ from grass.benchmark import (
 >>>>>>> 3d8b9dcee3 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 3b9f6cedaf (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3090,6 +3110,7 @@ from grass.benchmark import (
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aada9378f8 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
@@ -3450,6 +3471,11 @@ from grass.benchmark import (
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 2cf278b2b8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 6fa8764e3e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 from grass.benchmark.app import main as benchmark_main
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -3592,6 +3618,7 @@ from grass.pygrass.modules import Module
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3863,6 +3890,8 @@ from grass.pygrass.modules import Module
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2cf278b2b8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
 >>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -4755,12 +4784,16 @@ from grass.pygrass.modules import Module
 =======
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aada9378f8 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+=======
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 6fa8764e3e (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0221192d22 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -5034,6 +5067,8 @@ from grass.pygrass.modules import Module
 =======
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 2cf278b2b8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 def remove_file(path):
     """Remove filename if exists"""
     if sys.version_info < (3, 8):
@@ -5084,6 +5119,7 @@ def remove_file(path):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5580,6 +5616,7 @@ def remove_file(path):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -5732,6 +5769,10 @@ def remove_file(path):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6fa8764e3e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 class TestBenchmarkCLI(TestCase):
     """Tests that benchmarkin CLI works"""
 
@@ -6850,18 +6891,53 @@ class TestBenchmarkCLI(TestCase):
 >>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
+=======
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 class TestBenchmarkCLI(TestCase):
     """Tests that benchmarkin CLI works"""
 
-    def test_plot_workflow(self):
-        """Test that plot workflow runs"""
+    json_filename = "plot_test.json"
+    png_filename1 = "plot_test1.png"
+    png_filename2 = "plot_test2.png"
+
+    def tearDown(self):
+        """Remove test files"""
+        remove_file(self.json_filename)
+        remove_file(self.png_filename1)
+        remove_file(self.png_filename2)
+
+    def test_plot_nprocs_workflow(self):
+        """Test that plot nprocs workflow runs"""
         label = "Standard output"
         repeat = 4
+<<<<<<< HEAD
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+        # The benchmark part has only Python API, not CLI.
+        try:
+            result = benchmark_nprocs(
+                module=Module("r.univar", map="elevation", stdout_=DEVNULL, run_=False),
+                label=label,
+                repeat=repeat,
+                max_nprocs=3,
+            )
+        except grass.exceptions.ParameterError:
+            self.skipTest("r.univar without nprocs parameter")
+        save_results_to_file([result], self.json_filename)
+        benchmark_main(["plot", "nprocs", self.json_filename, self.png_filename1])
+        self.assertTrue(Path(self.png_filename1).is_file())
+
+    def test_plot_cells_workflow(self):
+        """Test that plot cells workflow runs"""
+        label = "Standard output"
+        repeat = 4
+<<<<<<< HEAD
+>>>>>>> 6fa8764e3e (wxGUI: fix layout flag assert in wms dialog (#1764))
         json_filename = "plot_test.json"
         png_filename = "plot_test.png"
         png_filename_resolutions = "plot_test_resolutions.png"
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6983,6 +7059,8 @@ class TestBenchmarkCLI(TestCase):
 =======
 =======
 >>>>>>> 2cf278b2b8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
 =======
 >>>>>>> 794ad6ec11 (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -9347,12 +9425,16 @@ class TestBenchmarkCLI(TestCase):
 =======
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aada9378f8 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+=======
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 6fa8764e3e (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0221192d22 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -9988,6 +10070,8 @@ class TestBenchmarkCLI(TestCase):
 =======
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 2cf278b2b8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
         # The benchmark part has only Python API, not CLI.
         result = benchmark_resolutions(
             module=Module("r.univar", map="elevation", stdout_=DEVNULL, run_=False),
@@ -10047,6 +10131,7 @@ class TestBenchmarkCLI(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10742,6 +10827,7 @@ class TestBenchmarkCLI(TestCase):
 =======
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aada9378f8 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
@@ -11007,6 +11093,10 @@ class TestBenchmarkCLI(TestCase):
 =======
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 2cf278b2b8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> 6fa8764e3e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
         save_results_to_file([result], self.json_filename)
         benchmark_main(["plot", "cells", self.json_filename, self.png_filenames[0]])
         self.assertTrue(Path(self.png_filenames[0]).is_file())
@@ -11577,6 +11667,7 @@ class TestBenchmarkCLI(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 256f5d81a6 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -11623,6 +11714,8 @@ class TestBenchmarkCLI(TestCase):
 >>>>>>> 3b9f6cedaf (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 2cf278b2b8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
 =======
@@ -11992,10 +12085,13 @@ class TestBenchmarkCLI(TestCase):
 =======
 >>>>>>> e29a7cbc33 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+>>>>>>> 6fa8764e3e (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
         save_results_to_file([result], self.json_filename)
         benchmark_main(["plot", "cells", self.json_filename, self.png_filename1])
         self.assertTrue(Path(self.png_filename1).is_file())
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12045,6 +12141,9 @@ class TestBenchmarkCLI(TestCase):
 =======
 <<<<<<< HEAD
 >>>>>>> 3b9f6cedaf (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+<<<<<<< HEAD
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
         benchmark_main(
             ["plot", "cells", "--resolutions", self.json_filename, self.png_filename2]
         )
@@ -13965,14 +14064,29 @@ class TestBenchmarkCLI(TestCase):
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 6fa8764e3e (wxGUI: fix layout flag assert in wms dialog (#1764))
         benchmark_main(
-            ["plot", "cells", "--resolutions", json_filename, png_filename_resolutions]
+            ["plot", "cells", "--resolutions", self.json_filename, self.png_filename2]
         )
+<<<<<<< HEAD
         self.assertTrue(Path(png_filename_resolutions).is_file())
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 2cf278b2b8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+=======
+=======
+        self.assertTrue(Path(self.png_filename2).is_file())
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 9f045df12f (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> 6fa8764e3e (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> fab0494fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
 
 
 if __name__ == "__main__":
