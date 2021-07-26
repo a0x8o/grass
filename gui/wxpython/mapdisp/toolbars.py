@@ -212,6 +212,7 @@ class MapToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "Note that the wxGUI's vector digitizer is disabled in this installation. "
 =======
 <<<<<<< HEAD
@@ -658,6 +659,8 @@ class MapToolbar(BaseToolbar):
 =======
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d60db92912 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -806,7 +809,12 @@ class MapToolbar(BaseToolbar):
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 4a9fc58c09 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> d60db92912 (wxGUI: fix layout flag assert in wms dialog (#1764))
                     "Note that the wxGUI's vector digitizer is disabled in this "
                     "installation."
 =======
@@ -899,6 +907,7 @@ class MapToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 51791d82db (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -1014,6 +1023,8 @@ class MapToolbar(BaseToolbar):
 >>>>>>> 5d165f4019 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d60db92912 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1417,6 +1428,7 @@ class MapToolbar(BaseToolbar):
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1652,6 +1664,10 @@ class MapToolbar(BaseToolbar):
 >>>>>>> 5d165f4019 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 4a9fc58c09 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> d60db92912 (wxGUI: fix layout flag assert in wms dialog (#1764))
                     "Please keep an eye out for updated versions of GRASS. "
                     'In the meantime you can use "v.edit" for non-interactive editing '
                     "from the Develop vector map menu."
