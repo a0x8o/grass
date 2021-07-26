@@ -2605,6 +2605,7 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def join_results(results, prefixes=None):
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
@@ -3070,7 +3071,17 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 def join_results(results, prefixes=None):
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
+=======
+=======
+def join_results(results, prefixes=None):
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+=======
+def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> e29a7cbc33 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> b661c10652 (wxGUI: fix layout flag assert in wms dialog (#1764))
     """Join multiple lists of results together
 
     The *results* argument either needs to be a list of result objects
@@ -3087,6 +3098,7 @@ def join_results(results, prefixes=None):
             # This is the actual list in the full results structure.
             result_list = result_list.results
         for result in result_list:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3645,7 +3657,12 @@ def join_results(results, prefixes=None):
 =======
 =======
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> e29a7cbc33 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> b661c10652 (wxGUI: fix layout flag assert in wms dialog (#1764))
             if select and not select(result):
                 continue
             result = copy.deepcopy(result)
@@ -5305,9 +5322,16 @@ def join_results_from_files(
 =======
 =======
 =======
+=======
+            if select and not select(result):
+                continue
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
             result = copy.deepcopy(result)
             if prefix:
-                result.label = f"{prefix}: {result.label}"
+                if prefixes_as_labels:
+                    result.label = prefix
+                else:
+                    result.label = f"{prefix}: {result.label}"
             joined.append(result)
     return joined
 <<<<<<< HEAD
@@ -5321,12 +5345,29 @@ def join_results_from_files(
 =======
 
 
-def join_results_from_files(source_filenames, prefixes):
+def join_results_from_files(
+    source_filenames, prefixes=None, select=None, prefixes_as_labels=False
+):
     """Join multiple files into one results object."""
     to_merge = []
     for result_file in source_filenames:
         to_merge.append(load_results_from_file(result_file))
+<<<<<<< HEAD
     return join_results(to_merge, prefixes=prefixes)
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 84a0683221 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> a5bc7458b9 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+=======
+    return join_results(
+        to_merge,
+        prefixes=prefixes,
+        select=select,
+        prefixes_as_labels=prefixes_as_labels,
+    )
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> e29a7cbc33 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> b661c10652 (wxGUI: fix layout flag assert in wms dialog (#1764))
