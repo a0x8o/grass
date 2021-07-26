@@ -3996,6 +3996,7 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def join_results(results, prefixes=None):
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
@@ -4023,7 +4024,17 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 def join_results(results, prefixes=None):
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+def join_results(results, prefixes=None):
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+=======
+def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> c001cb7fb4 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> b5d70161ed (wxGUI: fix layout flag assert in wms dialog (#1764))
     """Join multiple lists of results together
 
     The *results* argument either needs to be a list of result objects
@@ -4040,6 +4051,7 @@ def join_results(results, prefixes=None):
             # This is the actual list in the full results structure.
             result_list = result_list.results
         for result in result_list:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4210,6 +4222,8 @@ def join_results(results, prefixes=None):
 =======
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> b5d70161ed (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4347,6 +4361,7 @@ def join_results(results, prefixes=None):
 =======
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 345367a7c1 (libpython: Save and load benchmark results (#1711))
 =======
@@ -4741,6 +4756,10 @@ def join_results(results, prefixes=None):
 =======
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> c001cb7fb4 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> b5d70161ed (wxGUI: fix layout flag assert in wms dialog (#1764))
             if select and not select(result):
                 continue
             result = copy.deepcopy(result)
@@ -6824,9 +6843,16 @@ def join_results_from_files(
 =======
 =======
 =======
+=======
+            if select and not select(result):
+                continue
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
             result = copy.deepcopy(result)
             if prefix:
-                result.label = f"{prefix}: {result.label}"
+                if prefixes_as_labels:
+                    result.label = prefix
+                else:
+                    result.label = f"{prefix}: {result.label}"
             joined.append(result)
     return joined
 <<<<<<< HEAD
@@ -6840,12 +6866,29 @@ def join_results_from_files(
 =======
 
 
-def join_results_from_files(source_filenames, prefixes):
+def join_results_from_files(
+    source_filenames, prefixes=None, select=None, prefixes_as_labels=False
+):
     """Join multiple files into one results object."""
     to_merge = []
     for result_file in source_filenames:
         to_merge.append(load_results_from_file(result_file))
+<<<<<<< HEAD
     return join_results(to_merge, prefixes=prefixes)
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 170fde8596 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 7393c080aa (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+=======
+    return join_results(
+        to_merge,
+        prefixes=prefixes,
+        select=select,
+        prefixes_as_labels=prefixes_as_labels,
+    )
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> c001cb7fb4 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> b5d70161ed (wxGUI: fix layout flag assert in wms dialog (#1764))
