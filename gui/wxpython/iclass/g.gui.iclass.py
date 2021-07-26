@@ -163,6 +163,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -525,6 +526,8 @@ def main():
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
     from core import globalvar
     from iclass.frame import IClassMapDisplay
 =======
@@ -1372,7 +1375,17 @@ def main():
     from core import globalvar
     from iclass.frame import IClassMapDisplay
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    from core import globalvar
+    from iclass.frame import IClassMapDisplay
+=======
+    from iclass.frame import IClassMapFrame
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
 
     group_name = subgroup_name = map_name = trainingmap_name = None
 
@@ -1449,6 +1462,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1799,6 +1813,10 @@ def main():
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
     frame = wx.Frame(
         parent=None,
         size=globalvar.MAP_WINDOW_SIZE,
@@ -1900,6 +1918,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1942,6 +1961,8 @@ def main():
 >>>>>>> 51791d82db (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
     frame = wx.Frame(
         parent=None,
@@ -2817,6 +2838,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -3232,6 +3254,10 @@ def main():
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
         title=_("Supervised Classification Tool - GRASS GIS"),
     )
     frame = IClassMapDisplay(
