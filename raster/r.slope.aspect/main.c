@@ -112,12 +112,16 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     int Wrap; /* global wraparound */
 =======
     int Wrap;                   /* global wraparound */
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     int Wrap;                   /* global wraparound */
@@ -130,6 +134,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+    int Wrap;                   /* global wraparound */
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     struct Cell_head window, cellhd;
     struct History hist;
     struct Colors colors;
@@ -160,14 +169,20 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
 
 =======
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 =======
 
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     double dx;                  /* partial derivative in ew direction */
     double dy;                  /* partial derivative in ns direction */
     double dxx, dxy, dyy;
@@ -245,8 +260,14 @@ int main(int argc, char *argv[])
     } parm;
     struct
     {
+<<<<<<< HEAD
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         struct Flag *a, *n, *e;
     } flag;
     int compute_at_edges;
@@ -264,12 +285,15 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     G_add_keyword(_("parallel"));
     module->label = _("Generates raster maps of slope, aspect, curvatures and "
                       "partial derivatives from an elevation raster map.");
@@ -280,14 +304,18 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     module->label =
         _("Generates raster maps of slope, aspect, curvatures and "
           "partial derivatives from an elevation raster map.");
     module->description =
         _("Aspect is calculated counterclockwise from east.");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
@@ -300,6 +328,11 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
 
     parm.elevation = G_define_standard_option(G_OPT_R_ELEV);
 
@@ -346,6 +379,7 @@ int main(int argc, char *argv[])
         _("Name for output profile curvature raster map");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
@@ -358,6 +392,11 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     parm.pcurv->guisection = _("Outputs");
 
     parm.tcurv = G_define_standard_option(G_OPT_R_OUTPUT);
@@ -383,6 +422,7 @@ int main(int argc, char *argv[])
         _("Name for output first order partial derivative dx (E-W slope) raster map");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
@@ -397,6 +437,11 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     parm.dx->guisection = _("Outputs");
 
     parm.dy = G_define_standard_option(G_OPT_R_OUTPUT);
@@ -415,6 +460,7 @@ int main(int argc, char *argv[])
         _("Name for output first order partial derivative dy (N-S slope) raster map");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
@@ -429,6 +475,11 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     parm.dy->guisection = _("Outputs");
 
     parm.dxx = G_define_standard_option(G_OPT_R_OUTPUT);
@@ -467,6 +518,7 @@ int main(int argc, char *argv[])
         _("Multiplicative factor to convert elevation units to horizontal units");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
@@ -481,6 +533,11 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     parm.zfactor->type = TYPE_DOUBLE;
     parm.zfactor->required = NO;
     parm.zfactor->answer = "1.0";
@@ -524,6 +581,7 @@ int main(int argc, char *argv[])
         _("Create aspect as degrees clockwise from North (azimuth), with flat = -9999");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
@@ -538,6 +596,11 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     flag.n->description =
         _("Default: degrees counter-clockwise from East, with flat = 0");
     flag.n->guisection = _("Settings");
@@ -1685,8 +1748,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         G_fatal_error(_("%s=%s - must be a positive number"), parm.zfactor->key,
                       parm.zfactor->answer);
 =======
@@ -1694,10 +1760,14 @@ int main(int argc, char *argv[])
                       parm.zfactor->key, parm.zfactor->answer);
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
 =======
         G_fatal_error(_("%s=%s - must be a positive number"),
                       parm.zfactor->key, parm.zfactor->answer);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 =======
         G_fatal_error(_("%s=%s - must be a positive number"), parm.zfactor->key,
                       parm.zfactor->answer);
@@ -1708,6 +1778,8 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     }
 
     if (sscanf(parm.min_slope->answer, "%lf", &min_slope) != 1 ||
@@ -1758,6 +1830,7 @@ int main(int argc, char *argv[])
                       parm.dxx->key, parm.dyy->key, parm.dxy->key);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
@@ -1768,6 +1841,11 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     }
 
     G_get_window(&window);
@@ -1841,8 +1919,14 @@ int main(int argc, char *argv[])
 =======
     if (((window.west == (window.east - 360.))
          || (window.east == (window.west - 360.))) &&
+<<<<<<< HEAD
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         (G_projection() == PROJECTION_LL)) {
         Wrap = 1;
         ncols += 2;
@@ -1904,13 +1988,17 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         slp_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
         slp_raster = Rast_allocate_buf(data_type);
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         slp_raster = Rast_allocate_buf(data_type);
@@ -1925,6 +2013,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+        slp_raster = Rast_allocate_buf(data_type);
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     }
     else {
         slp_raster = NULL;
@@ -1938,13 +2031,17 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         asp_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
         asp_raster = Rast_allocate_buf(data_type);
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         asp_raster = Rast_allocate_buf(data_type);
@@ -1959,6 +2056,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+        asp_raster = Rast_allocate_buf(data_type);
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     }
     else {
         asp_raster = NULL;
@@ -1972,13 +2074,17 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         pcurv_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
         pcurv_raster = Rast_allocate_buf(data_type);
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         pcurv_raster = Rast_allocate_buf(data_type);
@@ -1993,6 +2099,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+        pcurv_raster = Rast_allocate_buf(data_type);
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     }
     else {
         pcurv_raster = NULL;
@@ -2006,13 +2117,17 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         tcurv_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
         tcurv_raster = Rast_allocate_buf(data_type);
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         tcurv_raster = Rast_allocate_buf(data_type);
@@ -2027,6 +2142,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+        tcurv_raster = Rast_allocate_buf(data_type);
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     }
     else {
         tcurv_raster = NULL;
@@ -2040,13 +2160,17 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         dx_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
         dx_raster = Rast_allocate_buf(data_type);
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         dx_raster = Rast_allocate_buf(data_type);
@@ -2061,6 +2185,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+        dx_raster = Rast_allocate_buf(data_type);
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     }
     else {
         dx_raster = NULL;
@@ -2074,13 +2203,17 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         dy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
         dy_raster = Rast_allocate_buf(data_type);
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         dy_raster = Rast_allocate_buf(data_type);
@@ -2095,6 +2228,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+        dy_raster = Rast_allocate_buf(data_type);
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     }
     else {
         dy_raster = NULL;
@@ -2108,13 +2246,17 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         dxx_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
         dxx_raster = Rast_allocate_buf(data_type);
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         dxx_raster = Rast_allocate_buf(data_type);
@@ -2129,6 +2271,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+        dxx_raster = Rast_allocate_buf(data_type);
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     }
     else {
         dxx_raster = NULL;
@@ -2142,13 +2289,17 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         dyy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
         dyy_raster = Rast_allocate_buf(data_type);
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         dyy_raster = Rast_allocate_buf(data_type);
@@ -2163,6 +2314,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+        dyy_raster = Rast_allocate_buf(data_type);
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     }
     else {
         dyy_raster = NULL;
@@ -2176,13 +2332,17 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         dxy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
         dxy_raster = Rast_allocate_buf(data_type);
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         dxy_raster = Rast_allocate_buf(data_type);
@@ -2197,6 +2357,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+        dxy_raster = Rast_allocate_buf(data_type);
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
     }
     else {
         dxy_raster = NULL;
@@ -3632,12 +3797,18 @@ int main(int argc, char *argv[])
             Rast_put_row(dxy_fd, dxy_raster, data_type);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 
     }                           /* row loop */
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
 
     }                           /* row loop */
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
@@ -3752,8 +3923,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
             Rast_set_cats_title("Aspect clockwise in degrees from north",
                                 &cats);
         else
@@ -3764,10 +3938,15 @@ int main(int argc, char *argv[])
             max_asp);
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
             Rast_set_cats_title
                 ("Aspect clockwise in degrees from north", &cats);
         else
@@ -3775,6 +3954,7 @@ int main(int argc, char *argv[])
                 ("Aspect counterclockwise in degrees from east", &cats);
         G_verbose_message(_("Min computed aspect %.4f, max computed aspect %.4f"),
                           min_asp, max_asp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
@@ -3801,6 +3981,11 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         /* the categries quant intervals are 1.0 long, plus
            we are using reverse order so that the label looked up
            for i-.5 is not the one defined for i-.5, i+.5 interval, but
@@ -3832,12 +4017,16 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
                     Rast_set_c_cat((CELL *)&i, (CELL *)&i, buf, &cats);
 =======
                     Rast_set_c_cat((CELL *) & i, (CELL *) & i, buf, &cats);
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                     Rast_set_c_cat((CELL *) & i, (CELL *) & i, buf, &cats);
@@ -3850,6 +4039,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+                    Rast_set_c_cat((CELL *) & i, (CELL *) & i, buf, &cats);
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
                     continue;
                 }
                 tmp1 = (double)i - .5;
@@ -3872,12 +4066,16 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
                 if (i == 0 || i == 360)
 =======
                 if (i == 0 && i == 360)
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 if (i == 0 && i == 360)
@@ -3890,6 +4088,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+                if (i == 0 && i == 360)
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
                     sprintf(buf, "north");
                 else if (i == 45)
                     sprintf(buf, "north-east");
@@ -3914,12 +4117,16 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
                     Rast_set_c_cat((CELL *)&i, (CELL *)&i, buf, &cats);
 =======
                     Rast_set_c_cat((CELL *) & i, (CELL *) & i, buf, &cats);
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                     Rast_set_c_cat((CELL *) & i, (CELL *) & i, buf, &cats);
@@ -3932,6 +4139,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+                    Rast_set_c_cat((CELL *) & i, (CELL *) & i, buf, &cats);
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
                     continue;
                 }
                 tmp1 = (double)i - .5;
@@ -4011,21 +4223,30 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
                Rast_quantize_fp_map_range(slope_name, G_mapset(), 0., 90., 1,
                91); else Rast_quantize_fp_map_range(slope_name, G_mapset(),
                min_slp, max_slp, (CELL) min_slp + 1, (CELL) ceil(max_slp) + 1);
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
                Rast_quantize_fp_map_range(slope_name, G_mapset(), 0., 90., 1, 91);
                else
                Rast_quantize_fp_map_range(slope_name, G_mapset(), min_slp, max_slp, 
                (CELL) min_slp + 1, (CELL) ceil(max_slp) + 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
@@ -4044,6 +4265,11 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
              */
             Rast_write_colors(slope_name, G_mapset(), &colors);
             if (deg)
@@ -4054,22 +4280,31 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
             else /* percent */
                 Rast_quantize_fp_map_range(slope_name, G_mapset(), min_slp,
                                            max_slp, (CELL)min_slp,
                                            (CELL)ceil(max_slp));
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
             else                /* percent */
                 Rast_quantize_fp_map_range(slope_name, G_mapset(), min_slp,
                                            max_slp, (CELL) min_slp,
                                            (CELL) ceil(max_slp));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
@@ -4090,6 +4325,11 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         }
 
         Rast_read_cats(slope_name, G_mapset(), &cats);
@@ -4125,8 +4365,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
             tmp1 = (DCELL)i - .5;
             tmp2 = (DCELL)i + .5;
 =======
@@ -4134,10 +4377,14 @@ int main(int argc, char *argv[])
             tmp2 = (DCELL) i + .5;
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
 =======
             tmp1 = (DCELL) i - .5;
             tmp2 = (DCELL) i + .5;
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 =======
             tmp1 = (DCELL)i - .5;
             tmp2 = (DCELL)i + .5;
@@ -4148,6 +4395,8 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
             Rast_set_d_cat(&tmp1, &tmp2, buf, &cats);
         }
         if (data_type == CELL_TYPE) {
@@ -4175,8 +4424,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         Rast_append_format_history(&hist, "zfactor = %.2f format = %s", zfactor,
                                    parm.slope_fmt->answer);
 =======
@@ -4184,10 +4436,14 @@ int main(int argc, char *argv[])
                                    zfactor, parm.slope_fmt->answer);
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
 =======
         Rast_append_format_history(&hist, "zfactor = %.2f format = %s",
                                    zfactor, parm.slope_fmt->answer);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 =======
         Rast_append_format_history(&hist, "zfactor = %.2f format = %s", zfactor,
                                    parm.slope_fmt->answer);
@@ -4198,6 +4454,8 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         Rast_append_format_history(&hist, "min_slope = %f", min_slope);
         Rast_format_history(&hist, HIST_DATSRC_1, "raster elevation file %s",
                             elev_name);
@@ -4216,8 +4474,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
             dat1 = (FCELL)c1min;
         else
             dat1 = (FCELL)c2min;
@@ -4293,6 +4554,7 @@ int main(int argc, char *argv[])
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 
+<<<<<<< HEAD
         dat2 = (FCELL)-0.01;
         Rast_add_f_color_rule(&dat1, 127, 0, 255, &dat2, 0, 0, 255, &colors);
         dat1 = dat2;
@@ -4361,6 +4623,42 @@ int main(int argc, char *argv[])
             dat2 = (FCELL)c1max;
         else
             dat2 = (FCELL)c2max;
+=======
+=======
+            dat1 = (FCELL) c1min;
+        else
+            dat1 = (FCELL) c2min;
+
+        dat2 = (FCELL) - 0.01;
+        Rast_add_f_color_rule(&dat1, 127, 0, 255, &dat2, 0, 0, 255, &colors);
+        dat1 = dat2;
+        dat2 = (FCELL) - 0.001;
+        Rast_add_f_color_rule(&dat1, 0, 0, 255, &dat2, 0, 127, 255, &colors);
+        dat1 = dat2;
+        dat2 = (FCELL) - 0.00001;
+        Rast_add_f_color_rule(&dat1, 0, 127, 255,
+                              &dat2, 0, 255, 255, &colors);
+        dat1 = dat2;
+        dat2 = (FCELL) 0.0;
+        Rast_add_f_color_rule(&dat1, 0, 255, 255,
+                              &dat2, 200, 255, 200, &colors);
+        dat1 = dat2;
+        dat2 = (FCELL) 0.00001;
+        Rast_add_f_color_rule(&dat1, 200, 255, 200,
+                              &dat2, 255, 255, 0, &colors);
+        dat1 = dat2;
+        dat2 = (FCELL) 0.001;
+        Rast_add_f_color_rule(&dat1, 255, 255, 0,
+                              &dat2, 255, 127, 0, &colors);
+        dat1 = dat2;
+        dat2 = (FCELL) 0.01;
+        Rast_add_f_color_rule(&dat1, 255, 127, 0, &dat2, 255, 0, 0, &colors);
+        dat1 = dat2;
+        if (c1max > c2max)
+            dat2 = (FCELL) c1max;
+        else
+            dat2 = (FCELL) c2max;
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
 
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
         Rast_add_f_color_rule(&dat1, 255, 0, 0, &dat2, 255, 0, 200, &colors);
@@ -4438,18 +4736,25 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         Rast_append_format_history(&hist, "E-W slope map elev = %s", elev_name);
 =======
         Rast_append_format_history(&hist, "E-W slope map elev = %s",
                                    elev_name);
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
 =======
         Rast_append_format_history(&hist, "E-W slope map elev = %s",
                                    elev_name);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 =======
         Rast_append_format_history(&hist, "E-W slope map elev = %s", elev_name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4458,6 +4763,8 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         Rast_append_format_history(&hist, "zfactor = %.2f", zfactor);
         Rast_append_format_history(&hist, "min_slope = %f", min_slope);
         Rast_format_history(&hist, HIST_DATSRC_1, "raster elevation file %s",
@@ -4486,18 +4793,25 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         Rast_append_format_history(&hist, "N-S slope map elev = %s", elev_name);
 =======
         Rast_append_format_history(&hist, "N-S slope map elev = %s",
                                    elev_name);
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
 =======
         Rast_append_format_history(&hist, "N-S slope map elev = %s",
                                    elev_name);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 =======
         Rast_append_format_history(&hist, "N-S slope map elev = %s", elev_name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4506,6 +4820,8 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
         Rast_append_format_history(&hist, "zfactor = %.2f", zfactor);
         Rast_append_format_history(&hist, "min_slope = %f", min_slope);
         Rast_format_history(&hist, HIST_DATSRC_1, "raster elevation file %s",
