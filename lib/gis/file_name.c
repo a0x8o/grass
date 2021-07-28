@@ -84,6 +84,7 @@ static void append_char(char *, char);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -355,6 +356,8 @@ static void append_char(char *, char);
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 54418965c6 (Improve G_open|find _misc function documentation (#1760))
+=======
 >>>>>>> a12132efd9 (Improve G_open|find _misc function documentation (#1760))
 >>>>>>> 37d32904d9 (Improve G_open|find _misc function documentation (#1760))
 =======
@@ -526,10 +529,13 @@ static void append_char(char *, char);
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5b1a121e4b (Improve G_open|find _misc function documentation (#1760))
    If <i>name</i> is of the form "nnn@ppp" then path is set as if name
    had been "nnn" and mapset had been "ppp" (mapset parameter itself is
    ignored in this case).
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -896,6 +902,9 @@ static void append_char(char *, char);
 =======
 <<<<<<< HEAD
 >>>>>>> b340b436b9 (Improve G_open|find _misc function documentation (#1760))
+=======
+<<<<<<< HEAD
+>>>>>>> 54418965c6 (Improve G_open|find _misc function documentation (#1760))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1709,12 +1718,16 @@ static void append_char(char *, char);
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 54418965c6 (Improve G_open|find _misc function documentation (#1760))
 =======
   If <i>name</i> is of the form "nnn@ppp" then path is set as if name
   had been "nnn" and mapset had been "ppp" (mapset parameter itself is
   ignored in this case).
+<<<<<<< HEAD
 =======
    If <i>name</i> is of the form "nnn@ppp" then path is set as if name
    had been "nnn" and mapset had been "ppp" (mapset parameter itself is
@@ -2674,11 +2687,39 @@ static void append_char(char *, char);
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> d9ea5124d9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+
+  Paths to files are currently in form:
+  /path/to/location/mapset/element/name
+
+  path input buffer memory must be allocated by caller.
+
+  C:
+  @code{.c}
+  char path[GPATH_MAX];
+  G_file_name(path, "fcell", "my_raster", "my_mapset");
+  // path now is "/full/path/to/my_mapset/fcell/my_raster"
+  @endcode
+  Python:
+  @code{.py}
+  import ctypes
+  from grass.pygrass.utils import decode
+  from grass.lib.gis import G_file_name, GPATH_MAX
+
+  path = ctypes.create_string_buffer(GPATH_MAX)
+  path_str = decode(G_file_name(path, "elem", "name", "mapset"))
+  print(path_str)
+  >>> /full/path/to/mapset/elem/name
+  @endcode
+
+>>>>>>> 5b1a121e4b (Improve G_open|find _misc function documentation (#1760))
+>>>>>>> 54418965c6 (Improve G_open|find _misc function documentation (#1760))
   \param[out] path allocated buffer to hold resultant full path to file
   \param element database element (eg, "cell", "cellhd", "vector", etc)
   \param name name of file to build path to (fully qualified names allowed)
   \param mapset mapset name
 >>>>>>> 6dd43833fd (Improve G_open|find _misc function documentation (#1760))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2907,6 +2948,8 @@ static void append_char(char *, char);
 >>>>>>> 6acc4586c3 (Improve G_open|find _misc function documentation (#1760))
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 54418965c6 (Improve G_open|find _misc function documentation (#1760))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -3321,6 +3364,7 @@ static void append_char(char *, char);
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3541,6 +3585,10 @@ static void append_char(char *, char);
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5b1a121e4b (Improve G_open|find _misc function documentation (#1760))
+>>>>>>> 54418965c6 (Improve G_open|find _misc function documentation (#1760))
 
    Paths to files are currently in form:
    /path/to/location/mapset/element/name
@@ -4778,6 +4826,7 @@ char *G_file_name(char *path, const char *element, const char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5010,6 +5059,8 @@ char *G_file_name(char *path, const char *element, const char *name,
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 54418965c6 (Improve G_open|find _misc function documentation (#1760))
+=======
 >>>>>>> fe6c05cdfc (Improve G_open|find _misc function documentation (#1760))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -5129,6 +5180,7 @@ char *G_file_name(char *path, const char *element, const char *name,
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5278,6 +5330,10 @@ char *G_file_name(char *path, const char *element, const char *name,
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5b1a121e4b (Improve G_open|find _misc function documentation (#1760))
+>>>>>>> 54418965c6 (Improve G_open|find _misc function documentation (#1760))
    Paths to misc files are currently in form:
    /path/to/location/mapset/dir/name/element
 =======
@@ -5386,6 +5442,7 @@ char *G_file_name(char *path, const char *element, const char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 83b8fc7df9 (Improve G_open|find _misc function documentation (#1760))
 =======
@@ -5394,6 +5451,8 @@ char *G_file_name(char *path, const char *element, const char *name,
 >>>>>>> b340b436b9 (Improve G_open|find _misc function documentation (#1760))
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 54418965c6 (Improve G_open|find _misc function documentation (#1760))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7029,13 +7088,40 @@ char *G_file_name(char *path, const char *element, const char *name,
 <<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> d9ea5124d9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+
+  path input buffer memory must be allocated by caller.
+
+  C:
+  @code{.c}
+  char path[GPATH_MAX];
+  G_file_name_misc(path, "cell_misc", "history", "my_raster", "my_mapset");
+  // path now contains "/full/path/to/my_mapset/cell_misc/my_raster/history"
+  @endcode
+  Python:
+  @code{.py}
+  import ctypes
+  from grass.pygrass.utils import decode
+  from grass.lib.gis import G_file_name_misc, GPATH_MAX
+
+  path = ctypes.create_string_buffer(GPATH_MAX)
+  path_str = decode(G_file_name_misc(path, "dir", "elem", "name", "mapset"))
+  print(path_str)
+  >>> /full/path/to/mapset/dir/name/elem
+  @endcode
+
+>>>>>>> 5b1a121e4b (Improve G_open|find _misc function documentation (#1760))
+>>>>>>> 54418965c6 (Improve G_open|find _misc function documentation (#1760))
   \param[out] path allocated buffer to hold resultant full path to file
   \param dir misc directory (e.g., "cell_misc", "group")
   \param element database element (in this case – file to build path to e.g., "history", "REF")
   \param name name of object (raster, group; fully qualified names allowed e.g., "my_raster@PERMANENT")
   \param mapset mapset name
 >>>>>>> 6dd43833fd (Improve G_open|find _misc function documentation (#1760))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7264,6 +7350,8 @@ char *G_file_name(char *path, const char *element, const char *name,
 >>>>>>> 6acc4586c3 (Improve G_open|find _misc function documentation (#1760))
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 54418965c6 (Improve G_open|find _misc function documentation (#1760))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -7675,6 +7763,7 @@ char *G_file_name(char *path, const char *element, const char *name,
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -7895,6 +7984,10 @@ char *G_file_name(char *path, const char *element, const char *name,
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5b1a121e4b (Improve G_open|find _misc function documentation (#1760))
+>>>>>>> 54418965c6 (Improve G_open|find _misc function documentation (#1760))
 
    path input buffer memory must be allocated by caller.
 
