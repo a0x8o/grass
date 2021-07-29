@@ -2703,6 +2703,7 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2895,6 +2896,8 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
 >>>>>>> cfd421bf4a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 96263f4797 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
@@ -3057,7 +3060,12 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             sb.SbDisplayGeometry,
             sb.SbMapScale,
             sb.SbGoTo,
@@ -3092,10 +3100,13 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 693b38ddef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> 008d590ac9 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -3724,6 +3735,7 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 7293916d97 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a26da7d1f7 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 =======
@@ -3855,6 +3867,10 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 7293916d97 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 5d1e09a03c (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+=======
+>>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             sb.SbShowRegion,
             sb.SbAlignExtent,
             sb.SbResolution,
@@ -3887,6 +3903,10 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
+=======
 >>>>>>> 085d58c6be (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> 5c7bce671b (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
@@ -5133,7 +5153,13 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
         ]
         self.statusbar = self.CreateStatusbar(statusbarItems)
         self._addPanes()
@@ -5324,6 +5350,7 @@ class IClassMapPanel(DoubleMapPanel):
             )
 
         if name == "vdigit":
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5631,6 +5658,8 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9e87022bce (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -6191,12 +6220,16 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 19eb1e1772 (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fc6bee21bf (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+=======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 =======
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 38efcb69af (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
@@ -6548,6 +6581,8 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 19eb1e1772 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 9e87022bce (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             if "vdigit" not in self.toolbars:
                 self.toolbars[name] = VDigitToolbar(
                     parent=self,
@@ -6594,6 +6629,9 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7308,6 +7346,7 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -7423,6 +7462,8 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 5bdb91a7d7 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 9e87022bce (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> 7293916d97 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> a26da7d1f7 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
@@ -7909,12 +7950,16 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 19eb1e1772 (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fc6bee21bf (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+=======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 =======
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 38efcb69af (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
@@ -8266,6 +8311,8 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 19eb1e1772 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 9e87022bce (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             self._mgr.AddPane(
                 self.toolbars[name],
                 wx.aui.AuiPaneInfo()

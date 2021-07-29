@@ -160,6 +160,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -352,6 +353,8 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
 >>>>>>> cfd421bf4a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 96263f4797 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
@@ -514,7 +517,12 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             sb.SbDisplayGeometry,
             sb.SbMapScale,
             sb.SbGoTo,
@@ -549,10 +557,13 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 693b38ddef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> 008d590ac9 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1181,6 +1192,7 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 7293916d97 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a26da7d1f7 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 =======
@@ -1312,6 +1324,10 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 7293916d97 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 5d1e09a03c (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+=======
+>>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             sb.SbShowRegion,
             sb.SbAlignExtent,
             sb.SbResolution,
@@ -1344,6 +1360,10 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
+=======
 >>>>>>> 085d58c6be (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> 5c7bce671b (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
@@ -2590,7 +2610,13 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
         ]
         self.statusbar = self.CreateStatusbar(statusbarItems)
 
@@ -7271,6 +7297,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .BestSize((self.toolbars["swipeMain"].GetBestSize())),
 =======
 <<<<<<< HEAD
@@ -7701,6 +7728,8 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7809,7 +7838,12 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
                 .BestSize(self.toolbars["swipeMain"].GetBestSize()),
 =======
                 .BestSize((self.toolbars["swipeMain"].GetBestSize())),
@@ -7893,6 +7927,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b6fd7f4778 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
@@ -7992,6 +8027,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> 5d1e09a03c (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -8323,6 +8360,7 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -8586,6 +8624,10 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             )
 
         if name == "swipeMap":
@@ -8691,6 +8733,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .BestSize((self.toolbars["swipeMap"].GetBestSize())),
 =======
 <<<<<<< HEAD
@@ -9121,6 +9164,8 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9229,7 +9274,12 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
                 .BestSize(self.toolbars["swipeMap"].GetBestSize()),
 =======
                 .BestSize((self.toolbars["swipeMap"].GetBestSize())),
@@ -9313,6 +9363,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b6fd7f4778 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
@@ -9412,6 +9463,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> 5d1e09a03c (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -9743,6 +9796,7 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -10006,6 +10060,10 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             )
 
         if name == "swipeMisc":
@@ -10111,6 +10169,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .BestSize((self.toolbars["swipeMisc"].GetBestSize())),
 =======
 <<<<<<< HEAD
@@ -10541,6 +10600,8 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10649,7 +10710,12 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
                 .BestSize(self.toolbars["swipeMisc"].GetBestSize()),
 =======
                 .BestSize((self.toolbars["swipeMisc"].GetBestSize())),
@@ -10733,6 +10799,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b6fd7f4778 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
@@ -10832,6 +10899,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> 5d1e09a03c (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -11163,6 +11232,7 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -11426,6 +11496,10 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f40bbc0cdf (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 55a99755a2 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             )
 
     def _addPanes(self):
