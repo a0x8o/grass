@@ -36,6 +36,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import shutil
 =======
 <<<<<<< HEAD
@@ -73,6 +74,8 @@ import shutil
 >>>>>>> osgeo-main
 =======
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> b88da686d1 (jupyter: Add `__getattr__` shortcut for calling GRASS display modules (#1723))
 from pathlib import Path
 =======
 import shutil
@@ -104,6 +107,7 @@ from IPython.display import Image
 >>>>>>> osgeo-main
 import tempfile
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d7075af684 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -225,6 +229,11 @@ import tempfile
 import tempfile
 >>>>>>> osgeo-main
 =======
+=======
+=======
+import shutil
+>>>>>>> 686e3354a5 (jupyter: Add `__getattr__` shortcut for calling GRASS display modules (#1723))
+>>>>>>> b88da686d1 (jupyter: Add `__getattr__` shortcut for calling GRASS display modules (#1723))
 from pathlib import Path
 from IPython.display import Image
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -253,9 +262,12 @@ class GrassRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> b88da686d1 (jupyter: Add `__getattr__` shortcut for calling GRASS display modules (#1723))
     """GrassRenderer creates and displays GRASS maps in
     Jupyter Notebooks.
 
@@ -276,6 +288,7 @@ class GrassRenderer:
     >>> m.d_legend(raster="elevation")
     >>> m.show()
     """
+<<<<<<< HEAD
 =======
     """The grassRenderer class creates and displays GRASS maps in
     Jupyter Notebooks."""
@@ -336,6 +349,8 @@ class GrassRenderer:
     """The grassRenderer class creates and displays GRASS maps in
     Jupyter Notebooks."""
 >>>>>>> osgeo-main
+=======
+>>>>>>> b88da686d1 (jupyter: Add `__getattr__` shortcut for calling GRASS display modules (#1723))
 
     def __init__(
 <<<<<<< HEAD
@@ -647,7 +662,15 @@ class GrassRenderer:
 =======
         self, env=None, width=600, height=400, filename="map.png", text_size=12
     ):
-        """Initiates an instance of the GrassRenderer class."""
+        """Creates an instance of the GrassRenderer class.
+
+        :param int height: height of map in pixels
+        :param int width: width of map in pixels
+        :param str filename: filename or path to save a PNG of map
+        :param str env: environment
+        :param int text_size: default text size, overwritten by most display modules
+        :param renderer: GRASS renderer driver (options: cairo, png, ps, html)
+        """
 
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
@@ -971,7 +994,7 @@ class GrassRenderer:
 
         self._env["GRASS_RENDER_WIDTH"] = str(width)
         self._env["GRASS_RENDER_HEIGHT"] = str(height)
-        self._env["GRASS_TEXT_SIZE"] = str(text_size)
+        self._env["GRASS_RENDER_TEXT_SIZE"] = str(text_size)
         self._env["GRASS_RENDER_IMMEDIATE"] = "cairo"
         self._env["GRASS_RENDER_FILE"] = str(filename)
         self._env["GRASS_RENDER_FILE_READ"] = "TRUE"
@@ -1064,9 +1087,12 @@ class GrassRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> b88da686d1 (jupyter: Add `__getattr__` shortcut for calling GRASS display modules (#1723))
     def __getattr__(self, name):
         """Parse attribute to GRASS display module. Attribute should be in
         the form 'd_module_name'. For example, 'd.rast' is called with 'd_rast'.
@@ -1087,6 +1113,7 @@ class GrassRenderer:
 
         return wrapper
 
+<<<<<<< HEAD
     def show(self):
         """Displays a PNG image of the map"""
         from IPython.display import Image
@@ -1124,7 +1151,10 @@ class GrassRenderer:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> b88da686d1 (jupyter: Add `__getattr__` shortcut for calling GRASS display modules (#1723))
     def show(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         """Displays a PNG image of the map (non-interactive)"""
@@ -1241,5 +1271,11 @@ class GrassRenderer:
 =======
         """Displays a PNG image of the map (non-interactive)"""
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+        """Displays a PNG image of the map"""
+>>>>>>> 686e3354a5 (jupyter: Add `__getattr__` shortcut for calling GRASS display modules (#1723))
+>>>>>>> b88da686d1 (jupyter: Add `__getattr__` shortcut for calling GRASS display modules (#1723))
         return Image(self._filename)
