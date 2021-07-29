@@ -122,6 +122,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -175,10 +176,13 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 44cee187ef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             sb.SbDisplayGeometry,
             sb.SbMapScale,
             sb.SbGoTo,
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,6 +245,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 44cee187ef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             sb.SbShowRegion,
             sb.SbAlignExtent,
             sb.SbResolution,
@@ -249,6 +255,7 @@ class SwipeMapPanel(DoubleMapPanel):
             sb.SbGoTo,
             sb.SbProjection,
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -423,6 +430,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 44cee187ef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
         ]
         self.statusbar = self.CreateStatusbar(statusbarItems)
 
@@ -1233,6 +1242,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .BestSize((self.toolbars["swipeMain"].GetBestSize())),
 =======
 <<<<<<< HEAD
@@ -1279,6 +1289,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 44cee187ef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
                 .BestSize(self.toolbars["swipeMain"].GetBestSize()),
 =======
                 .BestSize((self.toolbars["swipeMain"].GetBestSize())),
@@ -1299,6 +1311,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 .BestSize((self.toolbars["swipeMain"].GetBestSize())),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1392,6 +1405,8 @@ class SwipeMapPanel(DoubleMapPanel):
                 .BestSize((self.toolbars["swipeMain"].GetBestSize())),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 44cee187ef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             )
 
         if name == "swipeMap":
@@ -1432,6 +1447,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .BestSize((self.toolbars["swipeMap"].GetBestSize())),
 =======
 <<<<<<< HEAD
@@ -1478,6 +1494,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 44cee187ef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
                 .BestSize(self.toolbars["swipeMap"].GetBestSize()),
 =======
                 .BestSize((self.toolbars["swipeMap"].GetBestSize())),
@@ -1498,6 +1516,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 .BestSize((self.toolbars["swipeMap"].GetBestSize())),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1591,6 +1610,8 @@ class SwipeMapPanel(DoubleMapPanel):
                 .BestSize((self.toolbars["swipeMap"].GetBestSize())),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 44cee187ef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             )
 
         if name == "swipeMisc":
@@ -1631,6 +1652,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .BestSize((self.toolbars["swipeMisc"].GetBestSize())),
 =======
 <<<<<<< HEAD
@@ -1677,6 +1699,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 44cee187ef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
                 .BestSize(self.toolbars["swipeMisc"].GetBestSize()),
 =======
                 .BestSize((self.toolbars["swipeMisc"].GetBestSize())),
@@ -1697,6 +1721,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 .BestSize((self.toolbars["swipeMisc"].GetBestSize())),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1790,6 +1815,8 @@ class SwipeMapPanel(DoubleMapPanel):
                 .BestSize((self.toolbars["swipeMisc"].GetBestSize())),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 44cee187ef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             )
 
     def _addPanes(self):

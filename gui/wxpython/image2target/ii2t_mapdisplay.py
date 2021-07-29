@@ -305,6 +305,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,6 +353,12 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> osgeo-main
 =======
+=======
+=======
+
+        self.statusbarManager.SetMode(8)  # goto GCP
+>>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 44cee187ef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 
 <<<<<<< HEAD
         self.statusbarManager.SetMode(8)  # goto GCP
@@ -649,6 +656,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -771,6 +779,10 @@ class MapPanel(SingleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 65fcf97c3a (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 44cee187ef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             if "map" not in self.toolbars:
                 self.toolbars["map"] = MapToolbar(
                     self, self._toolSwitcher, self._giface
@@ -798,6 +810,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -958,6 +971,13 @@ class MapPanel(SingleMapPanel):
             self.toolbars["map"] = MapToolbar(self, self._toolSwitcher, self._giface)
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 65fcf97c3a (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+            self.toolbars["map"] = MapToolbar(self, self._toolSwitcher, self._giface)
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 44cee187ef (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 
             self._mgr.AddPane(
                 self.toolbars["map"],
