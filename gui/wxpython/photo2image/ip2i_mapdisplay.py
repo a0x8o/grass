@@ -217,6 +217,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -431,6 +432,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> de2caeece8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 23bbd2adf3 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 =======
 <<<<<<< HEAD
@@ -1269,13 +1272,17 @@ class MapPanel(SingleMapPanel):
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 23bbd2adf3 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 =======
         self.statusbarManager.SetMode(8)  # goto GCP
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 54821cb4b4 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8f67182ef7 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
@@ -1719,6 +1726,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> de2caeece8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 23bbd2adf3 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 
         #
         # Init map display (buffered DC & set default cursor)
@@ -1959,6 +1968,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2184,6 +2194,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d165f4019 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 23bbd2adf3 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -2830,6 +2842,7 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> a7a7e73225 (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0f77eb70a6 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
@@ -3166,6 +3179,12 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> a7a7e73225 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 5d165f4019 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+=======
+>>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 54821cb4b4 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 23bbd2adf3 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
             if "map" not in self.toolbars:
                 self.toolbars["map"] = MapToolbar(
                     self, self._toolSwitcher, self._giface
@@ -3193,6 +3212,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3739,10 +3759,13 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 54821cb4b4 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
             self.toolbars["map"] = MapToolbar(self, self._toolSwitcher, self._giface)
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3800,6 +3823,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 8675d58247 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 23bbd2adf3 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -4673,7 +4698,12 @@ class MapPanel(SingleMapPanel):
             self.toolbars["map"] = MapToolbar(self, self._toolSwitcher, self._giface)
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> a7a7e73225 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> 5d165f4019 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> 54821cb4b4 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+>>>>>>> 23bbd2adf3 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 
             self._mgr.AddPane(
                 self.toolbars["map"],
