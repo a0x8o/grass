@@ -80,6 +80,7 @@ from pathlib import Path
 =======
 import shutil
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 from IPython.display import Image
 =======
@@ -237,7 +238,14 @@ import shutil
 from pathlib import Path
 from IPython.display import Image
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+from IPython.display import Image
+import tempfile
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> 7310acc566 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 import grass.script as gs
 
 
@@ -354,6 +362,9 @@ class GrassRenderer:
 
     def __init__(
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         self,
         height=400,
         width=600,
@@ -361,6 +372,7 @@ class GrassRenderer:
         env=None,
         text_size=12,
         renderer="cairo",
+<<<<<<< HEAD
     ):
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -661,7 +673,10 @@ class GrassRenderer:
 =======
 =======
         self, env=None, width=600, height=400, filename="map.png", text_size=12
+=======
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
     ):
+
         """Creates an instance of the GrassRenderer class.
 
         :param int height: height of map in pixels
@@ -672,12 +687,20 @@ class GrassRenderer:
         :param renderer: GRASS renderer driver (options: cairo, png, ps, html)
         """
 
+<<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+        # Copy Environment
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> 7310acc566 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         if env:
             self._env = env.copy()
         else:
             self._env = os.environ.copy()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -732,6 +755,8 @@ class GrassRenderer:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 7310acc566 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         # Environment Settings
         self._env["GRASS_RENDER_WIDTH"] = str(width)
         self._env["GRASS_RENDER_HEIGHT"] = str(height)
@@ -992,17 +1017,38 @@ class GrassRenderer:
 =======
 =======
 
+=======
+        # Environment Settings
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         self._env["GRASS_RENDER_WIDTH"] = str(width)
         self._env["GRASS_RENDER_HEIGHT"] = str(height)
         self._env["GRASS_RENDER_TEXT_SIZE"] = str(text_size)
-        self._env["GRASS_RENDER_IMMEDIATE"] = "cairo"
-        self._env["GRASS_RENDER_FILE"] = str(filename)
+        self._env["GRASS_RENDER_IMMEDIATE"] = renderer
         self._env["GRASS_RENDER_FILE_READ"] = "TRUE"
 
-        self._legend_file = Path(filename).with_suffix(".grass_vector_legend")
+        # Create PNG file for map
+        # If not user-supplied, we will write it to a map.png in a
+        # temporary directory that we can delete later. We need
+        # this temporary directory for the legend anyways so we'll
+        # make it now
+        self._tmpdir = tempfile.TemporaryDirectory()
+
+        if filename:
+            self._filename = filename
+        else:
+            self._filename = os.path.join(self._tmpdir.name, "map.png")
+        # Set environment var for file
+        self._env["GRASS_RENDER_FILE"] = self._filename
+
+        # Create Temporary Legend File
+        self._legend_file = os.path.join(self._tmpdir.name, "legend.txt")
         self._env["GRASS_LEGEND_FILE"] = str(self._legend_file)
 
+<<<<<<< HEAD
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+>>>>>>> 7310acc566 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         self._filename = filename
 
         self.run("d.erase")
@@ -1058,7 +1104,12 @@ class GrassRenderer:
 >>>>>>> osgeo-main
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> 7310acc566 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
     def run(self, module, **kwargs):
         """Run modules from "d." GRASS library"""
         # Check module is from display library then run
