@@ -1539,6 +1539,7 @@ from lmgr.pyshell import PyShellWindow
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1707,6 +1708,8 @@ from lmgr.pyshell import PyShellWindow
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -2592,7 +2595,14 @@ from lmgr.giface import LayerManagerGrassInterface
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+from lmgr.giface import LayerManagerGrassInterface
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 from lmgr.giface import (
     LayerManagerGrassInterface,
     LayerManagerGrassInterfaceForMapDisplay,
@@ -2620,6 +2630,7 @@ from lmgr.giface import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -3136,6 +3147,7 @@ from datacatalog.catalog import DataCatalog
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3356,6 +3368,11 @@ from datacatalog.catalog import DataCatalog
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 from mapdisp.frame import MapPanel
 from datacatalog.catalog import DataCatalog
 from history.browser import HistoryBrowser
@@ -10116,8 +10133,8 @@ class GMFrame(wx.Frame):
 >>>>>>> f4f8e0d593 (Add Binder badge/button to readme (#1628))
 =======
         size = wx.Display().GetGeometry().GetSize()
-        self.PANE_BEST_SIZE = tuple(t / 5 for t in size)
-        self.PANE_MIN_SIZE = tuple(t / 10 for t in size)
+        self.PANE_BEST_SIZE = tuple(t / 3 for t in size)
+        self.PANE_MIN_SIZE = tuple(t / 7 for t in size)
 
         # create widgets and build panes
         self.CreateMenuBar()
@@ -13191,6 +13208,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8e6cd350bf (Add Binder badge/button to readme (#1628))
 =======
@@ -14561,7 +14579,12 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> cc1e106d6d (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 >>>>>>> cb00d9fb41 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
     def SetStatusText(self, *args):
         """Override SbMain statusbar method"""
         self.statusbar.SetStatusText(*args)
@@ -14769,6 +14792,9 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> fcb86551a0 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -16450,6 +16476,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -16786,6 +16813,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
     def _createMapNotebook(self):
         """Create Map Display notebook"""
         # create the notebook off-window to avoid flicker
@@ -16800,6 +16831,7 @@ class GMFrame(wx.Frame):
             wx.Size(430, 200),
             agwStyle=notebook_style,
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17049,6 +17081,8 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -19004,7 +19038,15 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> cc1e106d6d (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 >>>>>>> cb00d9fb41 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+=======
+        self.mapnotebook.SetArtProvider(aui.AuiDefaultTabArt())
+
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
     def _createDataCatalog(self, parent):
         """Initialize Data Catalog widget"""
         self.datacatalog = DataCatalog(parent=parent, giface=self._giface)
@@ -19308,6 +19350,7 @@ class GMFrame(wx.Frame):
         else:
             self.pyshell = None
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19751,6 +19794,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 7c76b7f7c0 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> cb00d9fb41 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -20577,12 +20622,16 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> cc1e106d6d (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 69f4f3d862 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 46ba5034eb (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -21012,6 +21061,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> cc1e106d6d (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 >>>>>>> cb00d9fb41 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
     def OnNewDisplay(self, event=None):
         """Create new layer tree and map display window instance"""
         self.NewDisplay()
@@ -21031,6 +21082,7 @@ class GMFrame(wx.Frame):
         self.pg_panel = wx.Panel(
             self.notebookLayers, id=wx.ID_ANY, style=wx.BORDER_NONE
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21685,6 +21737,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -22014,6 +22067,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         # create display toolbar
         dmgrToolbar = DisplayPanelToolbar(guiparent=self.pg_panel, parent=self)
 
@@ -22499,6 +22556,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -22668,6 +22726,8 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -23800,7 +23860,16 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        self.notebookLayers.AddPage(page=self.pg_panel, text=name, select=True)
+        self.currentPage = self.notebookLayers.GetCurrentPage()
+        self.currentPageNum = self.notebookLayers.GetSelection()
+
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         def CreateNewMapDisplay(layertree):
             """Callback function which creates a new Map Display window
             :param layertree: layer tree object
@@ -23911,6 +23980,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 397f650647 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -24000,6 +24070,8 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -24498,6 +24570,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -24721,6 +24794,11 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
                 id=wx.ID_ANY,
                 tree=layertree,
                 lmgr=self,
@@ -24807,6 +24885,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -24979,6 +25058,8 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -25682,15 +25763,19 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> osgeo-main
 >>>>>>> a883fdb8f6 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
                 dockable=True,
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 <<<<<<< HEAD
@@ -25932,6 +26017,9 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
                 title=name,
                 size=globalvar.MAP_WINDOW_SIZE,
             )
@@ -26030,6 +26118,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c148a03408 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -26047,6 +26136,8 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 =======
 >>>>>>> db3907dcb5 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -27495,7 +27586,17 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            self.mainnotebook.AddPage(mapdisplay, name)
+=======
+            self.mapnotebook.AddPage(mapdisplay, name)
+            self.mapnotebook.SetSelection(self.currentPageNum)
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 
             # set map display properties
             self._setUpMapDisplay(mapdisplay)
@@ -27524,6 +27625,7 @@ class GMFrame(wx.Frame):
 
         # layout for controls
         cb_boxsizer = wx.BoxSizer(wx.VERTICAL)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28885,13 +28987,17 @@ class GMFrame(wx.Frame):
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
         cb_boxsizer.Add(dmgrToolbar, proportion=0, flag=wx.EXPAND)
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 46ba5034eb (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -29321,11 +29427,14 @@ class GMFrame(wx.Frame):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         cb_boxsizer.Add(self.GetLayerTree(), proportion=1, flag=wx.EXPAND, border=1)
         self.currentPage.SetSizer(cb_boxsizer)
         cb_boxsizer.Fit(self.GetLayerTree())
         self.currentPage.Layout()
         self.GetLayerTree().Layout()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29591,6 +29700,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -29772,6 +29883,7 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -30014,6 +30126,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         # Repaint Layers pane map display toolbar widget on the wxMac
         self._repaintLayersPaneMapDisplayToolbar()
 =======
@@ -30107,6 +30223,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a7de541b7b (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -30228,6 +30345,8 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 56dc956a16 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> ff6453d3a3 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -30602,6 +30721,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -30833,6 +30953,10 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 
         self.displayIndex += 1
 
@@ -30962,6 +31086,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -31197,6 +31322,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -31885,6 +32012,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -32222,6 +32350,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
             """Callback to check if user wants to close display. Map
             Display index can be different from index in Display tab.
 
@@ -34608,6 +34740,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -34777,6 +34910,8 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -35703,6 +35838,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -36037,6 +36173,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
             caption = _("Close Map Display {}").format(name)
             if not askIfSaveWorkspace or (
                 askIfSaveWorkspace and self.workspace_manager.CanClosePage(caption)
@@ -36173,6 +36313,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -36400,6 +36541,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -36658,6 +36801,7 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -37071,6 +37215,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
                 return pgnum_dict
             return None
 
@@ -37170,6 +37318,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a7de541b7b (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -37291,6 +37440,8 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 56dc956a16 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> ff6453d3a3 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -37692,6 +37843,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -37920,11 +38072,16 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
             return None
 
         mapdisplay.canCloseDisplayCallback = CanCloseDisplay
 
         # bind various events
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38131,6 +38288,8 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 41d412ce2a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> b983b20647 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -38381,6 +38540,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 602a59f3d1 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7f669bb817 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 =======
@@ -38577,10 +38737,15 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 602a59f3d1 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> 41d412ce2a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         mapdisplay.Bind(
             wx.EVT_ACTIVATE,
             lambda event, page=self.currentPage: self._onMapDisplayFocus(page),
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38826,6 +38991,8 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 41d412ce2a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 861dec1bf2 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> f9daf13560 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -40261,7 +40428,12 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         )
 
         mapdisplay.starting3dMode.connect(
@@ -40365,6 +40537,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         mapdisplay.closingDisplay.connect(self._closePageNoEvent)
 =======
 <<<<<<< HEAD
@@ -40561,6 +40734,8 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -41378,7 +41553,15 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        mapdisplay.closingDisplay.connect(self._closePageNoEvent)
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 
         # set default properties
         mapdisplay.SetProperties(
@@ -41480,6 +41663,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -41663,6 +41847,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -41844,6 +42030,7 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -42086,6 +42273,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 
     def BuildPanes(self):
         """Build panes - toolbars as well as panels"""
@@ -52602,17 +52793,19 @@ class GMFrame(wx.Frame):
         """Set up Map Display"""
         # blank panel for testing
         self.mapdisplay = wx.Panel(parent=parent)
+=======
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 
     def BuildPanes(self):
         """Build panes - toolbars as well as panels"""
 
         # initialize all main widgets
+        self._createMapNotebook()
         self._createDataCatalog(parent=self)
         self._createDisplay(parent=self)
         self._createSearchModule(parent=self)
         self._createConsole(parent=self)
         self._createPythonShell(parent=self)
-        self._createMapDisplay(parent=self)
         self.toolbars = {
             "workspace": LMWorkspaceToolbar(parent=self),
             "tools": LMToolsToolbar(parent=self),
@@ -52654,8 +52847,8 @@ class GMFrame(wx.Frame):
             )
 
         self._auimgr.AddPane(
-            self.mapdisplay,
-            aui.AuiPaneInfo().Name("map display").CenterPane().PaneBorder(True),
+            self.mapnotebook,
+            aui.AuiPaneInfo().Name("map display content").CenterPane().PaneBorder(True),
         )
 
         self._auimgr.AddPane(
@@ -56745,6 +56938,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -57150,6 +57344,9 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 
         self._auimgr.GetPane("nviz").Show()
         self._auimgr.Update()
@@ -57229,6 +57426,7 @@ class GMFrame(wx.Frame):
         self._auimgr.GetPane("nviz").Show()
         self._auimgr.Update()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57410,6 +57608,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -57571,6 +57770,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 93d436eafe (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 
         self._auimgr.GetPane("nviz").Show()
         self._auimgr.Update()
@@ -58170,6 +58373,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -58217,6 +58421,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 93d436eafe (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58356,6 +58562,7 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c326142eac (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -58451,6 +58658,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 
         if hasattr(self.currentPage, "maptree") and self.mainnotebook.GetCurrentPage():
             self.mainnotebook.SetSelectionToMainPage(self.GetMapDisplay())
@@ -58498,6 +58709,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -58545,6 +58757,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 93d436eafe (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58683,6 +58897,7 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c326142eac (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -58778,6 +58993,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         try:
             self.mapnotebook.SetSelection(self.GetMapDisplayIndex())
         except Exception:
@@ -58826,6 +59045,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -58892,6 +59112,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58935,6 +59157,9 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 
         event.Skip()
 
@@ -60651,6 +60876,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.mapnotebook.DeletePage(self.GetMapDisplayIndex())
 =======
 <<<<<<< HEAD
@@ -61109,6 +61335,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -61267,7 +61495,12 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         self.mainnotebook.DeleteMainPage(self.GetMapDisplay())
 =======
         self.mapnotebook.DeletePage(self.GetMapDisplayIndex())
@@ -61361,6 +61594,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a7de541b7b (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -61480,6 +61714,8 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -61913,6 +62149,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -62149,12 +62386,17 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         maptree.Close(True)
 
         self.currentPage = None
 
         event.Skip()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62519,6 +62761,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -62776,6 +63020,7 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -63191,12 +63436,17 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
     def _renamePageNoEvent(self, pgnum_dict, is_docked, text):
         if is_docked:
             self.mainnotebook.SetMainPageText(
                 self.mainnotebook.GetPage(pgnum_dict["mainnotebook"]), text
             )
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63246,6 +63496,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -63279,6 +63531,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 1dc35c6f9a (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -63330,12 +63583,17 @@ class GMFrame(wx.Frame):
 >>>>>>> 93d436eafe (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
     def _closePageNoEvent(self, page_index):
         """Close page and destroy map display without
         generating notebook page closing event"""
         self.notebookLayers.Unbind(FN.EVT_FLATNOTEBOOK_PAGE_CLOSING)
         self.notebookLayers.DeletePage(page_index)
         self.notebookLayers.Bind(FN.EVT_FLATNOTEBOOK_PAGE_CLOSING, self.OnCBPageClosing)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63395,6 +63653,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 93d436eafe (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         self.mapnotebook.DeletePage(page_index)
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 <<<<<<< HEAD
@@ -65005,7 +65265,14 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        self.mapnotebook.DeletePage(page_index)
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 
     def _closePageNoEvent(self, pgnum_dict, is_docked):
         """If map display is docked, close page and destroy map display without
@@ -67095,6 +67362,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -67117,6 +67385,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 93d436eafe (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -67151,6 +67421,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 1dc35c6f9a (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -67206,11 +67477,16 @@ class GMFrame(wx.Frame):
 >>>>>>> 93d436eafe (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
     def GetMapDisplayIndex(self):
         """Get the index of the currently active map display tab.
         Can be different than index of related layertree."""
         return self.mapnotebook.GetPageIndex(self.GetMapDisplay())
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67267,6 +67543,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 93d436eafe (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
@@ -67308,6 +67586,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -67364,6 +67643,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 93d436eafe (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
     def GetLogWindow(self):
         """Gets console for command output and messages"""
         return self._gconsole
@@ -68328,6 +68611,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.mapnotebook.SetPageText(page_idx=self.GetMapDisplayIndex(), text=name)
 =======
 <<<<<<< HEAD
@@ -68786,6 +69070,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -68944,11 +69230,17 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
             self.mainnotebook.SetMainPageText(page=self.GetMapDisplay(), text=name)
 =======
             self.mapnotebook.SetPageText(page_idx=self.GetMapDisplayIndex(), text=name)
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69157,6 +69449,8 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -69600,6 +69894,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -69832,6 +70127,10 @@ class GMFrame(wx.Frame):
 >>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2126e07d57 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> df9f44f8e2 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         dlg.Destroy()
 
     def OnRasterRules(self, event):
