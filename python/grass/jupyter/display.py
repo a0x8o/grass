@@ -32,6 +32,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 import shutil
@@ -1324,8 +1325,14 @@ import tempfile
 >>>>>>> a094b1adaf (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 =======
+=======
+>>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 from pathlib import Path
+=======
+import shutil
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 from IPython.display import Image
+<<<<<<< HEAD
 >>>>>>> 4f7b5aea0b (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> 969385adae (libpython: Save and load benchmark results (#1711))
@@ -1340,7 +1347,13 @@ import tempfile
 from pathlib import Path
 from IPython.display import Image
 >>>>>>> 6d0d0f1535 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> d86c47b865 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+import tempfile
+>>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 import grass.script as gs
 
 
@@ -2871,6 +2884,7 @@ class GrassRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6ccfc6c568 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -2903,6 +2917,8 @@ class GrassRenderer:
 >>>>>>> be3c74c20a (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> 1dc35c6f9a (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         self,
         height=400,
         width=600,
@@ -2910,6 +2926,7 @@ class GrassRenderer:
         env=None,
         text_size=12,
         renderer="cairo",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3312,15 +3329,38 @@ class GrassRenderer:
 =======
 =======
         self, env=None, width=600, height=400, filename="map.png", text_size=12
+=======
+>>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
     ):
+<<<<<<< HEAD
         """Initiates an instance of the GrassRenderer class."""
+=======
 
+<<<<<<< HEAD
 >>>>>>> 6d0d0f1535 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> d86c47b865 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+        """Creates an instance of the GrassRenderer class.
+
+        :param int height: height of map in pixels
+        :param int width: width of map in pixels
+        :param str filename: filename or path to save a PNG of map
+        :param str env: environment
+        :param int text_size: default text size, overwritten by most display modules
+        :param renderer: GRASS renderer driver (options: cairo, png, ps, html)
+        """
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+
+        # Copy Environment
+>>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         if env:
             self._env = env.copy()
         else:
             self._env = os.environ.copy()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3551,6 +3591,8 @@ class GrassRenderer:
 >>>>>>> 93d436eafe (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> d86c47b865 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> ea09951b82 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> 51c2c65241 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -5416,16 +5458,40 @@ class GrassRenderer:
 =======
 =======
 
+=======
+        # Environment Settings
+>>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         self._env["GRASS_RENDER_WIDTH"] = str(width)
         self._env["GRASS_RENDER_HEIGHT"] = str(height)
+<<<<<<< HEAD
         self._env["GRASS_TEXT_SIZE"] = str(text_size)
         self._env["GRASS_RENDER_IMMEDIATE"] = "cairo"
         self._env["GRASS_RENDER_FILE"] = str(filename)
+=======
+        self._env["GRASS_RENDER_TEXT_SIZE"] = str(text_size)
+        self._env["GRASS_RENDER_IMMEDIATE"] = renderer
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         self._env["GRASS_RENDER_FILE_READ"] = "TRUE"
 
-        self._legend_file = Path(filename).with_suffix(".grass_vector_legend")
+        # Create PNG file for map
+        # If not user-supplied, we will write it to a map.png in a
+        # temporary directory that we can delete later. We need
+        # this temporary directory for the legend anyways so we'll
+        # make it now
+        self._tmpdir = tempfile.TemporaryDirectory()
+
+        if filename:
+            self._filename = filename
+        else:
+            self._filename = os.path.join(self._tmpdir.name, "map.png")
+        # Set environment var for file
+        self._env["GRASS_RENDER_FILE"] = self._filename
+
+        # Create Temporary Legend File
+        self._legend_file = os.path.join(self._tmpdir.name, "legend.txt")
         self._env["GRASS_LEGEND_FILE"] = str(self._legend_file)
 
+<<<<<<< HEAD
 >>>>>>> 6d0d0f1535 (libpython: Save and load benchmark results (#1711))
 >>>>>>> d86c47b865 (libpython: Save and load benchmark results (#1711))
         self._filename = filename
@@ -5768,6 +5834,7 @@ class GrassRenderer:
 =======
 >>>>>>> 6d0d0f1535 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1ae4cefc3 (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -5992,6 +6059,10 @@ class GrassRenderer:
 =======
 >>>>>>> 6d0d0f1535 (libpython: Save and load benchmark results (#1711))
 >>>>>>> d86c47b865 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 4bce14c842 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+>>>>>>> e54c387168 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
     def run(self, module, **kwargs):
         """Run modules from "d." GRASS library"""
         # Check module is from display library then run
