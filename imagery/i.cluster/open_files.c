@@ -37,6 +37,7 @@ int open_files(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -53,6 +54,10 @@ int open_files(void)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
     char *name, *mapset, **err, *semantic_label;
 =======
 <<<<<<< HEAD
@@ -129,6 +134,7 @@ int open_files(void)
 >>>>>>> osgeo-main
     char *name, *mapset, **err, *bandref;
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 =======
     char *name, *mapset, **err, *semantic_label;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -273,7 +279,12 @@ int open_files(void)
 =======
     char *name, *mapset, **err, *semantic_label;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
     FILE *fd;
     int n, missing;
 
@@ -312,6 +323,7 @@ int open_files(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -326,10 +338,13 @@ int open_files(void)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
@@ -429,6 +444,10 @@ int open_files(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
     semantic_labels = (char **)G_malloc(ref.nfiles * sizeof(char **));
     missing = 0;
     for (n = 0; n < ref.nfiles; n++) {
@@ -442,6 +461,7 @@ int open_files(void)
         semantic_label = Rast_get_semantic_label_or_name(ref.file[n].name,
                                                          ref.file[n].mapset);
         semantic_labels[n] = G_store(semantic_label);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -526,6 +546,8 @@ int open_files(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
 =======
     bandrefs = (char **)G_malloc(ref.nfiles * sizeof(char **));
 =======
@@ -669,13 +691,30 @@ int open_files(void)
         }
 <<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+    bandrefs = (char **)G_malloc(ref.nfiles * sizeof(char **));
+    missing = 0;
+    for (n = 0; n < ref.nfiles; n++) {
+	name = ref.file[n].name;
+	mapset = ref.file[n].mapset;
+	if (G_find_raster(name, mapset) == NULL) {
+	    missing = 1;
+	    G_warning(_("Raster map <%s> do not exists in subgroup <%s>"),
+		      G_fully_qualified_name(name, mapset), subgroup);
+        }
+>>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
         bandref = Rast_read_bandref(ref.file[n].name, ref.file[n].mapset);
         if (!bandref)
             G_fatal_error(_("Raster map <%s@%s> lacks band reference"),
                             ref.file[n].name, ref.file[n].mapset);
         bandrefs[n] = G_store(bandref);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -876,7 +915,13 @@ int open_files(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
     }
     if (missing)
         G_fatal_error(_("No raster maps found"));
@@ -932,6 +977,7 @@ int open_files(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -986,6 +1032,8 @@ int open_files(void)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1088,7 +1136,12 @@ int open_files(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
         fd = I_fopen_signature_file_old(insigfile);
         if (fd == NULL)
             G_fatal_error(_("Unable to open seed signature file <%s>"),
@@ -1122,6 +1175,7 @@ int open_files(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
@@ -1213,11 +1267,20 @@ int open_files(void)
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
 	fd = I_fopen_signature_file_old(insigfile);
 	if (fd == NULL)
 	    G_fatal_error(_("Unable to open seed signature file <%s>"),
 			  insigfile);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1269,6 +1332,8 @@ int open_files(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1371,7 +1436,12 @@ int open_files(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
 
         n = I_read_signatures(fd, &in_sig);
         fclose(fd);
@@ -1413,6 +1483,7 @@ int open_files(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1427,10 +1498,13 @@ int open_files(void)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
@@ -1530,6 +1604,10 @@ int open_files(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
         err = I_sort_signatures_by_semantic_label(&in_sig, &ref);
         if (err)
             G_fatal_error(
@@ -1562,6 +1640,9 @@ int open_files(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1825,7 +1906,24 @@ int open_files(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        err = I_sort_signatures_by_bandref(&in_sig, &ref);
+        if (err)
+            G_fatal_error(_("Signature – group member band reference mismatch.\n"
+                "Extra signatures for bands: %s\n"
+                "Imagery group bands without signatures: %s"),
+                err[0] ? err[0] : _("none"),
+                err[1] ? err[1] : _("none")
+            );
+
+	maxclass = in_sig.nsigs;
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
     }
 
     return 0;

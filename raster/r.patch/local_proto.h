@@ -162,6 +162,7 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -221,6 +222,11 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 =======
 <<<<<<< HEAD
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
 
 void merge_threads(struct Cell_stats **, int, int);
 =======
@@ -245,6 +251,7 @@ void merge_threads(struct Cell_stats **, int, int);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -283,6 +290,8 @@ void merge_threads(struct Cell_stats **, int, int);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
 =======
 /* support.c */
 int support(char **, struct Cell_stats *, int, struct Categories *, int *,
@@ -373,4 +382,9 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 int support(char **, struct Cell_stats *, int, struct Categories *, int *,
             struct Colors *, int *, RASTER_MAP_TYPE);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
