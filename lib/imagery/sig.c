@@ -51,6 +51,7 @@ int I_init_signatures(struct Signature *S, int nbands)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -134,6 +135,8 @@ int I_init_signatures(struct Signature *S, int nbands)
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -157,7 +160,12 @@ int I_init_signatures(struct Signature *S, int nbands)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
     S->semantic_labels = (char **)G_malloc(nbands * sizeof(char **));
     for (int i = 0; i < nbands; i++)
         S->semantic_labels[i] = NULL;
@@ -458,6 +466,7 @@ int I_init_signatures(struct Signature *S, int nbands)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -465,6 +474,8 @@ int I_init_signatures(struct Signature *S, int nbands)
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 <<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -542,7 +553,12 @@ int I_init_signatures(struct Signature *S, int nbands)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
     S->nsigs = 0;
     S->have_oclass = 0;
     S->sig = NULL;
@@ -633,6 +649,7 @@ int I_free_signatures(struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -658,6 +675,8 @@ int I_free_signatures(struct Signature *S)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -795,12 +814,18 @@ int I_free_signatures(struct Signature *S)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
         free(S->semantic_labels[n]);
     free(S->semantic_labels);
 
     S->sig = NULL;
     S->semantic_labels = NULL;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -915,6 +940,8 @@ int I_free_signatures(struct Signature *S)
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -932,7 +959,13 @@ int I_free_signatures(struct Signature *S)
 =======
 =======
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
         free(S->bandrefs[n]);
     free(S->bandrefs);
 
@@ -941,6 +974,7 @@ int I_free_signatures(struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1193,7 +1227,13 @@ int I_free_signatures(struct Signature *S)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
     S->nbands = 0;
     S->nsigs = 0;
     S->title[0] = '\0';
@@ -1300,6 +1340,7 @@ int I_read_one_signature(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1415,6 +1456,8 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -1438,13 +1481,19 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 int I_read_signatures(FILE *fd, struct Signature *S)
 {
     int ver, n, pos;
     char c, prev;
     char semantic_label[GNAME_MAX];
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1502,7 +1551,12 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 =======
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 int I_read_signatures(FILE * fd, struct Signature *S)
 {
     int ver, n, pos;
@@ -1511,6 +1565,7 @@ int I_read_signatures(FILE * fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1801,7 +1856,13 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 
     I_init_signatures(S, 0);
     S->title[0] = 0;
@@ -1847,6 +1908,7 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1877,6 +1939,8 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -1900,7 +1964,12 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
     /* Current version number is 2 */
     if (!(ver == 1 || ver == 2)) {
 =======
@@ -1996,6 +2065,7 @@ int I_read_signatures(FILE *fd, struct Signature *S)
     /* Current version number is 1 */
     if (ver != 1) {
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2198,7 +2268,12 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
         G_warning(_("Invalid signature file version"));
         return -1;
     }
@@ -2247,6 +2322,7 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2272,6 +2348,8 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -2409,7 +2487,12 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
     /* Read semantic labels and count them to set nbands */
     n = 0;
     pos = 0;
@@ -2447,11 +2530,14 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -2819,7 +2905,23 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    /* Read band references and count them to set nbands */
+    n = 0;
+    pos = 0;
+    S->bandrefs = (char **)G_realloc(S->bandrefs, (n + 1) * sizeof(char **));
+    while ((c = (char)fgetc(fd)) != EOF) {
+        if (c == '\n') {
+            if (prev != ' ') {
+                bandref[pos] = '\0';
+                S->bandrefs[n] = G_store(bandref);
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
                 n++;
             }
             S->nbands = n;
@@ -2863,6 +2965,7 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2888,6 +2991,8 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -3025,13 +3130,19 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
             semantic_label[pos] = '\0';
             S->semantic_labels[n] = G_store(semantic_label);
             n++;
             /* [n] is 0 based thus: (n + 1) */
             S->semantic_labels = (char **)G_realloc(S->semantic_labels,
                                                     (n + 1) * sizeof(char **));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3146,6 +3257,8 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3163,7 +3276,13 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 =======
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
             bandref[pos] = '\0';
             S->bandrefs[n] = G_store(bandref);
             n++;
@@ -3172,6 +3291,7 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3426,7 +3546,13 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
             pos = 0;
             prev = c;
             continue;
@@ -3468,6 +3594,7 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3493,6 +3620,8 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -3630,7 +3759,12 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
         /* Semantic labels are limited to GNAME_MAX - 1 + \0 in length;
          * n is 0-based */
         if (pos == (GNAME_MAX - 2)) {
@@ -3666,11 +3800,14 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -4014,7 +4151,21 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        /* Band references are limited to GNAME_MAX - 1 + \0 in length;
+         * n is 0-based */
+        if (pos == (GNAME_MAX - 2)) {
+            G_warning(_("Invalid signature file: band reference length limit exceeded"));
+            return -1;
+        }
+        bandref[pos] = c;
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
         pos++;
         prev = c;
     }
@@ -4061,6 +4212,7 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4126,6 +4278,8 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -4273,7 +4427,12 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
     /* Read marker of original class value presence */
     if (ver >= 2 && fscanf(fd, "%d", &S->have_oclass) != 1) {
         G_warning(_("Invalid signature file: Original class value presence not "
@@ -4318,6 +4477,7 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -4388,6 +4548,8 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
@@ -4589,7 +4751,15 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    while ((n = I_read_one_signature(fd, S)) == 1) ;
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 
     if (n < 0)
         return -1;
@@ -4647,6 +4817,7 @@ int I_read_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4749,6 +4920,8 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4955,7 +5128,16 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int I_write_signatures(FILE *fd, struct Signature *S)
+=======
+int I_write_signatures(FILE * fd, struct Signature *S)
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 {
     int k;
     int n;
@@ -5002,6 +5184,7 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5027,6 +5210,8 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -5164,7 +5349,12 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
     fprintf(fd, "2\n");
     /* Title of signatures */
     fprintf(fd, "#%s\n", S->title);
@@ -5248,6 +5438,7 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5322,6 +5513,8 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -5521,7 +5714,24 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 =======
 <<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    fprintf(fd, "1\n");
+    /* Title of signatures */
+    fprintf(fd, "#%s\n", S->title);
+    /* A list of space separated band references for each
+     * raster map used to generate sigs. */
+    for (k = 0; k < S->nbands; k++) {
+        fprintf(fd, "%s ", S->bandrefs[k]);
+    }
+    fprintf(fd, "\n");
+    /* A signature for each target class */
+    for (k = 0; k < S->nsigs; k++) {
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 	s = &S->sig[k];
 	if (s->status != 1)
 	    continue;
@@ -5565,6 +5775,7 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5610,6 +5821,8 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -5812,7 +6025,12 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
     }
     return 1;
 }
@@ -5857,6 +6075,7 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5882,6 +6101,8 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -6019,7 +6240,12 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
  * The function will check for semantic label match between signature struct
  * and imagery group.
  *
@@ -6067,11 +6293,14 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -6511,7 +6740,33 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+ * The function will check for band reference match between signature struct
+ * and imagery group.
+ *
+ * In the case of a complete band reference match, values of passed in
+ * struct Signature are reordered to match the order of imagery group items.
+ *
+ * If all band references are not identical (in
+ * arbitrary order), function will return two dimensional array with
+ * comma separated list of:
+ *      - [0] band references present in the signature struct but
+ * absent in the imagery group
+ *      - [1] band references present in the imagery group but
+ * absent in the signature struct
+ *
+ * If no mismatch of band references for signatures or imagery group are
+ * detected (== all are present in the other list), a NULL value will be
+ * returned in the particular list of mismatches (not an empty string).
+ * For example:
+ * \code if (ret && ret[1]) printf("List of imagery group bands without signatures: %s\n, ret[1]); \endcode
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
  *
  * \param *Signature existing signatures to check & sort
  * \param *Ref group reference
@@ -6556,6 +6811,7 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6581,6 +6837,8 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -6718,7 +6976,12 @@ int I_write_signatures(FILE *fd, struct Signature *S)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 char **I_sort_signatures_by_semantic_label(struct Signature *S,
                                            const struct Ref *R)
 {
@@ -6726,6 +6989,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
     unsigned int *match1, *match2, mc1, mc2, *new_order;
     double **new_means, ***new_vars;
     char **group_semantic_labels, **mismatches, **new_semantic_labels;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6840,6 +7104,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6857,7 +7123,13 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 char **I_sort_signatures_by_bandref(struct Signature *S, const struct Ref *R) {
     unsigned int total, complete;
     unsigned int *match1, *match2, mc1, mc2, *new_order;
@@ -6866,6 +7138,7 @@ char **I_sort_signatures_by_bandref(struct Signature *S, const struct Ref *R) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7122,7 +7395,13 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 
     /* Safety measure. Untranslated as this should not happen in production! */
     if (S->nbands < 1 || R->nfiles < 1)
@@ -7164,6 +7443,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7189,6 +7469,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -7326,7 +7608,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
                       "I_sort_signatures_by_semantic_label(%d, %d);",
                       S->nbands, R->nfiles);
 
@@ -7362,11 +7649,14 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -7710,7 +8000,20 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                      "I_sort_signatures_by_bandref(%d, %d);", S->nbands,  R->nfiles);
+
+    /* Obtain group band references */
+    group_bandrefs = (char **)G_malloc(R->nfiles * sizeof(char *));
+    for (unsigned int j = R->nfiles; j--;) {
+        group_bandrefs[j] = Rast_read_bandref(R->file[j].name, R->file[j].mapset);
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
     }
 
     /* If lengths are not equal, there will be a mismatch */
@@ -7759,6 +8062,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7789,6 +8093,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -7812,7 +8118,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
     new_semantic_labels = (char **)G_malloc(S->nbands * sizeof(char *));
 =======
 <<<<<<< HEAD
@@ -7889,6 +8200,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> osgeo-main
     new_bandrefs = (char **)G_malloc(S->nbands * sizeof(char *));
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8079,7 +8391,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
     new_means = (double **)G_malloc(S->nsigs * sizeof(double *));
     // new_vars[S.sig[x]][band1][band1]
     new_vars = (double ***)G_malloc(S->nsigs * sizeof(double **));
@@ -8130,6 +8447,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8195,6 +8513,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -8342,7 +8662,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
             if (S->semantic_labels[i] && group_semantic_labels[j] &&
                 !strcmp(S->semantic_labels[i], group_semantic_labels[j])) {
                 if (complete) {
@@ -8389,6 +8714,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
@@ -8488,6 +8814,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8511,7 +8839,13 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
             if (S->bandrefs[i] && group_bandrefs[j] &&
                 !strcmp(S->bandrefs[i], group_bandrefs[j])) {
                     if (complete) {
@@ -8526,6 +8860,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8725,7 +9060,13 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
             }
         }
     }
@@ -8767,6 +9108,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8797,6 +9139,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -8820,7 +9164,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
     /* Check for semantic label mismatch */
 =======
 <<<<<<< HEAD
@@ -8897,6 +9246,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> osgeo-main
     /* Check for band reference mismatch */
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9087,7 +9437,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
     mc1 = mc2 = 0;
     mismatches = (char **)G_malloc(2 * sizeof(char **));
     mismatches[0] = NULL;
@@ -9137,6 +9492,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9209,6 +9565,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -9231,6 +9589,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
     for (unsigned int i = 0; i < (unsigned int)S->nbands; i++) {
 =======
 <<<<<<< HEAD
@@ -9524,6 +9884,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9816,7 +10177,20 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
                 (char *)G_realloc(mismatches[0], total * sizeof(char *));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    for (unsigned int i = 0; i < S->nbands; i++) {
+        if (!match1[i]) {
+            if (S->bandrefs[i])
+                total = total + strlen(S->bandrefs[i]);
+            else
+                total = total + 24;
+            mismatches[0] = (char *)G_realloc(mismatches[0], total * sizeof(char *));
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
             if (mc1)
                 strcat(mismatches[0], ",");
             else
@@ -9858,6 +10232,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9883,6 +10258,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -10020,11 +10397,17 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
             if (S->semantic_labels[i])
                 strcat(mismatches[0], S->semantic_labels[i]);
             else
                 strcat(mismatches[0], "<semantic label missing>");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10139,6 +10522,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10156,7 +10541,13 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
             if (S->bandrefs[i])
                 strcat(mismatches[0], S->bandrefs[i]);
             else
@@ -10164,6 +10555,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10414,7 +10806,13 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
             mc1++;
             total = total + 1;
         }
@@ -10464,6 +10862,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10536,6 +10935,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -10558,6 +10959,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
     for (unsigned int j = 0; j < (unsigned int)R->nfiles; j++) {
 =======
 <<<<<<< HEAD
@@ -10851,6 +11254,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11143,7 +11547,20 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
                 (char *)G_realloc(mismatches[1], total * sizeof(char *));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    for (unsigned int j = 0; j < R->nfiles; j++) {
+        if (!match2[j]) {
+            if (group_bandrefs[j])
+                total = total + strlen(group_bandrefs[j]);
+            else
+                total = total + 24;
+            mismatches[1] = (char *)G_realloc(mismatches[1], total * sizeof(char *));
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
             if (mc2)
                 strcat(mismatches[1], ",");
             else
@@ -11185,6 +11602,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11210,6 +11628,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -11347,11 +11767,17 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
             if (group_semantic_labels[j])
                 strcat(mismatches[1], group_semantic_labels[j]);
             else
                 strcat(mismatches[1], "<semantic label missing>");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11466,6 +11892,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11483,7 +11911,13 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
             if (group_bandrefs[j])
                 strcat(mismatches[1], group_bandrefs[j]);
             else
@@ -11491,6 +11925,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11741,7 +12176,13 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
             mc2++;
             total = total + 1;
         }
@@ -11794,6 +12235,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11866,6 +12308,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -11888,6 +12332,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
             for (unsigned int b1 = 0; b1 < (unsigned int)S->nbands; b1++) {
 =======
 <<<<<<< HEAD
@@ -12159,6 +12605,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12289,7 +12736,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
             for (unsigned int b1 = 0; b1 < S->nbands; b1++) {
                 new_means[c][new_order[b1]] = S->sig[c].mean[b1];
                 for (unsigned int b2 = 0; b2 <= b1; b2++) {
@@ -12322,6 +12774,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -12366,6 +12819,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
                         new_vars[c][new_order[b1]][new_order[b2]] =
                             S->sig[c].var[b1][b2];
                     }
@@ -12618,7 +13073,17 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                        new_vars[c][new_order[b1]][new_order[b2]] = S->sig[c].var[b1][b2];
+                    }
+                    else {
+                        new_vars[c][new_order[b2]][new_order[b1]] = S->sig[c].var[b1][b2];
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
                     }
                 }
             }
@@ -12662,6 +13127,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12687,6 +13153,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -12824,7 +13292,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
         memcpy(S->semantic_labels, new_semantic_labels,
                S->nbands * sizeof(char **));
         for (unsigned int c = S->nsigs; c--;) {
@@ -12832,6 +13305,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
             for (unsigned int i = S->nbands; i--;)
                 memcpy(S->sig[c].var[i], new_vars[c][i],
                        S->nbands * sizeof(double));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12946,6 +13420,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12963,7 +13439,13 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
         memcpy(S->bandrefs, new_bandrefs, S->nbands * sizeof(char **));
         for (unsigned int c = S->nsigs; c--;) {
             memcpy(S->sig[c].mean, new_means[c], S->nbands * sizeof(double));
@@ -12972,6 +13454,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13228,7 +13711,13 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
         }
     }
 
@@ -13271,6 +13760,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13296,6 +13786,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -13433,13 +13925,19 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
         free(group_semantic_labels[j]);
     free(group_semantic_labels);
     free(new_order);
     free(match1);
     free(match2);
     free(new_semantic_labels);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13554,6 +14052,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13571,7 +14071,13 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
         free(group_bandrefs[j]);
     free(group_bandrefs);
     free(new_order);
@@ -13581,6 +14087,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13835,7 +14342,13 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
     for (unsigned int c = S->nsigs; c--;) {
         free(new_means[c]);
         for (unsigned int i = S->nbands; i--;)

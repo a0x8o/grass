@@ -44,6 +44,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -69,6 +70,8 @@
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -206,13 +209,19 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 {
     FILE *fd;
     struct Ref Ref; /* subgroup reference list */
     int n;
     char **err;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -304,6 +313,8 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
 =======
 =======
 =======
@@ -313,6 +324,18 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+=======
+
+int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
+{
+    FILE *fd;
+    struct Ref Ref;		/* subgroup reference list */
+    int n;
+    char **err;
+
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -876,6 +899,28 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
                         "Extra signatures for bands: %s\n"
                         "Imagery group bands without signatures: %s"),
                       err[0] ? err[0] : _("none"), err[1] ? err[1] : _("none"));
+
+    fd = I_fopen_sigset_file_old(parms->sigfile);
+    if (fd == NULL)
+	G_fatal_error(_("Unable to read signature file <%s>"),
+		      parms->sigfile);
+
+    if (I_ReadSigSet(fd, S) < 0 || Ref.nfiles != S->nbands)
+	G_fatal_error(_("Signature file <%s> is invalid"), parms->sigfile);
+
+    if (S->ClassSig == NULL || S->title == NULL)
+	G_fatal_error(_("Signature file <%s> is empty"), parms->sigfile);
+
+    fclose(fd);
+
+    err = I_SortSigSetByBandref(S, &Ref);
+    if (err)
+        G_fatal_error(_("Signature – group member band reference mismatch.\n"
+            "Extra signatures for bands: %s\n"
+            "Imagery group bands without signatures: %s"),
+            err[0] ? err[0] : _("none"),
+            err[1] ? err[1] : _("none")
+        );
 
     /* allocate file descriptors, and io buffer */
     files->cellbuf = Rast_allocate_d_buf();

@@ -192,6 +192,7 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -260,11 +261,17 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 =======
 =======
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 
 void merge_threads(struct Cell_stats **, int, int);
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,6 +341,8 @@ void merge_threads(struct Cell_stats **, int, int);
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -455,4 +464,9 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
