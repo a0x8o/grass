@@ -59,6 +59,7 @@ extern struct Ref ref;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -106,6 +107,8 @@ extern struct Ref ref;
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -177,7 +180,12 @@ extern struct Ref ref;
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 extern char **semantic_labels;
 =======
 <<<<<<< HEAD
@@ -254,6 +262,7 @@ extern char **semantic_labels;
 >>>>>>> osgeo-main
 extern char **bandrefs;
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -531,7 +540,12 @@ extern char **semantic_labels;
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 extern char outsigfile[GNAME_MAX + GMAPSET_MAX];
 extern char *insigfile;
 extern char *reportfile;

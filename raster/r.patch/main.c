@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -285,11 +286,17 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
  *               Huidae Cho <grass4u gmail.com>,
  *               Aaron Saw Min Sern (OpenMP parallelization)
  * PURPOSE:
  * COPYRIGHT:    (C) 1999-2022 by the GRASS Development Team
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -463,7 +470,13 @@
 =======
 =======
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> c167de6248 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
  *               Huidae Cho <grass4u gmail.com>
  * PURPOSE:
  * COPYRIGHT:    (C) 1999-2014 by the GRASS Development Team
@@ -498,6 +511,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -555,6 +569,8 @@
 >>>>>>> c167de6248 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -833,7 +849,12 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
  *
  *               This program is free software under the GNU General Public
  *               License (>=v2). Read the file COPYING that comes with GRASS
@@ -957,6 +978,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1032,6 +1054,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1090,7 +1114,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 
     sscanf(threads->answer, "%d", &nprocs);
     if (nprocs < 1)
@@ -1109,6 +1138,7 @@ int main(int argc, char *argv[])
     }
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1158,6 +1188,8 @@ int main(int argc, char *argv[])
 >>>>>>> c167de6248 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
@@ -1418,6 +1450,8 @@ int main(int argc, char *argv[])
                     "threads setting."));
     nprocs = 1;
 #endif
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
 
     use_zero = (zeroflag->answer);
     no_support = (nosupportflag->answer);
@@ -1846,6 +1880,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2118,12 +2153,18 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
         for (t = 0; t < nprocs; t++) {
             infd[t][i] = Rast_open_old(name, "");
         }
 
         fd = infd[0][i];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2227,6 +2268,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2254,10 +2297,13 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+=======
         fd = Rast_open_old(name, "");
 
         infd[i] = fd;
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2519,6 +2565,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2549,6 +2597,8 @@ int main(int argc, char *argv[])
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
 
         map_type = Rast_get_map_type(fd);
         if (map_type == FCELL_TYPE && out_type == CELL_TYPE)
@@ -2560,10 +2610,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rast_init_cell_stats(&statf[i]);
 =======
 =======
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
         for (t = 0; t < nprocs; t++) {
             Rast_init_cell_stats(&thread_statf[t][i]);
         }
@@ -2571,9 +2624,12 @@ int main(int argc, char *argv[])
         Rast_init_cell_stats(&statf[i]);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
 
         Rast_get_cellhd(name, "", &cellhd[i]);
     }
@@ -3071,6 +3127,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     bufrows = atoi(memory->answer) * (((1 << 20) / out_cell_size) / ncols);
@@ -3170,6 +3227,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
+=======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3258,7 +3317,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
     /* memory reserved for presult and patch */
     in_buf_size = out_cell_size * ncols * nprocs * 2;
     /* memory available for output buffer */
@@ -3543,6 +3607,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3749,7 +3814,13 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> c167de6248 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
     G_verbose_message(_("Percent complete..."));
     for (row = 0; row < nrows; row++) {
         double north_edge, south_edge;
@@ -3776,6 +3847,7 @@ int main(int argc, char *argv[])
                 break;
         }
         Rast_put_row(outfd, presult, out_type);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4062,7 +4134,13 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
     }
 
     outbuf = G_malloc(out_cell_size * ncols * bufrows);
@@ -5088,6 +5166,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5165,6 +5244,8 @@ int main(int argc, char *argv[])
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -5405,7 +5486,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 
     for (t = 0; t < nprocs; t++)
         for (i = 0; i < nfiles; i++)
@@ -5621,6 +5707,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5849,7 +5936,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
     if (!no_support) {
         /*
          * build the new cats and colors. do this before closing the new
@@ -5891,6 +5985,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         support(names, statf, nfiles, &cats, &cats_ok, &colr, &colr_ok,
                 out_type);
 =======
@@ -5970,6 +6065,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
         support(names, statf, nfiles, &cats, &cats_ok, &colr, &colr_ok,
@@ -6028,7 +6125,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 
         if (out_type == CELL_TYPE) {
             merge_threads(thread_statf, nprocs, nfiles);
@@ -6070,6 +6172,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6127,6 +6230,8 @@ int main(int argc, char *argv[])
 >>>>>>> c167de6248 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -6307,7 +6412,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
     }
 
     for (t = 0; t < nprocs; t++) {

@@ -147,6 +147,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -284,6 +285,8 @@ int main(int argc, char *argv[])
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -623,7 +626,17 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (G_unqualified_name(parm.class->answer, G_mapset(), class_name,
+                           xmapset) < 0)
+=======
+    if (G_unqualified_name(parm.class->answer, G_mapset(), class_name, xmapset) < 0)
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
         G_fatal_error(_("<%s> does not match the current mapset"), xmapset);
 
     if (G_legal_filename(class_name) < 0)
