@@ -55,6 +55,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -1078,12 +1081,22 @@
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
  *               Huidae Cho <grass4u gmail.com>,
  *               Aaron Saw Min Sern (OpenMP parallelization)
  * PURPOSE:
  * COPYRIGHT:    (C) 1999-2022 by the GRASS Development Team
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1134,6 +1147,8 @@
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1664,8 +1679,21 @@
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> a52c2839ba (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
  *               Huidae Cho <grass4u gmail.com>
  * PURPOSE:
  * COPYRIGHT:    (C) 1999-2014 by the GRASS Development Team
@@ -1769,6 +1797,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1959,6 +1988,8 @@
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2031,6 +2062,8 @@
 >>>>>>> 1cda25dd26 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3164,8 +3197,17 @@
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
  *
  *               This program is free software under the GNU General Public
  *               License (>=v2). Read the file COPYING that comes with GRASS
@@ -3552,6 +3594,10 @@ int main(int argc, char *argv[])
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -3742,7 +3788,10 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3793,12 +3842,16 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
@@ -4024,6 +4077,9 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 
     sscanf(threads->answer, "%d", &nprocs);
     if (nprocs < 1)
@@ -4042,6 +4098,7 @@ int main(int argc, char *argv[])
     }
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4283,6 +4340,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
+=======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -4325,6 +4384,8 @@ int main(int argc, char *argv[])
 >>>>>>> 1cda25dd26 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -5224,6 +5285,8 @@ int main(int argc, char *argv[])
                     "threads setting."));
     nprocs = 1;
 #endif
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
 
     use_zero = (zeroflag->answer);
     no_support = (nosupportflag->answer);
@@ -6977,6 +7040,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -8006,13 +8072,23 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
         for (t = 0; t < nprocs; t++) {
             infd[t][i] = Rast_open_old(name, "");
         }
 
         fd = infd[0][i];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8290,6 +8366,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
+=======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8513,10 +8593,13 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
         fd = Rast_open_old(name, "");
 
         infd[i] = fd;
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8716,6 +8799,10 @@ int main(int argc, char *argv[])
 >>>>>>> a52c2839ba (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> d9ea5124d9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
@@ -9389,7 +9476,15 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> a74c224a9d (ci: Ignore paths in CodeQL (#1778))
 =======
+<<<<<<< HEAD
 >>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 
         map_type = Rast_get_map_type(fd);
         if (map_type == FCELL_TYPE && out_type == CELL_TYPE)
@@ -9413,6 +9508,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
         Rast_init_cell_stats(&statf[i]);
 =======
@@ -9450,7 +9550,15 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> a74c224a9d (ci: Ignore paths in CodeQL (#1778))
 =======
+<<<<<<< HEAD
 >>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
         for (t = 0; t < nprocs; t++) {
             Rast_init_cell_stats(&thread_statf[t][i]);
         }
@@ -9471,6 +9579,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 =======
 <<<<<<< HEAD
@@ -9484,6 +9597,7 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 1cda25dd26 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
@@ -9505,6 +9619,10 @@ int main(int argc, char *argv[])
 >>>>>>> a74c224a9d (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 
         Rast_get_cellhd(name, "", &cellhd[i]);
     }
@@ -10989,6 +11107,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     bufrows = atoi(memory->answer) * (((1 << 20) / out_cell_size) / ncols);
@@ -11251,6 +11370,10 @@ int main(int argc, char *argv[])
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -11490,7 +11613,10 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 >>>>>>> 0873fb5a66 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
@@ -11595,12 +11721,16 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
@@ -11991,6 +12121,9 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
     /* memory reserved for presult and patch */
     in_buf_size = out_cell_size * ncols * nprocs * 2;
     /* memory available for output buffer */
@@ -13014,6 +13147,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13050,6 +13184,8 @@ int main(int argc, char *argv[])
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13723,8 +13859,21 @@ int main(int argc, char *argv[])
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> a52c2839ba (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
     G_verbose_message(_("Percent complete..."));
     for (row = 0; row < nrows; row++) {
         double north_edge, south_edge;
@@ -13991,6 +14140,24 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14555,7 +14722,10 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 >>>>>>> 5b7ab488c3 (ci: Ignore paths in CodeQL (#1778))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -14734,12 +14904,16 @@ int main(int argc, char *argv[])
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
@@ -15043,6 +15217,9 @@ int main(int argc, char *argv[])
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
     }
 
     outbuf = G_malloc(out_cell_size * ncols * bufrows);
@@ -19286,6 +19463,12 @@ int main(int argc, char *argv[])
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> main
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -19968,6 +20151,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -20112,12 +20296,16 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
@@ -20414,6 +20602,9 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 
     for (t = 0; t < nprocs; t++)
         for (i = 0; i < nfiles; i++)
@@ -21399,6 +21590,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> 1cda25dd26 (ci: Ignore paths in CodeQL (#1778))
@@ -21913,7 +22109,10 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 >>>>>>> c621983a87 (ci: Ignore paths in CodeQL (#1778))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -21998,13 +22197,17 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> osgeo-main
 =======
     for (i = 0; i < nfiles; i++)
         Rast_close(infd[i]);
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -22241,6 +22444,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
     if (!no_support) {
         /*
          * build the new cats and colors. do this before closing the new
@@ -22352,6 +22561,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         support(names, statf, nfiles, &cats, &cats_ok, &colr, &colr_ok,
                 out_type);
 =======
@@ -22824,6 +23034,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -22834,6 +23046,8 @@ int main(int argc, char *argv[])
 >>>>>>> 1cda25dd26 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
         support(names, statf, nfiles, &cats, &cats_ok, &colr, &colr_ok,
                 out_type);
 =======
@@ -22992,6 +23206,7 @@ int main(int argc, char *argv[])
 >>>>>>> 3ac827fa82 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
@@ -23033,7 +23248,15 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 
         if (out_type == CELL_TYPE) {
             merge_threads(thread_statf, nprocs, nfiles);
@@ -23144,6 +23367,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -23334,6 +23558,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -23418,6 +23644,8 @@ int main(int argc, char *argv[])
 >>>>>>> 1cda25dd26 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -23849,7 +24077,10 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -23900,12 +24131,16 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
@@ -24123,6 +24358,9 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
     }
 
     for (t = 0; t < nprocs; t++) {

@@ -1584,6 +1584,7 @@ int open_files(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1621,6 +1622,8 @@ int open_files(void)
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> a52c2839ba (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
     err = I_sort_signatures_by_bandref(&S, &Ref);
     if (err)
         G_fatal_error(_("Signature – group member band reference mismatch.\n"
@@ -1630,6 +1633,7 @@ int open_files(void)
             err[1] ? err[1] : _("none")
         );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1718,6 +1722,8 @@ int open_files(void)
 >>>>>>> a52c2839ba (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
     B = (double *)G_malloc(S.nsigs * sizeof(double));
     invert_signatures();
 
@@ -1769,6 +1775,9 @@ int open_files(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -2798,8 +2807,17 @@ int open_files(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
     cell = (DCELL **)G_malloc(Ref.nfiles * sizeof(DCELL *));
     cellfd = (int *)G_malloc(Ref.nfiles * sizeof(int));
     P = (double *)G_malloc(Ref.nfiles * sizeof(double));
@@ -2808,6 +2826,7 @@ int open_files(void)
         name = Ref.file[n].name;
         mapset = Ref.file[n].mapset;
         cellfd[n] = Rast_open_old(name, mapset);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2858,6 +2877,8 @@ int open_files(void)
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3393,8 +3414,21 @@ int open_files(void)
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> a52c2839ba (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
     cell = (DCELL **) G_malloc(Ref.nfiles * sizeof(DCELL *));
     cellfd = (int *)G_malloc(Ref.nfiles * sizeof(int));
     P = (double *)G_malloc(Ref.nfiles * sizeof(double));
@@ -3534,6 +3568,7 @@ int open_files(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -3610,6 +3645,10 @@ int open_files(void)
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5042,8 +5081,17 @@ int open_files(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
     }
 
     class_fd = Rast_open_c_new(class_name);

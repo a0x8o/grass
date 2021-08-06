@@ -201,6 +201,7 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -573,6 +574,10 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 =======
@@ -1212,10 +1217,14 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 >>>>>>> db3baef4a0 (ci: Ignore paths in CodeQL (#1778))
 =======
+=======
+>>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> osgeo-main
 =======
@@ -1229,6 +1238,7 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 273146cb7f (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -1342,6 +1352,8 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 =======
 >>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> a52c2839ba (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
         sigs->bandrefs[i] = Rast_read_bandref(refer->file[i].name, refer->file[i].mapset);
         if (!sigs->bandrefs[i]) {
             G_warning(_("Raster map <%s@%s> lacks band reference"),
@@ -1499,6 +1511,7 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -1518,6 +1531,8 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 >>>>>>> 3864431eda (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> d9ea5124d9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2882,6 +2897,7 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 0873fb5a66 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
@@ -2974,7 +2990,15 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
     }
 
     return 1;
@@ -3059,6 +3083,13 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3709,6 +3740,7 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 0873fb5a66 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
@@ -3744,6 +3776,11 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
     if (!(outsig_fd = I_fopen_signature_file_new(file_name))) {
         G_warning(_("Unable to open output signature file '%s'"), file_name);
         return 0;
@@ -4155,6 +4192,16 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -4458,8 +4505,19 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> a52c2839ba (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
     if (!
 	(outsig_fd =
 	 I_fopen_signature_file_new(file_name))) {
@@ -4565,6 +4623,7 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4755,6 +4814,8 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4827,6 +4888,8 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 >>>>>>> 1cda25dd26 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6101,6 +6164,7 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 0873fb5a66 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 >>>>>>> 876d408376 (ci: Ignore paths in CodeQL (#1778))
@@ -6187,7 +6251,15 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e7e02bf2f9 (ci: Ignore paths in CodeQL (#1778))
     }
 
     I_write_signatures(outsig_fd, sigs);
