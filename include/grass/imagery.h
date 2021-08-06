@@ -92,6 +92,7 @@ struct Control_Points {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -179,6 +180,8 @@ struct Control_Points {
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -554,7 +557,12 @@ struct Control_Points {
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 struct One_Sig {
     char desc[256]; /* name of target class */
     int npoints;    /* cell count used to determine class parameters */
@@ -562,6 +570,7 @@ struct One_Sig {
     double **var;   /* covariance band-band   */
     int status;     /* may be used to 'delete' a signature */
     float r, g, b;  /* color */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -854,7 +863,13 @@ struct One_Sig {
 =======
 =======
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 struct One_Sig
 {
     char desc[100];     /* name of target class */
@@ -903,6 +918,7 @@ struct One_Sig
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -964,6 +980,8 @@ struct One_Sig
 >>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -1299,7 +1317,12 @@ struct One_Sig
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
     int have_color;
     int oclass; /* original class value */
 };
@@ -1352,6 +1375,7 @@ struct One_Sig
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1439,6 +1463,8 @@ struct One_Sig
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -1814,13 +1840,19 @@ struct One_Sig
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 struct Signature {
     int nbands;             /* band (imagery group member) count */
     char **semantic_labels; /* list of semantic labels */
     int nsigs;              /* signature count */
     int have_oclass;        /* is One_Sig.oclass filled with values? */
     char title[100];        /* not used? */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2113,13 +2145,20 @@ struct Signature {
 =======
 =======
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 struct Signature
 {
     int nbands;         /* band (imagery group member) count */
     char **bandrefs;    /* list of band references */
     int nsigs;          /* signature count */
     char title[100];    /* not used? */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2538,7 +2577,13 @@ struct Signature
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
     struct One_Sig *sig;    /* array of one signature per class */
 };
 
@@ -2616,6 +2661,7 @@ struct ClassData {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2737,6 +2783,8 @@ struct ClassData {
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
@@ -2915,7 +2963,12 @@ struct ClassData {
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 struct ClassSig {
     long classnum; /* c_cat */
     char *title;   /* from Rast_get_c_cat */
@@ -2923,6 +2976,7 @@ struct ClassSig {
     int type;        /* always is SIGNATURE_TYPE_MIXED ? */
     int nsubclasses; /* SubSig item count */
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2959,6 +3013,8 @@ struct ClassSig {
 >>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3059,7 +3115,12 @@ struct ClassSig {
 =======
 =======
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 struct ClassSig
 {
     long classnum;      /* c_cat */
@@ -3067,6 +3128,7 @@ struct ClassSig
     int used;
     int type;           /* always is SIGNATURE_TYPE_MIXED ? */
     int nsubclasses;    /* SubSig item count */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3650,7 +3712,13 @@ struct ClassSig {
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
     struct SubSig *SubSig;
     struct ClassData ClassData; /* used for SubSig calculation only */
 };
@@ -3715,6 +3783,7 @@ struct SigSet {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3786,6 +3855,8 @@ struct SigSet {
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -4188,6 +4259,7 @@ struct SigSet {
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -4212,14 +4284,34 @@ struct SigSet {
 =======
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
     char **semantic_labels; /* list of semantic labels [nbands]char* */
     int nclasses;           /* ClassSig item count */
 =======
     char **bandrefs;    /* list of band references [nbands]char* */
     int nclasses;       /* ClassSig item count */
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
+=======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
@@ -4473,7 +4565,12 @@ struct SigSet {
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
     char *title;
     struct ClassSig *ClassSig;
 };
@@ -4626,6 +4723,7 @@ struct scdScattData {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 typedef enum {
@@ -4753,6 +4851,8 @@ typedef enum {
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
+=======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4934,13 +5034,19 @@ typedef enum {
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 typedef enum {
     I_SIGFILE_TYPE_SIG,    /*! Signature files used by i.maxlik */
     I_SIGFILE_TYPE_SIGSET, /*! Signature files used by i.smap */
     I_SIGFILE_TYPE_LIBSVM, /*! Signature files used by i.svm */
 } I_SIGFILE_TYPE;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4961,10 +5067,13 @@ typedef enum {
 >>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
 typedef enum
 {
     I_SIGFILE_TYPE_SIG,       /*! Signature files used by i.maxlik */
     I_SIGFILE_TYPE_SIGSET,    /*! Signature files used by i.smap */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5079,6 +5188,8 @@ typedef enum
 >>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -5800,7 +5911,18 @@ typedef enum {
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+} I_SIGFILE_TYPE;
+
+#define SIGNATURE_TYPE_MIXED 1  /* Unused? */
+#define I_SIGFILE_TYPE_COUNT 2  /*! Total count of supported signature file types */
+
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 
 #define SIGNATURE_TYPE_MIXED 1 /* Unused? */

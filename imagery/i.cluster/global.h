@@ -71,6 +71,7 @@ extern struct Ref ref;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -142,6 +143,8 @@ extern struct Ref ref;
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -468,6 +471,7 @@ extern char **semantic_labels;
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -489,13 +493,32 @@ extern char **semantic_labels;
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 extern char **semantic_labels;
 =======
 extern char **bandrefs;
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
+=======
 extern char **semantic_labels;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -767,7 +790,12 @@ extern char **semantic_labels;
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 extern char outsigfile[GNAME_MAX + GMAPSET_MAX];
 extern char *insigfile;
 extern char *reportfile;

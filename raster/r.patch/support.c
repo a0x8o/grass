@@ -706,6 +706,7 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -777,6 +778,8 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -1103,6 +1106,7 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1124,13 +1128,32 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
                             &n, &n, Rast_get_c_cat((CELL *)&n, &pcats), cats);
 =======
                             &n, &n, Rast_get_c_cat((CELL *) &n, &pcats), cats);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
+=======
                             &n, &n, Rast_get_c_cat((CELL *)&n, &pcats), cats);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -1402,7 +1425,12 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
                     }
                     if (do_colr) {
                         Rast_get_c_color(&n, &red, &grn, &blu, &pcolr);
@@ -1467,6 +1495,7 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1538,6 +1567,8 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -1933,6 +1964,7 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -1957,13 +1989,33 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
 =======
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
         }
         else {
 =======
         } else {
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
+=======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
@@ -2217,7 +2269,12 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 228be75788 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
             /* the color would be the color of the first map,
              * possibly not covering the range of the other maps */
             *colr_ok = 0;
