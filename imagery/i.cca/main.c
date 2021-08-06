@@ -994,8 +994,15 @@ int main(int argc, char *argv[])
         G_fatal_error(_("Subgroup <%s> in group <%s> not found"),
                       subgrp_opt->answer, grp_opt->answer);
 
+<<<<<<< HEAD
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    if (!I_find_subgroup(grp_opt->answer, subgrp_opt->answer))
+	G_fatal_error(_("Subgroup <%s> in group <%s> not found"),
+		      subgrp_opt->answer, grp_opt->answer);
+
+>>>>>>> f201ec2860 (ci: Ignore paths in CodeQL (#1778))
     if (I_get_subgroup_ref(grp_opt->answer, subgrp_opt->answer, &refs) <= 0)
         G_fatal_error(_("Unable to find subgroup reference information."));
 
@@ -3362,6 +3369,15 @@ int main(int argc, char *argv[])
                       err[0] ? err[0] : _("none"), err[1] ? err[1] : _("none"));
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+
+    err = I_sort_signatures_by_bandref(&sigs, &refs);
+    if (err)
+        G_fatal_error(_("Signature – group member band reference mismatch.\n"
+            "Extra signatures for bands: %s\n"
+            "Imagery group bands without signatures: %s"),
+            err[0] ? err[0] : _("none"),
+            err[1] ? err[1] : _("none")
+        );
 
     /* check the number of input bands */
     bands = refs.nfiles;

@@ -66,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -156,6 +157,8 @@
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f201ec2860 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -916,7 +919,19 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
     char **err;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
+{
+    FILE *fd;
+    struct Ref Ref;		/* subgroup reference list */
+    int n;
+    char **err;
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> f201ec2860 (ci: Ignore paths in CodeQL (#1778))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2527,6 +2542,28 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
                       err[0] ? err[0] : _("none"), err[1] ? err[1] : _("none"));
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+
+    fd = I_fopen_sigset_file_old(parms->sigfile);
+    if (fd == NULL)
+	G_fatal_error(_("Unable to read signature file <%s>"),
+		      parms->sigfile);
+
+    if (I_ReadSigSet(fd, S) < 0 || Ref.nfiles != S->nbands)
+	G_fatal_error(_("Signature file <%s> is invalid"), parms->sigfile);
+
+    if (S->ClassSig == NULL || S->title == NULL)
+	G_fatal_error(_("Signature file <%s> is empty"), parms->sigfile);
+
+    fclose(fd);
+
+    err = I_SortSigSetByBandref(S, &Ref);
+    if (err)
+        G_fatal_error(_("Signature – group member band reference mismatch.\n"
+            "Extra signatures for bands: %s\n"
+            "Imagery group bands without signatures: %s"),
+            err[0] ? err[0] : _("none"),
+            err[1] ? err[1] : _("none")
+        );
 
     /* allocate file descriptors, and io buffer */
     files->cellbuf = Rast_allocate_d_buf();
