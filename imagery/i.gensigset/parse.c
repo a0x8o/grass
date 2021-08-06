@@ -78,6 +78,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -233,6 +234,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -713,7 +716,17 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    sigfile->description =
+        _("Name for output file containing result signatures");
+=======
+    sigfile->description = _("Name for output file containing result signatures");
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
 
     maxsig = G_define_option();
     maxsig->key = "maxsig";
@@ -795,6 +808,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -910,6 +924,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
@@ -1073,11 +1089,17 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
 
     if (G_unqualified_name(sigfile->answer, G_mapset(), parms->sigfile,
                            xmapset) < 0)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1111,6 +1133,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> c167de6248 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1636,7 +1660,15 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    
+    if (G_unqualified_name(sigfile->answer, G_mapset(), parms->sigfile, xmapset) < 0)
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
         G_fatal_error(_("<%s> does not match the current mapset"), xmapset);
 
     if (G_legal_filename(parms->sigfile) < 0)
@@ -1696,6 +1728,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1831,6 +1864,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
@@ -2291,7 +2326,16 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+=======
+    
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
     if (sscanf(maxsig->answer, "%d", &parms->maxsubclasses) != 1 ||
         parms->maxsubclasses <= 0) {
         G_fatal_error(_("Illegal number of sub-signatures (%s)"),
