@@ -313,6 +313,10 @@ int I_find_subgroup_file2(const char *group, const char *subgroup,
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -429,6 +433,7 @@ int I_find_subgroup_file2(const char *group, const char *subgroup,
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -481,7 +486,15 @@ int I_find_subgroup_file2(const char *group, const char *subgroup,
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 const char *I_find_signature(I_SIGFILE_TYPE type, char *name,
                              const char *mapset)
 {
@@ -682,6 +695,10 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -854,6 +871,7 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset) {
     char selem[GNAME_MAX]; /* 'signatures/type\0' */
 =======
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     G_debug(1, "I_find_signature(): type=%d name=%s mapset=%s", type, name,
@@ -1015,9 +1033,13 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> osgeo-main
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+=======
 =======
 const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset) {
     char selem[GNAME_MAX]; /* 'signatures/type\0' */
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -1116,7 +1138,20 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+    G_debug(1, "I_find_signature(): type=%d name=%s mapset=%s", type, name, mapset);
+
+    I__get_signatures_element(selem, type);
+
+    return G_find_file(selem, name, mapset);
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 }
 
 /*!
@@ -1252,6 +1287,10 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1368,6 +1407,7 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -1420,7 +1460,15 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name,
                               const char *mapset)
 {
@@ -1619,6 +1667,10 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1789,6 +1841,7 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name, const char 
 const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name, const char *mapset) {
     char selem[GNAME_MAX]; /* 'signatures/type\0' */
 =======
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     G_debug(1, "I_find_signature2(): type=%d name=%s mapset=%s", type, name,
@@ -1940,9 +1993,13 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name, const char 
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> osgeo-main
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+=======
 =======
 const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name, const char *mapset) {
     char selem[GNAME_MAX]; /* 'signatures/type\0' */
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -2035,5 +2092,18 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name, const char 
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+    G_debug(1, "I_find_signature2(): type=%d name=%s mapset=%s", type, name, mapset);
+
+    I__get_signatures_element(selem, type);
+
+    return G_find_file2(selem, name, mapset);
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 }

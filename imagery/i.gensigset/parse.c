@@ -63,6 +63,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -189,6 +190,12 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    sigfile->description =
+        _("Name for output file containing result signatures");
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -359,6 +366,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
+<<<<<<< HEAD
     sigfile->description =
         _("Name for output file containing result signatures");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -405,11 +413,15 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> osgeo-main
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+=======
     sigfile->description =
         _("Name for output file containing result signatures");
 =======
     sigfile->description = _("Name for output file containing result signatures");
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
@@ -441,7 +453,13 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 
     maxsig = G_define_option();
     maxsig->key = "maxsig";
@@ -508,6 +526,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -595,8 +614,13 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -633,11 +657,21 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 
     if (G_unqualified_name(sigfile->answer, G_mapset(), parms->sigfile,
                            xmapset) < 0)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -663,6 +697,15 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 <<<<<<< HEAD
 >>>>>>> main
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 
     if (G_unqualified_name(sigfile->answer, G_mapset(), parms->sigfile,
                            xmapset) < 0)
@@ -671,6 +714,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -699,6 +743,9 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
     
     if (G_unqualified_name(sigfile->answer, G_mapset(), parms->sigfile, xmapset) < 0)
 <<<<<<< HEAD
@@ -930,6 +977,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -968,7 +1016,18 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    
+    if (G_unqualified_name(sigfile->answer, G_mapset(), parms->sigfile, xmapset) < 0)
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
         G_fatal_error(_("<%s> does not match the current mapset"), xmapset);
 
     if (G_legal_filename(parms->sigfile) < 0)
@@ -1013,6 +1072,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1121,6 +1181,11 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1283,6 +1348,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
+<<<<<<< HEAD
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1320,10 +1386,14 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> osgeo-main
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+=======
 
 =======
     
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
@@ -1360,7 +1430,13 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
     if (sscanf(maxsig->answer, "%d", &parms->maxsubclasses) != 1 ||
         parms->maxsubclasses <= 0) {
         G_fatal_error(_("Illegal number of sub-signatures (%s)"),

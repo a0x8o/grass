@@ -48,6 +48,7 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -81,6 +82,8 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -120,7 +123,12 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
     struct Ref Ref; /* subgroup reference list */
     const char *mapset, *semantic_label;
 =======
@@ -407,6 +415,7 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 >>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -445,7 +454,21 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    struct Ref Ref; /* subgroup reference list */
+    const char *mapset, *semantic_label;
+=======
+    struct Ref Ref;		/* subgroup reference list */
+    const char *mapset, *bandref;
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
     int n;
 
     if (!I_get_subgroup_ref(parms->group, parms->subgroup, &Ref)) {
@@ -646,6 +669,9 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
     /* Prepare SigSet structure */
     I_InitSigSet(S, files->nbands);
 
+    /* Prepare SigSet structure */
+    I_InitSigSet(S, files->nbands);
+
     /* open training map for reading */
     mapset = G_find_raster2(parms->training_map, "");
     files->train_fd = Rast_open_old(parms->training_map, mapset);
@@ -762,6 +788,10 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -878,6 +908,7 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -930,7 +961,15 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
         files->band_fd[n] = Rast_open_old(Ref.file[n].name, Ref.file[n].mapset);
         files->band_cell[n] = Rast_allocate_d_buf();
         semantic_label = Rast_get_semantic_label_or_name(Ref.file[n].name,
@@ -948,6 +987,10 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1119,7 +1162,17 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 	files->band_fd[n] =
 	    Rast_open_old(Ref.file[n].name, Ref.file[n].mapset);
 	files->band_cell[n] = Rast_allocate_d_buf();
@@ -1289,8 +1342,11 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
 =======
+=======
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -1307,6 +1363,7 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 >>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -1351,7 +1408,15 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
     }
 
     I_free_group_ref(&Ref);

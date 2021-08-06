@@ -141,6 +141,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -267,6 +268,12 @@ int main(int argc, char *argv[])
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (G_unqualified_name(parm.class->answer, G_mapset(), class_name,
+                           xmapset) < 0)
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -437,6 +444,7 @@ int main(int argc, char *argv[])
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
+<<<<<<< HEAD
     if (G_unqualified_name(parm.class->answer, G_mapset(), class_name,
                            xmapset) < 0)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -483,11 +491,15 @@ int main(int argc, char *argv[])
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> osgeo-main
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+=======
     if (G_unqualified_name(parm.class->answer, G_mapset(), class_name,
                            xmapset) < 0)
 =======
     if (G_unqualified_name(parm.class->answer, G_mapset(), class_name, xmapset) < 0)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
@@ -519,7 +531,13 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
         G_fatal_error(_("<%s> does not match the current mapset"), xmapset);
 
     if (G_legal_filename(class_name) < 0)
