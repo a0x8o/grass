@@ -775,6 +775,15 @@ int open_files(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
+    err = I_sort_signatures_by_bandref(&S, &Ref);
+    if (err)
+        G_fatal_error(_("Signature – group member band reference mismatch.\n"
+            "Extra signatures for bands: %s\n"
+            "Imagery group bands without signatures: %s"),
+            err[0] ? err[0] : _("none"),
+            err[1] ? err[1] : _("none")
+        );
+
     B = (double *)G_malloc(S.nsigs * sizeof(double));
     invert_signatures();
 
@@ -823,6 +832,7 @@ int open_files(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -1330,7 +1340,12 @@ int open_files(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> db3baef4a0 (ci: Ignore paths in CodeQL (#1778))
     cell = (DCELL **)G_malloc(Ref.nfiles * sizeof(DCELL *));
     cellfd = (int *)G_malloc(Ref.nfiles * sizeof(int));
     P = (double *)G_malloc(Ref.nfiles * sizeof(double));
@@ -1339,6 +1354,7 @@ int open_files(void)
         name = Ref.file[n].name;
         mapset = Ref.file[n].mapset;
         cellfd[n] = Rast_open_old(name, mapset);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1649,7 +1665,13 @@ int open_files(void)
 =======
 =======
 >>>>>>> a74c224a9d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> c940746c7a (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> db3baef4a0 (ci: Ignore paths in CodeQL (#1778))
     cell = (DCELL **) G_malloc(Ref.nfiles * sizeof(DCELL *));
     cellfd = (int *)G_malloc(Ref.nfiles * sizeof(int));
     P = (double *)G_malloc(Ref.nfiles * sizeof(double));
@@ -1673,6 +1695,7 @@ int open_files(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2417,7 +2440,13 @@ int open_files(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> db3baef4a0 (ci: Ignore paths in CodeQL (#1778))
     }
 
     class_fd = Rast_open_c_new(class_name);
