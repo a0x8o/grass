@@ -124,6 +124,7 @@ import six
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -348,8 +349,11 @@ import six
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ff8386f9c6 (ci: Ignore paths in CodeQL (#1778))
+=======
 =======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -362,6 +366,8 @@ import six
 >>>>>>> 9e8b5d3087 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ff8386f9c6 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -399,6 +405,9 @@ import six
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ff8386f9c6 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -420,13 +429,17 @@ import six
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> ff8386f9c6 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
@@ -728,6 +741,9 @@ import six
 >>>>>>> 9e8b5d3087 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ff8386f9c6 (ci: Ignore paths in CodeQL (#1778))
 import ctypes
 
 from pathlib import Path
@@ -757,6 +773,13 @@ import wx.lib.filebrowsebutton as filebrowse
 import grass.script as gs
 from grass.script import task as gtask
 from grass.exceptions import CalledModuleError
+from grass.lib.imagery import (
+    I_SIGFILE_TYPE_SIG,
+    I_SIGFILE_TYPE_SIGSET,
+    I_signatures_list_by_type,
+    I_free_signatures_list,
+)
+from grass.pygrass.utils import decode
 
 from gui_core.widgets import ManageSettingsWidget, CoordinatesValidator
 
@@ -9079,8 +9102,18 @@ class SignatureSelect(wx.ComboBox):
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+        super(SignatureSelect, self).__init__(parent, id, size=size, **kwargs)
+
+        items = []
+        if mapsets:
+            for mapset in mapsets:
+=======
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
@@ -9102,7 +9135,15 @@ class SignatureSelect(wx.ComboBox):
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ff8386f9c6 (ci: Ignore paths in CodeQL (#1778))
         super().__init__(parent, id, size=size, **kwargs)
         self.SetName("SignatureSelect")
         self.mapsets = mapsets
@@ -9723,6 +9764,11 @@ class SignatureSelect(wx.ComboBox):
 =======
         super(SignatureSelect, self).__init__(parent, id, size=size, **kwargs)
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11549,11 +11595,16 @@ class SignatureSelect(wx.ComboBox):
                 _("Unable to import C imagery library functions: %s\n") % e
             )
             return
+=======
+
+        sig_type = None
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
         # Extend here if a new signature type is introduced
         if element == "signatures/sig":
             sig_type = I_SIGFILE_TYPE_SIG
         elif element == "signatures/sigset":
             sig_type = I_SIGFILE_TYPE_SIGSET
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11583,6 +11634,7 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> f201ec2860 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+<<<<<<< HEAD
         else:
             return
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -11895,6 +11947,9 @@ class SignatureSelect(wx.ComboBox):
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ff8386f9c6 (ci: Ignore paths in CodeQL (#1778))
         else:
             return
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -12381,6 +12436,7 @@ class SignatureSelect(wx.ComboBox):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
@@ -12402,6 +12458,9 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> fac1ae18f5 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 273146cb7f (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ff8386f9c6 (ci: Ignore paths in CodeQL (#1778))
         items = []
         if sig_type is not None:
             if mapsets:
@@ -12413,6 +12472,7 @@ class SignatureSelect(wx.ComboBox):
         self.SetValue("")
 
     def _append_mapset_signatures(self, mapset, sig_type, items):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12560,6 +12620,9 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ff8386f9c6 (ci: Ignore paths in CodeQL (#1778))
         list_ptr = ctypes.POINTER(ctypes.c_char_p)
         sig_list = list_ptr()
         count = I_signatures_list_by_type(sig_type, mapset, ctypes.byref(sig_list))
@@ -12587,6 +12650,7 @@ class SignatureSelect(wx.ComboBox):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -12643,11 +12707,14 @@ class SignatureSelect(wx.ComboBox):
 <<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ff8386f9c6 (ci: Ignore paths in CodeQL (#1778))
             items.append(grass.decode(sig_list[n]))
         I_free_signatures_list(count, ctypes.byref(sig_list))
 =======
             items.append(decode(sig_list[n]))
         I_free_signatures_list(count, sig_list)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12741,6 +12808,8 @@ class SignatureSelect(wx.ComboBox):
 =======
 =======
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> ff8386f9c6 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12796,6 +12865,7 @@ class SignatureSelect(wx.ComboBox):
             items.append(grass.decode(sig_list[n]))
         I_free_signatures_list(count, ctypes.byref(sig_list))
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
@@ -13089,6 +13159,11 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> 9e8b5d3087 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> ff8386f9c6 (ci: Ignore paths in CodeQL (#1778))
 
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 
