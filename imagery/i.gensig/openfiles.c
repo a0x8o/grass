@@ -82,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -239,6 +240,8 @@
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7f440f5d30 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
@@ -507,12 +510,18 @@
 =======
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12e7124573 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 7f440f5d30 (ci: Ignore paths in CodeQL (#1778))
 int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 {
     struct Ref Ref; /* subgroup reference list */
     const char *mapset, *semantic_label;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,6 +576,8 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 7f440f5d30 (ci: Ignore paths in CodeQL (#1778))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -695,12 +706,18 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 12e7124573 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 7f440f5d30 (ci: Ignore paths in CodeQL (#1778))
 
 int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 {
     struct Ref Ref;		/* subgroup reference list */
     const char *mapset, *bandref;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1434,7 +1451,13 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 =======
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 12e7124573 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 7f440f5d30 (ci: Ignore paths in CodeQL (#1778))
     int n;
 
     if (!I_get_subgroup_ref(parms->group, parms->subgroup, &Ref))
@@ -1535,6 +1558,7 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
        store semantic labels of imagery group bands */
@@ -1696,6 +1720,8 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7f440f5d30 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -1967,7 +1993,12 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 =======
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12e7124573 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 7f440f5d30 (ci: Ignore paths in CodeQL (#1778))
        store semantic labels of imagery group bands */
     for (n = 0; n < Ref.nfiles; n++) {
         files->band_fd[n] = Rast_open_old(Ref.file[n].name, Ref.file[n].mapset);
@@ -1976,6 +2007,7 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
                                                          Ref.file[n].mapset);
         S->semantic_labels[n] = G_store(semantic_label);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2014,6 +2046,8 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 12e7124573 (ci: Ignore paths in CodeQL (#1778))
        store band references of imagery group bands */
     for (n = 0; n < Ref.nfiles; n++) {
 	files->band_fd[n] =
@@ -2037,6 +2071,7 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3142,7 +3177,13 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 12e7124573 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 7f440f5d30 (ci: Ignore paths in CodeQL (#1778))
     }
 
     I_free_group_ref(&Ref);
