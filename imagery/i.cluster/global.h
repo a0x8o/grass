@@ -65,6 +65,7 @@ extern struct Ref ref;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -124,6 +125,8 @@ extern struct Ref ref;
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fac1ae18f5 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -371,6 +374,8 @@ extern char **semantic_labels;
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 1cda25dd26 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -641,8 +646,20 @@ extern char **semantic_labels;
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+extern char **semantic_labels;
+=======
+extern char **bandrefs;
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 1cda25dd26 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> fac1ae18f5 (ci: Ignore paths in CodeQL (#1778))
 extern char outsigfile[GNAME_MAX + GMAPSET_MAX];
 extern char *insigfile;
 extern char *reportfile;
