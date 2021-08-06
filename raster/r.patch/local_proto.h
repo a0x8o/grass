@@ -693,6 +693,7 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1023,6 +1024,7 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 =======
 >>>>>>> a74c224a9d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c940746c7a (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -1116,10 +1118,15 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 =======
 >>>>>>> a74c224a9d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> a52c2839ba (ci: Ignore paths in CodeQL (#1778))
 
 void merge_threads(struct Cell_stats **, int, int);
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1402,6 +1409,8 @@ void merge_threads(struct Cell_stats **, int, int);
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a52c2839ba (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -1975,6 +1984,7 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2180,3 +2190,7 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> a52c2839ba (ci: Ignore paths in CodeQL (#1778))
