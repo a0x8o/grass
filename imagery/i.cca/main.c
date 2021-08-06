@@ -1409,6 +1409,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f201ec2860 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -1437,10 +1438,13 @@ int main(int argc, char *argv[])
 >>>>>>> 876d408376 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 3ac827fa82 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
     if (!I_find_subgroup(grp_opt->answer, subgrp_opt->answer))
 	G_fatal_error(_("Subgroup <%s> in group <%s> not found"),
 		      subgrp_opt->answer, grp_opt->answer);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1509,6 +1513,8 @@ int main(int argc, char *argv[])
 >>>>>>> 3ac827fa82 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
     if (I_get_subgroup_ref(grp_opt->answer, subgrp_opt->answer, &refs) <= 0)
         G_fatal_error(_("Unable to find subgroup reference information."));
 
@@ -1652,6 +1658,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2657,7 +2666,15 @@ int main(int argc, char *argv[])
         G_fatal_error(_("Unable to open the signature file"));
 =======
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 3ac827fa82 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+    if ((sigfp = I_fopen_signature_file_old(sig_opt->answer)) == NULL)
+        G_fatal_error(_("Unable to open the signature file"));
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
     if ((sigfp =
 	 I_fopen_signature_file_old(sig_opt->answer)) == NULL)
 	G_fatal_error(_("Unable to open the signature file"));
@@ -2753,6 +2770,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2926,6 +2944,8 @@ int main(int argc, char *argv[])
 >>>>>>> 3ac827fa82 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -4241,7 +4261,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
 
     if (I_read_signatures(sigfp, &sigs) < 0)
         G_fatal_error(_("Error while reading the signatures file."));
@@ -5111,6 +5136,15 @@ int main(int argc, char *argv[])
                         "Extra signatures for bands: %s\n"
                         "Imagery group bands without signatures: %s"),
                       err[0] ? err[0] : _("none"), err[1] ? err[1] : _("none"));
+
+    err = I_sort_signatures_by_bandref(&sigs, &refs);
+    if (err)
+        G_fatal_error(_("Signature – group member band reference mismatch.\n"
+            "Extra signatures for bands: %s\n"
+            "Imagery group bands without signatures: %s"),
+            err[0] ? err[0] : _("none"),
+            err[1] ? err[1] : _("none")
+        );
 
     /* check the number of input bands */
     bands = refs.nfiles;
