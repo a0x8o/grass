@@ -76,6 +76,7 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -205,12 +206,20 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
             refer->file[i].name, refer->file[i].mapset);
 =======
 >>>>>>> osgeo-main
+=======
+        sigs->semantic_labels[i] = Rast_get_semantic_label_or_name(
+            refer->file[i].name, refer->file[i].mapset);
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
         sigs->bandrefs[i] = Rast_read_bandref(refer->file[i].name, refer->file[i].mapset);
         if (!sigs->bandrefs[i]) {
             G_warning(_("Raster map <%s@%s> lacks band reference"),
                 refer->file[i].name, refer->file[i].mapset);
             return 0;
         }
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -355,6 +364,7 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -417,6 +427,10 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
     }
 
     return 1;

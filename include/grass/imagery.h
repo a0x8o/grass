@@ -776,6 +776,7 @@ struct Signature
     char **bandrefs;    /* list of band references */
     int nsigs;          /* signature count */
     char title[100];    /* not used? */
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -832,6 +833,7 @@ struct Signature
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -921,6 +923,10 @@ struct Signature
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
     struct One_Sig *sig;    /* array of one signature per class */
 };
 
@@ -1120,6 +1126,7 @@ struct ClassSig
     int used;
     int type;           /* always is SIGNATURE_TYPE_MIXED ? */
     int nsubclasses;    /* SubSig item count */
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1272,6 +1279,7 @@ struct ClassSig {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1334,6 +1342,10 @@ struct ClassSig {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
     struct SubSig *SubSig;
     struct ClassData ClassData; /* used for SubSig calculation only */
 };
@@ -1368,6 +1380,7 @@ struct SigSet {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1378,6 +1391,8 @@ struct SigSet {
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
     char **semantic_labels; /* list of semantic labels [nbands]char* */
     int nclasses;           /* ClassSig item count */
 =======
@@ -1500,6 +1515,7 @@ struct SigSet {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1520,9 +1536,12 @@ struct SigSet {
     char **semantic_labels; /* list of semantic labels [nbands]char* */
     int nclasses;           /* ClassSig item count */
 =======
+>>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
     char **bandrefs;    /* list of band references [nbands]char* */
     int nclasses;       /* ClassSig item count */
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1611,6 +1630,8 @@ struct SigSet {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
     char *title;
     struct ClassSig *ClassSig;
 };
@@ -1734,6 +1755,7 @@ struct scdScattData {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 typedef enum {
@@ -1801,16 +1823,21 @@ typedef enum {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
 typedef enum {
     I_SIGFILE_TYPE_SIG,    /*! Signature files used by i.maxlik */
     I_SIGFILE_TYPE_SIGSET, /*! Signature files used by i.smap */
     I_SIGFILE_TYPE_LIBSVM, /*! Signature files used by i.svm */
 } I_SIGFILE_TYPE;
 =======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 typedef enum
 {
     I_SIGFILE_TYPE_SIG,       /*! Signature files used by i.maxlik */
     I_SIGFILE_TYPE_SIGSET,    /*! Signature files used by i.smap */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1869,6 +1896,8 @@ typedef enum
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
 =======
 typedef enum {
     I_SIGFILE_TYPE_SIG,    /*! Signature files used by i.maxlik */
@@ -1956,6 +1985,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2002,6 +2032,16 @@ typedef enum {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+} I_SIGFILE_TYPE;
+
+#define SIGNATURE_TYPE_MIXED 1  /* Unused? */
+#define I_SIGFILE_TYPE_COUNT 2  /*! Total count of supported signature file types */
+
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
 
 } I_SIGFILE_TYPE;
 
