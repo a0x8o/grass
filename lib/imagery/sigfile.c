@@ -90,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -243,6 +244,8 @@
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
@@ -496,11 +499,17 @@
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
    Returns a pointer to FILE for writing signature file.
    Use fclose on the pointer to close after use.
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -546,6 +555,8 @@
 >>>>>>> c621983a87 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1224,7 +1235,13 @@
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
    \param name signature filename
 
    \return pointer to FILE
@@ -1268,6 +1285,7 @@ FILE *I_fopen_signature_file_new(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -1724,7 +1742,12 @@ FILE *I_fopen_signature_file_new(const char *name)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
     char dir[GNAME_MAX];
     FILE *fd;
 
@@ -1733,6 +1756,7 @@ FILE *I_fopen_signature_file_new(const char *name)
     I_get_signatures_dir(dir, I_SIGFILE_TYPE_SIG);
     fd = G_fopen_new_misc(dir, "sig", name);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2474,7 +2498,23 @@ FILE *I_fopen_signature_file_new(const char *name)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    char element[GNAME_MAX];
+    FILE *fd;
+
+    /* create sig directory */
+    I__make_signatures_element(I_SIGFILE_TYPE_SIG);
+
+    I__get_signatures_element(element, I_SIGFILE_TYPE_SIG);
+    fd = G_fopen_new(element, name);
+
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
     return fd;
 }
 
@@ -2545,6 +2585,7 @@ FILE *I_fopen_signature_file_new(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2664,6 +2705,8 @@ FILE *I_fopen_signature_file_new(const char *name)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -3149,7 +3192,12 @@ FILE *I_fopen_signature_file_new(const char *name)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
    Use fully qualified names for signatures from other mapsets.
 
    Returns a pointer to FILE with signature. Use fclose on the pointer
@@ -3185,6 +3233,7 @@ FILE *I_fopen_signature_file_new(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3937,7 +3986,15 @@ FILE *I_fopen_signature_file_new(const char *name)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+   Use fully qualified names for signatures from other mapsets
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 
    \param name signature filename
 
@@ -4020,6 +4077,7 @@ FILE *I_fopen_signature_file_old(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4121,6 +4179,8 @@ FILE *I_fopen_signature_file_old(const char *name)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -4541,7 +4601,12 @@ FILE *I_fopen_signature_file_old(const char *name)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
     char dir[GNAME_MAX];
 =======
     char element[GNAME_MAX];
@@ -4572,6 +4637,7 @@ FILE *I_fopen_signature_file_old(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
@@ -4591,6 +4657,8 @@ FILE *I_fopen_signature_file_old(const char *name)
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
     char dir[GNAME_MAX];
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4968,7 +5036,12 @@ FILE *I_fopen_signature_file_old(const char *name)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
     FILE *fd;
 
     if (G_unqualified_name(name, NULL, sig_name, sig_mapset) == 0)
@@ -5047,6 +5120,7 @@ FILE *I_fopen_signature_file_old(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5148,6 +5222,8 @@ FILE *I_fopen_signature_file_old(const char *name)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -5565,6 +5641,8 @@ FILE *I_fopen_signature_file_old(const char *name)
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
     I_get_signatures_dir(dir, I_SIGFILE_TYPE_SIG);
     fd = G_fopen_old_misc(dir, "sig", sig_name, sig_mapset);
 =======
@@ -5593,7 +5671,11 @@ FILE *I_fopen_signature_file_old(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
+=======
+<<<<<<< HEAD
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 <<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
@@ -6027,7 +6109,12 @@ FILE *I_fopen_signature_file_old(const char *name)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 
     return fd;
 }

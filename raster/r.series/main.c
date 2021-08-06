@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -490,7 +491,12 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
  * AUTHOR(S):    Glynn Clements <glynn gclements.plus.com>
  *                 (original contributor)
  *               Hamish Bowman <hamish_b yahoo.com>,
@@ -499,6 +505,7 @@
  *               Aaron Saw Min Sern (OpenMP parallelization)
  * PURPOSE:
  * COPYRIGHT:    (C) 2002-2022 by the GRASS Development Team
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -777,7 +784,13 @@
 =======
 =======
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
  * AUTHOR(S):    Glynn Clements <glynn gclements.plus.com> (original contributor)
  *               Hamish Bowman <hamish_b yahoo.com>, 
  *               Jachym Cepicky <jachym les-ejk.cz>,
@@ -833,6 +846,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -926,6 +940,8 @@
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -1479,7 +1495,12 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
  *
  *               This program is free software under the GNU General Public
  *               License (>=v2). Read the file COPYING that comes with GRASS
@@ -1550,6 +1571,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1669,6 +1691,8 @@
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -2154,7 +2178,12 @@
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 
 #if defined(_OPENMP)
 #include <omp.h>
@@ -2190,6 +2219,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2917,7 +2947,14 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
@@ -2991,6 +3028,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3108,6 +3146,8 @@
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -3593,13 +3633,19 @@
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 struct menu {
     stat_func *method;       /* routine to compute new value */
     stat_func_w *method_w;   /* routine to compute new value (weighted) */
     RASTER_MAP_TYPE outtype; /* type of result */
     char *name;              /* method name */
     char *text;              /* menu display - full description */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3957,7 +4003,13 @@ struct menu {
 =======
 =======
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 struct menu
 {
     stat_func *method;          /* routine to compute new value */
@@ -3965,6 +4017,7 @@ struct menu
     RASTER_MAP_TYPE outtype;    /* type of result */
     char *name;                 /* method name */
     char *text;                 /* menu display - full description */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4488,7 +4541,13 @@ struct menu
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 } menu[] = {
     {c_ave, w_ave, DCELL_TYPE, "average", "average value"},
     {c_count, w_count, CELL_TYPE, "count", "count of non-NULL cells"},
@@ -4587,6 +4646,7 @@ struct menu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4758,6 +4818,8 @@ struct menu
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
@@ -5067,9 +5129,13 @@ struct menu
     {NULL, NULL, 0, NULL, NULL}};
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
 =======
+    {NULL, NULL, 0, NULL, NULL}};
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+=======
     {NULL, NULL, 0, NULL, NULL}
 };
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5431,7 +5497,12 @@ struct menu
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 
 struct input {
     const char *name;
@@ -5548,6 +5619,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5627,6 +5699,8 @@ int main(int argc, char *argv[])
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -6330,11 +6404,14 @@ int main(int argc, char *argv[])
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
     struct {
         struct Option *input, *file, *output, *method, *weights, *quantile,
             *range, *nprocs, *memory;
     } parm;
     struct {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6844,7 +6921,21 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    struct
+    {
+        struct Option *input, *file, *output, *method, *weights, *quantile,
+            *range;
+    } parm;
+    struct
+    {
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
         struct Flag *nulls, *lazy;
     } flag;
     int i, t;
@@ -7491,6 +7582,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -7944,11 +8036,17 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
     DCELL **values = NULL, **values_tmp = NULL;
 
     DCELL(**values_w)[2];     /* list of values and weights */
     DCELL(**values_w_tmp)[2]; /* list of values and weights */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8227,11 +8325,18 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
     DCELL *values = NULL, *values_tmp = NULL;
 
     DCELL(*values_w)[2];     /* list of values and weights */
     DCELL(*values_w_tmp)[2]; /* list of values and weights */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8894,7 +8999,13 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
     int have_weights;
     int nrows, ncols;
     int row, col;
@@ -11483,6 +11594,7 @@ int main(int argc, char *argv[])
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 
+<<<<<<< HEAD
     sscanf(parm.nprocs->answer, "%d", &nprocs);
     if (nprocs < 1) {
         G_fatal_error(_("<%d> is not valid number of nprocs."), nprocs);
@@ -11507,6 +11619,7 @@ int main(int argc, char *argv[])
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
@@ -11526,10 +11639,16 @@ int main(int argc, char *argv[])
     lo = -INFINITY;
     hi = INFINITY;
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+=======
+    lo = -1.0 / 0.0; /* -inf */
+    hi = 1.0 / 0.0;  /* inf */
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
     if (parm.range->answer) {
         lo = atof(parm.range->answers[0]);
         hi = atof(parm.range->answers[1]);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
@@ -11570,7 +11689,13 @@ int main(int argc, char *argv[])
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 
     if (parm.input->answer && parm.file->answer)
         G_fatal_error(_("%s= and %s= are mutually exclusive"), parm.input->key,
@@ -11635,6 +11760,7 @@ int main(int argc, char *argv[])
 
             if (num_inputs >= max_inputs) {
                 max_inputs += 100;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12127,7 +12253,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
                 for (t = 0; t < nprocs; t++)
                     inputs[t] =
                         G_realloc(inputs[t], max_inputs * sizeof(struct input));
@@ -12172,6 +12303,7 @@ int main(int argc, char *argv[])
             ;
         num_inputs = i;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12321,6 +12453,8 @@ int main(int argc, char *argv[])
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -12828,12 +12962,37 @@ int main(int argc, char *argv[])
 
             num_inputs++;
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                inputs = G_realloc(inputs, max_inputs * sizeof(struct input));
+            }
+            p = &inputs[num_inputs++];
+
+            p->name = G_store(name);
+            p->weight = weight;
+            G_verbose_message(_("Reading raster map <%s> using weight %f..."),
+                              p->name, p->weight);
+            p->fd = Rast_open_old(p->name, "");
+            if (p->fd < 0)
+                G_fatal_error(_("Unable to open input raster <%s>"), p->name);
+            maptype = Rast_get_map_type(p->fd);
+            if (intype == -1)
+                intype = maptype;
+            else {
+                if (intype != maptype)
+                    intype = DCELL_TYPE;
+            }
+            if (flag.lazy->answer)
+                Rast_close(p->fd);
+            p->buf = Rast_allocate_d_buf();
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
         }
 
         if (num_inputs < 1)
             G_fatal_error(_("No raster map name found in input file"));
 
         fclose(in);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14849,6 +15008,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
@@ -15095,10 +15257,13 @@ int main(int argc, char *argv[])
 >>>>>>> 0873fb5a66 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
     } else {
         int num_weights;
 
         for (i = 0; parm.input->answers[i]; i++) ;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15210,12 +15375,18 @@ int main(int argc, char *argv[])
 
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
+=======
+        num_inputs = i;
+
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
         if (num_inputs < 1)
             G_fatal_error(_("Raster map not found"));
 
         /* count weights */
         num_weights = 0;
         if (parm.weights->answers) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15818,8 +15989,13 @@ int main(int argc, char *argv[])
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             num_weights = i;
 =======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
             for (i = 0; parm.weights->answers[i]; i++)
                 ;
+=======
+            for (i = 0; parm.weights->answers[i]; i++) ;
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
             num_weights = i;
         }
 
@@ -15827,6 +16003,7 @@ int main(int argc, char *argv[])
             G_fatal_error(
                 _("input= and weights= must have the same number of values"));
 
+<<<<<<< HEAD
         for (t = 0; t < nprocs; t++) {
             inputs[t] = G_malloc(num_inputs * sizeof(struct input));
 
@@ -15867,6 +16044,7 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
         }
+<<<<<<< HEAD
 
         if (num_weights && num_weights != num_inputs)
             G_fatal_error(
@@ -20206,6 +20384,50 @@ int main(int argc, char *argv[])
     for (i = 0; parm.method->answers[i]; i++)
         ;
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        inputs = G_malloc(num_inputs * sizeof(struct input));
+
+        for (i = 0; i < num_inputs; i++) {
+            struct input *p = &inputs[i];
+
+            p->name = parm.input->answers[i];
+            p->weight = 1.0;
+
+            if (num_weights) {
+                p->weight = (DCELL) atof(parm.weights->answers[i]);
+
+                if (p->weight < 0)
+                    G_fatal_error(_("Weights must be positive"));
+
+                if (p->weight != 1)
+                    have_weights = 1;
+            }
+
+            G_verbose_message(_("Reading raster map <%s> using weight %f..."),
+                              p->name, p->weight);
+            p->fd = Rast_open_old(p->name, "");
+            if (p->fd < 0)
+                G_fatal_error(_("Unable to open input raster <%s>"), p->name);
+            maptype = Rast_get_map_type(p->fd);
+            if (intype == -1)
+                intype = maptype;
+            else {
+                if (intype != maptype)
+                    intype = DCELL_TYPE;
+            }
+            if (flag.lazy->answer)
+                Rast_close(p->fd);
+            p->buf = Rast_allocate_d_buf();
+        }
+    }
+
+    /* process the output maps */
+    for (i = 0; parm.output->answers[i]; i++) ;
+    num_outputs = i;
+
+    for (i = 0; parm.method->answers[i]; i++) ;
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
     if (num_outputs != i)
         G_fatal_error(
             _("output= and method= must have the same number of values"));
@@ -20257,6 +20479,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -20383,6 +20606,9 @@ int main(int argc, char *argv[])
             }
             else {
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            } else {
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
                 G_warning(_("Method %s not compatible with weights, using "
                             "unweighed version instead"),
                           method_name);
@@ -20418,6 +20644,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -20544,6 +20771,9 @@ int main(int argc, char *argv[])
         }
         else {
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        } else {
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
             out->method_fn = menu[method].method;
             out->method_fn_w = NULL;
         }
@@ -20579,6 +20809,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -20690,6 +20921,9 @@ int main(int argc, char *argv[])
 =======
         out->buf = G_calloc((size_t)bufrows * ncols, sizeof(DCELL));
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        out->buf = Rast_allocate_d_buf();
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
         if (menu[method].outtype == -1)
             out->fd = Rast_open_new(output_name, intype);
         else
@@ -20697,6 +20931,7 @@ int main(int argc, char *argv[])
     }
 
     /* initialise variables */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21498,6 +21733,13 @@ int main(int argc, char *argv[])
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    values = G_malloc(num_inputs * sizeof(DCELL));
+    values_tmp = G_malloc(num_inputs * sizeof(DCELL));
+    values_w = NULL;
+    values_w_tmp = NULL;
+    if (have_weights) {
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
         values_w = (DCELL(*)[2]) G_malloc(num_inputs * 2 * sizeof(DCELL));
         values_w_tmp = (DCELL(*)[2]) G_malloc(num_inputs * 2 * sizeof(DCELL));
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
@@ -21825,6 +22067,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -21996,7 +22239,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
     int computed = 0;
     int written = 0;
 
@@ -22141,6 +22389,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     for (row = 0; row < nrows; row++) {
         G_percent(row, nrows, 2);
@@ -22185,6 +22434,8 @@ int main(int argc, char *argv[])
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
     for (row = 0; row < nrows; row++) {
         G_percent(row, nrows, 2);
@@ -22237,6 +22488,66 @@ int main(int argc, char *argv[])
             values_w_tmp[t] =
                 (DCELL(*)[2])G_malloc(sizeof(DCELL) * num_inputs * 2);
         }
+=======
+=======
+    for (row = 0; row < nrows; row++) {
+        G_percent(row, nrows, 2);
+
+        if (flag.lazy->answer) {
+            /* Open the files only on run time */
+            for (i = 0; i < num_inputs; i++) {
+                inputs[i].fd = Rast_open_old(inputs[i].name, "");
+                Rast_get_d_row(inputs[i].fd, inputs[i].buf, row);
+                Rast_close(inputs[i].fd);
+            }
+        } else {
+            for (i = 0; i < num_inputs; i++)
+                Rast_get_d_row(inputs[i].fd, inputs[i].buf, row);
+        }
+
+        for (col = 0; col < ncols; col++) {
+            int null = 0;
+
+            for (i = 0; i < num_inputs; i++) {
+                DCELL v = inputs[i].buf[col];
+
+                if (Rast_is_d_null_value(&v))
+                    null = 1;
+                else if (parm.range->answer && (v < lo || v > hi)) {
+                    Rast_set_d_null_value(&v, 1);
+                    null = 1;
+                }
+                values[i] = v;
+                if (have_weights) {
+                    values_w[i][0] = v;
+                    values_w[i][1] = inputs[i].weight;
+                }
+            }
+
+            for (i = 0; i < num_outputs; i++) {
+                struct output *out = &outputs[i];
+
+                if (null && flag.nulls->answer)
+                    Rast_set_d_null_value(&out->buf[col], 1);
+                else {
+                    if (out->method_fn_w) {
+                        memcpy(values_w_tmp, values_w,
+                               num_inputs * 2 * sizeof(DCELL));
+                        (*out->method_fn_w)(&out->buf[col], values_w_tmp,
+                                            num_inputs, &out->quantile);
+                    } else {
+                        memcpy(values_tmp, values, num_inputs * sizeof(DCELL));
+                        (*out->method_fn)(&out->buf[col], values_tmp,
+                                          num_inputs, &out->quantile);
+                    }
+                }
+            }
+        }
+
+        for (i = 0; i < num_outputs; i++)
+            Rast_put_d_row(outputs[i].fd, outputs[i].buf);
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
     }
 
     /* process the data */
@@ -26104,6 +26415,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -26257,6 +26569,8 @@ int main(int argc, char *argv[])
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
@@ -26510,11 +26824,17 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
         for (t = 0; t < nprocs; t++)
             for (i = 0; i < num_inputs; i++)
                 Rast_close(inputs[t][i].fd);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26560,6 +26880,8 @@ int main(int argc, char *argv[])
 >>>>>>> c621983a87 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27267,7 +27589,15 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        for (i = 0; i < num_inputs; i++)
+            Rast_close(inputs[i].fd);
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
     }
 
     exit(EXIT_SUCCESS);
