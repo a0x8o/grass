@@ -13,6 +13,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
 <<<<<<< HEAD
 =======
@@ -298,8 +301,17 @@
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
  * AUTHOR(S):    Glynn Clements <glynn gclements.plus.com>
  *                 (original contributor)
  *               Hamish Bowman <hamish_b yahoo.com>,
@@ -316,8 +328,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -490,8 +505,18 @@
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
  * AUTHOR(S):    Glynn Clements <glynn gclements.plus.com> (original contributor)
  *               Hamish Bowman <hamish_b yahoo.com>, 
  *               Jachym Cepicky <jachym les-ejk.cz>,
@@ -531,6 +556,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -593,6 +619,8 @@
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -605,6 +633,8 @@
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -905,8 +935,17 @@
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
  *
  *               This program is free software under the GNU General Public
  *               License (>=v2). Read the file COPYING that comes with GRASS
@@ -1044,6 +1083,10 @@
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -1296,6 +1339,7 @@
 >>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
@@ -1304,7 +1348,15 @@
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
 
 #if defined(_OPENMP)
 #include <omp.h>
@@ -1323,6 +1375,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1752,6 +1808,7 @@
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
@@ -1766,7 +1823,17 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
@@ -1905,6 +1972,10 @@
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -2157,6 +2228,7 @@
 >>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
@@ -2165,7 +2237,15 @@
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
 struct menu {
     stat_func *method;       /* routine to compute new value */
     stat_func_w *method_w;   /* routine to compute new value (weighted) */
@@ -2190,10 +2270,13 @@ struct menu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2405,8 +2488,18 @@ struct menu {
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
 struct menu
 {
     stat_func *method;          /* routine to compute new value */
@@ -2583,12 +2676,24 @@ struct menu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -2695,6 +2800,7 @@ struct menu
 >>>>>>> c167de6248 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -2721,7 +2827,15 @@ struct menu
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
 } menu[] = {
     {c_ave, w_ave, DCELL_TYPE, "average", "average value"},
     {c_count, w_count, CELL_TYPE, "count", "count of non-NULL cells"},
@@ -2747,6 +2861,7 @@ struct menu
     {c_quant, w_quant, DCELL_TYPE, "quantile", "arbitrary quantile"},
     {c_skew, w_skew, DCELL_TYPE, "skewness", "skewness"},
     {c_kurt, w_kurt, DCELL_TYPE, "kurtosis", "kurtosis"},
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2920,6 +3035,10 @@ struct menu
 =======
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
     {NULL, NULL, 0, NULL, NULL}};
@@ -3278,6 +3397,7 @@ struct menu
 >>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+<<<<<<< HEAD
 =======
     {NULL, NULL, 0, NULL, NULL}};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3287,7 +3407,20 @@ struct menu
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    {NULL, NULL, 0, NULL, NULL}};
+=======
+    {NULL, NULL, 0, NULL, NULL}
+};
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
 
 struct input {
     const char *name;
@@ -3431,6 +3564,10 @@ int main(int argc, char *argv[])
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -3588,8 +3725,21 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
     struct {
         struct Option *input, *file, *output, *method, *weights, *quantile,
             *range, *nprocs, *memory;
@@ -3602,11 +3752,15 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4124,6 +4278,7 @@ int main(int argc, char *argv[])
 =======
 =======
 =======
+<<<<<<< HEAD
     struct
     {
 =======
@@ -4151,7 +4306,24 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+    struct
+    {
+        struct Option *input, *file, *output, *method, *weights, *quantile,
+            *range;
+    } parm;
+    struct
+    {
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
         struct Flag *nulls, *lazy;
     } flag;
     int i, t;
@@ -4529,6 +4701,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
 <<<<<<< HEAD
 =======
@@ -4814,8 +4989,17 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
     DCELL **values = NULL, **values_tmp = NULL;
 
     DCELL(**values_w)[2];     /* list of values and weights */
@@ -4828,8 +5012,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5002,8 +5189,18 @@ int main(int argc, char *argv[])
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
     DCELL *values = NULL, *values_tmp = NULL;
 
     DCELL(*values_w)[2];     /* list of values and weights */
@@ -5030,12 +5227,25 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
 =======
     DCELL **values = NULL, **values_tmp = NULL;
 
@@ -5395,8 +5605,17 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
     int have_weights;
     int nrows, ncols;
     int row, col;
@@ -6392,6 +6611,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     lo = -1.0 / 0.0; /* -inf */
     hi = 1.0 / 0.0;  /* inf */
@@ -6402,6 +6622,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
     sscanf(parm.nprocs->answer, "%d", &nprocs);
     if (nprocs < 1) {
         G_fatal_error(_("<%d> is not valid number of nprocs."), nprocs);
@@ -7060,6 +7286,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -7149,6 +7376,8 @@ int main(int argc, char *argv[])
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -7168,10 +7397,53 @@ int main(int argc, char *argv[])
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+
+    sscanf(parm.nprocs->answer, "%d", &nprocs);
+    if (nprocs < 1) {
+        G_fatal_error(_("<%d> is not valid number of nprocs."), nprocs);
+    }
+#if defined(_OPENMP)
+    omp_set_num_threads(nprocs);
+    threaded = nprocs > 1;
+#else
+    if (nprocs != 1)
+        G_warning(_("GRASS is compiled without OpenMP support. Ignoring "
+                    "threads setting."));
+    nprocs = 1;
+#endif
+
+    lo = -INFINITY;
+    hi = INFINITY;
+=======
+=======
+    lo = -1.0 / 0.0; /* -inf */
+    hi = 1.0 / 0.0;  /* inf */
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+    if (parm.range->answer) {
+        lo = atof(parm.range->answers[0]);
+        hi = atof(parm.range->answers[1]);
+    }
+<<<<<<< HEAD
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
 
     if (parm.input->answer && parm.file->answer)
         G_fatal_error(_("%s= and %s= are mutually exclusive"), parm.input->key,
@@ -7248,6 +7520,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
 <<<<<<< HEAD
 =======
@@ -7536,8 +7811,17 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
                 for (t = 0; t < nprocs; t++)
                     inputs[t] =
                         G_realloc(inputs[t], max_inputs * sizeof(struct input));
@@ -7582,6 +7866,7 @@ int main(int argc, char *argv[])
             ;
         num_inputs = i;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7684,6 +7969,13 @@ int main(int argc, char *argv[])
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+=======
+=======
+=======
+>>>>>>> osgeo-main
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9967,6 +10259,35 @@ int main(int argc, char *argv[])
 
             num_inputs++;
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+                inputs = G_realloc(inputs, max_inputs * sizeof(struct input));
+            }
+            p = &inputs[num_inputs++];
+
+            p->name = G_store(name);
+            p->weight = weight;
+            G_verbose_message(_("Reading raster map <%s> using weight %f..."),
+                              p->name, p->weight);
+            p->fd = Rast_open_old(p->name, "");
+            if (p->fd < 0)
+                G_fatal_error(_("Unable to open input raster <%s>"), p->name);
+            maptype = Rast_get_map_type(p->fd);
+            if (intype == -1)
+                intype = maptype;
+            else {
+                if (intype != maptype)
+                    intype = DCELL_TYPE;
+            }
+            if (flag.lazy->answer)
+                Rast_close(p->fd);
+            p->buf = Rast_allocate_d_buf();
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
         }
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
 
@@ -9974,6 +10295,7 @@ int main(int argc, char *argv[])
             G_fatal_error(_("No raster map name found in input file"));
 
         fclose(in);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9987,6 +10309,12 @@ int main(int argc, char *argv[])
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
     }
     else {
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -13349,6 +13677,132 @@ int main(int argc, char *argv[])
                     Rast_close(p->fd);
                 p->buf = Rast_allocate_d_buf();
             }
+<<<<<<< HEAD
+=======
+=======
+=======
+    } else {
+        int num_weights;
+
+        for (i = 0; parm.input->answers[i]; i++) ;
+        num_inputs = i;
+
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+        if (num_inputs < 1)
+            G_fatal_error(_("Raster map not found"));
+
+        /* count weights */
+        num_weights = 0;
+        if (parm.weights->answers) {
+<<<<<<< HEAD
+            for (i = 0; parm.weights->answers[i]; i++)
+                ;
+=======
+            for (i = 0; parm.weights->answers[i]; i++) ;
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+            num_weights = i;
+<<<<<<< HEAD
+=======
+        }
+
+        if (num_weights && num_weights != num_inputs)
+            G_fatal_error(
+                _("input= and weights= must have the same number of values"));
+
+<<<<<<< HEAD
+        for (t = 0; t < nprocs; t++) {
+            inputs[t] = G_malloc(num_inputs * sizeof(struct input));
+
+            for (i = 0; i < num_inputs; i++) {
+                struct input *p = &inputs[t][i];
+
+                p->name = parm.input->answers[i];
+                p->weight = 1.0;
+
+                if (num_weights) {
+                    p->weight = (DCELL)atof(parm.weights->answers[i]);
+
+                    if (p->weight < 0)
+                        G_fatal_error(_("Weights must be positive"));
+
+                    if (p->weight != 1)
+                        have_weights = 1;
+                }
+
+                G_verbose_message(
+                    _("Reading raster map <%s> using weight %f..."), p->name,
+                    p->weight);
+                p->fd = Rast_open_old(p->name, "");
+                if (p->fd < 0)
+                    G_fatal_error(_("Unable to open input raster <%s>"),
+                                  p->name);
+                maptype = Rast_get_map_type(p->fd);
+                if (intype == -1)
+                    intype = maptype;
+                else {
+                    if (intype != maptype)
+                        intype = DCELL_TYPE;
+                }
+                if (flag.lazy->answer)
+                    Rast_close(p->fd);
+                p->buf = Rast_allocate_d_buf();
+            }
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+        }
+<<<<<<< HEAD
+
+        if (num_weights && num_weights != num_inputs)
+            G_fatal_error(
+                _("input= and weights= must have the same number of values"));
+
+        for (t = 0; t < nprocs; t++) {
+            inputs[t] = G_malloc(num_inputs * sizeof(struct input));
+
+            for (i = 0; i < num_inputs; i++) {
+                struct input *p = &inputs[t][i];
+
+                p->name = parm.input->answers[i];
+                p->weight = 1.0;
+
+                if (num_weights) {
+                    p->weight = (DCELL)atof(parm.weights->answers[i]);
+
+                    if (p->weight < 0)
+                        G_fatal_error(_("Weights must be positive"));
+
+                    if (p->weight != 1)
+                        have_weights = 1;
+                }
+
+                G_verbose_message(
+                    _("Reading raster map <%s> using weight %f..."), p->name,
+                    p->weight);
+                p->fd = Rast_open_old(p->name, "");
+                if (p->fd < 0)
+                    G_fatal_error(_("Unable to open input raster <%s>"),
+                                  p->name);
+                maptype = Rast_get_map_type(p->fd);
+                if (intype == -1)
+                    intype = maptype;
+                else {
+                    if (intype != maptype)
+                        intype = DCELL_TYPE;
+                }
+                if (flag.lazy->answer)
+                    Rast_close(p->fd);
+                p->buf = Rast_allocate_d_buf();
+            }
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
         }
     }
 
@@ -13622,6 +14076,7 @@ int main(int argc, char *argv[])
 =======
 =======
         inputs = G_malloc(num_inputs * sizeof(struct input));
+<<<<<<< HEAD
 =======
         for (t = 0; t < nprocs; t++) {
             inputs[t] = G_malloc(num_inputs * sizeof(struct input));
@@ -13696,6 +14151,49 @@ int main(int argc, char *argv[])
     for (i = 0; parm.method->answers[i]; i++)
         ;
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+        for (i = 0; i < num_inputs; i++) {
+            struct input *p = &inputs[i];
+
+            p->name = parm.input->answers[i];
+            p->weight = 1.0;
+
+            if (num_weights) {
+                p->weight = (DCELL) atof(parm.weights->answers[i]);
+
+                if (p->weight < 0)
+                    G_fatal_error(_("Weights must be positive"));
+
+                if (p->weight != 1)
+                    have_weights = 1;
+            }
+
+            G_verbose_message(_("Reading raster map <%s> using weight %f..."),
+                              p->name, p->weight);
+            p->fd = Rast_open_old(p->name, "");
+            if (p->fd < 0)
+                G_fatal_error(_("Unable to open input raster <%s>"), p->name);
+            maptype = Rast_get_map_type(p->fd);
+            if (intype == -1)
+                intype = maptype;
+            else {
+                if (intype != maptype)
+                    intype = DCELL_TYPE;
+            }
+            if (flag.lazy->answer)
+                Rast_close(p->fd);
+            p->buf = Rast_allocate_d_buf();
+        }
+    }
+
+    /* process the output maps */
+    for (i = 0; parm.output->answers[i]; i++) ;
+    num_outputs = i;
+
+    for (i = 0; parm.method->answers[i]; i++) ;
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
     if (num_outputs != i)
         G_fatal_error(
             _("output= and method= must have the same number of values"));
@@ -13731,10 +14229,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
             }
             else {
 =======
@@ -13778,11 +14279,15 @@ int main(int argc, char *argv[])
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
             } else {
+<<<<<<< HEAD
 >>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
 =======
             }
             else {
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
                 G_warning(_("Method %s not compatible with weights, using "
                             "unweighed version instead"),
                           method_name);
@@ -13802,10 +14307,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
         }
         else {
 =======
@@ -13849,11 +14357,15 @@ int main(int argc, char *argv[])
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
         } else {
+<<<<<<< HEAD
 >>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
 =======
         }
         else {
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
             out->method_fn = menu[method].method;
             out->method_fn_w = NULL;
         }
@@ -13873,6 +14385,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
         out->buf = G_calloc((size_t)bufrows * ncols, sizeof(DCELL));
 =======
         out->buf = Rast_allocate_d_buf();
@@ -13914,10 +14429,14 @@ int main(int argc, char *argv[])
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
         out->buf = Rast_allocate_d_buf();
+<<<<<<< HEAD
 >>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
 =======
         out->buf = G_calloc((size_t)bufrows * ncols, sizeof(DCELL));
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
         if (menu[method].outtype == -1)
             out->fd = Rast_open_new(output_name, intype);
         else
@@ -13935,7 +14454,10 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14151,12 +14673,19 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
     values = G_malloc(num_inputs * sizeof(DCELL));
     values_tmp = G_malloc(num_inputs * sizeof(DCELL));
     values_w = NULL;
     values_w_tmp = NULL;
     if (have_weights) {
+<<<<<<< HEAD
 >>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+=======
+<<<<<<< HEAD
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
     values_w = NULL;
     values_w_tmp = NULL;
@@ -14164,7 +14693,197 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+        values_w = (DCELL(*)[2]) G_malloc(num_inputs * 2 * sizeof(DCELL));
+        values_w_tmp = (DCELL(*)[2]) G_malloc(num_inputs * 2 * sizeof(DCELL));
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+    }
+
+    nrows = Rast_window_rows();
+    ncols = Rast_window_cols();
+
+    bufrows = atoi(parm.memory->answer) * (((1 << 20) / sizeof(DCELL)) / ncols);
+    /* set the output buffer rows to be at most covering the entire map */
+    if (bufrows > nrows) {
+        bufrows = nrows;
+    }
+    /* but at least the number of threads */
+    if (bufrows < nprocs) {
+        bufrows = nprocs;
+    }
+
+    /* set the locks for lazily opening raster files */
+#if defined(_OPENMP)
+    if (flag.lazy->answer && threaded) {
+        omp_init_lock(&fd_lock);
+    }
+#endif
+
+    /* process the output maps */
+    for (i = 0; parm.output->answers[i]; i++)
+        ;
+    num_outputs = i;
+
+    for (i = 0; parm.method->answers[i]; i++)
+        ;
+    if (num_outputs != i)
+        G_fatal_error(
+            _("output= and method= must have the same number of values"));
+
+    outputs = G_calloc(num_outputs, sizeof(struct output));
+
+    for (i = 0; i < num_outputs; i++) {
+        struct output *out = &outputs[i];
+        const char *output_name = parm.output->answers[i];
+        const char *method_name = parm.method->answers[i];
+        int method = find_method(method_name);
+
+        out->name = output_name;
+
+        if (have_weights) {
+            if (menu[method].method_w) {
+                out->method_fn = NULL;
+                out->method_fn_w = menu[method].method_w;
+                /* special case mode: the result of a weighed mode
+                 * can be stored as type of input
+                 * all other weighed versions: result as DCELL_TYPE */
+                if (menu[method].outtype == CELL_TYPE)
+                    menu[method].outtype = DCELL_TYPE;
+            }
+            else {
+                G_warning(_("Method %s not compatible with weights, using "
+                            "unweighed version instead"),
+                          method_name);
+
+                out->method_fn = menu[method].method;
+                out->method_fn_w = NULL;
+            }
+        }
+        else {
+            out->method_fn = menu[method].method;
+            out->method_fn_w = NULL;
+        }
+
+        out->quantile = (parm.quantile->answer && parm.quantile->answers[i])
+                            ? atof(parm.quantile->answers[i])
+                            : 0;
+        out->buf = G_calloc((size_t)bufrows * ncols, sizeof(DCELL));
+        if (menu[method].outtype == -1)
+            out->fd = Rast_open_new(output_name, intype);
+        else
+            out->fd = Rast_open_new(output_name, menu[method].outtype);
+    }
+
+    /* initialise variables */
+    values = G_malloc(nprocs * sizeof *values);
+    values_tmp = G_malloc(nprocs * sizeof *values_tmp);
+    for (t = 0; t < nprocs; t++) {
+        values[t] = G_malloc(sizeof(DCELL) * num_inputs);
+        values_tmp[t] = G_malloc(sizeof(DCELL) * num_inputs);
+    }
+    values_w = NULL;
+    values_w_tmp = NULL;
+    if (have_weights) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        values_w = (DCELL(*)[2]) G_malloc(num_inputs * 2 * sizeof(DCELL));
+        values_w_tmp = (DCELL(*)[2]) G_malloc(num_inputs * 2 * sizeof(DCELL));
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+    }
+
+    nrows = Rast_window_rows();
+    ncols = Rast_window_cols();
+
+    bufrows = atoi(parm.memory->answer) * (((1 << 20) / sizeof(DCELL)) / ncols);
+    /* set the output buffer rows to be at most covering the entire map */
+    if (bufrows > nrows) {
+        bufrows = nrows;
+    }
+    /* but at least the number of threads */
+    if (bufrows < nprocs) {
+        bufrows = nprocs;
+    }
+
+    /* set the locks for lazily opening raster files */
+#if defined(_OPENMP)
+    if (flag.lazy->answer && threaded) {
+        omp_init_lock(&fd_lock);
+    }
+#endif
+
+    /* process the output maps */
+    for (i = 0; parm.output->answers[i]; i++)
+        ;
+    num_outputs = i;
+
+    for (i = 0; parm.method->answers[i]; i++)
+        ;
+    if (num_outputs != i)
+        G_fatal_error(
+            _("output= and method= must have the same number of values"));
+
+    outputs = G_calloc(num_outputs, sizeof(struct output));
+
+    for (i = 0; i < num_outputs; i++) {
+        struct output *out = &outputs[i];
+        const char *output_name = parm.output->answers[i];
+        const char *method_name = parm.method->answers[i];
+        int method = find_method(method_name);
+
+        out->name = output_name;
+
+        if (have_weights) {
+            if (menu[method].method_w) {
+                out->method_fn = NULL;
+                out->method_fn_w = menu[method].method_w;
+                /* special case mode: the result of a weighed mode
+                 * can be stored as type of input
+                 * all other weighed versions: result as DCELL_TYPE */
+                if (menu[method].outtype == CELL_TYPE)
+                    menu[method].outtype = DCELL_TYPE;
+            }
+            else {
+                G_warning(_("Method %s not compatible with weights, using "
+                            "unweighed version instead"),
+                          method_name);
+
+                out->method_fn = menu[method].method;
+                out->method_fn_w = NULL;
+            }
+        }
+        else {
+            out->method_fn = menu[method].method;
+            out->method_fn_w = NULL;
+        }
+
+        out->quantile = (parm.quantile->answer && parm.quantile->answers[i])
+                            ? atof(parm.quantile->answers[i])
+                            : 0;
+        out->buf = G_calloc((size_t)bufrows * ncols, sizeof(DCELL));
+        if (menu[method].outtype == -1)
+            out->fd = Rast_open_new(output_name, intype);
+        else
+            out->fd = Rast_open_new(output_name, menu[method].outtype);
+    }
+
+    /* initialise variables */
+    values = G_malloc(nprocs * sizeof *values);
+    values_tmp = G_malloc(nprocs * sizeof *values_tmp);
+    for (t = 0; t < nprocs; t++) {
+        values[t] = G_malloc(sizeof(DCELL) * num_inputs);
+        values_tmp[t] = G_malloc(sizeof(DCELL) * num_inputs);
+    }
+    values_w = NULL;
+    values_w_tmp = NULL;
+    if (have_weights) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
         values_w = (DCELL(*)[2]) G_malloc(num_inputs * 2 * sizeof(DCELL));
         values_w_tmp = (DCELL(*)[2]) G_malloc(num_inputs * 2 * sizeof(DCELL));
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
@@ -14397,6 +15116,10 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14723,7 +15446,20 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
     int computed = 0;
     int written = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -14997,6 +15733,7 @@ int main(int argc, char *argv[])
 #if defined(_OPENMP)
     if (flag.lazy->answer && nprocs > 1) {
         omp_destroy_lock(&fd_lock);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15994,6 +16731,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+=======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16031,6 +16770,66 @@ int main(int argc, char *argv[])
             values_w_tmp[t] =
                 (DCELL(*)[2])G_malloc(sizeof(DCELL) * num_inputs * 2);
         }
+=======
+=======
+    for (row = 0; row < nrows; row++) {
+        G_percent(row, nrows, 2);
+
+        if (flag.lazy->answer) {
+            /* Open the files only on run time */
+            for (i = 0; i < num_inputs; i++) {
+                inputs[i].fd = Rast_open_old(inputs[i].name, "");
+                Rast_get_d_row(inputs[i].fd, inputs[i].buf, row);
+                Rast_close(inputs[i].fd);
+            }
+        } else {
+            for (i = 0; i < num_inputs; i++)
+                Rast_get_d_row(inputs[i].fd, inputs[i].buf, row);
+        }
+
+        for (col = 0; col < ncols; col++) {
+            int null = 0;
+
+            for (i = 0; i < num_inputs; i++) {
+                DCELL v = inputs[i].buf[col];
+
+                if (Rast_is_d_null_value(&v))
+                    null = 1;
+                else if (parm.range->answer && (v < lo || v > hi)) {
+                    Rast_set_d_null_value(&v, 1);
+                    null = 1;
+                }
+                values[i] = v;
+                if (have_weights) {
+                    values_w[i][0] = v;
+                    values_w[i][1] = inputs[i].weight;
+                }
+            }
+
+            for (i = 0; i < num_outputs; i++) {
+                struct output *out = &outputs[i];
+
+                if (null && flag.nulls->answer)
+                    Rast_set_d_null_value(&out->buf[col], 1);
+                else {
+                    if (out->method_fn_w) {
+                        memcpy(values_w_tmp, values_w,
+                               num_inputs * 2 * sizeof(DCELL));
+                        (*out->method_fn_w)(&out->buf[col], values_w_tmp,
+                                            num_inputs, &out->quantile);
+                    } else {
+                        memcpy(values_tmp, values, num_inputs * sizeof(DCELL));
+                        (*out->method_fn)(&out->buf[col], values_tmp,
+                                          num_inputs, &out->quantile);
+                    }
+                }
+            }
+        }
+
+        for (i = 0; i < num_outputs; i++)
+            Rast_put_d_row(outputs[i].fd, outputs[i].buf);
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
     }
 
     /* process the data */
@@ -17154,6 +17953,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -17260,6 +18060,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
+=======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -17268,6 +18070,8 @@ int main(int argc, char *argv[])
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -17355,17 +18159,27 @@ int main(int argc, char *argv[])
 >>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
         for (t = 0; t < nprocs; t++)
             for (i = 0; i < num_inputs; i++)
                 Rast_close(inputs[t][i].fd);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17391,6 +18205,18 @@ int main(int argc, char *argv[])
 =======
 <<<<<<< HEAD
 >>>>>>> main
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
         for (t = 0; t < nprocs; t++)
             for (i = 0; i < num_inputs; i++)
                 Rast_close(inputs[t][i].fd);
@@ -17403,6 +18229,7 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -17427,6 +18254,9 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
         for (i = 0; i < num_inputs; i++)
             Rast_close(inputs[i].fd);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
@@ -17788,13 +18618,25 @@ int main(int argc, char *argv[])
 >>>>>>> c489ae4cfb (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+        for (i = 0; i < num_inputs; i++)
+            Rast_close(inputs[i].fd);
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
     }
 
     exit(EXIT_SUCCESS);
