@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -27,11 +28,14 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
  *               Huidae Cho <grass4u gmail.com>,
  *               Aaron Saw Min Sern (OpenMP parallelization)
  * PURPOSE:
  * COPYRIGHT:    (C) 1999-2022 by the GRASS Development Team
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,10 +45,14 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
  *               Huidae Cho <grass4u gmail.com>
  * PURPOSE:
  * COPYRIGHT:    (C) 1999-2014 by the GRASS Development Team
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 =======
  *               Huidae Cho <grass4u gmail.com>,
  *               Aaron Saw Min Sern (OpenMP parallelization)
@@ -60,6 +68,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
  *
  *               This program is free software under the GNU General Public
  *               License (>=v2). Read the file COPYING that comes with GRASS
@@ -153,6 +163,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -160,6 +171,8 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 
     sscanf(threads->answer, "%d", &nprocs);
     if (nprocs < 1)
@@ -178,6 +191,7 @@ int main(int argc, char *argv[])
     }
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -199,6 +213,8 @@ int main(int argc, char *argv[])
                     "threads setting."));
     nprocs = 1;
 #endif
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 
     use_zero = (zeroflag->answer);
     no_support = (nosupportflag->answer);
@@ -251,6 +267,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -268,6 +285,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
         for (t = 0; t < nprocs; t++) {
             infd[t][i] = Rast_open_old(name, "");
         }
@@ -276,14 +295,18 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 =======
         fd = Rast_open_old(name, "");
 
         infd[i] = fd;
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 =======
         for (t = 0; t < nprocs; t++) {
             infd[t][i] = Rast_open_old(name, "");
@@ -295,6 +318,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 
         map_type = Rast_get_map_type(fd);
         if (map_type == FCELL_TYPE && out_type == CELL_TYPE)
@@ -304,7 +329,16 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rast_init_cell_stats(&statf[i]);
+=======
+        for (t = 0; t < nprocs; t++) {
+            Rast_init_cell_stats(&thread_statf[t][i]);
+        }
+=======
+        Rast_init_cell_stats(&statf[i]);
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 
         Rast_get_cellhd(name, "", &cellhd[i]);
     }
@@ -412,6 +446,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     bufrows = atoi(memory->answer) * (((1 << 20) / out_cell_size) / ncols);
 =======
 <<<<<<< HEAD
@@ -421,6 +456,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
     /* memory reserved for presult and patch */
     in_buf_size = out_cell_size * ncols * nprocs * 2;
     /* memory available for output buffer */
@@ -454,6 +491,7 @@ int main(int argc, char *argv[])
         bufrows = nprocs;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -463,6 +501,9 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
     G_verbose_message(_("Percent complete..."));
     for (row = 0; row < nrows; row++) {
         double north_edge, south_edge;
@@ -490,6 +531,7 @@ int main(int argc, char *argv[])
         }
         Rast_put_row(outfd, presult, out_type);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -501,6 +543,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
     }
 
     outbuf = G_malloc(out_cell_size * ncols * bufrows);
@@ -646,6 +690,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -665,6 +710,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 
     for (t = 0; t < nprocs; t++)
         for (i = 0; i < nfiles; i++)
@@ -673,6 +720,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -701,6 +749,12 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    for (i = 0; i < nfiles; i++)
+        Rast_close(infd[i]);
+
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
     if (!no_support) {
         /*
          * build the new cats and colors. do this before closing the new
@@ -708,6 +762,7 @@ int main(int argc, char *argv[])
          */
         G_verbose_message(_("Creating support files for raster map <%s>..."),
                           new_name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -720,6 +775,8 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 
         if (out_type == CELL_TYPE) {
             merge_threads(thread_statf, nprocs, nfiles);
@@ -731,6 +788,7 @@ int main(int argc, char *argv[])
         support(names, statf, nfiles, &cats, &cats_ok, &colr, &colr_ok,
                 out_type);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 =======
         support(names, statf, nfiles, &cats, &cats_ok, &colr, &colr_ok,
                 out_type);
@@ -742,6 +800,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
     }
 
     for (t = 0; t < nprocs; t++) {

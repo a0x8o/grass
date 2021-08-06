@@ -30,6 +30,7 @@ FILE *I_fopen_sigset_file_new(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -47,6 +48,8 @@ FILE *I_fopen_sigset_file_new(const char *name)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
     char dir[GNAME_MAX];
     FILE *fd;
 
@@ -58,6 +61,19 @@ FILE *I_fopen_sigset_file_new(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+    char element[GNAME_MAX];
+    FILE *fd;
+
+    /* create sig directory */
+    I__make_signatures_element(I_SIGFILE_TYPE_SIGSET);
+
+    I__get_signatures_element(element, I_SIGFILE_TYPE_SIGSET);
+    fd = G_fopen_new(element, name);
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 
 =======
 <<<<<<< HEAD
@@ -125,6 +141,7 @@ FILE *I_fopen_sigset_file_old(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     char dir[GNAME_MAX];
 =======
 <<<<<<< HEAD
@@ -158,11 +175,18 @@ FILE *I_fopen_sigset_file_old(const char *name)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    char dir[GNAME_MAX];
+=======
+    char element[GNAME_MAX];
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
     FILE *fd;
 
     if (G_unqualified_name(name, NULL, sig_name, sig_mapset) == 0)
         strcpy(sig_mapset, G_mapset());
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,6 +230,14 @@ FILE *I_fopen_sigset_file_old(const char *name)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    I_get_signatures_dir(dir, I_SIGFILE_TYPE_SIGSET);
+    fd = G_fopen_old_misc(dir, "sig", sig_name, sig_mapset);
+=======
+    I__get_signatures_element(element, I_SIGFILE_TYPE_SIGSET);
+    fd = G_fopen_old(element, sig_name, sig_mapset);
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 
     return fd;
 }
