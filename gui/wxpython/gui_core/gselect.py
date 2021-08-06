@@ -158,6 +158,7 @@ import six
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -364,6 +365,8 @@ import six
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fde75d3dd6 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -910,6 +913,7 @@ import six
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1068,6 +1072,11 @@ import six
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> fde75d3dd6 (ci: Ignore paths in CodeQL (#1778))
 import ctypes
 
 from pathlib import Path
@@ -1097,6 +1106,13 @@ import wx.lib.filebrowsebutton as filebrowse
 import grass.script as gs
 from grass.script import task as gtask
 from grass.exceptions import CalledModuleError
+from grass.lib.imagery import (
+    I_SIGFILE_TYPE_SIG,
+    I_SIGFILE_TYPE_SIGSET,
+    I_signatures_list_by_type,
+    I_free_signatures_list,
+)
+from grass.pygrass.utils import decode
 
 from gui_core.widgets import ManageSettingsWidget, CoordinatesValidator
 
@@ -11462,6 +11478,7 @@ class SignatureSelect(wx.ComboBox):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(SignatureSelect, self).__init__(parent, id, size=size, **kwargs)
 
         items = []
@@ -11611,6 +11628,8 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fde75d3dd6 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -11857,6 +11876,7 @@ class SignatureSelect(wx.ComboBox):
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12192,6 +12212,10 @@ class SignatureSelect(wx.ComboBox):
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> fde75d3dd6 (ci: Ignore paths in CodeQL (#1778))
         super().__init__(parent, id, size=size, **kwargs)
         self.SetName("SignatureSelect")
         self.mapsets = mapsets
@@ -13153,6 +13177,7 @@ class SignatureSelect(wx.ComboBox):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -14637,6 +14662,7 @@ class SignatureSelect(wx.ComboBox):
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -15362,11 +15388,18 @@ class SignatureSelect(wx.ComboBox):
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+        sig_type = None
+>>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> fde75d3dd6 (ci: Ignore paths in CodeQL (#1778))
         # Extend here if a new signature type is introduced
         if element == "signatures/sig":
             sig_type = I_SIGFILE_TYPE_SIG
         elif element == "signatures/sigset":
             sig_type = I_SIGFILE_TYPE_SIGSET
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15518,6 +15551,8 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fde75d3dd6 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -16148,6 +16183,8 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> 210c8f3c49 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 72d2bd2407 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
         items = []
         if sig_type is not None:
             if mapsets:
@@ -16159,6 +16196,7 @@ class SignatureSelect(wx.ComboBox):
         self.SetValue("")
 
     def _append_mapset_signatures(self, mapset, sig_type, items):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16673,6 +16711,7 @@ class SignatureSelect(wx.ComboBox):
             return
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -16775,10 +16814,15 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
+>>>>>>> fde75d3dd6 (ci: Ignore paths in CodeQL (#1778))
         list_ptr = ctypes.POINTER(ctypes.c_char_p)
         sig_list = list_ptr()
         count = I_signatures_list_by_type(sig_type, mapset, ctypes.byref(sig_list))
         for n in range(count):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16915,6 +16959,8 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fde75d3dd6 (ci: Ignore paths in CodeQL (#1778))
             items.append(grass.decode(sig_list[n]))
         I_free_signatures_list(count, ctypes.byref(sig_list))
 <<<<<<< HEAD
@@ -18248,12 +18294,16 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> fde75d3dd6 (ci: Ignore paths in CodeQL (#1778))
 =======
             items.append(decode(sig_list[n]))
         I_free_signatures_list(count, sig_list)
 >>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -18416,6 +18466,8 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fde75d3dd6 (ci: Ignore paths in CodeQL (#1778))
 
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 
