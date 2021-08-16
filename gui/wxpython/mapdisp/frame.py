@@ -2808,6 +2808,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Emitted when switching map notebook tabs (Single-Window)
         self.onFocus = Signal("MapPanel.onFocus")
 <<<<<<< HEAD
@@ -3296,6 +3297,7 @@ class MapPanel(SingleMapPanel):
 
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
@@ -3472,6 +3474,10 @@ class MapPanel(SingleMapPanel):
 >>>>>>> c59f93bc6e (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 52352c0e7e (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
         # Emitted when starting (switching to) 3D mode.
 <<<<<<< HEAD
         # Parameter firstTime specifies if 3D was already activated.
