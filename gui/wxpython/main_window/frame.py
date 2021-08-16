@@ -3226,6 +3226,11 @@ class GMFrame(wx.Frame):
 =======
 =======
         self.mapnotebook.SetArtProvider(aui.AuiDefaultTabArt())
+        # bindings
+        self.mapnotebook.Bind(
+            aui.EVT_AUINOTEBOOK_PAGE_CHANGED,
+            lambda evt: self.mapnotebook.GetCurrentPage().onFocus.emit(),
+        )
 
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> 7310acc566 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -6085,6 +6090,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d7075af684 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -6133,6 +6139,8 @@ class GMFrame(wx.Frame):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 7310acc566 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
         mapdisplay.Bind(
             wx.EVT_ACTIVATE,
             lambda event, page=self.currentPage: self._onMapDisplayFocus(page),
@@ -6401,7 +6409,14 @@ class GMFrame(wx.Frame):
             wx.EVT_ACTIVATE,
             lambda event, page=self.currentPage: self._onMapDisplayFocus(page),
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 >>>>>>> 7310acc566 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+=======
+        mapdisplay.onFocus.connect(
+            lambda page=self.currentPage: self._onMapDisplayFocus(page),
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
         )
 
         mapdisplay.starting3dMode.connect(
@@ -9619,6 +9634,7 @@ class GMFrame(wx.Frame):
     def OnCBPageChanged(self, event):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """Page in notebook (display) changed.
         Also change active map notebook tab."""
         self.currentPage = self.notebookLayers.GetCurrentPage()
@@ -10056,6 +10072,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         """Page in notebook (display) changed"""
+=======
+        """Page in notebook (display) changed.
+        Also change active map notebook tab."""
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
         self.currentPage = self.notebookLayers.GetCurrentPage()
         self.currentPageNum = self.notebookLayers.GetSelection()
         try:

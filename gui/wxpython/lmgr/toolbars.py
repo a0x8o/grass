@@ -152,6 +152,7 @@ class DisplayPanelToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -200,6 +201,8 @@ class DisplayPanelToolbar(BaseToolbar):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -474,6 +477,8 @@ class DisplayPanelToolbar(BaseToolbar):
                 ),
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
                 ("addMulti", icons["addMulti"], self.parent.OnAddMaps),
                 ("addrast", icons["addRast"], self.parent.OnAddRaster),
                 ("rastmisc", icons["rastMisc"], self.parent.OnAddRasterMisc),
@@ -854,6 +859,7 @@ class LMToolsToolbar(AuiToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -902,6 +908,8 @@ class LMToolsToolbar(AuiToolbar):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1028,6 +1036,7 @@ class LMToolsToolbar(AuiToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -1109,6 +1118,10 @@ class LMToolsToolbar(AuiToolbar):
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
                 ("newdisplay", icons["newdisplay"], self.parent.OnNewDisplay),
                 (None,),
                 ("mapCalc", icons["mapcalc"], self.parent.OnMapCalculator),

@@ -804,6 +804,7 @@ from .interact_display import *
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 from .display import *
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
@@ -1017,4 +1018,10 @@ from .setup import *
 =======
 from .display import *
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+from .utils import *
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))

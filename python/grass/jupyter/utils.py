@@ -1,5 +1,6 @@
 #
 # AUTHOR(S): Caitlin Haedrich <caitlin DOT haedrich AT gmail>
+<<<<<<< HEAD
 #            Riya Saxena <29riyasaxena AT gmail>
 #
 # PURPOSE:   This module contains utility functions for InteractiveMap.
@@ -248,6 +249,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -273,11 +275,20 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+#
+# PURPOSE:   This module contains utility functions for InteractiveMap.
+#
+# COPYRIGHT: (C) 2021 Caitlin Haedrich, and by the GRASS Development Team
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 #
 #            This program is free software under the GNU General Public
 #            License (>=v2). Read the file COPYING that comes with GRASS
 #            for details.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372,6 +383,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 """Utility functions warpping existing processes in a suitable way"""
 import tempfile
 import json
@@ -525,6 +538,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -587,11 +601,17 @@ import os
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+import os
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 import grass.script as gs
 
 
 def get_region(env=None):
     """Returns current computational region as dictionary.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -630,6 +650,8 @@ def get_region(env=None):
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 
     Additionally, it adds long key names.
 =======
@@ -751,6 +773,7 @@ def get_region(env=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -858,6 +881,11 @@ def get_region(env=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    Adds long key names.
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
     """
     region = gs.region(env=env)
     region["east"] = region["e"]
@@ -885,6 +913,7 @@ def reproject_region(region, from_proj, to_proj):
     :return dict region: reprojected region as a dictionary with long key names
     """
     region = region.copy()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -961,6 +990,8 @@ def reproject_region(region, from_proj, to_proj):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1164,6 +1195,7 @@ def reproject_region(region, from_proj, to_proj):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1275,6 +1307,11 @@ def reproject_region(region, from_proj, to_proj):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    proj_input = "{east} {north}\n{west} {south}".format(**region)
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
     proc = gs.start_command(
         "m.proj",
         input="-",
@@ -1291,6 +1328,7 @@ def reproject_region(region, from_proj, to_proj):
     proc.stdin = None
     proj_output, stderr = proc.communicate()
     if proc.returncode:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1367,6 +1405,8 @@ def reproject_region(region, from_proj, to_proj):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1837,6 +1877,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
@@ -1910,6 +1951,10 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
         raise RuntimeError("reprojecting region: m.proj error: " + stderr)
     enws = gs.decode(proj_output).split(os.linesep)
     elon, nlat, unused = enws[0].split(" ")
@@ -1918,6 +1963,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
     region["north"] = nlat
     region["west"] = wlon
     region["south"] = slat
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1977,6 +2023,8 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     return region
 
@@ -2013,6 +2061,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2022,9 +2071,12 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
     return region
 
 
+<<<<<<< HEAD
 def estimate_resolution(raster, mapset, location, dbase, env):
     """Estimates resolution of reprojected raster.
 
@@ -2135,12 +2187,22 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+def estimate_resolution(raster, dbase, location, env):
+    """Estimates resolution of reprojected raster.
+
+    :param str raster: name of raster
+    :param str dbase: path to source database
+    :param str location: name of source location
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
     :param dict env: target environment
 
     :return float estimate: estimated resolution of raster in destination
                             environment
     """
     output = gs.read_command(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2217,6 +2279,8 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
 =======
@@ -2419,6 +2483,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2530,13 +2595,23 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        "r.proj", flags="g", input=raster, dbase=dbase, location=location, env=env
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
     ).strip()
     params = gs.parse_key_val(output, vsep=" ")
     output = gs.read_command("g.region", flags="ug", env=env, **params)
     output = gs.parse_key_val(output, val_type=float)
     cell_ns = (output["n"] - output["s"]) / output["rows"]
     cell_ew = (output["e"] - output["w"]) / output["cols"]
+<<<<<<< HEAD
     return (cell_ew + cell_ns) / 2.0
+=======
+    estimate = (cell_ew + cell_ns) / 2.0
+    return estimate
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 
 
 def setup_location(name, path, epsg, src_env):
@@ -2556,6 +2631,7 @@ def setup_location(name, path, epsg, src_env):
     # Location and mapset
     gs.create_location(path, name, epsg=epsg, overwrite=True)
     # Reproject region
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2632,6 +2708,8 @@ def setup_location(name, path, epsg, src_env):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3031,6 +3109,7 @@ def set_target_region(src_env, tgt_env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -3093,6 +3172,13 @@ def set_target_region(src_env, tgt_env):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    region = get_region(env=src_env)
+    from_proj = get_location_proj_string(src_env)
+    to_proj = get_location_proj_string(env=new_env)
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
     new_region = reproject_region(region, from_proj, to_proj)
     # Set region to match original region extent
     gs.run_command(
@@ -3129,6 +3215,7 @@ def set_target_region(src_env, tgt_env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3137,6 +3224,8 @@ def set_target_region(src_env, tgt_env):
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3619,6 +3708,7 @@ def get_rendering_size(region, width, height, default_width=600, default_height=
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3714,3 +3804,10 @@ def get_rendering_size(region, width, height, default_width=600, default_height=
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        env=new_env,
+    )
+    return rcfile, new_env
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
