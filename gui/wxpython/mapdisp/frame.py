@@ -515,6 +515,9 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> 51073398a5 (WMS: replace broken URLs with alternative WMS (#1635))
 
+        # Emitted when switching map notebook tabs (Single-Window)
+        self.onFocus = Signal("MapPanel.onFocus")
+
         # Emitted when starting (switching to) 3D mode.
 <<<<<<< HEAD
         # Parameter firstTime specifies if 3D was already activated.
