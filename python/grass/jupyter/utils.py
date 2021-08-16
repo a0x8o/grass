@@ -147,6 +147,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -282,6 +283,8 @@
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 # COPYRIGHT: (C) 2021-2024 Caitlin Haedrich, and by the GRASS Development Team
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -290,6 +293,8 @@
 =======
 # COPYRIGHT: (C) 2021-2024 Caitlin Haedrich, and by the GRASS Development Team
 >>>>>>> osgeo-main
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 =======
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
@@ -1040,8 +1045,11 @@
 # COPYRIGHT: (C) 2021 Caitlin Haedrich, and by the GRASS Development Team
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
@@ -1535,13 +1543,17 @@
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
@@ -2289,6 +2301,9 @@
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 #
 #            This program is free software under the GNU General Public
 #            License (>=v2). Read the file COPYING that comes with GRASS
@@ -2445,6 +2460,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 99226d09d7 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -2650,6 +2666,10 @@
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -2997,7 +3017,10 @@
 <<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
 >>>>>>> 1de6bbf813 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
@@ -3066,12 +3089,16 @@
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
@@ -3316,6 +3343,9 @@
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 """Utility functions warpping existing processes in a suitable way"""
 import tempfile
 import json
@@ -3419,6 +3449,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6c2ecbcdd0 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -3482,6 +3513,8 @@ import os
 >>>>>>> c1037a4f82 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
@@ -3907,6 +3940,8 @@ import os
 >>>>>>> 86cfd7a703 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -4652,7 +4687,10 @@ import os
 <<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
 >>>>>>> 602a59f3d1 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
@@ -4757,12 +4795,16 @@ import os
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
@@ -5093,6 +5135,9 @@ import os
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 import grass.script as gs
 
 
@@ -5251,6 +5296,7 @@ def get_region(env=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5504,6 +5550,10 @@ def get_region(env=None):
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 861dec1bf2 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
@@ -7526,6 +7576,7 @@ def get_region(env=None):
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 602a59f3d1 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
 >>>>>>> 41d412ce2a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -7612,7 +7663,20 @@ def get_region(env=None):
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+
+    Additionally, it adds long key names.
+=======
+    Adds long key names.
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
     """
     region = gs.region(env=env)
     region["east"] = region["e"]
@@ -8041,6 +8105,12 @@ def reproject_region(region, from_proj, to_proj):
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> main
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -8723,6 +8793,7 @@ def reproject_region(region, from_proj, to_proj):
 <<<<<<< HEAD
 >>>>>>> 890566d3e2 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8867,12 +8938,16 @@ def reproject_region(region, from_proj, to_proj):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
@@ -9169,6 +9244,9 @@ def reproject_region(region, from_proj, to_proj):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
     # reproject all corners, otherwise reproj. region may be underestimated
     # even better solution would be reprojecting vector region like in r.import
     proj_input = (
@@ -9220,6 +9298,9 @@ def reproject_region(region, from_proj, to_proj):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 <<<<<<< HEAD
 =======
@@ -10768,15 +10849,20 @@ def reproject_region(region, from_proj, to_proj):
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> osgeo-main
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
 =======
     proj_input = "{east} {north}\n{west} {south}".format(**region)
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> 057ade7c94 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
 >>>>>>> fa18e11eae (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -10910,7 +10996,13 @@ def reproject_region(region, from_proj, to_proj):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
     proc = gs.start_command(
         "m.proj",
         input="-",
@@ -11328,6 +11420,12 @@ def reproject_region(region, from_proj, to_proj):
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> main
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -12010,6 +12108,7 @@ def reproject_region(region, from_proj, to_proj):
 <<<<<<< HEAD
 >>>>>>> 890566d3e2 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12154,12 +12253,16 @@ def reproject_region(region, from_proj, to_proj):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
@@ -12456,6 +12559,9 @@ def reproject_region(region, from_proj, to_proj):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
         raise RuntimeError(
             _("Encountered error while running m.proj: {}").format(stderr)
         )
@@ -13500,6 +13606,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13518,6 +13625,8 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14050,8 +14159,21 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> c462857ee4 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> c1037a4f82 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
         raise RuntimeError("reprojecting region: m.proj error: " + stderr)
     enws = gs.decode(proj_output).split(os.linesep)
     elon, nlat, unused = enws[0].split(" ")
@@ -14060,6 +14182,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
     region["north"] = nlat
     region["west"] = wlon
     region["south"] = slat
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14343,6 +14466,8 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
 >>>>>>> d0f7fb7e37 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> f60d41cfac (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
@@ -14392,6 +14517,8 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 >>>>>>> 86cfd7a703 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -15284,6 +15411,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 <<<<<<< HEAD
 >>>>>>> 890566d3e2 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -15299,6 +15427,9 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 <<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> osgeo-main
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> osgeo-main
 >>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -15499,6 +15630,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16217,6 +16349,18 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+def estimate_resolution(raster, dbase, location, env):
+    """Estimates resolution of reprojected raster.
+
+    :param str raster: name of raster
+    :param str dbase: path to source database
+    :param str location: name of source location
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
     :param dict env: target environment
 
     :return float estimate: estimated resolution of raster in destination
@@ -16621,6 +16765,12 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 >>>>>>> df220f8b18 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> main
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -17305,6 +17455,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 <<<<<<< HEAD
 >>>>>>> 890566d3e2 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -17449,12 +17600,16 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
@@ -17747,6 +17902,9 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
         "r.proj",
         flags="g",
         input=raster,
@@ -17807,6 +17965,12 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> main
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -19330,15 +19494,20 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> osgeo-main
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
 =======
         "r.proj", flags="g", input=raster, dbase=dbase, location=location, env=env
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> 057ade7c94 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
 >>>>>>> fa18e11eae (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -19472,7 +19641,13 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
     ).strip()
     params = gs.parse_key_val(output, vsep=" ")
     output = gs.read_command("g.region", flags="ug", env=env, **params)
@@ -19923,6 +20098,12 @@ def setup_location(name, path, epsg, src_env):
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> main
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -20607,6 +20788,7 @@ def setup_location(name, path, epsg, src_env):
 <<<<<<< HEAD
 >>>>>>> 890566d3e2 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -20751,12 +20933,16 @@ def setup_location(name, path, epsg, src_env):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
@@ -21053,6 +21239,9 @@ def setup_location(name, path, epsg, src_env):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
     set_target_region(src_env, new_env)
     return rcfile, new_env
 
@@ -22060,6 +22249,9 @@ def set_target_region(src_env, tgt_env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22070,6 +22262,7 @@ def set_target_region(src_env, tgt_env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 =======
 >>>>>>> fa18e11eae (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
@@ -22084,6 +22277,8 @@ def set_target_region(src_env, tgt_env):
 >>>>>>> 868ff9591d (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> c1037a4f82 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22146,6 +22341,9 @@ def set_target_region(src_env, tgt_env):
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> c462857ee4 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> osgeo-main
@@ -22154,6 +22352,7 @@ def set_target_region(src_env, tgt_env):
 =======
 >>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 =======
 >>>>>>> 094ff59126 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
@@ -22185,10 +22384,13 @@ def set_target_region(src_env, tgt_env):
 =======
 >>>>>>> c462857ee4 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> c1037a4f82 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
     region = get_region(env=src_env)
     from_proj = get_location_proj_string(src_env)
     to_proj = get_location_proj_string(env=new_env)
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22363,6 +22565,8 @@ def set_target_region(src_env, tgt_env):
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -22426,6 +22630,7 @@ def set_target_region(src_env, tgt_env):
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
@@ -22442,6 +22647,10 @@ def set_target_region(src_env, tgt_env):
 >>>>>>> 9a7ccbcfc4 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> d9ea5124d9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -23174,7 +23383,10 @@ def set_target_region(src_env, tgt_env):
 <<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
 >>>>>>> 602a59f3d1 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
@@ -23279,12 +23491,16 @@ def set_target_region(src_env, tgt_env):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
@@ -23598,6 +23814,9 @@ def set_target_region(src_env, tgt_env):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
     new_region = reproject_region(region, from_proj, to_proj)
     # Set region to match original region extent
     gs.run_command(
@@ -23654,6 +23873,9 @@ def set_target_region(src_env, tgt_env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 43b862a006 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
@@ -24683,8 +24905,17 @@ def set_target_region(src_env, tgt_env):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
         rows=new_region["rows"],
         cols=new_region["cols"],
         env=tgt_env,
@@ -25334,6 +25565,7 @@ def save_gif(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -25524,6 +25756,8 @@ def save_gif(
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -25608,6 +25842,8 @@ def save_gif(
 >>>>>>> 86cfd7a703 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -26940,5 +27176,14 @@ def get_rendering_size(region, width, height, default_width=600, default_height=
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))

@@ -7325,12 +7325,29 @@ MODULES = \
 =======
 =======
 	display \
+<<<<<<< HEAD
 	interact_display
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> d3014fcc0b (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 547913387f (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 9c4cb0749b (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+=======
+=======
+=======
+	interact_display \
+	utils
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 8472b7b824 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
