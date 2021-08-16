@@ -1939,6 +1939,7 @@ class GrassRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         # Create PNG file for map
         # If not user-supplied, we will write it to a map.png in a
@@ -2666,6 +2667,8 @@ class GrassRenderer:
         self._env["GRASS_RENDER_IMMEDIATE"] = renderer
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
         self._env["GRASS_RENDER_FILE_READ"] = "TRUE"
+=======
+>>>>>>> 602a59f3d1 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 
         # Create PNG file for map
         # If not user-supplied, we will write it to a map.png in a
