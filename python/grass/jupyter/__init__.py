@@ -1157,6 +1157,7 @@ from .display import *
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
@@ -1164,6 +1165,9 @@ from .display import *
 =======
 =======
 >>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+>>>>>>> c5bad555b2 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 from .utils import *
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -1293,4 +1297,12 @@ from .interact_display import *
 from .display import *
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 476ef44553 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 345367a7c1 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+from .utils import *
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> c6a412e10d (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> c5bad555b2 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
