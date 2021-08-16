@@ -15633,6 +15633,11 @@ class GMFrame(wx.Frame):
 =======
 =======
         self.mapnotebook.SetArtProvider(aui.AuiDefaultTabArt())
+        # bindings
+        self.mapnotebook.Bind(
+            aui.EVT_AUINOTEBOOK_PAGE_CHANGED,
+            lambda evt: self.mapnotebook.GetCurrentPage().onFocus.emit(),
+        )
 
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> 44e0a36ee9 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -31060,6 +31065,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6c3db39bfa (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -31143,6 +31149,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 6a3d5d8229 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> fd36f2255e (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 844932ae5d (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> b983b20647 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -31285,6 +31293,7 @@ class GMFrame(wx.Frame):
 >>>>>>> a3f08c4c56 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 44e0a36ee9 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3598b08521 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -31493,10 +31502,15 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 44e0a36ee9 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> fd36f2255e (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+=======
+>>>>>>> 7ac7d0e0a6 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 844932ae5d (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
         mapdisplay.Bind(
             wx.EVT_ACTIVATE,
             lambda event, page=self.currentPage: self._onMapDisplayFocus(page),
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31698,6 +31712,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> fd36f2255e (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
+>>>>>>> 844932ae5d (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
 >>>>>>> 861dec1bf2 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> f9daf13560 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
@@ -31763,6 +31779,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 2a3f5af732 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
+>>>>>>> 7ac7d0e0a6 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
         mapdisplay.onFocus.connect(
             lambda page=self.currentPage: self._onMapDisplayFocus(page),
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -31794,6 +31812,9 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 844932ae5d (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32867,7 +32888,12 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 44e0a36ee9 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 >>>>>>> fd36f2255e (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+=======
+>>>>>>> 7ac7d0e0a6 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 844932ae5d (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
         )
 
         mapdisplay.starting3dMode.connect(
