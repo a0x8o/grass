@@ -260,6 +260,7 @@ class DisplayPanelToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -529,6 +530,8 @@ class DisplayPanelToolbar(BaseToolbar):
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7a7db5d2e7 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
@@ -1415,6 +1418,7 @@ class DisplayPanelToolbar(BaseToolbar):
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1699,6 +1703,10 @@ class DisplayPanelToolbar(BaseToolbar):
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 094ff59126 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 7a7db5d2e7 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
                 (
                     ("addMulti", _("Add multiple map layers")),
                     icons["addMulti"],
@@ -4425,6 +4433,15 @@ class DisplayPanelToolbar(BaseToolbar):
                     icons["delCmd"],
                     self.parent.OnDeleteLayer,
                 ),
+=======
+                ("addMulti", icons["addMulti"], self.parent.OnAddMaps),
+                ("addrast", icons["addRast"], self.parent.OnAddRaster),
+                ("rastmisc", icons["rastMisc"], self.parent.OnAddRasterMisc),
+                ("addvect", icons["addVect"], self.parent.OnAddVector),
+                ("vectmisc", icons["vectMisc"], self.parent.OnAddVectorMisc),
+                ("addovl", icons["addOverlay"], self.parent.OnAddOverlay),
+                ("addWS", icons["addWS"], self.parent.OnAddWS),
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
                 (None,),
                 (
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4490,6 +4507,7 @@ class LMToolsToolbar(AuiToolbar):
 
         return self._getToolbarData(
             (
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4895,6 +4913,8 @@ class LMToolsToolbar(AuiToolbar):
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7a7db5d2e7 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
@@ -5781,6 +5801,7 @@ class LMToolsToolbar(AuiToolbar):
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -6065,11 +6086,16 @@ class LMToolsToolbar(AuiToolbar):
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 094ff59126 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 7a7db5d2e7 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
                 (
                     ("newdisplay", _("New display")),
                     icons["newdisplay"],
                     self.parent.OnNewDisplay,
                 ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6709,6 +6735,7 @@ class LMToolsToolbar(AuiToolbar):
 >>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6a49833e12 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 =======
@@ -6851,6 +6878,11 @@ class LMToolsToolbar(AuiToolbar):
 >>>>>>> ee253be79a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+=======
+>>>>>>> 094ff59126 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 7a7db5d2e7 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
                 ("newdisplay", icons["newdisplay"], self.parent.OnNewDisplay),
                 (None,),
                 ("mapCalc", icons["mapcalc"], self.parent.OnMapCalculator),
@@ -6858,6 +6890,7 @@ class LMToolsToolbar(AuiToolbar):
                 ("modeler", icons["modeler"], self.parent.OnGModeler),
                 ("mapOutput", icons["composer"], self.parent.OnPsMap),
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7104,6 +7137,8 @@ class LMToolsToolbar(AuiToolbar):
 >>>>>>> dd5c383c30 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7a7db5d2e7 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> d0f7fb7e37 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> f60d41cfac (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -7580,6 +7615,7 @@ class LMToolsToolbar(AuiToolbar):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -7777,6 +7813,10 @@ class LMToolsToolbar(AuiToolbar):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 094ff59126 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> 7a7db5d2e7 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
                 (None,),
                 (
                     ("mapCalc", icons["mapcalc"].label),
