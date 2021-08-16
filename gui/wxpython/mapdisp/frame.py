@@ -630,6 +630,7 @@ class MapPanel(SingleMapPanel):
         # Emitted when switching map notebook tabs (Single-Window)
         self.onFocus = Signal("MapPanel.onFocus")
 
+<<<<<<< HEAD
         # Emitted when switching map notebook tabs (Single-Window)
         self.onFocus = Signal("MapPanel.onFocus")
 =======
@@ -637,6 +638,8 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> 46043e6899 (WMS: replace broken URLs with alternative WMS (#1635))
 
+=======
+>>>>>>> 861dec1bf2 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
         # Emitted when starting (switching to) 3D mode.
 <<<<<<< HEAD
         # Parameter firstTime specifies if 3D was already activated.
