@@ -5124,6 +5124,7 @@ from .interact_display import *
 from .display import *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
@@ -8149,7 +8150,10 @@ from .setup import *
 =======
 =======
 from .display import *
+=======
+>>>>>>> c462857ee4 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
@@ -8159,7 +8163,11 @@ from .display import *
 from .utils import *
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> 6547fb8a44 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> 868ff9591d (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+<<<<<<< HEAD
+>>>>>>> c1037a4f82 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8192,4 +8200,9 @@ from .display import *
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> c462857ee4 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+>>>>>>> c1037a4f82 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
