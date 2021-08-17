@@ -5872,27 +5872,11 @@ class Rastsemantic_labelerenceTestCase(TestCase):
     def test_illegal_name(self):
         ret = Rast_legal_bandref(".a")
         self.assertEqual(ret, -1)
-        ret = Rast_legal_bandref("1")
-        self.assertEqual(ret, -1)
-        ret = Rast_legal_bandref("1a")
-        self.assertEqual(ret, -1)
         ret = Rast_legal_bandref("a/b")
         self.assertEqual(ret, -1)
         ret = Rast_legal_bandref("a@b")
         self.assertEqual(ret, -1)
         ret = Rast_legal_bandref("a#b")
-        self.assertEqual(ret, -1)
-        ret = Rast_legal_bandref("GRASS")
-        self.assertEqual(ret, -1)
-        ret = Rast_legal_bandref("USER")
-        self.assertEqual(ret, -1)
-
-    def test_no_second_token(self):
-        ret = Rast_legal_bandref("GRASS_")
-        self.assertEqual(ret, -1)
-        ret = Rast_legal_bandref("USER_")
-        self.assertEqual(ret, -1)
-        ret = Rast_legal_bandref("S2_")
         self.assertEqual(ret, -1)
 
     def test_too_long(self):
@@ -5906,6 +5890,14 @@ class Rastsemantic_labelerenceTestCase(TestCase):
         self.assertEqual(ret, -1)
 
     def test_good_name(self):
+        ret = Rast_legal_bandref("1")
+        self.assertEqual(ret, 1)
+        ret = Rast_legal_bandref("1a")
+        self.assertEqual(ret, 1)
+        ret = Rast_legal_bandref("clouds")
+        self.assertEqual(ret, 1)
+        ret = Rast_legal_bandref("rededge1")
+        self.assertEqual(ret, 1)
         ret = Rast_legal_bandref("S2_1")
         self.assertEqual(ret, 1)
         ret = Rast_legal_bandref("GRASS_aspect_deg")
