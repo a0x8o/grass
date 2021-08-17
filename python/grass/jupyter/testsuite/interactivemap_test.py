@@ -69,6 +69,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -826,6 +827,7 @@ import os
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1134,10 +1136,15 @@ import os
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b4c4edd395 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 67ba91ffa3 (libraster: fix Rast_legal_bandref() (#1796))
 import sys
 import unittest
 from pathlib import Path
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3081,7 +3088,17 @@ from pathlib import Path
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+import unittest
+import sys
+from pathlib import Path
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> b4c4edd395 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 67ba91ffa3 (libraster: fix Rast_legal_bandref() (#1796))
 import grass.jupyter as gj
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -3246,6 +3263,7 @@ def can_import_folium():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3386,6 +3404,8 @@ def can_import_folium():
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67ba91ffa3 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -3792,6 +3812,7 @@ def can_import_folium():
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4272,10 +4293,15 @@ def can_import_folium():
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b4c4edd395 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 67ba91ffa3 (libraster: fix Rast_legal_bandref() (#1796))
         import folium  # noqa
 =======
         import folium
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4364,6 +4390,8 @@ def can_import_folium():
 >>>>>>> df220f8b18 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67ba91ffa3 (libraster: fix Rast_legal_bandref() (#1796))
 =======
         import folium  # noqa
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4657,6 +4685,7 @@ def can_import_folium():
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4790,6 +4819,10 @@ def can_import_folium():
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b4c4edd395 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 67ba91ffa3 (libraster: fix Rast_legal_bandref() (#1796))
 
         return True
     except ImportError:
