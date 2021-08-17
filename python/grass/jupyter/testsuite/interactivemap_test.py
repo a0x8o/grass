@@ -21,6 +21,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -38,10 +39,13 @@ import os
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 2ab44c2131 (libraster: fix Rast_legal_bandref() (#1796))
 import sys
 import unittest
 from pathlib import Path
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -72,6 +76,13 @@ from pathlib import Path
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+import unittest
+import sys
+from pathlib import Path
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 2ab44c2131 (libraster: fix Rast_legal_bandref() (#1796))
 import grass.jupyter as gj
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -80,6 +91,7 @@ from grass.gunittest.main import test
 def can_import_folium():
     """Test folium import to see if test can be run."""
     try:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,6 +128,12 @@ def can_import_folium():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        import folium  # noqa
+=======
+        import folium
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 2ab44c2131 (libraster: fix Rast_legal_bandref() (#1796))
 
         return True
     except ImportError:
