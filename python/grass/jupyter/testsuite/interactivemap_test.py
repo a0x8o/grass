@@ -42,6 +42,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6711551a1e (libraster: fix Rast_legal_bandref() (#1796))
 =======
@@ -430,11 +431,17 @@ import os
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 03ae449941 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 6d9bf88380 (libraster: fix Rast_legal_bandref() (#1796))
 import sys
 import unittest
 from pathlib import Path
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1119,7 +1126,17 @@ from pathlib import Path
 =======
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+import unittest
+import sys
+from pathlib import Path
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 03ae449941 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 6d9bf88380 (libraster: fix Rast_legal_bandref() (#1796))
 import grass.jupyter as gj
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -1189,6 +1206,7 @@ def can_import_folium():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1266,6 +1284,8 @@ def can_import_folium():
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6d9bf88380 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 29f5805aab (libraster: fix Rast_legal_bandref() (#1796))
 =======
@@ -1409,7 +1429,12 @@ def can_import_folium():
 =======
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 03ae449941 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 6d9bf88380 (libraster: fix Rast_legal_bandref() (#1796))
         import folium  # noqa
 =======
 <<<<<<< HEAD
@@ -1500,12 +1525,14 @@ def can_import_folium():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         import folium  # noqa
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
         import folium  # noqa
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1626,6 +1653,10 @@ def can_import_folium():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 03ae449941 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 6d9bf88380 (libraster: fix Rast_legal_bandref() (#1796))
 
         return True
     except ImportError:
