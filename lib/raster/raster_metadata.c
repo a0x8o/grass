@@ -6043,8 +6043,7 @@ bool Rast_legal_semantic_label(const char *semantic_label)
  */
 int Rast_legal_bandref(const char *bandref)
 {
-    char **tokens;
-    int ntok;
+    const char *s;
 
     if (strlen(bandref) >= GNAME_MAX) {
         G_warning(_("Band reference is too long"));
@@ -6054,20 +6053,16 @@ int Rast_legal_bandref(const char *bandref)
     if (G_legal_filename(bandref) != 1)
         return -1;
 
-    tokens = G_tokenize(bandref, "_");
-    ntok = G_number_of_tokens(tokens);
-    if (ntok < 2) {
-        G_warning(_("Band reference must be in form <shortcut>_<bandname>"));
-        G_free_tokens(tokens);
-        return -1;
+    s = bandref;
+    while (*s) {
+	if (!((*s >= 'A' && *s <= 'Z') || (*s >= 'a' && *s <= 'z') ||
+	      (*s >= '0' && *s <= '9') || *s == '_'  || *s == '-')) {
+	    G_warning(_("Character '%c' not allowed in band reference."), *s);
+	    return -1;
+	}
+	s++;
     }
 
-    if (strlen(tokens[1]) < 1) {
-        G_free_tokens(tokens);
-        return -1;
-    }
-
-    G_free_tokens(tokens);
     return 1;
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 4f7b5aea0b (libpython: Save and load benchmark results (#1711))
