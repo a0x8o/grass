@@ -33,12 +33,15 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6711551a1e (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3774f705e0 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 <<<<<<< HEAD
 =======
@@ -870,8 +873,16 @@ import os
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 877945a9e8 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 3774f705e0 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 05aac187c6 (libraster: fix Rast_legal_bandref() (#1796))
 import sys
 import unittest
 from pathlib import Path
@@ -886,10 +897,13 @@ from pathlib import Path
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6711551a1e (libraster: fix Rast_legal_bandref() (#1796))
 =======
+=======
+>>>>>>> 3774f705e0 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -2336,8 +2350,21 @@ from pathlib import Path
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+import unittest
+import sys
+from pathlib import Path
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 877945a9e8 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 3774f705e0 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 05aac187c6 (libraster: fix Rast_legal_bandref() (#1796))
 import grass.jupyter as gj
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -2466,6 +2493,7 @@ def can_import_folium():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2654,6 +2682,8 @@ def can_import_folium():
 =======
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 05aac187c6 (libraster: fix Rast_legal_bandref() (#1796))
+=======
 >>>>>>> 29f5805aab (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -3236,6 +3266,8 @@ def can_import_folium():
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 3774f705e0 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4120,8 +4152,20 @@ def can_import_ipyleaflet():
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        import folium  # noqa
+=======
+        import folium
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 877945a9e8 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 3774f705e0 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 05aac187c6 (libraster: fix Rast_legal_bandref() (#1796))
 
         return True
     except ImportError:
