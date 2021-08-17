@@ -6959,6 +6959,7 @@ class Rastsemantic_labelerenceTestCase(TestCase):
     def test_illegal_name(self):
         ret = Rast_legal_bandref(".a")
         self.assertEqual(ret, -1)
+<<<<<<< HEAD
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
         ret = Rast_legal_bandref("1")
         self.assertEqual(ret, -1)
@@ -6970,12 +6971,15 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 >>>>>>> 08e876fd03 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8b7b13b370 (libraster: fix Rast_legal_bandref() (#1796))
         ret = Rast_legal_bandref("a/b")
         self.assertEqual(ret, -1)
         ret = Rast_legal_bandref("a@b")
         self.assertEqual(ret, -1)
         ret = Rast_legal_bandref("a#b")
         self.assertEqual(ret, -1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7088,6 +7092,8 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 >>>>>>> 08e876fd03 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8b7b13b370 (libraster: fix Rast_legal_bandref() (#1796))
 
     def test_too_long(self):
         ret = Rast_legal_bandref(
@@ -7102,8 +7108,11 @@ class Rastsemantic_labelerenceTestCase(TestCase):
     def test_good_name(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 319ab246f0 (libpython: Save and load benchmark results (#1711))
 =======
+=======
+>>>>>>> 8b7b13b370 (libraster: fix Rast_legal_bandref() (#1796))
         ret = Rast_legal_bandref("1")
         self.assertEqual(ret, 1)
         ret = Rast_legal_bandref("1a")
@@ -7112,9 +7121,12 @@ class Rastsemantic_labelerenceTestCase(TestCase):
         self.assertEqual(ret, 1)
         ret = Rast_legal_bandref("rededge1")
         self.assertEqual(ret, 1)
+<<<<<<< HEAD
 >>>>>>> 08e876fd03 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 8a112feb47 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8b7b13b370 (libraster: fix Rast_legal_bandref() (#1796))
         ret = Rast_legal_bandref("S2_1")
         self.assertEqual(ret, 1)
         ret = Rast_legal_bandref("GRASS_aspect_deg")
