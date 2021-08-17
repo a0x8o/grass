@@ -10779,8 +10779,7 @@ bool Rast_legal_semantic_label(const char *semantic_label)
  */
 int Rast_legal_bandref(const char *bandref)
 {
-    char **tokens;
-    int ntok;
+    const char *s;
 
     if (strlen(bandref) >= GNAME_MAX) {
         G_warning(_("Band reference is too long"));
@@ -10790,6 +10789,7 @@ int Rast_legal_bandref(const char *bandref)
     if (G_legal_filename(bandref) != 1)
         return -1;
 
+<<<<<<< HEAD
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
     tokens = G_tokenize(bandref, "_");
     ntok = G_number_of_tokens(tokens);
@@ -10808,6 +10808,8 @@ int Rast_legal_bandref(const char *bandref)
 >>>>>>> ff391007a5 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> e9fa08af5b (libraster: fix Rast_legal_bandref() (#1796))
+=======
+>>>>>>> 226b9e4eb9 (libraster: fix Rast_legal_bandref() (#1796))
     s = bandref;
     while (*s) {
 	if (!((*s >= 'A' && *s <= 'Z') || (*s >= 'a' && *s <= 'z') ||
@@ -10816,6 +10818,7 @@ int Rast_legal_bandref(const char *bandref)
 	    return -1;
 	}
 	s++;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11071,14 +11074,10 @@ bool Rast_legal_semantic_label(const char *semantic_label)
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 226b9e4eb9 (libraster: fix Rast_legal_bandref() (#1796))
     }
 
-    if (strlen(tokens[1]) < 1) {
-        G_free_tokens(tokens);
-        return -1;
-    }
-
-    G_free_tokens(tokens);
     return 1;
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))

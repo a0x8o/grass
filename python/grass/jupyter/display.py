@@ -454,12 +454,15 @@ from pathlib import Path
 from pathlib import Path
 =======
 import shutil
+<<<<<<< HEAD
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 from IPython.display import Image
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 92d8fccb2c (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
+<<<<<<< HEAD
 import shutil
 <<<<<<< HEAD
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -471,6 +474,8 @@ from IPython.display import Image
 >>>>>>> 4b334d121f (libpython: Save and load benchmark results (#1711))
 =======
 =======
+=======
+>>>>>>> 226b9e4eb9 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 =======
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
@@ -5773,7 +5778,19 @@ class GrassRenderer:
 =======
 =======
     def show(self):
+<<<<<<< HEAD
         """Displays a PNG image of the map (non-interactive)"""
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+        """Displays a PNG image of the map"""
+        from IPython.display import Image
+
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 2ab44c2131 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 226b9e4eb9 (libraster: fix Rast_legal_bandref() (#1796))
         return Image(self._filename)
