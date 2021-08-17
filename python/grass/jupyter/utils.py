@@ -15980,21 +15980,32 @@ def estimate_resolution(raster, mapset, location, dbase, env):
     return region
 
 
-def estimate_resolution(raster, dbase, location, env):
+def estimate_resolution(raster, mapset, location, dbase, env):
     """Estimates resolution of reprojected raster.
 
     :param str raster: name of raster
-    :param str dbase: path to source database
+    :param str mapset: mapset of raster
     :param str location: name of source location
+<<<<<<< HEAD
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> c462857ee4 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> c1037a4f82 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+=======
+    :param str dbase: path to source database
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> b09d5a689a (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> df220f8b18 (libraster: fix Rast_legal_bandref() (#1796))
     :param dict env: target environment
 
     :return float estimate: estimated resolution of raster in destination
                             environment
     """
     output = gs.read_command(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16387,6 +16398,8 @@ def estimate_resolution(raster, dbase, location, env):
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1037a4f82 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> df220f8b18 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -17193,12 +17206,16 @@ def estimate_resolution(raster, dbase, location, env):
 =======
 >>>>>>> c462857ee4 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 008f69a4de (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
+=======
+>>>>>>> df220f8b18 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 =======
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
 >>>>>>> b09d5a689a (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ac28540237 (libraster: fix Rast_legal_bandref() (#1796))
 =======
@@ -17497,6 +17514,8 @@ def estimate_resolution(raster, dbase, location, env):
 =======
 >>>>>>> c462857ee4 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> c1037a4f82 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> df220f8b18 (libraster: fix Rast_legal_bandref() (#1796))
         "r.proj",
         flags="g",
         input=raster,
@@ -17516,6 +17535,7 @@ def estimate_resolution(raster, dbase, location, env):
         project=location,
         dbase=dbase,
         env=env,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18076,10 +18096,13 @@ def estimate_resolution(raster, dbase, location, env):
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b09d5a689a (libraster: fix Rast_legal_bandref() (#1796))
+=======
         "r.proj", flags="g", input=raster, dbase=dbase, location=location, env=env
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18171,6 +18194,8 @@ def estimate_resolution(raster, dbase, location, env):
 >>>>>>> b131e1fa40 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> df220f8b18 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -19198,7 +19223,12 @@ def estimate_resolution(raster, dbase, location, env):
         "r.proj", flags="g", input=raster, dbase=dbase, location=location, env=env
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> c462857ee4 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> c1037a4f82 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+>>>>>>> b09d5a689a (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> df220f8b18 (libraster: fix Rast_legal_bandref() (#1796))
     ).strip()
     params = gs.parse_key_val(output, vsep=" ")
     output = gs.read_command("g.region", flags="ug", env=env, **params)
