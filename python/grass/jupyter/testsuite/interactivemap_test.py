@@ -77,6 +77,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -167,6 +168,8 @@ import os
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a80c8300ee (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -985,6 +988,7 @@ from pathlib import Path
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1810,6 +1814,13 @@ from pathlib import Path
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+import unittest
+import sys
+from pathlib import Path
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> a80c8300ee (libraster: fix Rast_legal_bandref() (#1796))
 import grass.jupyter as gj
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -1914,6 +1925,7 @@ def can_import_folium():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2365,6 +2377,8 @@ def can_import_folium():
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a80c8300ee (libraster: fix Rast_legal_bandref() (#1796))
         import folium  # noqa
 =======
 <<<<<<< HEAD
@@ -2838,6 +2852,7 @@ def can_import_ipyleaflet():
     try:
         import ipyleaflet  # noqa
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 =======
@@ -3185,6 +3200,11 @@ def can_import_ipyleaflet():
 >>>>>>> osgeo-main
 >>>>>>> d2d2e6504a (libraster: fix Rast_legal_bandref() (#1796))
 >>>>>>> fe5de958ac (libraster: fix Rast_legal_bandref() (#1796))
+=======
+=======
+        import folium
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> a80c8300ee (libraster: fix Rast_legal_bandref() (#1796))
 
         return True
     except ImportError:
@@ -3244,6 +3264,9 @@ class TestDisplay(TestCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a80c8300ee (libraster: fix Rast_legal_bandref() (#1796))
     @unittest.skipIf(not can_import_ipyleaflet(), "Cannot import ipyleaflet")
     def test_query_button(self):
         # Create InteractiveMap with ipyleaflet backend
@@ -3272,8 +3295,11 @@ class TestDisplay(TestCase):
 
 =======
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a80c8300ee (libraster: fix Rast_legal_bandref() (#1796))
 
 if __name__ == "__main__":
     test()
