@@ -66,6 +66,9 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d2d2e6504a (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 6711551a1e (libraster: fix Rast_legal_bandref() (#1796))
 =======
@@ -1096,12 +1099,22 @@ import os
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 07c04c0cb0 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> d2d2e6504a (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 9ace3ebc2a (libraster: fix Rast_legal_bandref() (#1796))
 import sys
 import unittest
 from pathlib import Path
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1141,6 +1154,8 @@ from pathlib import Path
 =======
 >>>>>>> 3774f705e0 (libraster: fix Rast_legal_bandref() (#1796))
 =======
+=======
+>>>>>>> d2d2e6504a (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -2148,6 +2163,7 @@ from pathlib import Path
 <<<<<<< HEAD
 >>>>>>> 6d9bf88380 (libraster: fix Rast_legal_bandref() (#1796))
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2369,13 +2385,17 @@ from pathlib import Path
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 9ace3ebc2a (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> osgeo-main
 =======
 =======
 import unittest
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 import sys
@@ -2994,6 +3014,13 @@ from pathlib import Path
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+import sys
+from pathlib import Path
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 07c04c0cb0 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> d2d2e6504a (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 9ace3ebc2a (libraster: fix Rast_legal_bandref() (#1796))
 import grass.jupyter as gj
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -3155,6 +3182,7 @@ def can_import_folium():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3409,6 +3437,10 @@ def can_import_folium():
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d2d2e6504a (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 9ace3ebc2a (libraster: fix Rast_legal_bandref() (#1796))
+=======
 >>>>>>> 29f5805aab (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -5326,8 +5358,42 @@ def can_import_ipyleaflet():
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+        import folium  # noqa
+=======
+        import folium
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 07c04c0cb0 (libraster: fix Rast_legal_bandref() (#1796))
+
+        return True
+    except ImportError:
+        return False
+
+
+def can_import_ipyleaflet():
+    """Test ipyleaflet import to see if test can be run."""
+    try:
+        import ipyleaflet  # noqa
+>>>>>>> osgeo-main
+>>>>>>> d2d2e6504a (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 9ace3ebc2a (libraster: fix Rast_legal_bandref() (#1796))
 
         return True
     except ImportError:
