@@ -281,6 +281,7 @@ from pathlib import Path
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -370,6 +371,8 @@ from pathlib import Path
 >>>>>>> 08e876fd03 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 8b7b13b370 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+>>>>>>> ff391007a5 (libraster: fix Rast_legal_bandref() (#1796))
 import grass.script as gs
 from .display import GrassRenderer
 from .utils import (
@@ -2117,6 +2120,8 @@ import tempfile
 import weakref
 from pathlib import Path
 import folium
+=======
+>>>>>>> d039fa87a3 (libraster: fix Rast_legal_bandref() (#1796))
 import grass.script as gs
 from .display import GrassRenderer
 from .utils import (
@@ -2152,6 +2157,10 @@ class InteractiveMap:
         :param int width: width in pixels of figure (default 400)
         """
 >>>>>>> 8472b7b824 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+
+        import folium
+
+        self._folium = folium
 
         # Store height and width
         self.width = width
@@ -3709,9 +3718,16 @@ class InteractiveMap:
         center = (float(center["center_northing"]), float(center["center_easting"]))
 
         # Create Folium Map
+<<<<<<< HEAD
         self.map = folium.Map(
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 3e81947fcf (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        self.map = self._folium.Map(
+>>>>>>> d039fa87a3 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> ff391007a5 (libraster: fix Rast_legal_bandref() (#1796))
             width=self.width,
             height=self.height,
             location=center,
@@ -6114,6 +6130,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -6264,6 +6281,8 @@ class InteractiveMap:
 >>>>>>> 8b7b13b370 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 3e81947fcf (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> ff391007a5 (libraster: fix Rast_legal_bandref() (#1796))
         mapset = file_info["mapset"]
         new_name = full_name.replace("@", "_")
         # Reproject vector into WGS84 Location
@@ -9811,26 +9830,32 @@ class InteractiveMap:
 >>>>>>> 8b7b13b370 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 =======
+=======
+        mapset = file_info["mapset"]
+        new_name = full_name.replace("@", "_")
+>>>>>>> d039fa87a3 (libraster: fix Rast_legal_bandref() (#1796))
         # Reproject vector into WGS84 Location
         env_info = gs.gisenv(env=self._src_env)
         gs.run_command(
             "v.proj",
-            input=full_name,
+            input=name,
+            output=new_name,
+            mapset=mapset,
             location=env_info["LOCATION_NAME"],
             dbase=env_info["GISDBASE"],
             env=self._wgs84_env,
         )
         # Convert to GeoJSON
-        json_file = Path(self._tmp_dir.name) / f"tmp_{name}.json"
+        json_file = Path(self._tmp_dir.name) / f"{new_name}.json"
         gs.run_command(
             "v.out.ogr",
-            input=name,
+            input=new_name,
             output=json_file,
             format="GeoJSON",
             env=self._wgs84_env,
         )
         # Import GeoJSON to folium and add to map
-        folium.GeoJson(str(json_file), name=name).add_to(self.map)
+        self._folium.GeoJson(str(json_file), name=name).add_to(self.map)
 
     def add_raster(self, name, opacity=0.8):
         """Imports raster into temporary WGS84 location,
@@ -9842,16 +9867,18 @@ class InteractiveMap:
         """
 
         # Find full name of raster
-        file_info = gs.find_file(name, element="cell")
+        file_info = gs.find_file(name, element="cell", env=self._src_env)
         full_name = file_info["fullname"]
         name = file_info["name"]
+        mapset = file_info["mapset"]
 
         # Reproject raster into WGS84/epsg3857 location
         env_info = gs.gisenv(env=self._src_env)
         resolution = estimate_resolution(
-            raster=full_name,
-            dbase=env_info["GISDBASE"],
+            raster=name,
+            mapset=mapset,
             location=env_info["LOCATION_NAME"],
+            dbase=env_info["GISDBASE"],
             env=self._psmerc_env,
         )
         tgt_name = full_name.replace("@", "_")
@@ -9859,6 +9886,7 @@ class InteractiveMap:
             "r.proj",
             input=full_name,
             output=tgt_name,
+            mapset=mapset,
             location=env_info["LOCATION_NAME"],
             dbase=env_info["GISDBASE"],
             resolution=resolution,
@@ -9889,7 +9917,7 @@ class InteractiveMap:
         ]
 
         # Overlay image on folium map
-        img = folium.raster_layers.ImageOverlay(
+        img = self._folium.raster_layers.ImageOverlay(
             image=filename,
             name=name,
             bounds=new_bounds,
@@ -9903,12 +9931,19 @@ class InteractiveMap:
     def add_layer_control(self, **kwargs):
         """Add layer control to display"""
         self.layer_control = True
-        self.layer_control_object = folium.LayerControl(**kwargs)
+        self.layer_control_object = self._folium.LayerControl(**kwargs)
 
     def show(self):
+<<<<<<< HEAD
         """This function creates a folium map with a GRASS raster
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 3e81947fcf (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        """This function returns a folium figure object with a GRASS raster
+>>>>>>> d039fa87a3 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> ff391007a5 (libraster: fix Rast_legal_bandref() (#1796))
         overlayed on a basemap.
 
         If map has layer control enabled, additional layers cannot be
@@ -9988,6 +10023,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         fig = self._folium.Figure(width=self.width, height=self.height)
 =======
         fig = folium.Figure(width=self.width, height=self.height)
@@ -10182,6 +10218,8 @@ class InteractiveMap:
 >>>>>>> 8b7b13b370 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 3e81947fcf (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> ff391007a5 (libraster: fix Rast_legal_bandref() (#1796))
         fig = self._folium.Figure(width=self.width, height=self.height)
 =======
         fig = folium.Figure(width=self.width, height=self.height)
@@ -10228,6 +10266,7 @@ class InteractiveMap:
 =======
         fig = folium.Figure(width=self.width, height=self.height)
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
 =======
@@ -10515,6 +10554,11 @@ class InteractiveMap:
         fig = folium.Figure(width=self.width, height=self.height)
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 3e81947fcf (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        fig = self._folium.Figure(width=self.width, height=self.height)
+>>>>>>> d039fa87a3 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> ff391007a5 (libraster: fix Rast_legal_bandref() (#1796))
         # Add map to figure
         fig.add_child(self.map)
 
