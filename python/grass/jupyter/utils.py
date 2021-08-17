@@ -2077,6 +2077,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 def estimate_resolution(raster, mapset, location, dbase, env):
     """Estimates resolution of reprojected raster.
 
@@ -2189,19 +2190,30 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 >>>>>>> osgeo-main
 =======
 def estimate_resolution(raster, dbase, location, env):
+=======
+def estimate_resolution(raster, mapset, location, dbase, env):
+>>>>>>> 2f4b0e227d (libraster: fix Rast_legal_bandref() (#1796))
     """Estimates resolution of reprojected raster.
 
     :param str raster: name of raster
-    :param str dbase: path to source database
+    :param str mapset: mapset of raster
     :param str location: name of source location
+<<<<<<< HEAD
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+    :param str dbase: path to source database
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 2f4b0e227d (libraster: fix Rast_legal_bandref() (#1796))
     :param dict env: target environment
 
     :return float estimate: estimated resolution of raster in destination
                             environment
     """
     output = gs.read_command(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2282,9 +2294,12 @@ def estimate_resolution(raster, dbase, location, env):
 =======
 >>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
+>>>>>>> 2f4b0e227d (libraster: fix Rast_legal_bandref() (#1796))
+=======
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2374,10 +2389,15 @@ def estimate_resolution(raster, dbase, location, env):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 2f4b0e227d (libraster: fix Rast_legal_bandref() (#1796))
         "r.proj",
         flags="g",
         input=raster,
         mapset=mapset,
+<<<<<<< HEAD
         project=location,
         dbase=dbase,
         env=env,
@@ -2493,6 +2513,7 @@ def estimate_resolution(raster, dbase, location, env):
 =======
         "r.proj", flags="g", input=raster, dbase=dbase, location=location, env=env
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> 2a3f5af732 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 =======
@@ -2600,6 +2621,13 @@ def estimate_resolution(raster, dbase, location, env):
         "r.proj", flags="g", input=raster, dbase=dbase, location=location, env=env
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+        location=location,
+        dbase=dbase,
+        env=env,
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 2f4b0e227d (libraster: fix Rast_legal_bandref() (#1796))
     ).strip()
     params = gs.parse_key_val(output, vsep=" ")
     output = gs.read_command("g.region", flags="ug", env=env, **params)

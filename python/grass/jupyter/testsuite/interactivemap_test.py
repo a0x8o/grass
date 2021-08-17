@@ -46,6 +46,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -54,6 +55,8 @@ import os
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 2f4b0e227d (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -274,6 +277,7 @@ from pathlib import Path
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -388,6 +392,13 @@ from pathlib import Path
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+import unittest
+import sys
+from pathlib import Path
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 2f4b0e227d (libraster: fix Rast_legal_bandref() (#1796))
 import grass.jupyter as gj
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -424,6 +435,7 @@ def can_import_folium():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -434,6 +446,8 @@ def can_import_folium():
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2f4b0e227d (libraster: fix Rast_legal_bandref() (#1796))
         import folium  # noqa
 =======
 <<<<<<< HEAD
@@ -646,7 +660,13 @@ def can_import_ipyleaflet():
     """Test ipyleaflet import to see if test can be run."""
     try:
         import ipyleaflet  # noqa
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+        import folium
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 2f4b0e227d (libraster: fix Rast_legal_bandref() (#1796))
 
         return True
     except ImportError:
@@ -704,6 +724,7 @@ class TestDisplay(TestCase):
         interactive_map.save(filename)
         self.assertFileExists(filename)
 
+<<<<<<< HEAD
     @unittest.skipIf(not can_import_ipyleaflet(), "Cannot import ipyleaflet")
     def test_query_button(self):
         # Create InteractiveMap with ipyleaflet backend
@@ -730,6 +751,8 @@ class TestDisplay(TestCase):
         interactive_map._controllers[button].activate()
         self.assertIsNotNone(interactive_map._controllers[button].save_button_control)
 
+=======
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
 
 if __name__ == "__main__":
     test()

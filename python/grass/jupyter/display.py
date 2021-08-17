@@ -81,6 +81,7 @@ from pathlib import Path
 import shutil
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 from IPython.display import Image
 =======
@@ -243,6 +244,8 @@ from IPython.display import Image
 =======
 =======
 from IPython.display import Image
+=======
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
 import tempfile
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> 7310acc566 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -1214,6 +1217,7 @@ class GrassRenderer:
         """Displays a PNG image of the map"""
         from IPython.display import Image
 
+<<<<<<< HEAD
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1329,5 +1333,10 @@ class GrassRenderer:
 =======
         """Displays a PNG image of the map"""
 >>>>>>> 686e3354a5 (jupyter: Add `__getattr__` shortcut for calling GRASS display modules (#1723))
+<<<<<<< HEAD
 >>>>>>> b88da686d1 (jupyter: Add `__getattr__` shortcut for calling GRASS display modules (#1723))
+=======
+=======
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 2f4b0e227d (libraster: fix Rast_legal_bandref() (#1796))
         return Image(self._filename)
