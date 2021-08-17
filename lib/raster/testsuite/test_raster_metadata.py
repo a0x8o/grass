@@ -8745,6 +8745,7 @@ class Rastsemantic_labelerenceTestCase(TestCase):
     def test_illegal_name(self):
         ret = Rast_legal_bandref(".a")
         self.assertEqual(ret, -1)
+<<<<<<< HEAD
 >>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
         ret = Rast_legal_bandref("1")
         self.assertEqual(ret, -1)
@@ -8796,12 +8797,15 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 >>>>>>> 9b9adf03ac (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> d3bc1c59f9 (libraster: fix Rast_legal_bandref() (#1796))
         ret = Rast_legal_bandref("a/b")
         self.assertEqual(ret, -1)
         ret = Rast_legal_bandref("a@b")
         self.assertEqual(ret, -1)
         ret = Rast_legal_bandref("a#b")
         self.assertEqual(ret, -1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9251,6 +9255,8 @@ class Rastsemantic_labelerenceTestCase(TestCase):
         self.assertEqual(ret, 1)
 >>>>>>> 9b9adf03ac (libraster: fix Rast_legal_bandref() (#1796))
 =======
+=======
+>>>>>>> d3bc1c59f9 (libraster: fix Rast_legal_bandref() (#1796))
 
     def test_too_long(self):
         ret = Rast_legal_bandref(
@@ -9263,7 +9269,18 @@ class Rastsemantic_labelerenceTestCase(TestCase):
         self.assertEqual(ret, -1)
 
     def test_good_name(self):
+<<<<<<< HEAD
 >>>>>>> 8051b01c88 (libpython: Save and load benchmark results (#1711))
+=======
+        ret = Rast_legal_bandref("1")
+        self.assertEqual(ret, 1)
+        ret = Rast_legal_bandref("1a")
+        self.assertEqual(ret, 1)
+        ret = Rast_legal_bandref("clouds")
+        self.assertEqual(ret, 1)
+        ret = Rast_legal_bandref("rededge1")
+        self.assertEqual(ret, 1)
+>>>>>>> d3bc1c59f9 (libraster: fix Rast_legal_bandref() (#1796))
         ret = Rast_legal_bandref("S2_1")
         self.assertEqual(ret, 1)
         ret = Rast_legal_bandref("GRASS_aspect_deg")
