@@ -220,6 +220,7 @@ class DatabasePage(TitledPage):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.tlocation = self.MakeTextCtrl("newLocation")
 =======
 <<<<<<< HEAD
@@ -282,6 +283,12 @@ class DatabasePage(TitledPage):
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
         self.tlocation = self.MakeTextCtrl("newProject")
 =======
         self.tlocation = self.MakeTextCtrl("newLocation")
@@ -307,8 +314,11 @@ class DatabasePage(TitledPage):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
         self.tlocation = self.MakeTextCtrl("newLocation")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -435,7 +445,15 @@ class DatabasePage(TitledPage):
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        self.tlocation = self.MakeTextCtrl("newLocation")
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
         self.tlocation.SetFocus()
 
         checks = [

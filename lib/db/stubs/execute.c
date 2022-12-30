@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_execute_immediate(dbString *SQLstatement)
 =======
 <<<<<<< HEAD
@@ -89,6 +90,12 @@ int db__driver_execute_immediate(dbString *SQLstatement)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_execute_immediate(dbString *SQLstatement UNUSED)
 =======
 int db__driver_execute_immediate(dbString *SQLstatement)
@@ -114,8 +121,11 @@ int db__driver_execute_immediate(dbString *SQLstatement)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 int db__driver_execute_immediate(dbString *SQLstatement)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -242,7 +252,15 @@ int db__driver_execute_immediate(dbString *SQLstatement)
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+int db__driver_execute_immediate(dbString *SQLstatement)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 {
     db_procedure_not_implemented("db_execute_immediate");
     return DB_FAILED;

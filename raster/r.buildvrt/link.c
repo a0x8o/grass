@@ -108,6 +108,7 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 int have_stats, struct R_stats *ostats, const char *title)
 =======
 <<<<<<< HEAD
@@ -170,6 +171,12 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
                 int have_stats UNUSED, struct R_stats *ostats UNUSED,
                 const char *title)
 =======
@@ -196,8 +203,11 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
                 int have_stats, struct R_stats *ostats, const char *title)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -324,7 +334,15 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                int have_stats, struct R_stats *ostats, const char *title)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 {
     struct History history;
     struct Categories cats;

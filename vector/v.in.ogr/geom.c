@@ -382,6 +382,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* Degenerate is not ignored because it may be useful to see where it
          * is, but may be eliminated by min_area option */
         if (Points->n_points < 4)
@@ -558,6 +559,12 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
         lastidx = Points->n_points - 1;
         if (Points->x[0] != Points->x[lastidx] ||
             Points->y[0] != Points->y[lastidx] ||
@@ -850,6 +857,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -890,6 +898,10 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 >>>>>>> osgeo-main
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
         /* Degenerate is not ignored because it may be useful to see where it
          * is, but may be eliminated by min_area option */
@@ -1027,6 +1039,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1082,6 +1095,8 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
         /* Degenerate is not ignored because it may be useful to see where it
          * is, but may be eliminated by min_area option */
@@ -1324,7 +1339,12 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
         for (i = 0; i < valid_isles; i++) {
             Vect_destroy_line_struct(IPoints[i]);
         }

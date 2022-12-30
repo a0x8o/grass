@@ -479,6 +479,7 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "N_convert_array_2d_null_to_zero: %i valuess of type "
 =======
 <<<<<<< HEAD
@@ -530,6 +531,8 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -796,6 +799,8 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
                 count);
     if (a->type == DCELL_TYPE)
         G_debug(2,
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -808,6 +813,7 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
                 "N_convert_array_2d_null_to_zero: %i valuess of type "
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 "N_convert_array_2d_null_to_zero: %i valuess of type "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -817,9 +823,27 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 <<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+=======
 =======
                 "N_convert_array_2d_null_to_zero: %i valuess of type "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+                "FCELL_TYPE are converted",
+                count);
+    if (a->type == DCELL_TYPE)
+        G_debug(2,
+<<<<<<< HEAD
+<<<<<<< HEAD
+                "N_convert_array_2d_null_to_zero: %i values of type "
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+                "N_convert_array_2d_null_to_zero: %i valuess of type "
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+                "N_convert_array_2d_null_to_zero: %i valuess of type "
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
@@ -916,6 +940,12 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
                 "DCELL_TYPE are converted",
                 count);
 
