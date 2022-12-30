@@ -312,8 +312,43 @@ int main(int argc, char *argv[])
     out_set.flag_null = flag.null;
     out_set.flag_ind = flag.ind;
 
+<<<<<<< HEAD
     threads = G_set_omp_num_threads(parm.nproc);
+=======
+<<<<<<< HEAD
+    threads = atoi(parm.nproc->answer);
+#if defined(_OPENMP)
+    /* Set the number of threads */
+    omp_set_num_threads(threads);
+    if (threads > 1)
+        G_message(_("Using %d threads for parallel computing."), threads);
+#else
+    if (threads > 1) {
+        G_warning(_("GRASS GIS is not compiled with OpenMP support, parallel "
+                    "computation is disabled."));
+        threads = 1;
+    }
+#endif
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
     execute_texture(data, &dim, measure_menu, measure_idx, &out_set, threads);
+=======
+<<<<<<< HEAD
+    execute_texture(data, &dim, measure_menu, measure_idx, &out_set);
+=======
+    /* *************************************************************************************************
+     *
+     * Compute of the matrix S.G.L.D. (Spatial Gray-Level Dependence Matrices)
+<<<<<<< HEAD
+     *or co-occurrence matrix. The image is analyzed for piece, every piece is
+=======
+     *or co-occurrence matrix. The image is analized for piece, every piece is
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+     *naming moving window (s.w.). The s.w. must be square with number of size's
+     *samples odd, that because we want the sample at the center of matrix.
+     *
+     ***************************************************************************************************/
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
     for (i = 0; i < dim.n_outputs; i++) {
         Rast_close(outfd[i]);
