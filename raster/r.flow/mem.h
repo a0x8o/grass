@@ -101,6 +101,7 @@ void deallocate_heap(void);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -208,6 +209,8 @@ void deallocate_heap(void);
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -416,7 +419,12 @@ void deallocate_heap(void);
 =======
 =======
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 void put_row_seg(layer, int /* l, row */);
 =======
 <<<<<<< HEAD
@@ -496,6 +504,7 @@ void put_row_seg(layer, int /* l, row */);
 >>>>>>> osgeo-main
 void put_row_seg(/* l, row */);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1156,7 +1165,12 @@ void put_row_seg(/* l, row */);
 =======
 =======
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 
 #define get_row(l, row)                                                 \
     ((parm.seg && (Segment_flush(l.seg) < 1 ||                          \

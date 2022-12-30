@@ -128,6 +128,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -214,6 +215,8 @@
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -352,7 +355,12 @@
 =======
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 # %rules
 # % requires: percentile,-e
 # %end
@@ -399,6 +407,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -438,6 +447,8 @@
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -691,7 +702,12 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 import grass.script as gs
 
 ############################################################################
@@ -754,6 +770,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -840,6 +857,8 @@ def main():
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -978,7 +997,12 @@ def main():
 =======
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
     percentile = None
     if options["percentile"]:
         try:
@@ -990,6 +1014,7 @@ def main():
                 )
             )
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1069,6 +1094,8 @@ def main():
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -1322,7 +1349,12 @@ def main():
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     # Make sure the temporal database exists
@@ -1381,6 +1413,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1467,6 +1500,8 @@ def main():
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -1605,7 +1640,12 @@ def main():
 =======
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
         percentile=percentile,
         no_header=no_header,
         fs=separator,
@@ -1653,6 +1693,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1692,6 +1733,8 @@ def main():
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -1945,7 +1988,12 @@ def main():
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
         no_header=no_header,
         fs=separator,
         rast_region=rast_region,
@@ -1995,6 +2043,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -2016,6 +2065,8 @@ def main():
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -2341,7 +2392,13 @@ def main():
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
         nprocs=nprocs,
     )
 

@@ -138,6 +138,7 @@ int load_rasters(const struct GParams *params, nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -224,6 +225,8 @@ int load_rasters(const struct GParams *params, nv_data *data)
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -362,7 +365,12 @@ int load_rasters(const struct GParams *params, nv_data *data)
 =======
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
         /* color */
         /* check for color map */
         if (i < ncolor_map && strcmp(params->color_map->answers[i], "")) {
@@ -372,6 +380,7 @@ int load_rasters(const struct GParams *params, nv_data *data)
                               params->color_map->answers[i]);
             }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -451,6 +460,8 @@ int load_rasters(const struct GParams *params, nv_data *data)
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -704,7 +715,12 @@ int load_rasters(const struct GParams *params, nv_data *data)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
         mapset = G_find_raster2(params->color_map->answers[i], "");
         if (mapset == NULL) {
             G_fatal_error(_("Raster map <%s> not found"),
@@ -758,6 +774,7 @@ int load_rasters(const struct GParams *params, nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -779,6 +796,8 @@ int load_rasters(const struct GParams *params, nv_data *data)
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -1104,7 +1123,13 @@ int load_rasters(const struct GParams *params, nv_data *data)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
             Nviz_set_attr(
                 id, MAP_OBJ_SURF, ATT_COLOR, MAP_ATT,
                 G_fully_qualified_name(params->color_map->answers[i], mapset),

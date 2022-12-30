@@ -93,6 +93,7 @@ CREATE VIEW raster_view_abs_time AS SELECT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -188,6 +189,8 @@ CREATE VIEW raster_view_abs_time AS SELECT
 >>>>>>> d01c2a12f1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -859,7 +862,16 @@ CREATE VIEW raster_view_abs_time AS SELECT
 =======
 =======
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+=======
+            FROM raster_base A1, raster_absolute_time A2,
+=======
+            FROM raster_base A1, raster_absolute_time A2, 
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
             raster_spatial_extent A3, raster_metadata A4,
             raster_stds_register A5
             WHERE A1.id = A2.id AND A1.id = A3.id AND
@@ -951,6 +963,7 @@ CREATE VIEW raster_view_rel_time AS SELECT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1046,6 +1059,8 @@ CREATE VIEW raster_view_rel_time AS SELECT
 >>>>>>> d01c2a12f1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -1717,7 +1732,16 @@ CREATE VIEW raster_view_rel_time AS SELECT
 =======
 =======
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+=======
+            FROM raster_base A1, raster_relative_time A2,
+=======
+            FROM raster_base A1, raster_relative_time A2, 
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
             raster_spatial_extent A3, raster_metadata A4,
             raster_stds_register A5
             WHERE A1.id = A2.id AND A1.id = A3.id AND

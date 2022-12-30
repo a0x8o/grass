@@ -157,6 +157,7 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -264,6 +265,8 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -472,7 +475,12 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 =======
 =======
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
     snprintf(tmp_path, GPATH_MAX, "%s/%s_XXXXXX", base_dir, base.c_str());
 =======
 <<<<<<< HEAD
@@ -552,6 +560,7 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 >>>>>>> osgeo-main
     sprintf(tmp_path, "%s/%s_XXXXXX", base_dir, base.c_str());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1212,7 +1221,12 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 =======
 =======
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 
     fd = G_mkstemp(tmp_path, O_RDWR, 0600);
 

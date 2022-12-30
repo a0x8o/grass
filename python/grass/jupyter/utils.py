@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -271,6 +272,8 @@
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 # COPYRIGHT: (C) 2021-2024 Caitlin Haedrich, and by the GRASS Development Team
 =======
 =======
@@ -341,10 +344,13 @@
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 # COPYRIGHT: (C) 2021-2022 Caitlin Haedrich, and by the GRASS Development Team
 =======
 # COPYRIGHT: (C) 2021 Caitlin Haedrich, and by the GRASS Development Team
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,6 +411,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+<<<<<<< HEAD
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 =======
@@ -780,12 +789,21 @@
 =======
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+=======
+# COPYRIGHT: (C) 2021-2022 Caitlin Haedrich, and by the GRASS Development Team
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 #
 #            This program is free software under the GNU General Public
 #            License (>=v2). Read the file COPYING that comes with GRASS
 #            for details.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,6 +891,8 @@
 =======
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -895,6 +915,8 @@
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 """Utility functions warpping existing processes in a suitable way"""
 
 =======
@@ -1169,6 +1191,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1242,6 +1265,8 @@ import os
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -1485,9 +1510,12 @@ import os
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+=======
 """Utility functions warpping existing processes in a suitable way"""
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1530,6 +1558,8 @@ import os
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -1780,12 +1810,18 @@ import os
 =======
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 import grass.script as gs
 
 
 def get_region(env=None):
     """Returns current computational region as dictionary.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1927,6 +1963,8 @@ def get_region(env=None):
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 861dec1bf2 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
@@ -2268,7 +2306,12 @@ def get_region(env=None):
 =======
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 
     Additionally, it adds long key names.
 =======
@@ -2396,6 +2439,7 @@ def get_region(env=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2411,10 +2455,13 @@ def get_region(env=None):
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+=======
 
     Additionally, it adds long key names.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2440,6 +2487,8 @@ def get_region(env=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
     Adds long key names.
@@ -2709,7 +2758,12 @@ def get_region(env=None):
 =======
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
     """
     region = gs.region(env=env)
     region["east"] = region["e"]
@@ -2790,6 +2844,7 @@ def reproject_region(region, from_proj, to_proj):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2887,6 +2942,8 @@ def reproject_region(region, from_proj, to_proj):
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -3289,7 +3346,14 @@ def reproject_region(region, from_proj, to_proj):
 =======
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
     # reproject all corners, otherwise reproj. region may be underestimated
     # even better solution would be reprojecting vector region like in r.import
     proj_input = (
@@ -3318,6 +3382,7 @@ def reproject_region(region, from_proj, to_proj):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3528,11 +3593,17 @@ def reproject_region(region, from_proj, to_proj):
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
     proj_input = "{east} {north}\n{west} {south}".format(**region)
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3950,7 +4021,12 @@ def reproject_region(region, from_proj, to_proj):
     proj_input = "{east} {north}\n{west} {south}".format(**region)
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
     proc = gs.start_command(
         "m.proj",
         input="-",
@@ -4020,6 +4096,7 @@ def reproject_region(region, from_proj, to_proj):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4117,6 +4194,8 @@ def reproject_region(region, from_proj, to_proj):
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -4519,7 +4598,14 @@ def reproject_region(region, from_proj, to_proj):
 =======
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
         raise RuntimeError(
             _("Encountered error while running m.proj: {}").format(stderr)
         )
@@ -4535,6 +4621,7 @@ def reproject_region(region, from_proj, to_proj):
     region["north"] = max(latitude_list)
     region["west"] = min(longitude_list)
     region["south"] = min(latitude_list)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4848,7 +4935,12 @@ def reproject_region(region, from_proj, to_proj):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
     return region
 
 
@@ -5365,6 +5457,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5446,6 +5539,8 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d0f7fb7e37 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> f60d41cfac (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -5572,6 +5667,10 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
     return region
 
 
@@ -7389,6 +7488,7 @@ def setup_location(name, path, epsg, src_env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7486,6 +7586,8 @@ def setup_location(name, path, epsg, src_env):
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -7888,7 +7990,14 @@ def setup_location(name, path, epsg, src_env):
 =======
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
     set_target_region(src_env, new_env)
     return rcfile, new_env
 
@@ -7915,6 +8024,7 @@ def set_target_region(src_env, tgt_env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8399,6 +8509,8 @@ def set_target_region(src_env, tgt_env):
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
     region = get_region(env=src_env)
     from_proj = get_location_proj_string(src_env)
     to_proj = get_location_proj_string(env=tgt_env)
@@ -8470,6 +8582,7 @@ def set_target_region(src_env, tgt_env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bfcba1482b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 =======
@@ -8509,6 +8622,8 @@ def set_target_region(src_env, tgt_env):
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -8583,10 +8698,13 @@ def set_target_region(src_env, tgt_env):
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+=======
     region = get_region(env=src_env)
     from_proj = get_location_proj_string(src_env)
     to_proj = get_location_proj_string(env=tgt_env)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8848,7 +8966,12 @@ def set_target_region(src_env, tgt_env):
 =======
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
     new_region = reproject_region(region, from_proj, to_proj)
     # Set region to match original region extent
     gs.run_command(
@@ -8882,6 +9005,7 @@ def set_target_region(src_env, tgt_env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 43b862a006 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
@@ -9275,7 +9399,12 @@ def set_target_region(src_env, tgt_env):
 =======
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
         rows=new_region["rows"],
         cols=new_region["cols"],
         env=tgt_env,
@@ -9652,6 +9781,7 @@ def save_gif(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9732,6 +9862,8 @@ def save_gif(
 =======
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9765,10 +9897,13 @@ def save_gif(
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+=======
         rows=new_region["rows"],
         cols=new_region["cols"],
         env=tgt_env,
     )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9796,6 +9931,8 @@ def save_gif(
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 
 
 def get_map_name_from_d_command(module, **kwargs):
@@ -9838,6 +9975,7 @@ def get_rendering_size(region, width, height, default_width=600, default_height=
     if region_height > region_width:
         return (round(default_height * region_width / region_height), default_height)
     return (default_width, round(default_width * region_height / region_width))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10227,4 +10365,10 @@ def get_rendering_size(region, width, height, default_width=600, default_height=
 =======
 =======
 >>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> d30b01a9a9 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))

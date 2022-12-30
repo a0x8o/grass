@@ -14483,6 +14483,7 @@ msgstr "Il Nord deve essere più grande del Sud"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14497,6 +14498,8 @@ msgstr "Il Nord deve essere più grande del Sud"
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 #~ msgid ""
 #~ "Unable to read header file for raster map <%s@%s>. It is a reclass of "
 #~ "raster map <%s@%s> %s"
@@ -14511,6 +14514,7 @@ msgstr "Il Nord deve essere più grande del Sud"
 msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of raster map <%s@%s> %s"
 msgstr "Impossibile leggere il file dell'intestazione per la mappa raster <%s@%s>. È una riclassificazione della mappa raster <%s@%s> %s"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14622,6 +14626,8 @@ msgstr "Impossibile leggere il file dell'intestazione per la mappa raster <%s@%s
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -14687,11 +14693,18 @@ msgstr "Impossibile leggere il file dell'intestazione per la mappa raster <%s@%s
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 
 msgid "Copy %s <%s> to current mapset as <%s>"
 msgstr "Copia %s <%s> al mapset corrente come <%s>"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14825,6 +14838,8 @@ msgstr "Copia %s <%s> al mapset corrente come <%s>"
 =======
 >>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -14950,7 +14965,12 @@ msgstr "Copia %s <%s> al mapset corrente come <%s>"
 =======
 =======
 >>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 #~ msgid ""
 #~ "To run the module <%s> add underscore at the end of the option <%s> to "
 #~ "avoid conflict with Python keywords. Underscore at the beginning is "
@@ -14964,6 +14984,7 @@ msgstr "Copia %s <%s> al mapset corrente come <%s>"
 #~ msgid "To run the module <%s> add underscore at the end of the option <%s> to avoid conflict with Python keywords. Underscore at the beginning is depreciated in GRASS GIS 7.0 and will be removed in version 7.1."
 #~ msgstr "per eseguire il modulo <%s> aggiungere il trattino basso alla fine dell'opzione <%s> per evitare conflitti con le parole chiave di Python. Il trattino basso all'inizio è obsoleto in GRASS GIS 7.0 e sarà rimosso nella versione 7.1."
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15085,6 +15106,8 @@ msgstr "Copia %s <%s> al mapset corrente come <%s>"
 =======
 >>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -15118,9 +15141,12 @@ msgstr "Copia %s <%s> al mapset corrente come <%s>"
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+=======
 msgid "To run the module <%s> add underscore at the end of the option <%s> to avoid conflict with Python keywords. Underscore at the beginning is depreciated in GRASS GIS 7.0 and will be removed in version 7.1."
 msgstr "per eseguire il modulo <%s> aggiungere il trattino basso alla fine dell'opzione <%s> per evitare conflitti con le parole chiave di Python. Il trattino basso all'inizio è obsoleto in GRASS GIS 7.0 e sarà rimosso nella versione 7.1."
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15238,6 +15264,8 @@ msgstr "per eseguire il modulo <%s> aggiungere il trattino basso alla fine dell'
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -15960,4 +15988,9 @@ msgstr "per eseguire il modulo <%s> aggiungere il trattino basso alla fine dell'
 =======
 =======
 >>>>>>> 6abb78d81f (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 577d32036e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))

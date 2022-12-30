@@ -114,6 +114,7 @@ int do_astar(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             G_fatal_error(_("%" PRI_OFF_T " surplus points"), heap_size);
 
         if (heap_size > n_points)
@@ -397,6 +398,8 @@ int do_astar(void)
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -450,6 +453,8 @@ int do_astar(void)
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(_("%" PRId64 " surplus points"), heap_size);
 
         if (heap_size > n_points)
@@ -464,6 +469,7 @@ int do_astar(void)
                             ", should be %" PRI_OFF_T ""),
                           heap_size, n_points);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -496,6 +502,8 @@ int do_astar(void)
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 
         heap_p = heap_drop();
 

@@ -183,6 +183,7 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -290,6 +291,8 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 >>>>>>> d01c2a12f1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -498,7 +501,12 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 =======
 =======
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
         n = ((unsigned int)nrows + 1) * sizeof(off_t);
 =======
 <<<<<<< HEAD
@@ -578,6 +586,7 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 >>>>>>> osgeo-main
         n = (nrows + 1) * sizeof(off_t);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1238,7 +1247,12 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 =======
 =======
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
         if (read(fd, row_ptr, n) != n)
             goto badread;
         return 1;
@@ -1261,6 +1275,7 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
     if (read(fd, buf, n) != n)
         goto badread;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1919,6 +1934,8 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2111,12 +2128,18 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 =======
 =======
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
     for (row = 0, b = buf; row <= (unsigned int)nrows; row++) {
         off_t v = 0;
 
         for (n = 0; n < nbytes; n++) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2231,10 +2254,13 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
     for (row = 0, b = buf; row <= nrows; row++) {
         off_t v = 0;
 
         for (n = 0; n < (int)nbytes; n++) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2657,6 +2683,9 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 >>>>>>> 5952770ec6 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
             unsigned char c = *b++;
 
             if (nbytes > sizeof(off_t) && n < nbytes - sizeof(off_t) && c != 0)
