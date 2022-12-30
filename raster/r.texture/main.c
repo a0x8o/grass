@@ -1079,6 +1079,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
@@ -1094,6 +1095,8 @@ int main(int argc, char *argv[])
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1284,7 +1287,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
      *or co-occurrence matrix. The image is analyzed for piece, every piece is
 =======
      *or co-occurrence matrix. The image is analized for piece, every piece is
@@ -1326,6 +1334,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1602,7 +1613,15 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+     *or co-occurrence matrix. The image is analized for piece, every piece is
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
      *naming moving window (s.w.). The s.w. must be square with number of size's
      *samples odd, that because we want the sample at the center of matrix.
      *

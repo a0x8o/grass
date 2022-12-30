@@ -12228,6 +12228,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -12364,6 +12365,8 @@ msgstr "Impossibile leggere il file dell'intestazione per la mappa raster <%s@%s
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -12502,7 +12505,12 @@ msgstr "Impossibile leggere il file dell'intestazione per la mappa raster <%s@%s
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 #: ../lib/vector/Vlib/legal_vname.c:61
 #, c-format
 msgid "Illegal vector map name <%s>. Character '%c' not allowed."
@@ -15325,6 +15333,7 @@ msgstr "per eseguire il modulo <%s> aggiungere il trattino basso alla fine dell'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -15417,6 +15426,8 @@ msgstr "per eseguire il modulo <%s> aggiungere il trattino basso alla fine dell'
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -15449,6 +15460,8 @@ msgstr "per eseguire il modulo <%s> aggiungere il trattino basso alla fine dell'
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 msgid "which is missing."
 msgstr "che non è presente."
@@ -15510,6 +15523,7 @@ msgstr "Il Nord deve essere più grande del Sud"
 msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of raster map <%s@%s> %s"
 msgstr "Impossibile leggere il file dell'intestazione per la mappa raster <%s@%s>. È una riclassificazione della mappa raster <%s@%s> %s"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15604,6 +15618,8 @@ msgstr "Impossibile leggere il file dell'intestazione per la mappa raster <%s@%s
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15722,12 +15738,18 @@ msgstr "Impossibile leggere il file dell'intestazione per la mappa raster <%s@%s
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Copy %s <%s> to current mapset as <%s>"
 msgstr "Copia %s <%s> al mapset corrente come <%s>"
 
 msgid "To run the module <%s> add underscore at the end of the option <%s> to avoid conflict with Python keywords. Underscore at the beginning is depreciated in GRASS GIS 7.0 and will be removed in version 7.1."
 msgstr "per eseguire il modulo <%s> aggiungere il trattino basso alla fine dell'opzione <%s> per evitare conflitti con le parole chiave di Python. Il trattino basso all'inizio è obsoleto in GRASS GIS 7.0 e sarà rimosso nella versione 7.1."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15776,6 +15798,8 @@ msgstr "per eseguire il modulo <%s> aggiungere il trattino basso alla fine dell'
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -16230,4 +16254,10 @@ msgstr "per eseguire il modulo <%s> aggiungere il trattino basso alla fine dell'
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))

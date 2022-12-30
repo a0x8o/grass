@@ -62,6 +62,7 @@ static int Rast3d_tile2xdrTile(RASTER3D_Map *map, const void *tile, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                int yRedundant, int zRedundant, int nofNum,
                                int type)
 =======
@@ -174,6 +175,8 @@ static int Rast3d_tile2xdrTile(RASTER3D_Map *map, const void *tile, int rows,
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -339,7 +342,12 @@ static int Rast3d_tile2xdrTile(RASTER3D_Map *map, const void *tile, int rows,
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
                                int yRedundant, int zRedundant UNUSED,
                                int nofNum, int type)
 =======
@@ -393,6 +401,7 @@ static int Rast3d_tile2xdrTile(RASTER3D_Map *map, const void *tile, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -485,6 +494,8 @@ static int Rast3d_tile2xdrTile(RASTER3D_Map *map, const void *tile, int rows,
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -522,9 +533,12 @@ static int Rast3d_tile2xdrTile(RASTER3D_Map *map, const void *tile, int rows,
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
                                int yRedundant, int zRedundant, int nofNum,
                                int type)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -638,6 +652,8 @@ static int Rast3d_tile2xdrTile(RASTER3D_Map *map, const void *tile, int rows,
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -814,7 +830,12 @@ static int Rast3d_tile2xdrTile(RASTER3D_Map *map, const void *tile, int rows,
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 {
     int y, z;
 
@@ -1095,6 +1116,7 @@ int Rast3d_write_tile_double(RASTER3D_Map *map, int tileIndex, const void *tile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * invokation of Rast3d_flush_tile, a tile filled with NULL-values is written.
 =======
 <<<<<<< HEAD
@@ -1206,6 +1228,8 @@ int Rast3d_write_tile_double(RASTER3D_Map *map, int tileIndex, const void *tile)
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1370,7 +1394,12 @@ int Rast3d_write_tile_double(RASTER3D_Map *map, int tileIndex, const void *tile)
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
  * invocation of Rast3d_flush_tile, a tile filled with NULL-values is written.
 =======
  * invokation of Rast3d_flush_tile, a tile filled with NULL-values is written.
@@ -1422,6 +1451,7 @@ int Rast3d_write_tile_double(RASTER3D_Map *map, int tileIndex, const void *tile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1475,6 +1505,8 @@ int Rast3d_write_tile_double(RASTER3D_Map *map, int tileIndex, const void *tile)
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1803,7 +1835,15 @@ int Rast3d_write_tile_double(RASTER3D_Map *map, int tileIndex, const void *tile)
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+ * invokation of Rast3d_flush_tile, a tile filled with NULL-values is written.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
  *
  *  \param map
  *  \param tileIndex
