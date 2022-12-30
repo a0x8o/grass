@@ -152,6 +152,7 @@ double gaussian2dByTerms(double d, double term1, double term2);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -789,6 +790,10 @@ double gaussian2dByTerms(double d, double term1, double term2);
 >>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 =======
 <<<<<<< HEAD
@@ -902,6 +907,9 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 double brent_iterate(double (*f)(), double x_lower, double x_upper,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1330,6 +1338,7 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper,
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1988,6 +1997,10 @@ double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 >>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
                      int maxiter);
 double kernel1(double d, double rs, double lambda);
 double segno(double x);

@@ -228,6 +228,7 @@ int update_dbcolors(const char *rast_name, const char *vector_map, int field,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          * later all togheter */
 =======
 <<<<<<< HEAD
@@ -628,6 +629,10 @@ int update_dbcolors(const char *rast_name, const char *vector_map, int field,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
          * later all together */
 =======
          * later all togheter */
@@ -696,6 +701,7 @@ int update_dbcolors(const char *rast_name, const char *vector_map, int field,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -794,6 +800,8 @@ int update_dbcolors(const char *rast_name, const char *vector_map, int field,
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
          * later all togheter */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -919,6 +927,7 @@ int update_dbcolors(const char *rast_name, const char *vector_map, int field,
 =======
          * later all togheter */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1237,6 +1246,10 @@ int update_dbcolors(const char *rast_name, const char *vector_map, int field,
          * later all togheter */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         colors_n_values++;
         my_color_rules[i].red = red;
         my_color_rules[i].green = grn;

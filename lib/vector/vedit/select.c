@@ -104,6 +104,7 @@ static int merge_lists(struct ilist *alist, struct ilist *blist);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \param layer layer number
 =======
 <<<<<<< HEAD
@@ -504,6 +505,10 @@ static int merge_lists(struct ilist *alist, struct ilist *blist);
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
    \param layer layer number (unused)
 =======
    \param layer layer number
@@ -572,6 +577,7 @@ static int merge_lists(struct ilist *alist, struct ilist *blist);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -670,6 +676,8 @@ static int merge_lists(struct ilist *alist, struct ilist *blist);
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
    \param layer layer number
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -795,6 +803,7 @@ static int merge_lists(struct ilist *alist, struct ilist *blist);
 =======
    \param layer layer number
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1113,6 +1122,10 @@ static int merge_lists(struct ilist *alist, struct ilist *blist);
    \param layer layer number
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
    \param thresh threshold value (< 0 for 'shorter', > 0 for 'longer')
    \param query query (length, dangle, ...)
    \param[in,out] List list of selected features
@@ -1189,6 +1202,7 @@ static int merge_lists(struct ilist *alist, struct ilist *blist);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
 =======
 <<<<<<< HEAD
@@ -1589,6 +1603,10 @@ int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 int Vedit_select_by_query(struct Map_info *Map, int type, int layer UNUSED,
 =======
 int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
@@ -1657,6 +1675,7 @@ int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1755,6 +1774,8 @@ int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1880,6 +1901,7 @@ int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
 =======
 int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2198,6 +2220,10 @@ int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
 int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
                           double thresh, int query, struct ilist *List)
 {
     int num, line, i;

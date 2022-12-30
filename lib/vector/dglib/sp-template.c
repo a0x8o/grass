@@ -110,6 +110,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
                                  dglInt32_t nStart)
 =======
@@ -512,6 +513,10 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #include <grass/gis.h>
 
 int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph UNUSED,
@@ -584,6 +589,7 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -766,6 +772,8 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
                                  dglInt32_t nStart)
@@ -1183,7 +1191,12 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
                                  dglInt32_t nStart)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 {
     pCache->nStartNode = nStart;
     pCache->pvVisited = NULL;
@@ -1268,6 +1281,7 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 =======
 <<<<<<< HEAD
@@ -1668,6 +1682,10 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph UNUSED, dglSPCache_s *pCache)
 =======
 void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
@@ -1736,6 +1754,7 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1834,6 +1853,8 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1959,6 +1980,7 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 =======
 void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2277,6 +2299,10 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 {
     if (pCache->pvVisited)
         avl_destroy(pCache->pvVisited, dglTreeTouchI32Cancel);

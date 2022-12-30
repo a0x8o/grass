@@ -130,6 +130,7 @@ int I_read_cam_info(FILE *fd, struct Ortho_Camera_File_Ref *cam_info)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
                     double Xf, double Yf)
 =======
@@ -532,6 +533,10 @@ int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info UNUSED,
                     char fid_id[30] UNUSED, double Xf UNUSED, double Yf UNUSED)
 =======
@@ -602,6 +607,7 @@ int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -783,6 +789,8 @@ int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
 int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
                     double Xf, double Yf)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -952,6 +960,7 @@ int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
 int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
                     double Xf, double Yf)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -1201,6 +1210,10 @@ int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 {
     return 0;
 }

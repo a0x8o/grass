@@ -1075,11 +1075,20 @@ import os
 
 import os
 import shutil
+<<<<<<< HEAD
 =======
 import os
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> a676227b37 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -1993,6 +2002,7 @@ class FindSignatureTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2432,12 +2442,17 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> a676227b37 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         cls.sigdirs = []
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
         cls.sigdirs = []
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2527,6 +2542,8 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
         cls.sigdirs = []
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2642,6 +2659,7 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -3175,6 +3193,10 @@ class FindSignatureTestCase(TestCase):
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> a676227b37 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         # As signatures are created directly not via signature creation
         # tools, we must ensure signature directories exist
         os.makedirs(f"{cls.mpath}/signatures/sig/", exist_ok=True)
@@ -5030,16 +5052,27 @@ class FindSignatureTestCase(TestCase):
 =======
 =======
         cls.sig_name1 = tempname(10)
-        cls.sigfile_name1 = f"{cls.mpath}/signatures/sigset/{cls.sig_name1}"
-        open(cls.sigfile_name1, "a").close()
+        cls.sig_dir1 = f"{cls.mpath}/signatures/sigset/{cls.sig_name1}"
+        os.makedirs(cls.sig_dir1)
+        cls.sigdirs.append(cls.sig_dir1)
+        open(f"{cls.sig_dir1}/sig", "a").close()
         cls.sig_name2 = tempname(10)
-        cls.sigfile_name2 = f"{cls.mpath}/signatures/sig/{cls.sig_name2}"
-        open(cls.sigfile_name2, "a").close()
+        cls.sig_dir2 = f"{cls.mpath}/signatures/sig/{cls.sig_name2}"
+        os.makedirs(cls.sig_dir2)
+        cls.sigdirs.append(cls.sig_dir2)
+        open(f"{cls.sig_dir2}/sig", "a").close()
 
     @classmethod
     def tearDownClass(cls):
+<<<<<<< HEAD
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> a676227b37 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         try:
             os.remove(cls.sigfile_name1)
             os.remove(cls.sigfile_name2)
@@ -5190,6 +5223,7 @@ class FindSignatureTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5279,6 +5313,8 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
         for d in cls.sigdirs:
             shutil.rmtree(d, ignore_errors=True)
@@ -5604,6 +5640,7 @@ class FindSignatureTestCase(TestCase):
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -5987,6 +6024,10 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> a676227b37 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
     def test_find_sig(self):
         # Non existing without a mapset

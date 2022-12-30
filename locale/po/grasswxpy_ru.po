@@ -35,6 +35,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -251,9 +252,12 @@ msgstr ""
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -497,6 +501,10 @@ msgstr ""
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -8221,6 +8229,7 @@ msgid "Text properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -8516,6 +8525,8 @@ msgid "Text properties"
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8526,6 +8537,7 @@ msgstr ""
 #: ../gui/wxpython/mapwin/decorations.py:226
 msgid "Remove scale bar"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8900,6 +8912,10 @@ msgid "Remove scale bar"
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -8947,6 +8963,7 @@ msgid "Scale bar properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -9242,6 +9259,8 @@ msgid "Scale bar properties"
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9252,6 +9271,7 @@ msgstr ""
 #: ../gui/wxpython/mapwin/decorations.py:239
 msgid "Remove north arrow"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9626,6 +9646,10 @@ msgid "Remove north arrow"
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -9720,6 +9744,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -9986,6 +10011,11 @@ msgstr ""
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #, python-format
 msgid "Space time dataset <%s> not found."
 msgstr "Пространственно-временной набор данных <%s> не найден."
@@ -15791,6 +15821,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -15896,11 +15927,14 @@ msgstr ""
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/locdownload.py:422
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:584
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16287,6 +16321,10 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/locdownload.py:415
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:583
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -16321,11 +16359,15 @@ msgid "Location Download"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 #: ../gui/wxpython/startup/locdownload.py:478
 msgid "Download completed. The downloaded sample data is listed in the location/mapset tabs upon closing of this window"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -16612,6 +16654,12 @@ msgstr ""
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgstr ""
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/startup/locdownload.py:509
 #, python-format
@@ -16783,6 +16831,7 @@ msgstr "Отменить загрузку области?"
 msgid "Abort download"
 msgstr "Отмена загрузки"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17251,6 +17300,10 @@ msgstr ""
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:85
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Invalid mapset name"
@@ -17277,6 +17330,7 @@ msgid "Invalid mapset name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/startup/guiutils.py:80
 msgid "Invalid mapset name"
@@ -17288,6 +17342,8 @@ msgstr ""
 =======
 =======
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
 #: ../gui/wxpython/startup/guiutils.py:80
 msgid "Invalid mapset name"
 =======
@@ -17295,6 +17351,10 @@ msgid "Invalid mapset name"
 msgid "Invalid mapset name"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
+=======
+msgstr ""
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/startup/guiutils.py:106
 msgid "Invalid location name"
@@ -17796,6 +17856,7 @@ msgstr "Имя для нового набора:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/startup/guiutils.py:186
 msgid "Unable to create new mapset: {}"
 =======
@@ -18167,6 +18228,8 @@ msgid "Unable to create new mapset: {}"
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:134 ../gui/wxpython/menustrings.py:250
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:638
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:1042
@@ -18175,6 +18238,7 @@ msgid "Unable to create new mapset: {}"
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -18452,6 +18516,9 @@ msgid "Unable to create new mapset: {}"
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:135 ../gui/wxpython/menustrings.py:250
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:637
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:1041
@@ -18465,6 +18532,7 @@ msgstr "Не удалось создать новый набор: {}"
 =======
 #: ../gui/wxpython/startup/guiutils.py:186
 msgid "Unable to create new mapset: {}"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18629,6 +18697,8 @@ msgid "Unable to create new mapset: {}"
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 #: ../gui/wxpython/startup/guiutils.py:186
 msgid "Unable to create new mapset: {}"
@@ -18853,6 +18923,10 @@ msgid "Unable to create new mapset: {}"
 #: ../gui/wxpython/startup/guiutils.py:171
 msgid "Name for the new mapset:"
 msgstr ""
+=======
+msgstr ""
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/startup/guiutils.py:186
 msgid "Unable to create new mapset: {}"
@@ -19332,6 +19406,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -19447,10 +19522,13 @@ msgstr ""
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:234
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19813,6 +19891,10 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:235
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Unable to rename selected mapset"
@@ -19886,6 +19968,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -20067,6 +20150,8 @@ msgstr ""
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
 #: ../gui/wxpython/startup/guiutils.py:269
 msgid "Unable to rename selected mapset"
 msgstr ""
@@ -20239,6 +20324,7 @@ msgstr ""
 msgid "Unable to rename selected mapset"
 msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -20488,6 +20574,10 @@ msgstr ""
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/startup/guiutils.py:245
 #: ../gui/wxpython/startup/guiutils.py:299
@@ -20500,6 +20590,7 @@ msgstr ""
 "\n"
 "Введите новое имя:"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20736,10 +20827,13 @@ msgstr ""
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:246
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:236
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:707
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20983,6 +21077,10 @@ msgstr ""
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:247
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:235
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:706
@@ -21062,6 +21160,7 @@ msgstr "Ошибка"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -21166,6 +21265,8 @@ msgstr "Ошибка"
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -21301,6 +21402,7 @@ msgstr "Ошибка"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -21736,6 +21838,11 @@ msgstr "Ошибка"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgid ""
 "Unable to rename mapset.\n"
 "\n"
@@ -21804,6 +21911,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -22202,6 +22310,10 @@ msgstr ""
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 "Не удалось переименовать набор.\n"
 "\n"
 "{}"
@@ -22271,6 +22383,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -22371,6 +22484,8 @@ msgstr ""
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -22485,6 +22600,7 @@ msgstr ""
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -22767,6 +22883,10 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/startup/guiutils.py:284
 #, fuzzy, python-brace-format
@@ -22849,6 +22969,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/startup/guiutils.py:323
 msgid "Unable to rename selected location"
 msgstr ""
@@ -23226,6 +23347,8 @@ msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:288
 #, fuzzy
 msgid "Unable to rename selected project"
@@ -23235,6 +23358,7 @@ msgstr "Не удалось переименовать выбранный наб
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -23512,6 +23636,9 @@ msgstr "Не удалось переименовать выбранный наб
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:289
 msgid "Unable to rename selected location"
 msgstr "Не удалось переименовать выбранную область"
@@ -23599,6 +23726,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -23785,6 +23913,8 @@ msgstr ""
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -24374,12 +24504,18 @@ msgstr ""
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgid ""
 "Unable to rename project.\n"
 "\n"
 "{}"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24530,10 +24666,13 @@ msgstr ""
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 "Не удалось переименовать набор.\n"
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24896,6 +25035,10 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 "Не удалось переименовать область.\n"
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 "\n"
@@ -24966,6 +25109,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -25066,6 +25210,8 @@ msgstr ""
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -25180,6 +25326,7 @@ msgstr ""
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -25462,6 +25609,10 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/startup/guiutils.py:374
 #, python-brace-format
@@ -25548,6 +25699,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/startup/guiutils.py:414
 msgid "Unable to delete selected mapsets"
 msgstr ""
@@ -25933,6 +26085,8 @@ msgstr ""
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:378
 msgid "Unable to delete selected mapsets"
 msgstr "Не удалось удалить выбранные наборы"
@@ -25943,6 +26097,7 @@ msgstr "Не удалось удалить выбранные наборы"
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -26220,6 +26375,9 @@ msgstr "Не удалось удалить выбранные наборы"
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:379
 msgid "Unable to delete selected mapsets"
 msgstr "Не удалось удалить выбранные наборы"
@@ -26297,6 +26455,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -26483,6 +26642,8 @@ msgstr ""
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -26796,6 +26957,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -27085,6 +27247,10 @@ msgstr ""
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #, python-brace-format
 msgid ""
 "Do you want to continue with deleting one or more of the following mapsets?\n"
@@ -27163,6 +27329,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #: ../gui/wxpython/startup/guiutils.py:435
 msgid "Delete selected mapsets"
@@ -27567,6 +27734,10 @@ msgid "Delete selected mapsets"
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 "Продолжить удаление одного или нескольких наборов?\n"
 "\n"
 "{deletes}\n"
@@ -27577,6 +27748,7 @@ msgid "Delete selected mapsets"
 msgid "Delete selected mapsets"
 msgstr "Удалить выбранные наборы"
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27724,9 +27896,12 @@ msgid "Error when deleting mapsets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
 
 #: ../gui/wxpython/startup/guiutils.py:435
 msgid "Delete selected mapsets"
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -27908,6 +28083,11 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 =======
+=======
+msgstr ""
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/startup/guiutils.py:435
 msgid "Delete selected mapsets"
@@ -28254,11 +28434,17 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/startup/guiutils.py:499
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/startup/guiutils.py:499
+=======
+<<<<<<< HEAD
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:464
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 msgid "Unable to delete selected locations"
@@ -28269,13 +28455,17 @@ msgstr ""
 =======
 #: ../gui/wxpython/startup/guiutils.py:480
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:499
 msgid "Unable to delete selected locations"
 msgstr ""
 
 #: ../gui/wxpython/startup/guiutils.py:515
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -28284,6 +28474,10 @@ msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #, python-brace-format
 msgid ""
 "Do you want to continue with deleting one or more of the following locations?\n"
@@ -28295,8 +28489,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/startup/guiutils.py:520
 msgid "Delete selected locations"
@@ -29661,8 +29858,11 @@ msgid ""
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 "Продолжить удаление одной или нескольких из следующих областей?\n"
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 "\n"
@@ -30228,6 +30428,7 @@ msgstr "Ошибка при удалении областей"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -30519,6 +30720,11 @@ msgstr "Ошибка при удалении областей"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/startup/guiutils.py:520
 msgid "Delete selected locations"
@@ -30527,6 +30733,7 @@ msgstr ""
 #: ../gui/wxpython/startup/guiutils.py:533
 msgid "Error when deleting locations"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30698,6 +30905,10 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/startup/guiutils.py:520
 msgid "Delete selected locations"
@@ -31310,6 +31521,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -31425,10 +31637,13 @@ msgstr ""
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:536
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31791,6 +32006,10 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:537
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Unable to delete selected GRASS database"
@@ -31864,6 +32083,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -32044,6 +32264,8 @@ msgstr ""
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 #: ../gui/wxpython/startup/guiutils.py:572
 msgid "Unable to delete selected GRASS database"
@@ -32219,6 +32441,7 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -32466,6 +32689,10 @@ msgstr ""
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/startup/guiutils.py:544
 #, python-brace-format
@@ -32482,6 +32709,7 @@ msgstr ""
 "\n"
 "Каталог будет полностью удалён!"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32638,10 +32866,13 @@ msgid "Delete selected GRASS database"
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:549
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33004,6 +33235,10 @@ msgid "Delete selected GRASS database"
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:550
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Delete selected GRASS database"
@@ -33075,6 +33310,7 @@ msgid "Delete selected GRASS database"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -33172,6 +33408,8 @@ msgid "Delete selected GRASS database"
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 #: ../gui/wxpython/startup/guiutils.py:585
 msgid "Delete selected GRASS database"
@@ -33411,6 +33649,10 @@ msgid "Delete selected GRASS database"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
+=======
+msgstr ""
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/startup/guiutils.py:597
 msgid "Error when deleting GRASS database"
@@ -33869,6 +34111,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -33982,10 +34225,13 @@ msgid "Mapset is in use"
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:603
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34348,6 +34594,10 @@ msgid "Mapset is in use"
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/guiutils.py:604
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Mapset is in use"
@@ -34355,6 +34605,7 @@ msgstr "Набор используется"
 =======
 #: ../gui/wxpython/startup/guiutils.py:641
 msgid "Mapset is in use"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34516,6 +34767,8 @@ msgid "Mapset is in use"
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 #: ../gui/wxpython/startup/guiutils.py:641
 msgid "Mapset is in use"
@@ -34755,6 +35008,10 @@ msgid "Mapset is in use"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
+=======
+msgstr ""
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/startup/guiutils.py:653
 msgid "Error when removing lock file"
@@ -35884,6 +36141,7 @@ msgstr "Номер категории"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -35982,6 +36240,322 @@ msgstr "Номер категории"
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+#: ../gui/wxpython/dbmgr/base.py:2369 ../gui/wxpython/dbmgr/dialogs.py:802
+msgid "Length"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:2532
+msgid "Unable to rename column. No column name defined."
+msgstr "Невозможно переименовать поле. Не задано имя поля."
+
+#: ../gui/wxpython/dbmgr/base.py:2540
+#, python-format
+msgid "Unable to rename column <%(column)s> to <%(columnTo)s>. Column already exists in the table <%(table)s>."
+msgstr "Невозможно переименовать поле <%(column)s> в  <%(columnTo)s>. Поле уже существует в таблице <%(table)s>."
+
+#: ../gui/wxpython/dbmgr/base.py:2558
+#, python-format
+msgid "Unable to rename column. Column <%(column)s> doesn't exist in the table <%(table)s>."
+msgstr "Невозможно переименовать поле. Поле <%(column)s> не существует в таблице <%(table)s>."
+
+#: ../gui/wxpython/dbmgr/base.py:2597
+msgid "Drop selected column"
+msgstr "Удалить выбранное поле"
+
+#: ../gui/wxpython/dbmgr/base.py:2601
+msgid "Drop all columns"
+msgstr "Удалить все поля"
+
+#: ../gui/wxpython/dbmgr/base.py:2633
+#, python-format
+msgid "Selected %s will PERMANENTLY removed from table. Do you want to drop the column?"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:2636 ../gui/wxpython/dbmgr/base.py:2680
+msgid "Drop column(s)"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:2677
+#, python-format
+msgid ""
+"Selected columns\n"
+"%s\n"
+"will PERMANENTLY removed from table. Do you want to drop the columns?"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:2783
+msgid "List of layers"
+msgstr "Список слоев"
+
+#: ../gui/wxpython/dbmgr/base.py:2868 ../gui/wxpython/dbmgr/base.py:3292
+#: ../gui/wxpython/dbmgr/base.py:3724
+#, python-format
+msgid "Drop also linked attribute table (%s)"
+msgstr "Удалить связанную атрибутивную таблицу (%s)"
+
+#: ../gui/wxpython/dbmgr/base.py:2911
+msgid "Column name"
+msgstr "Имя поля"
+
+#: ../gui/wxpython/dbmgr/base.py:2911
+msgid "Data length"
+msgstr "Объем данных"
+
+#: ../gui/wxpython/dbmgr/base.py:2967 ../gui/wxpython/dbmgr/base.py:3088
+#: ../gui/wxpython/dbmgr/base.py:3350 ../gui/wxpython/dbmgr/dialogs.py:504
+#: ../gui/wxpython/vdigit/preferences.py:611
+#: ../gui/wxpython/vdigit/preferences.py:614
+#: ../gui/wxpython/vdigit/dialogs.py:115 ../gui/wxpython/vdigit/dialogs.py:575
+msgid "Layer"
+msgstr "Слой"
+
+#: ../gui/wxpython/dbmgr/base.py:2968 ../gui/wxpython/dbmgr/base.py:3094
+#: ../gui/wxpython/dbmgr/base.py:3358
+msgid "Driver"
+msgstr "Драйвер"
+
+#: ../gui/wxpython/dbmgr/base.py:2969 ../gui/wxpython/dbmgr/base.py:3099
+#: ../gui/wxpython/dbmgr/base.py:3364 ../gui/wxpython/gui_core/gselect.py:1426
+msgid "Database"
+msgstr "База данных"
+
+#: ../gui/wxpython/dbmgr/base.py:2971
+msgid "Key"
+msgstr "Ключ"
+
+#: ../gui/wxpython/dbmgr/base.py:3070
+msgid "Add layer"
+msgstr "Добавить слой"
+
+#: ../gui/wxpython/dbmgr/base.py:3080
+msgid "Layer description"
+msgstr "Описание слоя"
+
+#: ../gui/wxpython/dbmgr/base.py:3110 ../gui/wxpython/dbmgr/base.py:3154
+#: ../gui/wxpython/dbmgr/base.py:3376
+msgid "Key column"
+msgstr "Ключевое поле"
+
+#: ../gui/wxpython/dbmgr/base.py:3115
+msgid "Insert record for each category into table"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:3137
+msgid "You need to add categories by v.category module."
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:3141
+msgid "Table description"
+msgstr "Описание таблицы"
+
+#: ../gui/wxpython/dbmgr/base.py:3149
+msgid "Table name"
+msgstr "Название таблицы"
+
+#: ../gui/wxpython/dbmgr/base.py:3163
+msgid "&Create table"
+msgstr "&Создать таблицу"
+
+#: ../gui/wxpython/dbmgr/base.py:3167
+#: ../gui/wxpython/web_services/dialogs.py:534
+msgid "&Add layer"
+msgstr "&Добавить слой"
+
+#: ../gui/wxpython/dbmgr/base.py:3171
+msgid "&Set default"
+msgstr "&Установить по умолчанию"
+
+#: ../gui/wxpython/dbmgr/base.py:3271
+msgid "Remove layer"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:3274
+msgid "Layer to remove"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:3300
+msgid "&Remove layer"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:3343
+msgid "Modify layer"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:3419
+msgid "&Modify layer"
+msgstr "&Изменить слой"
+
+#: ../gui/wxpython/dbmgr/base.py:3468
+msgid ""
+"Unable to get list of tables.\n"
+"Please use db.connect to set database parameters."
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:3565
+msgid "Unable to create new table. Table name or key column name is missing."
+msgstr "Невозможно создать новую таблицу. Пропущено название таблицы или название ключевого поля."
+
+#: ../gui/wxpython/dbmgr/base.py:3572
+#, python-format
+msgid "Unable to create new table. Table <%s> already exists in the database."
+msgstr "Невозможно создать новую таблицу. Таблица <%s> уже есть в базе данных."
+
+#: ../gui/wxpython/dbmgr/base.py:3613
+#, python-format
+msgid "Unable to add new layer to vector map <%(vector)s>. Layer %(layer)d already exists."
+msgstr "Невозможно добавить новые слои в векторную карту <%(vector)s>. Слой %(layer)d уже существует."
+
+#: ../gui/wxpython/dbmgr/base.py:3786
+msgid "Field statistics"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:3807
+msgid "Copy statistics the clipboard (Ctrl+C)"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:3874
+msgid "Statistics is not support for DBF tables."
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:3901
+msgid "Unable to calculte statistics."
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:3909
+#, python-format
+msgid "Unable to calculte statistics. Invalid number of lines %d (should be %d)."
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:3929
+msgid "Unable to calculte standard deviation."
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/base.py:3935
+#, python-format
+msgid "Field statistics <%s>"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:133
+msgid "Set SQL statement to default"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:135
+msgid "Apply SQL statement"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:137
+msgid "Close the dialog"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:224
+msgid "Columns"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:239
+msgid "Interactive insertion"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:253
+msgid "Values"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:263
+msgid "Get all values"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:268
+msgid "Get sample"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:270
+msgid "Get first 256 unique values as sample"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:288
+msgid "Go to:"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:301
+msgid "Close dialog on apply"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:482
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:627
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:855
+#, python-format
+msgid "GRASS SQL Builder (%(type)s) - <%(map)s>"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:485
+msgid "Column to show (SELECT clause)"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:486
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:631
+msgid "Constraint for query (WHERE clause)"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:502
+msgid "Verify"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:503
+msgid "Verify SQL statement"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:511
+msgid "SQL statement not verified"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:555
+msgid "SQL statement is not valid"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:557
+#, python-format
+msgid ""
+"SQL statement is not valid.\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:559
+msgid "SQL statement is valid"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:630
+msgid "Column to set (SET clause)"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:632
+msgid "Calculate column value to set"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:704
+msgid "Functions"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:737
+msgid "SQL statement was not applied"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:739
+msgid "SQL statement applied"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:773
+msgid "Dbf driver does not support usage of SQL functions."
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/manager.py:78
+msgid "Attribute Table Manager"
+msgstr ""
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/dbmgr/base.py:2369 ../gui/wxpython/dbmgr/dialogs.py:802
 msgid "Length"
@@ -38402,6 +38976,7 @@ msgstr "Строки: %d"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -38505,11 +39080,14 @@ msgid "Attribute Table Manager - GRASS GIS"
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/location_wizard/dialogs.py:202
 #: ../gui/wxpython/location_wizard/dialogs.py:594
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38896,6 +39474,10 @@ msgid "Attribute Table Manager - GRASS GIS"
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/location_wizard/dialogs.py:201
 #: ../gui/wxpython/location_wizard/dialogs.py:581
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -39127,6 +39709,7 @@ msgid "Attribute Table Manager - GRASS GIS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -39215,6 +39798,8 @@ msgid "Attribute Table Manager - GRASS GIS"
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 #: ../gui/wxpython/dbmgr/g.gui.dbmgr.py:56
 msgid "Attribute Table Manager - GRASS GIS"
@@ -39616,6 +40201,7 @@ msgid " Requested data settings "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -39972,6 +40558,10 @@ msgid " Requested data settings "
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -47371,6 +47961,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -47443,6 +48034,9 @@ msgstr ""
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/gui_core/preferences.py:1706
 msgid ""
@@ -47461,6 +48055,7 @@ msgstr "код EPSG:"
 msgid "PROJ string (required):"
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -47639,6 +48234,9 @@ msgstr ""
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/gui_core/preferences.py:1706
 msgid ""
@@ -47733,6 +48331,7 @@ msgstr "Файл EPSG:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -48072,6 +48671,13 @@ msgstr "Файл EPSG:"
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/gui_core/preferences.py:1873
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/gui_core/preferences.py:1826
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid ""
@@ -48079,6 +48685,7 @@ msgid ""
 =======
 #: ../gui/wxpython/gui_core/preferences.py:1773
 msgid "Load EPSG codes (be patient), enter EPSG code or insert PROJ string directly."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48376,6 +48983,8 @@ msgid "Load EPSG codes (be patient), enter EPSG code or insert PROJ string direc
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -48387,6 +48996,7 @@ msgid "Load EPSG codes (be patient), enter EPSG code or insert PROJ string direc
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -48728,6 +49338,11 @@ msgid "Load EPSG codes (be patient), enter EPSG code or insert PROJ string direc
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 "Загрузить коды EPSG (подождите), введите код EPSG или напрямую введите "
 "строку PROJ."
@@ -49166,6 +49781,7 @@ msgid "Do you want to quit GRASS GIS?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -49461,6 +50077,8 @@ msgid "Do you want to quit GRASS GIS?"
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -49651,6 +50269,7 @@ msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 msgstr ""
@@ -49738,9 +50357,12 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -49930,6 +50552,8 @@ msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/gui_core/wrap.py:258
 msgid "Clear"
@@ -50218,6 +50842,7 @@ msgstr "Скопировать выбранные файлы"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -50557,6 +51182,13 @@ msgstr "Скопировать выбранные файлы"
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/gui_core/query.py:135 ../gui/wxpython/gui_core/query.py:139
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/gui_core/query.py:134 ../gui/wxpython/gui_core/query.py:138
 =======
 #: ../gui/wxpython/gui_core/menu.py:164
@@ -50596,6 +51228,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -50862,6 +51495,11 @@ msgstr ""
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #, python-format
 msgid "Copy '%s'"
 msgstr "Скопировать «%s»"
@@ -61021,6 +61659,7 @@ msgstr "Создать новую область?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -61203,6 +61842,8 @@ msgstr "Создать новую область?"
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 msgid "Define GRASS Database and Location Name"
 msgstr "Укажите базу данных GRASS и название области"
@@ -61521,6 +62162,7 @@ msgstr "Создать новую область?"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -61765,3 +62407,7 @@ msgstr "Создать новую область?"
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))

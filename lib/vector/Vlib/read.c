@@ -113,6 +113,7 @@ static int format2(struct Map_info *Map UNUSED, struct line_pnts *line_p UNUSED,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int (*Read_next_line_array[][3])() = {
 =======
 <<<<<<< HEAD
@@ -513,6 +514,10 @@ static int (*Read_next_line_array[][3])() = {
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 static int (*Read_next_line_array[][3])(struct Map_info *, struct line_pnts *,
                                         struct line_cats *) = {
 =======
@@ -582,6 +587,7 @@ static int (*Read_next_line_array[][3])() = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -680,6 +686,8 @@ static int (*Read_next_line_array[][3])() = {
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 static int (*Read_next_line_array[][3])() = {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -805,6 +813,7 @@ static int (*Read_next_line_array[][3])() = {
 =======
 static int (*Read_next_line_array[][3])() = {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1123,6 +1132,10 @@ static int (*Read_next_line_array[][3])() = {
 static int (*Read_next_line_array[][3])() = {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
     {read_dummy, V1_read_next_line_nat, V2_read_next_line_nat}
 #ifdef HAVE_OGR
     ,
@@ -1212,6 +1225,7 @@ static int (*Read_next_line_array[][3])() = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int (*Read_line_array[])() = {V2_read_line_nat
 #ifdef HAVE_OGR
                                      ,
@@ -1638,6 +1652,10 @@ static int (*Read_line_array[])() = {V2_read_line_nat
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 static int (*Read_line_array[])(struct Map_info *, struct line_pnts *,
                                 struct line_cats *, int) = {V2_read_line_nat
 #ifdef HAVE_OGR
@@ -1734,6 +1752,7 @@ static int (*Read_line_array[])() = {V2_read_line_nat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1916,6 +1935,8 @@ static int (*Read_line_array[])() = {V2_read_line_nat
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 static int (*Read_line_array[])() = {V2_read_line_nat
 #ifdef HAVE_OGR
@@ -2124,6 +2145,7 @@ static int (*Read_line_array[])() = {V2_read_line_nat
                                      ,
                                      format
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -2370,6 +2392,10 @@ static int (*Read_line_array[])() = {V2_read_line_nat
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #endif
 };
 
@@ -2447,6 +2473,7 @@ static int (*Read_line_array[])() = {V2_read_line_nat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2720,6 +2747,8 @@ static int (*Read_line_array[])() = {V2_read_line_nat
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 int Vect_get_next_line_id(struct Map_info *Map)
 =======
 =======
@@ -3182,7 +3211,14 @@ int Vect_get_next_line_id(struct Map_info *Map)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vect_get_next_line_id(struct Map_info *Map)
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 int Vect_get_next_line_id(const struct Map_info *Map)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -3287,6 +3323,7 @@ int Vect_get_next_line_id(const struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 =======
 <<<<<<< HEAD
@@ -3687,6 +3724,10 @@ int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 int Vect_read_next_line(struct Map_info *Map, struct line_pnts *line_p,
 =======
 int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
@@ -3755,6 +3796,7 @@ int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3853,6 +3895,8 @@ int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3978,6 +4022,7 @@ int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 =======
 int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4296,6 +4341,10 @@ int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
                         struct line_cats *line_c)
 {
     int ret;
@@ -4403,6 +4452,7 @@ int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
 =======
 <<<<<<< HEAD
@@ -4803,6 +4853,10 @@ int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 int Vect_read_line(struct Map_info *Map, struct line_pnts *line_p,
 =======
 int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
@@ -4871,6 +4925,7 @@ int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4969,6 +5024,8 @@ int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -5094,6 +5151,7 @@ int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
 =======
 int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5412,6 +5470,10 @@ int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
 int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
                    struct line_cats *line_c, int line)
 {
     int ret;
@@ -5559,6 +5621,7 @@ int Vect_node_alive(struct Map_info *Map, int node)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5832,6 +5895,8 @@ int Vect_node_alive(struct Map_info *Map, int node)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 int Vect_area_alive(struct Map_info *Map, int area)
 =======
 =======
@@ -6294,7 +6359,14 @@ int Vect_area_alive(struct Map_info *Map, int area)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vect_area_alive(struct Map_info *Map, int area)
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 int Vect_area_alive(const struct Map_info *Map, int area)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -6383,6 +6455,7 @@ int Vect_area_alive(const struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -6656,6 +6729,8 @@ int Vect_area_alive(const struct Map_info *Map, int area)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 int Vect_isle_alive(struct Map_info *Map, int isle)
 =======
 =======
@@ -7118,7 +7193,14 @@ int Vect_isle_alive(struct Map_info *Map, int isle)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vect_isle_alive(struct Map_info *Map, int isle)
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 int Vect_isle_alive(const struct Map_info *Map, int isle)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -7209,6 +7291,7 @@ int Vect_isle_alive(const struct Map_info *Map, int isle)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7482,6 +7565,8 @@ int Vect_isle_alive(const struct Map_info *Map, int isle)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 off_t Vect_get_line_offset(struct Map_info *Map, int line)
 =======
 =======
@@ -7944,7 +8029,14 @@ off_t Vect_get_line_offset(struct Map_info *Map, int line)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+off_t Vect_get_line_offset(struct Map_info *Map, int line)
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 off_t Vect_get_line_offset(const struct Map_info *Map, int line)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {

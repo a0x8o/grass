@@ -180,6 +180,7 @@ off_t V1_rewrite_line_nat(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(3, "V1_rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
 =======
 <<<<<<< HEAD
@@ -580,6 +581,10 @@ off_t V1_rewrite_line_nat(struct Map_info *Map, off_t offset, int type,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
     G_debug(3, "V1_rewrite_line_nat(): offset = %" PRId64, offset);
 =======
     G_debug(3, "V1_rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
@@ -648,6 +653,7 @@ off_t V1_rewrite_line_nat(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -746,6 +752,8 @@ off_t V1_rewrite_line_nat(struct Map_info *Map, off_t offset, int type,
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
     G_debug(3, "V1_rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -871,6 +879,7 @@ off_t V1_rewrite_line_nat(struct Map_info *Map, off_t offset, int type,
 =======
     G_debug(3, "V1_rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1189,6 +1198,10 @@ off_t V1_rewrite_line_nat(struct Map_info *Map, off_t offset, int type,
     G_debug(3, "V1_rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
     /* First compare numbers of points and cats with the old one */
     if (!old_points) {
@@ -1501,6 +1514,7 @@ int V1_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "V1_restore_line_nat(): offset = %" PRI_OFF_T
             ", line (not used) = %" PRI_OFF_T,
 =======
@@ -1903,6 +1917,10 @@ int V1_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
             "V1_restore_line_nat(): offset = %" PRId64
             ", line (not used) = %" PRId64,
 =======
@@ -1973,6 +1991,7 @@ int V1_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2154,6 +2173,8 @@ int V1_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
             "V1_restore_line_nat(): offset = %" PRI_OFF_T
             ", line (not used) = %" PRI_OFF_T,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2323,6 +2344,7 @@ int V1_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
             "V1_restore_line_nat(): offset = %" PRI_OFF_T
             ", line (not used) = %" PRI_OFF_T,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -2572,6 +2594,10 @@ int V1_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
             offset, line);
 
     dig_set_cur_port(&(Map->head.port));
@@ -2692,6 +2718,7 @@ int V2_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(
         3, "V2_restore_line_nat(): offset = %" PRI_OFF_T ", line = %" PRI_OFF_T,
         offset, line);
@@ -3088,6 +3115,10 @@ int V2_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
     G_debug(3, "V2_restore_line_nat(): offset = %" PRId64 ", line = %" PRId64,
             offset, line);
 
@@ -3212,6 +3243,7 @@ int V2_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3512,6 +3544,8 @@ int V2_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
     G_debug(
         3, "V2_restore_line_nat(): offset = %" PRI_OFF_T ", line = %" PRI_OFF_T,
@@ -3852,7 +3886,12 @@ int V2_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
             _("Attempt to access feature with invalid id (%" PRI_OFF_T ")"),
             line);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         return -1;
     }
 
@@ -3995,6 +4034,7 @@ off_t V1__write_line_nat(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_debug(3, "V1__rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
 =======
 <<<<<<< HEAD
@@ -4395,6 +4435,10 @@ off_t V1__write_line_nat(struct Map_info *Map, off_t offset, int type,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         G_debug(3, "V1__rewrite_line_nat(): offset = %" PRId64, offset);
 =======
         G_debug(3, "V1__rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
@@ -4463,6 +4507,7 @@ off_t V1__write_line_nat(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4561,6 +4606,8 @@ off_t V1__write_line_nat(struct Map_info *Map, off_t offset, int type,
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
         G_debug(3, "V1__rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4686,6 +4733,7 @@ off_t V1__write_line_nat(struct Map_info *Map, off_t offset, int type,
 =======
         G_debug(3, "V1__rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5004,6 +5052,10 @@ off_t V1__write_line_nat(struct Map_info *Map, off_t offset, int type,
         G_debug(3, "V1__rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         if (offset == -1)
             return -1;
     }
@@ -5497,6 +5549,7 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                              int (*external_routine)(const struct Map_info *,
                                                      int))
 =======
@@ -6064,11 +6117,16 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
                              int (*external_routine)(struct Map_info *, int))
 =======
                              int (*external_routine)(const struct Map_info *,
                                                      int))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6131,6 +6189,8 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
                              int (*external_routine)(const struct Map_info *,
                                                      int))
@@ -6436,7 +6496,12 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
                              int (*external_routine)(const struct Map_info *,
                                                      int))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 {
     int first, s, n, i, line;
     int node, next_line, area, side, sel_area, new_area[2];
@@ -6521,6 +6586,7 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "V2__add_line_to_topo_nat(): offset = %" PRI_OFF_T
 =======
 <<<<<<< HEAD
@@ -6921,6 +6987,10 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
             "V2__add_line_to_topo_nat(): offset = %" PRId64
 =======
             "V2__add_line_to_topo_nat(): offset = %" PRI_OFF_T
@@ -6989,6 +7059,7 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7087,6 +7158,8 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
             "V2__add_line_to_topo_nat(): offset = %" PRI_OFF_T
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -7212,6 +7285,7 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 =======
             "V2__add_line_to_topo_nat(): offset = %" PRI_OFF_T
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7530,6 +7604,10 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
             "V2__add_line_to_topo_nat(): offset = %" PRI_OFF_T
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
             " (build level = %d)",
             offset, plus->built);
 

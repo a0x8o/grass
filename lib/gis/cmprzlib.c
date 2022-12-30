@@ -213,6 +213,7 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -535,6 +536,8 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
 >>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
     if (dst_sz < 0 || buf_sz > (unsigned int)dst_sz) {
 =======
 <<<<<<< HEAD
@@ -1026,6 +1029,7 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
     if (dst_sz < 0 || buf_sz > (unsigned int)dst_sz) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
@@ -1803,6 +1807,14 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
 >>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+=======
+    if (dst_sz < 0 || buf_sz > (unsigned int)dst_sz) {
+=======
+    if (buf_sz > dst_sz) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         G_warning(
             "G_zlib_compress(): programmer error, destination is too small");
         if (NULL ==
@@ -1929,6 +1941,7 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2251,6 +2264,8 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
 >>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
     if (src_sz < 0 || nbytes >= (unsigned int)src_sz) {
 =======
 <<<<<<< HEAD
@@ -2742,6 +2757,7 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
     if (src_sz < 0 || nbytes >= (unsigned int)src_sz) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
@@ -3519,6 +3535,14 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
 >>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+=======
+    if (src_sz < 0 || nbytes >= (unsigned int)src_sz) {
+=======
+    if (nbytes >= src_sz) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         /* compression not possible */
         if (buf != dst)
             G_free(buf);
@@ -3676,6 +3700,7 @@ int G_zlib_expand(unsigned char *src, int src_sz, unsigned char *dst,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3998,6 +4023,8 @@ int G_zlib_expand(unsigned char *src, int src_sz, unsigned char *dst,
 >>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
     if (dst_sz < 0 || nbytes != (unsigned int)dst_sz) {
 =======
 <<<<<<< HEAD
@@ -4489,6 +4516,7 @@ int G_zlib_expand(unsigned char *src, int src_sz, unsigned char *dst,
     if (dst_sz < 0 || nbytes != (unsigned int)dst_sz) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
@@ -5266,6 +5294,14 @@ int G_zlib_expand(unsigned char *src, int src_sz, unsigned char *dst,
 >>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+=======
+    if (dst_sz < 0 || nbytes != (unsigned int)dst_sz) {
+=======
+    if (nbytes != dst_sz) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         /* TODO: it is not an error if destination is larger than needed */
         G_warning(_("Got uncompressed size %d, expected %d"), (int)nbytes,
                   dst_sz);

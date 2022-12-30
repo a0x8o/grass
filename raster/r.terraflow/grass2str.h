@@ -206,6 +206,7 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,
 =======
 <<<<<<< HEAD
@@ -606,6 +607,10 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRId64, nrows, ncols,
 =======
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,
@@ -674,6 +679,7 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -772,6 +778,8 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -897,6 +905,7 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 =======
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1215,6 +1224,10 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
             str->stream_len());
     assert((off_t)nrows * ncols == str->stream_len());
     rt_stop(rt);

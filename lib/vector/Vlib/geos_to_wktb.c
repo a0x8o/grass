@@ -296,6 +296,7 @@ char *Vect_read_area_to_wkt(struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 =======
 <<<<<<< HEAD
@@ -696,6 +697,10 @@ unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 unsigned char *Vect_read_line_to_wkb(struct Map_info *Map,
 =======
 unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
@@ -764,6 +769,7 @@ unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -862,6 +868,8 @@ unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -987,6 +995,7 @@ unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 =======
 unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1305,6 +1314,10 @@ unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
                                      struct line_pnts *line_p,
                                      struct line_cats *line_c, int line,
                                      size_t *size, int *error)

@@ -327,6 +327,7 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1177,6 +1178,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 >>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         G_percent(iter, iterations, 1);
 
         matrix_mult_scalar(0.0, &fx);
@@ -1407,6 +1410,7 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
@@ -1414,6 +1418,9 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         G_percent(iter, iterations, 1);
 
         matrix_mult_scalar(0.0, &fx);
@@ -1480,6 +1487,7 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
         matrix_add(&dy, &fy, &fy);
 
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
         int conflicts = 0;
@@ -6924,6 +6932,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         int conflicts = 0;
 
         G_percent(iter, iterations, 1);
@@ -6992,6 +7002,10 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
         matrix_add(&dx, &fx, &fx);
         matrix_add(&dy, &fy, &fy);
 
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         matrix_mult(&kinv, &fx, &dx);
         matrix_mult(&kinv, &fy, &dy);
 

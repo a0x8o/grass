@@ -426,6 +426,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* Degenerate is not ignored because it may be useful to see where it
          * is, but may be eliminated by min_area option */
         if (Points->n_points < 4)
@@ -1054,6 +1055,10 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         lastidx = Points->n_points - 1;
         if (Points->x[0] != Points->x[lastidx] ||
             Points->y[0] != Points->y[lastidx] ||
@@ -1389,6 +1394,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1571,6 +1577,8 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
         /* Degenerate is not ignored because it may be useful to see where it
          * is, but may be eliminated by min_area option */
@@ -2084,6 +2092,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2328,6 +2337,10 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         for (i = 0; i < valid_isles; i++) {
             Vect_destroy_line_struct(IPoints[i]);
         }

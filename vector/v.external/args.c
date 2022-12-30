@@ -132,6 +132,7 @@ void parse_args(int argc, char **argv, struct _options *options,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         _("Override projection check (use current location's projection)");
     flags->override->description = _("Assume that the dataset has the same "
                                      "projection as the current location");
@@ -536,6 +537,10 @@ void parse_args(int argc, char **argv, struct _options *options,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         _("Override projection check (use current project's CRS)");
     flags->override->description =
         _("Assume that the dataset has the same "
@@ -609,6 +614,7 @@ void parse_args(int argc, char **argv, struct _options *options,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -790,6 +796,8 @@ void parse_args(int argc, char **argv, struct _options *options,
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
         _("Override projection check (use current location's projection)");
     flags->override->description = _("Assume that the dataset has the same "
                                      "projection as the current location");
@@ -962,6 +970,7 @@ void parse_args(int argc, char **argv, struct _options *options,
     flags->override->description = _("Assume that the dataset has the same "
                                      "projection as the current location");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -1211,6 +1220,10 @@ void parse_args(int argc, char **argv, struct _options *options,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
     flags->proj = G_define_flag();
     flags->proj->key = 'j';

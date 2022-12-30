@@ -209,6 +209,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -607,6 +608,10 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
             sep="=",
         )
 
@@ -730,6 +735,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -830,6 +836,8 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -944,6 +952,7 @@ class TestRasterUnivar(TestCase):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -1226,6 +1235,10 @@ class TestRasterUnivar(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
             sep="=",
         )
 
@@ -1386,6 +1399,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1784,6 +1798,10 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
             sep="=",
         )
 
@@ -1888,6 +1906,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1988,6 +2007,8 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2102,6 +2123,7 @@ class TestRasterUnivar(TestCase):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -2384,6 +2406,10 @@ class TestRasterUnivar(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
             sep="=",
         )
 
@@ -2445,6 +2471,142 @@ class TestRasterUnivar(TestCase):
 =======
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+            sep="=",
+        )
+
+    def test_2_zone(self):
+        """
+        multiple maps and zone
+        :return:
+        """
+
+        # Output of r.univar
+        univar_string = """zone=1;
+                        n=3420
+                        null_cells=0
+                        cells=3420
+                        min=102
+                        max=309
+                        range=207
+                        mean=205.5
+                        mean_of_abs=205.5
+                        stddev=56.6119834192962
+                        variance=3204.91666666667
+                        coeff_var=27.5484104230152
+                        sum=702810
+                        zone=2;
+                        n=12780
+                        null_cells=0
+<<<<<<< HEAD
+                        cells=3420
+=======
+<<<<<<< HEAD
+                        cells=12780
+=======
+                        cells=3420
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+                        min=121
+                        max=380
+                        range=259
+                        mean=250.5
+                        mean_of_abs=250.5
+                        stddev=59.9576239244574
+                        variance=3594.91666666667
+                        coeff_var=23.9351792113602
+                        sum=3201390"""
+
+        self.assertModuleKeyValue(
+            module="r.univar",
+            map=["map_a", "map_b"],
+            zones="zone_map",
+            flags="g",
+            reference=univar_string,
+            precision=6,
+            sep="=",
+        )
+        self.assertModuleKeyValue(
+            module="r.univar",
+            map=["map_a", "map_b"],
+            zones="zone_map",
+            flags="g",
+            nprocs=4,
+            reference=univar_string,
+            precision=6,
+            sep="=",
+        )
+
+    def test_3_zone(self):
+        """
+        multiple maps and zone
+        :return:
+        """
+
+        # Output of r.univar
+        univar_string = """zone=1;
+                        n=3420
+                        null_cells=0
+                        cells=3420
+                        min=102
+                        max=309
+                        range=207
+                        mean=205.5
+                        mean_of_abs=205.5
+                        stddev=56.6119834192962
+                        variance=3204.91666666667
+                        coeff_var=27.5484104230152
+                        sum=702810
+                        first_quartile=155
+                        median=205.5
+                        third_quartile=255
+                        percentile_90=282
+                        zone=2;
+                        n=12780
+                        null_cells=0
+<<<<<<< HEAD
+                        cells=3420
+=======
+<<<<<<< HEAD
+                        cells=12780
+=======
+                        cells=3420
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+                        min=121
+                        max=380
+                        range=259
+                        mean=250.5
+                        mean_of_abs=250.5
+                        stddev=59.9576239244574
+                        variance=3594.91666666667
+                        coeff_var=23.9351792113602
+                        sum=3201390
+                        first_quartile=200
+                        median=250.5
+                        third_quartile=300
+                        percentile_90=330"""
+
+        self.assertModuleKeyValue(
+            module="r.univar",
+            map=["map_a", "map_b"],
+            zones="zone_map",
+            flags="ge",
+            reference=univar_string,
+            precision=6,
+            sep="=",
+        )
+        self.assertModuleKeyValue(
+            module="r.univar",
+            map=["map_a", "map_b"],
+            zones="zone_map",
+            flags="ge",
+            nprocs=4,
+            reference=univar_string,
+            precision=6,
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             sep="=",
         )
 
@@ -2561,7 +2723,7 @@ class TestRasterUnivar(TestCase):
             nprocs=4,
             reference=univar_string,
             precision=6,
-<<<<<<< HEAD
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             sep="=",
@@ -3517,6 +3679,8 @@ class TestRasterUnivar(TestCase):
             reference=univar_string,
             precision=6,
 <<<<<<< HEAD
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4671,6 +4835,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -5146,6 +5311,12 @@ class TestRasterUnivar(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
             sep="=",
         )
 

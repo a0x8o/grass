@@ -148,6 +148,7 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive(size_t inMem)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -374,6 +375,8 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive(size_t inMem)
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -385,6 +388,7 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive(size_t inMem)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -726,6 +730,11 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive(size_t inMem)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 template <class T, class Key>
 EMPQueueAdaptive<T, Key>::EMPQueueAdaptive()
 {
@@ -814,6 +823,7 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // This metod initialized the PQ based on the memory passed
 =======
 <<<<<<< HEAD
@@ -1214,6 +1224,10 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive()
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 // This method initialized the PQ based on the memory passed
 =======
 // This metod initialized the PQ based on the memory passed
@@ -1282,6 +1296,7 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1380,6 +1395,8 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive()
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 // This metod initialized the PQ based on the memory passed
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1505,6 +1522,7 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive()
 =======
 // This metod initialized the PQ based on the memory passed
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1823,6 +1841,10 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive()
 // This metod initialized the PQ based on the memory passed
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 // into it
 template <class T, class Key>
 void EMPQueueAdaptive<T, Key>::initPQ(size_t initMem)

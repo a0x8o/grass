@@ -88,6 +88,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -756,6 +757,10 @@
 >>>>>>> cd1e658f47 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 2788a5026e (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 # COPYRIGHT:    (C) 2007-2024 by Glynn Clements
 =======
 # COPYRIGHT:    (C) 2007-2022 by Glynn Clements
@@ -825,6 +830,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -955,6 +961,8 @@
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 # COPYRIGHT:    (C) 2007-2022 by Glynn Clements
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1293,6 +1301,7 @@
 =======
 # COPYRIGHT:    (C) 2007-2023 by Glynn Clements
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4255a3409f (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -1918,6 +1927,10 @@
 # COPYRIGHT:    (C) 2007-2023 by Glynn Clements
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 2788a5026e (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #                and the GRASS Development Team
 #
 #               This program is free software under the GNU General
@@ -2096,6 +2109,7 @@ HTTP_STATUS_CODES = list(http.HTTPStatus)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2494,6 +2508,10 @@ HTTP_STATUS_CODES = list(http.HTTPStatus)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 def get_version_branch(major_version, addons_git_repo_url):
     """Check if version branch for the current GRASS version exists,
     if not, take branch for the previous version
@@ -2600,6 +2618,7 @@ def get_version_branch(major_version, addons_git_repo_url):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2698,6 +2717,8 @@ def get_version_branch(major_version, addons_git_repo_url):
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2802,6 +2823,7 @@ def get_version_branch(major_version, addons_git_repo_url):
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3096,6 +3118,10 @@ def get_version_branch(major_version, addons_git_repo_url):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 grass_version = os.getenv("VERSION_NUMBER", "unknown")
 trunk_url = ""
 addons_url = ""
@@ -3163,6 +3189,7 @@ grass_git_branch = "main"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3561,6 +3588,10 @@ grass_git_branch = "main"
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 major, minor, patch = None, None, None
 if grass_version != "unknown":
     major, minor, patch = grass_version.split(".")
@@ -3646,6 +3677,7 @@ if grass_version != "unknown":
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3746,6 +3778,8 @@ if grass_version != "unknown":
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3860,6 +3894,7 @@ if grass_version != "unknown":
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -4142,6 +4177,10 @@ if grass_version != "unknown":
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 if grass_version != "unknown":
     major, minor, patch = grass_version.split(".")
     base_url = "https://github.com/OSGeo"
@@ -4221,6 +4260,7 @@ if grass_version != "unknown":
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -4447,6 +4487,8 @@ if grass_version != "unknown":
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4458,6 +4500,7 @@ if grass_version != "unknown":
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4799,6 +4842,11 @@ if grass_version != "unknown":
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
     )
 
 
@@ -4947,7 +4995,15 @@ def download_git_commit(url, response_format, *args, **kwargs):
 def get_default_git_log(src_dir, datetime_format="%A %b %d %H:%M:%S %Y"):
     """Get default Git commit and commit date, when getting commit from
     local Git, local JSON file and remote GitHub REST API server wasn't
+<<<<<<< HEAD
     successfull.
+=======
+<<<<<<< HEAD
+    successful.
+=======
+    successfull.
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 
     :param str src_dir: addon source dir
     :param str datetime_format: output commit datetime format
@@ -4998,7 +5054,15 @@ def get_git_commit_from_file(
 
     :return dict git_log: dict which store last commit and commnit date
     """
+<<<<<<< HEAD
     # Accessed date time if getting commit from JSON file wasn't successfull
+=======
+<<<<<<< HEAD
+    # Accessed date time if getting commit from JSON file wasn't successful
+=======
+    # Accessed date time if getting commit from JSON file wasn't successfull
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
     if not git_log:
         git_log = get_default_git_log(src_dir=src_dir)
     json_file_path = os.path.join(
@@ -5030,6 +5094,30 @@ def get_git_commit_from_rest_api_for_addon_repo(
 
     :return dict git_log: dict which store last commit and commnit date
     """
+<<<<<<< HEAD
+    # Accessed date time if getting commit from GitHub REST API wasn't successfull
+=======
+<<<<<<< HEAD
+    # Accessed date time if getting commit from GitHub REST API wasn't successful
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+    if not git_log:
+        git_log = get_default_git_log(src_dir=src_dir)
+    grass_addons_url = (
+        "https://api.github.com/repos/osgeo/grass-addons/commits?"
+        "path={path}&page=1&per_page=1&sha=grass{major}".format(
+            path=addon_path,
+            major=major,
+        )
+<<<<<<< HEAD
+=======
+        if response:
+            commit = json.loads(response.read())
+            if commit:
+                git_log["commit"] = commit[0]["sha"]
+                git_log["date"] = format_git_commit_date_from_rest_api(
+                    commit_datetime=commit[0]["commit"]["author"]["date"],
+                )
+=======
     # Accessed date time if getting commit from GitHub REST API wasn't successfull
     if not git_log:
         git_log = get_default_git_log(src_dir=src_dir)
@@ -5039,6 +5127,7 @@ def get_git_commit_from_rest_api_for_addon_repo(
             path=addon_path,
             major=major,
         )
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
     )  # sha=git_branch_name
 
     response = download_git_commit(
@@ -5052,6 +5141,10 @@ def get_git_commit_from_rest_api_for_addon_repo(
             git_log["date"] = format_git_commit_date_from_rest_api(
                 commit_datetime=commit[0]["commit"]["author"]["date"],
             )
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
     return git_log
 
 
@@ -5104,7 +5197,14 @@ def has_src_code_git(src_dir, is_addon):
     else:
         os.chdir(topdir)
     try:
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
         process_result = subprocess.run(
             [
                 "git",
@@ -10023,6 +10123,7 @@ def read_file(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -10505,6 +10606,8 @@ def read_file(name):
 =======
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -10789,7 +10892,14 @@ def read_file(name):
             s = f.read()
         return s
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    except OSError:
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
     except IOError:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         return ""
@@ -11044,6 +11154,7 @@ def get_addon_path():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return: pgm path if pgm is addon else None
 =======
 <<<<<<< HEAD
@@ -11445,6 +11556,10 @@ def get_addon_path():
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
     Make or update list of the official addons source
     code paths g.extension prefix parameter plus /grass-addons directory
     using Git repository
@@ -11457,6 +11572,7 @@ def get_addon_path():
 =======
     return: pgm path if pgm is addon else None
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11618,6 +11734,8 @@ def get_addon_path():
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
     return: pgm path if pgm is addon else None
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -11753,6 +11871,7 @@ def get_addon_path():
 
     return: pgm path if pgm is addon else None
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -12078,6 +12197,10 @@ def get_addon_path():
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
     """
 <<<<<<< HEAD
     addons_base_dir = os.getenv("GRASS_ADDON_BASE")
@@ -12238,6 +12361,7 @@ def get_addon_path():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12821,6 +12945,12 @@ def get_addon_path():
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> a344872c74 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         """'addons_paths.json' is file created during install extension
         check get_addons_paths() function in the g.extension.py file
         """
@@ -12835,6 +12965,7 @@ def get_addon_path():
                     return True, addon["path"]
     return None, None
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13017,6 +13148,8 @@ def get_addon_path():
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a344872c74 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -13229,6 +13362,7 @@ def get_addon_path():
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
@@ -13468,6 +13602,11 @@ def get_addon_path():
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         # addons_paths.json is file created during install extension
         # check get_addons_paths() function in the g.extension.py file
         addons_file = "addons_paths.json"
@@ -13560,6 +13699,7 @@ def get_addon_path():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -13795,6 +13935,8 @@ def get_addon_path():
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -13812,6 +13954,7 @@ def get_addon_path():
 =======
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -14271,6 +14414,11 @@ def get_addon_path():
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> a344872c74 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 
 >>>>>>> 66010df1ab (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -14517,6 +14665,7 @@ if sys.platform == "win32":
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 if index_name:
     branches = "branches"
     tree = "tree"
@@ -14925,6 +15074,10 @@ if index_name:
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 # Process Source code section
 branches = "branches"
 tree = "tree"
@@ -14973,6 +15126,7 @@ if index_name:
     tree = "tree"
     commits = "commits"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15219,6 +15373,8 @@ if index_name:
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 if index_name:
     branches = "branches"
@@ -15402,6 +15558,7 @@ if index_name:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -15646,6 +15803,10 @@ if index_name:
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
     if branches in url_source:
         url_log = url_source.replace(branches, commits)
         url_source = url_source.replace(branches, tree)

@@ -156,6 +156,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -495,6 +496,13 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/nviz/tools.py:498
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/nviz/tools.py:430
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "reset"
@@ -522,6 +530,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -594,6 +603,9 @@ msgstr ""
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/mapdisp/frame.py:367
 msgid "Please wait, loading data..."
@@ -2175,6 +2187,7 @@ msgstr "工作区文件："
 msgid "Choose workspace file to import 3D view parameters"
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -3916,6 +3929,9 @@ msgstr ""
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/mapdisp/frame.py:367
 msgid "Please wait, loading data..."
@@ -5543,6 +5559,7 @@ msgstr "重置为默认视图"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -5882,6 +5899,13 @@ msgstr "重置为默认视图"
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/nviz/tools.py:510 ../gui/wxpython/nviz/preferences.py:223
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/nviz/tools.py:442 ../gui/wxpython/nviz/preferences.py:223
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Image Appearance"
@@ -5909,6 +5933,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5981,6 +6006,9 @@ msgstr ""
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/animation/dialogs.py:561
 msgid "Set spatial extent in 2D view"
@@ -6323,6 +6351,7 @@ msgstr ""
 msgid "Animation Tool settings"
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -6825,6 +6854,9 @@ msgstr ""
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/animation/dialogs.py:561
 msgid "Set spatial extent in 2D view"
@@ -7216,6 +7248,7 @@ msgstr "背景色："
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -7555,6 +7588,13 @@ msgstr "背景色："
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/nviz/tools.py:562
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/nviz/tools.py:494
 =======
 #: ../gui/wxpython/animation/dialogs.py:1990
@@ -7801,6 +7841,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8067,6 +8108,11 @@ msgstr ""
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgid ""
 "Press 'Record' button and start changing the view. It is recommended to use "
 "fly-through mode (Map Display toolbar) to achieve smooth motion."
@@ -8227,6 +8273,7 @@ msgstr "栅格地图"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -8566,6 +8613,13 @@ msgstr "栅格地图"
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/nviz/tools.py:942 ../gui/wxpython/nviz/tools.py:2045
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/nviz/tools.py:848 ../gui/wxpython/nviz/tools.py:1947
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/nviz/preferences.py:444 ../gui/wxpython/tplot/frame.py:399
@@ -10891,6 +10945,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -10996,10 +11051,13 @@ msgstr ""
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/datacatalog/tree.py:2153
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11362,6 +11420,10 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/datacatalog/tree.py:2178
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "&Copy path to mapset"
@@ -11481,6 +11543,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11664,10 +11727,13 @@ msgstr ""
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
 #: ../gui/wxpython/gmodeler/g.gui.gmodeler.py:55
 msgid "Graphical Modeler - GRASS GIS"
 msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12054,6 +12120,10 @@ msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/datacatalog/tree.py:2267 ../gui/wxpython/history/tree.py:201
 msgid "No available options"
@@ -13681,6 +13751,7 @@ msgstr "定义新GRASS地点"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -14240,6 +14311,8 @@ msgstr "定义新GRASS地点"
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/location_wizard/wizard.py:198
 =======
 <<<<<<< HEAD
@@ -14265,6 +14338,7 @@ msgstr "定义新GRASS地点"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -14655,6 +14729,14 @@ msgstr "定义新GRASS地点"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#: ../gui/wxpython/location_wizard/wizard.py:197
+=======
+#: ../gui/wxpython/location_wizard/wizard.py:186
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgid "Change"
 msgstr ""
 
@@ -14683,6 +14765,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -15242,6 +15325,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/location_wizard/wizard.py:218
 =======
 <<<<<<< HEAD
@@ -15265,6 +15350,7 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -15668,6 +15754,14 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#: ../gui/wxpython/location_wizard/wizard.py:217
+=======
+#: ../gui/wxpython/location_wizard/wizard.py:205
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgid "(optional)"
 msgstr ""
 
@@ -15764,6 +15858,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/location_wizard/wizard.py:253
 msgid "Location will be created in GRASS database:"
 msgstr ""
@@ -16143,6 +16238,8 @@ msgid "Name '{}' is not a valid name for location. Please use only ASCII charact
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/location_wizard/wizard.py:271
 #, fuzzy
 msgid "Project will be created in GRASS database:"
@@ -16152,6 +16249,7 @@ msgstr "该地点已存在于GRASS数据库中."
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -16429,6 +16527,9 @@ msgstr "该地点已存在于GRASS数据库中."
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/location_wizard/wizard.py:270
 msgid "Location will be created in GRASS database:"
 msgstr ""
@@ -16458,11 +16559,25 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+msgstr "地点名称<%(name)s>无效.请使用除(%(chars)s)之外的ASCII字及防空格命名."
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 =======
 #: ../gui/wxpython/location_wizard/wizard.py:253
 msgid "Location will be created in GRASS database:"
+=======
+=======
+#: ../gui/wxpython/location_wizard/wizard.py:253
+msgid "Location will be created in GRASS database:"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:277
+msgid "Name '{}' is not a valid name for location. Please use only ASCII characters excluding characters {} and space."
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 
 #: ../gui/wxpython/location_wizard/wizard.py:277
@@ -17425,6 +17540,7 @@ msgstr "地点标签长度限制1行256个字符串。多出部分将被忽略�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -17530,10 +17646,13 @@ msgstr ""
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/location_wizard/wizard.py:357
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17896,6 +18015,10 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/location_wizard/wizard.py:356
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Select Coordinate Reference System (CRS)"
@@ -17982,6 +18105,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -18165,10 +18289,13 @@ msgstr ""
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
 #: ../gui/wxpython/location_wizard/wizard.py:335
 msgid "Select Coordinate Reference System (CRS)"
 msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18555,6 +18682,10 @@ msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/location_wizard/wizard.py:346
 msgid "Select CRS from a list by EPSG or description"
@@ -18607,6 +18738,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -18701,6 +18833,8 @@ msgstr ""
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -18708,6 +18842,7 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19251,6 +19386,11 @@ msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgid "Create a generic cartesian coordinate system (XY)"
 msgstr ""
 
@@ -19437,6 +19577,7 @@ msgstr "选择地理配准文件"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/location_wizard/wizard.py:1450
 msgid "Enter WKT parameters string:"
 msgstr ""
@@ -19816,6 +19957,8 @@ msgid "Select CRS from a list"
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/location_wizard/wizard.py:1535
 msgid "Enter WKT parameters string:"
 msgstr ""
@@ -19826,6 +19969,7 @@ msgstr ""
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -20103,6 +20247,9 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/location_wizard/wizard.py:1534
 msgid "Enter WKT parameters string:"
 msgstr ""
@@ -20154,6 +20301,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -20384,6 +20532,8 @@ msgid "Enter WKT parameters string:"
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -20671,6 +20821,7 @@ msgstr ""
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -21028,6 +21179,10 @@ msgstr ""
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgid "Select CRS from a list"
 msgstr ""
 
@@ -21055,6 +21210,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -21614,6 +21770,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/location_wizard/wizard.py:1607
 =======
 <<<<<<< HEAD
@@ -21637,6 +21795,7 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -22040,6 +22199,14 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#: ../gui/wxpython/location_wizard/wizard.py:1606
+=======
+#: ../gui/wxpython/location_wizard/wizard.py:1517
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgid "Find more information at:"
 msgstr ""
 
@@ -23124,6 +23291,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -23463,10 +23631,18 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/gmodeler/model.py:659
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/gmodeler/model.py:653
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Run model?"
 msgstr "是否运行模型？"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23527,7 +23703,512 @@ msgstr "是否运行模型？"
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+=======
+=======
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2406
+#: ../gui/wxpython/gcp/manager.py:3405
+#: ../gui/wxpython/image2target/ii2t_manager.py:3287
+#, python-format
+msgid "GCP Manager settings saved to file '%s'."
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_mapdisplay.py:48
+msgid "GRASS GIS Manage Location of Tick Points on a Scanned Photo"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_mapdisplay.py:174
+#: ../gui/wxpython/gcp/mapdisplay.py:174
+#: ../gui/wxpython/image2target/ii2t_mapdisplay.py:174
+msgid "GCP List"
+msgstr "地面控制点(GCP)列表"
+
+#: ../gui/wxpython/photo2image/ip2i_mapdisplay.py:179
+#: ../gui/wxpython/gcp/mapdisplay.py:179
+#: ../gui/wxpython/image2target/ii2t_mapdisplay.py:179
+msgid "Source Display"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_mapdisplay.py:183
+#: ../gui/wxpython/gcp/mapdisplay.py:183
+#: ../gui/wxpython/image2target/ii2t_mapdisplay.py:183
+msgid "Target Display"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_mapdisplay.py:272
+#: ../gui/wxpython/gcp/mapdisplay.py:273
+#: ../gui/wxpython/image2target/ii2t_mapdisplay.py:273
+msgid "GCP Display toolbar"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_mapdisplay.py:285
+#: ../gui/wxpython/gcp/mapdisplay.py:286
+#: ../gui/wxpython/image2target/ii2t_mapdisplay.py:286
+msgid "GCP Manager toolbar"
+msgstr "地面控制点(GCP)管理器工具栏"
+
+#: ../gui/wxpython/photo2image/ip2i_mapdisplay.py:471
+#: ../gui/wxpython/gcp/mapdisplay.py:472
+#: ../gui/wxpython/image2target/ii2t_mapdisplay.py:472
+msgid "Zoom to computational region (set with g.region)"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_mapdisplay.py:485
+#: ../gui/wxpython/gcp/mapdisplay.py:486
+#: ../gui/wxpython/image2target/ii2t_mapdisplay.py:486
+msgid "Set computational region from display"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:43
+#, python-brace-format
+msgid "The Temporal Plot Tool needs the \"matplotlib\" (python-matplotlib) package to be installed. {0}"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:98
+msgid "Temporal Plot Tool"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:184
+msgid ""
+"Raster temporal dataset (strds)\n"
+"Press ENTER after typing the name or select with the combobox"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:193
+msgid "X and Y coordinates separated by comma:"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:205
+msgid "Coordinates can be obtained for example by right-clicking on Map Display."
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:209 ../gui/wxpython/tplot/frame.py:264
+msgid "Show simple linear regression line"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:226
+msgid "STRDS"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:234
+msgid ""
+"Vector temporal dataset (stvds)\n"
+"Press ENTER after typing the name or select with the combobox"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:248
+msgid "Select attribute column"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:261
+msgid "Select category of vector(s)"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:284
+msgid "STVDS"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:291
+msgid "Set title for the plot"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:296
+msgid "Set label for X axis"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:301
+msgid "Set label for Y axis"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:313
+msgid "Labels"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:320
+msgid "Path for output CSV file with plotted data"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:326
+msgid "CVS path"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:332
+msgid "Do you want the CSV header?"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:373 ../gui/wxpython/tplot/frame.py:922
+#: ../gui/wxpython/tplot/frame.py:926 ../gui/wxpython/tplot/frame.py:947
+#: ../gui/wxpython/tplot/frame.py:1073
+msgid "Invalid input coordinates"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:464
+#, python-brace-format
+msgid "Category {ca} is not on vector map {ma} and it will be not used"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:483
+msgid "Both coordinates and categories are set, coordinates will be used. The use categories remove text from coordinate form"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:488
+msgid "With Vector temporal dataset you have to select an attribute column"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:540
+msgid "Difference number of vector layers and maps in the vector temporal dataset"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:582
+#, python-brace-format
+msgid "No connection between vector map {vmap} and layer {la}"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:648
+#, python-format
+msgid "Temporal resolution: %s"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:748
+msgid "Problem getting data from raster temporal dataset. Empty list of values."
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:797
+#, python-brace-format
+msgid "Problem getting data from vector temporal dataset. Empty list of values for cat {ca}."
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:848
+msgid "Problem getting data from vector temporal dataset. Empty list of values."
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:879
+#, python-brace-format
+msgid "{pa} already exists, do you want to overwrite?"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:881
+msgid "File exists"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:886
+msgid "Please change name of output CSV file or "
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:913
+msgid "Incorrect coordinates format, should be: x,y"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:931
+msgid "Seed point outside the current region"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:943
+msgid "Invalid input raster dataset"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:960
+msgid "Invalid input vector dataset"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:1066 ../gui/wxpython/tplot/frame.py:1124
+msgid "Invalid input temporal dataset"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:1145
+msgid "Datasets have different number of values"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:1175
+#, python-brace-format
+msgid "Value for {date} is {val}"
+msgstr ""
+
+#: ../gui/wxpython/tplot/frame.py:1178
+msgid "Press Del to dismiss."
+msgstr ""
+
+#: ../gui/wxpython/tplot/g.gui.tplot.py:143
+msgid "With stvds you have to set 'attr' option"
+msgstr ""
+
+#: ../gui/wxpython/tplot/g.gui.tplot.py:147
+msgid "With stvds it is not possible to use 'coordinates' and 'cats' options together"
+msgstr ""
+
+#: ../gui/wxpython/tplot/g.gui.tplot.py:150
+msgid "With stvds you have to use 'coordinates' or 'cats' option"
+msgstr ""
+
+#: ../gui/wxpython/tplot/g.gui.tplot.py:168
+#: ../gui/wxpython/mapswipe/g.gui.mapswipe.py:84
+msgid "Temporal Plot Tool - GRASS GIS"
+msgstr ""
+
+#: ../gui/wxpython/nviz/wxnviz.py:35
+msgid "This module requires the NumPy module, which could not be imported. It probably is not installed (it's not part of the standard Python distribution). See the Numeric Python site (http://numpy.scipy.org) for information on downloading source or binaries."
+msgstr "该模块需要使用的NumPy模块无法导入。可能没有安装该模块（非Python标准模块）。参见Numeric Python网站（http://numpy.scipy.org）查看下载源码或安装文件信息。"
+
+#: ../gui/wxpython/nviz/wxnviz.py:362 ../gui/wxpython/nviz/wxnviz.py:373
+#: ../gui/wxpython/mapswipe/g.gui.mapswipe.py:77
+#: ../gui/wxpython/modules/histogram.py:411
+#: ../gui/wxpython/iclass/g.gui.iclass.py:89
+#, python-format
+msgid "Raster map <%s> not found"
+msgstr ""
+
+#: ../gui/wxpython/nviz/wxnviz.py:450 ../gui/wxpython/iclass/g.gui.iclass.py:96
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:66
+#: ../gui/wxpython/dbmgr/g.gui.dbmgr.py:47
+#, python-format
+msgid "Vector map <%s> not found"
+msgstr ""
+
+#: ../gui/wxpython/nviz/wxnviz.py:520 ../gui/wxpython/nviz/wxnviz.py:532
+#, python-format
+msgid "3d raster map <%s> not found"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:35
+msgid "3D view default settings"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:62
+msgid "Revert settings to default, changes are not applied"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:69
+#: ../gui/wxpython/nviz/preferences.py:74 ../gui/wxpython/nviz/tools.py:89
+msgid "View"
+msgstr "察看"
+
+#: ../gui/wxpython/nviz/preferences.py:86 ../gui/wxpython/nviz/tools.py:289
+msgid "Perspective:"
+msgstr "方位："
+
+#: ../gui/wxpython/nviz/preferences.py:90
+#: ../gui/wxpython/nviz/preferences.py:161
+#: ../gui/wxpython/nviz/preferences.py:180
+msgid "value:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:103
+msgid "step:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:118
+#: ../gui/wxpython/nviz/preferences.py:300
+msgid "Position:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:122
+#: ../gui/wxpython/nviz/preferences.py:304
+msgid "x:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:157
+msgid "Twist:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:176 ../gui/wxpython/nviz/tools.py:384
+msgid "Z-exag:"
+msgstr "X-exag:"
+
+#: ../gui/wxpython/nviz/preferences.py:198 ../gui/wxpython/nviz/tools.py:455
+msgid "Image Appearance"
+msgstr "图像外观"
+
+#: ../gui/wxpython/nviz/preferences.py:237
+msgid "Fly-through"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:247
+msgid "Move exag:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:260
+msgid "Turn exag:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:287 ../gui/wxpython/nviz/tools.py:763
+msgid "Lighting"
+msgstr "照明"
+
+#: ../gui/wxpython/nviz/preferences.py:292
+msgid "Light"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:330
+msgid "z:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:345 ../gui/wxpython/nviz/tools.py:2163
+msgid "Brightness:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:359 ../gui/wxpython/nviz/tools.py:2180
+msgid "Ambient:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:398 ../gui/wxpython/nviz/tools.py:702
+#: ../gui/wxpython/nviz/tools.py:2233
+msgid "Surface"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:414 ../gui/wxpython/nviz/tools.py:853
+#: ../gui/wxpython/nviz/tools.py:1893
+msgid "Mode:"
+msgstr "模式："
+
+#: ../gui/wxpython/nviz/preferences.py:420 ../gui/wxpython/nviz/tools.py:856
+msgid "coarse"
+msgstr "粗糙"
+
+#: ../gui/wxpython/nviz/preferences.py:421 ../gui/wxpython/nviz/tools.py:857
+msgid "fine"
+msgstr "精细"
+
+#: ../gui/wxpython/nviz/preferences.py:422 ../gui/wxpython/nviz/tools.py:858
+msgid "both"
+msgstr "兼备"
+
+#: ../gui/wxpython/nviz/preferences.py:435 ../gui/wxpython/nviz/tools.py:938
+msgid "Fine mode:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:447
+#: ../gui/wxpython/nviz/preferences.py:478 ../gui/wxpython/nviz/tools.py:896
+#: ../gui/wxpython/nviz/tools.py:942
+msgid "resolution:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:466 ../gui/wxpython/nviz/tools.py:893
+msgid "Coarse mode:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:496 ../gui/wxpython/nviz/tools.py:911
+msgid "style:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:502 ../gui/wxpython/nviz/tools.py:914
+msgid "wire"
+msgstr "线"
+
+#: ../gui/wxpython/nviz/preferences.py:503 ../gui/wxpython/nviz/tools.py:915
+msgid "surface"
+msgstr "面"
+
+#: ../gui/wxpython/nviz/preferences.py:517
+msgid "wire color:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:546 ../gui/wxpython/nviz/tools.py:717
+msgid "Vector"
+msgstr "矢量"
+
+#: ../gui/wxpython/nviz/preferences.py:552 ../gui/wxpython/nviz/tools.py:1484
+msgid "Vector lines"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:592 ../gui/wxpython/nviz/tools.py:1646
+msgid "Vector points"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:598
+msgid "Automatic size"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:599
+msgid "Icon size is set automatically based on landscape dimensions."
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:607
+#: ../gui/wxpython/mapswipe/dialogs.py:353
+msgid "Size:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:623
+msgid "Marker:"
+msgstr ""
+
+#: ../gui/wxpython/nviz/preferences.py:724
+#, python-format
+msgid "3D view settings saved to file <%s>."
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:244
+msgid "Opening 3D view was not successful. Please try to change the value of depth buffer in GUI Settings dialog > tab Map Display > Advanced and restart GUI."
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:515
+#, python-format
+msgid "Image is too large, your OpenGL implementation supports maximum texture size %d px."
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:1033
+msgid "Easting"
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:1034
+msgid "Northing"
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:1035
+msgid "Elevation"
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:1041
+msgid "Surface map name"
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:1044
+msgid "Surface map elevation"
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:1046
+msgid "Surface map color"
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:1057
+msgid "XY distance from previous"
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:1060
+msgid "XYZ distance from previous"
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:1063
+msgid "Distance along surface"
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:1067
+msgid "Distance along exag. surface"
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:1071
+msgid "No point on surface"
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:1555
+msgid "Loading raster map"
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:1559
+msgid "Loading 3d raster map"
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:1567
+msgid "failed"
+msgstr ""
+
+#: ../gui/wxpython/nviz/mapwindow.py:1570
+#, python-format
+msgid "Unsupported layer type '%s'"
+msgstr ""
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/gmodeler/model.py:669
 msgid "Variables below not defined:"
@@ -34528,6 +35209,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -34633,10 +35315,13 @@ msgstr ""
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/gui_core/ghelp.py:449
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34999,6 +35684,10 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/gui_core/ghelp.py:439
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "ORCID"
@@ -35118,6 +35807,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -35301,10 +35991,13 @@ msgstr ""
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
 #: ../gui/wxpython/vnet/dialogs.py:74
 msgid "Vector Network Analysis Tool"
 msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35691,6 +36384,10 @@ msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/gui_core/goutput.py:145
 msgid "Abort running command"
@@ -39173,6 +39870,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -39399,6 +40097,8 @@ msgstr ""
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -39410,6 +40110,7 @@ msgstr ""
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -39751,6 +40452,11 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/vnet/toolbars.py:54
 msgid "Activate mode for turns editing"
@@ -40621,6 +41327,7 @@ msgstr "左置标签"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -40960,6 +41667,13 @@ msgstr "左置标签"
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/core/settings.py:816
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/core/settings.py:812
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "List left"
@@ -40968,6 +41682,7 @@ msgstr "左置列表"
 #: ../gui/wxpython/lmgr/frame.py:2083
 #, python-brace-format
 msgid "Map Display {number}"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41218,12 +41933,18 @@ msgid "Map Display {number}"
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
+=======
+msgstr ""
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/lmgr/frame.py:2179
 msgid "Add selected map layers into layer tree"
@@ -42444,6 +43165,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -42822,6 +43544,10 @@ msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/modules/import_export.py:50
 msgid "Multiple import"
 =======
@@ -44534,6 +45260,7 @@ msgstr "警告"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -44760,6 +45487,8 @@ msgstr "警告"
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -44771,6 +45500,7 @@ msgstr "警告"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -45112,6 +45842,11 @@ msgstr "警告"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgid "Setup for r.li modules"
 msgstr ""
 
@@ -45196,6 +45931,7 @@ msgstr "工作区工具栏"
 msgid "Tools Toolbar"
 msgstr ""
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45593,6 +46329,13 @@ msgid "Text properties"
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/main_window/frame.py:594 ../gui/wxpython/lmgr/frame.py:187
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/main_window/frame.py:597 ../gui/wxpython/lmgr/frame.py:186
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "3D view Toolbar"
@@ -45609,6 +46352,7 @@ msgstr "地图比较(Map Swipe)"
 =======
 #: ../gui/wxpython/mapwin/decorations.py:203
 msgid "Text properties"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45844,6 +46588,8 @@ msgid "Text properties"
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 #: ../gui/wxpython/mapwin/decorations.py:203
 msgid "Text properties"
@@ -45857,6 +46603,10 @@ msgid "Text properties"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
+=======
+msgstr ""
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/mapwin/decorations.py:226
 msgid "Remove scale bar"
@@ -46267,6 +47017,7 @@ msgstr "选择要运行的模型"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -46606,6 +47357,13 @@ msgstr "选择要运行的模型"
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/main_window/frame.py:1140 ../gui/wxpython/lmgr/frame.py:1003
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/main_window/frame.py:1105 ../gui/wxpython/lmgr/frame.py:995
 =======
 #: ../gui/wxpython/mapwin/decorations.py:227
@@ -46807,6 +47565,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -47073,6 +47832,11 @@ msgstr ""
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #, python-format
 msgid ""
 "Command '%s' not yet implemented in the WxGUI. Try adding it as a command "
@@ -47290,6 +48054,7 @@ msgstr ""
 msgid "Please provide a group name to process"
 msgstr ""
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47762,6 +48527,10 @@ msgid "Histogram Tool"
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/photo2image/g.gui.photo2image.py:104
 msgid "Please provide a raster map name to process"
 msgstr ""
@@ -48128,6 +48897,7 @@ msgid "Histogram Tool"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -48216,6 +48986,8 @@ msgid "Histogram Tool"
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 #: ../gui/wxpython/wxplot/histogram.py:43
 msgid "Histogram Tool"
@@ -48562,6 +49334,7 @@ msgstr "直方图"
 #: ../gui/wxpython/wxplot/scatter.py:53
 msgid "Raster cell values"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48936,6 +49709,10 @@ msgid "Raster cell values"
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -50893,6 +51670,7 @@ msgid "Neighborhood analysis tool for vector point maps. Makes each cell value a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -51187,6 +51965,8 @@ msgid "Neighborhood analysis tool for vector point maps. Makes each cell value a
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -53747,6 +54527,7 @@ msgid "Sample a space time raster dataset at specific vector point coordinates a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -54103,6 +54884,10 @@ msgid "Sample a space time raster dataset at specific vector point coordinates a
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -54219,6 +55004,23 @@ msgstr "显示选中矢量地图的属性数据"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+#: ../gui/wxpython/lmgr/toolbars.py:128
+#, fuzzy
+msgid "Add multiple map layers"
+msgstr "添加RGB图层"
+=======
+#: ../gui/wxpython/menustrings.py:2000
+msgid "Launch Data Catalog."
+<<<<<<< HEAD
+=======
+#: ../gui/wxpython/menustrings.py:2000
+msgid "Launch Data Catalog."
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/menustrings.py:1031 ../gui/wxpython/menustrings.py:1976
 msgid "Univariate raster dataset statistics"
 msgstr "栅格数据集一元统计量"
@@ -55328,6 +56130,7 @@ msgid "Managing GCPs for 3D correction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -55684,6 +56487,10 @@ msgid "Managing GCPs for 3D correction"
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -55850,6 +56657,7 @@ msgid "Delete all text from the shell"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -56033,6 +56841,8 @@ msgid "Delete all text from the shell"
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
 #: ../gui/wxpython/menustrings.py:2092
 msgid "Add or edit vector map"
 msgstr "添加或编辑矢量图"
@@ -56163,6 +56973,7 @@ msgid "Location named <%s> already exists, rename it first"
 msgstr ""
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56537,6 +57348,10 @@ msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/startup/locdownload.py:563
 msgid "Location Download"
 msgstr ""
@@ -56575,6 +57390,7 @@ msgid "Raster map <%s> added"
 =======
 #: ../gui/wxpython/startup/guiutils.py:186
 msgid "Unable to create new mapset: {}"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56872,6 +57688,8 @@ msgid "Unable to create new mapset: {}"
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -56883,6 +57701,7 @@ msgid "Unable to create new mapset: {}"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -57224,6 +58043,11 @@ msgid "Unable to create new mapset: {}"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 
 #: ../gui/wxpython/lmgr/pyshell.py:143
@@ -57554,6 +58378,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -57893,6 +58718,13 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/lmgr/frame.py:141
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/lmgr/frame.py:140
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "There were some issues when loading menu or Tools tab:"
@@ -57942,6 +58774,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -58014,6 +58847,9 @@ msgid ""
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 
 #: ../gui/wxpython/startup/guiutils.py:743
@@ -58025,6 +58861,7 @@ msgstr "当前地图集为<%s>."
 #, python-format
 msgid "Attribute table <%s> not found. For creating the table switch to 'Manage layers' tab."
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
@@ -58196,6 +59033,9 @@ msgid "Attribute table <%s> not found. For creating the table switch to 'Manage 
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 
 #: ../gui/wxpython/startup/guiutils.py:743
@@ -59559,12 +60399,18 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/dbmgr/manager.py:78
 msgid "Attribute Table Manager"
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/dbmgr/base.py:184
 =======
 #: ../gui/wxpython/dbmgr/manager.py:78
@@ -59583,10 +60429,13 @@ msgid ""
 "Attribute table <%s> not found. For creating the table switch to 'Manage "
 "layers' tab."
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/dbmgr/manager.py:78
 msgid "Attribute Table Manager"
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 
 #: ../gui/wxpython/dbmgr/manager.py:81
@@ -59920,6 +60769,7 @@ msgstr "时空数据集中的地图类型（时间点/时间间隔）必须相�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -60259,6 +61109,13 @@ msgstr "时空数据集中的地图类型（时间点/时间间隔）必须相�
 =======
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/animation/utils.py:210
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/animation/utils.py:209
 =======
 #: ../gui/wxpython/gui_core/gselect.py:886
@@ -60551,6 +61408,7 @@ msgstr "文件"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -60817,6 +61675,11 @@ msgstr "文件"
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgid ""
 "The temporal extents of maps in space-time datasets have to be the same."
 msgstr "时空数据集中须使用相同的地图时间范畴。"
@@ -61362,6 +62225,7 @@ msgid "Unable to read EPSG codes: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -61434,6 +62298,9 @@ msgid "Unable to read EPSG codes: %s"
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 
 #: ../gui/wxpython/gui_core/preferences.py:1949
@@ -62047,6 +62914,7 @@ msgstr ""
 #: ../gui/wxpython/image2target/ii2t_manager.py:2982
 msgid "Select target vector map to display:"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
@@ -62820,6 +63688,9 @@ msgid "Select target vector map to display:"
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 
 #: ../gui/wxpython/gui_core/preferences.py:1949
@@ -65434,6 +66305,7 @@ msgstr "标签："
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -65660,6 +66532,8 @@ msgstr "标签："
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #~ msgid "Location Name:"
 #~ msgstr "地点名称："
 
@@ -65673,6 +66547,7 @@ msgstr "标签："
 =======
 <<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65915,6 +66790,10 @@ msgstr "标签："
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #~ msgid "Show comp. extent"
 #~ msgstr "显示计算范围"
 
@@ -65975,6 +66854,9 @@ msgid "Cartographic Composer - GRASS GIS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 <<<<<<< HEAD
@@ -66406,6 +67288,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -66762,6 +67645,10 @@ msgid ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -67574,6 +68461,7 @@ msgstr "对一个像元周围的像元值进行函数计算，将得到的值赋
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -67932,6 +68820,13 @@ msgstr "对一个像元周围的像元值进行函数计算，将得到的值赋
 #~ msgstr "无法创建地点"
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#~ msgid "Unable to create location"
+#~ msgstr "无法创建地点"
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 msgid "GRASS GIS Setup for r.li modules"
 msgstr "GRASS GIS r.li模块设置"
 
@@ -67970,6 +68865,7 @@ msgstr "无法创建地点"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -68236,6 +69132,11 @@ msgstr "无法创建地点"
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
 msgid "Select EPSG code of spatial reference system"
 msgstr "选择空间参考系统EPSG代码"
@@ -68268,6 +69169,7 @@ msgstr "创建GRASS地点<%s>?"
 msgid "Create new location?"
 msgstr "创建新地点？"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68514,6 +69416,8 @@ msgstr "创建新地点？"
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 #, fuzzy
 msgid "Temporary map '%s' with result "
@@ -69508,4 +70412,9 @@ msgstr "创建新地点？"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))

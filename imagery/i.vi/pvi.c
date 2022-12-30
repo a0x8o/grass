@@ -80,6 +80,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 double p_vi(double redchan, double nirchan)
 =======
 <<<<<<< HEAD
@@ -480,6 +481,10 @@ double p_vi(double redchan, double nirchan)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 double p_vi(double redchan, double nirchan, double soil_line_slope)
 =======
 double p_vi(double redchan, double nirchan)
@@ -548,6 +553,7 @@ double p_vi(double redchan, double nirchan)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -646,6 +652,8 @@ double p_vi(double redchan, double nirchan)
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 double p_vi(double redchan, double nirchan)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -771,6 +779,7 @@ double p_vi(double redchan, double nirchan)
 =======
 double p_vi(double redchan, double nirchan)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1089,6 +1098,10 @@ double p_vi(double redchan, double nirchan)
 double p_vi(double redchan, double nirchan)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 {
     double result, a;
 
@@ -1168,6 +1181,7 @@ double p_vi(double redchan, double nirchan)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         result = (sin(1) * nirchan) - (cos(1) * redchan);
 =======
 <<<<<<< HEAD
@@ -1568,6 +1582,10 @@ double p_vi(double redchan, double nirchan)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
         result = (sin(a) * nirchan) - (cos(a) * redchan);
 =======
         result = (sin(1) * nirchan) - (cos(1) * redchan);
@@ -1636,6 +1654,7 @@ double p_vi(double redchan, double nirchan)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1734,6 +1753,8 @@ double p_vi(double redchan, double nirchan)
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
         result = (sin(1) * nirchan) - (cos(1) * redchan);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1859,6 +1880,7 @@ double p_vi(double redchan, double nirchan)
 =======
         result = (sin(1) * nirchan) - (cos(1) * redchan);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2177,6 +2199,10 @@ double p_vi(double redchan, double nirchan)
         result = (sin(1) * nirchan) - (cos(1) * redchan);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
     }
     return result;
 }

@@ -145,6 +145,7 @@ char *create_pgfile(const char *dsn, const char *schema, const char *olink,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 G_warning(_("EPSG code defined for current location (%s) is "
 =======
 <<<<<<< HEAD
@@ -545,6 +546,10 @@ char *create_pgfile(const char *dsn, const char *schema, const char *olink,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
                 G_warning(_("EPSG code defined for current project (%s) is "
 =======
                 G_warning(_("EPSG code defined for current location (%s) is "
@@ -613,6 +618,7 @@ char *create_pgfile(const char *dsn, const char *schema, const char *olink,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -711,6 +717,8 @@ char *create_pgfile(const char *dsn, const char *schema, const char *olink,
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
                 G_warning(_("EPSG code defined for current location (%s) is "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -836,6 +844,7 @@ char *create_pgfile(const char *dsn, const char *schema, const char *olink,
 =======
                 G_warning(_("EPSG code defined for current location (%s) is "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1154,6 +1163,10 @@ char *create_pgfile(const char *dsn, const char *schema, const char *olink,
                 G_warning(_("EPSG code defined for current location (%s) is "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
                             "overridden by %s"),
                           epsg, tokens[1]);
 

@@ -334,6 +334,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "The proxy will be ignored by the chosen GRASS driver. It is only used with the GDAL driver."
 =======
 <<<<<<< HEAD
@@ -734,6 +735,10 @@ def main():
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
                         "The proxy will be ignored by the chosen GRASS driver. It is "
                         "only used with the GDAL driver."
 =======
@@ -803,6 +808,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -901,6 +907,8 @@ def main():
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
                         "The proxy will be ignored by the chosen GRASS driver. It is only used with the GDAL driver."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1026,6 +1034,7 @@ def main():
 =======
                         "The proxy will be ignored by the chosen GRASS driver. It is only used with the GDAL driver."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1344,6 +1353,10 @@ def main():
                         "The proxy will be ignored by the chosen GRASS driver. It is only used with the GDAL driver."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
                     )
                 )
 

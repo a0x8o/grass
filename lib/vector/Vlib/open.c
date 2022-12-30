@@ -4487,6 +4487,7 @@ static int Open_level = 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5257,6 +5258,10 @@ static int Open_level = 0;
 >>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 static int (*Open_old_array[][2])(struct Map_info *,
                                   int) = {{open_old_dummy, V1_open_old_nat}
 #ifdef HAVE_OGR
@@ -5438,6 +5443,7 @@ static int (*Open_old_array[][2])() = {{open_old_dummy, V1_open_old_nat}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
@@ -5468,6 +5474,8 @@ static int (*Open_old_array[][2])() = {{open_old_dummy, V1_open_old_nat}
 >>>>>>> 3c6ff8d9ea (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b3e4b27026 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 static int (*Open_old_array[][2])(struct Map_info *,
                                   int) = {{open_old_dummy, V1_open_old_nat}
@@ -5839,11 +5847,52 @@ static int (*Open_new_array[][2])() = {{open_new_dummy, V1_open_new_nat}
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+=======
+static int (*Open_old_array[][2])() = {{open_old_dummy, V1_open_old_nat}
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+#ifdef HAVE_OGR
+                                       ,
+                                       {open_old_dummy, V1_open_old_ogr},
+                                       {open_old_dummy, V1_open_old_ogr}
+#else
+                                       ,
+                                       {open_old_dummy, format},
+                                       {open_old_dummy, format}
+#endif
+#ifdef HAVE_POSTGRES
+                                       ,
+                                       {open_old_dummy, V1_open_old_pg}
+#else
+                                       ,
+                                       {open_old_dummy, format}
+#endif
+};
+
+static int (*Open_new_array[][2])() = {{open_new_dummy, V1_open_new_nat}
+#ifdef HAVE_OGR
+                                       ,
+                                       {open_new_dummy, V1_open_new_ogr},
+                                       {open_new_dummy, V1_open_new_ogr}
+#else
+                                       ,
+                                       {open_new_dummy, format},
+                                       {open_new_dummy, format}
+#endif
+#ifdef HAVE_POSTGRES
+                                       ,
+                                       {open_old_dummy, V1_open_new_pg}
+#else
+                                       ,
+                                       {open_old_dummy, format}
+<<<<<<< HEAD
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
     ,
@@ -5907,6 +5956,7 @@ static int (*Open_new_array[][2])(struct Map_info *Map, const char *name,
     {open_new_dummy, format_new}
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8082,6 +8132,11 @@ static int (*Open_new_array[][2])(struct Map_info *Map, const char *name,
 >>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 #endif
 };
 
@@ -9042,6 +9097,7 @@ int Vect_open_tmp_new(struct Map_info *Map, const char *name, int with_z)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -9315,6 +9371,8 @@ int Vect_open_tmp_new(struct Map_info *Map, const char *name, int with_z)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 int Vect_coor_info(struct Map_info *Map, struct Coor_info *Info)
 =======
 =======
@@ -9777,7 +9835,14 @@ int Vect_coor_info(struct Map_info *Map, struct Coor_info *Info)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vect_coor_info(struct Map_info *Map, struct Coor_info *Info)
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 int Vect_coor_info(const struct Map_info *Map, struct Coor_info *Info)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -9900,6 +9965,7 @@ int Vect_coor_info(const struct Map_info *Map, struct Coor_info *Info)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -10173,6 +10239,8 @@ int Vect_coor_info(const struct Map_info *Map, struct Coor_info *Info)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 const char *Vect_maptype_info(struct Map_info *Map)
 =======
 =======
@@ -10635,7 +10703,14 @@ const char *Vect_maptype_info(struct Map_info *Map)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+const char *Vect_maptype_info(struct Map_info *Map)
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 const char *Vect_maptype_info(const struct Map_info *Map)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -10742,6 +10817,7 @@ const char *Vect_maptype_info(const struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -10968,6 +11044,8 @@ const char *Vect_maptype_info(const struct Map_info *Map)
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -10979,6 +11057,7 @@ const char *Vect_maptype_info(const struct Map_info *Map)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11320,6 +11399,11 @@ const char *Vect_maptype_info(const struct Map_info *Map)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 
    \param Map pointer to Map_info structure
 
@@ -11388,6 +11472,7 @@ const char *Vect_maptype_info(const struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -11661,6 +11746,8 @@ const char *Vect_maptype_info(const struct Map_info *Map)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 int Vect_maptype(struct Map_info *Map)
 =======
 =======
@@ -12123,7 +12210,14 @@ int Vect_maptype(struct Map_info *Map)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vect_maptype(struct Map_info *Map)
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 int Vect_maptype(const struct Map_info *Map)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -12577,6 +12671,7 @@ int map_format(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12850,6 +12945,8 @@ int map_format(struct Map_info *Map)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 char *Vect__get_path(char *path, struct Map_info *Map)
 =======
 =======
@@ -13312,7 +13409,14 @@ char *Vect__get_path(char *path, struct Map_info *Map)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+char *Vect__get_path(char *path, struct Map_info *Map)
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 char *Vect__get_path(char *path, const struct Map_info *Map)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -13409,6 +13513,7 @@ char *Vect__get_path(char *path, const struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 char *Vect__get_element_path(char *file_path, const struct Map_info *Map,
 =======
 <<<<<<< HEAD
@@ -13809,6 +13914,10 @@ char *Vect__get_element_path(char *file_path, const struct Map_info *Map,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 char *Vect__get_element_path(char *file_path, struct Map_info *Map,
 =======
 char *Vect__get_element_path(char *file_path, const struct Map_info *Map,
@@ -13877,6 +13986,7 @@ char *Vect__get_element_path(char *file_path, const struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13975,6 +14085,8 @@ char *Vect__get_element_path(char *file_path, const struct Map_info *Map,
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 char *Vect__get_element_path(char *file_path, const struct Map_info *Map,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -14100,6 +14212,7 @@ char *Vect__get_element_path(char *file_path, const struct Map_info *Map,
 =======
 char *Vect__get_element_path(char *file_path, const struct Map_info *Map,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14418,6 +14531,10 @@ char *Vect__get_element_path(char *file_path, const struct Map_info *Map,
 char *Vect__get_element_path(char *file_path, const struct Map_info *Map,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
                              const char *element)
 {
     char path[GPATH_MAX];

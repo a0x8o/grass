@@ -258,6 +258,7 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 double *maxNS, double *maxEW, struct element_grow **mat,
                 int CBordo)
 =======
@@ -660,6 +661,10 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
                 double *maxNS, double *maxEW, struct element_grow **mat UNUSED,
                 int CBordo UNUSED)
 =======
@@ -730,6 +735,7 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -911,6 +917,8 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
                 double *maxNS, double *maxEW, struct element_grow **mat,
                 int CBordo)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1080,6 +1088,7 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
                 double *maxNS, double *maxEW, struct element_grow **mat,
                 int CBordo)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -1329,6 +1338,10 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 {
     int c1;
     double minBordo, medioBordo; /*, minBordo1; */
@@ -1523,6 +1536,7 @@ void free_structmatrix(struct element_grow **m, long nrl, long nrh, long ncl,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -1749,6 +1763,8 @@ void free_structmatrix(struct element_grow **m, long nrl, long nrh, long ncl,
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1760,6 +1776,7 @@ void free_structmatrix(struct element_grow **m, long nrl, long nrh, long ncl,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2101,6 +2118,11 @@ void free_structmatrix(struct element_grow **m, long nrl, long nrh, long ncl,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 {
     free((FREE_ARG)(m[nrl] + ncl - NR_END));
     free((FREE_ARG)(m + nrl - NR_END));
