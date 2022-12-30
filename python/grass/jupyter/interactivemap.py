@@ -1,27 +1,38 @@
 #
 # AUTHOR(S): Caitlin Haedrich <caitlin DOT haedrich AT gmail>
 <<<<<<< HEAD
+<<<<<<< HEAD
 #            Anna Petrasova <kratochanna AT gmail>
 <<<<<<< HEAD
 #            Riya Saxena <29riyasaxena AT gmail>
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 #
 # PURPOSE:   This module contains functions for interactive visualizations
 #            in Jupyter Notebooks.
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
 # COPYRIGHT: (C) 2021-2024 Caitlin Haedrich, and by the GRASS Development Team
 =======
 # COPYRIGHT: (C) 2021-2022 Caitlin Haedrich, and by the GRASS Development Team
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+# COPYRIGHT: (C) 2021-2022 Caitlin Haedrich, and by the GRASS Development Team
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #
 #            This program is free software under the GNU General Public
 #            License (>=v2). Read the file COPYING that comes with GRASS
 #            for details.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 """Interactive visualizations map with folium or ipyleaflet"""
 import os
@@ -61,6 +72,8 @@ class Layer:  # pylint: disable=too-few-public-methods
     """Base class for overlaing raster or vector layer
     on a folium or ipyleaflet map.
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 """Interactive visualizations map with folium"""
 
 from .reprojection_renderer import ReprojectionRenderer
@@ -73,7 +86,10 @@ class Raster:
     >>> m = folium.Map()
     >>> gj.Raster("elevation", opacity=0.5).add_to(m)
     >>> m
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     """
 
     def __init__(
@@ -88,6 +104,7 @@ class Raster:
         """Reproject GRASS raster, export to PNG, and compute bounding box.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         param str name: layer name
         param str title: title of layer to display in layer control legend
         param bool use_region: use computational region of current mapset
@@ -98,6 +115,8 @@ class Raster:
         self._name = name
         self._layer_kwargs = kwargs
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         param str name: raster name
         param str title: title of raster to display in layer control legend
         param bool use_region: use computational region of current mapset
@@ -111,7 +130,10 @@ class Raster:
 
         self._name = name
         self._overlay_kwargs = kwargs
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         self._title = title
         if not self._title:
             self._title = self._name
@@ -122,6 +144,7 @@ class Raster:
             )
         else:
             self._renderer = renderer
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -151,12 +174,15 @@ class Raster(Layer):
         super().__init__(name, title, use_region, saved_region, renderer, **kwargs)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         # Render overlay
         # By doing this here instead of in add_to, we avoid rendering
         # twice if added to multiple maps. This mimics the behavior
         # folium.raster_layers.ImageOverlay()
         self._filename, self._bounds = self._renderer.render_raster(name)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     def add_to(self, interactive_map):
         """Add raster to map object which is an instance of either
@@ -189,6 +215,8 @@ class Raster(Layer):
 class Vector(Layer):
     """Adds vectors to a folium or ipyleaflet map.
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def add_to(self, folium_map):
         """Add raster to folium map with folium.raster_layers.ImageOverlay()
 
@@ -208,12 +236,16 @@ class Vector(Layer):
 
 class Vector:
     """Adds vectors to a folium map.
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     Basic Usage:
     >>> m = folium.Map()
     >>> gj.Vector("roadsmajor").add_to(m)
     >>> m
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     >>> m = ipyleaflet.Map()
@@ -221,6 +253,8 @@ class Vector:
     >>> m
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     """
 
     def __init__(
@@ -232,6 +266,7 @@ class Vector:
         renderer=None,
         **kwargs,
     ):
+<<<<<<< HEAD
 <<<<<<< HEAD
         """Reproject GRASS vector and export to GeoJSON."""
         super().__init__(name, title, use_region, saved_region, renderer, **kwargs)
@@ -267,6 +302,8 @@ class Vector:
 class InteractiveMap:
     """This class creates interactive GRASS maps with folium or ipyleaflet.
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         """Reproject GRASS vector and export to folium-ready PNG. Also computes bounding
         box for PNG overlay in folium map.
 
@@ -304,7 +341,10 @@ class InteractiveMap:
 
 class InteractiveMap:
     """This class creates interactive GRASS maps with folium.
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     Basic Usage:
 
@@ -323,6 +363,7 @@ class InteractiveMap:
         use_region=False,
         saved_region=None,
 <<<<<<< HEAD
+<<<<<<< HEAD
         map_backend=None,
     ):
         """Creates a blank folium/ipyleaflet map centered on g.region.
@@ -335,22 +376,30 @@ class InteractiveMap:
         to folium.Map() which supports several built-in tilesets
         (including "OpenStreetMap", "Stamen Toner", "Stamen Terrain",
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     ):
         """Creates a blank folium map centered on g.region.
 
         tiles parameter is passed directly to folium.Map() which supports several
         built-in tilesets (including "OpenStreetMap", "Stamen Toner", "Stamen Terrain",
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         "Stamen Watercolor", "Mapbox Bright", "Mapbox Control Room", "CartoDB positron",
         "CartoDB dark_matter") as well as custom tileset URL (i.e.
         "http://{s}.yourtiles.com/{z}/{x}/{y}.png"). For more information, visit
         folium documentation:
         https://python-visualization.github.io/folium/modules.html
 <<<<<<< HEAD
+<<<<<<< HEAD
         In case of ipyleaflet, only the tileset name and not the URL is
         currently supported.
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         Raster and vector data are always reprojected to Pseudo-Mercator.
         With use_region=True or saved_region=myregion, the region extent
@@ -368,6 +417,7 @@ class InteractiveMap:
         :param str API_key: API key for Mapbox or Cloudmade tiles
         :param bool use_region: use computational region of current mapset
         :param str saved_region: name of saved computation region
+<<<<<<< HEAD
 <<<<<<< HEAD
         :param str map_backend: "ipyleaflet" or "folium" or None
         """
@@ -415,11 +465,16 @@ class InteractiveMap:
             self._ipywidgets = widgets
             import xyzservices  # pylint: disable=import-outside-toplevel
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         """
         import folium  # pylint: disable=import-outside-toplevel
 
         self._folium = folium
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         # Store height and width
         self.width = width
@@ -433,6 +488,7 @@ class InteractiveMap:
         # Store Region
         self.region = None
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         if self._ipyleaflet:
             basemap = xyzservices.providers.query_name(tiles)
@@ -451,6 +507,8 @@ class InteractiveMap:
                 API_key=API_key,  # pylint: disable=invalid-name
             )
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         # Create Folium Map
         self.map = self._folium.Map(
             width=self.width,
@@ -458,7 +516,10 @@ class InteractiveMap:
             tiles=tiles,
             API_key=API_key,  # pylint: disable=invalid-name
         )
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         # Set LayerControl default
         self.layer_control_object = None
         self.region_rectangle = None
@@ -470,19 +531,27 @@ class InteractiveMap:
     def add_vector(self, name, title=None, **kwargs):
         """Imports vector into temporary WGS84 location, re-formats to a GeoJSON and
 <<<<<<< HEAD
+<<<<<<< HEAD
         adds to map.
 =======
         adds to folium map.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        adds to folium map.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         :param str name: name of vector to be added to map;
                          positional-only parameter
         :param str title: vector name for layer control
 <<<<<<< HEAD
+<<<<<<< HEAD
         :**kwargs: keyword arguments passed to GeoJSON overlay
 =======
         :**kwargs: keyword arguments passed to folium.GeoJson()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        :**kwargs: keyword arguments passed to folium.GeoJson()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         """
         self.vector_name.append(name)
         Vector(name, title=title, renderer=self._renderer, **kwargs).add_to(self.map)
@@ -490,10 +559,14 @@ class InteractiveMap:
     def add_raster(self, name, title=None, **kwargs):
         """Imports raster into temporary WGS84 location,
 <<<<<<< HEAD
+<<<<<<< HEAD
         exports as png and overlays on a map.
 =======
         exports as png and overlays on folium map.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        exports as png and overlays on folium map.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         Color table for the raster can be modified with `r.colors` before calling
         this function.
@@ -506,10 +579,14 @@ class InteractiveMap:
         :param str name: name of raster to add to display; positional-only parameter
         :param str title: raster name for layer control
 <<<<<<< HEAD
+<<<<<<< HEAD
         :**kwargs: keyword arguments passed to image overlay
 =======
         :**kwargs: keyword arguments passed to folium.raster_layers.ImageOverlay()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        :**kwargs: keyword arguments passed to folium.raster_layers.ImageOverlay()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         """
         self.raster_name.append(name)
         Raster(name, title=title, renderer=self._renderer, **kwargs).add_to(self.map)
@@ -518,10 +595,13 @@ class InteractiveMap:
         """Add layer control to display.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         A Layer Control is added by default. Call this function to customize
         layer control object. Accepts keyword arguments to be passed to leaflet
         layer control object"""
 =======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
         Accepts keyword arguments to be passed to layer control object"""
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -608,6 +688,8 @@ class InteractiveMap:
         """This function returns a folium figure or ipyleaflet map object
         with a GRASS raster and/or vector overlaid on a basemap.
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         Accepts keyword arguments to be passed to folium.LayerControl()"""
 
         self.layer_control = True
@@ -616,7 +698,10 @@ class InteractiveMap:
     def show(self):
         """This function returns a folium figure object with a GRASS raster
         overlayed on a basemap.
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         If map has layer control enabled, additional layers cannot be
         added after calling show()."""
@@ -640,8 +725,15 @@ class InteractiveMap:
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
         self.map.fit_bounds(self._renderer.get_bbox())
 
         if not self.layer_control_object:
@@ -659,6 +751,8 @@ class InteractiveMap:
         self.map.add(self.layer_control_object)
         return self.map
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         if self.layer_control:
             self.map.add_child(self.layer_control_object)
         # Create Figure
@@ -668,7 +762,10 @@ class InteractiveMap:
         self.map.fit_bounds(self._renderer.get_bbox())
 
         return fig
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     def save(self, filename):
         """Save map as an html map.

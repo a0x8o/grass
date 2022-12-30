@@ -470,6 +470,7 @@ int scan_ref(char *buf)
         if (!(xmatch(word2) || ymatch(word2)))
             return 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
         FALLTHROUGH;
     case 1:
         if (xmatch(word1) || ymatch(word1))
@@ -483,7 +484,15 @@ int scan_ref(char *buf)
         if (xmatch(word1) || ymatch(word1))
             return 1;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    case 1:
+        if (xmatch(word1) || ymatch(word1))
+            return 1;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
     default:
         return 0;
     }
