@@ -195,6 +195,9 @@ PGM = r.series
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1373,7 +1376,12 @@ PGM = r.series
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 LIBES = $(STATSLIB) $(RASTERLIB) $(GISLIB)
 EXTRA_LIBS = $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(STATSDEP) $(RASTERDEP) $(GISDEP)
@@ -1707,6 +1715,7 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1883,6 +1892,8 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1980,10 +1991,13 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
 LIBES = $(STATSLIB) $(RASTERLIB) $(GISLIB) $(OMPLIB)
 DEPENDENCIES = $(STATSDEP) $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2250,6 +2264,8 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f2ff4a2b4d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
@@ -3627,6 +3643,7 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4178,6 +4195,10 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 
 include $(MODULE_TOPDIR)/include/Make/Module.make
 

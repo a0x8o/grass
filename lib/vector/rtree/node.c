@@ -394,6 +394,7 @@ void RTreeDestroyNode(struct RTree_Node *n, int nodes)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (n->level > 0) { /* it is not leaf -> destroy childs */
 =======
 <<<<<<< HEAD
@@ -860,6 +861,8 @@ void RTreeDestroyNode(struct RTree_Node *n, int nodes)
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1053,7 +1056,12 @@ void RTreeDestroyNode(struct RTree_Node *n, int nodes)
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
     if (n->level > 0) { /* it is not leaf -> destroy children */
 =======
     if (n->level > 0) { /* it is not leaf -> destroy childs */
@@ -1155,6 +1163,7 @@ void RTreeDestroyNode(struct RTree_Node *n, int nodes)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1288,6 +1297,8 @@ void RTreeDestroyNode(struct RTree_Node *n, int nodes)
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1769,13 +1780,17 @@ void RTreeDestroyNode(struct RTree_Node *n, int nodes)
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
     if (n->level > 0) { /* it is not leaf -> destroy childs */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1977,6 +1992,8 @@ void RTreeDestroyNode(struct RTree_Node *n, int nodes)
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
         for (i = 0; i < nodes; i++) {
             if (n->branch[i].child.ptr) {
                 RTreeDestroyNode(n->branch[i].child.ptr, nodes);

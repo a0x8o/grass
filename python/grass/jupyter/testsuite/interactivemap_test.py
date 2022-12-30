@@ -62,6 +62,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6711551a1e (libraster: fix Rast_legal_bandref() (#1796))
 =======
@@ -755,12 +756,16 @@ import os
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1071,10 +1076,13 @@ import os
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 import sys
 import unittest
 from pathlib import Path
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1388,6 +1396,7 @@ from pathlib import Path
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
@@ -1456,6 +1465,10 @@ from pathlib import Path
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 import unittest
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1469,6 +1482,7 @@ from pathlib import Path
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1594,6 +1608,8 @@ from pathlib import Path
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -2287,6 +2303,7 @@ from pathlib import Path
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2915,6 +2932,10 @@ from pathlib import Path
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 import grass.jupyter as gj
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -3072,6 +3093,7 @@ def can_import_folium():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3317,6 +3339,8 @@ def can_import_folium():
 >>>>>>> b131e1fa40 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 29f5805aab (libraster: fix Rast_legal_bandref() (#1796))
 =======
@@ -4049,7 +4073,12 @@ def can_import_folium():
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
         import folium  # noqa
 =======
         import folium
@@ -4149,6 +4178,7 @@ def can_import_folium():
 >>>>>>> osgeo-main
 =======
         import folium  # noqa
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4397,6 +4427,7 @@ def can_import_folium():
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4539,6 +4570,10 @@ def can_import_folium():
 >>>>>>> b131e1fa40 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 
         return True
     except ImportError:

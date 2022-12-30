@@ -261,6 +261,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -361,6 +362,8 @@ def main():
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -485,6 +488,7 @@ def main():
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -583,6 +587,10 @@ def main():
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
                     "Processing over {} maps: activating -z flag of r.series which "
 <<<<<<< HEAD
                     "slows down processing."
@@ -594,6 +602,7 @@ def main():
                         max_files_open
                     )
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -713,6 +722,8 @@ def main():
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
@@ -744,10 +755,13 @@ def main():
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
                     "Processing over {} maps: activating -z flag of r.series which slows down processing.".format(
                         max_files_open
                     )
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -854,6 +868,8 @@ def main():
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1693,7 +1709,12 @@ def main():
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
                 )
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
             )

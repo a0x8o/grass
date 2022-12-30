@@ -202,6 +202,7 @@ int N_copy_gradient_2d(N_gradient_2d *source, N_gradient_2d *target)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * input gradient field. Returend is a new structure of type N_gradient_2d.
 =======
 <<<<<<< HEAD
@@ -668,6 +669,8 @@ int N_copy_gradient_2d(N_gradient_2d *source, N_gradient_2d *target)
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -861,7 +864,12 @@ int N_copy_gradient_2d(N_gradient_2d *source, N_gradient_2d *target)
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
  * input gradient field. Returned is a new structure of type N_gradient_2d.
 =======
  * input gradient field. Returend is a new structure of type N_gradient_2d.
@@ -963,6 +971,7 @@ int N_copy_gradient_2d(N_gradient_2d *source, N_gradient_2d *target)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1096,6 +1105,8 @@ int N_copy_gradient_2d(N_gradient_2d *source, N_gradient_2d *target)
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1577,13 +1588,17 @@ int N_copy_gradient_2d(N_gradient_2d *source, N_gradient_2d *target)
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
  * input gradient field. Returend is a new structure of type N_gradient_2d.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1785,6 +1800,8 @@ int N_copy_gradient_2d(N_gradient_2d *source, N_gradient_2d *target)
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
  *
  *  \param field N_gradient_field_2d * - A two dimensional gradient field
  *  \param gradient N_gradient_2d * - the gradient structure which should be

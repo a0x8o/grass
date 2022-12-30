@@ -331,6 +331,7 @@ int I_find_subgroup_file2(const char *group, const char *subgroup,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -589,6 +590,8 @@ int I_find_subgroup_file2(const char *group, const char *subgroup,
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -742,9 +745,12 @@ int I_find_subgroup_file2(const char *group, const char *subgroup,
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -829,6 +835,8 @@ int I_find_subgroup_file2(const char *group, const char *subgroup,
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -1377,6 +1385,7 @@ int I_find_subgroup_file2(const char *group, const char *subgroup,
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1687,6 +1696,10 @@ int I_find_subgroup_file2(const char *group, const char *subgroup,
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 const char *I_find_signature(I_SIGFILE_TYPE type, char *name,
                              const char *mapset)
 {
@@ -1725,6 +1738,7 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2242,12 +2256,16 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name,
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2443,6 +2461,8 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name,
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 
     G_debug(1, "I_find_signature(): type=%d name=%s mapset=%s", type, name,
             mapset);
@@ -2452,6 +2472,7 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name,
     /* We do not search for a specific file as file name is up to signature type
      */
     return G_find_file(sdir, name, mapset);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2765,6 +2786,7 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name,
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
@@ -2833,6 +2855,10 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name,
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset) {
     char selem[GNAME_MAX]; /* 'signatures/type\0' */
 =======
@@ -2853,6 +2879,7 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3036,6 +3063,8 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset) {
     char selem[GNAME_MAX]; /* 'signatures/type\0' */
@@ -3859,6 +3888,7 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4626,6 +4656,10 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /*!
@@ -4779,6 +4813,7 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5037,6 +5072,8 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -5190,9 +5227,12 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5277,6 +5317,8 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -5825,6 +5867,7 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -6135,6 +6178,10 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name,
                               const char *mapset)
 {
@@ -6173,6 +6220,7 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6690,12 +6738,16 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name,
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6891,6 +6943,8 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name,
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 
     G_debug(1, "I_find_signature2(): type=%d name=%s mapset=%s", type, name,
             mapset);
@@ -6898,6 +6952,7 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name,
     I_get_signatures_dir(sdir, type);
 
     return G_find_file2(sdir, name, mapset);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7211,6 +7266,7 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name,
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
@@ -7279,6 +7335,10 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name,
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name, const char *mapset) {
     char selem[GNAME_MAX]; /* 'signatures/type\0' */
 =======
@@ -7297,6 +7357,7 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name, const char 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7475,6 +7536,8 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name, const char 
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name, const char *mapset) {
     char selem[GNAME_MAX]; /* 'signatures/type\0' */
@@ -8256,6 +8319,7 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name, const char 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -8982,4 +9046,8 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name, const char 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 }

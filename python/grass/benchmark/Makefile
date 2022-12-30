@@ -154,6 +154,7 @@ DSTDIR = $(ETC)/python/grass/benchmark
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -400,6 +401,8 @@ DSTDIR = $(ETC)/python/grass/benchmark
 =======
 >>>>>>> 28bc5c68cb (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -546,6 +549,8 @@ DSTDIR = $(ETC)/python/grass/benchmark
 >>>>>>> f0a06841f5 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 MODULES = app plots results runners __main__
 >>>>>>> 824e32212e (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -695,6 +700,7 @@ MODULES = plots results runners
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2234,7 +2240,12 @@ MODULES = app plots results runners __main__
 MODULES = app plots results runners __main__
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 2e712c25e8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 28bc5c68cb (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)

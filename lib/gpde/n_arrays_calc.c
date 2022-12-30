@@ -555,6 +555,7 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "N_convert_array_2d_null_to_zero: %i valuess of type "
 =======
 <<<<<<< HEAD
@@ -896,6 +897,8 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2049,6 +2052,8 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
                 count);
     if (a->type == DCELL_TYPE)
         G_debug(2,
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
@@ -2160,6 +2165,7 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 =======
                 "N_convert_array_2d_null_to_zero: %i valuess of type "
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2605,6 +2611,8 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
                 "N_convert_array_2d_null_to_zero: %i valuess of type "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 "FCELL_TYPE are converted",
@@ -2620,6 +2628,7 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 =======
                 "N_convert_array_2d_null_to_zero: %i valuess of type "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2783,7 +2792,12 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
                 "DCELL_TYPE are converted",
                 count);
 

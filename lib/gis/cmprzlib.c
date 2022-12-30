@@ -2774,9 +2774,18 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
     if (dst_sz < 0 || buf_sz > (unsigned int)dst_sz) {
 =======
     if (buf_sz > dst_sz) {
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
         G_warning(
             "G_zlib_compress(): programmer error, destination is too small");
         if (NULL ==
@@ -5464,9 +5473,18 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
     if (src_sz < 0 || nbytes >= (unsigned int)src_sz) {
 =======
     if (nbytes >= src_sz) {
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
         /* compression not possible */
         if (buf != dst)
             G_free(buf);
@@ -8185,9 +8203,18 @@ int G_zlib_expand(unsigned char *src, int src_sz, unsigned char *dst,
     if (dst_sz < 0 || nbytes != (unsigned int)dst_sz) {
 =======
     if (nbytes != dst_sz) {
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
         /* TODO: it is not an error if destination is larger than needed */
         G_warning(_("Got uncompressed size %d, expected %d"), (int)nbytes,
                   dst_sz);

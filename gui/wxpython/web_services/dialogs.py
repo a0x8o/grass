@@ -127,6 +127,7 @@ class WSDialogBase(wx.Dialog):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7f8e88ce75 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
@@ -627,7 +628,12 @@ class WSDialogBase(wx.Dialog):
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
             "NASA GIBS WMTS": [
                 "http://gibs.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi",
 =======
@@ -3056,14 +3062,25 @@ class WSDialogBase(wx.Dialog):
 =======
 =======
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             "NASA GIBS WMTS": [
                 "http://gibs.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi",
                 "",
                 "",
             ],
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
             "tiles.maps.eox.at (Sentinel-2)": [
                 "https://tiles.maps.eox.at/wms",
                 "",
