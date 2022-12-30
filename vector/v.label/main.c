@@ -280,6 +280,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* figure out space param dynamically from current dispay */
 =======
 <<<<<<< HEAD
@@ -399,6 +400,8 @@ int main(int argc, char **argv)
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -583,7 +586,12 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
         /* figure out space param dynamically from current display */
 =======
         /* figure out space param dynamically from current dispay */
@@ -639,6 +647,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -700,6 +709,8 @@ int main(int argc, char **argv)
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1054,7 +1065,15 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        /* figure out space param dynamically from current dispay */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
         /* don't bother if Space was explicitly given (bypasses xmon req) */
         if (Along_flag->answer && !Space->answer) {
             if (D_open_driver() != 0) /* connect to the driver */

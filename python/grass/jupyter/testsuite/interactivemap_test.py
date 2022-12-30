@@ -59,6 +59,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6711551a1e (libraster: fix Rast_legal_bandref() (#1796))
 =======
@@ -542,11 +543,19 @@ import os
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 import sys
 import unittest
 from pathlib import Path
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -752,7 +761,12 @@ from pathlib import Path
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 import unittest
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -766,6 +780,7 @@ from pathlib import Path
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -839,6 +854,8 @@ from pathlib import Path
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -1445,7 +1462,12 @@ from pathlib import Path
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 import grass.jupyter as gj
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -1532,6 +1554,7 @@ def can_import_folium():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1643,6 +1666,8 @@ def can_import_folium():
 >>>>>>> 37ee2a4a9a (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 29f5805aab (libraster: fix Rast_legal_bandref() (#1796))
 =======
@@ -1871,7 +1896,12 @@ def can_import_folium():
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
         import folium  # noqa
 =======
 <<<<<<< HEAD
@@ -1980,6 +2010,7 @@ def can_import_folium():
 =======
         import folium  # noqa
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2118,6 +2149,8 @@ def can_import_folium():
 =======
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 03ae449941 (libraster: fix Rast_legal_bandref() (#1796))
 <<<<<<< HEAD
 >>>>>>> 6d9bf88380 (libraster: fix Rast_legal_bandref() (#1796))
@@ -2217,7 +2250,12 @@ def can_import_folium():
         import folium  # noqa
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 
         return True
     except ImportError:

@@ -1118,6 +1118,7 @@ int get_horz_intersects(geosurf *gs, float *bgn, float *end, float *dir)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir)
 =======
 <<<<<<< HEAD
@@ -1237,6 +1238,8 @@ int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir)
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1421,7 +1424,12 @@ int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir)
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir UNUSED)
 =======
 int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir)
@@ -1477,6 +1485,7 @@ int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1538,6 +1547,8 @@ int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir)
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1892,7 +1903,15 @@ int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir)
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 {
     int fdig, ldig, incr, hits, num, offset;
     int vrow, vcol, drow1, drow2, dcol1, dcol2;

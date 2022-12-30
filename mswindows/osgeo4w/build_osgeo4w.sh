@@ -73,6 +73,7 @@ export C_INCLUDE_PATH=".:${OSGEO4W_ROOT_MSYS}/include:${SRC}/dist.${ARCH}/includ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 =======
 <<<<<<< HEAD
@@ -192,6 +193,8 @@ export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -376,11 +379,17 @@ export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python312
 =======
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -493,6 +502,8 @@ export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -1005,6 +1016,11 @@ export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 export ARCH=x86_64-w64-mingw32
 
 ./configure \
@@ -1057,6 +1073,7 @@ export ARCH=x86_64-w64-mingw32
     --with-opengl=windows \
     --with-bzlib \
     --with-liblas=${SRC}/mswindows/osgeo4w/liblas-config \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1188,11 +1205,14 @@ export ARCH=x86_64-w64-mingw32
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
     --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config \
     --without-pdal
 =======
     --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1490,7 +1510,15 @@ export ARCH=x86_64-w64-mingw32
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 
 make
 

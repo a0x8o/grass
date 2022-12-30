@@ -1699,6 +1699,15 @@ UPDATE strds_metadata SET ewres_max =
        (SELECT max(ewres) FROM raster_metadata WHERE raster_metadata.id IN 
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
        ) WHERE id = 'SPACETIME_ID';
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))

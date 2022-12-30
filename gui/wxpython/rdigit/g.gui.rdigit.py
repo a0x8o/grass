@@ -533,6 +533,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 947f9098cd (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
 >>>>>>> fd058b270f (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -859,15 +860,22 @@ def main():
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 947f9098cd (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> fd058b270f (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> 25e2ad2b00 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 
             # add Map Display panel to Map Display frame
@@ -883,6 +891,8 @@ def main():
 >>>>>>> 947f9098cd (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> fd058b270f (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 83892d4f00 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)
@@ -891,6 +901,8 @@ def main():
             parent.Layout()
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)

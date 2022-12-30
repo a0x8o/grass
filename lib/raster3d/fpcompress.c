@@ -260,6 +260,7 @@ static void G_fpcompress_rearrangeEncodeFloats(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -409,6 +410,8 @@ static void G_fpcompress_rearrangeEncodeFloats(unsigned char *src, int size,
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -722,7 +725,12 @@ static void G_fpcompress_rearrangeEncodeFloats(unsigned char *src, int size,
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
             if (8 - nBits < (unsigned int)precision) {
 =======
 <<<<<<< HEAD
@@ -802,6 +810,7 @@ static void G_fpcompress_rearrangeEncodeFloats(unsigned char *src, int size,
 >>>>>>> osgeo-main
             if (8 - nBits < precision) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1648,7 +1657,15 @@ static void G_fpcompress_rearrangeEncodeFloats(unsigned char *src, int size,
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            if (8 - nBits < precision) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
                 cp1++;
 
                 /*printf ("%d %d\n", *cp1, (*src & mask) << (8 - nBits)); */
@@ -1919,6 +1936,7 @@ static void G_fpcompress_rearrangeEncodeDoubles(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2068,6 +2086,8 @@ static void G_fpcompress_rearrangeEncodeDoubles(unsigned char *src, int size,
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2381,7 +2401,12 @@ static void G_fpcompress_rearrangeEncodeDoubles(unsigned char *src, int size,
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
             if (8 - nBits < (unsigned int)precision) {
 =======
 <<<<<<< HEAD
@@ -2461,6 +2486,7 @@ static void G_fpcompress_rearrangeEncodeDoubles(unsigned char *src, int size,
 >>>>>>> osgeo-main
             if (8 - nBits < precision) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3307,7 +3333,15 @@ static void G_fpcompress_rearrangeEncodeDoubles(unsigned char *src, int size,
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            if (8 - nBits < precision) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
                 cp1++;
                 *cp1 = (unsigned char)(((unsigned char)(*src & mask))
                                        << (8 - nBits));
@@ -3558,6 +3592,7 @@ static void G_fpcompress_rearrangeDecodeFloats(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3707,6 +3742,8 @@ static void G_fpcompress_rearrangeDecodeFloats(unsigned char *src, int size,
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4020,7 +4057,12 @@ static void G_fpcompress_rearrangeDecodeFloats(unsigned char *src, int size,
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
             if (8 - nBits < (unsigned int)precision) {
 =======
 <<<<<<< HEAD
@@ -4100,6 +4142,7 @@ static void G_fpcompress_rearrangeDecodeFloats(unsigned char *src, int size,
 >>>>>>> osgeo-main
             if (8 - nBits < precision) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4946,7 +4989,15 @@ static void G_fpcompress_rearrangeDecodeFloats(unsigned char *src, int size,
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            if (8 - nBits < precision) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
                 cp1++;
                 *dst |= (unsigned char)((*cp1 >> (8 - nBits)) & mask);
                 nBits += precision - 8;
@@ -5210,6 +5261,7 @@ static void G_fpcompress_rearrangeDecodeDoubles(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5359,6 +5411,8 @@ static void G_fpcompress_rearrangeDecodeDoubles(unsigned char *src, int size,
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5672,7 +5726,12 @@ static void G_fpcompress_rearrangeDecodeDoubles(unsigned char *src, int size,
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
             if (8 - nBits < (unsigned int)precision) {
 =======
 <<<<<<< HEAD
@@ -5752,6 +5811,7 @@ static void G_fpcompress_rearrangeDecodeDoubles(unsigned char *src, int size,
 >>>>>>> osgeo-main
             if (8 - nBits < precision) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6598,7 +6658,15 @@ static void G_fpcompress_rearrangeDecodeDoubles(unsigned char *src, int size,
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            if (8 - nBits < precision) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
                 cp1++;
                 *dst |= (unsigned char)((*cp1 >> (8 - nBits)) & mask);
                 nBits += precision - 8;

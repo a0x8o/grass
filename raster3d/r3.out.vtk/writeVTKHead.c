@@ -85,6 +85,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void write_vtk_structured_point_header(FILE *fp, char *vtkFile,
 =======
 <<<<<<< HEAD
@@ -204,6 +205,8 @@ void write_vtk_structured_point_header(FILE *fp, char *vtkFile,
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -388,7 +391,12 @@ void write_vtk_structured_point_header(FILE *fp, char *vtkFile,
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 void write_vtk_structured_point_header(FILE *fp, char *vtkFile UNUSED,
 =======
 void write_vtk_structured_point_header(FILE *fp, char *vtkFile,
@@ -444,6 +452,7 @@ void write_vtk_structured_point_header(FILE *fp, char *vtkFile,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -505,6 +514,8 @@ void write_vtk_structured_point_header(FILE *fp, char *vtkFile,
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -859,7 +870,15 @@ void write_vtk_structured_point_header(FILE *fp, char *vtkFile,
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+void write_vtk_structured_point_header(FILE *fp, char *vtkFile,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
                                        RASTER3D_Region region, int dp,
                                        double scale)
 {
@@ -978,6 +997,7 @@ void write_vtk_structured_point_header(FILE *fp, char *vtkFile,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void write_vtk_structured_grid_header(FILE *fp, char *vtkFile,
 =======
 <<<<<<< HEAD
@@ -1097,6 +1117,8 @@ void write_vtk_structured_grid_header(FILE *fp, char *vtkFile,
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1281,7 +1303,12 @@ void write_vtk_structured_grid_header(FILE *fp, char *vtkFile,
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 void write_vtk_structured_grid_header(FILE *fp, char *vtkFile UNUSED,
 =======
 void write_vtk_structured_grid_header(FILE *fp, char *vtkFile,
@@ -1337,6 +1364,7 @@ void write_vtk_structured_grid_header(FILE *fp, char *vtkFile,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1398,6 +1426,8 @@ void write_vtk_structured_grid_header(FILE *fp, char *vtkFile,
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1752,7 +1782,15 @@ void write_vtk_structured_grid_header(FILE *fp, char *vtkFile,
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+void write_vtk_structured_grid_header(FILE *fp, char *vtkFile,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
                                       RASTER3D_Region region)
 {
     G_debug(
@@ -1830,6 +1868,7 @@ void write_vtk_structured_grid_header(FILE *fp, char *vtkFile,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void write_vtk_unstructured_grid_header(FILE *fp, char *vtkFile,
 =======
 <<<<<<< HEAD
@@ -1949,6 +1988,8 @@ void write_vtk_unstructured_grid_header(FILE *fp, char *vtkFile,
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2133,7 +2174,12 @@ void write_vtk_unstructured_grid_header(FILE *fp, char *vtkFile,
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 void write_vtk_unstructured_grid_header(FILE *fp, char *vtkFile UNUSED,
 =======
 void write_vtk_unstructured_grid_header(FILE *fp, char *vtkFile,
@@ -2189,6 +2235,7 @@ void write_vtk_unstructured_grid_header(FILE *fp, char *vtkFile,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2250,6 +2297,8 @@ void write_vtk_unstructured_grid_header(FILE *fp, char *vtkFile,
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2604,7 +2653,15 @@ void write_vtk_unstructured_grid_header(FILE *fp, char *vtkFile,
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+void write_vtk_unstructured_grid_header(FILE *fp, char *vtkFile,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
                                         RASTER3D_Region region)
 {
     G_debug(3, "write_vtk_unstructured_grid_header: Writing "
