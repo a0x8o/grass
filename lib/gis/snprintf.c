@@ -48,5 +48,16 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
     count = vsnprintf(str, size, fmt, ap);
     va_end(ap);
 
+<<<<<<< HEAD
+=======
+    /* Windows' vsnprintf() doesn't always NUL-terminate the buffer */
+<<<<<<< HEAD
+    if (count >= 0 && (unsigned int)count == size)
+=======
+    if (count == size)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+        str[--count] = '\0';
+
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
     return count;
 }

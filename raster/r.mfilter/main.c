@@ -132,10 +132,19 @@ int main(int argc, char **argv)
                     "threads setting."));
     nprocs = 1;
 #endif
+<<<<<<< HEAD
     if (nprocs > 1 && Rast_mask_is_present()) {
         G_warning(_("Parallel processing disabled due to active mask."));
+=======
+<<<<<<< HEAD
+    if (nprocs > 1 && G_find_raster("MASK", G_mapset()) != NULL) {
+        G_warning(_("Parallel processing disabled due to active MASK."));
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
         nprocs = 1;
     }
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     out_name = opt2->answer;
     filt_name = opt3->answer;
 
