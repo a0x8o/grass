@@ -186,6 +186,10 @@
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -414,8 +418,16 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
  *
  * Simply using corner and midpoints (original r.proj) will only work
  * between cylindrical projections. In other projections, though he input
@@ -424,6 +436,7 @@
  * discontinuous area.
  *
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -555,6 +568,8 @@
 =======
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -569,6 +584,8 @@
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -913,8 +930,18 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
  *
  * Simply using corner and midpoints (original r.proj) will only work
  * between cylindrical projections. In other projections, though he input
@@ -984,6 +1011,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -1038,6 +1066,10 @@
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
@@ -1487,8 +1519,19 @@
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
  * In many projections, especially when large areas are displayed, the edges
  * of rectangular GRASS regions do not necessarily represent east, west, north
  * and south. Naming the region edges accordingly (as is regions and cellhd) can

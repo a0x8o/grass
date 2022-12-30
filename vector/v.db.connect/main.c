@@ -201,6 +201,10 @@ int main(int argc, char **argv)
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -321,12 +325,24 @@ int main(int argc, char **argv)
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     struct Flag *print, *columns, *delete, *shell_print;
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -464,6 +480,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -476,6 +494,8 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -724,8 +744,16 @@ int main(int argc, char **argv)
     struct Flag *print, *columns, *delete, *shell_print;
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     struct Flag *overwrite, *print, *columns, *delete, *shell_print;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     dbDriver *driver;
@@ -1046,6 +1074,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (!overwrite->answer)
                         G_fatal_error(_("Use -o to overwrite existing link "
                                         "for layer <%d>"),
@@ -1180,6 +1209,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1192,6 +1223,8 @@ int main(int argc, char **argv)
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
                     if (!overwrite->answer)
                         G_fatal_error(_("Use -o to overwrite existing link "
                                         "for layer <%d>"),
@@ -1400,8 +1433,16 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
                     if (!G_get_overwrite())
                         G_fatal_error(_("Use --overwrite to overwrite "
                                         "existing link for layer <%d>"),
@@ -1467,6 +1508,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1579,6 +1621,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1599,6 +1643,8 @@ int main(int argc, char **argv)
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1628,10 +1674,13 @@ int main(int argc, char **argv)
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
                     if (!overwrite->answer)
                         G_fatal_error(_("Use -o to overwrite existing link "
                                         "for layer <%d>"),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1761,6 +1810,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1791,6 +1842,8 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1991,8 +2044,16 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
                                       field);
                     else {
                         dbColumn *column;

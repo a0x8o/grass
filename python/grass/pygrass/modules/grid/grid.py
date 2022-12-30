@@ -71,6 +71,7 @@ from __future__ import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -125,6 +126,10 @@ from __future__ import (
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
@@ -574,8 +579,19 @@ from __future__ import (
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 import contextlib
 import os
 import sys
@@ -661,6 +677,7 @@ from grass.pygrass.modules.grid.split import split_region_tiles
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -715,6 +732,10 @@ from grass.pygrass.modules.grid.split import split_region_tiles
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
@@ -1164,8 +1185,19 @@ from grass.pygrass.modules.grid.split import split_region_tiles
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 from grass.pygrass.modules.grid.patch import rpatch_map, rpatch_map_r_patch_backend
 
 
@@ -1732,6 +1764,7 @@ class GridModule:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -1786,6 +1819,10 @@ class GridModule:
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
@@ -2235,8 +2272,19 @@ class GridModule:
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
             region=region, width=self.width, height=self.height, overlap=overlap
         )
         if mapset_prefix:

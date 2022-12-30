@@ -961,6 +961,7 @@ int readbounds(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1381,11 +1382,14 @@ int readbounds(void)
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
         nconnected = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
         nconnected = 0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1485,6 +1489,10 @@ int readbounds(void)
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
@@ -2286,8 +2294,16 @@ int readbounds(void)
 =======
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
         Vect_reset_list(linelist);
         Vect_reset_list(arealist);
 
@@ -2329,6 +2345,7 @@ int readbounds(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2749,11 +2766,14 @@ int readbounds(void)
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
                 nconnected++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
                 nconnected++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2853,6 +2873,10 @@ int readbounds(void)
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
@@ -3654,8 +3678,16 @@ int readbounds(void)
 =======
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
             }
         }
 

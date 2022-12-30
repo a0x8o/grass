@@ -110,6 +110,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -328,6 +329,10 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 =======
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -360,7 +365,12 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
     sigfile->description =
         _("Name for output file containing result signatures");
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
@@ -489,6 +499,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -561,6 +572,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
     sigfile->description =
         _("Name for output file containing result signatures");
@@ -639,6 +652,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
     sigfile->description =
@@ -1179,8 +1194,16 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 
     maxsig = G_define_option();
     maxsig->key = "maxsig";
@@ -1233,6 +1256,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1804,8 +1828,16 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 
     if (G_unqualified_name(sigfile->answer, G_mapset(), parms->sigfile,
                            xmapset) < 0)
@@ -1996,6 +2028,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2080,6 +2113,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2096,6 +2131,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2124,6 +2161,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
     if (G_unqualified_name(sigfile->answer, G_mapset(), parms->sigfile,
@@ -2733,8 +2772,16 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error(_("<%s> does not match the current mapset"), xmapset);
 
     if (G_legal_filename(parms->sigfile) < 0)
@@ -2826,6 +2873,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3024,6 +3072,10 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 =======
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3048,6 +3100,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -3180,6 +3234,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -3243,6 +3298,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3325,6 +3382,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 
@@ -3845,8 +3904,16 @@ int parse(int argc, char *argv[], struct parms *parms)
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     if (sscanf(maxsig->answer, "%d", &parms->maxsubclasses) != 1 ||
         parms->maxsubclasses <= 0) {
         G_fatal_error(_("Illegal number of sub-signatures (%s)"),

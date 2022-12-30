@@ -453,6 +453,7 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -625,6 +626,10 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
@@ -1633,10 +1638,13 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
         if (maxSize < 0 || tileSize <= (unsigned int)maxSize * 1024)
 =======
         if (tileSize <= maxSize * 1024)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2036,8 +2044,19 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
         if (tileSize <= maxSize * 1024)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+        if (tileSize <= maxSize * 1024)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
             break;
 
         /* Compute weighted tile sizes. Take care that the tile size is computed

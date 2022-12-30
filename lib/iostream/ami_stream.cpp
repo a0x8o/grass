@@ -190,6 +190,7 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -362,6 +363,10 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
@@ -1370,10 +1375,13 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
     snprintf(tmp_path, GPATH_MAX, "%s/%s_XXXXXX", base_dir, base.c_str());
 =======
     sprintf(tmp_path, "%s/%s_XXXXXX", base_dir, base.c_str());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1773,8 +1781,19 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
     sprintf(tmp_path, "%s/%s_XXXXXX", base_dir, base.c_str());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+    sprintf(tmp_path, "%s/%s_XXXXXX", base_dir, base.c_str());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 
     fd = G_mkstemp(tmp_path, O_RDWR, 0600);
 

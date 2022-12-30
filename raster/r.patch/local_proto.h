@@ -63,6 +63,7 @@ int do_patch(void *result, void *, struct Cell_stats *, int, RASTER_MAP_TYPE,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -264,6 +265,8 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 =======
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -307,6 +310,8 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 =======
@@ -449,8 +454,16 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -716,6 +729,7 @@ void merge_threads(struct Cell_stats **, int, int);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -828,6 +842,8 @@ void merge_threads(struct Cell_stats **, int, int);
 =======
 >>>>>>> 273146cb7f (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -850,6 +866,8 @@ void merge_threads(struct Cell_stats **, int, int);
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -879,10 +897,13 @@ void merge_threads(struct Cell_stats **, int, int);
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
 /* support.c */
 int support(char **, struct Cell_stats *, int, struct Categories *, int *,
             struct Colors *, int *, RASTER_MAP_TYPE);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1012,6 +1033,8 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1024,6 +1047,8 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 <<<<<<< HEAD
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 /* support.c */
@@ -1237,5 +1262,13 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 273146cb7f (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))

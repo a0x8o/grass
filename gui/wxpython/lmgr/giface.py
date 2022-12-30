@@ -360,6 +360,7 @@ class LayerManagerGrassInterface:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -533,6 +534,10 @@ class LayerManagerGrassInterface:
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
@@ -873,8 +878,16 @@ class LayerManagerGrassInterface:
 =======
 =======
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 class LayerManagerGrassInterfaceForMapDisplay:
 =======
     def ShowStatusbar(self, show=True):
@@ -1117,6 +1130,7 @@ class LayerManagerGrassInterfaceForMapDisplay:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1163,6 +1177,8 @@ class LayerManagerGrassInterfaceForMapDisplay:
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -1236,6 +1252,8 @@ class LayerManagerGrassInterfaceForMapDisplay:
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1591,8 +1609,16 @@ class LayerManagerGrassInterfaceForMapDisplay:
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 
 class LayerManagerGrassInterfaceForMapDisplay(object):
 >>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))

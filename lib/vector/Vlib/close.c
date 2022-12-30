@@ -1985,6 +1985,7 @@ static int format(struct Map_info *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2217,6 +2218,10 @@ static int format(struct Map_info *map)
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
@@ -2647,8 +2652,16 @@ static int format(struct Map_info *map)
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 #ifdef HAVE_OGR
                                                      ,
@@ -4145,6 +4158,7 @@ static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -4589,7 +4603,33 @@ static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+static int (*Close_array[][2])() = {{clo_dummy, V1_close_nat}
+#ifdef HAVE_OGR
+                                    ,
+                                    {clo_dummy, V1_close_ogr},
+                                    {clo_dummy, V1_close_ogr}
+#else
+                                    ,
+                                    {clo_dummy, format},
+                                    {clo_dummy, format}
+#endif
+#ifdef HAVE_POSTGRES
+                                    ,
+                                    {clo_dummy, V1_close_pg}
+#else
+                                    ,
+                                    {clo_dummy, format}
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 #endif
 };
 

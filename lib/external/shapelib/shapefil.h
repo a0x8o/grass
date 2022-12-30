@@ -118,6 +118,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -290,6 +291,10 @@
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
@@ -1560,11 +1565,14 @@
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
  * Copyright (c) 2012-2016, Even Rouault <even dot rouault at spatialys.com>
 =======
  * Copyright (c) 2012-2013, Even Rouault <even dot rouault at mines-paris dot
  *org>
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1578,9 +1586,12 @@
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
  * Copyright (c) 2012-2013, Even Rouault <even dot rouault at mines-paris dot
  *org>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -1722,7 +1733,12 @@
  *org>
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
  *
  * This software is available under the following "MIT Style" license,
  * or at the option of the licensee under the LGPL (see COPYING).  This
@@ -3652,6 +3668,7 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4072,11 +4089,14 @@ SHPObject SHPAPI_CALL1(*)
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4176,6 +4196,10 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
@@ -4977,13 +5001,22 @@ SHPObject SHPAPI_CALL1(*)
 =======
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     SHPCreateObject(int nSHPType, int nShapeId, int nParts,
                     const int *panPartStart, const int *panPartType,
                     int nVertices, const double *padfX, const double *padfY,
                     const double *padfZ, const double *padfM);
 SHPObject SHPAPI_CALL1(*)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5412,8 +5445,16 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     SHPCreateSimpleObject(int nSHPType, int nVertices, const double *padfX,
                           const double *padfY, const double *padfZ);
 
@@ -6521,10 +6562,13 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6639,6 +6683,7 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -6663,6 +6708,12 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
@@ -6702,12 +6753,15 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
@@ -7143,8 +7197,17 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 const char SHPAPI_CALL1(*) SHPTypeName(int nSHPType);
 const char SHPAPI_CALL1(*) SHPPartTypeName(int nPartType);
 
@@ -7185,6 +7248,7 @@ typedef struct {
 } SHPTree;
 
 SHPTree SHPAPI_CALL1(*)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7481,6 +7545,10 @@ SHPTree SHPAPI_CALL1(*)
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7669,8 +7737,16 @@ SHPTree SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
                   const double *padfBoundsMin, const double *padfBoundsMax);
 >>>>>>> osgeo-main
@@ -9085,7 +9161,388 @@ int SHPAPI_CALL1(*)
 =======
 
 =======
+<<<<<<< HEAD
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
+                  double *padfBoundsMin, double *padfBoundsMax);
+void SHPAPI_CALL SHPDestroyTree(SHPTree *hTree);
+
+int SHPAPI_CALL SHPWriteTree(SHPTree *hTree, const char *pszFilename);
+
+int SHPAPI_CALL SHPTreeAddShapeId(SHPTree *hTree, SHPObject *psObject);
+int SHPAPI_CALL SHPTreeRemoveShapeId(SHPTree *hTree, int nShapeId);
+
+void SHPAPI_CALL SHPTreeTrimExtraNodes(SHPTree *hTree);
+
+int SHPAPI_CALL1(*)
+    SHPTreeFindLikelyShapes(SHPTree *hTree, double *padfBoundsMin,
+                            double *padfBoundsMax, int *);
+int SHPAPI_CALL SHPCheckBoundsOverlap(double *, double *, double *, double *,
+                                      int);
+
+int SHPAPI_CALL1(*) SHPSearchDiskTree(FILE *fp, double *padfBoundsMin,
+                                      double *padfBoundsMax, int *pnShapeCount);
+
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
+                  double *padfBoundsMin, double *padfBoundsMax);
+void SHPAPI_CALL SHPDestroyTree(SHPTree *hTree);
+
+int SHPAPI_CALL SHPWriteTree(SHPTree *hTree, const char *pszFilename);
+
+int SHPAPI_CALL SHPTreeAddShapeId(SHPTree *hTree, SHPObject *psObject);
+int SHPAPI_CALL SHPTreeRemoveShapeId(SHPTree *hTree, int nShapeId);
+
+void SHPAPI_CALL SHPTreeTrimExtraNodes(SHPTree *hTree);
+
+int SHPAPI_CALL1(*)
+    SHPTreeFindLikelyShapes(SHPTree *hTree, double *padfBoundsMin,
+                            double *padfBoundsMax, int *);
+int SHPAPI_CALL SHPCheckBoundsOverlap(double *, double *, double *, double *,
+                                      int);
+
+int SHPAPI_CALL1(*) SHPSearchDiskTree(FILE *fp, double *padfBoundsMin,
+                                      double *padfBoundsMax, int *pnShapeCount);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
+                  double *padfBoundsMin, double *padfBoundsMax);
+void SHPAPI_CALL SHPDestroyTree(SHPTree *hTree);
+
+int SHPAPI_CALL SHPWriteTree(SHPTree *hTree, const char *pszFilename);
+
+int SHPAPI_CALL SHPTreeAddShapeId(SHPTree *hTree, SHPObject *psObject);
+int SHPAPI_CALL SHPTreeRemoveShapeId(SHPTree *hTree, int nShapeId);
+
+void SHPAPI_CALL SHPTreeTrimExtraNodes(SHPTree *hTree);
+
+int SHPAPI_CALL1(*)
+    SHPTreeFindLikelyShapes(SHPTree *hTree, double *padfBoundsMin,
+                            double *padfBoundsMax, int *);
+int SHPAPI_CALL SHPCheckBoundsOverlap(double *, double *, double *, double *,
+                                      int);
+
+int SHPAPI_CALL1(*) SHPSearchDiskTree(FILE *fp, double *padfBoundsMin,
+                                      double *padfBoundsMax, int *pnShapeCount);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
+                  double *padfBoundsMin, double *padfBoundsMax);
+void SHPAPI_CALL SHPDestroyTree(SHPTree *hTree);
+
+int SHPAPI_CALL SHPWriteTree(SHPTree *hTree, const char *pszFilename);
+
+int SHPAPI_CALL SHPTreeAddShapeId(SHPTree *hTree, SHPObject *psObject);
+int SHPAPI_CALL SHPTreeRemoveShapeId(SHPTree *hTree, int nShapeId);
+
+void SHPAPI_CALL SHPTreeTrimExtraNodes(SHPTree *hTree);
+
+int SHPAPI_CALL1(*)
+    SHPTreeFindLikelyShapes(SHPTree *hTree, double *padfBoundsMin,
+                            double *padfBoundsMax, int *);
+int SHPAPI_CALL SHPCheckBoundsOverlap(double *, double *, double *, double *,
+                                      int);
+
+int SHPAPI_CALL1(*) SHPSearchDiskTree(FILE *fp, double *padfBoundsMin,
+                                      double *padfBoundsMax, int *pnShapeCount);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+
+    SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
+                  double *padfBoundsMin, double *padfBoundsMax);
+void SHPAPI_CALL SHPDestroyTree(SHPTree *hTree);
+
+int SHPAPI_CALL SHPWriteTree(SHPTree *hTree, const char *pszFilename);
+
+int SHPAPI_CALL SHPTreeAddShapeId(SHPTree *hTree, SHPObject *psObject);
+int SHPAPI_CALL SHPTreeRemoveShapeId(SHPTree *hTree, int nShapeId);
+
+void SHPAPI_CALL SHPTreeTrimExtraNodes(SHPTree *hTree);
+
+int SHPAPI_CALL1(*)
+
+    SHPTreeFindLikelyShapes(SHPTree *hTree, double *padfBoundsMin,
+                            double *padfBoundsMax, int *);
+int SHPAPI_CALL SHPCheckBoundsOverlap(double *, double *, double *, double *,
+                                      int);
+
+int SHPAPI_CALL1(*)
+
+    SHPSearchDiskTree(FILE *fp, double *padfBoundsMin, double *padfBoundsMax,
+                      int *pnShapeCount);
+
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+
+    SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
+                  double *padfBoundsMin, double *padfBoundsMax);
+void SHPAPI_CALL SHPDestroyTree(SHPTree *hTree);
+
+int SHPAPI_CALL SHPWriteTree(SHPTree *hTree, const char *pszFilename);
+
+int SHPAPI_CALL SHPTreeAddShapeId(SHPTree *hTree, SHPObject *psObject);
+int SHPAPI_CALL SHPTreeRemoveShapeId(SHPTree *hTree, int nShapeId);
+
+void SHPAPI_CALL SHPTreeTrimExtraNodes(SHPTree *hTree);
+
+int SHPAPI_CALL1(*)
+
+    SHPTreeFindLikelyShapes(SHPTree *hTree, double *padfBoundsMin,
+                            double *padfBoundsMax, int *);
+int SHPAPI_CALL SHPCheckBoundsOverlap(double *, double *, double *, double *,
+                                      int);
+
+int SHPAPI_CALL1(*)
+
+    SHPSearchDiskTree(FILE *fp, double *padfBoundsMin, double *padfBoundsMax,
+                      int *pnShapeCount);
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+typedef struct SHPDiskTreeInfo *SHPTreeDiskHandle;
+
+SHPTreeDiskHandle SHPAPI_CALL SHPOpenDiskTree(const char *pszQIXFilename,
+                                              SAHooks *psHooks);
+
+void SHPAPI_CALL SHPCloseDiskTree(SHPTreeDiskHandle hDiskTree);
+
+int SHPAPI_CALL1(*)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+    SHPSearchDiskTreeEx(SHPTreeDiskHandle hDiskTree, double *padfBoundsMin,
+                        double *padfBoundsMax, int *pnShapeCount);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+=======
+<<<<<<< HEAD
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+    SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
+                  double *padfBoundsMin, double *padfBoundsMax);
+void SHPAPI_CALL SHPDestroyTree(SHPTree *hTree);
+
+int SHPAPI_CALL SHPWriteTree(SHPTree *hTree, const char *pszFilename);
+
+int SHPAPI_CALL SHPTreeAddShapeId(SHPTree *hTree, SHPObject *psObject);
+int SHPAPI_CALL SHPTreeRemoveShapeId(SHPTree *hTree, int nShapeId);
+
+void SHPAPI_CALL SHPTreeTrimExtraNodes(SHPTree *hTree);
+
+int SHPAPI_CALL1(*)
+    SHPTreeFindLikelyShapes(SHPTree *hTree, double *padfBoundsMin,
+                            double *padfBoundsMax, int *);
+int SHPAPI_CALL SHPCheckBoundsOverlap(double *, double *, double *, double *,
+                                      int);
+
+int SHPAPI_CALL1(*) SHPSearchDiskTree(FILE *fp, double *padfBoundsMin,
+                                      double *padfBoundsMax, int *pnShapeCount);
+
+typedef struct SHPDiskTreeInfo *SHPTreeDiskHandle;
+
+SHPTreeDiskHandle SHPAPI_CALL SHPOpenDiskTree(const char *pszQIXFilename,
+                                              SAHooks *psHooks);
+
+void SHPAPI_CALL SHPCloseDiskTree(SHPTreeDiskHandle hDiskTree);
+
+int SHPAPI_CALL1(*)
+    SHPSearchDiskTreeEx(SHPTreeDiskHandle hDiskTree, double *padfBoundsMin,
+                        double *padfBoundsMax, int *pnShapeCount);
+
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
     SHPSearchDiskTreeEx(SHPTreeDiskHandle hDiskTree, double *padfBoundsMin,
                         double *padfBoundsMax, int *pnShapeCount);
 
@@ -9190,10 +9647,22 @@ int SHPAPI_CALL1(*)
     SHPSearchDiskTreeEx(SHPTreeDiskHandle hDiskTree, double *padfBoundsMin,
                         double *padfBoundsMax, int *pnShapeCount);
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 int SHPAPI_CALL SHPWriteTreeLL(SHPTree *hTree, const char *pszFilename,
                                const SAHooks *psHooks);
 =======
@@ -10458,6 +10927,7 @@ int SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -10858,14 +11328,24 @@ int SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     SBNSearchDiskTree(const SBNSearchHandle hSBN, const double *padfBoundsMin,
                       const double *padfBoundsMax, int *pnShapeCount);
 
 int SHPAPI_CALL1(*)
     SBNSearchDiskTreeInteger(const SBNSearchHandle hSBN, int bMinX, int bMinY,
 =======
+=======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
@@ -11221,6 +11701,7 @@ int SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -11318,6 +11799,10 @@ int SHPAPI_CALL1(*)
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
@@ -11991,12 +12476,21 @@ int SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     SBNSearchDiskTree(SBNSearchHandle hSBN, double *padfBoundsMin,
                       double *padfBoundsMax, int *pnShapeCount);
 
 int SHPAPI_CALL1(*)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12391,6 +12885,10 @@ int SHPAPI_CALL1(*)
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
@@ -12947,6 +13445,8 @@ int SHPAPI_CALL1(*)
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
     SBNSearchDiskTreeInteger(SBNSearchHandle hSBN, int bMinX, int bMinY,
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
                              int bMaxX, int bMaxY, int *pnShapeCount);
@@ -12982,8 +13482,11 @@ int SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -13204,6 +13707,24 @@ int SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+
+    SBNSearchDiskTreeInteger(SBNSearchHandle hSBN, int bMinX, int bMinY,
+                             int bMaxX, int bMaxY, int *pnShapeCount);
+
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14050,8 +14571,17 @@ int SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 void SHPAPI_CALL SBNSearchFreeIds(int *panShapeId);
 
 /************************************************************************/
@@ -14092,6 +14622,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -14852,8 +15383,16 @@ typedef struct {
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     int nRecordLength; /* Must fit on uint16 */
     int nHeaderLength; /* File header length (32) + field
                           descriptor length + spare space.
@@ -15690,6 +16229,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -15703,9 +16243,12 @@ typedef struct {
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
     int nRecordLength;
     int nHeaderLength;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -16039,8 +16582,16 @@ typedef struct {
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     int nFields;
     int *panFieldOffset;
     int *panFieldSize;
@@ -16156,6 +16707,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -16328,6 +16880,10 @@ typedef struct {
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
@@ -17336,10 +17892,13 @@ typedef struct {
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
     char *pszHeader; /* Field descriptors */
 =======
     char *pszHeader;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17739,8 +18298,19 @@ typedef struct {
     char *pszHeader;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+    char *pszHeader;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 
     int nCurrentRecord;
     int bCurrentRecordModified;
@@ -17790,6 +18360,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -18750,8 +19321,16 @@ typedef struct {
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 
     int bWriteEndOfFileChar; /* defaults to TRUE */
 
@@ -19453,6 +20032,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -19897,8 +20477,18 @@ typedef struct {
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 } DBFInfo;
 
 typedef DBFInfo *DBFHandle;
@@ -19908,6 +20498,7 @@ typedef enum {
     FTInteger,
     FTDouble,
     FTLogical,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20249,6 +20840,10 @@ typedef enum {
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+=======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
@@ -20679,8 +21274,16 @@ typedef enum {
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     FTDate,
     FTInvalid
 } DBFFieldType;
@@ -21798,6 +22401,7 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     FTDate,
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -22404,6 +23008,10 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 =======
 >>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
     FTDate,
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     FTInvalid
@@ -22642,6 +23250,7 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
@@ -22651,6 +23260,11 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
     FTInvalid
 } DBFFieldType;
 
@@ -22661,6 +23275,19 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    FTDate,
+    FTInvalid
+} DBFFieldType;
+
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
     FTDate,
@@ -22791,6 +23418,7 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 =======
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
@@ -22822,6 +23450,11 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 
 DBFHandle SHPAPI_CALL DBFOpen(const char *pszDBFFile, const char *pszAccess);
 DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszDBFFile, const char *pszAccess,
@@ -22870,6 +23503,7 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -22900,6 +23534,8 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -22909,6 +23545,8 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -22994,8 +23632,19 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle hDBF, int iShape, int iField);
 double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle hDBF, int iShape,
                                           int iField);
@@ -23130,8 +23779,14 @@ void SHPAPI_CALL DBFSetLastModifiedDate(DBFHandle psDBF, int nYYSince1900,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -23656,10 +24311,13 @@ void SHPAPI_CALL DBFSetWriteEndOfFileChar(DBFHandle psDBF, int bWriteFlag);
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 
 void SHPAPI_CALL DBFSetWriteEndOfFileChar(DBFHandle psDBF, int bWriteFlag);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23724,6 +24382,8 @@ void SHPAPI_CALL DBFSetWriteEndOfFileChar(DBFHandle psDBF, int bWriteFlag);
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -23969,7 +24629,14 @@ void SHPAPI_CALL DBFSetWriteEndOfFileChar(DBFHandle psDBF, int bWriteFlag);
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 
 #ifdef __cplusplus
 }

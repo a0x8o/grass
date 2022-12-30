@@ -95,6 +95,7 @@ static PGresult *build_stmt(const struct Plus_head *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 =======
 <<<<<<< HEAD
@@ -227,6 +228,8 @@ int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 =======
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -239,6 +242,8 @@ int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -445,8 +450,16 @@ int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 int Vect__get_area_points_pg(struct Map_info *Map, const plus_t *lines,
 =======
 int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
@@ -508,6 +521,7 @@ int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -582,6 +596,8 @@ int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 =======
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -594,6 +610,8 @@ int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -979,8 +997,19 @@ int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
                              int n_lines, struct line_pnts *APoints)
 {
     int i, direction;

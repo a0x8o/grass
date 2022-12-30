@@ -42,6 +42,7 @@ for details
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -56,6 +57,8 @@ for details
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 import os
 import shutil
 =======
@@ -364,7 +367,15 @@ import shutil
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 
 import os
 import shutil
@@ -470,6 +481,7 @@ import shutil
 
 import os
 import shutil
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -941,8 +953,16 @@ import os
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -1122,6 +1142,10 @@ from grass.lib.imagery import (
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 =======
@@ -1242,13 +1266,25 @@ from grass.lib.imagery import (
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     I_SIGFILE_TYPE_LIBSVM,
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1334,6 +1370,8 @@ from grass.lib.imagery import (
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
@@ -1395,6 +1433,8 @@ from grass.lib.imagery import (
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1670,8 +1710,16 @@ from grass.lib.imagery import (
 =======
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 273146cb7f (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     I_find_signature,
     I_find_signature2,
 )
@@ -1728,6 +1776,9 @@ class FindSignatureTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2402,12 +2453,15 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
         cls.sigdirs = []
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
         cls.sigdirs = []
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2773,8 +2827,19 @@ class FindSignatureTestCase(TestCase):
         cls.sigdirs = []
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+        cls.sigdirs = []
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
         # As signatures are created directly not via signature creation
         # tools, we must ensure signature directories exist
         os.makedirs(f"{cls.mpath}/signatures/sig/", exist_ok=True)
@@ -2954,6 +3019,10 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 =======
@@ -3182,8 +3251,16 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 273146cb7f (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
         os.makedirs(f"{cls.mpath}/signatures/libsvm/", exist_ok=True)
         cls.sig_name1 = tempname(10)
         cls.sig_dir1 = f"{cls.mpath}/signatures/sigset/{cls.sig_name1}"
@@ -3206,6 +3283,7 @@ class FindSignatureTestCase(TestCase):
         for d in cls.sigdirs:
             shutil.rmtree(d, ignore_errors=True)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3337,6 +3415,8 @@ class FindSignatureTestCase(TestCase):
 =======
 >>>>>>> 273146cb7f (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -3351,6 +3431,8 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3561,8 +3643,23 @@ class FindSignatureTestCase(TestCase):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
         cls.sig_name1 = tempname(10)
         cls.sig_dir1 = f"{cls.mpath}/signatures/sigset/{cls.sig_name1}"
         os.makedirs(cls.sig_dir1)
@@ -3593,6 +3690,11 @@ class FindSignatureTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4404,8 +4506,16 @@ class FindSignatureTestCase(TestCase):
 =======
 <<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
         try:
             os.remove(cls.sigfile_name1)
             os.remove(cls.sigfile_name2)
@@ -4563,6 +4673,7 @@ class FindSignatureTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4579,6 +4690,8 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4608,10 +4721,13 @@ class FindSignatureTestCase(TestCase):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
         for d in cls.sigdirs:
             shutil.rmtree(d, ignore_errors=True)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4903,6 +5019,8 @@ class FindSignatureTestCase(TestCase):
 =======
 =======
 =======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -5240,8 +5358,16 @@ class FindSignatureTestCase(TestCase):
 =======
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 
     def test_find_sig(self):
         # Non existing without a mapset
@@ -5466,6 +5592,10 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 =======
@@ -5694,8 +5824,16 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 273146cb7f (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     def test_find_libsvm(self):
         # Non existing without a mapset
         ret = I_find_signature(I_SIGFILE_TYPE_LIBSVM, tempname(10), None)
@@ -5722,6 +5860,7 @@ class FindSignatureTestCase(TestCase):
 
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5853,6 +5992,8 @@ class FindSignatureTestCase(TestCase):
 =======
 >>>>>>> 273146cb7f (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -5867,6 +6008,8 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -6211,8 +6354,18 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 273146cb7f (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     def test_find2_sig(self):
         # Non existing without a mapset
         ret = I_find_signature2(I_SIGFILE_TYPE_SIG, tempname(10), None)
@@ -6436,6 +6589,10 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 =======
@@ -6664,8 +6821,16 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 273146cb7f (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
     def test_find2_libsvm(self):
         # Non existing without a mapset
         ret = I_find_signature2(I_SIGFILE_TYPE_LIBSVM, tempname(10), None)
@@ -6692,6 +6857,7 @@ class FindSignatureTestCase(TestCase):
 
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6823,6 +6989,8 @@ class FindSignatureTestCase(TestCase):
 =======
 >>>>>>> 273146cb7f (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -6837,6 +7005,8 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -7181,8 +7351,18 @@ class FindSignatureTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 273146cb7f (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 
 if __name__ == "__main__":
     test()

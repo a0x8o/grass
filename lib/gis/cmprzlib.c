@@ -1300,6 +1300,7 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
 =======
     if (buf_sz > dst_sz) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
@@ -1549,10 +1550,23 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
         G_warning(
             "G_zlib_compress(): programmer error, destination is too small");
         if (NULL ==
@@ -2766,6 +2780,7 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
 =======
     if (nbytes >= src_sz) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
@@ -3015,10 +3030,23 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
         /* compression not possible */
         if (buf != dst)
             G_free(buf);
@@ -4263,6 +4291,7 @@ int G_zlib_expand(unsigned char *src, int src_sz, unsigned char *dst,
 =======
     if (nbytes != dst_sz) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
@@ -4512,10 +4541,23 @@ int G_zlib_expand(unsigned char *src, int src_sz, unsigned char *dst,
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
         /* TODO: it is not an error if destination is larger than needed */
         G_warning(_("Got uncompressed size %d, expected %d"), (int)nbytes,
                   dst_sz);
