@@ -107,7 +107,20 @@ fi
 exec 3>&1 > >(tee mswindows/osgeo4w/package.log) 2>&1
 
 DLLS="
+<<<<<<< HEAD
 	/mingw64/bin/libblas.dll
+=======
+	/mingw64/bin/zlib1.dll
+	/mingw64/bin/libbz2-1.dll
+	/mingw64/bin/libiconv-2.dll
+<<<<<<< HEAD
+=======
+	/mingw64/bin/libexpat-1.dll
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+	/mingw64/bin/libfontconfig-1.dll
+	/mingw64/bin/libgfortran-5.dll
+	/mingw64/bin/libbrotlidec.dll
+>>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 	/mingw64/bin/libbrotlicommon.dll
 	/mingw64/bin/libbrotlidec.dll
 	/mingw64/bin/libbz2-1.dll
@@ -124,9 +137,16 @@ DLLS="
 	/mingw64/bin/libiconv-2.dll
 	/mingw64/bin/libintl-8.dll
 	/mingw64/bin/liblapack.dll
+<<<<<<< HEAD
 	/mingw64/bin/libpcre-1.dll
 	/mingw64/bin/libpixman-1-0.dll
 	/mingw64/bin/libpng16-16.dll
+=======
+<<<<<<< HEAD
+=======
+	/mingw64/bin/libomp.dll
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 	/mingw64/bin/libquadmath-0.dll
 	/mingw64/bin/libstdc++-6.dll
 	/mingw64/bin/libsystre-0.dll
@@ -165,6 +185,7 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 		--with-cairo \
 		--with-cairo-includes=$OSGEO4W_ROOT_MSYS/include \
 		--with-cairo-ldflags="-L$PWD/mswindows/osgeo4w/lib -lcairo -lfontconfig" \
+<<<<<<< HEAD
 		--with-cxx \
 		--with-fftw \
 		--with-freetype \
@@ -194,6 +215,15 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 		--with-zstd \
 		--without-pdal \
 		--without-x
+=======
+		--with-bzlib \
+<<<<<<< HEAD
+		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config \
+		--without-pdal
+=======
+		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 
 	touch mswindows/osgeo4w/configure-stamp
 fi
