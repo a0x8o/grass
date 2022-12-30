@@ -550,6 +550,10 @@ public:
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -570,6 +574,8 @@ public:
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
     /* get specified neighbour di,dj in {-1,0,1} */
     T get(short di, short dj) const
     {
@@ -655,6 +661,41 @@ public:
     }
 
     /***************************************************************/
+=======
+    genericWindow(const genericWindow<T> &win)
+    {
+        for (int i = 0; i < 9; i++) {
+            data[i] = win.data[i];
+        }
+    }
+
+    /***************************************************************/
+    /* get specified neighbour di,dj in {-1,0,1} */
+    T get(short di, short dj) const
+    {
+        assert(di >= -1 && di <= 1);
+        assert(dj >= -1 && dj <= 1);
+        return data[4 + dj + di * 3];
+    }
+
+    /***************************************************************/
+    /* get specified neighbour i in 0..8 */
+    T get(unsigned short i = 4) const
+    {
+        assert(i <= 8);
+        return data[i];
+    }
+
+    /***************************************************************/
+    /* set specified neighbour i in 0..8 */
+    void set(unsigned short i, T val)
+    {
+        assert(i <= 8);
+        data[i] = val;
+    }
+
+    /***************************************************************/
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     /* set specified neighbour di,dj in {-1,0,1} */
     void set(int di, int dj, T val)
     {
@@ -665,7 +706,11 @@ public:
 
     /***************************************************************/
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f7b8bdee1e (r.terrafow: explicit use of default constructors (#2660))
+=======
+<<<<<<< HEAD
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -4271,16 +4316,21 @@ public:
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -4726,6 +4776,9 @@ public:
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
     /*  multiply all elements by a scalar */
     void scalarMultiply(T mult)
     {

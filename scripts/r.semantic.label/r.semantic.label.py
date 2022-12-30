@@ -164,6 +164,7 @@ def print_map_semantic_label(name, label_reader):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
             semantic_label = rast.info.semantic_label
@@ -1640,8 +1641,12 @@ def print_map_semantic_label(name, label_reader):
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
             semantic_label = rast.info.semantic_label
             if semantic_label:
                 label_reader.print_info(semantic_label)
@@ -1680,7 +1685,12 @@ def print_map_semantic_label(name, label_reader):
 =======
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD:scripts/r.semantic.label/r.semantic.label.py
             semantic_label = rast.info.semantic_label
             if semantic_label:
@@ -1732,7 +1742,11 @@ def print_map_semantic_label(name, label_reader):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9cac1201a9 (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
@@ -1752,6 +1766,10 @@ def print_map_semantic_label(name, label_reader):
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
             semantic_label = rast.info.semantic_label
             if semantic_label:
                 label_reader.print_info(semantic_label)
@@ -1770,6 +1788,7 @@ def print_map_semantic_label(name, label_reader):
 =======
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1843,6 +1862,9 @@ def print_map_semantic_label(name, label_reader):
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
             else:
                 gs.info(_("No semantic label assigned to <{}>").format(name))
     except OpenError as e:
@@ -1851,6 +1873,9 @@ def print_map_semantic_label(name, label_reader):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> osgeo-main
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 <<<<<<< HEAD
@@ -1886,7 +1911,12 @@ def print_map_semantic_label(name, label_reader):
 =======
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
             else:
                 gs.info(_("No semantic label assigned to <{}>").format(name))
     except OpenError as e:
@@ -2034,6 +2064,7 @@ def manage_map_semantic_label(name, semantic_label):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
                 rast.info.semantic_label = semantic_label
@@ -2184,6 +2215,8 @@ def manage_map_semantic_label(name, semantic_label):
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 9a51bf3124 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
                 rast.info.semantic_label = semantic_label
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -2253,6 +2286,7 @@ def manage_map_semantic_label(name, semantic_label):
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2268,12 +2302,16 @@ def manage_map_semantic_label(name, semantic_label):
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
                 rast.info.semantic_label = semantic_label
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2554,6 +2592,9 @@ def manage_map_semantic_label(name, semantic_label):
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD:scripts/r.semantic.label/r.semantic.label.py
                 rast.info.semantic_label = semantic_label
 =======
@@ -2992,6 +3033,7 @@ def manage_map_semantic_label(name, semantic_label):
 =======
                 rast.info.semantic_label = semantic_label
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD:scripts/r.semantic.label/r.semantic.label.py
@@ -3215,6 +3257,9 @@ def manage_map_semantic_label(name, semantic_label):
                 rast.info.semantic_label = semantic_label
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
             except GrassError as e:
                 gs.error(_("Unable to assign/dissociate semantic label. {}").format(e))
                 return 1
@@ -3226,6 +3271,12 @@ def manage_map_semantic_label(name, semantic_label):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
     except OpenError:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 <<<<<<< HEAD
@@ -3287,7 +3338,12 @@ def manage_map_semantic_label(name, semantic_label):
                 rast.info.semantic_label = semantic_label
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
             except GrassError as e:
                 gs.error(_("Unable to assign/dissociate semantic label. {}").format(e))
                 return 1

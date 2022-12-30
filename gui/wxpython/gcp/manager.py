@@ -1740,6 +1740,7 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?
 =======
 <<<<<<< HEAD
@@ -2155,6 +2156,8 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
         # TODO: it is here just to remove old or obsolete behavior of base class
 =======
 =======
@@ -2178,8 +2181,12 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
         # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -2216,8 +2223,16 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
         # TODO: it is here just to remove old or obsolete beavior of base class
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -2225,6 +2240,7 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 =======
         # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2408,6 +2424,10 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
         # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2595,10 +2615,14 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 =======
@@ -2606,6 +2630,7 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2898,6 +2923,8 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
         # self.grwiz.SwitchEnv('source')
         pass
 

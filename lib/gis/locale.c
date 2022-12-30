@@ -160,6 +160,7 @@ char *G_gettext(const char *package NO_NLS_UNUSED, const char *msgid)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 char *G_ngettext(const char *package, const char *msgids, const char *msgidp,
                  unsigned long int n)
 =======
@@ -576,6 +577,10 @@ char *G_ngettext(const char *package, const char *msgids, const char *msgidp,
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 char *G_ngettext(const char *package, const char *msgids, const char *msgidp,
                  unsigned long int n)
 =======
@@ -613,8 +618,16 @@ char *G_ngettext(const char *package, const char *msgids, const char *msgidp,
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 char *G_ngettext(const char *package NO_NLS_UNUSED, const char *msgids,
                  const char *msgidp, unsigned long int n)
 =======
@@ -692,6 +705,7 @@ char *G_ngettext(const char *package, const char *msgids, const char *msgidp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -824,6 +838,8 @@ char *G_ngettext(const char *package, const char *msgids, const char *msgidp,
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -893,6 +909,10 @@ char *G_ngettext(const char *package, const char *msgids, const char *msgidp,
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
 char *G_ngettext(const char *package, const char *msgids, const char *msgidp,
                  unsigned long int n)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -942,6 +962,24 @@ char *G_ngettext(const char *package, const char *msgids, const char *msgidp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> osgeo-main
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+char *G_ngettext(const char *package, const char *msgids, const char *msgidp,
+                 unsigned long int n)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+char *G_ngettext(const char *package, const char *msgids, const char *msgidp,
+                 unsigned long int n)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -952,6 +990,7 @@ char *G_ngettext(const char *package, const char *msgids, const char *msgidp,
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1362,6 +1401,14 @@ char *G_ngettext(const char *package, const char *msgids, const char *msgidp,
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 {
 #if defined(HAVE_LIBINTL_H) && defined(USE_NLS)
     G_init_locale();
