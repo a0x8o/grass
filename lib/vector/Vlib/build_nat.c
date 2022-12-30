@@ -315,6 +315,7 @@ int Vect_build_nat(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -486,6 +487,8 @@ int Vect_build_nat(struct Map_info *Map, int build)
 =======
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -580,6 +583,7 @@ int Vect_build_nat(struct Map_info *Map, int build)
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -717,10 +721,15 @@ int Vect_build_nat(struct Map_info *Map, int build)
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
      * it seems fast enough, no message / percent needed */
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -793,6 +802,8 @@ int Vect_build_nat(struct Map_info *Map, int build)
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -1387,7 +1398,12 @@ int Vect_build_nat(struct Map_info *Map, int build)
      * it seems fast enough, no message / percent needed */
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
      * it seems fast enough, no message / precent needed */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     for (i = 1; i <= plus->n_areas; i++) {
