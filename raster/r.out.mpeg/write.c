@@ -290,6 +290,7 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   int quality, int y_rows, int y_cols, int fly)
 =======
 <<<<<<< HEAD
@@ -748,6 +749,8 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 =======
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -921,7 +924,12 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
                   int quality, int y_rows UNUSED, int y_cols UNUSED, int fly)
 =======
                   int quality, int y_rows, int y_cols, int fly)
@@ -1019,6 +1027,7 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1144,6 +1153,8 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1589,13 +1600,17 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
                   int quality, int y_rows, int y_cols, int fly)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1811,6 +1826,8 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 {
     FILE *fp;
     char dir[1000], *enddir;
