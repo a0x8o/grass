@@ -79,6 +79,139 @@ void flip2(const unsigned short *src, unsigned short *dest, int n)
     }
 }
 
+<<<<<<< HEAD
+=======
+#ifdef _CRAY
+
+/*****************************************************************************
+ *
+ * The following source code is in the public domain.
+ * Specifically, we give to the public domain all rights for future licensing
+ * of the source code, all resale rights, and all publishing rights.
+ *
+ * We ask, but do not require, that the following message be included in all
+ * derived works:
+ *
+ * Portions developed at the National Center for Supercomputing Applications at
+ * the University of Illinois at Urbana-Champaign.
+ *
+ * THE UNIVERSITY OF ILLINOIS GIVES NO WARRANTY, EXPRESSED OR IMPLIED, FOR THE
+ * SOFTWARE AND/OR DOCUMENTATION PROVIDED, INCLUDING, WITHOUT LIMITATION,
+ * WARRANTY OF MERCHANTABILITY AND WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE
+ *
+ ****************************************************************************/
+
+/** THESE ROUTINES MUST BE COMPILED ON THE CRAY ONLY SINCE THEY **/
+
+/** REQUIRE 8-BYTES PER C-TYPE LONG                             **/
+
+/* Cray to IEEE single precision */
+static void c_to_if(long *t, const long *f)
+{
+    if (*f != 0) {
+        *t = (((*f & 0x8000000000000000) | /* sign bit */
+               ((((*f & 0x7fff000000000000) >> 48) - 16258) << 55)) + /* exp */
+              (((*f & 0x00007fffff000000) + ((*f & 0x0000000000800000) << 1))
+               << 8)); /* mantissa */
+    }
+    else
+        *t = *f;
+}
+
+#define C_TO_IF(T, F)                                                      \
+    if (F != 0) {                                                          \
+        T = (((F & 0x8000000000000000) |                                   \
+              ((((F & 0x7fff000000000000) >> 48) - 16258) << 55)) +        \
+             (((F & 0x00007fffff000000) + ((F & 0x0000000000800000) << 1)) \
+              << 8));                                                      \
+    }                                                                      \
+    else {                                                                 \
+        T = F;                                                             \
+    }
+
+<<<<<<< HEAD
+/* IEEE single precision to Cray */
+=======
+/* IEEE single precison to Cray */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+static void if_to_c(long *t, const long *f)
+{
+    if (*f != 0) {
+        *t = (((*f & 0x8000000000000000) |
+               ((*f & 0x7f80000000000000) >> 7) + (16258L << 48)) |
+              (((*f & 0x007fffff00000000) >> 8) | (0x0000800000000000)));
+        if ((*f << 1) == 0)
+            *t = 0;
+    }
+    else
+        *t = *f;
+}
+
+/* T and F must be longs! */
+#define IF_TO_C(T, F)                                                   \
+    if (F != 0) {                                                       \
+        T = (((F & 0x8000000000000000) |                                \
+              ((F & 0x7f80000000000000) >> 7) + (16258L << 48)) |       \
+             (((F & 0x007fffff00000000) >> 8) | (0x0000800000000000))); \
+        if ((F << 1) == 0)                                              \
+            T = 0;                                                      \
+    }                                                                   \
+    else {                                                              \
+        T = F;                                                          \
+    }
+
+/*
+ * Convert an array of Cray 8-byte floats to an array of IEEE 4-byte floats.
+ */
+void cray_to_ieee_array(long *dest, const float *source, int n)
+{
+    long *dst;
+    const long *src;
+    long tmp1, tmp2;
+    int i;
+
+    dst = dest;
+    src = (const long *)source;
+
+    for (i = 0; i < n; i += 2) { /* add 1 in case n is odd */
+        c_to_if(&tmp1, &src[i]);
+        c_to_if(&tmp2, &src[i + 1]);
+        *dst = (tmp1 & 0xffffffff00000000) | (tmp2 >> 32);
+        dst++;
+    }
+}
+
+/*
+ * Convert an array of IEEE 4-byte floats to an array of 8-byte Cray floats.
+ */
+void ieee_to_cray_array(float *dest, const long *source, int n)
+{
+    long *dst;
+    const long *src;
+    int i;
+    long ieee;
+
+    src = source;
+    dst = (long *)dest;
+
+    for (i = 0; i < n; i++) {
+        /* most significant 4-bytes of ieee contain bit pattern to convert */
+        if ((i & 1) == 0) {
+            /* get upper half */
+            ieee = src[i / 2] & 0xffffffff00000000;
+        }
+        else {
+            /* get lower half */
+            ieee = src[i / 2] << 32;
+        }
+        if_to_c(dst, &ieee);
+        dst++;
+    }
+}
+
+#endif /*_CRAY*/
+
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 /**********************************************************************/
 
 /*****                     Read Functions                         *****/

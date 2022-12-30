@@ -89,10 +89,13 @@
 # % guisection: Formatting
 # %end
 
+<<<<<<< HEAD
 # %rules
 # % requires: percentile,-e
 # %end
 
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 import grass.script as gs
 
 ############################################################################
@@ -116,6 +119,7 @@ def main():
     no_header = flags["u"]
     rast_region = bool(flags["r"])
     separator = gs.separator(options["separator"])
+<<<<<<< HEAD
     percentile = None
     if options["percentile"]:
         try:
@@ -126,6 +130,9 @@ def main():
                     options["percentile"]
                 )
             )
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     # Make sure the temporal database exists
     tgis.init()
 
@@ -143,12 +150,19 @@ def main():
         output,
         where,
         extended,
+<<<<<<< HEAD
         percentile=percentile,
         no_header=no_header,
         fs=separator,
         zones=zones,
         rast_region=rast_region,
         region_relation=region_relation,
+=======
+        no_header=no_header,
+        fs=separator,
+        rast_region=rast_region,
+        zones=zones,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         nprocs=nprocs,
     )
 
