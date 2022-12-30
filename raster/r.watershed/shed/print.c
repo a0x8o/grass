@@ -123,6 +123,7 @@ int print_output(OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -938,7 +939,12 @@ int print_output(OUTPUT *output)
 =======
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
                     snprintf(area, sizeof(area), "%.3f acres",
                              METERSQ_TO_ACRE * cell_size * do_cat->num_cat);
                     break;
@@ -960,6 +966,7 @@ int print_output(OUTPUT *output)
                     break;
                 case 6:
                     snprintf(area, sizeof(area), "%6d cells", do_cat->num_cat);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1074,6 +1081,8 @@ int print_output(OUTPUT *output)
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -2335,7 +2344,35 @@ int print_output(OUTPUT *output)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+                    sprintf(area, "%.3f acres",
+                            METERSQ_TO_ACRE * cell_size * do_cat->num_cat);
+                    break;
+                case 2:
+                    sprintf(area, "%.2f sq. meters",
+                            cell_size * do_cat->num_cat);
+                    break;
+                case 3:
+                    sprintf(area, "%.4f sq. miles",
+                            METERSQ_TO_MILESQ * cell_size * do_cat->num_cat);
+                    break;
+                case 4:
+                    sprintf(area, "%.3f hectacres",
+                            METERSQ_TO_HECTACRE * cell_size * do_cat->num_cat);
+                    break;
+                case 5:
+                    sprintf(area, "%.3f sq. km.",
+                            METERSQ_TO_KILOSQ * cell_size * do_cat->num_cat);
+                    break;
+                case 6:
+                    sprintf(area, "%6d cells", do_cat->num_cat);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
                     break;
                 }
                 fprintf(output->out_file, "%3d %-43s %16s %-.4f\n",
