@@ -345,6 +345,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "The proxy will be ignored by the chosen GRASS driver. It is only used with the GDAL driver."
 =======
 <<<<<<< HEAD
@@ -769,8 +770,12 @@ def main():
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
                         "The proxy will be ignored by the chosen GRASS driver. It is only used with the GDAL driver."
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -835,8 +840,17 @@ def main():
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
                         "The proxy will be ignored by the chosen GRASS driver. It is "
                         "only used with the GDAL driver."
 =======
@@ -918,6 +932,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1010,6 +1025,8 @@ def main():
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1042,6 +1059,8 @@ def main():
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
                         "The proxy will be ignored by the chosen GRASS driver. It is only used with the GDAL driver."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1281,14 +1300,19 @@ def main():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1562,6 +1586,9 @@ def main():
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
                     )
                 )
 

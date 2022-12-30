@@ -5482,6 +5482,7 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -5614,6 +5615,10 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 4dd6d0bd5b (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -6396,6 +6401,10 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 =======
     stored in https://grass.osgeo.org/grass80/binary/linux/snapshot/transifex/
      --> cronjob (on grasslxd container): /home/neteler/cronjobs/cron_grass8_HEAD_build_bins.sh
+=======
+    stored in https://grass.osgeo.org/grass-devel/binary/linux/snapshot/transifex/
+     --> cronjob (on grasslxd container): /home/neteler/cronjobs/cron_grass8_main_src_snapshot.sh
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 
 [2] Transifex job copies daily from [1] to here: 
 >>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -7325,10 +7334,20 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 =======
 [4] Updated po files are taken from Transifex and merged into GRASS GIS source repo 
     (MO files are generated when compiling GRASS GIS)
+<<<<<<< HEAD
     Script: https://github.com/OSGeo/grass-addons/blob/master/tools/transifex_merge.sh
 >>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 795aee5c6f (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+    Script: https://github.com/OSGeo/grass-addons/blob/grass8/utils/transifex_merge.sh
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
 
     # trim disconnected=obsolete translations
     POFILE=grassYXZ_LANG.po

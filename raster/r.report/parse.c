@@ -416,6 +416,10 @@ int parse_command_line(int argc, char *argv[])
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 95128cd1b3 (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
 =======
@@ -1443,8 +1447,18 @@ int parse_command_line(int argc, char *argv[])
 =======
 =======
 >>>>>>> 85cdcccc73 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> 95128cd1b3 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> d90c40bd96 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
                "miles;%s;meters;%s;kilometers;%s;acres;%s;hectares;%s;cells;%s;"
                "percent;%s",
                _("area in square miles"), _("area in square meters"),
@@ -1459,6 +1473,9 @@ int parse_command_line(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 =======
@@ -2339,9 +2356,13 @@ int parse_command_line(int argc, char *argv[])
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
     parms.units->descriptions = desc;
     parms.units->options =
         "miles,meters,kilometers,acres,hectares,cells,percent";
@@ -2752,6 +2773,7 @@ int parse_command_line(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2886,6 +2908,8 @@ int parse_command_line(int argc, char *argv[])
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2950,6 +2974,8 @@ int parse_command_line(int argc, char *argv[])
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3964,8 +3990,16 @@ int parse_command_line(int argc, char *argv[])
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 85cdcccc73 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> 95128cd1b3 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> d90c40bd96 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
     parms.units->answer = "cells,percent";
     parms.units->guisection = _("Statistics");
 
@@ -4157,6 +4191,7 @@ int parse_units(char *s)
     else if (match(s, "acres", 1))
         x = ACRES;
     else if (match(s, "hectares", 1))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4472,6 +4507,8 @@ int parse_units(char *s)
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 004496fb45 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7c50c23a6b (r.report: add default units, change to full unit names (#1666))
 >>>>>>> aa6627647b (r.report: add default units, change to full unit names (#1666))
@@ -4881,6 +4918,8 @@ int parse_units(char *s)
 =======
 >>>>>>> 2c11d30dc6 (r.report: add default units, change to full unit names (#1666))
 =======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -4981,8 +5020,16 @@ int parse_units(char *s)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 9e11460799 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> 2c11d30dc6 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> 004496fb45 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
         x = HECTARES;
     else if (match(s, "cells", 1))
         x = CELL_COUNTS;
@@ -5352,6 +5399,7 @@ int parse_units(char *s)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5496,6 +5544,8 @@ int parse_units(char *s)
 =======
 >>>>>>> 004496fb45 (r.report: add default units, change to full unit names (#1666))
 =======
+>>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5563,14 +5613,19 @@ int parse_units(char *s)
 =======
 >>>>>>> 2c11d30dc6 (r.report: add default units, change to full unit names (#1666))
 =======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
         x = HECTARES;
     else if (match(s, "cells", 1))
         x = CELL_COUNTS;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5777,6 +5832,8 @@ int parse_units(char *s)
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5841,6 +5898,8 @@ int parse_units(char *s)
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6239,6 +6298,7 @@ int parse_units(char *s)
 >>>>>>> 9e11460799 (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2c11d30dc6 (r.report: add default units, change to full unit names (#1666))
 <<<<<<< HEAD
 >>>>>>> 51375b865a (r.report: add default units, change to full unit names (#1666))
@@ -6565,6 +6625,13 @@ int parse_units(char *s)
 =======
 >>>>>>> 2c11d30dc6 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 004496fb45 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 2c11d30dc6 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
     else if (match(s, "percent_cover", 1))
         x = PERCENT_COVER;
     else {
