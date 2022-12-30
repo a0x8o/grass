@@ -4587,6 +4587,7 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4795,6 +4796,8 @@ def nprocs_plot(results, filename=None):
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 341119ec87 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5211,12 +5214,16 @@ def nprocs_plot(results, filename=None):
 =======
 >>>>>>> 83892d4f00 (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 885cbae99b (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+=======
+>>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5421,6 +5428,8 @@ def nprocs_plot(results, filename=None):
 =======
 >>>>>>> 83892d4f00 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 341119ec87 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
     else:
         from matplotlib.ticker import (  # pylint: disable=import-outside-toplevel
             MaxNLocator,
