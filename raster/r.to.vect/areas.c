@@ -103,18 +103,27 @@ static int nabors(void);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     Rast_get_d_value(G_incr_void_ptr(ptr, (col) * data_size), data_type)
 =======
     Rast_get_d_value(G_incr_void_ptr(ptr, (col)*data_size), data_type)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     Rast_get_d_value(G_incr_void_ptr(ptr, (col)*data_size), data_type)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    Rast_get_d_value(G_incr_void_ptr(ptr, (col)*data_size), data_type)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
 /* extract_areas - trace boundaries of polygons in file */
 

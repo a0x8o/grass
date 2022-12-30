@@ -8,8 +8,11 @@ import grass.script as gs
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 from grass.pygrass.modules.grid import GridModule
 
 xfail_mp_spawn = pytest.mark.xfail(
@@ -21,10 +24,15 @@ xfail_mp_spawn = pytest.mark.xfail(
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
 
 def max_processes():
@@ -45,17 +53,25 @@ def run_in_subprocess(function):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 @xfail_mp_spawn
 @pytest.mark.needs_solo_run
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("processes", list(range(1, max_processes() + 1)) + [None])
 def test_processes(tmp_path, processes):
     """Check that running with multiple processes works"""
@@ -71,24 +87,36 @@ def test_processes(tmp_path, processes):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             # modules/shortcuts calls get_commands which requires GISBASE.
             # pylint: disable=import-outside-toplevel
             from grass.pygrass.modules.grid import GridModule
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             grid = GridModule(
                 "r.slope.aspect",
                 width=10,
@@ -113,16 +141,22 @@ def test_processes(tmp_path, processes):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 @xfail_mp_spawn
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 @xfail_mp_spawn
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("width", [5, 10, 50])  # None does not work.
 @pytest.mark.parametrize("height", [5, 10, 50])
 def test_tiling_schemes(tmp_path, width, height):
@@ -139,24 +173,36 @@ def test_tiling_schemes(tmp_path, width, height):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             # modules/shortcuts calls get_commands which requires GISBASE.
             # pylint: disable=import-outside-toplevel
             from grass.pygrass.modules.grid import GridModule
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             grid = GridModule(
                 "r.slope.aspect",
                 width=width,
@@ -178,16 +224,22 @@ def test_tiling_schemes(tmp_path, width, height):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 @xfail_mp_spawn
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 @xfail_mp_spawn
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("overlap", [0, 1, 2, 5])
 def test_overlaps(tmp_path, overlap):
     """Check that overlap accepts different values"""
@@ -202,24 +254,36 @@ def test_overlaps(tmp_path, overlap):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             # modules/shortcuts calls get_commands which requires GISBASE.
             # pylint: disable=import-outside-toplevel
             from grass.pygrass.modules.grid import GridModule
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             grid = GridModule(
                 "r.slope.aspect",
                 width=10,
@@ -241,16 +305,22 @@ def test_overlaps(tmp_path, overlap):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 @xfail_mp_spawn
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 @xfail_mp_spawn
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("clean", [True, False])
 @pytest.mark.parametrize("surface", ["surface", "non_exist_surface"])
 def test_cleans(tmp_path, clean, surface):
@@ -267,24 +337,36 @@ def test_cleans(tmp_path, clean, surface):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             # modules/shortcuts calls get_commands which requires GISBASE.
             # pylint: disable=import-outside-toplevel
             from grass.pygrass.modules.grid import GridModule
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             grid = GridModule(
                 "r.slope.aspect",
                 width=10,
@@ -317,16 +399,22 @@ def test_cleans(tmp_path, clean, surface):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 @xfail_mp_spawn
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 @xfail_mp_spawn
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("patch_backend", [None, "r.patch", "RasterRow"])
 def test_patching_backend(tmp_path, patch_backend):
     """Check patching backend works"""
@@ -346,24 +434,36 @@ def test_patching_backend(tmp_path, patch_backend):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             # modules/shortcuts calls get_commands which requires GISBASE.
             # pylint: disable=import-outside-toplevel
             from grass.pygrass.modules.grid import GridModule
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             grid = GridModule(
                 "v.to.rast",
                 width=10,
@@ -388,8 +488,11 @@ def test_patching_backend(tmp_path, patch_backend):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 @xfail_mp_spawn
 @pytest.mark.parametrize(
     ("width", "height", "processes"),
@@ -398,12 +501,18 @@ def test_patching_backend(tmp_path, patch_backend):
     "width, height, processes",
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 @pytest.mark.parametrize(
     "width, height, processes",
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     [
         (None, None, max_processes()),
         (10, None, max_processes()),
@@ -424,24 +533,36 @@ def test_tiling(tmp_path, width, height, processes):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             # modules/shortcuts calls get_commands which requires GISBASE.
             # pylint: disable=import-outside-toplevel
             from grass.pygrass.modules.grid import GridModule
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             grid = GridModule(
                 "r.slope.aspect",
                 width=width,
@@ -458,6 +579,7 @@ def test_tiling(tmp_path, width, height, processes):
 
         info = gs.raster_info("slope")
         assert info["min"] > 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -916,6 +1038,8 @@ def test_tiling(tmp_path, width, height, processes):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
 
 @xfail_mp_spawn
@@ -1216,6 +1340,7 @@ def test_patching_error(tmp_path, processes, backend):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -1510,3 +1635,7 @@ def test_patching_error(tmp_path, processes, backend):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))

@@ -135,6 +135,7 @@ int btree_update(BTREE *B, const void *key, int keylen, const void *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -766,6 +767,8 @@ int btree_update(BTREE *B, const void *key, int keylen, const void *data,
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     int (*cmp)(const void *, const void *);
 =======
 <<<<<<< HEAD
@@ -1012,6 +1015,7 @@ int btree_update(BTREE *B, const void *key, int keylen, const void *data,
 =======
     int (*cmp)();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1947,6 +1951,11 @@ int btree_update(BTREE *B, const void *key, int keylen, const void *data,
     int (*cmp)();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    int (*cmp)();
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     int dir;
 
     /* first node is special case */

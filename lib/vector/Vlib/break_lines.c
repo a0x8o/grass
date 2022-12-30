@@ -282,6 +282,7 @@ int break_lines(struct Map_info *Map, struct ilist *List_break,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * and occasionaly skips such cases. This is currently done for 2D only
 =======
 <<<<<<< HEAD
@@ -680,6 +681,8 @@ int break_lines(struct Map_info *Map, struct ilist *List_break,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
      * and occasionally skips such cases. This is currently done for 2D only
 =======
      * and occasionaly skips such cases. This is currently done for 2D only
@@ -963,6 +966,7 @@ int break_lines(struct Map_info *Map, struct ilist *List_break,
      * and occasionaly skips such cases. This is currently done for 2D only
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -1283,6 +1287,11 @@ int break_lines(struct Map_info *Map, struct ilist *List_break,
      * and occasionaly skips such cases. This is currently done for 2D only
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+     * and occasionaly skips such cases. This is currently done for 2D only
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
      */
 
     /* Go through all lines in vector, for each select lines which overlap MBR
@@ -1644,18 +1653,27 @@ int break_lines(struct Map_info *Map, struct ilist *List_break,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     } /* for each line */
 =======
     }                             /* for each line */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     }                             /* for each line */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    }                             /* for each line */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     G_percent(nlines, nlines, 1); /* finish it */
 
     G_verbose_message(_("Intersections: %d"), nbreaks);

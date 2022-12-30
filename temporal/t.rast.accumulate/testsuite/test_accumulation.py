@@ -97,8 +97,11 @@ class TestAccumulate(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         cls.runModule("t.remove", flags="df", type="strds", inputs="A,Lower,Upper")
 =======
         cls.runModule("t.remove", flags="df", type="strds", inputs="A")
@@ -106,13 +109,19 @@ class TestAccumulate(TestCase):
         cls.runModule("t.remove", flags="df", type="strds", inputs="Upper")
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
         cls.runModule("t.remove", flags="df", type="strds", inputs="A")
         cls.runModule("t.remove", flags="df", type="strds", inputs="Lower")
         cls.runModule("t.remove", flags="df", type="strds", inputs="Upper")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         cls.del_temp_region()
 
     def tearDown(self):

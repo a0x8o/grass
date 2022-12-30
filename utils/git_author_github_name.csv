@@ -3,10 +3,13 @@ git_author,github_name
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1cb47465f (contributing: Add more known authors to release notes (#3795))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 Alberto Paradís Llop <albertoparadisllop gmail.com>,albertoparadisllop
 Alessandro Frigeri <alessandro.frigeri gmail.com>,afrigeri
 Alexandre Detiste <alexandre.detiste gmail.com>,a-detiste
@@ -38,6 +41,7 @@ ymdatta <ymdatta.work gmail.com>,ymdatta
 積丹尼 Dan Jacobson <jidanni jidanni.org>,jidanni
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -69,6 +73,10 @@ ymdatta <ymdatta.work gmail.com>,ymdatta
 積丹尼 Dan Jacobson <jidanni jidanni.org>,jidanni
 >>>>>>> d1cb47465f (contributing: Add more known authors to release notes (#3795))
 =======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 Jürgen Fischer <jef norbit.de>,jef-n
 Owen Smith <ocsmit protonmail.com>,ocsmit
 Nicklas Larsson <n_larsson yahoo.com>,nilason
@@ -83,5 +91,11 @@ Yann Chemin <ychemin gmail.com>,YannChemin
 Alberto Paradís Llop <albertoparadisllop gmail.com>,albertoparadisllop
 Andrea Giudiceandrea <andreaerdna libero.it>,agiudiceandrea
 Maximilian Stahlberg <viech unvanquished.net>,Viech
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))

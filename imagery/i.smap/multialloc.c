@@ -40,18 +40,27 @@ char *multialloc(size_t s, /* individual array element size */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         r[0] = (char *)G_malloc(max * sizeof(char *));
 =======
         r[0] = (char *)G_malloc(max * sizeof(char **));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         r[0] = (char *)G_malloc(max * sizeof(char **));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        r[0] = (char *)G_malloc(max * sizeof(char **));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         r = (char **)r[0]; /* step through to beginning of next
                             * dimension array */
     }

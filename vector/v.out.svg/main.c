@@ -28,18 +28,27 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 #define GRASS_NS     "http://grass.itc.it/2006/gg"
 =======
 #define GRASS_NS     "http:/grass.itc.it/2006/gg"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #define GRASS_NS     "http:/grass.itc.it/2006/gg"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+#define GRASS_NS     "http:/grass.itc.it/2006/gg"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 #define RADIUS_SCALE .003
 #define WIDTH_SCALE  .001
 #define G_Areas      "G_Areas"

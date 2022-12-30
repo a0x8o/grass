@@ -108,6 +108,7 @@ static int copy_nodes(struct Map_info *, struct Map_info *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -504,6 +505,8 @@ static int copy_nodes(struct Map_info *, struct Map_info *);
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 static int copy_line_nodes(struct Map_info *, int, int, struct line_pnts *,
                            struct Map_info *);
 static int is_isle(struct Map_info *, int);
@@ -769,6 +772,7 @@ static int is_isle(struct Map_info *, int);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -1063,6 +1067,10 @@ static int is_isle(struct Map_info *, int);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 static int copy_line_nodes(const struct Map_info *, int, int,
                            struct line_pnts *, struct Map_info *);
 static int is_isle(const struct Map_info *, int);
@@ -1103,17 +1111,25 @@ int Vect_copy_map_lines_field(struct Map_info *In, int field,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     const char *geometry_type = NULL;
     const char *map_name = NULL;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
     if (Vect_level(In) < 1)
         G_fatal_error(
@@ -1180,8 +1196,11 @@ int Vect_copy_map_lines_field(struct Map_info *In, int field,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                       map_name);
             G_free((void *)map_name);
         }
@@ -1196,6 +1215,9 @@ int Vect_copy_map_lines_field(struct Map_info *In, int field,
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
                       Vect_get_full_name(In));
 
@@ -1203,8 +1225,11 @@ int Vect_copy_map_lines_field(struct Map_info *In, int field,
     }
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     return ret > 0 ? 1 : 0;
 }
 
@@ -1224,16 +1249,22 @@ int copy_lines_1(struct Map_info *In, int field, struct Map_info *Out)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     const char *map_name = NULL;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     const char *map_name = NULL;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
     struct line_pnts *Points;
     struct line_cats *Cats;
@@ -1296,16 +1327,22 @@ int copy_lines_2(struct Map_info *In, int field, int topo, struct Map_info *Out)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     const char *map_name = NULL;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     const char *map_name = NULL;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
     Points = Vect_new_line_struct();
     CPoints = Vect_new_line_struct();
@@ -1463,18 +1500,27 @@ int copy_lines_2(struct Map_info *In, int field, int topo, struct Map_info *Out)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 free_exit:
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     Vect_destroy_line_struct(Points);
     Vect_destroy_line_struct(CPoints);
     Vect_destroy_line_struct(NPoints);
@@ -1495,6 +1541,7 @@ free_exit:
    \return 0 on success
    \return 1 on error
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1828,6 +1875,8 @@ free_exit:
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 int copy_nodes(struct Map_info *In, struct Map_info *Out)
 =======
 =======
@@ -1989,6 +2038,7 @@ int copy_nodes(struct Map_info *In, struct Map_info *Out)
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -2286,6 +2336,10 @@ int copy_nodes(struct Map_info *In, struct Map_info *Out)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 int copy_nodes(const struct Map_info *In, struct Map_info *Out)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -2410,6 +2464,7 @@ int copy_line_nodes(struct Map_info *In, int node, int with_z,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2681,6 +2736,8 @@ int copy_line_nodes(struct Map_info *In, int node, int with_z,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 int is_isle(struct Map_info *Map, int area)
 =======
 =======
@@ -2842,6 +2899,7 @@ int is_isle(struct Map_info *Map, int area)
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -3139,6 +3197,10 @@ int is_isle(struct Map_info *Map, int area)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 int is_isle(const struct Map_info *Map, int area)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -3242,6 +3304,7 @@ int is_isle(const struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3513,6 +3576,8 @@ int is_isle(const struct Map_info *Map, int area)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 int Vect__copy_areas(struct Map_info *In, int field, struct Map_info *Out)
 =======
 =======
@@ -3674,6 +3739,7 @@ int Vect__copy_areas(struct Map_info *In, int field, struct Map_info *Out)
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -3971,6 +4037,10 @@ int Vect__copy_areas(struct Map_info *In, int field, struct Map_info *Out)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 int Vect__copy_areas(const struct Map_info *In, int field, struct Map_info *Out)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -4164,6 +4234,7 @@ free_exit:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
 =======
 <<<<<<< HEAD
@@ -4562,6 +4633,8 @@ int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 int Vect_copy_tables(struct Map_info *In, struct Map_info *Out, int field)
 =======
 int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
@@ -4845,6 +4918,7 @@ int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
 int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -5165,6 +5239,11 @@ int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
 int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 {
     int i, n, type;
     struct field_info *Fi;
@@ -5195,8 +5274,11 @@ int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             map_name = Vect_get_full_name(In);
             G_warning(
                 _("Unable to copy table <%s> for layer %d from <%s> to <%s>"),
@@ -5208,10 +5290,15 @@ int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
         Vect_destroy_field_info(Fi);
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
             G_warning(
                 _("Unable to copy table <%s> for layer %d from <%s> to <%s>"),
@@ -5221,12 +5308,18 @@ int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     }
     return 0;
 }
@@ -5313,6 +5406,7 @@ int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_copy_table(const struct Map_info *In, struct Map_info *Out,
                     int field_in, int field_out, const char *field_name,
                     int type)
@@ -5626,6 +5720,8 @@ int Vect_copy_table(const struct Map_info *In, struct Map_info *Out,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 int Vect_copy_table(struct Map_info *In, struct Map_info *Out, int field_in,
                     int field_out, const char *field_name, int type)
 =======
@@ -6118,6 +6214,7 @@ int Vect_copy_table(const struct Map_info *In, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -6129,10 +6226,13 @@ int Vect_copy_table(const struct Map_info *In, struct Map_info *Out,
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
 int Vect_copy_table(const struct Map_info *In, struct Map_info *Out,
                     int field_in, int field_out, const char *field_name,
                     int type)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -6386,6 +6486,8 @@ int Vect_copy_table(const struct Map_info *In, struct Map_info *Out,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 {
     return Vect_copy_table_by_cats(In, Out, field_in, field_out, field_name,
                                    type, NULL, 0);
@@ -6477,6 +6579,7 @@ int Vect_copy_table(const struct Map_info *In, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_copy_table_by_cat_list(const struct Map_info *In, struct Map_info *Out,
 =======
 <<<<<<< HEAD
@@ -6875,6 +6978,8 @@ int Vect_copy_table_by_cat_list(const struct Map_info *In, struct Map_info *Out,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 int Vect_copy_table_by_cat_list(struct Map_info *In, struct Map_info *Out,
 =======
 int Vect_copy_table_by_cat_list(const struct Map_info *In, struct Map_info *Out,
@@ -7158,6 +7263,7 @@ int Vect_copy_table_by_cat_list(const struct Map_info *In, struct Map_info *Out,
 int Vect_copy_table_by_cat_list(const struct Map_info *In, struct Map_info *Out,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -7478,6 +7584,11 @@ int Vect_copy_table_by_cat_list(const struct Map_info *In, struct Map_info *Out,
 int Vect_copy_table_by_cat_list(const struct Map_info *In, struct Map_info *Out,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+int Vect_copy_table_by_cat_list(const struct Map_info *In, struct Map_info *Out,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                                 int field_in, int field_out,
                                 const char *field_name, int type,
                                 const struct cat_list *cat_list)
@@ -7575,24 +7686,34 @@ int Vect_copy_table_by_cats(struct Map_info *In, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         ret = -1;
         goto free_exit;
 =======
         return -1;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return -1;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        return -1;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* do not allow duplicate keys */
     if (db_create_index2(driver, Fin->table, Fi->key) != DB_OK) {
         G_warning(_("Unable to create index"));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7614,6 +7735,8 @@ int Vect_copy_table_by_cats(struct Map_info *In, struct Map_info *Out,
     if (db_grant_on_table(driver, Fin->table, DB_PRIV_SELECT,
                           DB_GROUP | DB_PUBLIC) != DB_OK) {
         G_warning(_("Unable to grant privileges on table <%s>"), Fin->table);
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7625,11 +7748,32 @@ int Vect_copy_table_by_cats(struct Map_info *In, struct Map_info *Out,
         return -1;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return -1;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        return -1;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    }
+
+    if (db_grant_on_table(driver, Fin->table, DB_PRIV_SELECT,
+                          DB_GROUP | DB_PUBLIC) != DB_OK) {
+        G_warning(_("Unable to grant privileges on table <%s>"), Fin->table);
+<<<<<<< HEAD
+<<<<<<< HEAD
+        ret = -1;
+        goto close_db_free_exit;
+=======
+        return -1;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return -1;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     }
 
 close_db_free_exit:

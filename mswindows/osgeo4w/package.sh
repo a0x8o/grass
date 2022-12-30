@@ -120,6 +120,7 @@ DLLS="
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -132,8 +133,12 @@ DLLS="
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 	/mingw64/bin/libblas.dll
 =======
@@ -1391,6 +1396,8 @@ DLLS="
   /mingw64/bin/libopenblas.dll
 =======
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 	/mingw64/bin/zlib1.dll
 	/mingw64/bin/libbz2-1.dll
 	/mingw64/bin/libiconv-2.dll
@@ -1419,9 +1426,18 @@ DLLS="
 	/mingw64/bin/liblapack.dll
 	/mingw64/bin/libomp.dll
 	/mingw64/bin/libquadmath-0.dll
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+<<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 "
 
 if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
@@ -1446,6 +1462,7 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		--bindir=$OSGEO4W_ROOT_MSYS/bin \
 =======
 =======
@@ -1461,8 +1478,12 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 		--prefix=$OSGEO4W_ROOT_MSYS/apps/grass \
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 		--bindir=$OSGEO4W_ROOT_MSYS/bin \
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 		--host=x86_64-w64-mingw32 \
 		--with-libs="$OSGEO4W_ROOT_MSYS/lib" \
 		--with-includes=$OSGEO4W_ROOT_MSYS/include \
@@ -1743,6 +1764,7 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 		--with-freetype \
 		--with-freetype-includes=/mingw64/include/freetype2 \
 <<<<<<< HEAD
+<<<<<<< HEAD
 		--with-gdal=$PWD/mswindows/osgeo4w/gdal-config \
 		--with-geos=$PWD/mswindows/osgeo4w/geos-config \
 		--with-includes=$OSGEO4W_ROOT_MSYS/include \
@@ -1759,6 +1781,11 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 		--with-proj-includes=$OSGEO4W_ROOT_MSYS/include \
 		--with-proj-libs=$OSGEO4W_ROOT_MSYS/lib \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+		--with-proj-share=$OSGEO4W_ROOT_MSYS/share/proj \
+		--with-proj-includes=$OSGEO4W_ROOT_MSYS/include \
+		--with-proj-libs=$OSGEO4W_ROOT_MSYS/lib \
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 		--with-postgres \
 		--with-postgres-includes=$OSGEO4W_ROOT_MSYS/include \
 		--with-postgres-libs=$PWD/mswindows/osgeo4w/lib \
@@ -2444,8 +2471,14 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 		--with-cairo-ldflags="-L$PWD/mswindows/osgeo4w/lib -lcairo -lfontconfig" \
 		--with-bzlib \
 		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
 	touch mswindows/osgeo4w/configure-stamp
 fi

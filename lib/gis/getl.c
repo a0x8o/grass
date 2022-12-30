@@ -58,12 +58,16 @@ int G_getl(char *buf, int n, FILE *fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
  *
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
  *
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> bf996cc7c7 (lib/gis: modernize getl2() (#3850))
 =======
@@ -71,6 +75,8 @@ int G_getl(char *buf, int n, FILE *fd)
  *
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
  * Reads in at most <i>n-1</i> characters from stream (the last spot
  * is reserved for the end-of-string NUL) and stores them into the
  * buffer pointed to by <i>buf</i>. Reading stops after an EOF or a
@@ -81,10 +87,13 @@ int G_getl(char *buf, int n, FILE *fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf996cc7c7 (lib/gis: modernize getl2() (#3850))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
  * \param buf: string buffer to receive read data, at least <i>n</i>
  *             bytes must be allocated
  * \param n: maximum number of bytes to read
@@ -99,15 +108,21 @@ int G_getl(char *buf, int n, FILE *fd)
  * descriptor structure
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
  * \param buf: string buffer to receive read data, at least <i>n</i> must be
  * allocated \param n: maximum number of bytes to read \param fd: file
  * descriptor structure
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> bf996cc7c7 (lib/gis: modernize getl2() (#3850))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
  *
  * \return 1 on success
  * \return 0 EOF
@@ -155,6 +170,7 @@ int G_getl2(char *buf, int n, FILE *fd)
         i++;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -165,6 +181,11 @@ int G_getl2(char *buf, int n, FILE *fd)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     if (fgets(buf, n, fd) == NULL) {

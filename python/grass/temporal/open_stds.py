@@ -65,14 +65,20 @@ def open_old_stds(name, type, dbif=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     elif type in {"str3ds", "raster3d", "rast3d", "raster_3d"}:
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     elif type in {"str3ds", "raster3d", "rast3d", "raster_3d"}:
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     elif (
         type == "str3ds"
         or type == "raster3d"

@@ -123,8 +123,11 @@ short color[3];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     }
     /* for any thresholds greater than last color table entry, use last entry *
      */
@@ -138,13 +141,19 @@ short color[3];
     /* for any thresholds greater than last color table entry, use last entry *
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
     }
     /* for any thresholds greater than last color table entry, use last entry *
      */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     color[0] = color2[0];
     color[1] = color2[1];
     color[2] = color2[2];

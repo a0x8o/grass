@@ -143,8 +143,11 @@ void G_setup_fill(int gap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 #define X(e)     (st->left + st->xconv * ((e) - st->window.west))
 #define Y(n)     (st->top + st->yconv * (st->window.north - (n)))
 
@@ -152,10 +155,15 @@ void G_setup_fill(int gap)
 #define NORTH(y) (st->window.north - ((y) - st->top) / st->yconv)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 #define X(e)     (st->left + st->xconv * ((e)-st->window.west))
 #define Y(n)     (st->top + st->yconv * (st->window.north - (n)))
 
@@ -163,12 +171,18 @@ void G_setup_fill(int gap)
 #define NORTH(y) (st->window.north - ((y)-st->top) / st->yconv)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
 /*!
  * \brief Converts east,north to x,y

@@ -68,6 +68,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void copy_tabs(const struct Map_info *, int, int, struct Map_info *);
 =======
 <<<<<<< HEAD
@@ -466,6 +467,8 @@ void copy_tabs(const struct Map_info *, int, int, struct Map_info *);
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 void copy_tabs(struct Map_info *, int, int, struct Map_info *);
 =======
 void copy_tabs(const struct Map_info *, int, int, struct Map_info *);
@@ -749,6 +752,7 @@ void copy_tabs(const struct Map_info *, int, int, struct Map_info *);
 void copy_tabs(const struct Map_info *, int, int, struct Map_info *);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -1069,6 +1073,11 @@ void copy_tabs(const struct Map_info *, int, int, struct Map_info *);
 void copy_tabs(const struct Map_info *, int, int, struct Map_info *);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+void copy_tabs(const struct Map_info *, int, int, struct Map_info *);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
 /* extract.c */
 int cmp(const void *, const void *);

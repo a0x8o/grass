@@ -44,12 +44,16 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             *units, *format;
 =======
             *units;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             *units;
@@ -59,6 +63,11 @@ int main(int argc, char *argv[])
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+            *units;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         struct Flag *g, *c, *m;
     } parm;
     struct GModule *module;
@@ -121,6 +130,7 @@ int main(int argc, char *argv[])
     parm.units->options = "meters,kilometers,feet,miles";
     parm.units->label = parm.units->description;
     parm.units->description =
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -590,6 +600,8 @@ int main(int argc, char *argv[])
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         _("If units are not specified, current project units are used. "
           "Meters are used by default in geographic (latlon) projects.");
 =======
@@ -1002,6 +1014,7 @@ int main(int argc, char *argv[])
           "Meters are used by default in geographic (latlon) locations.");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
         _("If units are not specified, current location units are used. "
@@ -1122,6 +1135,11 @@ int main(int argc, char *argv[])
           "Meters are used by default in geographic (latlon) locations.");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+        _("If units are not specified, current location units are used. "
+          "Meters are used by default in geographic (latlon) locations.");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
     if (G_parser(argc, argv))
         exit(EXIT_FAILURE);
@@ -1169,6 +1187,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 
     if (strcmp(parm.format->answer, "json") == 0) {
@@ -1184,6 +1203,8 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     if (strcmp(parm.format->answer, "json") == 0) {
@@ -1195,6 +1216,8 @@ int main(int argc, char *argv[])
         format = PLAIN;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
     G_message(_("Using resolution: %g [%s]"), res / factor, unit);
@@ -1292,12 +1315,16 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                            null_string, unit, factor, format, name, array);
 =======
                            null_string, unit, factor);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                            null_string, unit, factor);
@@ -1307,6 +1334,11 @@ int main(int argc, char *argv[])
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                           null_string, unit, factor);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             e1 = e2;
             n1 = n2;
             havefirst = TRUE;
@@ -1335,12 +1367,16 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                        null_string, unit, factor, format, name, array);
 =======
                        null_string, unit, factor);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                        null_string, unit, factor);
@@ -1350,6 +1386,11 @@ int main(int argc, char *argv[])
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                       null_string, unit, factor);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         }
         else {
             for (i = 0; i <= k - 2; i += 2) {
@@ -1367,8 +1408,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                            null_string, unit, factor, format, name, array);
             }
         }
@@ -1396,6 +1440,7 @@ int main(int argc, char *argv[])
             }
         }
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
     }
 
     if (format == JSON) {
@@ -1411,6 +1456,8 @@ int main(int argc, char *argv[])
         }
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     Rast_close(fd);
@@ -1430,13 +1477,17 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                const char *unit, double factor, enum OutputFormat format,
                char *name, JSON_Array *array)
 =======
                const char *unit, double factor)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                const char *unit, double factor)
@@ -1447,6 +1498,11 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+               const char *unit, double factor)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 {
     double rows, cols, LEN;
     double Y, X, k;
@@ -1470,13 +1526,17 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         read_rast(e, n, dist / factor, fd, coords, data_type, fp, null_string,
                   format, name, array);
 =======
         read_rast(e, n, dist / factor, fd, coords, data_type, fp, null_string);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         read_rast(e, n, dist / factor, fd, coords, data_type, fp, null_string);
@@ -1487,6 +1547,11 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        read_rast(e, n, dist / factor, fd, coords, data_type, fp, null_string);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     k = res / hypot(rows, cols);
@@ -1509,12 +1574,16 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                       null_string, format, name, array);
 =======
                       null_string);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                       null_string);
@@ -1524,6 +1593,11 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                      null_string);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             /* d+=res; */
             dist += G_distance(e - X, n + Y, e, n);
         }
@@ -1537,12 +1611,16 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                       null_string, format, name, array);
 =======
                       null_string);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                       null_string);
@@ -1552,6 +1630,11 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                      null_string);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             /* d+=res; */
             dist += G_distance(e - X, n - Y, e, n);
         }
@@ -1565,12 +1648,16 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                       null_string, format, name, array);
 =======
                       null_string);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                       null_string);
@@ -1580,6 +1667,11 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                      null_string);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             /* d+=res; */
             dist += G_distance(e + X, n + Y, e, n);
         }
@@ -1593,12 +1685,16 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                       null_string, format, name, array);
 =======
                       null_string);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                       null_string);
@@ -1608,6 +1704,11 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                      null_string);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             /* d+=res; */
             dist += G_distance(e + X, n - Y, e, n);
         }

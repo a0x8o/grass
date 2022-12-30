@@ -138,6 +138,7 @@ int close_input_raster3d_map(RASTER3D_Map *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Close alls open raster and 3d raster maps and free memory
 =======
 <<<<<<< HEAD
@@ -536,6 +537,8 @@ int close_input_raster3d_map(RASTER3D_Map *map)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 /* Close all open raster and 3d raster maps and free memory
 =======
 /* Close alls open raster and 3d raster maps and free memory
@@ -819,6 +822,7 @@ int close_input_raster3d_map(RASTER3D_Map *map)
 /* Close alls open raster and 3d raster maps and free memory
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -1139,6 +1143,11 @@ int close_input_raster3d_map(RASTER3D_Map *map)
 /* Close alls open raster and 3d raster maps and free memory
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+/* Close alls open raster and 3d raster maps and free memory
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
  * ********************* */
 /* ************************************************************************* */
 void release_input_maps_struct(input_maps *in)

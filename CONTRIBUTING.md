@@ -191,6 +191,7 @@ You can use your favorite tools to change source code or other files
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -524,6 +525,8 @@ You can use your favorite tools to change source code or other files
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 in the local copy of the code. When making changes, please follow the
 [Programming Style Guide](./doc/development/style_guide.md).
 <<<<<<< HEAD
@@ -1423,6 +1426,8 @@ to your code.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 in the local copy of the code. When making changes, please follow
 Submitting Guidelines at
 <http://trac.osgeo.org/grass/wiki/Submitting>.
@@ -1600,6 +1605,7 @@ For Python, run `black .` to apply standardized formatting. You can
 also run linter tools such as Pylint which will suggest different improvements
 to your code.
 
+<<<<<<< HEAD
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1669,6 +1675,29 @@ to your code.
 =======
 
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+### Testing changes
+
+Testing helps to ensure that the changes work well with the rest
+of the project. While there are many different ways to test,
+usually you will want to compile the source code (see below),
+add test code (using _grass.gunittest_ or pytest), and run code
+linters (automated code quality checks).
+
+There is a series of automated checks which will run on your pull request
+after you create one. You don't need to run all these
+checks locally and, indeed, some of them may fail for your code. This is a part of
+the standard iterative process of integrating changes into the main code,
+so if that happens, just see the error messages, go back to your code
+and try again. If you are not sure what to do, let others know in a pull
+request comment.
+
+Note that there are some steps you can do locally to improve your code.
+For Python, run `black .` to apply standardized formatting. You can
+also run linter tools such as Pylint which will suggest different improvements
+to your code.
+
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 ### Committing
 
 * Add files to the commit (changed ones or new ones):
@@ -1737,11 +1766,15 @@ above. These are detailed at <https://trac.osgeo.org/grass/wiki/HowToGit>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
@@ -1789,6 +1822,8 @@ above. These are detailed at <https://trac.osgeo.org/grass/wiki/HowToGit>
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 ## Compilation
 
 More often than not, in order to test the changes, you need to create

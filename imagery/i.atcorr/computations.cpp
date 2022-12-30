@@ -105,18 +105,27 @@ double trunca()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         k = i;
 =======
         k = i - 1;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         k = i - 1;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        k = i - 1;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     int kk = 0;
@@ -126,18 +135,27 @@ double trunca()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         kk = i;
 =======
         kk = i - 1;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         kk = i - 1;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        kk = i - 1;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     double aa =
@@ -149,18 +167,27 @@ double trunca()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     for (i = kk; i < 83; i++) {
 =======
     for (i = kk + 1; i < 83; i++) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     for (i = kk + 1; i < 83; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    for (i = kk + 1; i < 83; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         double a;
         if (fabs(rmu[i] - 1) <= 1e-08)
             a = x1 - aa * x2;
@@ -490,8 +517,11 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         for (int i = 0; i <= ntp; i++) {
             if (taup >= h[i])
                 iplane = i;
@@ -506,13 +536,19 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
                 iplane = i;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
         for (int i = 0; i <= ntp; i++)
             if (taup >= h[i])
                 iplane = i;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
         /* update the layer from the end to the position to update if necessary
          */
@@ -679,6 +715,7 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1148,6 +1185,8 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         /* inm2 is initialized with scattering computed at n-2
            i3 is initialized with primary scattering */
 =======
@@ -1557,14 +1596,18 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
         /* inm2 is inialized with scattering computed at n-2
            i3 is inialized with primary scattering */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1811,6 +1854,8 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         for (k = -mu; k <= mu; k++) {
             if (k < 0) {
                 inm1[STDI(k)] = i1[snt][STDI(k)];
@@ -1951,6 +1996,7 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
             }
             roavion0 = i1[iplane][STDI(mu)];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2418,6 +2464,8 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             /*  convergence test (geometrical series) */
 =======
             /*  convergence test (geometrical serie) */
@@ -2701,6 +2749,7 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
             /*  convergence test (geometrical serie) */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -3021,6 +3070,11 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
             /*  convergence test (geometrical serie) */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+            /*  convergence test (geometrical serie) */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             if (ig > 2) {
                 double a1 = roavion2;
                 double d1 = roavion1;
@@ -3057,6 +3111,7 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
                 }
 
                 if (z < 0.0001) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3524,6 +3579,8 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                     /* successful test (geometrical series) */
 =======
                     /* successful test (geometrical serie) */
@@ -3807,6 +3864,7 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
                     /* successful test (geometrical serie) */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -4127,6 +4185,11 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
                     /* successful test (geometrical serie) */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                    /* successful test (geometrical serie) */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                     double y1;
 
                     for (int l = -mu; l <= mu; l++) {
@@ -4342,8 +4405,11 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         for (int i = 0; i <= ntp; i++) {
             if (taup >= h[i])
                 iplane = i;
@@ -4358,13 +4424,19 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
                 iplane = i;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
         for (int i = 0; i <= ntp; i++)
             if (taup >= h[i])
                 iplane = i;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
         /* update the layer from the end to the position to update if necessary
          */
@@ -4534,6 +4606,7 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -4758,11 +4831,14 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -5105,6 +5181,10 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     for (k = -mu; k <= mu; k++) {
         if (k == 0)
             continue;
@@ -5269,6 +5349,7 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* convergence test (geometrical serie) */
 =======
 <<<<<<< HEAD
@@ -5667,6 +5748,8 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         /* convergence test (geometrical series) */
 =======
         /* convergence test (geometrical serie) */
@@ -5950,6 +6033,7 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
         /* convergence test (geometrical serie) */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -6270,6 +6354,11 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
         /* convergence test (geometrical serie) */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        /* convergence test (geometrical serie) */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         if (ig > 2) {
             double z = 0;
             double a1 = tavion2;
@@ -6303,6 +6392,7 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
             }
 
             if (z < 0.0001) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6770,6 +6860,8 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                 /* successful test (geometrical series) */
 =======
                 /* successful test (geometrical serie) */
@@ -7053,6 +7145,7 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
                 /* successful test (geometrical serie) */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -7373,6 +7466,11 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
                 /* successful test (geometrical serie) */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                /* successful test (geometrical serie) */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
                 for (int l = -mu; l <= mu; l++) {
                     if (l == 0)
@@ -7532,6 +7630,7 @@ double chand(const double xtau, const GeomCond &geom)
   the computation of the aerosol reflectance and the mixed Rayleigh-aerosol
   reflectance. The polarization is addressed in computing the Rayleigh
   reflectance (Subroutine CHAND.f) by semi-empirical fitting of the vectorized
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7999,6 +8098,8 @@ double chand(const double xtau, const GeomCond &geom)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
   Successive Orders of Scattering method (Deuze et al, 1989).
 =======
   Successive Orders of Scattering method (Deuzé et al, 1989).
@@ -8282,6 +8383,7 @@ double chand(const double xtau, const GeomCond &geom)
   Successive Orders of Scattering method (Deuzé et al, 1989).
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -8602,6 +8704,11 @@ double chand(const double xtau, const GeomCond &geom)
   Successive Orders of Scattering method (Deuzé et al, 1989).
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+  Successive Orders of Scattering method (Deuzé et al, 1989).
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 */
 void atmref(const double tamoy, const double trmoy, const double pizmoy,
             const double tamoyp, const double trmoyp,

@@ -229,6 +229,7 @@ import xml.etree.ElementTree as etree
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -333,8 +334,19 @@ if sys.version_info.major == 3 and sys.version_info.minor < 8:
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+=======
+
+if sys.version_info.major == 3 and sys.version_info.minor < 8:
+    from distutils.dir_util import copy_tree
+else:
+    from functools import partial
+
+    copy_tree = partial(shutil.copytree, dirs_exist_ok=True)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 if sys.version_info.major == 3 and sys.version_info.minor < 8:
     from distutils.dir_util import copy_tree
@@ -1342,6 +1354,7 @@ from six.moves.urllib.parse import urlparse
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b2ab840ea4 (r.in.pdal: use fabs for double values (#1752))
@@ -1566,11 +1579,14 @@ from six.moves.urllib.parse import urlparse
 >>>>>>> 0cdf004d95 (r.in.pdal: use fabs for double values (#1752))
 <<<<<<< HEAD
 >>>>>>> 0cbfb74ba9 (r.in.pdal: use fabs for double values (#1752))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> aaa2e34005 (r.in.pdal: use fabs for double values (#1752))
 =======
@@ -1910,6 +1926,10 @@ from six.moves.urllib.parse import urlparse
 =======
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
 >>>>>>> a777ae5960 (r.in.pdal: use fabs for double values (#1752))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
 # Get the XML parsing exceptions to catch. The behavior changed with Python 2.7
 # and ElementTree 1.3.
@@ -4069,6 +4089,7 @@ HTTP_STATUS_CODES = list(http.HTTPStatus)
 GIT_URL = "https://github.com/OSGeo/grass-addons"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4172,7 +4193,12 @@ else:
 =======
 =======
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+<<<<<<< HEAD
 >>>>>>> a777ae5960 (r.in.pdal: use fabs for double values (#1752))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
 # MAKE command
 # GRASS Makefile are type of GNU Make and not BSD Make
@@ -4829,6 +4855,7 @@ def get_version_branch(major_version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5223,6 +5250,8 @@ def get_version_branch(major_version):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a777ae5960 (r.in.pdal: use fabs for double values (#1752))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     if sys.platform == "win32":
         return version_branch
 <<<<<<< HEAD
@@ -5507,6 +5536,7 @@ def get_version_branch(major_version):
 =======
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aaa2e34005 (r.in.pdal: use fabs for double values (#1752))
 =======
 =======
@@ -5799,6 +5829,10 @@ def get_version_branch(major_version):
 =======
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
 >>>>>>> a777ae5960 (r.in.pdal: use fabs for double values (#1752))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     try:
         urlrequest.urlopen(f"{GIT_URL}/tree/{version_branch}/src")
     except URLError:
@@ -6530,6 +6564,7 @@ def etree_fromurl(url):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gscript.fatal(
 =======
 <<<<<<< HEAD
@@ -6928,6 +6963,8 @@ def etree_fromurl(url):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         gs.fatal(
 =======
         gscript.fatal(
@@ -7300,8 +7337,12 @@ def etree_fromurl(url):
     return ET.fromstring(file_.read())
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         gscript.fatal(
 =======
@@ -7473,6 +7514,7 @@ def etree_fromurl(url):
 def check_progs():
     """Check if the necessary programs are available"""
     # git to be tested once supported instead of `svn`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7931,6 +7973,8 @@ def check_progs():
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     for prog in (MAKE, "gcc", "git"):
         if not gs.find_program(prog, "--help"):
             gs.fatal(_("'%s' required. Please install '%s' first.") % (prog, prog))
@@ -8196,6 +8240,7 @@ def check_progs():
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -8490,6 +8535,10 @@ def check_progs():
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     for prog in (MAKE, "gcc", "svn"):
         if not grass.find_program(prog, "--help"):
             grass.fatal(_("'%s' required. Please install '%s' first.") % (prog, prog))
@@ -12137,6 +12186,68 @@ def filter_multi_addon_addons(mlist):
     return mlist
 
 
+def get_multi_addon_addons_which_install_only_html_man_page():
+    """Get multi-addon addons which install only manual html page
+
+    :return list addons: list of multi-addon addons which install
+                         only manual html page
+    """
+    addons = []
+    all_addon_dirs = []
+    addon_dirs_with_source_module = []  # *.py, *.c file
+    addon_pattern = re.compile(r".*{}".format(options["extension"]))
+    addon_src_file_pattern = re.compile(r".*.py$|.*.c$")
+
+    addons_paths_file = os.path.join(
+        options["prefix"],
+        get_addons_paths.json_file,
+    )
+    if not os.path.exists(addons_paths_file):
+        get_addons_paths(gg_addons_base_dir=options["prefix"])
+    with open(addons_paths_file) as f:
+        addons_paths = json.loads(f.read())
+
+    for addon in addons_paths["tree"]:
+        if re.match(addon_pattern, addon["path"]) and addon["type"] == "blob":
+            if re.match(addon_src_file_pattern, addon["path"]):
+                # Add addon dirs which contains source module *.py, *.c file
+                addon_dirs_with_source_module.append(
+                    os.path.dirname(addon["path"]),
+                )
+        elif re.match(addon_pattern, addon["path"]) and addon["type"] == "tree":
+            # Add all addon dirs
+            all_addon_dirs.append(addon["path"])
+
+    for addon in set(all_addon_dirs) ^ set(addon_dirs_with_source_module):
+        addons.append(os.path.basename(addon))
+    return addons
+
+
+def filter_multi_addon_addons(mlist):
+    """Filter out list of multi-addon addons which contains
+    and installs only *.html manual page, without source/binary
+    excutable module and doesn't need to check metadata.
+
+    e.g. the i.sentinel multi-addon consists of several full i.sentinel.*
+    addons along with a i.sentinel.html overview file.
+
+
+    :param list mlist: list of multi-addons (groups of addons
+                       with respective addon overview HTML pages)
+
+    :return list mlist: list of individual multi-addons without respective
+                        addon overview HTML pages
+    """
+    # Filters out add-ons that only contain the *.html man page,
+    # e.g. multi-addon i.sentinel (root directory) contains only
+    # the *.html manual page for installation, it does not need
+    # to check if metadata is available if there is no executable module.
+    for addon in get_multi_addon_addons_which_install_only_html_man_page():
+        if addon in mlist:
+            mlist.pop(mlist.index(addon))
+    return mlist
+
+
 def install_module_xml(mlist):
     """Update XML files with metadata about installed modules and toolbox
     of an private addon
@@ -12151,6 +12262,7 @@ def install_module_xml(mlist):
     # read XML file
     tree = etree_fromfile(xml_file)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12609,6 +12721,8 @@ def install_module_xml(mlist):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     if sys.platform != "win32":
         # Filter multi-addon addons
         if len(mlist) > 1:
@@ -12877,6 +12991,7 @@ def install_module_xml(mlist):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -13171,11 +13286,16 @@ def install_module_xml(mlist):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     # Filter multi-addon addons
     if len(mlist) > 1:
         mlist = filter_multi_addon_addons(
             mlist.copy()
         )  # mlist.copy() keep the original list of add-ons
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13470,11 +13590,14 @@ def install_module_xml(mlist):
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -13817,6 +13940,10 @@ def install_module_xml(mlist):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
     # update tree
     for name in mlist:
@@ -13969,6 +14096,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -14193,11 +14321,14 @@ def install_extension_win(name):
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -14540,6 +14671,10 @@ def install_extension_win(name):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         _("Downloading precompiled GRASS Addons <{}>...").format(options["extension"])
     )
 
@@ -14608,6 +14743,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -14879,6 +15015,8 @@ def install_extension_win(name):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         f"grass{VERSION[0]}{VERSION[1]}/addons/"
         f"grass-{VERSION[0]}.{VERSION[1]}.{VERSION[2]}"
 =======
@@ -15038,6 +15176,7 @@ def install_extension_win(name):
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -15365,6 +15504,10 @@ def install_extension_win(name):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         "grass{major}{minor}/addons/"
         "grass-{major}.{minor}.{patch}".format(
             major=version[0], minor=version[1], patch=version[2]
@@ -15439,6 +15582,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -15663,11 +15807,14 @@ def install_extension_win(name):
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -16010,6 +16157,10 @@ def install_extension_win(name):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     )
 
     # resolve ZIP URL
@@ -17520,6 +17671,7 @@ def install_extension_std_platforms(name, source, url, branch):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -18188,6 +18340,8 @@ def install_extension_std_platforms(name, source, url, branch):
 >>>>>>> ffa3875a75 (g.extension: workaround to use grass7 addon repo (#1612))
 =======
 >>>>>>> a777ae5960 (r.in.pdal: use fabs for double values (#1752))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     path_to_src_code_message = _("Path to the source code:")
 =======
     source_url = "https://github.com/OSGeo/grass-addons/tree/master/grass8/"
@@ -18657,6 +18811,7 @@ def install_extension_std_platforms(name, source, url, branch):
 =======
 =======
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+<<<<<<< HEAD
 >>>>>>> 961d2e8d91 (r.in.pdal: use fabs for double values (#1752))
 <<<<<<< HEAD
 >>>>>>> 776bc11225 (r.in.pdal: use fabs for double values (#1752))
@@ -19248,6 +19403,10 @@ def install_extension_std_platforms(name, source, url, branch):
 =======
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
 >>>>>>> a777ae5960 (r.in.pdal: use fabs for double values (#1752))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
     # to hide non-error messages from subprocesses
     outdev = open(os.devnull, "w") if gs.verbosity() <= 2 else sys.stdout
@@ -19774,6 +19933,7 @@ def update_manual_page(module):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -20170,6 +20330,8 @@ def update_manual_page(module):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     if sys.platform != "win32":
         # Multi-addon
         if len(addons) > 1:
@@ -20438,6 +20600,7 @@ def update_manual_page(module):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -20732,11 +20895,16 @@ def update_manual_page(module):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     # Multi-addon
     if len(addons) > 1:
         for a in get_multi_addon_addons_which_install_only_html_man_page():
             # Add multi-addon addons which install only manual html page
             addons.append(a)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21031,11 +21199,14 @@ def update_manual_page(module):
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -21378,6 +21549,10 @@ def update_manual_page(module):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
     for match in re.finditer(pattern, shtml):
         if match.group(1)[:4] == "http":
@@ -21661,6 +21836,7 @@ def resolve_xmlurl_prefix(url, source=None):
 =======
 =======
     gscript.debug("resolve_xmlurl_prefix(url={0}, source={1})".format(url, source))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -22188,6 +22364,7 @@ def resolve_xmlurl_prefix(url, source=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> main
@@ -22341,11 +22518,15 @@ def resolve_xmlurl_prefix(url, source=None):
 =======
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     if source in ("official", "official_fork"):
         # use pregenerated modules XML file
         # Define branch to fetch from (latest or current version)
         version_branch = get_version_branch(version[0])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22681,6 +22862,8 @@ def resolve_xmlurl_prefix(url, source=None):
         version_branch = get_version_branch(version[0])
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
 >>>>>>> a777ae5960 (r.in.pdal: use fabs for double values (#1752))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
         url = "https://grass.osgeo.org/addons/{}/".format(version_branch)
     # else try to get extensions XMl from SVN repository (provided URL)
@@ -22760,18 +22943,27 @@ def resolve_known_host_service(url, name, branch):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a777ae5960 (r.in.pdal: use fabs for double values (#1752))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                 branch=branch or get_default_branch(url),
 =======
                 branch=branch if branch else get_default_branch(url),
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 branch=branch if branch else get_default_branch(url),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a777ae5960 (r.in.pdal: use fabs for double values (#1752))
+=======
+=======
+                branch=branch if branch else get_default_branch(url),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             )
         else:
             suffix = match["url_end"].format(name=name)
@@ -24121,6 +24313,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not url or url == GIT_URL:
 =======
         if not url:
@@ -24307,6 +24500,8 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         if not url or url == GIT_URL:
 =======
         if not url:
@@ -24318,6 +24513,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 =======
         if not url or url == GIT_URL:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -24619,6 +24815,11 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
         if not url or url == GIT_URL:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        if not url or url == GIT_URL:
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             # Set URL for the given GRASS version
             git_url = f"{GIT_URL}/{svn_reference}/src/{module_class}/{name}"
             return "official", git_url
@@ -24627,6 +24828,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
             url = url.rstrip("/")
             git_url = f"{url}/{svn_reference}/src/{module_class}/{name}"
             return "official_fork", git_url
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24920,11 +25122,14 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> 0cdf004d95 (r.in.pdal: use fabs for double values (#1752))
 <<<<<<< HEAD
 >>>>>>> 0cbfb74ba9 (r.in.pdal: use fabs for double values (#1752))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> aaa2e34005 (r.in.pdal: use fabs for double values (#1752))
 =======
@@ -25264,6 +25469,10 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 =======
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
 >>>>>>> a777ae5960 (r.in.pdal: use fabs for double values (#1752))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
     # Check if URL can be found
     # Catch corner case if local URL is given starting with file://
@@ -25830,6 +26039,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> aaa2e34005 (r.in.pdal: use fabs for double values (#1752))
 =======
@@ -25951,6 +26161,8 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a777ae5960 (r.in.pdal: use fabs for double values (#1752))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             except URLError as error:
                 message = error
 =======
@@ -26201,10 +26413,14 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
                 message = error
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
             except URLError as error:
                 message = error
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             except URLError:
                 pass
@@ -26390,11 +26606,14 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         else:
             try:
                 open_url = urlopen("http://" + url)
                 open_url.close()
                 url_validated = True
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26446,6 +26665,8 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> 0cdf004d95 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             except URLError as error:
                 message = error
 =======
@@ -26462,12 +26683,16 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
             except URLError as error:
                 message = error
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -26823,10 +27048,13 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> a777ae5960 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             try:
                 open_url = urlopen("https://" + url)
                 open_url.close()
                 url_validated = True
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26985,6 +27213,8 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
 >>>>>>> aaa2e34005 (r.in.pdal: use fabs for double values (#1752))
@@ -27770,6 +28000,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -28064,12 +28295,17 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             except URLError as error:
                 message = error
         if not url_validated:
             grass.fatal(
                 _("Cannot open URL <{url}>: {error}").format(url=url, error=message)
             )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28364,11 +28600,14 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -28711,6 +28950,10 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
     # Handle local URLs
     if os.path.isdir(url):
@@ -28739,6 +28982,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 
 
 def get_addons_paths(gg_addons_base_dir):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29224,6 +29468,8 @@ def get_addons_paths(gg_addons_base_dir):
 >>>>>>> a777ae5960 (r.in.pdal: use fabs for double values (#1752))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     """Make or update list of the official addons source code paths
     prefix parameter plus /grass-addons directory using Git repository
 
@@ -29827,6 +30073,8 @@ def get_addons_paths(gg_addons_base_dir):
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     """Get and save addons paths from GRASS GIS Addons GitHub repo API
     as 'addons_paths.json' file in the gg_addons_base_dir. The file
     serves as a list of all addons, and their paths (required for
@@ -29834,6 +30082,7 @@ def get_addons_paths(gg_addons_base_dir):
 
     :param str gg_addons_base_dir: dir path where addons are installed
     """
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30231,7 +30480,12 @@ def get_addons_paths(gg_addons_base_dir):
 =======
     """
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     # Define branch to fetch from (latest or current version)
     addons_branch = get_version_branch(version[0])
     url = f"https://api.github.com/repos/OSGeo/grass-addons/git/trees/{addons_branch}?recursive=1"
@@ -30357,6 +30611,7 @@ get_addons_paths.json_file = "addons_paths.json"
 get_addons_paths.json_file = "addons_paths.json"
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30790,6 +31045,11 @@ get_addons_paths.json_file = "addons_paths.json"
 
 
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+get_addons_paths.json_file = "addons_paths.json"
+
+
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 def main():
     # check dependencies
     if not flags["a"] and sys.platform != "win32":
@@ -30884,6 +31144,7 @@ if __name__ == "__main__":
 =======
     grass_version = grass.version()
     version = grass_version["version"].split(".")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31018,6 +31279,8 @@ if __name__ == "__main__":
 =======
 >>>>>>> a777ae5960 (r.in.pdal: use fabs for double values (#1752))
 =======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> e2faabee62 (g.extension: workaround to use grass7 addon repo (#1612))
 =======
@@ -31065,6 +31328,8 @@ if __name__ == "__main__":
 =======
 =======
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 <<<<<<< HEAD
 <<<<<<< HEAD

@@ -33,8 +33,11 @@ class TestVRandom(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     def tearDown(self):
         self.runModule(
             "g.remove", type="vector", flags="f", name=(self.output, self.output2)
@@ -45,13 +48,19 @@ class TestVRandom(TestCase):
         cls.runModule("g.remove", type="vector", flags="f", name=cls.output2)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
     def tearDown(cls):
         cls.runModule("g.remove", type="vector", flags="f", name=cls.output)
         cls.runModule("g.remove", type="vector", flags="f", name=cls.output2)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
     def test_num_points(self):
         """Checking if number of points equals 100"""
@@ -60,12 +69,16 @@ class TestVRandom(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         topology = {"points": self.npoints}
 =======
         topology = dict(points=self.npoints)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         topology = dict(points=self.npoints)
@@ -75,6 +88,11 @@ class TestVRandom(TestCase):
 >>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        topology = dict(points=self.npoints)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         self.assertVectorFitsTopoInfo(vector=self.output, reference=topology)
 
     def test_num_points_3D(self):
@@ -91,12 +109,16 @@ class TestVRandom(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         topology = {"points": self.npoints, "map3d": 1}
 =======
         topology = dict(points=self.npoints, map3d=1)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         topology = dict(points=self.npoints, map3d=1)
@@ -106,6 +128,11 @@ class TestVRandom(TestCase):
 >>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        topology = dict(points=self.npoints, map3d=1)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         self.assertVectorFitsTopoInfo(vector=self.output, reference=topology)
 
     def test_restrict(self):

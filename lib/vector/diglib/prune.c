@@ -147,6 +147,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     int ij = 0,                      /* position of farest point */
         ja, jd, i, j, k, n, inu, it; /* indicateur de parcours du segment */
 
@@ -561,6 +562,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     int ij = 0,                      /* position of farthest point */
         ja, jd, i, j, k, n, inu, it; /* indicateur de parcours du segment */
 
@@ -744,12 +747,16 @@ int dig_prune(struct line_pnts *points, double thresh)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     int ij = 0,                      /* position of farest point */
         ja, jd, i, j, k, n, inu, it; /* indicateur de parcours du segment */
 
@@ -760,6 +767,7 @@ int dig_prune(struct line_pnts *points, double thresh)
     double dx, dy; /* temporary variables */
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -886,6 +894,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     double sx[18], sy[18]; /* temporary table for processing points */
     int nt[17], nu[17];
 
@@ -966,6 +976,7 @@ int dig_prune(struct line_pnts *points, double thresh)
             sy[1] = sy[k]; /* becomes second of the new one.  */
             k = 1;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1433,6 +1444,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         else {              /* No point keeped : farthest point  */
 =======
         else {              /* No point keeped : farest point  */
@@ -1716,6 +1729,7 @@ int dig_prune(struct line_pnts *points, double thresh)
         else {              /* No point keeped : farest point  */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -2036,12 +2050,18 @@ int dig_prune(struct line_pnts *points, double thresh)
         else {              /* No point keeped : farest point  */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        else {              /* No point keeped : farest point  */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             sx[1] = sx[ij]; /* is loaded in second position    */
             sy[1] = sy[ij]; /* to avoid cutting lines with     */
             sx[2] = sx[k];  /* small cuvature.                 */
             sy[2] = sy[k];  /* First point of previous segment */
             k = 2;          /* becomes the third one.          */
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2509,6 +2529,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         /* Loading remaining points         */
 =======
         /* Loding remaining points         */
@@ -2792,6 +2814,7 @@ int dig_prune(struct line_pnts *points, double thresh)
         /* Loding remaining points         */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -3112,6 +3135,11 @@ int dig_prune(struct line_pnts *points, double thresh)
         /* Loding remaining points         */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        /* Loding remaining points         */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         for (j = at_num; j < n; j++) {
             k++;
             sx[k] = ox[j];
@@ -3148,6 +3176,7 @@ int dig_prune(struct line_pnts *points, double thresh)
             }
             if (fpdist >
                 t) { /* We found a point to be keeped    */ /* Restart from
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3615,6 +3644,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                                                                farthest point */
 =======
                                                                farest point */
@@ -3898,6 +3929,7 @@ int dig_prune(struct line_pnts *points, double thresh)
                                                                farest point */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -4218,6 +4250,11 @@ int dig_prune(struct line_pnts *points, double thresh)
                                                                farest point */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                                                               farest point */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                 jd = ij;
                 nt[++it] = ij;
             }
@@ -4225,18 +4262,27 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             endseg: { /* All points are inside threshold. */
 =======
             endseg : { /* All points are inside threshold. */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             endseg : { /* All points are inside threshold. */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+            endseg : { /* All points are inside threshold. */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                 /* Former start becomes new end     */
                 nu[++inu] = jd;
                 if (--it < 0)

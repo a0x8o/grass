@@ -113,8 +113,11 @@ void print_topo(struct Map_info *Map, enum OutputFormat format,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     switch (format) {
     case PLAIN:
         break;
@@ -136,10 +139,15 @@ void print_topo(struct Map_info *Map, enum OutputFormat format,
                 Vect_get_num_primitives(Map, GV_CENTROID));
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     fprintf(stdout, "nodes=%d\n", Vect_get_num_nodes(Map));
     fflush(stdout);
 
@@ -178,12 +186,18 @@ void print_topo(struct Map_info *Map, enum OutputFormat format,
         fprintf(stdout, "holes=%d\n", Vect_get_num_holes(Map));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         fflush(stdout);
 
         fprintf(stdout, "areas=%d\n", Vect_get_num_areas(Map));
@@ -1022,8 +1036,14 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
 
 void print_columns(const struct Map_info *Map, const char *input_opt,
                    const char *field_opt)
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 {
     int num_dblinks, col, ncols;
 
@@ -1040,11 +1060,15 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         Vect_close(Map);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         Vect_close(Map);
 >>>>>>> b43eab38a4 (v.info: add json output for columns (#4590))
@@ -1053,6 +1077,8 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error(
             _("Database connection for map <%s> is not defined in DB file"),
             input_opt);
@@ -1083,6 +1109,7 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
         G_fatal_error(_("Unable to open driver <%s>"), fi->driver);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1095,6 +1122,11 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     db_init_handle(&handle);
     db_set_handle(&handle, fi->database, NULL);
     if (db_open_database(driver, &handle) != DB_OK) {
@@ -1319,6 +1351,7 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1349,6 +1382,8 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     char scale_tmp[18];
     snprintf(scale_tmp, 18, "1:%d", Vect_get_scale(Map));
 
@@ -1876,16 +1911,21 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     fprintf(stdout, "name=%s\n", Vect_get_name(Map));
     fprintf(stdout, "mapset=%s\n", Vect_get_mapset(Map));
     fprintf(stdout, "location=%s\n", G_location());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2203,6 +2243,8 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     fprintf(stdout, "database=%s\n", G_gisdbase());
     fprintf(stdout, "title=%s\n", Vect_get_map_name(Map));
     fprintf(stdout, "scale=1:%d\n", Vect_get_scale(Map));
@@ -2226,11 +2268,15 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
@@ -2278,6 +2324,8 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     /* This shows the TimeStamp (if present) */
     if (time_ok == TRUE && (first_time_ok || second_time_ok)) {
         G_format_timestamp(&ts, timebuff);
@@ -2309,8 +2357,11 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         switch (format) {
         case PLAIN:
             break;
@@ -2337,10 +2388,15 @@ void print_shell(struct Map_info *Map, const char *field_opt,
         }
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         fprintf(stdout, "format=%s,%s\n", Vect_maptype_info(Map),
                 Vect_get_finfo_format_info(Map));
         fprintf(stdout, "ogr_layer=%s\n", Vect_get_finfo_layer_name(Map));
@@ -2348,12 +2404,18 @@ void print_shell(struct Map_info *Map, const char *field_opt,
         fprintf(stdout, "feature_type=%s\n", Vect_get_finfo_geometry_type(Map));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     }
     else if (map_type == GV_FORMAT_POSTGIS) {
         int topo_format;
@@ -2365,8 +2427,11 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         switch (format) {
         case PLAIN:
             break;
@@ -2474,6 +2539,9 @@ void print_shell(struct Map_info *Map, const char *field_opt,
         fprintf(stdout, "num_dblinks=%d\n", Vect_get_num_dblinks(Map));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
         fprintf(stdout, "format=%s,%s\n", Vect_maptype_info(Map),
                 Vect_get_finfo_format_info(Map));
@@ -2497,8 +2565,11 @@ void print_shell(struct Map_info *Map, const char *field_opt,
     if (Vect_level(Map) > 0) {
         fprintf(stdout, "num_dblinks=%d\n", Vect_get_num_dblinks(Map));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
         if (Vect_get_num_dblinks(Map) > 0) {
             fi = Vect_get_field2(Map, field_opt);
@@ -2506,8 +2577,11 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                 switch (format) {
                 case PLAIN:
                     break;
@@ -2537,10 +2611,15 @@ void print_shell(struct Map_info *Map, const char *field_opt,
                 }
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                 fprintf(stdout, "attribute_layer_number=%i\n", fi->number);
                 fprintf(stdout, "attribute_layer_name=%s\n", fi->name);
                 fprintf(stdout, "attribute_database=%s\n", fi->database);
@@ -2549,12 +2628,18 @@ void print_shell(struct Map_info *Map, const char *field_opt,
                 fprintf(stdout, "attribute_primary_key=%s\n", fi->key);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             }
         }
     }
@@ -2562,8 +2647,11 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     switch (format) {
     case PLAIN:
         break;
@@ -2595,6 +2683,9 @@ void print_shell(struct Map_info *Map, const char *field_opt,
     fprintf(stdout, "comment=%s\n", Vect_get_comment(Map));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
     fprintf(stdout, "projection=%s\n", Vect_get_proj_name(Map));
     if (G_projection() == PROJECTION_UTM) {
@@ -2603,8 +2694,11 @@ void print_shell(struct Map_info *Map, const char *field_opt,
     fprintf(stdout, "digitization_threshold=%f\n", Vect_get_thresh(Map));
     fprintf(stdout, "comment=%s\n", Vect_get_comment(Map));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 void print_info(struct Map_info *Map)
@@ -2637,6 +2731,7 @@ void print_info(struct Map_info *Map)
     G_saprintf(line, "%-17s%s", _("Mapset:"), Vect_get_mapset(Map));
     printline(line);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3104,6 +3199,8 @@ void print_info(struct Map_info *Map)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     G_saprintf(line, "%-17s%s", _("Project:"), G_location());
 =======
     G_saprintf(line, "%-17s%s", _("Location:"), G_location());
@@ -3387,6 +3484,7 @@ void print_info(struct Map_info *Map)
     G_saprintf(line, "%-17s%s", _("Location:"), G_location());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -3707,6 +3805,11 @@ void print_info(struct Map_info *Map)
     G_saprintf(line, "%-17s%s", _("Location:"), G_location());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    G_saprintf(line, "%-17s%s", _("Location:"), G_location());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     printline(line);
     G_saprintf(line, "%-17s%s", _("Database:"), G_gisdbase());
     printline(line);

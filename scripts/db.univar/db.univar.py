@@ -121,8 +121,11 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         output_format = "shell" if shellstyle else "plain"
     elif shellstyle:
         # This can be a message or warning in future versions.
@@ -132,10 +135,15 @@ def main():
     desc_table = gs.db_describe(table, database=database, driver=driver)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         if shellstyle:
             output_format = "shell"
         else:
@@ -194,16 +202,22 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         gs.verbose(_("Calculation for column <%s> of table <%s>...") % (column, table))
         gs.message(_("Reading column values..."))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         gs.verbose(_("Calculation for column <%s> of table <%s>...") % (column, table))
         gs.message(_("Reading column values..."))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         gscript.verbose(
             _("Calculation for column <%s> of table <%s>...") % (column, table)
         )
@@ -246,8 +260,11 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         if output_format in {"plain", "shell"}:
 <<<<<<< HEAD
             gs.fatal(_("Table <%s> contains no data.") % table)
@@ -286,11 +303,19 @@ def main():
         if output_format in ["plain", "shell"]:
             gscript.fatal(_("Table <%s> contains no data.") % table)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        if output_format in ["plain", "shell"]:
+            gscript.fatal(_("Table <%s> contains no data.") % table)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         tmpf.close()
 
     # calculate statistics
     if output_format == "plain":
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -305,8 +330,12 @@ def main():
         gs.verbose(_("Calculating statistics..."))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         gs.verbose(_("Calculating statistics..."))
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         gscript.verbose(_("Calculating statistics..."))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -337,8 +366,11 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         if output_format in {"plain", "shell"}:
 <<<<<<< HEAD
             gs.fatal(_("No non-null values found"))
@@ -377,7 +409,14 @@ def main():
         if output_format in ["plain", "shell"]:
             gscript.fatal(_("No non-null values found"))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        if output_format in ["plain", "shell"]:
+            gscript.fatal(_("No non-null values found"))
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         else:
             # We produce valid JSON with a value for n even when the query returned
             # no rows or when all values are nulls.

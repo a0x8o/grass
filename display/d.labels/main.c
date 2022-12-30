@@ -95,12 +95,16 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         double minreg = atof(minreg_opt->answer);
 =======
         minreg = atof(minreg_opt->answer);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         minreg = atof(minreg_opt->answer);
@@ -110,6 +114,11 @@ int main(int argc, char **argv)
 >>>>>>> a9d6c00f1e (d.labels: Reduce scope of minreg and maxreg variables in main.c (#3979))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        minreg = atof(minreg_opt->answer);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         if (reg < minreg) {
             G_warning(
                 _("Region size is lower than minreg, nothing displayed."));
@@ -122,12 +131,16 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         double maxreg = atof(maxreg_opt->answer);
 =======
         maxreg = atof(maxreg_opt->answer);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         maxreg = atof(maxreg_opt->answer);
@@ -137,6 +150,11 @@ int main(int argc, char **argv)
 >>>>>>> a9d6c00f1e (d.labels: Reduce scope of minreg and maxreg variables in main.c (#3979))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        maxreg = atof(maxreg_opt->answer);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         if (reg > maxreg) {
             G_warning(
                 _("Region size is greater than maxreg, nothing displayed."));

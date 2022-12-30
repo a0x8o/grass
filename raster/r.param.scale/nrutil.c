@@ -214,6 +214,7 @@ float **submatrix(float **a, int oldrl, int oldrh, int oldcl, int oldch,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -438,11 +439,14 @@ float **submatrix(float **a, int oldrl, int oldrh, int oldcl, int oldch,
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -785,6 +789,10 @@ float **submatrix(float **a, int oldrl, int oldrh, int oldcl, int oldch,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                   int newrl, int newcl)
 {
     int i, j, nrow = oldrh - oldrl + 1, ncol = oldcl - newcl;
@@ -997,6 +1005,7 @@ void free_convert_matrix(float **b, int nrl, int nrh UNUSED, int ncl UNUSED,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
                    int ndh)
 =======
@@ -1397,6 +1406,8 @@ void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 void free_f3tensor(float ***t, int nrl, int nrh UNUSED, int ncl, int nch UNUSED,
                    int ndl, int ndh UNUSED)
 =======
@@ -1806,14 +1817,18 @@ void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
 void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
                    int ndh)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2060,6 +2075,8 @@ void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 {
     G_free((FREE_ARG)(t[nrl][ncl] + ndl - NR_END));
     G_free((FREE_ARG)(t[nrl] + ncl - NR_END));

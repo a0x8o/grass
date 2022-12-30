@@ -145,6 +145,7 @@ int Vect_set_constraint_region(struct Map_info *Map, double n, double s,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 =======
 <<<<<<< HEAD
@@ -543,6 +544,8 @@ int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 int Vect_get_constraint_box(struct Map_info *Map, struct bound_box *Box)
 =======
 int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
@@ -826,6 +829,7 @@ int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -1146,6 +1150,11 @@ int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 {
     if (!Map->constraint.region_flag)
         return -1;

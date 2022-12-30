@@ -113,8 +113,11 @@ void D_show_conversions(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     fprintf(stderr, " U_w %10.1f  U_e %10.1f  U_s %10.1f  U_n %10.1f\n\n",
             U.west, U.east, U.south, U.north);
 
@@ -129,10 +132,15 @@ void D_show_conversions(void)
     fprintf(stderr, " U_to_D_conv.x %10.1g U_to_D_conv.y %10.1g\n",
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     fprintf(stderr, " U_w %10.1f  U_e %10.1f  U_s %10.1f  U_n %10.1f\n", U.west,
             U.east, U.south, U.north);
 
@@ -156,12 +164,18 @@ void D_show_conversions(void)
     fprintf(stderr, " U_to_D_conv.x %10.1f U_to_D_conv.y %10.1f \n",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             U_to_D_conv.x, U_to_D_conv.y);
 }
 

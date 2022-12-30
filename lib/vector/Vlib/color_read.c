@@ -52,18 +52,26 @@ int Vect_read_colors(const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     if (G_strlcpy(xname, name, sizeof(xname)) >= sizeof(xname)) {
         G_warning(_("Vector map name <%s> is too long"), name);
         return -1;
     }
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     strcpy(xname, name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     mapset = G_find_vector(xname, mapset);
@@ -77,18 +85,27 @@ int Vect_read_colors(const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         (void)snprintf(buf, sizeof(buf), "%s/%s", GV_DIRECTORY, name);
 =======
         sprintf(buf, "%s/%s", GV_DIRECTORY, name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         sprintf(buf, "%s/%s", GV_DIRECTORY, name);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        sprintf(buf, "%s/%s", GV_DIRECTORY, name);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         ret = Rast__read_colors(buf, GV_COLR_ELEMENT, mapset, colors);
     }
     else {
@@ -96,18 +113,27 @@ int Vect_read_colors(const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         (void)snprintf(buf, sizeof(buf), "%s/%s", GV_COLR2_DIRECTORY, mapset);
 =======
         sprintf(buf, "%s/%s", GV_COLR2_DIRECTORY, mapset);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         sprintf(buf, "%s/%s", GV_COLR2_DIRECTORY, mapset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        sprintf(buf, "%s/%s", GV_COLR2_DIRECTORY, mapset);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         ret = Rast__read_colors(buf, name, G_mapset(), colors);
     }
     if (ret == -2)

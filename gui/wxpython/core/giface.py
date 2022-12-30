@@ -149,12 +149,18 @@ class GrassInterface:
         raise NotImplementedError()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     def GetLog(self, err=False):
         """Returns file-like object for writing."""
         raise NotImplementedError()
 
+<<<<<<< HEAD
 =======
 >>>>>>> 8feebafec2 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     def GetLayerTree(self):
         """Returns LayerManager's tree GUI object.
         .. note::

@@ -43,12 +43,16 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     DCELL dmax, range_dmin = 0, range_dmax = 0, dmin, dval;
 =======
     DCELL dmax, range_dmin, range_dmax, dmin, dval;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     DCELL dmax, range_dmin, range_dmax, dmin, dval;
@@ -58,6 +62,11 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
 >>>>>>> 21e59f3439 (d.histogram: Initialize range_dmin and range_dmax to fix uninitialize value warnings in bar.c (#3923))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    DCELL dmax, range_dmin, range_dmax, dmin, dval;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     long int max_tics; /* maximum tics allowed on an axis */
     long int xoffset;  /* offset for x-axis */
     long int yoffset;  /* offset for y-axis */
@@ -169,12 +178,16 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
         draw = NO;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
         draw = NO;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> da910d0441 (d.histogram: Fix dead store warnings in bar.c (#3927))
 =======
@@ -182,6 +195,8 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
         draw = NO;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         /* figure bar color and height
          *
          * the cat number determines the color, the corresponding stat,
@@ -287,18 +302,27 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                 } /* fp */
 =======
                 }      /* fp */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 }      /* fp */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                }      /* fp */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                 else { /* 1-color bar for int data or null */
 
                     D_color((CELL)bar_color, colors);

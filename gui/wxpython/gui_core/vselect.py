@@ -359,12 +359,16 @@ class VectorSelectBase:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                 outMap = f"{outMap}@{gs.gisenv()['MAPSET']}"
 =======
                 outMap = f"{outMap}@{grass.gisenv()['MAPSET']}"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 outMap = f"{outMap}@{grass.gisenv()['MAPSET']}"
@@ -374,6 +378,11 @@ class VectorSelectBase:
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                outMap = f"{outMap}@{grass.gisenv()['MAPSET']}"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                 tree.AddLayer(
                     ltype="vector",
                     lname=outMap,

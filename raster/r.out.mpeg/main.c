@@ -402,8 +402,11 @@ static void mlist(const char *element, const char *wildarg, const char *outfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         snprintf(type_arg, sizeof(type_arg), "type=%s", element);
         snprintf(pattern_arg, sizeof(pattern_arg), "pattern=%s", wildarg);
         snprintf(mapset_arg, sizeof(mapset_arg), "mapset=%s", mapset);
@@ -413,13 +416,19 @@ static void mlist(const char *element, const char *wildarg, const char *outfile)
         sprintf(mapset_arg, "mapset=%s", mapset);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
         sprintf(type_arg, "type=%s", element);
         sprintf(pattern_arg, "pattern=%s", wildarg);
         sprintf(mapset_arg, "mapset=%s", mapset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
         G_spawn_ex("g.list", "g.list", type_arg, pattern_arg, mapset_arg,
                    SF_REDIRECT_FILE, SF_STDOUT, SF_MODE_APPEND, outfile, NULL);

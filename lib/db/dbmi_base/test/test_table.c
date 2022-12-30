@@ -95,6 +95,7 @@ static int test_table(void);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static dbColumn *create_column(const char *name, const char *desctiption,
 =======
 <<<<<<< HEAD
@@ -493,6 +494,8 @@ static dbColumn *create_column(const char *name, const char *desctiption,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 static dbColumn *create_column(const char *name, const char *description,
 =======
 static dbColumn *create_column(const char *name, const char *desctiption,
@@ -776,6 +779,7 @@ static dbColumn *create_column(const char *name, const char *desctiption,
 static dbColumn *create_column(const char *name, const char *desctiption,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -1096,6 +1100,11 @@ static dbColumn *create_column(const char *name, const char *desctiption,
 static dbColumn *create_column(const char *name, const char *desctiption,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+static dbColumn *create_column(const char *name, const char *desctiption,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                                int sqltype);
 
 /* ************************************************************************* */
@@ -1243,6 +1252,7 @@ dbColumn *create_column(const char *name, const char *description, int sqltype)
     db_set_value_double(&column->defaultValue, 0.5);
     db_set_value_double(&column->value, 10.5);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1710,6 +1720,8 @@ dbColumn *create_column(const char *name, const char *description, int sqltype)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     db_set_column_description(column, description);
 =======
     db_set_column_description(column, desctiption);
@@ -1993,6 +2005,7 @@ dbColumn *create_column(const char *name, const char *description, int sqltype)
     db_set_column_description(column, desctiption);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -2313,6 +2326,11 @@ dbColumn *create_column(const char *name, const char *description, int sqltype)
     db_set_column_description(column, desctiption);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    db_set_column_description(column, desctiption);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     db_set_column_host_type(column, 1);
     db_set_column_length(column, 8);
     db_set_column_name(column, name);

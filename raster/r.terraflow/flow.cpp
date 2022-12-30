@@ -122,18 +122,27 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     flow_waterWindower(AMI_STREAM<sweepItem> *str) : sweep_str(str) {};
 =======
     flow_waterWindower(AMI_STREAM<sweepItem> *str) : sweep_str(str){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     flow_waterWindower(AMI_STREAM<sweepItem> *str) : sweep_str(str){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    flow_waterWindower(AMI_STREAM<sweepItem> *str) : sweep_str(str){};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     void processWindow(dimension_type i, dimension_type j,
                        waterWindowBaseType *a, waterWindowBaseType *b,
                        waterWindowBaseType *c);

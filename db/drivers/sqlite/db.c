@@ -81,8 +81,11 @@ int db__driver_open_database(dbHandle *handle)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         if (G_strlcpy(name2, name, sizeof(name2)) >= sizeof(name2)) {
             db_d_append_error(_("Database name <%s> is too long"), name);
             db_d_report_error();
@@ -92,11 +95,17 @@ int db__driver_open_database(dbHandle *handle)
         strcpy(name2, name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         strcpy(name2, name);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        strcpy(name2, name);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     G_debug(2, "name2 = '%s'", name2);
@@ -135,8 +144,11 @@ int db__driver_open_database(dbHandle *handle)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             if (G_strlcpy(name3, name2, sizeof(name3)) >= sizeof(name3)) {
                 db_d_append_error(_("Database name <%s> is too long"), name2);
                 db_d_report_error();
@@ -153,10 +165,15 @@ int db__driver_open_database(dbHandle *handle)
     }
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             strcpy(name3, name2);
         }
     }
@@ -164,12 +181,18 @@ int db__driver_open_database(dbHandle *handle)
         strcpy(name3, name2);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     if (sqlite3_open(name3, &sqlite) != SQLITE_OK) {
         db_d_append_error("%s %s\n%s", _("Unable to open database:"), name3,
                           (char *)sqlite3_errmsg(sqlite));
@@ -238,8 +261,11 @@ int db__driver_create_database(dbHandle *handle)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             if (G_strlcpy(name2, name, sizeof(name2)) >= sizeof(name2)) {
                 db_d_append_error(_("Database name <%s> is too long"), name);
                 db_d_report_error();
@@ -262,6 +288,9 @@ int db__driver_create_database(dbHandle *handle)
         strcpy(name2, name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
             strcpy(name2, name);
         }
@@ -269,8 +298,11 @@ int db__driver_create_database(dbHandle *handle)
     else
         strcpy(name2, name);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     if (sqlite3_open(name2, &sqlite) != SQLITE_OK) {
         db_d_append_error("%s %s\n%s", _("Unable to create database:"), name,
                           (char *)sqlite3_errmsg(sqlite));

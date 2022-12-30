@@ -30,8 +30,11 @@ import grass.jupyter as gj
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 gs.core._create_location_xy(r"{tmp_path}", r"{location}")
 session = gj.init(r"{tmp_path / location}")
 =======
@@ -39,12 +42,18 @@ gs.core._create_location_xy("{tmp_path}", "{location}")
 session = gj.init("{tmp_path / location}")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 gs.core._create_location_xy("{tmp_path}", "{location}")
 session = gj.init("{tmp_path / location}")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 gs.read_command("g.region", flags="p")
 print(os.environ["GISRC"])
 session.finish()
@@ -68,8 +77,11 @@ import grass.jupyter as gj
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 gs.core._create_location_xy(r"{tmp_path}", r"{location}")
 session = gj.init(r"{tmp_path / location}")
 =======
@@ -77,12 +89,18 @@ gs.core._create_location_xy("{tmp_path}", "{location}")
 session = gj.init("{tmp_path / location}")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 gs.core._create_location_xy("{tmp_path}", "{location}")
 session = gj.init("{tmp_path / location}")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 print(os.environ["GISRC"])
 """
 

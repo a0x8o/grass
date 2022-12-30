@@ -43,8 +43,11 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     labelElevType() : label(LABEL_UNDEF) {};
 
     labelElevType(dimension_type gi, dimension_type gj, elevation_type gel,
@@ -52,10 +55,15 @@ public:
         : ijBaseType(gi, gj), el(gel), label(glabel) {};
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     labelElevType() : label(LABEL_UNDEF){};
 
     labelElevType(dimension_type gi, dimension_type gj, elevation_type gel,
@@ -63,12 +71,18 @@ public:
         : ijBaseType(gi, gj), el(gel), label(glabel){};
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
     cclabel_type getLabel() const { return label; };
 
@@ -122,18 +136,27 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     boundaryType() : label2(LABEL_UNDEF) {};
 =======
     boundaryType() : label2(LABEL_UNDEF){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     boundaryType() : label2(LABEL_UNDEF){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    boundaryType() : label2(LABEL_UNDEF){};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
     boundaryType(dimension_type gi, dimension_type gj, elevation_type gel,
                  cclabel_type glabel1, cclabel_type glabel2)
@@ -244,18 +267,27 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     fillPriority() : ijBaseType(-1, -1), el(-1), depth(DEPTH_INITIAL) {};
 =======
     fillPriority() : ijBaseType(-1, -1), el(-1), depth(DEPTH_INITIAL){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     fillPriority() : ijBaseType(-1, -1), el(-1), depth(DEPTH_INITIAL){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    fillPriority() : ijBaseType(-1, -1), el(-1), depth(DEPTH_INITIAL){};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     fillPriority(elevation_type gel, bfs_depth_type gdepth, dimension_type gi,
                  dimension_type gj)
         : ijBaseType(gi, gj), el(gel), depth(gdepth)
@@ -281,18 +313,27 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     fillPLabel() : label(LABEL_UNDEF) {};
 =======
     fillPLabel() : label(LABEL_UNDEF){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     fillPLabel() : label(LABEL_UNDEF){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    fillPLabel() : label(LABEL_UNDEF){};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     fillPLabel(const fillPriority &gpriority, const cclabel_type glabel)
         : fillPriority(gpriority), label(glabel)
     {
@@ -326,30 +367,44 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         : el(nodataType::ELEVATION_NODATA), dir(0), depth(DEPTH_INITIAL) {};
     waterWindowBaseType(elevation_type gel, direction_type gdir,
                         bfs_depth_type gdepth)
         : el(gel), dir(gdir), depth(gdepth) {};
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         : el(nodataType::ELEVATION_NODATA), dir(0), depth(DEPTH_INITIAL){};
     waterWindowBaseType(elevation_type gel, direction_type gdir,
                         bfs_depth_type gdepth)
         : el(gel), dir(gdir), depth(gdepth){};
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     friend int operator==(const waterWindowBaseType &a,
                           const waterWindowBaseType &b)
     {
@@ -382,18 +437,27 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     waterType() : label(LABEL_UNDEF) {}; /* needed to sort */
 =======
     waterType() : label(LABEL_UNDEF){}; /* needed to sort */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     waterType() : label(LABEL_UNDEF){}; /* needed to sort */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    waterType() : label(LABEL_UNDEF){}; /* needed to sort */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     waterType(dimension_type gi, dimension_type gj, direction_type gdir,
               cclabel_type glabel = LABEL_UNDEF,
               bfs_depth_type gdepth = DEPTH_INITIAL)
@@ -405,18 +469,27 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
           label(data.cclabel) {};
 =======
           label(data.cclabel){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
           label(data.cclabel){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+          label(data.cclabel){};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     direction_type getDirection() const { return dir; }
     bfs_depth_type getDepth() const { return depth; }
     cclabel_type getLabel() const { return label; }
@@ -454,18 +527,27 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     waterGridType() : label(LABEL_UNDEF) {};
 =======
     waterGridType() : label(LABEL_UNDEF){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     waterGridType() : label(LABEL_UNDEF){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    waterGridType() : label(LABEL_UNDEF){};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     waterGridType(elevation_type gel, direction_type gdir = DIRECTION_UNDEF,
                   cclabel_type glabel = LABEL_UNDEF,
                   bfs_depth_type gdepth = DEPTH_INITIAL)
@@ -495,18 +577,27 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     packed8bit() : value(0) {};
 =======
     packed8bit() : value(0){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     packed8bit() : value(0){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    packed8bit() : value(0){};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     void setBit(int k, int v = 1) { value = (int)value | ((v ? 1 : 0) << k); };
     void resetBit(int k) { value &= ~(0x1 << k); };
     int getBit(int k) const { return (value >> k) & 1; };
@@ -590,18 +681,27 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         : compressedWaterWindowBaseType(), label(LABEL_UNDEF) {};
 =======
         : compressedWaterWindowBaseType(), label(LABEL_UNDEF){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         : compressedWaterWindowBaseType(), label(LABEL_UNDEF){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        : compressedWaterWindowBaseType(), label(LABEL_UNDEF){};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     compressedWaterWindowType(dimension_type gi, dimension_type gj,
                               cclabel_type glabel, waterWindowBaseType *a,
                               waterWindowBaseType *b, waterWindowBaseType *c)

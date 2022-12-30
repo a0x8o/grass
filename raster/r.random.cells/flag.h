@@ -16,8 +16,11 @@ FLAG
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     (flags)->array[(row)][(col) >> 3] &= ~(1 << ((col) & 7))
 
 #define FLAG_SET(flags, row, col) \
@@ -35,6 +38,9 @@ FLAG
     (flags)->array[(row)][(col) >> 3] & (1 << ((col)&7))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
     (flags)->array[(row)][(col) >> 3] &= ~(1 << ((col)&7))
 
@@ -44,8 +50,11 @@ FLAG
 #define FLAG_GET(flags, row, col) \
     (flags)->array[(row)][(col) >> 3] & (1 << ((col)&7))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
 /* flag.[ch] is a set of routines which will set up an array of bits
  ** that allow the programmer to "flag" cells in a raster map.

@@ -81,6 +81,7 @@ extern DCELL f_d(DCELL);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define epsilon 0.622  /* [-] ratio of molecular weigth of water to dry air */
 =======
 <<<<<<< HEAD
@@ -479,6 +480,8 @@ extern DCELL f_d(DCELL);
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 #define epsilon 0.622  /* [-] ratio of molecular weight of water to dry air */
 =======
 #define epsilon 0.622  /* [-] ratio of molecular weigth of water to dry air */
@@ -762,6 +765,7 @@ extern DCELL f_d(DCELL);
 #define epsilon 0.622  /* [-] ratio of molecular weigth of water to dry air */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -1082,6 +1086,11 @@ extern DCELL f_d(DCELL);
 #define epsilon 0.622  /* [-] ratio of molecular weigth of water to dry air */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+#define epsilon 0.622  /* [-] ratio of molecular weigth of water to dry air */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 #define Po      101.3  /* [kPa] atmospheric pressure at sea level */
 #define Tko     293.16 /* [K] reference temperature at sea level */
 #define eta     0.0065 /* [K/m] constant lapse rate */
@@ -1166,6 +1175,7 @@ DCELL calc_ETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int night, DCELL Rh,
     return ETp;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1635,6 +1645,8 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day UNUSED,
                         DCELL Rh, DCELL hc UNUSED)
 =======
@@ -2044,14 +2056,18 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
 DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
                         DCELL hc)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2298,6 +2314,8 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 {
     DCELL ea, delta, gamma, lambda;
     DCELL P, ed, ETaero, ETp;
@@ -2415,6 +2433,7 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2686,6 +2705,8 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
    }
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2788,6 +2809,7 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3172,4 +3194,8 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 #endif

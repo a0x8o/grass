@@ -97,8 +97,11 @@ static CELL do_renumber(int *in_fd, DCELL *rng, int nin, int diag, int minsize,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             if (lseek(cfd, coffset, SEEK_SET) == -1) {
                 G_fatal_error(_("Unable to seek: %s"), strerror(errno));
             }
@@ -106,11 +109,17 @@ static CELL do_renumber(int *in_fd, DCELL *rng, int nin, int diag, int minsize,
             lseek(cfd, coffset, SEEK_SET);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             lseek(cfd, coffset, SEEK_SET);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+            lseek(cfd, coffset, SEEK_SET);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
             if (read(cfd, cur_clump, csize) != csize)
                 G_fatal_error(_("Unable to read from temp file"));
 
@@ -129,8 +138,11 @@ static CELL do_renumber(int *in_fd, DCELL *rng, int nin, int diag, int minsize,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                 if (lseek(cfd, coffset, SEEK_SET) == -1) {
                     G_fatal_error(_("Unable to seek: %s"), strerror(errno));
                 }
@@ -138,11 +150,17 @@ static CELL do_renumber(int *in_fd, DCELL *rng, int nin, int diag, int minsize,
                 lseek(cfd, coffset, SEEK_SET);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 lseek(cfd, coffset, SEEK_SET);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                lseek(cfd, coffset, SEEK_SET);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                 if (write(cfd, cur_clump, csize) != csize)
                     G_fatal_error(_("Unable to write to temp file"));
             }

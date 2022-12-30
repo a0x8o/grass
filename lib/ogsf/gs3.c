@@ -912,6 +912,7 @@ int Gs_get_cat_label(const char *filename, int drow, int dcol, char *catstr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 =======
 <<<<<<< HEAD
@@ -1310,6 +1311,8 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd UNUSED,
 =======
 int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
@@ -1593,6 +1596,7 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -1913,6 +1917,11 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                    struct Cell_head *w, geosurf *defsurf)
 {
     const char *mapset;
@@ -1964,6 +1973,7 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
         v.twist = gv->twist;
         v.fringe = 0; /* not implemented here */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2431,6 +2441,8 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         v.lightson = 1; /* always true, currently */
 =======
         v.lightson = 1; /* always true, curently */
@@ -2714,6 +2726,7 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
         v.lightson = 1; /* always true, curently */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -3034,6 +3047,11 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
         v.lightson = 1; /* always true, curently */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        v.lightson = 1; /* always true, curently */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
         if (gv->lights[0].position[W] == 1) {
             /* local */
@@ -3062,6 +3080,7 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
         v.surfonly = 0; /* N/A - now uses constant color */
         strcpy((v.pgm_id), "Nvision-ALPHA!");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3529,6 +3548,8 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
         return (G_put_3dview(vname, &v, w));
 =======
         return (G_put_3dview(vname, mapset, &v, w));
@@ -3812,6 +3833,7 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
         return (G_put_3dview(vname, mapset, &v, w));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -4132,6 +4154,11 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
         return (G_put_3dview(vname, mapset, &v, w));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        return (G_put_3dview(vname, mapset, &v, w));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     }
     else {
         return (-1);
@@ -4149,6 +4176,7 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 
    \return 1
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4616,6 +4644,8 @@ int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd UNUSED,
 =======
 int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
@@ -4899,6 +4929,7 @@ int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
 int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -5219,6 +5250,11 @@ int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
 int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                    struct Cell_head *w, const geosurf *defsurf)
 {
     const char *mapset;

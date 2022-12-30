@@ -84,7 +84,7 @@ double exponential(double factor, double squared_distance)
 void compute_weights(const char *function_type, double factor)
 {
     int i, j;
-    double (*weight) (double, double);
+    double (*weight)(double, double);
 
     if (!strcmp(function_type, "gaussian")) {
         weight = gaussian;
@@ -93,6 +93,7 @@ void compute_weights(const char *function_type, double factor)
         weight = exponential;
     }
 
+<<<<<<< HEAD
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 
     return exp(-squared_distance / (2 * sigma2)) / (2 * M_PI * sigma2);
@@ -2654,6 +2655,7 @@ void compute_weights(const char *function_type, double factor)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -2947,6 +2949,10 @@ void compute_weights(const char *function_type, double factor)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     ncb.weights = G_malloc(ncb.nsize * sizeof(DCELL *));
     for (i = 0; i < ncb.nsize; i++)
         ncb.weights[i] = G_malloc(ncb.nsize * sizeof(DCELL));

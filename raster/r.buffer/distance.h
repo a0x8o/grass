@@ -51,18 +51,27 @@ extern int count_rows_with_data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 #define MAPINDEX(r, c)       ((size_t)(r) * window.cols + (c))
 =======
 #define MAPINDEX(r, c)       ((size_t)(r)*window.cols + (c))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #define MAPINDEX(r, c)       ((size_t)(r)*window.cols + (c))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+#define MAPINDEX(r, c)       ((size_t)(r)*window.cols + (c))
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 #define ZONE_INCR            2
 
 #define FEET_TO_METERS       0.3048

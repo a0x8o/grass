@@ -126,6 +126,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -346,6 +347,8 @@ int main(int argc, char *argv[])
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
     /* Create element directory if requested and in current mapset. */
     if (flag_create) {
@@ -1032,6 +1035,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce5b8fc2e2 (pygrass: Add update parameters method to Module (#1712))
 <<<<<<< HEAD
 >>>>>>> 11243252e9 (pygrass: Add update parameters method to Module (#1712))
@@ -1310,6 +1314,21 @@ int main(int argc, char *argv[])
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1dfda93def (pygrass: Add update parameters method to Module (#1712))
+=======
+=======
+
+    /* Create element directory if requested and in current mapset. */
+    if (flag_create) {
+        if (strcmp(mapset, G_mapset()) != 0) {
+            G_fatal_error("Cannot create <%s> (flag -%c):"
+                          " <%s> is not the current mapset (%s)",
+                          element, flag_create->key, mapset, G_mapset());
+        }
+        G_make_mapset_object_group(element);
+    }
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     G_file_name(path, element, name, mapset);
 
     fprintf(stdout, "file='%s'\n", path);

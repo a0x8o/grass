@@ -244,18 +244,27 @@ int create_delete_db(dbHandle *handle, int create)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     db_get_login("pg", template_db, &user, &password, &host, &port);
 =======
     db_get_login2("pg", template_db, &user, &password, &host, &port);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     db_get_login2("pg", template_db, &user, &password, &host, &port);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    db_get_login2("pg", template_db, &user, &password, &host, &port);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 
     pg_conn = PQsetdbLogin(host, port, pgconn.options, pgconn.tty,
                            pgconn.dbname, user, password);
