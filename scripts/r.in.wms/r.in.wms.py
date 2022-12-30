@@ -268,6 +268,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "The proxy will be ignored by the chosen GRASS driver. It is only used with the GDAL driver."
 =======
 <<<<<<< HEAD
@@ -278,11 +279,14 @@ def main():
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
                         "The proxy will be ignored by the chosen GRASS driver. It is "
                         "only used with the GDAL driver."
 =======
                         "The proxy will be ignored by the chosen GRASS driver. It is only used with the GDAL driver."
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                         "The proxy will be ignored by the chosen GRASS driver. It is only used with the GDAL driver."
@@ -296,6 +300,11 @@ def main():
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                        "The proxy will be ignored by the chosen GRASS driver. It is only used with the GDAL driver."
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
                     )
                 )
 

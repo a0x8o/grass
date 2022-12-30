@@ -79,6 +79,7 @@ char *create_pgfile(const char *dsn, const char *schema, const char *olink,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 G_warning(_("EPSG code defined for current location (%s) is "
 =======
 <<<<<<< HEAD
@@ -89,10 +90,13 @@ char *create_pgfile(const char *dsn, const char *schema, const char *olink,
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
                 G_warning(_("EPSG code defined for current project (%s) is "
 =======
                 G_warning(_("EPSG code defined for current location (%s) is "
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 G_warning(_("EPSG code defined for current location (%s) is "
@@ -106,6 +110,11 @@ char *create_pgfile(const char *dsn, const char *schema, const char *olink,
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                G_warning(_("EPSG code defined for current location (%s) is "
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
                             "overridden by %s"),
                           epsg, tokens[1]);
 

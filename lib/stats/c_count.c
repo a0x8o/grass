@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void c_count(DCELL *result, DCELL *values, int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -15,10 +16,13 @@ void c_count(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 void c_count(DCELL *result, DCELL *values, int n, const void *closure UNUSED)
 =======
 void c_count(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 void c_count(DCELL *result, DCELL *values, int n, const void *closure)
@@ -32,6 +36,11 @@ void c_count(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void c_count(DCELL *result, DCELL *values, int n, const void *closure)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 {
     int count;
     int i;
@@ -49,6 +58,7 @@ void c_count(DCELL *result, DCELL *values, int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void w_count(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -59,11 +69,14 @@ void w_count(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 void w_count(DCELL *result, DCELL (*values)[2], int n,
              const void *closure UNUSED)
 =======
 void w_count(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 void w_count(DCELL *result, DCELL (*values)[2], int n, const void *closure)
@@ -77,6 +90,11 @@ void w_count(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void w_count(DCELL *result, DCELL (*values)[2], int n, const void *closure)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 {
     DCELL count;
     int i;

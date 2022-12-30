@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_drop_table(dbString *name)
 =======
 <<<<<<< HEAD
@@ -15,10 +16,13 @@ int db__driver_drop_table(dbString *name)
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_drop_table(dbString *name UNUSED)
 =======
 int db__driver_drop_table(dbString *name)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 int db__driver_drop_table(dbString *name)
@@ -32,6 +36,11 @@ int db__driver_drop_table(dbString *name)
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int db__driver_drop_table(dbString *name)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 {
     db_procedure_not_implemented("db_drop_table");
     return DB_FAILED;
