@@ -125,6 +125,7 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -206,6 +207,8 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -807,8 +810,12 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
     int merged = 0;
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     int merged = 0, newl = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
@@ -909,6 +916,7 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     /* catgories must be identical */
 =======
 <<<<<<< HEAD
@@ -1000,6 +1008,8 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1114,7 +1124,12 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 =======
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
                     /* categories must be identical */
 =======
                     /* catgories must be identical */
@@ -1156,6 +1171,7 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1189,6 +1205,8 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1452,7 +1470,15 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 =======
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                    /* catgories must be identical */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
                     if (compare_cats(MCats, Cats) == 0)
                         next_line = curr_line;
                 }

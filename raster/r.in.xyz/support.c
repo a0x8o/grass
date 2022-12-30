@@ -86,6 +86,7 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rast_set_null_value(array, nrows * ncols, map_type);
 =======
 <<<<<<< HEAD
@@ -177,6 +178,8 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -291,7 +294,12 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 =======
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
         for (row = 0; row < nrows; row++) {
             Rast_set_null_value(ptr, ncols, map_type);
             ptr = G_incr_void_ptr(ptr, ncols * Rast_cell_size(map_type));
@@ -336,6 +344,7 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -369,6 +378,8 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -632,7 +643,15 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 =======
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        Rast_set_null_value(array, nrows * ncols, map_type);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
         break;
 
     default:

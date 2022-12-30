@@ -168,6 +168,7 @@ def getLocationTree(gisdbase, location, queue, mapsets=None, lazy=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -495,6 +496,11 @@ class CurrentMapsetWatch(FileSystemEventHandler):
 =======
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 class CurrentMapsetWatch(FileSystemEventHandler):
     """Monitors rc file to check if mapset has been changed.
     In that case wx event is dispatched to event handler.
@@ -757,6 +763,7 @@ class DataCatalogTree(TreeView):
         self.Bind(
             EVT_CURRENT_MAPSET_CHANGED, lambda evt: self._updateAfterMapsetChanged()
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1089,7 +1096,15 @@ class DataCatalogTree(TreeView):
 =======
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
         self.observer = None
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
