@@ -87,6 +87,7 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -,Ivan Shmakov,<ivan theory.asu.ru>,Russia,1gray,yes,-
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
@@ -246,6 +247,8 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 =======
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -457,6 +460,7 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -664,10 +668,15 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
 -,Ivan Shmakov,<ivan siamics.net>,Russia,1gray,yes,-
 =======
 -,Ivan Shmakov,<ivan theory.asu.ru>,Russia,1gray,yes,-
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -850,6 +859,8 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1187,13 +1198,17 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 -,Ivan Shmakov,<ivan theory.asu.ru>,Russia,1gray,yes,-
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1451,6 +1466,8 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
 -,Eric Patton,<eric.patton canada.ca>,Canada,epatton,yes,-
 -,Laura Toma,<ltoma bowdoin.edu>,USA,ltoma,yes,-
 -,Markus Metz,<markus.metz.giswork googlemail.com>,Germany,mmetz,yes,0000-0002-4038-8754
@@ -1542,6 +1559,7 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -,Yann Chemin,<yann.chemin gmail.com>,Philippines,ychemin,yes,0000-0001-9232-5512
 =======
 <<<<<<< HEAD
@@ -1976,6 +1994,8 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 =======
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2089,11 +2109,17 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 =======
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
 -,Yann Chemin,<dr.yann.chemin gmail.com>,France,ychemin,yes,0000-0001-9232-5512
 =======
 -,Yann Chemin,<yann.chemin gmail.com>,Philippines,ychemin,yes,0000-0001-9232-5512
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2208,6 +2234,8 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
@@ -3412,6 +3440,11 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+-,Yann Chemin,<yann.chemin gmail.com>,Philippines,ychemin,yes,0000-0001-9232-5512
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 -,Colin Nielsen,<colin.nielsen gmail.com>,USA,cnielsen,yes,-
 -,Anne Ghisla,<a.ghisla gmail.com>,Italy,aghisla,yes,-
 -,Helmut Kudrnovsky,<hellik web.de>,Austria,hellik,yes,0000-0001-6622-7169
@@ -3423,6 +3456,7 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 -,Margherita Di Leo,<diregola gmail com>,Italy,madi,yes,0000-0002-0279-7557
 -,Veronica Andreo,<veroandreo gmail.com>,Argentina,veroandreo,yes,0000-0002-4633-2161
 -,Stefan Blumentrath,<stefan.blumentrath nina.no>,Norway,sbl,yes,0000-0001-6675-1331
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3507,10 +3541,13 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 -,Ondřej Pešek,<pesej.ondrek gmail.com>,Czech Republic,pesekon2,yes,0000-0002-2363-8002
 =======
 -,Ondřej Pešek,<pesej.ondrek gmail.com>,Czech Republic,pesekon2,yes,-
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3616,6 +3653,11 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+-,Ondřej Pešek,<pesej.ondrek gmail.com>,Czech Republic,pesekon2,yes,-
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 -,Tomáš Zigo,<tomas.zigo slovanet.sk>,Slovak Republic,tmszi,yes,-
 -,Nicklas Larsson,<n_larsson yahoo.com>,Hungary/Sweden,nilason,yes,-
 <<<<<<< HEAD
