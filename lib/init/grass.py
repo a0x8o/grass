@@ -18,7 +18,11 @@
 #               command line options for setting the GISDBASE, LOCATION,
 #               and/or MAPSET. Finally it starts GRASS with the appropriate
 #               user interface and cleans up after it is finished.
+<<<<<<< HEAD
 # COPYRIGHT:    (C) 2000-2024 by the GRASS Development Team
+=======
+# COPYRIGHT:    (C) 2000-2022 by the GRASS Development Team
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #
 #               This program is free software under the GNU General
 #               Public License (>=v2). Read the file COPYING that
@@ -336,8 +340,12 @@ def help_message(default_gui):
             gui_detail=_("and set as default"),
             config=_("print GRASS configuration parameters"),
             config_detail=_(
+<<<<<<< HEAD
                 "options: arch,build,compiler,date,path,python_path,revision,"
                 "svn_revision,version"
+=======
+                "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             ),
             params=_("Parameters"),
             gisdbase=_("initial GRASS database directory"),
@@ -391,6 +399,7 @@ def create_grass_config_dir():
     (the one which caries mapset settings from session to session).
     """
 <<<<<<< HEAD
+<<<<<<< HEAD
     from grass.app.runtime import get_grass_config_dir
 
     try:
@@ -401,11 +410,16 @@ def create_grass_config_dir():
         fatal(f"{e}")
 
 =======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
     # The code is in sync with grass.app.runtime (but not the same).
 =======
 <<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     if WINDOWS:
         grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
 =======
@@ -415,6 +429,10 @@ def create_grass_config_dir():
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+    if WINDOWS:
+        grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         win_conf_path = os.getenv("APPDATA")
         # this can happen with some strange settings
         if not win_conf_path:
@@ -438,6 +456,7 @@ def create_grass_config_dir():
     else:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
 =======
         grass_config_dirname = ".grass8"
@@ -445,6 +464,9 @@ def create_grass_config_dir():
 =======
         grass_config_dirname = ".grass8"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+        grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         directory = os.path.join(os.getenv("HOME"), grass_config_dirname)
 >>>>>>> d4ef6f4dbb (Programmer's manual: update GRASS GIS arch drawing (#1610))
     if not os.path.isdir(directory):
@@ -479,12 +501,16 @@ def create_tmp(user, gis_lock):
     tmpdir_name = f"grass{GRASS_VERSION_MAJOR}-{user}-{gis_lock}"
     if tmp:
 <<<<<<< HEAD
+<<<<<<< HEAD
         tmpdir = os.path.join(tmp, tmpdir_name)
 =======
         tmpdir = os.path.join(
             tmp, "grass8-%(user)s-%(lock)s" % {"user": user, "lock": gis_lock}
         )
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+        tmpdir = os.path.join(tmp, tmpdir_name)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         try:
             os.mkdir(tmpdir, 0o700)
         except:  # noqa: E722
@@ -494,12 +520,16 @@ def create_tmp(user, gis_lock):
         for ttmp in ("/tmp", "/var/tmp", "/usr/tmp"):
             tmp = ttmp
 <<<<<<< HEAD
+<<<<<<< HEAD
             tmpdir = os.path.join(tmp, tmpdir_name)
 =======
             tmpdir = os.path.join(
                 tmp, "grass8-%(user)s-%(lock)s" % {"user": user, "lock": gis_lock}
             )
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+            tmpdir = os.path.join(tmp, tmpdir_name)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             try:
                 os.mkdir(tmpdir, 0o700)
             except:  # noqa: E722
@@ -510,6 +540,7 @@ def create_tmp(user, gis_lock):
     if not tmp:
         fatal(
 <<<<<<< HEAD
+<<<<<<< HEAD
             _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
                 tmpdir_name=tmpdir_name
 =======
@@ -517,6 +548,10 @@ def create_tmp(user, gis_lock):
                 "Unable to create temporary directory <grass8-%(user)s-"
                 "%(lock)s>! Exiting."
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+            _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
+                tmpdir_name=tmpdir_name
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             )
         )
 
@@ -920,6 +955,7 @@ def set_mapset(
                 else:
                     suggestion = _("Maybe you meant a different directory.")
                 fatal("{reason}\n{suggestion}".format(**locals()))
+<<<<<<< HEAD
             # 'path' is not valid and the user wants to create
             # mapset on the fly
             # check if 'location_name' is a valid GRASS location
@@ -952,6 +988,115 @@ def set_mapset(
                     message(
                         _("Creating new GRASS GIS project <{}>...").format(
                             location_name
+=======
+            else:
+                # 'path' is not valid and the user wants to create
+                # mapset on the fly
+                # check if 'location_name' is a valid GRASS location
+                if not is_location_valid(gisdbase, location_name):
+                    if not (tmp_location or tmp_mapset):
+                        # 'location_name' is not a valid GRASS location
+                        # and user requested its creation, so we parsed
+                        # the path wrong and need to move one level
+                        # and use 'PERMANENT' mapset
+                        # (we already got that right in case of tmploc)
+                        gisdbase = os.path.join(gisdbase, location_name)
+                        location_name = mapset
+                        mapset = "PERMANENT"
+                    if tmp_mapset:
+                        suggestion = get_location_invalid_suggestion(
+                            gisdbase, location_name
+                        )
+                        reason = get_location_invalid_reason(gisdbase, location_name)
+                        if suggestion:
+                            fatal("{reason}\n{suggestion}".format(**locals()))
+                        else:
+                            fatal(reason)
+                    if not can_create_location(gisdbase, location_name):
+                        fatal(cannot_create_location_reason(gisdbase, location_name))
+                    # create new location based on the provided EPSG/...
+                    if not geofile:
+<<<<<<< HEAD
+                        fatal(_("Provide CRS to create a project"))
+                    if not tmp_location:
+                        # Report report only when new location is not temporary.
+                        message(
+                            _("Creating new GRASS GIS project <{}>...").format(
+=======
+                        fatal(_("Provide CRS to create a location"))
+                    if not tmp_location:
+                        # Report report only when new location is not temporary.
+                        message(
+                            _("Creating new GRASS GIS location <{}>...").format(
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+                                location_name
+                            )
+                        )
+                    create_location(gisdbase, location_name, geofile)
+                else:
+                    # 'location_name' is a valid GRASS location,
+                    # create new mapset
+                    if os.path.isfile(path):
+                        # not a valid mapset, but dir exists, assuming
+                        # broken/incomplete mapset
+                        fatal(
+                            _(
+                                "Unable to create new mapset <{mapset}>"
+                                " because <{path}> is a file."
+                            ).format(mapset=mapset, path=path)
+                        )
+                    elif os.path.isdir(path):
+                        # not a valid mapset, but dir exists, assuming
+                        # broken/incomplete mapset
+                        warning(
+                            _(
+                                "The mapset <{}> is missing the WIND file"
+                                " (computational region). It will be"
+                                " fixed now. Note that this warning"
+                                " may become an error in future versions."
+                            ).format(mapset)
+                        )
+                    else:
+                        if geofile:
+                            fatal(
+                                _(
+                                    "No CRS is needed for creating mapset <{mapset}>, "
+                                    "but <{geofile}> was provided as CRS."
+<<<<<<< HEAD
+                                    " Did you mean to create a new project?"
+                                ).format(mapset=mapset, geofile=geofile)
+                            )
+                        if not tmp_mapset:
+                            message(
+                                _("Creating new GRASS GIS mapset <{}>...").format(
+                                    mapset
+                                )
+=======
+                                    " Did you mean to create a new location?"
+                                ).format(mapset=mapset, geofile=geofile)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+                            )
+                        # create mapset directory
+                        os.mkdir(path)
+                        if tmp_mapset:
+                            # The tmp location is handled by (re-)using the
+                            # tmpdir, but we need to take care of the tmp
+                            # mapset which is only a subtree in an existing
+                            # location. We simply remove the tree at exit.
+                            # All mapset cleaning functions should succeed
+                            # because they are called before exit or registered
+                            # only later (and thus called before this one).
+                            # (Theoretically, they could be disabled if that's
+                            # just cleaning a files in the mapset directory.)
+                            atexit.register(
+                                lambda: shutil.rmtree(path, ignore_errors=True)
+                            )
+                    # make directory a mapset, add the region
+                    # copy PERMANENT/DEFAULT_WIND to <mapset>/WIND
+                    s = readfile(
+                        os.path.join(
+                            gisdbase, location_name, "PERMANENT", "DEFAULT_WIND"
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
                         )
                     )
                 create_location(gisdbase, location_name, geofile)

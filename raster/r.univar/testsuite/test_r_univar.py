@@ -145,6 +145,7 @@ class TestRasterUnivar(TestCase):
             nprocs=4,
             reference=univar_string,
             precision=6,
+<<<<<<< HEAD
             sep="=",
         )
 
@@ -202,6 +203,8 @@ class TestRasterUnivar(TestCase):
             nprocs=1,
             reference=univar_string_double,
             precision=6,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             sep="=",
         )
 
@@ -299,6 +302,7 @@ class TestRasterUnivar(TestCase):
             nprocs=4,
             reference=univar_string,
             precision=6,
+<<<<<<< HEAD
             sep="=",
         )
 
@@ -337,6 +341,8 @@ class TestRasterUnivar(TestCase):
             nprocs=4,
             reference=univar_string,
             precision=6,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             sep="=",
         )
 
@@ -412,7 +418,11 @@ class TestRasterUnivar(TestCase):
                         zone=2;
                         n=12780
                         null_cells=0
+<<<<<<< HEAD
                         cells=12780
+=======
+                        cells=3420
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                         min=121
                         max=380
                         range=259
@@ -470,7 +480,11 @@ class TestRasterUnivar(TestCase):
                         zone=2;
                         n=12780
                         null_cells=0
+<<<<<<< HEAD
                         cells=12780
+=======
+                        cells=3420
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                         min=121
                         max=380
                         range=259
@@ -502,6 +516,7 @@ class TestRasterUnivar(TestCase):
             nprocs=4,
             reference=univar_string,
             precision=6,
+<<<<<<< HEAD
             sep="=",
         )
 
@@ -564,6 +579,8 @@ class TestRasterUnivar(TestCase):
             nprocs=4,
             reference=univar_string,
             precision=6,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             sep="=",
         )
 
