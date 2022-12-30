@@ -698,6 +698,7 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             super(PseudoDC, self).DrawLine(*args, **kwargs)
         else:
             super(PseudoDC, self).DrawLinePoint(*args, **kwargs)
@@ -839,6 +840,8 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1086,7 +1089,12 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
             super().DrawLine(*args, **kwargs)
         else:
             super().DrawLinePoint(*args, **kwargs)
@@ -1156,6 +1164,7 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1276,6 +1285,8 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1331,10 +1342,13 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
             super(PseudoDC, self).DrawLine(*args, **kwargs)
         else:
             super(PseudoDC, self).DrawLinePoint(*args, **kwargs)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1469,6 +1483,8 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -1726,7 +1742,12 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 
     def DrawRectangleRect(self, rect):
         if wxPythonPhoenix:
@@ -1833,6 +1854,7 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1954,6 +1976,8 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2195,6 +2219,8 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
     def DrawRectangle(self, *args, **kwargs):
         args = convertToInt(argsOrKwargs=args, roundVal=True)
         kwargs = convertToInt(argsOrKwargs=kwargs, roundVal=True)
@@ -2210,6 +2236,7 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
         kwargs = convertToInt(argsOrKwargs=kwargs, roundVal=True)
         super(PseudoDC, self).DrawCircle(*args, **kwargs)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2499,7 +2526,12 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 
 class ClientDC(wx.ClientDC):
     """Wrapper around wx.ClientDC to have more control

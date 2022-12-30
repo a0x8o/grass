@@ -125,6 +125,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -1127,7 +1128,12 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
         snprintf(input->com_line_ram, (400 * sizeof(char)),
                  "\"%s/etc/water/%s\"", G_gisbase(), RAM_NAME);
         fprintf(stderr,
@@ -2670,6 +2676,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 =======
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         sprintf(input->com_line_ram, "\"%s/etc/water/%s\"", G_gisbase(),
                 RAM_NAME);
         fprintf(stderr,
@@ -2681,9 +2689,18 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
             input->com_line_seg = (char *)G_calloc(400, sizeof(char));
             sprintf(input->com_line_seg, "\"%s/etc/water/%s\"", G_gisbase(),
                     SEG_NAME);
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
         }
     }
     else {
@@ -2807,6 +2824,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2992,6 +3010,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -3412,7 +3432,12 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
         snprintf(input->com_line_seg, (400, sizeof(char)),
                  "\"%s/etc/water/%s\"", G_gisbase(), SEG_NAME);
 =======
@@ -3544,6 +3569,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3577,9 +3603,12 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
         sprintf(input->com_line_seg, "\"%s/etc/water/%s\"", G_gisbase(),
                 SEG_NAME);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4552,7 +4581,12 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     G_message(_("\nIf you hit <return> by itself for the next question, this"));
@@ -4816,6 +4850,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        r.stats), but the format is suppossed to be "user-friendly" to
 =======
 <<<<<<< HEAD
@@ -4955,6 +4990,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -5200,7 +5237,12 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
        r.stats), but the format is supposed to be "user-friendly" to
 =======
        r.stats), but the format is suppossed to be "user-friendly" to
@@ -5266,6 +5308,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5347,6 +5390,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -5777,7 +5822,15 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+       r.stats), but the format is suppossed to be "user-friendly" to
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
        hydrologists. For the stats to be created, the armsed file output needs
        to exist. For the stats to be an option in this program: 1) it should be
        querried before the armsed file query, and 2) make the armsed file query
@@ -6105,6 +6158,7 @@ int basin_com_add(char **com_line, double d, double modifier,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6278,6 +6332,8 @@ int basin_com_add(char **com_line, double d, double modifier,
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -7344,8 +7400,12 @@ int basin_com_add(char **com_line, double d, double modifier,
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
     snprintf(buf, sizeof(buf), " t=%d", i);
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     sprintf(buf, " t=%d", i);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
