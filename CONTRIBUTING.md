@@ -122,6 +122,7 @@ git checkout -b new-feature
 
 You can use your favorite tools to change source code or other files
 <<<<<<< HEAD
+<<<<<<< HEAD
 in the local copy of the code. When making changes, please follow the
 [Programming Style Guide](./doc/development/style_guide.md).
 
@@ -147,6 +148,8 @@ For Python, run `black .` to apply standardized formatting. You can
 also run linter tools such as Pylint which will suggest different improvements
 to your code.
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 in the local copy of the code. When making changes, please follow
 Submitting Guidelines at
 <http://trac.osgeo.org/grass/wiki/Submitting>.
@@ -173,6 +176,81 @@ For Python, run `black .` to apply standardized formatting. You can
 also run linter tools such as Pylint which will suggest different improvements
 to your code.
 
+<<<<<<< HEAD
+=======
+### Testing changes
+
+Testing helps to ensure that the changes work well with the rest
+of the project. While there are many different ways to test,
+usually you will want to compile the source code (see below),
+add test code (using _grass.gunittest_ or pytest), and run code
+linters (automated code quality checks).
+
+There is a series of automated checks which will run on your pull request
+after you create one. You don't need to run all these
+checks locally and, indeed, some of them may fail for your code. This is a part of
+the standard iterative process of integrating changes into the main code,
+so if that happens, just see the error messages, go back to your code
+and try again. If you are not sure what to do, let others know in a pull
+request comment.
+
+Note that there are some steps you can do locally to improve your code.
+For Python, run `black .` to apply standardized formatting. You can
+also run linter tools such as Pylint which will suggest different improvements
+to your code.
+
+### Committing
+
+* Add files to the commit (changed ones or new ones):
+
+```bash
+git add file1
+git add file2
+```
+
+* Commit the change (first word is the module name):
+
+```bash
+git commit -m "module: added a new feature"
+```
+
+### Pushing changes to GitHub
+
+* Push your local feature branch to your fork:
+
+```bash
+git push origin new-feature
+```
+
+### Pull request
+
+When you push, GitHub will respond back in the command line to tell
+you what URL to use to create a pull request. You can follow that URL
+or you can go any time later to your fork on GitHub, display the
+branch `new-feature`, and GitHub will show you a button to create
+a pull request.
+
+Alternatively, you can explore GitHub CLI tool (_gh_) which allows you
+to do `git push` and create a pull request in one step with `gh pr create -fw`.
+
+### After creating a pull request
+
+GRASS GIS maintainers will now review your pull request.
+If needed, the maintainers will work with you to improve your changes.
+
+Once the changes in the pull request are ready to be accepted,
+the maintainers will usually squash all your commits into one commit and merge it
+to the _main_ branch.
+
+Once the pull request is merged, it is a good time to update your
+local _main_ branch in order to get the change you just contributed.
+
+### Further notes
+
+GRASS GIS maintainers use additional workflows besides the one described
+above. These are detailed at <https://trac.osgeo.org/grass/wiki/HowToGit>
+
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 ## Compilation
 
 More often than not, in order to test the changes, you need to create
