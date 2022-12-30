@@ -245,6 +245,7 @@ def test_tiling(tmp_path, width, height, processes):
         info = gs.raster_info("slope")
         assert info["min"] > 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 @xfail_mp_spawn
@@ -284,3 +285,5 @@ def test_patching_error(tmp_path, processes, backend):
         assert int(info["null_cells"]) == 0
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
