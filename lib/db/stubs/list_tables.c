@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_list_tables(dbString **names, int *count, int system)
 =======
 <<<<<<< HEAD
@@ -84,6 +85,10 @@ int db__driver_list_tables(dbString **names, int *count, int system)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_list_tables(dbString **names UNUSED, int *count UNUSED,
                            int system UNUSED)
 =======
@@ -109,6 +114,9 @@ int db__driver_list_tables(dbString **names, int *count, int system)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 int db__driver_list_tables(dbString **names, int *count, int system)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -230,7 +238,12 @@ int db__driver_list_tables(dbString **names, int *count, int system)
 =======
 int db__driver_list_tables(dbString **names, int *count, int system)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 {
     db_procedure_not_implemented("db_list_tables");
     return DB_FAILED;
