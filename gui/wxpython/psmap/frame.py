@@ -516,6 +516,7 @@ class PsMapFrame(wx.Frame):
                     if self.instruction[self.pageId]["Orientation"] == "Landscape":
                         import numpy as np
 
+<<<<<<< HEAD
                         im_array = np.array(im)
                         im = PILImage.fromarray(np.rot90(im_array, 3))
                     im.save(self.imgName, format="PNG")
@@ -540,6 +541,46 @@ class PsMapFrame(wx.Frame):
                     dlg.ShowModal()
                     dlg.Destroy()
                     return
+=======
+                    im_array = np.array(im)
+                    im = PILImage.fromarray(np.rot90(im_array, 3))
+                im.save(self.imgName, format="PNG")
+<<<<<<< HEAD
+            except OSError:
+=======
+            except (IOError, OSError):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+                del busy
+                program = self._getGhostscriptProgramName()
+                dlg = HyperlinkDialog(
+                    self,
+                    title=_("Preview not available"),
+                    message=_(
+                        "Preview is not available probably because Ghostscript is not "
+                        "installed or not on PATH."
+                    ),
+                    hyperlink="https://www.ghostscript.com/releases/gsdnld.html",
+                    hyperlinkLabel=_(
+                        "You can download {program} {arch} version here."
+                    ).format(
+                        program=program,
+                        arch="64bit" if "64" in program else "32bit",
+                    ),
+<<<<<<< HEAD
+=======
+                    hyperlink="https://www.ghostscript.com/releases/gsdnld.html",
+                    hyperlinkLabel=_(
+                        "You can donwload {program} {arch} version here."
+                    ).format(
+                        program=program,
+                        arch="64bit" if "64" in program else "32bit",
+                    ),
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+                )
+                dlg.ShowModal()
+                dlg.Destroy()
+                return
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 
                 self.book.SetSelection(1)
                 self.currentPage = 1
