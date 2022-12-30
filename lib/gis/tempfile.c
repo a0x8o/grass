@@ -319,6 +319,7 @@ void G__temp_element(char *element, int tmp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -643,6 +644,8 @@ void G__temp_element(char *element, int tmp)
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -1736,10 +1739,13 @@ void G__temp_element(char *element, int tmp)
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 
 =======
     
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2155,7 +2161,15 @@ void G__temp_element(char *element, int tmp)
     
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
     G_debug(2, "G__temp_element(): %s (tmp=%d)", element, tmp);
 }
 

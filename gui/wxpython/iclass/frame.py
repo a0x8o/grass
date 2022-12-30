@@ -195,6 +195,7 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param toolbars: dictionary of active toolbars (default value represents all toolbars)
 =======
 <<<<<<< HEAD
@@ -659,6 +660,8 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -847,7 +850,12 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
         :param toolbars: dictionary of active toolbars (default value represents all
                          toolbars)
 =======
@@ -949,6 +957,7 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1080,6 +1089,8 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1555,6 +1566,7 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1764,6 +1776,10 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
         :param size: default size
         """
         DoubleMapPanel.__init__(
@@ -1870,6 +1886,7 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2054,6 +2071,8 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -2808,12 +2827,16 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
         # show computation region by default
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3028,6 +3051,8 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
         # show computation region by defaut
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         self.mapWindowProperties.showRegion = True
@@ -3108,6 +3133,7 @@ class IClassMapPanel(DoubleMapPanel):
             sb.SbCoordinates,
             sb.SbRegionExtent,
             sb.SbCompRegionExtent,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3436,6 +3462,8 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> d1efe03bea (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> cfd421bf4a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 96263f4797 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
@@ -3723,7 +3751,12 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 =======
 >>>>>>> 90ad523f8c (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
 >>>>>>> d1efe03bea (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
             sb.SbDisplayGeometry,
             sb.SbMapScale,
             sb.SbGoTo,
@@ -4692,6 +4725,7 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
@@ -4723,6 +4757,8 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> e7579ce5b9 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
@@ -4827,10 +4863,13 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+=======
             sb.SbDisplayGeometry,
             sb.SbMapScale,
             sb.SbGoTo,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4960,6 +4999,8 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6167,7 +6208,12 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 90ad523f8c (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
 >>>>>>> d1efe03bea (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
         ]
         self.statusbar = self.CreateStatusbar(statusbarItems)
         self._addPanes()
@@ -10943,6 +10989,7 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(IClassMapPanel, self).OnZoomIn(event)
 =======
 <<<<<<< HEAD
@@ -11407,6 +11454,8 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11595,7 +11644,12 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
         super().OnZoomIn(event)
 =======
         super(IClassMapPanel, self).OnZoomIn(event)
@@ -11696,6 +11750,7 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11827,6 +11882,8 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -12302,6 +12359,7 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -12511,6 +12569,10 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
         self.plotPanel.EnableZoom(type=1)
 
     def OnZoomOut(self, event):
@@ -12616,6 +12678,7 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(IClassMapPanel, self).OnZoomOut(event)
 =======
 <<<<<<< HEAD
@@ -13080,6 +13143,8 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13268,7 +13333,12 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
         super().OnZoomOut(event)
 =======
         super(IClassMapPanel, self).OnZoomOut(event)
@@ -13369,6 +13439,7 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13500,6 +13571,8 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -13975,6 +14048,7 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -14184,6 +14258,10 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
         self.plotPanel.EnableZoom(type=-1)
 
     def OnPan(self, event):
@@ -14289,6 +14367,7 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(IClassMapPanel, self).OnPan(event)
 =======
 <<<<<<< HEAD
@@ -14753,6 +14832,8 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14941,7 +15022,12 @@ class IClassMapPanel(DoubleMapPanel):
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
         super().OnPan(event)
 =======
         super(IClassMapPanel, self).OnPan(event)
@@ -15042,6 +15128,7 @@ class IClassMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -15173,6 +15260,8 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -15648,6 +15737,7 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -15857,6 +15947,10 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
         self.plotPanel.EnablePan()
 
     def OnPointer(self, event):

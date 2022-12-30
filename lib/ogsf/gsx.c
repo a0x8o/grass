@@ -209,6 +209,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -537,6 +538,8 @@
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -734,6 +737,8 @@
 >>>>>>> 3b4a1c4066 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 void (*Cxl_func)(void);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -819,7 +824,11 @@ void (*Cxl_func)(void);
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 void (*Cxl_func)();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2573,6 +2582,7 @@ void (*Cxl_func)();
 =======
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
@@ -3038,6 +3048,10 @@ void (*Cxl_func)();
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 
 static int Cxl = 0;
 

@@ -148,6 +148,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -403,6 +404,8 @@
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -1181,12 +1184,16 @@
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5c566ffedc (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1496,6 +1503,8 @@
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 #define METHOD_NONE       0
 #define METHOD_N          1
 #define METHOD_MIN        2
@@ -1555,6 +1564,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2430,6 +2442,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
@@ -2469,6 +2482,8 @@
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3179,6 +3194,7 @@
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5c566ffedc (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -3501,6 +3517,10 @@
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 #define METHOD_MEDIAN     10
 #define METHOD_MODE       11
 #define METHOD_PERCENTILE 12
@@ -3660,6 +3680,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3912,6 +3933,8 @@
 =======
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -4160,7 +4183,12 @@
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 struct z_node {
 =======
 <<<<<<< HEAD
@@ -4744,6 +4772,7 @@ struct z_node
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4868,6 +4897,8 @@ struct z_node
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 struct z_node {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -5750,13 +5781,17 @@ struct z_node {
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5c566ffedc (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 struct z_node {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6092,6 +6127,8 @@ struct z_node {
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
     int next;
     double z;
 };
@@ -6244,6 +6281,7 @@ struct z_node {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6488,6 +6526,8 @@ struct z_node {
 =======
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -6632,6 +6672,8 @@ struct z_node {
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 struct cnt_node {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6667,7 +6709,11 @@ struct cnt_node
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+<<<<<<< HEAD
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -8328,7 +8374,15 @@ struct cnt_node {
 =======
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+struct cnt_node {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
     int next;
     CELL value;
     int count;
@@ -8482,6 +8536,7 @@ struct cnt_node {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8726,6 +8781,8 @@ struct cnt_node {
 =======
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -8870,6 +8927,8 @@ struct cnt_node {
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 struct com_node {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8905,7 +8964,11 @@ struct com_node
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+<<<<<<< HEAD
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -10565,7 +10628,15 @@ struct com_node {
 =======
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+struct com_node {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
     int n;
     double *meanx;
     double *meany;
@@ -10720,6 +10791,7 @@ struct com_node {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10964,6 +11036,8 @@ struct com_node {
 =======
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -11108,6 +11182,8 @@ struct com_node {
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 struct BinIndex {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11143,7 +11219,11 @@ struct BinIndex
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+<<<<<<< HEAD
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -12803,7 +12883,15 @@ struct BinIndex {
 =======
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+struct BinIndex {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
     int num_nodes;
     int max_nodes;
     void *nodes;
@@ -12957,6 +13045,7 @@ struct BinIndex {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13201,6 +13290,8 @@ struct BinIndex {
 =======
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -13345,6 +13436,8 @@ struct BinIndex {
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 struct PointBinning {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13380,7 +13473,11 @@ struct PointBinning
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0a74870c80 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+<<<<<<< HEAD
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -15040,7 +15137,15 @@ struct PointBinning {
 =======
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+struct PointBinning {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
     int method;
 
     int bin_n;
@@ -15204,6 +15309,7 @@ void point_binning_free(struct PointBinning *, struct BinIndex *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15459,6 +15565,8 @@ void point_binning_free(struct PointBinning *, struct BinIndex *);
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -16237,12 +16345,16 @@ void point_binning_free(struct PointBinning *, struct BinIndex *);
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5c566ffedc (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16552,6 +16664,8 @@ void point_binning_free(struct PointBinning *, struct BinIndex *);
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 void write_values(struct PointBinning *, struct BinIndex *, void *, int, int,
                   RASTER_MAP_TYPE);
 void update_value(struct PointBinning *, struct BinIndex *, int, int, int,
@@ -16605,6 +16719,9 @@ void update_value(struct PointBinning *, struct BinIndex *, int, int, int,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -17477,6 +17594,7 @@ void update_value(struct PointBinning *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
@@ -17516,6 +17634,8 @@ void update_value(struct PointBinning *,
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -18226,6 +18346,7 @@ void update_value(struct PointBinning *,
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5c566ffedc (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -18548,5 +18669,9 @@ void update_value(struct PointBinning *,
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 
 #endif /* __POINT_BINNING_H__ */

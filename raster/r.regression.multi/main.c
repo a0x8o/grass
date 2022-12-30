@@ -513,6 +513,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -841,6 +842,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1038,6 +1041,8 @@ int main(int argc, char *argv[])
 >>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
     if (count < (unsigned int)n_predictors + 1)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1123,7 +1128,11 @@ int main(int argc, char *argv[])
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
     if (count < n_predictors + 1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2880,6 +2889,7 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
@@ -3350,6 +3360,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error(_("Not enough valid cells available"));
 
     for (k = 0; k <= n_predictors; k++) {

@@ -783,6 +783,7 @@ class GrassTestFilesHtmlReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(GrassTestFilesHtmlReporter, self).end_file_test(
 =======
 <<<<<<< HEAD
@@ -1247,6 +1248,8 @@ class GrassTestFilesHtmlReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1435,7 +1438,12 @@ class GrassTestFilesHtmlReporter(GrassTestFilesCountingReporter):
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
         super().end_file_test(
 =======
         super(GrassTestFilesHtmlReporter, self).end_file_test(
@@ -1536,6 +1544,7 @@ class GrassTestFilesHtmlReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1667,6 +1676,8 @@ class GrassTestFilesHtmlReporter(GrassTestFilesCountingReporter):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2142,6 +2153,7 @@ class GrassTestFilesHtmlReporter(GrassTestFilesCountingReporter):
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2351,6 +2363,10 @@ class GrassTestFilesHtmlReporter(GrassTestFilesCountingReporter):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
             module=module,
             cwd=cwd,
             returncode=returncode,
@@ -2703,6 +2719,7 @@ class GrassTestFilesKeyValueReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(GrassTestFilesKeyValueReporter, self).end_file_test(
 =======
 <<<<<<< HEAD
@@ -3167,6 +3184,8 @@ class GrassTestFilesKeyValueReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3355,7 +3374,12 @@ class GrassTestFilesKeyValueReporter(GrassTestFilesCountingReporter):
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
         super().end_file_test(
 =======
         super(GrassTestFilesKeyValueReporter, self).end_file_test(
@@ -3456,6 +3480,7 @@ class GrassTestFilesKeyValueReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3587,6 +3612,8 @@ class GrassTestFilesKeyValueReporter(GrassTestFilesCountingReporter):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -4062,6 +4089,7 @@ class GrassTestFilesKeyValueReporter(GrassTestFilesCountingReporter):
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4271,6 +4299,10 @@ class GrassTestFilesKeyValueReporter(GrassTestFilesCountingReporter):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
             module=module,
             cwd=cwd,
             returncode=returncode,
@@ -5454,6 +5486,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(GrassTestFilesTextReporter, self).end_file_test(
 =======
 <<<<<<< HEAD
@@ -5918,6 +5951,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6106,7 +6141,12 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
         super().end_file_test(
 =======
         super(GrassTestFilesTextReporter, self).end_file_test(
@@ -6207,6 +6247,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6338,6 +6379,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -6813,6 +6856,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -7022,6 +7066,10 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
             module=module,
             cwd=cwd,
             returncode=returncode,
@@ -7231,6 +7279,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7595,6 +7644,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -7856,6 +7907,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> d040029157 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
             self._stream.write(f"FAILED {module.file_path}")
             if timed_out:
                 self._stream.write(f" - Timeout >{timed_out}s")
@@ -8020,10 +8073,14 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -8057,10 +8114,14 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
             self._stream.write(f"FAILED {module.file_path}")
             if timed_out:
                 self._stream.write(f" - Timeout >{timed_out}s")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8129,6 +8190,9 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 <<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -10079,6 +10143,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> 80ffe15841 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cf6e2e0efd (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -10527,6 +10592,10 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> 1d6ad40ebe (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 740bf772d6 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
             num_failed = test_summary.get("failures", 0)
             num_failed += test_summary.get("errors", 0)
             if num_failed:

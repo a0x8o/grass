@@ -663,6 +663,7 @@ void P_Aux_to_Raster(double **matrix, int fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 =======
 <<<<<<< HEAD
@@ -1128,6 +1129,8 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1315,13 +1318,19 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 void P_Aux_to_Vector(struct Map_info *Map UNUSED, struct Map_info *Out,
 >>>>>>> osgeo-main
                      dbDriver *driver, char *tab_name)
 {
 
     int more, type;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1349,6 +1358,8 @@ void P_Aux_to_Vector(struct Map_info *Map UNUSED, struct Map_info *Out,
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
@@ -1416,11 +1427,14 @@ void P_Aux_to_Vector(struct Map_info *Map UNUSED, struct Map_info *Out,
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+=======
 void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
                      dbDriver *driver, char *tab_name)
 {
 
 >>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3439,12 +3453,16 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
     int more, type, count = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3861,6 +3879,8 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
     double coordX, coordY, coordZ;
 
     struct line_pnts *point;
@@ -3983,6 +4003,7 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4405,6 +4426,8 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 >>>>>>> f2ff4a2b4d (Fix missing function prototypes (#2727))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -6319,7 +6342,15 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 =======
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+        count++;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
         table = db_get_cursor_table(&cursor);
 
         column = db_get_table_column(table, 0);

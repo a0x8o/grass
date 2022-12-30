@@ -200,6 +200,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -406,6 +407,8 @@ int main(int argc, char *argv[])
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -1075,6 +1078,7 @@ int main(int argc, char *argv[])
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1234,12 +1238,15 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 
     if (!I_find_subgroup(grp_opt->answer, subgrp_opt->answer))
         G_fatal_error(_("Subgroup <%s> in group <%s> not found"),
                       subgrp_opt->answer, grp_opt->answer);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1420,12 +1427,15 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
     if (!I_find_subgroup(grp_opt->answer, subgrp_opt->answer))
         G_fatal_error(_("Subgroup <%s> in group <%s> not found"),
                       subgrp_opt->answer, grp_opt->answer);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1578,6 +1588,8 @@ int main(int argc, char *argv[])
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
     if (I_get_subgroup_ref(grp_opt->answer, subgrp_opt->answer, &refs) <= 0)
         G_fatal_error(_("Unable to find subgroup reference information."));
 
@@ -1728,6 +1740,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -2171,6 +2186,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2335,6 +2351,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
     if ((sigfp = I_fopen_signature_file_old(sig_opt->answer)) == NULL)
         G_fatal_error(_("Unable to open the signature file"));
 =======
@@ -2892,6 +2912,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3076,6 +3097,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3173,9 +3196,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+=======
     if ((sigfp = I_fopen_signature_file_old(sig_opt->answer)) == NULL)
         G_fatal_error(_("Unable to open the signature file"));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3441,6 +3467,8 @@ int main(int argc, char *argv[])
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -4451,7 +4479,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> a74c224a9d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 
     if (I_read_signatures(sigfp, &sigs) < 0)
         G_fatal_error(_("Error while reading the signatures file."));
@@ -4460,6 +4493,7 @@ int main(int argc, char *argv[])
     nclass = sigs.nsigs;
     if (nclass < 2)
         G_fatal_error(_("Need at least two signatures in signature file."));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5348,6 +5382,8 @@ int main(int argc, char *argv[])
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 
     err = I_sort_signatures_by_semantic_label(&sigs, &refs);
     if (err)
@@ -5355,15 +5391,15 @@ int main(int argc, char *argv[])
                         "Extra signatures for bands: %s\n"
                         "Imagery group bands without signatures: %s"),
                       err[0] ? err[0] : _("none"), err[1] ? err[1] : _("none"));
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
-    err = I_sort_signatures_by_bandref(&sigs, &refs);
+    err = I_sort_signatures_by_semantic_label(&sigs, &refs);
     if (err)
-        G_fatal_error(_("Signature – group member band reference mismatch.\n"
-            "Extra signatures for bands: %s\n"
-            "Imagery group bands without signatures: %s"),
-            err[0] ? err[0] : _("none"),
-            err[1] ? err[1] : _("none")
-        );
+        G_fatal_error(_("Signature - group member semantic label mismatch.\n"
+                        "Extra signatures for bands: %s\n"
+                        "Imagery group bands without signatures: %s"),
+                      err[0] ? err[0] : _("none"), err[1] ? err[1] : _("none"));
 
     /* check the number of input bands */
     bands = refs.nfiles;

@@ -275,6 +275,7 @@ class SuccessTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -602,6 +603,8 @@ class SuccessTest(TestCase):
 >>>>>>> 69ab96ba5d (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 899ab996ca (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1107,6 +1110,8 @@ class SuccessTest(TestCase):
 >>>>>>> 75205cb772 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> e0fc7e2fee (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
             expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
 >>>>>>> bea6abbdbb (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -1141,7 +1146,11 @@ class SuccessTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
@@ -2895,7 +2904,12 @@ class SuccessTest(TestCase):
             expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> e0fc7e2fee (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> 899ab996ca (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
             flags="s",
             quiet=True,
         )

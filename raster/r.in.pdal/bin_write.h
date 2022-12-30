@@ -65,6 +65,7 @@ void write_sum(void *, void *, void *, int, int, RASTER_MAP_TYPE);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -761,6 +762,7 @@ void write_sum(void *, void *, void *, int, int, RASTER_MAP_TYPE);
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5c566ffedc (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -1068,6 +1070,10 @@ void write_sum(void *, void *, void *, int, int, RASTER_MAP_TYPE);
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 void write_variance(void *, void *, void *, void *, int, int, RASTER_MAP_TYPE,
                     int);
 void write_median(struct BinIndex *, void *, void *, int, int, RASTER_MAP_TYPE);
@@ -1757,6 +1763,7 @@ void write_median(struct BinIndex *, void *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1943,6 +1950,8 @@ void write_median(struct BinIndex *, void *,
 =======
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2013,6 +2022,7 @@ void write_median(struct BinIndex *, void *,
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -2059,6 +2069,8 @@ void write_median(struct BinIndex *, void *,
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 void write_variance(void *, void *, void *, void *, int, int, RASTER_MAP_TYPE,
                     int);
 void write_median(struct BinIndex *, void *, void *, int, int, RASTER_MAP_TYPE);
@@ -2110,6 +2122,9 @@ void write_median(struct BinIndex *, void *, void *, int, int, RASTER_MAP_TYPE);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3730,16 +3745,25 @@ void write_sidn(struct BinIndex *, void *, void *, int, int, int);
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 void write_mode(struct BinIndex *, void *, void *, int, int);
-void write_percentile(struct BinIndex *, void *,
-                      void *, int, int, RASTER_MAP_TYPE, int);
-void write_skewness(struct BinIndex *, void *,
-                    void *, int, int, RASTER_MAP_TYPE);
-void write_trimmean(struct BinIndex *, void *,
-                    void *, int, int, RASTER_MAP_TYPE, double);
+void write_percentile(struct BinIndex *, void *, void *, int, int,
+                      RASTER_MAP_TYPE, int);
+void write_skewness(struct BinIndex *, void *, void *, int, int,
+                    RASTER_MAP_TYPE);
+void write_trimmean(struct BinIndex *, void *, void *, int, int,
+                    RASTER_MAP_TYPE, double);
 void write_sidn(struct BinIndex *, void *, void *, int, int, int);
+<<<<<<< HEAD
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 void write_ev(struct BinIndex *, void *, void *,
               int, int, RASTER_MAP_TYPE, int);
 
@@ -3872,7 +3896,10 @@ void write_ev(struct BinIndex *, void *, void *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3912,9 +3939,12 @@ void write_ev(struct BinIndex *, void *, void *,
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+=======
 void write_ev(struct BinIndex *, void *, void *, int, int, RASTER_MAP_TYPE,
               int);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4455,6 +4485,7 @@ void write_ev(struct BinIndex *, void *, void *, int, int, RASTER_MAP_TYPE,
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5c566ffedc (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -4777,5 +4808,9 @@ void write_ev(struct BinIndex *, void *, void *, int, int, RASTER_MAP_TYPE,
 =======
 >>>>>>> 00836f7c93 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 27a400fa99 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 
 #endif /* __BIN_WRITE_H__ */

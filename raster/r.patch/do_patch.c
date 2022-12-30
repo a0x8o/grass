@@ -170,6 +170,7 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -537,6 +538,8 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -1648,11 +1651,14 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
              RASTER_MAP_TYPE out_type, size_t out_cell_size, int use_zero,
              int no_support)
 =======
              RASTER_MAP_TYPE out_type, size_t out_cell_size, int use_zero)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1696,9 +1702,12 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+=======
              RASTER_MAP_TYPE out_type, size_t out_cell_size, int use_zero,
              int no_support)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2085,7 +2094,12 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
              RASTER_MAP_TYPE out_type, size_t out_cell_size, int use_zero)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> a74c224a9d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 {
     int more;
 
@@ -2145,6 +2159,7 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -2841,6 +2856,7 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 =======
 >>>>>>> a74c224a9d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c940746c7a (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -3148,6 +3164,10 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 =======
 >>>>>>> a74c224a9d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
                     if (out_type == CELL_TYPE && !no_support)
                         Rast_update_cell_stats((CELL *)result, 1, statf);
                 }
@@ -3834,6 +3854,7 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3897,6 +3918,8 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3976,6 +3999,8 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+=======
                     if (out_type == CELL_TYPE && !no_support)
                         Rast_update_cell_stats((CELL *)result, 1, statf);
                 }
@@ -3983,6 +4008,7 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
         }
         else { /* use NULL for transparency instead of 0 */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4160,6 +4186,8 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -4844,6 +4872,7 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> a74c224a9d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c940746c7a (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -5192,6 +5221,10 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> a74c224a9d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 
             if (Rast_is_null_value(result, out_type)) {
                 if (Rast_is_null_value(patch, out_type))
@@ -5346,6 +5379,7 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5589,6 +5623,8 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -6158,6 +6194,7 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 =======
 >>>>>>> a74c224a9d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c940746c7a (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -6392,6 +6429,10 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 =======
 >>>>>>> a74c224a9d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
                     if (out_type == CELL_TYPE && !no_support)
                         Rast_update_cell_stats((CELL *)result, 1, statf);
 =======
@@ -6606,6 +6647,7 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6643,6 +6685,7 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
@@ -6673,10 +6716,13 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
                     if (out_type == CELL_TYPE && !no_support)
                         Rast_update_cell_stats((CELL *)result, 1, statf);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6761,6 +6807,8 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
                     if (out_type == CELL_TYPE && !no_support)
                         Rast_update_cell_stats((CELL *)result, 1, statf);
@@ -7605,7 +7653,12 @@ int do_patch(void *result, void *patch, struct Cell_stats *statf, int ncols,
 =======
 =======
 >>>>>>> a74c224a9d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 6f830be51e (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
                 }
             } /* NULL support */
         }

@@ -391,6 +391,7 @@ void ReplacementHeapBlock<T, Compare>::deleteRun(size_t i)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     assert(i >= 0 && i < size && mergeHeap[i].run);
 =======
 <<<<<<< HEAD
@@ -855,6 +856,8 @@ void ReplacementHeapBlock<T, Compare>::deleteRun(size_t i)
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1043,7 +1046,12 @@ void ReplacementHeapBlock<T, Compare>::deleteRun(size_t i)
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
     assert(i < size && mergeHeap[i].run);
 =======
     assert(i >= 0 && i < size && mergeHeap[i].run);
@@ -1144,6 +1152,7 @@ void ReplacementHeapBlock<T, Compare>::deleteRun(size_t i)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1275,6 +1284,8 @@ void ReplacementHeapBlock<T, Compare>::deleteRun(size_t i)
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1750,6 +1761,7 @@ void ReplacementHeapBlock<T, Compare>::deleteRun(size_t i)
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1959,6 +1971,10 @@ void ReplacementHeapBlock<T, Compare>::deleteRun(size_t i)
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 
     RBHEAP_DEBUG
     {
@@ -2137,6 +2153,7 @@ void ReplacementHeapBlock<T, Compare>::heapify(size_t i)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     assert(i >= 0 && i < size);
 =======
 <<<<<<< HEAD
@@ -2601,6 +2618,8 @@ void ReplacementHeapBlock<T, Compare>::heapify(size_t i)
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2789,7 +2808,12 @@ void ReplacementHeapBlock<T, Compare>::heapify(size_t i)
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
     assert(i < size);
 =======
     assert(i >= 0 && i < size);
@@ -2890,6 +2914,7 @@ void ReplacementHeapBlock<T, Compare>::heapify(size_t i)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3021,6 +3046,8 @@ void ReplacementHeapBlock<T, Compare>::heapify(size_t i)
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -3496,6 +3523,7 @@ void ReplacementHeapBlock<T, Compare>::heapify(size_t i)
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3705,6 +3733,10 @@ void ReplacementHeapBlock<T, Compare>::heapify(size_t i)
 >>>>>>> 322172822f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
     if ((lc < size) && (cmpobj.compare(mergeHeap[lc].value,
                                        mergeHeap[min_index].value) == -1)) {
         min_index = lc;
