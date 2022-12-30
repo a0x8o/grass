@@ -99,6 +99,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -250,6 +251,8 @@
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -431,6 +434,8 @@ PROJCS["NAD_1983_HARN_StatePlane_North_Carolina_FIPS_3200",GEOGCS["GCS_North_Ame
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 PROJCS["NAD_1983_HARN_StatePlane_North_Carolina_FIPS_3200",GEOGCS["GCS_North_American_1983_HARN",DATUM["D_North_American_1983_HARN",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",609601.22],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-79.0],PARAMETER["Standard_Parallel_1",36.1666666666667],PARAMETER["Standard_Parallel_2",34.3333333333333],PARAMETER["Latitude_Of_Origin",33.75],UNIT["Meter",1.0]]
 =======
 =======
@@ -508,6 +513,7 @@ PROJCS["NAD_1983_HARN_StatePlane_North_Carolina_FIPS_3200",GEOGCS["GCS_North_Ame
 >>>>>>> osgeo-main
 PROJCS["NAD_1983_HARN_StatePlane_North_Carolina_FIPS_3200",GEOGCS["GCS_North_American_1983_HARN",DATUM["D_North_American_1983_HARN",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",609601.22],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-79.0],PARAMETER["Standard_Parallel_1",36.1666666666667],PARAMETER["Standard_Parallel_2",34.3333333333333],PARAMETER["Latitude_Of_Origin",33.75],UNIT["Meter",1.0]]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1411,4 +1417,12 @@ PROJCS["NAD_1983_HARN_StatePlane_North_Carolina_FIPS_3200",GEOGCS["GCS_North_Ame
 PROJCS["NAD_1983_HARN_StatePlane_North_Carolina_FIPS_3200",GEOGCS["GCS_North_American_1983_HARN",DATUM["D_North_American_1983_HARN",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",609601.22],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-79.0],PARAMETER["Standard_Parallel_1",36.1666666666667],PARAMETER["Standard_Parallel_2",34.3333333333333],PARAMETER["Latitude_Of_Origin",33.75],UNIT["Meter",1.0]]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+PROJCS["NAD_1983_HARN_StatePlane_North_Carolina_FIPS_3200",GEOGCS["GCS_North_American_1983_HARN",DATUM["D_North_American_1983_HARN",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",609601.22],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-79.0],PARAMETER["Standard_Parallel_1",36.1666666666667],PARAMETER["Standard_Parallel_2",34.3333333333333],PARAMETER["Latitude_Of_Origin",33.75],UNIT["Meter",1.0]]
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))

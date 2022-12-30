@@ -95,6 +95,7 @@ Status: Motion passed Apr 22, 2019
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -226,6 +227,8 @@ Status: Motion passed Apr 22, 2019
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -718,7 +721,12 @@ Status: Motion passed Apr 22, 2019
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 GRASS GIS is an open source geoinformation system which is developed by a globally
 distributed team of developers. Besides the source code developers also message
 translators, people who write documentation, those who report bugs and wishes and
@@ -1105,6 +1113,7 @@ The centralized source code management system Subversion (SVN) has served the GR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1205,6 +1214,8 @@ The centralized source code management system Subversion (SVN) has served the GR
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1244,10 +1255,13 @@ The centralized source code management system Subversion (SVN) has served the GR
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
 GRASS GIS is an open source geoinformation system which is developed by a globally distributed team of developers. Besides the source code developers also message translators, people who write documentation, those who report bugs and wishes and more are involved.
 
 The centralized source code management system Subversion (SVN) has served the GRASS GIS project very well since 2007. The project has established routines and infrastructure (code repository, ticketing system, developer wiki) connected to SVN. However, with an increasing number of Open Source developers using git (and here especially the success of GitHub), time has come to migrate the source code base from SVN kindly hosted by OSGeo to GitHub.com, a widely adopted development platform.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1336,6 +1350,8 @@ The centralized source code management system Subversion (SVN) has served the GR
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3424207483 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2457,7 +2473,12 @@ platform.
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 
 ## Background information of git migration
 
@@ -2560,6 +2581,7 @@ platform.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2760,6 +2782,8 @@ platform.
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -5976,6 +6000,8 @@ in time since they contain different branches:
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 Since migration is a huge effort, massive work on converting the existing source
 code (organized in branches) and the related trac tickets has been done. The main
 scope of weeks of efforts was to preserve as much information as possible by
@@ -6009,6 +6035,8 @@ in time since they contain different branches:
 =======
 =======
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 Since migration is a huge effort, massive work on converting the existing source code (organized in branches) and the related trac tickets has been done. The main scope of weeks of efforts was to preserve as much information as possible by converting trac/svn references to full URLs pointing to the old system kept available in read-only mode.
 
 The following new GitHub repositories have been [created](https://github.com/grass-svn2git). Note that the "cut-off" date of the main **grass** repository does not correspond to the first upload to CSV which was then migrated to SVN. The repositories **grass** and **grass-legacy** overlap in time since they contain different branches:
@@ -6022,9 +6050,18 @@ The following new GitHub repositories have been [created](https://github.com/gra
 * repository **grass-addons**
   * repository for addons
   * code re-organized from directory-like layout (grass6, grass7) into branches-like layout (master == grass7, grass6, ...)
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 * repository **grass-promo**
   * repository for promotional material
 
@@ -6133,6 +6170,7 @@ The final destination of these repositories will be under <https://github.com/OS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6344,6 +6382,8 @@ The final destination of these repositories will be under <https://github.com/OS
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -6728,7 +6768,12 @@ The final destination of these repositories will be under <https://github.com/OS
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 Given GRASS GIS’ history of 35+ years we had to invest major effort in identifying
 and mapping user names throughout the decades (CVS was used from 1999 to 2007; SVN
 has been used since 2007, see [history](https://grasswiki.osgeo.org/wiki/Bug_tracking)).
@@ -6797,6 +6842,7 @@ has been used since 2007, see [history](https://grasswiki.osgeo.org/wiki/Bug_tra
 >>>>>>> osgeo-main
 Given GRASS GIS’ history of 35+ years we had to invest major effort in identifying and mapping user names throughout the decades (CVS was used from 1999 to 2007; SVN has been used since 2007, see [history](https://grasswiki.osgeo.org/wiki/Bug_tracking)).
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7848,7 +7894,15 @@ has been used since 2007, see [history](https://grasswiki.osgeo.org/wiki/Bug_tra
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+Given GRASS GIS’ history of 35+ years we had to invest major effort in identifying and mapping user names throughout the decades (CVS was used from 1999 to 2007; SVN has been used since 2007, see [history](https://grasswiki.osgeo.org/wiki/Bug_tracking)).
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 
 The following circumstances could be identified:
 
@@ -7951,6 +8005,7 @@ The following circumstances could be identified:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8137,6 +8192,8 @@ The following circumstances could be identified:
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -9566,6 +9623,8 @@ The tickets migrated from trac to GitHub contain updated links in the ticket tex
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 * user present in both with different name as some were changed in the CVS to
   SVN migration in 2007, leading to colliding user names
 * some users already having a GitHub account (with mostly different name again)
@@ -10415,6 +10474,8 @@ The tickets migrated from trac to GitHub contain updated links in the ticket tex
 =======
 =======
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 * user present in both with different name as some were changed in the CVS to SVN migration in 2007, leading to colliding user names
 * some users already having a GitHub account (with mostly different name again)
   * see here for the [author mapping table](https://trac.osgeo.org/grass/browser/grass-addons/tools/svn2git/)
@@ -10428,9 +10489,18 @@ As the cut-off date for the trac migration we selected 2007-12-09 (r25479) as it
 The tickets migrated from trac to GitHub contain updated links in the ticket texts:
 
 * links to other tickets (closed now pointing to full trac URL, open pointing to a new github issues). Note that there were many styles of referring in the commit log message which had to be parsed accordingly.
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 * links to trac wiki (now pointing to full trac URL)
 * links source code in SVN (now pointing to full trac URL)
 * images and attachments (now pointing to full trac URL)
@@ -10538,6 +10608,7 @@ Labels are preserved by transferring:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -10612,6 +10683,8 @@ Labels are preserved by transferring:
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
@@ -11101,7 +11174,12 @@ Labels are preserved by transferring:
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 * "operating system" trac label into the GitHub issue text itself (following the
   new issue reporting template)
 * converting milestones/tickets/comments/labels
@@ -11299,6 +11377,7 @@ Labels are preserved by transferring:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11401,6 +11480,8 @@ Labels are preserved by transferring:
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11440,10 +11521,13 @@ Labels are preserved by transferring:
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
 * "operating system" trac label into the GitHub issue text itself (following the new issue reporting template)
 * converting milestones/tickets/comments/labels
 * converting trac usernames to known GitHub usernames (those missing at time can [claim](https://help.github.com/en/articles/why-are-my-commits-linked-to-the-wrong-user) commits)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11610,6 +11694,8 @@ Labels are preserved by transferring:
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3424207483 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 * "operating system" trac label into the GitHub issue text itself (following the new issue reporting template)
 * converting milestones/tickets/comments/labels
@@ -12491,7 +12577,12 @@ Labels are preserved by transferring:
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 * setting assignees if possible; otherwise set new "grass-svn2git" an assignee
 
 **New labels in the GitHub issue tracker:**
@@ -12597,6 +12688,7 @@ Labels are preserved by transferring:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12754,6 +12846,8 @@ Labels are preserved by transferring:
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13087,7 +13181,12 @@ Labels are preserved by transferring:
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 The trac component of the bug reports have been cleaned up following other OSGeo
 projects like GDAL and QGIS, leading to the following categories:
 =======
@@ -13185,6 +13284,7 @@ projects like GDAL and QGIS, leading to the following categories:
 >>>>>>> osgeo-main
 The trac component of the bug reports have been cleaned up following other OSGeo projects like GDAL and QGIS, leading to the following categories:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14047,7 +14147,15 @@ The trac component of the bug reports have been cleaned up following other OSGeo
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+The trac component of the bug reports have been cleaned up following other OSGeo projects like GDAL and QGIS, leading to the following categories:
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 
 * **Issue category**:
   * bug
@@ -14168,6 +14276,7 @@ The trac component of the bug reports have been cleaned up following other OSGeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -14354,6 +14463,8 @@ The trac component of the bug reports have been cleaned up following other OSGeo
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -15658,6 +15769,8 @@ practices for dealing with the following:
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 Note that "normal" bugs reported will not carry a label in order to not overload
 the visual impact and readability.
 
@@ -16253,6 +16366,8 @@ practices for dealing with the following:
 =======
 =======
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 Note that "normal" bugs reported will not carry a label in order to not overload the visual impact and readability.
 
 ## Rules and best practices for using Git
@@ -16262,9 +16377,18 @@ Before the new Git repository is open for writing, we need to have rules and bes
 * Policy for automatic merge commits due to un-synchronous nature of Git. Do we want to avoid those by `git pull --rebase`?
 * How to do backports?
 * A branch for every feature or bug fix in the main repo or is this done in the fork?
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 * _(add more)_
 
 ## Turning SVN/trac into readonly mode
@@ -16358,6 +16482,7 @@ Before the new Git repository is open for writing, we need to have rules and bes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -16489,6 +16614,8 @@ Before the new Git repository is open for writing, we need to have rules and bes
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -16981,7 +17108,12 @@ Before the new Git repository is open for writing, we need to have rules and bes
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 As soon as the above listed repositories are stable and functional,
 SVN/trac (<https://trac.osgeo.org/grass/>) at OSGeo will be set into readonly
 mode. They will serve as a reference for existing links and also for the
@@ -17204,6 +17336,7 @@ As soon as the above listed repositories are stable and functional, SVN/trac (<h
 =======
 As soon as the above listed repositories are stable and functional, SVN/trac (<https://trac.osgeo.org/grass/>) at OSGeo will be set into readonly mode. They will serve as a reference for existing links and also for the aforementioned converted commit messages and issues in the issue tracker.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18008,7 +18141,12 @@ As soon as the above listed repositories are stable and functional, SVN/trac (<h
 As soon as the above listed repositories are stable and functional, SVN/trac (<https://trac.osgeo.org/grass/>) at OSGeo will be set into readonly mode. They will serve as a reference for existing links and also for the aforementioned converted commit messages and issues in the issue tracker.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 
 ## Open issues
 
@@ -18118,6 +18256,7 @@ As soon as the above listed repositories are stable and functional, SVN/trac (<h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -18329,6 +18468,8 @@ As soon as the above listed repositories are stable and functional, SVN/trac (<h
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -18713,7 +18854,12 @@ As soon as the above listed repositories are stable and functional, SVN/trac (<h
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 GitHub is a closed platform. In case it would be shutdown, closed or GitHub would
 start asking unreasonable fees, a backup strategy is needed.
 
@@ -18782,6 +18928,7 @@ start asking unreasonable fees, a backup strategy is needed.
 >>>>>>> osgeo-main
 GitHub is a closed platform. In case it would be shutdown, closed or GitHub would start asking unreasonable fees, a backup strategy is needed.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19833,7 +19980,15 @@ start asking unreasonable fees, a backup strategy is needed.
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+GitHub is a closed platform. In case it would be shutdown, closed or GitHub would start asking unreasonable fees, a backup strategy is needed.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 The proposed solution is
 
 * GitLab has an import module from GitHub.
@@ -19930,6 +20085,7 @@ The proposed solution is
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -20117,6 +20273,8 @@ The proposed solution is
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -20276,10 +20434,13 @@ The proposed solution is
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
 
 
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20431,6 +20592,8 @@ The proposed solution is
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -20470,10 +20633,13 @@ The proposed solution is
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
 
 
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20562,6 +20728,8 @@ The proposed solution is
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3424207483 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
@@ -21254,4 +21422,9 @@ The proposed solution is
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))

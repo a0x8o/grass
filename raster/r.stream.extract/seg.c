@@ -61,6 +61,7 @@ int seg_open(SSEG *sseg, GW_LARGE_INT nrows, GW_LARGE_INT ncols, int row_in_seg,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
              int col_in_seg, int nsegs_in_memory, int size_struct, int fill)
 =======
 <<<<<<< HEAD
@@ -184,6 +185,8 @@ int seg_open(SSEG *sseg, GW_LARGE_INT nrows, GW_LARGE_INT ncols, int row_in_seg,
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -378,7 +381,12 @@ int seg_open(SSEG *sseg, GW_LARGE_INT nrows, GW_LARGE_INT ncols, int row_in_seg,
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
              int col_in_seg, int nsegs_in_memory, int size_struct,
              int fill UNUSED)
 =======
@@ -437,6 +445,7 @@ int seg_open(SSEG *sseg, GW_LARGE_INT nrows, GW_LARGE_INT ncols, int row_in_seg,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -502,6 +511,8 @@ int seg_open(SSEG *sseg, GW_LARGE_INT nrows, GW_LARGE_INT ncols, int row_in_seg,
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -869,7 +880,15 @@ int seg_open(SSEG *sseg, GW_LARGE_INT nrows, GW_LARGE_INT ncols, int row_in_seg,
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+             int col_in_seg, int nsegs_in_memory, int size_struct, int fill)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 {
     char *filename;
     int errflag;

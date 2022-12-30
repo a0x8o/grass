@@ -97,6 +97,7 @@ int rectify(struct Ortho_Image_Group *group, char *name, char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_message(_("Rectify <%s@%s> (location <%s>)"), name, mapset, G_location());
     select_target_env();
     G_set_window(&target_window);
@@ -223,6 +224,8 @@ int rectify(struct Ortho_Image_Group *group, char *name, char *mapset,
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -420,7 +423,12 @@ int rectify(struct Ortho_Image_Group *group, char *name, char *mapset,
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
     G_message(_("Rectify <%s@%s> (project <%s>)"), name, mapset, G_location());
     select_target_env();
     G_set_window(&target_window);
@@ -484,6 +492,7 @@ int rectify(struct Ortho_Image_Group *group, char *name, char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -588,6 +597,8 @@ int rectify(struct Ortho_Image_Group *group, char *name, char *mapset,
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -631,11 +642,14 @@ int rectify(struct Ortho_Image_Group *group, char *name, char *mapset,
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
     G_message(_("Rectify <%s@%s> (location <%s>)"), name, mapset, G_location());
     select_target_env();
     G_set_window(&target_window);
     G_message(_("into  <%s@%s> (location <%s>) ..."), result, G_mapset(),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -758,6 +772,8 @@ int rectify(struct Ortho_Image_Group *group, char *name, char *mapset,
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -968,7 +984,12 @@ int rectify(struct Ortho_Image_Group *group, char *name, char *mapset,
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
               G_location());
 
     nrows = target_window.rows;
