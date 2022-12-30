@@ -117,6 +117,7 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 int have_stats, struct R_stats *ostats, const char *title)
 =======
 <<<<<<< HEAD
@@ -197,6 +198,8 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
                 int have_stats, struct R_stats *ostats, const char *title)
@@ -259,7 +262,12 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
                 int have_stats UNUSED, struct R_stats *ostats UNUSED,
                 const char *title)
 =======
@@ -296,6 +304,7 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -317,6 +326,8 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -520,7 +531,15 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                int have_stats, struct R_stats *ostats, const char *title)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 {
     struct History history;
     struct Categories cats;

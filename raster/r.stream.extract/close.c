@@ -240,6 +240,7 @@ int close_streamvect(char *stream_vect)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         sprintf(buf, "insert into %s values ( %" PRI_OFF_T ", \'%s\', %d, %d )",
 =======
 <<<<<<< HEAD
@@ -320,6 +321,8 @@ int close_streamvect(char *stream_vect)
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
         sprintf(buf, "insert into %s values ( %" PRI_OFF_T ", \'%s\', %d, %d )",
@@ -382,7 +385,12 @@ int close_streamvect(char *stream_vect)
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
         sprintf(buf, "insert into %s values ( %" PRId64 ", \'%s\', %d, %d )",
 =======
         sprintf(buf, "insert into %s values ( %" PRI_OFF_T ", \'%s\', %d, %d )",
@@ -418,6 +426,7 @@ int close_streamvect(char *stream_vect)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -439,6 +448,8 @@ int close_streamvect(char *stream_vect)
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -642,7 +653,15 @@ int close_streamvect(char *stream_vect)
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        sprintf(buf, "insert into %s values ( %" PRI_OFF_T ", \'%s\', %d, %d )",
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
                 Fi->table, i,
                 (stream_node[i].n_trib > 0 ? "intermediate" : "start"),
                 (stream_node[i].n_trib > 0), network_id[i]);

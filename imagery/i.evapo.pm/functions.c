@@ -47,6 +47,7 @@ extern DCELL f_d(DCELL);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define epsilon 0.622  /* [-] ratio of molecular weigth of water to dry air */
 =======
 <<<<<<< HEAD
@@ -127,6 +128,8 @@ extern DCELL f_d(DCELL);
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 #define epsilon 0.622  /* [-] ratio of molecular weigth of water to dry air */
@@ -189,7 +192,12 @@ extern DCELL f_d(DCELL);
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 #define epsilon 0.622  /* [-] ratio of molecular weight of water to dry air */
 =======
 #define epsilon 0.622  /* [-] ratio of molecular weigth of water to dry air */
@@ -225,6 +233,7 @@ extern DCELL f_d(DCELL);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -246,6 +255,8 @@ extern DCELL f_d(DCELL);
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -449,7 +460,15 @@ extern DCELL f_d(DCELL);
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+#define epsilon 0.622  /* [-] ratio of molecular weigth of water to dry air */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 #define Po      101.3  /* [kPa] atmospheric pressure at sea level */
 #define Tko     293.16 /* [K] reference temperature at sea level */
 #define eta     0.0065 /* [K/m] constant lapse rate */
@@ -569,6 +588,7 @@ DCELL calc_ETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int night, DCELL Rh,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
                         DCELL hc)
 =======
@@ -650,6 +670,8 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
@@ -713,7 +735,12 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day UNUSED,
                         DCELL Rh, DCELL hc UNUSED)
 =======
@@ -751,6 +778,7 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -811,6 +839,8 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -824,9 +854,12 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
 DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
                         DCELL hc)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -917,6 +950,8 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -995,7 +1030,12 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 {
     DCELL ea, delta, gamma, lambda;
     DCELL P, ed, ETaero, ETp;
@@ -1085,6 +1125,7 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1154,6 +1195,8 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1184,12 +1227,18 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
    }
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1235,6 +1284,8 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1383,5 +1434,10 @@ DCELL calc_openwaterETp(DCELL T, DCELL Z, DCELL u2, DCELL Rn, int day, DCELL Rh,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 #endif

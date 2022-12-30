@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -353,7 +354,14 @@
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 #            Vaclav Petras <wenzeslaus gmail com>
 #
 # PURPOSE:   This module contains functions for launching a GRASS session
@@ -395,8 +403,11 @@ import weakref
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -485,6 +496,11 @@ from pathlib import Path
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+from pathlib import Path
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 
 import grass.script as gs
 
@@ -492,6 +508,7 @@ import grass.script as gs
 def _set_notebook_defaults():
     """Set defaults appropriate for Jupyter Notebooks.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -649,6 +666,8 @@ def _set_notebook_defaults():
 =======
 >>>>>>> 9d1090ec82 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -661,6 +680,8 @@ def _set_notebook_defaults():
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
@@ -802,6 +823,7 @@ def _set_notebook_defaults():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -820,6 +842,8 @@ def _set_notebook_defaults():
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 <<<<<<< HEAD
@@ -1410,7 +1434,12 @@ def _set_notebook_defaults():
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
     This function sets several GRASS environment variables that are
     important for GRASS to run smoothly in Jupyter.
 
@@ -1439,6 +1468,7 @@ def _set_notebook_defaults():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1777,7 +1807,14 @@ def _set_notebook_defaults():
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 class _JupyterGlobalSession:
     """Represents a global GRASS session for Jupyter Notebooks.
 
@@ -1813,6 +1850,7 @@ class _JupyterGlobalSession:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1872,6 +1910,8 @@ class _JupyterGlobalSession:
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1898,7 +1938,12 @@ class _JupyterGlobalSession:
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
     called explicitly.
 
     Notably, only the mapset is closed, but the libraries and GRASS modules
@@ -3676,10 +3721,102 @@ def init(path, location=None, mapset=None, grass_path=None):
 
     Do not create objects of this class directly. Use the standalone *init* function
     and an object will be returned to you, e.g.:
+=======
+    called explicitely.
+
+    Notably, only the mapset is closed, but the libraries and GRASS modules
+    remain on path.
+    """
+
+    def __init__(self):
+        self._finalizer = weakref.finalize(self, gs.setup.finish)
+
+    def switch_mapset(self, path, location=None, mapset=None):
+        """Switch to a mapset provided as a name or path.
+
+        The mapset can be provided as a name, as a path,
+        or as database, location, and mapset.
+        Specifically, the *path* positional-only parameter can be either
+        name of a mapset in the current location or a full path to a mapset.
+        When location and mapset are provided using the additional parameters,
+        the *path* parameter is path to a database.
+
+        Raises ValueError if the mapset does not exist (e.g., when the name is
+        misspelled or the mapset is invalid).
+        """
+        # The method could be a function, but this is more general (would work even for
+        # a non-global session).
+        # pylint: disable=no-self-use
+        # Functions needed only here.
+        # pylint: disable=import-outside-toplevel
+        from grass.grassdb.checks import (
+            get_mapset_invalid_reason,
+            is_mapset_valid,
+            mapset_exists,
+        )
+        from grass.grassdb.manage import resolve_mapset_path
+
+        # For only one parameter, try if it is a mapset in the current location to
+        # support switching only by its name.
+        gisenv = gs.gisenv()
+        if (
+            not location
+            and not mapset
+            and mapset_exists(
+                path=gisenv["GISDBASE"], location=gisenv["LOCATION_NAME"], mapset=path
+            )
+        ):
+            gs.run_command("g.gisenv", set=f"MAPSET={path}")
+            return
+
+        mapset_path = resolve_mapset_path(path=path, location=location, mapset=mapset)
+        if not is_mapset_valid(mapset_path):
+            raise ValueError(
+                _("Mapset {path} is not valid: {reason}").format(
+                    path=mapset_path.path,
+                    reason=get_mapset_invalid_reason(
+                        mapset_path.directory, mapset_path.location, mapset_path.mapset
+                    ),
+                )
+            )
+        # This requires direct session file modification using g.gisenv because
+        # g.mapset locks the mapset which is not how init and finish behave.
+        # For code simplicity, we just change all even when only mapset is changed.
+        gs.run_command("g.gisenv", set=f"GISDBASE={mapset_path.directory}")
+        gs.run_command("g.gisenv", set=f"LOCATION_NAME={mapset_path.location}")
+        gs.run_command("g.gisenv", set=f"MAPSET={mapset_path.mapset}")
+
+    def finish(self):
+        """Close the session, i.e., close the open mapset.
+
+        Subsequent calls to GRASS GIS modules will fail because there will be
+        no current (open) mapset anymore.
+
+        The finish procedure is done automatically when process finishes or the object
+        is destroyed.
+        """
+        self._finalizer()
+
+    @property
+    def active(self):
+        """True unless the session was finalized (e.g., with the *finish* function)"""
+        return self._finalizer.alive
+
+
+# Pylint 2.12.2 identifies this a constant (although it is not), so it wants uppercase.
+_global_session_handle = None  # pylint: disable=invalid-name
+
+
+def init(path, location=None, mapset=None, grass_path=None):
+    """Initiates a GRASS session and sets GRASS environment variables.
+
+    Calling this function returns an object which represents the session.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     >>> import grass.jupyter as gj
     >>> session = gj.init(...)
 
+<<<<<<< HEAD
     An object ends the session when it is destroyed or when the *finish* method is
     called explicitely.
 
@@ -4676,6 +4813,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -4733,6 +4871,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 =======
 =======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
     The session is ended when `session.finish` is called or when the object is
     destroyed when kernel ends or restarts. This function returns a copy of an
     internally kept reference, so the return value can be safely ignored when not
@@ -4752,13 +4892,19 @@ def init(path, location=None, mapset=None, grass_path=None):
     :param str mapset: name of mapset within location
     """
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
     global _global_session_handle  # pylint: disable=global-statement,invalid-name
     if not _global_session_handle or not _global_session_handle.active:
         # Create a GRASS session.
@@ -4769,6 +4915,7 @@ def init(path, location=None, mapset=None, grass_path=None):
     else:
         _global_session_handle.switch_mapset(path, location=location, mapset=mapset)
     return _global_session_handle
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4831,6 +4978,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -5227,4 +5376,12 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))

@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -131,6 +132,8 @@
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -194,7 +197,12 @@
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 #include <grass/gis.h>
 
 =======
@@ -230,6 +238,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -251,6 +260,8 @@
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -428,7 +439,14 @@
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 /*
  * Add edge can be performed on TREE state graph. If the state is FLAT
  * return BadOnFlatGraph error.
@@ -721,6 +739,7 @@ int DGL_ADD_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nHead, dglInt32_t nTail,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 =======
 <<<<<<< HEAD
@@ -801,6 +820,8 @@ int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
@@ -863,7 +884,12 @@ int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge UNUSED)
 =======
 int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
@@ -899,6 +925,7 @@ int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -920,6 +947,8 @@ int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1123,7 +1152,15 @@ int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 {
 #if defined(_DGL_V1)
     pgraph->iErrno = DGL_ERR_NotSupported;
@@ -1214,6 +1251,7 @@ int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 =======
 <<<<<<< HEAD
@@ -1294,6 +1332,8 @@ dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
@@ -1356,7 +1396,12 @@ dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge UNUSED)
 =======
 dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
@@ -1392,6 +1437,7 @@ dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1413,6 +1459,8 @@ dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1616,7 +1664,15 @@ dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 {
 #if defined(_DGL_V1)
     pgraph->iErrno = DGL_ERR_NotSupported;

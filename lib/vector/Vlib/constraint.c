@@ -111,6 +111,7 @@ int Vect_set_constraint_region(struct Map_info *Map, double n, double s,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 =======
 <<<<<<< HEAD
@@ -191,6 +192,8 @@ int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
@@ -253,7 +256,12 @@ int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 int Vect_get_constraint_box(struct Map_info *Map, struct bound_box *Box)
 =======
 int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
@@ -289,6 +297,7 @@ int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -310,6 +319,8 @@ int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -513,7 +524,15 @@ int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 {
     if (!Map->constraint.region_flag)
         return -1;
