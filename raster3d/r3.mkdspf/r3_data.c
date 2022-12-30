@@ -93,6 +93,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int r3read_level(void *g3map, RASTER3D_Region *g3reg, file_info *Headfax,
 =======
 <<<<<<< HEAD
@@ -535,6 +536,8 @@ int r3read_level(void *g3map, RASTER3D_Region *g3reg, file_info *Headfax,
 =======
 >>>>>>> de2caeece8 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -668,7 +671,12 @@ int r3read_level(void *g3map, RASTER3D_Region *g3reg, file_info *Headfax,
 =======
 =======
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> de2caeece8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 int r3read_level(void *g3map, RASTER3D_Region *g3reg UNUSED, file_info *Headfax,
 =======
 int r3read_level(void *g3map, RASTER3D_Region *g3reg, file_info *Headfax,
@@ -758,6 +766,7 @@ int r3read_level(void *g3map, RASTER3D_Region *g3reg, file_info *Headfax,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -867,6 +876,8 @@ int r3read_level(void *g3map, RASTER3D_Region *g3reg, file_info *Headfax,
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> de2caeece8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1240,13 +1251,17 @@ int r3read_level(void *g3map, RASTER3D_Region *g3reg, file_info *Headfax,
 =======
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 int r3read_level(void *g3map, RASTER3D_Region *g3reg, file_info *Headfax,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1490,6 +1505,8 @@ int r3read_level(void *g3map, RASTER3D_Region *g3reg, file_info *Headfax,
 =======
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de2caeece8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
                  float *data, int n_lev)
 {
 #ifdef NO_RESAMPLE
