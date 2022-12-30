@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int r3read_level(void *g3map, RASTER3D_Region *g3reg, file_info *Headfax,
 =======
 <<<<<<< HEAD
@@ -14,10 +15,13 @@ int r3read_level(void *g3map, RASTER3D_Region *g3reg, file_info *Headfax,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 int r3read_level(void *g3map, RASTER3D_Region *g3reg UNUSED, file_info *Headfax,
 =======
 int r3read_level(void *g3map, RASTER3D_Region *g3reg, file_info *Headfax,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 int r3read_level(void *g3map, RASTER3D_Region *g3reg, file_info *Headfax,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -28,6 +32,8 @@ int r3read_level(void *g3map, RASTER3D_Region *g3reg, file_info *Headfax,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                  float *data, int n_lev)
 {
 #ifdef NO_RESAMPLE

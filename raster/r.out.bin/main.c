@@ -488,6 +488,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (fwrite(out_buf, bytes, ncols, fp) != (size_t)ncols)
 =======
 <<<<<<< HEAD
@@ -530,6 +531,12 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        if (fwrite(out_buf, bytes, ncols, fp) != (size_t)ncols)
+=======
+        if (fwrite(out_buf, bytes, ncols, fp) != ncols)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(_("Error writing data"));
     }
 

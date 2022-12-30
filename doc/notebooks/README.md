@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16,10 +17,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 Clone this repository with `git clone` first. Then, locally start the Jupyter
 notebook server from the command line in the `doc/notebooks/` directory containing
 the `*.ipynb` files with:
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61,6 +65,11 @@ the `*.ipynb` files with:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+Clone this repository with `git clone` first. Then, locally start the Jupyter notebook
+server from the command line in the `doc/notebooks/` directory containing the `*.ipynb` files with:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 `jupyter notebook`
 
 This will open a new browser tab or window with a list of the contents of the current
@@ -83,6 +92,7 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -112,3 +122,8 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))

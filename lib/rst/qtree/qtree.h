@@ -37,6 +37,7 @@ struct multfunc {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -55,12 +56,15 @@ struct multfunc {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     int (*compare)(struct triple *, struct quaddata *);
     struct quaddata **(*divide_data)(struct quaddata *, int, double);
     int (*add_data)(struct triple *, struct quaddata *, double);
     int (*intersect)(struct quaddata *, struct quaddata *);
     int (*division_check)(struct quaddata *, int);
     int (*get_points)(struct quaddata *, struct quaddata *, int);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -75,12 +79,16 @@ struct multfunc {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     int (*compare)();
     struct quaddata **(*divide_data)();
     int (*add_data)();
     int (*intersect)();
     int (*division_check)();
     int (*get_points)();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -105,6 +113,9 @@ struct multfunc {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 };
 
 struct tree_info {

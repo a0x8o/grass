@@ -25,6 +25,7 @@ static int list_element(FILE *, const char *, const char *, const char *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         int (*)(const char *, const char *, char *));
 =======
 <<<<<<< HEAD
@@ -67,6 +68,12 @@ static int list_element(FILE *, const char *, const char *, const char *,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+                        int (*)(const char *, const char *, char *));
+=======
+                        int (*)(const char *, const char *, const char *));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 /*!
    \brief General purpose list function
@@ -96,6 +103,7 @@ void G_list_element(const char *element, const char *desc, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     int (*lister)(const char *, const char *, char *))
 =======
 <<<<<<< HEAD
@@ -138,6 +146,12 @@ void G_list_element(const char *element, const char *desc, const char *mapset,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+                    int (*lister)(const char *, const char *, char *))
+=======
+                    int (*lister)(const char *, const char *, const char *))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     struct Popen pager;
     int n;
@@ -185,6 +199,7 @@ static int list_element(FILE *out, const char *element, const char *desc,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         int (*lister)(const char *, const char *, char *))
 =======
 <<<<<<< HEAD
@@ -227,6 +242,12 @@ static int list_element(FILE *out, const char *element, const char *desc,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+                        int (*lister)(const char *, const char *, char *))
+=======
+                        int (*lister)(const char *, const char *, const char *))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     char path[GPATH_MAX];
     int count = 0;

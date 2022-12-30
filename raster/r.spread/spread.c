@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *                        A) caculates the cumulative cost (time) of the
 =======
 <<<<<<< HEAD
@@ -20,10 +21,13 @@
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
  *                        A) calculates the cumulative cost (time) of the
 =======
  *                        A) caculates the cumulative cost (time) of the
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
  *                        A) caculates the cumulative cost (time) of the
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -34,6 +38,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
  *                           end cell of each link - calculate();
  *                        B) compares this new cumulative cost (time) with
  *                           the previously computed cumulative time/cost,

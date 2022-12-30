@@ -55,6 +55,7 @@ class TestRasterUnivar(TestCase):
             overwrite=True,
         )
 
+<<<<<<< HEAD
         cls.runModule(
             "r.mapcalc",
             expression="zones = int(if(row() <= 5, 1, if(row() >= 20, 3, 2)))",
@@ -73,6 +74,8 @@ class TestRasterUnivar(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         cls.runModule("r.mapcalc", expression="a_1 = 100", overwrite=True)
         cls.runModule("r.mapcalc", expression="a_2 = 200", overwrite=True)
         cls.runModule("r.mapcalc", expression="a_3 = 300", overwrite=True)
@@ -120,6 +123,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -127,6 +131,8 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             "t.create",
             type="strds",
             temporaltype="absolute",
@@ -138,6 +144,7 @@ class TestRasterUnivar(TestCase):
         cls.runModule(
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -147,6 +154,8 @@ class TestRasterUnivar(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             "t.register",
             flags="i",
             type="raster",
@@ -179,6 +188,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -186,6 +196,8 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         cls.runModule(
             "t.register",
             flags="i",
@@ -198,6 +210,7 @@ class TestRasterUnivar(TestCase):
         )
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -207,6 +220,8 @@ class TestRasterUnivar(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
     @classmethod
     def tearDownClass(cls):
@@ -216,11 +231,14 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         cls.runModule("t.remove", flags="df", type="strds", inputs="B")
         cls.runModule("g.remove", flags="f", type="raster", name="zones")
 
@@ -232,6 +250,7 @@ class TestRasterUnivar(TestCase):
 =======
         cls.runModule("t.remove", flags="df", type="strds", inputs="B")
         cls.runModule("g.remove", flags="f", type="raster", name="zones")
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -277,6 +296,8 @@ class TestRasterUnivar(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
         cls.del_temp_region()
 
@@ -310,6 +331,7 @@ a_4@testing||2001-10-01 00:00:00|2002-01-01 00:00:00|400|400|400|400|0|0|0|38400
     def test_with_subset_of_maps(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -327,6 +349,9 @@ a_4@testing||2001-10-01 00:00:00|2002-01-01 00:00:00|400|400|400|400|0|0|0|38400
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         t_rast_univar = SimpleModule(
@@ -355,6 +380,7 @@ a_4@testing||2001-10-01 00:00:00|2002-01-01 00:00:00|400|400|400|400|0|0|0|38400
     def test_coarser_resolution(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372,6 +398,9 @@ a_4@testing||2001-10-01 00:00:00|2002-01-01 00:00:00|400|400|400|400|0|0|0|38400
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         t_rast_univar = SimpleModule(
@@ -402,6 +431,7 @@ a_4@testing||2001-10-01 00:00:00|2002-01-01 00:00:00|400|400|400|400|0|0|0|38400
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -421,6 +451,11 @@ a_4@testing||2001-10-01 00:00:00|2002-01-01 00:00:00|400|400|400|400|0|0|0|38400
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        self.runModule("g.region", **self.default_region, res=10)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
         self.assertModule(
             "t.rast.univar",
@@ -448,6 +483,7 @@ a_4@testing||2001-10-01 00:00:00|2002-01-01 00:00:00|400|400|400|400|0|0|0|38400
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -466,6 +502,10 @@ a_4@testing||2001-10-01 00:00:00|2002-01-01 00:00:00|400|400|400|400|0|0|0|38400
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    def test_subset_with_extended_statistics_and_output(self):
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     def test_subset_with_output_coarse_resolution(self):
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -546,6 +586,7 @@ a_4@testing||2001-10-01 00:00:00|2002-01-01 00:00:00|400|400|400|400|0|0|0|38400
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -553,10 +594,13 @@ a_4@testing||2001-10-01 00:00:00|2002-01-01 00:00:00|400|400|400|400|0|0|0|38400
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         self.runModule("g.region", **self.default_region, res=1)
         self.assertModule(t_rast_univar)
 
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -566,6 +610,8 @@ a_4@testing||2001-10-01 00:00:00|2002-01-01 00:00:00|400|400|400|400|0|0|0|38400
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         self.runModule("g.region", res=1)
         self.assertModule(t_rast_univar)
 
@@ -574,6 +620,7 @@ a_4@testing||2001-10-01 00:00:00|2002-01-01 00:00:00|400|400|400|400|0|0|0|38400
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -590,6 +637,9 @@ a_4@testing||2001-10-01 00:00:00|2002-01-01 00:00:00|400|400|400|400|0|0|0|38400
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         univar_text = """id|semantic_label|start|end|zone|mean|min|max|mean_of_abs|stddev|variance|coeff_var|sum|null_cells|cells|non_null_cells
 a_1@PERMANENT||2001-01-01 00:00:00|2001-04-01 00:00:00|1|100|100|100|100|0|0|0|60000|0|600|600
 a_1@PERMANENT||2001-01-01 00:00:00|2001-04-01 00:00:00|2|100|100|100|100|0|0|0|168000|0|1680|1680
@@ -625,6 +675,7 @@ a_4@PERMANENT||2001-10-01 00:00:00|2002-01-01 00:00:00|3|400|400|400|400|0|0|0|2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.runModule("g.region", res=1)
 =======
 <<<<<<< HEAD
@@ -633,10 +684,13 @@ a_4@PERMANENT||2001-10-01 00:00:00|2002-01-01 00:00:00|3|400|400|400|400|0|0|0|2
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         self.runModule("g.region", **self.default_region, res=1)
 =======
         self.runModule("g.region", res=1)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         self.runModule("g.region", res=1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -647,6 +701,8 @@ a_4@PERMANENT||2001-10-01 00:00:00|2002-01-01 00:00:00|3|400|400|400|400|0|0|0|2
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         self.assertModule(t_rast_univar)
 
         univar_text = """id|semantic_label|start|end|mean|min|max|mean_of_abs|stddev|variance|coeff_var|sum|null_cells|cells|non_null_cells
@@ -676,6 +732,7 @@ b_4@PERMANENT|S2_B1|2001-10-01 00:00:00|2002-01-01 00:00:00|440|440|440|440|0|0|
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.runModule("g.region", res=1)
 =======
 <<<<<<< HEAD
@@ -684,10 +741,13 @@ b_4@PERMANENT|S2_B1|2001-10-01 00:00:00|2002-01-01 00:00:00|440|440|440|440|0|0|
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         self.runModule("g.region", **self.default_region, res=1)
 =======
         self.runModule("g.region", res=1)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         self.runModule("g.region", res=1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -698,6 +758,8 @@ b_4@PERMANENT|S2_B1|2001-10-01 00:00:00|2002-01-01 00:00:00|440|440|440|440|0|0|
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         self.assertModule(t_rast_univar)
 
         univar_text = """id|semantic_label|start|end|mean|min|max|mean_of_abs|stddev|variance|coeff_var|sum|null_cells|cells|non_null_cells
@@ -717,6 +779,7 @@ b_4@PERMANENT|S2_B1|2001-10-01 00:00:00|2002-01-01 00:00:00|440|440|440|440|0|0|
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -724,6 +787,8 @@ b_4@PERMANENT|S2_B1|2001-10-01 00:00:00|2002-01-01 00:00:00|440|440|440|440|0|0|
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     def test_with_spatial_filter_intersects(self):
         """Test spatial filter overlaps"""
         t_rast_univar = SimpleModule(
@@ -805,6 +870,7 @@ d_1@stbl||2001-01-01 00:00:00|2001-04-01 00:00:00|100|100|100|100|0|0|0|960000|2
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -814,6 +880,8 @@ d_1@stbl||2001-01-01 00:00:00|2001-04-01 00:00:00|100|100|100|100|0|0|0|960000|2
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 if __name__ == "__main__":
     from grass.gunittest.main import test

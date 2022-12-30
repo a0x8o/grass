@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -44,6 +45,10 @@ int db__send_success(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+int db__send_success(void)
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 int db__send_success()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -56,6 +61,7 @@ int db__send_success()
 
    \return DB_OK
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,6 +83,10 @@ int db__send_failure(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+int db__send_failure(void)
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 int db__send_failure()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {

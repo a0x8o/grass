@@ -38,6 +38,7 @@ int db__driver_close_cursor(dbCursor *dbc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cursor *alloc_cursor(void)
 =======
 <<<<<<< HEAD
@@ -79,6 +80,12 @@ cursor *alloc_cursor(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+cursor *alloc_cursor(void)
+=======
+cursor *alloc_cursor()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     cursor *c;
 

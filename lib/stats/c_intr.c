@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void c_intr(DCELL *result, DCELL *values, int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -13,10 +14,13 @@ void c_intr(DCELL *result, DCELL *values, int n, const void *closure)
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 void c_intr(DCELL *result, DCELL *values, int n, const void *closure UNUSED)
 =======
 void c_intr(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 void c_intr(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -27,6 +31,8 @@ void c_intr(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     DCELL center;
     int count;

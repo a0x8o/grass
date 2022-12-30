@@ -114,6 +114,7 @@ static int G__open(const char *element, const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -122,6 +123,8 @@ static int G__open(const char *element, const char *name, const char *mapset,
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
         
 	if (mode == 1 || access(path, 0) != 0) {
@@ -129,17 +132,23 @@ static int G__open(const char *element, const char *name, const char *mapset,
 
         if (mode == 1 || access(path, 0) != 0) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 =======
         
 	if (mode == 1 || access(path, 0) != 0) {
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             if (is_tmp)
                 G_make_mapset_object_group_tmp(element);
             else
                 G_make_mapset_object_group(element);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 	    close(open(path, O_WRONLY | O_CREAT | O_TRUNC, 0666));
 	}
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -167,6 +176,7 @@ static int G__open(const char *element, const char *name, const char *mapset,
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,10 +186,14 @@ static int G__open(const char *element, const char *name, const char *mapset,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             close(open(path, O_WRONLY | O_CREAT | O_TRUNC, 0666));
         }
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -189,6 +203,8 @@ static int G__open(const char *element, const char *name, const char *mapset,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         if ((fd = open(path, mode)) < 0)
             G_warning(_("G__open(write): Unable to open '%s': %s"), path,
                       strerror(errno));

@@ -21,6 +21,7 @@ export C_INCLUDE_PATH=".:${OSGEO4W_ROOT_MSYS}/include:${SRC}/dist.${ARCH}/includ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 =======
 <<<<<<< HEAD
@@ -29,10 +30,13 @@ export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python312
 =======
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -43,6 +47,8 @@ export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 export ARCH=x86_64-w64-mingw32
 
 ./configure \
@@ -90,6 +96,7 @@ export ARCH=x86_64-w64-mingw32
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config
 =======
 <<<<<<< HEAD
@@ -98,11 +105,14 @@ export ARCH=x86_64-w64-mingw32
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config \
     --without-pdal
 =======
     --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -113,6 +123,8 @@ export ARCH=x86_64-w64-mingw32
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 make
 

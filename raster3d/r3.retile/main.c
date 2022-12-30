@@ -38,6 +38,7 @@ static void fatal_error(void *map, int *fd, int depths,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static void set_params(void);            /*Fill the paramType structure */
 =======
 <<<<<<< HEAD
@@ -80,6 +81,12 @@ static void set_params(void);            /*Fill the paramType structure */
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+static void set_params(void);            /*Fill the paramType structure */
+=======
+static void set_params();                /*Fill the paramType structure */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 /* ************************************************************************* */
 /* Error handling ********************************************************** */

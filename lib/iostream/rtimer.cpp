@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -60,6 +61,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #include <grass/iostream/rtimer.h>
 
 #define BUFMAX 256
@@ -82,15 +85,19 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 // #include <rtimer.h>
 #include <grass/iostream/rtimer.h>
 
+<<<<<<< HEAD
 =======
 // #include <rtimer.h>
 #include <grass/iostream/rtimer.h>
@@ -110,6 +117,15 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
     }
     else {
 <<<<<<< HEAD
+=======
+char *rt_sprint_safe(char *buf, Rtimer rt)
+{
+    if (rt_w_useconds(rt) == 0) {
+        sprintf(buf, "[%4.2fu (%.0f%%) %4.2fs (%.0f%%) %4.2f %.1f%%]", 0.0, 0.0,
+                0.0, 0.0, 0.0, 0.0);
+    }
+    else {
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         sprintf(buf, "[%4.2fu (%.0f%%) %4.2fs (%.0f%%) %4.2f %.1f%%]",
                 rt_u_useconds(rt) / 1000000,
                 100.0 * rt_u_useconds(rt) / rt_w_useconds(rt),
@@ -118,6 +134,7 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
                 rt_w_useconds(rt) / 1000000,
                 100.0 * (rt_u_useconds(rt) + rt_s_useconds(rt)) /
                     rt_w_useconds(rt));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -158,6 +175,9 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
     return buf;
 }

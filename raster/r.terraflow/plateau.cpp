@@ -89,6 +89,7 @@ plateauType *detectPlateaus::getPlateauForward(dimension_type i,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                dimension_type nr,
                                                dimension_type nc)
 =======
@@ -98,12 +99,15 @@ plateauType *detectPlateaus::getPlateauForward(dimension_type i,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                                                dimension_type nr UNUSED,
                                                dimension_type nc UNUSED)
 =======
                                                dimension_type nr,
                                                dimension_type nc)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                                                dimension_type nr,
                                                dimension_type nc)
@@ -115,6 +119,8 @@ plateauType *detectPlateaus::getPlateauForward(dimension_type i,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     bool ok;
     static plateauType ptarr[3]; /* return value */
@@ -277,6 +283,7 @@ void detectPlateaus::processWindow(dimension_type row, dimension_type col,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /* check boundaries that are also part of plateau (but didnt know it) */
 =======
 <<<<<<< HEAD
@@ -285,10 +292,13 @@ void detectPlateaus::processWindow(dimension_type row, dimension_type col,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /* check boundaries that are also part of plateau (but didn't know it) */
 =======
     /* check boundaries that are also part of plateau (but didnt know it) */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     /* check boundaries that are also part of plateau (but didnt know it) */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -299,6 +309,8 @@ void detectPlateaus::processWindow(dimension_type row, dimension_type col,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     for (int i = 0; i < 4; i++) {
         direction_type ndir(0);
         if (win.get(i) != win.get())

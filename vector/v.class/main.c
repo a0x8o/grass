@@ -151,6 +151,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     nbreaks =
         nbclass -
         1; /* we need one less classbreaks (min and max exluded) than classes */
@@ -161,6 +162,8 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     nbreaks = nbclass - 1; /* we need one less classbreaks (min and max
                               excluded) than classes */
 =======
@@ -168,6 +171,7 @@ int main(int argc, char *argv[])
         nbclass -
         1; /* we need one less classbreaks (min and max exluded) than classes */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     nbreaks =
         nbclass -
@@ -180,6 +184,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
     classbreaks = (double *)G_malloc((nbreaks) * sizeof(double));
     for (i = 0; i < nbreaks; i++)

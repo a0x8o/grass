@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    for imlementation issues.
 =======
 <<<<<<< HEAD
@@ -17,10 +18,13 @@
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
    for implementation issues.
 =======
    for imlementation issues.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
    for imlementation issues.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -31,6 +35,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
    (C) 2011-2012 by the GRASS Development Team
 

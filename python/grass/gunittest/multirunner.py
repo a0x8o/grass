@@ -111,6 +111,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,6 +120,8 @@ def main():
 >>>>>>> osgeo-main
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     grass_executable = args.grassbin
 
     # Software
@@ -150,6 +153,7 @@ def main():
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -201,6 +205,8 @@ def main():
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
     grass_executable = args.grassbin
 
     # Software
@@ -208,6 +214,7 @@ def main():
     # we assume that the start script is available and in the PATH
     # the shell=True is here because of MS Windows? (code taken from wiki)
     startcmd = grass_executable + " --config path"
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
@@ -234,6 +241,9 @@ def main():
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     p = subprocess.Popen(
         startcmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
     )
@@ -245,6 +255,9 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             "ERROR: Cannot find GRASS GIS start script (%s):\n%s" % (startcmd, err),
 =======
 <<<<<<< HEAD
@@ -274,6 +287,7 @@ def main():
 =======
             "ERROR: Cannot find GRASS GIS start script (%s):\n%s" % (startcmd, err),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             "ERROR: Cannot find GRASS GIS start script (%s):\n%s" % (startcmd, err),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -298,6 +312,8 @@ def main():
             "ERROR: Cannot find GRASS GIS 8 start script (%s):\n%s" % (startcmd, err),
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             file=sys.stderr,
         )
         return 1

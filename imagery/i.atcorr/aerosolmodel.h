@@ -101,6 +101,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /* defined models' initilizations */
 =======
 <<<<<<< HEAD
@@ -109,10 +110,13 @@ private:
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /* defined models' initializations */
 =======
     /* defined models' initilizations */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     /* defined models' initilizations */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -123,6 +127,8 @@ private:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     void bdm();
     void bbm();
     void stm();

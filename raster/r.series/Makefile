@@ -6,6 +6,9 @@ PGM = r.series
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 LIBES = $(STATSLIB) $(RASTERLIB) $(GISLIB)
 EXTRA_LIBS = $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(STATSDEP) $(RASTERDEP) $(GISDEP)
@@ -14,16 +17,20 @@ EXTRA_INC = $(OPENMP_INCPATH)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 LIBES = $(STATSLIB) $(RASTERLIB) $(GISLIB) $(OMPLIB)
 DEPENDENCIES = $(STATSDEP) $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 LIBES = $(STATSLIB) $(RASTERLIB) $(GISLIB) $(OMPLIB)
 DEPENDENCIES = $(STATSDEP) $(RASTERDEP) $(GISDEP)
@@ -52,6 +59,8 @@ EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 include $(MODULE_TOPDIR)/include/Make/Module.make
 

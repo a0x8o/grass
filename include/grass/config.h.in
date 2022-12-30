@@ -24,6 +24,7 @@
 #undef HAVE_CBLAS_H
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,6 +42,9 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 /* Define to 1 if you have the <clapack.h> header file. */
 #undef HAVE_CLAPACK_H
@@ -77,12 +81,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /* Define to 1 if you have the <clapack.h> header file. */
@@ -101,6 +108,7 @@
 /* Define to 1 if you have the <f2c.h> header file. */
 #undef HAVE_F2C_H
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +133,8 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 /* define if GEOS is to be used */
 #undef HAVE_GEOS
 
@@ -149,12 +159,16 @@
 /* define if "int64_t" is available */
 #undef HAVE_INT64_T
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 #undef HAVE_INTTYPES_H
 
 /* Define to 1 if you have the <langinfo.h> header file. */
 #undef HAVE_LANGINFO_H
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -169,6 +183,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /* Define to 1 if you have the <fftw3.h> header file. */
@@ -354,6 +370,7 @@
 
 /* define if LAPACK exists */
 #undef HAVE_LIBLAPACK
+<<<<<<< HEAD
 =======
 
 /* Define to 1 if you have the <inttypes.h> header file. */
@@ -428,6 +445,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 /* define if liblas exists */
 #undef HAVE_LIBLAS
@@ -478,6 +497,7 @@
 #undef HAVE_OPENGL_GL_H
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* Define to 1 if you have the <liblas/capi/liblas.h> header file. */
 #undef HAVE_LIBLAS_CAPI_LIBLAS_H
@@ -541,6 +561,8 @@
 
 /* Define to 1 if you have the <OpenGL/gl.h> header file. */
 #undef HAVE_OPENGL_GL_H
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /* Define to 1 if SQLite is to be used. */
@@ -556,6 +578,7 @@
 /* define if PDAL exists */
 #undef HAVE_PDAL
 
+<<<<<<< HEAD
 /* define if PDAL exists */
 #undef HAVE_PDAL
 
@@ -568,12 +591,15 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 /* define if glXCreateGLXPixmap exists */
 #undef HAVE_PIXMAPS
 
 /* Define to 1 if you have the <png.h> header file. */
 #undef HAVE_PNG_H
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -584,6 +610,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 /* define if PostgreSQL is to be used */
 #undef HAVE_POSTGRES
@@ -704,6 +732,7 @@
 
 /* Define to 1 if you have the <zstd.h> header file. */
 #undef HAVE_ZSTD_H
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -834,6 +863,8 @@
 
 /* Define to 1 if you have the <zstd.h> header file. */
 #undef HAVE_ZSTD_H
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /* Define to 1 if you have the <stdint.h> header file. */
@@ -921,8 +952,11 @@
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #undef OPENGL_X11
 
 /* Define to the address where bug reports for this package should be sent. */
@@ -986,6 +1020,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -993,6 +1028,8 @@
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 /* Define to 1 if the `setpgrp' function requires zero arguments. */
 #undef SETPGRP_VOID
 
@@ -1009,6 +1046,7 @@
 
 /* Define to 1 if using old PROJ version 4 API. */
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1018,6 +1056,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 /* Define to 1 if the `setpgrp' function takes no argument. */
 #undef SETPGRP_VOID
 
@@ -1037,6 +1077,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1053,6 +1094,9 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #undef USE_PROJ4API
 
 /* Define to 1 if the X Window System is missing or not being used. */
@@ -1074,6 +1118,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1081,11 +1126,14 @@
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 /* Define to 1 to enable threading extensions on Solaris. */
 #undef _POSIX_PTHREAD_SEMANTICS
 
 /* Define to 1 for _REENTRANT flag (for SunOS). */
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1095,6 +1143,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 /* enable threading extensions on Solaris */
 #undef _POSIX_PTHREAD_SEMANTICS
 
@@ -1102,6 +1152,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1118,6 +1169,9 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #undef _REENTRANT
 
 /* Define to `int' if <sys/types.h> doesn't define. */

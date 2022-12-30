@@ -68,6 +68,7 @@ struct SunGeometryVarSlope {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -87,6 +88,11 @@ struct SunGeometryVarSlope {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    bool shift12hrs;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 };
 
 struct SolarRadVar {

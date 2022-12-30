@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \param sprod double -- the scalar produkt between the velocity vector and the
 =======
 <<<<<<< HEAD
@@ -33,10 +34,13 @@
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
  * \param sprod double -- the scalar product between the velocity vector and the
 =======
  * \param sprod double -- the scalar produkt between the velocity vector and the
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
  * \param sprod double -- the scalar produkt between the velocity vector and the
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -47,6 +51,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
  * normal vector between two points \param distance double -- distance between
  * two points \param D double -- diffusion/dispersion tensor part between two
  * points
@@ -80,6 +86,7 @@ double N_full_upwinding(double sprod, double distance, double D)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \param sprod double -- the scalar produkt between the velocity vector and the
 =======
 <<<<<<< HEAD
@@ -88,10 +95,13 @@ double N_full_upwinding(double sprod, double distance, double D)
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
  * \param sprod double -- the scalar product between the velocity vector and the
 =======
  * \param sprod double -- the scalar produkt between the velocity vector and the
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
  * \param sprod double -- the scalar produkt between the velocity vector and the
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -102,6 +112,8 @@ double N_full_upwinding(double sprod, double distance, double D)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
  * normal vector between two points \param distance double -- distance between
  * two points \param D double -- diffusion/dispersion tensor part between two
  * points

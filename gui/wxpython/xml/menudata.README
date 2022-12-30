@@ -7,6 +7,9 @@ MENU
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
   https://grass.osgeo.org/grass-devel/manuals/wxGUI.toolboxes.html
 =======
 <<<<<<< HEAD
@@ -36,6 +39,7 @@ MENU
 =======
   https://grass.osgeo.org/grass-devel/manuals/wxGUI.toolboxes.html
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
   https://grass.osgeo.org/grass-devel/manuals/wxGUI.toolboxes.html
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -60,6 +64,8 @@ MENU
   https://grass.osgeo.org/grass80/manuals/wxGUI.toolboxes.html
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
   (../docs/wxgui_sphinx/src/)
 - additionally
   https://trac.osgeo.org/grass/wiki/wxGUIDevelopment/Toolboxes

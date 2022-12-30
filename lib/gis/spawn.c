@@ -928,6 +928,7 @@ int G_spawn(const char *command, ...)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (;;) {
 =======
 <<<<<<< HEAD
@@ -970,6 +971,12 @@ int G_spawn(const char *command, ...)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    for (;;) {
+=======
+    for (i = 0;; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         const char *arg = va_arg(va, const char *);
 
         args[num_args++] = arg;

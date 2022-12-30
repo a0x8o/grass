@@ -65,6 +65,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param kwargs: wx.Panel attribures
 =======
 <<<<<<< HEAD
@@ -73,10 +74,13 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         :param kwargs: wx.Panel attributes
 =======
         :param kwargs: wx.Panel attribures
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         :param kwargs: wx.Panel attribures
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -87,6 +91,8 @@ class MapPanel(SingleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         """
 
         SingleMapPanel.__init__(
@@ -149,10 +155,12 @@ class MapPanel(SingleMapPanel):
 =======
 =======
 
+<<<<<<< HEAD
         self.statusbarManager.SetMode(8)  # goto GCP
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 783d161725 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.statusbarManager.SetMode(8)  # goto GCP
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
@@ -166,6 +174,8 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> osgeo-main
 
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         #

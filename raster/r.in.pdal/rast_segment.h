@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /****************************************************************************
 =======
 <<<<<<< HEAD
@@ -37,12 +38,20 @@
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 /****************************************************************************
 =======
 
  /****************************************************************************
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+/****************************************************************************
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
  *
  * MODULE:    r.in.pdal
  *
@@ -68,6 +77,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,6 +87,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 void rast_segment_open(SEGMENT *segment, const char *name,
                        RASTER_MAP_TYPE *map_type);
 int rast_segment_get_value_xy(SEGMENT *base_segment,
@@ -102,11 +114,15 @@ void rast_segment_open(SEGMENT * segment, const char *name,
 int rast_segment_get_value_xy(SEGMENT * base_segment,
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 void rast_segment_open(SEGMENT *segment, const char *name,
                        RASTER_MAP_TYPE *map_type);
 int rast_segment_get_value_xy(SEGMENT *base_segment,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 void rast_segment_open(SEGMENT *segment, const char *name,
                        RASTER_MAP_TYPE *map_type);
@@ -121,6 +137,8 @@ int rast_segment_get_value_xy(SEGMENT *base_segment,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                               struct Cell_head *input_region,
                               RASTER_MAP_TYPE rtype, double x, double y,
                               double *value);

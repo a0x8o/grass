@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -18,10 +19,13 @@
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 extern struct tm *localtime();
 extern struct tm *gmtime();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -42,6 +46,9 @@ extern struct tm *gmtime();
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 /*
  ** NOTE:  the extern variable "timezone" seems to be treated
  ** differently by different OS, and the tm_zone element of struct tm

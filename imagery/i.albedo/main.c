@@ -333,6 +333,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (i = 100; i > i_peak3; i--) {
 =======
 <<<<<<< HEAD
@@ -341,10 +342,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         for (i = 99; i > i_peak3; i--) {
 =======
         for (i = 100; i > i_peak3; i--) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         for (i = 100; i > i_peak3; i--) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -355,6 +359,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             if (histogram[i] < bottom3b) {
                 bottom3b = histogram[i];
                 /* i_bottom3b = i; */

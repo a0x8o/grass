@@ -170,6 +170,7 @@ char *MEM_STREAM<T>::sprint()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     snprintf(buf, sizeof(buf), "[MEM_STREAM %d]", stream_len());
 =======
 <<<<<<< HEAD
@@ -212,6 +213,12 @@ char *MEM_STREAM<T>::sprint()
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    snprintf(buf, sizeof(buf), "[MEM_STREAM %d]", stream_len());
+=======
+    sprintf(buf, "[MEM_STREAM %d]", stream_len());
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     return buf;
 }
 

@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -46,6 +47,10 @@ int db__driver_init(int argc UNUSED, char *argv[] UNUSED)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+int db__driver_init(int argc UNUSED, char *argv[] UNUSED)
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_init(int argc, char *argv[])
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -58,6 +63,7 @@ int db__driver_init(int argc, char *argv[])
 
    \return DB_OK
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,6 +108,12 @@ int db__driver_finish(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+int db__driver_finish(void)
+=======
+int db__driver_finish()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     return DB_OK;
 }

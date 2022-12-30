@@ -7,6 +7,7 @@ struct octfunc {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -25,6 +26,8 @@ struct octfunc {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     int (*compare)(struct quadruple *, struct octdata *);
     struct octdata **(*divide_data)(struct octdata *);
     int (*add_data)(struct quadruple *, struct octdata *);
@@ -50,6 +53,7 @@ struct octtree {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -68,6 +72,8 @@ struct octtree {
 
 struct octtree {
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
     int (*compare)();
     VOID_T **(*divide_data)();
     int (*add_data)();
@@ -77,6 +83,7 @@ struct octtree {
 };
 
 struct octtree {
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     VOID_T *data;
 <<<<<<< HEAD
@@ -109,6 +116,10 @@ struct octtree {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    VOID_T *data;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     struct octtree **leafs;
     struct octtree *parent;
     struct octfunc *functions;

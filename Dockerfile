@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM ubuntu:22.04
 
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
@@ -16,6 +17,13 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 =======
 # syntax=docker/dockerfile:1.8@sha256:d6d396f3780b1dd56a3acbc975f57bd2fc501989b50164c41387c42d04e780d0
 >>>>>>> fe91344e46 (CI(deps): Update docker/dockerfile Docker tag to v1.8 (#3797))
+=======
+# syntax=docker/dockerfile:1.8@sha256:d6d396f3780b1dd56a3acbc975f57bd2fc501989b50164c41387c42d04e780d0
+=======
+<<<<<<< HEAD
+# syntax=docker/dockerfile:1.7@sha256:a57df69d0ea827fb7266491f2813635de6f17269be881f696fbfdf2d83dda33e
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 # Note: This file must be kept in sync in ./Dockerfile and ./docker/ubuntu/Dockerfile.
 #       Changes to this file must be copied over to the other file.
@@ -30,6 +38,7 @@ FROM ubuntu:22.04
 
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 FROM ubuntu:22.04
 
@@ -42,10 +51,13 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,weinmann@mundialis.de"
 
 ENV DEBIAN_FRONTEND noninteractive
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62,6 +74,8 @@ ARG LAZ_PERF_VERSION=3.2.0
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 SHELL ["/bin/bash", "-c"]
 
 WORKDIR /tmp
@@ -79,6 +93,7 @@ ARG PDAL_VERSION=2.4.3
 # https://github.com/hobuinc/laz-perf/releases
 ARG LAZ_PERF_VERSION=3.2.0
 
+<<<<<<< HEAD
 =======
 # define versions to be used
 # https://github.com/PDAL/PDAL/releases
@@ -94,6 +109,8 @@ ARG LAZ_PERF_VERSION=3.2.0
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 SHELL ["/bin/bash", "-c"]
 
 WORKDIR /tmp
@@ -107,6 +124,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -123,6 +141,9 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     curl \
     flex \
     g++ \
@@ -131,6 +152,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -138,6 +160,8 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     geos-bin \
     proj-bin \
     netcdf-bin \
@@ -189,6 +213,7 @@ RUN apt-get update && apt-get upgrade -y && \
     python3-venv \
     sqlite3 \
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -198,6 +223,8 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     git \
     language-pack-en-base \
     libbz2-dev \
@@ -249,6 +276,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -265,6 +293,9 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     unzip \
     vim \
     wget \
@@ -272,6 +303,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -279,6 +311,8 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     zlib1g \
     "
 ENV GRASS_RUN_PACKAGES=${GRASS_RUN_PACKAGES}
@@ -462,6 +496,7 @@ COPY . /src/grass_build/
 WORKDIR /src/grass_build
 
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -471,6 +506,8 @@ WORKDIR /src/grass_build
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     zlib1g-dev
 
 RUN echo LANG="en_US.UTF-8" > /etc/default/locale
@@ -547,6 +584,7 @@ RUN rm -f /src/grass_build/dist.*/demolocation/.grassrc*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -563,6 +601,9 @@ RUN rm -f /src/grass_build/dist.*/demolocation/.grassrc*
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 # Set environmental variables for GRASS GIS compilation, without debug symbols
 # Set gcc/g++ environmental variables for GRASS GIS compilation, without debug symbols
 ENV MYCFLAGS "-O2 -std=gnu99 -m64"
@@ -576,6 +617,7 @@ ENV CXXFLAGS "$MYCXXFLAGS"
 # Configure compile and install GRASS GIS
 ENV NUMTHREADS=4
 RUN make distclean || echo "nothing to clean"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -608,6 +650,8 @@ RUN /src/grass_build/configure \
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 RUN ./configure $GRASS_CONFIG \
     && make -j $NUMTHREADS \
     && make install && ldconfig \
@@ -698,6 +742,7 @@ RUN grass --tmp-project EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" outp
 WORKDIR /grassdb
 VOLUME /grassdb
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 CMD ["bash", "-c", "$GRASSBIN", "--version"]
 =======
@@ -829,3 +874,86 @@ VOLUME /grassdb
 =======
 CMD ["$GRASSBIN", "--version"]
 >>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))
+=======
+CMD ["$GRASSBIN", "--version"]
+=======
+CMD ["bash", "-c", "$GRASSBIN", "--version"]
+=======
+RUN /src/grass_build/configure \
+  --with-cxx \
+  --enable-largefile \
+  --with-proj-share=/usr/share/proj \
+  --with-gdal=/usr/bin/gdal-config \
+  --with-geos \
+  --with-sqlite \
+  --with-cairo --with-cairo-ldflags=-lfontconfig \
+  --with-freetype --with-freetype-includes="/usr/include/freetype2/" \
+  --with-fftw \
+  --with-postgres --with-postgres-includes="/usr/include/postgresql" \
+  --with-netcdf \
+  --with-zstd \
+  --with-bzlib \
+  --with-pdal \
+  --without-mysql \
+  --without-odbc \
+  --without-openmp \
+  --without-opengl \
+    && make -j $NUMTHREADS \
+    && make install && ldconfig
+
+# Unset environmental variables to avoid later compilation issues
+ENV INTEL ""
+ENV MYCFLAGS ""
+ENV MYLDFLAGS ""
+ENV MYCXXFLAGS ""
+ENV LD_LIBRARY_PATH ""
+ENV LDFLAGS ""
+ENV CFLAGS ""
+ENV CXXFLAGS ""
+
+# set SHELL var to avoid /bin/sh fallback in interactive GRASS GIS sessions
+ENV SHELL /bin/bash
+ENV LC_ALL "en_US.UTF-8"
+ENV GRASS_SKIP_MAPSET_OWNER_CHECK 1
+
+# Create generic GRASS GIS lib name regardless of version number
+RUN ln -sf /usr/local/grass83 /usr/local/grass
+
+# show GRASS GIS, PROJ, GDAL etc versions
+RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
+    pdal --version && \
+    python3 --version
+
+# Reduce the image size
+RUN apt-get autoremove -y
+RUN apt-get clean -y
+RUN rm -r /src/grass_build/.git
+
+WORKDIR /scripts
+
+# install external GRASS GIS session Python API
+RUN pip3 install grass-session
+
+# install GRASS GIS extensions
+RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.in.pdal
+
+# add GRASS GIS envs for python usage
+ENV GISBASE "/usr/local/grass/"
+ENV GRASSBIN "/usr/local/bin/grass"
+ENV PYTHONPATH "${PYTHONPATH}:$GISBASE/etc/python/"
+ENV LD_LIBRARY_PATH "$LD_LIBRARY_PATH:$GISBASE/lib"
+
+WORKDIR /tmp
+COPY docker/testdata/simple.laz .
+WORKDIR /scripts
+COPY docker/testdata/test_grass_session.py .
+## just scan the LAZ file
+# Not yet ready for GRASS GIS 8:
+#RUN /usr/bin/python3 /scripts/test_grass_session.py
+RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
+
+WORKDIR /grassdb
+VOLUME /grassdb
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))

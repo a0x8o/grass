@@ -180,32 +180,39 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-    while (Vect_read_next_line(&In, points, Cats) > 0)
-        ;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< HEAD
     while (Vect_read_next_line(&In, points, Cats) > 0)
         ;
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    while (Vect_read_next_line(&In, points, Cats) > 0)
+        ;
+=======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+    while (Vect_read_next_line(&In, points, Cats) > 0)
+        ;
+=======
+>>>>>>> osgeo-main
+=======
 <<<<<<< HEAD
     while (Vect_read_next_line(&In, points, Cats) > 0)
         ;
 =======
 >>>>>>> osgeo-main
 =======
-<<<<<<< HEAD
     while (Vect_read_next_line(&In, points, Cats) > 0)
         ;
 =======
->>>>>>> osgeo-main
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     while (Vect_read_next_line(&In, points, Cats) > 0) {
         nlines++;
     }
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     while (Vect_read_next_line(&In, points, Cats) > 0)
         ;
@@ -226,6 +233,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     Vect_rewind(&In);
 
     /* no topology, get number of lines in first pulse input vector */
@@ -235,32 +244,39 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-    while (Vect_read_next_line(&First, points_first, Cats_first) > 0)
-        ;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< HEAD
     while (Vect_read_next_line(&First, points_first, Cats_first) > 0)
         ;
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    while (Vect_read_next_line(&First, points_first, Cats_first) > 0)
+        ;
+=======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+    while (Vect_read_next_line(&First, points_first, Cats_first) > 0)
+        ;
+=======
+>>>>>>> osgeo-main
+=======
 <<<<<<< HEAD
     while (Vect_read_next_line(&First, points_first, Cats_first) > 0)
         ;
 =======
 >>>>>>> osgeo-main
 =======
-<<<<<<< HEAD
     while (Vect_read_next_line(&First, points_first, Cats_first) > 0)
         ;
 =======
->>>>>>> osgeo-main
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     while (Vect_read_next_line(&First, points_first, Cats_first) > 0) {
         nlines_first++;
     }
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     while (Vect_read_next_line(&First, points_first, Cats_first) > 0)
         ;
@@ -281,6 +297,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     Vect_rewind(&First);
 
     /* Setting regions and boxes */

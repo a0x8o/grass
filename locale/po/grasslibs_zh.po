@@ -3738,6 +3738,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3745,6 +3746,8 @@ msgstr ""
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../lib/gis/parser_help.c:198
 msgid "Flags:"
 msgstr ""
@@ -4018,6 +4021,7 @@ msgid "<%s> in mapset <%s>"
 msgstr "<%s>在地图集<%s>中"
 =======
 #: ../lib/manage/do_copy.c:43
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4320,6 +4324,8 @@ msgstr ""
 
 #: ../lib/vector/vedit/cats.c:63
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #, c-format
 msgid "Copying %s <%s> to current mapset as <%s>"
 msgstr ""
@@ -12195,6 +12201,7 @@ msgstr "非法的3D顶到底的分辨率值"
 msgid "Illegal depths value"
 msgstr "非法的深度值"
 
+<<<<<<< HEAD
 =======
 msgid "Illegal row value"
 msgstr "非法的行值"
@@ -12246,5 +12253,7 @@ msgstr "非法的深度值"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Top must be larger than Bottom"
 msgstr "顶部的值必须比底部的值大"

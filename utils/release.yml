@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8,10 +9,13 @@
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 ---
 notes:
   categories:
     - title: Modules
+<<<<<<< HEAD
 <<<<<<< HEAD
       regexp: '((d|db|g|i|m|ps|r|r3|t|v)\.[^ ]*)(, (d|db|g|i|m|ps|r|r3|t|v)\.[^ ]*)?: |(modules|tools): '
 =======
@@ -50,6 +54,18 @@ notes:
 =======
       regexp: '((d|db|g|i|m|ps|r|r3|t|v)\.[^ ]*)(, (d|db|g|i|m|ps|r|r3|t|v)\.[^ ]*)?: |(modules|tools|temporal): '
 >>>>>>> 3ed472d0a8 (contributing: Add more prefixes (#3823))
+=======
+      regexp: '((d|db|g|i|m|ps|r|r3|t|v)\.[^ ]*)(, (d|db|g|i|m|ps|r|r3|t|v)\.[^ ]*)?: |(modules|tools|temporal): '
+=======
+      regexp: '((d|db|g|i|m|ps|r|r3|t|v)\.[^ ]*)(, (d|db|g|i|m|ps|r|r3|t|v)\.[^ ]*)?: |(modules|tools): '
+=======
+notes:
+  categories:
+    - title: Modules
+      regexp: '(d|db|g|i|m|ps|r|r3|t|v)\.[^ ]*: |(modules|tools): '
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
     - title: Graphical User Interface
       regexp: '(wxGUI.*|gui|GUI): '
@@ -70,6 +86,7 @@ notes:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       regexp: '(i18n|i18N|L10n|L10N|t9n|translations?): '
 =======
 <<<<<<< HEAD
@@ -78,10 +95,13 @@ notes:
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
       regexp: '(i18n|i18N|L10n|L10N|t9n|translations?): |Translations update from '
 =======
       regexp: '(i18n|i18N|L10n|L10N|t9n|translations?): '
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
       regexp: '(i18n|i18N|L10n|L10N|t9n|translations?): '
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -92,6 +112,8 @@ notes:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
     - title: Windows
       regexp: '(winGRASS|win|[Ww]indows): '
@@ -100,6 +122,7 @@ notes:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -107,9 +130,12 @@ notes:
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
       regexp: '(packaging|pkg|rpm|deb|pkg-config|configure|config|[Mm]ake|build): '
 
     - title: Docker
+<<<<<<< HEAD
 <<<<<<< HEAD
       regexp: '[Dd]ocker(/[^ ]+)?: '
 =======
@@ -148,10 +174,23 @@ notes:
 =======
       regexp: '[Dd]ocker(/[^ ]+)?(\(\w[\w.-]*\))?: '
 >>>>>>> 3ed472d0a8 (contributing: Add more prefixes (#3823))
+=======
+      regexp: '[Dd]ocker(/[^ ]+)?(\(\w[\w.-]*\))?: '
+=======
+      regexp: '[Dd]ocker(/[^ ]+)?: '
+=======
+      regexp: '(pkg|rpm|deb|pkg-config|configure|config|[Mm]ake): '
+
+    - title: Docker
+      regexp: '[Dd]ocker: '
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
     - title: Singularity
       regexp: '[Ss]ingularity(\(\w[\w.-]*\))?: '
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     - title: Continuous Integration, Tests, Code Quality, and Checks
 <<<<<<< HEAD
@@ -175,6 +214,15 @@ notes:
     - title: Continuous Integration, Infrastructure, Tests and Code Quality
       regexp: '(CI|ci|[Tt]ests|[Cc]hecks|style|perf|CQ|[Rr]efactoring|utils|pytest|unittest)(\(\w[\w.-]*\))?: '
 >>>>>>> 3ed472d0a8 (contributing: Add more prefixes (#3823))
+=======
+    - title: Continuous Integration, Infrastructure, Tests and Code Quality
+      regexp: '(CI|ci|[Tt]ests|[Cc]hecks|style|perf|CQ|[Rr]efactoring|utils|pytest|unittest)(\(\w[\w.-]*\))?: '
+=======
+    - title: Continuous Integration, Tests, Code Quality, and Checks
+<<<<<<< HEAD
+      regexp: '(CI|ci|CI\(deps\)|ci\(deps\)|[Tt]ests|[Cc]hecks|pytest): '
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
     - title: Contributing and Management
       regexp: '(contributing|CONTRIBUTING.md|contributors|contributors.csv): '
@@ -185,6 +233,7 @@ notes:
       - 'version: '
       - 'RFC: '
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
       regexp: '(CI|ci|[Tt]ests|[Cc]hecks|pytest): '
@@ -206,6 +255,11 @@ notes:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+      regexp: '(CI|ci|[Tt]ests|[Cc]hecks|pytest): '
+
+    - title: Contributing and Management
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
       regexp: '(contributing|CONTRIBUTING.md|contributors.csv): '
 
   exclude:
@@ -216,6 +270,7 @@ notes:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -232,3 +287,6 @@ notes:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))

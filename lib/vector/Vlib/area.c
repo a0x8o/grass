@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_area_points(const struct Map_info *Map, int area,
 =======
 <<<<<<< HEAD
@@ -45,10 +46,13 @@ int Vect_get_area_points(const struct Map_info *Map, int area,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 int Vect_get_area_points(struct Map_info *Map, int area,
 =======
 int Vect_get_area_points(const struct Map_info *Map, int area,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 int Vect_get_area_points(const struct Map_info *Map, int area,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -59,6 +63,8 @@ int Vect_get_area_points(const struct Map_info *Map, int area,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                          struct line_pnts *BPoints)
 {
     const struct Plus_head *Plus;
@@ -92,6 +98,7 @@ int Vect_get_area_points(const struct Map_info *Map, int area,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_isle_points(const struct Map_info *Map, int isle,
 =======
 <<<<<<< HEAD
@@ -100,10 +107,13 @@ int Vect_get_isle_points(const struct Map_info *Map, int isle,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 int Vect_get_isle_points(struct Map_info *Map, int isle,
 =======
 int Vect_get_isle_points(const struct Map_info *Map, int isle,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 int Vect_get_isle_points(const struct Map_info *Map, int isle,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -114,6 +124,8 @@ int Vect_get_isle_points(const struct Map_info *Map, int isle,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                          struct line_pnts *BPoints)
 {
     const struct Plus_head *Plus;
@@ -187,6 +199,7 @@ int Vect_get_area_centroid(struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_area_boundaries(const struct Map_info *Map, int area,
                              struct ilist *List)
 =======
@@ -196,11 +209,14 @@ int Vect_get_area_boundaries(const struct Map_info *Map, int area,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 int Vect_get_area_boundaries(struct Map_info *Map, int area, struct ilist *List)
 =======
 int Vect_get_area_boundaries(const struct Map_info *Map, int area,
                              struct ilist *List)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 int Vect_get_area_boundaries(const struct Map_info *Map, int area,
                              struct ilist *List)
@@ -212,6 +228,8 @@ int Vect_get_area_boundaries(const struct Map_info *Map, int area,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     int i, line;
     const struct Plus_head *Plus;
@@ -250,6 +268,7 @@ int Vect_get_area_boundaries(const struct Map_info *Map, int area,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_isle_boundaries(const struct Map_info *Map, int isle,
                              struct ilist *List)
 =======
@@ -259,11 +278,14 @@ int Vect_get_isle_boundaries(const struct Map_info *Map, int isle,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 int Vect_get_isle_boundaries(struct Map_info *Map, int isle, struct ilist *List)
 =======
 int Vect_get_isle_boundaries(const struct Map_info *Map, int isle,
                              struct ilist *List)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 int Vect_get_isle_boundaries(const struct Map_info *Map, int isle,
                              struct ilist *List)
@@ -275,6 +297,8 @@ int Vect_get_isle_boundaries(const struct Map_info *Map, int isle,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     int i, line;
     const struct Plus_head *Plus;
@@ -436,6 +460,7 @@ double Vect_get_area_perimeter(struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_point_in_area(double x, double y, const struct Map_info *Map, int area,
 =======
 <<<<<<< HEAD
@@ -444,10 +469,13 @@ int Vect_point_in_area(double x, double y, const struct Map_info *Map, int area,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 int Vect_point_in_area(double x, double y, struct Map_info *Map, int area,
 =======
 int Vect_point_in_area(double x, double y, const struct Map_info *Map, int area,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 int Vect_point_in_area(double x, double y, const struct Map_info *Map, int area,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -458,6 +486,8 @@ int Vect_point_in_area(double x, double y, const struct Map_info *Map, int area,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                        struct bound_box *box)
 {
     int i, isle;
@@ -549,6 +579,7 @@ double Vect_get_area_area(struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_area_cats(const struct Map_info *Map, int area,
                        struct line_cats *Cats)
 =======
@@ -558,11 +589,14 @@ int Vect_get_area_cats(const struct Map_info *Map, int area,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 int Vect_get_area_cats(struct Map_info *Map, int area, struct line_cats *Cats)
 =======
 int Vect_get_area_cats(const struct Map_info *Map, int area,
                        struct line_cats *Cats)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 int Vect_get_area_cats(const struct Map_info *Map, int area,
                        struct line_cats *Cats)
@@ -574,6 +608,8 @@ int Vect_get_area_cats(const struct Map_info *Map, int area,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     int centroid;
 
@@ -640,6 +676,7 @@ int Vect_get_area_cat(struct Map_info *Map, int area, int field)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect__get_area_points(const struct Map_info *Map, const plus_t *lines,
 =======
 <<<<<<< HEAD
@@ -648,10 +685,13 @@ int Vect__get_area_points(const struct Map_info *Map, const plus_t *lines,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 int Vect__get_area_points(struct Map_info *Map, const plus_t *lines,
 =======
 int Vect__get_area_points(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 int Vect__get_area_points(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -662,6 +702,8 @@ int Vect__get_area_points(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                           int n_lines, struct line_pnts *BPoints)
 {
     if (Map->format == GV_FORMAT_POSTGIS && Map->fInfo.pg.toposchema_name &&
@@ -693,6 +735,7 @@ int Vect__get_area_points(const struct Map_info *Map, const plus_t *lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect__get_area_points_nat(const struct Map_info *Map, const plus_t *lines,
 =======
 <<<<<<< HEAD
@@ -701,10 +744,13 @@ int Vect__get_area_points_nat(const struct Map_info *Map, const plus_t *lines,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 int Vect__get_area_points_nat(struct Map_info *Map, const plus_t *lines,
 =======
 int Vect__get_area_points_nat(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 int Vect__get_area_points_nat(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -715,6 +761,8 @@ int Vect__get_area_points_nat(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                               int n_lines, struct line_pnts *BPoints)
 {
     int i, line, aline, dir;

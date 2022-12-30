@@ -4,6 +4,7 @@ MODULE_TOPDIR = ../..
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19,11 +20,14 @@ MODULE_TOPDIR = ../..
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 LIBES2 = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 LIBES3 = $(RASTER3DLIB) $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(RASTER3DDEP) $(GISDEP) $(RASTERDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
 EXTRA_INC = $(OPENMP_INCPATH)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35,10 +39,14 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 LIBES2 = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OMPLIB)
 LIBES3 = $(RASTER3DLIB) $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OMPLIB)
 DEPENDENCIES = $(RASTER3DDEP) $(GISDEP) $(RASTERDEP)
 EXTRA_CFLAGS = $(OMPCFLAGS)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -67,6 +75,9 @@ EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 PROGRAMS = r.univar r3.univar
 

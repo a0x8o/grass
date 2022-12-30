@@ -20,6 +20,7 @@ r3.out.netcdf input=elevation3d output=elevation3d.nc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -49,3 +50,8 @@ r3.out.netcdf input=elevation3d output=elevation3d.nc
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))

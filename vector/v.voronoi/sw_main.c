@@ -404,6 +404,7 @@ int readbounds(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -433,6 +434,11 @@ int readbounds(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        nconnected = 0;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         Vect_reset_list(linelist);
         Vect_reset_list(arealist);
 
@@ -450,6 +456,7 @@ int readbounds(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -479,6 +486,11 @@ int readbounds(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+                nconnected++;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             }
         }
 

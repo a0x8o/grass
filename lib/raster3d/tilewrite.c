@@ -14,6 +14,7 @@ static int Rast3d_tile2xdrTile(RASTER3D_Map *map, const void *tile, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                int yRedundant, int zRedundant, int nofNum,
                                int type)
 =======
@@ -23,12 +24,15 @@ static int Rast3d_tile2xdrTile(RASTER3D_Map *map, const void *tile, int rows,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                                int yRedundant, int zRedundant UNUSED,
                                int nofNum, int type)
 =======
                                int yRedundant, int zRedundant, int nofNum,
                                int type)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                                int yRedundant, int zRedundant, int nofNum,
                                int type)
@@ -40,6 +44,8 @@ static int Rast3d_tile2xdrTile(RASTER3D_Map *map, const void *tile, int rows,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     int y, z;
 
@@ -272,6 +278,7 @@ int Rast3d_write_tile_double(RASTER3D_Map *map, int tileIndex, const void *tile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * invokation of Rast3d_flush_tile, a tile filled with NULL-values is written.
 =======
 <<<<<<< HEAD
@@ -280,10 +287,13 @@ int Rast3d_write_tile_double(RASTER3D_Map *map, int tileIndex, const void *tile)
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
  * invocation of Rast3d_flush_tile, a tile filled with NULL-values is written.
 =======
  * invokation of Rast3d_flush_tile, a tile filled with NULL-values is written.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
  * invokation of Rast3d_flush_tile, a tile filled with NULL-values is written.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -294,6 +304,8 @@ int Rast3d_write_tile_double(RASTER3D_Map *map, int tileIndex, const void *tile)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
  *
  *  \param map
  *  \param tileIndex

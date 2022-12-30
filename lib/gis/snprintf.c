@@ -52,6 +52,7 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (count >= 0 && (unsigned int)count == size)
 =======
 <<<<<<< HEAD
@@ -91,6 +92,12 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if (count >= 0 && (unsigned int)count == size)
+=======
+    if (count == size)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         str[--count] = '\0';
 
     return count;

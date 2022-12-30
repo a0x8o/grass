@@ -80,6 +80,7 @@ int do_geogrid(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (; g >= south; g -= grid) {
 =======
 <<<<<<< HEAD
@@ -119,6 +120,12 @@ int do_geogrid(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    for (; g >= south; g -= grid) {
+=======
+    for (j = 0; g >= south; j++, g -= grid) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         if (g == north || g == south)
             continue;
         for (ll = 0; ll < SEGS; ll++) {
@@ -150,6 +157,7 @@ int do_geogrid(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (; g > west; g -= grid) {
 =======
 <<<<<<< HEAD
@@ -189,6 +197,12 @@ int do_geogrid(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    for (; g > west; g -= grid) {
+=======
+    for (j = 0; g > west; j++, g -= grid) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         if (g == east || g == west)
             continue;
         for (ll = 0; ll < SEGS; ll++) {

@@ -263,6 +263,7 @@ class Attrib(dict):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         an attribute can also be preceeded/followed by a double underscore
 =======
 <<<<<<< HEAD
@@ -271,10 +272,13 @@ class Attrib(dict):
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         an attribute can also be preceded/followed by a double underscore
 =======
         an attribute can also be preceeded/followed by a double underscore
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         an attribute can also be preceeded/followed by a double underscore
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -285,6 +289,8 @@ class Attrib(dict):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         ('__').
         """
 

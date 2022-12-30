@@ -4,6 +4,12 @@ int do_patch(void *result, void *, struct Cell_stats *, int, RASTER_MAP_TYPE,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 /* support.c */
 int support(char **, struct Cell_stats *, int, struct Categories *, int *,
             struct Colors *, int *, RASTER_MAP_TYPE);

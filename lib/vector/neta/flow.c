@@ -178,6 +178,7 @@ int NetA_min_cut(dglGraph_s *graph, struct ilist *source_list,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                  struct ilist *sink_list, int *flow, struct ilist *cut)
 =======
 <<<<<<< HEAD
@@ -186,10 +187,13 @@ int NetA_min_cut(dglGraph_s *graph, struct ilist *source_list,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                  struct ilist *sink_list UNUSED, int *flow, struct ilist *cut)
 =======
                  struct ilist *sink_list, int *flow, struct ilist *cut)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                  struct ilist *sink_list, int *flow, struct ilist *cut)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -200,6 +204,8 @@ int NetA_min_cut(dglGraph_s *graph, struct ilist *source_list,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     int nnodes, i;
     dglEdgesetTraverser_s et;

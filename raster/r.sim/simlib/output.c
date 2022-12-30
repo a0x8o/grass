@@ -610,6 +610,7 @@ int output_data(int tt, double ft UNUSED)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -628,6 +629,10 @@ int output_et(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+int output_et(void)
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 int output_et()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {

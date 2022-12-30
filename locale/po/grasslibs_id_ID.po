@@ -10392,6 +10392,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -10408,6 +10409,9 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../lib/vector/Vlib/net_build.c:467
 msgid "Cannot add network arc representing turn."
@@ -12832,6 +12836,7 @@ msgstr "[%s]: Tidak ada warna seperti itu"
 #~ msgid "Unbale to open raster <%s>"
 #~ msgstr "Tidak dapat membuka raster <%s>"
 
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -12841,5 +12846,7 @@ msgstr "[%s]: Tidak ada warna seperti itu"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Copy %s <%s> to current mapset as <%s>"
 msgstr "Salin %s <%s> ke current mapset sebagai <%s>"

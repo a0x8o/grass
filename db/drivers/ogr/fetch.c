@@ -149,6 +149,7 @@ int db__driver_fetch(dbCursor *cn, int position, int *more)
             break;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,6 +167,9 @@ int db__driver_fetch(dbCursor *cn, int position, int *more)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 

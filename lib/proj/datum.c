@@ -383,19 +383,23 @@ struct datum_list *read_datum_table(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
->>>>>>> osgeo-main
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
         count++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 
         count++;
@@ -415,6 +419,8 @@ struct datum_list *read_datum_table(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     fclose(fd);

@@ -45,6 +45,7 @@ import inspect
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -63,6 +64,10 @@ StringTypes = (str, bytes)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+StringTypes = (str, bytes)
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 try:
     # Python 2.6
     StringTypes = (types.StringType, types.UnicodeType)
@@ -72,6 +77,7 @@ except AttributeError:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -88,6 +94,9 @@ except AttributeError:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 # This regular expression is used to match valid token names
 _is_identifier = re.compile(r'^[a-zA-Z0-9_]+$')

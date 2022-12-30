@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * COPYRIGHT:   (C) 2000-2023 by the GRASS Development Team
 =======
 <<<<<<< HEAD
@@ -28,6 +29,8 @@
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
  * COPYRIGHT:   (C) 2000-2024 by the GRASS Development Team
 =======
  * COPYRIGHT:   (C) 2000-2021 by the GRASS Development Team
@@ -40,6 +43,7 @@
 =======
  * COPYRIGHT:   (C) 2000-2022 by the GRASS Development Team
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
  * COPYRIGHT:   (C) 2000-2022 by the GRASS Development Team
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -63,6 +67,8 @@
  * COPYRIGHT:   (C) 2000-2021 by the GRASS Development Team
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
  *
  *              This program is free software under the GNU General Public
  *              License (>=v2). Read the file COPYING that comes with GRASS
@@ -95,6 +101,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const char *GRASS_copyright __attribute__((unused)) =
     "GRASS GNU GPL licensed Software";
 =======
@@ -104,6 +111,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 /*!
     \def UNUSED
     \brief A macro for an attribute, if attached to a variable,
@@ -131,6 +140,7 @@ static const char *GRASS_copyright UNUSED = "GRASS GNU GPL licensed Software";
 static const char *GRASS_copyright __attribute__((unused)) =
     "GRASS GNU GPL licensed Software";
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 static const char *GRASS_copyright __attribute__((unused)) =
     "GRASS GNU GPL licensed Software";
@@ -142,6 +152,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 /* GRASS version, GRASS date, git short hash of last change in GRASS headers
  * (and anything else in include)
@@ -168,6 +180,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,6 +198,9 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #if (defined(_FILE_OFFSET_BITS) && _FILE_OFFSET_BITS == 64) || \
     (__APPLE__ && __LP64__)
 #define PRI_OFF_T "lld"
@@ -228,6 +244,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -252,12 +269,17 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> c9e7c8086a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> 06036d3399 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #define U_YEARS          DATETIME_YEAR
 #define U_MONTHS         DATETIME_MONTH
 #define U_DAYS           DATETIME_DAY
 #define U_HOURS          DATETIME_HOUR
 #define U_MINUTES        DATETIME_MINUTE
 #define U_SECONDS        DATETIME_SECOND
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,6 +298,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 =======
 >>>>>>> c9e7c8086a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
@@ -294,6 +318,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -311,6 +336,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 >>>>>>> 06036d3399 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 /*! \brief Projection code - XY coordinate system (unreferenced data) */
 #define PROJECTION_XY    0
@@ -515,6 +542,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -536,6 +564,10 @@ typedef enum {
 >>>>>>> osgeo-main
 =======
 >>>>>>> c9e7c8086a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     G_OPT_M_UNITS,      /*!< units */
     G_OPT_M_DATATYPE,   /*!< datatype */
     G_OPT_M_MAPSET,     /*!< mapset */
@@ -550,6 +582,9 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -596,6 +631,7 @@ typedef enum {
     G_OPT_T_SAMPLE             /*!< Temporal sample methods */
 >>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -609,6 +645,10 @@ typedef enum {
 >>>>>>> osgeo-main
 =======
 >>>>>>> c9e7c8086a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
     G_OPT_STDS_INPUT, /*!< old input space time dataset of type strds, str3ds or
                          stvds */

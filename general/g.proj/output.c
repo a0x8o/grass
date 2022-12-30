@@ -281,6 +281,7 @@ void print_wkt(int esristyle, int dontprettify)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_free(outwkt);
 =======
 <<<<<<< HEAD
@@ -289,10 +290,13 @@ void print_wkt(int esristyle, int dontprettify)
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         CPLFree(outwkt);
 =======
         G_free(outwkt);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         G_free(outwkt);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -303,6 +307,8 @@ void print_wkt(int esristyle, int dontprettify)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
     else
         G_warning(_("Unable to convert to WKT"));

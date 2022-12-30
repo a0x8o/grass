@@ -2380,6 +2380,7 @@ msgstr ""
 <<<<<<< HEAD
 #: ../gui/wxpython/datacatalog/toolbars.py:35
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/datacatalog/toolbars.py:40
 <<<<<<< HEAD
@@ -2397,15 +2398,21 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Create new mapset in current project"
 =======
 =======
 #: ../gui/wxpython/datacatalog/toolbars.py:40
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Create new mapset in current location"
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
@@ -2418,6 +2425,7 @@ msgstr ""
 msgid "Download sample project (location) to current GRASS database"
 msgstr ""
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2434,6 +2442,10 @@ msgstr ""
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/datacatalog/toolbars.py:46
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 #: ../gui/wxpython/datacatalog/toolbars.py:45
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -2452,6 +2464,7 @@ msgstr ""
 #: ../gui/wxpython/datacatalog/toolbars.py:49
 msgid "Import raster data  [r.import]"
 msgstr ""
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/datacatalog/toolbars.py:49
 msgid "Import raster data  [r.import]"
@@ -2464,12 +2477,15 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/datacatalog/toolbars.py:52
 msgid "Import vector data  [v.import]"
 msgstr ""
 
 #: ../gui/wxpython/datacatalog/toolbars.py:55
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2493,6 +2509,10 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Select another import option"
 msgstr ""
 
@@ -2546,11 +2566,17 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/datacatalog/frame.py:31 ../gui/wxpython/menustrings.py:2036
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/datacatalog/frame.py:31 ../gui/wxpython/menustrings.py:2036
+=======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/datacatalog/frame.py:31 ../gui/wxpython/menustrings.py:2031
 =======
 #: ../gui/wxpython/datacatalog/tree.py:104
@@ -2903,6 +2929,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2923,6 +2950,10 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Data Catalog"
 msgstr ""
 
@@ -15327,11 +15358,17 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/mapdisp/statusbar.py:518
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/mapdisp/statusbar.py:518
+=======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/mapdisp/statusbar.py:516
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 #, fuzzy
@@ -18482,11 +18519,17 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/mapdisp/frame.py:163
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/mapdisp/frame.py:163
+=======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/mapdisp/frame.py:178
 =======
 #: ../gui/wxpython/tplot/frame.py:848
@@ -18867,9 +18910,13 @@ msgstr ""
 #: ../gui/wxpython/nviz/mapwindow.py:2214
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #, python-format
 msgid ""
 "Failed to run command '%(command)s'. Details:\n"
@@ -18945,11 +18992,17 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/mapdisp/frame.py:1103
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/mapdisp/frame.py:1103
+=======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/mapdisp/frame.py:1136
 =======
 #: ../gui/wxpython/nviz/tools.py:2799
@@ -19997,9 +20050,13 @@ msgstr ""
 #: ../gui/wxpython/lmgr/frame.py:1393
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #, python-brace-format
 msgid ""
 "Failed to query vector map(s) <{maps}>. Check database settings and topology."
@@ -21120,6 +21177,9 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/modules/import_export.py:50
 msgid "Multiple import"
 =======
@@ -22446,6 +22506,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -22462,6 +22523,9 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Setup for r.li modules"
 msgstr ""
 
@@ -22563,11 +22627,17 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/main_window/frame.py:1140 ../gui/wxpython/lmgr/frame.py:1003
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/main_window/frame.py:1140 ../gui/wxpython/lmgr/frame.py:1003
+=======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/main_window/frame.py:1105 ../gui/wxpython/lmgr/frame.py:995
 =======
 #: ../gui/wxpython/mapwin/buffered.py:267
@@ -22722,9 +22792,13 @@ msgstr ""
 #: ../gui/wxpython/wxplot/profile.py:389
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #, python-format
 msgid ""
 "Command '%s' not yet implemented in the WxGUI. Try adding it as a command "
@@ -22937,6 +23011,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/wxplot/histogram.py:43
 msgid "Histogram Tool"
 =======
@@ -22948,6 +23023,11 @@ msgid "Histogram Tool"
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/main_window/frame.py:2449 ../gui/wxpython/lmgr/frame.py:2355
+=======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/main_window/frame.py:2413 ../gui/wxpython/lmgr/frame.py:2341
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Constrain map to region geometry?"
@@ -23259,6 +23339,7 @@ msgstr "제거"
 #: ../gui/wxpython/wxplot/histogram.py:43
 msgid "Histogram Tool"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23376,6 +23457,8 @@ msgstr ""
 #: ../gui/wxpython/wxplot/dialogs.py:180
 msgid "Select pairs of raster maps for bivariate scatterplots:"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -23446,6 +23529,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -23453,6 +23537,8 @@ msgstr ""
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/lmgr/toolbars.py:128
 #, fuzzy
 msgid "Add multiple map layers"
@@ -23463,6 +23549,7 @@ msgstr "지도 레이어를 제거합니다"
 msgid "Add various raster maps"
 msgstr "다양한 중첩 추가"
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -23472,6 +23559,8 @@ msgstr "다양한 중첩 추가"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/iclass/frame.py:76
 msgid "Supervised Classification Tool"
 msgstr ""
@@ -23621,6 +23710,7 @@ msgstr ""
 
 #: ../gui/wxpython/iclass/g.gui.iclass.py:114
 msgid "Supervised Classification Tool - GRASS GIS"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -24170,6 +24260,8 @@ msgstr ""
 #: ../gui/wxpython/menustrings.py:145 ../gui/wxpython/menustrings.py:1167
 msgid "Converts a vector map to VTK ASCII output."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -24262,6 +24354,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -24278,6 +24371,9 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/lmgr/toolbars.py:158
 msgid "Add web service map"
@@ -24773,6 +24869,7 @@ msgstr "이웃 점"
 
 #: ../gui/wxpython/menustrings.py:345 ../gui/wxpython/menustrings.py:1290
 msgid "Neighborhood analysis tool for vector point maps. Makes each cell value a function of the attribute values assigned to the vector points or centroids in a radius around it, and stores new cell values in an output raster map."
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -27409,6 +27506,8 @@ msgstr ""
 #: ../gui/wxpython/menustrings.py:2014
 msgid "Plot temporal values."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -27428,6 +27527,7 @@ msgstr ""
 msgid "Open a simple Python code editor"
 msgstr ""
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27452,6 +27552,8 @@ msgid "Launch Data Catalog."
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/lmgr/toolbars.py:222
 #, fuzzy
 msgid "New display"
@@ -27459,6 +27561,7 @@ msgstr "디스플레이를 지웁니다"
 =======
 #: ../gui/wxpython/menustrings.py:2000
 msgid "Launch Data Catalog."
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -27533,6 +27636,8 @@ msgstr ""
 #: ../gui/wxpython/menustrings.py:2044
 msgid "Add data"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -27594,6 +27699,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -27610,6 +27716,9 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/lmgr/pyshell.py:78
 msgid "Simple &editor"
@@ -28132,11 +28241,17 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/dbmgr/base.py:185
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/dbmgr/base.py:185
+=======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/dbmgr/base.py:184
 =======
 #: ../gui/wxpython/dbmgr/manager.py:78
@@ -28151,9 +28266,13 @@ msgstr ""
 #: ../gui/wxpython/dbmgr/manager.py:100
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #, python-format
 msgid ""
 "Attribute table <%s> not found. For creating the table switch to 'Manage "
@@ -28868,11 +28987,17 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/animation/utils.py:210
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/animation/utils.py:210
+=======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/animation/utils.py:209
 =======
 #: ../gui/wxpython/gui_core/gselect.py:886
@@ -29147,9 +29272,13 @@ msgstr ""
 #, python-format
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid ""
 "The temporal extents of maps in space-time datasets have to be the same."
 msgstr ""
@@ -29643,6 +29772,7 @@ msgstr "무효합니다"
 msgid "EPSG code:"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #: ../gui/wxpython/gui_core/preferences.py:1739
 msgid "PROJ string (required):"
@@ -29970,6 +30100,8 @@ msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/gui_core/preferences.py:1739
 msgid "PROJ string (required):"
@@ -30302,11 +30434,17 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/animation/provider.py:562
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/animation/provider.py:562
+=======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/animation/provider.py:559
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Overlaying map layers"
@@ -30315,6 +30453,7 @@ msgstr "지도 레이어 중첩"
 #: ../gui/wxpython/gui_core/dialogs.py:2099
 msgid "Symbol directory:"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 #: ../gui/wxpython/gui_core/dialogs.py:2111
@@ -30643,6 +30782,8 @@ msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../gui/wxpython/gui_core/dialogs.py:2111
 msgid "Symbol name:"
@@ -32034,6 +32175,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/psmap/g.gui.psmap.py:51
 msgid "Cartographic Composer - GRASS GIS"
 msgstr ""
@@ -32044,6 +32186,8 @@ msgstr ""
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #~ msgid "MASK"
 #~ msgstr "마스크"
 
@@ -32055,6 +32199,7 @@ msgstr ""
 msgid "Cartographic Composer - GRASS GIS"
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/psmap/g.gui.psmap.py:51
 msgid "Cartographic Composer - GRASS GIS"
@@ -32071,6 +32216,8 @@ msgstr ""
 #~ msgstr "지도 세트를 삭제할 수 없습니다"
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #, fuzzy, python-format
 #~ msgid "Unable to rename location: %s"
@@ -32360,6 +32507,7 @@ msgstr "GRASS GIS 시간 도표 도구"
 msgid "GRASS GIS Histogramming Tool (d.histogram)"
 msgstr "GRASS GIS 주상도 도구 (d.histogram)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 #~ msgid ""
@@ -32371,6 +32519,10 @@ msgstr "GRASS GIS 주상도 도구 (d.histogram)"
 >>>>>>> osgeo-main
 
 <<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #~ msgid ""
 #~ "Neighborhood analysis tool for vector point maps. Makes each cell value a "
 #~ "function of the attribute values assigned to the vector points or "
@@ -32437,6 +32589,7 @@ msgstr "GRASS GIS SQL 질의 유틸리티"
 msgid "Do you want to quit GRASS including shell prompt or just close the GUI?"
 msgstr "셸 프롬프트와 함께 GRASS를 종료할까요? 아니면 GUI만 닫을까요?"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 msgid "GRASS GIS Raster Map Calculator"
 msgstr "GRASS GIS 래스터 지도 계산기"
@@ -32550,3 +32703,5 @@ msgstr "셸 프롬프트와 함께 GRASS를 종료할까요? 아니면 GUI만 �
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))

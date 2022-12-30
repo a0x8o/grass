@@ -175,6 +175,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ((size_t)nat_off_t == port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -217,6 +218,12 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        if ((size_t)nat_off_t == port_off_t_size) {
+=======
+        if (nat_off_t == port_off_t_size) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             ret = dig_fread(buf, port_off_t_size, cnt, fp);
             if (ret != (int)cnt)
                 return 0;
@@ -224,6 +231,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else if ((size_t)nat_off_t > port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -266,6 +274,12 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        else if ((size_t)nat_off_t > port_off_t_size) {
+=======
+        else if (nat_off_t > port_off_t_size) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             /* read into buffer */
             buf_alloc(cnt * port_off_t_size);
             ret = dig_fread(buffer, port_off_t_size, cnt, fp);
@@ -296,6 +310,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else if ((size_t)nat_off_t < port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -338,6 +353,12 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        else if ((size_t)nat_off_t < port_off_t_size) {
+=======
+        else if (nat_off_t < port_off_t_size) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             /* should never happen */
             G_fatal_error(_("Vector exceeds supported file size limit"));
         }
@@ -346,6 +367,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ((size_t)nat_off_t >= port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -388,6 +410,12 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        if ((size_t)nat_off_t >= port_off_t_size) {
+=======
+        if (nat_off_t >= port_off_t_size) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             /* read into buffer */
             buf_alloc(cnt * port_off_t_size);
             ret = dig_fread(buffer, port_off_t_size, cnt, fp);
@@ -417,6 +445,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else if ((size_t)nat_off_t < port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -459,6 +488,12 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        else if ((size_t)nat_off_t < port_off_t_size) {
+=======
+        else if (nat_off_t < port_off_t_size) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             /* should never happen */
             G_fatal_error(_("Vector exceeds supported file size limit"));
         }
@@ -863,6 +898,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -878,11 +914,14 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         if ((size_t)nat_off_t == port_off_t_size) {
             if (dig_fwrite(buf, port_off_t_size, cnt, fp) == cnt)
                 return 1;
         }
         else if ((size_t)nat_off_t > port_off_t_size) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -896,11 +935,15 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         if (nat_off_t == port_off_t_size) {
             if (dig_fwrite(buf, port_off_t_size, cnt, fp) == cnt)
                 return 1;
         }
         else if (nat_off_t > port_off_t_size) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -926,6 +969,9 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             buf_alloc(cnt * port_off_t_size);
             c1 = (unsigned char *)buf;
             c2 = (unsigned char *)buffer;
@@ -944,6 +990,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else if ((size_t)nat_off_t < port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -986,6 +1033,12 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        else if ((size_t)nat_off_t < port_off_t_size) {
+=======
+        else if (nat_off_t < port_off_t_size) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             /* should never happen */
             G_fatal_error("Vector exceeds supported file size limit");
         }
@@ -994,6 +1047,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ((size_t)nat_off_t >= port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -1036,6 +1090,12 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        if ((size_t)nat_off_t >= port_off_t_size) {
+=======
+        if (nat_off_t >= port_off_t_size) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             buf_alloc(cnt * port_off_t_size);
             c1 = (unsigned char *)buf;
             c2 = (unsigned char *)buffer;
@@ -1051,6 +1111,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else if ((size_t)nat_off_t < port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -1093,6 +1154,12 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        else if ((size_t)nat_off_t < port_off_t_size) {
+=======
+        else if (nat_off_t < port_off_t_size) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             /* should never happen */
             G_fatal_error(_("Vector exceeds supported file size limit"));
         }
@@ -1392,6 +1459,7 @@ void dig_init_portable(struct Port_info *port, int byte_order)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (i = 0; i < (size_t)nat_off_t; i++) {
 =======
 <<<<<<< HEAD
@@ -1431,6 +1499,12 @@ void dig_init_portable(struct Port_info *port, int byte_order)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    for (i = 0; i < (size_t)nat_off_t; i++) {
+=======
+    for (i = 0; i < nat_off_t; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         if (port->byte_order == ENDIAN_BIG)
             port->off_t_cnvrt[i] = off_t_cnvrt[i];
         else
@@ -1459,6 +1533,7 @@ int dig_set_cur_port(struct Port_info *port)
    \return ENDIAN_LITTLE
    \return ENDIAN_BIG
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1503,6 +1578,12 @@ int dig__byte_order_out(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+int dig__byte_order_out(void)
+=======
+int dig__byte_order_out()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     if (dbl_order == ENDIAN_LITTLE)
         return (ENDIAN_LITTLE);

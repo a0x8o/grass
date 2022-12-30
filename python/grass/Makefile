@@ -57,6 +57,7 @@ SUBDIRS = \
 SUBDIRS = \
 	app \
 <<<<<<< HEAD
+<<<<<<< HEAD
 	benchmark \
 	exceptions \
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
@@ -71,8 +72,9 @@ SUBDIRS = \
 >>>>>>> osgeo-main
 =======
 	bandref \
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 	benchmark \
-	ctypes \
 	exceptions \
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 >>>>>>> 82a986a7e1 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
@@ -87,6 +89,7 @@ SUBDIRS = \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,6 +103,10 @@ SUBDIRS = \
 >>>>>>> osgeo-main
 =======
 >>>>>>> 82a986a7e1 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 	semantic_label \
 	temporal \
 	utils

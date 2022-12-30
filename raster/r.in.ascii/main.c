@@ -235,6 +235,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (fread(rast, Rast_cell_size(data_type), ncols, ft) != (size_t)ncols)
 =======
 <<<<<<< HEAD
@@ -277,6 +278,12 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        if (fread(rast, Rast_cell_size(data_type), ncols, ft) != (size_t)ncols)
+=======
+        if (fread(rast, Rast_cell_size(data_type), ncols, ft) != ncols)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(_("Read from file error: %s"), strerror(errno));
         Rast_put_row(cf, rast, data_type);
         G_fseek(ft, sz, SEEK_CUR);

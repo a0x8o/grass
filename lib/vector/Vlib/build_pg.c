@@ -217,6 +217,7 @@ int build_topo(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     if (n_nodes != Map->plus.n_nodes)
         G_warning(
@@ -243,6 +244,9 @@ int build_topo(struct Map_info *Map, int build)
             _("Inconsistency in topology: number of nodes %d (should be %d)"),
             Map->plus.n_nodes, n_nodes);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
     if (n_nodes != Map->plus.n_nodes)
         G_warning(

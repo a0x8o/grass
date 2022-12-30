@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20,6 +21,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 {
     struct Ref Ref; /* subgroup reference list */
@@ -49,12 +52,16 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
     const char *mapset, *bandref;
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 {
     struct Ref Ref; /* subgroup reference list */
     const char *mapset, *semantic_label;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 {
@@ -70,6 +77,8 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     int n;
 
     if (!I_get_subgroup_ref(parms->group, parms->subgroup, &Ref))
@@ -99,6 +108,7 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        store semantic labels of imagery group bands */
     for (n = 0; n < Ref.nfiles; n++) {
 =======
@@ -111,6 +121,8 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 <<<<<<< HEAD
 =======
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
        store semantic labels of imagery group bands */
     for (n = 0; n < Ref.nfiles; n++) {
         files->band_fd[n] = Rast_open_old(Ref.file[n].name, Ref.file[n].mapset);
@@ -131,6 +143,7 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
         S->bandrefs[n] = G_store(bandref);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
        store semantic labels of imagery group bands */
     for (n = 0; n < Ref.nfiles; n++) {
@@ -145,11 +158,17 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+       store semantic labels of imagery group bands */
+    for (n = 0; n < Ref.nfiles; n++) {
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         files->band_fd[n] = Rast_open_old(Ref.file[n].name, Ref.file[n].mapset);
         files->band_cell[n] = Rast_allocate_d_buf();
         semantic_label = Rast_get_semantic_label_or_name(Ref.file[n].name,
                                                          Ref.file[n].mapset);
         S->semantic_labels[n] = G_store(semantic_label);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,6 +190,9 @@ int openfiles(struct parms *parms, struct files *files, struct Signature *S)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     I_free_group_ref(&Ref);

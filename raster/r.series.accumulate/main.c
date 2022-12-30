@@ -174,18 +174,26 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-    lo = -INFINITY;
-    hi = INFINITY;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< HEAD
     lo = -INFINITY;
     hi = INFINITY;
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    lo = -INFINITY;
+    hi = INFINITY;
+=======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    lo = -INFINITY;
+    hi = INFINITY;
+=======
+>>>>>>> osgeo-main
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
     lo = -INFINITY;
@@ -193,16 +201,15 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
     lo = -INFINITY;
     hi = INFINITY;
 =======
->>>>>>> osgeo-main
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     lo = -1.0 / 0.0; /* -inf */
     hi = 1.0 / 0.0;  /* inf */
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     lo = -1.0 / 0.0; /* -inf */
     hi = 1.0 / 0.0;  /* inf */
@@ -228,6 +235,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     method = METHOD_GDD;
     if (G_strncasecmp(parm.method->answer, "gdd", 3) == 0)
         method = METHOD_GDD;

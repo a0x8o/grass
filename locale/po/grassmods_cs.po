@@ -27996,6 +27996,7 @@ msgstr ""
 #: ../imagery/i.ortho.photo/i.ortho.init/main.c:112
 msgid "Apriori Phi (roll) standard deviation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28835,6 +28836,8 @@ msgstr ""
 #: ../locale/scriptstrings/i.sentinel.preproc_to_translate.c:8
 msgid "Name of the directory where the image and metadata file are stored (*.SAFE)"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -60558,12 +60561,18 @@ msgstr "Vektorová mapa '%s' již existuje a bude přepsána."
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../vector/v.in.lidar/main.c:556 ../vector/v.edit/main.c:99
 #: ../vector/v.in.ogr/main.c:695 ../scripts/v.unpack/v.unpack.py:112
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../vector/v.in.lidar/main.c:555 ../vector/v.edit/main.c:99
 #: ../vector/v.in.ogr/main.c:694 ../scripts/v.unpack/v.unpack.py:112
 =======
@@ -60840,9 +60849,13 @@ msgstr[3] "%d záznamů vybráno z tabulky"
 #: ../scripts/v.db.addtable/v.db.addtable.py:137
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #, c-format, python-format
 msgid "Vector map <%s> already exists"
 msgstr "Vektorová mapa <%s> již existuje"
@@ -73587,6 +73600,7 @@ msgstr ""
 
 #: ../general/g.copy/main.c:69
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73603,6 +73617,8 @@ msgstr ""
 
 #: ../general/g.copy/main.c:74
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #, c-format
 msgid "<%s> does not exist. Skipping."
 msgstr ""
@@ -73616,6 +73632,7 @@ msgstr "Nelze otevřít ovladač <%s>"
 =======
 msgid "%s=%s,%s: files are the same, no copy required. Skipping."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 #: ../general/g.copy/main.c:79
@@ -74915,6 +74932,8 @@ msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../general/g.copy/main.c:79
 #, c-format
@@ -85970,6 +85989,7 @@ msgstr ""
 
 #: ../raster/r.colors/edit_colors.c:147
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Scale for color rule values"
 msgstr ""
 =======
@@ -85977,6 +85997,10 @@ msgstr ""
 msgid "Scale for color rule values"
 msgstr "Měřítkový faktor pro výškový model"
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+=======
+msgid "Scale for color rule values"
+msgstr ""
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.colors/edit_colors.c:284 ../raster/r.colors/edit_colors.c:318
 #, c-format
@@ -86067,6 +86091,7 @@ msgstr ""
 
 #: ../raster/r.colors/rules.c:81
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unable to open color rule"
 msgstr ""
 =======
@@ -86074,6 +86099,10 @@ msgstr ""
 msgid "Unable to open color rule"
 msgstr "Nelze otevřít prolog <%s>"
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+=======
+msgid "Unable to open color rule"
+msgstr ""
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.colors/rules.c:179
 #, c-format
@@ -87793,6 +87822,7 @@ msgstr ""
 
 #: ../raster/r.geomorphon/main.c:250
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 
@@ -87815,30 +87845,33 @@ msgid "Failed parsing <%s>"
 msgstr ""
 =======
 #, fuzzy
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Coordinates to profile"
-msgstr "Souřadnice dotazu"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
-#, fuzzy
 msgid "Profile"
-msgstr "profil"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:261
-#, fuzzy
 msgid "Profile output file name (\"-\" for stdout)"
-msgstr "Název výstupního souboru (pro standardní výstup použijte output=-)"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:271
-#, fuzzy
 msgid "Profile output format"
-msgstr "Výstupní formát"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:292
-#, fuzzy, c-format
+#, c-format
 msgid "Failed parsing <%s>"
+<<<<<<< HEAD
 msgstr "Exportuji <%s>"
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+=======
+msgstr ""
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:302
 #, c-format
@@ -87846,6 +87879,7 @@ msgid "At least one output is required, e.g. %s"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:325
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "The coordinates are outside of the computational region"
 msgstr ""
@@ -87856,14 +87890,20 @@ msgid "Failed to open output file <%s>: %d (%s)"
 msgstr ""
 =======
 #, fuzzy
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid "The coordinates are outside of the computational region"
-msgstr "Koncový bod je mimo aktuální region"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:332
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to open output file <%s>: %d (%s)"
+<<<<<<< HEAD
 msgstr "Nelze otevřít výstupní soubor <%s>"
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+=======
+msgstr ""
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"
@@ -87904,6 +87944,7 @@ msgstr ""
 
 #: ../raster/r.geomorphon/pattern.c:231
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, c-format
 msgid "Internal error in %s()"
 msgstr ""
@@ -87912,6 +87953,11 @@ msgstr ""
 msgid "Internal error in %s()"
 msgstr "Interní chba funkce %s()"
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+=======
+#, c-format
+msgid "Internal error in %s()"
+msgstr ""
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.proj/bordwalk.c:92 ../raster/r.proj/bordwalk.c:139
 #, c-format
@@ -91819,7 +91865,10 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #, fuzzy
 #~ msgid ""
 #~ "Classification of a vector maps based on the values in attribute tables"

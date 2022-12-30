@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void vrml_put_view(FILE *vout, struct G_3dview *v3d)
 =======
 <<<<<<< HEAD
@@ -13,10 +14,13 @@ void vrml_put_view(FILE *vout, struct G_3dview *v3d)
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 void vrml_put_view(FILE *vout, struct G_3dview *v3d UNUSED)
 =======
 void vrml_put_view(FILE *vout, struct G_3dview *v3d)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 void vrml_put_view(FILE *vout, struct G_3dview *v3d)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -27,6 +31,8 @@ void vrml_put_view(FILE *vout, struct G_3dview *v3d)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     char tbuf[512];
 

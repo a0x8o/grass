@@ -28150,6 +28150,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -28166,6 +28167,9 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../imagery/i.atcorr/geomcond.cpp:232
 msgid "No possibility to compute lat. and long."
@@ -40567,6 +40571,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -40583,6 +40588,9 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../locale/scriptstrings/g.proj.identify_to_translate.c:8
 #, fuzzy
@@ -50002,6 +50010,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -50018,6 +50027,9 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../locale/scriptstrings/r.series.boxplot_to_translate.c:39
 #, fuzzy
@@ -79550,6 +79562,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../raster/r.colors/rules.c:81
 msgid "Unable to open color rule"
 msgstr ""
@@ -79560,6 +79573,8 @@ msgstr ""
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../display/d.graph/do_graph.c:98
 msgid "Unable to read color"
 msgstr "Non è possibile leggere il colore"
@@ -79568,6 +79583,7 @@ msgstr "Non è possibile leggere il colore"
 msgid "Unable to open color rule"
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 #: ../raster/r.colors/rules.c:81
 msgid "Unable to open color rule"
@@ -79580,6 +79596,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../display/d.graph/do_graph.c:372
 msgid "Cannot read symbol, cannot display points"
@@ -81231,6 +81249,7 @@ msgstr ""
 
 #: ../raster/r.geomorphon/main.c:250
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 
@@ -81253,30 +81272,33 @@ msgid "Failed parsing <%s>"
 msgstr ""
 =======
 #, fuzzy
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Coordinates to profile"
-msgstr "Coordinate da interrogare"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
-#, fuzzy
 msgid "Profile"
-msgstr "profilo"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:261
-#, fuzzy
 msgid "Profile output file name (\"-\" for stdout)"
-msgstr "Nome del file di output (utilizzare output=- per stampare a monitor)"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:271
-#, fuzzy
 msgid "Profile output format"
-msgstr "Formato di output"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:292
-#, fuzzy, c-format
+#, c-format
 msgid "Failed parsing <%s>"
+<<<<<<< HEAD
 msgstr "Esportazione di <%s>"
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+=======
+msgstr ""
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:302
 #, c-format
@@ -81284,6 +81306,7 @@ msgid "At least one output is required, e.g. %s"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:325
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "The coordinates are outside of the computational region"
 msgstr ""
@@ -81294,14 +81317,20 @@ msgid "Failed to open output file <%s>: %d (%s)"
 msgstr ""
 =======
 #, fuzzy
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid "The coordinates are outside of the computational region"
-msgstr "Le coordinate del punto finale sono al di fuori della regione corrente"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:332
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to open output file <%s>: %d (%s)"
+<<<<<<< HEAD
 msgstr "impossibile aprire il file di output <%s>"
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+=======
+msgstr ""
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"
@@ -81334,6 +81363,7 @@ msgstr ""
 
 #: ../raster/r.geomorphon/main.c:655
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Failed writing profile data"
 msgstr ""
 =======
@@ -81341,6 +81371,10 @@ msgstr ""
 msgid "Failed writing profile data"
 msgstr "Scrittura del file V5D non riuscita"
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+=======
+msgid "Failed writing profile data"
+msgstr ""
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:751
 msgid "Failed to profile the computation, please check the parameters"
@@ -85368,7 +85402,10 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #, fuzzy
 #~ msgid ""
 #~ "Classification of a vector maps based on the values in attribute tables"
@@ -87941,6 +87978,7 @@ msgstr "I tipi di colonna sono differenti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<%s> not found"
 msgstr "<%s> non trovato"
 
@@ -88004,5 +88042,13 @@ msgstr "Il numero di colonne è differente"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+msgid "Missing table"
+msgstr "Tabella mancante"
+
+msgid "Number of columns differ"
+msgstr "Il numero di colonne è differente"
+
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid "%s=%s,%s: files are the same, no copy required"
 msgstr "%s=%s,%s: sono gli stessi file, non è richiesto copiarli"

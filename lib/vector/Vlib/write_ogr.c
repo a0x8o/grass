@@ -93,6 +93,7 @@ off_t V1_rewrite_line_ogr(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(3, "V1_rewrite_line_ogr(): type=%d offset=%" PRI_OFF_T, type,
             offset);
 =======
@@ -102,11 +103,14 @@ off_t V1_rewrite_line_ogr(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     G_debug(3, "V1_rewrite_line_ogr(): type=%d offset=%" PRId64, type, offset);
 =======
     G_debug(3, "V1_rewrite_line_ogr(): type=%d offset=%" PRI_OFF_T, type,
             offset);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     G_debug(3, "V1_rewrite_line_ogr(): type=%d offset=%" PRI_OFF_T, type,
             offset);
@@ -118,6 +122,8 @@ off_t V1_rewrite_line_ogr(struct Map_info *Map, off_t offset, int type,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #ifdef HAVE_OGR
     if (type != V1_read_line_ogr(Map, NULL, NULL, offset)) {
         G_warning(_("Unable to rewrite feature (incompatible feature types)"));
@@ -161,6 +167,7 @@ int V1_delete_line_ogr(struct Map_info *Map, off_t offset)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_warning(_("Invalid offset (%" PRI_OFF_T ")"), offset);
 =======
 <<<<<<< HEAD
@@ -169,10 +176,13 @@ int V1_delete_line_ogr(struct Map_info *Map, off_t offset)
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         G_warning(_("Invalid offset (%" PRId64 ")"), offset);
 =======
         G_warning(_("Invalid offset (%" PRI_OFF_T ")"), offset);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         G_warning(_("Invalid offset (%" PRI_OFF_T ")"), offset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -183,6 +193,8 @@ int V1_delete_line_ogr(struct Map_info *Map, off_t offset)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         return -1;
     }
 

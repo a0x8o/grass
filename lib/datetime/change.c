@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static void make_incr(DateTime *, int, int, DateTime *);
 =======
 <<<<<<< HEAD
@@ -48,6 +49,12 @@ static void make_incr(DateTime *, int, int, DateTime *);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+static void make_incr(DateTime *, int, int, DateTime *);
+=======
+static void make_incr();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 /*!
  * \brief

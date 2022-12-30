@@ -19,6 +19,7 @@ void print_kappa(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /* print out the comission and omission accuracy, and conditional kappa */
     fprintf(fd, "\nCats\t%% Comission\t%% Omission\tEstimated Kappa\n");
 =======
@@ -28,12 +29,15 @@ void print_kappa(void)
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /* print out the commission and omission accuracy, and conditional kappa */
     fprintf(fd, "\nCats\t%% Commission\t%% Omission\tEstimated Kappa\n");
 =======
     /* print out the comission and omission accuracy, and conditional kappa */
     fprintf(fd, "\nCats\t%% Comission\t%% Omission\tEstimated Kappa\n");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     /* print out the comission and omission accuracy, and conditional kappa */
     fprintf(fd, "\nCats\t%% Comission\t%% Omission\tEstimated Kappa\n");
@@ -45,6 +49,8 @@ void print_kappa(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     for (i = 0; i < ncat; i++) {
         fprintf(fd, "%ld\t", rlst[i]);
         if (metrics->users_accuracy[i] == na_value)
@@ -64,6 +70,7 @@ void print_kappa(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     fprintf(fd, "Kappa\t\tKappa Variance\n");
 =======
 <<<<<<< HEAD
@@ -72,10 +79,13 @@ void print_kappa(void)
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     fprintf(fd, "Kappa\t\tKappa Variance\tMCC\n");
 =======
     fprintf(fd, "Kappa\t\tKappa Variance\n");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     fprintf(fd, "Kappa\t\tKappa Variance\n");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -86,6 +96,8 @@ void print_kappa(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     if (metrics->kappa == na_value)
         fprintf(fd, "NA");
     else
@@ -94,6 +106,7 @@ void print_kappa(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -101,6 +114,8 @@ void print_kappa(void)
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         fprintf(fd, "\tNA");
     else
         fprintf(fd, "\t%f", metrics->kappa_variance);
@@ -109,6 +124,7 @@ void print_kappa(void)
     else
         fprintf(fd, "\t%f\n", metrics->mcc);
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -118,6 +134,8 @@ void print_kappa(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         fprintf(fd, "\tNA\n");
     else
         fprintf(fd, "\t%f\n", metrics->kappa_variance);
@@ -125,6 +143,7 @@ void print_kappa(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -141,6 +160,9 @@ void print_kappa(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     fprintf(fd, "\nObs Correct\tTotal Obs\t%% Observed Correct\n");
     fprintf(fd, "%ld\t\t%ld\t\t%f\n", metrics->correct, metrics->observations,
             metrics->overall_accuracy);

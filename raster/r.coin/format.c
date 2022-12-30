@@ -30,6 +30,7 @@ int format_double(double v, char *buf, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (k = n; (ssize_t)strlen(buf) > n; k--) {
 =======
 <<<<<<< HEAD
@@ -69,6 +70,12 @@ int format_double(double v, char *buf, int n)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    for (k = n; (ssize_t)strlen(buf) > n; k--) {
+=======
+    for (k = n; strlen(buf) > n; k--) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         sprintf(fmt, "%%%d.%dg", n, k);
         sprintf(buf, fmt, v);
     }

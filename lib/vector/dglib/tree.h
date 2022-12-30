@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 extern void *dglTreeGetAllocator(void);
 =======
 <<<<<<< HEAD
@@ -96,6 +97,12 @@ extern void *dglTreeGetAllocator(void);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+extern void *dglTreeGetAllocator(void);
+=======
+extern void *dglTreeGetAllocator();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 /*
  * Define a node as it is hosted in pNodeTree

@@ -17,6 +17,7 @@ void Rast3d_range_update_from_tile(RASTER3D_Map *map, const void *tile,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                    int zRedundant, int nofNum, int type)
 =======
 <<<<<<< HEAD
@@ -25,10 +26,13 @@ void Rast3d_range_update_from_tile(RASTER3D_Map *map, const void *tile,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                                    int zRedundant UNUSED, int nofNum, int type)
 =======
                                    int zRedundant, int nofNum, int type)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                                    int zRedundant, int nofNum, int type)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -39,6 +43,8 @@ void Rast3d_range_update_from_tile(RASTER3D_Map *map, const void *tile,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     int y, z, cellType;
     struct FPRange *range;

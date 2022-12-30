@@ -203,6 +203,7 @@ class MapToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -210,6 +211,8 @@ class MapToolbar(BaseToolbar):
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                 ("renderMap", BaseIcons["render"].label),
                 BaseIcons["render"],
                 self.parent.OnRender,
@@ -291,6 +294,7 @@ class MapToolbar(BaseToolbar):
                 self.parent.OnMapDisplayProperties,
             ),
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -300,6 +304,8 @@ class MapToolbar(BaseToolbar):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                 (
                     ("renderMap", BaseIcons["render"].label),
                     BaseIcons["render"],

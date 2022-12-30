@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 <<<<<<< HEAD
@@ -38,11 +39,19 @@
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
  *
 =======
  *  
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+ *
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
  *   Copyright 2021 by Maris Nartiss, and The GRASS Development Team
  *   Author: Maris Nartiss
  *
@@ -116,12 +125,16 @@ extern "C" {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 extern "C"
 {
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 extern "C" {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 
 extern "C" {
@@ -138,6 +151,8 @@ extern "C"
 {
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #include <grass/gis.h>
 #include <grass/glocale.h>
 #include "string_list.h"
@@ -147,6 +162,7 @@ extern "C"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void get_extent(struct StringList *, double *, double *, double *, double *,
                 double *, double *);
 =======
@@ -188,13 +204,22 @@ void get_extent(struct StringList *, double *, double *, double *, double *,
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 void get_extent(struct StringList *, double *, double *, double *, double *,
                 double *, double *);
 =======
 void get_extent(struct StringList *, double *, double *,
                 double *, double *, double *, double *);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+void get_extent(struct StringList *, double *, double *, double *, double *,
+                double *, double *);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 void print_extent(struct StringList *);
 void print_lasinfo(struct StringList *);
 

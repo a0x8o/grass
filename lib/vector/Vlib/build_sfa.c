@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    geometry, path to curent geometry in the feature. First 'part' number
 =======
 <<<<<<< HEAD
@@ -38,10 +39,13 @@
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
    geometry, path to current geometry in the feature. First 'part' number
 =======
    geometry, path to curent geometry in the feature. First 'part' number
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
    geometry, path to curent geometry in the feature. First 'part' number
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -52,6 +56,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
    however is feature id */
 struct geom_parts {
     int *part;

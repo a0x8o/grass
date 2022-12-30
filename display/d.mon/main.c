@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30,6 +31,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
    [1] display/d.mon/render_cmd.py
    [2] lib/display/r_raster.c
    [3] https://grass.osgeo.org/grass-devel/manuals/displaydrivers.html
@@ -60,6 +63,7 @@
    [2] lib/display/r_raster.c
    [3] https://grass.osgeo.org/grass-devel/manuals/displaydrivers.html
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
    [1] display/d.mon/render_cmd.py
    [2] lib/display/r_raster.c
@@ -84,6 +88,8 @@
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
  */
 

@@ -126,6 +126,7 @@ def visit_type_and_collect_info(ctype):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Remove one level of indirection from funtion pointer; needed for typedefs
 =======
 <<<<<<< HEAD
@@ -134,10 +135,13 @@ def visit_type_and_collect_info(ctype):
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 # Remove one level of indirection from function pointer; needed for typedefs
 =======
 # Remove one level of indirection from funtion pointer; needed for typedefs
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 # Remove one level of indirection from funtion pointer; needed for typedefs
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -148,6 +152,8 @@ def visit_type_and_collect_info(ctype):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 # and function parameters.
 def remove_function_pointer(t):
     if type(t) == CtypesPointer and type(t.destination) == CtypesFunction:

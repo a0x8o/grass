@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 DCELL aspect_fly(DCELL *, DCELL *, DCELL *, double /* n, c, s, d */);
 =======
 <<<<<<< HEAD
@@ -50,3 +51,9 @@ DCELL aspect_fly(DCELL *, DCELL *, DCELL *, double /* n, c, s, d */);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+DCELL aspect_fly(DCELL *, DCELL *, DCELL *, double /* n, c, s, d */);
+=======
+DCELL aspect_fly(/* n, c, s, d */);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))

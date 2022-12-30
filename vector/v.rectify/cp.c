@@ -17,6 +17,7 @@ struct Stats {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static void update_stats(struct Stats *st, int n, double dx, double dy,
 =======
 <<<<<<< HEAD
@@ -25,10 +26,13 @@ static void update_stats(struct Stats *st, int n, double dx, double dy,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 static void update_stats(struct Stats *st, int n UNUSED, double dx, double dy,
 =======
 static void update_stats(struct Stats *st, int n, double dx, double dy,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 static void update_stats(struct Stats *st, int n, double dx, double dy,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -39,6 +43,8 @@ static void update_stats(struct Stats *st, int n, double dx, double dy,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                          double *dz, double dg, double d2)
 {
     st->x += dx;

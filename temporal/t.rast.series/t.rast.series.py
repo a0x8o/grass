@@ -151,6 +151,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "Processing over {} maps: activating -z flag of r.series which slows down processing.".format(
                         max_files_open
                     )
@@ -161,6 +162,8 @@ def main():
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                     "Processing over {} maps: activating -z flag of r.series which "
                     "slows down processing.".format(max_files_open)
 =======
@@ -168,6 +171,7 @@ def main():
                         max_files_open
                     )
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                     "Processing over {} maps: activating -z flag of r.series which slows down processing.".format(
                         max_files_open
@@ -180,6 +184,8 @@ def main():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                 )
             )
             flag += "z"

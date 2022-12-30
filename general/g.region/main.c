@@ -34,6 +34,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     int flat_flag;
 =======
 <<<<<<< HEAD
@@ -60,6 +63,7 @@ int main(int argc, char *argv[])
 =======
     int flat_flag;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     int flat_flag;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -82,6 +86,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     double x, xs, ys, zs;
     int ival;
     int row_flag = 0, col_flag = 0;
@@ -94,6 +100,7 @@ int main(int argc, char *argv[])
     bool update_file = false;
 
     struct GModule *module;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,6 +126,10 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     struct {
         struct Flag *noupdate, *force, *print, *gprint, *flprint, *lprint,
             *eprint, *nangle, *center, *res_set, *dist_res, *dflt, *z,
@@ -126,6 +137,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +160,7 @@ int main(int argc, char *argv[])
 	    *bbox, *gmt_style, *wms_style;
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -159,6 +174,10 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     } flag;
     struct {
         struct Option *north, *south, *east, *west, *top, *bottom, *res, *nsres,
@@ -481,10 +500,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     G_option_exclusive(flag.noupdate, flag.force, NULL);
     G_option_requires(flag.noupdate, flag.savedefault, flag.print, flag.lprint,
                       flag.eprint, flag.center, flag.gmt_style, flag.wms_style,
@@ -508,6 +530,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -548,11 +571,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
     G_option_exclusive(flag.noupdate, flag.force, NULL);
     G_option_requires(flag.noupdate, flag.savedefault, flag.print, flag.lprint,
                       flag.eprint, flag.center, flag.gmt_style, flag.wms_style,
                       flag.dist_res, flag.nangle, flag.z, flag.bbox,
                       flag.gprint, parm.save, NULL);
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -577,6 +603,9 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
     if (G_parser(argc, argv))
         exit(EXIT_FAILURE);
@@ -638,6 +667,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -662,11 +692,16 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         mapset = G_find_file2("windows", name, "");
         if (!mapset)
             G_fatal_error(_("Region <%s> not found"), name);
         G_get_element_window(&window, "windows", name, mapset);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -685,6 +720,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -696,6 +733,7 @@ int main(int argc, char *argv[])
 	G_get_element_window(&window, "windows", name, mapset);
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -709,6 +747,10 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* raster= */
@@ -720,6 +762,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -744,10 +787,15 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         rast_ptr = parm.raster->answers;
         for (; *rast_ptr != NULL; rast_ptr++) {
             char rast_name[GNAME_MAX];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -766,6 +814,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -776,6 +826,7 @@ int main(int argc, char *argv[])
 	    char rast_name[GNAME_MAX];
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -789,6 +840,10 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
             strcpy(rast_name, *rast_ptr);
             mapset = G_find_raster2(rast_name, "");
@@ -826,6 +881,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -851,6 +907,8 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         if ((mapset = G_find_raster3d(name, "")) == NULL)
             G_fatal_error(_("3D raster map <%s> not found"), name);
@@ -872,11 +930,15 @@ int main(int argc, char *argv[])
 	    G_fatal_error(_("3D raster map <%s> not found"), name);
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
         update_file = true;
         if ((mapset = G_find_raster3d(name, "")) == NULL)
             G_fatal_error(_("3D raster map <%s> not found"), name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         update_file = true;
         if ((mapset = G_find_raster3d(name, "")) == NULL)
@@ -891,6 +953,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
         if (Rast3d_read_region_map(name, mapset, &win) < 0)
             G_fatal_error(_("Unable to read header of 3D raster map <%s@%s>"),
@@ -903,6 +967,7 @@ int main(int argc, char *argv[])
     if (parm.vect->answer) {
         int first = 0;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -933,6 +998,8 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         vect_ptr = parm.vect->answers;
         for (; *vect_ptr != NULL; vect_ptr++) {
@@ -954,11 +1021,15 @@ int main(int argc, char *argv[])
 	for (; *vect_ptr != NULL; vect_ptr++) {
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
         update_file = true;
         vect_ptr = parm.vect->answers;
         for (; *vect_ptr != NULL; vect_ptr++) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         update_file = true;
         vect_ptr = parm.vect->answers;
@@ -973,6 +1044,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             int ret;
             struct Map_info Map;
             struct bound_box box;
@@ -1060,6 +1133,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1084,6 +1158,10 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         if ((i = nsew(value, "n+", "n-", "s+"))) {
             if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -1110,6 +1188,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1125,6 +1204,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -1151,6 +1232,7 @@ int main(int argc, char *argv[])
 	    die(parm.north);
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1164,10 +1246,15 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* s= */
     if ((value = parm.south->answer)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1197,6 +1284,10 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         if ((i = nsew(value, "s+", "s-", "n-"))) {
             if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -1223,6 +1314,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1238,6 +1330,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -1264,6 +1358,7 @@ int main(int argc, char *argv[])
 	    die(parm.south);
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1277,10 +1372,15 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* e= */
     if ((value = parm.east->answer)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1310,6 +1410,10 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         if ((i = nsew(value, "e+", "e-", "w+"))) {
             if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -1336,6 +1440,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1351,6 +1456,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -1377,6 +1484,7 @@ int main(int argc, char *argv[])
 	    die(parm.east);
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1390,10 +1498,15 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* w= */
     if ((value = parm.west->answer)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1423,6 +1536,10 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         if ((i = nsew(value, "w+", "w-", "e-"))) {
             if (!G_scan_resolution(value + 2, &x, window.proj))
@@ -1449,6 +1566,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1464,6 +1582,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -1490,6 +1610,7 @@ int main(int argc, char *argv[])
 	    die(parm.west);
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1503,10 +1624,15 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* t= */
     if ((value = parm.top->answer)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1536,6 +1662,10 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         if ((i = nsew(value, "t+", "t-", "b+"))) {
             if (sscanf(value + 2, "%lf", &x) != 1)
@@ -1559,6 +1689,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1574,6 +1705,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -1600,6 +1733,7 @@ int main(int argc, char *argv[])
 	    die(parm.top);
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1613,10 +1747,15 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* b= */
     if ((value = parm.bottom->answer)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1646,6 +1785,10 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         if ((i = nsew(value, "b+", "b-", "t-"))) {
             if (sscanf(value + 2, "%lf", &x) != 1)
@@ -1669,6 +1812,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1684,6 +1828,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -1710,6 +1856,7 @@ int main(int argc, char *argv[])
 	    die(parm.bottom);
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1723,10 +1870,15 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* res= */
     if ((value = parm.res->answer)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1756,11 +1908,16 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         if (!G_scan_resolution(value, &x, window.proj))
             die(parm.res);
         window.ns_res = x;
         window.ew_res = x;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1779,6 +1936,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -1790,6 +1949,7 @@ int main(int argc, char *argv[])
 	window.ew_res = x;
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1803,6 +1963,10 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
         if (flag.res_set->answer) {
             window.north = ceil(window.north / x) * x;
@@ -1819,6 +1983,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1843,12 +2008,17 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         if (!G_scan_resolution(value, &x, window.proj))
             die(parm.res);
         window.ns_res3 = x;
         window.ew_res3 = x;
         window.tb_res = x;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1867,6 +2037,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -1879,6 +2051,7 @@ int main(int argc, char *argv[])
 	window.tb_res = x;
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1892,10 +2065,15 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* nsres= */
     if ((value = parm.nsres->answer)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1925,10 +2103,15 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         if (!G_scan_resolution(value, &x, window.proj))
             die(parm.nsres);
         window.ns_res = x;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1947,6 +2130,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -1957,6 +2142,7 @@ int main(int argc, char *argv[])
 	window.ns_res = x;
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1970,6 +2156,10 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
         if (flag.res_set->answer) {
             window.north = ceil(window.north / x) * x;
@@ -1984,6 +2174,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2008,10 +2199,15 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         if (!G_scan_resolution(value, &x, window.proj))
             die(parm.ewres);
         window.ew_res = x;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2030,6 +2226,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -2040,6 +2238,7 @@ int main(int argc, char *argv[])
 	window.ew_res = x;
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2053,6 +2252,10 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
         if (flag.res_set->answer) {
             window.east = ceil(window.east / x) * x;
@@ -2067,6 +2270,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2091,10 +2295,15 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         if (sscanf(value, "%lf", &x) != 1)
             die(parm.tbres);
         window.tb_res = x;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2113,6 +2322,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -2123,6 +2334,7 @@ int main(int argc, char *argv[])
 	window.tb_res = x;
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2136,6 +2348,10 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
         if (flag.res_set->answer) {
             window.top = ceil(window.top / x) * x;
@@ -2150,6 +2366,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2174,11 +2391,16 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         if (sscanf(value, "%i", &ival) != 1)
             die(parm.rows);
         window.rows = ival;
         row_flag = 1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2197,6 +2419,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -2208,6 +2432,7 @@ int main(int argc, char *argv[])
 	row_flag = 1;
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2221,10 +2446,15 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* cols= */
     if ((value = parm.cols->answer)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2254,11 +2484,16 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         if (sscanf(value, "%i", &ival) != 1)
             die(parm.cols);
         window.cols = ival;
         col_flag = 1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2277,6 +2512,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -2288,6 +2525,7 @@ int main(int argc, char *argv[])
 	col_flag = 1;
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2301,10 +2539,15 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* zoom= */
     if ((name = parm.zoom->answer)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2334,11 +2577,16 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         mapset = G_find_raster2(name, "");
         if (!mapset)
             G_fatal_error(_("Raster map <%s> not found"), name);
         zoom(&window, name, mapset);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2357,6 +2605,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -2368,6 +2618,7 @@ int main(int argc, char *argv[])
 	zoom(&window, name, mapset);
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2381,10 +2632,15 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* align= */
     if ((name = parm.align->answer)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2409,6 +2665,8 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = true;
         mapset = G_find_raster2(name, "");
         if (!mapset)
@@ -2462,14 +2720,18 @@ int main(int argc, char *argv[])
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 =======
         update_file = true;
+<<<<<<< HEAD
 =======
         update_file = true;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         mapset = G_find_raster2(name, "");
         if (!mapset)
             G_fatal_error(_("Raster map <%s> not found"), name);
         Rast_get_cellhd(name, mapset, &temp_window);
         Rast_align_window(&window, &temp_window);
+<<<<<<< HEAD
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
     }
@@ -2498,6 +2760,15 @@ int main(int argc, char *argv[])
         if (sscanf(value, "%i", &pix)){
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+    }
+
+    /* grow by number of cells */
+    if ((value = parm.grow->answer)) {
+        update_file = true;
+        if (sscanf(value, "%i", &pix)) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             xs = window.ns_res * pix;
             if (window.north + xs > window.south - xs) {
                 if (G_projection() == PROJECTION_LL &&
@@ -2547,6 +2818,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2571,11 +2843,16 @@ int main(int argc, char *argv[])
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         update_file = false;
         temp_window = window;
         G_adjust_Cell_head3(&temp_window, 0, 0, 0);
         if (G_put_element_window(&temp_window, "windows", name) < 0)
             G_fatal_error(_("Unable to set region <%s>"), name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2594,6 +2871,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -2605,6 +2884,7 @@ int main(int argc, char *argv[])
 	    G_fatal_error(_("Unable to set region <%s>"), name);
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2618,10 +2898,15 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     G_adjust_Cell_head3(&window, row_flag, col_flag, 0);
     if (flag.force->answer || (update_file && !flag.noupdate->answer)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2675,6 +2960,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 59f0722420 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         if (G_put_window(&window) < 0)
             G_fatal_error(_("Unable to update current region"));
 =======
@@ -2683,7 +2970,14 @@ int main(int argc, char *argv[])
 	if (G_put_window(&window) < 0)
 	    G_fatal_error(_("Unable to update current region"));
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
+<<<<<<< HEAD
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+=======
+        if (G_put_window(&window) < 0)
+            G_fatal_error(_("Unable to update current region"));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     if (flag.savedefault->answer) {

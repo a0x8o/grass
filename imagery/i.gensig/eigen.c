@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 double **matrix(int, int, int, int), *vector(int, int);
 =======
 <<<<<<< HEAD
@@ -43,6 +44,12 @@ double **matrix(int, int, int, int), *vector(int, int);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+double **matrix(int, int, int, int), *vector(int, int);
+=======
+double **matrix(), *vector();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 /* Computes eigenvalues (and eigen vectors if desired) for      *
  *  symmetric matices.                                          */

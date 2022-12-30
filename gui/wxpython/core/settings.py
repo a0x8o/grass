@@ -155,6 +155,7 @@ class Settings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "singleWindow": {"enabled": False},
 =======
 <<<<<<< HEAD
@@ -163,6 +164,8 @@ class Settings:
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                 "singleWinPanesLayoutPos": {
                     "enabled": False,
                     "pos": "",
@@ -170,6 +173,7 @@ class Settings:
 =======
                 "singleWindow": {"enabled": False},
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 "singleWindow": {"enabled": False},
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -180,6 +184,8 @@ class Settings:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             },
             #
             # datacatalog
@@ -221,6 +227,7 @@ class Settings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -240,6 +247,11 @@ class Settings:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+                "singleWindow": {"enabled": True},
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             },
             #
             # language

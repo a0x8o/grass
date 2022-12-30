@@ -113,6 +113,7 @@ void alloc_edges(unsigned int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void free_memory(void)
 =======
 <<<<<<< HEAD
@@ -154,6 +155,12 @@ void free_memory(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+void free_memory(void)
+=======
+void free_memory()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     G_free(sites);
     G_free(edges);

@@ -3745,6 +3745,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3752,6 +3753,8 @@ msgstr ""
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../lib/gis/mapset.c:38
 msgid "MAPSET is not set"
 msgstr "MAPSET není nastaven"
@@ -3965,6 +3968,7 @@ msgid "<%s> in mapset <%s>"
 msgstr "<%s> v mapsetu <%s>"
 =======
 #: ../lib/manage/do_copy.c:43
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4120,6 +4124,8 @@ msgstr ""
 
 #: ../lib/vector/diglib/spindex.c:450
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #, c-format
 msgid "Copying %s <%s> to current mapset as <%s>"
 msgstr ""
@@ -9393,6 +9399,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -9409,6 +9416,9 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../lib/vector/Vlib/net_build.c:467
 msgid "Cannot add network arc representing turn."
@@ -12145,6 +12155,7 @@ msgstr "Neplatný počet řádek"
 msgid "Top must be larger than Bottom"
 msgstr "Svrchní hodnota musí být větší, než spodní."
 
+<<<<<<< HEAD
 =======
 msgid "which is missing."
 msgstr "jenž chybí."
@@ -12205,5 +12216,7 @@ msgstr "Svrchní hodnota musí být větší, než spodní."
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Unable to open header file for raster map <%s@%s>"
 msgstr "Nelze otevřít hlavičkový soubor rastrové mapy <%s@%s>"

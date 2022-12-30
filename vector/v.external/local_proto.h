@@ -46,6 +46,7 @@ void get_table_name(const char *, char **, char **);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void check_projection(struct Cell_head *, ds_t, int, char *, char *, int, int,
                       int);
 =======
@@ -55,12 +56,15 @@ void check_projection(struct Cell_head *, ds_t, int, char *, char *, int, int,
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 void check_projection(struct Cell_head *, GDALDatasetH, int, char *, char *,
                       int, int, int);
 =======
 void check_projection(struct Cell_head *, ds_t, int, char *, char *, int, int,
                       int);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 void check_projection(struct Cell_head *, ds_t, int, char *, char *, int, int,
                       int);
@@ -72,4 +76,6 @@ void check_projection(struct Cell_head *, ds_t, int, char *, char *, int, int,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #endif

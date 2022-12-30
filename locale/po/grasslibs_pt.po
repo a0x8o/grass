@@ -3718,6 +3718,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3725,6 +3726,8 @@ msgstr ""
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../lib/gis/mapset.c:38
 msgid "MAPSET is not set"
 msgstr "MAPSET não foi definido"
@@ -3951,11 +3954,14 @@ msgstr "nenhum"
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../lib/manage/do_copy.c:43
 #, c-format
 msgid "Copying %s <%s> to current mapset as <%s>"
@@ -9439,6 +9445,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -9455,6 +9462,9 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../lib/ogsf/gsd_legend.c:245
 #, c-format
@@ -12782,6 +12792,7 @@ msgstr "Topo deve ser maior que Base"
 msgid "Unable to open header file for raster map <%s@%s>"
 msgstr "Não foi possível abrir o ficheiro de cabeçalho do mapa raster <%s@%s>"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 msgid "which is missing."
 msgstr "que está faltando."
@@ -12844,3 +12855,5 @@ msgstr "Não foi possível abrir o ficheiro de cabeçalho do mapa raster <%s@%s>
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))

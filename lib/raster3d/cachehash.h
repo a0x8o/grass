@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 extern void *Rast3d_cache_hash_new(int /* nofElts */);
 =======
 <<<<<<< HEAD
@@ -43,3 +44,9 @@ extern void *Rast3d_cache_hash_new(int /* nofElts */);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+extern void *Rast3d_cache_hash_new(int /* nofElts */);
+=======
+extern void *Rast3d_cache_hash_new(/* nofElts */);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))

@@ -274,6 +274,7 @@ struct ellps_list *read_ellipsoid_table(int fatal)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -303,6 +304,11 @@ struct ellps_list *read_ellipsoid_table(int fatal)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+            count++;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         }
         else {
             err++;

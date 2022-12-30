@@ -175,6 +175,7 @@ void G__temp_element(char *element, int tmp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -209,11 +210,19 @@ void G__temp_element(char *element, int tmp)
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 =======
     
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     G_debug(2, "G__temp_element(): %s (tmp=%d)", element, tmp);
 }
 

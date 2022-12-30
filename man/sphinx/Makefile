@@ -82,6 +82,7 @@ qthelp:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/GRASS83Documentation.qhcp"
 	@echo "To view the help file:"
 	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/GRASS83Documentation.qhc"
@@ -99,6 +100,8 @@ qthelp:
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/grass_gis.qhcp"
 	@echo "To view the help file:"
 	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/grass_gis.qhc"
@@ -117,11 +120,15 @@ qthelp:
 	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/GRASS80Documentation.qhc"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/GRASS83Documentation.qhcp"
 	@echo "To view the help file:"
 	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/GRASS83Documentation.qhc"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/GRASS83Documentation.qhcp"
 	@echo "To view the help file:"
@@ -138,12 +145,15 @@ qthelp:
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,6 +175,8 @@ devhelp:
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 	@echo "# mkdir -p $$HOME/.local/share/devhelp/grass_gis"
 	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/grass_gis"
 =======
@@ -180,10 +192,14 @@ devhelp:
 	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/GRASS80Documentation"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 	@echo "# mkdir -p $$HOME/.local/share/devhelp/GRASS83Documentation"
 	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/GRASS83Documentation"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 	@echo "# mkdir -p $$HOME/.local/share/devhelp/GRASS83Documentation"
 	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/GRASS83Documentation"
@@ -199,6 +215,8 @@ devhelp:
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 	@echo "# devhelp"
 
 epub:

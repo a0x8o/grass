@@ -46,6 +46,7 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (get_4(&p) != (unsigned int)HEADER_SIZE + png.width * png.height * 4)
 =======
 <<<<<<< HEAD
@@ -85,6 +86,12 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if (get_4(&p) != (unsigned int)HEADER_SIZE + png.width * png.height * 4)
+=======
+    if (get_4(&p) != HEADER_SIZE + png.width * png.height * 4)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         return 0;
 
     get_4(&p);
@@ -98,6 +105,7 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,10 +113,13 @@ static int read_bmp_header(const unsigned char *p)
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     if (get_4(&p) != (unsigned int)png.width)
         return 0;
     if (get_4(&p) != (unsigned int)-png.height)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150,6 +161,12 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if (get_4(&p) != png.width)
+        return 0;
+    if (get_4(&p) != -png.height)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         return 0;
 
     get_2(&p);
@@ -161,6 +178,7 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (get_4(&p) != (unsigned int)png.width * png.height * 4)
 =======
 <<<<<<< HEAD
@@ -203,6 +221,12 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if (get_4(&p) != (unsigned int)png.width * png.height * 4)
+=======
+    if (get_4(&p) != png.width * png.height * 4)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         return 0;
 
     get_4(&p);

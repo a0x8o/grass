@@ -16,6 +16,7 @@
 # TODO: replace short flags by long ones to improve readability
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 case "$(uname)" in
 =======
 <<<<<<< HEAD
@@ -40,6 +41,9 @@ case "$(uname)" in
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+case "$(uname)" in 
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
  Darwin | *BSD*)
   INDENT=$(which gindent)
   ;;

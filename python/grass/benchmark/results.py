@@ -52,6 +52,7 @@ def save_results_to_file(results, filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     with open(filename, "w", encoding="utf-8") as file:
 =======
 <<<<<<< HEAD
@@ -86,11 +87,19 @@ def save_results_to_file(results, filename):
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     with open(filename, "w", encoding="utf-8") as file:
 =======
     with open(filename, "w") as file:
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+    with open(filename, "w", encoding="utf-8") as file:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         file.write(text)
 
 
@@ -113,6 +122,7 @@ def load_results_from_file(filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -134,6 +144,10 @@ def load_results_from_file(filename):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     with open(filename, "r", encoding="utf-8") as file:
         return load_results(file.read())
 

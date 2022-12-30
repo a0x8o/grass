@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void list_elements(void);
 int check_element(const char *);
 =======
@@ -12,10 +13,13 @@ int check_element(const char *);
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 void list_elements(void);
 /* int check_element(const char *); */
 =======
 void list_elements();
+<<<<<<< HEAD
 =======
 void list_elements(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -37,3 +41,7 @@ int check_element(const char *);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+int check_element(const char *);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))

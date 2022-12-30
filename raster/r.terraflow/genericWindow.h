@@ -88,6 +88,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -110,6 +111,8 @@ public:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /* get specified neighbour di,dj in {-1,0,1} */
     T get(short di, short dj) const
     {
@@ -151,9 +154,12 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     genericWindow(const genericWindow<T> &win)
     {
         for (int i = 0; i < 9; i++) {
@@ -162,7 +168,10 @@ public:
     }
 
     /***************************************************************/
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /* get specified neighbour di,dj in {-1,0,1} */
     T get(short di, short dj) const
     {
@@ -197,6 +206,7 @@ public:
     }
 
     /***************************************************************/
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -300,6 +310,9 @@ public:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /*  multiply all elements by a scalar */
     void scalarMultiply(T mult)
     {

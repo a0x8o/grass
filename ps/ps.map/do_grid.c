@@ -92,6 +92,7 @@ int do_grid_cross(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (; g_north >= PS.w.south; g_north -= PS.grid) {
         for (; g_east > PS.w.west; g_east -= PS.grid) {
 =======
@@ -139,6 +140,14 @@ int do_grid_cross(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    for (; g_north >= PS.w.south; g_north -= PS.grid) {
+        for (; g_east > PS.w.west; g_east -= PS.grid) {
+=======
+    for (j = 0; g_north >= PS.w.south; j++, g_north -= PS.grid) {
+        for (k = 0; g_east > PS.w.west; k++, g_east -= PS.grid) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
             if (g_north == PS.w.north || g_north == PS.w.south)
                 continue;

@@ -131,6 +131,7 @@ project = "Python library documentation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 copyright = "2023, GRASS Development Team"
 =======
 <<<<<<< HEAD
@@ -142,10 +143,13 @@ copyright = "2023, GRASS Development Team"
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 copyright = "2024, GRASS Development Team"
 =======
 copyright = "2022, GRASS Development Team"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 copyright = "2022, GRASS Development Team"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -162,6 +166,8 @@ copyright = "2023, GRASS Development Team"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -402,6 +408,7 @@ epub_publisher = "GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 epub_copyright = "2023, GRASS Development Team"
 =======
 <<<<<<< HEAD
@@ -428,6 +435,10 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+epub_copyright = "2022, GRASS Development Team"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 # The basename for the epub file. It defaults to the project name.
 # epub_basename = u'wxGUI'

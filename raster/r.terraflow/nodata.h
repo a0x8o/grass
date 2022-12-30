@@ -62,6 +62,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 =======
 <<<<<<< HEAD
@@ -104,6 +105,12 @@ public:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
+=======
+        sprintf(buf, CCLABEL_FMT, p.label);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         return buf;
     }
 

@@ -92,6 +92,7 @@ int read_rules(const char *filename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (;;) {
 =======
 <<<<<<< HEAD
@@ -131,6 +132,12 @@ int read_rules(const char *filename)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    for (;;) {
+=======
+    for (line = 1;; line++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         if (isatty(fileno(fp)))
             fprintf(stderr, "> ");
         if (!G_getl2(buf, sizeof(buf), fp))

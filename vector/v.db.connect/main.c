@@ -37,6 +37,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -55,6 +56,10 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    struct Flag *print, *columns, *delete, *shell_print;
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     struct Flag *overwrite, *print, *columns, *delete, *shell_print;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     dbDriver *driver;
@@ -299,6 +304,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (!overwrite->answer)
                         G_fatal_error(_("Use -o to overwrite existing link "
                                         "for layer <%d>"),
@@ -309,6 +315,8 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                     if (!G_get_overwrite())
                         G_fatal_error(_("Use --overwrite to overwrite "
                                         "existing link for layer <%d>"),
@@ -317,6 +325,7 @@ int main(int argc, char **argv)
                         G_fatal_error(_("Use -o to overwrite existing link "
                                         "for layer <%d>"),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                     if (!overwrite->answer)
                         G_fatal_error(_("Use -o to overwrite existing link "
@@ -329,6 +338,8 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                                       field);
                     else {
                         dbColumn *column;

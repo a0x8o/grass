@@ -469,6 +469,7 @@ void Rast_set_cell_format(int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (R__.nbytes > (int)sizeof(CELL))
 =======
 <<<<<<< HEAD
@@ -511,6 +512,12 @@ void Rast_set_cell_format(int n)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if (R__.nbytes > (int)sizeof(CELL))
+=======
+    if (R__.nbytes > sizeof(CELL))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         R__.nbytes = sizeof(CELL);
 }
 

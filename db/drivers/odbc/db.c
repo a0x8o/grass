@@ -41,6 +41,7 @@ int db__driver_open_database(dbHandle *handle)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -48,6 +49,8 @@ int db__driver_open_database(dbHandle *handle)
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* Find ODBC DB driver */
@@ -91,6 +94,7 @@ int db__driver_open_database(dbHandle *handle)
         db_free_string(&sql);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -100,6 +104,8 @@ int db__driver_open_database(dbHandle *handle)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     return DB_OK;

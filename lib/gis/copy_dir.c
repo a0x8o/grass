@@ -82,6 +82,7 @@ int G_recursive_copy(const char *src, const char *dst)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ssize_t len, len2;
 =======
 <<<<<<< HEAD
@@ -124,6 +125,12 @@ int G_recursive_copy(const char *src, const char *dst)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        ssize_t len, len2;
+=======
+        size_t len, len2;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
         if (G_lstat(dst, &sb) == 0 && S_ISDIR(sb.st_mode)) {
             char path[GPATH_MAX];

@@ -212,6 +212,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_message(_("Group [%s] in location [%s] mapset [%s] now uses camera "
 =======
 <<<<<<< HEAD
@@ -220,11 +221,14 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         G_message(_("Group [%s] in project (location) [%s] mapset [%s] now "
                     "uses camera "
 =======
         G_message(_("Group [%s] in location [%s] mapset [%s] now uses camera "
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         G_message(_("Group [%s] in location [%s] mapset [%s] now uses camera "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -235,6 +239,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                     "file [%s]"),
                   group, location, mapset, camera);
     }

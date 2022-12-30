@@ -57314,12 +57314,18 @@ msgstr "Векторная карта <%s> уже существует и буд
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../vector/v.in.lidar/main.c:556 ../vector/v.edit/main.c:99
 #: ../vector/v.in.ogr/main.c:695 ../scripts/v.unpack/v.unpack.py:112
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #: ../vector/v.in.lidar/main.c:555 ../vector/v.edit/main.c:99
 #: ../vector/v.in.ogr/main.c:694 ../scripts/v.unpack/v.unpack.py:112
 =======
@@ -57596,9 +57602,13 @@ msgstr[3] ""
 #: ../scripts/v.db.addtable/v.db.addtable.py:137
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #, c-format, python-format
 msgid "Vector map <%s> already exists"
 msgstr ""
@@ -72776,6 +72786,7 @@ msgstr ""
 
 #: ../raster/r.geomorphon/main.c:250
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 =======
@@ -72783,6 +72794,10 @@ msgstr ""
 msgid "Coordinates to profile"
 msgstr "Координаты E и N начальной точки (точек)"
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+=======
+msgid "Coordinates to profile"
+msgstr ""
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
@@ -72795,6 +72810,7 @@ msgstr ""
 
 #: ../raster/r.geomorphon/main.c:271
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Profile output format"
 msgstr ""
 =======
@@ -72802,6 +72818,10 @@ msgstr ""
 msgid "Profile output format"
 msgstr "Префикс выходного растрового слоя (слоев)"
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+=======
+msgid "Profile output format"
+msgstr ""
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:292
 #, c-format
@@ -76887,7 +76907,10 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #, fuzzy
 #~ msgid "layer name or number to use for data"
 #~ msgstr "Номер слоя (в)"

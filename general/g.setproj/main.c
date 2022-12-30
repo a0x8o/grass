@@ -276,6 +276,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                  * recurively, to allow input of options for
 =======
 <<<<<<< HEAD
@@ -284,10 +285,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                  * recursively, to allow input of options for
 =======
                  * recurively, to allow input of options for
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                  * recurively, to allow input of options for
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -298,6 +302,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                  * a second projection, MHu991010 */
                 G_set_key_value("o_proj", "eqc", out_proj_keys);
                 sph_check = 2;
@@ -311,6 +317,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         /* if legal ellips. exist, ask wether or not to change
 =======
 <<<<<<< HEAD
@@ -319,10 +326,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                         /* if legal ellips. exist, ask whether or not to change
 =======
                         /* if legal ellips. exist, ask wether or not to change
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                         /* if legal ellips. exist, ask wether or not to change
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -333,6 +343,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
                          * it */
                         G_message(_("The current ellipsoid is %s"), spheroid);
                         if (G_yes(

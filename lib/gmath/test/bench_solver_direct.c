@@ -28,6 +28,7 @@ static int bench_solvers(int rows);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -35,6 +36,8 @@ static int bench_solvers(int rows);
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 /* ************************************************************************* */
 /* Perform the solver unit tests ****************************************** */
 
@@ -44,11 +47,14 @@ static int bench_solvers(int rows);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 /* ************************************************************************* */
 /* Performe the solver unit tests ****************************************** */
 
@@ -56,6 +62,7 @@ static int bench_solvers(int rows);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -72,6 +79,9 @@ static int bench_solvers(int rows);
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 int bench_solvers_direct(int rows)
 {
     G_message(_("\n++ Running direct solver benchmark ++"));

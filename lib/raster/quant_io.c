@@ -291,6 +291,7 @@ int Rast__quant_export(const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -312,6 +313,10 @@ int Rast__quant_export(const char *name, const char *mapset,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         sprintf(element, "quant2/%s", mapset);
         G_remove(element, name);
         G_make_mapset_object_group(element);
@@ -320,6 +325,9 @@ int Rast__quant_export(const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,6 +347,7 @@ int Rast__quant_export(const char *name, const char *mapset,
 	    return -1;
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -352,6 +361,10 @@ int Rast__quant_export(const char *name, const char *mapset,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     quant_write(fd, quant);
