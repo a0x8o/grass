@@ -95,11 +95,15 @@ class IClassMapPanel(DoubleMapPanel):
         :param parent: (no parent is expected)
         :param title: window title
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param toolbars: dictionary of active toolbars (default value represents all
                          toolbars)
 =======
         :param toolbars: dictionary of active toolbars (default value represents all toolbars)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        :param toolbars: dictionary of active toolbars (default value represents all toolbars)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         :param size: default size
         """
         DoubleMapPanel.__init__(
@@ -118,8 +122,11 @@ class IClassMapPanel(DoubleMapPanel):
         self.tree = None
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # show computation region by default
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         # show computation region by defaut
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         self.mapWindowProperties.showRegion = True
@@ -204,6 +211,7 @@ class IClassMapPanel(DoubleMapPanel):
             sb.SbCompRegionExtent,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sb.SbDisplayGeometry,
             sb.SbMapScale,
             sb.SbGoTo,
@@ -221,6 +229,11 @@ class IClassMapPanel(DoubleMapPanel):
             sb.SbMapScale,
             sb.SbGoTo,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            sb.SbDisplayGeometry,
+            sb.SbMapScale,
+            sb.SbGoTo,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         ]
         self.statusbar = self.CreateStatusbar(statusbarItems)
         self._addPanes()
@@ -389,8 +402,11 @@ class IClassMapPanel(DoubleMapPanel):
         if name == "vdigit":
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             if "vdigit" not in self.toolbars:
                 self.toolbars[name] = VDigitToolbar(
                     parent=self,
@@ -412,6 +428,7 @@ class IClassMapPanel(DoubleMapPanel):
                     ],
                 )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             self.toolbars[name] = VDigitToolbar(
@@ -436,6 +453,8 @@ class IClassMapPanel(DoubleMapPanel):
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             self._mgr.AddPane(
                 self.toolbars[name],
                 wx.aui.AuiPaneInfo()
@@ -1407,28 +1426,40 @@ class IClassMapPanel(DoubleMapPanel):
     def OnZoomIn(self, event):
         """Enable zooming for plots"""
 <<<<<<< HEAD
+<<<<<<< HEAD
         super().OnZoomIn(event)
 =======
         super(IClassMapPanel, self).OnZoomIn(event)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        super(IClassMapPanel, self).OnZoomIn(event)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         self.plotPanel.EnableZoom(type=1)
 
     def OnZoomOut(self, event):
         """Enable zooming for plots"""
 <<<<<<< HEAD
+<<<<<<< HEAD
         super().OnZoomOut(event)
 =======
         super(IClassMapPanel, self).OnZoomOut(event)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        super(IClassMapPanel, self).OnZoomOut(event)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         self.plotPanel.EnableZoom(type=-1)
 
     def OnPan(self, event):
         """Enable panning for plots"""
 <<<<<<< HEAD
+<<<<<<< HEAD
         super().OnPan(event)
 =======
         super(IClassMapPanel, self).OnPan(event)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        super(IClassMapPanel, self).OnPan(event)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         self.plotPanel.EnablePan()
 
     def OnPointer(self, event):
