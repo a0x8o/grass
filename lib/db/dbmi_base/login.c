@@ -254,22 +254,31 @@ static int set_login(const char *driver, const char *database, const char *user,
    \brief Set login parameters for driver/database
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
    \deprecated Use db_set_login2() instead.
 
    \todo: GRASS 8: to be replaced by db_set_login2().
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
    \param driver driver name
    \param database database name
    \param user user name
    \param password password string
+<<<<<<< HEAD
 <<<<<<< HEAD
    \param host host name
    \param port
    \param overwrite TRUE to overwrite existing connections
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
    \return DB_OK on success
    \return DB_FAILED on failure
@@ -279,11 +288,15 @@ int db_set_login2(const char *driver, const char *database, const char *user,
                   int overwrite)
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     return db_set_login(driver, database, user, password, host, port,
                         overwrite);
 =======
     return set_login(driver, database, user, password, NULL, NULL, FALSE);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    return set_login(driver, database, user, password, NULL, NULL, FALSE);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /*!
@@ -301,6 +314,7 @@ int db_set_login2(const char *driver, const char *database, const char *user,
    \return DB_FAILED on failure
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db_set_login(const char *driver, const char *database, const char *user,
                  const char *password, const char *host, const char *port,
                  int overwrite)
@@ -309,6 +323,11 @@ int db_set_login2(const char *driver, const char *database, const char *user,
                   const char *password, const char *host, const char *port,
                   int overwrite)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+int db_set_login2(const char *driver, const char *database, const char *user,
+                  const char *password, const char *host, const char *port,
+                  int overwrite)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 {
     return set_login(driver, database, user, password, host, port, overwrite);
 }
@@ -368,6 +387,7 @@ static int get_login(const char *driver, const char *database,
    If driver/database is not found, output arguments are set to NULL.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    \param driver driver name
    \param database database name (can be NULL)
    \param[out] user name
@@ -380,6 +400,12 @@ static int get_login(const char *driver, const char *database,
 
    \todo: GRASS 8: to be replaced by db_set_login2().
 
+=======
+   \deprecated Use db_set_login2() instead.
+
+   \todo: GRASS 8: to be replaced by db_set_login2().
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
    \param driver driver name
    \param database database name (can be NULL)
    \param[out] user name
@@ -406,13 +432,17 @@ int db_get_login(const char *driver, const char *database, const char **user,
    \param[out] host name
    \param[out] port
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
    \return DB_OK on success
    \return DB_FAILED on failure
  */
 int db_get_login2(const char *driver, const char *database, const char **user,
                   const char **password, const char **host, const char **port)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     return db_get_login(driver, database, user, password, host, port);
 }
@@ -445,6 +475,12 @@ int db_get_login(const char *driver, const char *database, const char **user,
 
 /*!
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    return get_login(driver, database, user, password, host, port);
+}
+
+/*!
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
    \brief Print all connection settings to file
 
    \param fd file where to print settings

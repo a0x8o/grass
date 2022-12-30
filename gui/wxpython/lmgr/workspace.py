@@ -520,6 +520,7 @@ class WorkspaceManager:
         """
         if menu:
 <<<<<<< HEAD
+<<<<<<< HEAD
             menu_index = menu.FindMenu(_("File"))
             if menu_index == wx.NOT_FOUND:
                 # try untranslated version
@@ -535,13 +536,18 @@ class WorkspaceManager:
             workspace_item = file_menu.FindItemById(workspace_index)
 
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             file_menu = menu.GetMenu(
                 menuIndex=menu.FindMenu(title=_("File")),
             )
             workspace_item = file_menu.FindItem(
                 id=file_menu.FindItem(itemString=_("Workspace")),
             )[0]
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             self._recent_files = RecentFilesMenu(
                 app_name="main",
                 parent_menu=workspace_item.GetSubMenu(),
@@ -573,6 +579,7 @@ class WorkspaceManager:
         if not file_exists:
             GError(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _("File <{}> doesn't exist. It was probably moved or deleted.").format(
                     path
 =======
@@ -580,6 +587,11 @@ class WorkspaceManager:
                     "File <{}> doesn't exist."
                     " It was probably moved or deleted.".format(path)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                _(
+                    "File <{}> doesn't exist."
+                    " It was probably moved or deleted.".format(path)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 ),
                 parent=self.lmgr,
             )

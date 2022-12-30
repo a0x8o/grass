@@ -345,10 +345,14 @@ int gsd_surf_map_old(geosurf *surf)
                 GET_MAPATT(trbuff, offset, ttr);
                 ktrans = (char)SCALE_ATT(tratt, ttr, 0, 255);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ktrans = (char)(255U - ktrans) << 24;
 =======
                 ktrans = (char)(255 - ktrans) << 24;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                ktrans = (char)(255 - ktrans) << 24;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             }
 
             gsd_litvert_func(n, ktrans | curcolor, pt);
@@ -374,10 +378,14 @@ int gsd_surf_map_old(geosurf *surf)
                 GET_MAPATT(trbuff, offset, ttr);
                 ktrans = (char)SCALE_ATT(tratt, ttr, 0, 255);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ktrans = (char)(255U - ktrans) << 24;
 =======
                 ktrans = (char)(255 - ktrans) << 24;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                ktrans = (char)(255 - ktrans) << 24;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             }
 
             if (check_material) {
@@ -478,10 +486,14 @@ int gsd_surf_map_old(geosurf *surf)
                         GET_MAPATT(trbuff, offset, ttr);
                         ktrans = (char)SCALE_ATT(tratt, ttr, 0, 255);
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ktrans = (char)(255U - ktrans) << 24;
 =======
                         ktrans = (char)(255 - ktrans) << 24;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                        ktrans = (char)(255 - ktrans) << 24;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                     }
 
                     if (check_material) {
@@ -537,10 +549,14 @@ int gsd_surf_map_old(geosurf *surf)
                         GET_MAPATT(trbuff, offset, ttr);
                         ktrans = (char)SCALE_ATT(tratt, ttr, 0, 255);
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ktrans = (char)(255U - ktrans) << 24;
 =======
                         ktrans = (char)(255 - ktrans) << 24;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                        ktrans = (char)(255 - ktrans) << 24;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                     }
 
                     if (check_material) {
@@ -597,10 +613,14 @@ int gsd_surf_map_old(geosurf *surf)
                     GET_MAPATT(trbuff, offset, ttr);
                     ktrans = (char)SCALE_ATT(tratt, ttr, 0, 255);
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ktrans = (char)(255U - ktrans) << 24;
 =======
                     ktrans = (char)(255 - ktrans) << 24;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                    ktrans = (char)(255 - ktrans) << 24;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 }
 
                 if (check_material) {
@@ -670,10 +690,14 @@ int gsd_surf_map_old(geosurf *surf)
                     GET_MAPATT(trbuff, offset, ttr);
                     ktrans = (char)SCALE_ATT(tratt, ttr, 0, 255);
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ktrans = (char)(255U - ktrans) << 24;
 =======
                     ktrans = (char)(255 - ktrans) << 24;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                    ktrans = (char)(255 - ktrans) << 24;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 }
 
                 if (check_material) {
@@ -1144,6 +1168,7 @@ int gsd_surf_const(geosurf *surf, float k)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 int gsd_surf_func(geosurf *gs, int (*user_func)(void))
@@ -1221,6 +1246,8 @@ int gsd_surf_func(geosurf *gs, int (*user_func)(void))
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 int gsd_surf_func(geosurf *gs UNUSED, int (*user_func)(void) UNUSED)
 =======
 int gsd_surf_func(geosurf *gs, int (*user_func)())
@@ -1452,7 +1479,13 @@ int gsd_surf_func(geosurf *gs, int (*user_func)())
 =======
 int gsd_surf_func(geosurf *gs, int (*user_func)())
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+int gsd_surf_func(geosurf *gs, int (*user_func)())
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 {
 
     return (1);
@@ -2405,10 +2438,14 @@ int gsd_norm_arrows(geosurf *surf)
             }
         } /* ea col */
 <<<<<<< HEAD
+<<<<<<< HEAD
     } /* ea row */
 =======
     }     /* ea row */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    }     /* ea row */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     gsd_popmatrix();
 
     return (1);
@@ -2664,6 +2701,7 @@ int gsd_surf_map(geosurf *surf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2745,6 +2783,8 @@ int gsd_surf_map(geosurf *surf)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             /* Do not need BM_get because GET_MAPATT calls
              * same and returns zero if masked
              */
@@ -3983,12 +4023,109 @@ int gsd_surf_map(geosurf *surf)
 
                 gsd_litvert_func(n, ktrans | curcolor, pt);
 
+=======
+            cnt1++;
+
+            /* Do not need BM_get because GET_MAPATT calls
+             * same and returns zero if masked
+             */
+            offset2[0] = y1off + datacol1; /* fan center */
+            pt2[0][X] = x1;
+            pt2[0][Y] = y1; /* fan center */
+            pt[X] = pt2[0][X];
+            pt[Y] = pt2[0][Y];
+            if (!GET_MAPATT(buff, offset2[0], pt[Z]))
+                continue; /* masked */
+            else {
+                pt[Z] *= zexag;
+                if (gsd_checkpoint(pt, window, viewport, modelMatrix,
+                                   projMatrix))
+                    continue;
+            }
+
+            offset2[1] = y2off + datacol2;
+            offset2[2] = y2off + datacol1;
+            offset2[3] = y2off + datacol3;
+            offset2[4] = y1off + datacol3;
+            offset2[5] = y3off + datacol3;
+            offset2[6] = y3off + datacol1;
+            offset2[7] = y3off + datacol2;
+            offset2[8] = y1off + datacol2;
+            offset2[9] = y2off + datacol2; /* repeat 1st corner to close */
+
+            pt2[1][X] = x2;
+            pt2[1][Y] = y2;
+            pt2[2][X] = x1;
+            pt2[2][Y] = y2;
+            pt2[3][X] = x3;
+            pt2[3][Y] = y2;
+            pt2[4][X] = x3;
+            pt2[4][Y] = y1;
+            pt2[5][X] = x3;
+            pt2[5][Y] = y3;
+            pt2[6][X] = x1;
+            pt2[6][Y] = y3;
+            pt2[7][X] = x2;
+            pt2[7][Y] = y3;
+            pt2[8][X] = x2;
+            pt2[8][Y] = y1;
+            pt2[9][X] = x2;
+            pt2[9][Y] = y2; /* repeat 1st corner to close */
+
+            /* Run through triangle fan */
+            gsd_bgntfan();
+            for (ii = 0; ii < 10; ii++) {
+
+                if (ii > 0) {
+                    pt[X] = pt2[ii][X];
+                    pt[Y] = pt2[ii][Y];
+                    if (!GET_MAPATT(buff, offset2[ii], pt[Z]))
+                        continue;
+                    pt[Z] *= zexag;
+                }
+
+                FNORM(surf->norms[offset2[ii]], n);
+
+                if (check_color)
+                    curcolor = gs_mapcolor(cobuff, coloratt, offset2[ii]);
+
+                if (check_transp) {
+                    GET_MAPATT(trbuff, offset2[ii], ttr);
+                    ktrans = (char)SCALE_ATT(tratt, ttr, 0, 255);
+                    ktrans = (char)(255 - ktrans) << 24;
+                }
+
+                if (check_material) {
+                    if (check_emis) {
+                        GET_MAPATT(embuff, offset2[ii], kem);
+                        kem = SCALE_ATT(ematt, kem, 0., 1.);
+                    }
+
+                    if (check_shin) {
+                        GET_MAPATT(shbuff, offset2[ii], ksh);
+                        ksh = SCALE_ATT(shatt, ksh, 0., 1.);
+                    }
+
+                    if (pksh != ksh || pkem != kem || (kem && check_color)) {
+                        pksh = ksh;
+                        pkem = kem;
+                        gsd_set_material(check_shin, check_emis, ksh, kem,
+                                         curcolor);
+                    }
+                }
+
+                gsd_litvert_func(n, ktrans | curcolor, pt);
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             } /* close ii loop */
             gsd_endtfan();
             cnt2++;
         } /* end col */
     }     /* end row */
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     gsd_popmatrix();
     gsd_blend(0);

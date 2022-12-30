@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * Those cooresponding points in the other coordinate system
 =======
 <<<<<<< HEAD
@@ -110,6 +111,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
  * Those corresponding points in the other coordinate system
 =======
  * Those cooresponding points in the other coordinate system
@@ -249,7 +252,13 @@
 =======
  * Those cooresponding points in the other coordinate system
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+ * Those cooresponding points in the other coordinate system
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
  * are placed in bx[], by[].
  *
  * The use[] contains a true if that point is to be used by the transform

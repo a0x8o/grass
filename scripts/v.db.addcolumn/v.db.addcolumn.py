@@ -82,22 +82,31 @@ def main():
         f = gs.vector_db(map)[int(layer)]
     except KeyError:
 <<<<<<< HEAD
+<<<<<<< HEAD
         if gs.vector_db(map):
             gs.fatal(
 =======
         if grass.vector_db(map):
             grass.fatal(
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        if grass.vector_db(map):
+            grass.fatal(
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 _(
                     "There is no table connected to layer <{layer}> of <{name}>. "
                     "Run v.db.connect or v.db.addtable first."
                 ).format(name=map, layer=layer)
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.fatal(
 =======
         grass.fatal(
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        grass.fatal(
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             _(
                 "There is no table connected to <{name}>. "
                 "Run v.db.connect or v.db.addtable first."

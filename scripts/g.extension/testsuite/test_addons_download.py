@@ -36,6 +36,7 @@ COPYRIGHT: (C) 2022 Stefan Blumentrath and by the GRASS Development Team
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -83,6 +84,8 @@ COPYRIGHT: (C) 2022 Stefan Blumentrath and by the GRASS Development Team
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 import re
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -120,6 +123,7 @@ import re
 import re
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -178,10 +182,15 @@ import re
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 import sys
 import unittest
 
 from pathlib import Path
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263,6 +272,8 @@ from grass.gunittest.case import TestCase
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 from urllib import request as urlrequest
 
 from grass.gunittest.case import TestCase
@@ -412,7 +423,14 @@ from grass.gunittest.case import TestCase
 
 from grass.gunittest.case import TestCase
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+
+from grass.gunittest.case import TestCase
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 from grass.gunittest.main import test
 from grass.gunittest.utils import silent_rmtree
 
@@ -434,6 +452,7 @@ class TestModuleDownloadFromDifferentSources(TestCase):
         install_prefix / "docs" / "html" / "r.example.plus.html",
     ]
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -513,6 +532,8 @@ class TestModuleDownloadFromDifferentSources(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     request_headers = {
         "User-Agent": "Mozilla/5.0",
     }
@@ -637,13 +658,18 @@ class TestModuleDownloadFromDifferentSources(TestCase):
             if files:
                 raise RuntimeError(
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def setUp(self):
         """Make sure we are not dealing with some old files"""
         if self.install_prefix.exists():
             files = list(path.name for path in self.install_prefix.iterdir())
             if files:
                 RuntimeError(
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                     f"Install prefix path '{self.install_prefix}' \
                     contains files {','.join(files)}"
                 )
@@ -751,6 +777,7 @@ class TestModuleDownloadFromDifferentSources(TestCase):
 
         for file in files:
             self.assertFileExists(file)
+<<<<<<< HEAD
 <<<<<<< HEAD
             if file.suffix not in {".html", ".py"}:
                 self.assertModule(str(file), help=True)
@@ -1022,7 +1049,15 @@ class TestModuleDownloadFromDifferentSources(TestCase):
                 self.assertModule(str(file), help=True)
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+            if file.suffix != ".html" and file.suffix != ".py":
+                self.assertModule(str(file), help=True)
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
 if __name__ == "__main__":
     test()

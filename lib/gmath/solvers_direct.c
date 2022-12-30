@@ -236,7 +236,10 @@ int G_math_cholesky_decomposition(double **A, int rows, int bandwidth)
     reduction(+ : sum_1)
 =======
 #pragma omp parallel for schedule (static) private(i, j, sum_2) shared(A, k) reduction(+:sum_1)
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         for (j = 0; j < k; j++) {
             sum_1 += A[k][j] * A[k][j];
         }

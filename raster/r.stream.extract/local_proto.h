@@ -6,10 +6,14 @@
 #include "seg.h"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define INDEX(r, c) ((r) * ncols + (c))
 =======
 #define INDEX(r, c) ((r)*ncols + (c))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#define INDEX(r, c) ((r)*ncols + (c))
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #define MAXDEPTH    1000 /* maximum supported tree depth of stream network */
 
 #define POINT       struct a_point

@@ -50,12 +50,15 @@ from grass.benchmark import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
 >>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     nprocs_plot,
 =======
 <<<<<<< HEAD
@@ -184,6 +187,7 @@ from grass.benchmark import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
@@ -283,6 +287,11 @@ from grass.benchmark import (
     nprocs_plot,
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+    nprocs_plot,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     num_cells_plot,
     save_results_to_file,
 )
@@ -326,6 +335,7 @@ class CliUsageError(ValueError):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -386,6 +396,8 @@ class CliUsageError(ValueError):
 >>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
     pass
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -531,7 +543,12 @@ class CliUsageError(ValueError):
 =======
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
 
 def join_results_cli(args):
@@ -571,6 +588,7 @@ def join_results_cli(args):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -624,6 +642,8 @@ def join_results_cli(args):
 =======
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -660,6 +680,7 @@ def join_results_cli(args):
 =======
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -721,21 +742,29 @@ def join_results_cli(args):
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
     def select_only(result):
         return result.label == args.only
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     select_function = select_only if args.only else None
 =======
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     if args.only:
         select_function = select_only
     else:
         select_function = None
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -769,6 +798,8 @@ def join_results_cli(args):
 =======
 =======
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> osgeo-main
 =======
@@ -858,6 +889,7 @@ def join_results_cli(args):
 >>>>>>> osgeo-main
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> a4c8058b1e (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -871,6 +903,10 @@ def join_results_cli(args):
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     results = join_results_from_files(
         source_filenames=args.results,
         prefixes=args.prefixes,
@@ -888,6 +924,7 @@ def plot_nprocs_cli(args):
         results.results,
         filename=args.output,
         title=args.title,
+<<<<<<< HEAD
         metric=args.metric,
     )
 
@@ -1062,6 +1099,7 @@ def plot_nprocs_cli(args):
 
 
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -1229,6 +1267,13 @@ def plot_nprocs_cli(args):
 
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+    )
+
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 def plot_cells_cli(args):
     """Translate CLI parser result to API calls."""
     results = load_results_from_file(args.input)
@@ -1333,6 +1378,7 @@ def add_results_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1386,6 +1432,8 @@ def add_results_subcommand(parent_subparsers):
 =======
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1422,6 +1470,7 @@ def add_results_subcommand(parent_subparsers):
 =======
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -1483,6 +1532,10 @@ def add_results_subcommand(parent_subparsers):
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     join.add_argument(
         "--only",
         help="Select only results with matching label",
@@ -1498,6 +1551,7 @@ def add_results_subcommand(parent_subparsers):
 
 def add_plot_io_arguments(parser):
     """Add input and output arguments to *parser*."""
+<<<<<<< HEAD
 <<<<<<< HEAD
     parser.add_argument(
         "input", help="file with results (e.g. results.json)", metavar="input_file"
@@ -1515,6 +1569,11 @@ def add_plot_io_arguments(parser):
     parser.add_argument(
         "output", help="output file (e.g., PNG)", nargs="?", metavar="output_file"
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+    parser.add_argument("input", help="file with results (JSON)", metavar="input_file")
+    parser.add_argument(
+        "output", help="output file (e.g., PNG)", nargs="?", metavar="output_file"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     )
 
 
@@ -1527,6 +1586,7 @@ def add_plot_title_argument(parser):
     )
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1639,6 +1699,8 @@ def add_plot_title_argument(parser):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 def add_plot_metric_argument(parser):
     """Add metric argument to *parser*."""
     parser.add_argument(
@@ -2001,7 +2063,12 @@ def add_plot_metric_argument(parser):
 =======
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 def add_plot_subcommand(parent_subparsers):
     """Add plot subcommand."""
     main_parser = add_subcommand_parser(
@@ -2010,6 +2077,7 @@ def add_plot_subcommand(parent_subparsers):
     main_subparsers = add_subparsers(main_parser, dest="subcommand")
 
     join = main_subparsers.add_parser("cells", help="Plot for variable number of cells")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2172,6 +2240,8 @@ def add_plot_subcommand(parent_subparsers):
 =======
 =======
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     add_plot_io_arguments(join)
     add_plot_title_argument(join)
 =======
@@ -2405,7 +2475,14 @@ def add_plot_subcommand(parent_subparsers):
     add_plot_io_arguments(join)
     add_plot_title_argument(join)
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+    add_plot_io_arguments(join)
+    add_plot_title_argument(join)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     join.add_argument(
         "--resolutions",
         help="Use resolutions for x axis instead of cell count",
@@ -2413,6 +2490,7 @@ def add_plot_subcommand(parent_subparsers):
     )
     join.set_defaults(handler=plot_cells_cli)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2496,6 +2574,8 @@ def add_plot_subcommand(parent_subparsers):
 =======
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2532,6 +2612,7 @@ def add_plot_subcommand(parent_subparsers):
 =======
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -2593,11 +2674,16 @@ def add_plot_subcommand(parent_subparsers):
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     nprocs = main_subparsers.add_parser(
         "nprocs", help="Plot for variable number of processing elements"
     )
     add_plot_io_arguments(nprocs)
     add_plot_title_argument(nprocs)
+<<<<<<< HEAD
 <<<<<<< HEAD
     add_plot_metric_argument(nprocs)
     nprocs.set_defaults(handler=plot_nprocs_cli)
@@ -2817,7 +2903,14 @@ def add_plot_subcommand(parent_subparsers):
     nprocs.set_defaults(handler=plot_nprocs_cli)
 
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> 24f1b856fa (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+    nprocs.set_defaults(handler=plot_nprocs_cli)
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
 def define_arguments():
     """Define top level parser and create subparsers."""
@@ -2825,9 +2918,12 @@ def define_arguments():
         description="Process results from module benchmarks.",
         prog=get_executable_name(),
 <<<<<<< HEAD
+<<<<<<< HEAD
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     )
     subparsers = add_subparsers(parser, dest="command")
 

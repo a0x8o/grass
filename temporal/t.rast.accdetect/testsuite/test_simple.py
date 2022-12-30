@@ -63,11 +63,16 @@ class TestRasterExtraction(TestCase):
     def tearDown(self):
         """Remove generated data"""
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.runModule("t.remove", flags="df", type="strds", inputs="B,C")
 =======
         self.runModule("t.remove", flags="df", type="strds", inputs="B")
         self.runModule("t.remove", flags="df", type="strds", inputs="C")
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+=======
+        self.runModule("t.remove", flags="df", type="strds", inputs="B")
+        self.runModule("t.remove", flags="df", type="strds", inputs="C")
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     def test_simple(self):
         self.assertModule(

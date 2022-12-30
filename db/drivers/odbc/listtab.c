@@ -10,7 +10,10 @@ int db__driver_list_tables(tlist, tcount, system)
 dbString **tlist;
 int *tcount;
 int system;
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 {
     cursor *c;
     dbString *list;

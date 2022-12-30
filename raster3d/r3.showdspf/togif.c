@@ -320,6 +320,7 @@ static int ditherrow(unsigned short *r, unsigned short *g, unsigned short *b,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
@@ -327,6 +328,8 @@ static int ditherrow(unsigned short *r, unsigned short *g, unsigned short *b,
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 /************************** BumpPixel() ********************************/
 /*
  * Bump the 'curx' and 'cury' to point to the next pixel

@@ -117,10 +117,14 @@ int main(int argc, char *argv[])
 
     if (flag->answer)
 <<<<<<< HEAD
+<<<<<<< HEAD
         binary = 1;
 =======
         binary = 1; /* generate binary pattern only, useful for MASK */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        binary = 1; /* generate binary pattern only, useful for MASK */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     else
         binary = 0;
 

@@ -110,6 +110,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     int Wrap; /* global wraparound */
 =======
     int Wrap;                   /* global wraparound */
@@ -120,6 +121,9 @@ int main(int argc, char *argv[])
 =======
     int Wrap; /* global wraparound */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    int Wrap; /* global wraparound */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     struct Cell_head window, cellhd;
     struct History hist;
     struct Colors colors;
@@ -148,6 +152,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -161,6 +166,9 @@ int main(int argc, char *argv[])
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     double scik1 = 100000.;
     double zfactor;
     double factor;
@@ -178,12 +186,16 @@ int main(int argc, char *argv[])
     struct GModule *module;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     struct {
         struct Option *elevation, *slope_fmt, *slope, *aspect, *pcurv, *tcurv,
             *zfactor, *min_slope, *out_precision, *dx, *dy, *dxx, *dyy, *dxy,
             *nprocs, *memory;
     } parm;
     struct {
+<<<<<<< HEAD
 =======
     struct
     {
@@ -204,6 +216,8 @@ int main(int argc, char *argv[])
 =======
     struct {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         struct Flag *a, *n, *e;
     } flag;
     int compute_at_edges;
@@ -219,12 +233,16 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     G_add_keyword(_("parallel"));
     module->label = _("Generates raster maps of slope, aspect, curvatures and "
                       "partial derivatives from an elevation raster map.");
     module->description = _("Aspect is calculated counterclockwise from east.");
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -240,6 +258,8 @@ int main(int argc, char *argv[])
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     parm.elevation = G_define_standard_option(G_OPT_R_ELEV);
 
@@ -276,6 +296,7 @@ int main(int argc, char *argv[])
     parm.pcurv->required = NO;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     parm.pcurv->description = _("Name for output profile curvature raster map");
 =======
     parm.pcurv->description =
@@ -287,6 +308,9 @@ int main(int argc, char *argv[])
 =======
     parm.pcurv->description = _("Name for output profile curvature raster map");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    parm.pcurv->description = _("Name for output profile curvature raster map");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     parm.pcurv->guisection = _("Outputs");
 
     parm.tcurv = G_define_standard_option(G_OPT_R_OUTPUT);
@@ -299,6 +323,7 @@ int main(int argc, char *argv[])
     parm.dx = G_define_standard_option(G_OPT_R_OUTPUT);
     parm.dx->key = "dx";
     parm.dx->required = NO;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     parm.dx->description = _("Name for output first order partial derivative "
@@ -314,11 +339,16 @@ int main(int argc, char *argv[])
     parm.dx->description = _("Name for output first order partial derivative "
                              "dx (E-W slope) raster map");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    parm.dx->description = _("Name for output first order partial derivative "
+                             "dx (E-W slope) raster map");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     parm.dx->guisection = _("Outputs");
 
     parm.dy = G_define_standard_option(G_OPT_R_OUTPUT);
     parm.dy->key = "dy";
     parm.dy->required = NO;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     parm.dy->description = _("Name for output first order partial derivative "
@@ -334,6 +364,10 @@ int main(int argc, char *argv[])
     parm.dy->description = _("Name for output first order partial derivative "
                              "dy (N-S slope) raster map");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    parm.dy->description = _("Name for output first order partial derivative "
+                             "dy (N-S slope) raster map");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     parm.dy->guisection = _("Outputs");
 
     parm.dxx = G_define_standard_option(G_OPT_R_OUTPUT);
@@ -361,6 +395,7 @@ int main(int argc, char *argv[])
     parm.zfactor->key = "zscale";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     parm.zfactor->description = _(
         "Multiplicative factor to convert elevation units to horizontal units");
 =======
@@ -374,6 +409,10 @@ int main(int argc, char *argv[])
     parm.zfactor->description = _(
         "Multiplicative factor to convert elevation units to horizontal units");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    parm.zfactor->description = _(
+        "Multiplicative factor to convert elevation units to horizontal units");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     parm.zfactor->type = TYPE_DOUBLE;
     parm.zfactor->required = NO;
     parm.zfactor->answer = "1.0";
@@ -406,6 +445,7 @@ int main(int argc, char *argv[])
     flag.n->key = 'n';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     flag.n->label = _("Create aspect as degrees clockwise from North "
                       "(azimuth), with flat = -9999");
 =======
@@ -419,6 +459,10 @@ int main(int argc, char *argv[])
     flag.n->label = _("Create aspect as degrees clockwise from North "
                       "(azimuth), with flat = -9999");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    flag.n->label = _("Create aspect as degrees clockwise from North "
+                      "(azimuth), with flat = -9999");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     flag.n->description =
         _("Default: degrees counter-clockwise from East, with flat = 0");
     flag.n->guisection = _("Settings");
@@ -438,6 +482,7 @@ int main(int argc, char *argv[])
                     "threads setting."));
     nprocs = 1;
 #endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -512,6 +557,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     if (nprocs > 1 && Rast_mask_is_present()) {
         G_warning(_("Parallel processing disabled due to active mask."));
 =======
@@ -665,7 +712,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     radians_to_degrees = 180.0 / M_PI;
@@ -718,6 +770,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_fatal_error(_("%s=%s - must be a positive number"), parm.zfactor->key,
                       parm.zfactor->answer);
 =======
@@ -732,6 +785,10 @@ int main(int argc, char *argv[])
         G_fatal_error(_("%s=%s - must be a positive number"), parm.zfactor->key,
                       parm.zfactor->answer);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        G_fatal_error(_("%s=%s - must be a positive number"), parm.zfactor->key,
+                      parm.zfactor->answer);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
     if (sscanf(parm.min_slope->answer, "%lf", &min_slope) != 1 ||
@@ -748,8 +805,11 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     if (slope_name == NULL && aspect_name == NULL && pcurv_name == NULL &&
         tcurv_name == NULL && dx_name == NULL && dy_name == NULL &&
         dxx_name == NULL && dyy_name == NULL && dxy_name == NULL) {
@@ -759,6 +819,7 @@ int main(int argc, char *argv[])
             parm.slope->key, parm.aspect->key, parm.pcurv->key, parm.tcurv->key,
             parm.dx->key, parm.dy->key, parm.dxx->key, parm.dyy->key,
             parm.dxy->key);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     if (slope_name == NULL && aspect_name == NULL
@@ -776,6 +837,8 @@ int main(int argc, char *argv[])
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
     G_get_window(&window);
@@ -810,8 +873,11 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     bufrows = atoi(parm.memory->answer) *
               (((1 << 20) / Rast_cell_size(data_type)) / ncols);
     /* set the output buffer rows to be at most covering the entire map */
@@ -826,6 +892,7 @@ int main(int argc, char *argv[])
     if (((window.west == (window.east - 360.)) ||
          (window.east == (window.west - 360.))) &&
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     if (((window.west == (window.east - 360.))
          || (window.east == (window.west - 360.))) &&
@@ -835,6 +902,8 @@ int main(int argc, char *argv[])
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         (G_projection() == PROJECTION_LL)) {
         Wrap = 1;
         ncols += 2;
@@ -894,6 +963,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         slp_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -906,6 +976,10 @@ int main(int argc, char *argv[])
         slp_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        slp_raster =
+            G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
     else {
         slp_raster = NULL;
@@ -917,6 +991,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         asp_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -929,6 +1004,10 @@ int main(int argc, char *argv[])
         asp_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        asp_raster =
+            G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
     else {
         asp_raster = NULL;
@@ -940,6 +1019,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pcurv_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -952,6 +1032,10 @@ int main(int argc, char *argv[])
         pcurv_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        pcurv_raster =
+            G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
     else {
         pcurv_raster = NULL;
@@ -963,6 +1047,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tcurv_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -975,6 +1060,10 @@ int main(int argc, char *argv[])
         tcurv_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        tcurv_raster =
+            G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
     else {
         tcurv_raster = NULL;
@@ -986,6 +1075,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         dx_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -998,6 +1088,10 @@ int main(int argc, char *argv[])
         dx_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        dx_raster =
+            G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
     else {
         dx_raster = NULL;
@@ -1009,6 +1103,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         dy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -1021,6 +1116,10 @@ int main(int argc, char *argv[])
         dy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        dy_raster =
+            G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
     else {
         dy_raster = NULL;
@@ -1032,6 +1131,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         dxx_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -1044,6 +1144,10 @@ int main(int argc, char *argv[])
         dxx_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        dxx_raster =
+            G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
     else {
         dxx_raster = NULL;
@@ -1055,6 +1159,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         dyy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -1067,6 +1172,10 @@ int main(int argc, char *argv[])
         dyy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        dyy_raster =
+            G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
     else {
         dyy_raster = NULL;
@@ -1078,6 +1187,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         dxy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -1090,6 +1200,10 @@ int main(int argc, char *argv[])
         dxy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        dxy_raster =
+            G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
     else {
         dxy_raster = NULL;
@@ -1098,6 +1212,9 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     if (aspect_fd < 0 && slope_fd < 0 && pcurv_fd < 0 && tcurv_fd < 0 &&
         dx_fd < 0 && dy_fd < 0 && dxx_fd < 0 && dyy_fd < 0 && dxy_fd < 0)
         exit(EXIT_FAILURE);
@@ -1117,10 +1234,17 @@ int main(int argc, char *argv[])
         int start = written;
         int end = written + range;
 
+<<<<<<< HEAD
 #pragma omp parallel if (nprocs > 1)                                        \
     firstprivate(north, east, south, west, ns_med, H, V) private(           \
             row, col, size, slp_ptr, asp_ptr, pcurv_ptr, tcurv_ptr, dx_ptr, \
                 dxx_ptr, dxy_ptr, dy_ptr, dyy_ptr)
+=======
+#pragma omp parallel if (nprocs > 1)                                    \
+    firstprivate(north, east, south, west, ns_med, H, V) private(       \
+        row, col, size, slp_ptr, asp_ptr, pcurv_ptr, tcurv_ptr, dx_ptr, \
+        dxx_ptr, dxy_ptr, dy_ptr, dyy_ptr)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         {
             int t_id = FIRST_THREAD;
 
@@ -1145,9 +1269,16 @@ int main(int argc, char *argv[])
 
             /* static scheduling is essential for buffer to be initialized
              * properly */
+<<<<<<< HEAD
 #pragma omp for schedule(static)                    \
     reduction(min : c1min, c2min, min_asp, min_slp) \
     reduction(max : c1max, c2max, max_asp, max_slp)
+=======
+#pragma omp for schedule(static) reduction(min                               \
+                                           : c1min, c2min, min_asp, min_slp) \
+    reduction(max                                                            \
+              : c1max, c2max, max_asp, max_slp)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             for (row = start; row < end; row++) {
                 if (!initialized) {
                     initialized = true;
@@ -1544,6 +1675,7 @@ int main(int argc, char *argv[])
                         if (c2max < tcurv)
                             c2max = tcurv;
                     }
+<<<<<<< HEAD
 =======
     if (aspect_fd < 0 && slope_fd < 0 && pcurv_fd < 0 && tcurv_fd < 0
         && dx_fd < 0 && dy_fd < 0 && dxx_fd < 0 && dyy_fd < 0 && dxy_fd < 0)
@@ -1996,6 +2128,8 @@ int main(int argc, char *argv[])
                         if (c2max < tcurv)
                             c2max = tcurv;
                     }
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
                     if (pcurv_fd > 0) {
                         if (out_type == CELL_TYPE)
@@ -2079,6 +2213,7 @@ int main(int argc, char *argv[])
 
     G_percent(nrows, nrows, 2);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (dxx_fd > 0)
             Rast_put_row(dxx_fd, dxx_raster, data_type);
@@ -2181,6 +2316,8 @@ int main(int argc, char *argv[])
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     for (t = 0; t < nprocs; t++)
         Rast_close(elevation_fd[t]);
     G_debug(1, "Creating support files...");
@@ -2200,6 +2337,7 @@ int main(int argc, char *argv[])
 
         Rast_read_cats(aspect_name, G_mapset(), &cats);
         if (flag.n->answer)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2229,12 +2367,20 @@ int main(int argc, char *argv[])
             Rast_set_cats_title("Aspect clockwise in degrees from north",
                                 &cats);
         else
+=======
+            Rast_set_cats_title("Aspect clockwise in degrees from north",
+                                &cats);
+        else
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             Rast_set_cats_title("Aspect counterclockwise in degrees from east",
                                 &cats);
         G_verbose_message(
             _("Min computed aspect %.4f, max computed aspect %.4f"), min_asp,
             max_asp);
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         /* the categries quant intervals are 1.0 long, plus
            we are using reverse order so that the label looked up
            for i-.5 is not the one defined for i-.5, i+.5 interval, but
@@ -2264,6 +2410,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     Rast_set_c_cat((CELL *)&i, (CELL *)&i, buf, &cats);
 =======
                     Rast_set_c_cat((CELL *) & i, (CELL *) & i, buf, &cats);
@@ -2274,6 +2421,9 @@ int main(int argc, char *argv[])
 =======
                     Rast_set_c_cat((CELL *)&i, (CELL *)&i, buf, &cats);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                    Rast_set_c_cat((CELL *)&i, (CELL *)&i, buf, &cats);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                     continue;
                 }
                 tmp1 = (double)i - .5;
@@ -2294,6 +2444,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (i == 0 || i == 360)
 =======
                 if (i == 0 && i == 360)
@@ -2304,6 +2455,9 @@ int main(int argc, char *argv[])
 =======
                 if (i == 0 || i == 360)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                if (i == 0 || i == 360)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                     sprintf(buf, "north");
                 else if (i == 45)
                     sprintf(buf, "north-east");
@@ -2326,6 +2480,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     Rast_set_c_cat((CELL *)&i, (CELL *)&i, buf, &cats);
 =======
                     Rast_set_c_cat((CELL *) & i, (CELL *) & i, buf, &cats);
@@ -2336,6 +2491,9 @@ int main(int argc, char *argv[])
 =======
                     Rast_set_c_cat((CELL *)&i, (CELL *)&i, buf, &cats);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                    Rast_set_c_cat((CELL *)&i, (CELL *)&i, buf, &cats);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                     continue;
                 }
                 tmp1 = (double)i - .5;
@@ -2413,6 +2571,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                Rast_quantize_fp_map_range(slope_name, G_mapset(), 0., 90., 1,
                91); else Rast_quantize_fp_map_range(slope_name, G_mapset(),
                min_slp, max_slp, (CELL) min_slp + 1, (CELL) ceil(max_slp) + 1);
@@ -2432,11 +2591,17 @@ int main(int argc, char *argv[])
                91); else Rast_quantize_fp_map_range(slope_name, G_mapset(),
                min_slp, max_slp, (CELL) min_slp + 1, (CELL) ceil(max_slp) + 1);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+               Rast_quantize_fp_map_range(slope_name, G_mapset(), 0., 90., 1,
+               91); else Rast_quantize_fp_map_range(slope_name, G_mapset(),
+               min_slp, max_slp, (CELL) min_slp + 1, (CELL) ceil(max_slp) + 1);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
              */
             Rast_write_colors(slope_name, G_mapset(), &colors);
             if (deg)
                 Rast_quantize_fp_map_range(slope_name, G_mapset(), 0., 90., 0,
                                            90);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2461,6 +2626,12 @@ int main(int argc, char *argv[])
                                            max_slp, (CELL)min_slp,
                                            (CELL)ceil(max_slp));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            else /* percent */
+                Rast_quantize_fp_map_range(slope_name, G_mapset(), min_slp,
+                                           max_slp, (CELL)min_slp,
+                                           (CELL)ceil(max_slp));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         }
 
         Rast_read_cats(slope_name, G_mapset(), &cats);
@@ -2494,6 +2665,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tmp1 = (DCELL)i - .5;
             tmp2 = (DCELL)i + .5;
 =======
@@ -2508,6 +2680,10 @@ int main(int argc, char *argv[])
             tmp1 = (DCELL)i - .5;
             tmp2 = (DCELL)i + .5;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            tmp1 = (DCELL)i - .5;
+            tmp2 = (DCELL)i + .5;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             Rast_set_d_cat(&tmp1, &tmp2, buf, &cats);
         }
         if (data_type == CELL_TYPE) {
@@ -2533,6 +2709,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rast_append_format_history(&hist, "zfactor = %.2f format = %s", zfactor,
                                    parm.slope_fmt->answer);
 =======
@@ -2547,6 +2724,10 @@ int main(int argc, char *argv[])
         Rast_append_format_history(&hist, "zfactor = %.2f format = %s", zfactor,
                                    parm.slope_fmt->answer);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        Rast_append_format_history(&hist, "zfactor = %.2f format = %s", zfactor,
+                                   parm.slope_fmt->answer);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         Rast_append_format_history(&hist, "min_slope = %f", min_slope);
         Rast_format_history(&hist, HIST_DATSRC_1, "raster elevation file %s",
                             elev_name);
@@ -2560,6 +2741,7 @@ int main(int argc, char *argv[])
     if (pcurv_fd >= 0 || tcurv_fd >= 0) {
         Rast_init_colors(&colors);
         if (c1min < c2min)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2596,39 +2778,44 @@ int main(int argc, char *argv[])
             dat2 = (FCELL)c2max;
 =======
             dat1 = (FCELL) c1min;
+=======
+            dat1 = (FCELL)c1min;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         else
-            dat1 = (FCELL) c2min;
+            dat1 = (FCELL)c2min;
 
-        dat2 = (FCELL) - 0.01;
+        dat2 = (FCELL)-0.01;
         Rast_add_f_color_rule(&dat1, 127, 0, 255, &dat2, 0, 0, 255, &colors);
         dat1 = dat2;
-        dat2 = (FCELL) - 0.001;
+        dat2 = (FCELL)-0.001;
         Rast_add_f_color_rule(&dat1, 0, 0, 255, &dat2, 0, 127, 255, &colors);
         dat1 = dat2;
-        dat2 = (FCELL) - 0.00001;
-        Rast_add_f_color_rule(&dat1, 0, 127, 255,
-                              &dat2, 0, 255, 255, &colors);
+        dat2 = (FCELL)-0.00001;
+        Rast_add_f_color_rule(&dat1, 0, 127, 255, &dat2, 0, 255, 255, &colors);
         dat1 = dat2;
-        dat2 = (FCELL) 0.0;
-        Rast_add_f_color_rule(&dat1, 0, 255, 255,
-                              &dat2, 200, 255, 200, &colors);
+        dat2 = (FCELL)0.0;
+        Rast_add_f_color_rule(&dat1, 0, 255, 255, &dat2, 200, 255, 200,
+                              &colors);
         dat1 = dat2;
-        dat2 = (FCELL) 0.00001;
-        Rast_add_f_color_rule(&dat1, 200, 255, 200,
-                              &dat2, 255, 255, 0, &colors);
+        dat2 = (FCELL)0.00001;
+        Rast_add_f_color_rule(&dat1, 200, 255, 200, &dat2, 255, 255, 0,
+                              &colors);
         dat1 = dat2;
-        dat2 = (FCELL) 0.001;
-        Rast_add_f_color_rule(&dat1, 255, 255, 0,
-                              &dat2, 255, 127, 0, &colors);
+        dat2 = (FCELL)0.001;
+        Rast_add_f_color_rule(&dat1, 255, 255, 0, &dat2, 255, 127, 0, &colors);
         dat1 = dat2;
-        dat2 = (FCELL) 0.01;
+        dat2 = (FCELL)0.01;
         Rast_add_f_color_rule(&dat1, 255, 127, 0, &dat2, 255, 0, 0, &colors);
         dat1 = dat2;
         if (c1max > c2max)
-            dat2 = (FCELL) c1max;
+            dat2 = (FCELL)c1max;
         else
+<<<<<<< HEAD
             dat2 = (FCELL) c2max;
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+            dat2 = (FCELL)c2max;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 =======
             dat1 = (FCELL) c1min;
@@ -2740,6 +2927,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rast_append_format_history(&hist, "E-W slope map elev = %s", elev_name);
 =======
         Rast_append_format_history(&hist, "E-W slope map elev = %s",
@@ -2752,6 +2940,9 @@ int main(int argc, char *argv[])
 =======
         Rast_append_format_history(&hist, "E-W slope map elev = %s", elev_name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        Rast_append_format_history(&hist, "E-W slope map elev = %s", elev_name);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         Rast_append_format_history(&hist, "zfactor = %.2f", zfactor);
         Rast_append_format_history(&hist, "min_slope = %f", min_slope);
         Rast_format_history(&hist, HIST_DATSRC_1, "raster elevation file %s",
@@ -2778,6 +2969,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rast_append_format_history(&hist, "N-S slope map elev = %s", elev_name);
 =======
         Rast_append_format_history(&hist, "N-S slope map elev = %s",
@@ -2790,6 +2982,9 @@ int main(int argc, char *argv[])
 =======
         Rast_append_format_history(&hist, "N-S slope map elev = %s", elev_name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        Rast_append_format_history(&hist, "N-S slope map elev = %s", elev_name);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         Rast_append_format_history(&hist, "zfactor = %.2f", zfactor);
         Rast_append_format_history(&hist, "min_slope = %f", min_slope);
         Rast_format_history(&hist, HIST_DATSRC_1, "raster elevation file %s",

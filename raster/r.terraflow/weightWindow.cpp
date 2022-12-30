@@ -220,12 +220,17 @@ void weightWindow::compute(const dimension_type i, const dimension_type j,
                 computeWeight(di, dj, elev_crt, elev_neighb);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
         } /* for dj */
     } /* for di */
 =======
         }        /* for dj */
     }            /* for di */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        }        /* for dj */
+    }            /* for di */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     normalize(); /* normalize the weights */
 
 #ifdef CHECK_WEIGHTS
@@ -234,6 +239,7 @@ void weightWindow::compute(const dimension_type i, const dimension_type j,
         cout << form("%3.2f ", weight.get(l));
     cout << "]\n";
 #endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -487,6 +493,27 @@ void weightWindow::makeD8(const dimension_type i, const dimension_type j,
     /* map direction to neighbors */
     directionWindow dirwin(dir);
 
+=======
+};
+
+/* Find the dominant direction. Set corresponding weight to 1, and
+   sets all other weights to 0. Set sumweight and sumcontour.*/
+void weightWindow::makeD8(const dimension_type i, const dimension_type j,
+                          const genericWindow<elevation_type> &elevwin,
+                          const direction_type dir, const bool trustdir)
+{
+
+    elevation_type elev_crt;
+    short di, dj;
+    elev_crt = elevwin.get();
+    assert(!is_nodata(elev_crt));
+
+    int maxi = 0, maxj = 0;
+    double tanb, contour, maxtanb = -1, maxcontour = -1;
+    /* map direction to neighbors */
+    directionWindow dirwin(dir);
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     /* compute biggest angle to a neighbor */
     for (di = -1; di <= 1; di++) {
         for (dj = -1; dj <= 1; dj++) {

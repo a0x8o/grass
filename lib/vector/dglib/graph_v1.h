@@ -66,10 +66,14 @@
 #define DGL_EDGESET_EDGEARRAY_PTR_v1(p) ((p) + DGL_ILA_TOARR_v1)
 #define DGL_EDGESET_EDGE_PTR_v1(p, i, C) \
 <<<<<<< HEAD
+<<<<<<< HEAD
     (((p) + DGL_ILA_TOARR_v1) + (i) * DGL_EDGE_WSIZE_v1(C))
 =======
     (((p) + DGL_ILA_TOARR_v1) + (i)*DGL_EDGE_WSIZE_v1(C))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    (((p) + DGL_ILA_TOARR_v1) + (i)*DGL_EDGE_WSIZE_v1(C))
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 /*
  * Edge macros - addresses in a flat edge

@@ -40,10 +40,14 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
     long int bar_height; /* height, in pixels, of a histogram bar */
     CELL bar_color;      /* color/category number of a histogram bar */
 <<<<<<< HEAD
+<<<<<<< HEAD
     DCELL dmax, range_dmin = 0, range_dmax = 0, dmin, dval;
 =======
     DCELL dmax, range_dmin, range_dmax, dmin, dval;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    DCELL dmax, range_dmin, range_dmax, dmin, dval;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     long int max_tics; /* maximum tics allowed on an axis */
     long int xoffset;  /* offset for x-axis */
     long int yoffset;  /* offset for y-axis */
@@ -152,9 +156,13 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
         if (!ptr)
             break;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         draw = NO;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        draw = NO;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         /* figure bar color and height
          *
          * the cat number determines the color, the corresponding stat,
@@ -258,10 +266,14 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
                         D_polygon_abs(x_box, y_box, 4);
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
                 } /* fp */
 =======
                 }      /* fp */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                }      /* fp */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 else { /* 1-color bar for int data or null */
 
                     D_color((CELL)bar_color, colors);

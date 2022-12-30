@@ -216,6 +216,7 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   int quality, int y_rows, int y_cols, int fly)
 =======
 <<<<<<< HEAD
@@ -272,6 +273,8 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                   int quality, int y_rows UNUSED, int y_cols UNUSED, int fly)
 =======
                   int quality, int y_rows, int y_cols, int fly)
@@ -411,7 +414,13 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 =======
                   int quality, int y_rows, int y_cols, int fly)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                  int quality, int y_rows, int y_cols, int fly)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 {
     FILE *fp;
     char dir[1000], *enddir;
@@ -423,6 +432,7 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 
     if (!fly) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         len = G_strlcpy(dir, yfiles[0], sizeof(dir));
         if (len >= sizeof(dir)) {
             G_fatal_error(_("Directory <%s> too long"), yfiles[0]);
@@ -430,6 +440,9 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 =======
         strcpy(dir, yfiles[0]);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        strcpy(dir, yfiles[0]);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         enddir = strrchr(dir, '/');
 
         if (enddir) {

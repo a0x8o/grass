@@ -75,10 +75,14 @@ static const bfs_depth_type DEPTH_INITIAL = 1;
 
 #define IS_BOUNDARY(i, j, nr, nc) \
 <<<<<<< HEAD
+<<<<<<< HEAD
     (((i) == 0) || ((i) == ((nr) - 1)) || ((j) == 0) || ((j) == ((nc) - 1)))
 =======
     (((i) == 0) || ((i) == ((nr)-1)) || ((j) == 0) || ((j) == ((nc)-1)))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    (((i) == 0) || ((i) == ((nr)-1)) || ((j) == 0) || ((j) == ((nc)-1)))
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 /* ---------------------------------------------------------------------- */
 
@@ -89,6 +93,7 @@ protected:
 public:
     static cclabel_type getNewLabel() { return ++label; }
     static cclabel_type getCurrentLabel() { return label; }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,6 +266,8 @@ public:
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     static cclabel_type getLabelInit() { return cclabel_type(LABEL_START); }
     static cclabel_type getLabelCount() { return label + 1; }
 =======
@@ -357,12 +364,18 @@ public:
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     static const cclabel_type getLabelInit()
     {
         return cclabel_type(LABEL_START);
     }
     static const cclabel_type getLabelCount() { return label + 1; }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -433,6 +446,8 @@ public:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -534,6 +549,7 @@ public:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -614,6 +630,10 @@ public:
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     static void setLabelCount(int n) { label = n - 1; }
     static void reset() { label = getLabelInit(); }
 };
@@ -624,12 +644,17 @@ class ijBaseType {
 public:
     dimension_type i, j;
 <<<<<<< HEAD
+<<<<<<< HEAD
     ijBaseType() : i(-1), j(-1) {};
     ijBaseType(dimension_type gi, dimension_type gj) : i(gi), j(gj) {};
 =======
     ijBaseType() : i(-1), j(-1){};
     ijBaseType(dimension_type gi, dimension_type gj) : i(gi), j(gj){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    ijBaseType() : i(-1), j(-1){};
+    ijBaseType(dimension_type gi, dimension_type gj) : i(gi), j(gj){};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     friend int operator==(const ijBaseType &a, const ijBaseType &b)
     {
         return (compare(a, b) == 0);

@@ -31,6 +31,7 @@ class TestVRandom(TestCase):
         cls.del_temp_region()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def tearDown(self):
         self.runModule(
             "g.remove", type="vector", flags="f", name=(self.output, self.output2)
@@ -40,15 +41,24 @@ class TestVRandom(TestCase):
         cls.runModule("g.remove", type="vector", flags="f", name=cls.output)
         cls.runModule("g.remove", type="vector", flags="f", name=cls.output2)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    def tearDown(cls):
+        cls.runModule("g.remove", type="vector", flags="f", name=cls.output)
+        cls.runModule("g.remove", type="vector", flags="f", name=cls.output2)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     def test_num_points(self):
         """Checking if number of points equals 100"""
         self.assertModule("v.random", output=self.output, npoints=self.npoints)
 <<<<<<< HEAD
+<<<<<<< HEAD
         topology = {"points": self.npoints}
 =======
         topology = dict(points=self.npoints)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        topology = dict(points=self.npoints)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         self.assertVectorFitsTopoInfo(vector=self.output, reference=topology)
 
     def test_num_points_3D(self):
@@ -62,10 +72,14 @@ class TestVRandom(TestCase):
             flags="z",
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
         topology = {"points": self.npoints, "map3d": 1}
 =======
         topology = dict(points=self.npoints, map3d=1)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        topology = dict(points=self.npoints, map3d=1)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         self.assertVectorFitsTopoInfo(vector=self.output, reference=topology)
 
     def test_restrict(self):

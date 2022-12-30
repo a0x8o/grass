@@ -205,6 +205,7 @@ private:
     struct RBitem set_alt_vis(double alt, double vis)
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         struct RBitem rbitem = {};
         /* alt and vis must be in meters */
         rbitem.alt = (alt < 0 ? (int)(alt - 0.5) : (int)(alt + 0.5));
@@ -213,11 +214,18 @@ private:
 =======
         struct RBitem rbitem;
 
+=======
+        struct RBitem rbitem;
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         /* alt and vis must be in meters */
         rbitem.alt = (alt < 0 ? (int)(alt - 0.5) : (int)(alt + 0.5));
         rbitem.vis = (int)(vis + 0.5);
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         return rbitem;
     }
 

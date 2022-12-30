@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_drop_column(dbString *tableName, dbString *columnName)
 =======
 <<<<<<< HEAD
@@ -81,6 +82,8 @@ int db__driver_drop_column(dbString *tableName, dbString *columnName)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_drop_column(dbString *tableName UNUSED,
                            dbString *columnName UNUSED)
 =======
@@ -221,7 +224,13 @@ int db__driver_drop_column(dbString *tableName, dbString *columnName)
 =======
 int db__driver_drop_column(dbString *tableName, dbString *columnName)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+int db__driver_drop_column(dbString *tableName, dbString *columnName)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 {
     db_procedure_not_implemented("db_drop_column");
     return DB_FAILED;

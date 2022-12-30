@@ -129,6 +129,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -226,6 +227,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             sb.SbDisplayGeometry,
             sb.SbMapScale,
             sb.SbGoTo,
@@ -504,7 +507,15 @@ class SwipeMapPanel(DoubleMapPanel):
             sb.SbMapScale,
             sb.SbGoTo,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+            sb.SbDisplayGeometry,
+            sb.SbMapScale,
+            sb.SbGoTo,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         ]
         self.statusbar = self.CreateStatusbar(statusbarItems)
 
@@ -555,6 +566,7 @@ class SwipeMapPanel(DoubleMapPanel):
 
     def ActivateFirstMap(self, event=None):
         """Switch tracking direction"""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -635,6 +647,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         super().ActivateFirstMap(event)
 =======
         super(SwipeMapPanel, self).ActivateFirstMap(event)
@@ -774,13 +788,20 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
         super(SwipeMapPanel, self).ActivateFirstMap(event)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        super(SwipeMapPanel, self).ActivateFirstMap(event)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
         self.firstMapWindow.ClearLines()
         self.firstMapWindow.Refresh()
 
     def ActivateSecondMap(self, event=None):
         """Switch tracking direction"""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -861,6 +882,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         super().ActivateSecondMap(event)
 =======
         super(SwipeMapPanel, self).ActivateSecondMap(event)
@@ -1000,7 +1023,13 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
         super(SwipeMapPanel, self).ActivateSecondMap(event)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        super(SwipeMapPanel, self).ActivateSecondMap(event)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
         self.secondMapWindow.ClearLines()
         self.secondMapWindow.Refresh()
@@ -1078,9 +1107,12 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         self.resize = gs.clock()
 =======
 >>>>>>> main
@@ -1397,7 +1429,14 @@ class SwipeMapPanel(DoubleMapPanel):
         self.resize = grass.clock()
         super(SwipeMapPanel, self).OnSize(event)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        self.resize = grass.clock()
+        super(SwipeMapPanel, self).OnSize(event)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
     def OnIdle(self, event):
         if self.resize and gs.clock() - self.resize > 0.2:
@@ -1448,6 +1487,7 @@ class SwipeMapPanel(DoubleMapPanel):
                 .Layer(2)
                 .Row(1)
                 .Position(0)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1528,6 +1568,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 1683a3ac91 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                 .BestSize(self.toolbars["swipeMain"].GetBestSize()),
 =======
                 .BestSize((self.toolbars["swipeMain"].GetBestSize())),
@@ -1667,7 +1709,13 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
                 .BestSize((self.toolbars["swipeMain"].GetBestSize())),
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
 >>>>>>> 1683a3ac91 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+=======
+                .BestSize((self.toolbars["swipeMain"].GetBestSize())),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             )
 
         if name == "swipeMap":
@@ -1689,6 +1737,7 @@ class SwipeMapPanel(DoubleMapPanel):
                 .Layer(2)
                 .Row(1)
                 .Position(1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1769,6 +1818,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 1683a3ac91 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                 .BestSize(self.toolbars["swipeMap"].GetBestSize()),
 =======
                 .BestSize((self.toolbars["swipeMap"].GetBestSize())),
@@ -1908,7 +1959,13 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
                 .BestSize((self.toolbars["swipeMap"].GetBestSize())),
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
 >>>>>>> 1683a3ac91 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+=======
+                .BestSize((self.toolbars["swipeMap"].GetBestSize())),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             )
 
         if name == "swipeMisc":
@@ -1930,6 +1987,7 @@ class SwipeMapPanel(DoubleMapPanel):
                 .Layer(2)
                 .Row(1)
                 .Position(2)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2010,6 +2068,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 1683a3ac91 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                 .BestSize(self.toolbars["swipeMisc"].GetBestSize()),
 =======
                 .BestSize((self.toolbars["swipeMisc"].GetBestSize())),
@@ -2149,7 +2209,13 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
                 .BestSize((self.toolbars["swipeMisc"].GetBestSize())),
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
 >>>>>>> 1683a3ac91 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+=======
+                .BestSize((self.toolbars["swipeMisc"].GetBestSize())),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             )
 
     def _addPanes(self):
@@ -2377,25 +2443,35 @@ class SwipeMapPanel(DoubleMapPanel):
             we need to know when both are finished."""
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             def __init__(self2):  # noqa: N805
                 self2.called = 0
 
             def __call__(self2):  # noqa: N805
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             def __init__(self2):
                 self2.called = 0
 
             def __call__(self2):
+<<<<<<< HEAD
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 self2.called += 1
                 if self2.called == 2:
                     self2.process()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             def process(self2):  # noqa: N805
 =======
             def process(self2):
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+            def process(self2):
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 # create empty white image  - needed for line
                 im = wx.Image(width, height)
                 im.Replace(0, 0, 0, 255, 255, 255)
@@ -2411,10 +2487,14 @@ class SwipeMapPanel(DoubleMapPanel):
                         im.Paste(im1, 0, 0)
                         im.Paste(wx.Image(filename2), -x + lineWidth, -y)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 else:  # noqa: PLR5501
 =======
                 else:
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+                else:
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                     if self.splitter.GetSplitMode() == wx.SPLIT_HORIZONTAL:
                         im1 = wx.Image(filename1)
                         im.Paste(im1, 0, 0)
@@ -2427,12 +2507,17 @@ class SwipeMapPanel(DoubleMapPanel):
 
                 # remove temporary files
 <<<<<<< HEAD
+<<<<<<< HEAD
                 gs.try_remove(filename1)
                 gs.try_remove(filename2)
 =======
                 grass.try_remove(filename1)
                 grass.try_remove(filename2)
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+                grass.try_remove(filename1)
+                grass.try_remove(filename2)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         callback = _onDone()
         if self._mode == "swipe":

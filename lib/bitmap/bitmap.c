@@ -39,10 +39,14 @@
 
 #define BM_col_to_byte(x) ((x) >> 3) /* x / 8 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define BM_col_to_bit(x)  ((x) & 7)  /* x % 8 */
 =======
 #define BM_col_to_bit(x)  ((x)&7)    /* x % 8 */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#define BM_col_to_bit(x)  ((x)&7)    /* x % 8 */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 static int Mode = BM_FLAT;
 static int Size = 1;
@@ -180,6 +184,7 @@ int BM_set_mode(int mode, int size)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -227,6 +232,8 @@ int BM_set_mode(int mode, int size)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         break;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -264,6 +271,7 @@ int BM_set_mode(int mode, int size)
         break;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -322,6 +330,10 @@ int BM_set_mode(int mode, int size)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     default:
         fprintf(stderr, "BM_set_mode:  Unknown mode: %d\n", mode);
         ret--;
@@ -508,6 +520,7 @@ struct BM *BM_file_read(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (fread(&c, sizeof(char), sizeof(char), fp) != sizeof(char))
         return NULL;
     if (c != BM_MAGIC) {
@@ -670,6 +683,8 @@ struct BM *BM_file_read(FILE *fp)
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     if (fread(&c, sizeof(char), sizeof(char), fp) != sizeof(char)) {
 =======
     if (fread(&c, sizeof(char), sizeof(char), fp) != sizeof(char))
@@ -712,6 +727,7 @@ struct BM *BM_file_read(FILE *fp)
     if (c != BM_MAGIC) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
@@ -719,9 +735,12 @@ struct BM *BM_file_read(FILE *fp)
 <<<<<<< HEAD
     if (fread(&c, sizeof(char), sizeof(char), fp) != sizeof(char)) {
 =======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
     if (fread(&c, sizeof(char), sizeof(char), fp) != sizeof(char))
         return NULL;
     if (c != BM_MAGIC) {
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -763,6 +782,9 @@ struct BM *BM_file_read(FILE *fp)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         free(map);
         return NULL;
     }
@@ -791,6 +813,7 @@ struct BM *BM_file_read(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
 =======
 <<<<<<< HEAD
@@ -847,6 +870,8 @@ struct BM *BM_file_read(FILE *fp)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     if (c != BM_MAGIC) {
 =======
     if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
@@ -986,11 +1011,18 @@ struct BM *BM_file_read(FILE *fp)
 =======
     if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         free(map);
         return NULL;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1070,6 +1102,8 @@ struct BM *BM_file_read(FILE *fp)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
         free(map);
         return NULL;
@@ -1192,7 +1226,12 @@ struct BM *BM_file_read(FILE *fp)
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     if (fread(&c, sizeof(char), sizeof(char), fp) != sizeof(char)) {
         free(map);
         return NULL;

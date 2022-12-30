@@ -64,13 +64,19 @@ def update_keyval_file(filename, module, returncode):
     keyval["tested_dir"] = module.tested_dir
     if "status" not in keyval.keys():
 <<<<<<< HEAD
+<<<<<<< HEAD
         status = "failed" if returncode is None or returncode else "passed"
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         if returncode is None or returncode:
             status = "failed"
         else:
             status = "passed"
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         keyval["status"] = status
     keyval["returncode"] = returncode
     keyval["test_file_authors"] = test_file_authors
@@ -144,6 +150,7 @@ class GrassTestFilesInvoker:
         # PyGRASS also has its way with Mapset)
 =======
         # TODO: this should be a function in grass.script (used also in gis_set.py, PyGRASS also has its way with Mapset)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,12 +295,19 @@ class GrassTestFilesInvoker:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         shutil.copy(
             os.path.join(gisdbase, location, "PERMANENT", "DEFAULT_WIND"),
             os.path.join(mapset_dir, "WIND"),
@@ -602,8 +616,14 @@ class GrassTestFilesInvoker:
                 timeout=timeout,
                 check=False,
             )
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             stdout = p.stdout
             stderr = p.stderr
             returncode = p.returncode
@@ -616,6 +636,7 @@ class GrassTestFilesInvoker:
             if stdout is None:
                 stdout = ""
             if stderr is None:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -696,6 +717,8 @@ class GrassTestFilesInvoker:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                 stderr = (
                     f"Process has timed out in {timeout}s and produced no error "
                     "output.\n"
@@ -838,7 +861,13 @@ class GrassTestFilesInvoker:
 =======
                 stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             # Return code is None if the process times out.
             # Rest of the code expects success to evaluate as False.
             # So, we assign a failing return code.
@@ -908,10 +937,13 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
 
 =======
@@ -1059,7 +1091,7 @@ class GrassTestFilesInvoker:
             """
             for encoding in encodings:
                 try:
-                    return decode(stdout, encoding=encoding)
+                    return decode(data, encoding=encoding)
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):

@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #   Copyright 1992-2024 Free Software Foundation, Inc.
 
 # shellcheck disable=SC2006,SC2268,SC2162 # see below for rationale
@@ -48,6 +49,13 @@ timestamp='2021-04-30'
 
 timestamp='2022-01-03'
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#   Copyright 1992-2022 Free Software Foundation, Inc.
+
+# shellcheck disable=SC2006,SC2268 # see below for rationale
+
+timestamp='2022-01-03'
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -124,6 +132,7 @@ GNU config.sub ($timestamp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Copyright 1992-2024 Free Software Foundation, Inc.
 =======
 Copyright 1992-2022 Free Software Foundation, Inc.
@@ -140,6 +149,9 @@ Copyright 1992-2021 Free Software Foundation, Inc.
 =======
 Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+Copyright 1992-2022 Free Software Foundation, Inc.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
@@ -186,7 +198,10 @@ esac
 <<<<<<< HEAD
 =======
 # shellcheck disable=SC2162
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 saved_IFS=$IFS
 IFS="-" read field1 field2 field3 field4 <<EOF
 $1
@@ -1063,7 +1078,10 @@ case $basic_machine in
 <<<<<<< HEAD
 =======
 		# shellcheck disable=SC2162
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 		saved_IFS=$IFS
 		IFS="-" read cpu vendor <<EOF
 $basic_machine
@@ -1157,6 +1175,7 @@ case $cpu-$vendor in
 		basic_os=${basic_os:-linux-gnueabihf}
 		;;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	# Normalized CPU+vendor pairs that imply an OS, if not otherwise specified
 	m68k-isi)
@@ -1176,6 +1195,8 @@ case $cpu-$vendor in
 		;;
 	rs6000-bull)
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 	dpx20-unknown | dpx20-bull)
 		cpu=rs6000
 		vendor=bull
@@ -1350,6 +1371,7 @@ case $cpu-$vendor in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			| arc \
 			| arc32 \
 			| arc64 \
@@ -1367,6 +1389,9 @@ case $cpu-$vendor in
 =======
 			| arc | arceb | arc32 | arc64 \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+			| arc | arceb | arc32 | arc64 \
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 			| arm | arm[lb]e | arme[lb] | armv* \
 			| avr | avr32 \
 >>>>>>> 2d7cc8f3e1 (configure, config.sub, config.guess: updated (#1585))
@@ -1654,7 +1679,10 @@ case $basic_os in
 <<<<<<< HEAD
 =======
 		# shellcheck disable=SC2162
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 		saved_IFS=$IFS
 		IFS="-" read kernel os <<EOF
 $basic_os
@@ -1672,6 +1700,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		;;
 	managarm*)
 		kernel=managarm
@@ -1682,6 +1711,8 @@ EOF
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 		;;
 	*)
 		kernel=
@@ -1829,9 +1860,12 @@ case $os in
 	sinix5.*)
 		os=`echo "$os" | sed -e 's|sinix|sysv|'`
 <<<<<<< HEAD
+<<<<<<< HEAD
 		vendor=`echo "$vendor" | sed -e 's|^unknown$|sni|'`
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 		;;
 	sinix*)
 		os=sysv4
@@ -2112,6 +2146,7 @@ case $os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	llvm* | musl* | newlib* | relibc* | uclibc*)
 =======
 	musl* | newlib* | relibc* | uclibc*)
@@ -2127,6 +2162,9 @@ case $os in
 =======
 	musl* | newlib* | relibc* | uclibc*)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+	musl* | newlib* | relibc* | uclibc*)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 		;;
 	# Likewise for "kernel-abi"
 	eabi* | gnueabi*)
@@ -2374,6 +2412,7 @@ case $os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	     | fiwix* | mlibc* | cos* | mbr* | ironclad* )
 =======
 	     | fiwix* )
@@ -2388,6 +2427,9 @@ case $os in
 =======
 	     | fiwix* )
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+	     | fiwix* )
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 		;;
 	# This one is extra strict with allowed versions
 	sco3.2v2 | sco3.2v[4-9]* | sco5v6*)
@@ -2459,6 +2501,7 @@ case $kernel-$os in
 		   | linux-musl* | linux-relibc* | linux-uclibc* )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
@@ -2468,9 +2511,12 @@ case $kernel-$os in
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 		;;
 	uclinux-uclibc*- | uclinux-gnu*- )
 		;;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2489,6 +2535,9 @@ case $kernel-$os in
 =======
 	-dietlibc* | -newlib* | -musl* | -relibc* | -uclibc* )
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+	-dietlibc* | -newlib* | -musl* | -relibc* | -uclibc* )
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 		# These are just libc implementations, not actual OSes, and thus
 		# require a kernel.
 		echo "Invalid configuration '$1': libc '$os' needs explicit kernel." 1>&2

@@ -38,13 +38,19 @@ extern void flip4(const unsigned int *src, unsigned int *dest, int n);
 extern void flip2(const unsigned short *src, unsigned short *dest, int n);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #ifdef _CRAY
 extern void cray_to_ieee_array(long *dest, const float *source, int n);
 extern void ieee_to_cray_array(float *dest, const long *source, int n);
 #endif
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 /**********************************************************************/
 
 /*****                     Read Functions                         *****/

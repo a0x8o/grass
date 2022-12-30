@@ -13,10 +13,14 @@
 #define BSIZE   (1 << (L2BSIZE))
 #define HI(i)   ((i) >> (L2BDIM))
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define LO(i)   ((i) & ((BDIM) - 1))
 =======
 #define LO(i)   ((i) & ((BDIM)-1))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#define LO(i)   ((i) & ((BDIM)-1))
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 typedef DCELL block[BDIM][BDIM]; /* FCELL sufficient ? */
 

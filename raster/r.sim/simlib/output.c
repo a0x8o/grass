@@ -43,11 +43,16 @@ void output_walker_as_vector(int tt_minutes, int ndigit,
          */
         if (ts == 1) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             snprintf(buf, sizeof(buf), "%s_%.*d", outwalk, ndigit, tt_minutes);
 =======
             G_snprintf(buf, sizeof(buf), "%s_%.*d", outwalk, ndigit,
                        tt_minutes);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            G_snprintf(buf, sizeof(buf), "%s_%.*d", outwalk, ndigit,
+                       tt_minutes);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             outwalk_time = G_store(buf);
             if (Vect_open_new(&Out, outwalk_time, WITH_Z) < 0)
                 G_fatal_error(_("Unable to create vector map <%s>"),
@@ -151,10 +156,14 @@ int output_data(int tt, double ft UNUSED)
         depth_cell = Rast_allocate_f_buf();
         if (ts == 1) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             snprintf(buf, sizeof(buf), "%s.%.*d", depth, ndigit, tt_minutes);
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", depth, ndigit, tt_minutes);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            G_snprintf(buf, sizeof(buf), "%s.%.*d", depth, ndigit, tt_minutes);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             depth0 = G_store(buf);
             depth_fd = Rast_open_fp_new(depth0);
         }
@@ -166,10 +175,14 @@ int output_data(int tt, double ft UNUSED)
         disch_cell = Rast_allocate_f_buf();
         if (ts == 1) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             snprintf(buf, sizeof(buf), "%s.%.*d", disch, ndigit, tt_minutes);
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", disch, ndigit, tt_minutes);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            G_snprintf(buf, sizeof(buf), "%s.%.*d", disch, ndigit, tt_minutes);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             disch0 = G_store(buf);
             disch_fd = Rast_open_fp_new(disch0);
         }
@@ -181,10 +194,14 @@ int output_data(int tt, double ft UNUSED)
         err_cell = Rast_allocate_f_buf();
         if (ts == 1) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             snprintf(buf, sizeof(buf), "%s.%.*d", err, ndigit, tt_minutes);
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", err, ndigit, tt_minutes);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            G_snprintf(buf, sizeof(buf), "%s.%.*d", err, ndigit, tt_minutes);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             err0 = G_store(buf);
             err_fd = Rast_open_fp_new(err0);
         }
@@ -196,10 +213,14 @@ int output_data(int tt, double ft UNUSED)
         conc_cell = Rast_allocate_f_buf();
         if (ts == 1) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             snprintf(buf, sizeof(buf), "%s.%.*d", conc, ndigit, tt_minutes);
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", conc, ndigit, tt_minutes);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            G_snprintf(buf, sizeof(buf), "%s.%.*d", conc, ndigit, tt_minutes);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             conc0 = G_store(buf);
             conc_fd = Rast_open_fp_new(conc0);
         }
@@ -211,10 +232,14 @@ int output_data(int tt, double ft UNUSED)
         flux_cell = Rast_allocate_f_buf();
         if (ts == 1) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             snprintf(buf, sizeof(buf), "%s.%.*d", flux, ndigit, tt_minutes);
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", flux, ndigit, tt_minutes);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            G_snprintf(buf, sizeof(buf), "%s.%.*d", flux, ndigit, tt_minutes);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             flux0 = G_store(buf);
             flux_fd = Rast_open_fp_new(flux0);
         }
@@ -226,10 +251,14 @@ int output_data(int tt, double ft UNUSED)
         erdep_cell = Rast_allocate_f_buf();
         if (ts == 1) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             snprintf(buf, sizeof(buf), "%s.%.*d", erdep, ndigit, tt_minutes);
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", erdep, ndigit, tt_minutes);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            G_snprintf(buf, sizeof(buf), "%s.%.*d", erdep, ndigit, tt_minutes);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             erdep0 = G_store(buf);
             erdep_fd = Rast_open_fp_new(erdep0);
         }
@@ -659,6 +688,7 @@ int output_data(int tt, double ft UNUSED)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -706,6 +736,8 @@ int output_data(int tt, double ft UNUSED)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 int output_et(void)
 =======
 =======
@@ -795,7 +827,12 @@ int output_et(void)
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 int output_et()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {

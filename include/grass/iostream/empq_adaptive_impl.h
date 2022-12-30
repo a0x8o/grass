@@ -101,6 +101,7 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive(size_t inMem)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -221,12 +222,19 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive(size_t inMem)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 template <class T, class Key>
 EMPQueueAdaptive<T, Key>::EMPQueueAdaptive()
 {
@@ -245,6 +253,7 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive()
 }
 
 //------------------------------------------------------------
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,6 +334,8 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive()
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 // This method initialized the PQ based on the memory passed
 =======
 // This metod initialized the PQ based on the memory passed
@@ -464,7 +475,13 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive()
 =======
 // This metod initialized the PQ based on the memory passed
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+// This metod initialized the PQ based on the memory passed
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 // into it
 template <class T, class Key>
 void EMPQueueAdaptive<T, Key>::initPQ(size_t initMem)

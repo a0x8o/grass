@@ -95,10 +95,15 @@ int Vedit_delete_area(struct Map_info *Map, int area)
     struct ilist *list;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     list = Vect_new_list();
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    list = Vect_new_list();
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     G_debug(3, "Vedit_delete_area(): area=%d", area);
     centroid = Vect_get_area_centroid(Map, area);
     if (centroid != 0) {
@@ -124,9 +129,12 @@ int Vedit_delete_area(struct Map_info *Map, int area)
     else {
         G_warning(_("Area %d has no boundaries"), area);
 <<<<<<< HEAD
+<<<<<<< HEAD
         Vect_destroy_list(list);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         return 0;
     }
 

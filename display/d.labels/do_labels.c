@@ -8,6 +8,7 @@
 #include "local_proto.h"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define NL       012
 #define TAB      011
 #define BACK     0134
@@ -30,6 +31,13 @@
 #define BACK  0134
 #define MTEXT 1024
 
+=======
+#define NL    012
+#define TAB   011
+#define BACK  0134
+#define MTEXT 1024
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #define TOP   0
 #define CENT  1
 #define BOT   2
@@ -37,7 +45,10 @@
 #define RITE  2
 #define YES   1
 #define NO    0
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 static double east;
 static double north;
@@ -113,10 +124,14 @@ int do_labels(FILE *infile, int do_rotation)
             sscanf(text, "%*s %d", &yoffset);
         else if (!strncmp(text, "col", 3)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             sscanf(text, buff_fmt, buff);
 =======
             sscanf(text, "%*s %s", buff);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            sscanf(text, "%*s %s", buff);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             set_RGBA_from_str(&color, buff);
         }
         else if (!strncmp(text, "siz", 3))
@@ -126,6 +141,7 @@ int do_labels(FILE *infile, int do_rotation)
         else if (!strncmp(text, "wid", 3))
             sscanf(text, "%*s %lf", &width);
         else if (!strncmp(text, "bac", 3)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             sscanf(text, buff_fmt, buff);
             set_RGBA_from_str(&background, buff);
@@ -137,6 +153,8 @@ int do_labels(FILE *infile, int do_rotation)
         else if (!strncmp(text, "opa", 3)) {
             sscanf(text, buff_fmt, buff);
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             sscanf(text, "%*s %s", buff);
             set_RGBA_from_str(&background, buff);
         }
@@ -146,7 +164,10 @@ int do_labels(FILE *infile, int do_rotation)
         }
         else if (!strncmp(text, "opa", 3)) {
             sscanf(text, "%*s %s", buff);
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             if (!strncmp(buff, "YES", 3))
                 opaque = YES;
             else
@@ -160,10 +181,14 @@ int do_labels(FILE *infile, int do_rotation)
         }
         else if (!strncmp(text, "fon", 3)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (sscanf(text, font_fmt, font) != 1 || !strcmp(font, "standard"))
 =======
             if (sscanf(text, "%*s %s", font) != 1 || !strcmp(font, "standard"))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            if (sscanf(text, "%*s %s", font) != 1 || !strcmp(font, "standard"))
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 strcpy(font, std_font);
         }
         else if (!strncmp(text, "rot", 3)) {
@@ -172,10 +197,14 @@ int do_labels(FILE *infile, int do_rotation)
         }
         else if (!strncmp(text, "hco", 3)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             sscanf(text, buff_fmt, buff);
 =======
             sscanf(text, "%*s %s", buff);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            sscanf(text, "%*s %s", buff);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             set_RGBA_from_str(&highlight_color, buff);
         }
         else if (!strncmp(text, "hwi", 3))
@@ -532,6 +561,7 @@ int scan_ref(char *buf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     case 1:
         if (xmatch(word1) || ymatch(word1))
             return 1;
@@ -590,6 +620,8 @@ int scan_ref(char *buf)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         FALLTHROUGH;
     case 1:
         if (xmatch(word1) || ymatch(word1))
@@ -833,7 +865,15 @@ int scan_ref(char *buf)
         if (xmatch(word1) || ymatch(word1))
             return 1;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    case 1:
+        if (xmatch(word1) || ymatch(word1))
+            return 1;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     default:
         return 0;
     }

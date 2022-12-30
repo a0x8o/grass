@@ -30,7 +30,10 @@ char *maskinfo(void)
         return "none";
     if (Rast_get_reclass("MASK", G_mapset(), &reclass) <= 0) {
         sprintf(text, "MASK in %s", G_mapset());
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         return append(results, text);
     }
 

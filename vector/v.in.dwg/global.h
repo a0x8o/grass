@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * level (not efective but better readable?) */
 =======
 <<<<<<< HEAD
@@ -107,6 +108,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
  * level (not effective but better readable?) */
 =======
  * level (not efective but better readable?) */
@@ -246,7 +249,13 @@
 =======
  * level (not efective but better readable?) */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+ * level (not efective but better readable?) */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 typedef struct {
     double dx, dy, dz;
     double xscale, yscale, zscale;

@@ -15,7 +15,10 @@ import grass.temporal as tgis
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
 import grass.script as gscript
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 import datetime
 import os
 
@@ -908,10 +911,14 @@ class TestRegisterFails(TestCase):
 class TestRegisterMapsetAccess(TestCase):
     @classmethod
 <<<<<<< HEAD
+<<<<<<< HEAD
     def setUpClass(cls) -> None:
 =======
     def setUpClass(cls):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    def setUpClass(cls):
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         """Initiate the temporal GIS and set the region"""
         os.putenv("GRASS_OVERWRITE", "1")
         tgis.init()
@@ -935,10 +942,14 @@ class TestRegisterMapsetAccess(TestCase):
         cls.del_temp_region()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def setUp(self) -> None:
 =======
     def setUp(self):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    def setUp(self):
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         """Create the space time raster dataset"""
         self.strds_abs = tgis.open_new_stds(
             name="register_test_abs",
@@ -987,10 +998,14 @@ class TestRegisterMapsetAccess(TestCase):
         self.assertNotEqual(self.currmapset, tgis.get_current_mapset())
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def tearDown(self) -> None:
 =======
     def tearDown(self):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    def tearDown(self):
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         """Remove raster maps from current mapset"""
 
         # switch to old mapset
@@ -1013,6 +1028,7 @@ class TestRegisterMapsetAccess(TestCase):
             quiet=True,
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
         grassenv = gs.gisenv()
         mapset_path = os.path.join(
             grassenv["GISDBASE"], grassenv["LOCATION_NAME"], self.newmapset
@@ -1021,6 +1037,8 @@ class TestRegisterMapsetAccess(TestCase):
 
     def test_mapset_access_1(self) -> None:
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         grassenv = gscript.gisenv()
         mapset_path = os.path.join(
             grassenv["GISDBASE"], grassenv["LOCATION_NAME"], self.newmapset
@@ -1028,7 +1046,10 @@ class TestRegisterMapsetAccess(TestCase):
         gscript.try_rmdir(mapset_path)
 
     def test_mapset_access_1(self):
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         """Test the registration of maps from a different mapset."""
 
         self.strds_abs_2 = tgis.open_new_stds(

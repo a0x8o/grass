@@ -59,10 +59,14 @@ public:
     weightWindow(const float gdx, const float gdy);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     ~weightWindow() {};
 =======
     ~weightWindow(){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    ~weightWindow(){};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     /***************************************************************/
     /* Compute the weights of the neighbors of a cell given an elevation

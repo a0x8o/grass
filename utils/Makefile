@@ -6,6 +6,7 @@ include $(MODULE_TOPDIR)/include/Make/Dir.make
 include $(MODULE_TOPDIR)/include/Make/Compile.make
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 default: parsubdirs $(UTILSDIR)/mkdocs.py $(UTILSDIR)/mkhtml.py $(UTILSDIR)/mkmarkdown.py \
 	$(UTILSDIR)/generate_last_commit_file.py \
 	$(UTILSDIR)/g.echo$(EXE)
@@ -17,16 +18,24 @@ default: parsubdirs $(UTILSDIR)/mkhtml.py \
 	$(UTILSDIR)/generate_last_commit_file.py \
 	$(UTILSDIR)/g.echo$(EXE)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+default: parsubdirs $(UTILSDIR)/mkhtml.py \
+	$(UTILSDIR)/generate_last_commit_file.py \
+	$(UTILSDIR)/g.echo$(EXE)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 $(UTILSDIR)/mkhtml.py: mkhtml.py
 	$(INSTALL) $< $@
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 $(UTILSDIR)/mkmarkdown.py: mkmarkdown.py
 	$(INSTALL) $< $@
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 $(UTILSDIR)/generate_last_commit_file.py: generate_last_commit_file.py
 	$(INSTALL) $< $@
 

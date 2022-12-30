@@ -39277,6 +39277,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -39397,12 +39398,19 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../locale/scriptstrings/r.vif_to_translate.c:19
 msgid "Only print selected variables to screen"
@@ -72250,12 +72258,15 @@ msgstr ""
 #: ../raster/r.colors/rules.c:81
 msgid "Unable to open color rule"
 msgstr ""
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../display/d.redraw/main.c:100
 #, fuzzy, c-format
 msgid "Unable to open file '%s' for writing."
 msgstr "Kursoria ei voida avata"
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../display/d.graph/graphics.c:60 ../display/d.graph/do_graph.c:129
 #: ../display/d.graph/do_graph.c:193 ../display/d.graph/do_graph.c:213

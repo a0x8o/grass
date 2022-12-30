@@ -29,6 +29,7 @@
 #include <grass/glocale.h>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include "h_measure.h"
 
 float h_measure(int t_m, struct matvec *mv)
@@ -48,6 +49,23 @@ float h_measure(int t_m, struct matvec *mv)
 #define F12             "Measure of Correlation-1 "
 #define F13             "Measure of Correlation-2 "
 
+=======
+#define BL              "Direction             "
+#define F1              "Angular Second Moment "
+#define F2              "Contrast              "
+#define F3              "Correlation           "
+#define F4              "Variance              "
+#define F5              "Inverse Diff Moment   "
+#define F6              "Sum Average           "
+#define F7              "Sum Variance          "
+#define F8              "Sum Entropy           "
+#define F9              "Entropy               "
+#define F10             "Difference Variance   "
+#define F11             "Difference Entropy    "
+#define F12             "Measure of Correlation-1 "
+#define F13             "Measure of Correlation-2 "
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #define PGM_MAXMAXVAL   255
 #define MAX_MATRIX_SIZE 512
 
@@ -332,118 +350,170 @@ float h_measure(int t_m)
         /* Angular Second Moment */
     case 1:
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (f1_asm(mv));
 =======
         return (f1_asm());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f1_asm());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         break;
 
         /* Contrast */
     case 2:
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (f2_contrast(mv));
 =======
         return (f2_contrast());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f2_contrast());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         break;
 
         /* Correlation */
     case 3:
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (f3_corr(mv));
 =======
         return (f3_corr());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f3_corr());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         break;
 
         /* Variance */
     case 4:
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (f4_var(mv));
 =======
         return (f4_var());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f4_var());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         break;
 
         /* Inverse Diff Moment */
     case 5:
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (f5_idm(mv));
 =======
         return (f5_idm());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f5_idm());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         break;
 
         /* Sum Average */
     case 6:
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (f6_savg(mv));
 =======
         return (f6_savg());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f6_savg());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         break;
 
         /* Sum Variance */
     case 7:
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (f7_svar(mv));
 =======
         return (f7_svar());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f7_svar());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         break;
 
         /* Sum Entropy */
     case 8:
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (f8_sentropy(mv));
 =======
         return (f8_sentropy());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f8_sentropy());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         break;
 
         /* Entropy */
     case 9:
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (f9_entropy(mv));
 =======
         return (f9_entropy());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f9_entropy());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         break;
 
         /* Difference Variance */
     case 10:
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (f10_dvar(mv));
 =======
         return (f10_dvar());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f10_dvar());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         break;
 
         /* Difference Entropy */
     case 11:
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (f11_dentropy(mv));
 =======
         return (f11_dentropy());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f11_dentropy());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         break;
 
         /* Measure of Correlation-1 */
     case 12:
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (f12_icorr(mv));
 =======
         return (f12_icorr());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f12_icorr());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         break;
 
         /* Measure of Correlation-2 */
     case 13:
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (f13_icorr(mv));
 =======
         return (f13_icorr());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f13_icorr());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         break;
     }
 
@@ -503,10 +573,13 @@ float f2_contrast(struct matvec *mv)
     int i, j /*, n */;
     float /* sum, */ bigsum = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     float **P = mv->P_matrix;
     int Ng = mv->Ng;
     int *tone = mv->tone;
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     float **P = P_matrix;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 

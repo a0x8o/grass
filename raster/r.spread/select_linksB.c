@@ -29,10 +29,14 @@
 #endif
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define DATA(map, r, c) (map)[(r) * ncols + (c)]
 =======
 #define DATA(map, r, c) (map)[(r)*ncols + (c)]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#define DATA(map, r, c) (map)[(r)*ncols + (c)]
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 /*#define DEBUG */
 

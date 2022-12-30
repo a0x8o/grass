@@ -30,10 +30,14 @@ struct MATRIX {
 /* CALCULATE OFFSET INTO ARRAY BASED ON R/C */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define M(row, col) m->v[(((row) - 1) * (m->n)) + (col) - 1]
 =======
 #define M(row, col) m->v[(((row)-1) * (m->n)) + (col)-1]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#define M(row, col) m->v[(((row)-1) * (m->n)) + (col)-1]
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 #define MSUCCESS    1  /* SUCCESS */
 #define MNPTERR     0  /* NOT ENOUGH POINTS */

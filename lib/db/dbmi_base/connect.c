@@ -99,7 +99,10 @@ int db_get_connection(dbConnection *connection)
                   (const char **)&(connection->password),
                   (const char **)&(connection->hostName),
                   (const char **)&(connection->port));
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     return DB_OK;
 }

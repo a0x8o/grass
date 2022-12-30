@@ -193,11 +193,15 @@ int region_growing(struct globals *globals)
                      Rk */
     int candidates_only;
 <<<<<<< HEAD
+<<<<<<< HEAD
     struct ngbr_stats Ri = {0}, Rk = {0},
                       Rk_bestn = {0}, /* Rk's best neighbor */
 =======
     struct ngbr_stats Ri, Rk, Rk_bestn, /* Rk's best neighbor */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    struct ngbr_stats Ri, Rk, Rk_bestn, /* Rk's best neighbor */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         *next;
     int Ri_nn, Rk_nn; /* number of neighbors for Ri/Rk */
     struct NB_TREE *Ri_ngbrs, *Rk_ngbrs;
@@ -525,6 +529,7 @@ int region_growing(struct globals *globals)
                         }
                     } /* end if < threshold */
 <<<<<<< HEAD
+<<<<<<< HEAD
                 } /* end pathflag */
             } /* next col */
         } /* next row */
@@ -533,6 +538,11 @@ int region_growing(struct globals *globals)
             }         /* next col */
         }             /* next row */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                }     /* end pathflag */
+            }         /* next col */
+        }             /* next row */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         G_percent(1, 1, 1);
 
         /* finished one pass for processing candidate pixels */
@@ -855,10 +865,14 @@ static int find_best_neighbor(struct ngbr_stats *Ri, struct reg_stats *Ri_rs,
                 }
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
         } while (n--); /* end do loop - next neighbor */
 =======
         } while (n--);                     /* end do loop - next neighbor */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        } while (n--);                     /* end do loop - next neighbor */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     } while (rclist_drop(&rilist, &next)); /* while there are cells to check */
 
     /* clean up */
@@ -1004,8 +1018,11 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
                      struct globals *globals)
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     struct rc next = {0}, ngbr_rc = {0};
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     struct rc next, ngbr_rc;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     int neighbors[8][2];
@@ -1016,6 +1033,7 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
     G_debug(4, "update_band_vals()");
 
     if (rs->count >= globals->min_reg_size) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1097,6 +1115,8 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         char buf[100];
         snprintf(buf, sizeof(buf), "%" PRI_LONG, globals->min_reg_size);
         G_fatal_error(_("Region stats should go in tree, %d >= %s"), rs->count,
@@ -1246,7 +1266,14 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
         G_fatal_error(_("Region stats should go in tree, %d >= %" PRI_LONG ""),
                       rs->count, globals->min_reg_size);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        G_fatal_error(_("Region stats should go in tree, %d >= %" PRI_LONG ""),
+                      rs->count, globals->min_reg_size);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     Segment_get(&globals->rid_seg, (void *)&rid, row, col);
@@ -1744,10 +1771,14 @@ static int calculate_reg_stats(int row, int col, struct reg_stats *rs,
     else if (globals->min_reg_size == 3) {
         int n, rid;
 <<<<<<< HEAD
+<<<<<<< HEAD
         struct rc ngbr_rc = {0};
 =======
         struct rc ngbr_rc;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        struct rc ngbr_rc;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         int neighbors[8][2];
 
         globals->find_neighbors(row, col, neighbors);
@@ -1791,10 +1822,14 @@ static int calculate_reg_stats(int row, int col, struct reg_stats *rs,
         struct pavl_table *rc_check_tree; /* cells already checked */
         int n, rid;
 <<<<<<< HEAD
+<<<<<<< HEAD
         struct rc ngbr_rc = {0}, *pngbr_rc = NULL, next = {0};
 =======
         struct rc ngbr_rc, *pngbr_rc, next;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        struct rc ngbr_rc, *pngbr_rc, next;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         struct rclist rilist;
         int neighbors[8][2];
         int no_check;

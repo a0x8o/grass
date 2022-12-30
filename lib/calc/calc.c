@@ -36,6 +36,7 @@ int columns;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static void handle_fpe(int n)
 =======
 <<<<<<< HEAD
@@ -92,6 +93,8 @@ static void handle_fpe(int n)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 static void handle_fpe(int n UNUSED)
 =======
 static void handle_fpe(int n)
@@ -231,7 +234,13 @@ static void handle_fpe(int n)
 =======
 static void handle_fpe(int n)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+static void handle_fpe(int n)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 {
     floating_point_exception = 1;
     floating_point_exception_occurred = 1;

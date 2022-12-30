@@ -111,6 +111,7 @@ void D_show_conversions(void)
     fprintf(stderr, " A_w %10.1f  A_e %10.1f  A_s %10.1f  A_n %10.1f\n", A.west,
             A.east, A.south, A.north);
 <<<<<<< HEAD
+<<<<<<< HEAD
     fprintf(stderr, " U_w %10.1f  U_e %10.1f  U_s %10.1f  U_n %10.1f\n\n",
             U.west, U.east, U.south, U.north);
 
@@ -124,6 +125,8 @@ void D_show_conversions(void)
             A_to_U_conv.x, A_to_U_conv.y);
     fprintf(stderr, " U_to_D_conv.x %10.1g U_to_D_conv.y %10.1g\n",
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     fprintf(stderr, " U_w %10.1f  U_e %10.1f  U_s %10.1f  U_n %10.1f\n", U.west,
             U.east, U.south, U.north);
 
@@ -145,7 +148,10 @@ void D_show_conversions(void)
     fprintf(stderr, " A_to_U_conv.x %10.1f A_to_U_conv.y %10.1f \n",
             A_to_U_conv.x, A_to_U_conv.y);
     fprintf(stderr, " U_to_D_conv.x %10.1f U_to_D_conv.y %10.1f \n",
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             U_to_D_conv.x, U_to_D_conv.y);
 }
 

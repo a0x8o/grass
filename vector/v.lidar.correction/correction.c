@@ -47,6 +47,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void P_Sparse_Correction(struct Map_info *In, struct Map_info *Out,
 =======
 <<<<<<< HEAD
@@ -103,6 +104,8 @@ void P_Sparse_Correction(struct Map_info *In, struct Map_info *Out,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 void P_Sparse_Correction(struct Map_info *In UNUSED, struct Map_info *Out,
 =======
 void P_Sparse_Correction(struct Map_info *In, struct Map_info *Out,
@@ -242,7 +245,13 @@ void P_Sparse_Correction(struct Map_info *In, struct Map_info *Out,
 =======
 void P_Sparse_Correction(struct Map_info *In, struct Map_info *Out,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+void P_Sparse_Correction(struct Map_info *In, struct Map_info *Out,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                          struct Map_info *Terrain,
                          struct Cell_head *Elaboration,
                          struct bound_box General, struct bound_box Overlap,
@@ -438,10 +447,14 @@ void P_Sparse_Correction(struct Map_info *In, struct Map_info *Out,
             }
         } /* if in General box */
 <<<<<<< HEAD
+<<<<<<< HEAD
     } /* while */
 =======
     }     /* while */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    }     /* while */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     G_percent(num_points, num_points, 2);
     Vect_destroy_line_struct(point);
     Vect_destroy_cats_struct(cats);

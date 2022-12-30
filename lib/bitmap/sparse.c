@@ -24,10 +24,14 @@
 
 #define BM_col_to_byte(x) ((x) >> 3) /* x / 8 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define BM_col_to_bit(x)  ((x) & 7)  /* x % 8 */
 =======
 #define BM_col_to_bit(x)  ((x)&7)    /* x % 8 */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#define BM_col_to_bit(x)  ((x)&7)    /* x % 8 */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 static int depth;
 

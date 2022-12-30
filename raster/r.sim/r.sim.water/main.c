@@ -221,10 +221,14 @@ int main(int argc, char *argv[])
     parm.logfile->description =
         _("Name for sampling points output text file. For each observation "
 <<<<<<< HEAD
+<<<<<<< HEAD
           "vector point the time series of water discharge is stored.");
 =======
           "vector point the time series of sediment transport is stored.");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+          "vector point the time series of sediment transport is stored.");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     parm.logfile->guisection = _("Output");
 
     parm.nwalk = G_define_option();

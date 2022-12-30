@@ -184,6 +184,7 @@ int read_rules(FILE *fp)
     for (line = 1;; line++) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -379,7 +380,12 @@ int read_rules(FILE *fp)
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         if (isatty(fileno(fp)))
             fprintf(stderr, "> ");
 
@@ -448,10 +454,14 @@ int read_rules(FILE *fp)
             break;
         } /* switch */
 <<<<<<< HEAD
+<<<<<<< HEAD
     } /* loop */
 =======
     }     /* loop */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    }     /* loop */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     return nrules;
 }
 

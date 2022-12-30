@@ -52,10 +52,14 @@ public:
     AMI_STREAM<T> *run;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     HeapElement() : run(NULL) {};
 =======
     HeapElement() : run(NULL){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    HeapElement() : run(NULL){};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     friend ostream &operator<<(ostream &s, const HeapElement &p)
     {
@@ -106,6 +110,7 @@ protected:
 public:
     // allocate array mergeHeap and the runs in runList
 <<<<<<< HEAD
+<<<<<<< HEAD
     ReplacementHeap(size_t arity, queue<char *> *runList);
 
     // delete array mergeHeap
@@ -117,6 +122,13 @@ public:
     ~ReplacementHeap<T, Compare>();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
+=======
+    ReplacementHeap<T, Compare>(size_t arity, queue<char *> *runList);
+
+    // delete array mergeHeap
+    ~ReplacementHeap<T, Compare>();
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     // is heap empty?
     int empty() const { return (size == 0); }
 
@@ -171,10 +183,14 @@ ReplacementHeap<T, Compare>::ReplacementHeap(size_t g_arity,
 /*****************************************************************/
 template <class T, class Compare>
 <<<<<<< HEAD
+<<<<<<< HEAD
 ReplacementHeap<T, Compare>::~ReplacementHeap()
 =======
 ReplacementHeap<T, Compare>::~ReplacementHeap<T, Compare>()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+ReplacementHeap<T, Compare>::~ReplacementHeap<T, Compare>()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 {
 
     if (!empty()) {
@@ -229,6 +245,7 @@ template <class T, class Compare>
 void ReplacementHeap<T, Compare>::deleteRun(size_t i)
 {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,6 +326,8 @@ void ReplacementHeap<T, Compare>::deleteRun(size_t i)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     assert(i < size && mergeHeap[i].run);
 =======
     assert(i >= 0 && i < size && mergeHeap[i].run);
@@ -448,7 +467,13 @@ void ReplacementHeap<T, Compare>::deleteRun(size_t i)
 =======
     assert(i >= 0 && i < size && mergeHeap[i].run);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    assert(i >= 0 && i < size && mergeHeap[i].run);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
     RHEAP_DEBUG
     {
@@ -579,6 +604,7 @@ void ReplacementHeap<T, Compare>::heapify(size_t i)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     assert(i >= 0 && i < size);
 =======
 <<<<<<< HEAD
@@ -635,6 +661,8 @@ void ReplacementHeap<T, Compare>::heapify(size_t i)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     assert(i < size);
 =======
     assert(i >= 0 && i < size);
@@ -774,7 +802,13 @@ void ReplacementHeap<T, Compare>::heapify(size_t i)
 =======
     assert(i >= 0 && i < size);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    assert(i >= 0 && i < size);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     if ((lc < size) && (cmpobj.compare(mergeHeap[lc].value,
                                        mergeHeap[min_index].value) == -1)) {
         min_index = lc;

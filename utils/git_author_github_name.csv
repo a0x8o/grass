@@ -1,5 +1,6 @@
 git_author,github_name
 <<<<<<< HEAD
+<<<<<<< HEAD
 Alberto Paradís Llop <albertoparadisllop gmail.com>,albertoparadisllop
 Alessandro Frigeri <alessandro.frigeri gmail.com>,afrigeri
 Alexandre Detiste <alexandre.detiste gmail.com>,a-detiste
@@ -29,6 +30,8 @@ Yann Chemin <ychemin gmail.com>,YannChemin
 ymdatta <ymdatta.work gmail.com>,ymdatta
 積丹尼 Dan Jacobson <jidanni jidanni.org>,jidanni
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 Jürgen Fischer <jef norbit.de>,jef-n
 Owen Smith <ocsmit protonmail.com>,ocsmit
 Nicklas Larsson <n_larsson yahoo.com>,nilason
@@ -43,4 +46,7 @@ Yann Chemin <ychemin gmail.com>,YannChemin
 Alberto Paradís Llop <albertoparadisllop gmail.com>,albertoparadisllop
 Andrea Giudiceandrea <andreaerdna libero.it>,agiudiceandrea
 Maximilian Stahlberg <viech unvanquished.net>,Viech
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

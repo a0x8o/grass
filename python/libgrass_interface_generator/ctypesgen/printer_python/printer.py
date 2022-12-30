@@ -236,10 +236,14 @@ class WrapperPrinter:
         self.srcinfo(struct.src)
         base = {"union": "Union", "struct": "Structure"}[struct.variety]
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.file.write("class %s_%s(%s):\n    pass\n" % (struct.variety, struct.tag, base))
 =======
         self.file.write("class %s_%s(%s):\n" "    pass\n" % (struct.variety, struct.tag, base))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        self.file.write("class %s_%s(%s):\n" "    pass\n" % (struct.variety, struct.tag, base))
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     def print_struct_members(self, struct):
         if struct.opaque:

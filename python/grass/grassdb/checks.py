@@ -103,6 +103,7 @@ def is_location_valid(path, location=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -117,6 +118,8 @@ def is_location_valid(path, location=None):
 >>>>>>> 490780e974 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     :param path: Path to a Location or to a GRASS GIS database directory
 =======
 <<<<<<< HEAD
@@ -250,6 +253,7 @@ def is_location_valid(path, location=None):
 =======
     :param path: Path to a Location or to a GRASS GIS database directory
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -332,6 +336,11 @@ def is_location_valid(path, location=None):
     :param path: Path to a Location or to a GRASS GIS database directory
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+    :param path: Path to a Location or to a GRASS GIS database directory
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     :param location: name of a Location if not part of *path*
     """
     # DEFAULT_WIND file should not be required until you do something
@@ -339,6 +348,7 @@ def is_location_valid(path, location=None):
     # containing a PERMANENT/DEFAULT_WIND file is probably a GRASS
     # location, while a directory lacking it probably isn't.
     if location:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -383,6 +393,8 @@ def is_location_valid(path, location=None):
 >>>>>>> 490780e974 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         path = os.path.join(path, location)
 =======
 <<<<<<< HEAD
@@ -597,12 +609,17 @@ def is_location_valid(path, location=None):
 
 def is_mapset_current(database, location, mapset) -> bool:
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         path = os.path.join(path, location)
     return os.access(os.path.join(path, "PERMANENT", "DEFAULT_WIND"), os.F_OK)
 
 
 def is_mapset_current(database, location, mapset):
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     """Return True if the given GRASS Mapset is the current mapset"""
     genv = gisenv()
     return bool(
@@ -616,7 +633,10 @@ def is_mapset_current(database, location, mapset):
 def is_location_current(database, location) -> bool:
 =======
 def is_location_current(database, location):
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     """Return True if the given GRASS Location is the current location"""
     genv = gisenv()
     return bool(database == genv["GISDBASE"] and location == genv["LOCATION_NAME"])

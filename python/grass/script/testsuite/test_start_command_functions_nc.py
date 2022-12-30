@@ -10,6 +10,8 @@ LOCATION = "nc"
 
 LOCATION = "nc"
 
+LOCATION = "nc"
+
 
 class TestPythonKeywordsInParameters(TestCase):
     """Tests additional underscore syntax which helps to avoid Python keywords

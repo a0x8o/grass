@@ -14,9 +14,12 @@
 
 import os
 <<<<<<< HEAD
+<<<<<<< HEAD
 import re
 =======
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 import shutil
 import tarfile
 import tempfile
@@ -28,12 +31,15 @@ from urllib.request import urlretrieve
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 reponse_content_type_header_pattern = re.compile(r"application/(zip|octet-stream)")
 reponse_content_disposition_header_pattern = re.compile(r"attachment; filename=.*.zip$")
 
 
 =======
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 def debug(*args, **kwargs):
     """Print a debug message (to be used in this module only)
 
@@ -41,6 +47,7 @@ def debug(*args, **kwargs):
     dependency if this is used from grass.script, so this is a wrapper which lazy
     imports the standard function.
     """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +128,8 @@ def debug(*args, **kwargs):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 490780e974 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     # Lazy import to avoiding potential circular dependency.
 =======
     # Lazy import to avoding potential circular dependency.
@@ -260,7 +269,13 @@ def debug(*args, **kwargs):
 =======
     # Lazy import to avoding potential circular dependency.
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+<<<<<<< HEAD
 >>>>>>> 490780e974 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+=======
+    # Lazy import to avoding potential circular dependency.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     import grass.script as gs  # pylint: disable=import-outside-toplevel
 
     gs.debug(*args, **kwargs)
@@ -282,6 +297,7 @@ def extract_tar(name, directory, tmpdir):
         tar = tarfile.open(name)
         extract_dir = os.path.join(tmpdir, "extract_dir")
         os.mkdir(extract_dir)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -362,6 +378,8 @@ def extract_tar(name, directory, tmpdir):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 490780e974 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
         # Extraction filters were added in Python 3.12,
         # and backported to 3.8.17, 3.9.17, 3.10.12, and 3.11.4
@@ -515,7 +533,13 @@ def extract_tar(name, directory, tmpdir):
 =======
         tar.extractall(path=extract_dir)
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+<<<<<<< HEAD
 >>>>>>> 490780e974 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+=======
+        tar.extractall(path=extract_dir)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         files = os.listdir(extract_dir)
         _move_extracted_files(
             extract_dir=extract_dir, target_dir=directory, files=files
@@ -620,6 +644,7 @@ def download_and_extract(source, reporthook=None):
         except URLError:
             raise DownloadError(url_error_message.format(url=source))
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         if not re.search(
             reponse_content_type_header_pattern, headers.get("content-type", "")
@@ -630,6 +655,9 @@ def download_and_extract(source, reporthook=None):
 =======
         if headers.get("content-type", "") != "application/zip":
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+        if headers.get("content-type", "") != "application/zip":
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             raise DownloadError(
                 _(
                     "Download of <{url}> failed or file <{name}> is not a ZIP file"

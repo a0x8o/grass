@@ -2279,8 +2279,11 @@ class CmdPanel(wx.Panel):
 
                         def OnCheckItem(index=None, flag=None, event=None):
 <<<<<<< HEAD
+<<<<<<< HEAD
                             layers = []
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                             layers = list()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                             geometry = None

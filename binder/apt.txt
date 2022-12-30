@@ -27,6 +27,7 @@ gettext
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 git
 imagemagick
 =======
@@ -37,6 +38,10 @@ imagemagick
 git
 imagemagick
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+git
+imagemagick
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 libblas-dev
 libbz2-dev
 libcairo2-dev
@@ -98,6 +103,7 @@ netcdf-bin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 p7zip
 proj-bin
 <<<<<<< HEAD
@@ -114,11 +120,15 @@ zlib1g-dev
 =======
 p7zip
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+p7zip
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 proj-bin
 sqlite3
 unixodbc-dev
 xvfb
 zlib1g-dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 p7zip
 imagemagick
@@ -129,3 +139,5 @@ git
 >>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

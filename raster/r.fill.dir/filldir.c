@@ -152,6 +152,7 @@ void filldir(int fe, int fd, int nl, struct band3 *bnd)
     advance_band3(fe, bnd);
     for (i = 1; i < nl - 1; i += 1) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (lseek(fe, (off_t)(i + 1) * bnd->sz, SEEK_SET) == -1) {
             G_fatal_error(_("Unable to seek: %s"), strerror(errno));
         }
@@ -161,11 +162,16 @@ void filldir(int fe, int fd, int nl, struct band3 *bnd)
                 G_fatal_error(_("Unable to seek: %s"), strerror(errno));
             }
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         lseek(fe, (off_t)(i + 1) * bnd->sz, SEEK_SET);
         advance_band3(fe, bnd);
         if (fill_row(nl, bnd->ns, bnd)) {
             lseek(fe, (off_t)i * bnd->sz, SEEK_SET);
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             if (write(fe, bnd->b[1], bnd->sz) < 0)
                 G_fatal_error(_("File writing error in %s() %d:%s"), __func__,
                               errno, strerror(errno));

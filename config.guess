@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #   Copyright 1992-2024 Free Software Foundation, Inc.
 
 # shellcheck disable=SC2006,SC2268 # see below for rationale
@@ -48,6 +49,13 @@ timestamp='2021-04-21'
 
 timestamp='2022-01-09'
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#   Copyright 1992-2022 Free Software Foundation, Inc.
+
+# shellcheck disable=SC2006,SC2268 # see below for rationale
+
+timestamp='2022-01-09'
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -108,6 +116,7 @@ Originally written by Per Bothner.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Copyright 1992-2024 Free Software Foundation, Inc.
 =======
 Copyright 1992-2022 Free Software Foundation, Inc.
@@ -124,6 +133,9 @@ Copyright 1992-2021 Free Software Foundation, Inc.
 =======
 Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+Copyright 1992-2022 Free Software Foundation, Inc.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
@@ -274,6 +286,7 @@ case $UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	UNAME_MACHINE_ARCH=`(uname -p 2>/dev/null || \
 	    /sbin/sysctl -n hw.machine_arch 2>/dev/null || \
 	    /usr/sbin/sysctl -n hw.machine_arch 2>/dev/null || \
@@ -295,6 +308,13 @@ case $UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION in
 	    echo unknown)`
 	case $UNAME_MACHINE_ARCH in
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+	UNAME_MACHINE_ARCH=`(uname -p 2>/dev/null || \
+	    /sbin/sysctl -n hw.machine_arch 2>/dev/null || \
+	    /usr/sbin/sysctl -n hw.machine_arch 2>/dev/null || \
+	    echo unknown)`
+	case $UNAME_MACHINE_ARCH in
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 	    aarch64eb) machine=aarch64_be-unknown ;;
 	    armeb) machine=armeb-unknown ;;
 	    arm*) machine=arm-unknown ;;
@@ -362,6 +382,7 @@ case $UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION in
     *:OpenBSD:*:*)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	UNAME_MACHINE_ARCH=`arch | sed 's/OpenBSD.//'`
 	GUESS=$UNAME_MACHINE_ARCH-unknown-openbsd$UNAME_RELEASE
 	;;
@@ -390,6 +411,15 @@ case $UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION in
 	GUESS=$UNAME_MACHINE_ARCH-unknown-secbsd$UNAME_RELEASE
 	;;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+	UNAME_MACHINE_ARCH=`arch | sed 's/OpenBSD.//'`
+	GUESS=$UNAME_MACHINE_ARCH-unknown-openbsd$UNAME_RELEASE
+	;;
+    *:SecBSD:*:*)
+	UNAME_MACHINE_ARCH=`arch | sed 's/SecBSD.//'`
+	GUESS=$UNAME_MACHINE_ARCH-unknown-secbsd$UNAME_RELEASE
+	;;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     *:LibertyBSD:*:*)
 	UNAME_MACHINE_ARCH=`arch | sed 's/^.*BSD\.//'`
 	GUESS=$UNAME_MACHINE_ARCH-unknown-libertybsd$UNAME_RELEASE
@@ -576,11 +606,14 @@ case $UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION in
 	# Japanese Language versions have a version number like `4.1.3-JL'.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 	SUN_REL=`echo "$UNAME_RELEASE" | sed -e 's/-/_/'`
 	GUESS=sparc-sun-sunos$SUN_REL
 	;;
@@ -1030,6 +1063,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	UNAME_PROCESSOR=`uname -p`
 =======
 	UNAME_PROCESSOR=`/usr/bin/uname -p`
@@ -1040,6 +1074,9 @@ EOF
 =======
 	UNAME_PROCESSOR=`/usr/bin/uname -p`
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+	UNAME_PROCESSOR=`/usr/bin/uname -p`
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 	case $UNAME_PROCESSOR in
 	    amd64)
 		UNAME_PROCESSOR=x86_64 ;;
@@ -1104,6 +1141,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x86_64:[Mm]anagarm:*:*|i?86:[Mm]anagarm:*:*)
 	GUESS="$UNAME_MACHINE-pc-managarm-mlibc"
 	;;
@@ -1116,10 +1154,13 @@ EOF
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     *:Minix:*:*)
 	GUESS=$UNAME_MACHINE-unknown-minix
 	;;
     aarch64:Linux:*:*)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1153,6 +1194,9 @@ EOF
 =======
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 	;;
     aarch64_be:Linux:*:*)
 	UNAME_MACHINE=aarch64_be
@@ -1172,13 +1216,17 @@ EOF
 	if test "$?" = 0 ; then LIBC=gnulibc1 ; fi
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 	;;
     arc:Linux:*:* | arceb:Linux:*:* | arc32:Linux:*:* | arc64:Linux:*:*)
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 	;;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 	echo "$UNAME_MACHINE"-unknown-linux-"$LIBC"
@@ -1189,6 +1237,8 @@ EOF
 >>>>>>> 2d7cc8f3e1 (configure, config.sub, config.guess: updated (#1585))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     arm*:Linux:*:*)
 	set_cc_for_build
 	if echo __ARM_EABI__ | $CC_FOR_BUILD -E - 2>/dev/null \
@@ -1232,6 +1282,7 @@ EOF
     k1om:Linux:*:*)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 	;;
 <<<<<<< HEAD
@@ -1271,6 +1322,13 @@ EOF
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 	;;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
+	;;
+    loongarch32:Linux:*:* | loongarch64:Linux:*:* | loongarchx32:Linux:*:*)
+	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
+	;;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     m32r*:Linux:*:*)
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 	;;
@@ -1360,6 +1418,7 @@ EOF
     ppcle:Linux:*:*)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	GUESS=powerpcle-unknown-linux-$LIBC
 	;;
     riscv32:Linux:*:* | riscv32be:Linux:*:* | riscv64:Linux:*:* | riscv64be:Linux:*:*)
@@ -1379,6 +1438,13 @@ EOF
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 	;;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+	GUESS=powerpcle-unknown-linux-$LIBC
+	;;
+    riscv32:Linux:*:* | riscv32be:Linux:*:* | riscv64:Linux:*:* | riscv64be:Linux:*:*)
+	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
+	;;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     s390:Linux:*:* | s390x:Linux:*:*)
 	GUESS=$UNAME_MACHINE-ibm-linux-$LIBC
 	;;
@@ -1432,11 +1498,14 @@ EOF
 	GUESS=$UNAME_MACHINE-pc-linux-$LIBCABI
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 	;;
     xtensa*:Linux:*:*)
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
@@ -1600,12 +1669,15 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     PENTIUM:*:4.0*:*)	# Unisys 'ClearPath HMP IX 4000' SVR4/MP effort
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     PENTIUM:*:4.0*:*)	# Unisys `ClearPath HMP IX 4000' SVR4/MP effort
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 			# says <Richard.M.Bartel@ccMail.Census.GOV>
@@ -1656,6 +1728,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ppc:Haiku:*:*)	# Haiku running on Apple PowerPC
 	GUESS=powerpc-apple-haiku
 	;;
@@ -1673,6 +1746,10 @@ EOF
     x86_64:Haiku:*:*)
 	GUESS=x86_64-unknown-haiku
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    x86_64:Haiku:*:*)
+	GUESS=x86_64-unknown-haiku
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 	;;
     SX-4:SUPER-UX:*:*)
 	GUESS=sx4-nec-superux$UNAME_RELEASE
@@ -1829,13 +1906,17 @@ EOF
     i*86:rdos:*:*)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 	GUESS=$UNAME_MACHINE-pc-rdos
 	;;
     i*86:Fiwix:*:*)
 	GUESS=$UNAME_MACHINE-pc-fiwix
 	;;
+<<<<<<< HEAD
 <<<<<<< HEAD
     *:AROS:*:*)
 	GUESS=$UNAME_MACHINE-unknown-aros
@@ -1852,6 +1933,11 @@ EOF
 	GUESS=$UNAME_MACHINE-unknown-aros
 	;;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    *:AROS:*:*)
+	GUESS=$UNAME_MACHINE-unknown-aros
+	;;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     x86_64:VMkernel:*:*)
 	GUESS=$UNAME_MACHINE-unknown-esx
 	;;
@@ -1864,6 +1950,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     *:Ironclad:*:*)
 	GUESS=$UNAME_MACHINE-unknown-ironclad
 	;;
@@ -1873,6 +1960,8 @@ EOF
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 esac
 
 # Do we have a guess based on uname results?

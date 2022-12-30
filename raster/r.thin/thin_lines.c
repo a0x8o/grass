@@ -153,10 +153,14 @@ int thin_lines(int iterations)
 
                     } /* end blank pixel */
 <<<<<<< HEAD
+<<<<<<< HEAD
                 } /* end col loop */
 =======
                 }     /* end col loop */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                }     /* end col loop */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
                 for (col = box_left; col <= box_right; col++)
                     row_buf[col] = med[col];
@@ -168,10 +172,14 @@ int thin_lines(int iterations)
                 med = bottom;
             } /* end row loop */
 <<<<<<< HEAD
+<<<<<<< HEAD
         } /* j-loop */
 =======
         }     /* j-loop */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        }     /* j-loop */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         G_message(n_("Deleted %d pixel", "Deleted %d pixels", deleted),
                   deleted);

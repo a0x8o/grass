@@ -73,6 +73,7 @@ unionFind<T>::unionFind()
     maxsize = UNION_INITIAL_SIZE;
     /*  parent = new (long)[maxsize]; */
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (void *new_parent = std::calloc(maxsize, sizeof(T))) {
         parent = static_cast<T *>(new_parent);
     }
@@ -87,12 +88,17 @@ unionFind<T>::unionFind()
         G_fatal_error(_("Not enough memory for %s"), "rank");
     }
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     parent = (T *)calloc(maxsize, sizeof(T));
     assert(parent);
     /*  rank = new (long)[maxsize]; */
     rank = (T *)calloc(maxsize, sizeof(T));
     assert(rank);
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************/
@@ -147,6 +153,7 @@ inline void unionFind<T>::makeSet(T x)
         /* reallocate parent */
         cout << "UnionFind::makeSet: reallocate double " << maxsize << "\n";
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (void *new_parent = std::realloc(parent, 2 * maxsize * sizeof(T))) {
             parent = static_cast<T *>(new_parent);
             std::memset(parent + maxsize, 0, maxsize * sizeof(T));
@@ -163,6 +170,8 @@ inline void unionFind<T>::makeSet(T x)
             G_fatal_error(_("Not enough memory for %s"), "rank");
         }
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         parent = (T *)realloc(parent, 2 * maxsize * sizeof(T));
         assert(parent);
         memset(parent + maxsize, 0, maxsize * sizeof(T));
@@ -170,7 +179,10 @@ inline void unionFind<T>::makeSet(T x)
         rank = (T *)realloc(rank, 2 * maxsize * sizeof(T));
         assert(rank);
         memset(rank + maxsize, 0, maxsize * sizeof(T));
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         /*update maxsize */
         maxsize *= 2;
     }

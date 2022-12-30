@@ -1,9 +1,12 @@
 """Fixture for t.rast.list test"""
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import os
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 from datetime import datetime
 from types import SimpleNamespace
 
@@ -21,6 +24,7 @@ def space_time_raster_dataset(tmp_path_factory):
     tmp_path = tmp_path_factory.mktemp("raster_time_series")
     location = "test"
     gs.core._create_location_xy(tmp_path, location)  # pylint: disable=protected-access
+<<<<<<< HEAD
 <<<<<<< HEAD
     with gs.setup.init(tmp_path / location, env=os.environ.copy()) as session:
         gs.run_command(
@@ -40,13 +44,18 @@ def space_time_raster_dataset(tmp_path_factory):
         for name, value in zip(names, max_values):
             gs.mapcalc(f"{name} = rand(0, {value})", seed=1, env=session.env)
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     with gs.setup.init(tmp_path / location):
         gs.run_command("g.region", s=0, n=80, w=0, e=120, b=0, t=50, res=10, res3=10)
         names = [f"precipitation_{i}" for i in range(1, 7)]
         max_values = [550, 450, 320, 510, 300, 650]
         for name, value in zip(names, max_values):
             gs.mapcalc(f"{name} = rand(0, {value})", seed=1)
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         dataset_name = "precipitation"
         gs.run_command(
             "t.create",
@@ -56,9 +65,12 @@ def space_time_raster_dataset(tmp_path_factory):
             title="Precipitation",
             description="Random series generated for tests",
 <<<<<<< HEAD
+<<<<<<< HEAD
             env=session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         )
         dataset_file = tmp_path / "names.txt"
         dataset_file.write_text("\n".join(names))
@@ -71,23 +83,32 @@ def space_time_raster_dataset(tmp_path_factory):
             start="2001-01-01",
             increment="1 month",
 <<<<<<< HEAD
+<<<<<<< HEAD
             env=session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         )
         times = [datetime(2001, i, 1) for i in range(1, len(names) + 1)]
         full_names = [f"{name}@PERMANENT" for name in names]
         yield SimpleNamespace(
 <<<<<<< HEAD
+<<<<<<< HEAD
             session=session,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             name=dataset_name,
             raster_names=names,
             full_raster_names=full_names,
             start_times=times,
 <<<<<<< HEAD
+<<<<<<< HEAD
             env=session,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         )

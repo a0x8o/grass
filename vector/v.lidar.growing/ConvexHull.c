@@ -212,6 +212,7 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 double *maxNS, double *maxEW, struct element_grow **mat,
                 int CBordo)
 =======
@@ -269,6 +270,8 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                 double *maxNS, double *maxEW, struct element_grow **mat UNUSED,
                 int CBordo UNUSED)
 =======
@@ -416,7 +419,14 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
                 double *maxNS, double *maxEW, struct element_grow **mat,
                 int CBordo)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                double *maxNS, double *maxEW, struct element_grow **mat,
+                int CBordo)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 {
     int c1;
     double minBordo, medioBordo; /*, minBordo1; */
@@ -564,6 +574,7 @@ void free_structmatrix(struct element_grow **m, long nrl, long nrh, long ncl,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -684,12 +695,19 @@ void free_structmatrix(struct element_grow **m, long nrl, long nrh, long ncl,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 {
     free((FREE_ARG)(m[nrl] + ncl - NR_END));
     free((FREE_ARG)(m + nrl - NR_END));

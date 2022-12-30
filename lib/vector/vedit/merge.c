@@ -185,17 +185,29 @@ int Vedit_merge_lines(struct Map_info *Map, struct ilist *List)
             line = Vect_rewrite_line(Map, line1, type1, Points, Cats1);
             if (line < 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 nlines_merged = -1;
                 goto free_exit;
 =======
                 return -1;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                return -1;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             }
 
             if (line1 <= nlines)
                 nlines_merged++;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+
+            /* update number of lines */
+            G_ilist_add(List, line);
+        }
+    } /* for each line */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
             /* update number of lines */
             G_ilist_add(List, line);
@@ -236,6 +248,7 @@ static int merge_lines(struct line_pnts *Points1, struct line_cats *Cats1,
     /* find minimal distance and its index */
 =======
     /* find mininal distance and its index */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,12 +393,19 @@ static int merge_lines(struct line_pnts *Points1, struct line_cats *Cats1,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     mindist = Vedit_get_min_distance(Points1, Points2, 0, /* TODO 3D */
                                      &mindistidx);
 

@@ -30,6 +30,7 @@ int main(int argc, char *argv[])
     int hist_flag, col_flag, shell_flag;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     enum OutputFormat format;
 
     JSON_Value *root_value;
@@ -37,6 +38,8 @@ int main(int argc, char *argv[])
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     struct Map_info Map;
 
     G_gisinit(argv[0]);
@@ -56,10 +59,14 @@ int main(int argc, char *argv[])
 
     parse_args(argc, argv, &input_opt, &field_opt, &hist_flag, &col_flag,
 <<<<<<< HEAD
+<<<<<<< HEAD
                &shell_flag, &format);
 =======
                &shell_flag);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+               &shell_flag);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     /* try to open head-only on level 2 */
     if (Vect_open_old_head2(&Map, input_opt, "", field_opt) < 2) {
@@ -88,16 +95,21 @@ int main(int argc, char *argv[])
         }
         else if (col_flag) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             print_columns(&Map, input_opt, field_opt, format);
 =======
             print_columns(&Map, input_opt, field_opt);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            print_columns(&Map, input_opt, field_opt);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         }
         Vect_close(&Map);
 
         return (EXIT_SUCCESS);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     if (format == JSON) {
         root_value = json_value_init_object();
@@ -126,6 +138,8 @@ int main(int argc, char *argv[])
         json_free_serialized_string(serialized_string);
         json_value_free(root_value);
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     if (shell_flag & SHELL_BASIC) {
         print_shell(&Map, field_opt);
     }
@@ -137,7 +151,10 @@ int main(int argc, char *argv[])
     }
     if (shell_flag == 0) {
         print_info(&Map);
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
     Vect_close(&Map);

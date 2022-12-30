@@ -262,14 +262,20 @@ class PyStc(stc.StyledTextCtrl):
             if self.statusbar:
                 self.statusbar.SetStatusText(
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _("{} script contains local modifications").format(
                         self.script_type
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                     _(
                         "{} script contains local modifications".format(
                             self.script_type
                         )
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                     ),
                     0,
                 )

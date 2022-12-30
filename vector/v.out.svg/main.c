@@ -26,10 +26,14 @@
 #define SVG_NS       "http://www.w3.org/2000/svg"
 #define XLINK_NS     "http://www.w3.org/1999/xlink"
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define GRASS_NS     "http://grass.itc.it/2006/gg"
 =======
 #define GRASS_NS     "http:/grass.itc.it/2006/gg"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#define GRASS_NS     "http:/grass.itc.it/2006/gg"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #define RADIUS_SCALE .003
 #define WIDTH_SCALE  .001
 #define G_Areas      "G_Areas"

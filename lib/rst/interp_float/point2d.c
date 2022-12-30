@@ -55,6 +55,7 @@ int IL_check_at_points_2d(struct interp_params *params,
                           double *ertot, /*!< total error */
                           double zmin,   /*!< min z-value */
 <<<<<<< HEAD
+<<<<<<< HEAD
                           double dnorm, struct triple *skip_point)
 {
     int n_points = data->n_points;        /* number of points */
@@ -66,6 +67,12 @@ int IL_check_at_points_2d(struct interp_params *params,
     int n_points = data->n_points;        /* number of points */
     struct triple *points = data->points; /* points for interpolation */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                          double dnorm, struct triple skip_point)
+{
+    int n_points = data->n_points;        /* number of points */
+    struct triple *points = data->points; /* points for interpolation */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     double east = data->xmax;
     double west = data->x_orig;
     double north = data->ymax;
@@ -73,10 +80,14 @@ int IL_check_at_points_2d(struct interp_params *params,
     double /* rfsta2, errmax, */ h, xx, yy, r2, hz, zz, err, xmm, ymm, r;
     double skip_err;
 <<<<<<< HEAD
+<<<<<<< HEAD
     int /* n1, */ mm, m;
 =======
     int /* n1, */ mm, m, cat;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    int /* n1, */ mm, m, cat;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     /* double fstar2; */
     int inside;
@@ -86,7 +97,10 @@ int IL_check_at_points_2d(struct interp_params *params,
     /*  Site *site; */
     char buf[1024];
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     /*  if ((site = G_site_new_struct (-1, 2, 0, 1)) == NULL)
        G_fatal_error ("Memory error for site struct"); */
 
@@ -125,11 +139,14 @@ int IL_check_at_points_2d(struct interp_params *params,
 
             if (inside) { /* if the point is inside the region */
 <<<<<<< HEAD
+<<<<<<< HEAD
                 point_writeout.x = xmm;
                 point_writeout.y = ymm;
                 point_writeout.z = zz;
                 IL_write_point_2d(point_writeout, err);
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 Vect_reset_line(Pnts);
                 Vect_reset_cats(Cats2);
 
@@ -154,7 +171,10 @@ int IL_check_at_points_2d(struct interp_params *params,
                                   db_get_string(&sql2));
                 }
                 count++;
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             }
         }
         (*ertot) += err * err;
@@ -165,12 +185,17 @@ int IL_check_at_points_2d(struct interp_params *params,
         h = b[0];
         for (m = 1; m <= n_points - 1; m++) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             xx = points[m - 1].x - skip_point->x;
             yy = points[m - 1].y - skip_point->y;
 =======
             xx = points[m - 1].x - skip_point.x;
             yy = points[m - 1].y - skip_point.y;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            xx = points[m - 1].x - skip_point.x;
+            yy = points[m - 1].y - skip_point.y;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             r2 = yy * yy + xx * xx;
             if (r2 != 0.) {
                 /* rfsta2 = fstar2 * r2; */
@@ -180,22 +205,29 @@ int IL_check_at_points_2d(struct interp_params *params,
         }
         hz = h + zmin;
 <<<<<<< HEAD
+<<<<<<< HEAD
         zz = skip_point->z + zmin;
         skip_err = hz - zz;
         xmm = skip_point->x * dnorm + params->x_orig + west;
         ymm = skip_point->y * dnorm + params->y_orig + south;
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         zz = skip_point.z + zmin;
         skip_err = hz - zz;
         xmm = skip_point.x * dnorm + params->x_orig + west;
         ymm = skip_point.y * dnorm + params->y_orig + south;
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         if ((xmm >= west + params->x_orig) && (xmm <= east + params->x_orig) &&
             (ymm >= south + params->y_orig) && (ymm <= north + params->y_orig))
             inside = 1;
         else
             inside = 0;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         if (inside) { /* if the point is inside the region */
@@ -265,6 +297,27 @@ int IL_write_point_2d(struct triple point, double err)
             db_append_string(&sql2, ")");
             G_debug(3, "IL_check_at_points_2d: %s", db_get_string(&sql2));
 
+=======
+
+        if (inside) { /* if the point is inside the region */
+            Vect_reset_line(Pnts);
+            Vect_reset_cats(Cats2);
+
+            Vect_append_point(Pnts, xmm, ymm, zz);
+            cat = count;
+            Vect_cat_set(Cats2, 1, cat);
+            Vect_write_line(&Map2, GV_POINT, Pnts, Cats2);
+
+            db_zero_string(&sql2);
+            sprintf(buf, "insert into %s values ( %d ", ff->table, cat);
+            db_append_string(&sql2, buf);
+
+            sprintf(buf, ", %f", skip_err);
+            db_append_string(&sql2, buf);
+            db_append_string(&sql2, ")");
+            G_debug(3, "IL_check_at_points_2d: %s", db_get_string(&sql2));
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             if (db_execute_immediate(driver2, &sql2) != DB_OK) {
                 db_close_database(driver2);
                 db_shutdown_driver(driver2);
@@ -274,7 +327,10 @@ int IL_write_point_2d(struct triple point, double err)
             count++;
         }
     } /* cv */
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     return 1;
 }

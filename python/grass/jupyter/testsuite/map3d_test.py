@@ -27,9 +27,12 @@ import grass.jupyter as gj
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
 <<<<<<< HEAD
+<<<<<<< HEAD
 from grass.gunittest.utils import xfail_windows
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 
 def can_import_ipython():
@@ -86,9 +89,12 @@ class TestMap3D(TestCase):
                 file.unlink(missing_ok=True)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @xfail_windows
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def test_defaults(self):
         """Check that default settings work"""
         renderer = gj.Map3D()
@@ -96,9 +102,12 @@ class TestMap3D(TestCase):
         self.assertFileExists(renderer.filename)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @xfail_windows
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def test_filename(self):
         """Check that custom filename works"""
         custom_filename = "test_filename.png"
@@ -109,9 +118,12 @@ class TestMap3D(TestCase):
         self.assertFileExists(custom_filename)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @xfail_windows
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def test_hw(self):
         """Check that custom width and height works"""
         renderer = gj.Map3D(width=200, height=400)
@@ -119,9 +131,12 @@ class TestMap3D(TestCase):
         self.assertFileExists(renderer.filename)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @xfail_windows
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def test_overlay(self):
         """Check that overlay works"""
         renderer = gj.Map3D()

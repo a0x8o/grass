@@ -30,6 +30,7 @@ void query_band(GDALRasterBandH hBand, const char *output,
         cellhd->format = 0;
         break;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /* GDT_Int8 was introduced in GDAL 3.7 */
 #if GDAL_VERSION_NUM >= GDAL_COMPUTE_VERSION(3, 7, 0)
@@ -40,6 +41,8 @@ void query_band(GDALRasterBandH hBand, const char *output,
 #endif
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     case GDT_Int16:
     case GDT_UInt16:

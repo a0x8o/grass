@@ -1057,6 +1057,7 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?
 =======
 <<<<<<< HEAD
@@ -1113,6 +1114,8 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         # TODO: it is here just to remove old or obsolete beavior of base class
         #       gcp/MapPanel?
 =======
@@ -1253,7 +1256,13 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 =======
         # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         # self.grwiz.SwitchEnv('source')
         pass
 
@@ -1788,7 +1797,10 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
         self.resize = gs.clock()
 =======
         self.resize = grass.clock()
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         super(MapPanel, self).OnSize(event)
 
     def OnIdle(self, event):
@@ -1809,6 +1821,44 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
                 self.resize = False
             elif self.resize:
                 event.RequestMore()
+
+
+class GCPDisplay(FrameMixin, GCPPanel):
+    """Map display for wrapping map panel with frame methods"""
+
+    def __init__(self, parent, giface, grwiz, id, lmgr, Map, title, camera, **kwargs):
+        # init map panel
+        GCPPanel.__init__(
+            self,
+            parent=parent,
+            giface=giface,
+            grwiz=grwiz,
+            id=id,
+            lmgr=lmgr,
+            Map=Map,
+            title=title,
+            camera=camera,
+            **kwargs,
+        )
+        # set system icon
+        parent.SetIcon(
+            wx.Icon(
+                os.path.join(globalvar.ICONDIR, "grass_map.ico"), wx.BITMAP_TYPE_ICO
+            )
+        )
+
+        # bind to frame
+        parent.Bind(wx.EVT_CLOSE, self.OnQuit)
+
+        # extend shortcuts and create frame accelerator table
+        self.shortcuts_table.append((self.OnFullScreen, wx.ACCEL_NORMAL, wx.WXK_F11))
+        self._initShortcuts()
+
+        # add Map Display panel to Map Display frame
+        sizer = wx.BoxSizer(wx.VERTICAL)
+        sizer.Add(self, proportion=1, flag=wx.EXPAND)
+        parent.SetSizer(sizer)
+        parent.Layout()
 
 
 class GCPDisplay(FrameMixin, GCPPanel):

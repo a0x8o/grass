@@ -60,11 +60,14 @@ unsigned char *Vect_read_area_to_wkb(struct Map_info *Map, int area,
 
     return (wkb);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /*!
    \brief Read vector area and return it as Well Known Text (WKT)
-          unsigned char array
+   unsigned char array
 
     Calls Vect_read_area_to_wkt2() with trim set to false.
 
@@ -90,10 +93,14 @@ char *Vect_read_area_to_wkt(struct Map_info *Map, int area)
    \return NULL on error
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 char *Vect_read_area_to_wkt2(struct Map_info *Map, int area, bool trim)
 =======
 char *Vect_read_area_to_wkt(struct Map_info *Map, int area)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+char *Vect_read_area_to_wkt(struct Map_info *Map, int area)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 {
     static int init = 0;
 
@@ -114,10 +121,14 @@ char *Vect_read_area_to_wkt(struct Map_info *Map, int area)
 
     if (!geom) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return NULL;
 =======
         return (NULL);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (NULL);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
     wkt = GEOSWKTWriter_write(writer, geom);
@@ -127,10 +138,14 @@ char *Vect_read_area_to_wkt(struct Map_info *Map, int area)
     GEOSFree(wkt);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     return wkt_out;
 =======
     return (wkt);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    return (wkt);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /*!
@@ -158,6 +173,7 @@ char *Vect_read_area_to_wkt(struct Map_info *Map, int area)
    \return pointer to unsigned char array
    \return NULL on error
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,6 +254,8 @@ unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 unsigned char *Vect_read_line_to_wkb(struct Map_info *Map,
 =======
 unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
@@ -377,7 +395,13 @@ unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 =======
 unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                                      struct line_pnts *line_p,
                                      struct line_cats *line_c, int line,
                                      size_t *size, int *error)
@@ -483,11 +507,14 @@ unsigned char *Vect_line_to_wkb(const struct line_pnts *points, int type,
 
     return (wkb);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /*!
    \brief Create a Well Known Text (WKT) representation of
-          given feature type from points.
+   given feature type from points.
 
    Calls Vect_line_to_wkt2() with trim set to false.
  */
@@ -520,11 +547,15 @@ char *Vect_line_to_wkt(const struct line_pnts *points, int type, bool with_z)
    \return NULL on error
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 char *Vect_line_to_wkt2(const struct line_pnts *points, int type, bool with_z,
                         bool trim)
 =======
 char *Vect_line_to_wkt(const struct line_pnts *points, int type, int with_z)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+char *Vect_line_to_wkt(const struct line_pnts *points, int type, int with_z)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 {
     static int init = 0;
 
@@ -545,10 +576,14 @@ char *Vect_line_to_wkt(const struct line_pnts *points, int type, int with_z)
 
     if (!geom) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return NULL;
 =======
         return (NULL);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (NULL);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
     wkt = GEOSWKTWriter_write(writer, geom);
@@ -558,10 +593,14 @@ char *Vect_line_to_wkt(const struct line_pnts *points, int type, int with_z)
     GEOSFree(wkt);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     return wkt_out;
 =======
     return (wkt);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    return (wkt);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 }
 
 #endif /* HAVE_GEOS */

@@ -2,9 +2,12 @@ from tempfile import NamedTemporaryFile
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
 <<<<<<< HEAD
+<<<<<<< HEAD
 from grass.gunittest.utils import xfail_windows
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 
 class TestNeighbors(TestCase):
@@ -209,6 +212,7 @@ class TestNeighbors(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -284,6 +288,8 @@ class TestNeighbors(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                    1 1 1
                    1 1 1
                    1 1 1
@@ -675,7 +681,15 @@ class TestNeighbors(TestCase):
                    1 1 1 
                    1 1 1 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                   1 1 1 
+                   1 1 1 
+                   1 1 1 
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                    DIVISOR 9
                    TYPE    P""",
     }
@@ -704,9 +718,12 @@ class TestNeighbors(TestCase):
             )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @xfail_windows
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def test_sequential(self):
         """Test output with sequential filter type."""
         test_case = "test_sequential"
@@ -741,9 +758,12 @@ class TestNeighbors(TestCase):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @xfail_windows
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def test_parallel(self):
         """Test output with parallel filter type."""
         test_case = "test_parallel"
@@ -778,9 +798,12 @@ class TestNeighbors(TestCase):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @xfail_windows
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def test_sequential_null(self):
         """Test output with sequential filter type with null mode enabled."""
         test_case = "test_sequential_null"
@@ -815,9 +838,12 @@ class TestNeighbors(TestCase):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @xfail_windows
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def test_parallel_null(self):
         """Test output with parallel filter type with null mode enabled."""
         test_case = "test_parallel_null"
@@ -879,9 +905,12 @@ class TestNeighbors(TestCase):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @xfail_windows
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def test_multiple_filters(self):
         """Test output with multiple filters."""
         test_case = "test_multiple_filters"
@@ -916,9 +945,12 @@ class TestNeighbors(TestCase):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @xfail_windows
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def test_repeated_filters(self):
         """Test output with repeated filters."""
         test_case = "test_repeated_filters"

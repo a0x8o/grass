@@ -45,9 +45,13 @@ class PropertyItem:
     def mapWindowPropertyChanged(self):
         """Returns signal from MapWindowProperties."""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         pass
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        pass
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     def _setValue(self, value):
         self.widget.SetValue(value)

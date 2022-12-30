@@ -13,16 +13,22 @@
  * PURPOSE:      r.volume is a program to compute the total, and average of
  *               cell values within regions of a map defined by clumps or
 <<<<<<< HEAD
+<<<<<<< HEAD
  *               patches on a second map (or by raster mask). It also computes
  *               the "volume" by multiplying the total within a clump by the
  *               area of each cell. It also outputs the "centroid" location of
  *               each clump. Output is to standard out.
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
  *               patches on a second map (or MASK). It also computes the
  *               "volume" by multiplying the total within a clump by the area
  *               of each cell. It also outputs the "centroid" location of each
  *               clump. Output is to standard out.
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
  *
  * COPYRIGHT:    (C) 1999-2006, 2013 by the GRASS Development Team
  *
@@ -151,6 +157,7 @@ int main(int argc, char *argv[])
     char mask_mapset[GMAPSET_MAX];
     if (!clumpmap) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         bool present =
             Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL);
         if (!present)
@@ -162,6 +169,8 @@ int main(int argc, char *argv[])
         use_mask = true;
         G_important_message(_("No clump map given, using raster mask"));
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         clumpmap = "MASK";
         use_MASK = 1;
         if (!G_find_raster2(clumpmap, G_mapset()))
@@ -179,7 +188,10 @@ int main(int argc, char *argv[])
     fd_clump = Rast_open_old(clumpmap, use_mask ? mask_mapset : "");
 =======
     fd_clump = Rast_open_old(clumpmap, use_MASK ? G_mapset() : "");
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     /* initialize vector map (for centroids) if needed */
     if (centroidsmap) {

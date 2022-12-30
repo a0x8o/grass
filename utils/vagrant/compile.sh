@@ -41,12 +41,15 @@ if [ ! -f "include/Make/Platform.make" ] ; then
         --with-postgres-includes=`pg_config --includedir` \
         --with-proj-share=/usr/share/proj \
 <<<<<<< HEAD
+<<<<<<< HEAD
         --with-pthread \
         --with-readline \
         --with-sqlite \
         --with-x \
         --without-pdal
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         --with-python \
         --with-cairo \
         --with-liblas

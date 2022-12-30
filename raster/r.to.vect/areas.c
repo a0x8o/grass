@@ -101,10 +101,14 @@ static int nabors(void);
 
 #define get_raster_value(ptr, col) \
 <<<<<<< HEAD
+<<<<<<< HEAD
     Rast_get_d_value(G_incr_void_ptr(ptr, (col) * data_size), data_type)
 =======
     Rast_get_d_value(G_incr_void_ptr(ptr, (col)*data_size), data_type)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    Rast_get_d_value(G_incr_void_ptr(ptr, (col)*data_size), data_type)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 /* extract_areas - trace boundaries of polygons in file */
 

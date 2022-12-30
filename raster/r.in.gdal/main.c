@@ -180,6 +180,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -300,12 +301,19 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     parm.target->key_desc = "name";
     parm.target->guisection = _("Projection");
 
@@ -410,6 +418,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -530,12 +539,19 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     flag_o->guisection = _("Projection");
 
     flag_j = G_define_flag();
@@ -577,6 +593,7 @@ int main(int argc, char *argv[])
 
     flag_c = G_define_flag();
     flag_c->key = 'c';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -659,6 +676,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     flag_c->description =
         _("Create the project specified by the \"project\" parameter and exit."
           " Do not import the raster file.");
@@ -810,7 +829,15 @@ int main(int argc, char *argv[])
         "Create the location specified by the \"location\" parameter and exit."
         " Do not import the raster file.");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    flag_c->description = _(
+        "Create the location specified by the \"location\" parameter and exit."
+        " Do not import the raster file.");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
     flag_r = G_define_flag();
     flag_r->key = 'r';
@@ -917,6 +944,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_fatal_error(_("You have to specify a target location different from "
                         "output location"));
     }
@@ -982,6 +1010,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error(_("You have to specify a target project different from "
                         "output project"));
     }
@@ -1161,7 +1191,22 @@ int main(int argc, char *argv[])
     if (flag_l->answer && G_projection() != PROJECTION_LL)
         G_fatal_error(_("The '-l' flag only works in Lat/Lon locations"));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        G_fatal_error(_("You have to specify a target location different from "
+                        "output location"));
+    }
+
+    if (flag_c->answer && parm.outloc->answer == NULL) {
+        G_fatal_error(_("You need to specify valid location name."));
+    }
+
+    if (flag_l->answer && G_projection() != PROJECTION_LL)
+        G_fatal_error(_("The '-l' flag only works in Lat/Lon locations"));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
     if (num_digits < 0)
         G_fatal_error(_("The number of digits for band numbering must be equal "
@@ -1178,6 +1223,7 @@ int main(int argc, char *argv[])
 
     croptoregion = flag_r->answer;
     if (flag_r->answer && parm.outloc->answer) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1258,6 +1304,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         G_warning(_("Disabling '-r' flag for new project"));
 =======
         G_warning(_("Disabling '-r' flag for new location"));
@@ -1397,7 +1445,13 @@ int main(int argc, char *argv[])
 =======
         G_warning(_("Disabling '-r' flag for new location"));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        G_warning(_("Disabling '-r' flag for new location"));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         croptoregion = 0;
     }
 
@@ -1818,12 +1872,15 @@ int main(int argc, char *argv[])
             /* Generate the suffix */
             if (num_digits > 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 snprintf(suffix, num_digits + 1, "%0*d", num_digits,
                          nBand + offset);
             }
             else {
                 snprintf(suffix, 65, "%d", nBand + offset);
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 G_snprintf(suffix, num_digits + 1, "%0*d", num_digits,
                            nBand + offset);
             }
@@ -2037,6 +2094,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     G_warning(
                         _("Unable to convert input map projection to GRASS "
                           "format; cannot create new location."));
@@ -2095,6 +2153,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                     G_warning(_("Unable to convert input map CRS to GRASS "
                                 "format; cannot create new project."));
 =======
@@ -2245,7 +2305,15 @@ int main(int argc, char *argv[])
                         _("Unable to convert input map projection to GRASS "
                           "format; cannot create new location."));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                    G_warning(
+                        _("Unable to convert input map projection to GRASS "
+                          "format; cannot create new location."));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                 }
                 else {
                     const char *authkey, *authname, *authcode;
@@ -2300,6 +2368,7 @@ int main(int argc, char *argv[])
                     if (0 != G_make_location_crs(
                                  parm.target->answer, &gcpcellhd, proj_info,
                                  proj_units, gdalsrid, gdalwkt)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2380,6 +2449,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                         G_fatal_error(_("Unable to create new project <%s>"),
 =======
                         G_fatal_error(_("Unable to create new location <%s>"),
@@ -2519,12 +2590,19 @@ int main(int argc, char *argv[])
 =======
                         G_fatal_error(_("Unable to create new location <%s>"),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                        G_fatal_error(_("Unable to create new location <%s>"),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                                       parm.target->answer);
                     }
                     /* switch back to import location */
                     G_switch_env();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2605,6 +2683,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                     G_message(_("Project <%s> created"), parm.target->answer);
 =======
                     G_message(_("Location <%s> created"), parm.target->answer);
@@ -2744,11 +2824,18 @@ int main(int argc, char *argv[])
 =======
                     G_message(_("Location <%s> created"), parm.target->answer);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                    G_message(_("Location <%s> created"), parm.target->answer);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                     /* set the group's target */
                     I_put_target(output, parm.target->answer, "PERMANENT");
                     G_message(_("The target for the output group <%s> has been "
                                 "set to "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2829,6 +2916,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                                 "project <%s>, mapset <PERMANENT>."),
 =======
                                 "location <%s>, mapset <PERMANENT>."),
@@ -2968,7 +3057,13 @@ int main(int argc, char *argv[])
 =======
                                 "location <%s>, mapset <PERMANENT>."),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                                "location <%s>, mapset <PERMANENT>."),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                               output, parm.target->answer);
                 }
             }
@@ -3007,6 +3102,7 @@ int main(int argc, char *argv[])
 
         if (strcmp(G_mapset(), "PERMANENT") == 0) {
             G_put_element_window(&cur_wind, "", "DEFAULT_WIND");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3087,6 +3183,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             G_message(_("Default region for this project updated"));
 =======
             G_message(_("Default region for this location updated"));
@@ -3226,7 +3324,13 @@ int main(int argc, char *argv[])
 =======
             G_message(_("Default region for this location updated"));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+            G_message(_("Default region for this location updated"));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         }
         G_put_window(&cur_wind);
         G_message(_("Region for the current mapset updated"));
@@ -3275,6 +3379,7 @@ static void SetupReprojector(const char *pszSrcWKT, const char *pszDstLoc,
 
         /* Get projection info from target location */
         if ((out_proj_info = G_get_projinfo()) == NULL)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3354,6 +3459,8 @@ static void SetupReprojector(const char *pszSrcWKT, const char *pszDstLoc,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(_("Unable to get CRS info of target project"));
         if ((out_unit_info = G_get_projunits()) == NULL)
             G_fatal_error(_("Unable to get CRS units of target project"));
@@ -3475,7 +3582,12 @@ static void SetupReprojector(const char *pszSrcWKT, const char *pszDstLoc,
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(
                 _("Unable to get projection info of target location"));
         if ((out_unit_info = G_get_projunits()) == NULL)
@@ -3484,6 +3596,7 @@ static void SetupReprojector(const char *pszSrcWKT, const char *pszDstLoc,
         if (pj_get_kv(oproj, out_proj_info, out_unit_info) < 0)
             G_fatal_error(
                 _("Unable to get projection key values of target location"));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3628,18 +3741,26 @@ static void SetupReprojector(const char *pszSrcWKT, const char *pszDstLoc,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         tproj->def = NULL;
         if (GPJ_init_transform(iproj, oproj, tproj) < 0)
             G_fatal_error(_("Unable to initialize coordinate transformation"));
     }
     else { /* can't access target mapset */
         /* access to mapset PERMANENT in target location is not required */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3720,6 +3841,8 @@ static void SetupReprojector(const char *pszSrcWKT, const char *pszDstLoc,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         sprintf(errbuf, _("Mapset <%s> in target project <%s> - "),
 =======
         sprintf(errbuf, _("Mapset <%s> in target location <%s> - "),
@@ -3859,7 +3982,13 @@ static void SetupReprojector(const char *pszSrcWKT, const char *pszDstLoc,
 =======
         sprintf(errbuf, _("Mapset <%s> in target location <%s> - "),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        sprintf(errbuf, _("Mapset <%s> in target location <%s> - "),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                 target_mapset, pszDstLoc);
         strcat(errbuf,
                permissions == 0 ? _("permission denied") : _("not found"));
@@ -4073,10 +4202,14 @@ static void ImportBand(GDALRasterBandH hBand, const char *output,
             Rast_put_row(cfI, cellImg, data_type);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
     } /* end of complex */
 =======
     }                     /* end of complex */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    }                     /* end of complex */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     else if (l1bdriver) { /* AVHRR */
         /* AVHRR - read from south to north to match GCPs */
         /* AVHRR - as for other formats, read from north to south to match GCPs

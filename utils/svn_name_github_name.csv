@@ -2,6 +2,7 @@ svn_name,github_name
 1gray,1gray
 aghisla,aghisla
 <<<<<<< HEAD
+<<<<<<< HEAD
 annakrat,petrasovaa
 barton,cmbarton
 benducke,benducke
@@ -56,6 +57,8 @@ william,kyngchaos
 ychemin,YannChemin
 zarch,zarch
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 benjamin,benducke
 benducke,benducke
 bernhard,bernhardreiter
@@ -109,4 +112,7 @@ ychemin,YannChemin
 zarch,zarch
 ullah,isaacullah
 isaacullah,isaacullah
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

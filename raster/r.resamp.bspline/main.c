@@ -218,6 +218,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       | Each one will be overlaped by its neighbouring subregions.
 =======
 <<<<<<< HEAD
@@ -274,6 +275,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
       | Each one will be overlapped by its neighbouring subregions.
 =======
       | Each one will be overlaped by its neighbouring subregions.
@@ -413,7 +416,13 @@ int main(int argc, char *argv[])
 =======
       | Each one will be overlaped by its neighbouring subregions.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+      | Each one will be overlaped by its neighbouring subregions.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
       | The overlapping is calculated as a fixed OVERLAP_SIZE times
       | the largest spline step plus 2 * orlo
       ----------------------------------------------------------------*/
@@ -961,6 +970,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1016,6 +1026,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                 if (observ_marked)
                     G_free(observ_marked);
 =======
@@ -1135,17 +1147,26 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                 if (npoints == 0)
                     G_warning(_("No data within this subregion. "
                                 "Consider increasing the spline step."));
             }
         } /*! END WHILE; last_column = TRUE */
 <<<<<<< HEAD
+<<<<<<< HEAD
     } /*! END WHILE; last_row = TRUE */
 =======
     }     /*! END WHILE; last_row = TRUE */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    }     /*! END WHILE; last_row = TRUE */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     Segment_close(&in_seg); /* release memory  */
 

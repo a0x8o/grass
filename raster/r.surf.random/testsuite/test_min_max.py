@@ -29,6 +29,7 @@ AUTHOR(S): Vaclav Petras <wenzeslaus gmail com>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 PURPOSE:   Test of min and max paramters
 =======
 <<<<<<< HEAD
@@ -85,6 +86,8 @@ PURPOSE:   Test of min and max paramters
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 PURPOSE:   Test of min and max parameters
 =======
 PURPOSE:   Test of min and max paramters
@@ -224,7 +227,13 @@ PURPOSE:   Test of min and max paramters
 =======
 PURPOSE:   Test of min and max paramters
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+PURPOSE:   Test of min and max paramters
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
 COPYRIGHT: (C) 2020 by Vaclav Petras and the GRASS Development Team
 
@@ -233,6 +242,7 @@ License (>=v2). Read the file COPYING that comes with GRASS
 for details.
 """
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -314,6 +324,8 @@ import os
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 import os
 
@@ -459,7 +471,14 @@ import os
 import os
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+import os
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 import grass.script as gs
 
 from grass.gunittest.case import TestCase
@@ -481,6 +500,7 @@ class MinMaxTestCase(TestCase):
     @classmethod
     def setUpClass(cls):
         """Ensures expected computational region"""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -560,6 +580,8 @@ class MinMaxTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         # modifying region just for this script
         cls.use_temp_region()
         cls.runModule("g.region", rows=10, cols=10)
@@ -679,13 +701,19 @@ class MinMaxTestCase(TestCase):
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         os.environ["GRASS_RANDOM_SEED"] = "42"
         # modfying region just for this script
         cls.use_temp_region()
         # Only 100,000,000 seem to resonably (not 100%) ensure that all values
         # are generated, so exceeding of ranges actually shows up.
         cls.runModule("g.region", rows=10000, cols=10000)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -830,12 +858,19 @@ class MinMaxTestCase(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
     @classmethod
     def tearDownClass(cls):
@@ -874,6 +909,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -929,6 +965,8 @@ class MinMaxTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         precision = 0.00001
         self.assertModule(
             "r.surf.random", min=min_value, max=max_value, output=self.output, seed=42
@@ -1048,11 +1086,17 @@ class MinMaxTestCase(TestCase):
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         # arbitrary, but with more cells, we expect higher precision
         precision = 0.00001
         self.assertModule(
             "r.surf.random", min=min_value, max=max_value, output=self.output
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1197,12 +1241,19 @@ class MinMaxTestCase(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         )
         self.assertRasterExists(self.output, msg="Output was not created")
         self.assertRasterMinMax(
@@ -1240,6 +1291,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
             reference=dict(min=min_value, max=max_value),
@@ -1283,6 +1335,8 @@ class MinMaxTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             reference={"min": -3.20423, "max": 5.68621},
 =======
 =======
@@ -1520,7 +1574,13 @@ class MinMaxTestCase(TestCase):
 =======
             reference=dict(min=min_value, max=max_value),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+            reference=dict(min=min_value, max=max_value),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             precision=precision,
             msg="Output min and max too far from parameters",
         )
@@ -1557,6 +1617,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "r.surf.random", min=min_value, max=max_value, output=self.output, flags="i"
 =======
 <<<<<<< HEAD
@@ -1613,6 +1674,8 @@ class MinMaxTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             "r.surf.random",
             min=min_value,
             max=max_value,
@@ -1757,7 +1820,13 @@ class MinMaxTestCase(TestCase):
 =======
             "r.surf.random", min=min_value, max=max_value, output=self.output, flags="i"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+            "r.surf.random", min=min_value, max=max_value, output=self.output, flags="i"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         )
         self.assertRasterExists(self.output, msg="Output was not created")
         self.assertRasterMinMax(
@@ -1769,10 +1838,14 @@ class MinMaxTestCase(TestCase):
         self.assertRasterFitsInfo(
             raster=self.output,
 <<<<<<< HEAD
+<<<<<<< HEAD
             reference={"min": min_value, "max": max_value},
 =======
             reference=dict(min=min_value, max=max_value),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            reference=dict(min=min_value, max=max_value),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             precision=precision,
             msg="Output min and max too far from parameters",
         )
@@ -1806,6 +1879,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "r.surf.random", min=min_value, max=max_value, output=self.output, flags="i"
 =======
 <<<<<<< HEAD
@@ -1862,6 +1936,8 @@ class MinMaxTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             "r.surf.random",
             min=min_value,
             max=max_value,
@@ -2006,7 +2082,13 @@ class MinMaxTestCase(TestCase):
 =======
             "r.surf.random", min=min_value, max=max_value, output=self.output, flags="i"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+            "r.surf.random", min=min_value, max=max_value, output=self.output, flags="i"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         )
 
     def test_min_greater_than_max(self):
@@ -2014,6 +2096,7 @@ class MinMaxTestCase(TestCase):
         min_value = 10
         max_value = 5.8
         self.assertModuleFail(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2093,6 +2176,8 @@ class MinMaxTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             "r.surf.random", min=min_value, max=max_value, output=self.output, seed=42
         )
 
@@ -2218,7 +2303,12 @@ class MinMaxTestCase(TestCase):
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             "r.surf.random", min=min_value, max=max_value, output=self.output
         )
 

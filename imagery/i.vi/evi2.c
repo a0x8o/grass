@@ -8,10 +8,14 @@
  * AVHRR data Proc. SPIE 6679, Remote Sensing and Modeling of Ecosystems for
  * Sustainability IV, 667905 (October 09, 2007) doi:10.1117/12.734933
 <<<<<<< HEAD
+<<<<<<< HEAD
  * https://doi.org/10.1117/12.734933
 =======
  * http://dx.doi.org/10.1117/12.734933
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+ * http://dx.doi.org/10.1117/12.734933
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
  */
 double e_vi2(double redchan, double nirchan)
 {

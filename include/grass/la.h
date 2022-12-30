@@ -87,7 +87,10 @@ typedef doublereal E_f; /* real function with -R not specified */
 #include <grass/lapack.h>
 #endif
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 /* Useful defines */
 
 #define MAX_POS    1  /* Indicates maximum value         */
@@ -96,8 +99,11 @@ typedef doublereal E_f; /* real function with -R not specified */
 
 #define DO_COMPACT 0 /* Eliminate unnecessary rows (cols) in matrix  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define NO_COMPACT 1 /* ... or not                                   */
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #define NO_COMPACT 1 /* ... or not                                    */
 
 /* define macros for fortran symbols (called directly). Needed because
@@ -129,6 +135,7 @@ typedef enum { RVEC, CVEC } vtype;
 typedef struct matrix_ {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     mat_spec type;  /* matrix, row vector or column vector? */
     int v_indx;     /* If a vector, which row(column) is active?
                      * If a matrix this is ignored. If value is < 0,
@@ -140,6 +147,8 @@ typedef struct matrix_ {
     int is_init;    /* Is  matrix initialised: values array
                      * is allocated and parameters set ?               */
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     mat_spec type;    /* matrix, row vector or column vector? */
     int v_indx;       /* If a vector, which row(column) is active?
                        * If a matrix this is ignored. If value is < 0,
@@ -150,7 +159,10 @@ typedef struct matrix_ {
     doublereal *vals; /* The values (should be dimensioned to lda * cols */
     int is_init;      /* Is  matrix initialised: values array
                        * is allocated and parameters set ?               */
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 } mat_struct;
 
 typedef mat_struct vec_struct;

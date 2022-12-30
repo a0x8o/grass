@@ -13,11 +13,15 @@ int level_one_info(struct Map_info *);
 
 /* parse.c */
 <<<<<<< HEAD
+<<<<<<< HEAD
 void parse_args(int, char **, char **, char **, int *, int *, int *,
                 enum OutputFormat *);
 =======
 void parse_args(int, char **, char **, char **, int *, int *, int *);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+void parse_args(int, char **, char **, char **, int *, int *, int *);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 /* print.c */
 void format_double(double, char *);

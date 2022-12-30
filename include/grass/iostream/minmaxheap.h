@@ -126,6 +126,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -146,6 +147,8 @@ public:
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         snprintf(str, sizeof(str), "BasicMinMaxHeap: allocate %ld\n",
                  (long)((size + 1) * sizeof(T)));
 =======
@@ -368,6 +371,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -377,9 +381,12 @@ public:
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
         sprintf(str, "BasicMinMaxHeap: allocate %ld\n",
                 (long)((size + 1) * sizeof(T)));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -462,6 +469,8 @@ public:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         // MEMORY_LOG(str);
 
         lastindex = 0;
@@ -1148,12 +1157,17 @@ template <class T>
 class MinMaxHeap : public BasicMinMaxHeap<T> {
 public:
 <<<<<<< HEAD
+<<<<<<< HEAD
     MinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size) {};
     virtual ~MinMaxHeap() {};
 =======
     MinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size){};
     virtual ~MinMaxHeap(){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    MinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size){};
+    virtual ~MinMaxHeap(){};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     bool full(void) const { return this->size() >= this->maxsize; };
     HeapIndex get_maxsize() const { return this->maxsize; };
     HeapIndex fill(T *arr, HeapIndex n);
@@ -1195,6 +1209,7 @@ template <class T>
 class UnboundedMinMaxHeap : public BasicMinMaxHeap<T> {
 public:
 <<<<<<< HEAD
+<<<<<<< HEAD
     UnboundedMinMaxHeap() : BasicMinMaxHeap<T>(MMHEAP_INITIAL_SIZE) {};
     UnboundedMinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size) {};
     virtual ~UnboundedMinMaxHeap() {};
@@ -1203,6 +1218,11 @@ public:
     UnboundedMinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size){};
     virtual ~UnboundedMinMaxHeap(){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    UnboundedMinMaxHeap() : BasicMinMaxHeap<T>(MMHEAP_INITIAL_SIZE){};
+    UnboundedMinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size){};
+    virtual ~UnboundedMinMaxHeap(){};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 protected:
     virtual void grow();

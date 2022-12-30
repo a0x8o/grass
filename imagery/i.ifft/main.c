@@ -137,10 +137,14 @@ int main(int argc, char *argv[])
     cell_imag = Rast_allocate_d_buf();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define C(i, j) ((i) * cols + (j))
 =======
 #define C(i, j) ((i)*cols + (j))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#define C(i, j) ((i)*cols + (j))
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     /* Read in cell map values */
     G_message(_("Reading raster maps..."));

@@ -107,16 +107,22 @@ int Vedit_snap_line(struct Map_info *Map, struct Map_info **BgMap, int nbgmaps,
 =======
     Cats = Vect_new_cats_struct();
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     G_debug(3, "Vedit_snap_line(): thresh=%g, to_vertex=%d", thresh, to_vertex);
 
     if (line > 0 && !Vect_line_alive(Map, line))
         return -1;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     Cats = Vect_new_cats_struct();
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     npoints = Points->n_points;
     x = Points->x;
@@ -199,11 +205,15 @@ int Vedit_snap_lines(struct Map_info *Map, struct Map_info **BgMap, int nbgmaps,
                             to_vertex) == 1) {
             if (Vect_rewrite_line(Map, line, type, Points, Cats) < 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 nlines_modified = -1;
                 goto free_exit;
 =======
                 return -1;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                return -1;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             }
 
             nlines_modified++;

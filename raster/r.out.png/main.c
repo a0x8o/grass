@@ -208,6 +208,7 @@ int main(int argc, char *argv[])
                                 pnmtopng_error_handler, NULL);
     if (png_ptr == NULL) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (fp) {
             fclose(fp);
             fp = NULL;
@@ -215,6 +216,9 @@ int main(int argc, char *argv[])
 =======
         fclose(fp);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        fclose(fp);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error("cannot allocate LIBPNG structure");
     }
 
@@ -222,18 +226,6 @@ int main(int argc, char *argv[])
     if (info_ptr == NULL) {
         png_destroy_write_struct(&png_ptr, (png_infopp)NULL);
 <<<<<<< HEAD
-        if (fp) {
-            fclose(fp);
-            fp = NULL;
-        }
-=======
-        fclose(fp);
->>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-        G_fatal_error("cannot allocate LIBPNG structure");
-    }
-
-    if (setjmp(pnmtopng_jmpbuf_struct.jmpbuf)) {
-        png_destroy_write_struct(&png_ptr, &info_ptr);
 <<<<<<< HEAD
         if (fp) {
             fclose(fp);
@@ -242,6 +234,26 @@ int main(int argc, char *argv[])
 =======
         fclose(fp);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        fclose(fp);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+        G_fatal_error("cannot allocate LIBPNG structure");
+    }
+
+    if (setjmp(pnmtopng_jmpbuf_struct.jmpbuf)) {
+        png_destroy_write_struct(&png_ptr, &info_ptr);
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (fp) {
+            fclose(fp);
+            fp = NULL;
+        }
+=======
+        fclose(fp);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        fclose(fp);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error("setjmp returns error condition (1)");
     }
 
@@ -408,7 +420,10 @@ int main(int argc, char *argv[])
         write_wld(outfile, &win);
     }
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     if (basename)
         G_free(basename);
     if (outfile)

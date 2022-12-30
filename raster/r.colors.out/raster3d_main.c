@@ -31,10 +31,14 @@ int main(int argc, char **argv)
     struct GModule *module;
     struct {
 <<<<<<< HEAD
+<<<<<<< HEAD
         struct Option *map, *file, *format, *color_format;
 =======
         struct Option *map, *file;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        struct Option *map, *file;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     } opt;
     struct {
         struct Flag *p;
@@ -46,10 +50,13 @@ int main(int argc, char **argv)
     struct FPRange range;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     enum ColorFormat clr_frmt;
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     G_gisinit(argv[0]);
 
     module = G_define_module();
@@ -97,6 +104,7 @@ int main(int argc, char **argv)
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (strcmp(opt.format->answer, "json") == 0) {
         if (strcmp(opt.color_format->answer, "rgb") == 0) {
             clr_frmt = RGB;
@@ -121,6 +129,10 @@ int main(int argc, char **argv)
     Rast_print_colors(&colors, range.min, range.max, fp,
                       flag.p->answer ? 1 : 0);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    Rast_print_colors(&colors, range.min, range.max, fp,
+                      flag.p->answer ? 1 : 0);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     exit(EXIT_SUCCESS);
 }

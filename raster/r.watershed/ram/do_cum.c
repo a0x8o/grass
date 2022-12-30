@@ -308,6 +308,7 @@ int do_cum_mfd(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -355,6 +356,8 @@ int do_cum_mfd(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     size_t this_index, down_index, nbr_index;
 =======
 =======
@@ -444,7 +447,12 @@ int do_cum_mfd(void)
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     int this_index, down_index, nbr_index;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -694,6 +702,7 @@ int do_cum_mfd(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                      "%d of %d cell",
                      "MFD: A * path already processed when distributing flow: "
                      "%d of %d cells",
@@ -752,6 +761,8 @@ int do_cum_mfd(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                      "%d of %zu cell",
                      "MFD: A * path already processed when distributing flow: "
                      "%d of %zu cells",
@@ -903,7 +914,15 @@ int do_cum_mfd(void)
                      "MFD: A * path already processed when distributing flow: "
                      "%d of %d cells",
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                     "%d of %d cell",
+                     "MFD: A * path already processed when distributing flow: "
+                     "%d of %d cells",
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                      do_points),
                   workedon, do_points);
 
@@ -1026,6 +1045,7 @@ int do_cum_mfd(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (mfd_cells == 1)
                 /* mfdir = (1 << nextmfd[max_side]); */
 
@@ -1085,6 +1105,8 @@ int do_cum_mfd(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             /*
             if (mfd_cells == 1)
                 mfdir = (1 << nextmfd[max_side]);
@@ -1242,7 +1264,16 @@ int do_cum_mfd(void)
 
                 is_swale = FLAG_GET(swale, r, c);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+            if (mfd_cells == 1)
+                /* mfdir = (1 << nextmfd[max_side]); */
+
+                is_swale = FLAG_GET(swale, r, c);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             /* start new stream */
             value = ABS(value) + 0.5;
             if (!is_swale && (int)value >= threshold && stream_cells < 1 &&

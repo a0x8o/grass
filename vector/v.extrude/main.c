@@ -171,6 +171,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,6 +228,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
     if (G_parser(argc, argv))
         exit(EXIT_FAILURE);
@@ -317,7 +320,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
     if (!opt.height->answer && !opt.hcolumn->answer) {
         G_fatal_error(_("One of '%s' or '%s' parameters must be set"),
@@ -530,10 +538,14 @@ int main(int argc, char *argv[])
                     voffset, &window, type, -1);
         } /* for each line */
 <<<<<<< HEAD
+<<<<<<< HEAD
     } /* else if area */
 =======
     }     /* else if area */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    }     /* else if area */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     if (driver) {
         db_close_database(driver);

@@ -2,24 +2,32 @@
 #
 # AUTHOR(S): Caitlin Haedrich <caitlin DOT haedrich AT gmail>
 <<<<<<< HEAD
+<<<<<<< HEAD
 #            Riya Saxena <29riyasaxena AT gmail>
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #
 # PURPOSE:   This module contains functions for visualizing raster and vector
 #            space-time datasets in Jupyter Notebooks
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
 # COPYRIGHT: (C) 2022-2024 Caitlin Haedrich, and by the GRASS Development Team
 =======
 # COPYRIGHT: (C) 2022 Caitlin Haedrich, and by the GRASS Development Team
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+# COPYRIGHT: (C) 2022 Caitlin Haedrich, and by the GRASS Development Team
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #
 #           This program is free software under the GNU General Public
 #           License (>=v2). Read the file COPYING that comes with GRASS
 #           for details.
 """Create and display visualizations for space-time datasets."""
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 import os
 import shutil
@@ -184,16 +192,25 @@ import shutil
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 import tempfile
 import os
 import weakref
 import shutil
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 import grass.script as gs
 
 from .map import Map
 from .region import RegionManagerForTimeSeries
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -485,6 +502,8 @@ from .baseseriesmap import BaseSeriesMap
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -513,7 +532,12 @@ from .baseseriesmap import BaseSeriesMap
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
 
 def fill_none_values(names):
@@ -607,10 +631,14 @@ def check_timeseries_exists(timeseries, element_type):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TimeSeriesMap(BaseSeriesMap):
 =======
 class TimeSeriesMap:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+class TimeSeriesMap:
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     """Creates visualizations of time-space raster and vector datasets in Jupyter
     Notebooks.
 
@@ -627,6 +655,7 @@ class TimeSeriesMap:
 
     # pylint: disable=too-many-instance-attributes
     # Need more attributes to build timeseriesmap visuals
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -698,6 +727,8 @@ class TimeSeriesMap:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     # pylint: disable=duplicate-code
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -735,6 +766,7 @@ class TimeSeriesMap:
     # pylint: disable=duplicate-code
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -793,6 +825,10 @@ class TimeSeriesMap:
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
     def __init__(
         self,
@@ -813,6 +849,7 @@ class TimeSeriesMap:
                             this region is then used for rendering
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
         super().__init__(width, height, env)
 
         self._element_type = None
@@ -822,6 +859,8 @@ class TimeSeriesMap:
         self._date_layer_dict = {}
         self._slider_description = _("Date/Time")
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         # Copy Environment
         if env:
@@ -855,13 +894,17 @@ class TimeSeriesMap:
             tmpdir.cleanup()
 
         weakref.finalize(self, cleanup, self._tmpdir)
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         # Handle Regions
         self._region_manager = RegionManagerForTimeSeries(
             use_region, saved_region, self._env
         )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     def add_raster_series(self, baseseries, fill_gaps=False):
         """
@@ -909,6 +952,8 @@ class TimeSeriesMap:
         self._region_manager.set_region_from_timeseries(self.baseseries)
         self._indices = self._labels
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def add_raster_series(self, timeseries, fill_gaps=False):
         """
         :param str timeseries: name of space-time dataset
@@ -973,7 +1018,10 @@ class TimeSeriesMap:
                 self._overlay_calls.append((grass_module, kwargs))
 
         return wrapper
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     def d_legend(self, **kwargs):
         """Display legend.
@@ -981,27 +1029,36 @@ class TimeSeriesMap:
         Wraps d.legend and uses same keyword arguments.
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
         if "raster" in kwargs and not self._baseseries_added:
             self._base_layer_calls.append(("d.legend", kwargs))
         if "raster" in kwargs and self._baseseries_added:
             self._base_calls.append(("d.legend", kwargs))
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         if "raster" in kwargs and not self._timeseries_added:
             self._base_layer_calls.append(("d.legend", kwargs))
         if "raster" in kwargs and self._timeseries_added:
             self._overlay_calls.append(("d.legend", kwargs))
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         else:
             self._legend = kwargs
             # If d_legend has been called, we need to re-render layers
             self._layers_rendered = False
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _render_legend(self, img):
         """Add legend to Map instance"""
         info = gs.parse_command(
             "t.info", input=self.baseseries, flags="g", env=self._env
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def _render_baselayers(self, img):
         """Add collected baselayers to Map instance"""
         for grass_module, kwargs in self._base_layer_calls:
@@ -1011,7 +1068,10 @@ class TimeSeriesMap:
         """Add legend to Map instance"""
         info = gs.parse_command(
             "t.info", input=self.timeseries, flags="g", env=self._env
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         )
         min_min = info["min_min"]
         max_max = info["max_max"]
@@ -1024,10 +1084,14 @@ class TimeSeriesMap:
     def _render_overlays(self, img):
         """Add collected overlays to Map instance"""
 <<<<<<< HEAD
+<<<<<<< HEAD
         for grass_module, kwargs in self._base_calls:
 =======
         for grass_module, kwargs in self._overlay_calls:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        for grass_module, kwargs in self._overlay_calls:
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             img.run(grass_module, **kwargs)
 
     def _render_blank_layer(self, filename):
@@ -1070,6 +1134,7 @@ class TimeSeriesMap:
             self._render_legend(img)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _render_worker(self, date, layer, filename):
         """Function to render a single layer."""
         shutil.copyfile(self.base_file, filename)
@@ -1103,6 +1168,8 @@ class TimeSeriesMap:
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def render(self):
         """Renders image for each time-step in space-time dataset.
 
@@ -1224,7 +1291,10 @@ class TimeSeriesMap:
             width="100%", display="inline-flex", flex_flow="row wrap"
         )
         return widgets.HBox([play, slider, out_img], layout=layout)
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     def save(
         self,
@@ -1272,6 +1342,7 @@ class TimeSeriesMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1394,11 +1465,18 @@ class TimeSeriesMap:
 >>>>>>> osgeo-main
 =======
 =======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         # Create a GIF from the PNG images
         import PIL.Image  # pylint: disable=import-outside-toplevel
         import PIL.ImageDraw  # pylint: disable=import-outside-toplevel
@@ -1427,6 +1505,7 @@ class TimeSeriesMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1547,12 +1626,19 @@ class TimeSeriesMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
         # Render images if they have not been already
         if not self._layers_rendered:
@@ -1582,6 +1668,7 @@ class TimeSeriesMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1637,6 +1724,8 @@ class TimeSeriesMap:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         input_files = []
         for date in self._labels:
             input_files.append(self._base_filename_dict[date])
@@ -1766,7 +1855,12 @@ class TimeSeriesMap:
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         # filepath to output GIF
         if not filename.endswith(".gif"):
             raise ValueError(_("filename must end in '.gif'"))
@@ -1793,6 +1887,7 @@ class TimeSeriesMap:
             save_all=True,
             duration=duration,
             loop=0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1937,17 +2032,27 @@ class TimeSeriesMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         )
 
         # Display the GIF
         return filename
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

@@ -258,6 +258,7 @@ void #N_write_array_2d_to_rast (N_array_2d * array, char *name);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -282,6 +283,8 @@ void #N_write_array_2d_to_rast (N_array_2d * array, char *name);
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 The GRASS module <a href="https://grass.osgeo.org/grass-devel/manuals/r.gwflow.html">r.gwflow</a>
 =======
 <<<<<<< HEAD
@@ -570,7 +573,13 @@ The GRASS module <a href="https://grass.osgeo.org/grass80/manuals/r.gwflow.html"
 =======
 The GRASS module <a href="https://grass.osgeo.org/grass-devel/manuals/r.gwflow.html">r.gwflow</a>
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+The GRASS module <a href="https://grass.osgeo.org/grass-devel/manuals/r.gwflow.html">r.gwflow</a>
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 implements numerical calculation program for transient,
 confined and unconfined groundwater flow in two dimensions.
 
@@ -676,6 +685,7 @@ void #N_write_array_3d_to_rast3d (N_array_3d * array, char *name, int mask);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -700,6 +710,8 @@ void #N_write_array_3d_to_rast3d (N_array_3d * array, char *name, int mask);
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 The GRASS module <a href="http://grass.osgeo.org/grass-devel/manuals/r3.gwflow.html">r3.gwflow</a>
 =======
 <<<<<<< HEAD
@@ -988,7 +1000,13 @@ The GRASS module <a href="http://grass.itc.it/grass80/manuals/r3.gwflow.html">r3
 =======
 The GRASS module <a href="http://grass.osgeo.org/grass-devel/manuals/r3.gwflow.html">r3.gwflow</a>
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+The GRASS module <a href="http://grass.osgeo.org/grass-devel/manuals/r3.gwflow.html">r3.gwflow</a>
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 implements numerical calculation program for transient, confined
 groundwater flow in three dimensions.
 

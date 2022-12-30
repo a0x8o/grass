@@ -35,10 +35,13 @@
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 /*
  * Updates:
  *
@@ -100,9 +103,12 @@ void flip2(const unsigned short *src, unsigned short *dest, int n)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #ifdef _CRAY
 
 /*****************************************************************************
@@ -175,6 +181,7 @@ static void c_to_if(long *t, const long *f)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -222,6 +229,8 @@ static void c_to_if(long *t, const long *f)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 /* IEEE single precision to Cray */
 =======
 =======
@@ -311,7 +320,12 @@ static void c_to_if(long *t, const long *f)
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 /* IEEE single precison to Cray */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 static void if_to_c(long *t, const long *f)
@@ -319,10 +333,14 @@ static void if_to_c(long *t, const long *f)
     if (*f != 0) {
         *t = (((*f & 0x8000000000000000) |
 <<<<<<< HEAD
+<<<<<<< HEAD
                ((*f & 0x7f80000000000000) >> 7) + (16258L << 48)) |
 =======
                ((*f & 0x7f80000000000000) >> 7) + (16258 << 48)) |
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+               ((*f & 0x7f80000000000000) >> 7) + (16258 << 48)) |
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
               (((*f & 0x007fffff00000000) >> 8) | (0x0000800000000000)));
         if ((*f << 1) == 0)
             *t = 0;
@@ -336,10 +354,14 @@ static void if_to_c(long *t, const long *f)
     if (F != 0) {                                                       \
         T = (((F & 0x8000000000000000) |                                \
 <<<<<<< HEAD
+<<<<<<< HEAD
               ((F & 0x7f80000000000000) >> 7) + (16258L << 48)) |       \
 =======
               ((F & 0x7f80000000000000) >> 7) + (16258 << 48)) |        \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+              ((F & 0x7f80000000000000) >> 7) + (16258 << 48)) |        \
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
              (((F & 0x007fffff00000000) >> 8) | (0x0000800000000000))); \
         if ((F << 1) == 0)                                              \
             T = 0;                                                      \
@@ -400,9 +422,12 @@ void ieee_to_cray_array(float *dest, const long *source, int n)
 #endif /*_CRAY*/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 /**********************************************************************/
 
 /*****                     Read Functions                         *****/
@@ -524,11 +549,17 @@ int read_int4(int f, int *i)
 #else
     if (read(f, i, 4) == 4) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #ifdef _CRAY
         *i = *i >> 32;
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#ifdef _CRAY
+        *i = *i >> 32;
+#endif
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         return 1;
     }
     else {
@@ -580,7 +611,12 @@ int read_int4_array(int f, int *iarray, int n)
 #ifdef LITTLE
     flip4((const unsigned int *)iarray, (unsigned int *)iarray, nread / 4);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+#endif
+    return nread / 4;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #endif
     return nread / 4;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -608,7 +644,10 @@ int read_float4(int f, float *x)
     }
     return 0;
 #else
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #ifdef LITTLE
     unsigned int n, *iptr;
 
@@ -628,9 +667,13 @@ int read_float4(int f, float *x)
         return 0;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#endif
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #endif
 }
 
@@ -804,7 +847,10 @@ int write_uint2_array(int f, const unsigned short *iarray, int n)
     else
         return nwritten / 2;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 }
@@ -827,6 +873,11 @@ int write_int4(int f, int i)
 #else
 #ifdef LITTLE
     i = FLIP4(i);
+<<<<<<< HEAD
+=======
+#endif
+    return write(f, &i, 4) > 0;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #endif
     return write(f, &i, 4) > 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -867,7 +918,10 @@ int write_int4_array(int f, const int *i, int n)
     else
         return nwritten / 4;
 #else
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #ifdef LITTLE
     int nwritten;
 
@@ -881,9 +935,13 @@ int write_int4_array(int f, const int *i, int n)
 #else
     return write(f, i, 4 * n) / 4;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#endif
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #endif
 }
 
@@ -903,7 +961,10 @@ int write_float4(int f, float x)
     c_to_if((long *)buffer, (const long *)&x);
     return write(f, buffer, 4) > 0;
 #else
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #ifdef LITTLE
     float y;
     unsigned int *iptr = (unsigned int *)&y, temp;
@@ -917,9 +978,13 @@ int write_float4(int f, float x)
     y = (float)x;
     return write(f, &y, 4) > 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#endif
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #endif
 }
 
@@ -950,7 +1015,10 @@ int write_float4_array(int f, const float *x, int n)
     else
         return nwritten / 4;
 #else
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #ifdef LITTLE
     int nwritten;
 
@@ -964,9 +1032,13 @@ int write_float4_array(int f, const float *x, int n)
 #else
     return write(f, x, 4 * n) / 4;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#endif
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #endif
 }
 

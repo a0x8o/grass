@@ -67,11 +67,15 @@ int Vedit_bulk_labeling(struct Map_info *Map, struct ilist *List, double x1,
     temp_line = Vect_write_line(Map, GV_LINE, Points_se, Cats);
     if (temp_line < 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         nlines_modified = -1;
         goto free_exit;
 =======
         return -1;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return -1;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
     Vect_line_box(Points_se, &box_se);
@@ -124,11 +128,15 @@ int Vedit_bulk_labeling(struct Map_info *Map, struct ilist *List, double x1,
 
         if (Vect_rewrite_line(Map, line, type, Points, Cats) < 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             nlines_modified = -1;
             goto free_exit;
 =======
             return -1;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            return -1;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         }
         nlines_modified++;
 
@@ -137,10 +145,14 @@ int Vedit_bulk_labeling(struct Map_info *Map, struct ilist *List, double x1,
 
     if (Vect_delete_line(Map, temp_line) < 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         nlines_modified = -1;
 =======
         return -1;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return -1;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
 free_exit:

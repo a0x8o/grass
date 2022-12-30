@@ -109,10 +109,14 @@ def split_mapset_path(mapset_path):
     mapset_path = Path(mapset_path)
     if len(mapset_path.parts) < 3:
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise ValueError(
 =======
         ValueError(
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        ValueError(
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             _("Mapset path '{}' needs at least three components").format(mapset_path)
         )
     mapset = mapset_path.name
@@ -122,6 +126,7 @@ def split_mapset_path(mapset_path):
     return os.fspath(grassdb), location, mapset
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -202,6 +207,8 @@ def resolve_mapset_path(path, location=None, mapset=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 def resolve_mapset_path(path, location=None, mapset=None) -> MapsetPath:
 =======
 def resolve_mapset_path(path, location=None, mapset=None):
@@ -341,7 +348,13 @@ def resolve_mapset_path(path, location=None, mapset=None):
 =======
 def resolve_mapset_path(path, location=None, mapset=None):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+def resolve_mapset_path(path, location=None, mapset=None):
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     """Resolve full path to mapset from given combination of parameters.
 
     Full or relative path to mapset can be provided as *path*. If the *path*
@@ -397,10 +410,14 @@ def resolve_mapset_path(path, location=None, mapset=None):
 
         if not is_mapset_valid(path) and is_mapset_valid(path / default_mapset):
 <<<<<<< HEAD
+<<<<<<< HEAD
             path /= default_mapset
 =======
             path = path / default_mapset
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            path = path / default_mapset
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         parts = path.parts
         if len(parts) < 3:
             raise ValueError(

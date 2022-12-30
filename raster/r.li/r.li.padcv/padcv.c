@@ -94,6 +94,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int patchAreaDistributionCV(int fd, char **par, struct area_entry *ad,
 =======
 <<<<<<< HEAD
@@ -150,6 +151,8 @@ int patchAreaDistributionCV(int fd, char **par, struct area_entry *ad,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 int patchAreaDistributionCV(int fd, char **par UNUSED, struct area_entry *ad,
 =======
 int patchAreaDistributionCV(int fd, char **par, struct area_entry *ad,
@@ -289,7 +292,13 @@ int patchAreaDistributionCV(int fd, char **par, struct area_entry *ad,
 =======
 int patchAreaDistributionCV(int fd, char **par, struct area_entry *ad,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+int patchAreaDistributionCV(int fd, char **par, struct area_entry *ad,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                             double *result)
 {
     double indice = 0;

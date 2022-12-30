@@ -43,6 +43,7 @@ import operator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,6 +60,8 @@ import operator
 >>>>>>> osgeo-main
 =======
 >>>>>>> 1cb35c2fc8 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 from string import digits
 =======
 =======
@@ -174,6 +177,8 @@ from string import digits
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 import six
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 9051310ffd (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -839,7 +844,10 @@ def _parseFormats(output, writableOnly=False):
         key, name = (x.strip() for x in line.strip().split(":", 1))
 =======
         key, name = map(lambda x: x.strip(), line.strip().split(":", 1))
+<<<<<<< HEAD
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         if writableOnly and not patt.search(key):
             continue
 
@@ -877,7 +885,10 @@ def _parseFormats(output, writableOnly=False):
         }:
 =======
         ):
+<<<<<<< HEAD
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             formats["protocol"][key.split(" ")[0]] = name
         else:
             formats["file"][key.split(" ")[0]] = name

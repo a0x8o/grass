@@ -139,6 +139,7 @@ int init_search(int depr_fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(1, "%" PRI_OFF_T " edge cells", heap_size - n_depr_cells);
     if (n_depr_cells)
         G_debug(1, "%" PRI_OFF_T " cells in depressions", n_depr_cells);
@@ -197,6 +198,8 @@ int init_search(int depr_fd)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     G_debug(1, "%" PRId64 " edge cells", heap_size - n_depr_cells);
     if (n_depr_cells)
         G_debug(1, "%" PRId64 " cells in depressions", n_depr_cells);
@@ -348,7 +351,15 @@ int init_search(int depr_fd)
     if (n_depr_cells)
         G_debug(1, "%" PRI_OFF_T " cells in depressions", n_depr_cells);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    G_debug(1, "%" PRI_OFF_T " edge cells", heap_size - n_depr_cells);
+    if (n_depr_cells)
+        G_debug(1, "%" PRI_OFF_T " cells in depressions", n_depr_cells);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
     return 1;
 }

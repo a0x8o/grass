@@ -856,10 +856,14 @@ class Map:
         if not grass.find_program("g.proj", "--help"):
             sys.exit(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _("GRASS tool '%s' not found. Unable to start map display window.")
 =======
                 _("GRASS tool '%s' not found. Unable to start map " "display window.")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                _("GRASS tool '%s' not found. Unable to start map " "display window.")
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 % "g.proj"
             )
         env = os.environ.copy()

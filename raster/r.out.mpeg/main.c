@@ -400,6 +400,7 @@ static void mlist(const char *element, const char *wildarg, const char *outfile)
             mapset = G_mapset();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         snprintf(type_arg, sizeof(type_arg), "type=%s", element);
         snprintf(pattern_arg, sizeof(pattern_arg), "pattern=%s", wildarg);
         snprintf(mapset_arg, sizeof(mapset_arg), "mapset=%s", mapset);
@@ -408,6 +409,11 @@ static void mlist(const char *element, const char *wildarg, const char *outfile)
         sprintf(pattern_arg, "pattern=%s", wildarg);
         sprintf(mapset_arg, "mapset=%s", mapset);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        sprintf(type_arg, "type=%s", element);
+        sprintf(pattern_arg, "pattern=%s", wildarg);
+        sprintf(mapset_arg, "mapset=%s", mapset);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         G_spawn_ex("g.list", "g.list", type_arg, pattern_arg, mapset_arg,
                    SF_REDIRECT_FILE, SF_STDOUT, SF_MODE_APPEND, outfile, NULL);

@@ -125,16 +125,21 @@ int invert(struct One_Sig *s, int nbands, int *ik, int *jk, double *det)
     /* zero means non-invertible */
     if (*det == 0.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
         return 0;
 =======
             return 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            return 0;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     /*
      * if negative, then matrix is not positive-definite
      * (But this probably not a sufficient test)
      */
     if (*det < 0.0)
+<<<<<<< HEAD
 <<<<<<< HEAD
         return -1;
 
@@ -174,6 +179,23 @@ int invert(struct One_Sig *s, int nbands, int *ik, int *jk, double *det)
 
             i = jk[k];
 
+=======
+            return -1;
+
+    /* restore ordering of matrix */
+    for (k = nbands - 1; k >= 0; k--) { /* 530 */
+            j = ik[k];
+
+            if (j > k)
+                for (i = 0; i < nbands; i++) { /* 510 */
+                    v = s->var[i][k];
+                    s->var[i][k] = -(s->var[i][j]);
+                    s->var[i][j] = v;
+                /*510 */ }
+
+            i = jk[k];
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             if (i > k)
                 for (j = 0; j < nbands; j++) { /* 520 */
                     v = s->var[k][j];
@@ -181,7 +203,10 @@ int invert(struct One_Sig *s, int nbands, int *ik, int *jk, double *det)
                     s->var[i][j] = v;
                 /*520 */ }
             /*530 */
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
     return 1;

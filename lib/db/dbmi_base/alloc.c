@@ -88,6 +88,7 @@ void *db_malloc(int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \return pointer to allocated memmory
 =======
 <<<<<<< HEAD
@@ -144,6 +145,8 @@ void *db_malloc(int n)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
    \return pointer to allocated memory
 =======
    \return pointer to allocated memmory
@@ -283,7 +286,13 @@ void *db_malloc(int n)
 =======
    \return pointer to allocated memmory
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+   \return pointer to allocated memmory
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
  */
 void *db_calloc(int n, int m)
 {
@@ -331,6 +340,7 @@ void *db_calloc(int n, int m)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \return pointer to allocated memmory
 =======
 <<<<<<< HEAD
@@ -387,6 +397,8 @@ void *db_calloc(int n, int m)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
    \return pointer to allocated memory
 =======
    \return pointer to allocated memmory
@@ -526,7 +538,13 @@ void *db_calloc(int n, int m)
 =======
    \return pointer to allocated memmory
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+   \return pointer to allocated memmory
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
  */
 void *db_realloc(void *s, int n)
 {

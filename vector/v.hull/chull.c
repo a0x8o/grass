@@ -72,12 +72,16 @@ struct tFaceStructure {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #define ONHULL    true
 #define REMOVED   true
 #define VISIBLE   true
 #define PROCESSED true
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -92,6 +96,8 @@ struct tFaceStructure {
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 /* Global variable definitions */
 tVertex vertices = NULL;
@@ -447,10 +453,13 @@ bool AddOne(tVertex p)
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     /* Mark faces visible from p. */
     f = faces;
     do {
@@ -458,13 +467,17 @@ bool AddOne(tVertex p)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         if (vol < 0) {
             f->visible = VISIBLE;
             vis = true;
         }
         f = f->next;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 	if (vol < 0) {
@@ -475,10 +488,13 @@ bool AddOne(tVertex p)
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     } while (f != faces);
 
     /* If no faces are visible from p, then p is inside the hull. */
     if (!vis) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         p->onhull = !ONHULL;
@@ -494,6 +510,10 @@ bool AddOne(tVertex p)
         p->onhull = !ONHULL;
         return false;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        p->onhull = !ONHULL;
+        return false;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* Mark edges in interior of visible region for deletion.

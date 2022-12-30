@@ -248,10 +248,14 @@ int main(int argc, char **argv)
                 }
             } /* loop over cols */
 <<<<<<< HEAD
+<<<<<<< HEAD
         } /* loop over rows */
 =======
         }     /* loop over rows */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        }     /* loop over rows */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         Rast_close(path_fd);
     }

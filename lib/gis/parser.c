@@ -520,6 +520,7 @@ int G_parser(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* If first arg is "--wps-process-description" then print out
          * the wps process description of the task */
         if (strcmp(argv[1], "--wps-process-description") == 0) {
@@ -630,6 +631,8 @@ int G_parser(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         /* If first arg is "--md-description" then print out
          * a Markdown description of the task */
         if (strcmp(argv[1], "--md-description") == 0) {
@@ -996,7 +999,67 @@ int G_parser(int argc, char **argv)
                 char buff[32];
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        /* If first arg is "--wps-process-description" then print out
+         * the wps process description of the task */
+        if (strcmp(argv[1], "--wps-process-description") == 0) {
+            G__wps_print_process_description();
+            exit(EXIT_SUCCESS);
+        }
+
+        /* If first arg is "--script" then then generate
+         * g.parser boilerplate */
+        if (strcmp(argv[1], "--script") == 0) {
+            G__script();
+            exit(EXIT_SUCCESS);
+        }
+
+        /* Loop through all command line arguments */
+
+        while (--argc) {
+            ptr = *(++argv);
+
+            if (strcmp(ptr, "help") == 0 || strcmp(ptr, "--h") == 0 ||
+                strcmp(ptr, "-help") == 0 || strcmp(ptr, "--help") == 0) {
+                G_usage();
+                exit(EXIT_SUCCESS);
+            }
+
+            /* JSON print option */
+            if (strcmp(ptr, "--json") == 0) {
+                print_json = 1;
+                continue;
+            }
+
+            /* Overwrite option */
+            if (strcmp(ptr, "--o") == 0 || strcmp(ptr, "--overwrite") == 0) {
+                st->overwrite = 1;
+            }
+
+            /* Verbose option */
+            else if (strcmp(ptr, "--v") == 0 || strcmp(ptr, "--verbose") == 0) {
+                char buff[32];
+
+                /* print everything: max verbosity level */
+                st->module_info.verbose = G_verbose_max();
+                sprintf(buff, "GRASS_VERBOSE=%d", G_verbose_max());
+                putenv(G_store(buff));
+                if (st->quiet == 1) {
+                    G_warning(_("Use either --quiet or --verbose flag, not "
+                                "both. Assuming --verbose."));
+                }
+                st->quiet = -1;
+            }
+
+            /* Quiet option */
+            else if (strcmp(ptr, "--q") == 0 || strcmp(ptr, "--quiet") == 0) {
+                char buff[32];
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                 /* print nothing, but errors and warnings */
                 st->module_info.verbose = G_verbose_min();
                 sprintf(buff, "GRASS_VERBOSE=%d", G_verbose_min());
@@ -1385,6 +1448,7 @@ int G__uses_new_gisprompt(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1440,6 +1504,8 @@ int G__uses_new_gisprompt(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
    \param newline TRUE to include newline
  */
 void G__print_keywords(FILE *fd, void (*format)(FILE *, const char *),
@@ -1560,7 +1626,12 @@ void G__print_keywords(FILE *fd, void (*format)(FILE *, const char *),
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
  */
 void G__print_keywords(FILE *fd, void (*format)(FILE *, const char *))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1574,6 +1645,7 @@ void G__print_keywords(FILE *fd, void (*format)(FILE *, const char *))
         else {
             format(fd, st->module_info.keywords[i]);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1655,6 +1727,8 @@ void G__print_keywords(FILE *fd, void (*format)(FILE *, const char *))
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         if (i < st->n_keys - 1) {
             fprintf(fd, ",");
             if (!newline)
@@ -1807,7 +1881,14 @@ void G__print_keywords(FILE *fd, void (*format)(FILE *, const char *))
         if (i < st->n_keys - 1)
             fprintf(fd, ", ");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        if (i < st->n_keys - 1)
+            fprintf(fd, ", ");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     fflush(fd);
@@ -1819,6 +1900,7 @@ void G__print_keywords(FILE *fd, void (*format)(FILE *, const char *))
    \return 1 overwrite enabled
    \return 0 overwrite disabled
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1864,6 +1946,8 @@ void G__print_keywords(FILE *fd, void (*format)(FILE *, const char *))
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 int G_get_overwrite(void)
 =======
 <<<<<<< HEAD
@@ -1945,6 +2029,8 @@ int G_get_overwrite(void)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 int G_get_overwrite()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2187,6 +2273,7 @@ void set_flag(int f)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2242,6 +2329,8 @@ void set_flag(int f)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     /* First, check if key has been renamed */
     G_asprintf(&key, "-%c", f);
     renamed_key = get_renamed_option(key);
@@ -2420,7 +2509,12 @@ void set_flag(int f)
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     G_asprintf(&err, _("%s: Sorry, <%c> is not a valid flag"), G_program_name(),
                f);
     append_error(err);
@@ -2601,6 +2695,7 @@ void set_option(const char *string)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2656,6 +2751,8 @@ void set_option(const char *string)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             /* if renamed to a new flag (option value given but will be lost),
              * fatal error */
             if (*renamed_key == '-') {
@@ -2791,7 +2888,12 @@ void set_option(const char *string)
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             for (at_opt = &st->first_option; at_opt;
                  at_opt = at_opt->next_opt) {
                 if (strcmp(renamed_key, at_opt->key) == 0) {

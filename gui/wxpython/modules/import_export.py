@@ -488,7 +488,10 @@ class GdalImportDialog(ImportDialog):
         if not dsn:
             return
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         ext = self.dsnInput.GetFormatExt()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -498,6 +501,7 @@ class GdalImportDialog(ImportDialog):
             if self.dsnInput.GetType() == "dir":
                 idsn = os.path.join(dsn, layer)
             elif self.dsnInput.GetType() == "db":
+<<<<<<< HEAD
 <<<<<<< HEAD
                 idsn = dsn
                 if "PG:" in dsn:
@@ -521,6 +525,10 @@ class GdalImportDialog(ImportDialog):
                 if "PG:" in dsn:
                     idsn = f"{dsn} table={layer}"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                if "PG:" in dsn:
+                    idsn = f"{dsn} table={layer}"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             else:
                 idsn = dsn
 
@@ -667,16 +675,22 @@ class OgrImportDialog(ImportDialog):
             self.dsnInput.GetType() == "db"
             and self.dsnInput.GetFormat()
 <<<<<<< HEAD
+<<<<<<< HEAD
             in {
                 "PostgreSQL",
                 "PostgreSQL/PostGIS",
             }
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             in (
                 "PostgreSQL",
                 "PostgreSQL/PostGIS",
             )
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             and "GRASS_VECTOR_OGR" not in os.environ
         ):
             self.popOGR = True

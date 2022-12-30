@@ -412,11 +412,22 @@ int main(int argc, char *argv[])
                   threads, abs(threads));
         threads = abs(threads);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
     if (parm.devi->answer && threads > 1) {
         G_warning(_(
             "Parallel computation disabled when deviation output is required"));
+<<<<<<< HEAD
+=======
+        threads = 1;
+    }
+    if (parm.cvdev->answer && threads > 1) {
+        G_warning(_("Parallel computation disabled when cross validation "
+                    "output is required"));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         threads = 1;
     }
     if (parm.cvdev->answer && threads > 1) {
@@ -688,6 +699,7 @@ int main(int argc, char *argv[])
                     IL_check_at_points_2d, IL_secpar_loop_2d, IL_crst, IL_crstg,
                     IL_write_temp_2d);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #endif
 
     totsegm = IL_vector_input_data_2d(&params, &Map, with_z ? 0 : field, zcol,
@@ -696,6 +708,10 @@ int main(int argc, char *argv[])
 
     totsegm = IL_vector_input_data_2d(&params, &Map, with_z ? 0 : field, zcol,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+    totsegm = IL_vector_input_data_2d(&params, &Map, with_z ? 0 : field, zcol,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                                       scol, info, &xmin, &xmax, &ymin, &ymax,
                                       &zmin, &zmax, &NPOINT, &dmax);
     if (totsegm <= 0) {
@@ -960,6 +976,7 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -980,6 +997,8 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         if (fwrite(zero_array_cell, sizeof(FCELL), n_cols, fp) !=
             (size_t)n_cols) {
 =======
@@ -1195,6 +1214,7 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1288,6 +1308,11 @@ static FILE *create_temp_file(const char *name, char **tmpname)
         if (fwrite(zero_array_cell, sizeof(FCELL), n_cols, fp) != n_cols) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        if (fwrite(zero_array_cell, sizeof(FCELL), n_cols, fp) != n_cols) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             clean();
             G_fatal_error(_("Error writing temporary file <%s>"), *tmpname);
         }

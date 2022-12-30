@@ -47,6 +47,7 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 =======
 <<<<<<< HEAD
@@ -60,7 +61,14 @@ import grass.script as gs
 import grass.script as gscript
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+import grass.script as gscript
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
 ############################################################################
 
@@ -89,10 +97,14 @@ def main():
 
     # Get the current mapset to create the id of the space time dataset
 <<<<<<< HEAD
+<<<<<<< HEAD
     mapset = gs.gisenv()["MAPSET"]
 =======
     mapset = gscript.gisenv()["MAPSET"]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    mapset = gscript.gisenv()["MAPSET"]
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     inname = input
     inmapset = mapset
@@ -105,10 +117,14 @@ def main():
         outname, outmapset = output.split("@")
         if outmapset != mapset:
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal(
 =======
             gscript.fatal(
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            gscript.fatal(
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 _("The output dataset <%s> must be in the current mapset<%s>.")
                 % (input, mapset)
             )
@@ -124,19 +140,27 @@ def main():
     if not old_maps:
         dbif.close()
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.warning(
 =======
         gscript.warning(
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        gscript.warning(
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             _("Empty space-time %s dataset <%s>, nothing to copy") % (maptype, input)
         )
         return
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     overwrite = gs.overwrite()
 =======
     overwrite = gscript.overwrite()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    overwrite = gscript.overwrite()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     # Check the new stds
     new_sp = tgis.check_new_stds(output, stdstype, dbif, overwrite)
@@ -144,10 +168,14 @@ def main():
     new_maps = None
     if copy_maps:
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.message(_("Copying %s maps to the current mapset...") % maptype)
 =======
         gscript.message(_("Copying %s maps to the current mapset...") % maptype)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        gscript.message(_("Copying %s maps to the current mapset...") % maptype)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         new_maps = []
         num_maps = len(old_maps)
         count = 0
@@ -162,6 +190,7 @@ def main():
 
             if map_mapset != mapset:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 found = gs.find_file(name=map_name, element=element, mapset=mapset)
                 if found["name"] is not None and len(found["name"]) > 0:
                     gs.fatal(
@@ -170,22 +199,33 @@ def main():
                 if found["name"] is not None and len(found["name"]) > 0:
                     gscript.fatal(
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                found = gscript.find_file(name=map_name, element=element, mapset=mapset)
+                if found["name"] is not None and len(found["name"]) > 0:
+                    gscript.fatal(
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                         _("A %s map <%s> exists already in the current mapset <%s>.")
                         % (maptype, map_name, mapset)
                     )
 
                 kwargs = {maptype: "%s,%s" % (map_id, map_name)}
 <<<<<<< HEAD
+<<<<<<< HEAD
                 gs.run_command("g.copy", **kwargs)
             else:
                 # the map is already in the current mapset
                 gs.message(
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 gscript.run_command("g.copy", **kwargs)
             else:
                 # the map is already in the current mapset
                 gscript.message(
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                     _("The %s map <%s> is already in the current mapset, not copying")
                     % (maptype, map_name)
                 )
@@ -229,10 +269,14 @@ def main():
         semantic_type,
         dbif,
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.overwrite(),
 =======
         gscript.overwrite(),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        gscript.overwrite(),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     )
 
     # Register the maps in the database
@@ -261,8 +305,12 @@ def main():
 
 if __name__ == "__main__":
 <<<<<<< HEAD
+<<<<<<< HEAD
     options, flags = gs.parser()
 =======
     options, flags = gscript.parser()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    options, flags = gscript.parser()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     main()

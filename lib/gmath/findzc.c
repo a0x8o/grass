@@ -104,10 +104,14 @@ int G_math_findzc(double conv[], int size, double zc[], double thresh,
                 }
             } /* for ni */
 <<<<<<< HEAD
+<<<<<<< HEAD
         } /* for p */
 =======
         }     /* for p */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        }     /* for p */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
     return 0;

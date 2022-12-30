@@ -37,7 +37,10 @@ int report(void)
                 unit2 = nunits - 1;
             print_report(unit1, unit2);
         }
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     return 0;
 }

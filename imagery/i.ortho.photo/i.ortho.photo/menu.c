@@ -40,7 +40,10 @@ int main(int argc, char **argv)
     size_t len;
 =======
     char tosystem[99];
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     /* initialize grass */
     G_gisinit(argv[0]);
@@ -106,22 +109,29 @@ int main(int argc, char **argv)
     /* run the program chosen */
     if (strcmp(moduletorun, "g.gui.photo2image") == 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         (void)G_strlcpy(tosystem, "g.gui.photo2image", BUF_SIZE);
         return system((const char *)tosystem);
     }
     else if (strcmp(moduletorun, "g.gui.image2target") == 0) {
         (void)G_strlcpy(tosystem, "g.gui.image2target", BUF_SIZE);
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         strcpy(tosystem, "g.gui.photo2image");
         return system((const char *)tosystem);
     }
     else if (strcmp(moduletorun, "g.gui.image2target") == 0) {
         strcpy(tosystem, "g.gui.image2target");
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         return system((const char *)tosystem);
     }
     else {
         if (strcmp(moduletorun, "i.group") == 0)
+<<<<<<< HEAD
 <<<<<<< HEAD
             (void)G_strlcpy(tosystem, "i.group --ui group=", BUF_SIZE);
         if (strcmp(moduletorun, "i.ortho.target") == 0)
@@ -147,6 +157,19 @@ int main(int argc, char **argv)
         if (strcmp(moduletorun, "i.ortho.rectify") == 0)
             strcpy(tosystem, "i.ortho.rectify --ui group=");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            strcpy(tosystem, "i.group --ui group=");
+        if (strcmp(moduletorun, "i.ortho.target") == 0)
+            strcpy(tosystem, "i.ortho.target --ui group=");
+        if (strcmp(moduletorun, "i.ortho.elev") == 0)
+            strcpy(tosystem, "i.ortho.elev --ui group=");
+        if (strcmp(moduletorun, "i.ortho.camera") == 0)
+            strcpy(tosystem, "i.ortho.camera --ui group=");
+        if (strcmp(moduletorun, "i.ortho.init") == 0)
+            strcpy(tosystem, "i.ortho.init --ui group=");
+        if (strcmp(moduletorun, "i.ortho.rectify") == 0)
+            strcpy(tosystem, "i.ortho.rectify --ui group=");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         strcat(tosystem, grname);
         return system((const char *)tosystem);
     }

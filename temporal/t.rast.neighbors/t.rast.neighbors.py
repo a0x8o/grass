@@ -202,6 +202,7 @@ def main():
     time_suffix = options["suffix"]
     new_labels = options["semantic_labels"]
 <<<<<<< HEAD
+<<<<<<< HEAD
     quantiles = (
         [float(quant) for quant in options["quantile"].split(",")]
         if options["quantile"]
@@ -212,6 +213,8 @@ def main():
         gs.fatal(_("The method <quantile> requires input in the 'quantile' option."))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     # Make sure the temporal database exists
     tgis.init()

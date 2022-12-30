@@ -7,10 +7,13 @@
 
 void parse_args(int argc, char **argv, char **input, char **field, int *history,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 int *columns, int *shell, enum OutputFormat *format_ptr)
 {
     struct Option *input_opt, *field_opt, *format_opt;
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 int *columns, int *shell)
 {
     struct Option *input_opt, *field_opt;
@@ -70,6 +73,7 @@ void parse_args(int argc, char **argv, char **input, char **field, int *history,
     if (topo_flag->answer)
         *shell |= SHELL_TOPO;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     if (strcmp(format_opt->answer, "plain") == 0) {
         // if shell flags are specified and format=PLAIN (default),
@@ -95,4 +99,6 @@ void parse_args(int argc, char **argv, char **input, char **field, int *history,
     }
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 }

@@ -52,6 +52,7 @@ def benchmark(memory, label, results, reference):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -101,6 +102,8 @@ def benchmark(memory, label, results, reference):
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -138,6 +141,7 @@ def benchmark(memory, label, results, reference):
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -197,6 +201,11 @@ def benchmark(memory, label, results, reference):
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     slope = "benchmark_slope"
     aspect = "benchmark_aspect"
     pcurv = "benchmark_pcurv"
@@ -216,6 +225,7 @@ def benchmark(memory, label, results, reference):
     results.append(bm.benchmark_nprocs(module, label=label, max_nprocs=20, repeat=10))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     Module(
         "g.remove",
         quiet=True,
@@ -224,11 +234,16 @@ def benchmark(memory, label, results, reference):
         name=(slope, aspect, pcurv, tcurv),
     )
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     Module("g.remove", quiet=True, flags="f", type="raster", name=slope)
     Module("g.remove", quiet=True, flags="f", type="raster", name=aspect)
     Module("g.remove", quiet=True, flags="f", type="raster", name=pcurv)
     Module("g.remove", quiet=True, flags="f", type="raster", name=tcurv)
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 
 def generate_map(rows, cols, fname):

@@ -317,6 +317,7 @@ void GVL_get_dims(int id, int *rows, int *cols, int *depths)
         *cols = gvl->cols;
         *depths = gvl->depths;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         G_debug(3, "GVL_get_dims() id=%d, rows=%d, cols=%d, depths=%d",
                 gvl->gvol_id, gvl->rows, gvl->cols, gvl->depths);
@@ -329,12 +330,17 @@ void GVL_get_dims(int id, int *rows, int *cols, int *depths)
     }
 
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
     G_debug(3, "GVL_get_dims() id=%d, rows=%d, cols=%d, depths=%d",
             gvl->gvol_id, gvl->rows, gvl->cols, gvl->depths);
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     return;
 }
 

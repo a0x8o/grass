@@ -792,6 +792,7 @@ def init(raise_fatal_error: bool = False, skip_db_version_check: bool = False):
                 "Supported temporal database version is: {tdb}\n"
                 "Your existing temporal database version: {ctdb}\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "Current temporal database info: {info}"
             ).format(
                 backup=backup_howto,
@@ -799,13 +800,18 @@ def init(raise_fatal_error: bool = False, skip_db_version_check: bool = False):
                 ctdb=tgis_db_version_meta,
                 info=get_database_info_string(),
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 "Current temporal database info: {info}".format(
                     backup=backup_howto,
                     tdb=tgis_db_version,
                     ctdb=tgis_db_version_meta,
                     info=get_database_info_string(),
                 )
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             )
 
             if tgis_db_version_meta == 2 and tgis_db_version == 3:
@@ -816,9 +822,12 @@ def init(raise_fatal_error: bool = False, skip_db_version_check: bool = False):
                     _(
                         "The format of your actual temporal database is "
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "not supported any more. {m}"
                     ).format(m=message)
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                         "not supported any more. {m}".format(m=message)
                     )
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

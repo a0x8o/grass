@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -70,6 +71,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -179,6 +182,8 @@ ipywidgets = pytest.importorskip(
 )
 
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 from pathlib import Path
 import pytest
@@ -196,7 +201,10 @@ except ImportError:
 import grass.jupyter as gj
 from grass.jupyter.timeseriesmap import collect_layers, fill_none_values
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 def test_fill_none_values():
     """Test that fill_none_values replaces None with previous value in list"""
@@ -206,9 +214,12 @@ def test_fill_none_values():
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 def test_collect_layers(space_time_raster_dataset):
     """Check that collect layers returns list of layers and dates"""
     names, dates = collect_layers(
@@ -226,13 +237,17 @@ def test_collect_layers(space_time_raster_dataset):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 def test_default_init(space_time_raster_dataset):
     """Check that TimeSeriesMap init runs with default parameters"""
     img = gj.TimeSeriesMap()
     img.add_raster_series(space_time_raster_dataset.name)
+<<<<<<< HEAD
 <<<<<<< HEAD
     assert img.baseseries == space_time_raster_dataset.name
 
@@ -243,6 +258,11 @@ def test_default_init(space_time_raster_dataset):
 
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    assert img.timeseries == space_time_raster_dataset.name
+
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("fill_gaps", [False, True])
 def test_render_layers(space_time_raster_dataset, fill_gaps):
     """Check that layers are rendered"""
@@ -259,6 +279,7 @@ def test_render_layers(space_time_raster_dataset, fill_gaps):
     # check files exist
     # We need to check values which are only in protected attributes
     # pylint: disable=protected-access
+<<<<<<< HEAD
 <<<<<<< HEAD
     for filename in img._base_filename_dict.values():
         assert Path(filename).is_file()
@@ -494,19 +515,28 @@ def test_save(space_time_raster_dataset, tmp_path):
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     for unused_date, filename in img._date_filename_dict.items():
         assert Path(filename).is_file()
 
 
 @pytest.mark.skipif(IPython is None, reason="IPython package not available")
 @pytest.mark.skipif(ipywidgets is None, reason="ipywidgets package not available")
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 def test_save(space_time_raster_dataset):
     """Test returns from animate and time_slider are correct object types"""
     img = gj.TimeSeriesMap()
     img.add_raster_series(space_time_raster_dataset.name)
     gif_file = img.save("image.gif")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -651,10 +681,17 @@ def test_save(space_time_raster_dataset):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     assert Path(gif_file).is_file()

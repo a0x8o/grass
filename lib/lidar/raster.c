@@ -189,9 +189,12 @@ void P_Sparse_Points(struct Map_info *Out, struct Cell_head *Elaboration,
     /*IF*/}
     /*FOR*/ db_commit_transaction(driver);
 <<<<<<< HEAD
+<<<<<<< HEAD
     Vect_destroy_line_struct(point);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     return;
 }
@@ -319,9 +322,13 @@ int P_Regular_Points(struct Cell_head *Elaboration, struct Cell_head *Original,
             }
         } /* END COL */
 <<<<<<< HEAD
+<<<<<<< HEAD
     } /* END ROW */
 =======
     }     /* END ROW */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    }     /* END ROW */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     return 1;
 }

@@ -51,10 +51,14 @@
 
 #ifndef WAIT_ANY
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define WAIT_ANY ((pid_t) - 1)
 =======
 #define WAIT_ANY ((pid_t)-1)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#define WAIT_ANY ((pid_t)-1)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #endif
 
 GLuint Material_1_Dlist;
@@ -207,11 +211,16 @@ int main(int argc, char **argv)
         }
         if ((Headfax.dspfinfp = G_fopen_old(buff, dsp, mapset)) == NULL) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             fprintf(stderr, "Unable to open <%s> for reading\n", dsp);
 =======
             fprintf(stderr, "Unable to open <%s> for reading\n",
                     Headfax.dspfinfp);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            fprintf(stderr, "Unable to open <%s> for reading\n",
+                    Headfax.dspfinfp);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             exit(EXIT_FAILURE);
         }
 
@@ -1169,10 +1178,14 @@ void do__draw(file_info *Headp, struct dspec *D_spec)
         break;
     case 2:
 <<<<<<< HEAD
+<<<<<<< HEAD
     case 3:
 =======
     case3:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    case3:
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         gdraw_polys(D_spec);
         break;
     }

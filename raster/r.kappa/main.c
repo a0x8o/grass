@@ -98,8 +98,11 @@ int main(int argc, char **argv)
     parms.titles->guisection = _("Output settings");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     parms.format = G_define_standard_option(G_OPT_F_FORMAT);
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     parms.format = G_define_option();
     parms.format->key = "format";
     parms.format->type = TYPE_STRING;
@@ -109,7 +112,10 @@ int main(int argc, char **argv)
     parms.format->descriptions = "plain;Plain text output;"
                                  "json;JSON (JavaScript Object Notation);";
     parms.format->answer = "plain";
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     parms.format->guisection = _("Output settings");
 
     flags.w = G_define_flag();

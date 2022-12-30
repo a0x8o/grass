@@ -11,9 +11,12 @@ for details.
 
 import os
 <<<<<<< HEAD
+<<<<<<< HEAD
 from pathlib import Path
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 import shutil
 import subprocess
 import hashlib
@@ -1228,6 +1231,7 @@ class TestCase(unittest.TestCase):
         import difflib
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         with open(actual) as f1, open(reference) as f2:
             fromlines = f1.readlines()
             tolines = f2.readlines()
@@ -1235,6 +1239,10 @@ class TestCase(unittest.TestCase):
         fromlines = open(actual).readlines()
         tolines = open(reference).readlines()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        fromlines = open(actual).readlines()
+        tolines = open(reference).readlines()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         context_lines = 3  # number of context lines
         # TODO: filenames are set to "actual" and "reference", isn't it too general?
         # it is even more useful if map names or file names are some generated

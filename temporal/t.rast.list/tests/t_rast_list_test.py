@@ -8,6 +8,7 @@ import json
 import pytest
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 
 yaml = pytest.importorskip("yaml", reason="PyYAML package not available")
@@ -25,6 +26,8 @@ def test_defaults(space_time_raster_dataset):
 
 @pytest.mark.needs_solo_run
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 try:
     import yaml
 except ImportError:
@@ -38,11 +41,15 @@ def test_defaults(space_time_raster_dataset):
     gs.run_command("t.rast.list", input=space_time_raster_dataset.name)
 
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 def test_line(space_time_raster_dataset):
     """Line format can be parsed and contains full names by default"""
     names = (
         gs.read_command(
+<<<<<<< HEAD
 <<<<<<< HEAD
             "t.rast.list",
             input=space_time_raster_dataset.name,
@@ -51,6 +58,9 @@ def test_line(space_time_raster_dataset):
 =======
             "t.rast.list", input=space_time_raster_dataset.name, format="line"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            "t.rast.list", input=space_time_raster_dataset.name, format="line"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         )
         .strip()
         .split(",")
@@ -59,13 +69,17 @@ def test_line(space_time_raster_dataset):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 def test_json(space_time_raster_dataset):
     """Check JSON can be parsed and contains the right values"""
     result = json.loads(
         gs.read_command(
+<<<<<<< HEAD
 <<<<<<< HEAD
             "t.rast.list",
             input=space_time_raster_dataset.name,
@@ -74,6 +88,9 @@ def test_json(space_time_raster_dataset):
 =======
             "t.rast.list", input=space_time_raster_dataset.name, format="json"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            "t.rast.list", input=space_time_raster_dataset.name, format="json"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         )
     )
     assert "data" in result
@@ -86,14 +103,19 @@ def test_json(space_time_raster_dataset):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
 =======
 @pytest.mark.skipif(yaml is None, reason="PyYAML package not available")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+@pytest.mark.skipif(yaml is None, reason="PyYAML package not available")
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 def test_yaml(space_time_raster_dataset):
     """Check JSON can be parsed and contains the right values"""
     result = yaml.safe_load(
         gs.read_command(
+<<<<<<< HEAD
 <<<<<<< HEAD
             "t.rast.list",
             input=space_time_raster_dataset.name,
@@ -102,6 +124,9 @@ def test_yaml(space_time_raster_dataset):
 =======
             "t.rast.list", input=space_time_raster_dataset.name, format="yaml"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            "t.rast.list", input=space_time_raster_dataset.name, format="yaml"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         )
     )
     assert "data" in result
@@ -117,6 +142,7 @@ def test_yaml(space_time_raster_dataset):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
 @pytest.mark.parametrize(
     ("separator", "delimiter"), [(None, ","), (",", ","), (";", ";"), ("tab", "\t")]
@@ -124,6 +150,10 @@ def test_yaml(space_time_raster_dataset):
 @pytest.mark.parametrize(
     "separator,delimiter", [(None, ","), (",", ","), (";", ";"), ("tab", "\t")]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+@pytest.mark.parametrize(
+    "separator,delimiter", [(None, ","), (",", ","), (";", ";"), ("tab", "\t")]
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 )
 def test_csv(space_time_raster_dataset, separator, delimiter):
     """Check CSV can be parsed with different separators"""
@@ -135,9 +165,12 @@ def test_csv(space_time_raster_dataset, separator, delimiter):
         format="csv",
         separator=separator,
 <<<<<<< HEAD
+<<<<<<< HEAD
         env=space_time_raster_dataset.session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     )
     io_string = io.StringIO(text)
     reader = csv.DictReader(
@@ -155,9 +188,12 @@ def test_csv(space_time_raster_dataset, separator, delimiter):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 def test_columns_list(space_time_raster_dataset):
     """Check CSV can be parsed with different separators"""
     # All relevant columns from the interface.
@@ -191,9 +227,12 @@ def test_columns_list(space_time_raster_dataset):
             columns=columns,
             format="json",
 <<<<<<< HEAD
+<<<<<<< HEAD
             env=space_time_raster_dataset.session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         )
     )
     data = result["data"]
@@ -203,9 +242,12 @@ def test_columns_list(space_time_raster_dataset):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 def test_columns_delta_gran(space_time_raster_dataset):
     """Check CSV can be parsed with different separators"""
     # All relevant columns from the interface.
@@ -226,9 +268,12 @@ def test_columns_delta_gran(space_time_raster_dataset):
             columns=columns,
             format="json",
 <<<<<<< HEAD
+<<<<<<< HEAD
             env=space_time_raster_dataset.session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         )
     )
     data = result["data"]
@@ -238,9 +283,12 @@ def test_columns_delta_gran(space_time_raster_dataset):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 def test_json_empty_result(space_time_raster_dataset):
     """Check JSON is generated for no returned values"""
     result = json.loads(
@@ -250,9 +298,12 @@ def test_json_empty_result(space_time_raster_dataset):
             format="json",
             where="FALSE",
 <<<<<<< HEAD
+<<<<<<< HEAD
             env=space_time_raster_dataset.session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         )
     )
     assert "data" in result
@@ -261,9 +312,12 @@ def test_json_empty_result(space_time_raster_dataset):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("output_format", ["plain", "line"])
 def test_plain_empty_result(space_time_raster_dataset, output_format):
     """Check module fails with non-zero return code for empty result"""
@@ -274,21 +328,28 @@ def test_plain_empty_result(space_time_raster_dataset, output_format):
         where="FALSE",
         errors="status",
 <<<<<<< HEAD
+<<<<<<< HEAD
         env=space_time_raster_dataset.session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     )
     assert return_code != 0
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("output_format", ["csv", "plain"])
 def test_no_header_accepted(space_time_raster_dataset, output_format):
     """Check that the no column names flag is accepted"""
     gs.run_command(
+<<<<<<< HEAD
 <<<<<<< HEAD
         "t.rast.list",
         input=space_time_raster_dataset.name,
@@ -299,11 +360,16 @@ def test_no_header_accepted(space_time_raster_dataset, output_format):
 
 @pytest.mark.needs_solo_run
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         "t.rast.list", input=space_time_raster_dataset.name, format=output_format
     )
 
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("output_format", ["json", "yaml"])
 def test_no_header_rejected(space_time_raster_dataset, output_format):
     """Check that the no column names flag is rejected
@@ -318,17 +384,23 @@ def test_no_header_rejected(space_time_raster_dataset, output_format):
         flags="u",
         errors="status",
 <<<<<<< HEAD
+<<<<<<< HEAD
         env=space_time_raster_dataset.session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     )
     assert return_code != 0
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("method", ["delta", "deltagaps", "gran"])
 def test_other_methods_json(space_time_raster_dataset, method):
     """Test methods other than list"""
@@ -339,9 +411,12 @@ def test_other_methods_json(space_time_raster_dataset, method):
             format="json",
             method=method,
 <<<<<<< HEAD
+<<<<<<< HEAD
             env=space_time_raster_dataset.session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         )
     )
     assert "data" in result
@@ -354,9 +429,12 @@ def test_other_methods_json(space_time_raster_dataset, method):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 def test_gran_json(space_time_raster_dataset):
     """Test granularity method"""
     result = json.loads(
@@ -367,9 +445,12 @@ def test_gran_json(space_time_raster_dataset):
             method="gran",
             gran="15 days",
 <<<<<<< HEAD
+<<<<<<< HEAD
             env=space_time_raster_dataset.session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         )
     )
     assert "data" in result

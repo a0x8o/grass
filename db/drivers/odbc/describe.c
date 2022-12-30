@@ -15,7 +15,10 @@ int db__driver_describe_table(dbString *table_name, dbTable **table)
 int db__driver_describe_table(table_name, table)
 dbString *table_name;
 dbTable **table;
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 {
     char *name = NULL;
     SQLINTEGER err;
@@ -65,12 +68,18 @@ dbTable **table;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 int describe_table(SQLHSTMT stmt, dbTable **table)
 =======
 int describe_table(stmt, table)
 SQLHSTMT stmt;
 dbTable **table;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+int describe_table(stmt, table)
+SQLHSTMT stmt;
+dbTable **table;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 {
     dbColumn *column;
     int col;
@@ -157,7 +166,10 @@ int set_column_type(dbColumn *column, int otype)
 int set_column_type(column, otype)
 dbColumn *column;
 int otype;
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 {
     int dbtype;
 

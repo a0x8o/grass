@@ -68,17 +68,6 @@ int put_a_row(int row, CELL *buf)
 static int read_row(int file, void *buf, int row, int buf_len)
 {
 <<<<<<< HEAD
-    if (lseek(file, ((off_t)row) * buf_len, 0) == -1) {
-        G_fatal_error(_("Unable to seek: %s"), strerror(errno));
-    }
-=======
-    lseek(file, ((off_t)row) * buf_len, 0);
->>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-    return (read(file, buf, buf_len) == buf_len);
-}
-
-static int write_row(int file, const void *buf, int row, int buf_len)
-{
 <<<<<<< HEAD
     if (lseek(file, ((off_t)row) * buf_len, 0) == -1) {
         G_fatal_error(_("Unable to seek: %s"), strerror(errno));
@@ -86,6 +75,25 @@ static int write_row(int file, const void *buf, int row, int buf_len)
 =======
     lseek(file, ((off_t)row) * buf_len, 0);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    lseek(file, ((off_t)row) * buf_len, 0);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    return (read(file, buf, buf_len) == buf_len);
+}
+
+static int write_row(int file, const void *buf, int row, int buf_len)
+{
+<<<<<<< HEAD
+<<<<<<< HEAD
+    if (lseek(file, ((off_t)row) * buf_len, 0) == -1) {
+        G_fatal_error(_("Unable to seek: %s"), strerror(errno));
+    }
+=======
+    lseek(file, ((off_t)row) * buf_len, 0);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    lseek(file, ((off_t)row) * buf_len, 0);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     return (write(file, buf, buf_len) == buf_len);
 }
 

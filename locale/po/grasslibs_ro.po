@@ -8593,6 +8593,7 @@ msgstr ""
 #, c-format
 msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of raster map <%s@%s>. %s"
 msgstr ""
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
@@ -10759,6 +10760,8 @@ msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of ras
 >>>>>>> osgeo-main
 =======
 msgstr ""
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../lib/raster/get_cellhd.c:78
 #, c-format

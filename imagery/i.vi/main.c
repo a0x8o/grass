@@ -203,6 +203,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         _("Value of the slope of the soil line (MSAVI only)");
 =======
 <<<<<<< HEAD
@@ -259,6 +260,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         _("Value of the slope of the soil line (MSAVI and PVI only)");
 =======
         _("Value of the slope of the soil line (MSAVI only)");
@@ -398,7 +401,13 @@ int main(int argc, char *argv[])
 =======
         _("Value of the slope of the soil line (MSAVI only)");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        _("Value of the slope of the soil line (MSAVI only)");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     opt.sl_slope->guisection = _("MSAVI settings");
 
     opt.sl_int = G_define_option();
@@ -439,6 +448,7 @@ int main(int argc, char *argv[])
     chan5chan = opt.chan5->answer;
     chan7chan = opt.chan7->answer;
     if (opt.sl_slope->answer)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -518,6 +528,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         soil_slope = atof(opt.sl_slope->answer);
     if (opt.sl_int->answer)
         soil_inter = atof(opt.sl_int->answer);
@@ -639,12 +651,18 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         msavip1 = atof(opt.sl_slope->answer);
     if (opt.sl_int->answer)
         msavip2 = atof(opt.sl_int->answer);
     if (opt.sl_red->answer)
         msavip3 = atof(opt.sl_red->answer);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -789,12 +807,19 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     if (opt.bits->answer)
         dnbits = atof(opt.bits->answer);
     result = opt.output->answer;
@@ -824,6 +849,7 @@ int main(int argc, char *argv[])
         G_fatal_error(_("dvi index requires red and nir maps"));
 
     if (!strcasecmp(viflag, "pvi") &&
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -905,6 +931,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         (!(opt.red->answer) || !(opt.nir->answer) || !(opt.sl_slope->answer)))
         G_fatal_error(
             _("pvi index requires red and nir maps and soil line slope"));
@@ -1053,7 +1081,14 @@ int main(int argc, char *argv[])
         (!(opt.red->answer) || !(opt.nir->answer)))
         G_fatal_error(_("pvi index requires red and nir maps"));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        (!(opt.red->answer) || !(opt.nir->answer)))
+        G_fatal_error(_("pvi index requires red and nir maps"));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
     if (!strcasecmp(viflag, "wdvi") &&
         (!(opt.red->answer) || !(opt.nir->answer)))
@@ -1339,6 +1374,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     outrast[col] = p_vi(d_redchan, d_nirchan);
 =======
 <<<<<<< HEAD
@@ -1395,6 +1431,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                     outrast[col] = p_vi(d_redchan, d_nirchan, soil_slope);
 =======
                     outrast[col] = p_vi(d_redchan, d_nirchan);
@@ -1534,7 +1572,13 @@ int main(int argc, char *argv[])
 =======
                     outrast[col] = p_vi(d_redchan, d_nirchan);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                    outrast[col] = p_vi(d_redchan, d_nirchan);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
                 if (!strcasecmp(viflag, "wdvi"))
                     outrast[col] = wd_vi(d_redchan, d_nirchan);
@@ -1543,6 +1587,7 @@ int main(int argc, char *argv[])
                     outrast[col] = sa_vi(d_redchan, d_nirchan);
 
                 if (!strcasecmp(viflag, "msavi"))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1624,6 +1669,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                     outrast[col] = msa_vi(d_redchan, d_nirchan, soil_slope,
                                           soil_inter, soil_noise);
 =======
@@ -1771,7 +1818,14 @@ int main(int argc, char *argv[])
                     outrast[col] =
                         msa_vi(d_redchan, d_nirchan, msavip1, msavip2, msavip3);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                    outrast[col] =
+                        msa_vi(d_redchan, d_nirchan, msavip1, msavip2, msavip3);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
                 if (!strcasecmp(viflag, "msavi2"))
                     outrast[col] = msa_vi2(d_redchan, d_nirchan);
@@ -1837,6 +1891,7 @@ int main(int argc, char *argv[])
             G_fatal_error(_("Unknown color request '%s'"), style);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     else if (!strcasecmp(viflag, "ndwi")) {
         /* apply predefined NDWI color table */
         const char *style = "ndwi";
@@ -1849,6 +1904,8 @@ int main(int argc, char *argv[])
     }
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     else {
         /* Color from -1.0 to +1.0 in grey */
         Rast_init_colors(&colors);

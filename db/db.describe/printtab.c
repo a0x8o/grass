@@ -4,12 +4,16 @@
 #include <grass/parson.h>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 int print_table_definition(dbDriver *driver, dbTable *table,
                            enum OutputFormat format, JSON_Object *root_object,
                            JSON_Array *cols_array)
 =======
 int print_table_definition(dbDriver *driver, dbTable *table)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+int print_table_definition(dbDriver *driver, dbTable *table)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 {
     int ncols, col, nrows;
     dbColumn *column;
@@ -52,22 +56,31 @@ int print_table_definition(dbDriver *driver, dbTable *table)
     for (col = 0; col < ncols; col++) {
         column = db_get_table_column(table, col);
 <<<<<<< HEAD
+<<<<<<< HEAD
         print_column_definition(column, col + 1, format, cols_array);
 =======
         fprintf(stdout, "\n");
         print_column_definition(column);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        fprintf(stdout, "\n");
+        print_column_definition(column);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
     return 0;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 int print_column_definition(dbColumn *column, int position,
                             enum OutputFormat format, JSON_Array *cols_array)
 =======
 int print_column_definition(dbColumn *column)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+int print_column_definition(dbColumn *column)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 {
     JSON_Object *col_object = NULL;
     JSON_Value *col_value = NULL;
@@ -196,7 +209,10 @@ int print_priv(char *label, int priv, enum OutputFormat format,
         break;
     default:
         fprintf(stdout, "?");
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         break;
     }
 

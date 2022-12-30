@@ -825,6 +825,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             G_fatal_error(_("Can't get projection info of current location"));
 
         if ((in_unit_info = G_get_projunits()) == NULL)
@@ -895,6 +896,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(_("Can't get projection info of current project"));
 
         if ((in_unit_info = G_get_projunits()) == NULL)
@@ -1021,13 +1024,34 @@ int main(int argc, char *argv[])
         tproj.def = NULL;
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+            G_fatal_error(_("Can't get projection info of current location"));
+
+        if ((in_unit_info = G_get_projunits()) == NULL)
+            G_fatal_error(_("Can't get projection units of current location"));
+
+        if (pj_get_kv(&iproj, in_proj_info, in_unit_info) < 0)
+            G_fatal_error(
+                _("Can't get projection key values of current location"));
+
+        G_free_key_value(in_proj_info);
+        G_free_key_value(in_unit_info);
+
+        oproj.pj = NULL;
+        tproj.def = NULL;
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         if (GPJ_init_transform(&iproj, &oproj, &tproj) < 0)
             G_fatal_error(_("Unable to initialize coordinate transformation"));
     }
 
     if ((latin != NULL || longin != NULL) && (G_projection() == PROJECTION_LL))
         G_warning(_("latin and longin raster maps have no effect when in a "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1108,6 +1132,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                     "Lat/Lon project"));
 =======
                     "Lat/Lon location"));
@@ -1247,7 +1273,13 @@ int main(int argc, char *argv[])
 =======
                     "Lat/Lon location"));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                    "Lat/Lon location"));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     /* true about longin= when civiltime is used? */
     /* civiltime needs longin= but not latin= for non-LL projections -
        better would be it just use pj_proj() if it needs those?? */
@@ -1867,10 +1899,14 @@ void joules2(struct SunGeometryConstDay *sunGeom,
             }
         } /* end of while */
 <<<<<<< HEAD
+<<<<<<< HEAD
     } /* all-day radiation */
 =======
     }     /* all-day radiation */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    }     /* all-day radiation */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /*////////////////////////////////////////////////////////////////////// */
@@ -2147,6 +2183,7 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2202,6 +2239,8 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     bool shouldBeBestAM = false;
     bool isBestAM = false;
 =======
@@ -2321,7 +2360,12 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
     struct SunGeometryConstDay sunGeom;
     struct SunGeometryVarDay sunVarGeom;
@@ -2446,6 +2490,7 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
         shadowoffset_base = (j % (numRows)) * n * arrayNumInt;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma omp parallel firstprivate(                                            \
         q1, tan_lam_l, z1, i, shadowoffset, longitTime, coslat, coslatsq,     \
             latitude, longitude, sin_phi_l, latid_l, sin_u, cos_u, sin_v,     \
@@ -2456,11 +2501,14 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #pragma omp parallel firstprivate(                                             \
     q1, tan_lam_l, z1, i, shadowoffset, longitTime, coslat, coslatsq,          \
     latitude, longitude, sin_phi_l, latid_l, sin_u, cos_u, sin_v, cos_v, lum,  \
     gridGeom, elevin, aspin, slopein, civiltime, linkein, albedo, latin,       \
     coefbh, coefdh, incidout, longin, horizon, beam_rad, insol_time, diff_rad, \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2541,6 +2589,8 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     refl_rad, glob_rad, mapset, per, decimals, str_step, shouldBeBestAM,       \
     isBestAM)
 =======
@@ -2690,6 +2740,8 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
     reduction(max : linke_max, albedo_max, lat_max, sunrise_max, sunset_max) \
     reduction(min : linke_min, albedo_min, lat_min, sunrise_min, sunset_min)
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     refl_rad, glob_rad, mapset, per, decimals, str_step)
         {
 #pragma omp for schedule(dynamic) firstprivate(sunGeom, sunVarGeom,      \
@@ -2699,7 +2751,10 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
         : linke_max, albedo_max, lat_max, sunrise_max, sunset_max)       \
         reduction(min                                                    \
                   : linke_min, albedo_min, lat_min, sunrise_min, sunset_min)
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             for (i = 0; i < n; i++) {
                 shadowoffset = shadowoffset_base + (arrayNumInt * i);
                 if (useCivilTime()) {
@@ -2835,6 +2890,7 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     tan_lam_l = -cos_u * cos_v / q1;
                     sunSlopeGeom.longit_l = atan(tan_lam_l);
                     sunSlopeGeom.lum_C31_l = cos(latid_l) * sunGeom.cosdecl;
@@ -2940,6 +2996,8 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
                     if (q1 != 0.0) {
                         tan_lam_l = -cos_u * cos_v / q1;
@@ -3292,7 +3350,62 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
                     }
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+                    tan_lam_l = -cos_u * cos_v / q1;
+                    sunSlopeGeom.longit_l = atan(tan_lam_l);
+                    sunSlopeGeom.lum_C31_l = cos(latid_l) * sunGeom.cosdecl;
+                    sunSlopeGeom.lum_C33_l = sin_phi_l * sunGeom.sindecl;
+
+                    if ((incidout != NULL) || someRadiation) {
+                        com_par_const(longitTime, &sunGeom, &gridGeom);
+                        sunrise_min = AMIN1(sunrise_min, sunGeom.sunrise_time);
+                        sunrise_max = AMAX1(sunrise_max, sunGeom.sunrise_time);
+                        sunset_min = AMIN1(sunset_min, sunGeom.sunset_time);
+                        sunset_max = AMAX1(sunset_max, sunGeom.sunset_time);
+                    }
+
+                    if (incidout != NULL) {
+                        com_par(&sunGeom, &sunVarGeom, &gridGeom, latitude,
+                                longitude);
+                        lum = lumcline2(&sunGeom, &sunVarGeom, &sunSlopeGeom,
+                                        &gridGeom, horizonarray + shadowoffset);
+                        if (lum > 0.) {
+                            lum = rad2deg * asin(lum);
+                            lumcl[j][i] = (float)lum;
+                        }
+                        else
+                            lumcl[j][i] = UNDEFZ;
+                    }
+
+                    double Pbeam_e = 0.;
+                    double Pdiff_e = 0.;
+                    double Prefl_e = 0.;
+                    double Pinsol_t = 0.;
+
+                    if (someRadiation) {
+                        joules2(
+                            &sunGeom, &sunVarGeom, &sunSlopeGeom, &sunRadVar,
+                            &gridGeom, horizonarray + shadowoffset, latitude,
+                            longitude, &Pbeam_e, &Pdiff_e, &Prefl_e, &Pinsol_t);
+                        if (beam_rad != NULL)
+                            beam[j][i] = (float)Pbeam_e;
+                        if (insol_time != NULL)
+                            insol[j][i] = (float)Pinsol_t;
+                        /*  G_debug(3,"\n %f",insol[j][i]); */
+                        if (diff_rad != NULL)
+                            diff[j][i] = (float)Pdiff_e;
+                        if (refl_rad != NULL)
+                            refl[j][i] = (float)Prefl_e;
+                        if (glob_rad != NULL)
+                            globrad[j][i] =
+                                (float)(Pbeam_e + Pdiff_e + Prefl_e);
+                    }
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                 } /* undefs */
             }
         }

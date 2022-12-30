@@ -3766,6 +3766,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3821,6 +3822,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 #: ../lib/gis/mapset.c:38
 msgid "MAPSET is not set"
 msgstr "MAPSET není nastaven"
@@ -4121,7 +4124,12 @@ msgstr "<%s> v mapsetu <%s>"
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 #: ../lib/manage/do_copy.c:43
 #, c-format
 msgid "Copying %s <%s> to current mapset as <%s>"
@@ -9629,6 +9637,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -9749,12 +9758,19 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../lib/vector/Vlib/net_build.c:467
 msgid "Cannot add network arc representing turn."
@@ -12254,6 +12270,7 @@ msgstr "[%s]: Neznámá barva"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -12354,6 +12371,8 @@ msgstr "Svrchní hodnota musí být větší, než spodní."
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 #, c-format
 #~ msgid "Datum <%s> not recognised by GRASS and no parameters found"
 #~ msgstr ""
@@ -12791,6 +12810,62 @@ msgid "Top must be larger than Bottom"
 msgstr "Svrchní hodnota musí být větší, než spodní."
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+msgid "which is missing."
+msgstr "jenž chybí."
+
+msgid "whose header file can't be opened."
+msgstr "jehož hlavičkový soubor nelze otevřít."
+
+msgid "Illegal row value"
+msgstr "Neplatná hodnota řádku"
+
+msgid "Illegal col value"
+msgstr "Neplatná hodnota sloupce"
+
+msgid "Illegal n-s3 resolution value"
+msgstr "Neplatné n-s3 rozlišení"
+
+msgid "Illegal row3 value"
+msgstr "Neplatný počet řádek (row3)"
+
+msgid "Illegal e-w3 resolution value"
+msgstr "Neplatné e-w3 rozlišení"
+
+msgid "Illegal col3 value"
+msgstr "Neplatný počet sloupců (col3)"
+
+msgid "Illegal e-w resolution value"
+msgstr "Neplatná hodnota rozlišení východ-západ"
+
+msgid "North must be north of South"
+msgstr "Sever musí být severně oproti jihu"
+
+msgid "North must be larger than South"
+msgstr "Hodnota pro sever musí být větší než pro jih"
+
+msgid "East must be larger than West"
+msgstr "Hodnota pro východ musí být větší než pro západ"
+
+msgid "Invalid coordinates"
+msgstr "Neplatné souřadnice"
+
+msgid "Illegal n-s resolution value"
+msgstr "Neplatná hodnota rozlišení sever-jih"
+
+msgid "Illegal t-b3 resolution value"
+msgstr "Neplatná hodnota rozlišení t-b3"
+
+msgid "Illegal depths value"
+msgstr "Neplatný počet řádek"
+
+msgid "Top must be larger than Bottom"
+msgstr "Svrchní hodnota musí být větší, než spodní."
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Unable to open header file for raster map <%s@%s>"
 msgstr "Nelze otevřít hlavičkový soubor rastrové mapy <%s@%s>"

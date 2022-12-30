@@ -217,16 +217,22 @@ void P_Outlier(struct Map_info *Out, struct Map_info *Outlier,
 
                     } /*else (1) */
 <<<<<<< HEAD
+<<<<<<< HEAD
                 } /*else */
             }
         } /*end if obs */
     } /*end for */
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 }     /*else */
             }
         } /*end if obs */
     }     /*end for */
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     G_percent(num_points, num_points, 2);
     G_debug(2, "P_outlier: done");

@@ -326,10 +326,13 @@ int close_maps(void)
 
         Rast_close(fd);
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_free(afbuf);
         G_free(cbuf);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         Rast_init_colors(&colors);
         Rast_make_aspect_colors(&colors, -8, 8);

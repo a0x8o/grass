@@ -21,10 +21,14 @@ import os
 
 import wx
 <<<<<<< HEAD
+<<<<<<< HEAD
 from wx.lib.agw import aui
 =======
 import wx.lib.agw.aui as aui
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+import wx.lib.agw.aui as aui
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 from core import globalvar
 from core.debug import Debug
@@ -111,6 +115,7 @@ BaseIcons = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -158,6 +163,8 @@ BaseIcons = {
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     "docking": MetaIcon(img="monitor-dock", label=_("(Un)dock")),
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -195,6 +202,7 @@ BaseIcons = {
     "docking": MetaIcon(img="monitor-dock", label=_("(Un)dock")),
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -253,6 +261,10 @@ BaseIcons = {
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 
@@ -343,6 +355,7 @@ class ToolbarController:
                 if tool[0][0] == "":  # separator
                     continue
 <<<<<<< HEAD
+<<<<<<< HEAD
                 internal_label = tool[0][0]
             else:
                 if tool[0] == "":  # separator
@@ -357,6 +370,15 @@ class ToolbarController:
                 else:
                     internal_label = tool[0]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                else:
+                    internal_label = tool[0][0]
+            else:
+                if tool[0] == "":  # separator
+                    continue
+                else:
+                    internal_label = tool[0]
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
             label = vars(self.widget)[internal_label]
             if enable:

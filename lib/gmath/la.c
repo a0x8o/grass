@@ -23,7 +23,10 @@
  ******************************************************************************/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #include <stdio.h> /* needed here for ifdef/else */
 #include <stdlib.h>
 #include <string.h>
@@ -82,10 +85,14 @@ mat_struct *G_matrix_init(int rows, int cols, int ldim)
     tmp_arry->v_indx = -1;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     tmp_arry->vals = (double *)G_calloc(ldim * cols, sizeof(double));
 =======
     tmp_arry->vals = (doublereal *)G_calloc(ldim * cols, sizeof(doublereal));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    tmp_arry->vals = (doublereal *)G_calloc(ldim * cols, sizeof(doublereal));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     tmp_arry->is_init = 1;
 
     return tmp_arry;
@@ -106,10 +113,14 @@ int G_matrix_zero(mat_struct *A)
         return 0;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     memset(A->vals, 0, (A->ldim * A->cols) * sizeof(double));
 =======
     memset(A->vals, 0, (A->ldim * A->cols) * sizeof(doublereal));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    memset(A->vals, 0, (A->ldim * A->cols) * sizeof(doublereal));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     return 1;
 }
@@ -143,10 +154,14 @@ int G_matrix_set(mat_struct *A, int rows, int cols, int ldim)
     A->v_indx = -1;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     A->vals = (double *)G_calloc(ldim * cols, sizeof(double));
 =======
     A->vals = (doublereal *)G_calloc(ldim * cols, sizeof(doublereal));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    A->vals = (doublereal *)G_calloc(ldim * cols, sizeof(doublereal));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     A->is_init = 1;
 
     return 0;
@@ -254,10 +269,14 @@ mat_struct *G_matrix_scalar_mul(double scalar, mat_struct *matrix,
     for (i = 0; i < m; i++) {
         for (j = 0; j < n; j++) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             double value = scalar * G_matrix_get_element(matrix, i, j);
 =======
             doublereal value = scalar * G_matrix_get_element(matrix, i, j);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            doublereal value = scalar * G_matrix_get_element(matrix, i, j);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
             G_matrix_set_element(out, i, j, value);
         }
@@ -361,7 +380,10 @@ mat_struct *G__matrix_add(mat_struct *mt1, mat_struct *mt2, const double c1,
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #if defined(HAVE_LIBBLAS)
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -402,6 +424,7 @@ mat_struct *G_matrix_product(mat_struct *mt1, mat_struct *mt2)
     /* Call the driver */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     rows = (int)mt1->rows;
     interdim = (int)mt1->cols;
     cols = (int)mt2->cols;
@@ -422,6 +445,17 @@ mat_struct *G_matrix_product(mat_struct *mt1, mat_struct *mt2)
     f77_dgemm(&no_trans, &no_trans, &rows, &cols, &interdim, &unity, mt1->vals,
               &lda, mt2->vals, &ldb, &zero, mt3->vals, &lda);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    rows = (integer)mt1->rows;
+    interdim = (integer)mt1->cols;
+    cols = (integer)mt2->cols;
+
+    lda = (integer)mt1->ldim;
+    ldb = (integer)mt2->ldim;
+
+    f77_dgemm(&no_trans, &no_trans, &rows, &cols, &interdim, &unity, mt1->vals,
+              &lda, mt2->vals, &ldb, &zero, mt3->vals, &lda);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     return mt3;
 }
@@ -481,7 +515,10 @@ mat_struct *G_matrix_transpose(mat_struct *mt)
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #if defined(HAVE_LIBBLAS) && defined(HAVE_LIBLAPACK)
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -555,6 +592,7 @@ int G_matrix_LU_solve(const mat_struct *mt1, mat_struct **xmat0,
 
     case NONSYM: {
 <<<<<<< HEAD
+<<<<<<< HEAD
         int *perm, res_info;
         int num_eqns, nrhs, lda, ldb;
 
@@ -618,6 +656,51 @@ int G_matrix_LU_solve(const mat_struct *mt1, mat_struct **xmat0,
         G_matrix_free(wmat);
         G_matrix_free(mtx);
 
+=======
+        integer *perm, res_info;
+        integer num_eqns, nrhs, lda, ldb;
+
+        perm = (integer *)G_malloc(wmat->rows * sizeof(integer));
+
+        /* Set fields to pass to fortran routine */
+        num_eqns = (integer)mt1->rows;
+        nrhs = (integer)wmat->cols;
+        lda = (integer)mt1->ldim;
+        ldb = (integer)wmat->ldim;
+
+        /* Call LA driver */
+        f77_dgesv(&num_eqns, &nrhs, mtx->vals, &lda, perm, wmat->vals, &ldb,
+                  &res_info);
+
+        /* Copy the results from the modified data matrix, taking account
+           of pivot permutations ???
+         */
+
+        /*
+           for(indx1 = 0; indx1 < num_eqns; indx1++) {
+           iperm = perm[indx1];
+           ptin = &wmat->vals[0] + indx1;
+           ptout = &xmat->vals[0] + iperm;
+
+           for(indx2 = 0; indx2 < nrhs - 1; indx2++) {
+           *ptout = *ptin;
+           ptin += wmat->ldim;
+           ptout += xmat->ldim;
+           }
+
+           *ptout = *ptin;
+           }
+         */
+
+        memcpy(xmat->vals, wmat->vals,
+               wmat->cols * wmat->ldim * sizeof(doublereal));
+
+        /* Free temp arrays */
+        G_free(perm);
+        G_matrix_free(wmat);
+        G_matrix_free(mtx);
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         if (res_info > 0) {
             G_warning(
                 _("Matrix (or submatrix is singular). Solution undetermined"));
@@ -701,7 +784,10 @@ mat_struct *G_matrix_inverse(mat_struct *mt)
 #warning G_matrix_inverse() not compiled; requires BLAS and LAPACK libraries
 #endif /* defined(HAVE_LIBBLAS) && defined(HAVE_LIBLAPACK) */
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 /*!
  * \fn void G_matrix_free (mat_struct *mt)
  *
@@ -739,6 +825,7 @@ void G_matrix_print(mat_struct *mt)
 
     for (i = 0; i < mt->rows; i++) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_strlcpy(buf, "", sizeof(buf));
 
         for (j = 0; j < mt->cols; j++) {
@@ -761,6 +848,18 @@ void G_matrix_print(mat_struct *mt)
         }
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        strcpy(buf, "");
+
+        for (j = 0; j < mt->cols; j++) {
+
+            sprintf(numbuf, "%14.6f", G_matrix_get_element(mt, i, j));
+            strcat(buf, numbuf);
+            if (j < mt->cols - 1)
+                strcat(buf, ", ");
+        }
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         G_message("%s", buf);
     }
 
@@ -797,10 +896,14 @@ int G_matrix_set_element(mat_struct *mt, int rowval, int colval, double val)
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     mt->vals[rowval + colval * mt->ldim] = (double)val;
 =======
     mt->vals[rowval + colval * mt->ldim] = (doublereal)val;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    mt->vals[rowval + colval * mt->ldim] = (doublereal)val;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     return 0;
 }
@@ -965,6 +1068,7 @@ int G_matvect_extract_vector(mat_struct *mt, vtype vt, int indx)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1012,6 +1116,8 @@ int G_matvect_extract_vector(mat_struct *mt, vtype vt, int indx)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         break;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1049,6 +1155,7 @@ int G_matvect_extract_vector(mat_struct *mt, vtype vt, int indx)
         break;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -1107,6 +1214,10 @@ int G_matvect_extract_vector(mat_struct *mt, vtype vt, int indx)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     case CVEC: {
@@ -1136,6 +1247,7 @@ int G_matvect_extract_vector(mat_struct *mt, vtype vt, int indx)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1183,6 +1295,8 @@ int G_matvect_extract_vector(mat_struct *mt, vtype vt, int indx)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         break;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1220,6 +1334,7 @@ int G_matvect_extract_vector(mat_struct *mt, vtype vt, int indx)
         break;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -1278,6 +1393,10 @@ int G_matvect_extract_vector(mat_struct *mt, vtype vt, int indx)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     default: {
@@ -1329,10 +1448,14 @@ vec_struct *G_matvect_product(mat_struct *A, vec_struct *b, vec_struct *out)
 {
     unsigned int i, m, n, j;
 <<<<<<< HEAD
+<<<<<<< HEAD
     register double sum;
 =======
     register doublereal sum;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    register doublereal sum;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     /* G_message("A=%d,%d,%d", A->cols, A->rows, A->ldim); */
     /* G_message("B=%d,%d,%d", b->cols, b->rows, b->ldim); */
@@ -1412,11 +1535,16 @@ vec_struct *G_vector_init(int cells, int ldim, vtype vt)
     tmp_arry->v_indx = 0;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     tmp_arry->vals = (double *)G_calloc(ldim * tmp_arry->cols, sizeof(double));
 =======
     tmp_arry->vals =
         (doublereal *)G_calloc(ldim * tmp_arry->cols, sizeof(doublereal));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    tmp_arry->vals =
+        (doublereal *)G_calloc(ldim * tmp_arry->cols, sizeof(doublereal));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     tmp_arry->is_init = 1;
 
     return tmp_arry;
@@ -1563,17 +1691,24 @@ int G_vector_set(vec_struct *A, int cells, int ldim, vtype vt, int vindx)
         A->v_indx = vindx;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     A->vals = (double *)G_calloc(ldim * A->cols, sizeof(double));
 =======
     A->vals = (doublereal *)G_calloc(ldim * A->cols, sizeof(doublereal));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    A->vals = (doublereal *)G_calloc(ldim * A->cols, sizeof(doublereal));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     A->is_init = 1;
 
     return 0;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #if defined(HAVE_LIBBLAS)
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1599,12 +1734,17 @@ double G_vector_norm_euclid(vec_struct *vc)
 
     if (vc->type == ROWVEC_) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Nval = (int)vc->cols;
         incr = (int)vc->ldim;
 =======
         Nval = (integer)vc->cols;
         incr = (integer)vc->ldim;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        Nval = (integer)vc->cols;
+        incr = (integer)vc->ldim;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         if (vc->v_indx < 0)
             startpt = vc->vals;
         else
@@ -1612,10 +1752,14 @@ double G_vector_norm_euclid(vec_struct *vc)
     }
     else {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Nval = (int)vc->rows;
 =======
         Nval = (integer)vc->rows;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        Nval = (integer)vc->rows;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         incr = 1;
         if (vc->v_indx < 0)
             startpt = vc->vals;
@@ -1633,7 +1777,10 @@ double G_vector_norm_euclid(vec_struct *vc)
 #warning G_vector_norm_euclid() not compiled; requires BLAS library
 #endif /* defined(HAVE_LIBBLAS) */
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 /*!
  * \fn double G_vector_norm_maxval (vec_struct *vc, int vflag)
  *
@@ -1662,12 +1809,17 @@ double G_vector_norm_maxval(vec_struct *vc, int vflag)
 
     if (vc->type == ROWVEC_) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         ncells = (int)vc->cols;
         incr = (int)vc->ldim;
 =======
         ncells = (integer)vc->cols;
         incr = (integer)vc->ldim;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        ncells = (integer)vc->cols;
+        incr = (integer)vc->ldim;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         if (vc->v_indx < 0)
             startpt = vc->vals;
         else
@@ -1675,10 +1827,14 @@ double G_vector_norm_maxval(vec_struct *vc, int vflag)
     }
     else {
 <<<<<<< HEAD
+<<<<<<< HEAD
         ncells = (int)vc->rows;
 =======
         ncells = (integer)vc->rows;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        ncells = (integer)vc->rows;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         incr = 1;
         if (vc->v_indx < 0)
             startpt = vc->vals;
@@ -1712,10 +1868,14 @@ double G_vector_norm_maxval(vec_struct *vc, int vflag)
             }
             } /* switch */
 <<<<<<< HEAD
+<<<<<<< HEAD
         } /* if(curpt != startpt) */
 =======
         }     /* if(curpt != startpt) */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        }     /* if(curpt != startpt) */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         curpt += incr;
         ncells--;
@@ -1776,6 +1936,7 @@ double G_vector_norm1(vec_struct *vc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1796,6 +1957,8 @@ double G_vector_norm1(vec_struct *vc)
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         return NAN;
 =======
 <<<<<<< HEAD
@@ -1990,6 +2153,7 @@ double G_vector_norm1(vec_struct *vc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2080,6 +2244,11 @@ double G_vector_norm1(vec_struct *vc)
         return 0.0 / 0.0; /* NaN */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        return 0.0 / 0.0; /* NaN */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     idx = (vc->v_indx > 0) ? vc->v_indx : 0;
@@ -2230,12 +2399,17 @@ vec_struct *G_vector_copy(const vec_struct *vc1, int comp_flag)
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     tmp_arry->vals =
         (double *)G_calloc(tmp_arry->ldim * tmp_arry->cols, sizeof(double));
 =======
     tmp_arry->vals = (doublereal *)G_calloc(tmp_arry->ldim * tmp_arry->cols,
                                             sizeof(doublereal));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    tmp_arry->vals = (doublereal *)G_calloc(tmp_arry->ldim * tmp_arry->cols,
+                                            sizeof(doublereal));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     if (comp_flag == DO_COMPACT) {
         if (tmp_arry->type == ROWVEC_) {
             startpt1 = tmp_arry->vals;
@@ -2276,10 +2450,14 @@ vec_struct *G_vector_copy(const vec_struct *vc1, int comp_flag)
 
     while (cnt > 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         memcpy(curpt1, curpt2, sizeof(double));
 =======
         memcpy(curpt1, curpt2, sizeof(doublereal));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        memcpy(curpt1, curpt2, sizeof(doublereal));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         curpt1 += incr1;
         curpt2 += incr2;
         cnt--;
@@ -2450,12 +2628,17 @@ int G_matrix_eigen_sort(vec_struct *d, mat_struct *m)
 static int egcmp(const void *pa, const void *pb)
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     double a = *(double *const)pa;
     double b = *(double *const)pb;
 =======
     double a = *(doublereal *const)pa;
     double b = *(doublereal *const)pb;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    double a = *(doublereal *const)pa;
+    double b = *(doublereal *const)pb;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     if (a > b)
         return 1;
@@ -2466,9 +2649,12 @@ static int egcmp(const void *pa, const void *pb)
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #endif // HAVE_LIBLAPACK HAVE_LIBBLAS
 
 typedef int suppress_empty_translation_unit_compiler_warning;
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #endif /* HAVE_BLAS && HAVE_LAPACK && HAVE_G2C */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

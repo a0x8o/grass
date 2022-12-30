@@ -15,11 +15,15 @@
 
 int read_rast(double east, double north, double dist, int fd, int coords,
 <<<<<<< HEAD
+<<<<<<< HEAD
               RASTER_MAP_TYPE data_type, FILE *fp, char *null_string,
               enum OutputFormat format, char *name, JSON_Array *array)
 =======
               RASTER_MAP_TYPE data_type, FILE *fp, char *null_string)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+              RASTER_MAP_TYPE data_type, FILE *fp, char *null_string)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 {
     static DCELL *dcell;
     static int cur_row = -1;
@@ -72,12 +76,16 @@ int read_rast(double east, double north, double dist, int fd, int coords,
 =======
     if (coords)
         fprintf(fp, "%f %f", east, north);
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         fprintf(fp, " %f", dist);
         break;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     if (outofbounds || Rast_is_d_null_value(&dcell[col])) {
         switch (format) {
@@ -115,11 +123,19 @@ int read_rast(double east, double north, double dist, int fd, int coords,
     if (outofbounds || Rast_is_d_null_value(&dcell[col]))
         fprintf(fp, " %s", null_string);
     else {
+=======
+    if (outofbounds || Rast_is_d_null_value(&dcell[col]))
+        fprintf(fp, " %s", null_string);
+    else {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         if (data_type == CELL_TYPE)
             fprintf(fp, " %d", (int)dcell[col]);
         else
             fprintf(fp, " %f", dcell[col]);
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
     if (clr) {
@@ -129,6 +145,7 @@ int read_rast(double east, double north, double dist, int fd, int coords,
             Rast_get_c_color(&nullcell, &red, &green, &blue, &colors);
         else
             Rast_get_d_color(&dcell[col], &red, &green, &blue, &colors);
+<<<<<<< HEAD
 <<<<<<< HEAD
         switch (format) {
         case JSON:
@@ -144,6 +161,10 @@ int read_rast(double east, double north, double dist, int fd, int coords,
 
         fprintf(fp, " %03d:%03d:%03d", red, green, blue);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+        fprintf(fp, " %03d:%03d:%03d", red, green, blue);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
     switch (format) {

@@ -429,10 +429,14 @@ class VisibleMapset:
         """Return the mapsets in the search path"""
         try:
 <<<<<<< HEAD
+<<<<<<< HEAD
             with open(self.spath) as f:
 =======
             with open(self.spath, "r") as f:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            with open(self.spath, "r") as f:
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 lines = f.readlines()
                 if lines:
                     return [line.strip() for line in lines]

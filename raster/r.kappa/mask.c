@@ -14,6 +14,7 @@ char *maskinfo(void)
     struct Reclass reclass;
     char *results;
 <<<<<<< HEAD
+<<<<<<< HEAD
     char text[2 * GNAME_MAX + GMAPSET_MAX];
     int next;
     int first;
@@ -26,6 +27,8 @@ char *maskinfo(void)
     if (Rast_get_reclass(mask_name, mask_mapset, &reclass) <= 0) {
         sprintf(text, "%s in %s", mask_name, mask_mapset);
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     char text[100];
     int next;
     int first;
@@ -35,7 +38,10 @@ char *maskinfo(void)
         return "none";
     if (Rast_get_reclass("MASK", G_mapset(), &reclass) <= 0) {
         sprintf(text, "MASK in %s", G_mapset());
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         return append(results, text);
     }
 

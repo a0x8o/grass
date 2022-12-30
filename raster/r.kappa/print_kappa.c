@@ -40,6 +40,7 @@ void print_kappa(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /* print out the comission and omission accuracy, and conditional kappa */
     fprintf(fd, "\nCats\t%% Comission\t%% Omission\tEstimated Kappa\n");
 =======
@@ -97,6 +98,8 @@ void print_kappa(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     /* print out the commission and omission accuracy, and conditional kappa */
     fprintf(fd, "\nCats\t%% Commission\t%% Omission\tEstimated Kappa\n");
 =======
@@ -244,7 +247,14 @@ void print_kappa(void)
     /* print out the comission and omission accuracy, and conditional kappa */
     fprintf(fd, "\nCats\t%% Comission\t%% Omission\tEstimated Kappa\n");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    /* print out the comission and omission accuracy, and conditional kappa */
+    fprintf(fd, "\nCats\t%% Comission\t%% Omission\tEstimated Kappa\n");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     for (i = 0; i < ncat; i++) {
         fprintf(fd, "%ld\t", rlst[i]);
         if (metrics->users_accuracy[i] == na_value)
@@ -261,6 +271,7 @@ void print_kappa(void)
             fprintf(fd, "%f\n", metrics->conditional_kappa[i]);
     }
     fprintf(fd, "\n");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -341,6 +352,8 @@ void print_kappa(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     fprintf(fd, "Kappa\t\tKappa Variance\tMCC\n");
 =======
     fprintf(fd, "Kappa\t\tKappa Variance\n");
@@ -480,12 +493,19 @@ void print_kappa(void)
 =======
     fprintf(fd, "Kappa\t\tKappa Variance\n");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    fprintf(fd, "Kappa\t\tKappa Variance\n");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     if (metrics->kappa == na_value)
         fprintf(fd, "NA");
     else
         fprintf(fd, "%f", metrics->kappa);
     if (metrics->kappa_variance == na_value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -565,6 +585,8 @@ void print_kappa(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         fprintf(fd, "\tNA");
     else
         fprintf(fd, "\t%f", metrics->kappa_variance);
@@ -688,11 +710,17 @@ void print_kappa(void)
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
         fprintf(fd, "\tNA\n");
     else
         fprintf(fd, "\t%f\n", metrics->kappa_variance);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -837,12 +865,19 @@ void print_kappa(void)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     fprintf(fd, "\nObs Correct\tTotal Obs\t%% Observed Correct\n");
     fprintf(fd, "%ld\t\t%ld\t\t%f\n", metrics->correct, metrics->observations,
             metrics->overall_accuracy);

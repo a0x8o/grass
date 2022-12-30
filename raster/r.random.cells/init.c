@@ -50,7 +50,10 @@ void Init(void)
 =======
     if (G_find_raster2("MASK", G_mapset())) {
         FD = Rast_open_old("MASK", G_mapset());
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         {
             for (row = 0; row < Rs; row++) {
                 Rast_get_c_row_nomask(FD, CellBuffer, row);

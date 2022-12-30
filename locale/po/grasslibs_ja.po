@@ -3650,6 +3650,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3705,6 +3706,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 #: ../lib/gis/timestamp.c:534
 #, c-format
 msgid "Invalid timestamp specified for vector map <%s@%s>"
@@ -4088,7 +4091,12 @@ msgstr "<%s> マップセット <%s>"
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 #: ../lib/manage/do_copy.c:43
 #, c-format
 msgid "Copying %s <%s> to current mapset as <%s>"
@@ -9522,6 +9530,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -9642,12 +9651,19 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../lib/vector/Vlib/net_build.c:467
 msgid "Cannot add network arc representing turn."
@@ -12271,6 +12287,7 @@ msgstr "[%s]: そのような色はありません"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -12376,6 +12393,8 @@ msgstr "無効なオフセット (%ld)"
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 #~ msgid "Absurd polygon."
 #~ msgstr "不正なポリゴン"
 
@@ -12827,4 +12846,65 @@ msgstr "ラスターマップ <%s@%s>のヘッダーファイルが開きませ�
 msgid "Invalid offset (%ld)"
 msgstr "無効なオフセット (%ld)"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+msgid "which is missing."
+msgstr "見つかりません"
+
+msgid "whose header file can't be opened."
+msgstr "ヘッダーファイルが開けません"
+
+msgid "Illegal row value"
+msgstr "無効な行の値"
+
+msgid "Illegal col value"
+msgstr "無効な列値"
+
+msgid "Illegal n-s3 resolution value"
+msgstr "無効な 北-南3 解像度値"
+
+msgid "Illegal row3 value"
+msgstr "無効な行3値"
+
+msgid "Illegal e-w3 resolution value"
+msgstr "無効な 東-西3 解像度値"
+
+msgid "Illegal col3 value"
+msgstr "無効な列3値"
+
+msgid "Illegal e-w resolution value"
+msgstr "無効な 東-西 解像度値"
+
+msgid "North must be north of South"
+msgstr "北は南の北でなければなりません"
+
+msgid "North must be larger than South"
+msgstr "北は南より大きくないといけません"
+
+msgid "East must be larger than West"
+msgstr "東は西より大きくないといけません"
+
+msgid "Invalid coordinates"
+msgstr "無効な座標"
+
+msgid "Illegal n-s resolution value"
+msgstr "無効な 北-南 解像度値"
+
+msgid "Illegal t-b3 resolution value"
+msgstr "無効な 上-下3 解像度値"
+
+msgid "Illegal depths value"
+msgstr "無効な深度値"
+
+msgid "Top must be larger than Bottom"
+msgstr "降順"
+
+msgid "Unable to open header file for raster map <%s@%s>"
+msgstr "ラスターマップ <%s@%s>のヘッダーファイルが開きません"
+
+msgid "Invalid offset (%ld)"
+msgstr "無効なオフセット (%ld)"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))

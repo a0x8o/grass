@@ -472,10 +472,14 @@ int edit_colors(int argc, char **argv, int type, const char *maptype,
             /* don't bother with native dirsep as not needed for backwards
              * compatibility */
 <<<<<<< HEAD
+<<<<<<< HEAD
             snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(), style);
 =======
             G_snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(), style);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            G_snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(), style);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             rule_is_percent = check_percent_rule(path);
             do_scale = 1;
         }
@@ -496,8 +500,11 @@ int edit_colors(int argc, char **argv, int type, const char *maptype,
             /* don't bother with native dirsep as not needed for backwards
              * compatibility */
 <<<<<<< HEAD
+<<<<<<< HEAD
             snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(), rules);
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             G_snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(), rules);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 

@@ -33,10 +33,14 @@ class SemanticLabelReader:
     def _read_config(self):
         """Read configuration"""
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.config = {}
 =======
         self.config = dict()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        self.config = dict()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         for json_file in self._json_files:
             try:
                 with open(json_file) as fd:
@@ -143,10 +147,14 @@ class SemanticLabelReader:
                         for iband in item["bands"]:
                             self._print_label_extended(iband, item["bands"])
 <<<<<<< HEAD
+<<<<<<< HEAD
                 else:  # noqa: PLR5501
 =======
                 else:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                else:
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                     # basic information only
                     if band:
                         self._print_label(
@@ -190,10 +198,14 @@ class SemanticLabelReader:
                     and config[root]["shortcut"].upper() == shortcut.upper()
                     and band.upper()
 <<<<<<< HEAD
+<<<<<<< HEAD
                     in (x.upper() for x in config[root]["bands"].keys())
 =======
                     in map(lambda x: x.upper(), config[root]["bands"].keys())
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                    in map(lambda x: x.upper(), config[root]["bands"].keys())
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 ):
                     return filename
 

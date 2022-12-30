@@ -3,14 +3,18 @@
 import multiprocessing
 import os
 <<<<<<< HEAD
+<<<<<<< HEAD
 from functools import partial
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 import pytest
 
 import grass.script as gs
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 xfail_mp_spawn = pytest.mark.xfail(
     multiprocessing.get_start_method() == "spawn",
@@ -23,12 +27,17 @@ xfail_mp_spawn = pytest.mark.xfail(
 # This is useful when we want to ensure that function like init does
 # not change the global environment.
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 # All init tests change the global environment, but when it really matters,
 # we use a separate process.
 # Ideally, the functions would support env parameter and the test
 # would mostly use that.
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 def run_in_subprocess(function):
     """Run function in a separate process
 
@@ -48,6 +57,7 @@ def test_init_as_context_manager(tmp_path):
     location = "test"
     gs.core._create_location_xy(tmp_path, location)  # pylint: disable=protected-access
 <<<<<<< HEAD
+<<<<<<< HEAD
     with gs.setup.init(tmp_path / location, env=os.environ.copy()) as session:
         gs.run_command("g.region", flags="p", env=session.env)
         session_file = session.env["GISRC"]
@@ -57,6 +67,11 @@ def test_init_as_context_manager(tmp_path):
         gs.run_command("g.region", flags="p")
         session_file = os.environ["GISRC"]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    with gs.setup.init(tmp_path / location):
+        gs.run_command("g.region", flags="p")
+        session_file = os.environ["GISRC"]
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     assert not os.path.exists(session_file)
 
 
@@ -65,23 +80,30 @@ def test_init_session_finish(tmp_path):
     location = "test"
     gs.core._create_location_xy(tmp_path, location)  # pylint: disable=protected-access
 <<<<<<< HEAD
+<<<<<<< HEAD
     session = gs.setup.init(tmp_path / location, env=os.environ.copy())
     gs.run_command("g.region", flags="p", env=session.env)
     session_file = session.env["GISRC"]
     session.finish()
     with pytest.raises(ValueError):  # noqa: PT011
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     session = gs.setup.init(tmp_path / location)
     gs.run_command("g.region", flags="p")
     session_file = os.environ["GISRC"]
     session.finish()
     with pytest.raises(ValueError):
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         session.finish()
     assert not session.active
     assert not os.path.exists(session_file)
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 def test_init_finish_global_functions_with_env(tmp_path):
     """Check that init and finish global functions work"""
@@ -125,6 +147,8 @@ def test_init_finish_global_functions_capture_strerr0_partial(tmp_path):
 def test_init_finish_global_functions_capture_strerr0(tmp_path):
     """Check that init and finish global functions work with global env"""
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 def test_init_finish_global_functions(tmp_path):
     """Check that init and finish global functions work"""
     location = "test"
@@ -139,7 +163,10 @@ def test_init_finish_global_functions(tmp_path):
 
 def test_init_finish_global_functions_capture_strerr(tmp_path):
     """Check that init and finish global functions work"""
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     def init_finish(queue):
         gs.set_capture_stderr(True)
@@ -149,6 +176,7 @@ def test_init_finish_global_functions_capture_strerr(tmp_path):
         )
         gs.setup.init(tmp_path / location)
         gs.run_command("g.region", flags="p")
+<<<<<<< HEAD
 <<<<<<< HEAD
         runtime_present = bool(os.environ.get("GISBASE"))
         queue.put((os.environ["GISRC"], runtime_present))
@@ -287,10 +315,15 @@ def test_init_environment_isolation(tmp_path):
     assert not os.environ.get("GISRC")
     assert not os.environ.get("GISBASE")
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         queue.put(os.environ["GISRC"])
         gs.setup.finish()
 
     session_file = run_in_subprocess(init_finish)
     assert session_file, "Expected file name from the subprocess"
     assert not os.path.exists(session_file), "Session file not deleted"
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

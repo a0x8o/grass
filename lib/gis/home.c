@@ -101,13 +101,17 @@ const char *G_config_path(void)
     static const char *config_path = 0;
     char buf[GPATH_MAX];
 <<<<<<< HEAD
+<<<<<<< HEAD
     static const char *config_dir = NULL;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     if (G_is_initialized(&initialized_config))
         return config_path;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     config_dir = getenv("GRASS_CONFIG_DIR");
     if (!config_dir)
@@ -116,6 +120,8 @@ const char *G_config_path(void)
 #else
         config_dir = G_home();
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #ifdef __MINGW32__
     sprintf(buf, "%s%c%s", getenv("APPDATA"), HOST_DIRSEP, CONFIG_DIR);
 #else

@@ -24,6 +24,7 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -,Ivan Shmakov,<ivan theory.asu.ru>,Russia,1gray,yes,-
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
@@ -33,6 +34,8 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
@@ -229,12 +232,19 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 =======
 -,Ivan Shmakov,<ivan theory.asu.ru>,Russia,1gray,yes,-
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+-,Ivan Shmakov,<ivan theory.asu.ru>,Russia,1gray,yes,-
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 -,Eric Patton,<eric.patton canada.ca>,Canada,epatton,yes,-
 -,Laura Toma,<ltoma bowdoin.edu>,USA,ltoma,yes,-
 -,Markus Metz,<markus.metz.giswork googlemail.com>,Germany,mmetz,yes,0000-0002-4038-8754
 -,Maris Nartiss,<maris.gis gmail.com>,Latvia,marisn,yes,0000-0002-3875-740X
 -,Marco Pasetti,<marco.pasetti alice.it>,Italy,marcopx,yes,-
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -315,6 +325,8 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 -,Yann Chemin,<dr.yann.chemin gmail.com>,France,ychemin,yes,0000-0001-9232-5512
 =======
 -,Yann Chemin,<yann.chemin gmail.com>,Philippines,ychemin,yes,0000-0001-9232-5512
@@ -713,6 +725,8 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 -,Veronica Andreo,<veroandreo gmail.com>,Argentina,veroandreo,yes,0000-0002-4633-2161
 -,Yann Chemin,<dr.yann.chemin gmail.com>,France,ychemin,yes,0000-0001-9232-5512
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 -,Yann Chemin,<yann.chemin gmail.com>,Philippines,ychemin,yes,0000-0001-9232-5512
 -,Colin Nielsen,<colin.nielsen gmail.com>,USA,cnielsen,yes,-
 -,Anne Ghisla,<a.ghisla gmail.com>,Italy,aghisla,yes,-
@@ -728,7 +742,10 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 -,Ondřej Pešek,<pesej.ondrek gmail.com>,Czech Republic,pesekon2,yes,-
 -,Tomáš Zigo,<tomas.zigo slovanet.sk>,Slovak Republic,tmszi,yes,-
 -,Nicklas Larsson,<n_larsson yahoo.com>,Hungary/Sweden,nilason,yes,-
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 alex,Alex Shevlakov,<sixote yahoo.com>,Russia,-,-,-
 andreas,Andreas Lange,<andreas.c.lange gmx.de>,Germany,-,-,-
 benjamin,Benjamin Ducke,<benducke fastmail.fm>,Germany,benducke,yes,0000-0002-0560-4749
@@ -762,6 +779,7 @@ mike,Mike Thomas,<miketh brisbane.paradigmgeo.com>,Australia,-,-,-
 moritz,Moritz Lennert,<mlennert club.worldonline.be>,Belgium,mlennert,yes,0000-0002-2870-4515
 msieczka,Maciej Sieczka,<msieczka sieczka.org>,Poland,msieczka,yes,-
 <<<<<<< HEAD
+<<<<<<< HEAD
 pallech,Serena Pallecchi,<pallecch cli.di.unipi.it>,Italy,-,-,-
 paul,Paul Kelly,<paul-grass stjohnspoint.co.uk>,UK,pkelly,yes,-
 paulo,Paulo Marcondes,<pmarc.debian gmail.com>,Brazil,pmarcondes,-,-
@@ -770,6 +788,11 @@ paul,Paul Kelly,<paul-grass stjohnspoint.co.uk>,UK,pkelly,yes,-
 paulo,Paulo Marcondes,<pmarc.debian gmail.com>,Brazil,pmarcondes,-,-
 pallech,Serena Pallecchi,<pallecch cli.di.unipi.it>,Italy,-,-,-
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+paul,Paul Kelly,<paul-grass stjohnspoint.co.uk>,UK,pkelly,yes,-
+paulo,Paulo Marcondes,<pmarc.debian gmail.com>,Brazil,pmarcondes,-,-
+pallech,Serena Pallecchi,<pallecch cli.di.unipi.it>,Italy,-,-,-
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 radim,Radim Blazek,<radim.blazek gmail.com>,Czech Republic,rblazek,-,-
 roberto,Roberto Micarelli,<miro iol.it>,Italy,-,-,-
 robertoa,Roberto Antolin,<rantolin.geo gmail.com>,Spain,rantolin,yes,-

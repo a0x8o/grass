@@ -3,10 +3,13 @@
 
 htmldesc = $(call run_grass,$(1) --html-description < /dev/null | grep -v '</body>\|</html>\|</div> <!-- end container -->' > $(2))
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 mddesc = $(call run_grass,$(1) --md-description < /dev/null > $(2))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 IMGSRC := $(wildcard *.png) $(wildcard *.jpg) $(wildcard *.gif)
 IMGDST := $(patsubst %,$(HTMLDIR)/%,$(IMGSRC))

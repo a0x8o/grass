@@ -22,6 +22,7 @@
 /* cast to float, otherwise doesn't seem to handle neg. values */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define SCALE_ATT(att, val, low, high)                                        \
     ((val) <= att->max_nz && (val) >= att->min_nz && att->range_nz            \
          ? (((val) - att->min_nz) / att->range_nz) * ((high) - (low)) + (low) \
@@ -30,6 +31,11 @@
     ((val) <= att->max_nz && (val) >= att->min_nz && att->range_nz          \
          ? (((val)-att->min_nz) / att->range_nz) * ((high) - (low)) + (low) \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#define SCALE_ATT(att, val, low, high)                                      \
+    ((val) <= att->max_nz && (val) >= att->min_nz && att->range_nz          \
+         ? (((val)-att->min_nz) / att->range_nz) * ((high) - (low)) + (low) \
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
          : 0)
 
 #define GET_MAPATT(buff, offset, att) (get_mapatt(buff, offset, &(att)))
@@ -55,16 +61,22 @@
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define FNORM(i, nv)                                                    \
     nv[X] = ((int)(((i) & NXMASK) >> 21) - XYMAXPOS) / (float)XYMAXPOS; \
     nv[Y] = ((int)(((i) & NYMASK) >> 10) - XYMAXPOS) / (float)XYMAXPOS; \
     nv[Z] = (int)((i) & NZMASK) / (float)ZMAXPOS
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #define FNORM(i, nv)                                                  \
     nv[X] = ((int)(((i)&NXMASK) >> 21) - XYMAXPOS) / (float)XYMAXPOS; \
     nv[Y] = ((int)(((i)&NYMASK) >> 10) - XYMAXPOS) / (float)XYMAXPOS; \
     nv[Z] = (int)((i)&NZMASK) / (float)ZMAXPOS
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 /* Pack Normal vector into int */
 #define PNORM(i, nv)                                            \

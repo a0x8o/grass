@@ -106,10 +106,12 @@
 
 import os
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 import grass.script as gs
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 import grass.script as grass
@@ -118,6 +120,10 @@ import grass.script as gs
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 import grass.script as grass
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -142,6 +148,7 @@ def main():
 
     if not directory or not os.path.exists(directory):
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.fatal(_("Directory {} not found").format(directory))
 
     if not os.access(directory, os.W_OK):
@@ -159,6 +166,8 @@ def main():
 >>>>>>> main
             _("Type options is not working with pack format, it will be skipped")
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         grass.fatal(_("Directory {} not found".format(directory)))
 
     if not os.access(directory, os.W_OK):

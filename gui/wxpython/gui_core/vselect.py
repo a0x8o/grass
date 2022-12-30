@@ -356,10 +356,14 @@ class VectorSelectBase:
             tree = self._giface.GetLayerTree()
             if tree:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 outMap = f"{outMap}@{gs.gisenv()['MAPSET']}"
 =======
                 outMap = f"{outMap}@{grass.gisenv()['MAPSET']}"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                outMap = f"{outMap}@{grass.gisenv()['MAPSET']}"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 tree.AddLayer(
                     ltype="vector",
                     lname=outMap,

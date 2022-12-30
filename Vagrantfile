@@ -65,9 +65,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       "libreadline-dev",
       "libsqlite3-dev",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "libtiff-dev",
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
       "libxmu-dev",
       "make",
       "netcdf-bin",

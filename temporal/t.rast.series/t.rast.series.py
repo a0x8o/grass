@@ -93,8 +93,11 @@
 # %end
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 import grass.script as grass
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 from grass.exceptions import CalledModuleError
@@ -150,6 +153,7 @@ def main():
 
         flag = ""
         if len(rows) > max_files_open:
+<<<<<<< HEAD
 <<<<<<< HEAD
             gs.warning(
                 _(
@@ -382,13 +386,21 @@ def main():
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             grass.warning(
                 _(
                     "Processing over {} maps: activating -z flag of r.series which slows down processing.".format(
                         max_files_open
                     )
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
                 )
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
             )

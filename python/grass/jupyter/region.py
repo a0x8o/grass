@@ -115,11 +115,14 @@ class RegionManagerForInteractiveMap:
         north = float(bbox["ll_n"])
         east = float(bbox["ll_e"])
 <<<<<<< HEAD
+<<<<<<< HEAD
         self._bbox[0][0] = min(self._bbox[0][0], south)
         self._bbox[0][1] = min(self._bbox[0][1], west)
         self._bbox[1][0] = max(self._bbox[1][0], north)
         self._bbox[1][1] = max(self._bbox[1][1], east)
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         if self._bbox[0][0] > south:
             self._bbox[0][0] = south
         if self._bbox[0][1] > west:
@@ -128,7 +131,10 @@ class RegionManagerForInteractiveMap:
             self._bbox[1][0] = north
         if self._bbox[1][1] < east:
             self._bbox[1][1] = east
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 
 class RegionManagerFor2D:
@@ -209,6 +215,7 @@ class RegionManagerFor2D:
                     )
                     self._extent_set = True
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif not self._resolution_set and not self._extent_set:
                 self._env["GRASS_REGION"] = gs.region_env(raster=name, env=self._env)
                 self._extent_set = True
@@ -217,6 +224,8 @@ class RegionManagerFor2D:
                 self._env["GRASS_REGION"] = gs.region_env(align=name, env=self._env)
                 self._resolution_set = True
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             else:
                 if not self._resolution_set and not self._extent_set:
                     self._env["GRASS_REGION"] = gs.region_env(
@@ -227,11 +236,15 @@ class RegionManagerFor2D:
                 elif not self._resolution_set:
                     self._env["GRASS_REGION"] = gs.region_env(align=name, env=self._env)
                     self._resolution_set = True
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         except CalledModuleError:
             return
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -311,6 +324,8 @@ class RegionManagerFor2D:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 class RegionManagerForSeries:
     """Region manager for SeriesMap"""
 
@@ -500,7 +515,12 @@ class RegionManagerForSeries:
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 class RegionManagerFor3D:
     """Region manager for 3D displays (gets region from m.nviz.image command)"""
 

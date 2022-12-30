@@ -41,6 +41,7 @@ int main(int argc, char *argv[])
     struct GModule *module;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     enum OutputFormat format;
     JSON_Value *root_value;
     JSON_Array *root_array;
@@ -53,6 +54,11 @@ int main(int argc, char *argv[])
         struct Option *map, *fs, *cats, *vals, *raster, *file, *fmt_str,
             *fmt_coeff;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    struct {
+        struct Option *map, *fs, *cats, *vals, *raster, *file, *fmt_str,
+            *fmt_coeff;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     } parm;
 
     G_gisinit(argv[0]);
@@ -114,6 +120,7 @@ int main(int argc, char *argv[])
     parm.fmt_coeff->description =
         _("Two pairs of category multiplier and offsets, for $1 and $2");
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     parm.format = G_define_standard_option(G_OPT_F_FORMAT);
     parm.format->key = "output_format";
@@ -138,6 +145,11 @@ int main(int argc, char *argv[])
     if (G_parser(argc, argv))
         exit(EXIT_FAILURE);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+    if (G_parser(argc, argv))
+        exit(EXIT_FAILURE);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     name = parm.map->answer;
 
@@ -316,6 +328,7 @@ int main(int argc, char *argv[])
             get_cats(name, mapset);
             while (next_cat(&x))
 <<<<<<< HEAD
+<<<<<<< HEAD
                 print_label(x, format, root_array);
             if (format == JSON) {
                 print_json(root_value);
@@ -323,6 +336,9 @@ int main(int argc, char *argv[])
 =======
                 print_label(x);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                print_label(x);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             exit(EXIT_SUCCESS);
         }
     }
@@ -341,6 +357,7 @@ int main(int argc, char *argv[])
                 scan_cats(parm.cats->answers[i], &x, &y);
                 while (x <= y)
 <<<<<<< HEAD
+<<<<<<< HEAD
                     print_label(x++, format, root_array);
             }
             if (format == JSON) {
@@ -348,6 +365,9 @@ int main(int argc, char *argv[])
 =======
                     print_label(x++);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                    print_label(x++);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             }
             exit(EXIT_SUCCESS);
         }
@@ -363,10 +383,14 @@ int main(int argc, char *argv[])
     for (i = 0; parm.vals->answers[i]; i++) {
         scan_vals(parm.vals->answers[i], &dx);
 <<<<<<< HEAD
+<<<<<<< HEAD
         print_d_label(dx, format, root_array);
 =======
         print_d_label(dx);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        print_d_label(dx);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
     if (format == JSON) {
@@ -376,6 +400,7 @@ int main(int argc, char *argv[])
     exit(EXIT_SUCCESS);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 void print_json(JSON_Value *root_value)
 {
@@ -391,6 +416,8 @@ void print_json(JSON_Value *root_value)
 
 int print_label(long x, enum OutputFormat format, JSON_Array *root_array)
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 int print_label(long x)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -399,6 +426,7 @@ int print_label(long x)
     JSON_Object *category;
 
     G_squeeze(label = Rast_get_c_cat((CELL *)&x, &cats));
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     switch (format) {
@@ -414,6 +442,8 @@ int print_label(long x)
         break;
     }
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     fprintf(stdout, "%ld%s%s\n", x, fs, label);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
