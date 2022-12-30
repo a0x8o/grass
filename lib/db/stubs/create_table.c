@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_create_table(dbTable *table)
 =======
 <<<<<<< HEAD
@@ -69,6 +70,8 @@ int db__driver_create_table(dbTable *table)
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_create_table(dbTable *table UNUSED)
 =======
 int db__driver_create_table(dbTable *table)
@@ -90,6 +93,7 @@ int db__driver_create_table(dbTable *table)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int db__driver_create_table(dbTable *table)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -185,6 +189,11 @@ int db__driver_create_table(dbTable *table)
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int db__driver_create_table(dbTable *table)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 {
     db_procedure_not_implemented("db_create_table");
     return DB_FAILED;

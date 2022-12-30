@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_open_insert_cursor(dbCursor *cursor)
 =======
 <<<<<<< HEAD
@@ -69,6 +70,8 @@ int db__driver_open_insert_cursor(dbCursor *cursor)
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_open_insert_cursor(dbCursor *cursor UNUSED)
 =======
 int db__driver_open_insert_cursor(dbCursor *cursor)
@@ -90,6 +93,7 @@ int db__driver_open_insert_cursor(dbCursor *cursor)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int db__driver_open_insert_cursor(dbCursor *cursor)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -185,6 +189,11 @@ int db__driver_open_insert_cursor(dbCursor *cursor)
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int db__driver_open_insert_cursor(dbCursor *cursor)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 {
     db_procedure_not_implemented("db_open_insert_cursor");
     return DB_FAILED;
