@@ -13,6 +13,7 @@ set GRASS_PYTHON=%GISBASE%\extrabin\python3.exe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 set PYTHONHOME=%GISBASE%\Python39
 =======
 <<<<<<< HEAD
@@ -35,6 +36,8 @@ set PYTHONHOME=%GISBASE%\Python39
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 set PYTHONHOME=%GISBASE%\Python312
 =======
 set PYTHONHOME=%GISBASE%\Python39
@@ -46,6 +49,7 @@ set PYTHONHOME=%GISBASE%\Python39
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 set PYTHONHOME=%GISBASE%\Python39
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -82,6 +86,11 @@ set PYTHONHOME=%GISBASE%\Python39
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+set PYTHONHOME=%GISBASE%\Python39
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 
 set GRASS_PROJSHARE=%GISBASE%\share\proj
 

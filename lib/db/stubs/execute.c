@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_execute_immediate(dbString *SQLstatement)
 =======
 <<<<<<< HEAD
@@ -33,6 +34,8 @@ int db__driver_execute_immediate(dbString *SQLstatement)
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_execute_immediate(dbString *SQLstatement UNUSED)
 =======
 int db__driver_execute_immediate(dbString *SQLstatement)
@@ -44,6 +47,7 @@ int db__driver_execute_immediate(dbString *SQLstatement)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int db__driver_execute_immediate(dbString *SQLstatement)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -80,6 +84,11 @@ int db__driver_execute_immediate(dbString *SQLstatement)
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int db__driver_execute_immediate(dbString *SQLstatement)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 {
     db_procedure_not_implemented("db_execute_immediate");
     return DB_FAILED;

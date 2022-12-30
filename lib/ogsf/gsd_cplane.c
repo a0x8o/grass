@@ -254,6 +254,7 @@ void gsd_cplane_settrans(int num, float tx, float ty, float tz)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void gsd_draw_cplane_fence(geosurf *surf1, geosurf *surf2, int cpnum)
 =======
 <<<<<<< HEAD
@@ -276,6 +277,8 @@ void gsd_draw_cplane_fence(geosurf *surf1, geosurf *surf2, int cpnum)
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 void gsd_draw_cplane_fence(geosurf *surf1, geosurf *surf2 UNUSED, int cpnum)
 =======
 void gsd_draw_cplane_fence(geosurf *surf1, geosurf *surf2, int cpnum)
@@ -287,6 +290,7 @@ void gsd_draw_cplane_fence(geosurf *surf1, geosurf *surf2, int cpnum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void gsd_draw_cplane_fence(geosurf *surf1, geosurf *surf2, int cpnum)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -323,6 +327,11 @@ void gsd_draw_cplane_fence(geosurf *surf1, geosurf *surf2, int cpnum)
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void gsd_draw_cplane_fence(geosurf *surf1, geosurf *surf2, int cpnum)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 {
     int was_on;
     float len, dir[3], bgn[2], end[2], px, py, fencenorm[3];
@@ -342,6 +351,7 @@ void gsd_draw_cplane_fence(geosurf *surf1, geosurf *surf2, int cpnum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /* line on surface (asuming NO TILT) is (-A,B)->(A,-B),
 =======
 <<<<<<< HEAD
@@ -364,6 +374,8 @@ void gsd_draw_cplane_fence(geosurf *surf1, geosurf *surf2, int cpnum)
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
     /* line on surface (assuming NO TILT) is (-A,B)->(A,-B),
 =======
     /* line on surface (asuming NO TILT) is (-A,B)->(A,-B),
@@ -375,6 +387,7 @@ void gsd_draw_cplane_fence(geosurf *surf1, geosurf *surf2, int cpnum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     /* line on surface (asuming NO TILT) is (-A,B)->(A,-B),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -411,6 +424,11 @@ void gsd_draw_cplane_fence(geosurf *surf1, geosurf *surf2, int cpnum)
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    /* line on surface (asuming NO TILT) is (-A,B)->(A,-B),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
        extended thru Cp_pt */
     dir[X] = -Cp_norm[cpnum][Y];
     dir[Y] = Cp_norm[cpnum][X];

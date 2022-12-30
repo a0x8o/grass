@@ -80,6 +80,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int patchAreaDistributionSD(int fd, char **par, struct area_entry *ad,
 =======
 <<<<<<< HEAD
@@ -102,6 +103,8 @@ int patchAreaDistributionSD(int fd, char **par, struct area_entry *ad,
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 int patchAreaDistributionSD(int fd, char **par UNUSED, struct area_entry *ad,
 =======
 int patchAreaDistributionSD(int fd, char **par, struct area_entry *ad,
@@ -113,6 +116,7 @@ int patchAreaDistributionSD(int fd, char **par, struct area_entry *ad,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int patchAreaDistributionSD(int fd, char **par, struct area_entry *ad,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -149,6 +153,11 @@ int patchAreaDistributionSD(int fd, char **par, struct area_entry *ad,
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int patchAreaDistributionSD(int fd, char **par, struct area_entry *ad,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
                             double *result)
 {
     double indice = 0;
