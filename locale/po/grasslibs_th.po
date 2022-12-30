@@ -3668,6 +3668,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3770,6 +3771,8 @@ msgstr ""
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -3948,7 +3951,12 @@ msgstr ""
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 #: ../lib/gis/mapset.c:38
 msgid "MAPSET is not set"
 msgstr "ยังไม่ได้กำหนด ชุดแผนที่"
@@ -4205,6 +4213,7 @@ msgstr "none"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -4277,6 +4286,8 @@ msgstr "none"
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
@@ -4377,7 +4388,12 @@ msgstr "none"
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 #: ../lib/manage/do_copy.c:43
 #, c-format
 msgid "Copying %s <%s> to current mapset as <%s>"
@@ -11668,6 +11684,7 @@ msgstr "ค่าความลึก ไม่ถูกต้อง"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11761,6 +11778,8 @@ msgstr "ค่าความลึก ไม่ถูกต้อง"
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -12221,6 +12240,11 @@ msgstr "ค่าความลึก ไม่ถูกต้อง"
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Top must be larger than Bottom"
 msgstr "ค่าบน ต้องมากกว่าล่าง"

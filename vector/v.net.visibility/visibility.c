@@ -71,6 +71,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void init_vis(struct Point *points, int num_points, struct Line *lines,
               int num_lines)
 =======
@@ -185,6 +186,8 @@ void init_vis(struct Point *points, int num_points, struct Line *lines,
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -355,7 +358,12 @@ void init_vis(struct Point *points, int num_points, struct Line *lines,
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 void init_vis(struct Point *points, int num_points, struct Line *lines UNUSED,
               int num_lines UNUSED)
 =======
@@ -410,6 +418,7 @@ void init_vis(struct Point *points, int num_points, struct Line *lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -503,6 +512,8 @@ void init_vis(struct Point *points, int num_points, struct Line *lines,
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -843,7 +854,12 @@ void init_vis(struct Point *points, int num_points, struct Line *lines,
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 {
     int i;
     double d;

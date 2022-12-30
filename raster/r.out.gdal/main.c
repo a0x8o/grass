@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * PURPOSE:      Exports GRASS raster to GDAL suported formats;
 =======
 <<<<<<< HEAD
@@ -167,6 +168,8 @@
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -336,7 +339,12 @@
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
  * PURPOSE:      Exports GRASS raster to GDAL supported formats;
 =======
  * PURPOSE:      Exports GRASS raster to GDAL suported formats;
@@ -389,6 +397,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -444,6 +453,8 @@
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -780,7 +791,12 @@
  * PURPOSE:      Exports GRASS raster to GDAL suported formats;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
  *               based on GDAL library.
  *               Replaces r.out.gdal.sh script which used the gdal_translate
  *               executable and GDAL grass-format plugin.
@@ -1917,6 +1933,7 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2160,6 +2177,8 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2218,11 +2237,14 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
         return NAN;
 
     case GDT_Float64:
     case GDT_CFloat64:
         return NAN;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3588,6 +3610,9 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
         return 0.0 / 0.0;
 
     case GDT_Float64:
@@ -3607,6 +3632,7 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3731,6 +3757,8 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -4175,7 +4203,12 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
     default:
         return 0;

@@ -72,6 +72,7 @@ int scan_attr(const struct Map_info *, int, const char *, const char *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -109,6 +110,8 @@ int scan_attr(const struct Map_info *, int, const char *, const char *,
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -490,7 +493,13 @@ int scan_attr(const struct Map_info *, int, const char *, const char *,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
 /* scan_z.c */
 void scan_z(struct Map_info *, int, const char *, const char *,
@@ -561,6 +570,7 @@ void write_rgb_values(const struct Map_info *, int, const char *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -598,6 +608,8 @@ void write_rgb_values(const struct Map_info *, int, const char *,
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -979,6 +991,12 @@ void write_rgb_values(const struct Map_info *, int, const char *,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 /* read_rgb.c */
 void rgb2colr(struct Map_info *, int, const char *, struct Colors *);

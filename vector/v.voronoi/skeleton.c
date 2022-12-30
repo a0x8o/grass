@@ -620,6 +620,7 @@ int tie_up(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -759,6 +760,8 @@ int tie_up(void)
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1047,7 +1050,12 @@ int tie_up(void)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         distmin = INFINITY;
 =======
 <<<<<<< HEAD
@@ -1127,6 +1135,7 @@ int tie_up(void)
 >>>>>>> osgeo-main
         distmin = 1. / 0.; /* +inf */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1931,7 +1940,12 @@ int tie_up(void)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         xmin = x;
         ymin = y;
 

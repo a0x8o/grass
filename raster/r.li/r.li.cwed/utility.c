@@ -127,6 +127,7 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -266,6 +267,8 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -554,7 +557,12 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     long i;    /* find token number */
     size_t it; /* iterator */
 =======
@@ -653,6 +661,7 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
     long i;  /* find token number */
     long it; /* iterator */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1458,7 +1467,12 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     long num;
 
     int term; /* =0 if last token has not /0 */

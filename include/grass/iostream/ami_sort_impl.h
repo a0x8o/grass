@@ -393,6 +393,7 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -553,6 +554,8 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -1430,7 +1433,15 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+    int i = 0;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     while (!rheap.empty()) {
         // mergedStr->write_item( rheap.extract_min() );
         // xxx should check error here
@@ -1517,6 +1528,7 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1677,6 +1689,8 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -2554,7 +2568,15 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+        i++;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     SDEBUG cout << "..done\n";

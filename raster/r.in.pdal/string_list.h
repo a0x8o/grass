@@ -72,6 +72,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -211,6 +212,8 @@
 =======
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -291,10 +294,13 @@
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -392,6 +398,8 @@
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -860,7 +868,12 @@
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 3bb9edaff3 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 /****************************************************************************
  *
  * MODULE:       r.in.pdal
@@ -946,6 +959,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1076,6 +1090,8 @@
 =======
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1165,10 +1181,13 @@
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1266,6 +1285,8 @@
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -1734,7 +1755,12 @@
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 3bb9edaff3 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 /* A list which keeps multiple strings
  *
  * Intended for list of file names read from a file.
@@ -1814,6 +1840,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1917,6 +1944,8 @@
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -2349,7 +2378,12 @@ struct StringList {
 =======
 =======
 >>>>>>> 3bb9edaff3 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 struct StringList {
 =======
 struct StringList
@@ -2382,6 +2416,7 @@ struct StringList
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 92f4985d14 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
@@ -2403,6 +2438,8 @@ struct StringList
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 struct StringList {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2785,7 +2822,15 @@ struct StringList {
 =======
 =======
 >>>>>>> 3bb9edaff3 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+struct StringList {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     int num_items;
     int max_items;
     char **items;

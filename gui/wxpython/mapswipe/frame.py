@@ -173,6 +173,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -358,6 +359,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9890cdb67e (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cfd421bf4a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> 2f9dd78a3c (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
@@ -616,7 +619,12 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 =======
 >>>>>>> ce9d75290d (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
 >>>>>>> 9890cdb67e (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
             sb.SbDisplayGeometry,
             sb.SbMapScale,
             sb.SbGoTo,
@@ -805,6 +813,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
@@ -818,6 +827,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> e7579ce5b9 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
@@ -865,6 +876,8 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
             sb.SbDisplayGeometry,
             sb.SbMapScale,
             sb.SbGoTo,
@@ -876,6 +889,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1490,7 +1504,12 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 >>>>>>> ce9d75290d (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
 >>>>>>> 9890cdb67e (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         ]
         self.statusbar = self.CreateStatusbar(statusbarItems)
 
@@ -1593,6 +1612,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(SwipeMapPanel, self).ActivateFirstMap(event)
 =======
 <<<<<<< HEAD
@@ -1706,6 +1726,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1875,7 +1897,12 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         super().ActivateFirstMap(event)
 =======
         super(SwipeMapPanel, self).ActivateFirstMap(event)
@@ -1928,6 +1955,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1983,6 +2011,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2319,7 +2349,12 @@ class SwipeMapPanel(DoubleMapPanel):
         super(SwipeMapPanel, self).ActivateFirstMap(event)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
         self.firstMapWindow.ClearLines()
         self.firstMapWindow.Refresh()
@@ -2378,6 +2413,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(SwipeMapPanel, self).ActivateSecondMap(event)
 =======
 <<<<<<< HEAD
@@ -2491,6 +2527,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2660,7 +2698,12 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         super().ActivateSecondMap(event)
 =======
         super(SwipeMapPanel, self).ActivateSecondMap(event)
@@ -2713,6 +2756,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2768,6 +2812,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -3104,7 +3150,12 @@ class SwipeMapPanel(DoubleMapPanel):
         super(SwipeMapPanel, self).ActivateSecondMap(event)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
         self.secondMapWindow.ClearLines()
         self.secondMapWindow.Refresh()
@@ -3191,6 +3242,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -3298,6 +3350,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         self.resize = gs.clock()
 =======
 =======
@@ -3658,7 +3712,17 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        self.resize = gs.clock()
+=======
+        self.resize = grass.clock()
+<<<<<<< HEAD
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         super().OnSize(event)
 =======
         super(SwipeMapPanel, self).OnSize(event)
@@ -3711,6 +3775,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3766,6 +3831,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -4104,7 +4171,12 @@ class SwipeMapPanel(DoubleMapPanel):
         super(SwipeMapPanel, self).OnSize(event)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
     def OnIdle(self, event):
         if self.resize and gs.clock() - self.resize > 0.2:

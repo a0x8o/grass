@@ -133,6 +133,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -326,6 +327,8 @@ typedef struct {
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -665,7 +668,12 @@ typedef struct {
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 static channel channels[6] = {{.suffix = ""},   {.suffix = ""},
                               {.suffix = ".r"}, {.suffix = ".g"},
                               {.suffix = ".b"}, {.suffix = ".a"}};
@@ -734,6 +742,7 @@ static channel channels[6] = {{.suffix = ""},   {.suffix = ""},
 >>>>>>> osgeo-main
 static channel channels[6] = {{""}, {""}, {".r"}, {".g"}, {".b"}, {".a"}};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1697,7 +1706,12 @@ static channel channels[6] = {{.suffix = ""},   {.suffix = ""},
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
 static int Header;
 static int Float;
@@ -2079,6 +2093,7 @@ static void read_png(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2218,6 +2233,8 @@ static void read_png(void)
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2506,7 +2523,12 @@ static void read_png(void)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     png_buffer = G_malloc((size_t)interlace ? (size_t)height * linesize
                                             : (size_t)linesize);
 =======
@@ -2604,6 +2626,7 @@ static void read_png(void)
 >>>>>>> osgeo-main
     png_buffer = G_malloc(interlace ? height * linesize : linesize);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3392,7 +3415,12 @@ static void read_png(void)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
     if (interlace) {
         png_rows = G_malloc(height * sizeof(png_bytep));

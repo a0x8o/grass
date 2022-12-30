@@ -264,6 +264,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -403,6 +404,8 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -691,7 +694,12 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         if ((size_t)nat_off_t == port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -771,6 +779,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
         if (nat_off_t == port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1575,7 +1584,12 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
             ret = dig_fread(buf, port_off_t_size, cnt, fp);
             if (ret != (int)cnt)
                 return 0;
@@ -1672,6 +1686,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1811,6 +1826,8 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2099,7 +2116,12 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         else if ((size_t)nat_off_t > port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -2179,6 +2201,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
         else if (nat_off_t > port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2983,7 +3006,12 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
             /* read into buffer */
             buf_alloc(cnt * port_off_t_size);
             ret = dig_fread(buffer, port_off_t_size, cnt, fp);
@@ -3103,6 +3131,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3242,6 +3271,8 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3530,7 +3561,12 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         else if ((size_t)nat_off_t < port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -3610,6 +3646,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
         else if (nat_off_t < port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4414,7 +4451,12 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
             /* should never happen */
             G_fatal_error(_("Vector exceeds supported file size limit"));
         }
@@ -4512,6 +4554,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4651,6 +4694,8 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4939,7 +4984,12 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         if ((size_t)nat_off_t >= port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -5019,6 +5069,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
         if (nat_off_t >= port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5823,7 +5874,12 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
             /* read into buffer */
             buf_alloc(cnt * port_off_t_size);
             ret = dig_fread(buffer, port_off_t_size, cnt, fp);
@@ -5942,6 +5998,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6081,6 +6138,8 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6369,7 +6428,12 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         else if ((size_t)nat_off_t < port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -6449,6 +6513,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
         else if (nat_off_t < port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7253,7 +7318,12 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
             /* should never happen */
             G_fatal_error(_("Vector exceeds supported file size limit"));
         }
@@ -7747,6 +7817,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7946,6 +8017,8 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -8285,7 +8358,12 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         if ((size_t)nat_off_t == port_off_t_size) {
             if (dig_fwrite(buf, port_off_t_size, cnt, fp) == cnt)
                 return 1;
@@ -8352,6 +8430,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8808,7 +8887,12 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         if (nat_off_t == port_off_t_size) {
             if (dig_fwrite(buf, port_off_t_size, cnt, fp) == cnt)
                 return 1;
@@ -8886,6 +8970,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9017,6 +9102,8 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -10295,7 +10382,13 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
             buf_alloc(cnt * port_off_t_size);
             c1 = (unsigned char *)buf;
             c2 = (unsigned char *)buffer;
@@ -10403,6 +10496,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10542,6 +10636,8 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10830,7 +10926,12 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         else if ((size_t)nat_off_t < port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -10910,6 +11011,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
         else if (nat_off_t < port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11714,7 +11816,12 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
             /* should never happen */
             G_fatal_error("Vector exceeds supported file size limit");
         }
@@ -11812,6 +11919,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11951,6 +12059,8 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12239,7 +12349,12 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         if ((size_t)nat_off_t >= port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -12319,6 +12434,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
         if (nat_off_t >= port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13123,7 +13239,12 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
             buf_alloc(cnt * port_off_t_size);
             c1 = (unsigned char *)buf;
             c2 = (unsigned char *)buffer;
@@ -13228,6 +13349,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13367,6 +13489,8 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13655,7 +13779,12 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         else if ((size_t)nat_off_t < port_off_t_size) {
 =======
 <<<<<<< HEAD
@@ -13735,6 +13864,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
         else if (nat_off_t < port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14539,7 +14669,12 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
             /* should never happen */
             G_fatal_error(_("Vector exceeds supported file size limit"));
         }
@@ -14908,6 +15043,7 @@ void dig_init_portable(struct Port_info *port, int byte_order)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15015,6 +15151,8 @@ void dig_init_portable(struct Port_info *port, int byte_order)
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -16032,7 +16170,16 @@ void dig_init_portable(struct Port_info *port, int byte_order)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+    for (i = 0; i < (size_t)nat_off_t; i++) {
+=======
+    for (i = 0; i < nat_off_t; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         if (port->byte_order == ENDIAN_BIG)
             port->off_t_cnvrt[i] = off_t_cnvrt[i];
         else
@@ -16153,6 +16300,7 @@ int dig_set_cur_port(struct Port_info *port)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -16280,6 +16428,8 @@ int dig_set_cur_port(struct Port_info *port)
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -17099,7 +17249,16 @@ int dig__byte_order_out(void)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+int dig__byte_order_out(void)
+=======
+int dig__byte_order_out()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 {
     if (dbl_order == ENDIAN_LITTLE)
         return (ENDIAN_LITTLE);

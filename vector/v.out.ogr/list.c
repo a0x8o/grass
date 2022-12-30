@@ -32,6 +32,7 @@ char *OGR_list_write_drivers(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -431,7 +432,13 @@ char *OGR_list_write_drivers(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 #if GDAL_VERSION_NUM >= 2000000
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     GDALDriverH hDriver;
@@ -464,6 +471,7 @@ char *OGR_list_write_drivers(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -863,7 +871,13 @@ char *OGR_list_write_drivers(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 #if GDAL_VERSION_NUM >= 2000000
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     /* get GDAL driver names */
@@ -918,6 +932,7 @@ char *OGR_list_write_drivers(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -940,6 +955,8 @@ char *OGR_list_write_drivers(void)
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 =======
@@ -1144,7 +1161,12 @@ char *OGR_list_write_drivers(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
         Ogr_driver = OGRGetDriver(i);
         G_debug(2, "driver %d/%d : %s", i, OGRGetDriverCount(),
@@ -1250,6 +1272,7 @@ char *default_driver(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -1287,6 +1310,8 @@ char *default_driver(void)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -1668,7 +1693,13 @@ char *default_driver(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         return G_store("GPKG");
     }
 

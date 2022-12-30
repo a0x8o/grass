@@ -144,6 +144,7 @@ void fatal_error(Database db, char *errorMsg); /*Simple Error message */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -283,6 +284,8 @@ void fatal_error(Database db, char *errorMsg); /*Simple Error message */
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -571,7 +574,12 @@ void fatal_error(Database db, char *errorMsg); /*Simple Error message */
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 void set_params(void);                         /*Fill the paramType structure */
 =======
 <<<<<<< HEAD
@@ -651,6 +659,7 @@ void set_params(void);                         /*Fill the paramType structure */
 >>>>>>> osgeo-main
 void set_params();                             /*Fill the paramType structure */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1455,7 +1464,12 @@ void set_params();                             /*Fill the paramType structure */
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 void elev_raster_to_g3d(Database db,
                         RASTER3D_Region region); /*Write the raster */
 int open_input_raster_map(const char *name);     /*opens the outputmap */
@@ -1717,6 +1731,7 @@ void elev_raster_to_g3d(Database db, RASTER3D_Region region)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "Caluclating position in 3d region -> height %g with value %g",
 =======
 <<<<<<< HEAD
@@ -1830,6 +1845,8 @@ void elev_raster_to_g3d(Database db, RASTER3D_Region region)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1999,7 +2016,12 @@ void elev_raster_to_g3d(Database db, RASTER3D_Region region)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
                 "Calculating position in 3d region -> height %g with value %g",
 =======
                 "Caluclating position in 3d region -> height %g with value %g",
@@ -2052,6 +2074,7 @@ void elev_raster_to_g3d(Database db, RASTER3D_Region region)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2107,6 +2130,8 @@ void elev_raster_to_g3d(Database db, RASTER3D_Region region)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2443,7 +2468,12 @@ void elev_raster_to_g3d(Database db, RASTER3D_Region region)
                 "Caluclating position in 3d region -> height %g with value %g",
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
                 height, inval);
 
             /* Calculate if the RASTER3D cell is lower or upper the elevation

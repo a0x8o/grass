@@ -209,6 +209,7 @@ int I_convert_con_points(char *, struct Ortho_Control_Points *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -348,6 +349,8 @@ int I_convert_con_points(char *, struct Ortho_Control_Points *,
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -636,7 +639,12 @@ int I_convert_con_points(char *, struct Ortho_Control_Points *,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 int I_compute_ref_equations(struct Ortho_Photo_Points *, double[3], double[3],
                             double[3], double[3]);
 =======
@@ -735,6 +743,7 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *, double[3], double[3],
 int I_compute_ref_equations(struct Ortho_Photo_Points *, double *, double *,
                             double *, double *);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1540,7 +1549,12 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *, double *, double *,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 /* orthoref.c */
 int I_compute_ortho_equations(struct Ortho_Control_Points *,
                               struct Ortho_Camera_File_Ref *,

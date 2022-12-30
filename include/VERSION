@@ -95,6 +95,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 3
@@ -357,6 +358,8 @@ dev
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6b0b0c9640 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 5
 =======
 =======
@@ -1012,10 +1015,14 @@ dev
 =======
 =======
 >>>>>>> 1f45827248 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 5
 =======
 =======
 >>>>>>> 3777db3c7d (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 4
 >>>>>>> 9fa78e6a12 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1036,6 +1043,7 @@ dev
 dev
 2021
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1120,6 +1128,8 @@ dev
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -1540,10 +1550,13 @@ dev
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
 3
 dev
 2022
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2060,4 +2073,9 @@ dev
 =======
 =======
 >>>>>>> cf7da16d77 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))

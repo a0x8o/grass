@@ -175,6 +175,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
 =======
@@ -855,7 +856,12 @@ int input_wkt(char *wktfile)
 =======
 =======
 >>>>>>> 10ccb1268a (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 0539d4fc84 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         size_t wktlen;
 
         wktlen = fread(buff, 1, sizeof(buff), infd);
@@ -1752,6 +1758,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1845,6 +1852,8 @@ int input_wkt(char *wktfile)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -2176,7 +2185,12 @@ int input_wkt(char *wktfile)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         wktlen = fread(buff, 1, sizeof(buff), infd);
         if (wktlen == sizeof(buff))
             G_fatal_error(_("Input WKT definition is too long"));
@@ -2188,6 +2202,7 @@ int input_wkt(char *wktfile)
         buff[wktlen] = '\0';
         /* Get rid of newlines */
         G_squeeze(buff);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2327,6 +2342,8 @@ int input_wkt(char *wktfile)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -2917,7 +2934,13 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> b3579a4902 (g.proj: fix reading input WKT (#1582))
 >>>>>>> a97572757d (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 8bfd50f462 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     }
     else
         G_fatal_error(_("Unable to open file '%s' for reading"), wktfile);

@@ -589,6 +589,7 @@ int scan_ref(char *buf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     case 1:
         if (xmatch(word1) || ymatch(word1))
             return 1;
@@ -704,6 +705,8 @@ int scan_ref(char *buf)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -875,12 +878,18 @@ int scan_ref(char *buf)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         FALLTHROUGH;
     case 1:
         if (xmatch(word1) || ymatch(word1))
             return 1;
         FALLTHROUGH;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -927,6 +936,8 @@ int scan_ref(char *buf)
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     case EOF:
 =======
 >>>>>>> osgeo-main
@@ -1533,7 +1544,20 @@ int scan_ref(char *buf)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    case EOF:
+=======
+=======
+    case 1:
+        if (xmatch(word1) || ymatch(word1))
+            return 1;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     default:
         return 0;
     }

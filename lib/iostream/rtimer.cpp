@@ -118,6 +118,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -225,6 +226,8 @@
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -760,7 +763,12 @@
 // #include <rtimer.h>
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 #include <grass/iostream/rtimer.h>
 
 #define BUFMAX 256
@@ -807,6 +815,7 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -823,6 +832,8 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -900,9 +911,12 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
 // #include <rtimer.h>
 #include <grass/iostream/rtimer.h>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1041,6 +1055,8 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -1852,7 +1868,19 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 =======
 <<<<<<< HEAD
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+=======
+char *rt_sprint_safe(char *buf, Rtimer rt)
+{
+    if (rt_w_useconds(rt) == 0) {
+        sprintf(buf, "[%4.2fu (%.0f%%) %4.2fs (%.0f%%) %4.2f %.1f%%]", 0.0, 0.0,
+                0.0, 0.0, 0.0, 0.0);
+    }
+    else {
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         sprintf(buf, "[%4.2fu (%.0f%%) %4.2fs (%.0f%%) %4.2f %.1f%%]",
                 rt_u_useconds(rt) / 1000000,
                 100.0 * rt_u_useconds(rt) / rt_w_useconds(rt),
@@ -1933,6 +1961,7 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2064,6 +2093,8 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -3471,7 +3502,13 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     }
     return buf;
 }

@@ -142,6 +142,7 @@ off_t V1_rewrite_line_ogr(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(3, "V1_rewrite_line_ogr(): type=%d offset=%" PRI_OFF_T, type,
             offset);
 =======
@@ -256,6 +257,8 @@ off_t V1_rewrite_line_ogr(struct Map_info *Map, off_t offset, int type,
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -827,7 +830,17 @@ off_t V1_rewrite_line_ogr(struct Map_info *Map, off_t offset, int type,
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    G_debug(3, "V1_rewrite_line_ogr(): type=%d offset=%" PRId64, type, offset);
+=======
+    G_debug(3, "V1_rewrite_line_ogr(): type=%d offset=%" PRI_OFF_T, type,
+            offset);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 #ifdef HAVE_OGR
     if (type != V1_read_line_ogr(Map, NULL, NULL, offset)) {
         G_warning(_("Unable to rewrite feature (incompatible feature types)"));
@@ -920,6 +933,7 @@ int V1_delete_line_ogr(struct Map_info *Map, off_t offset)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_warning(_("Invalid offset (%" PRI_OFF_T ")"), offset);
 =======
 <<<<<<< HEAD
@@ -1033,6 +1047,8 @@ int V1_delete_line_ogr(struct Map_info *Map, off_t offset)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1202,7 +1218,12 @@ int V1_delete_line_ogr(struct Map_info *Map, off_t offset)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         G_warning(_("Invalid offset (%" PRId64 ")"), offset);
 =======
         G_warning(_("Invalid offset (%" PRI_OFF_T ")"), offset);
@@ -1255,6 +1276,7 @@ int V1_delete_line_ogr(struct Map_info *Map, off_t offset)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1310,6 +1332,8 @@ int V1_delete_line_ogr(struct Map_info *Map, off_t offset)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1646,7 +1670,12 @@ int V1_delete_line_ogr(struct Map_info *Map, off_t offset)
         G_warning(_("Invalid offset (%" PRI_OFF_T ")"), offset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         return -1;
     }
 

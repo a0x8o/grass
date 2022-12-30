@@ -164,6 +164,7 @@ void *Rast3d_cache_new(int nofElts, int sizeOfElts, int nofNames,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -277,6 +278,8 @@ void *Rast3d_cache_new(int nofElts, int sizeOfElts, int nofNames,
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -726,11 +729,17 @@ void *Rast3d_cache_new(int nofElts, int sizeOfElts, int nofNames,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
                        int (*eltRemoveFun)(int, const void *, void *),
                        void *eltRemoveFunData,
                        int (*eltLoadFun)(int, void *, void *),
                        void *eltLoadFunData)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -928,10 +937,16 @@ void *Rast3d_cache_new(int nofElts, int sizeOfElts, int nofNames,
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
                        int (*eltRemoveFun)(), void *eltRemoveFunData,
                        int (*eltLoadFun)(), void *eltLoadFunData)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1726,7 +1741,12 @@ void *Rast3d_cache_new(int nofElts, int sizeOfElts, int nofNames,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 {
     RASTER3D_cache *tmp;
     int i;
@@ -1869,6 +1889,7 @@ void *Rast3d_cache_new(int nofElts, int sizeOfElts, int nofNames,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2008,6 +2029,8 @@ void *Rast3d_cache_new(int nofElts, int sizeOfElts, int nofNames,
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2296,7 +2319,12 @@ void *Rast3d_cache_new(int nofElts, int sizeOfElts, int nofNames,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 void Rast3d_cache_set_remove_fun(RASTER3D_cache *c,
                                  int (*eltRemoveFun)(int, const void *, void *),
 =======
@@ -2394,6 +2422,7 @@ void Rast3d_cache_set_remove_fun(RASTER3D_cache *c,
 >>>>>>> osgeo-main
 void Rast3d_cache_set_remove_fun(RASTER3D_cache *c, int (*eltRemoveFun)(),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3182,7 +3211,12 @@ void Rast3d_cache_set_remove_fun(RASTER3D_cache *c, int (*eltRemoveFun)(),
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
                                  void *eltRemoveFunData)
 {
     c->eltRemoveFun = eltRemoveFun;
@@ -3283,6 +3317,7 @@ void Rast3d_cache_set_remove_fun(RASTER3D_cache *c, int (*eltRemoveFun)(),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3422,6 +3457,8 @@ void Rast3d_cache_set_remove_fun(RASTER3D_cache *c, int (*eltRemoveFun)(),
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3710,7 +3747,12 @@ void Rast3d_cache_set_remove_fun(RASTER3D_cache *c, int (*eltRemoveFun)(),
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 void Rast3d_cache_set_load_fun(RASTER3D_cache *c,
                                int (*eltLoadFun)(int, void *, void *),
 =======
@@ -3808,6 +3850,7 @@ void Rast3d_cache_set_load_fun(RASTER3D_cache *c,
 >>>>>>> osgeo-main
 void Rast3d_cache_set_load_fun(RASTER3D_cache *c, int (*eltLoadFun)(),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4596,7 +4639,12 @@ void Rast3d_cache_set_load_fun(RASTER3D_cache *c, int (*eltLoadFun)(),
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
                                void *eltLoadFunData)
 {
     c->eltLoadFun = eltLoadFun;

@@ -87,6 +87,7 @@ extern struct Ref ref;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -190,6 +191,8 @@ extern struct Ref ref;
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -615,7 +618,12 @@ extern char **semantic_labels;
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 extern char **semantic_labels;
 =======
 extern char **bandrefs;
@@ -647,6 +655,7 @@ extern char **bandrefs;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
@@ -668,6 +677,8 @@ extern char **bandrefs;
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 extern char **semantic_labels;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1050,7 +1061,15 @@ extern char **semantic_labels;
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+extern char **semantic_labels;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 extern char outsigfile[GNAME_MAX + GMAPSET_MAX];
 extern char *insigfile;
 extern char *reportfile;

@@ -102,6 +102,7 @@ from .core import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -172,6 +173,8 @@ from .core import (
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
@@ -225,7 +228,12 @@ from .core import (
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     init_dbif,
 )
 from .datetime_math import increment_datetime_by_string, string_to_datetime
@@ -235,6 +243,7 @@ from .spatio_temporal_relationships import (
     create_temporal_relation_sql_where_statement,
     print_spatio_temporal_topology_relationships,
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -762,6 +771,8 @@ from .spatio_temporal_relationships import (
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 )
 from .abstract_dataset import (
@@ -769,6 +780,7 @@ from .abstract_dataset import (
     AbstractDatasetComparisonKeyStartTime,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -919,7 +931,13 @@ from .abstract_dataset import (
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 )
 from .temporal_granularity import (
     check_granularity_string,
@@ -6150,6 +6168,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # use all columns
         rows = self.get_registered_maps(
             None, where, order, dbif, spatial_extent, spatial_relation
@@ -6266,6 +6285,8 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -6438,7 +6459,12 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
             # check keys in first row
             # note that 'if "bottom" in row' does not work
             # because row is not a dict but some db backend object
@@ -6483,6 +6509,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 
             obj_list.append(copy.copy(map))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6613,6 +6640,8 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -7444,7 +7473,14 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+        # use all columns
+        rows = self.get_registered_maps(None, where, order, dbif)
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
         if rows is not None:
             has_bt_columns = False
@@ -7612,6 +7648,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -7649,6 +7686,8 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -8030,7 +8069,13 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
                         br="semantic_label",
                         si=shortcut_identifier,
                         orig=self.semantic_label.upper(),
@@ -12641,6 +12686,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12889,6 +12935,8 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13019,13 +13067,19 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
             # filter by spatial extent
             if spatial_extent and spatial_relation:
                 where = self._update_where_statement_by_spatial_extent(
                     where, spatial_extent, spatial_relation
                 )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13147,6 +13201,10 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 
             # filter by spatial extent
             if spatial_extent and spatial_relation:
@@ -14910,6 +14968,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -15009,6 +15068,8 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -15166,7 +15227,12 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         # Comment out update of semantic labels for DB version < 3
         if get_tgis_db_version_from_metadata() < 3:
             sql = sql.replace(
@@ -15177,6 +15243,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
                 "count(distinct semantic_label)",
                 "-- count(distinct semantic_label)",
             )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15335,7 +15402,12 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         elif old_sqlite_version and self.get_type() == "strds":
             semantic_label_sql = Path(
                 sql_path, "update_strds_metadata_template_v3.sql"
@@ -15343,6 +15415,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
             sql = sql + "\n" + semantic_label_sql
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15435,6 +15508,8 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -15757,7 +15832,12 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         for version in range(3, get_tgis_db_version_from_metadata() + 1):
             sqlfile = os.path.join(
                 sql_path,
@@ -15767,6 +15847,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
             )
             if os.path.exists(sqlfile):
                 sql += open(sqlfile).read()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16290,7 +16371,14 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
         sql = sql.replace("SPACETIME_REGISTER_TABLE", stds_register_table)
         sql = sql.replace("SPACETIME_ID", self.base.get_id())

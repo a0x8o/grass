@@ -909,6 +909,7 @@ static int format(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1108,6 +1109,8 @@ static int format(struct Map_info *Map, int build)
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -1447,7 +1450,12 @@ static int format(struct Map_info *Map, int build)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 static int (*Build_array[])(struct Map_info *, int) = {Vect_build_nat
 #ifdef HAVE_OGR
                                                        ,
@@ -1463,6 +1471,7 @@ static int (*Build_array[])(struct Map_info *, int) = {Vect_build_nat
 #else
                                                        ,
                                                        format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1512,6 +1521,8 @@ static int (*Build_array[])(struct Map_info *, int) = {Vect_build_nat
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2659,6 +2670,9 @@ static int (*Build_array[])(struct Map_info *, int) = {Vect_build_nat
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 static int (*Build_array[])() = {Vect_build_nat
 #ifdef HAVE_OGR
                                  ,
@@ -2673,6 +2687,7 @@ static int (*Build_array[])() = {Vect_build_nat
 #else
                                  ,
                                  format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3118,7 +3133,13 @@ static int (*Build_array[])(struct Map_info *, int) = {Vect_build_nat
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 #endif
 };
 
@@ -4087,6 +4108,7 @@ int Vect_build_partial(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4226,6 +4248,8 @@ int Vect_build_partial(struct Map_info *Map, int build)
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4514,7 +4538,12 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
             err_centr_dupl /*, err_nocentr */;
 =======
 <<<<<<< HEAD
@@ -4594,6 +4623,7 @@ int Vect_build_partial(struct Map_info *Map, int build)
 >>>>>>> osgeo-main
             err_centr_dupl, err_nocentr;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5398,7 +5428,12 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         struct P_line *Line;
         struct Plus_head *Plus;
 
@@ -5522,6 +5557,7 @@ int Vect_build_partial(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5661,6 +5697,8 @@ int Vect_build_partial(struct Map_info *Map, int build)
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5949,7 +5987,12 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         /* err_nocentr = 0; */
 =======
 <<<<<<< HEAD
@@ -6029,6 +6072,7 @@ int Vect_build_partial(struct Map_info *Map, int build)
 >>>>>>> osgeo-main
         err_nocentr = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6833,7 +6877,12 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         nareas = Vect_get_num_areas(Map);
         for (area = 1; area <= nareas; area++) {
             if (!Vect_area_alive(Map, area))
@@ -6931,6 +6980,7 @@ int Vect_build_partial(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7070,6 +7120,8 @@ int Vect_build_partial(struct Map_info *Map, int build)
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7358,7 +7410,12 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
             /* if (line == 0)
                 err_nocentr++; */
 =======
@@ -7457,6 +7514,7 @@ int Vect_build_partial(struct Map_info *Map, int build)
             if (line == 0)
                 err_nocentr++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8263,7 +8321,12 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         }
 
         G_verbose_message(_("Number of areas: %d"), plus->n_areas);
@@ -8600,6 +8663,7 @@ int Vect_build_sidx_from_topo(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8725,6 +8789,8 @@ int Vect_build_sidx_from_topo(struct Map_info *Map)
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -9618,7 +9684,15 @@ int Vect_build_sidx_from_topo(struct Map_info *Map)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     G_debug(3, "Vect_build_sidx_from_topo(): name=%s", Vect_get_full_name(Map));
 
     G_warning(_("%s is no longer supported"), "Vect_build_sidx_from_topo()");
@@ -9740,6 +9814,7 @@ int Vect_save_sidx(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_sidx_dump(const struct Map_info *Map, FILE *out)
 =======
 <<<<<<< HEAD
@@ -9853,6 +9928,8 @@ int Vect_sidx_dump(const struct Map_info *Map, FILE *out)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -10022,7 +10099,12 @@ int Vect_sidx_dump(const struct Map_info *Map, FILE *out)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 int Vect_sidx_dump(struct Map_info *Map, FILE *out)
 =======
 int Vect_sidx_dump(const struct Map_info *Map, FILE *out)
@@ -10075,6 +10157,7 @@ int Vect_sidx_dump(const struct Map_info *Map, FILE *out)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10130,6 +10213,8 @@ int Vect_sidx_dump(const struct Map_info *Map, FILE *out)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -10466,7 +10551,12 @@ int Vect_sidx_dump(const struct Map_info *Map, FILE *out)
 int Vect_sidx_dump(const struct Map_info *Map, FILE *out)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 {
     if (!(Map->plus.Spidx_built)) {
         Vect_build_sidx_from_topo(Map);

@@ -71332,6 +71332,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -71391,6 +71392,8 @@ msgstr ""
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f1fe50e39a (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -71742,7 +71745,14 @@ msgstr ""
 msgid "Coordinates to profile"
 msgstr "ค่าพิกัด E และ N ของจุดเริ่มต้น"
 >>>>>>> 7de156f16b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> f1fe50e39a (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+msgid "Coordinates to profile"
+msgstr ""
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
@@ -71803,6 +71813,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -71862,6 +71873,8 @@ msgstr ""
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f1fe50e39a (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -72213,7 +72226,14 @@ msgstr ""
 msgid "Profile output format"
 msgstr "คำนำหน้า สำหรับ แผนที่เชิงภาพ ผลลัพธ์"
 >>>>>>> 7de156f16b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> f1fe50e39a (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+msgid "Profile output format"
+msgstr ""
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:292
 #, c-format
@@ -76313,6 +76333,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -76385,6 +76406,8 @@ msgstr ""
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -76452,7 +76475,12 @@ msgstr ""
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 #, fuzzy
 #~ msgid "layer name or number to use for data"
 #~ msgstr "จำนวนชั้นข้อมูล"

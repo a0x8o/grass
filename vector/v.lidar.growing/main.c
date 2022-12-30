@@ -249,6 +249,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
@@ -724,7 +727,15 @@ int main(int argc, char *argv[])
         ;
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    while (Vect_read_next_line(&In, points, Cats) > 0)
+        ;
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     while (Vect_read_next_line(&In, points, Cats) > 0) {
         nlines++;
     }
@@ -777,6 +788,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -870,6 +882,8 @@ int main(int argc, char *argv[])
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
@@ -1499,7 +1513,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     Vect_rewind(&In);
 
     /* no topology, get number of lines in first pulse input vector */
@@ -1578,6 +1597,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
@@ -2053,7 +2075,15 @@ int main(int argc, char *argv[])
         ;
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    while (Vect_read_next_line(&First, points_first, Cats_first) > 0)
+        ;
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     while (Vect_read_next_line(&First, points_first, Cats_first) > 0) {
         nlines_first++;
     }
@@ -2106,6 +2136,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -2199,6 +2230,8 @@ int main(int argc, char *argv[])
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
@@ -2828,7 +2861,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     Vect_rewind(&First);
 
     /* Setting regions and boxes */

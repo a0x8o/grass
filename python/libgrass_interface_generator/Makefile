@@ -129,6 +129,7 @@ imagery_HDRS    = imagery.h defs/imagery.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -268,6 +269,8 @@ imagery_HDRS    = imagery.h defs/imagery.h
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -556,7 +559,12 @@ imagery_HDRS    = imagery.h defs/imagery.h
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 vector_HDRS     = vector.h defs/vector.h vect/dig_structs.h vect/dig_defines.h vect/dig_externs.h
 =======
 <<<<<<< HEAD
@@ -636,6 +644,7 @@ vector_HDRS     = vector.h defs/vector.h vect/dig_structs.h vect/dig_defines.h v
 >>>>>>> osgeo-main
 vector_HDRS     = vector.h defs/vector.h vect/dig_structs.h vect/dig_defines.h vect/dig_externs.h 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1440,7 +1449,12 @@ vector_HDRS     = vector.h defs/vector.h vect/dig_structs.h vect/dig_defines.h v
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 rtree_HDRS	= rtree.h
 display_HDRS    = display.h defs/display.h
 stats_HDRS      = stats.h defs/stats.h

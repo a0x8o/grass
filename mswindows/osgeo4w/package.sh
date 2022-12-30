@@ -309,6 +309,7 @@ DLLS="
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -731,6 +732,11 @@ DLLS="
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+	/mingw64/bin/libexpat-1.dll
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 	/mingw64/bin/libfontconfig-1.dll
 	/mingw64/bin/libgfortran-5.dll
 	/mingw64/bin/libbrotlidec.dll
@@ -753,6 +759,7 @@ DLLS="
 	/mingw64/bin/libfftw3-3.dll
 	/mingw64/bin/libblas.dll
 	/mingw64/bin/liblapack.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1003,6 +1010,11 @@ DLLS="
 	/mingw64/bin/libomp.dll
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+	/mingw64/bin/libomp.dll
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 	/mingw64/bin/libquadmath-0.dll
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1403,6 +1415,7 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1502,11 +1515,14 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config \
 		--without-pdal
 =======
 		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1744,7 +1760,12 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
 	touch mswindows/osgeo4w/configure-stamp
 fi

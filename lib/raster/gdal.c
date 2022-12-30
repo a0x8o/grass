@@ -278,6 +278,7 @@ static void read_gdal_options(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -397,6 +398,8 @@ static void read_gdal_options(void)
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -887,7 +890,14 @@ static void read_gdal_options(void)
 =======
 =======
 >>>>>>> 3bb9edaff3 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
         G_file_name(path, p, "", G_mapset());
         st->opts.dir = G_store(path);
         if (access(path, 0) != 0)
@@ -935,6 +945,9 @@ static void read_gdal_options(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1328,6 +1341,7 @@ static void read_gdal_options(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1791,7 +1805,12 @@ static void read_gdal_options(void)
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 3bb9edaff3 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     p = G_find_key_value("extension", key_val);

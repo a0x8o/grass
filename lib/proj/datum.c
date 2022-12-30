@@ -460,6 +460,7 @@ struct datum_list *read_datum_table(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -609,6 +610,8 @@ struct datum_list *read_datum_table(void)
 =======
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -750,9 +753,12 @@ struct datum_list *read_datum_table(void)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
 
         count++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -843,6 +849,8 @@ struct datum_list *read_datum_table(void)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1662,7 +1670,12 @@ struct datum_list *read_datum_table(void)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     fclose(fd);

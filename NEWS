@@ -96,6 +96,7 @@ GRASS GIS 8
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -231,6 +232,8 @@ GRASS GIS 8
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6b0b0c9640 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -693,7 +696,12 @@ GRASS GIS 8
 =======
 =======
 >>>>>>> 1f45827248 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 6b0b0c9640 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
  o https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures82
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -703,6 +711,7 @@ GRASS GIS 8
 >>>>>>> e14069d05d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -747,6 +756,8 @@ GRASS GIS 8
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b0b0c9640 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
  o https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures82
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1264,7 +1275,15 @@ GRASS GIS 8
 =======
 =======
 >>>>>>> 1f45827248 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 6b0b0c9640 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+ o https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures82
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
 GRASS GIS 7
  o https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78

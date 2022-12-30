@@ -35,6 +35,7 @@ without a focus on a specific part of the code.
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -86,6 +87,8 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 There are two testing mechanism in place, _pytest_ which is the modern way of testing
 GRASS GIS. Tests using _pytest_ are written just as any other Python tests.
@@ -93,6 +96,8 @@ GRASS GIS. Tests using _pytest_ are written just as any other Python tests.
 =======
 =======
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -601,7 +606,9 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 =======
 GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -791,6 +798,7 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 <<<<<<< HEAD
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -989,8 +997,13 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
 GRASS GIS testsuite documentation: <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1037,7 +1050,13 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 =======
 =======
 >>>>>>> 1f45827248 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 6b0b0c9640 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 
 In parallel, there is also custom unittest-based framework centered around
 _grass.gunittest_ package. These tests run in the NC sample datasets and can be
@@ -1100,6 +1119,7 @@ Since 2020: For a more advanced test suite, see
 
 Until 2019: For a more advanced test suite, see
 <http://fatra.cnr.ncsu.edu/grassgistests/summary_report/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2065,4 +2085,13 @@ Until 2019: For a more advanced test suite, see
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))

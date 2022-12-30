@@ -91,6 +91,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -194,6 +195,8 @@
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -619,7 +622,12 @@
 =======
 =======
 >>>>>>> 3bb9edaff3 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 #if CAIRO_VERSION < CAIRO_VERSION_ENCODE(1, 10, 0) || defined(CAIRO_HAS_FC_FONT)
 =======
 #if CAIRO_VERSION < CAIRO_VERSION_ENCODE(1,10,0) || defined(CAIRO_HAS_FC_FONT)
@@ -651,6 +659,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 92f4985d14 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
@@ -672,6 +681,8 @@
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 #if CAIRO_VERSION < CAIRO_VERSION_ENCODE(1, 10, 0) || defined(CAIRO_HAS_FC_FONT)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1054,7 +1065,15 @@
 =======
 =======
 >>>>>>> 3bb9edaff3 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+#if CAIRO_VERSION < CAIRO_VERSION_ENCODE(1, 10, 0) || defined(CAIRO_HAS_FC_FONT)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 #define USE_FONTCONFIG 1
 #include <fontconfig/fontconfig.h>
 #else

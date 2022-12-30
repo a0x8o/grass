@@ -96,6 +96,7 @@ For more information on the test suite and unit tests, visit:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -239,6 +240,8 @@ For more information on the test suite and unit tests, visit:
 >>>>>>> ebf35028aa (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6b0b0c9640 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -595,6 +598,8 @@ https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> cf7da16d77 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 1f45827248 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -825,6 +830,7 @@ https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
@@ -861,6 +867,8 @@ https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -1308,4 +1316,9 @@ https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 1f45827248 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 6b0b0c9640 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
