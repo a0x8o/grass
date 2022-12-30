@@ -262,6 +262,7 @@ int DGL_SPAN_MINIMUM_SPANNING_FUNC(dglGraph_s *pgraphIn, dglGraph_s *pgraphOut,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                    dglInt32_t nVertex, dglSpanClip_fn fnClip,
                                    void *pvClipArg)
 =======
@@ -341,6 +342,8 @@ int DGL_SPAN_MINIMUM_SPANNING_FUNC(dglGraph_s *pgraphIn, dglGraph_s *pgraphOut,
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
                                    dglInt32_t nVertex, dglSpanClip_fn fnClip,
@@ -399,7 +402,12 @@ int DGL_SPAN_MINIMUM_SPANNING_FUNC(dglGraph_s *pgraphIn, dglGraph_s *pgraphOut,
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
                                    dglInt32_t nVertex,
                                    dglSpanClip_fn fnClip UNUSED,
                                    void *pvClipArg UNUSED)
@@ -437,6 +445,7 @@ int DGL_SPAN_MINIMUM_SPANNING_FUNC(dglGraph_s *pgraphIn, dglGraph_s *pgraphOut,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -494,6 +503,8 @@ int DGL_SPAN_MINIMUM_SPANNING_FUNC(dglGraph_s *pgraphIn, dglGraph_s *pgraphOut,
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -674,7 +685,12 @@ int DGL_SPAN_MINIMUM_SPANNING_FUNC(dglGraph_s *pgraphIn, dglGraph_s *pgraphOut,
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 {
     dglInt32_t *pHead, *pTail, *pEdgeset, *pEdge;
     dglHeap_s FrontEdgeHeap;

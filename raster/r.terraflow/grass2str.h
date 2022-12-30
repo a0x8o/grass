@@ -170,6 +170,7 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,
 =======
 <<<<<<< HEAD
@@ -248,6 +249,8 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,
@@ -305,7 +308,12 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRId64, nrows, ncols,
 =======
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,
@@ -340,6 +348,7 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -359,6 +368,8 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -557,7 +568,12 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
             str->stream_len());
     assert((off_t)nrows * ncols == str->stream_len());
     rt_stop(rt);
