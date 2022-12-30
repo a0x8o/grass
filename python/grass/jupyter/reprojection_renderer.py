@@ -141,6 +141,7 @@ class ReprojectionRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             location=env_info["LOCATION_NAME"],
 =======
 <<<<<<< HEAD
@@ -225,10 +226,14 @@ class ReprojectionRenderer:
 =======
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
             location=env_info["LOCATION_NAME"],
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -302,8 +307,16 @@ class ReprojectionRenderer:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
             project=env_info["LOCATION_NAME"],
 =======
             location=env_info["LOCATION_NAME"],
@@ -341,6 +354,7 @@ class ReprojectionRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -367,10 +381,14 @@ class ReprojectionRenderer:
 =======
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
             location=env_info["LOCATION_NAME"],
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -587,8 +605,19 @@ class ReprojectionRenderer:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+            location=env_info["LOCATION_NAME"],
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
             dbase=env_info["GISDBASE"],
             resolution=self._region_manager.resolution,
             env=self._psmerc_env,
@@ -674,6 +703,7 @@ class ReprojectionRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             location=env_info["LOCATION_NAME"],
 =======
 <<<<<<< HEAD
@@ -758,10 +788,14 @@ class ReprojectionRenderer:
 =======
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
             location=env_info["LOCATION_NAME"],
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -835,8 +869,16 @@ class ReprojectionRenderer:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
             project=env_info["LOCATION_NAME"],
 =======
             location=env_info["LOCATION_NAME"],
@@ -874,6 +916,7 @@ class ReprojectionRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -900,10 +943,14 @@ class ReprojectionRenderer:
 =======
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
             location=env_info["LOCATION_NAME"],
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1120,8 +1167,19 @@ class ReprojectionRenderer:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+            location=env_info["LOCATION_NAME"],
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
             dbase=env_info["GISDBASE"],
             env=self._wgs84_env,
         )

@@ -160,6 +160,7 @@ def visit_type_and_collect_info(ctype):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Remove one level of indirection from funtion pointer; needed for typedefs
 =======
 <<<<<<< HEAD
@@ -244,10 +245,14 @@ def visit_type_and_collect_info(ctype):
 =======
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 # Remove one level of indirection from funtion pointer; needed for typedefs
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -321,8 +326,16 @@ def visit_type_and_collect_info(ctype):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
 # Remove one level of indirection from function pointer; needed for typedefs
 =======
 # Remove one level of indirection from funtion pointer; needed for typedefs
@@ -360,6 +373,7 @@ def visit_type_and_collect_info(ctype):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -386,10 +400,14 @@ def visit_type_and_collect_info(ctype):
 =======
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
 # Remove one level of indirection from funtion pointer; needed for typedefs
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -606,8 +624,19 @@ def visit_type_and_collect_info(ctype):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+# Remove one level of indirection from funtion pointer; needed for typedefs
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
 # and function parameters.
 def remove_function_pointer(t):
     if type(t) == CtypesPointer and type(t.destination) == CtypesFunction:
