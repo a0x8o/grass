@@ -68,6 +68,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_grant_on_table(dbString *tableName, int priv, int to)
 =======
 <<<<<<< HEAD
@@ -462,6 +463,8 @@ int db__driver_grant_on_table(dbString *tableName, int priv, int to)
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_grant_on_table(dbString *tableName UNUSED, int priv UNUSED,
                               int to UNUSED)
 =======
@@ -530,6 +533,7 @@ int db__driver_grant_on_table(dbString *tableName, int priv, int to)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1054,6 +1058,11 @@ int db__driver_grant_on_table(dbString *tableName, int priv, int to)
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int db__driver_grant_on_table(dbString *tableName, int priv, int to)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 {
     return DB_OK;
 }

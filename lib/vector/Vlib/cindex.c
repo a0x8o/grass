@@ -208,6 +208,7 @@ int Vect_cidx_get_field_index(struct Map_info *Map, int field)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_cidx_get_num_unique_cats_by_index(const struct Map_info *Map,
                                            int index)
 =======
@@ -769,11 +770,14 @@ int Vect_cidx_get_num_unique_cats_by_index(const struct Map_info *Map,
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 int Vect_cidx_get_num_unique_cats_by_index(struct Map_info *Map, int index)
 =======
 int Vect_cidx_get_num_unique_cats_by_index(const struct Map_info *Map,
                                            int index)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -834,9 +838,12 @@ int Vect_cidx_get_num_unique_cats_by_index(const struct Map_info *Map,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
 int Vect_cidx_get_num_unique_cats_by_index(const struct Map_info *Map,
                                            int index)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1123,6 +1130,8 @@ int Vect_cidx_get_num_unique_cats_by_index(const struct Map_info *Map,
                                            int index)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 {
     check_status(Map);
     check_index(Map, index);
@@ -1225,6 +1234,7 @@ int Vect_cidx_get_num_cats_by_index(struct Map_info *Map, int index)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_cidx_get_num_types_by_index(const struct Map_info *Map,
                                      int field_index)
 =======
@@ -1786,11 +1796,14 @@ int Vect_cidx_get_num_types_by_index(const struct Map_info *Map,
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 int Vect_cidx_get_num_types_by_index(struct Map_info *Map, int field_index)
 =======
 int Vect_cidx_get_num_types_by_index(const struct Map_info *Map,
                                      int field_index)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1851,9 +1864,12 @@ int Vect_cidx_get_num_types_by_index(const struct Map_info *Map,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
 int Vect_cidx_get_num_types_by_index(const struct Map_info *Map,
                                      int field_index)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2140,6 +2156,8 @@ int Vect_cidx_get_num_types_by_index(const struct Map_info *Map,
                                      int field_index)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 {
     check_status(Map);
     check_index(Map, field_index);
@@ -2226,6 +2244,7 @@ int Vect_cidx_get_num_types_by_index(const struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_cidx_get_type_count_by_index(const struct Map_info *Map,
                                       int field_index, int type_index,
                                       int *type, int *count)
@@ -2535,6 +2554,8 @@ int Vect_cidx_get_type_count_by_index(const struct Map_info *Map,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 int Vect_cidx_get_type_count_by_index(struct Map_info *Map, int field_index,
                                       int type_index, int *type, int *count)
 =======
@@ -2616,6 +2637,7 @@ int Vect_cidx_get_type_count_by_index(const struct Map_info *Map,
                                       int field_index, int type_index,
                                       int *type, int *count)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2846,10 +2868,13 @@ int Vect_cidx_get_type_count_by_index(const struct Map_info *Map,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
 int Vect_cidx_get_type_count_by_index(const struct Map_info *Map,
                                       int field_index, int type_index,
                                       int *type, int *count)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3282,6 +3307,8 @@ int Vect_cidx_get_type_count_by_index(const struct Map_info *Map,
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 {
     check_status(Map);
     check_index(Map, field_index);
@@ -3409,6 +3436,7 @@ int Vect_cidx_get_type_count(struct Map_info *Map, int field, int type)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_cidx_get_cat_by_index(const struct Map_info *Map, int field_index,
 =======
 <<<<<<< HEAD
@@ -3803,6 +3831,8 @@ int Vect_cidx_get_cat_by_index(const struct Map_info *Map, int field_index,
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 int Vect_cidx_get_cat_by_index(struct Map_info *Map, int field_index,
 =======
 int Vect_cidx_get_cat_by_index(const struct Map_info *Map, int field_index,
@@ -3870,6 +3900,7 @@ int Vect_cidx_get_cat_by_index(const struct Map_info *Map, int field_index,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4394,6 +4425,11 @@ int Vect_cidx_get_cat_by_index(const struct Map_info *Map, int field_index,
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vect_cidx_get_cat_by_index(const struct Map_info *Map, int field_index,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
                                int cat_index, int *cat, int *type, int *id)
 {
     check_status(Map); /* This check is slow ? */
@@ -4525,6 +4561,7 @@ int Vect_cidx_get_unique_cats_by_index(struct Map_info *Map, int field_index,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_cidx_find_next(const struct Map_info *Map, int field_index, int cat,
 =======
 <<<<<<< HEAD
@@ -4919,6 +4956,8 @@ int Vect_cidx_find_next(const struct Map_info *Map, int field_index, int cat,
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 int Vect_cidx_find_next(struct Map_info *Map, int field_index, int cat,
 =======
 int Vect_cidx_find_next(const struct Map_info *Map, int field_index, int cat,
@@ -4986,6 +5025,7 @@ int Vect_cidx_find_next(const struct Map_info *Map, int field_index, int cat,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5510,6 +5550,11 @@ int Vect_cidx_find_next(const struct Map_info *Map, int field_index, int cat,
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vect_cidx_find_next(const struct Map_info *Map, int field_index, int cat,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
                         int type_mask, int start_index, int *type, int *id)
 {
     int cat_index;
@@ -5622,6 +5667,7 @@ int Vect_cidx_find_next(const struct Map_info *Map, int field_index, int cat,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void Vect_cidx_find_all(const struct Map_info *Map, int layer, int type_mask,
                         int cat, struct ilist *lines)
 =======
@@ -6018,6 +6064,8 @@ void Vect_cidx_find_all(const struct Map_info *Map, int layer, int type_mask,
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 void Vect_cidx_find_all(struct Map_info *Map, int layer, int type_mask, int cat,
                         struct ilist *lines)
 =======
@@ -6087,6 +6135,7 @@ void Vect_cidx_find_all(const struct Map_info *Map, int layer, int type_mask,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6266,9 +6315,12 @@ void Vect_cidx_find_all(const struct Map_info *Map, int layer, int type_mask,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
 void Vect_cidx_find_all(const struct Map_info *Map, int layer, int type_mask,
                         int cat, struct ilist *lines)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6669,6 +6721,8 @@ void Vect_cidx_find_all(const struct Map_info *Map, int layer, int type_mask,
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 {
     int type, line;
     struct Cat_index *ci;
@@ -6781,6 +6835,7 @@ void Vect_cidx_find_all(const struct Map_info *Map, int layer, int type_mask,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_cidx_dump(const struct Map_info *Map, FILE *out)
 =======
 <<<<<<< HEAD
@@ -7175,6 +7230,8 @@ int Vect_cidx_dump(const struct Map_info *Map, FILE *out)
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 int Vect_cidx_dump(struct Map_info *Map, FILE *out)
 =======
 int Vect_cidx_dump(const struct Map_info *Map, FILE *out)
@@ -7242,6 +7299,7 @@ int Vect_cidx_dump(const struct Map_info *Map, FILE *out)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7766,6 +7824,11 @@ int Vect_cidx_dump(const struct Map_info *Map, FILE *out)
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vect_cidx_dump(const struct Map_info *Map, FILE *out)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 {
     int i, field, nfields, ntypes;
 
