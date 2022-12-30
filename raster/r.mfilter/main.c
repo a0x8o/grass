@@ -133,9 +133,12 @@ int main(int argc, char **argv)
     nprocs = 1;
 #endif
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (nprocs > 1 && Rast_mask_is_present()) {
         G_warning(_("Parallel processing disabled due to active mask."));
 =======
+=======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
     if (nprocs > 1 && G_find_raster("MASK", G_mapset()) != NULL) {
         G_warning(_("Parallel processing disabled due to active MASK."));
@@ -145,6 +148,9 @@ int main(int argc, char **argv)
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     out_name = opt2->answer;
     filt_name = opt3->answer;
 
