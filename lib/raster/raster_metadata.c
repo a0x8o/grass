@@ -142,6 +142,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -368,6 +369,8 @@
 =======
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -494,6 +497,8 @@
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
    "semantic label" and "vertical datum" meta-data info
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -522,7 +527,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6dbb418f88 (libpython: Save and load benchmark results (#1711))
+=======
+<<<<<<< HEAD
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
@@ -2097,7 +2106,15 @@
 =======
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+   "semantic label" and "vertical datum" meta-data info
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 
    (C) 2007-2009, 2021 by Hamish Bowman, Maris Nartiss,
    and the GRASS Development Team
@@ -2255,6 +2272,7 @@ void Rast_write_vdatum(const char *name, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2561,6 +2579,8 @@ void Rast_write_vdatum(const char *name, const char *str)
 =======
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 56976800a2 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f2dfa9a433 (libpython: Save and load benchmark results (#1711))
 =======
@@ -2931,7 +2951,12 @@ void Rast_write_vdatum(const char *name, const char *str)
 =======
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
  * \brief Get a raster map semantic label metadata string
  *
  * Read raster semantic label metadata file and put string in to str
@@ -3135,6 +3160,7 @@ void Rast_write_vdatum(const char *name, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3218,6 +3244,8 @@ void Rast_write_vdatum(const char *name, const char *str)
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
@@ -3990,6 +4018,7 @@ void Rast_write_vdatum(const char *name, const char *str)
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
@@ -4041,10 +4070,13 @@ void Rast_write_vdatum(const char *name, const char *str)
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
  * \brief Get a raster map semantic label metadata string
  *
  * Read raster semantic label metadata file and put string in to str
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4152,6 +4184,8 @@ void Rast_write_vdatum(const char *name, const char *str)
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -4525,10 +4559,13 @@ void Rast_write_vdatum(const char *name, const char *str)
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
  *
  * \param name raster map name
  * \param mapset mapset name
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4817,6 +4854,7 @@ void Rast_write_vdatum(const char *name, const char *str)
 =======
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 =======
@@ -5899,6 +5937,10 @@ void Rast_write_vdatum(const char *name, const char *str)
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
  * \return  string representing semantic label on success
  * \return  NULL on error
  */
@@ -8951,23 +8993,55 @@ char *Rast_get_semantic_label_or_name(const char *name, const char *mapset)
 =======
 =======
  * \return  string representing band reference on success
+=======
+ * \return  string representing semantic label on success
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
  * \return  NULL on error
  */
-char *Rast_read_bandref(const char *name, const char *mapset)
+char *Rast_read_semantic_label(const char *name, const char *mapset)
 {
-    return misc_read_line("bandref", name, mapset);
+    return misc_read_line("semantic_label", name, mapset);
 }
 
 /*!
- * \brief Write a string into a raster's band reference metadata file
+ * \brief Get a raster map semantic label or fall back to its name
+ *
+ * Use this function if a semantic label is needed but not mandated.
+ *
+ * \param name raster map name
+ * \param mapset mapset name
+ *
+ * \return  string representing semantic label or map name
+ */
+char *Rast_get_semantic_label_or_name(const char *name, const char *mapset)
+{
+    char *buff;
+
+    buff = Rast_read_semantic_label(name, mapset);
+    return buff ? buff : G_store(name);
+}
+
+/*!
+ * \brief Write a string into a rasters semantic label metadata file
  *
  * Raster map must exist in the current mapset.
  *
+<<<<<<< HEAD
  * It is up to the caller to validate band reference string in advance
  * with Rast_legal_bandref().
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+ * It is up to the caller to validate semantic label string in advance
+ * with Rast_legal_semantic_label().
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
  *
  * \param name raster map name
  * \param str  string containing data to be written
@@ -9006,6 +9080,7 @@ char *Rast_read_bandref(const char *name, const char *mapset)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
@@ -9634,6 +9709,7 @@ char *Rast_read_bandref(const char *name, const char *mapset)
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -9964,6 +10040,10 @@ char *Rast_read_bandref(const char *name, const char *mapset)
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 void Rast_write_semantic_label(const char *name, const char *str)
 {
     misc_write_line("semantic_label", name, str);
@@ -10627,6 +10707,7 @@ void Rast_write_bandref(const char *name, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void Rast_write_semantic_label(const char *name, const char *str)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -13358,41 +13439,47 @@ bool Rast_legal_semantic_label(const char *semantic_label)
 >>>>>>> d86c47b865 (libpython: Save and load benchmark results (#1711))
 =======
 =======
+=======
+=======
+void Rast_write_semantic_label(const char *name, const char *str)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
-    misc_write_line("bandref", name, str);
+    misc_write_line("semantic_label", name, str);
 }
 
 /*!
- * \brief Check for legal band reference
+ * \brief Check for legal semantic label
  *
- * Legal band identifiers must be legal GRASS file names.
- * They are in format <shortcut>_<bandname>.
- * Band identifiers are capped in legth to GNAME_MAX.
+ * Legal semantic label must be a legal GRASS file name.
+ * Semantic labels are capped in legth to GNAME_MAX.
  *
- * This function will return -1 if provided band id is not considered
- * to be valid.
- * This function does not check if band id maps to any entry in band
- * metadata files as not all band id's have files with extra metadata.
+ * This function will return false if provided semantic label is not
+ * considered to be valid.
+ * This function does not check if semantic label maps to any entry in
+ * metadata files of semantic labels as not all semantic labels have
+ * files with extra metadata.
  *
  * The function prints a warning on error.
  *
- * \param bandref band reference to check
+ * \param semantic label reference to check
  *
- * \return 1 success
- * \return -1 failure
+ * \return true success
+ * \return false failure
  */
-int Rast_legal_bandref(const char *bandref)
+bool Rast_legal_semantic_label(const char *semantic_label)
 {
     const char *s;
 
-    if (strlen(bandref) >= GNAME_MAX) {
-        G_warning(_("Band reference is too long"));
-        return -1;
+    if (strlen(semantic_label) >= GNAME_MAX) {
+        G_warning(_("Semantic label is too long"));
+        return false;
     }
 
-    if (G_legal_filename(bandref) != 1)
-        return -1;
+    if (G_legal_filename(semantic_label) != 1)
+        return false;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
     tokens = G_tokenize(bandref, "_");
@@ -13506,12 +13593,17 @@ int Rast_legal_bandref(const char *bandref)
     s = semantic_label;
     while (*s) {
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
+    s = semantic_label;
+    while (*s) {
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
         if (!((*s >= 'A' && *s <= 'Z') || (*s >= 'a' && *s <= 'z') ||
               (*s >= '0' && *s <= '9') || *s == '_' || *s == '-')) {
             G_warning(_("Character '%c' not allowed in a semantic label."), *s);
             return false;
         }
         s++;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14105,12 +14197,24 @@ bool Rast_legal_semantic_label(const char *semantic_label)
 =======
 =======
 >>>>>>> 52da6d28d3 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
     }
 
+<<<<<<< HEAD
     return 1;
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+    return true;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /*!
@@ -14204,6 +14308,7 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
@@ -14832,6 +14937,7 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -15162,6 +15268,10 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error(
             _("Unable to create <%s> metadata file for raster map <%s@%s>"),
             elem, name, G_mapset());
@@ -15759,6 +15869,7 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -15923,6 +16034,8 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 =======
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16014,12 +16127,15 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
         G_fatal_error(
             _("Unable to create <%s> metadata file for raster map <%s@%s>"),
             elem, name, G_mapset());
     } /* This else block is unnecessary but helps to silence static code
          analysis tools */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16216,6 +16332,8 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -16748,6 +16866,7 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bceba4c6e2 (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -17093,6 +17212,10 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
     else {
         fprintf(fp, "%s\n", str);
 
@@ -17237,6 +17360,7 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -17462,6 +17586,8 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
@@ -18100,11 +18226,14 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(
                 _("Error closing <%s> metadata file for raster map <%s@%s>"),
 =======
             G_fatal_error(_("Error closing <%s> metadata file for raster map <%s@%s>"),
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18147,9 +18276,12 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
             G_fatal_error(
                 _("Error closing <%s> metadata file for raster map <%s@%s>"),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19284,7 +19416,12 @@ static void misc_write_line(const char *elem, const char *name, const char *str)
 =======
 =======
 >>>>>>> f4219c860c (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f226a36d82 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
                 elem, name, G_mapset());
     }
 }

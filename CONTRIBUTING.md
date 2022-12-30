@@ -1,24 +1,3 @@
-# Introduction
-
-GRASS GIS is written in more than one programming language. While most
-of the source code is written in C, about 30% is written in Python. A
-compiler is needed to convert the C/C++ source code into executable
-files ("binaries"). In contrast, Python is an interpreted language that
-can only be executed with Python software.
-
-Now, in order to create an installable binary package from a source
-code package, the so-called "compilation step" is required. While the
-source code consists of thousands of C and Python files (plus HTML
-documentation), the included "makefiles" tell the build system to
-generate binaries from the source code in the correct order, render the
-manual pages, etc.
-
-The way to install the compiler tools and Python depends on the operating
-system. To make this easier, we have collected copy-paste instructions
-for most operating systems in our wiki:
-
-[Compile and install instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install)
-
 # Contributing
 
 There is more than one way of contributing to GRASS GIS.
@@ -150,6 +129,7 @@ git checkout -b new-feature
 ### Making changes
 
 You can use your favorite tools to change source code or other files
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -415,6 +395,8 @@ You can use your favorite tools to change source code or other files
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -802,10 +784,14 @@ in the local copy of the code. When making changes, please follow the
 [Programming Style Guide](./doc/development/style_guide.md).
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 in the local copy of the code. When making changes, please follow the
 [Programming Style Guide](./doc/development/style_guide.md).
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 in the local copy of the code. When making changes, please follow the
 [Programming Style Guide](./doc/development/style_guide.md).
@@ -848,6 +834,8 @@ in the local copy of the code. When making changes, please follow the
 >>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 ### Testing changes
@@ -871,6 +859,7 @@ For Python, run `black .` to apply standardized formatting. You can
 also run linter tools such as Pylint which will suggest different improvements
 to your code.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1033,6 +1022,8 @@ to your code.
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1454,7 +1445,12 @@ to your code.
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 in the local copy of the code. When making changes, please follow
 Submitting Guidelines at
 <http://trac.osgeo.org/grass/wiki/Submitting>.
