@@ -363,6 +363,7 @@ void Nviz_init_rotation(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \param data nviz data
 =======
 <<<<<<< HEAD
@@ -468,6 +469,8 @@ void Nviz_init_rotation(void)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -617,7 +620,12 @@ void Nviz_init_rotation(void)
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
    \param data nviz data [unused]
 =======
    \param data nviz data
@@ -666,6 +674,7 @@ void Nviz_init_rotation(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -713,6 +722,8 @@ void Nviz_init_rotation(void)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1023,7 +1034,12 @@ void Nviz_init_rotation(void)
    \param data nviz data
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
    \param fly_info values computed from mouse movement
    \param scale rate of movement
    \param lateral type of movement
@@ -1072,6 +1088,7 @@ void Nviz_init_rotation(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1158,6 +1175,8 @@ void Nviz_init_rotation(void)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -1568,7 +1587,15 @@ void Nviz_flythrough(nv_data *data UNUSED, float *fly_info, int *scale,
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void Nviz_flythrough(nv_data *data UNUSED, float *fly_info, int *scale,
+                     int lateral)
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 void Nviz_flythrough(nv_data *data, float *fly_info, int *scale, int lateral)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {

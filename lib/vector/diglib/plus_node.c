@@ -73,6 +73,7 @@ static double dist_squared(double, double, double, double);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * 'node' must of course already exist space will be alloced to add 'line' to
 =======
 <<<<<<< HEAD
@@ -178,6 +179,8 @@ static double dist_squared(double, double, double, double);
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -327,7 +330,12 @@ static double dist_squared(double, double, double, double);
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
  * 'node' must of course already exist space will be allocated to add 'line' to
 =======
  * 'node' must of course already exist space will be alloced to add 'line' to
@@ -376,6 +384,7 @@ static double dist_squared(double, double, double, double);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -423,6 +432,8 @@ static double dist_squared(double, double, double, double);
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -733,7 +744,12 @@ static double dist_squared(double, double, double, double);
  * 'node' must of course already exist space will be alloced to add 'line' to
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
  * array
  *
  * Lines are sorted in increasing angle order and

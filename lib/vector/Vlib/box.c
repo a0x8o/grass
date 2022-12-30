@@ -280,6 +280,7 @@ int Vect_box_clip(double *x, double *y, double *c_x, double *c_y,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_line_box(const struct Map_info *Map, int line,
                       struct bound_box *Box)
 =======
@@ -386,6 +387,8 @@ int Vect_get_line_box(const struct Map_info *Map, int line,
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -915,7 +918,17 @@ int Vect_get_line_box(const struct Map_info *Map, int line,
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vect_get_line_box(struct Map_info *Map, int line, struct bound_box *Box)
+=======
+int Vect_get_line_box(const struct Map_info *Map, int line,
+                      struct bound_box *Box)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 {
     struct Plus_head *Plus;
     struct P_line *Line;
@@ -1014,6 +1027,7 @@ int Vect_get_line_box(const struct Map_info *Map, int line,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1137,6 +1151,8 @@ int Vect_get_line_box(const struct Map_info *Map, int line,
 >>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1385,7 +1401,12 @@ int Vect_get_line_box(const struct Map_info *Map, int line,
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = NAN;
 =======
 <<<<<<< HEAD
@@ -1465,6 +1486,7 @@ int Vect_get_line_box(const struct Map_info *Map, int line,
 >>>>>>> osgeo-main
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = 0. / 0.;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2197,7 +2219,12 @@ int Vect_get_line_box(const struct Map_info *Map, int line,
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
         return 0;
     }
 
@@ -2295,6 +2322,7 @@ int Vect_get_line_box(const struct Map_info *Map, int line,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_area_box(const struct Map_info *Map, int area,
                       struct bound_box *Box)
 =======
@@ -2401,6 +2429,8 @@ int Vect_get_area_box(const struct Map_info *Map, int area,
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -2930,7 +2960,17 @@ int Vect_get_area_box(const struct Map_info *Map, int area,
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vect_get_area_box(struct Map_info *Map, int area, struct bound_box *Box)
+=======
+int Vect_get_area_box(const struct Map_info *Map, int area,
+                      struct bound_box *Box)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 {
     struct Plus_head *Plus;
     struct P_area *Area;
@@ -3028,6 +3068,7 @@ int Vect_get_area_box(const struct Map_info *Map, int area,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3151,6 +3192,8 @@ int Vect_get_area_box(const struct Map_info *Map, int area,
 >>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3399,7 +3442,12 @@ int Vect_get_area_box(const struct Map_info *Map, int area,
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = NAN;
 =======
 <<<<<<< HEAD
@@ -3479,6 +3527,7 @@ int Vect_get_area_box(const struct Map_info *Map, int area,
 >>>>>>> osgeo-main
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = 0. / 0.;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4211,7 +4260,12 @@ int Vect_get_area_box(const struct Map_info *Map, int area,
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
         return 0;
     }
 
@@ -4290,6 +4344,7 @@ int Vect_get_area_box(const struct Map_info *Map, int area,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_isle_box(const struct Map_info *Map, int isle,
                       struct bound_box *Box)
 =======
@@ -4396,6 +4451,8 @@ int Vect_get_isle_box(const struct Map_info *Map, int isle,
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -4925,7 +4982,17 @@ int Vect_get_isle_box(const struct Map_info *Map, int isle,
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vect_get_isle_box(struct Map_info *Map, int isle, struct bound_box *Box)
+=======
+int Vect_get_isle_box(const struct Map_info *Map, int isle,
+                      struct bound_box *Box)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 {
     struct Plus_head *Plus;
     struct P_isle *Isle;
@@ -5024,6 +5091,7 @@ int Vect_get_isle_box(const struct Map_info *Map, int isle,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5147,6 +5215,8 @@ int Vect_get_isle_box(const struct Map_info *Map, int isle,
 >>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5395,7 +5465,12 @@ int Vect_get_isle_box(const struct Map_info *Map, int isle,
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = NAN;
 =======
 <<<<<<< HEAD
@@ -5475,6 +5550,7 @@ int Vect_get_isle_box(const struct Map_info *Map, int isle,
 >>>>>>> osgeo-main
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = 0. / 0.;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6207,7 +6283,12 @@ int Vect_get_isle_box(const struct Map_info *Map, int isle,
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
         return 0;
     }
 

@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void vrml_put_view(FILE *vout, struct G_3dview *v3d)
 =======
 <<<<<<< HEAD
@@ -155,6 +156,8 @@ void vrml_put_view(FILE *vout, struct G_3dview *v3d)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -304,7 +307,12 @@ void vrml_put_view(FILE *vout, struct G_3dview *v3d)
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 void vrml_put_view(FILE *vout, struct G_3dview *v3d UNUSED)
 =======
 void vrml_put_view(FILE *vout, struct G_3dview *v3d)
@@ -353,6 +361,7 @@ void vrml_put_view(FILE *vout, struct G_3dview *v3d)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -400,6 +409,8 @@ void vrml_put_view(FILE *vout, struct G_3dview *v3d)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -710,7 +721,12 @@ void vrml_put_view(FILE *vout, struct G_3dview *v3d)
 void vrml_put_view(FILE *vout, struct G_3dview *v3d)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 {
     char tbuf[512];
 

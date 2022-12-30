@@ -128,6 +128,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -222,6 +223,8 @@ int main(int argc, char **argv)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -380,7 +383,12 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
     region->description = _("The computational region that should be used.");
     desc = NULL;
     G_asprintf(&desc,
@@ -438,6 +446,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -485,6 +494,8 @@ int main(int argc, char **argv)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -762,7 +773,12 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
     region->description = _(
         "The computational region that should be used.\n"
         "               - current uses the current region of the mapset.\n"
@@ -819,6 +835,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -848,6 +865,8 @@ int main(int argc, char **argv)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -1201,7 +1220,13 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 
     file = G_define_standard_option(G_OPT_F_INPUT);
     file->key = "file";

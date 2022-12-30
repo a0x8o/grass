@@ -89,6 +89,7 @@ r3.out.netcdf input=elevation3d output=elevation3d.nc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -233,6 +234,8 @@ r3.out.netcdf input=elevation3d output=elevation3d.nc
 >>>>>>> 3e5aeb1393 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -1028,4 +1031,12 @@ r3.out.netcdf input=elevation3d output=elevation3d.nc
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))

@@ -251,6 +251,7 @@ char *MEM_STREAM<T>::sprint()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -374,6 +375,8 @@ char *MEM_STREAM<T>::sprint()
 >>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -622,7 +625,12 @@ char *MEM_STREAM<T>::sprint()
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
     snprintf(buf, sizeof(buf), "[MEM_STREAM %d]", stream_len());
 =======
 <<<<<<< HEAD
@@ -702,6 +710,7 @@ char *MEM_STREAM<T>::sprint()
 >>>>>>> osgeo-main
     sprintf(buf, "[MEM_STREAM %d]", stream_len());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1434,7 +1443,12 @@ char *MEM_STREAM<T>::sprint()
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
     return buf;
 }
 

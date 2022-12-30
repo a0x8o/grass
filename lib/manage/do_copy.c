@@ -111,6 +111,7 @@ int M_do_copy(int n, const char *old, const char *mapset, const char *new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -218,6 +219,8 @@ int M_do_copy(int n, const char *old, const char *mapset, const char *new)
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5a342a7bc7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -664,7 +667,14 @@ int M_do_copy(int n, const char *old, const char *mapset, const char *new)
 =======
 =======
 >>>>>>> b95b0d8ab2 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 5a342a7bc7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
         for (i = 0; i < list[n].nelem; i++) {
             G_make_mapset_object_group(list[n].element[i]);
             G_file_name(path, list[n].element[i], old, mapset);
@@ -708,6 +718,9 @@ int M_do_copy(int n, const char *old, const char *mapset, const char *new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1063,6 +1076,7 @@ int M_do_copy(int n, const char *old, const char *mapset, const char *new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1138,6 +1152,8 @@ int M_do_copy(int n, const char *old, const char *mapset, const char *new)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5a342a7bc7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -1538,7 +1554,14 @@ int M_do_copy(int n, const char *old, const char *mapset, const char *new)
 =======
 =======
 >>>>>>> b95b0d8ab2 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 5a342a7bc7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 
                 continue;
             }

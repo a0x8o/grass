@@ -117,6 +117,7 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -212,6 +213,8 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
 >>>>>>> 3e5aeb1393 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 =======
@@ -1157,7 +1160,16 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+    if (count >= 0 && (unsigned int)count == size)
+=======
+    if (count == size)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
         str[--count] = '\0';
 
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))

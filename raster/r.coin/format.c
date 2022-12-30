@@ -93,6 +93,7 @@ int format_double(double v, char *buf, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -188,6 +189,8 @@ int format_double(double v, char *buf, int n)
 >>>>>>> 3e5aeb1393 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -1111,7 +1114,16 @@ int format_double(double v, char *buf, int n)
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+    for (k = n; (ssize_t)strlen(buf) > n; k--) {
+=======
+    for (k = n; strlen(buf) > n; k--) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
         sprintf(fmt, "%%%d.%dg", n, k);
         sprintf(buf, fmt, v);
     }

@@ -68,6 +68,7 @@ static int bench_solvers(int rows);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -162,6 +163,8 @@ static int bench_solvers(int rows);
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -320,7 +323,12 @@ static int bench_solvers(int rows);
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 /* ************************************************************************* */
 /* Perform the solver unit tests ****************************************** */
 
@@ -328,6 +336,7 @@ static int bench_solvers(int rows);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 /* ************************************************************************* */
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,6 +438,8 @@ static int bench_solvers(int rows);
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -518,7 +529,12 @@ static int bench_solvers(int rows);
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 /* ************************************************************************* */
 /* Performe the solver unit tests ****************************************** */
 
@@ -572,6 +588,7 @@ static int bench_solvers(int rows);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -601,6 +618,8 @@ static int bench_solvers(int rows);
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -954,7 +973,13 @@ static int bench_solvers(int rows);
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 int bench_solvers_krylov(int rows)
 {
     G_message(_("\n++ Running krylov solver benchmark ++"));

@@ -80,6 +80,7 @@ int I_cluster_distinct(struct Cluster *, double);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -167,6 +168,8 @@ int I_cluster_distinct(struct Cluster *, double);
 >>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -310,7 +313,12 @@ int I_cluster_distinct(struct Cluster *, double);
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 int I_cluster_exec(struct Cluster *, int, int, double, double, int,
                    int (*)(struct Cluster *, int), int *);
 =======
@@ -405,6 +413,7 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
 >>>>>>> osgeo-main
 int I_cluster_exec(struct Cluster *, int, int, double, double, int, int (*)(),
                    int *);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1124,7 +1133,13 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 /* c_execmem.c */
 int I_cluster_exec_allocate(struct Cluster *);
 int I_cluster_exec_free(struct Cluster *);

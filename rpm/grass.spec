@@ -85,6 +85,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 %global shortver 82
@@ -300,6 +301,8 @@ Name:		grass
 >>>>>>> 1f7cb2bbf2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> e421dd047f (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 %global shortver 84
 =======
 =======
@@ -417,6 +420,8 @@ Name:		grass
 >>>>>>> 2196f43bbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 1e537538ac (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 %global shortver 83
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 %global macrosdir %(d=%{_rpmconfigdir}/macros.d; [ -d $d ] || d=%{_sysconfdir}/rpm; echo $d)
@@ -724,6 +729,7 @@ Version:	8.2.0
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -809,6 +815,8 @@ Version:	8.2.0
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -1247,7 +1255,12 @@ Version:	8.0.0
 =======
 Version:	8.0.0
 >>>>>>> 2196f43bbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 1f7cb2bbf2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 Release:	1%{?dist}
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 Summary:	GRASS GIS - Geographic Resources Analysis Support System
@@ -1323,6 +1336,7 @@ Source0:	https://grass.osgeo.org/%{name}%{shortver}/source/%{name}-%{version}.ta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Patch0:		grass-pkgconfig.patch
 =======
 <<<<<<< HEAD
@@ -1428,6 +1442,8 @@ Patch0:		grass-pkgconfig.patch
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1577,7 +1593,12 @@ Patch0:		grass-pkgconfig.patch
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 Patch 0:	grass-pkgconfig.patch
 =======
 Patch0:		grass-pkgconfig.patch
@@ -1626,6 +1647,7 @@ Patch0:		grass-pkgconfig.patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1673,6 +1695,8 @@ Patch0:		grass-pkgconfig.patch
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1983,7 +2007,12 @@ Patch0:		grass-pkgconfig.patch
 Patch0:		grass-pkgconfig.patch
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 
 BuildRequires:	bison
 %if %{with flexiblas}
@@ -2025,6 +2054,7 @@ BuildRequires:	PDAL
 BuildRequires:	PDAL-devel
 BuildRequires:	PDAL-libs
 BuildRequires:	proj-devel
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2344,11 +2374,15 @@ BuildRequires:	python3
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 %if (0%{?rhel} <= 6 && !0%{?fedora})
 # argparse is included in python2.7+ but not python2.6
 BuildRequires:	python-argparse
 %endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2410,7 +2444,12 @@ BuildRequires:	python-argparse
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 %if 0%{?rhel} == 7
 # EPEL7
 BuildRequires:	python%{python3_version_nodots}-dateutil
@@ -2556,6 +2595,7 @@ GRASS GIS development headers
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 %patch0 -p1 -b.libdir
 =======
 <<<<<<< HEAD
@@ -2661,6 +2701,8 @@ GRASS GIS development headers
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2810,7 +2852,12 @@ GRASS GIS development headers
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 %patch 0 -p1 -b.libdir
 =======
 %patch0 -p1 -b.libdir
@@ -2859,6 +2906,7 @@ GRASS GIS development headers
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2906,6 +2954,8 @@ GRASS GIS development headers
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -3216,7 +3266,12 @@ GRASS GIS development headers
 %patch0 -p1 -b.libdir
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 
 # Correct mysql_config query
 sed -i -e 's/--libmysqld-libs/--libs/g' configure
@@ -3535,6 +3590,7 @@ fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3718,6 +3774,8 @@ fi
 >>>>>>> 1f7cb2bbf2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> e421dd047f (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 * Sat Oct 26 2024 Markus Neteler <neteler@mundialis.de> - 8.4.0-3
 - Sort requirements and flags (https://github.com/OSGeo/grass/pull/4563/ by Edouard Choinière)
 
@@ -4116,7 +4174,12 @@ fi
 =======
 =======
 >>>>>>> 1e537538ac (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> e421dd047f (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 * Sun Aug 06 2023 Alexandre Detiste <alexandre.detiste@gmail.com> - 8.3.0-3
 - Remove support for RHEL6: Grass is now Python3 only
 
@@ -4404,6 +4467,7 @@ fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4435,9 +4499,12 @@ fi
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+=======
 * Fri Jan 28 2022 Markus Neteler <neteler@mundialis.de> - 8.0.0-1
 - New upstream version GRASS GIS 8.0.0
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4577,6 +4644,8 @@ fi
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 * Thu Jan 20 2022 Fedora Release Engineering <releng@fedoraproject.org> - 7.8.6-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_36_Mass_Rebuild
 
@@ -4637,6 +4706,7 @@ fi
 * Sat Oct 17 2020 Markus Neteler <neteler@mundialis.de> - 7.8.4-2
 - reinstate %%{name}-config.h (RHBZ #1889035) as being needed for QGIS
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5651,7 +5721,13 @@ fi
 =======
 =======
 >>>>>>> 1e537538ac (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> e421dd047f (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 * Mon Oct 05 2020 Markus Neteler <neteler@mundialis.de> - 7.8.4-1
 - New upstream version GRASS GIS 7.8.4
 - disabled %%{name}-config.h

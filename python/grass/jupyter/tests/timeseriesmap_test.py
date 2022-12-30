@@ -48,6 +48,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -142,6 +143,8 @@
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -217,6 +220,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -226,9 +230,12 @@
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -313,6 +320,9 @@
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 from pathlib import Path
 
 import pytest
@@ -592,6 +602,7 @@ def test_render_layers(space_time_raster_dataset, fill_gaps):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -652,6 +663,8 @@ def test_render_layers(space_time_raster_dataset, fill_gaps):
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -728,13 +741,20 @@ def test_render_layers(space_time_raster_dataset, fill_gaps):
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 def test_save(space_time_raster_dataset, tmp_path):
     """Test returns from animate and time_slider are correct object types"""
     img = gj.TimeSeriesMap()
     img.add_raster_series(space_time_raster_dataset.name)
     gif_file = img.save(tmp_path / "image.gif")
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -773,6 +793,8 @@ def test_save(space_time_raster_dataset, tmp_path):
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1113,7 +1135,12 @@ def test_save(space_time_raster_dataset, tmp_path):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 def test_save(space_time_raster_dataset):
     """Test returns from animate and time_slider are correct object types"""
     img = gj.TimeSeriesMap()
@@ -1161,6 +1188,9 @@ def test_save(space_time_raster_dataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1569,5 +1599,11 @@ def test_save(space_time_raster_dataset):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
     assert Path(gif_file).is_file()

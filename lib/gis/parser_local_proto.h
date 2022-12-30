@@ -102,6 +102,7 @@ int G__uses_new_gisprompt(void);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -188,6 +189,8 @@ int G__uses_new_gisprompt(void);
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -598,7 +601,15 @@ void G__print_keywords(FILE *, void (*)(FILE *, const char *), int);
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void G__print_keywords(FILE *, void (*)(FILE *, const char *), int);
+
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 void G__print_keywords(FILE *, void (*)(FILE *, const char *));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 void G__split_gisprompt(const char *, char *, char *, char *);

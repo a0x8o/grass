@@ -91,6 +91,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -272,6 +273,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c621983a87 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -557,11 +560,14 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
     sigfile->description =
         _("Name for output file containing result signatures");
 =======
     sigfile->description = _("Name for output file containing result signatures");
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -593,9 +599,12 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+=======
     sigfile->description =
         _("Name for output file containing result signatures");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -898,7 +907,12 @@ int parse(int argc, char *argv[], struct parms *parms)
     sigfile->description = _("Name for output file containing result signatures");
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 0873fb5a66 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> c621983a87 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 
     if (G_parser(argc, argv))
         exit(EXIT_FAILURE);
@@ -947,6 +961,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -1371,7 +1386,12 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 =======
 >>>>>>> 0873fb5a66 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> c621983a87 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error(_("Subgroup <%s> in group <%s> not found"),
                       parms->subgroup, parms->group);
 
@@ -2040,6 +2060,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 >>>>>>> c167de6248 (ci: Ignore paths in CodeQL (#1778))
@@ -2056,12 +2077,15 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+=======
         G_fatal_error(_("Subgroup <%s> in group <%s> not found"),
                       parms->subgroup, parms->group);
 
     if (G_unqualified_name(sigfile->answer, G_mapset(), parms->sigfile,
                            xmapset) < 0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2218,7 +2242,12 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 =======
 >>>>>>> 0873fb5a66 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> c621983a87 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error(_("<%s> does not match the current mapset"), xmapset);
 
     if (G_legal_filename(parms->sigfile) < 0)
@@ -2291,6 +2320,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2382,6 +2412,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c621983a87 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -2777,7 +2809,12 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 =======
 >>>>>>> 0873fb5a66 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> c621983a87 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 
 =======
     
@@ -2805,6 +2842,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
@@ -2818,6 +2856,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c621983a87 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3158,6 +3198,14 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 =======
 >>>>>>> 0873fb5a66 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> c621983a87 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
     return 0;
 }

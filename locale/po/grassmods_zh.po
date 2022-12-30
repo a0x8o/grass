@@ -27577,6 +27577,7 @@ msgid "Apriori Phi (roll) standard deviation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -28864,7 +28865,12 @@ msgid "Name of the directory where the image and metadata file are stored (*.SAF
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -58822,6 +58828,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -58890,6 +58897,8 @@ msgstr ""
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -58947,10 +58956,16 @@ msgstr ""
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 #: ../vector/v.in.lidar/main.c:556 ../vector/v.edit/main.c:99
 #: ../vector/v.in.ogr/main.c:695 ../scripts/v.unpack/v.unpack.py:112
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59043,6 +59058,8 @@ msgstr ""
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -59114,7 +59131,12 @@ msgstr ""
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 #: ../vector/v.in.lidar/main.c:555 ../vector/v.edit/main.c:99
 #: ../vector/v.in.ogr/main.c:694 ../scripts/v.unpack/v.unpack.py:112
 =======
@@ -59411,6 +59433,7 @@ msgstr[0] ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -59498,6 +59521,8 @@ msgstr[0] ""
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -59575,7 +59600,13 @@ msgstr[0] ""
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 #, c-format, python-format
 msgid "Vector map <%s> already exists"
 msgstr ""
@@ -78527,6 +78558,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -78578,6 +78610,8 @@ msgstr ""
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c0392b8321 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -78899,7 +78933,14 @@ msgstr ""
 msgid "Coordinates to profile"
 msgstr "要查询的坐标"
 >>>>>>> 2e1ad6cb7b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> c0392b8321 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+msgid "Coordinates to profile"
+msgstr ""
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
@@ -78953,6 +78994,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -79030,6 +79072,8 @@ msgstr ""
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c0392b8321 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -79433,15 +79477,23 @@ msgstr ""
 =======
 =======
 #, fuzzy
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 msgid "Profile output file name (\"-\" for stdout)"
-msgstr "输出文件的名称(output=-用于标准输出)"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:271
-#, fuzzy
 msgid "Profile output format"
+<<<<<<< HEAD
 msgstr "输出的格式"
 >>>>>>> 2e1ad6cb7b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> c0392b8321 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+msgstr ""
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:292
 #, c-format
@@ -79503,6 +79555,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -79554,6 +79607,8 @@ msgstr ""
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c0392b8321 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -79906,7 +79961,15 @@ msgstr ""
 msgid "Failed to open output file <%s>: %d (%s)"
 msgstr "无法打开输出文件 <%s>"
 >>>>>>> 2e1ad6cb7b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> c0392b8321 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+#, c-format
+msgid "Failed to open output file <%s>: %d (%s)"
+msgstr ""
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"
@@ -83987,6 +84050,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -84055,6 +84119,8 @@ msgstr ""
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -84112,7 +84178,12 @@ msgstr ""
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 #, fuzzy
 #~ msgid "layer name or number to use for data"
 #~ msgstr "图层 %d"

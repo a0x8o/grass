@@ -337,6 +337,7 @@ static int find_best_neighbour(int bfd, int nin, DCELL *rng, int cfd, int csize,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -481,6 +482,8 @@ static int find_best_neighbour(int bfd, int nin, DCELL *rng, int cfd, int csize,
 >>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -1276,7 +1279,15 @@ static int find_best_neighbour(int bfd, int nin, DCELL *rng, int cfd, int csize,
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+                    count++;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
                     rclist_add(&rilist, rown, coln);
                     if (*rowmin > rown)
                         *rowmin = rown;

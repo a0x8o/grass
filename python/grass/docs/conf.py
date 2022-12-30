@@ -167,6 +167,7 @@ project = "Python library documentation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -621,7 +622,12 @@ copyright = "2023, GRASS Development Team"
 =======
 =======
 >>>>>>> d88b10832d (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> 4c14c5377c (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 copyright = "2024, GRASS Development Team"
 =======
 copyright = "2022, GRASS Development Team"
@@ -671,6 +677,7 @@ copyright = "2022, GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -744,6 +751,8 @@ copyright = "2022, GRASS Development Team"
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -1387,7 +1396,12 @@ copyright = "2022, GRASS Development Team"
 copyright = "2023, GRASS Development Team"
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> d88b10832d (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> 4c14c5377c (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -1692,6 +1706,7 @@ epub_publisher = "GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 epub_copyright = "2023, GRASS Development Team"
@@ -1827,6 +1842,8 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> d57829fdd5 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 4c14c5377c (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
@@ -2608,7 +2625,14 @@ epub_copyright = "2022, GRASS Development Team"
 epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> d88b10832d (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> 4c14c5377c (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+epub_copyright = "2022, GRASS Development Team"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 
 # The basename for the epub file. It defaults to the project name.
 # epub_basename = u'wxGUI'

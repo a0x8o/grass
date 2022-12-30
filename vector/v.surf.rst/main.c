@@ -1027,6 +1027,7 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1150,6 +1151,8 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 >>>>>>> 3e5aeb1393 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1398,7 +1401,12 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
         if (fwrite(zero_array_cell, sizeof(FCELL), n_cols, fp) !=
             (size_t)n_cols) {
 =======
@@ -1496,6 +1504,7 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 >>>>>>> osgeo-main
         if (fwrite(zero_array_cell, sizeof(FCELL), n_cols, fp) != n_cols) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2216,7 +2225,12 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
             clean();
             G_fatal_error(_("Error writing temporary file <%s>"), *tmpname);
         }

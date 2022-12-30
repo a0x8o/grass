@@ -49,6 +49,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 =======
 <<<<<<< HEAD
@@ -154,6 +155,8 @@ int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -303,7 +306,12 @@ int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_open_select_cursor(dbString *select UNUSED,
                                   dbCursor *cursor UNUSED, int mode UNUSED)
 =======
@@ -353,6 +361,7 @@ int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -400,6 +409,8 @@ int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -710,7 +721,12 @@ int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 {
     db_procedure_not_implemented("db_open_select_cursor");
     return DB_FAILED;

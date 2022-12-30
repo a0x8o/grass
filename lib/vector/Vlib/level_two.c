@@ -319,6 +319,7 @@ int Vect_get_line_type(struct Map_info *Map, int line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_node_coor(const struct Map_info *Map, int num, double *x,
                        double *y, double *z)
 =======
@@ -425,6 +426,8 @@ int Vect_get_node_coor(const struct Map_info *Map, int num, double *x,
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -575,7 +578,12 @@ int Vect_get_node_coor(const struct Map_info *Map, int num, double *x,
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 int Vect_get_node_coor(struct Map_info *Map, int num, double *x, double *y,
                        double *z)
 =======
@@ -626,6 +634,7 @@ int Vect_get_node_coor(const struct Map_info *Map, int num, double *x,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -711,6 +720,8 @@ int Vect_get_node_coor(const struct Map_info *Map, int num, double *x,
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -1021,7 +1032,12 @@ int Vect_get_node_coor(const struct Map_info *Map, int num, double *x,
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 {
     struct P_node *Node;
 
@@ -1140,6 +1156,7 @@ int Vect_get_line_nodes(struct Map_info *Map, int line, int *n1, int *n2)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_line_areas(const struct Map_info *Map, int line, int *left,
                         int *right)
 =======
@@ -1246,6 +1263,8 @@ int Vect_get_line_areas(const struct Map_info *Map, int line, int *left,
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -1775,7 +1794,17 @@ int Vect_get_line_areas(const struct Map_info *Map, int line, int *left,
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vect_get_line_areas(struct Map_info *Map, int line, int *left, int *right)
+=======
+int Vect_get_line_areas(const struct Map_info *Map, int line, int *left,
+                        int *right)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 {
     struct P_topo_b *topo;
 
@@ -1924,6 +1953,7 @@ int Vect_get_centroid_area(struct Map_info *Map, int centroid)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \brief Enable/disable maintanance of list of updated lines/nodes
 =======
 <<<<<<< HEAD
@@ -2029,6 +2059,8 @@ int Vect_get_centroid_area(struct Map_info *Map, int centroid)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2178,7 +2210,12 @@ int Vect_get_centroid_area(struct Map_info *Map, int centroid)
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
    \brief Enable/disable maintenance of list of updated lines/nodes
 =======
    \brief Enable/disable maintanance of list of updated lines/nodes
@@ -2227,6 +2264,7 @@ int Vect_get_centroid_area(struct Map_info *Map, int centroid)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2274,6 +2312,8 @@ int Vect_get_centroid_area(struct Map_info *Map, int centroid)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2584,7 +2624,12 @@ int Vect_get_centroid_area(struct Map_info *Map, int centroid)
    \brief Enable/disable maintanance of list of updated lines/nodes
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 
    See Plus_head.uplist for details.
 

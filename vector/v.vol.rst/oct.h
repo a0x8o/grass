@@ -76,6 +76,7 @@ struct octfunc {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -173,6 +174,8 @@ struct octfunc {
 >>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -584,7 +587,12 @@ struct octfunc {
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
     int (*compare)(struct quadruple *, struct octdata *);
     struct octdata **(*divide_data)(struct octdata *);
     int (*add_data)(struct quadruple *, struct octdata *);
@@ -786,6 +794,7 @@ struct octtree {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
@@ -816,6 +825,8 @@ struct octtree {
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
     int (*compare)();
     VOID_T **(*divide_data)();
     int (*add_data)();
@@ -825,6 +836,7 @@ struct octtree {
 };
 
 struct octtree {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2174,7 +2186,14 @@ struct octtree {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
+=======
+=======
+    VOID_T *data;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
     struct octtree **leafs;
     struct octtree *parent;
     struct octfunc *functions;
