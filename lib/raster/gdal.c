@@ -264,6 +264,7 @@ static void read_gdal_options(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -356,6 +357,8 @@ static void read_gdal_options(void)
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -413,9 +416,12 @@ static void read_gdal_options(void)
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -473,6 +479,8 @@ static void read_gdal_options(void)
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -742,7 +750,12 @@ static void read_gdal_options(void)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
         G_file_name(path, p, "", G_mapset());
         st->opts.dir = G_store(path);
         if (access(path, 0) != 0)
@@ -776,6 +789,9 @@ static void read_gdal_options(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1116,6 +1132,7 @@ static void read_gdal_options(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1485,7 +1502,14 @@ static void read_gdal_options(void)
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
     }
 
     p = G_find_key_value("extension", key_val);

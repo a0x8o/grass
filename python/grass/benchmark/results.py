@@ -127,6 +127,7 @@ def save_results_to_file(results, filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -254,6 +255,8 @@ def save_results_to_file(results, filename):
 >>>>>>> f91c52c645 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
     Path(filename).write_text(text, encoding="utf-8")
 =======
 =======
@@ -365,10 +368,14 @@ def save_results_to_file(results, filename):
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
     Path(filename).write_text(text, encoding="utf-8")
 =======
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 8984405ebb (libpython: Save and load benchmark results (#1711))
 >>>>>>> f91c52c645 (libpython: Save and load benchmark results (#1711))
@@ -660,6 +667,7 @@ def save_results_to_file(results, filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -756,6 +764,8 @@ def save_results_to_file(results, filename):
         file.write(text)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
         file.write(text)
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
 >>>>>>> 8984405ebb (libpython: Save and load benchmark results (#1711))
@@ -835,6 +845,7 @@ def load_results_from_file(filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
     return load_results(Path(filename).read_text(encoding="utf-8"))
@@ -977,6 +988,8 @@ def load_results_from_file(filename):
 >>>>>>> f91c52c645 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
     return load_results(Path(filename).read_text(encoding="utf-8"))
 =======
 >>>>>>> 56976800a2 (libpython: Save and load benchmark results (#1711))
@@ -1267,6 +1280,8 @@ def load_results_from_file(filename):
 >>>>>>> f91c52c645 (libpython: Save and load benchmark results (#1711))
 =======
 =======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
     return load_results(Path(filename).read_text(encoding="utf-8"))
 =======
 <<<<<<< HEAD
@@ -1275,8 +1290,21 @@ def load_results_from_file(filename):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
     with open(filename, "r", encoding="utf-8") as file:
         return load_results(file.read())
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
@@ -1309,11 +1337,16 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f91c52c645 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1527,12 +1560,15 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e89836168 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2110,7 +2146,14 @@ def join_results(results, prefixes=None):
 def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 1efa7f7b91 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> 71106e29f6 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
     """Join multiple lists of results together
 
     The *results* argument either needs to be a list of result objects
@@ -2127,6 +2170,7 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
             # This is the actual list in the full results structure.
             result_list = result_list.results
         for result in result_list:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2531,7 +2575,14 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 =======
 =======
 >>>>>>> 1efa7f7b91 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> 71106e29f6 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
             if select and not select(result):
                 continue
             result = copy.deepcopy(result)
@@ -2557,6 +2608,7 @@ def join_results_from_files(
         select=select,
         prefixes_as_labels=prefixes_as_labels,
     )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2641,6 +2693,7 @@ def join_results_from_files(
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> main
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
@@ -2722,6 +2775,10 @@ def join_results_from_files(
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
             if select and not select(result):
                 continue
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -2787,6 +2844,7 @@ def join_results_from_files(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2813,6 +2871,8 @@ def join_results_from_files(
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -3695,4 +3755,9 @@ def join_results_from_files(
     )
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> 1efa7f7b91 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> 71106e29f6 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))

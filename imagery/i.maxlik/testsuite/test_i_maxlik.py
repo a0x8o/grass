@@ -146,6 +146,7 @@ class SuccessTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -247,6 +248,8 @@ class SuccessTest(TestCase):
 >>>>>>> 984f2e4b5f (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -561,12 +564,15 @@ class SuccessTest(TestCase):
 >>>>>>> c7dc67a478 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
             expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
 >>>>>>> 2fb156cfe5 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1095,7 +1101,15 @@ class SuccessTest(TestCase):
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            expression=f"{cls.b2}=5.0+rand(-1.0,1.0)",
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
             flags="s",
             quiet=True,
         )

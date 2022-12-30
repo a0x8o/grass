@@ -441,6 +441,7 @@ struct datum_list *read_datum_table(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -552,6 +553,8 @@ struct datum_list *read_datum_table(void)
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -655,9 +658,12 @@ struct datum_list *read_datum_table(void)
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
 
         count++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -722,6 +728,8 @@ struct datum_list *read_datum_table(void)
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
@@ -746,9 +754,12 @@ struct datum_list *read_datum_table(void)
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
 
         count++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -774,6 +785,8 @@ struct datum_list *read_datum_table(void)
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a82cfbcefa (Fix missing function prototypes (#2727))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 =======
@@ -1375,7 +1388,12 @@ struct datum_list *read_datum_table(void)
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
     }
 
     fclose(fd);

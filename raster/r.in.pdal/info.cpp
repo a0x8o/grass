@@ -60,6 +60,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -135,6 +136,8 @@
 >>>>>>> 92f4985d14 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -489,7 +492,12 @@
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
  *
 =======
  *  
@@ -549,6 +557,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -566,6 +575,8 @@
 =======
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -800,7 +811,12 @@
  *
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
  *   Copyright 2021 by Maris Nartiss, and The GRASS Development Team
  *   Author: Maris Nartiss
  *
@@ -810,6 +826,7 @@
  */
 
 #include "info.h"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -989,6 +1006,8 @@
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 #include <cmath>
 =======
 
@@ -1460,6 +1479,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1540,6 +1560,8 @@
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -1699,7 +1721,12 @@
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 void get_extent(struct StringList *infiles, double *min_x, double *max_x,
                 double *min_y, double *max_y, double *min_z, double *max_z)
 {
@@ -1779,6 +1806,7 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1880,6 +1908,8 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 >>>>>>> 93f0f0bbbc (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 92f4985d14 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -2073,7 +2103,12 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 =======
 >>>>>>> e4a11f0d3a (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 92f4985d14 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
     *min_x = *max_x = *min_y = *max_y = *min_z = *max_z = NAN;
 =======
 <<<<<<< HEAD
@@ -2153,6 +2188,7 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 >>>>>>> osgeo-main
     *min_x = *max_x = *min_y = *max_y = *min_z = *max_z = 0.0 / 0.0;
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2783,7 +2819,15 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 =======
 >>>>>>> e4a11f0d3a (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 92f4985d14 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+    *min_x = *max_x = *min_y = *max_y = *min_z = *max_z = 0.0 / 0.0;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 
     for (int i = 0; i < infiles->num_items; i++) {
         const char *infile = infiles->items[i];
@@ -2859,6 +2903,7 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2934,6 +2979,8 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 >>>>>>> 92f4985d14 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -3289,7 +3336,12 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
         const pdal::LasHeader &las_header = las_reader.header();
 =======
         pdal::LasHeader las_header = las_reader.header();
@@ -3349,6 +3401,7 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3366,6 +3419,8 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -3600,7 +3655,12 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
         const pdal::LasHeader &las_header = las_reader.header();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
         if (first) {
             *min_x = las_header.minX();
             *min_y = las_header.minY();
@@ -3679,6 +3739,7 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3781,6 +3842,8 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3852,10 +3915,13 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3926,6 +3992,8 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -4299,7 +4367,14 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 void print_extent(struct StringList *infiles)
 {
     double min_x, max_x, min_y, max_y, min_z, max_z;
@@ -4328,6 +4403,7 @@ void print_extent(struct StringList *infiles)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -4709,7 +4785,14 @@ void print_extent(struct StringList *infiles)
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
     fprintf(stdout, "n=%f s=%f e=%f w=%f b=%f t=%f\n", max_y, min_y, max_x,
             min_x, min_z, max_z);
 }
@@ -4729,6 +4812,9 @@ void print_extent(struct StringList *infiles)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5040,6 +5126,7 @@ void print_extent(struct StringList *infiles)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -5060,6 +5147,8 @@ void print_extent(struct StringList *infiles)
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -5489,7 +5578,14 @@ void print_extent(struct StringList *infiles)
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 void print_lasinfo(struct StringList *infiles)
 {
     pdal::StageFactory factory;
@@ -5546,6 +5642,7 @@ void print_lasinfo(struct StringList *infiles)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5640,6 +5737,8 @@ void print_lasinfo(struct StringList *infiles)
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -5697,9 +5796,12 @@ void print_lasinfo(struct StringList *infiles)
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5757,6 +5859,8 @@ void print_lasinfo(struct StringList *infiles)
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -6026,7 +6130,12 @@ void print_lasinfo(struct StringList *infiles)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
     std::cout << std::endl
               << "Using PDAL library version '"
               << pdal::Config::fullVersionString() << "'" << std::endl
@@ -6058,6 +6167,7 @@ void print_lasinfo(struct StringList *infiles)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -6357,6 +6467,8 @@ void print_lasinfo(struct StringList *infiles)
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
     std::cout << std::endl << "Using PDAL library version '" <<
         pdal::Config::fullVersionString() << "'" << std::endl << std::endl;
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -6450,6 +6562,7 @@ void print_lasinfo(struct StringList *infiles)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -6467,6 +6580,8 @@ void print_lasinfo(struct StringList *infiles)
 =======
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -6689,7 +6804,12 @@ void print_lasinfo(struct StringList *infiles)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 
     for (int i = 0; i < infiles->num_items; i++) {
         const char *infile = infiles->items[i];
@@ -6728,6 +6848,7 @@ void print_lasinfo(struct StringList *infiles)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -7109,7 +7230,14 @@ void print_lasinfo(struct StringList *infiles)
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
         const pdal::LasHeader &h = las_reader.header();
         pdal::PointLayoutPtr point_layout = table.layout();
         const pdal::Dimension::IdList &dims = point_layout->dims();
@@ -7157,6 +7285,7 @@ void print_lasinfo(struct StringList *infiles)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7167,6 +7296,8 @@ void print_lasinfo(struct StringList *infiles)
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 =======
         pdal::LasHeader las_header = las_reader.header();
 =======
@@ -7282,6 +7413,7 @@ void print_lasinfo(struct StringList *infiles)
 =======
         const pdal::LasHeader &h = las_reader.header();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
         pdal::PointLayoutPtr point_layout = table.layout();
         const pdal::Dimension::IdList &dims = point_layout->dims();
@@ -8521,7 +8653,14 @@ void print_lasinfo(struct StringList *infiles)
                   << "\n";
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 
         bool first = 1;
 

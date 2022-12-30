@@ -258,6 +258,7 @@ int COGRR1(double x_or, double y_or, double z_or, int n_rows, int n_cols,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
@@ -980,6 +981,10 @@ int COGRR1(double x_or, double y_or, double z_or, int n_rows, int n_cols,
 =======
 =======
 =======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     int POINT();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))

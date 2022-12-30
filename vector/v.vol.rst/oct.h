@@ -65,6 +65,7 @@ struct octfunc {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -140,6 +141,8 @@ struct octfunc {
 >>>>>>> 93f0f0bbbc (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -499,7 +502,12 @@ struct octfunc {
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
     int (*compare)(struct quadruple *, struct octdata *);
     struct octdata **(*divide_data)(struct octdata *);
     int (*add_data)(struct quadruple *, struct octdata *);
@@ -1787,6 +1795,7 @@ struct octtree {
 };
 
 struct octtree {
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
@@ -1881,6 +1890,19 @@ struct octtree {
 >>>>>>> 93f0f0bbbc (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+=======
+    int (*compare)();
+    VOID_T **(*divide_data)();
+    int (*add_data)();
+    int (*intersect)();
+    int (*division_check)();
+    int (*get_points)();
+};
+
+struct octtree {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
     VOID_T *data;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))

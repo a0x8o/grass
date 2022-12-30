@@ -335,6 +335,7 @@ int pj_get_kv(struct pj_info *info, const struct Key_Value *in_proj_keys,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -441,6 +442,8 @@ int pj_get_kv(struct pj_info *info, const struct Key_Value *in_proj_keys,
 >>>>>>> 93f0f0bbbc (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -897,7 +900,12 @@ int pj_get_kv(struct pj_info *info, const struct Key_Value *in_proj_keys,
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 
 #if PROJ_VERSION_MAJOR >= 6
     if (proj_get_type(pj) == PJ_TYPE_BOUND_CRS) {
@@ -1130,6 +1138,7 @@ int pj_get_kv(struct pj_info *info, const struct Key_Value *in_proj_keys,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -1657,7 +1666,12 @@ int pj_get_kv(struct pj_info *info, const struct Key_Value *in_proj_keys,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 #endif
 
     info->pj = pj;

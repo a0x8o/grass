@@ -68,6 +68,7 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -141,6 +142,8 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 >>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -636,6 +639,8 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
     struct Ref Ref; /* subgroup reference list */
     const char *mapset, *semantic_label;
 =======
@@ -689,6 +694,7 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -724,9 +730,12 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
     struct Ref Ref; /* subgroup reference list */
     const char *mapset, *semantic_label;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -833,7 +842,12 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
     int n;
 
     if (!I_get_subgroup_ref(parms->group, parms->subgroup, &Ref)) {
@@ -850,6 +864,7 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
     files->nbands = Ref.nfiles;
     files->band_fd = (int *)G_calloc(Ref.nfiles, sizeof(int));
     files->band_cell = (DCELL **)G_calloc(Ref.nfiles, sizeof(DCELL *));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1130,11 +1145,15 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 
     /* Prepare SigSet structure */
     I_InitSigSet(S, files->nbands);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     /* Prepare SigSet structure */
     I_InitSigSet(S, files->nbands);
@@ -1146,6 +1165,7 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 
     /* open all maps for reading */
     for (n = 0; n < Ref.nfiles; n++) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1288,6 +1308,8 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1345,9 +1367,12 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1405,6 +1430,8 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -1674,7 +1701,12 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
         files->band_fd[n] = Rast_open_old(Ref.file[n].name, Ref.file[n].mapset);
         files->band_cell[n] = Rast_allocate_d_buf();
         semantic_label = Rast_get_semantic_label_or_name(Ref.file[n].name,
@@ -1709,6 +1741,9 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2066,6 +2101,7 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2422,7 +2458,14 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
     }
 
     I_free_group_ref(&Ref);

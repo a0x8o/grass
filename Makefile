@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -436,7 +437,12 @@
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 # COPYRIGHT:    (C) 2002-2024 by the GRASS Development Team
 =======
 # COPYRIGHT:    (C) 2002-2022 by the GRASS Development Team
@@ -481,6 +487,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -544,6 +551,8 @@
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -1096,7 +1105,15 @@
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+# COPYRIGHT:    (C) 2002-2022 by the GRASS Development Team
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 #
 #               This program is free software under the GNU General Public
 #   	    	License (>=v2). Read the file COPYING that comes with GRASS
@@ -1211,6 +1228,7 @@ SUBDIRS = $(DIRS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1382,6 +1400,8 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html cont
 >>>>>>> 93f0f0bbbc (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 FILES = AUTHORS CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contributors.csv contributors_extra.csv translators.csv
 =======
 =======
@@ -1760,6 +1780,8 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contri
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contributors.csv contributors_extra.csv translators.csv
 =======
 FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html contributors.csv contributors_extra.csv translators.csv
@@ -1844,6 +1866,7 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html cont
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -2307,7 +2330,15 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html cont
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html contributors.csv contributors_extra.csv translators.csv
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 FILES_DST = $(patsubst %,$(ARCH_DISTDIR)/%,$(FILES))
 
 default:

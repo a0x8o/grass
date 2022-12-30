@@ -998,6 +998,28 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1128,7 +1150,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
      *or co-occurrence matrix. The image is analyzed for piece, every piece is
 =======
      *or co-occurrence matrix. The image is analized for piece, every piece is
@@ -1162,6 +1189,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1370,7 +1400,15 @@ int main(int argc, char *argv[])
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+     *or co-occurrence matrix. The image is analized for piece, every piece is
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
      *naming moving window (s.w.). The s.w. must be square with number of size's
      *samples odd, that because we want the sample at the center of matrix.
      *

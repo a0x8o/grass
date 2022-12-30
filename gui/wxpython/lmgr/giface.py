@@ -333,6 +333,7 @@ class LayerManagerGrassInterface:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -454,6 +455,8 @@ class LayerManagerGrassInterface:
 >>>>>>> 1b0c82c3cd (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> f91c52c645 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -647,7 +650,12 @@ class LayerManagerGrassInterface:
 =======
 =======
 >>>>>>> 8984405ebb (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f91c52c645 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 class LayerManagerGrassInterfaceForMapDisplay:
 =======
     def ShowStatusbar(self, show=True):
@@ -823,6 +831,7 @@ class LayerManagerGrassInterfaceForMapDisplay:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -851,6 +860,8 @@ class LayerManagerGrassInterfaceForMapDisplay:
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -1120,7 +1131,12 @@ class LayerManagerGrassInterfaceForMapDisplay:
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 8984405ebb (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f91c52c645 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 
 class LayerManagerGrassInterfaceForMapDisplay(object):
 >>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))

@@ -90,6 +90,7 @@ CREATE VIEW raster_view_abs_time AS SELECT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -179,6 +180,8 @@ CREATE VIEW raster_view_abs_time AS SELECT
 >>>>>>> 93f0f0bbbc (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -817,8 +820,12 @@ CREATE VIEW raster_view_abs_time AS SELECT
 >>>>>>> 93f0f0bbbc (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
             FROM raster_base A1, raster_absolute_time A2,
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             FROM raster_base A1, raster_absolute_time A2, 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
@@ -911,6 +918,7 @@ CREATE VIEW raster_view_rel_time AS SELECT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1000,6 +1008,8 @@ CREATE VIEW raster_view_rel_time AS SELECT
 >>>>>>> 93f0f0bbbc (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -1638,8 +1648,12 @@ CREATE VIEW raster_view_rel_time AS SELECT
 >>>>>>> 93f0f0bbbc (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
             FROM raster_base A1, raster_relative_time A2,
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             FROM raster_base A1, raster_relative_time A2, 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
