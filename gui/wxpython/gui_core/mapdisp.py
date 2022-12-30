@@ -7,7 +7,10 @@ Classes:
  - mapdisp::MapPanelBase
  - mapdisp::SingleMapPanel
  - mapdisp::DoubleMapPanel
+<<<<<<< HEAD
  - mapdisp::FrameMixin
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 (C) 2009-2014 by the GRASS Development Team
 
@@ -29,15 +32,23 @@ from gui_core.toolbars import ToolSwitcher
 from gui_core.wrap import NewId
 from mapdisp import statusbar as sb
 <<<<<<< HEAD
+<<<<<<< HEAD
 from mapwin.base import MapWindowProperties
 =======
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+from mapwin.base import MapWindowProperties
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 from grass.script import core as grass
 
 
 class MapPanelBase(wx.Panel):
+<<<<<<< HEAD
     r"""Base class for map display window
+=======
+    """Base class for map display window
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     Derived class must use (create and initialize) \c statusbarManager
     or override
@@ -163,6 +174,7 @@ class MapPanelBase(wx.Panel):
         self.StatusbarUpdate()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     def OnFullScreen(self, event):
         """!Switch fullscreen mode, hides also toolbars"""
@@ -173,6 +185,8 @@ class MapPanelBase(wx.Panel):
         event.Skip()
 
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     def OnCloseWindow(self, event):
         self.Destroy()
 
@@ -341,12 +355,17 @@ class MapPanelBase(wx.Panel):
         statusbar = wx.StatusBar(self, id=wx.ID_ANY)
         statusbar.SetMinHeight(24)
 <<<<<<< HEAD
+<<<<<<< HEAD
         statusbar.SetFieldsCount(3)
         statusbar.SetStatusWidths([-6, -2, -1])
 =======
         statusbar.SetFieldsCount(4)
         statusbar.SetStatusWidths([-5, -2, -1, -1])
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+        statusbar.SetFieldsCount(3)
+        statusbar.SetStatusWidths([-6, -2, -1])
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         self.statusbarManager = sb.SbManager(mapframe=self, statusbar=statusbar)
 
         # fill statusbar manager
@@ -354,6 +373,7 @@ class MapPanelBase(wx.Panel):
             statusbarItems, mapframe=self, statusbar=statusbar
         )
         self.statusbarManager.AddStatusbarItem(
+<<<<<<< HEAD
 <<<<<<< HEAD
             sb.SbRender(self, statusbar=statusbar, position=2)
         )
@@ -365,6 +385,10 @@ class MapPanelBase(wx.Panel):
         )
         self.statusbarManager.Update()
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+            sb.SbRender(self, statusbar=statusbar, position=2)
+        )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         return statusbar
 
     def AddStatusbarPane(self):
@@ -408,7 +432,11 @@ class MapPanelBase(wx.Panel):
 
     def StatusbarEnableLongHelp(self, enable=True):
         """Enable/disable toolbars long help"""
+<<<<<<< HEAD
         for toolbar in self.toolbars.values():
+=======
+        for toolbar in six.itervalues(self.toolbars):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             if toolbar:
                 toolbar.EnableLongHelp(enable)
 
@@ -545,7 +573,11 @@ class MapPanelBase(wx.Panel):
 
 
 class SingleMapPanel(MapPanelBase):
+<<<<<<< HEAD
     r"""Panel with one map window.
+=======
+    """Panel with one map window.
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     It is base class for panels which needs only one map.
 
@@ -919,6 +951,9 @@ class FrameMixin:
 
     def SetSize(self, *args):
         self.GetParent().SetSize(*args)
+<<<<<<< HEAD
 
     def Close(self):
         self.GetParent().Close()
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
