@@ -251,6 +251,7 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         fprintf(stderr, "Error reading display file offset %" PRI_OFF_T "\n",
 =======
 <<<<<<< HEAD
@@ -366,6 +367,8 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -540,7 +543,12 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
         fprintf(stderr, "Error reading display file offset %" PRId64 "\n",
 =======
         fprintf(stderr, "Error reading display file offset %" PRI_OFF_T "\n",
@@ -594,6 +602,7 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -651,6 +660,8 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -992,7 +1003,15 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        fprintf(stderr, "Error reading display file offset %" PRI_OFF_T "\n",
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
                 G_ftell(fp));
         return (-1);
     }
@@ -1052,6 +1071,7 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "Error (size) reading display file offset %" PRI_OFF_T "\n",
 =======
 <<<<<<< HEAD
@@ -1167,6 +1187,8 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1341,7 +1363,12 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
                 "Error (size) reading display file offset %" PRId64 "\n",
 =======
                 "Error (size) reading display file offset %" PRI_OFF_T "\n",
@@ -1395,6 +1422,7 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1452,6 +1480,8 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1793,7 +1823,15 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                "Error (size) reading display file offset %" PRI_OFF_T "\n",
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
                 G_ftell(fp));
         return (-1);
     }

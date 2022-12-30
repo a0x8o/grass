@@ -111,6 +111,7 @@ int searching_parallel(double *length, double *sunVarGeom_z_orig,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -240,6 +241,8 @@ int searching_parallel(double *length, double *sunVarGeom_z_orig,
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -1063,8 +1066,12 @@ int useCivilTime(void);
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 int useCivilTime(void);
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 int useCivilTime();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
@@ -2286,9 +2293,18 @@ void setAngularLossDenominator(void);
 void setAngularLossDenominator(void);
 =======
 void setAngularLossDenominator();
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 
 /* void cube(int, int); */
 

@@ -175,6 +175,7 @@ static int G__open(const char *element, const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -305,6 +306,8 @@ static int G__open(const char *element, const char *name, const char *mapset,
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -399,6 +402,8 @@ static int G__open(const char *element, const char *name, const char *mapset,
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
         
 	if (mode == 1 || access(path, 0) != 0) {
@@ -1055,6 +1060,7 @@ static int G__open(const char *element, const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1150,6 +1156,8 @@ static int G__open(const char *element, const char *name, const char *mapset,
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1371,7 +1379,12 @@ static int G__open(const char *element, const char *name, const char *mapset,
 	}
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 3bb9edaff3 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> b34f2b11df (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 
         if (mode == 1 || access(path, 0) != 0) {
             if (is_tmp)
@@ -1406,6 +1419,9 @@ static int G__open(const char *element, const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1757,6 +1773,7 @@ static int G__open(const char *element, const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -1814,6 +1831,8 @@ static int G__open(const char *element, const char *name, const char *mapset,
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -2031,7 +2050,14 @@ static int G__open(const char *element, const char *name, const char *mapset,
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
         if ((fd = open(path, mode)) < 0)
             G_warning(_("G__open(write): Unable to open '%s': %s"), path,
                       strerror(errno));

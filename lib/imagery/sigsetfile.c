@@ -65,6 +65,7 @@ FILE *I_fopen_sigset_file_new(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -531,7 +532,14 @@ FILE *I_fopen_sigset_file_new(const char *name)
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
     char dir[GNAME_MAX];
     FILE *fd;
 
@@ -540,6 +548,7 @@ FILE *I_fopen_sigset_file_new(const char *name)
 
     I_get_signatures_dir(dir, I_SIGFILE_TYPE_SIGSET);
     fd = G_fopen_new_misc(dir, "sig", name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -709,6 +718,8 @@ FILE *I_fopen_sigset_file_new(const char *name)
 =======
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -819,6 +830,8 @@ FILE *I_fopen_sigset_file_new(const char *name)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     FILE *fd;
 =======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
     char element[GNAME_MAX];
 =======
@@ -1285,6 +1298,7 @@ FILE *I_fopen_sigset_file_new(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1357,6 +1371,8 @@ FILE *I_fopen_sigset_file_new(const char *name)
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -1470,7 +1486,12 @@ FILE *I_fopen_sigset_file_new(const char *name)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
     return fd;
 }
 
@@ -1560,6 +1581,7 @@ FILE *I_fopen_sigset_file_old(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1665,6 +1687,8 @@ FILE *I_fopen_sigset_file_old(const char *name)
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -2095,7 +2119,12 @@ FILE *I_fopen_sigset_file_old(const char *name)
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
     char dir[GNAME_MAX];
 =======
     char element[GNAME_MAX];
@@ -2190,6 +2219,7 @@ FILE *I_fopen_sigset_file_old(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2217,6 +2247,8 @@ FILE *I_fopen_sigset_file_old(const char *name)
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -2541,7 +2573,12 @@ FILE *I_fopen_sigset_file_old(const char *name)
     char dir[GNAME_MAX];
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
     FILE *fd;
 
     if (G_unqualified_name(name, NULL, sig_name, sig_mapset) == 0)
@@ -2622,6 +2659,7 @@ FILE *I_fopen_sigset_file_old(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2727,6 +2765,8 @@ FILE *I_fopen_sigset_file_old(const char *name)
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -3148,6 +3188,8 @@ FILE *I_fopen_sigset_file_old(const char *name)
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
     I_get_signatures_dir(dir, I_SIGFILE_TYPE_SIGSET);
     fd = G_fopen_old_misc(dir, "sig", sig_name, sig_mapset);
 =======
@@ -3309,6 +3351,7 @@ FILE *I_fopen_sigset_file_old(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3336,6 +3379,8 @@ FILE *I_fopen_sigset_file_old(const char *name)
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -3631,7 +3676,12 @@ FILE *I_fopen_sigset_file_old(const char *name)
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 
     return fd;
 }

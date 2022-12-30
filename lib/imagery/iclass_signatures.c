@@ -123,6 +123,7 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -346,6 +347,8 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -498,7 +501,12 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
         sigs->semantic_labels[i] = Rast_get_semantic_label_or_name(
             refer->file[i].name, refer->file[i].mapset);
 =======
@@ -764,6 +772,7 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -799,10 +808,13 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+=======
         sigs->semantic_labels[i] = Rast_get_semantic_label_or_name(
             refer->file[i].name, refer->file[i].mapset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1358,7 +1370,12 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     return 1;
@@ -1420,6 +1437,7 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 
     G_debug(3, "I_write_signatures(): file_name=%s", file_name);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1649,6 +1667,8 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
@@ -1912,7 +1932,12 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
     if (!(outsig_fd = I_fopen_signature_file_new(file_name))) {
         G_warning(_("Unable to open output signature file '%s'"), file_name);
         return 0;
@@ -2341,6 +2366,7 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2433,6 +2459,8 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2468,10 +2496,13 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+=======
     if (!(outsig_fd = I_fopen_signature_file_new(file_name))) {
         G_warning(_("Unable to open output signature file '%s'"), file_name);
         return 0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2594,6 +2625,8 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -2883,7 +2916,12 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     I_write_signatures(outsig_fd, sigs);

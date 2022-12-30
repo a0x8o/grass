@@ -111,6 +111,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     EMPQueueAdaptive(long N) : EMPQueueAdaptive(){};
 =======
 <<<<<<< HEAD
@@ -222,6 +223,8 @@ public:
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
     EMPQueueAdaptive(long N UNUSED) : EMPQueueAdaptive() {};
 =======
 =======
@@ -438,8 +441,12 @@ public:
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
     EMPQueueAdaptive(long N UNUSED) : EMPQueueAdaptive() {};
 =======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
@@ -496,6 +503,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     EMPQueueAdaptive(long N) : EMPQueueAdaptive(){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -567,6 +575,8 @@ public:
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
@@ -922,7 +932,18 @@ public:
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    EMPQueueAdaptive(long N) : EMPQueueAdaptive(){};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
     EMPQueueAdaptive();
     EMPQueueAdaptive(size_t inMem);
     ~EMPQueueAdaptive();

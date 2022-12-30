@@ -80,6 +80,7 @@ DSTDIR = $(ETC)/python/grass/benchmark
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -185,6 +186,8 @@ DSTDIR = $(ETC)/python/grass/benchmark
 >>>>>>> 2efe487a0f (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8e09c28a9a (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
@@ -615,7 +618,12 @@ MODULES = app plots results runners __main__
 =======
 =======
 >>>>>>> 58f65d161b (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 8e09c28a9a (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 MODULES = app plots results runners __main__
 =======
 MODULES = plots results runners
@@ -710,6 +718,7 @@ MODULES = app plots results runners __main__
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -737,6 +746,8 @@ MODULES = app plots results runners __main__
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -1061,7 +1072,12 @@ MODULES = app plots results runners __main__
 MODULES = app plots results runners __main__
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 58f65d161b (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 8e09c28a9a (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
