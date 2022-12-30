@@ -9,6 +9,7 @@ struct order {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     int count; /* nuber of points with category 'cat' */
 =======
 <<<<<<< HEAD
@@ -25,6 +26,8 @@ struct order {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
     int count; /* number of points with category 'cat' */
 =======
     int count; /* nuber of points with category 'cat' */
@@ -33,6 +36,7 @@ struct order {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     int count; /* nuber of points with category 'cat' */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -60,6 +64,8 @@ struct order {
     int count; /* nuber of points with category 'cat' */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
     int row;
     int col;
     double x, y; /* used with interp flag */

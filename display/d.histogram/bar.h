@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -108,6 +109,12 @@ float rem(); /* remainder function */
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+float rem(long int, long int); /* remainder function */
+=======
+float rem(); /* remainder function */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 
 /* normalized coordinates of bar-chart components */
 

@@ -126,6 +126,7 @@ int I_convert_con_points(char *, struct Ortho_Control_Points *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -229,6 +230,14 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *, double *, double *,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+int I_compute_ref_equations(struct Ortho_Photo_Points *, double[3], double[3],
+                            double[3], double[3]);
+=======
+int I_compute_ref_equations(struct Ortho_Photo_Points *, double *, double *,
+                            double *, double *);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 /* orthoref.c */
 int I_compute_ortho_equations(struct Ortho_Control_Points *,
                               struct Ortho_Camera_File_Ref *,

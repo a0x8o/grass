@@ -34,6 +34,7 @@ double gaussian2dByTerms(double d, double term1, double term2);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -123,6 +124,12 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+double brent_iterate(double (*f)(double), double x_lower, double x_upper,
+=======
+double brent_iterate(double (*f)(), double x_lower, double x_upper,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
                      int maxiter);
 double kernel1(double d, double rs, double lambda);
 double segno(double x);

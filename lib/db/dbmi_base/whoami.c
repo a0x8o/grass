@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 const char *db_whoami(void)
@@ -110,6 +111,12 @@ const char *db_whoami(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+const char *db_whoami(void)
+=======
+const char *db_whoami()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 {
     return G_store(getenv("LOGNAME"));
 }

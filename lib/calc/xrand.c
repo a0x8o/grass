@@ -44,6 +44,7 @@ int f_rand(int argc, const int *argt, void **args)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -133,6 +134,12 @@ int f_rand(int argc, const int *argt, void **args)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+            res[i] = (lo == hi) ? lo : (int)(lo + x % (unsigned int)(hi - lo));
+=======
+            res[i] = (lo == hi) ? lo : lo + x % (unsigned int)(hi - lo);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
         }
         return 0;
     }

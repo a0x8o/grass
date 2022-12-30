@@ -33,6 +33,7 @@ int format_parms(double v, int *n, int *dp, int *eformat, int e_option)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -122,6 +123,12 @@ int format_parms(double v, int *n, int *dp, int *eformat, int e_option)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        if ((int)strlen(buf) <= *n)
+=======
+        if (strlen(buf) <= *n)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
             break;
 
         if (*dp) {

@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_grant_on_table(dbString *tableName, int priv, int to)
 =======
 <<<<<<< HEAD
@@ -24,6 +25,8 @@ int db__driver_grant_on_table(dbString *tableName, int priv, int to)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_grant_on_table(dbString *tableName UNUSED, int priv UNUSED,
                               int to UNUSED)
 =======
@@ -33,6 +36,7 @@ int db__driver_grant_on_table(dbString *tableName, int priv, int to)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int db__driver_grant_on_table(dbString *tableName, int priv, int to)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -60,6 +64,8 @@ int db__driver_grant_on_table(dbString *tableName, int priv, int to)
 int db__driver_grant_on_table(dbString *tableName, int priv, int to)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 {
     return DB_OK;
 }

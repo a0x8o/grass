@@ -322,6 +322,7 @@ void Nviz_init_rotation(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \param data nviz data
 =======
 <<<<<<< HEAD
@@ -338,6 +339,8 @@ void Nviz_init_rotation(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
    \param data nviz data [unused]
 =======
    \param data nviz data
@@ -346,6 +349,7 @@ void Nviz_init_rotation(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    \param data nviz data
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -373,6 +377,8 @@ void Nviz_init_rotation(void)
    \param data nviz data
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
    \param fly_info values computed from mouse movement
    \param scale rate of movement
    \param lateral type of movement
@@ -385,6 +391,7 @@ void Nviz_init_rotation(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -424,6 +431,11 @@ void Nviz_flythrough(nv_data *data UNUSED, float *fly_info, int *scale,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+void Nviz_flythrough(nv_data *data UNUSED, float *fly_info, int *scale,
+                     int lateral)
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 void Nviz_flythrough(nv_data *data, float *fly_info, int *scale, int lateral)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {

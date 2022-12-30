@@ -90,6 +90,7 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -179,6 +180,12 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    snprintf(tmp_path, GPATH_MAX, "%s/%s_XXXXXX", base_dir, base.c_str());
+=======
+    sprintf(tmp_path, "%s/%s_XXXXXX", base_dir, base.c_str());
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 
     fd = G_mkstemp(tmp_path, O_RDWR, 0600);
 

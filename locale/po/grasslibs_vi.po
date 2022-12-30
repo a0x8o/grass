@@ -10214,6 +10214,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -10248,6 +10249,9 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../lib/vector/Vlib/header.c:131
 #, c-format
@@ -13001,6 +13005,7 @@ msgstr "[%s]: Không có màu này"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Invalid offset (%ld)"
 msgstr "Độ lệch không hợp lệ (%ld)"
 
@@ -13019,6 +13024,8 @@ msgstr "Độ lệch không hợp lệ (%ld)"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 #~ msgid "Cannot fetch row"
 #~ msgstr "Không thể lấy hàng"
 
@@ -13029,6 +13036,7 @@ msgid "Invalid offset (%ld)"
 msgstr "Độ lệch không hợp lệ (%ld)"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13062,5 +13070,7 @@ msgstr "Độ lệch không hợp lệ (%ld)"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Copy %s <%s> to current mapset as <%s>"
 msgstr "Chép %s < %s> vào bộ bản độ hiện tại thành <%s>"

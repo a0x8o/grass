@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -116,6 +117,12 @@ void (*Cxl_func)();
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+void (*Cxl_func)(void);
+=======
+void (*Cxl_func)();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 
 static int Cxl = 0;
 

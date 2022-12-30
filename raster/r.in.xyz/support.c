@@ -52,6 +52,7 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rast_set_null_value(array, nrows * ncols, map_type);
 =======
 <<<<<<< HEAD
@@ -68,6 +69,8 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
         for (row = 0; row < nrows; row++) {
             Rast_set_null_value(ptr, ncols, map_type);
             ptr = G_incr_void_ptr(ptr, ncols * Rast_cell_size(map_type));
@@ -79,6 +82,7 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Rast_set_null_value(array, nrows * ncols, map_type);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -106,6 +110,8 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
         Rast_set_null_value(array, nrows * ncols, map_type);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
         break;
 
     default:

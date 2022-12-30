@@ -72,6 +72,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -109,6 +110,10 @@ int simpson(int fd, char **par UNUSED, struct area_entry *ad, double *result)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+int simpson(int fd, char **par UNUSED, struct area_entry *ad, double *result)
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 int simpson(int fd, char **par, struct area_entry *ad, double *result)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {

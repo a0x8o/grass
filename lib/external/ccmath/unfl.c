@@ -16,6 +16,7 @@ static unsigned int s, h, sbuf[256];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -105,6 +106,12 @@ double unfl()
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+double unfl(void)
+=======
+double unfl()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 {
     int i;
 

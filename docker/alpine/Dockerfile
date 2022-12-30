@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM alpine:3.15 as common
 =======
 <<<<<<< HEAD
@@ -29,10 +30,19 @@ FROM alpine:3.20@sha256:77726ef6b57ddf65bb551896826ec38bc3e53f75cdde31354fbffb4f
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+FROM alpine:3.20@sha256:b89d9c93e9ed3597455c90a0b88a8bbb5cb7188438f70953fede212a0c4394e0 as common
+=======
+<<<<<<< HEAD
+FROM alpine:3.20@sha256:77726ef6b57ddf65bb551896826ec38bc3e53f75cdde31354fbffb4f25238ebd as common
+=======
+<<<<<<< HEAD
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 FROM alpine:3.19@sha256:c5b1261d6d3e43071626931fc004f70149baeba2c8ec672bd4f27761f8e1ad6b as common
 =======
 FROM alpine:3.15 as common
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 FROM alpine:3.15 as common
@@ -86,6 +96,10 @@ FROM alpine:3.15 as common
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 
 # Based on:
 # https://github.com/mundialis/docker-grass-gis/blob/master/Dockerfile
@@ -95,6 +109,7 @@ LABEL maintainer="neteler@osgeo.org"
 # PACKAGES VERSIONS
 ARG PYTHON_VERSION=3
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,6 +135,8 @@ ENV PACKAGES="\
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 # List of packages to be installed (proj-data omitted: 570.04 MB)
 ENV GRASS_RUN_PACKAGES="\
       attr \
@@ -129,6 +146,7 @@ ENV GRASS_RUN_PACKAGES="\
 ENV PACKAGES="\
       attr \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,6 +180,8 @@ ENV PACKAGES="\
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
       bash \
       bison \
       bzip2 \
@@ -170,6 +190,7 @@ ENV PACKAGES="\
       fftw \
       flex \
       freetype \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -192,6 +213,8 @@ ENV PACKAGES="\
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
       g++ \
       gcc \
       gdal \
@@ -216,6 +239,7 @@ ENV PACKAGES="\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -239,6 +263,8 @@ ENV PACKAGES="\
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
       gdal \
       gdal-tools \
       gettext \
@@ -250,6 +276,7 @@ ENV PACKAGES="\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -284,6 +311,9 @@ ENV PACKAGES="\
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
       gnutls \
       jsoncpp \
       laszip \
@@ -295,6 +325,7 @@ ENV PACKAGES="\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -310,6 +341,8 @@ ENV PACKAGES="\
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
       libgeotiff \
       libjpeg-turbo \
       libpng \
@@ -321,6 +354,7 @@ ENV PACKAGES="\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -344,6 +378,8 @@ ENV PACKAGES="\
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
       libexecinfo \
       libgeotiff \
       libjpeg-turbo \
@@ -356,6 +392,7 @@ ENV PACKAGES="\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -390,6 +427,9 @@ ENV PACKAGES="\
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
       musl \
       musl-utils \
       ncurses \
@@ -404,6 +444,7 @@ ENV PACKAGES="\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -419,6 +460,8 @@ ENV PACKAGES="\
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
       python3 \
       pdal \
       pdal-dev \
@@ -428,6 +471,7 @@ ENV PACKAGES="\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -451,6 +495,8 @@ ENV PACKAGES="\
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
       py3-six \
       pdal \
       pdal-dev \
@@ -462,6 +508,7 @@ ENV PACKAGES="\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -496,6 +543,9 @@ ENV PACKAGES="\
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
       proj-util \
       sqlite \
       sqlite-libs \
@@ -517,6 +567,7 @@ WORKDIR /src
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -532,6 +583,8 @@ WORKDIR /src
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 # Add the packages
 RUN echo "Install main packages";\
     apk update; \
@@ -541,6 +594,7 @@ RUN echo "Install main packages";\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -564,6 +618,8 @@ RUN echo "Install main packages";\
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 ENV PYTHONBIN=python$PYTHON_VERSION
 
 RUN echo "Install Python";\
@@ -586,6 +642,7 @@ RUN echo "Install main packages";\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -620,6 +677,9 @@ RUN echo "Install main packages";\
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 
 
 FROM common as build
@@ -674,6 +734,7 @@ ENV GRASS_BUILD_PACKAGES="\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       g++ \
       gcc \
       gdal-dev \
@@ -693,10 +754,13 @@ ENV GRASS_BUILD_PACKAGES="\
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
       g++ \
       gcc \
       gdal-dev \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -730,6 +794,8 @@ ENV GRASS_BUILD_PACKAGES="\
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
       geos-dev \
       git \
       gnutls-dev \
@@ -743,6 +809,7 @@ ENV GRASS_BUILD_PACKAGES="\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       make \
 =======
 <<<<<<< HEAD
@@ -759,6 +826,8 @@ ENV GRASS_BUILD_PACKAGES="\
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
       libpq-dev \
 =======
       make \
@@ -767,6 +836,7 @@ ENV GRASS_BUILD_PACKAGES="\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       make \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -794,6 +864,8 @@ ENV GRASS_BUILD_PACKAGES="\
       make \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
       openjpeg-dev \
       openblas-dev \
       pdal \
@@ -805,6 +877,7 @@ ENV GRASS_BUILD_PACKAGES="\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       postgresql-dev \
 =======
 <<<<<<< HEAD
@@ -846,6 +919,11 @@ ENV GRASS_BUILD_PACKAGES="\
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+      postgresql-dev \
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
       proj-dev \
       python3-dev \
       py3-numpy-dev \
@@ -885,6 +963,7 @@ RUN echo "  => Configure and compile grass" && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -906,6 +985,8 @@ RUN echo "  => Configure and compile grass" && \
 <<<<<<< HEAD:docker/alpine/Dockerfile
 =======
 >>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD:docker/alpine/Dockerfile
 <<<<<<< HEAD:docker/alpine/Dockerfile
 # Get rid of version number here, restore in next stage via symbolic link
@@ -992,6 +1073,7 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1018,6 +1100,9 @@ RUN cp /usr/local/grass80/gui/wxpython/xml/module_items.xml module_items.xml; \
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 # Reduce the image size - Remove unnecessary grass files
 RUN cp /usr/local/grass83/gui/wxpython/xml/module_items.xml module_items.xml; \
     rm -rf /usr/local/grass83/demolocation; \
@@ -1026,6 +1111,7 @@ RUN cp /usr/local/grass83/gui/wxpython/xml/module_items.xml module_items.xml; \
     rm -rf /usr/local/grass83/share; \
     mkdir -p /usr/local/grass83/gui/wxpython/xml/; \
     mv module_items.xml /usr/local/grass83/gui/wxpython/xml/module_items.xml;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1077,10 +1163,14 @@ RUN cp /usr/local/grass83/gui/wxpython/xml/module_items.xml module_items.xml; \
 >>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 9f683ad6d3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 
 
 FROM common as grass
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1105,10 +1195,13 @@ FROM common as grass
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD:docker/alpine/Dockerfile
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1144,6 +1237,8 @@ FROM common as grass
 <<<<<<< HEAD:docker/alpine/Dockerfile
 =======
 >>>>>>> 29b3914770 (Dockerfile_alpine: fix broken pip six installation (#1568))
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 ENV LC_ALL="en_US.UTF-8"
 
 # Copy GRASS GIS from build image
@@ -1158,6 +1253,7 @@ COPY --from=build /usr/local/grass* /usr/local/grass/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1177,6 +1273,8 @@ COPY --from=build /usr/local/grass* /usr/local/grass/
 >>>>>>> osgeo-main
 =======
 >>>>>>> 29b3914770 (Dockerfile_alpine: fix broken pip six installation (#1568))
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 # pip 20.0.0 fix
 RUN apk add curl && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python3 get-pip.py pip==20.0.2 && rm get-pip.py
 
@@ -1236,6 +1334,7 @@ RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1263,12 +1362,15 @@ RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 
 # install external Python API
 RUN pip3 install --upgrade pip six grass-session --ignore-installed six
 
 RUN ln -sf /usr/local/grass `grass --config path`
 RUN grass --tmp-location XY --exec g.version -rge && \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1354,6 +1456,9 @@ RUN ln -sf `grass --config path` /usr/local/grass
 >>>>>>> 02fc806ed8 (Dockerfile_alpine: fix broken link creatio)
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
 >>>>>>> 29b3914770 (Dockerfile_alpine: fix broken pip six installation (#1568))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
     pdal --version && \
     python3 --version
 
@@ -1375,6 +1480,7 @@ ENV GRASSBIN=grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1390,6 +1496,8 @@ ENV GRASSBIN=grass
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.in.pdal
 
 # Not yet ready for GRASS GIS 8:
@@ -1403,6 +1511,7 @@ RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.learn.ml
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1426,6 +1535,8 @@ RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.learn.ml
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 
 # Test grass-session
 # Not yet ready for GRASS GIS 8:
@@ -1436,6 +1547,7 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 # Test addon installation
 RUN apk add py3-scikit-learn
 RUN grass --tmp-location XY --exec g.extension extension=r.learn.ml2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1497,10 +1609,14 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 # Test addon installation
 RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.learn.ml
 >>>>>>> 29b3914770 (Dockerfile_alpine: fix broken pip six installation (#1568))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 
 
 FROM grass as final
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1614,6 +1730,20 @@ ENV GRASSBIN="/usr/local/bin/grass" \
 <<<<<<< HEAD
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> e526e86235 (Dockerfile_alpine: fix broken pip six installation (#1568)):docker/alpine/Dockerfile_alpine
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+# GRASS GIS specific
+# allow work with MAPSETs that are not owned by current user
+<<<<<<< HEAD
+ENV GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
+=======
+ENV GRASSBIN="/usr/local/bin/grass" \
+    GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
+<<<<<<< HEAD
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
     SHELL="/bin/bash" \
     # https://proj.org/usage/environmentvars.html#envvar-PROJ_NETWORK
     PROJ_NETWORK=ON \
@@ -1643,6 +1773,7 @@ RUN ln -sf /usr/local/grass $(grass --config path); \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     && python --version
 =======
@@ -1675,6 +1806,22 @@ ENV PROJ_NETWORK="ON"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    && python --version
+=======
+    && python3 --version
+=======
+    SHELL="/bin/bash"
+ENV PROJ_NETWORK="ON"
+
+
+# show installed version
+RUN grass --tmp-location XY --exec g.version -rge && \
+    pdal --version && \
+    python3 --version
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 
 <<<<<<< HEAD
 =======
@@ -1818,6 +1965,7 @@ VOLUME /grassdb
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 CMD $GRASSBIN --version
 =======
 <<<<<<< HEAD
@@ -1834,6 +1982,8 @@ CMD $GRASSBIN --version
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 CMD ["$GRASSBIN", "--version"]
 =======
 CMD $GRASSBIN --version
@@ -1842,6 +1992,7 @@ CMD $GRASSBIN --version
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 CMD $GRASSBIN --version
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1869,3 +2020,5 @@ CMD $GRASSBIN --version
 CMD $GRASSBIN --version
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))

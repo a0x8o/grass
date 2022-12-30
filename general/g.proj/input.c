@@ -127,6 +127,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -170,6 +171,8 @@ int input_wkt(char *wktfile)
 >>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> d7be28bb1b (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
         size_t wktlen;
 
         wktlen = fread(buff, 1, sizeof(buff), infd);
@@ -263,6 +266,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -284,6 +288,8 @@ int input_wkt(char *wktfile)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
         wktlen = fread(buff, 1, sizeof(buff), infd);
         if (wktlen == sizeof(buff))
             G_fatal_error(_("Input WKT definition is too long"));
@@ -295,6 +301,7 @@ int input_wkt(char *wktfile)
         buff[wktlen] = '\0';
         /* Get rid of newlines */
         G_squeeze(buff);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -340,6 +347,9 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> b3579a4902 (g.proj: fix reading input WKT (#1582))
 >>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
     }
     else
         G_fatal_error(_("Unable to open file '%s' for reading"), wktfile);

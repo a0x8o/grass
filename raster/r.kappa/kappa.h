@@ -32,6 +32,7 @@ struct _metrics_ {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -71,6 +72,11 @@ struct _metrics_ {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    double mcc;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 };
 
 extern struct Cell_head window;

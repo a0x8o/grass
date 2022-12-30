@@ -537,6 +537,7 @@ int tie_up(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -626,6 +627,12 @@ int tie_up(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        distmin = INFINITY;
+=======
+        distmin = 1. / 0.; /* +inf */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
         xmin = x;
         ymin = y;
 

@@ -1232,6 +1232,7 @@ int gsd_scalebar_v2(float *pos, float len, GLuint fontbase,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1266,6 +1267,9 @@ int gsd_scalebar_v2(float *pos, float len, GLuint fontbase,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 {
     float base[6][3];
     float Ntop[] = {0.0, 0.0, 1.0};

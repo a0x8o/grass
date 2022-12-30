@@ -139,6 +139,7 @@ class GPrompt:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ".wxgui_history",
 =======
                     ".bash_history",
@@ -155,6 +156,9 @@ class GPrompt:
 =======
                     ".bash_history",
 >>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
+=======
+                    ".wxgui_history",
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
                 ),
                 encoding="utf-8",
                 mode="r",

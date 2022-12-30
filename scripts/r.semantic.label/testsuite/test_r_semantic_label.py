@@ -7,6 +7,7 @@ from grass.gunittest.main import test
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from grass.gunittest.gmodules import SimpleModule, call_module
 =======
 <<<<<<< HEAD
@@ -23,6 +24,8 @@ from grass.gunittest.gmodules import SimpleModule, call_module
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 from grass.gunittest.gmodules import SimpleModule
 =======
 from grass.gunittest.gmodules import SimpleModule, call_module
@@ -31,6 +34,7 @@ from grass.gunittest.gmodules import SimpleModule, call_module
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from grass.gunittest.gmodules import SimpleModule, call_module
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -58,6 +62,8 @@ from grass.gunittest.gmodules import SimpleModule, call_module
 from grass.gunittest.gmodules import SimpleModule, call_module
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 
 from grass.script.core import tempname
 from grass.pygrass.gis import Mapset
@@ -110,6 +116,7 @@ class TestSemanticLabelsSystemDefined(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -125,6 +132,8 @@ class TestSemanticLabelsSystemDefined(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
     def test_semantic_label_print(self):
         semantic_label = "S2_1"
         semantic_label_desc = "S2 Visible (Coastal/Aerosol)"
@@ -146,6 +155,7 @@ class TestSemanticLabelsSystemDefined(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -169,6 +179,8 @@ class TestSemanticLabelsSystemDefined(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
     def test_semantic_label_dissociate(self):
         module = SimpleModule("r.semantic.label", operation="remove", map=self.map)
         self.assertModule(module)

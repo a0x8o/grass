@@ -90,6 +90,7 @@ BaseIcons = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -129,6 +130,11 @@ BaseIcons = {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    "docking": MetaIcon(img="monitor-dock", label=_("(Un)dock")),
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 

@@ -1,6 +1,7 @@
 #! /bin/sh
 # Configuration validation subroutine script.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33,13 +34,18 @@ timestamp='2022-01-03'
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 #   Copyright 1992-2024 Free Software Foundation, Inc.
 
 # shellcheck disable=SC2006,SC2268 # see below for rationale
 
 timestamp='2024-01-01'
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 #   Copyright 1992-2022 Free Software Foundation, Inc.
 
@@ -47,6 +53,7 @@ timestamp='2024-01-01'
 
 timestamp='2022-01-03'
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +93,8 @@ timestamp='2022-01-03'
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -167,6 +176,7 @@ Copyright 1992-2024 Free Software Foundation, Inc.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Copyright 1992-2022 Free Software Foundation, Inc.
 =======
 <<<<<<< HEAD
@@ -222,6 +232,10 @@ Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+Copyright 1992-2022 Free Software Foundation, Inc.
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
@@ -1468,6 +1482,7 @@ EOF
 		kernel=linux
 		os=`echo "$basic_os" | sed -e 's|linux|gnu|'`
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1495,10 +1510,13 @@ EOF
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 		;;
 	managarm*)
 		kernel=managarm
 		os=`echo "$basic_os" | sed -e 's|managarm|mlibc|'`
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1534,6 +1552,10 @@ EOF
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 		;;
 	*)
 		kernel=
@@ -1941,6 +1963,7 @@ case $os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	musl* | newlib* | relibc* | uclibc*)
 =======
 <<<<<<< HEAD
@@ -1996,6 +2019,10 @@ case $os in
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+	musl* | newlib* | relibc* | uclibc*)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 		;;
 	# Likewise for "kernel-abi"
 	eabi* | gnueabi*)
@@ -2043,6 +2070,7 @@ case $os in
 <<<<<<< HEAD
 	     | fiwix* | mlibc* | cos* | mbr* | ironclad* )
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2105,6 +2133,10 @@ case $os in
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+	     | fiwix* )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 		;;
 	# This one is extra strict with allowed versions
 	sco3.2v2 | sco3.2v[4-9]* | sco5v6*)
@@ -2162,10 +2194,12 @@ esac
 
 # As a final step for OS-related things, validate the OS-kernel combination
 # (given a valid OS), if there is a kernel.
+<<<<<<< HEAD
 case $kernel-$os-$obj in
 	linux-gnu*- | linux-android*- | linux-dietlibc*- | linux-llvm*- \
 		    | linux-mlibc*- | linux-musl*- | linux-newlib*- \
 		    | linux-relibc*- | linux-uclibc*- )
+<<<<<<< HEAD
 <<<<<<< HEAD
 		;;
 	uclinux-uclibc*- )
@@ -2246,12 +2280,24 @@ case $kernel-$os in
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+case $kernel-$os in
+	linux-gnu* | linux-dietlibc* | linux-android* | linux-newlib* \
+		   | linux-musl* | linux-relibc* | linux-uclibc* )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+		;;
+	uclinux-uclibc*- )
+		;;
+<<<<<<< HEAD
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 	managarm-mlibc*- | managarm-kernel*- )
 		;;
 	windows*-msvc*-)
 		;;
 	-dietlibc*- | -llvm*- | -mlibc*- | -musl*- | -newlib*- | -relibc*- \
 		    | -uclibc*- )
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -2292,6 +2338,11 @@ case $kernel-$os in
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+	-dietlibc* | -newlib* | -musl* | -relibc* | -uclibc* )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 		# These are just libc implementations, not actual OSes, and thus
 		# require a kernel.
 		echo "Invalid configuration '$1': libc '$os' needs explicit kernel." 1>&2

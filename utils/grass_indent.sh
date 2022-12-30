@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 case "$(uname)" in
 =======
 <<<<<<< HEAD
@@ -75,6 +76,9 @@ case "$(uname)" in
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+case "$(uname)" in 
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
  Darwin | *BSD*)
   INDENT=$(which gindent)
   ;;

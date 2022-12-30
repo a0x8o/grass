@@ -156,6 +156,7 @@ struct RTree {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         int alloc;  /* number of allcoated positions in *pos */
 =======
 <<<<<<< HEAD
@@ -172,6 +173,8 @@ struct RTree {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
         int alloc;  /* number of allocated positions in *pos */
 =======
         int alloc;  /* number of allcoated positions in *pos */
@@ -180,6 +183,7 @@ struct RTree {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         int alloc;  /* number of allcoated positions in *pos */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -207,6 +211,8 @@ struct RTree {
         int alloc;  /* number of allcoated positions in *pos */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
         off_t *pos; /* array of available positions */
     } free_nodes;
 

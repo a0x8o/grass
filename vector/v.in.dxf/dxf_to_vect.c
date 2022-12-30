@@ -83,6 +83,7 @@ int dxf_to_vect(struct dxf_file *dxf, struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -122,6 +123,11 @@ int dxf_to_vect(struct dxf_file *dxf, struct Map_info *Map)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+                        FALLTHROUGH;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
                     default:
                         break;
                     }

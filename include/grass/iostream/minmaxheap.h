@@ -102,6 +102,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -205,6 +206,14 @@ public:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        snprintf(str, sizeof(str), "BasicMinMaxHeap: allocate %ld\n",
+                 (long)((size + 1) * sizeof(T)));
+=======
+        sprintf(str, "BasicMinMaxHeap: allocate %ld\n",
+                (long)((size + 1) * sizeof(T)));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
         // MEMORY_LOG(str);
 
         lastindex = 0;

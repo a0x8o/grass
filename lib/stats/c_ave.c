@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void c_ave(DCELL *result, DCELL *values, int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -24,6 +25,8 @@ void c_ave(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 void c_ave(DCELL *result, DCELL *values, int n, const void *closure UNUSED)
 =======
 void c_ave(DCELL *result, DCELL *values, int n, const void *closure)
@@ -32,6 +35,7 @@ void c_ave(DCELL *result, DCELL *values, int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void c_ave(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -59,6 +63,8 @@ void c_ave(DCELL *result, DCELL *values, int n, const void *closure)
 void c_ave(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 {
     DCELL sum;
     int count;
@@ -88,6 +94,7 @@ void c_ave(DCELL *result, DCELL *values, int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void w_ave(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -104,6 +111,8 @@ void w_ave(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 void w_ave(DCELL *result, DCELL (*values)[2], int n, const void *closure UNUSED)
 =======
 void w_ave(DCELL *result, DCELL (*values)[2], int n, const void *closure)
@@ -112,6 +121,7 @@ void w_ave(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void w_ave(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -139,6 +149,8 @@ void w_ave(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 void w_ave(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 {
     DCELL sum;
     DCELL count;

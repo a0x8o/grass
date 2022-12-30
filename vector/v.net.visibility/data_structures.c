@@ -59,6 +59,7 @@ void init_stack(int size)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -96,6 +97,10 @@ int cmp_points(const void *v1, const void *v2, void *param UNUSED)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+int cmp_points(const void *v1, const void *v2, void *param UNUSED)
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 int cmp_points(const void *v1, const void *v2, void *param)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {

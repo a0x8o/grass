@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_drop_index(dbString *name)
 =======
 <<<<<<< HEAD
@@ -24,6 +25,8 @@ int db__driver_drop_index(dbString *name)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_drop_index(dbString *name UNUSED)
 =======
 int db__driver_drop_index(dbString *name)
@@ -32,6 +35,7 @@ int db__driver_drop_index(dbString *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int db__driver_drop_index(dbString *name)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -59,6 +63,8 @@ int db__driver_drop_index(dbString *name)
 int db__driver_drop_index(dbString *name)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 {
     db_procedure_not_implemented("db_drop_index");
     return DB_FAILED;

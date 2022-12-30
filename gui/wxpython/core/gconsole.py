@@ -766,6 +766,7 @@ class GConsole(wx.EvtHandler):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -835,10 +836,20 @@ class GConsole(wx.EvtHandler):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+            status = Status.ABORTED
+=======
+<<<<<<< HEAD
+            status = "aborted"
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 061ba6c577 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
         elif event.returncode != 0:
             msg = _("Command ended with non-zero return code {returncode}").format(
                 returncode=event.returncode
             )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -915,6 +926,15 @@ class GConsole(wx.EvtHandler):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+            status = Status.FAILED
+=======
+<<<<<<< HEAD
+            status = "failed"
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 061ba6c577 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
         else:
             msg = _("Command finished")
             status = Status.SUCCESS

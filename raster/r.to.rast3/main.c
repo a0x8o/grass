@@ -46,6 +46,7 @@ void fatal_error(void *map, int *fd, int depths,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -135,6 +136,12 @@ void set_params();                /*Fill the paramType structure */
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+void set_params(void);            /*Fill the paramType structure */
+=======
+void set_params();                /*Fill the paramType structure */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 void raster_to_g3d(void *map, RASTER3D_Region region,
                    int *fd);                 /*Write the raster */
 int open_input_raster_map(const char *name); /*opens the outputmap */
