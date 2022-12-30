@@ -79,6 +79,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -130,6 +131,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -184,7 +187,12 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
         stats[i].min = NAN;
         stats[i].max = NAN;
 =======
@@ -599,6 +607,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
@@ -630,7 +639,21 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+        stats[i].min = NAN;
+        stats[i].max = NAN;
+=======
+        stats[i].min = 0.0 / 0.0; /* set to nan as default */
+        stats[i].max = 0.0 / 0.0; /* set to nan as default */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
         stats[i].n_perc = n_perc;
         if (n_perc > 0)
             stats[i].perc = (double *)G_malloc(n_perc * sizeof(double));
@@ -737,6 +760,10 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
@@ -853,14 +880,19 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> osgeo-main
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
         stats[i].n_alloc = 0;
         stats[i].first = TRUE;
 =======
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -893,7 +925,13 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 
         stats[i].n_alloc = 0;
 
@@ -945,6 +983,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1079,6 +1118,12 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1102,6 +1147,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -1131,7 +1177,16 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     return stats;
@@ -1501,8 +1556,208 @@ int print_stats(univar_stat *stats)
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+        /* all these calculations get promoted to doubles, so any DIV0 becomes
+         * nan */
+        mean = stats[z].sum / stats[z].n;
+        variance = (stats[z].sumsq - stats[z].sum * stats[z].sum / stats[z].n) /
+                   stats[z].n;
+        if (variance < GRASS_EPSILON)
+            variance = 0.0;
+        stdev = sqrt(variance);
+        var_coef = (stdev / mean) * 100.; /* perhaps stdev/fabs(mean) ? */
+
+        if (stats[z].n == 0)
+            stats[z].sum = stats[z].sum_abs = NAN;
+        sprintf(sum_str, "%.15g", stats[z].sum);
+        G_trim_decimal(sum_str);
+
+        if (!param.shell_style->answer) {
+            if (zone_info.n_zones) {
+                int z_cat = z + zone_info.min;
+
+                fprintf(stdout, "\nzone %d %s\n\n", z_cat,
+                        Rast_get_c_cat(&z_cat, &(zone_info.cats)));
+            }
+            fprintf(stdout, "total null and non-null cells: %lu\n",
+                    stats[z].size);
+            fprintf(stdout, "total null cells: %lu\n\n",
+                    stats[z].size - stats[z].n);
+            fprintf(stdout, "Of the non-null cells:\n----------------------\n");
+        }
+
+        if (param.shell_style->answer) {
+            if (zone_info.n_zones) {
+                int z_cat = z + zone_info.min;
+
+                fprintf(stdout, "zone=%d;%s\n", z_cat,
+                        Rast_get_c_cat(&z_cat, &(zone_info.cats)));
+            }
+            fprintf(stdout, "n=%lu\n", stats[z].n);
+            fprintf(stdout, "null_cells=%lu\n", stats[z].size - stats[z].n);
+            fprintf(stdout, "cells=%lu\n", stats->size);
+            fprintf(stdout, "min=%.15g\n", stats[z].min);
+            fprintf(stdout, "max=%.15g\n", stats[z].max);
+            fprintf(stdout, "range=%.15g\n", stats[z].max - stats[z].min);
+            fprintf(stdout, "mean=%.15g\n", mean);
+            fprintf(stdout, "mean_of_abs=%.15g\n",
+                    stats[z].sum_abs / stats[z].n);
+            fprintf(stdout, "stddev=%.15g\n", stdev);
+            fprintf(stdout, "variance=%.15g\n", variance);
+            fprintf(stdout, "coeff_var=%.15g\n", var_coef);
+            fprintf(stdout, "sum=%s\n", sum_str);
+        }
+        else {
+            fprintf(stdout, "n: %lu\n", stats[z].n);
+            fprintf(stdout, "minimum: %g\n", stats[z].min);
+            fprintf(stdout, "maximum: %g\n", stats[z].max);
+            fprintf(stdout, "range: %g\n", stats[z].max - stats[z].min);
+            fprintf(stdout, "mean: %g\n", mean);
+            fprintf(stdout, "mean of absolute values: %g\n",
+                    stats[z].sum_abs / stats[z].n);
+            fprintf(stdout, "standard deviation: %g\n", stdev);
+            fprintf(stdout, "variance: %g\n", variance);
+            fprintf(stdout, "variation coefficient: %g %%\n", var_coef);
+            fprintf(stdout, "sum: %s\n", sum_str);
+        }
+
+        /* TODO: mode, skewness, kurtosis */
+        if (param.extended->answer) {
+            qpos_perc = (size_t *)G_calloc(stats[z].n_perc, sizeof(size_t));
+            quartile_perc = (double *)G_calloc(stats[z].n_perc, sizeof(double));
+
+            if (stats[z].n == 0) {
+                quartile_25 = median = quartile_75 = NAN;
+                for (i = 0; i < stats[z].n_perc; i++)
+                    quartile_perc[i] = NAN;
+            }
+            else {
+                for (i = 0; i < stats[z].n_perc; i++) {
+                    qpos_perc[i] =
+                        (size_t)(stats[z].n * 1e-2 * stats[z].perc[i] - 0.5);
+                }
+                qpos_25 = (size_t)(stats[z].n * 0.25 - 0.5);
+                qpos_75 = (size_t)(stats[z].n * 0.75 - 0.5);
+
+                switch (stats[z].map_type) {
+                case CELL_TYPE:
+                    heapsort_int(stats[z].cell_array, stats[z].n);
+
+                    quartile_25 = (double)stats[z].cell_array[qpos_25];
+                    if (stats[z].n % 2) /* odd */
+                        median =
+                            (double)stats[z].cell_array[(int)(stats[z].n / 2)];
+                    else /* even */
+                        median =
+                            (double)(stats[z].cell_array[stats[z].n / 2 - 1] +
+                                     stats[z].cell_array[stats[z].n / 2]) /
+                            2.0;
+                    quartile_75 = (double)stats[z].cell_array[qpos_75];
+                    for (i = 0; i < stats[z].n_perc; i++) {
+                        quartile_perc[i] =
+                            (double)stats[z].cell_array[qpos_perc[i]];
+                    }
+                    break;
+
+                case FCELL_TYPE:
+                    heapsort_float(stats[z].fcell_array, stats[z].n);
+
+                    quartile_25 = (double)stats[z].fcell_array[qpos_25];
+                    if (stats[z].n % 2) /* odd */
+                        median =
+                            (double)stats[z].fcell_array[(int)(stats[z].n / 2)];
+                    else /* even */
+                        median =
+                            (double)(stats[z].fcell_array[stats[z].n / 2 - 1] +
+                                     stats[z].fcell_array[stats[z].n / 2]) /
+                            2.0;
+                    quartile_75 = (double)stats[z].fcell_array[qpos_75];
+                    for (i = 0; i < stats[z].n_perc; i++) {
+                        quartile_perc[i] =
+                            (double)stats[z].fcell_array[qpos_perc[i]];
+                    }
+                    break;
+
+                case DCELL_TYPE:
+                    heapsort_double(stats[z].dcell_array, stats[z].n);
+
+                    quartile_25 = stats[z].dcell_array[qpos_25];
+                    if (stats[z].n % 2) /* odd */
+                        median = stats[z].dcell_array[(int)(stats[z].n / 2)];
+                    else /* even */
+                        median = (stats[z].dcell_array[stats[z].n / 2 - 1] +
+                                  stats[z].dcell_array[stats[z].n / 2]) /
+                                 2.0;
+                    quartile_75 = stats[z].dcell_array[qpos_75];
+                    for (i = 0; i < stats[z].n_perc; i++) {
+                        quartile_perc[i] = stats[z].dcell_array[qpos_perc[i]];
+                    }
+                    break;
+
+                default:
+                    break;
+                }
+            }
+
+            if (param.shell_style->answer) {
+                fprintf(stdout, "first_quartile=%g\n", quartile_25);
+                fprintf(stdout, "median=%g\n", median);
+                fprintf(stdout, "third_quartile=%g\n", quartile_75);
+                for (i = 0; i < stats[z].n_perc; i++) {
+                    char buf[24];
+
+                    sprintf(buf, "%.15g", stats[z].perc[i]);
+                    G_strchg(buf, '.', '_');
+                    fprintf(stdout, "percentile_%s=%g\n", buf,
+                            quartile_perc[i]);
+                }
+            }
+            else {
+                fprintf(stdout, "1st quartile: %g\n", quartile_25);
+                if (stats[z].n % 2)
+                    fprintf(stdout, "median (odd number of cells): %g\n",
+                            median);
+                else
+                    fprintf(stdout, "median (even number of cells): %g\n",
+                            median);
+                fprintf(stdout, "3rd quartile: %g\n", quartile_75);
+
+                for (i = 0; i < stats[z].n_perc; i++) {
+                    if (stats[z].perc[i] == (int)stats[z].perc[i]) {
+                        /* percentile is an exact integer */
+                        if ((int)stats[z].perc[i] % 10 == 1 &&
+                            (int)stats[z].perc[i] != 11)
+                            fprintf(stdout, "%dst percentile: %g\n",
+                                    (int)stats[z].perc[i], quartile_perc[i]);
+                        else if ((int)stats[z].perc[i] % 10 == 2 &&
+                                 (int)stats[z].perc[i] != 12)
+                            fprintf(stdout, "%dnd percentile: %g\n",
+                                    (int)stats[z].perc[i], quartile_perc[i]);
+                        else if ((int)stats[z].perc[i] % 10 == 3 &&
+                                 (int)stats[z].perc[i] != 13)
+                            fprintf(stdout, "%drd percentile: %g\n",
+                                    (int)stats[z].perc[i], quartile_perc[i]);
+                        else
+                            fprintf(stdout, "%dth percentile: %g\n",
+                                    (int)stats[z].perc[i], quartile_perc[i]);
+                    }
+                    else {
+                        /* percentile is not an exact integer */
+                        fprintf(stdout, "%.15g percentile: %g\n",
+                                stats[z].perc[i], quartile_perc[i]);
+                    }
+                }
+            }
+            G_free((void *)quartile_perc);
+            G_free((void *)qpos_perc);
+        }
+
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -1524,7 +1779,15 @@ int print_stats(univar_stat *stats)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
         /* stats collected for this zone? */
         if (stats[z].size == 0)
             continue;
@@ -1817,6 +2080,7 @@ int print_stats(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             stats[z].sum = stats[z].sum_abs = NAN;
 =======
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
@@ -3118,7 +3382,12 @@ int print_stats(univar_stat *stats)
         var_coef = (stdev / mean) * 100.; /* perhaps stdev/fabs(mean) ? */
 
         if (stats[z].n == 0)
+=======
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
             stats[z].sum = stats[z].sum_abs = NAN;
+=======
+            stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         sprintf(sum_str, "%.15g", stats[z].sum);
         G_trim_decimal(sum_str);
 
@@ -3177,9 +3446,15 @@ int print_stats(univar_stat *stats)
             quartile_perc = (double *)G_calloc(stats[z].n_perc, sizeof(double));
 
             if (stats[z].n == 0) {
+<<<<<<< HEAD
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
+=======
+                quartile_25 = median = quartile_75 = 0.0 / 0.0;
+                for (i = 0; i < stats[z].n_perc; i++)
+                    quartile_perc[i] = 0.0 / 0.0;
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             }
             else {
                 for (i = 0; i < stats[z].n_perc; i++) {
@@ -3306,11 +3581,16 @@ int print_stats(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
         /* all these calculations get promoted to doubles, so any DIV0 becomes
          * nan */
@@ -4000,6 +4280,7 @@ int print_stats(univar_stat *stats)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
@@ -4278,7 +4559,15 @@ int print_stats(univar_stat *stats)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
         /* G_message() prints to stderr not stdout: disabled. this \n is printed
          * above with zone */
         /* if (!(param.shell_style->answer))
@@ -4466,8 +4755,14 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+        /* for extendet stats */
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -4489,11 +4784,20 @@ int print_stats_table(univar_stat *stats)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
         /* for extended stats */
 =======
         /* for extendet stats */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4532,6 +4836,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
         /* for extendet stats */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4651,6 +4957,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
         /* for extendet stats */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -4662,6 +4970,7 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 =======
         /* for extendet stats */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4692,7 +5001,15 @@ int print_stats_table(univar_stat *stats)
         /* for extendet stats */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
         double quartile_25 = 0.0, quartile_75 = 0.0, *quartile_perc;
         double median = 0.0;
         int qpos_25, qpos_75, *qpos_perc;
@@ -4762,6 +5079,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4813,6 +5131,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4867,7 +5187,12 @@ int print_stats_table(univar_stat *stats)
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
             stats[z].sum = stats[z].sum_abs = NAN;
 =======
 <<<<<<< HEAD
@@ -5193,6 +5518,7 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
@@ -5280,7 +5606,19 @@ int print_stats_table(univar_stat *stats)
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+            stats[z].sum = stats[z].sum_abs = NAN;
+=======
+            stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 
         if (zone_info.n_zones) {
             int z_cat = z + zone_info.min;
@@ -5376,6 +5714,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5483,8 +5822,13 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -5536,7 +5880,17 @@ int print_stats_table(univar_stat *stats)
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
@@ -5642,6 +5996,9 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5792,6 +6149,9 @@ int print_stats_table(univar_stat *stats)
                     quartile_perc[i] = 0.0 / 0.0;
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
@@ -5957,10 +6317,19 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> osgeo-main
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
                 quartile_25 = median = quartile_75 = 0.0 / 0.0;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = 0.0 / 0.0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -5970,6 +6339,8 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
                 quartile_25 = median = quartile_75 = 0.0 / 0.0;
                 for (i = 0; i < stats[z].n_perc; i++)
@@ -6038,6 +6409,7 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -6114,7 +6486,15 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
             }
             else {
                 for (i = 0; i < stats[z].n_perc; i++) {

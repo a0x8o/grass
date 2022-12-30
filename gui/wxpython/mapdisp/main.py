@@ -119,6 +119,10 @@ This program is free software under the GNU General Public License
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
@@ -230,6 +234,7 @@ This program is free software under the GNU General Public License
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -267,7 +272,17 @@ This program is free software under the GNU General Public License
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+"""  # noqa: E501
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 """
 
 from __future__ import print_function
@@ -1065,6 +1080,7 @@ class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
         StandaloneMapDisplayGrassInterface.__init__(self, mapframe)
 
 
+<<<<<<< HEAD
 class DMonFrame(MapFrame):
     def OnZoomToMap(self, event):
         layers = self.MapWindow.GetMap().GetListOfLayers()
@@ -1104,6 +1120,57 @@ class DMonFrame(MapFrame):
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
 
 =======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+
+<<<<<<< HEAD
+class DMonFrame(MapFrame):
+    def OnZoomToMap(self, event):
+        layers = self.MapWindow.GetMap().GetListOfLayers()
+        self.MapWindow.ZoomToMap(layers=layers)
+>>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+
+    def __init__(self, mapframe):
+        StandaloneMapDisplayGrassInterface.__init__(self, mapframe)
+=======
+=======
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+        self._mapframe.ShowStatusbar(show)
+
+    def IsStatusbarShown(self):
+        if not self._mapframe.statusbarManager:
+            return False
+
+        return self._mapframe.IsStatusbarShown()
+
+    def ShowAllToolbars(self, show=True):
+        if not show:  # hide
+            action = self._mapframe.RemoveToolbar
+        else:
+            action = self._mapframe.AddToolbar
+        toolbars = list(self._mapframe.GetToolbarNames())
+        if not toolbars:
+            toolbars.append("map")
+        for toolbar in toolbars:
+            action(toolbar)
+
+    def AreAllToolbarsShown(self):
+        toolbar = self._mapframe.GetMapToolbar()
+        if toolbar is None:
+            return False
+
+        return toolbar.IsShown()
+>>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+
+class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
+    """@implements GrassInterface"""
+
+    def __init__(self, mapframe):
+        StandaloneMapDisplayGrassInterface.__init__(self, mapframe)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+
+=======
+<<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 <<<<<<< HEAD
@@ -1207,56 +1274,6 @@ class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
 <<<<<<< HEAD
-class DMonFrame(MapFrame):
-    def OnZoomToMap(self, event):
-        layers = self.MapWindow.GetMap().GetListOfLayers()
-        self.MapWindow.ZoomToMap(layers=layers)
->>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
-
-    def __init__(self, mapframe):
-        StandaloneMapDisplayGrassInterface.__init__(self, mapframe)
-=======
-=======
->>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
-        self._mapframe.ShowStatusbar(show)
-
-    def IsStatusbarShown(self):
-        if not self._mapframe.statusbarManager:
-            return False
-
-        return self._mapframe.IsStatusbarShown()
-
-    def ShowAllToolbars(self, show=True):
-        if not show:  # hide
-            action = self._mapframe.RemoveToolbar
-        else:
-            action = self._mapframe.AddToolbar
-        toolbars = list(self._mapframe.GetToolbarNames())
-        if not toolbars:
-            toolbars.append("map")
-        for toolbar in toolbars:
-            action(toolbar)
-
-    def AreAllToolbarsShown(self):
-        toolbar = self._mapframe.GetMapToolbar()
-        if toolbar is None:
-            return False
-
-        return toolbar.IsShown()
->>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
-=======
-
-class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
-    """@implements GrassInterface"""
-
-    def __init__(self, mapframe):
-        StandaloneMapDisplayGrassInterface.__init__(self, mapframe)
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-
-=======
->>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
-
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1317,6 +1334,8 @@ class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
     def __init__(self, mapframe):
         StandaloneMapDisplayGrassInterface.__init__(self, mapframe)
@@ -1858,13 +1877,18 @@ class DMonDisplay(FrameMixin, MapPanel):
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 class DMonDisplay(FrameMixin, MapPanel):
     """Map display for wrapping map panel with d.mon mathods and frame methods"""
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
+=======
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 class DMonDisplay(FrameMixin, MapPanel):
     """Map display for wrapping map panel with d.mon mathods and frame methods"""
@@ -1879,6 +1903,7 @@ class DMonDisplay(FrameMixin, MapPanel):
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1906,7 +1931,15 @@ class DMonDisplay(FrameMixin, MapPanel):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
     def __init__(self, parent, giface, id, Map, title, toolbars, statusbar):
         # init map panel
         MapPanel.__init__(
