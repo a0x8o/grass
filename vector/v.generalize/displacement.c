@@ -332,6 +332,7 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -349,6 +350,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+>>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
         G_percent(iter, iterations, 1);
 
         matrix_mult_scalar(0.0, &fx);
@@ -7053,6 +7056,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 <<<<<<< HEAD
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
         G_percent(iter, iterations, 1);
 
         matrix_mult_scalar(0.0, &fx);
@@ -7191,6 +7196,7 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
         matrix_mult(&kinv, &fx, &dx);
         matrix_mult(&kinv, &fy, &dy);
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -7207,6 +7213,11 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
+=======
+        int conflicts = 0;
+
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
         G_percent(iter, iterations, 1);
 
         matrix_mult_scalar(0.0, &fx);
@@ -7260,6 +7271,10 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
                 point_scalar(dir, 1.0 - d / threshold, &dir);
                 fx.a[point_index[i]][0] += dir.x;
                 fy.a[point_index[i]][0] += dir.y;
+<<<<<<< HEAD
+=======
+                conflicts++;
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
             }
         }
 
@@ -7272,6 +7287,7 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
         matrix_add(&dx, &fx, &fx);
         matrix_add(&dy, &fy, &fy);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         G_percent(iter, iterations, 1);
@@ -7342,6 +7358,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
         matrix_mult(&kinv, &fx, &dx);
         matrix_mult(&kinv, &fy, &dy);
 

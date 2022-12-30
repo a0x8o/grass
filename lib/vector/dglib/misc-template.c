@@ -98,6 +98,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
                                dglEdgePrioritizer_s *pEP)
 =======
@@ -508,6 +509,8 @@ int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -516,7 +519,12 @@ int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
 =======
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph,
                                dglEdgeTraverser_s *pT UNUSED,
                                dglEdgePrioritizer_s *pEP UNUSED)
@@ -591,6 +599,7 @@ int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -715,6 +724,8 @@ int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -780,9 +791,12 @@ int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+=======
 int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
                                dglEdgePrioritizer_s *pEP)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -936,6 +950,8 @@ int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
 int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
                                dglEdgePrioritizer_s *pEP)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -973,6 +989,7 @@ int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
 =======
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1216,6 +1233,10 @@ int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 {
 #if defined(_DGL_V1)
     pGraph->iErrno = DGL_ERR_NotSupported;
@@ -1538,6 +1559,7 @@ int DGL_EDGESET_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgesetTraverser_s *pT,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
 =======
 <<<<<<< HEAD
@@ -1946,6 +1968,8 @@ void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1954,7 +1978,12 @@ void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
 =======
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT UNUSED)
 =======
 void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
@@ -2026,6 +2055,7 @@ void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2130,6 +2160,8 @@ void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
 void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2590,7 +2622,15 @@ void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
 =======
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 {
 }
 
