@@ -34,6 +34,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -99,6 +100,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  *               Aaron Saw Min Sern (OpenMP parallelization)
  * PURPOSE:
  * COPYRIGHT:    (C) 2010-2023 by Glynn Clements and the GRASS Development Team
@@ -185,6 +188,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
  * PURPOSE:
  * COPYRIGHT:    (C) 2010 by Glynn Clements and the GRASS Development Team
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -572,6 +577,7 @@ static const struct filter_type menu[] = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -582,6 +588,8 @@ static const struct filter_type menu[] = {
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     {NULL, NULL, 0},
 =======
 <<<<<<< HEAD
@@ -661,6 +669,8 @@ static const struct filter_type menu[] = {
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     {NULL},
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1322,6 +1332,7 @@ static void filter(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -1360,6 +1371,8 @@ static void filter(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
     while (written_row < dst_w.rows) {
         int range = bufrows;
@@ -1858,10 +1871,49 @@ static void filter(void)
 
         num_rows = rows;
 
+=======
+
+        G_percent(row, dst_w.rows, 2);
+
+        if (row0 >= cur_row && row0 < cur_row + num_rows) {
+            int m = row0 - cur_row;
+            int n = cur_row + num_rows - row0;
+            int i;
+
+            for (i = 0; i < n; i++) {
+                DCELL *tmp = bufs[i];
+
+                bufs[i] = bufs[m + i];
+                bufs[m + i] = tmp;
+            }
+
+            cur_row = row0;
+            num_rows = n;
+        }
+        else {
+            cur_row = row0;
+            num_rows = 0;
+        }
+
+        for (i = num_rows; i < rows; i++) {
+            G_debug(5, "read: %p = %d", bufs[i], row0 + i);
+            /* enlarging the source window to the North and South is
+             * not possible for global maps in ll */
+            if (row0 + i >= 0 && row0 + i < src_w.rows)
+                Rast_get_d_row(infile, inbuf, row0 + i);
+            else
+                Rast_set_d_null_value(inbuf, src_w.cols);
+            h_filter(bufs[i], inbuf);
+        }
+
+        num_rows = rows;
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         v_filter(outbuf, bufs, row, rows);
 
         Rast_put_d_row(outfile, outbuf);
         G_debug(5, "write: %d", row);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1929,6 +1981,8 @@ static void filter(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2089,6 +2143,7 @@ static void filter(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2175,6 +2230,10 @@ static void filter(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
     G_percent(dst_w.rows, dst_w.rows, 2);
 }
@@ -2183,6 +2242,7 @@ int main(int argc, char *argv[])
 {
     struct GModule *module;
     struct {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2233,6 +2293,8 @@ int main(int argc, char *argv[])
 >>>>>>> 68c589f721 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         struct Option *rastin, *rastout, *method, *radius, *x_radius, *y_radius,
             *memory, *nprocs;
 =======
@@ -2421,6 +2483,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2535,6 +2598,11 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        struct Option *rastin, *rastout, *method, *radius, *x_radius, *y_radius;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     } parm;
     struct {
         struct Flag *nulls;
@@ -2786,6 +2854,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2833,6 +2902,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     sscanf(parm.nprocs->answer, "%d", &nprocs);
     if (nprocs < 1) {
@@ -3426,6 +3499,7 @@ int main(int argc, char *argv[])
     for (i = 0; i < row_scale; i++)
         bufs[i] = Rast_allocate_d_buf();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3502,6 +3576,7 @@ int main(int argc, char *argv[])
     }
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3627,6 +3702,10 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     Rast_set_input_window(&src_w);
     Rast_set_output_window(&dst_w);

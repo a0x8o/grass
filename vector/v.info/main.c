@@ -29,11 +29,14 @@ int main(int argc, char *argv[])
     char *input_opt, *field_opt;
     int hist_flag, col_flag, shell_flag;
 
+<<<<<<< HEAD
     enum OutputFormat format;
 
     JSON_Value *root_value;
     JSON_Object *root_object;
 
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     struct Map_info Map;
 
     G_gisinit(argv[0]);
@@ -52,7 +55,11 @@ int main(int argc, char *argv[])
     G_debug(1, "LFS is %s", sizeof(off_t) == 8 ? "available" : "not available");
 
     parse_args(argc, argv, &input_opt, &field_opt, &hist_flag, &col_flag,
+<<<<<<< HEAD
                &shell_flag, &format);
+=======
+               &shell_flag);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     /* try to open head-only on level 2 */
     if (Vect_open_old_head2(&Map, input_opt, "", field_opt) < 2) {
@@ -80,13 +87,18 @@ int main(int argc, char *argv[])
             }
         }
         else if (col_flag) {
+<<<<<<< HEAD
             print_columns(&Map, input_opt, field_opt, format);
+=======
+            print_columns(&Map, input_opt, field_opt);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         }
         Vect_close(&Map);
 
         return (EXIT_SUCCESS);
     }
 
+<<<<<<< HEAD
     if (format == JSON) {
         root_value = json_value_init_object();
         root_object = json_value_get_object(root_value);
@@ -113,6 +125,19 @@ int main(int argc, char *argv[])
         puts(serialized_string);
         json_free_serialized_string(serialized_string);
         json_value_free(root_value);
+=======
+    if (shell_flag & SHELL_BASIC) {
+        print_shell(&Map, field_opt);
+    }
+    if (shell_flag & SHELL_REGION) {
+        print_region(&Map);
+    }
+    if (shell_flag & SHELL_TOPO) {
+        print_topo(&Map);
+    }
+    if (shell_flag == 0) {
+        print_info(&Map);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     Vect_close(&Map);

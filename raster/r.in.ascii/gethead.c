@@ -95,6 +95,7 @@ int getgrdhead(FILE *fd, struct Cell_head *cellhd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        raster specifies an area covered by rectangular cells centerd at gridded
 =======
 <<<<<<< HEAD
@@ -149,6 +150,8 @@ int getgrdhead(FILE *fd, struct Cell_head *cellhd)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
        raster specifies an area covered by rectangular cells centered at gridded
 =======
        raster specifies an area covered by rectangular cells centerd at gridded
@@ -178,6 +181,7 @@ int getgrdhead(FILE *fd, struct Cell_head *cellhd)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -283,6 +287,11 @@ int getgrdhead(FILE *fd, struct Cell_head *cellhd)
        raster specifies an area covered by rectangular cells centerd at gridded
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+       raster specifies an area covered by rectangular cells centerd at gridded
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
        points. That difference requires an adjustment */
     cellhd->north = ymax + cellhd->ns_res / 2.;
     cellhd->south = ymin - cellhd->ns_res / 2.;
@@ -687,6 +696,7 @@ static int scan_int(const char *s, double *i, int proj)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -766,6 +776,8 @@ static int scan_int(const char *s, double *i, int proj)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (sscanf(s, "%d%1s", i_loc, dummy) != 1)
         return 0;
     if (*dummy)
@@ -1215,6 +1227,7 @@ static int scan_int(const char *s, double *i, int proj)
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1226,6 +1239,15 @@ static int scan_int(const char *s, double *i, int proj)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+    if (sscanf(s, "%d%1s", i, dummy) != 1)
+        return 0;
+    if (*dummy)
+        return 0;
+    if (*i <= 0)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         return 0;
     return 1;
 }
@@ -1263,6 +1285,7 @@ static int extract(int count, char *label, char *value, void *data, int proj,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1281,6 +1304,8 @@ static int extract(int count, char *label, char *value, void *data, int proj,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                    int (*scanner)(const char *, double *, int))
 =======
 <<<<<<< HEAD
@@ -1449,6 +1474,7 @@ static int extract(int count, char *label, char *value, void *data, int proj,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1559,6 +1585,11 @@ static int extract(int count, char *label, char *value, void *data, int proj,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+                   int (*scanner)())
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     if (count) {
         G_warning(_("Duplicate \"%s\" field in header"), label);

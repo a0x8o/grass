@@ -5,6 +5,7 @@ import multiprocessing
 import pytest
 
 import grass.script as gs
+<<<<<<< HEAD
 from grass.pygrass.modules.grid import GridModule
 
 xfail_mp_spawn = pytest.mark.xfail(
@@ -13,6 +14,8 @@ xfail_mp_spawn = pytest.mark.xfail(
     raises=AttributeError,
     strict=True,
 )
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 
 def max_processes():
@@ -30,8 +33,11 @@ def run_in_subprocess(function):
     process.join()
 
 
+<<<<<<< HEAD
 @xfail_mp_spawn
 @pytest.mark.needs_solo_run
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("processes", list(range(1, max_processes() + 1)) + [None])
 def test_processes(tmp_path, processes):
     """Check that running with multiple processes works"""
@@ -44,6 +50,13 @@ def test_processes(tmp_path, processes):
         gs.run_command("r.surf.fractal", output=surface)
 
         def run_grid_module():
+<<<<<<< HEAD
+=======
+            # modules/shortcuts calls get_commands which requires GISBASE.
+            # pylint: disable=import-outside-toplevel
+            from grass.pygrass.modules.grid import GridModule
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             grid = GridModule(
                 "r.slope.aspect",
                 width=10,
@@ -65,7 +78,10 @@ def test_processes(tmp_path, processes):
 # @pytest.mark.parametrize("split", [False])  # True does not work.
 
 
+<<<<<<< HEAD
 @xfail_mp_spawn
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("width", [5, 10, 50])  # None does not work.
 @pytest.mark.parametrize("height", [5, 10, 50])
 def test_tiling_schemes(tmp_path, width, height):
@@ -79,6 +95,13 @@ def test_tiling_schemes(tmp_path, width, height):
         gs.run_command("r.surf.fractal", output=surface)
 
         def run_grid_module():
+<<<<<<< HEAD
+=======
+            # modules/shortcuts calls get_commands which requires GISBASE.
+            # pylint: disable=import-outside-toplevel
+            from grass.pygrass.modules.grid import GridModule
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             grid = GridModule(
                 "r.slope.aspect",
                 width=width,
@@ -97,7 +120,10 @@ def test_tiling_schemes(tmp_path, width, height):
         assert info["min"] > 0
 
 
+<<<<<<< HEAD
 @xfail_mp_spawn
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("overlap", [0, 1, 2, 5])
 def test_overlaps(tmp_path, overlap):
     """Check that overlap accepts different values"""
@@ -109,6 +135,13 @@ def test_overlaps(tmp_path, overlap):
         gs.run_command("r.surf.fractal", output=surface)
 
         def run_grid_module():
+<<<<<<< HEAD
+=======
+            # modules/shortcuts calls get_commands which requires GISBASE.
+            # pylint: disable=import-outside-toplevel
+            from grass.pygrass.modules.grid import GridModule
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             grid = GridModule(
                 "r.slope.aspect",
                 width=10,
@@ -127,7 +160,10 @@ def test_overlaps(tmp_path, overlap):
         assert info["min"] > 0
 
 
+<<<<<<< HEAD
 @xfail_mp_spawn
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("clean", [True, False])
 @pytest.mark.parametrize("surface", ["surface", "non_exist_surface"])
 def test_cleans(tmp_path, clean, surface):
@@ -141,6 +177,13 @@ def test_cleans(tmp_path, clean, surface):
             gs.run_command("r.surf.fractal", output=surface)
 
         def run_grid_module():
+<<<<<<< HEAD
+=======
+            # modules/shortcuts calls get_commands which requires GISBASE.
+            # pylint: disable=import-outside-toplevel
+            from grass.pygrass.modules.grid import GridModule
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             grid = GridModule(
                 "r.slope.aspect",
                 width=10,
@@ -170,7 +213,10 @@ def test_cleans(tmp_path, clean, surface):
             assert prefixed, "Not even one prefixed mapset"
 
 
+<<<<<<< HEAD
 @xfail_mp_spawn
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("patch_backend", [None, "r.patch", "RasterRow"])
 def test_patching_backend(tmp_path, patch_backend):
     """Check patching backend works"""
@@ -187,6 +233,13 @@ def test_patching_backend(tmp_path, patch_backend):
         )
 
         def run_grid_module():
+<<<<<<< HEAD
+=======
+            # modules/shortcuts calls get_commands which requires GISBASE.
+            # pylint: disable=import-outside-toplevel
+            from grass.pygrass.modules.grid import GridModule
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             grid = GridModule(
                 "v.to.rast",
                 width=10,
@@ -208,9 +261,14 @@ def test_patching_backend(tmp_path, patch_backend):
         assert abs(mean - mean_ref) < 0.0001
 
 
+<<<<<<< HEAD
 @xfail_mp_spawn
 @pytest.mark.parametrize(
     ("width", "height", "processes"),
+=======
+@pytest.mark.parametrize(
+    "width, height, processes",
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     [
         (None, None, max_processes()),
         (10, None, max_processes()),
@@ -228,6 +286,13 @@ def test_tiling(tmp_path, width, height, processes):
         gs.run_command("r.surf.fractal", output=surface)
 
         def run_grid_module():
+<<<<<<< HEAD
+=======
+            # modules/shortcuts calls get_commands which requires GISBASE.
+            # pylint: disable=import-outside-toplevel
+            from grass.pygrass.modules.grid import GridModule
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             grid = GridModule(
                 "r.slope.aspect",
                 width=width,
@@ -244,6 +309,7 @@ def test_tiling(tmp_path, width, height, processes):
 
         info = gs.raster_info("slope")
         assert info["min"] > 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -320,6 +386,8 @@ def test_tiling(tmp_path, width, height, processes):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 
 @xfail_mp_spawn
@@ -383,6 +451,7 @@ def test_patching_error(tmp_path, processes, backend):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -470,3 +539,7 @@ def test_patching_error(tmp_path, processes, backend):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)

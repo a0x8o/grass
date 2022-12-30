@@ -22,9 +22,12 @@
 #include <grass/gis.h>
 #include <grass/raster.h>
 #include <grass/glocale.h>
+<<<<<<< HEAD
 #include <grass/parson.h>
 
 enum OutputFormat { PLAIN, JSON };
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /* compare two cell values
  * return 0 if equal, 1 if different */
@@ -45,7 +48,10 @@ int main(int argc, char *argv[])
     struct Option *opt_in;
     struct Option *opt_out;
     struct Option *opt_sep;
+<<<<<<< HEAD
     struct Option *fmt_opt;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     struct Flag *flag_m;
     char *sep;
     FILE *out_fp;
@@ -60,6 +66,7 @@ int main(int argc, char *argv[])
     } *obj_geos;
     double unit_area;
     int n_objects;
+<<<<<<< HEAD
     int planimetric = 0, compute_areas = 0;
     struct Cell_head cellhd;
 
@@ -68,6 +75,11 @@ int main(int argc, char *argv[])
     JSON_Object *object;
     JSON_Value *root_value, *object_value;
 
+=======
+    int planimetric, compute_areas;
+    struct Cell_head cellhd;
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     G_gisinit(argv[0]);
 
     /* Define the different options */
@@ -91,13 +103,17 @@ int main(int argc, char *argv[])
     flag_m->key = 'm';
     flag_m->label = _("Use meters as units instead of cells");
 
+<<<<<<< HEAD
     fmt_opt = G_define_standard_option(G_OPT_F_FORMAT);
     fmt_opt->guisection = _("Print");
 
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     /* parse options */
     if (G_parser(argc, argv))
         exit(EXIT_FAILURE);
 
+<<<<<<< HEAD
     if (strcmp(fmt_opt->answer, "json") == 0) {
         format = JSON;
         root_value = json_value_init_array();
@@ -107,6 +123,8 @@ int main(int argc, char *argv[])
         format = PLAIN;
     }
 
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     sep = G_option_to_separator(opt_sep);
     in_fd = Rast_open_old(opt_in->answer, "");
 
@@ -315,6 +333,7 @@ int main(int argc, char *argv[])
     G_free(prev_in);
 
     G_message(_("Writing output"));
+<<<<<<< HEAD
     if (format == PLAIN) {
         /* print table */
         fprintf(out_fp, "cat%s", sep);
@@ -327,6 +346,18 @@ int main(int argc, char *argv[])
         fprintf(out_fp, "mean_y");
         fprintf(out_fp, "\n");
     }
+=======
+    /* print table */
+    fprintf(out_fp, "cat%s", sep);
+    fprintf(out_fp, "area%s", sep);
+    fprintf(out_fp, "perimeter%s", sep);
+    fprintf(out_fp, "compact_square%s", sep);
+    fprintf(out_fp, "compact_circle%s", sep);
+    fprintf(out_fp, "fd%s", sep);
+    fprintf(out_fp, "mean_x%s", sep);
+    fprintf(out_fp, "mean_y");
+    fprintf(out_fp, "\n");
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     /* print table body */
     for (i = 0; i < n_objects; i++) {
@@ -335,6 +366,7 @@ int main(int argc, char *argv[])
         if (obj_geos[i].area == 0)
             continue;
 
+<<<<<<< HEAD
         double compact_square =
             4 * sqrt(obj_geos[i].area) / obj_geos[i].perimeter;
         double compact_circle =
@@ -371,6 +403,24 @@ int main(int argc, char *argv[])
             json_object_set_number(object, "mean_y", mean_y);
             break;
         }
+=======
+        fprintf(out_fp, "%d%s", min + i, sep);
+        fprintf(out_fp, "%f%s", obj_geos[i].area, sep);
+        fprintf(out_fp, "%f%s", obj_geos[i].perimeter, sep);
+        fprintf(out_fp, "%f%s",
+                4 * sqrt(obj_geos[i].area) / obj_geos[i].perimeter, sep);
+        fprintf(out_fp, "%f%s",
+                obj_geos[i].perimeter / (2 * sqrt(M_PI * obj_geos[i].area)),
+                sep);
+        /* log 1 = 0, so avoid that by always adding 0.001 to the area: */
+        fprintf(out_fp, "%f%s",
+                2 * log(obj_geos[i].perimeter) / log(obj_geos[i].area + 0.001),
+                sep);
+        if (!flag_m->answer)
+            obj_geos[i].num = obj_geos[i].area;
+        fprintf(out_fp, "%f%s", obj_geos[i].x / obj_geos[i].num, sep);
+        fprintf(out_fp, "%f", obj_geos[i].y / obj_geos[i].num);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         /* object id: i + min */
 
         /* TODO */
@@ -385,6 +435,7 @@ int main(int argc, char *argv[])
 
         /* variance of X and Y to approximate bounding ellipsoid */
 
+<<<<<<< HEAD
         switch (format) {
         case PLAIN:
             fprintf(out_fp, "\n");
@@ -405,6 +456,10 @@ int main(int argc, char *argv[])
         json_value_free(root_value);
     }
 
+=======
+        fprintf(out_fp, "\n");
+    }
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     if (out_fp != stdout)
         fclose(out_fp);
 

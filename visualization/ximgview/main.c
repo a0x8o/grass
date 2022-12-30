@@ -177,6 +177,7 @@ static void main_loop(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -195,6 +196,8 @@ static void main_loop(void)
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         unsigned long delay = 0;
 =======
 <<<<<<< HEAD
@@ -363,6 +366,7 @@ static void main_loop(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -473,6 +477,11 @@ static void main_loop(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        unsigned long delay;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
         while (XPending(dpy) > 0) {
             XEvent event;
@@ -585,6 +594,7 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -603,6 +613,8 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (get_4(&p) != (unsigned int)i_width * i_height * 4)
 =======
 <<<<<<< HEAD
@@ -771,6 +783,7 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -881,6 +894,11 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    if (get_4(&p) != i_width * i_height * 4)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         return 0;
 
     if (size != HEADER_SIZE + i_width * i_height * 4)

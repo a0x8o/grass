@@ -6,7 +6,11 @@
 #include <math.h>
 #include <grass/raster.h>
 
+<<<<<<< HEAD
 #define ODD(a)               ((a) & 1)
+=======
+#define ODD(a)               ((a)&1)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 #define MAX_INTERVAL         10
 #define MIN_INTERVAL         -10

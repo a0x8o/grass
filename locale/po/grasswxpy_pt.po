@@ -22081,6 +22081,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -22200,6 +22201,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgid "3D Raster Map Calculator"
 msgstr ""
 
@@ -23219,6 +23227,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -23338,6 +23347,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgid "Setup for r.li modules"
 msgstr ""
 
@@ -23577,6 +23593,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -23696,6 +23713,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/main_window/frame.py:973 ../gui/wxpython/lmgr/frame.py:850
 msgid "Choose model to run"
@@ -24310,6 +24334,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/wxplot/histogram.py:43
 msgid "Histogram Tool"
 =======
@@ -24365,6 +24390,8 @@ msgid "Histogram Tool"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../gui/wxpython/photo2image/g.gui.photo2image.py:99
 msgid "Please provide a group name to process"
 msgstr ""
@@ -24696,6 +24723,7 @@ msgid "Histogram Tool"
 msgid "Histogram Tool"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -24790,6 +24818,12 @@ msgid "Histogram Tool"
 #: ../gui/wxpython/wxplot/histogram.py:43
 msgid "Histogram Tool"
 >>>>>>> osgeo-main
+=======
+=======
+#: ../gui/wxpython/wxplot/histogram.py:43
+msgid "Histogram Tool"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../gui/wxpython/wxplot/histogram.py:51
@@ -30854,7 +30888,165 @@ msgstr ""
 msgid "Field statistics <%s>"
 msgstr ""
 
+<<<<<<< HEAD
 #: ../gui/wxpython/dbmgr/dialogs.py:80
+=======
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:133
+msgid "Set SQL statement to default"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:135
+msgid "Apply SQL statement"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:137
+msgid "Close the dialog"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:224
+msgid "Columns"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:239
+msgid "Interactive insertion"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:253
+msgid "Values"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:263
+msgid "Get all values"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:268
+msgid "Get sample"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:270
+msgid "Get first 256 unique values as sample"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:288
+msgid "Go to:"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:301
+msgid "Close dialog on apply"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:482
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:627
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:855
+#, python-format
+msgid "GRASS SQL Builder (%(type)s) - <%(map)s>"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:485
+msgid "Column to show (SELECT clause)"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:486
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:631
+msgid "Constraint for query (WHERE clause)"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:502
+msgid "Verify"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:503
+msgid "Verify SQL statement"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:511
+msgid "SQL statement not verified"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:555
+msgid "SQL statement is not valid"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:557
+#, python-format
+msgid ""
+"SQL statement is not valid.\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:559
+msgid "SQL statement is valid"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:630
+msgid "Column to set (SET clause)"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:632
+msgid "Calculate column value to set"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:704
+msgid "Functions"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:737
+msgid "SQL statement was not applied"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:739
+msgid "SQL statement applied"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/sqlbuilder.py:773
+msgid "Dbf driver does not support usage of SQL functions."
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/manager.py:78
+msgid "Attribute Table Manager"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/manager.py:81
+#, python-brace-format
+msgid "{document} (read-only)"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/manager.py:100
+#, python-format
+msgid "Database connection for vector map <%s> is not defined in DB file. You can define new connection in 'Manage layers' tab."
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/manager.py:106
+msgid "Please wait, loading attribute data..."
+msgstr "Por favor aguarde, carregando dados de atributo..."
+
+#: ../gui/wxpython/dbmgr/manager.py:115
+msgid "Browse data"
+msgstr "Explorar dados"
+
+#: ../gui/wxpython/dbmgr/manager.py:123
+msgid "Manage tables"
+msgstr "Gerir tabelas"
+
+#: ../gui/wxpython/dbmgr/manager.py:130
+msgid "Manage layers"
+msgstr "Gerir camadas"
+
+#: ../gui/wxpython/dbmgr/manager.py:141
+msgid "Close Attribute Table Manager"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/manager.py:144
+msgid "Reload currently selected attribute data"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/manager.py:147
+msgid "Reload all attribute data (drop current selection)"
+msgstr ""
+
+#: ../gui/wxpython/dbmgr/dialogs.py:76
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #, python-format
 msgid ""
 "No attribute table found.\n"
@@ -35811,6 +36003,7 @@ msgstr "Pretende criar uma GRASS location <%s>?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -35861,10 +36054,13 @@ msgstr "Criar nova location?"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 msgid "Create new location?"
 msgstr "Criar nova location?"
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35930,3 +36126,9 @@ msgstr "Criar nova location?"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+msgid "Create new location?"
+msgstr "Criar nova location?"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)

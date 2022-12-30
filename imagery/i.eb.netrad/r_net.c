@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 double r_net(double bbalb, double ndvi, double tempk, double dtair, double e0,
              double tsw, double doy, double utc, double sunzangle)
 =======
@@ -83,6 +84,8 @@ double r_net(double bbalb, double ndvi, double tempk, double dtair, double e0,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 double r_net(double bbalb, double ndvi UNUSED, double tempk, double dtair,
              double e0, double tsw, double doy, double utc UNUSED,
              double sunzangle)
@@ -171,6 +174,7 @@ double r_net(double bbalb, double ndvi, double tempk, double dtair, double e0,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -225,6 +229,12 @@ double r_net(double bbalb, double ndvi, double tempk, double dtair, double e0,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+double r_net(double bbalb, double ndvi, double tempk, double dtair, double e0,
+             double tsw, double doy, double utc, double sunzangle)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
 
     /* Tsw =  atmospheric transmissivity single-way (~0.7 -) */
@@ -252,7 +262,11 @@ double r_net(double bbalb, double ndvi, double tempk, double dtair, double e0,
     Kin = 1358.0 * (cos(sunzangle * PI / 180) * tsw / (ds * ds));
 
     /* Lin is incoming longwave radiation */
+<<<<<<< HEAD
     Lin = (e_atm) * 5.67 * pow(10, -8) * pow((tempk - dtair), 4);
+=======
+    Lin = (e_atm)*5.67 * pow(10, -8) * pow((tempk - dtair), 4);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     /* Lout is surface grey body emission in Longwave spectrum */
     Lout = e0 * 5.67 * pow(10, -8) * pow(tempk, 4);

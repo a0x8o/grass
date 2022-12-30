@@ -297,6 +297,7 @@ static int find_best_neighbour(int bfd, int nin, DCELL *rng, int cfd, int csize,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -363,6 +364,8 @@ static int find_best_neighbour(int bfd, int nin, DCELL *rng, int cfd, int csize,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
                     count++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -426,6 +429,7 @@ static int find_best_neighbour(int bfd, int nin, DCELL *rng, int cfd, int csize,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -535,6 +539,11 @@ static int find_best_neighbour(int bfd, int nin, DCELL *rng, int cfd, int csize,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+                    count++;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                     rclist_add(&rilist, rown, coln);
                     if (*rowmin > rown)
                         *rowmin = rown;
@@ -586,7 +595,11 @@ static int find_best_neighbour(int bfd, int nin, DCELL *rng, int cfd, int csize,
                     }
                 }
             }
+<<<<<<< HEAD
         } while (n--); /* end do loop - next neighbor */
+=======
+        } while (n--);                     /* end do loop - next neighbor */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     } while (rclist_drop(&rilist, &next)); /* while there are cells to check */
 
     if (Rbest)

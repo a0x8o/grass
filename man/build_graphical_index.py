@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 # COPYRIGHT: (C) 2015-2023 by Vaclav Petras and the GRASS Development Team
@@ -112,6 +113,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 # COPYRIGHT: (C) 2015-2024 by Vaclav Petras and the GRASS Development Team
 =======
 # COPYRIGHT: (C) 2015-2022 by Vaclav Petras and the GRASS Development Team
@@ -198,6 +201,7 @@
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -331,6 +335,11 @@
 # COPYRIGHT: (C) 2015-2023 by Vaclav Petras and the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> osgeo-main
+=======
+=======
+# COPYRIGHT: (C) 2015-2022 by Vaclav Petras and the GRASS Development Team
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #
 #        This program is free software under the GNU General Public
 #        License (>=v2). Read the file COPYING that comes with GRASS
@@ -397,6 +406,7 @@ index_items = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -419,6 +429,8 @@ index_items = [
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         "https://grass.osgeo.org/grass-devel/manuals/libpython/index.html",
 =======
 <<<<<<< HEAD
@@ -558,6 +570,7 @@ index_items = [
 =======
         "https://grass.osgeo.org/grass80/manuals/libpython/index.html",
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -702,6 +715,11 @@ index_items = [
         "https://grass.osgeo.org/grass80/manuals/libpython/index.html",
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+        "https://grass.osgeo.org/grass-devel/manuals/libpython/index.html",
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         std_img_name("python"),
         "Python",
     ),

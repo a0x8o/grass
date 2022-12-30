@@ -118,6 +118,7 @@ def main():
     perc = [float(p) for p in perc.split(",")]
 
     if not output_format:
+<<<<<<< HEAD
         output_format = "shell" if shellstyle else "plain"
     elif shellstyle:
         # This can be a message or warning in future versions.
@@ -125,6 +126,18 @@ def main():
         gs.verbose(_("The format option is used and -g flag ignored"))
 
     desc_table = gs.db_describe(table, database=database, driver=driver)
+=======
+        if shellstyle:
+            output_format = "shell"
+        else:
+            output_format = "plain"
+    elif shellstyle:
+        # This can be a message or warning in future versions.
+        # In version 9, -g may be removed.
+        gscript.verbose(_("The format option is used and -g flag ignored"))
+
+    desc_table = gscript.db_describe(table, database=database, driver=driver)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     if not desc_table:
         gs.fatal(_("Unable to describe table <%s>") % table)
     found = False
@@ -145,8 +158,15 @@ def main():
         gs.fatal(_("Column <%s> not found in table <%s>") % (column, table))
 
     if output_format == "plain":
+<<<<<<< HEAD
         gs.verbose(_("Calculation for column <%s> of table <%s>...") % (column, table))
         gs.message(_("Reading column values..."))
+=======
+        gscript.verbose(
+            _("Calculation for column <%s> of table <%s>...") % (column, table)
+        )
+        gscript.message(_("Reading column values..."))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     sql = "SELECT %s FROM %s" % (column, table)
     if where:
@@ -173,21 +193,32 @@ def main():
     # check if result is empty
     tmpf = open(tmp)
     if tmpf.read(1) == "":
+<<<<<<< HEAD
         if output_format in {"plain", "shell"}:
 <<<<<<< HEAD
             gs.fatal(_("Table <%s> contains no data.") % table)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
             gscript.fatal(_("Table <%s> contains no data.") % table)
 =======
             gs.fatal(_("Table <%s> contains no data.") % table)
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        if output_format in ["plain", "shell"]:
+            gscript.fatal(_("Table <%s> contains no data.") % table)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         tmpf.close()
 
     # calculate statistics
     if output_format == "plain":
+<<<<<<< HEAD
         gs.verbose(_("Calculating statistics..."))
+=======
+        gscript.verbose(_("Calculating statistics..."))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     N = 0
     sum = 0.0
@@ -211,16 +242,23 @@ def main():
     tmpf.close()
 
     if N <= 0:
+<<<<<<< HEAD
         if output_format in {"plain", "shell"}:
 <<<<<<< HEAD
             gs.fatal(_("No non-null values found"))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
             gscript.fatal(_("No non-null values found"))
 =======
             gs.fatal(_("No non-null values found"))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        if output_format in ["plain", "shell"]:
+            gscript.fatal(_("No non-null values found"))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         else:
             # We produce valid JSON with a value for n even when the query returned
             # no rows or when all values are nulls.

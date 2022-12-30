@@ -1310,7 +1310,11 @@ int main(int argc, char *argv[])
             }
             free_structmatrix(raster_matrix, 0, nrows - 1, 0, ncols - 1);
         } /*! END WHILE; last_column = TRUE */
+<<<<<<< HEAD
     } /*! END WHILE; last_row = TRUE */
+=======
+    }     /*! END WHILE; last_row = TRUE */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     Vect_close(&In);
     Vect_close(&First);

@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \brief Types, definitions and primitives for interprocess comunication
 =======
 <<<<<<< HEAD
@@ -78,6 +79,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  * \brief Types, definitions and primitives for interprocess communication
 =======
  * \brief Types, definitions and primitives for interprocess comunication
@@ -107,6 +110,7 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -212,6 +216,11 @@
  * \brief Types, definitions and primitives for interprocess comunication
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+ * \brief Types, definitions and primitives for interprocess comunication
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  *  between r.li.daemon and r.li.worker
  *
  * \author Lucio Davide Spano

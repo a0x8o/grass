@@ -174,6 +174,7 @@ class Settings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "singleWindow": {"enabled": False},
 =======
 <<<<<<< HEAD
@@ -228,6 +229,8 @@ class Settings:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 "singleWinPanesLayoutPos": {
                     "enabled": False,
                     "pos": "",
@@ -260,6 +263,7 @@ class Settings:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -365,6 +369,11 @@ class Settings:
                 "singleWindow": {"enabled": False},
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+                "singleWindow": {"enabled": False},
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             },
             #
             # datacatalog
@@ -426,6 +435,7 @@ class Settings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -471,11 +481,14 @@ class Settings:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 "singleWindow": {"enabled": True},
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -561,6 +574,10 @@ class Settings:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             },
             #
             # language
@@ -1288,7 +1305,11 @@ class Settings:
             return dictionary
 
         try:
+<<<<<<< HEAD
             with open(self.filePath) as f:
+=======
+            with open(self.filePath, "r") as f:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 update = json.load(f, object_hook=settings_JSON_decode_hook)
                 update_nested_dict_by_dict(settings, update)
         except json.JSONDecodeError as e:

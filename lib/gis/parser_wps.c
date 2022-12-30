@@ -305,6 +305,7 @@ void G__wps_print_process_description(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -363,10 +364,13 @@ void G__wps_print_process_description(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,6 +461,10 @@ void G__wps_print_process_description(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                         if (is_input == 1)
                             num_vector_inputs++;
                         if (is_output == 1)
@@ -714,6 +722,7 @@ void G__wps_print_process_description(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -772,10 +781,13 @@ void G__wps_print_process_description(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -866,6 +878,10 @@ void G__wps_print_process_description(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                         if (is_input == 1)
                             num_stvds_inputs++;
                         if (is_output == 1)
@@ -1428,6 +1444,7 @@ static void wps_print_process_description_begin(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1477,9 +1494,12 @@ static void wps_print_process_description_begin(
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1569,6 +1589,10 @@ static void wps_print_process_description_begin(
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (abstract) {
         fprintf(stdout, "\t\t<ows:Abstract>");
         fprintf(stdout, "https://grass.osgeo.org/grass-devel/manuals/%s.html",
@@ -1600,6 +1624,9 @@ static void wps_print_process_description_begin(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1788,6 +1815,7 @@ static void wps_print_process_description_begin(
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -1903,6 +1931,10 @@ static void wps_print_process_description_begin(
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         fprintf(stdout, "</ows:Abstract>\n");
     }
 
@@ -2156,10 +2188,17 @@ static void wps_print_literal_input_output(
             strcmp(datatype, "float") == 0) {
             str = strtok((char *)choices[0], "-");
             if (str != NULL) {
+<<<<<<< HEAD
                 snprintf(range[0], 24, "%s", str);
                 str = strtok(NULL, "-");
                 if (str != NULL) {
                     snprintf(range[1], 24, "%s", str);
+=======
+                G_snprintf(range[0], 24, "%s", str);
+                str = strtok(NULL, "-");
+                if (str != NULL) {
+                    G_snprintf(range[1], 24, "%s", str);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                     type = TYPE_RANGE;
                 }
             }

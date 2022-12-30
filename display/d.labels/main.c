@@ -91,7 +91,11 @@ int main(int argc, char **argv)
     dy = window.north - window.south;
     reg = sqrt(dx * dx + dy * dy);
     if (minreg_opt->answer) {
+<<<<<<< HEAD
         double minreg = atof(minreg_opt->answer);
+=======
+        minreg = atof(minreg_opt->answer);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         if (reg < minreg) {
             G_warning(
                 _("Region size is lower than minreg, nothing displayed."));
@@ -100,7 +104,11 @@ int main(int argc, char **argv)
         }
     }
     if (maxreg_opt->answer) {
+<<<<<<< HEAD
         double maxreg = atof(maxreg_opt->answer);
+=======
+        maxreg = atof(maxreg_opt->answer);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         if (reg > maxreg) {
             G_warning(
                 _("Region size is greater than maxreg, nothing displayed."));

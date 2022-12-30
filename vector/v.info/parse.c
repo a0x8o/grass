@@ -6,9 +6,15 @@
 #include "local_proto.h"
 
 void parse_args(int argc, char **argv, char **input, char **field, int *history,
+<<<<<<< HEAD
                 int *columns, int *shell, enum OutputFormat *format_ptr)
 {
     struct Option *input_opt, *field_opt, *format_opt;
+=======
+                int *columns, int *shell)
+{
+    struct Option *input_opt, *field_opt;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     struct Flag *hist_flag, *col_flag, *shell_flag, *region_flag, *topo_flag;
 
     input_opt = G_define_standard_option(G_OPT_V_MAP);
@@ -63,6 +69,7 @@ void parse_args(int argc, char **argv, char **input, char **field, int *history,
         *shell |= SHELL_REGION;
     if (topo_flag->answer)
         *shell |= SHELL_TOPO;
+<<<<<<< HEAD
 
     if (strcmp(format_opt->answer, "plain") == 0) {
         // if shell flags are specified and format=PLAIN (default),
@@ -86,4 +93,6 @@ void parse_args(int argc, char **argv, char **input, char **field, int *history,
             *shell |= SHELL_TOPO;
         }
     }
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 }

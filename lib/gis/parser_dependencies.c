@@ -230,6 +230,7 @@ static void append_error(const char *msg)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -283,6 +284,8 @@ static void append_error(const char *msg)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    The last item of the list must be NULL.
 
 =======
@@ -311,6 +314,7 @@ static void append_error(const char *msg)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -398,6 +402,10 @@ static void append_error(const char *msg)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    \param first first given option
  */
 void G_option_exclusive(void *first, ...)
@@ -447,6 +455,7 @@ static void check_exclusive(const struct rule *rule)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -500,6 +509,8 @@ static void check_exclusive(const struct rule *rule)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    The last item of the list must be NULL.
 
 =======
@@ -528,6 +539,7 @@ static void check_exclusive(const struct rule *rule)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -615,6 +627,10 @@ static void check_exclusive(const struct rule *rule)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    \param first first given option
  */
 void G_option_required(void *first, ...)
@@ -667,6 +683,7 @@ static void check_required(const struct rule *rule)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    If you want all options to be provided use G_option_requires_all()
    function.
    If you want more than one option to be present but not all,
@@ -725,6 +742,8 @@ static void check_required(const struct rule *rule)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    The last item of the list must be NULL.
 
    If you want all options to be provided use G_option_requires_all()
@@ -823,6 +842,7 @@ static void check_required(const struct rule *rule)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -877,6 +897,15 @@ static void check_required(const struct rule *rule)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+   If you want all options to be provided use G_option_requires_all()
+   function.
+   If you want more than one option to be present but not all,
+   call this function multiple times.
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    \param first first given option
  */
 void G_option_requires(void *first, ...)
@@ -933,6 +962,7 @@ static void check_requires(const struct rule *rule)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    If it is enough if only one option from a set is present,
    use G_option_requires() function.
 
@@ -991,6 +1021,8 @@ static void check_requires(const struct rule *rule)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    The last item of the list must be NULL.
 
    If it is enough if only one option from a set is present,
@@ -1089,6 +1121,7 @@ static void check_requires(const struct rule *rule)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1143,6 +1176,15 @@ static void check_requires(const struct rule *rule)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+   If it is enough if only one option from a set is present,
+   use G_option_requires() function.
+
+   \see G_option_collective()
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    \param first first given option
  */
 void G_option_requires_all(void *first, ...)
@@ -1195,6 +1237,7 @@ static void check_requires_all(const struct rule *rule)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1248,6 +1291,8 @@ static void check_requires_all(const struct rule *rule)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    The last item of the list must be NULL.
 
 =======
@@ -1276,6 +1321,7 @@ static void check_requires_all(const struct rule *rule)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1363,6 +1409,10 @@ static void check_requires_all(const struct rule *rule)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    \param first first given option
  */
 void G_option_excludes(void *first, ...)
@@ -1415,6 +1465,7 @@ static void check_excludes(const struct rule *rule)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1468,6 +1519,8 @@ static void check_excludes(const struct rule *rule)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    The last item of the list must be NULL.
 
 =======
@@ -1496,6 +1549,7 @@ static void check_excludes(const struct rule *rule)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1583,6 +1637,10 @@ static void check_excludes(const struct rule *rule)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    \param first first given option
  */
 void G_option_collective(void *first, ...)
@@ -1750,6 +1808,7 @@ void G__describe_option_rules_xml(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1829,6 +1888,8 @@ void G__describe_option_rules_xml(FILE *fp)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         if (rule->count < 0)
             G_fatal_error(_("Internal error: the number of options is < 0"));
 
@@ -2130,6 +2191,7 @@ void G__describe_option_rules_xml(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2204,6 +2266,12 @@ void G__describe_option_rules_xml(FILE *fp)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        fprintf(fp, "\t\t<rule type=\"%s\">\n", rule_types[rule->type]);
+        for (j = 0; j < rule->count; j++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             void *p = rule->opts[j];
 
             if (is_flag(p)) {

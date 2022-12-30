@@ -94,7 +94,11 @@ def main():
         if not passflags:
             passflags = "g"
         else:
+<<<<<<< HEAD
             passflags += "g"
+=======
+            passflags = passflags + "g"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     output_format = options["format"]
 
     try:

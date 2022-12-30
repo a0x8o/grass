@@ -201,7 +201,11 @@ int gvd_vect(geovect *gv, geosurf *gs, int do_fast)
                         }
                         gsd_endline();
                     }
+<<<<<<< HEAD
                     /* need to handle mask! */
+=======
+                    /* need to handle MASK! */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                     else if (src == CONST_ATT) {
                         /* for now - but later, do seg intersect maskedge */
                         if (gs_point_is_masked(gs, bgn) ||

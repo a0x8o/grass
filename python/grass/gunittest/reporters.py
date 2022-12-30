@@ -484,10 +484,21 @@ def html_file_preview(filename):
 
 def returncode_to_html_text(returncode, timed_out=None):
     if returncode:
+<<<<<<< HEAD
         extra = f" (timeout >{timed_out}s)" if timed_out is not None else ""
         return f'<span style="color: red">FAILED{extra}</span>'
     # alternatives: SUCCEEDED, passed, OK
     return '<span style="color: green">succeeded</span>'
+=======
+        if timed_out is not None:
+            extra = f" (timeout >{timed_out}s)"
+        else:
+            extra = ""
+        return f'<span style="color: red">FAILED{extra}</span>'
+    else:
+        # alternatives: SUCCEEDED, passed, OK
+        return '<span style="color: green">succeeded</span>'
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 
 # not used
@@ -667,6 +678,7 @@ class GrassTestFilesHtmlReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(GrassTestFilesHtmlReporter, self).end_file_test(
 =======
 <<<<<<< HEAD
@@ -721,6 +733,8 @@ class GrassTestFilesHtmlReporter(GrassTestFilesCountingReporter):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         super().end_file_test(
 =======
         super(GrassTestFilesHtmlReporter, self).end_file_test(
@@ -750,6 +764,7 @@ class GrassTestFilesHtmlReporter(GrassTestFilesCountingReporter):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -855,6 +870,11 @@ class GrassTestFilesHtmlReporter(GrassTestFilesCountingReporter):
         super(GrassTestFilesHtmlReporter, self).end_file_test(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        super(GrassTestFilesHtmlReporter, self).end_file_test(
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             module=module,
             cwd=cwd,
             returncode=returncode,
@@ -1129,6 +1149,7 @@ class GrassTestFilesKeyValueReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(GrassTestFilesKeyValueReporter, self).end_file_test(
 =======
 <<<<<<< HEAD
@@ -1183,6 +1204,8 @@ class GrassTestFilesKeyValueReporter(GrassTestFilesCountingReporter):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         super().end_file_test(
 =======
         super(GrassTestFilesKeyValueReporter, self).end_file_test(
@@ -1212,6 +1235,7 @@ class GrassTestFilesKeyValueReporter(GrassTestFilesCountingReporter):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1317,6 +1341,11 @@ class GrassTestFilesKeyValueReporter(GrassTestFilesCountingReporter):
         super(GrassTestFilesKeyValueReporter, self).end_file_test(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        super(GrassTestFilesKeyValueReporter, self).end_file_test(
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             module=module,
             cwd=cwd,
             returncode=returncode,
@@ -1598,6 +1627,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(GrassTestFilesTextReporter, self).end_file_test(
 =======
 <<<<<<< HEAD
@@ -1652,6 +1682,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         super().end_file_test(
 =======
         super(GrassTestFilesTextReporter, self).end_file_test(
@@ -1681,6 +1713,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1786,6 +1819,11 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
         super(GrassTestFilesTextReporter, self).end_file_test(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        super(GrassTestFilesTextReporter, self).end_file_test(
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             module=module,
             cwd=cwd,
             returncode=returncode,
@@ -1835,6 +1873,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1912,6 +1951,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             self._stream.write(f"FAILED {module.file_path}")
             if timed_out:
                 self._stream.write(f" - Timeout >{timed_out}s")
@@ -2217,7 +2258,15 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
             self._stream.write("FAILED {file}".format(file=module.file_path))
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+            self._stream.write(f"FAILED {module.file_path}")
+            if timed_out:
+                self._stream.write(f" - Timeout >{timed_out}s")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             num_failed = test_summary.get("failures", 0)
             num_failed += test_summary.get("errors", 0)
             if num_failed:
@@ -2370,6 +2419,7 @@ class TestsuiteDirReporter:
             dir_pass_per = success_to_html_percent(
                 total=dir_total, successes=dir_successes
             )
+<<<<<<< HEAD
             file_pass_per = success_to_html_percent(
                 total=file_total, successes=file_successes
             )
@@ -2385,6 +2435,68 @@ class TestsuiteDirReporter:
                     ftests=dir_failures + dir_errors,
                     ntests=dir_total,
                     ptests=dir_pass_per,
+=======
+            # if os.path.exists(summary_filename):
+            with open(summary_filename, "r") as keyval_file:
+                summary = text_to_keyvalue(keyval_file.read(), sep="=")
+            # else:
+            # TODO: write else here
+            #    summary = None
+
+            if "total" not in summary:
+                bad_ones = successes = UNKNOWN_NUMBER_HTML
+                total = None
+            else:
+                bad_ones = summary["failures"] + summary["errors"]
+                successes = summary["successes"]
+                total = summary["total"]
+
+                self.failures += summary["failures"]
+                self.errors += summary["errors"]
+                self.skipped += summary["skipped"]
+                self.successes += summary["successes"]
+                self.expected_failures += summary["expected_failures"]
+                self.unexpected_successes += summary["unexpected_successes"]
+                self.total += summary["total"]
+
+                dir_failures += summary["failures"]
+                dir_errors += summary["failures"]
+                dir_skipped += summary["skipped"]
+                dir_successes += summary["successes"]
+                dir_expected_failures += summary["expected_failures"]
+                dir_unexpected_success += summary["unexpected_successes"]
+                dir_total += summary["total"]
+
+            # TODO: keyvalue method should have types for keys function
+            # perhaps just the current post processing function is enough
+            test_file_authors = summary.get("test_file_authors")
+            if not test_file_authors:
+                test_file_authors = []
+            if type(test_file_authors) is not list:
+                test_file_authors = [test_file_authors]
+            test_files_authors.extend(test_file_authors)
+
+            file_total += 1
+            # Use non-zero return code in case it is missing.
+            # (This can happen when the test has timed out.)
+            return_code = summary.get("returncode", 1)
+            file_successes += 0 if return_code else 1
+
+            pass_per = success_to_html_percent(total=total, successes=successes)
+            row = (
+                "<tr>"
+                '<td><a href="{f}/index.html">{f}</a></td>'
+                "<td>{status}</td>"
+                "<td>{ntests}</td><td>{stests}</td>"
+                "<td>{ftests}</td><td>{ptests}</td>"
+                "<tr>".format(
+                    f=test_file_name,
+                    status=returncode_to_html_text(return_code),
+                    stests=successes,
+                    ftests=bad_ones,
+                    ntests=total,
+                    ptests=pass_per,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 )
             )
             page.write(tests_table_foot)

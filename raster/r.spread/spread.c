@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *                        A) caculates the cumulative cost (time) of the
 =======
 <<<<<<< HEAD
@@ -86,6 +87,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  *                        A) calculates the cumulative cost (time) of the
 =======
  *                        A) caculates the cumulative cost (time) of the
@@ -115,6 +118,7 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -220,6 +224,11 @@
  *                        A) caculates the cumulative cost (time) of the
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+ *                        A) caculates the cumulative cost (time) of the
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  *                           end cell of each link - calculate();
  *                        B) compares this new cumulative cost (time) with
  *                           the previously computed cumulative time/cost,
@@ -252,7 +261,11 @@
 #ifndef PI
 #define PI M_PI
 #endif
+<<<<<<< HEAD
 #define DATA(map, r, c) (map)[(r) * ncols + (c)]
+=======
+#define DATA(map, r, c) (map)[(r)*ncols + (c)]
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /*#define DEBUG */
 

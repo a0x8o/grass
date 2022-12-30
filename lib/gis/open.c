@@ -138,6 +138,7 @@ static int G__open(const char *element, const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -195,12 +196,15 @@ static int G__open(const char *element, const char *name, const char *mapset,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
         
 	if (mode == 1 || access(path, 0) != 0) {
 =======
 
         if (mode == 1 || access(path, 0) != 0) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,10 +283,17 @@ static int G__open(const char *element, const char *name, const char *mapset,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+        if (mode == 1 || access(path, 0) != 0) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             if (is_tmp)
                 G_make_mapset_object_group_tmp(element);
             else
                 G_make_mapset_object_group(element);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,6 +355,8 @@ static int G__open(const char *element, const char *name, const char *mapset,
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -570,6 +583,7 @@ static int G__open(const char *element, const char *name, const char *mapset,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -657,6 +671,13 @@ static int G__open(const char *element, const char *name, const char *mapset,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+            close(open(path, O_WRONLY | O_CREAT | O_TRUNC, 0666));
+        }
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         if ((fd = open(path, mode)) < 0)
             G_warning(_("G__open(write): Unable to open '%s': %s"), path,
                       strerror(errno));

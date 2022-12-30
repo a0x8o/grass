@@ -8104,6 +8104,7 @@ msgstr "Nu s-a putut citit fișierul foto al rasterului <%s>"
 #: ../lib/ogsf/gsd_legend.c:251
 #, c-format
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Input PNG file has incorrect dimensions: expected: %dx%d got: %lux%lu"
 msgstr ""
 
@@ -8348,6 +8349,252 @@ msgstr ""
 msgid "Unable to read category file of raster map <%s>"
 msgstr "Nu s-a putut citit fișierul categorie al rasterului <%s>"
 >>>>>>> osgeo-main
+=======
+msgid "Unable to read category file of raster map <%s>"
+msgstr "Nu s-a putut citit fișierul categorie al rasterului <%s>"
+=======
+msgid "Input PNG file has incorrect dimensions: expected: %dx%d got: %lux%lu"
+msgstr ""
+
+#: ../lib/pngdriver/read_png.c:90
+msgid "Input PNG file is not RGBA"
+msgstr ""
+
+#: ../lib/pngdriver/read_png.c:94
+msgid "Input PNG file is not indexed color"
+msgstr ""
+
+#: ../lib/pngdriver/read_png.c:104
+msgid "Input PNG file has invalid palette"
+msgstr ""
+
+#: ../lib/pngdriver/write_png.c:39
+msgid "Unable to write PNG"
+msgstr ""
+
+#: ../lib/pngdriver/write_png.c:78
+msgid "Unable to write PNG file"
+msgstr ""
+
+#: ../lib/pngdriver/write_png.c:82
+#, c-format
+msgid "Unable to open output PNG file <%s>"
+msgstr ""
+
+#: ../lib/raster/raster_metadata.c:109
+#, c-format
+msgid "Unable to read <%s> for raster map <%s@%s>"
+msgstr ""
+
+#: ../lib/raster/raster_metadata.c:119 ../lib/raster/raster_metadata.c:148
+#, c-format
+msgid "Error closing <%s> metadata file for raster map <%s@%s>"
+msgstr ""
+
+#: ../lib/raster/raster_metadata.c:142
+#, c-format
+msgid "Unable to create <%s> metadata file for raster map <%s@%s>"
+msgstr ""
+
+#: ../lib/raster/put_cellhd.c:34
+#, c-format
+msgid "Unable to create header file for <%s>"
+msgstr ""
+
+#: ../lib/raster/window.c:31
+msgid "Internal error: Rast_get_window() called with split window. Use Rast_get_input_window() or Rast_get_output_window() instead."
+msgstr ""
+
+#: ../lib/raster/window.c:90
+msgid "Internal error: Rast_window_rows() called with split window. Use Rast_input_window_rows() or Rast_output_window_rows() instead."
+msgstr ""
+
+#: ../lib/raster/window.c:125
+msgid "Internal error: Rast_window_cols() called with split window. Use Rast_input_window_cols() or Rast_output_window_cols() instead."
+msgstr ""
+
+#: ../lib/raster/range.c:103
+#, c-format
+msgid "Unable to read fp range file for <%s>"
+msgstr ""
+
+#: ../lib/raster/range.c:125
+#, c-format
+msgid "Missing fp range file for <%s> (run r.support -s)"
+msgstr ""
+
+#: ../lib/raster/range.c:176
+#, c-format
+msgid "Unable to read quant rules for raster map <%s>"
+msgstr ""
+
+#: ../lib/raster/range.c:213 ../lib/raster/range.c:233
+#, c-format
+msgid "Unable to read range file for <%s>"
+msgstr ""
+
+#: ../lib/raster/range.c:248
+#, c-format
+msgid "Missing range file for <%s> (run r.support -s)"
+msgstr ""
+
+#: ../lib/raster/range.c:298
+#, c-format
+msgid "Unable to read stats file for <%s>"
+msgstr ""
+
+#: ../lib/raster/range.c:380 ../lib/raster/range.c:386
+#: ../lib/raster/range.c:418 ../lib/raster/range.c:432
+#, c-format
+msgid "Unable to write range file for <%s>"
+msgstr ""
+
+#: ../lib/raster/range.c:462 ../lib/raster/range.c:476
+#: ../lib/raster/range.c:494 ../lib/raster/range.c:499
+#, c-format
+msgid "Unable to write stats file for <%s>"
+msgstr ""
+
+#: ../lib/raster/vrt.c:83
+#, c-format
+msgid "Tile raster map <%s> not found"
+msgstr ""
+
+#: ../lib/raster/vrt.c:86
+msgid "A virtual raster can not contain itself"
+msgstr ""
+
+#: ../lib/raster/get_row.c:35 ../lib/raster/get_row.c:906
+#, c-format
+msgid "Reading raster map <%s@%s> request for row %d is outside region"
+msgstr ""
+
+#: ../lib/raster/get_row.c:95
+#, c-format
+msgid "Error seeking fp raster data file for row %d of <%s>: %s"
+msgstr ""
+
+#: ../lib/raster/get_row.c:103
+#, c-format
+msgid "Error uncompressing fp raster data for row %d of <%s>: error code %d"
+msgstr ""
+
+#: ../lib/raster/get_row.c:138
+#, c-format
+msgid "Error seeking raster data file for row %d of <%s>: %s"
+msgstr ""
+
+#: ../lib/raster/get_row.c:145
+#, c-format
+msgid "Error reading raster data for row %d of <%s>: %s"
+msgstr ""
+
+#: ../lib/raster/get_row.c:169
+#, c-format
+msgid "Error uncompressing raster data for row %d of <%s>"
+msgstr ""
+
+#: ../lib/raster/get_row.c:188 ../lib/raster/get_row.c:192
+#, c-format
+msgid "Error reading raster data for row %d of <%s>"
+msgstr ""
+
+#: ../lib/raster/get_row.c:228
+#, c-format
+msgid "Error reading raster data via GDAL for row %d of <%s>"
+msgstr ""
+
+#: ../lib/raster/get_row.c:835
+#, c-format
+msgid "Error seeking compressed null data for row %d of <%s>"
+msgstr ""
+
+#: ../lib/raster/get_row.c:840 ../lib/raster/get_row.c:850
+#, c-format
+msgid "Error reading compressed null data for row %d of <%s>"
+msgstr ""
+
+#: ../lib/raster/get_row.c:856
+#, c-format
+msgid "Error uncompressing null data for row %d of <%s>"
+msgstr ""
+
+#: ../lib/raster/get_row.c:890
+#, c-format
+msgid "Error seeking null row %d for <%s>"
+msgstr ""
+
+#: ../lib/raster/get_row.c:893
+#, c-format
+msgid "Error reading null row %d for <%s>"
+msgstr ""
+
+#: ../lib/raster/close.c:56
+#, c-format
+msgid "Unable to flush file %s for raster map %s: %s"
+msgstr ""
+
+#: ../lib/raster/close.c:64
+#, c-format
+msgid "Unable to close file %s for raster map %s: %s"
+msgstr ""
+
+#: ../lib/raster/close.c:104 ../lib/raster/close.c:137
+#, c-format
+msgid "Invalid descriptor: %d"
+msgstr ""
+
+#: ../lib/raster/close.c:424 ../lib/raster/close.c:557
+#, c-format
+msgid "Unable to rename null file '%s' to '%s': %s"
+msgstr ""
+
+#: ../lib/raster/close.c:499
+#, c-format
+msgid "Unable to rename cell file '%s' to '%s': %s"
+msgstr ""
+
+#: ../lib/raster/close.c:579
+msgid "unable to write f_format file for CELL maps"
+msgstr ""
+
+#: ../lib/raster/put_title.c:28
+#, c-format
+msgid "category information for [%s] in [%s] missing or invalid"
+msgstr ""
+
+#: ../lib/raster/put_title.c:37
+msgid "G_put_title - can't create a temp file"
+msgstr ""
+
+#: ../lib/raster/put_title.c:53
+#, c-format
+msgid "category information for [%s] in [%s] invalid"
+msgstr ""
+
+#: ../lib/raster/put_title.c:60
+msgid "G_put_title - can't reopen temp file"
+msgstr ""
+
+#: ../lib/raster/put_title.c:67
+#, c-format
+msgid "can't write category information for [%s] in [%s]"
+msgstr ""
+
+#: ../lib/raster/get_cellhd.c:65
+msgid "However, that raster map is missing. Perhaps, it was deleted by mistake."
+msgstr ""
+
+#: ../lib/raster/get_cellhd.c:67
+msgid "However, header file of that raster map can't be opened. It seems that it was corrupted after creating the reclass raster map."
+msgstr ""
+
+#: ../lib/raster/get_cellhd.c:70
+#, c-format
+msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of raster map <%s@%s>. %s"
+msgstr ""
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../lib/ogsf/gsd_legend.c:267
 #, c-format

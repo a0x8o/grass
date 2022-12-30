@@ -12,7 +12,11 @@ int parse_args(int argc, char *argv[], struct globals *globals)
     struct Option *group, *seeds, *bounds, *output, *method, *similarity,
         *threshold, *min_segment_size, *hs, *hr, *bsuf,
 #ifdef _OR_SHAPE_
+<<<<<<< HEAD
         *smooth_weight,
+=======
+        *shape_weight, *smooth_weight,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #endif
         *mem;
     struct Flag *diagonal, *weighted, *ms_a, *ms_p;

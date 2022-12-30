@@ -111,6 +111,7 @@ class GMApp(wx.App):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
             single = UserSettings.Get(
@@ -179,6 +180,8 @@ class GMApp(wx.App):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 490780e974 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             single = UserSettings.Get(
                 group="appearance", key="singleWindow", subkey="enabled"
 =======
@@ -266,6 +269,7 @@ class GMApp(wx.App):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -320,11 +324,18 @@ class GMApp(wx.App):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+            single = UserSettings.Get(
+                group="general", key="singleWindow", subkey="enabled"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             )
             if single:
                 from main_window.frame import GMFrame
             else:
                 from lmgr.frame import GMFrame
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -406,6 +417,8 @@ class GMApp(wx.App):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             try:
                 mainframe = GMFrame(
                     parent=None, id=wx.ID_ANY, workspace=self.workspaceFile
@@ -695,6 +708,8 @@ class GMApp(wx.App):
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
             from lmgr.frame import GMFrame
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
             mainframe = GMFrame(parent=None, id=wx.ID_ANY, workspace=self.workspaceFile)
             mainframe.Show()

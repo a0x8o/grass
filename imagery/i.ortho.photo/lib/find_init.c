@@ -8,6 +8,7 @@
 
 int I_find_initial(char *group)
 {
+<<<<<<< HEAD
     char element[GNAME_MAX + 6];
 
     if (group == NULL || *group == 0)
@@ -18,5 +19,14 @@ int I_find_initial(char *group)
         return 0;
     }
 
+=======
+    char *element;
+
+    element = (char *)G_malloc(80 * sizeof(char));
+
+    if (group == NULL || *group == 0)
+        return 0;
+    sprintf(element, "group/%s", group);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     return G_find_file(element, "INIT_EXP", G_mapset()) != NULL;
 }

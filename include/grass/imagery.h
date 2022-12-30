@@ -72,6 +72,7 @@ struct Control_Points {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -121,9 +122,12 @@ struct Control_Points {
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213,6 +217,10 @@ struct Control_Points {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 struct One_Sig {
     char desc[256]; /* name of target class */
     int npoints;    /* cell count used to determine class parameters */
@@ -247,6 +255,9 @@ struct One_Sig {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -412,6 +423,7 @@ struct One_Sig
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -482,6 +494,10 @@ struct One_Sig
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int have_color;
     int oclass; /* original class value */
 };
@@ -514,6 +530,7 @@ struct One_Sig
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -563,9 +580,12 @@ struct One_Sig
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -655,6 +675,10 @@ struct One_Sig
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 struct Signature {
     int nbands;             /* band (imagery group member) count */
     char **semantic_labels; /* list of semantic labels */
@@ -688,6 +712,9 @@ struct Signature {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -926,7 +953,12 @@ struct Signature
 =======
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     struct One_Sig *sig;    /* array of one signature per class */
 };
 
@@ -947,6 +979,7 @@ struct ClassData {
     double **p; /* prob        p[npixels][subclasses] */
 };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1038,6 +1071,8 @@ struct ClassData {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 struct ClassSig {
     long classnum; /* c_cat */
     char *title;   /* from Rast_get_c_cat */
@@ -1345,13 +1380,25 @@ struct ClassSig {
 =======
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+struct ClassSig {
+    long classnum; /* c_cat */
+    char *title;   /* from Rast_get_c_cat */
+    int used;
+    int type;        /* always is SIGNATURE_TYPE_MIXED ? */
+    int nsubclasses; /* SubSig item count */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     struct SubSig *SubSig;
     struct ClassData ClassData; /* used for SubSig calculation only */
 };
 
 struct SigSet {
     int nbands;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1393,6 +1440,8 @@ struct SigSet {
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     char **semantic_labels; /* list of semantic labels [nbands]char* */
     int nclasses;           /* ClassSig item count */
 =======
@@ -1546,6 +1595,7 @@ struct SigSet {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -1555,9 +1605,12 @@ struct SigSet {
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
     char **semantic_labels; /* list of semantic labels [nbands]char* */
     int nclasses;           /* ClassSig item count */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1632,6 +1685,8 @@ struct SigSet {
 >>>>>>> osgeo-main
 =======
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     char *title;
     struct ClassSig *ClassSig;
 };
@@ -1756,6 +1811,7 @@ struct scdScattData {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 typedef enum {
@@ -1825,6 +1881,8 @@ typedef enum {
 >>>>>>> osgeo-main
 =======
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 typedef enum {
     I_SIGFILE_TYPE_SIG,    /*! Signature files used by i.maxlik */
     I_SIGFILE_TYPE_SIGSET, /*! Signature files used by i.smap */
@@ -2034,12 +2092,19 @@ typedef enum {
 >>>>>>> osgeo-main
 =======
 =======
+=======
+typedef enum {
+    I_SIGFILE_TYPE_SIG,    /*! Signature files used by i.maxlik */
+    I_SIGFILE_TYPE_SIGSET, /*! Signature files used by i.smap */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 } I_SIGFILE_TYPE;
 
-#define SIGNATURE_TYPE_MIXED 1  /* Unused? */
-#define I_SIGFILE_TYPE_COUNT 2  /*! Total count of supported signature file types */
+#define SIGNATURE_TYPE_MIXED 1 /* Unused? */
+#define I_SIGFILE_TYPE_COUNT \
+    2 /*! Total count of supported signature file types */
 
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
 
@@ -2209,6 +2274,7 @@ typedef enum {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2296,6 +2362,10 @@ typedef enum {
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #define GROUPFILE    "CURGROUP"
 #define SUBGROUPFILE "CURSUBGROUP"
 

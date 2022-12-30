@@ -693,7 +693,11 @@ int main(int argc, char *argv[])
                 count++;
             }
         } /* next point in box */
+<<<<<<< HEAD
     } /* next area */
+=======
+    }     /* next area */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     G_debug(1, "count = %d", count);
 

@@ -99,8 +99,12 @@ int Vedit_split_lines(struct Map_info *Map, struct ilist *List,
             else
                 newline = Vect_write_line(Map, type, Points2, Cats);
             if (newline < 0) {
+<<<<<<< HEAD
                 nlines_modified = -1;
                 goto free_exit;
+=======
+                return -1;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             }
             if (List_updated)
                 Vect_list_append(List_updated, newline);
@@ -117,15 +121,23 @@ int Vedit_split_lines(struct Map_info *Map, struct ilist *List,
             /* rewrite the line */
             newline = Vect_write_line(Map, type, Points2, Cats);
             if (newline < 0) {
+<<<<<<< HEAD
                 nlines_modified = -1;
                 goto free_exit;
+=======
+                return -1;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             }
             if (List_updated)
                 Vect_list_append(List_updated, newline);
 
             nlines_modified++;
         } /* for each bounding box */
+<<<<<<< HEAD
     } /* for each selected line */
+=======
+    }     /* for each selected line */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 free_exit:
     Vect_destroy_line_struct(Points);
@@ -248,6 +260,7 @@ int connect_lines(struct Map_info *Map, int first, int line_from, int line_to,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   double thresh, struct ilist *List)
 =======
 <<<<<<< HEAD
@@ -302,6 +315,8 @@ int connect_lines(struct Map_info *Map, int first, int line_from, int line_to,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                   double thresh, struct ilist *List UNUSED)
 =======
                   double thresh, struct ilist *List)
@@ -331,6 +346,7 @@ int connect_lines(struct Map_info *Map, int first, int line_from, int line_to,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -436,6 +452,11 @@ int connect_lines(struct Map_info *Map, int first, int line_from, int line_to,
                   double thresh, struct ilist *List)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+                  double thresh, struct ilist *List)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     int line_new;
     int type_from, type_to;

@@ -7,7 +7,11 @@ from ctypesgen.messages import status_message
 
 
 # From:
+<<<<<<< HEAD
 # https://stackoverflow.com/questions/1036409/recursively-convert-python-object-graph-to-dictionary
+=======
+# http://stackoverflow.com/questions/1036409/recursively-convert-python-object-graph-to-dictionary
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 def todict(obj, classkey="Klass"):
     if isinstance(obj, dict):
         for k in obj.keys():

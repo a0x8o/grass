@@ -20,7 +20,11 @@ import platform
 import os
 
 import wx
+<<<<<<< HEAD
 from wx.lib.agw import aui
+=======
+import wx.lib.agw.aui as aui
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 from core import globalvar
 from core.debug import Debug
@@ -106,6 +110,7 @@ BaseIcons = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -151,11 +156,14 @@ BaseIcons = {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     "docking": MetaIcon(img="monitor-dock", label=_("(Un)dock")),
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,6 +249,10 @@ BaseIcons = {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 
@@ -330,11 +342,21 @@ class ToolbarController:
             if isinstance(tool[0], tuple):
                 if tool[0][0] == "":  # separator
                     continue
+<<<<<<< HEAD
                 internal_label = tool[0][0]
             else:
                 if tool[0] == "":  # separator
                     continue
                 internal_label = tool[0]
+=======
+                else:
+                    internal_label = tool[0][0]
+            else:
+                if tool[0] == "":  # separator
+                    continue
+                else:
+                    internal_label = tool[0]
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
             label = vars(self.widget)[internal_label]
             if enable:

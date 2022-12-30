@@ -506,6 +506,7 @@ void AerosolModel::save()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   coefficients, single scattering albedo, phase function, assymetry factor)
 =======
 <<<<<<< HEAD
@@ -560,6 +561,8 @@ void AerosolModel::save()
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
   coefficients, single scattering albedo, phase function, asymmetry factor)
 =======
   coefficients, single scattering albedo, phase function, assymetry factor)
@@ -589,6 +592,7 @@ void AerosolModel::save()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -694,6 +698,11 @@ void AerosolModel::save()
   coefficients, single scattering albedo, phase function, assymetry factor)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+  coefficients, single scattering albedo, phase function, assymetry factor)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
   at the ten discrete wavelengths for the selected model (or created model)
   from:
   (1) the characteristics of the basic components of the International

@@ -42,7 +42,10 @@ def test_basic_stats(simple_dataset):
             map=simple_dataset.vector_name,
             column=simple_dataset.column_name,
             format="json",
+<<<<<<< HEAD
             env=simple_dataset.session.env,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         )
     )
     assert "statistics" in data
@@ -73,7 +76,10 @@ def test_extra_stats(simple_dataset):
             column=simple_dataset.column_name,
             flags="e",
             format="json",
+<<<<<<< HEAD
             env=simple_dataset.session.env,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         )
     )
     stats = data["statistics"]
@@ -95,7 +101,10 @@ def test_quartiles_default_percentile(simple_dataset):
             column=simple_dataset.column_name,
             flags="e",
             format="json",
+<<<<<<< HEAD
             env=simple_dataset.session.env,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         )
     )
     assert "statistics" in data
@@ -137,7 +146,10 @@ def test_percentiles(simple_dataset):
             flags="e",
             percentile=percentiles,
             format="json",
+<<<<<<< HEAD
             env=simple_dataset.session.env,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         )
     )
     stats = data["statistics"]
@@ -164,7 +176,10 @@ def test_fixed_values(simple_dataset):
             flags="e",
             percentile=percentiles,
             format="json",
+<<<<<<< HEAD
             env=simple_dataset.session.env,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         )
     )
     assert "statistics" in data

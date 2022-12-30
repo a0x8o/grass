@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -67,6 +68,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -175,6 +178,25 @@ ipywidgets = pytest.importorskip(
     "ipywidgets", reason="ipywidgets package not available"
 )
 
+=======
+
+from pathlib import Path
+import pytest
+
+try:
+    import IPython
+except ImportError:
+    IPython = None
+
+try:
+    import ipywidgets
+except ImportError:
+    ipywidgets = None
+
+import grass.jupyter as gj
+from grass.jupyter.timeseriesmap import collect_layers, fill_none_values
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 def test_fill_none_values():
     """Test that fill_none_values replaces None with previous value in list"""
@@ -183,7 +205,10 @@ def test_fill_none_values():
     assert fill_names == ["r1", "r1", "r3"]
 
 
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 def test_collect_layers(space_time_raster_dataset):
     """Check that collect layers returns list of layers and dates"""
     names, dates = collect_layers(
@@ -200,15 +225,24 @@ def test_collect_layers(space_time_raster_dataset):
     assert len(names) == len(dates)
 
 
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 def test_default_init(space_time_raster_dataset):
     """Check that TimeSeriesMap init runs with default parameters"""
     img = gj.TimeSeriesMap()
     img.add_raster_series(space_time_raster_dataset.name)
+<<<<<<< HEAD
     assert img.baseseries == space_time_raster_dataset.name
 
 
 @pytest.mark.needs_solo_run
+=======
+    assert img.timeseries == space_time_raster_dataset.name
+
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 @pytest.mark.parametrize("fill_gaps", [False, True])
 def test_render_layers(space_time_raster_dataset, fill_gaps):
     """Check that layers are rendered"""
@@ -225,6 +259,7 @@ def test_render_layers(space_time_raster_dataset, fill_gaps):
     # check files exist
     # We need to check values which are only in protected attributes
     # pylint: disable=protected-access
+<<<<<<< HEAD
     for filename in img._base_filename_dict.values():
         assert Path(filename).is_file()
 
@@ -369,6 +404,7 @@ def test_save(space_time_raster_dataset, tmp_path):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -456,6 +492,16 @@ def test_save(space_time_raster_dataset, tmp_path):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+    for unused_date, filename in img._date_filename_dict.items():
+        assert Path(filename).is_file()
+
+
+@pytest.mark.skipif(IPython is None, reason="IPython package not available")
+@pytest.mark.skipif(ipywidgets is None, reason="ipywidgets package not available")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 def test_save(space_time_raster_dataset):
     """Test returns from animate and time_slider are correct object types"""
     img = gj.TimeSeriesMap()
@@ -484,6 +530,7 @@ def test_save(space_time_raster_dataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -603,4 +650,11 @@ def test_save(space_time_raster_dataset):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     assert Path(gif_file).is_file()

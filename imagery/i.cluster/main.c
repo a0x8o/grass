@@ -67,6 +67,7 @@ struct Ref ref;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -79,6 +80,8 @@ struct Ref ref;
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 char **semantic_labels;
 =======
 <<<<<<< HEAD
@@ -206,6 +209,7 @@ char **bandrefs;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -288,6 +292,11 @@ char **semantic_labels;
 char **bandrefs;
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+char **semantic_labels;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 char outsigfile[GNAME_MAX + GMAPSET_MAX];
 char *insigfile;
 char *reportfile;
@@ -368,6 +377,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -471,6 +481,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     parm.out_sig->description =
         _("Name for output file containing result signatures");
 =======
@@ -487,6 +499,7 @@ int main(int argc, char *argv[])
     parm.out_sig->description =
         _("Name for output file containing result signatures");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -541,9 +554,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
     parm.out_sig->description =
         _("Name for output file containing result signatures");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -613,6 +629,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     parm.class = G_define_option();
     parm.class->key = "classes";
@@ -657,6 +675,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -760,6 +779,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     parm.seed_sig->description =
         _("Name of file containing initial signatures");
 =======
@@ -776,6 +797,7 @@ int main(int argc, char *argv[])
     parm.seed_sig->description =
         _("Name of file containing initial signatures");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -830,9 +852,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
     parm.seed_sig->description =
         _("Name of file containing initial signatures");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -902,6 +927,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     parm.sample_interval = G_define_option();
     parm.sample_interval->key = "sample";
@@ -973,6 +1000,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -1024,6 +1052,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     if (G_parser(argc, argv))
         exit(EXIT_FAILURE);
@@ -1264,6 +1294,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1326,6 +1357,17 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+    if (G_parser(argc, argv))
+        exit(EXIT_FAILURE);
+
+    group = parm.group_name->answer;       /* a required parameter */
+    subgroup = parm.subgroup_name->answer; /* required */
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     /* check all the inputs */
     if (!I_find_group(group)) {
         G_fatal_error(_("Group <%s> not found in current mapset"), group);
@@ -1359,6 +1401,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1423,6 +1466,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         G_fatal_error(_("Subgroup <%s> in group <%s> not found"), subgroup,
                       group);
     }
@@ -1778,6 +1823,14 @@ int main(int argc, char *argv[])
 =======
     if (G_unqualified_name(parm.out_sig->answer, G_mapset(), outsigfile, xmapset) < 0)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+=======
+        G_fatal_error(_("Subgroup <%s> in group <%s> not found"), subgroup,
+                      group);
+    }
+
+    if (G_unqualified_name(parm.out_sig->answer, G_mapset(), outsigfile,
+                           xmapset) < 0)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error(_("<%s> does not match the current mapset"), xmapset);
 
     if (G_legal_filename(outsigfile) < 0)
@@ -1969,6 +2022,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1977,6 +2031,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2275,6 +2331,7 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2370,6 +2427,15 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+    if ((fd = I_fopen_signature_file_new(outsigfile)) != NULL) {
+        for (unsigned int i = C.S.nbands; i--;)
+            C.S.semantic_labels[i] = semantic_labels[i];
+        I_write_signatures(fd, &C.S);
+        fclose(fd);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
     else {
         G_fatal_error(_("Unable to create signature file <%s> for group "

@@ -45,6 +45,7 @@ from __future__ import print_function
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -164,6 +165,13 @@ from __future__ import print_function
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 import io
 from contextlib import redirect_stdout
 import sys
@@ -200,6 +208,7 @@ class PyShellWindow(wx.Panel):
             + "\n\n"
         )
 
+<<<<<<< HEAD
         shellargs = {
             "parent": self,
             "id": wx.ID_ANY,
@@ -214,6 +223,14 @@ class PyShellWindow(wx.Panel):
 >>>>>>> osgeo-main
 >>>>>>> main
         }
+=======
+        shellargs = dict(
+            parent=self,
+            id=wx.ID_ANY,
+            introText=self.intro,
+            locals={"gs": grass, "AddLayer": self.AddLayer, "help": self.Help},
+        )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         # useStockId (available since wxPython 4.0.2) should be False on macOS
         if sys.platform == "darwin" and CheckWxVersion([4, 0, 2]):
             shellargs["useStockId"] = False

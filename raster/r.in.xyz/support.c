@@ -68,6 +68,7 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rast_set_null_value(array, nrows * ncols, map_type);
 =======
 <<<<<<< HEAD
@@ -122,6 +123,8 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         for (row = 0; row < nrows; row++) {
             Rast_set_null_value(ptr, ncols, map_type);
             ptr = G_incr_void_ptr(ptr, ncols * Rast_cell_size(map_type));
@@ -154,6 +157,7 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -259,6 +263,11 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
         Rast_set_null_value(array, nrows * ncols, map_type);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        Rast_set_null_value(array, nrows * ncols, map_type);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         break;
 
     default:

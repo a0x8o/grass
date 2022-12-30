@@ -3738,6 +3738,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3791,6 +3792,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../lib/gis/mapset.c:38
 msgid "MAPSET is not set"
 msgstr "MAPSET não foi definido"
@@ -4034,6 +4037,7 @@ msgstr "nenhum"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -4080,6 +4084,10 @@ msgstr "nenhum"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../lib/manage/do_copy.c:43
 #, c-format
 msgid "Copying %s <%s> to current mapset as <%s>"
@@ -9583,6 +9591,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -9702,6 +9711,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../lib/ogsf/gsd_legend.c:245
 #, c-format
@@ -12905,6 +12921,7 @@ msgstr "[%s]: Cor não existe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -13005,6 +13022,8 @@ msgstr "Não foi possível abrir o ficheiro de cabeçalho do mapa raster <%s@%s>
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #~ msgid "invalid color name"
 #~ msgstr "nome de cor inválido"
 
@@ -13219,6 +13238,7 @@ msgstr "Não foi possível abrir o ficheiro de cabeçalho do mapa raster <%s@%s>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -13273,3 +13293,60 @@ msgstr "Não foi possível abrir o ficheiro de cabeçalho do mapa raster <%s@%s>
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+msgid "which is missing."
+msgstr "que está faltando."
+
+msgid "whose header file can't be opened."
+msgstr "cujo ficheiro de cabeçalho não pode ser aberto."
+
+msgid "Illegal row value"
+msgstr "Valor de linha ilegal"
+
+msgid "Illegal col value"
+msgstr "Valor da coluna ilegal"
+
+msgid "Illegal n-s3 resolution value"
+msgstr "Valor de resolução N-S ilegal"
+
+msgid "Illegal row3 value"
+msgstr "Valor ilegal de linha"
+
+msgid "Illegal e-w3 resolution value"
+msgstr "Valor ilegal de resolução E-O"
+
+msgid "Illegal col3 value"
+msgstr "Valor ilegal de coluna"
+
+msgid "Illegal e-w resolution value"
+msgstr "Valor de resolução E-W ilegal"
+
+msgid "North must be north of South"
+msgstr "Norte deve ser ao Norte do Sul"
+
+msgid "North must be larger than South"
+msgstr "Norte deve ser maior que o Sul"
+
+msgid "East must be larger than West"
+msgstr "Leste deve ser maior que o Oeste"
+
+msgid "Invalid coordinates"
+msgstr "Coordenadas inválidas"
+
+msgid "Illegal n-s resolution value"
+msgstr "Valor de resolução N-S ilegal"
+
+msgid "Illegal t-b3 resolution value"
+msgstr "Valor ilegal de resolução vertical (topo-base)"
+
+msgid "Illegal depths value"
+msgstr "Valor ilegal de profundidades"
+
+msgid "Top must be larger than Bottom"
+msgstr "Topo deve ser maior que Base"
+
+msgid "Unable to open header file for raster map <%s@%s>"
+msgstr "Não foi possível abrir o ficheiro de cabeçalho do mapa raster <%s@%s>"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)

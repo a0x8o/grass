@@ -101,6 +101,7 @@ void tgis_free_map_list(tgisMapList *list);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -119,6 +120,8 @@ void tgis_free_map_list(tgisMapList *list);
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 tgisMapList *tgis_new_map_list(void);
 =======
 <<<<<<< HEAD
@@ -287,6 +290,7 @@ tgisMapList *tgis_new_map_list(void);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -397,6 +401,11 @@ tgisMapList *tgis_new_map_list();
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+tgisMapList *tgis_new_map_list();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 /*! Insert a new map to the map list */
 void tgis_map_list_insert(tgisMapList *list, char *name, char *mapset,
@@ -536,6 +545,7 @@ void tgis_free_dataset_list(tgisDatasetList *list);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -554,6 +564,8 @@ void tgis_free_dataset_list(tgisDatasetList *list);
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 tgisDatasetList *tgis_new_dataset_list(void);
 =======
 <<<<<<< HEAD
@@ -722,6 +734,7 @@ tgisDatasetList *tgis_new_dataset_list(void);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -832,6 +845,11 @@ tgisDatasetList *tgis_new_dataset_list();
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+tgisDatasetList *tgis_new_dataset_list();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 /*! Insert a new dataset to the dataset list */
 void tgis_dataset_list_insert(tgisDatasetList *list, char *name, char *mapset,

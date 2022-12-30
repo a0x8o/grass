@@ -48,7 +48,11 @@
 # % required: no
 # %end
 
+<<<<<<< HEAD
 import grass.script as gs
+=======
+import grass.script as grass
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 # lazy imports at the end of the file
 

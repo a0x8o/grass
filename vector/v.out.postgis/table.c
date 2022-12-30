@@ -35,6 +35,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void check_columns(const struct Map_info *Map, const char *layer,
 =======
 <<<<<<< HEAD
@@ -89,6 +90,8 @@ void check_columns(const struct Map_info *Map, const char *layer,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 void check_columns(struct Map_info *Map, const char *layer,
 =======
 void check_columns(const struct Map_info *Map, const char *layer,
@@ -118,6 +121,7 @@ void check_columns(const struct Map_info *Map, const char *layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -223,6 +227,11 @@ void check_columns(const struct Map_info *Map, const char *layer,
 void check_columns(const struct Map_info *Map, const char *layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+void check_columns(const struct Map_info *Map, const char *layer,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                    const char *fid_column, const char *geom_column)
 {
     struct field_info *fi;

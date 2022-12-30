@@ -28087,6 +28087,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28152,6 +28153,11 @@ msgstr ""
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, c-format
 msgid "Unable to access target location/mapset %s/%s"
 msgstr ""
@@ -52291,6 +52297,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -52410,6 +52417,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../locale/scriptstrings/v.scatterplot_to_translate.c:64
 #, fuzzy
@@ -77508,6 +77522,7 @@ msgid "Makes each cell value a function of the attribute values assigned to the 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -77627,6 +77642,13 @@ msgid "Makes each cell value a function of the attribute values assigned to the 
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../vector/v.neighbors/main.c:152
@@ -77677,6 +77699,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -77796,6 +77819,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgid "All points fall outside of the current computational region"
 msgstr ""
 
@@ -78166,6 +78196,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Vector map <%s> is 3D. Use format specific layer creation options (parameter 'lco') to export in 3D rather than 2D (default)."
 =======
 <<<<<<< HEAD
@@ -78220,6 +78251,8 @@ msgid "Vector map <%s> is 3D. Use format specific layer creation options (parame
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgid ""
 "Vector map <%s> is 3D. Use format specific layer creation options (parameter "
 "'lco') to export in 3D rather than 2D (default)."
@@ -78251,6 +78284,7 @@ msgid "Vector map <%s> is 3D. Use format specific layer creation options (parame
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -78356,6 +78390,11 @@ msgid "Vector map <%s> is 3D. Use format specific layer creation options (parame
 msgid "Vector map <%s> is 3D. Use format specific layer creation options (parameter 'lco') to export in 3D rather than 2D (default)."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+msgid "Vector map <%s> is 3D. Use format specific layer creation options (parameter 'lco') to export in 3D rather than 2D (default)."
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../vector/v.out.ogr/main.c:672
@@ -81771,6 +81810,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -81890,6 +81930,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../display/d.text/main.c:181
 msgid "Line spacing"
@@ -84596,6 +84643,7 @@ msgstr ""
 msgid "No graphics device selected. Use d.mon to select graphics device."
 msgstr ""
 
+<<<<<<< HEAD
 #: ../display/d.redraw/main.c:61
 #, fuzzy, c-format
 msgid "Unable to open file '%s' for reading."
@@ -85368,6 +85416,7 @@ msgid "Manage"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -85455,6 +85504,206 @@ msgid "Manage"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+#: ../raster/r.sunhours/main.c:357
+msgid "Calculating solar elevation and azimuth..."
+msgstr ""
+
+#: ../raster/r.sunhours/main.c:360
+msgid "Calculating solar elevation..."
+msgstr ""
+
+#: ../raster/r.sunhours/main.c:363
+msgid "Calculating solar azimuth..."
+msgstr ""
+
+#: ../raster/r.out.pov/main.c:125
+msgid "Converts a raster map layer into a height-field file for POV-Ray."
+msgstr "Convertir une couche raster vers un fichier de hauteurs pour POV-Ray."
+
+#: ../raster/r.out.pov/main.c:132
+msgid "Name of output povray file (TGA height field file)"
+msgstr "Nom du fichier povray en sortie (fichier TGA avec champ altitude)"
+
+#: ../raster/r.out.pov/main.c:139
+msgid "Height-field type (0=actual heights 1=normalized)"
+msgstr "Type de fichier altitude (0=altitude réelle 1=altitude normalisée)"
+
+#: ../raster/r.out.pov/main.c:145
+msgid "Elevation bias"
+msgstr "Erreur altimétrique"
+
+#: ../raster/r.out.pov/main.c:151 ../raster/r.param.scale/interface.c:118
+msgid "Vertical scaling factor"
+msgstr "Facteur d'échelle vertical"
+
+#: ../raster/r.out.pov/main.c:171
+#, c-format
+msgid "Invalid output filename <%s>"
+msgstr "Nom du fichier de sortie <%s> illégal"
+
+#: ../raster/r.out.pov/main.c:181
+#, c-format
+msgid "Raster map is too big! Exceeds %d columns or %d rows"
+msgstr "La couche raster est trop grande! Elle dépasse %d colonnes ou %d lignes"
+
+#: ../raster/r.out.pov/main.c:202
+msgid "Negative elevation values in input"
+msgstr "Valeurs d'altitude nagatives en entrée"
+
+#: ../raster/r.texture/main.c:68
+#, c-format
+msgid "Unknown measure <%s>"
+msgstr "Mesure <%s> inconnue"
+
+#: ../raster/r.texture/main.c:107
+msgid "Generate images with textural features from a raster map."
+msgstr "Génère des images avec des entités de textures à partir d'une couche raster."
+
+#: ../raster/r.texture/main.c:147
+msgid "Textural measurement method"
+msgstr "Méthode de mesure texturale"
+
+#: ../raster/r.texture/main.c:151
+msgid "Separate output for each angle (0, 45, 90, 135)"
+msgstr "Séparer les sorties pour chaque angle (0, 45, 90, 135)"
+
+#: ../raster/r.texture/main.c:152
+msgid "Angles are counterclockwise from east: 0 is East to West, 45 is North-East to South-West"
+msgstr "Les angles sont en sens anti-horaire depuis l'Est : 0 est d'Est vers Ouest, 45 est Nord-Est vers Sud-Ouest"
+
+#: ../raster/r.texture/main.c:157
+msgid "Calculate all textural measurements"
+msgstr "Calculter toutes les mesures texturales"
+
+#: ../raster/r.texture/main.c:161
+msgid "Allow NULL cells in a moving window"
+msgstr "Permettre les cellules NULL dans la fenêtre mouvante"
+
+#: ../raster/r.texture/main.c:162
+msgid "This will also avoid cropping along edges of the current region"
+msgstr "Ceci va également éviter de couper le long des bords de la région courante"
+
+#: ../raster/r.texture/main.c:171
+msgid "Size of the moving window must be > 0"
+msgstr "La taille de la fenêtre mouvante doit être > 0"
+
+#: ../raster/r.texture/main.c:173
+msgid "Size of the moving window must be odd"
+msgstr "La taille de la fenêtre mouvante doit êre impaire"
+
+#: ../raster/r.texture/main.c:176
+msgid "The distance between two samples must be > 0"
+msgstr "La distance entre deux échantillons doit être > 0"
+
+#: ../raster/r.texture/main.c:178
+msgid "The distance between two samples must be smaller than the size of the moving window"
+msgstr "La distance entre deux échantillons doit être plus petite que la taille de la fenêtre mouvante"
+
+#: ../raster/r.texture/main.c:199
+msgid "Nothing to compute. Use at least one textural measure."
+msgstr "Rien à calculer. Utilisez au moins une mesure texturale."
+
+#: ../raster/r.texture/main.c:258 ../raster/r.texture/main.c:268
+msgid "At least one of the requested output maps exists. Use --o to overwrite."
+msgstr "Au moins une des carte en sortie existe. Utilisez --o pour écraser."
+
+#: ../raster/r.texture/main.c:351
+#, c-format
+msgid "Calculating %d texture measure"
+msgid_plural "Calculating %d texture measures"
+msgstr[0] "Calcul de %d mesure texturale"
+msgstr[1] "Calcul de %d mesures texturales"
+
+#: ../raster/r.texture/h_measure.c:156
+#, c-format
+msgid "Too many categories (found: %i, max: %i). Try to rescale or reclassify the map"
+msgstr "Trop de catégories (trouvées: %i, max: %i). Essaye de rééchelonner ou de reclassifier la carte"
+
+#: ../raster/r.mode/main.c:59
+msgid "Finds the mode of values in a cover map within areas assigned the same category value in a user-specified base map."
+msgstr "Trouve le « mode » (valeur la plus présente) des valeurs d'une couche de couverture pour les zones définies par les catégories d'une couche de base."
+
+#: ../raster/r.mode/main.c:65
+msgid "Base map to be reclassified"
+msgstr "Couche de base à reclasser"
+
+#: ../raster/r.mode/main.c:72
+msgid "Coverage map"
+msgstr "Couche de couverture"
+
+#: ../raster/r.mode/main.c:79
+msgid "Output map"
+msgstr "Couche de sortie"
+
+#: ../raster/r.mode/main.c:92
+#, c-format
+msgid "%s: Unable to read category labels"
+msgstr ""
+
+#: ../raster/r.mode/main.c:143 ../raster/r.resamp.filter/main.c:605
+#: ../raster/r.resamp.interp/main.c:374 ../raster/r.tile/main.c:203
+#: ../raster/r.resamp.stats/main.c:397
+#, c-format
+msgid "Unable to read color table for %s"
+msgstr "Impossible de lire la table de couleur %s"
+
+#: ../raster/r.mode/read_stats.c:14
+msgid "reading r.stats output"
+msgstr "Lecture de la sortie de r.stats"
+
+#: ../raster/r.compress/main.c:70
+msgid "compression"
+msgstr "compression"
+
+#: ../raster/r.compress/main.c:71
+msgid "Compresses and decompresses raster maps."
+msgstr "Compresser et décompresser des cartes raster."
+
+#: ../raster/r.compress/main.c:74
+msgid "Name of existing raster map(s)"
+msgstr "Nom des couches raster existantes"
+
+#: ../raster/r.compress/main.c:78
+msgid "Uncompress the map"
+msgstr "Décompresser la carte"
+
+#: ../raster/r.compress/main.c:82
+msgid "Print compression information and data type of input map(s)"
+msgstr "Afficher les informations de compression et les types de données de(s) carte(s) en entrée"
+
+#: ../raster/r.compress/main.c:86
+msgid "Print compression information in shell script style"
+msgstr "Afficher les informations de compression en style script shell"
+
+#: ../raster/r.compress/main.c:128 ../raster/r.compress/main.c:321
+#, c-format
+msgid "Raster map <%s> is not in the current mapset"
+msgstr "La carte raster <%s> n'est pas dans le jeu de cartes courant"
+
+#: ../raster/r.compress/main.c:134
+#, c-format
+msgid "<%s> is a reclass file of map <%s> in mapset <%s> - can't uncompress"
+msgstr "<%s> est un fichier reclassé de la carte <%s> du jeu de cartes <%s> - impossible de décompresser"
+
+#: ../raster/r.compress/main.c:136
+#, c-format
+msgid "<%s> is a reclass file of map <%s> in mapset <%s> - can't compress"
+msgstr "<%s> est un fichier reclassé de la carte <%s> du jeu de cartes <%s> - impossible de compresser"
+
+#: ../raster/r.compress/main.c:141
+#, c-format
+msgid "<%s> is a GDAL-linked map - can't (un)compress"
+msgstr "<%s> est une carte GDAL liée - imposible de la (dé)compresser"
+
+#: ../raster/r.compress/main.c:145
+#, c-format
+msgid "<%s> is a virtual raster map - can't (un)compress"
+msgstr ""
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../raster/r.compress/main.c:219
 #, c-format
 msgid "DONE: uncompressed file is %lu %s (%.2f%%) smaller"
@@ -85496,6 +85745,7 @@ msgid "DONE: compressed file is %lu %s (%.2f%%) larger"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -85615,6 +85865,13 @@ msgid "DONE: compressed file is %lu %s (%.2f%%) larger"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../display/d.mon/main.c:65
@@ -98468,6 +98725,7 @@ msgstr "Table manquante"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Missing table"
 msgstr "Table manquante"
 
@@ -98479,6 +98737,8 @@ msgstr "Table manquante"
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgid "DONE: uncompressed file is %lu %s (%.2f%) smaller"
 msgstr "FAIT : le fichier décompressé est %lu %s (%.2f%) plus petit"
 
@@ -98736,6 +98996,7 @@ msgstr "FAIT : le fichier décompressé est %lu %s (%.2f%) plus grand"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -98745,6 +99006,12 @@ msgstr "FAIT : le fichier décompressé est %lu %s (%.2f%) plus grand"
 =======
 >>>>>>> osgeo-main
 =======
+=======
+=======
+msgid "Missing table"
+msgstr "Table manquante"
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgid "DONE: uncompressed file is %lu %s (%.2f%) smaller"
 msgstr "FAIT : le fichier décompressé est %lu %s (%.2f%) plus petit"
 
@@ -98754,6 +99021,7 @@ msgstr "FAIT : le fichier compressé est %lu %s (%.2f%) plus petit"
 msgid "DONE: uncompressed file is %lu %s (%.2f%) larger"
 msgstr "FAIT : le fichier décompressé est %lu %s (%.2f%) plus grand"
 
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -98826,5 +99094,8 @@ msgstr "FAIT : le fichier décompressé est %lu %s (%.2f%) plus grand"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgid "DONE: compressed file is %lu %s (%.2f%) larger"
 msgstr "FAIT : le fichier compressé est %lu %s (%.2f%) plus grand"

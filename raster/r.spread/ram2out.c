@@ -5,7 +5,11 @@
 #include "costHa.h"
 #include "local_proto.h"
 
+<<<<<<< HEAD
 #define DATA(map, r, c) (map)[(r) * ncols + (c)]
+=======
+#define DATA(map, r, c) (map)[(r)*ncols + (c)]
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 void ram2out(void)
 {

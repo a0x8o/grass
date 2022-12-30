@@ -104,6 +104,7 @@ int main(int argc, char *argv[])
         if (G_number_of_tokens(map_mapset) == 1)
             strcpy(name, file_opt->answer);
         G_free_tokens(map_mapset);
+<<<<<<< HEAD
     }
     else {
         len = G_strlcpy(name, file_opt->answer, sizeof(name));
@@ -111,6 +112,11 @@ int main(int argc, char *argv[])
             G_fatal_error(_("Name <%s> is too long"), file_opt->answer);
         }
     }
+=======
+    }
+    else
+        strcpy(name, file_opt->answer);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     mapset = G_find_file2(elem_opt->answer, name, search_mapset);
     if (mapset) {

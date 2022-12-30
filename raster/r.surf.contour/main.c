@@ -80,10 +80,15 @@ int main(int argc, char *argv[])
     alt_row = (DCELL *)G_malloc(ncols * sizeof(DCELL));
     seen = flag_create(nrows, ncols);
     mask = flag_create(nrows, ncols);
+<<<<<<< HEAD
     char mask_name[GNAME_MAX];
     char mask_mapset[GMAPSET_MAX];
     if (Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL)) {
         file_fd = Rast_open_old(mask_name, mask_mapset);
+=======
+    if (NULL != G_find_file("cell", "MASK", G_mapset())) {
+        file_fd = Rast_open_old("MASK", G_mapset());
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         for (r = 0; r < nrows; r++) {
             Rast_get_d_row_nomask(file_fd, alt_row, r);
             for (c = 0; c < ncols; c++)

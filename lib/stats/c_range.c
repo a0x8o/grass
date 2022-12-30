@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void c_range(DCELL *result, DCELL *values, int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -78,6 +79,8 @@ void c_range(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 void c_range(DCELL *result, DCELL *values, int n, const void *closure UNUSED)
 =======
 void c_range(DCELL *result, DCELL *values, int n, const void *closure)
@@ -107,6 +110,7 @@ void c_range(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -212,6 +216,11 @@ void c_range(DCELL *result, DCELL *values, int n, const void *closure)
 void c_range(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+void c_range(DCELL *result, DCELL *values, int n, const void *closure)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     DCELL min, max;
     int i;

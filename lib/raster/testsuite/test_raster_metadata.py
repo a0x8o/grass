@@ -214,6 +214,7 @@ from grass.lib.gis import G_remove_misc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -265,9 +266,12 @@ from grass.lib.gis import G_remove_misc
 =======
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,6 +361,10 @@ from grass.lib.gis import G_remove_misc
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 from grass.lib.raster import (
     Rast_legal_semantic_label,
     Rast_read_semantic_label,
@@ -390,6 +398,9 @@ from grass.lib.raster import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> main
 =======
@@ -475,6 +486,7 @@ from grass.lib.raster import Rast_legal_bandref, Rast_read_bandref, Rast_write_b
 =======
 from grass.lib.raster import Rast_legal_bandref, Rast_read_bandref, Rast_write_bandref
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -582,6 +594,10 @@ from grass.lib.raster import Rast_legal_bandref, Rast_read_bandref, Rast_write_b
 from grass.lib.raster import Rast_legal_bandref, Rast_read_bandref, Rast_write_bandref
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 
 class RastLegalBandIdTestCase(TestCase):
@@ -615,6 +631,7 @@ class RastLegalBandIdTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -666,9 +683,12 @@ class RastLegalBandIdTestCase(TestCase):
 =======
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -758,6 +778,10 @@ class RastLegalBandIdTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         ret = Rast_legal_semantic_label("")
         self.assertEqual(ret, False)
         ret = Rast_legal_semantic_label(" ")
@@ -784,10 +808,13 @@ class RastLegalBandIdTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -1395,49 +1422,59 @@ class Rastsemantic_labelerenceTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     def test_illegal_name(self):
-        ret = Rast_legal_bandref(".a")
-        self.assertEqual(ret, -1)
-        ret = Rast_legal_bandref("a/b")
-        self.assertEqual(ret, -1)
-        ret = Rast_legal_bandref("a@b")
-        self.assertEqual(ret, -1)
-        ret = Rast_legal_bandref("a#b")
-        self.assertEqual(ret, -1)
+        ret = Rast_legal_semantic_label(".a")
+        self.assertEqual(ret, False)
+        ret = Rast_legal_semantic_label("a/b")
+        self.assertEqual(ret, False)
+        ret = Rast_legal_semantic_label("a@b")
+        self.assertEqual(ret, False)
+        ret = Rast_legal_semantic_label("a#b")
+        self.assertEqual(ret, False)
 
     def test_too_long(self):
-        ret = Rast_legal_bandref(
+        ret = Rast_legal_semantic_label(
             "a_" + "".join(random.choices(string.ascii_letters, k=253))
         )
-        self.assertEqual(ret, 1)
-        ret = Rast_legal_bandref(
+        self.assertEqual(ret, True)
+        ret = Rast_legal_semantic_label(
             "a_" + "".join(random.choices(string.ascii_letters, k=254))
         )
-        self.assertEqual(ret, -1)
+        self.assertEqual(ret, False)
 
     def test_good_name(self):
-        ret = Rast_legal_bandref("1")
-        self.assertEqual(ret, 1)
-        ret = Rast_legal_bandref("1a")
-        self.assertEqual(ret, 1)
-        ret = Rast_legal_bandref("clouds")
-        self.assertEqual(ret, 1)
-        ret = Rast_legal_bandref("rededge1")
-        self.assertEqual(ret, 1)
-        ret = Rast_legal_bandref("S2_1")
-        self.assertEqual(ret, 1)
-        ret = Rast_legal_bandref("GRASS_aspect_deg")
-        self.assertEqual(ret, 1)
+        ret = Rast_legal_semantic_label("1")
+        self.assertEqual(ret, True)
+        ret = Rast_legal_semantic_label("1a")
+        self.assertEqual(ret, True)
+        ret = Rast_legal_semantic_label("clouds")
+        self.assertEqual(ret, True)
+        ret = Rast_legal_semantic_label("rededge1")
+        self.assertEqual(ret, True)
+        ret = Rast_legal_semantic_label("S2_1")
+        self.assertEqual(ret, True)
+        ret = Rast_legal_semantic_label("GRASS_aspect_deg")
+        self.assertEqual(ret, True)
 
 
+<<<<<<< HEAD
 class RastBandReferenceTestCase(TestCase):
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+class Rastsemantic_labelerenceTestCase(TestCase):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     @classmethod
     def setUpClass(cls):
         cls.map = tempname(10)
         cls.mapset = Mapset().name
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1479,6 +1516,8 @@ class RastBandReferenceTestCase(TestCase):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         cls.semantic_label = "The_Doors"
 =======
 <<<<<<< HEAD
@@ -1606,6 +1645,7 @@ class RastBandReferenceTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -1688,6 +1728,11 @@ class RastBandReferenceTestCase(TestCase):
         cls.bandref = "The_Doors"
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+        cls.semantic_label = "The_Doors"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         cls.use_temp_region()
         cls.runModule("g.region", n=1, s=0, e=1, w=0, res=1)
         cls.runModule("r.mapcalc", expression="{} = 1".format(cls.map))
@@ -1726,6 +1771,7 @@ class RastBandReferenceTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1777,9 +1823,12 @@ class RastBandReferenceTestCase(TestCase):
 =======
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1869,6 +1918,10 @@ class RastBandReferenceTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     def test_read_semantic_label_present(self):
         Rast_write_semantic_label(self.map, self.semantic_label)
         ret = utils.decode(Rast_read_semantic_label(self.map, self.mapset))
@@ -1895,10 +1948,13 @@ class RastBandReferenceTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -2290,12 +2346,15 @@ class RastBandReferenceTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
-    def test_read_bandref_absent(self):
-        G_remove_misc("cell_misc", "bandref", self.map)
-        ret = Rast_read_bandref(self.map, self.mapset)
+    def test_read_semantic_label_absent(self):
+        G_remove_misc("cell_misc", "semantic_label", self.map)
+        ret = Rast_read_semantic_label(self.map, self.mapset)
         self.assertFalse(bool(ret))
 
+<<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
     def test_write_bandref(self):
@@ -2364,6 +2423,8 @@ class RastBandReferenceTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     def test_write_semantic_label(self):
         G_remove_misc("cell_misc", "semantic_label", self.map)
         Rast_write_semantic_label(self.map, self.semantic_label)
@@ -2377,6 +2438,7 @@ class RastBandReferenceTestCase(TestCase):
         Rast_write_semantic_label(self.map, self.semantic_label)
         ret = utils.decode(Rast_get_semantic_label_or_name(self.map, self.mapset))
         self.assertEqual(ret, self.semantic_label)
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2501,7 +2563,12 @@ class RastBandReferenceTestCase(TestCase):
 =======
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 
 if __name__ == "__main__":

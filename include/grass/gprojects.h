@@ -26,7 +26,11 @@
 /* adapted from gdal_version.h */
 #ifndef PROJ_COMPUTE_VERSION
 #define PROJ_COMPUTE_VERSION(maj, min, rev) \
+<<<<<<< HEAD
     ((maj) * 1000000 + (min) * 10000 + (rev) * 100)
+=======
+    ((maj)*1000000 + (min)*10000 + (rev)*100)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #endif
 
 /* just in case PROJ introduces PROJ_VERSION_NUM in a future version */

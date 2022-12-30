@@ -67,6 +67,7 @@ static void fatal_error(void *map, int *fd, int depths,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -85,6 +86,8 @@ static void fatal_error(void *map, int *fd, int depths,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 static void set_params(void);            /*Fill the paramType structure */
 =======
 <<<<<<< HEAD
@@ -253,6 +256,7 @@ static void set_params(void);            /*Fill the paramType structure */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -363,6 +367,11 @@ static void set_params();                /*Fill the paramType structure */
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+static void set_params();                /*Fill the paramType structure */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 /* ************************************************************************* */
 /* Error handling ********************************************************** */

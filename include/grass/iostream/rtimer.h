@@ -47,6 +47,7 @@ typedef struct {
     time_t tv1, tv2;
 } Rtimer;
 
+<<<<<<< HEAD
 #define rt_start(rt)                           \
     if ((time(&(rt.tv1)) == ((time_t) - 1))) { \
         perror("time");                        \
@@ -58,6 +59,19 @@ typedef struct {
     if ((time(&(rt.tv2)) == ((time_t) - 1))) { \
         perror("time");                        \
         exit(1);                               \
+=======
+#define rt_start(rt)                         \
+    if ((time(&(rt.tv1)) == ((time_t)-1))) { \
+        perror("time");                      \
+        exit(1);                             \
+    }
+
+/* doesn't really stop, just updates endtimes */
+#define rt_stop(rt)                          \
+    if ((time(&(rt.tv2)) == ((time_t)-1))) { \
+        perror("time");                      \
+        exit(1);                             \
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
 #define rt_u_useconds(rt) rt_w_useconds(rt)

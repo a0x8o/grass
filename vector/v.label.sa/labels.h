@@ -64,6 +64,7 @@ struct _label {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     struct line_pnts *skyline; /**< The skyline of the text, as an offest
 =======
 <<<<<<< HEAD
@@ -118,6 +119,8 @@ struct _label {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     struct line_pnts *skyline; /**< The skyline of the text, as an offset
 =======
     struct line_pnts *skyline; /**< The skyline of the text, as an offest
@@ -147,6 +150,7 @@ struct _label {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -252,6 +256,11 @@ struct _label {
     struct line_pnts *skyline; /**< The skyline of the text, as an offest
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+    struct line_pnts *skyline; /**< The skyline of the text, as an offest
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                                 *  from the label point */
     struct bound_box bb;
     double size;
@@ -292,6 +301,7 @@ struct _label {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     int type; /**< The feture type (point, line, area) */
 =======
 <<<<<<< HEAD
@@ -346,6 +356,8 @@ struct _label {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int type; /**< The feature type (point, line, area) */
 =======
     int type; /**< The feture type (point, line, area) */
@@ -375,6 +387,7 @@ struct _label {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -480,6 +493,11 @@ struct _label {
     int type; /**< The feture type (point, line, area) */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+    int type; /**< The feture type (point, line, area) */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     struct line_pnts *shape; /**< The points for the feature that this
                               *  label belongs to */

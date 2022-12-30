@@ -153,6 +153,7 @@ int contrastWeightedEdgeDensity(int fd, char **par, struct area_entry *ad,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * every row of a rigth file has this layout
 =======
 <<<<<<< HEAD
@@ -207,6 +208,8 @@ int contrastWeightedEdgeDensity(int fd, char **par, struct area_entry *ad,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
      * every row of a right file has this layout
 =======
      * every row of a rigth file has this layout
@@ -236,6 +239,7 @@ int contrastWeightedEdgeDensity(int fd, char **par, struct area_entry *ad,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -341,6 +345,11 @@ int contrastWeightedEdgeDensity(int fd, char **par, struct area_entry *ad,
      * every row of a rigth file has this layout
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+     * every row of a rigth file has this layout
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
      * CELL1,CELL2,dissimilarity
      */
 
@@ -923,6 +932,7 @@ int addCoppia(Coppie *cc, generic_cell ce1, generic_cell ce2, double pe,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               long tc, long *siz)
 =======
 <<<<<<< HEAD
@@ -977,6 +987,8 @@ int addCoppia(Coppie *cc, generic_cell ce1, generic_cell ce2, double pe,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
               long tc, long *siz UNUSED)
 =======
               long tc, long *siz)
@@ -1006,6 +1018,7 @@ int addCoppia(Coppie *cc, generic_cell ce1, generic_cell ce2, double pe,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1111,6 +1124,11 @@ int addCoppia(Coppie *cc, generic_cell ce1, generic_cell ce2, double pe,
               long tc, long *siz)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+              long tc, long *siz)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     generic_cell cs;
     long it = 0;

@@ -26,6 +26,11 @@ try:
     import wx.lib.agw.flatnotebook as FN
 except ImportError:
     import wx.lib.flatnotebook as FN
+<<<<<<< HEAD
+=======
+
+import grass.script as grass
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 import grass.script as gs
 from core import globalvar
@@ -33,6 +38,11 @@ from core.gcmd import GError, GMessage, RunCommand
 from core.gconsole import EVT_CMD_DONE, CmdThread
 from core.settings import UserSettings
 from core.utils import PilImageToWxImage
+<<<<<<< HEAD
+=======
+from gui_core.forms import GUI
+from gui_core.widgets import GNotebook
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 from gui_core.dialogs import HyperlinkDialog
 from gui_core.forms import GUI
 from gui_core.ghelp import ShowAboutDialog
@@ -568,6 +578,7 @@ class PsMapFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             except (IOError, OSError):
 =======
 <<<<<<< HEAD
@@ -622,6 +633,8 @@ class PsMapFrame(wx.Frame):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             except OSError:
 =======
             except (IOError, OSError):
@@ -651,6 +664,7 @@ class PsMapFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -756,6 +770,11 @@ class PsMapFrame(wx.Frame):
             except (IOError, OSError):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+            except (IOError, OSError):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 del busy
                 program = self._getGhostscriptProgramName()
                 dlg = HyperlinkDialog(
@@ -788,6 +807,7 @@ class PsMapFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -837,6 +857,8 @@ class PsMapFrame(wx.Frame):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                         "You can download {program} {arch} version here."
                     ).format(
                         program=program,
@@ -870,6 +892,7 @@ class PsMapFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -957,6 +980,10 @@ class PsMapFrame(wx.Frame):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                         "You can donwload {program} {arch} version here."
                     ).format(
                         program=program,
@@ -985,6 +1012,7 @@ class PsMapFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1104,17 +1132,32 @@ class PsMapFrame(wx.Frame):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 )
                 dlg.ShowModal()
                 dlg.Destroy()
                 return
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
                 self.book.SetSelection(1)
                 self.currentPage = 1
                 rect = self.previewCanvas.ImageRect()
                 self.previewCanvas.image = wx.Image(self.imgName, wx.BITMAP_TYPE_PNG)
                 self.previewCanvas.DrawImage(rect=rect)
+=======
+            self.book.SetSelection(1)
+            self.currentPage = 1
+            rect = self.previewCanvas.ImageRect()
+            self.previewCanvas.image = wx.Image(self.imgName, wx.BITMAP_TYPE_PNG)
+            self.previewCanvas.DrawImage(rect=rect)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
             self.SetStatusText(_("Preview generated"), 0)
 
@@ -3172,7 +3215,13 @@ class PsMapBufferedWindow(wx.Window):
         iH *= self.currScale
         x = cW / 2 - iW / 2
         y = cH / 2 - iH / 2
+<<<<<<< HEAD
         return Rect(int(x), int(y), int(iW), int(iH))
+=======
+        imageRect = Rect(int(x), int(y), int(iW), int(iH))
+
+        return imageRect
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     def RedrawSelectBox(self, id):
         """Redraws select box when selected object changes its size"""

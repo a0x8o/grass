@@ -411,6 +411,19 @@ int main(int argc, char *argv[])
                     "will be set on <%d>"),
                   threads, abs(threads));
         threads = abs(threads);
+<<<<<<< HEAD
+=======
+    }
+    if (parm.devi->answer && threads > 1) {
+        G_warning(_(
+            "Parallel computation disabled when deviation output is required"));
+        threads = 1;
+    }
+    if (parm.cvdev->answer && threads > 1) {
+        G_warning(_("Parallel computation disabled when cross validation "
+                    "output is required"));
+        threads = 1;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
 #if defined(_OPENMP)
@@ -674,10 +687,15 @@ int main(int argc, char *argv[])
     IL_init_func_2d(&params, IL_grid_calc_2d, IL_matrix_create,
                     IL_check_at_points_2d, IL_secpar_loop_2d, IL_crst, IL_crstg,
                     IL_write_temp_2d);
+<<<<<<< HEAD
 #endif
 
     totsegm = IL_vector_input_data_2d(&params, &Map, with_z ? 0 : field, zcol,
 
+=======
+
+    totsegm = IL_vector_input_data_2d(&params, &Map, with_z ? 0 : field, zcol,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                                       scol, info, &xmin, &xmax, &ymin, &ymax,
                                       &zmin, &zmax, &NPOINT, &dmax);
     if (totsegm <= 0) {
@@ -941,6 +959,7 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -959,6 +978,8 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         if (fwrite(zero_array_cell, sizeof(FCELL), n_cols, fp) !=
             (size_t)n_cols) {
 =======
@@ -1147,6 +1168,7 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1261,6 +1283,11 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        if (fwrite(zero_array_cell, sizeof(FCELL), n_cols, fp) != n_cols) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             clean();
             G_fatal_error(_("Error writing temporary file <%s>"), *tmpname);
         }

@@ -42,6 +42,7 @@ def benchmark(size, label, results):
         overwrite=True,
     )
     results.append(bm.benchmark_nprocs(module, label=label, max_nprocs=16, repeat=3))
+<<<<<<< HEAD
     Module(
         "g.remove",
         quiet=True,
@@ -49,6 +50,13 @@ def benchmark(size, label, results):
         type="raster",
         name=(reference, slope, aspect, pcurv, tcurv),
     )
+=======
+    Module("g.remove", quiet=True, flags="f", type="raster", name=reference)
+    Module("g.remove", quiet=True, flags="f", type="raster", name=slope)
+    Module("g.remove", quiet=True, flags="f", type="raster", name=aspect)
+    Module("g.remove", quiet=True, flags="f", type="raster", name=pcurv)
+    Module("g.remove", quiet=True, flags="f", type="raster", name=tcurv)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 
 def generate_map(rows, cols, fname):

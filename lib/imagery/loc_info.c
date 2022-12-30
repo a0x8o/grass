@@ -16,8 +16,13 @@ char *I_location_info(const char *middle)
     len = 79 - strlen(left) - strlen(middle) - strlen(right);
     buf_len = len + strlen(left) + strlen(middle) + strlen(right);
     buf = (char *)G_calloc(buf_len, sizeof(char));
+<<<<<<< HEAD
     snprintf(buf, buf_len, "%s%*s%s%*s%s", left, len / 2, "", middle, len / 2,
              "", right);
+=======
+    G_snprintf(buf, buf_len, "%s%*s%s%*s%s", left, len / 2, "", middle, len / 2,
+               "", right);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     return buf;
 }

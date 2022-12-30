@@ -3176,6 +3176,7 @@ class NvizToolWindow(GNotebook):
             style = wx.SL_VERTICAL | wx.SL_AUTOTICKS | wx.SL_INVERSE
             sizeW = (-1, size)
 
+<<<<<<< HEAD
         kwargs = {
             "parent": parent,
             "id": wx.ID_ANY,
@@ -3185,6 +3186,20 @@ class NvizToolWindow(GNotebook):
             "size": sizeW,
         }
         slider = FloatSlider(**kwargs) if floatSlider else Slider(**kwargs)
+=======
+        kwargs = dict(
+            parent=parent,
+            id=wx.ID_ANY,
+            minValue=range[0],
+            maxValue=range[1],
+            style=style,
+            size=sizeW,
+        )
+        if floatSlider:
+            slider = FloatSlider(**kwargs)
+        else:
+            slider = Slider(**kwargs)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
         slider.SetName("slider")
         if bind[0]:

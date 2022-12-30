@@ -879,7 +879,11 @@ int main(int argc, char *argv[])
                         G_free_matrix(obsVect_ext);
                         G_free_ivector(lineVect_ext);
                     } /* END FLAG_EXT == TRUE */
+<<<<<<< HEAD
                 } /* END GRID == FALSE */
+=======
+                }     /* END GRID == FALSE */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 G_free_vector(parVect);
                 G_free_matrix(obsVect);
                 G_free_ivector(lineVect);
@@ -894,7 +898,11 @@ int main(int argc, char *argv[])
                                 "Consider increasing spline step values."));
             }
         } /*! END WHILE; last_column = TRUE */
+<<<<<<< HEAD
     } /*! END WHILE; last_row = TRUE */
+=======
+    }     /*! END WHILE; last_row = TRUE */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     G_verbose_message(_("Writing output..."));
     /* Writing the output raster map */

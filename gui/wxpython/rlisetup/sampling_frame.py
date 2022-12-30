@@ -554,6 +554,7 @@ class RLiSetupToolbar(BaseToolbar):
                 drawTool,
                 (None,),
                 (
+<<<<<<< HEAD
                     ("pan", BaseIcons["pan"].label),
                     BaseIcons["pan"],
                     self.parent.OnPan,
@@ -576,5 +577,33 @@ class RLiSetupToolbar(BaseToolbar):
                     BaseIcons["zoomExtent"],
                     self.parent.OnZoomToMap,
                 ),
+=======
+                    drawTool,
+                    (None,),
+                    (
+                        ("pan", BaseIcons["pan"].label),
+                        BaseIcons["pan"],
+                        self.parent.OnPan,
+                        wx.ITEM_CHECK,
+                    ),
+                    (
+                        ("zoomIn", BaseIcons["zoomIn"].label),
+                        BaseIcons["zoomIn"],
+                        self.parent.OnZoomIn,
+                        wx.ITEM_CHECK,
+                    ),
+                    (
+                        ("zoomOut", BaseIcons["zoomOut"].label),
+                        BaseIcons["zoomOut"],
+                        self.parent.OnZoomOut,
+                        wx.ITEM_CHECK,
+                    ),
+                    (
+                        ("zoomExtent", BaseIcons["zoomExtent"].label),
+                        BaseIcons["zoomExtent"],
+                        self.parent.OnZoomToMap,
+                    ),
+                )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             )
         )

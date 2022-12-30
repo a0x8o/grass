@@ -39,6 +39,7 @@ static unsigned int s, h, sbuf[256];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -57,6 +58,8 @@ static unsigned int s, h, sbuf[256];
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 double unfl(void)
 =======
 <<<<<<< HEAD
@@ -225,6 +228,7 @@ double unfl(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -335,6 +339,11 @@ double unfl()
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+double unfl()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     int i;
 

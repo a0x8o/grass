@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_list_tables(dbString **names, int *count, int system)
 =======
 <<<<<<< HEAD
@@ -78,6 +79,8 @@ int db__driver_list_tables(dbString **names, int *count, int system)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int db__driver_list_tables(dbString **names UNUSED, int *count UNUSED,
                            int system UNUSED)
 =======
@@ -108,6 +111,7 @@ int db__driver_list_tables(dbString **names, int *count, int system)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -213,6 +217,11 @@ int db__driver_list_tables(dbString **names, int *count, int system)
 int db__driver_list_tables(dbString **names, int *count, int system)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+int db__driver_list_tables(dbString **names, int *count, int system)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     db_procedure_not_implemented("db_list_tables");
     return DB_FAILED;

@@ -20,10 +20,17 @@ char *maskinfo(void)
     char mask_mapset[GMAPSET_MAX];
 
     results = NULL;
+<<<<<<< HEAD
     if (!Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL))
         return "none";
     if (Rast_get_reclass(mask_name, mask_mapset, &reclass) <= 0) {
         sprintf(text, "%s in %s", mask_name, mask_mapset);
+=======
+    if (G_find_raster("MASK", G_mapset()) == NULL)
+        return "none";
+    if (Rast_get_reclass("MASK", G_mapset(), &reclass) <= 0) {
+        sprintf(text, "MASK in %s", G_mapset());
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         return append(results, text);
     }
 

@@ -36,6 +36,7 @@ For more information on the test suite and unit tests, visit:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -58,6 +59,8 @@ For more information on the test suite and unit tests, visit:
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
 =======
 <<<<<<< HEAD
@@ -197,6 +200,7 @@ https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 =======
 https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -341,3 +345,8 @@ https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+<https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)

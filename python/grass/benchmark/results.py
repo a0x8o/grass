@@ -85,6 +85,7 @@ def save_results_to_file(results, filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -150,6 +151,8 @@ def save_results_to_file(results, filename):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     Path(filename).write_text(text, encoding="utf-8")
 =======
 =======
@@ -331,6 +334,9 @@ def save_results_to_file(results, filename):
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
 =======
     with open(filename, "w") as file:
+=======
+    with open(filename, "w", encoding="utf-8") as file:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         file.write(text)
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
@@ -350,6 +356,7 @@ def load_results_from_file(filename):
 
     See :func:`load_results` for details.
     """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -458,6 +465,8 @@ def load_results_from_file(filename):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     return load_results(Path(filename).read_text(encoding="utf-8"))
 =======
 <<<<<<< HEAD
@@ -727,6 +736,9 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
     with open(filename, "r") as file:
+=======
+    with open(filename, "r", encoding="utf-8") as file:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         return load_results(file.read())
 
 

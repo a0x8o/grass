@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 folium
 matplotlib
 numpy
@@ -252,9 +253,14 @@ PyVirtualDisplay
 =======
 >>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
 numpy
+=======
+folium
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 matplotlib
+numpy
 Pillow
 ply
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> eec6314975 (Add Binder setup files (#1603))
@@ -269,4 +275,10 @@ ply
 =======
 folium
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> 0a00d6f9df (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+=======
+PyVirtualDisplay
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)

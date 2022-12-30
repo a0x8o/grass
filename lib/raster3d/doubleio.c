@@ -47,6 +47,7 @@ int Rast3d_write_doubles(int fd, int useXdr, const double *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -65,6 +66,8 @@ int Rast3d_write_doubles(int fd, int useXdr, const double *i, int nofNum)
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         if (write(fd, i, sizeof(double) * nofNum) !=
             (int)sizeof(double) * nofNum) {
 =======
@@ -253,6 +256,7 @@ int Rast3d_write_doubles(int fd, int useXdr, const double *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -367,6 +371,11 @@ int Rast3d_write_doubles(int fd, int useXdr, const double *i, int nofNum)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        if (write(fd, i, sizeof(double) * nofNum) != sizeof(double) * nofNum) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             Rast3d_error("Rast3d_write_doubles: writing to file failed");
             return 0;
         }
@@ -408,6 +417,7 @@ int Rast3d_write_doubles(int fd, int useXdr, const double *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -426,6 +436,8 @@ int Rast3d_write_doubles(int fd, int useXdr, const double *i, int nofNum)
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         unsigned int j;
 =======
 <<<<<<< HEAD
@@ -594,6 +606,7 @@ int Rast3d_write_doubles(int fd, int useXdr, const double *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -704,6 +717,11 @@ int Rast3d_write_doubles(int fd, int useXdr, const double *i, int nofNum)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        int j;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
         n = nofNum % 1024;
         if (n == 0)
@@ -768,6 +786,7 @@ int Rast3d_read_doubles(int fd, int useXdr, double *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -786,6 +805,8 @@ int Rast3d_read_doubles(int fd, int useXdr, double *i, int nofNum)
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         if (read(fd, i, sizeof(double) * nofNum) !=
             (int)sizeof(double) * nofNum) {
 =======
@@ -974,6 +995,7 @@ int Rast3d_read_doubles(int fd, int useXdr, double *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1088,6 +1110,11 @@ int Rast3d_read_doubles(int fd, int useXdr, double *i, int nofNum)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        if (read(fd, i, sizeof(double) * nofNum) != sizeof(double) * nofNum) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             Rast3d_error("Rast3d_read_doubles: reading from file failed");
             return 0;
         }
@@ -1129,6 +1156,7 @@ int Rast3d_read_doubles(int fd, int useXdr, double *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1147,6 +1175,8 @@ int Rast3d_read_doubles(int fd, int useXdr, double *i, int nofNum)
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         unsigned int j;
 =======
 <<<<<<< HEAD
@@ -1315,6 +1345,7 @@ int Rast3d_read_doubles(int fd, int useXdr, double *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1425,6 +1456,11 @@ int Rast3d_read_doubles(int fd, int useXdr, double *i, int nofNum)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        int j;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
         n = nofNum % 1024;
         if (n == 0)

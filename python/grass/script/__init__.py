@@ -7,4 +7,8 @@ from .raster import *
 from .raster3d import *
 from .vector import *
 from .utils import *
+<<<<<<< HEAD
 from . import setup  # noqa: F401
+=======
+from . import setup
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

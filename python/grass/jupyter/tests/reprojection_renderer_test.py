@@ -1,7 +1,11 @@
 """Test ReprojectionRenderer functions"""
 
 from pathlib import Path
+<<<<<<< HEAD
 import pytest
+=======
+from pytest import approx
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 from grass.jupyter.reprojection_renderer import ReprojectionRenderer
 
 
@@ -21,8 +25,13 @@ def test_render_raster(simple_dataset):
     assert Path(filename).exists()
     # Test bounding box is correct
     # Raster is same extent as region so no need to test bbox for use_region=True
+<<<<<<< HEAD
     assert bbox[0] == pytest.approx([0.00072155, -85.48874388])
     assert bbox[1] == pytest.approx([0.00000000, -85.48766880])
+=======
+    assert bbox[0] == approx([0.00072155, -85.48874388])
+    assert bbox[1] == approx([0.00000000, -85.48766880])
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 
 # render_vector produces json

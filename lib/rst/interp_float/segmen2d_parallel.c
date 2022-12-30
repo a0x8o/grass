@@ -105,11 +105,19 @@ int IL_interp_segments_2d_parallel(
     cut_tree(tree, all_leafs, &i);
 
     G_message(_("Starting parallel work"));
+<<<<<<< HEAD
 #pragma omp parallel firstprivate(                                            \
         tid, i, j, zmin, zmax, tree, totsegm, offset1, dnorm, smseg, ertot,   \
             params, info, all_leafs, bitmask, b, indx, matrix, data_local, A) \
     shared(cursegm, threads, some_thread_failed, zminac, zmaxac, gmin, gmax,  \
                c1min, c1max, c2min, c2max) default(none)
+=======
+#pragma omp parallel firstprivate(                                           \
+    tid, i, j, zmin, zmax, tree, totsegm, offset1, dnorm, smseg, ertot,      \
+    params, info, all_leafs, bitmask, b, indx, matrix, data_local, A)        \
+    shared(cursegm, threads, some_thread_failed, zminac, zmaxac, gmin, gmax, \
+           c1min, c1max, c2min, c2max) default(none)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     {
 #pragma omp for schedule(dynamic)
         for (i_cnt = 0; i_cnt < totsegm; i_cnt++) {
@@ -125,10 +133,16 @@ int IL_interp_segments_2d_parallel(
             int MINPTS;
             double pr;
             struct triple *point;
+<<<<<<< HEAD
             struct triple target_point;
             int npoints, point_index, k;
             double xx, yy /*, zz */;
             double xmm, ymm, err, pointz;
+=======
+            struct triple skip_point;
+            int m_skip, skip_index, k, segtest;
+            double xx, yy /*, zz */;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
             // struct quaddata *data_local;
 
@@ -340,6 +354,18 @@ int IL_interp_segments_2d_parallel(
                              params->y_orig;
                         /* zz = point[point_index].z; */
 
+<<<<<<< HEAD
+=======
+                for (skip_index = 0; skip_index < m_skip; skip_index++) {
+                    if (params->cv) {
+                        segtest = 0;
+                        j = 0;
+                        xx = point[skip_index].x * dnorm +
+                             data_local[tid]->x_orig + params->x_orig;
+                        yy = point[skip_index].y * dnorm +
+                             data_local[tid]->y_orig + params->y_orig;
+                        /* zz = point[skip_index].z; */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                         if (xx >= data_local[tid]->x_orig + params->x_orig &&
                             xx <= data_local[tid]->xmax + params->x_orig &&
                             yy >= data_local[tid]->y_orig + params->y_orig &&
@@ -354,6 +380,7 @@ int IL_interp_segments_2d_parallel(
                                     j++;
                                 }
                             }
+<<<<<<< HEAD
 
                             /* segment area test for cv */
                             if (/* params */
@@ -383,6 +410,52 @@ int IL_interp_segments_2d_parallel(
                         target_point.y = data_local[tid]->points[point_index].y;
                         target_point.z = data_local[tid]->points[point_index].z;
                     }
+=======
+                        } /* segment area test */
+                    }
+                    if (!params->cv) {
+                        if (/* params */
+                            IL_matrix_create_alloc(
+                                params, data_local[tid]->points,
+                                data_local[tid]->n_points, matrix[tid],
+                                indx[tid], A[tid]) < 0) {
+                            some_thread_failed = -1;
+                            continue;
+                        }
+                    }
+                    else if (segtest == 1) {
+                        if (/* params */
+                            IL_matrix_create_alloc(
+                                params, data_local[tid]->points,
+                                data_local[tid]->n_points - 1, matrix[tid],
+                                indx[tid], A[tid]) < 0) {
+                            some_thread_failed = -1;
+                            continue;
+                        }
+                    }
+                    if (!params->cv) {
+                        for (i = 0; i < data_local[tid]->n_points; i++) {
+                            b[tid][i + 1] = data_local[tid]->points[i].z;
+                        }
+                        b[tid][0] = 0.;
+                        G_lubksb(matrix[tid], data_local[tid]->n_points + 1,
+                                 indx[tid], b[tid]);
+                        /* put here condition to skip error if not needed */
+                        params->check_points(params, data_local[tid], b[tid],
+                                             ertot, zmin, dnorm, skip_point);
+                    }
+                    else if (segtest == 1) {
+                        for (i = 0; i < data_local[tid]->n_points - 1; i++) {
+                            b[tid][i + 1] = data_local[tid]->points[i].z;
+                        }
+                        b[tid][0] = 0.;
+                        G_lubksb(matrix[tid], data_local[tid]->n_points,
+                                 indx[tid], b[tid]);
+                        params->check_points(params, data_local[tid], b[tid],
+                                             ertot, zmin, dnorm, skip_point);
+                    }
+                } /*end of cv loop */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
                     /* x, y, z is required input, while xmm, ymm, err output*/
                     pointz = target_point.z;

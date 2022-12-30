@@ -43,6 +43,7 @@ int randsurf(char *out, double min, double max, int int_map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,6 +164,13 @@ int randsurf(char *out, double min, double max, int int_map)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     /****** INITIALISE RANDOM NUMBER GENERATOR ******/
     /* You can set GRASS_RANDOM_SEED for repeatability */
     G_srand48_auto();
@@ -190,6 +198,7 @@ int randsurf(char *out, double min, double max, int int_map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -309,6 +318,13 @@ int randsurf(char *out, double min, double max, int int_map)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     /****** OPEN CELL FILES AND GET CELL DETAILS ******/
     fd_out = Rast_open_new(out, int_map ? CELL_TYPE : DCELL_TYPE);
 

@@ -58,8 +58,13 @@ void clean_dir(const char *pathname, uid_t uid, pid_t pid, time_t now,
             (G_strcasecmp(cur_entry->d_name, "..") == 0))
             continue; /* Skip dir and parent dir entries */
 
+<<<<<<< HEAD
         if ((pathlen = snprintf(buf, BUF_MAX, "%s/%s", pathname,
                                 cur_entry->d_name)) >= BUF_MAX)
+=======
+        if ((pathlen = G_snprintf(buf, BUF_MAX, "%s/%s", pathname,
+                                  cur_entry->d_name)) >= BUF_MAX)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error("clean_temp: exceeded maximum pathname length %d, "
                           "got %d, shouldn't happen",
                           BUF_MAX, pathlen);

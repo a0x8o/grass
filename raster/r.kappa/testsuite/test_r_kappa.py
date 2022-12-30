@@ -21,7 +21,10 @@ from grass.script.core import tempname
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
 from grass.gunittest.checkers import keyvalue_equals
+<<<<<<< HEAD
 from grass.gunittest.utils import xfail_windows
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 
 class MatrixCorrectnessTest(TestCase):
@@ -51,9 +54,14 @@ class MatrixCorrectnessTest(TestCase):
     def tearDownClass(cls):
         """Remove temporary data"""
         cls.del_temp_region()
+<<<<<<< HEAD
         cls.runModule(
             "g.remove", flags="f", type="raster", name=(cls.ref_1, cls.class_1)
         )
+=======
+        cls.runModule("g.remove", flags="f", type="raster", name=cls.ref_1)
+        cls.runModule("g.remove", flags="f", type="raster", name=cls.class_1)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     def test_m(self):
         """Test printing matrix only
@@ -120,9 +128,14 @@ class CalculationCorrectness1Test(TestCase):
     def tearDownClass(cls):
         """Remove temporary data"""
         cls.del_temp_region()
+<<<<<<< HEAD
         cls.runModule(
             "g.remove", flags="f", type="raster", name=(cls.ref_1, cls.class_1)
         )
+=======
+        cls.runModule("g.remove", flags="f", type="raster", name=cls.ref_1)
+        cls.runModule("g.remove", flags="f", type="raster", name=cls.class_1)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     def match(self, pat, ref):
         if pat == "NA" or ref == "NA":
@@ -175,6 +188,7 @@ class CalculationCorrectness1Test(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -228,6 +242,8 @@ class CalculationCorrectness1Test(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     # Correct MCC value was calculated manually and validated with
     # mcc function of R package mltools.
 =======
@@ -256,6 +272,7 @@ class CalculationCorrectness1Test(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -343,6 +360,10 @@ class CalculationCorrectness1Test(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     def test_standard_output(self):
         out = read_command(
@@ -398,6 +419,7 @@ class CalculationCorrectness1Test(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -443,11 +465,14 @@ class CalculationCorrectness1Test(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         self.assertTrue(self.match(vals[2], 0.55930))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -533,6 +558,10 @@ class CalculationCorrectness1Test(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
         # Overall characteristics
         vals = rows[31].split()
@@ -581,9 +610,14 @@ class CalculationCorrectness2Test(TestCase):
     def tearDownClass(cls):
         """Remove temporary data"""
         cls.del_temp_region()
+<<<<<<< HEAD
         cls.runModule(
             "g.remove", flags="f", type="raster", name=(cls.ref_1, cls.class_1)
         )
+=======
+        cls.runModule("g.remove", flags="f", type="raster", name=cls.ref_1)
+        cls.runModule("g.remove", flags="f", type="raster", name=cls.class_1)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     def match(self, pat, ref):
         if pat == "NA" or ref == "NA":
@@ -659,6 +693,7 @@ class CalculationCorrectness2Test(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -704,11 +739,14 @@ class CalculationCorrectness2Test(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         self.assertTrue(self.match(vals[2], "NA"))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -794,6 +832,10 @@ class CalculationCorrectness2Test(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
         # Overall characteristics
         vals = rows[31].split()
@@ -875,6 +917,7 @@ class JSONOutputTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -920,11 +963,14 @@ class JSONOutputTest(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 "mcc": 0.55930,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1010,6 +1056,10 @@ class JSONOutputTest(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             }
         )
 
@@ -1072,6 +1122,7 @@ class JSONOutputTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1117,11 +1168,14 @@ class JSONOutputTest(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 "mcc": None,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1207,6 +1261,10 @@ class JSONOutputTest(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             }
         )
 
@@ -1260,6 +1318,7 @@ class JSONOutputTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1305,11 +1364,14 @@ class JSONOutputTest(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 "mcc": None,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1395,6 +1457,10 @@ class JSONOutputTest(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             }
         )
 
@@ -1448,6 +1514,7 @@ class JSONOutputTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1493,11 +1560,14 @@ class JSONOutputTest(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 "mcc": None,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1583,6 +1653,10 @@ class JSONOutputTest(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             }
         )
 
@@ -1609,7 +1683,10 @@ class JSONOutputTest(TestCase):
                 keyvalue_equals(self.expected_outputs[i], json_out, precision=4)
             )
 
+<<<<<<< HEAD
     @xfail_windows
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     def test_file(self):
         for i in range(len(self.references)):
             f = NamedTemporaryFile()

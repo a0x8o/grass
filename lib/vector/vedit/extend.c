@@ -173,6 +173,7 @@ int extend_lines(struct Map_info *Map, int first, int line_from, int line_to,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                  int parallel, double thresh, struct ilist *List)
 =======
 <<<<<<< HEAD
@@ -227,6 +228,8 @@ int extend_lines(struct Map_info *Map, int first, int line_from, int line_to,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                  int parallel, double thresh, struct ilist *List UNUSED)
 =======
                  int parallel, double thresh, struct ilist *List)
@@ -256,6 +259,7 @@ int extend_lines(struct Map_info *Map, int first, int line_from, int line_to,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -361,6 +365,11 @@ int extend_lines(struct Map_info *Map, int first, int line_from, int line_to,
                  int parallel, double thresh, struct ilist *List)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+                 int parallel, double thresh, struct ilist *List)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     /* TODO: If line_from extends to the i'th segment of line_to but the
      * line_from node is closest to the j'th segment of line_to, this function

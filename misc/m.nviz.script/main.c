@@ -347,6 +347,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int do_profile(double e1, double e2, double n1, double n2, const char *name,
                int fd, int data_type)
 =======
@@ -402,6 +403,8 @@ int do_profile(double e1, double e2, double n1, double n2, const char *name,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int do_profile(double e1, double e2, double n1, double n2,
                const char *name UNUSED, int fd, int data_type)
 =======
@@ -489,6 +492,7 @@ int do_profile(double e1, double e2, double n1, double n2, const char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -543,6 +547,12 @@ int do_profile(double e1, double e2, double n1, double n2, const char *name,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+int do_profile(double e1, double e2, double n1, double n2, const char *name,
+               int fd, int data_type)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     float rows, cols, LEN;
     double Y, X, AZI;

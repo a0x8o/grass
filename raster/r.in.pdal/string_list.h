@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -86,6 +87,8 @@
 =======
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -124,6 +127,7 @@
 =======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -226,6 +230,10 @@
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /****************************************************************************
  *
  * MODULE:       r.in.pdal
@@ -275,6 +283,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -334,6 +343,8 @@
 =======
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -372,6 +383,7 @@
 =======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -474,6 +486,10 @@
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /* A list which keeps multiple strings
  *
  * Intended for list of file names read from a file.
@@ -508,6 +524,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -520,6 +537,8 @@
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 struct StringList {
 =======
 <<<<<<< HEAD
@@ -652,6 +671,7 @@ struct StringList
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -734,6 +754,11 @@ struct StringList {
 >>>>>>> osgeo-main
 =======
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+struct StringList {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int num_items;
     int max_items;
     char **items;

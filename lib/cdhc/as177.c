@@ -82,6 +82,7 @@ void init(double work[])
  */
 static double Cdhc_alnfac(int j)
 {
+<<<<<<< HEAD
     static const double r[7] = {0.0,           0.0,           0.69314718056,
                                 1.79175946923, 3.17805383035, 4.78749174278,
                                 6.57925121101};
@@ -90,12 +91,26 @@ static double Cdhc_alnfac(int j)
     if (j < 0)
         return 1.0;
     if (j < 7)
+=======
+    static double r[7] = {0.0,           0.0,           0.69314718056,
+                          1.79175946923, 3.17805383035, 4.78749174278,
+                          6.57925121101};
+    double w, z;
+
+    if (j == 1)
+        return (double)1.0;
+    else if (j <= 7)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         return r[j];
 
     w = (double)j + 1;
     z = 1.0 / (w * w);
 
+<<<<<<< HEAD
     return (w - 0.5) * log(w) - w + 0.918938533205 +
+=======
+    return (w - 0.5) * log(w) - w + 0.918938522305 +
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
            (((4.0 - 3.0 * z) * z - 14.0) * z + 420.0) / (5040.0 * w);
 }
 

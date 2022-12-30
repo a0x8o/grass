@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *        functin to collect the spread origins from the source map and
 =======
 <<<<<<< HEAD
@@ -79,6 +80,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  *        function to collect the spread origins from the source map and
 =======
  *        functin to collect the spread origins from the source map and
@@ -108,6 +111,7 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -213,6 +217,11 @@
  *        functin to collect the spread origins from the source map and
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+ *        functin to collect the spread origins from the source map and
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  *        put them into a min-heap; also marks the origin locations and
  *        the other locations to avoid redundant computation and to be
  *        able to terminate.
@@ -226,7 +235,11 @@
 #include "costHa.h"
 #include "local_proto.h"
 
+<<<<<<< HEAD
 #define DATA(map, r, c) (map)[(r) * ncols + (c)]
+=======
+#define DATA(map, r, c) (map)[(r)*ncols + (c)]
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /*#define DEBUG */
 

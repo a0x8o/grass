@@ -108,6 +108,7 @@ def message_option_value_excludes_option_value(
     return _(
         "Combining {option_name}={option_value} and "
         "{excluded_option_name}={excluded_option_value} is not allowed. {reason}"
+<<<<<<< HEAD
     ).format(
         option_name=option_name,
         option_value=option_value,
@@ -115,6 +116,9 @@ def message_option_value_excludes_option_value(
         excluded_option_value=excluded_option_value,
         reason=reason,
     )
+=======
+    ).format(**locals())
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 
 def message_option_value_excludes_option(
@@ -123,23 +127,31 @@ def message_option_value_excludes_option(
     return _(
         "The option {excluded_option_name} is not allowed with "
         "{option_name}={option_value}. {reason}"
+<<<<<<< HEAD
     ).format(
         excluded_option_name=excluded_option_name,
         option_name=option_name,
         option_value=option_value,
         reason=reason,
     )
+=======
+    ).format(**locals())
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 
 def message_option_value_excludes_flag(option_name, option_value, flag_name, reason):
     return _(
         "The flag -{flag_name} is not allowed with {option_name}={option_value}."
+<<<<<<< HEAD
         " {reason}"
     ).format(
         flag_name=flag_name,
         option_name=option_name,
         option_value=option_value,
         reason=reason,
+=======
+        " {reason}".format(**locals())
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     )
 
 
@@ -194,6 +206,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "A standard CSV separator (delimiter) is only one character long"
 =======
 <<<<<<< HEAD
@@ -248,6 +261,8 @@ def main():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                         "A standard CSV separator (delimiter) is only one character "
                         "long"
 =======
@@ -278,6 +293,7 @@ def main():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -383,12 +399,18 @@ def main():
                         "A standard CSV separator (delimiter) is only one character long"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+                        "A standard CSV separator (delimiter) is only one character long"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                     ),
                 )
             )
         if separator == "|":
             # We use comma as the default for separator, so we override the pipe.
             # This does not allow for users to generate CSV with pipe, but unlike
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -466,6 +488,8 @@ def main():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             # the C API, the Python interface specs does not allow resetting the default
 =======
             # the C API, the Python interface specs does not allow reseting the default
@@ -604,6 +628,13 @@ def main():
             # in the current code and the behavior is unclear.
             separator = ","
     if output_format in {"json", "yaml"} and header:
+=======
+            # the C API, the Python interface specs does not allow reseting the default
+            # except for setting it to an empty string which does not have a precedence
+            # in the current code and the behavior is unclear.
+            separator = ","
+    if output_format in ["json", "yaml"] and header:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         gs.fatal(
             message_option_value_excludes_flag(
                 option_name="format",
@@ -621,7 +652,11 @@ def main():
         # Pipe is currently not supported at all.
         separator = ","
 
+<<<<<<< HEAD
     if method in {"delta", "deltagaps", "gran"}:
+=======
+    if method in ["delta", "deltagaps", "gran"]:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         if order:
             gs.fatal(
                 message_option_value_excludes_option(
@@ -681,6 +716,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 "Column '{name}' is not available with the method '{method}'"
 =======
 <<<<<<< HEAD
@@ -735,6 +771,8 @@ def main():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                                 "Column '{name}' is not available with the method "
                                 "'{method}'"
 =======
@@ -765,6 +803,7 @@ def main():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -870,6 +909,11 @@ def main():
                                 "Column '{name}' is not available with the method '{method}'"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+                                "Column '{name}' is not available with the method '{method}'"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                             ).format(name=column, method=method),
                         )
                     )
@@ -907,6 +951,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             "Column '{name}' is not available with the method '{method}'"
 =======
 <<<<<<< HEAD
@@ -961,6 +1006,8 @@ def main():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                             "Column '{name}' is not available with the method "
                             "'{method}'"
 =======
@@ -991,6 +1038,7 @@ def main():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1096,6 +1144,11 @@ def main():
                             "Column '{name}' is not available with the method '{method}'"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+                            "Column '{name}' is not available with the method '{method}'"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                         ).format(name=column, method=method),
                     )
                 )

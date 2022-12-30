@@ -126,9 +126,13 @@ int main(int argc, char *argv[])
 
     if (grp->answer) {
         G_strip(grp->answer);
+<<<<<<< HEAD
         if (G_strlcpy(group, grp->answer, sizeof(group)) >= sizeof(group)) {
             G_fatal_error(_("Group name <%s> is too long"), grp->answer);
         }
+=======
+        strcpy(group, grp->answer);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
     else
         group[0] = '\0';
@@ -227,6 +231,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             G_warning(_("target LOCATION %s, MAPSET %s:"), G_location(),
 =======
 <<<<<<< HEAD
@@ -281,6 +286,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             G_warning(_("target project %s, mapset %s:"), G_location(),
 =======
             G_warning(_("target LOCATION %s, MAPSET %s:"), G_location(),
@@ -310,6 +317,7 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -415,6 +423,11 @@ int main(int argc, char *argv[])
             G_warning(_("target LOCATION %s, MAPSET %s:"), G_location(),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+            G_warning(_("target LOCATION %s, MAPSET %s:"), G_location(),
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                       G_mapset());
             G_fatal_error(_("Rectification cancelled."));
         }

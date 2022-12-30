@@ -24195,6 +24195,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -24230,6 +24231,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../gui/wxpython/main_window/frame.py:2400 ../gui/wxpython/lmgr/frame.py:2306
 =======
 =======
@@ -24672,6 +24675,7 @@ msgid "New workspace"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -24759,6 +24763,10 @@ msgid "New workspace"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../gui/wxpython/wxplot/histogram.py:43
 msgid "Histogram Tool"
 msgstr ""
@@ -31647,6 +31655,7 @@ msgid "PROJ string (required):"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -31766,6 +31775,13 @@ msgid "PROJ string (required):"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../gui/wxpython/animation/provider.py:562
@@ -33689,6 +33705,7 @@ msgstr ""
 #~ msgid "style"
 #~ msgstr "tyyli"
 
+<<<<<<< HEAD
 #~ msgid "Ready."
 #~ msgstr "Valmis."
 
@@ -33905,6 +33922,7 @@ msgstr "Luo uusi Paikka?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
@@ -33923,12 +33941,15 @@ msgid "Location <%s> created"
 msgstr "Paikka <%s> luotu"
 
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 msgid "Location Title:"
 msgstr "Paikan Otsikko:"
 
 msgid "Location <%s> created"
 msgstr "Paikka <%s> luotu"
 
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 msgid "Create new location?"
 msgstr "Luo uusi Paikka?"
@@ -34011,3 +34032,8 @@ msgstr "Luo uusi Paikka?"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+msgid "Create new location?"
+msgstr "Luo uusi Paikka?"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)

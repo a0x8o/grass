@@ -187,6 +187,7 @@ size_t dig_fwrite(const void *ptr, size_t size, size_t nmemb,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \brief Initialize gvfile strcuture
 =======
 <<<<<<< HEAD
@@ -241,6 +242,8 @@ size_t dig_fwrite(const void *ptr, size_t size, size_t nmemb,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    \brief Initialize gvfile structure
 =======
    \brief Initialize gvfile strcuture
@@ -270,6 +273,7 @@ size_t dig_fwrite(const void *ptr, size_t size, size_t nmemb,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -375,6 +379,11 @@ size_t dig_fwrite(const void *ptr, size_t size, size_t nmemb,
    \brief Initialize gvfile strcuture
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+   \brief Initialize gvfile strcuture
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
    \param[in,out] file pointer to gvfile structure
  */

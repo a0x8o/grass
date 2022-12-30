@@ -156,6 +156,7 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 
         if (rewrite) {
             if (Vect_rewrite_line(Map, line, type, Points, Cats) < 0) {
+<<<<<<< HEAD
                 nvertices_moved = -1;
                 goto free_exit;
             }
@@ -328,6 +329,14 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 =======
 >>>>>>> osgeo-main
 =======
+=======
+                return -1;
+            }
+
+            nlines_modified++;
+        }
+    } /* for each selected line */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
             nlines_modified++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -610,6 +619,7 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -663,6 +673,8 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 
             nlines_modified++;
@@ -828,6 +840,7 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -906,6 +919,12 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+            nlines_modified++;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         }
     } /* for each line */
 
@@ -981,7 +1000,11 @@ int Vedit_remove_vertex(struct Map_info *Map, struct ilist *List,
                     rewrite = 1;
                 }
             } /* for each point */
+<<<<<<< HEAD
         } /* for each bounding box */
+=======
+        }     /* for each bounding box */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
         if (rewrite) {
             /* rewrite the line */

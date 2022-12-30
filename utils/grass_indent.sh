@@ -41,8 +41,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 case "$(uname)" in
 =======
 <<<<<<< HEAD
@@ -168,6 +171,7 @@ case "$(uname)" in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -238,6 +242,11 @@ case "$(uname)" in
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+case "$(uname)" in 
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  Darwin | *BSD*)
   INDENT=$(which gindent)
   ;;

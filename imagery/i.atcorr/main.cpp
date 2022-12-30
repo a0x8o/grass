@@ -204,11 +204,20 @@ class TICache {
 private:
     struct RBitem set_alt_vis(double alt, double vis)
     {
+<<<<<<< HEAD
         struct RBitem rbitem = {};
         /* alt and vis must be in meters */
         rbitem.alt = (alt < 0 ? (int)(alt - 0.5) : (int)(alt + 0.5));
         rbitem.vis = (int)(vis + 0.5);
 
+=======
+        struct RBitem rbitem;
+
+        /* alt and vis must be in meters */
+        rbitem.alt = (alt < 0 ? (int)(alt - 0.5) : (int)(alt + 0.5));
+        rbitem.vis = (int)(vis + 0.5);
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         return rbitem;
     }
 

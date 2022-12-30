@@ -13,8 +13,17 @@ for details.
 from __future__ import annotations
 
 from abc import ABCMeta, abstractmethod
+<<<<<<< HEAD
 
 from .core import get_current_mapset, get_tgis_message_interface, init_dbif
+=======
+from .core import (
+    get_tgis_message_interface,
+    init_dbif,
+    get_current_mapset,
+)
+from .temporal_topology_dataset_connector import TemporalTopologyDatasetConnector
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 from .spatial_topology_dataset_connector import SpatialTopologyDatasetConnector
 from .temporal_topology_dataset_connector import TemporalTopologyDatasetConnector
 
@@ -351,7 +360,11 @@ class AbstractDataset(
         """Return the spatial extent"""
         return self.spatial_extent
 
+<<<<<<< HEAD
     def select(self, dbif=None, mapset=None) -> None:
+=======
+    def select(self, dbif=None, mapset=None):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         """Select temporal dataset entry from database and fill
         the internal structure
 

@@ -169,6 +169,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -222,6 +223,8 @@ class TestRasterUnivar(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             sep="=",
         )
 
@@ -305,6 +308,7 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -392,6 +396,10 @@ class TestRasterUnivar(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             sep="=",
         )
 
@@ -512,6 +520,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -565,6 +574,8 @@ class TestRasterUnivar(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             sep="=",
         )
 
@@ -629,6 +640,7 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -716,6 +728,10 @@ class TestRasterUnivar(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             sep="=",
         )
 
@@ -765,6 +781,125 @@ class TestRasterUnivar(TestCase):
             nprocs=4,
             reference=univar_string,
             precision=6,
+<<<<<<< HEAD
+=======
+            sep="=",
+        )
+
+    def test_2_zone(self):
+        """
+        multiple maps and zone
+        :return:
+        """
+
+        # Output of r.univar
+        univar_string = """zone=1;
+                        n=3420
+                        null_cells=0
+                        cells=3420
+                        min=102
+                        max=309
+                        range=207
+                        mean=205.5
+                        mean_of_abs=205.5
+                        stddev=56.6119834192962
+                        variance=3204.91666666667
+                        coeff_var=27.5484104230152
+                        sum=702810
+                        zone=2;
+                        n=12780
+                        null_cells=0
+                        cells=3420
+                        min=121
+                        max=380
+                        range=259
+                        mean=250.5
+                        mean_of_abs=250.5
+                        stddev=59.9576239244574
+                        variance=3594.91666666667
+                        coeff_var=23.9351792113602
+                        sum=3201390"""
+
+        self.assertModuleKeyValue(
+            module="r.univar",
+            map=["map_a", "map_b"],
+            zones="zone_map",
+            flags="g",
+            reference=univar_string,
+            precision=6,
+            sep="=",
+        )
+        self.assertModuleKeyValue(
+            module="r.univar",
+            map=["map_a", "map_b"],
+            zones="zone_map",
+            flags="g",
+            nprocs=4,
+            reference=univar_string,
+            precision=6,
+            sep="=",
+        )
+
+    def test_3_zone(self):
+        """
+        multiple maps and zone
+        :return:
+        """
+
+        # Output of r.univar
+        univar_string = """zone=1;
+                        n=3420
+                        null_cells=0
+                        cells=3420
+                        min=102
+                        max=309
+                        range=207
+                        mean=205.5
+                        mean_of_abs=205.5
+                        stddev=56.6119834192962
+                        variance=3204.91666666667
+                        coeff_var=27.5484104230152
+                        sum=702810
+                        first_quartile=155
+                        median=205.5
+                        third_quartile=255
+                        percentile_90=282
+                        zone=2;
+                        n=12780
+                        null_cells=0
+                        cells=3420
+                        min=121
+                        max=380
+                        range=259
+                        mean=250.5
+                        mean_of_abs=250.5
+                        stddev=59.9576239244574
+                        variance=3594.91666666667
+                        coeff_var=23.9351792113602
+                        sum=3201390
+                        first_quartile=200
+                        median=250.5
+                        third_quartile=300
+                        percentile_90=330"""
+
+        self.assertModuleKeyValue(
+            module="r.univar",
+            map=["map_a", "map_b"],
+            zones="zone_map",
+            flags="ge",
+            reference=univar_string,
+            precision=6,
+            sep="=",
+        )
+        self.assertModuleKeyValue(
+            module="r.univar",
+            map=["map_a", "map_b"],
+            zones="zone_map",
+            flags="ge",
+            nprocs=4,
+            reference=univar_string,
+            precision=6,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             sep="=",
         )
 

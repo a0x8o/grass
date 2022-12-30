@@ -3191,6 +3191,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3310,6 +3311,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, c-format
 msgid "Illegal number of rows: %d (resolution is %g)"
 msgstr ""
@@ -3341,6 +3349,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3460,6 +3469,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, c-format
 msgid "Illegal e-w resolution value: %g"
 msgstr ""
@@ -3496,6 +3512,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3615,6 +3632,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, c-format
 msgid "North must be north of South, but %g (north) <= %g (south"
 msgstr ""
@@ -3646,6 +3670,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3765,6 +3790,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, c-format
 msgid "North must be larger than South, but %g (north) <= %g (south"
 msgstr ""
@@ -3796,6 +3828,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3915,6 +3948,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, c-format
 msgid "East must be larger than West, but %g (east) <= %g (west)"
 msgstr ""
@@ -3950,6 +3990,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4069,6 +4110,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgid "Invalid coordinates: negative number of rows"
 msgstr ""
 
@@ -4111,6 +4159,7 @@ msgstr "As resoluções para NS e EW são diferentes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4230,6 +4279,13 @@ msgstr "As resoluções para NS e EW são diferentes"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, c-format
 msgid "Illegal n-s resolution value for 3D: %g"
 msgstr ""
@@ -4266,6 +4322,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4385,6 +4442,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, c-format
 msgid "Illegal e-w resolution value for 3D: %g"
 msgstr ""
@@ -4421,6 +4485,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4540,6 +4605,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, c-format
 msgid "Illegal t-b resolution value: %g"
 msgstr ""
@@ -4571,6 +4643,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4690,6 +4763,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, c-format
 msgid "Illegal depths value: %d"
 msgstr ""
@@ -4721,6 +4801,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4840,6 +4921,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, c-format
 msgid "Top must be larger than Bottom, but %g (top) <= %g (bottom)"
 msgstr ""
@@ -8718,6 +8806,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -8794,6 +8883,11 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../lib/gis/rd_cellhd.c:139 ../lib/gis/rd_cellhd.c:178
 #: ../lib/gis/rd_cellhd.c:355
@@ -9759,6 +9853,7 @@ msgstr[1] "%d primitivas registradas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9819,6 +9914,8 @@ msgstr[1] "%d primitivas registradas"
 >>>>>>> 0061aa6d2c (i18n: Transifex sync (#1592))
 =======
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 #, fuzzy, c-format
 msgid "Incomplete GRASS session: Variable '%s' not set"
@@ -10078,7 +10175,17 @@ msgid_plural "%<PRId64> vertices registered"
 msgstr[0] "Um vértice registrado"
 msgstr[1] "%jd vértices registrados"
 >>>>>>> f51514bf99 (i18n: Transifex sync (#1592))
+<<<<<<< HEAD
 >>>>>>> b5a5eb4601 (i18n: Transifex sync (#1592))
+=======
+=======
+#, c-format
+msgid "One vertex registered"
+msgid_plural "%<PRId64> vertices registered"
+msgstr[0] ""
+msgstr[1] ""
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../lib/gis/mkstemp.c:133
 msgid "Attempt to create read-only temporary file"
@@ -17191,6 +17298,14 @@ msgid "However, header file of that raster map can't be opened. It seems that it
 msgstr ""
 
 #: ../lib/raster/get_cellhd.c:70
+<<<<<<< HEAD
+=======
+#, c-format
+msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of raster map <%s@%s>. %s"
+msgstr ""
+
+#: ../lib/raster/get_cellhd.c:78
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #, c-format
 msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of raster map <%s@%s>. %s"
 msgstr ""
@@ -22638,6 +22753,7 @@ msgstr "[%s]: cor não existe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -22739,6 +22855,8 @@ msgstr "script de shell a ser processado como trabalho em lote"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, fuzzy
 #~ msgid "Cannot fetch row"
 #~ msgstr "não consegui obter informações da camada"
@@ -22938,6 +23056,7 @@ msgstr "script de shell a ser processado como trabalho em lote"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -22984,6 +23103,64 @@ msgstr "script de shell a ser processado como trabalho em lote"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+msgid "whose header file can't be opened."
+msgstr "cujo cabeçalho de arquivo não pode ser aberto."
+
+msgid "Illegal row value"
+msgstr "Valor ilegal de linha"
+
+msgid "Illegal col value"
+msgstr "Valor ilegal da coluna"
+
+msgid "Illegal n-s3 resolution value"
+msgstr "Valor ilegal para resolução n-s3"
+
+msgid "Illegal row3 value"
+msgstr "Valor ilegal da row3"
+
+msgid "Illegal e-w3 resolution value"
+msgstr "Valor ilegal para resolução e-w3"
+
+msgid "Illegal col3 value"
+msgstr "Valor ilegal em col3"
+
+msgid "Illegal n-s resolution value <%lf>"
+msgstr "Valor n-s da resolução é ilegal <%If>"
+
+msgid "Illegal e-w resolution value"
+msgstr "Valor ilegal para resolução E-W"
+
+msgid "North must be north of South"
+msgstr "Norte deve ser ao norte do Sul"
+
+msgid "North must be larger than South"
+msgstr "Norte deve ser maior que o Sul"
+
+msgid "East must be larger than West"
+msgstr "Leste deve ser maior que o Oeste"
+
+msgid "Invalid coordinates"
+msgstr "Coordenadas inválidas"
+
+msgid "Illegal n-s resolution value"
+msgstr "Valor ilegal para resolução N-S"
+
+msgid "Illegal t-b3 resolution value"
+msgstr "Valor ilegal de resolução t-b3"
+
+msgid "Illegal depths value"
+msgstr "Valor ilegal de profundidades"
+
+msgid "Top must be larger than Bottom"
+msgstr "Topo deve ser maior que Base"
+
+msgid "shell script to be processed as batch job"
+msgstr "script de shell a ser processado como trabalho em lote"
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgid ""
 "The python command does not work as expected!\n"
 "Please check your GRASS_PYTHON environment variable.\n"
@@ -22992,6 +23169,7 @@ msgstr ""
 "O comando python não funciona como esperado!\n"
 "Por favor verifique seu ambiente de variável GRASS_PYTHON.\n"
 "Use a opção -help para obter mais detalhes.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23224,6 +23402,8 @@ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 msgid ""
 "{}\n"
@@ -23879,4 +24059,86 @@ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%
 #~ msgid "To run the module <%s> add underscore at the end of the option <%s> to avoid conflict with Python keywords. Underscore at the beginning is depreciated in GRASS GIS 7.0 and will be removed in version 7.1."
 #~ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%s> para evitar conflito com palavras-chave Python. O underscore no início é obsoleto no GRASS GIS 7.0 e será removido na versão 7.1."
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+
+msgid ""
+"{}\n"
+"Switching to text based interface mode.\n"
+"\n"
+"Hit RETURN to continue.\n"
+msgstr ""
+"{}\n"
+"Mudando para o modo de interface baseado em texto.\n"
+"\n"
+"Pressione RETURN para continuar.\n"
+
+msgid ""
+"It appears that the X Windows system is not active.\n"
+"A graphical based user interface is not supported.\n"
+"(DISPLAY variable is not set.)\n"
+"Switching to text based interface mode.\n"
+"\n"
+"Hit RETURN to continue.\n"
+msgstr ""
+"Parece que o sistema X Windows não está ativo.\n"
+"A interface de usuário baseada em gráfico não é suportada.\n"
+"(A variável DISPLAY não está definida.)\n"
+"Mudando para o modo de interface baseado em texto.\n"
+"\n"
+"Pressione RETURN para continuar.\n"
+
+msgid "Mapset <{mapset}> doesn't exist in GRASS Location <{loc}>. A new mapset can be created by '-c' switch."
+msgstr "Mapset <{mapset}> não existe em Location GRASS <{loc}>. Um novo mapset pode ser criado pelo switch '-c'."
+
+msgid "Mapset <{}> already exists. Ignoring the request to create it. Note that this warning may become an error in future versions."
+msgstr "Mapset <{}> já existe. Ignorando a solicitação para criá-lo. Observe que este aviso pode se tornar um erro em versões futuras."
+
+msgid ""
+"Job file <%s> has been defined in the 'GRASS_BATCH_JOB' variable but not found. Exiting.\n"
+"\n"
+"Use 'unset GRASS_BATCH_JOB' to disable batch job processing."
+msgstr ""
+"O arquivo de trabalho <%s> foi definido na variável 'GRASS_BATCH_JOB' mas não foi encontrado. Saindo.\n"
+"\n"
+"Use 'unset GRASS_BATCH_JOB' para desabilitar o processamento do trabalho em lote."
+
+msgid "Change file permission to 'executable' for <%s>"
+msgstr "Altera a permissão do arquivo para 'executável' para <%s>"
+
+msgid "Unable to open header file for raster map <%s@%s>"
+msgstr "Não foi possível abrir o arquivo de cabeçalho para o mapa raster <%s@%s>"
+
+msgid "Unable to rewrite feature/offset %lu in vector map <%s>"
+msgstr "Não foi possível reescrever feição/offset %lu no mapa vetorial <%s>"
+
+msgid "Unable to delete feature/offset %lu from vector map <%s>"
+msgstr "Não foi possível excluir feição/offset %lu do mapa vetorial <%s>"
+
+msgid "Copy %s <%s> to current mapset as <%s>"
+msgstr "Copia %s <%s> para o mapset atual como <%s>"
+
+msgid "Invalid offset (%ld)"
+msgstr "Deslocamento inválido (%ld)"
+
+msgid "Unsupported TGIS DB downgrade scenario: from version %s to %s"
+msgstr "Cenário de downgrade do TGIS DB não suportado: da versão %s para %s"
+
+msgid "Downgrading temporal database <%s> from version %s to %s..."
+msgstr "Fazendo downgrade do banco de dados temporal <%s> da versão %s para %s..."
+
+msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of raster map <%s@%s> %s"
+msgstr "Não foi possível ler o arquivo de cabeçalho do mapa raster <%s@%s>. É uma reclassificação do mapa raster <%s@%s> %s"
+
+msgid "which is missing."
+msgstr "que está faltando."
+
+msgid "To run the module <%s> add underscore at the end of the option <%s> to avoid conflict with Python keywords. Underscore at the beginning is depreciated in GRASS GIS 7.0 and will be removed in version 7.1."
+msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%s> para evitar conflito com palavras-chave Python. O underscore no início é obsoleto no GRASS GIS 7.0 e será removido na versão 7.1."
+
+#~ msgid "Invalid value <%s> for parameter <%s>"
+#~ msgstr "Valor inválido <%s> para o parâmetro <%s>"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)

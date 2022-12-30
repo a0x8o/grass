@@ -120,6 +120,7 @@ short color[3];
         }
         cat1 = cat2;
         color1 = color2;
+<<<<<<< HEAD
     }
     /* for any thresholds greater than last color table entry, use last entry *
      */
@@ -128,6 +129,14 @@ short color[3];
         color[1] = color2[1];
         color[2] = color2[2];
     }
+=======
+    }
+    /* for any thresholds greater than last color table entry, use last entry *
+     */
+    color[0] = color2[0];
+    color[1] = color2[1];
+    color[2] = color2[2];
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /******************************************************************************

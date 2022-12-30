@@ -48,7 +48,11 @@ extern double meters_to_grid;
 extern double ns_to_ew_squared;
 extern int count_rows_with_data;
 
+<<<<<<< HEAD
 #define MAPINDEX(r, c)       ((size_t)(r) * window.cols + (c))
+=======
+#define MAPINDEX(r, c)       ((size_t)(r)*window.cols + (c))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #define ZONE_INCR            2
 
 #define FEET_TO_METERS       0.3048

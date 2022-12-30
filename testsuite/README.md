@@ -1,4 +1,5 @@
 # Test suite
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11,6 +12,12 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 =======
 GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpython/gunittest_testing.html
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+
+This directory contains scripts to check some functionality of GRASS GIS.
+
+GRASS GIS testsuite documentation: <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -411,6 +418,7 @@ _grass.gunittest_ documentation:
 <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Running tests
 
 Tests can be executed using _pytest_:
@@ -424,6 +432,9 @@ export LD_LIBRARY_PATH=\$(grass --config path)/lib:\$LD_LIBRARY_PATH
 pytest
 =======
 ```
+=======
+```bash
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 # create new mapset for test
 grass ../demolocation/user1 -c
 # run the test
@@ -433,9 +444,14 @@ make
 
 ## Test data
 
+<<<<<<< HEAD
 To test manually or to write tests, you may need to use the North Carolina
 Sample dataset, available from
 <https://grass.osgeo.org/sampledata/north_carolina/>.
+=======
+Most tests require the North Carolina Sample dataset, available from
+<https://grass.osgeo.org/sampledata/north_carolina/>
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 ## CI
 
@@ -448,6 +464,7 @@ Since 2020: For a more advanced test suite, see
 
 Until 2019: For a more advanced test suite, see
 <http://fatra.cnr.ncsu.edu/grassgistests/summary_report/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -530,8 +547,12 @@ Until 2019: For a more advanced test suite, see
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD

@@ -253,13 +253,23 @@ static int set_login(const char *driver, const char *database, const char *user,
 /*!
    \brief Set login parameters for driver/database
 
+<<<<<<< HEAD
+=======
+   \deprecated Use db_set_login2() instead.
+
+   \todo: GRASS 8: to be replaced by db_set_login2().
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
    \param driver driver name
    \param database database name
    \param user user name
    \param password password string
+<<<<<<< HEAD
    \param host host name
    \param port
    \param overwrite TRUE to overwrite existing connections
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
    \return DB_OK on success
    \return DB_FAILED on failure
@@ -268,8 +278,12 @@ int db_set_login2(const char *driver, const char *database, const char *user,
                   const char *password, const char *host, const char *port,
                   int overwrite)
 {
+<<<<<<< HEAD
     return db_set_login(driver, database, user, password, host, port,
                         overwrite);
+=======
+    return set_login(driver, database, user, password, NULL, NULL, FALSE);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /*!
@@ -286,9 +300,15 @@ int db_set_login2(const char *driver, const char *database, const char *user,
    \return DB_OK on success
    \return DB_FAILED on failure
  */
+<<<<<<< HEAD
 int db_set_login(const char *driver, const char *database, const char *user,
                  const char *password, const char *host, const char *port,
                  int overwrite)
+=======
+int db_set_login2(const char *driver, const char *database, const char *user,
+                  const char *password, const char *host, const char *port,
+                  int overwrite)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
     return set_login(driver, database, user, password, host, port, overwrite);
 }
@@ -347,6 +367,7 @@ static int get_login(const char *driver, const char *database,
 
    If driver/database is not found, output arguments are set to NULL.
 
+<<<<<<< HEAD
    \param driver driver name
    \param database database name (can be NULL)
    \param[out] user name
@@ -354,12 +375,45 @@ static int get_login(const char *driver, const char *database,
    \param[out] host name
    \param[out] port
 
+=======
+   \deprecated Use db_set_login2() instead.
+
+   \todo: GRASS 8: to be replaced by db_set_login2().
+
+   \param driver driver name
+   \param database database name (can be NULL)
+   \param[out] user name
+   \param[out] password string
+
+   \return DB_OK on success
+   \return DB_FAILED on failure
+ */
+int db_get_login(const char *driver, const char *database, const char **user,
+                 const char **password)
+{
+    return get_login(driver, database, user, password, NULL, NULL);
+}
+
+/*!
+   \brief Get login parameters for driver/database
+
+   If driver/database is not found, output arguments are set to NULL.
+
+   \param driver driver name
+   \param database database name (can be NULL)
+   \param[out] user name
+   \param[out] password string
+   \param[out] host name
+   \param[out] port
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
    \return DB_OK on success
    \return DB_FAILED on failure
  */
 int db_get_login2(const char *driver, const char *database, const char **user,
                   const char **password, const char **host, const char **port)
 {
+<<<<<<< HEAD
     return db_get_login(driver, database, user, password, host, port);
 }
 
@@ -385,6 +439,12 @@ int db_get_login(const char *driver, const char *database, const char **user,
 }
 
 /*!
+=======
+    return get_login(driver, database, user, password, host, port);
+}
+
+/*!
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
    \brief Print all connection settings to file
 
    \param fd file where to print settings

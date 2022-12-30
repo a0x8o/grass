@@ -35,11 +35,17 @@ int display_attr(struct Map_info *Map, int type, char *attrcol,
     db_init_string(&text);
 
     fi = Vect_get_field(Map, lattr->field);
+<<<<<<< HEAD
     if (fi == NULL) {
         Vect_destroy_line_struct(Points);
         Vect_destroy_cats_struct(Cats);
         return 1;
     }
+=======
+    if (fi == NULL)
+        return 1;
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     driver = db_start_driver_open_database(fi->driver, fi->database);
     if (driver == NULL)
         G_fatal_error(_("Unable to open database <%s> by driver <%s>"),

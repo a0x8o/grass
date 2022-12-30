@@ -49,6 +49,7 @@ void print_region(struct Map_info *Map, enum OutputFormat format,
 
     /* print the spatial extent as double values */
     Vect_get_map_box(Map, &box);
+<<<<<<< HEAD
 
     switch (format) {
     case PLAIN:
@@ -75,6 +76,19 @@ void print_region(struct Map_info *Map, enum OutputFormat format,
         json_object_set_number(root_object, "bottom", box.B);
         break;
     }
+=======
+    G_format_northing(box.N, tmp1, -1);
+    G_format_northing(box.S, tmp2, -1);
+    fprintf(stdout, "north=%s\n", tmp1);
+    fprintf(stdout, "south=%s\n", tmp2);
+
+    G_format_easting(box.E, tmp1, -1);
+    G_format_easting(box.W, tmp2, -1);
+    fprintf(stdout, "east=%s\n", tmp1);
+    fprintf(stdout, "west=%s\n", tmp2);
+    fprintf(stdout, "top=%f\n", box.T);
+    fprintf(stdout, "bottom=%f\n", box.B);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 void print_topo(struct Map_info *Map, enum OutputFormat format,
@@ -96,6 +110,7 @@ void print_topo(struct Map_info *Map, enum OutputFormat format,
         nprimitives += Vect_get_num_primitives(Map, GV_KERNEL);
     }
 
+<<<<<<< HEAD
     switch (format) {
     case PLAIN:
         break;
@@ -115,6 +130,44 @@ void print_topo(struct Map_info *Map, enum OutputFormat format,
 
         fprintf(stdout, "centroids=%d\n",
                 Vect_get_num_primitives(Map, GV_CENTROID));
+=======
+    fprintf(stdout, "nodes=%d\n", Vect_get_num_nodes(Map));
+    fflush(stdout);
+
+    fprintf(stdout, "points=%d\n", Vect_get_num_primitives(Map, GV_POINT));
+    fflush(stdout);
+
+    fprintf(stdout, "lines=%d\n", Vect_get_num_primitives(Map, GV_LINE));
+    fflush(stdout);
+
+    fprintf(stdout, "boundaries=%d\n",
+            Vect_get_num_primitives(Map, GV_BOUNDARY));
+    fflush(stdout);
+
+    fprintf(stdout, "centroids=%d\n",
+            Vect_get_num_primitives(Map, GV_CENTROID));
+    fflush(stdout);
+
+    fprintf(stdout, "areas=%d\n", Vect_get_num_areas(Map));
+    fflush(stdout);
+
+    fprintf(stdout, "islands=%d\n", Vect_get_num_islands(Map));
+    fflush(stdout);
+
+    if (with_z) {
+        fprintf(stdout, "faces=%d\n", Vect_get_num_primitives(Map, GV_FACE));
+        fflush(stdout);
+
+        fprintf(stdout, "kernels=%d\n",
+                Vect_get_num_primitives(Map, GV_KERNEL));
+        fflush(stdout);
+
+        fprintf(stdout, "volumes=%d\n",
+                Vect_get_num_primitives(Map, GV_VOLUME));
+        fflush(stdout);
+
+        fprintf(stdout, "holes=%d\n", Vect_get_num_holes(Map));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         fflush(stdout);
 
         fprintf(stdout, "areas=%d\n", Vect_get_num_areas(Map));
@@ -173,6 +226,7 @@ void print_topo(struct Map_info *Map, enum OutputFormat format,
         json_object_set_number(root_object, "primitives", nprimitives);
         json_object_set_boolean(root_object, "map3d", Vect_is_3d(Map));
     }
+<<<<<<< HEAD
 }
 
 <<<<<<< HEAD
@@ -397,9 +451,24 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                    const char *field_opt)
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+    fprintf(stdout, "primitives=%ld\n", nprimitives);
+    fflush(stdout);
+
+    fprintf(stdout, "map3d=%d\n", Vect_is_3d(Map) ? 1 : 0);
+    fflush(stdout);
+}
+
+void print_columns(const struct Map_info *Map, const char *input_opt,
+                   const char *field_opt)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     int num_dblinks, col, ncols;
 
@@ -412,7 +481,10 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
     num_dblinks = Vect_get_num_dblinks(Map);
 
     if (num_dblinks <= 0) {
+<<<<<<< HEAD
         Vect_close(Map);
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error(
             _("Database connection for map <%s> is not defined in DB file"),
             input_opt);
@@ -429,10 +501,15 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
             field_opt, input_opt);
     }
     driver = db_start_driver(fi->driver);
+<<<<<<< HEAD
     if (driver == NULL) {
         Vect_close(Map);
         G_fatal_error(_("Unable to open driver <%s>"), fi->driver);
     }
+=======
+    if (driver == NULL)
+        G_fatal_error(_("Unable to open driver <%s>"), fi->driver);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     db_init_handle(&handle);
     db_set_handle(&handle, fi->database, NULL);
     if (db_open_database(driver, &handle) != DB_OK) {
@@ -443,6 +520,7 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
     }
     db_init_string(&table_name);
     db_set_string(&table_name, fi->table);
+<<<<<<< HEAD
     if (db_describe_table(driver, &table_name, &table) != DB_OK) {
         db_close_database_shutdown_driver(driver);
         Vect_close(Map);
@@ -513,6 +591,20 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
 
     Vect_destroy_field_info(fi);
     db_close_database_shutdown_driver(driver);
+=======
+    if (db_describe_table(driver, &table_name, &table) != DB_OK)
+        G_fatal_error(_("Unable to describe table <%s>"), fi->table);
+
+    ncols = db_get_table_number_of_columns(table);
+    for (col = 0; col < ncols; col++)
+        fprintf(stdout, "%s|%s\n",
+                db_sqltype_name(
+                    db_get_column_sqltype(db_get_table_column(table, col))),
+                db_get_column_name(db_get_table_column(table, col)));
+
+    db_close_database(driver);
+    db_shutdown_driver(driver);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 void print_shell(struct Map_info *Map, const char *field_opt,
@@ -539,6 +631,7 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 
     map_type = Vect_maptype(Map);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     char scale_tmp[18];
     snprintf(scale_tmp, 18, "1:%d", Vect_get_scale(Map));
@@ -669,6 +762,7 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -735,13 +829,23 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    fprintf(stdout, "name=%s\n", Vect_get_name(Map));
+    fprintf(stdout, "mapset=%s\n", Vect_get_mapset(Map));
+    fprintf(stdout, "location=%s\n", G_location());
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     fprintf(stdout, "database=%s\n", G_gisdbase());
     fprintf(stdout, "title=%s\n", Vect_get_map_name(Map));
     fprintf(stdout, "scale=1:%d\n", Vect_get_scale(Map));
     fprintf(stdout, "creator=%s\n", Vect_get_person(Map));
     fprintf(stdout, "organization=%s\n", Vect_get_organization(Map));
     fprintf(stdout, "source_date=%s\n", Vect_get_map_date(Map));
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     /* This shows the TimeStamp (if present) */
     if (time_ok == TRUE && (first_time_ok || second_time_ok)) {
         G_format_timestamp(&ts, timebuff);
@@ -770,6 +874,7 @@ void print_shell(struct Map_info *Map, const char *field_opt,
     }
 
     if (map_type == GV_FORMAT_OGR || map_type == GV_FORMAT_OGR_DIRECT) {
+<<<<<<< HEAD
         switch (format) {
         case PLAIN:
             break;
@@ -794,6 +899,13 @@ void print_shell(struct Map_info *Map, const char *field_opt,
                                    Vect_get_finfo_geometry_type(Map));
             break;
         }
+=======
+        fprintf(stdout, "format=%s,%s\n", Vect_maptype_info(Map),
+                Vect_get_finfo_format_info(Map));
+        fprintf(stdout, "ogr_layer=%s\n", Vect_get_finfo_layer_name(Map));
+        fprintf(stdout, "ogr_dsn=%s\n", Vect_get_finfo_dsn_name(Map));
+        fprintf(stdout, "feature_type=%s\n", Vect_get_finfo_geometry_type(Map));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
     else if (map_type == GV_FORMAT_POSTGIS) {
         int topo_format;
@@ -802,6 +914,7 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 
         finfo = Vect_get_finfo(Map);
 
+<<<<<<< HEAD
         switch (format) {
         case PLAIN:
             break;
@@ -885,10 +998,34 @@ void print_shell(struct Map_info *Map, const char *field_opt,
                                    Vect_get_num_dblinks(Map));
             break;
         }
+=======
+        fprintf(stdout, "format=%s,%s\n", Vect_maptype_info(Map),
+                Vect_get_finfo_format_info(Map));
+        fprintf(stdout, "pg_table=%s\n", Vect_get_finfo_layer_name(Map));
+        fprintf(stdout, "pg_dbname=%s\n", Vect_get_finfo_dsn_name(Map));
+        fprintf(stdout, "geometry_column=%s\n", finfo->pg.geom_column);
+        fprintf(stdout, "feature_type=%s\n", Vect_get_finfo_geometry_type(Map));
+        topo_format = Vect_get_finfo_topology_info(Map, &toposchema_name,
+                                                   &topogeom_column, NULL);
+        if (topo_format == GV_TOPO_POSTGIS) {
+            fprintf(stdout, "pg_topo_schema=%s\n", toposchema_name);
+            fprintf(stdout, "pg_topo_column=%s\n", topogeom_column);
+        }
+    }
+    else {
+        fprintf(stdout, "format=%s\n", Vect_maptype_info(Map));
+    }
+
+    fprintf(stdout, "level=%d\n", Vect_level(Map));
+
+    if (Vect_level(Map) > 0) {
+        fprintf(stdout, "num_dblinks=%d\n", Vect_get_num_dblinks(Map));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
         if (Vect_get_num_dblinks(Map) > 0) {
             fi = Vect_get_field2(Map, field_opt);
             if (fi != NULL) {
+<<<<<<< HEAD
                 switch (format) {
                 case PLAIN:
                     break;
@@ -916,10 +1053,19 @@ void print_shell(struct Map_info *Map, const char *field_opt,
                                            fi->key);
                     break;
                 }
+=======
+                fprintf(stdout, "attribute_layer_number=%i\n", fi->number);
+                fprintf(stdout, "attribute_layer_name=%s\n", fi->name);
+                fprintf(stdout, "attribute_database=%s\n", fi->database);
+                fprintf(stdout, "attribute_database_driver=%s\n", fi->driver);
+                fprintf(stdout, "attribute_table=%s\n", fi->table);
+                fprintf(stdout, "attribute_primary_key=%s\n", fi->key);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             }
         }
     }
 
+<<<<<<< HEAD
     switch (format) {
     case PLAIN:
         break;
@@ -942,6 +1088,14 @@ void print_shell(struct Map_info *Map, const char *field_opt,
         json_object_set_string(root_object, "comment", Vect_get_comment(Map));
         break;
     }
+=======
+    fprintf(stdout, "projection=%s\n", Vect_get_proj_name(Map));
+    if (G_projection() == PROJECTION_UTM) {
+        fprintf(stdout, "zone=%d\n", Vect_get_zone(Map));
+    }
+    fprintf(stdout, "digitization_threshold=%f\n", Vect_get_thresh(Map));
+    fprintf(stdout, "comment=%s\n", Vect_get_comment(Map));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 void print_info(struct Map_info *Map)
@@ -997,6 +1151,7 @@ void print_info(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_saprintf(line, "%-17s%s", _("Location:"), G_location());
 =======
 <<<<<<< HEAD
@@ -1051,6 +1206,8 @@ void print_info(struct Map_info *Map)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     G_saprintf(line, "%-17s%s", _("Project:"), G_location());
 =======
     G_saprintf(line, "%-17s%s", _("Location:"), G_location());
@@ -1080,6 +1237,7 @@ void print_info(struct Map_info *Map)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1185,6 +1343,11 @@ void print_info(struct Map_info *Map)
     G_saprintf(line, "%-17s%s", _("Location:"), G_location());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+    G_saprintf(line, "%-17s%s", _("Location:"), G_location());
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     printline(line);
     G_saprintf(line, "%-17s%s", _("Database:"), G_gisdbase());
     printline(line);

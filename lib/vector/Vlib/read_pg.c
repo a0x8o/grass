@@ -108,6 +108,7 @@ static void error_tuples(struct Format_info_pg *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int V1_read_next_line_pg(struct Map_info *Map, struct line_pnts *line_p,
                          struct line_cats *line_c)
 =======
@@ -163,6 +164,8 @@ int V1_read_next_line_pg(struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int V1_read_next_line_pg(struct Map_info *Map NOPG_UNUSED,
                          struct line_pnts *line_p NOPG_UNUSED,
                          struct line_cats *line_c NOPG_UNUSED)
@@ -251,6 +254,7 @@ int V1_read_next_line_pg(struct Map_info *Map, struct line_pnts *line_p,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -305,6 +309,12 @@ int V1_read_next_line_pg(struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+int V1_read_next_line_pg(struct Map_info *Map, struct line_pnts *line_p,
+                         struct line_cats *line_c)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
 #ifdef HAVE_POSTGRES
     G_debug(3, "V1_read_next_line_pg()");
@@ -482,6 +492,7 @@ int V2_read_next_line_pg(struct Map_info *Map NOPG_UNUSED,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int V1_read_line_pg(struct Map_info *Map, struct line_pnts *line_p,
                     struct line_cats *line_c, off_t offset)
 =======
@@ -537,6 +548,8 @@ int V1_read_line_pg(struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int V1_read_line_pg(struct Map_info *Map NOPG_UNUSED,
                     struct line_pnts *line_p NOPG_UNUSED,
                     struct line_cats *line_c NOPG_UNUSED,
@@ -626,6 +639,7 @@ int V1_read_line_pg(struct Map_info *Map, struct line_pnts *line_p,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -680,6 +694,12 @@ int V1_read_line_pg(struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+int V1_read_line_pg(struct Map_info *Map, struct line_pnts *line_p,
+                    struct line_cats *line_c, off_t offset)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
 #ifdef HAVE_POSTGRES
     long fid;
@@ -805,6 +825,7 @@ int V2_read_line_pg(struct Map_info *Map NOPG_UNUSED,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(4, "V2_read_line_pg() line = %d type = %d offset = %" PRI_OFF_T,
             line, Line->type, Line->offset);
 =======
@@ -860,6 +881,8 @@ int V2_read_line_pg(struct Map_info *Map NOPG_UNUSED,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     G_debug(4, "V2_read_line_pg() line = %d type = %d offset = %" PRId64, line,
             Line->type, Line->offset);
 =======
@@ -947,6 +970,7 @@ int V2_read_line_pg(struct Map_info *Map NOPG_UNUSED,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1001,6 +1025,12 @@ int V2_read_line_pg(struct Map_info *Map NOPG_UNUSED,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    G_debug(4, "V2_read_line_pg() line = %d type = %d offset = %" PRI_OFF_T,
+            line, Line->type, Line->offset);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     if (!line_p && !line_c)
         return Line->type;
@@ -1376,6 +1406,7 @@ SF_FeatureType get_feature(struct Map_info *Map, int fid, int type)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1495,6 +1526,13 @@ SF_FeatureType get_feature(struct Map_info *Map, int fid, int type)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
         if (!PQgetisnull(pg_info->res, pg_info->next_line, col_idx))
             cat = atoi(PQgetvalue(pg_info->res, pg_info->next_line, col_idx));
@@ -2078,6 +2116,7 @@ int Vect__open_cursor_next_line_pg(struct Format_info_pg *pg_info,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                pg_info->table_name, pg_info->conn);
 =======
 <<<<<<< HEAD
@@ -2132,6 +2171,8 @@ int Vect__open_cursor_next_line_pg(struct Format_info_pg *pg_info,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                pg_info->table_name, (void *)pg_info->conn);
 =======
                pg_info->table_name, pg_info->conn);
@@ -2161,6 +2202,7 @@ int Vect__open_cursor_next_line_pg(struct Format_info_pg *pg_info,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2266,6 +2308,11 @@ int Vect__open_cursor_next_line_pg(struct Format_info_pg *pg_info,
                pg_info->table_name, pg_info->conn);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+               pg_info->table_name, pg_info->conn);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     if (!pg_info->toposchema_name) {
         /* simple feature access (geom, fid) */
@@ -2416,6 +2463,7 @@ int Vect__open_cursor_line_pg(struct Format_info_pg *pg_info, int fid, int type)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                pg_info->table_name, fid, pg_info->conn);
 =======
 <<<<<<< HEAD
@@ -2470,6 +2518,8 @@ int Vect__open_cursor_line_pg(struct Format_info_pg *pg_info, int fid, int type)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                pg_info->table_name, fid, (void *)pg_info->conn);
 =======
                pg_info->table_name, fid, pg_info->conn);
@@ -2499,6 +2549,7 @@ int Vect__open_cursor_line_pg(struct Format_info_pg *pg_info, int fid, int type)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2604,6 +2655,11 @@ int Vect__open_cursor_line_pg(struct Format_info_pg *pg_info, int fid, int type)
                pg_info->table_name, fid, pg_info->conn);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+               pg_info->table_name, fid, pg_info->conn);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     if (!pg_info->toposchema_name) {
         /* simple feature access (geom) */

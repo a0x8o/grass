@@ -38,6 +38,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -56,6 +57,8 @@
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  * Copyright (c) 2012-2019, Even Rouault <even dot rouault at spatialys.com>
 =======
 <<<<<<< HEAD
@@ -227,6 +230,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -246,9 +250,12 @@
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
  * Copyright (c) 2012-2019, Even Rouault <even dot rouault at spatialys.com>
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
  * Copyright (c) 2012-2013, Even Rouault <even dot rouault at mines-paris dot
  *org>
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,6 +349,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  *
  * SPDX-License-Identifier: MIT OR LGPL-2.0-or-later
  ******************************************************************************/
@@ -365,6 +374,7 @@
 #elif defined(_WIN32)
 =======
 #if defined(WIN32) || defined(_WIN32)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -451,6 +461,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -1487,6 +1499,17 @@ CPL_INLINE static void CPL_IGNORE_RET_VAL_INT(CPL_UNUSED int unused)
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+#ifndef snprintf
+#define snprintf _snprintf
+#endif
+#endif
+
+SHP_CVSID("$Id$")
+#ifndef FALSE
+#define FALSE 0
+#define TRUE  1
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #endif
 
 /************************************************************************/
@@ -1498,11 +1521,16 @@ CPL_INLINE static void CPL_IGNORE_RET_VAL_INT(CPL_UNUSED int unused)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1606,6 +1634,8 @@ CPL_INLINE static void CPL_IGNORE_RET_VAL_INT(CPL_UNUSED int unused)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 static void *SfRealloc(void *pMem, int nNewSize)
 {
@@ -1739,6 +1769,7 @@ static void *SfRealloc(void *pMem, int nNewSize)
         return realloc(pMem, nNewSize);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -2039,6 +2070,9 @@ static void *SfRealloc(void *pMem, int nNewSize)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 static void *SfRealloc(void *pMem, int nNewSize)
 {
     if (pMem == NULL)
@@ -2046,6 +2080,7 @@ static void *SfRealloc(void *pMem, int nNewSize)
     else
         return ((void *)realloc(pMem, nNewSize));
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2086,6 +2121,9 @@ static void *SfRealloc(void *pMem, int nNewSize)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -2096,6 +2134,7 @@ static void *SfRealloc(void *pMem, int nNewSize)
 /*      descriptions before writing any actual data records.  This      */
 /*      also computes all the DBFDataSet field offset/size/decimals     */
 /*      and so forth values.                                            */
+
 /************************************************************************/
 
 static void DBFWriteHeader(DBFHandle psDBF)
@@ -2132,6 +2171,7 @@ static void DBFWriteHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2150,6 +2190,8 @@ static void DBFWriteHeader(DBFHandle psDBF)
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     unsigned char abyHeader[XBASE_FILEHDR_SZ] = {0};
 =======
 <<<<<<< HEAD
@@ -2321,6 +2363,7 @@ static void DBFWriteHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2340,9 +2383,12 @@ static void DBFWriteHeader(DBFHandle psDBF)
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
     unsigned char abyHeader[XBASE_FILEHDR_SZ] = {0};
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
     unsigned char abyHeader[XBASE_FLDHDR_SZ];
     int i;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2436,6 +2482,8 @@ static void DBFWriteHeader(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     if (!psDBF->bNoHeader)
         return;
@@ -2475,6 +2523,7 @@ static void DBFWriteHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2545,6 +2594,8 @@ static void DBFWriteHeader(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     /*      Initialize the file header information.                         */
 =======
 =======
@@ -2606,12 +2657,36 @@ static void DBFWriteHeader(DBFHandle psDBF)
     abyHeader[11] = STATIC_CAST(unsigned char, psDBF->nRecordLength / 256);
 
     abyHeader[29] = STATIC_CAST(unsigned char, psDBF->iLanguageDriver);
+=======
+    /*      Initialize the file header information.                         */
+    /* -------------------------------------------------------------------- */
+    for (i = 0; i < XBASE_FLDHDR_SZ; i++)
+        abyHeader[i] = 0;
+
+    abyHeader[0] = 0x03; /* memo field? - just copying   */
+
+    /* write out update date */
+    abyHeader[1] = (unsigned char)psDBF->nUpdateYearSince1900;
+    abyHeader[2] = (unsigned char)psDBF->nUpdateMonth;
+    abyHeader[3] = (unsigned char)psDBF->nUpdateDay;
+
+    /* record count preset at zero */
+
+    abyHeader[8] = (unsigned char)(psDBF->nHeaderLength % 256);
+    abyHeader[9] = (unsigned char)(psDBF->nHeaderLength / 256);
+
+    abyHeader[10] = (unsigned char)(psDBF->nRecordLength % 256);
+    abyHeader[11] = (unsigned char)(psDBF->nRecordLength / 256);
+
+    abyHeader[29] = (unsigned char)(psDBF->iLanguageDriver);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     /* -------------------------------------------------------------------- */
     /*      Write the initial 32 byte file header, and all the field        */
     /*      descriptions.                                                   */
     /* -------------------------------------------------------------------- */
     psDBF->sHooks.FSeek(psDBF->fp, 0, 0);
+<<<<<<< HEAD
     psDBF->sHooks.FWrite(abyHeader, XBASE_FILEHDR_SZ, 1, psDBF->fp);
 =======
 <<<<<<< HEAD
@@ -3281,10 +3356,20 @@ static void DBFWriteHeader(DBFHandle psDBF)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+    psDBF->sHooks.FWrite(abyHeader, XBASE_FLDHDR_SZ, 1, psDBF->fp);
+    psDBF->sHooks.FWrite(psDBF->pszHeader, XBASE_FLDHDR_SZ, psDBF->nFields,
+                         psDBF->fp);
+
+    /* -------------------------------------------------------------------- */
+    /*      Write out the newline character if there is room for it.        */
+    /* -------------------------------------------------------------------- */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->nHeaderLength > 32 * psDBF->nFields + 32) {
         char cNewline;
 
         cNewline = 0x0d;
+<<<<<<< HEAD
 =======
     if (psDBF->nHeaderLength >
         XBASE_FLDHDR_SZ * psDBF->nFields + XBASE_FLDHDR_SZ) {
@@ -4235,6 +4320,9 @@ static void DBFWriteHeader(DBFHandle psDBF)
 >>>>>>> osgeo-main
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        psDBF->sHooks.FWrite(&cNewline, 1, 1, psDBF->fp);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 }
 
@@ -4242,8 +4330,10 @@ static void DBFWriteHeader(DBFHandle psDBF)
 /*                           DBFFlushRecord()                           */
 /*                                                                      */
 /*      Write out the current record if there is one.                   */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4355,6 +4445,8 @@ static void DBFWriteHeader(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 static bool DBFFlushRecord(DBFHandle psDBF)
 {
     if (psDBF->bCurrentRecordModified && psDBF->nCurrentRecord > -1) {
@@ -4811,11 +4903,30 @@ static int DBFFlushRecord(DBFHandle psDBF)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+static int DBFFlushRecord(DBFHandle psDBF)
+{
+    SAOffset nRecordOffset;
+
+    if (psDBF->bCurrentRecordModified && psDBF->nCurrentRecord > -1) {
+        psDBF->bCurrentRecordModified = FALSE;
+
+        nRecordOffset = psDBF->nRecordLength * (SAOffset)psDBF->nCurrentRecord +
+                        psDBF->nHeaderLength;
+
+        if (psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0) != 0 ||
+            psDBF->sHooks.FWrite(psDBF->pszCurrentRecord, psDBF->nRecordLength,
+                                 1, psDBF->fp) != 1) {
+            char szMessage[128];
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
             snprintf(szMessage, sizeof(szMessage),
                      "Failure writing DBF record %d.", psDBF->nCurrentRecord);
@@ -5199,8 +5310,10 @@ static bool DBFFlushRecord(DBFHandle psDBF)
 
 /************************************************************************/
 /*                           DBFLoadRecord()                            */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5277,6 +5390,8 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 =======
 static int DBFLoadRecord(DBFHandle psDBF, int iRecord)
@@ -6203,10 +6318,29 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 
             snprintf(szMessage, sizeof(szMessage),
                      "fread(%d) failed on DBF file.\n", psDBF->nRecordLength);
+=======
+static int DBFLoadRecord(DBFHandle psDBF, int iRecord)
+{
+    if (psDBF->nCurrentRecord != iRecord) {
+        SAOffset nRecordOffset;
+
+        if (!DBFFlushRecord(psDBF))
+            return FALSE;
+
+        nRecordOffset =
+            psDBF->nRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+
+        if (psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, SEEK_SET) != 0) {
+            char szMessage[128];
+
+            snprintf(szMessage, sizeof(szMessage),
+                     "fseek(%ld) failed on DBF file.\n", (long)nRecordOffset);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             psDBF->sHooks.Error(szMessage);
             return FALSE;
         }
 
+<<<<<<< HEAD
         psDBF->nCurrentRecord = iRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6289,6 +6423,15 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 >>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+        if (psDBF->sHooks.FRead(psDBF->pszCurrentRecord, psDBF->nRecordLength,
+                                1, psDBF->fp) != 1) {
+            char szMessage[128];
+
+            snprintf(szMessage, sizeof(szMessage),
+                     "fread(%d) failed on DBF file.\n", psDBF->nRecordLength);
+            psDBF->sHooks.Error(szMessage);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             return FALSE;
 =======
             return false;
@@ -6358,6 +6501,7 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 >>>>>>> osgeo-main
         }
 
+<<<<<<< HEAD
         if (psDBF->sHooks.FRead(psDBF->pszCurrentRecord, psDBF->nRecordLength,
                                 1, psDBF->fp) != 1) {
             char szMessage[128];
@@ -6565,6 +6709,7 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -6770,6 +6915,11 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+        psDBF->nCurrentRecord = iRecord;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
 
     return true;
@@ -6777,6 +6927,7 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 
 /************************************************************************/
 /*                          DBFUpdateHeader()                           */
+
 /************************************************************************/
 
 void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
@@ -6813,6 +6964,7 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6886,6 +7038,8 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (psDBF->bNoHeader)
         DBFWriteHeader(psDBF);
 
@@ -7239,11 +7393,21 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    unsigned char abyFileHeader[32];
+
+    if (psDBF->bNoHeader)
+        DBFWriteHeader(psDBF);
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (!DBFFlushRecord(psDBF))
         return;
 
@@ -7280,6 +7444,7 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7359,6 +7524,8 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     unsigned char abyFileHeader[XBASE_FILEHDR_SZ] = {0};
     psDBF->sHooks.FRead(abyFileHeader, 1, sizeof(abyFileHeader), psDBF->fp);
@@ -7879,16 +8046,36 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    psDBF->sHooks.FRead(abyFileHeader, 32, 1, psDBF->fp);
+
+    abyFileHeader[1] = (unsigned char)psDBF->nUpdateYearSince1900;
+    abyFileHeader[2] = (unsigned char)psDBF->nUpdateMonth;
+    abyFileHeader[3] = (unsigned char)psDBF->nUpdateDay;
+    abyFileHeader[4] = (unsigned char)(psDBF->nRecords % 256);
+    abyFileHeader[5] = (unsigned char)((psDBF->nRecords / 256) % 256);
+    abyFileHeader[6] = (unsigned char)((psDBF->nRecords / (256 * 256)) % 256);
+    abyFileHeader[7] =
+        (unsigned char)((psDBF->nRecords / (256 * 256 * 256)) % 256);
+
+    psDBF->sHooks.FSeek(psDBF->fp, 0, 0);
+    psDBF->sHooks.FWrite(abyFileHeader, 32, 1, psDBF->fp);
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     psDBF->sHooks.FFlush(psDBF->fp);
 }
 
 /************************************************************************/
 /*                       DBFSetLastModifiedDate()                       */
+
 /************************************************************************/
 
 void SHPAPI_CALL DBFSetLastModifiedDate(DBFHandle psDBF, int nYYSince1900,
@@ -7903,6 +8090,7 @@ void SHPAPI_CALL DBFSetLastModifiedDate(DBFHandle psDBF, int nYYSince1900,
 /*                              DBFOpen()                               */
 /*                                                                      */
 /*      Open a .dbf file.                                               */
+
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
@@ -7938,6 +8126,7 @@ DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8043,6 +8232,8 @@ DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
@@ -8202,6 +8393,7 @@ DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -8241,6 +8433,10 @@ DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     SAHooks sHooks;
 
@@ -8275,6 +8471,7 @@ DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8343,6 +8540,8 @@ DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 /************************************************************************/
@@ -8509,6 +8708,7 @@ static int DBFGetLenWithoutExtension(const char *pszBasename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -8668,15 +8868,21 @@ static int DBFGetLenWithoutExtension(const char *pszBasename)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 /************************************************************************/
 /*                              DBFOpen()                               */
 /*                                                                      */
 /*      Open a .dbf file.                                               */
+
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
+<<<<<<< HEAD
                                 const SAHooks *psHooks)
 {
 <<<<<<< HEAD
@@ -9243,11 +9449,34 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+                                SAHooks *psHooks)
+{
+    DBFHandle psDBF;
+    SAFile pfCPG;
+    unsigned char *pabyBuf;
+    int nFields, nHeadLen, iField, i;
+    char *pszBasename, *pszFullname;
+    int nBufSize = 500;
+    size_t nFullnameLen;
+
+    /* -------------------------------------------------------------------- */
+    /*      We only allow the access strings "rb" and "r+".                  */
+    /* -------------------------------------------------------------------- */
+    if (strcmp(pszAccess, "r") != 0 && strcmp(pszAccess, "r+") != 0 &&
+        strcmp(pszAccess, "rb") != 0 && strcmp(pszAccess, "rb+") != 0 &&
+        strcmp(pszAccess, "r+b") != 0)
+        return (NULL);
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (strcmp(pszAccess, "r") == 0)
         pszAccess = "rb";
 
@@ -9255,6 +9484,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
         pszAccess = "rb+";
 
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9320,6 +9550,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     /*      Compute the base (layer) name.  If there is any extension       */
     /*      on the passed in filename we will strip it off.                 */
 =======
@@ -9821,6 +10053,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -9841,6 +10074,21 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    /*      Compute the base (layer) name.  If there is any extension       */
+    /*      on the passed in filename we will strip it off.                 */
+    /* -------------------------------------------------------------------- */
+    pszBasename = (char *)malloc(strlen(pszFilename) + 5);
+    strcpy(pszBasename, pszFilename);
+    for (i = (int)strlen(pszBasename) - 1;
+         i > 0 && pszBasename[i] != '.' && pszBasename[i] != '/' &&
+         pszBasename[i] != '\\';
+         i--) {
+    }
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (pszBasename[i] == '.')
         pszBasename[i] = '\0';
 
@@ -9863,6 +10111,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -9883,6 +10132,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
     DBFHandle psDBF = STATIC_CAST(DBFHandle, calloc(1, sizeof(DBFInfo)));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -9963,6 +10214,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
         return SHPLIB_NULLPTR;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10340,6 +10592,33 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    psDBF->fp = psHooks->FOpen(pszFullname, pszAccess);
+    memcpy(&(psDBF->sHooks), psHooks, sizeof(SAHooks));
+
+    if (psDBF->fp == NULL) {
+        snprintf(pszFullname, nFullnameLen, "%s.DBF", pszBasename);
+        psDBF->fp = psDBF->sHooks.FOpen(pszFullname, pszAccess);
+    }
+
+    snprintf(pszFullname, nFullnameLen, "%s.cpg", pszBasename);
+    pfCPG = psHooks->FOpen(pszFullname, "r");
+    if (pfCPG == NULL) {
+        snprintf(pszFullname, nFullnameLen, "%s.CPG", pszBasename);
+        pfCPG = psHooks->FOpen(pszFullname, "r");
+    }
+
+    free(pszBasename);
+    free(pszFullname);
+
+    if (psDBF->fp == NULL) {
+        free(psDBF);
+        if (pfCPG)
+            psHooks->FClose(pfCPG);
+        return (NULL);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
 
     psDBF->bNoHeader = FALSE;
@@ -10381,6 +10660,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10454,6 +10734,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     const int nBufSize = 500;
     unsigned char *pabyBuf = STATIC_CAST(unsigned char *, malloc(nBufSize));
     if (psDBF->sHooks.FRead(pabyBuf, XBASE_FILEHDR_SZ, 1, psDBF->fp) != 1) {
@@ -10689,6 +10971,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -10698,9 +10981,12 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
     pabyBuf = (unsigned char *)malloc(nBufSize);
     if (psDBF->sHooks.FRead(pabyBuf, 32, 1, psDBF->fp) != 1) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -10775,11 +11061,14 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         psDBF->sHooks.FClose(psDBF->fp);
         if (pfCPG)
             psDBF->sHooks.FClose(pfCPG);
         free(pabyBuf);
         free(psDBF);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10822,6 +11111,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         return SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -10901,6 +11192,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         return NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11085,6 +11378,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11164,6 +11458,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     psDBF->nRecords = pabyBuf[4] | (pabyBuf[5] << 8) | (pabyBuf[6] << 16) |
                       ((pabyBuf[7] & 0x7f) << 24);
 
@@ -11664,16 +11960,30 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    psDBF->nRecords = pabyBuf[4] + pabyBuf[5] * 256 + pabyBuf[6] * 256 * 256 +
+                      (pabyBuf[7] & 0x7f) * 256 * 256 * 256;
+
+    psDBF->nHeaderLength = nHeadLen = pabyBuf[8] + pabyBuf[9] * 256;
+    psDBF->nRecordLength = pabyBuf[10] + pabyBuf[11] * 256;
+    psDBF->iLanguageDriver = pabyBuf[29];
+
+    if (psDBF->nRecordLength == 0 || nHeadLen < 32) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         psDBF->sHooks.FClose(psDBF->fp);
         if (pfCPG)
             psDBF->sHooks.FClose(pfCPG);
         free(pabyBuf);
         free(psDBF);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11716,6 +12026,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         return SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -11795,6 +12107,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         return NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11980,6 +12294,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11998,6 +12313,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     /* coverity[tainted_data] */
     psDBF->pszCurrentRecord = STATIC_CAST(char *, malloc(psDBF->nRecordLength));
 =======
@@ -12186,6 +12503,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -12300,6 +12618,11 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    psDBF->pszCurrentRecord = (char *)malloc(psDBF->nRecordLength);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     /* -------------------------------------------------------------------- */
     /*  Figure out the code page from the LDID and CPG                      */
@@ -12336,6 +12659,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     psDBF->pszCodePage = SHPLIB_NULLPTR;
@@ -12376,6 +12700,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     psDBF->pszCodePage = SHPLIB_NULLPTR;
 =======
 
@@ -12855,11 +13181,27 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+    psDBF->pszCodePage = NULL;
+    if (pfCPG) {
+        size_t n;
+
+        memset(pabyBuf, 0, nBufSize);
+        psDBF->sHooks.FRead(pabyBuf, nBufSize - 1, 1, pfCPG);
+        n = strcspn((char *)pabyBuf, "\n\r");
+        if (n > 0) {
+            pabyBuf[n] = '\0';
+            psDBF->pszCodePage = (char *)malloc(n + 1);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             memcpy(psDBF->pszCodePage, pabyBuf, n + 1);
         }
         psDBF->sHooks.FClose(pfCPG);
@@ -12896,6 +13238,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12915,6 +13258,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -13114,6 +13459,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -13200,10 +13546,15 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (psDBF->pszCodePage == NULL && pabyBuf[29] != 0) {
         snprintf((char *)pabyBuf, nBufSize, "LDID/%d", psDBF->iLanguageDriver);
         psDBF->pszCodePage = (char *)malloc(strlen((char *)pabyBuf) + 1);
         strcpy(psDBF->pszCodePage, (char *)pabyBuf);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13271,6 +13622,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -13363,6 +13716,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -13449,6 +13803,10 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
 
     /* -------------------------------------------------------------------- */
@@ -13486,6 +13844,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     pabyBuf = STATIC_CAST(unsigned char *, SfRealloc(pabyBuf, nHeadLen));
@@ -13561,6 +13920,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     pabyBuf = STATIC_CAST(unsigned char *, realloc(pabyBuf, nHeadLen));
 =======
 =======
@@ -14823,6 +15184,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -14963,15 +15325,73 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+
+    pabyBuf = (unsigned char *)SfRealloc(pabyBuf, nHeadLen);
+    psDBF->pszHeader = (char *)pabyBuf;
+
+    psDBF->sHooks.FSeek(psDBF->fp, 32, 0);
+    if (psDBF->sHooks.FRead(pabyBuf, nHeadLen - 32, 1, psDBF->fp) != 1) {
+        psDBF->sHooks.FClose(psDBF->fp);
+        free(pabyBuf);
+        free(psDBF->pszCurrentRecord);
+        free(psDBF);
+        return NULL;
+    }
+
+    psDBF->panFieldOffset = (int *)malloc(sizeof(int) * nFields);
+    psDBF->panFieldSize = (int *)malloc(sizeof(int) * nFields);
+    psDBF->panFieldDecimals = (int *)malloc(sizeof(int) * nFields);
+    psDBF->pachFieldType = (char *)malloc(sizeof(char) * nFields);
+
+    for (iField = 0; iField < nFields; iField++) {
+        unsigned char *pabyFInfo;
+
+        pabyFInfo = pabyBuf + iField * 32;
+
+        if (pabyFInfo[11] == 'N' || pabyFInfo[11] == 'F') {
+            psDBF->panFieldSize[iField] = pabyFInfo[16];
+            psDBF->panFieldDecimals[iField] = pabyFInfo[17];
+        }
+        else {
+            psDBF->panFieldSize[iField] = pabyFInfo[16];
+            psDBF->panFieldDecimals[iField] = 0;
+
+            /*
+             ** The following seemed to be used sometimes to handle files with
+             long
+             ** string fields, but in other cases (such as bug 1202) the
+             decimals field
+             ** just seems to indicate some sort of preferred formatting, not
+             very
+             ** wide fields.  So I have disabled this code.  FrankW.
+             psDBF->panFieldSize[iField] = pabyFInfo[16] + pabyFInfo[17]*256;
+             psDBF->panFieldDecimals[iField] = 0;
+             */
+        }
+
+        psDBF->pachFieldType[iField] = (char)pabyFInfo[11];
+        if (iField == 0)
+            psDBF->panFieldOffset[iField] = 1;
+        else
+            psDBF->panFieldOffset[iField] = psDBF->panFieldOffset[iField - 1] +
+                                            psDBF->panFieldSize[iField - 1];
+    }
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     return (psDBF);
 }
 
 /************************************************************************/
 /*                              DBFClose()                              */
+
 /************************************************************************/
 
 void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15022,6 +15442,8 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (psDBF == SHPLIB_NULLPTR)
 =======
 <<<<<<< HEAD
@@ -15190,6 +15612,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -15300,6 +15723,11 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    if (psDBF == NULL)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         return;
 
     /* -------------------------------------------------------------------- */
@@ -15340,6 +15768,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15419,6 +15848,8 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     CPL_IGNORE_RET_VAL_INT(DBFFlushRecord(psDBF));
 
     /* -------------------------------------------------------------------- */
@@ -16216,6 +16647,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -16301,6 +16733,25 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    DBFFlushRecord(psDBF);
+
+    /* -------------------------------------------------------------------- */
+    /*      Update last access date, and number of records if we have       */
+    /*      write access.                                                   */
+    /* -------------------------------------------------------------------- */
+    if (psDBF->bUpdated)
+        DBFUpdateHeader(psDBF);
+
+    /* -------------------------------------------------------------------- */
+    /*      Close, and free resources.                                      */
+    /* -------------------------------------------------------------------- */
+    psDBF->sHooks.FClose(psDBF->fp);
+
+    if (psDBF->panFieldOffset != NULL) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         free(psDBF->panFieldOffset);
         free(psDBF->panFieldSize);
         free(psDBF->panFieldDecimals);
@@ -16339,6 +16790,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -16357,6 +16809,8 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (psDBF->pszWorkField != SHPLIB_NULLPTR)
 =======
 <<<<<<< HEAD
@@ -16525,6 +16979,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -16635,6 +17090,11 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    if (psDBF->pszWorkField != NULL)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         free(psDBF->pszWorkField);
 
     free(psDBF->pszHeader);
@@ -16648,6 +17108,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 /*                             DBFCreate()                              */
 /*                                                                      */
 /* Create a new .dbf file with default code page LDID/87 (0x57)         */
+
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFCreate(const char *pszFilename)
@@ -16659,6 +17120,7 @@ DBFHandle SHPAPI_CALL DBFCreate(const char *pszFilename)
 /*                            DBFCreateEx()                             */
 /*                                                                      */
 /*      Create a new .dbf file.                                         */
+
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFCreateEx(const char *pszFilename,
@@ -16675,9 +17137,11 @@ DBFHandle SHPAPI_CALL DBFCreateEx(const char *pszFilename,
 /*                             DBFCreate()                              */
 /*                                                                      */
 /*      Create a new .dbf file.                                         */
+
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
+<<<<<<< HEAD
                                   const char *pszCodePage,
                                   const SAHooks *psHooks)
 {
@@ -16796,6 +17260,10 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
     int ldid = -1;
     if (pszCodePage != SHPLIB_NULLPTR) {
 =======
+=======
+                                  const char *pszCodePage, SAHooks *psHooks)
+{
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     DBFHandle psDBF;
     SAFile fp;
     char *pszFullname, *pszBasename;
@@ -16803,6 +17271,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
     char chZero = '\0';
     size_t nFullnameLen;
 
+<<<<<<< HEAD
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -16811,6 +17280,12 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
     /*    on the passed in filename we will strip it off.            */
     /* -------------------------------------------------------------------- */
 <<<<<<< HEAD
+=======
+    /* -------------------------------------------------------------------- */
+    /*      Compute the base (layer) name.  If there is any extension       */
+    /*      on the passed in filename we will strip it off.                 */
+    /* -------------------------------------------------------------------- */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     pszBasename = (char *)malloc(strlen(pszFilename) + 5);
     strcpy(pszBasename, pszFilename);
     for (i = (int)strlen(pszBasename) - 1;
@@ -16819,6 +17294,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
          i--) {
     }
 
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -16868,22 +17344,28 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     if (pszBasename[i] == '.')
         pszBasename[i] = '\0';
 
     nFullnameLen = strlen(pszBasename) + 5;
     pszFullname = (char *)malloc(nFullnameLen);
     snprintf(pszFullname, nFullnameLen, "%s.dbf", pszBasename);
+<<<<<<< HEAD
 =======
     const int nLenWithoutExtension = DBFGetLenWithoutExtension(pszFilename);
     char *pszFullname = STATIC_CAST(char *, malloc(nLenWithoutExtension + 5));
     memcpy(pszFullname, pszFilename, nLenWithoutExtension);
     memcpy(pszFullname + nLenWithoutExtension, ".dbf", 5);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     /* -------------------------------------------------------------------- */
     /*      Create the file.                                                */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
     SAFile fp = psHooks->FOpen(pszFullname, "wb");
     if (fp == SHPLIB_NULLPTR) {
 <<<<<<< HEAD
@@ -16892,10 +17374,20 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
     }
 
     char chZero = '\0';
+=======
+    fp = psHooks->FOpen(pszFullname, "wb");
+    if (fp == NULL) {
+        free(pszBasename);
+        free(pszFullname);
+        return (NULL);
+    }
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     psHooks->FWrite(&chZero, 1, 1, fp);
     psHooks->FClose(fp);
 
     fp = psHooks->FOpen(pszFullname, "rb+");
+<<<<<<< HEAD
     if (fp == SHPLIB_NULLPTR) {
         free(pszFullname);
         return SHPLIB_NULLPTR;
@@ -17749,6 +18241,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -17946,6 +18439,18 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    if (fp == NULL) {
+        free(pszBasename);
+        free(pszFullname);
+        return (NULL);
+    }
+
+    snprintf(pszFullname, nFullnameLen, "%s.cpg", pszBasename);
+    if (pszCodePage != NULL) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         if (strncmp(pszCodePage, "LDID/", 5) == 0) {
             ldid = atoi(pszCodePage + 5);
             if (ldid > 255)
@@ -17953,6 +18458,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
                            // a valid one
         }
         if (ldid < 0) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             SAFile fpCPG =
                 psHooks->FOpen(pszFullname, "w", psHooks->pvUserData);
@@ -18113,11 +18619,25 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
         psHooks->Remove(pszFullname, psHooks->pvUserData);
     }
 
+=======
+            SAFile fpCPG = psHooks->FOpen(pszFullname, "w");
+
+            psHooks->FWrite((char *)pszCodePage, strlen(pszCodePage), 1, fpCPG);
+            psHooks->FClose(fpCPG);
+        }
+    }
+    if (pszCodePage == NULL || ldid >= 0) {
+        psHooks->Remove(pszFullname);
+    }
+
+    free(pszBasename);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     free(pszFullname);
 
     /* -------------------------------------------------------------------- */
     /*      Create the info structure.                                      */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
     DBFHandle psDBF = STATIC_CAST(DBFHandle, calloc(1, sizeof(DBFInfo)));
 =======
 <<<<<<< HEAD
@@ -18543,6 +19063,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -18636,6 +19157,12 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+    psDBF = (DBFHandle)calloc(1, sizeof(DBFInfo));
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     memcpy(&(psDBF->sHooks), psHooks, sizeof(SAHooks));
     psDBF->fp = fp;
     psDBF->nRecords = 0;
@@ -18849,6 +19376,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -18879,6 +19407,8 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -19098,6 +19628,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -19188,10 +19719,15 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         strcpy(psDBF->pszCodePage, pszCodePage);
     }
     DBFSetLastModifiedDate(psDBF, 95, 7, 26); /* dummy date */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19273,6 +19809,8 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -19505,6 +20043,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -19645,6 +20184,10 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     return (psDBF);
 }
 
@@ -19652,6 +20195,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 /*                            DBFAddField()                             */
 /*                                                                      */
 /*      Add a field to a newly created .dbf or to an existing one       */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
@@ -19693,6 +20237,7 @@ int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -19703,6 +20248,8 @@ int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     else if (eType == FTDate)
         chNativeType = 'D';
 =======
@@ -19830,6 +20377,7 @@ int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -19961,6 +20509,10 @@ int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     else if (eType == FTString)
         chNativeType = 'C';
     else
@@ -19972,6 +20524,7 @@ int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
 
 /************************************************************************/
 /*                        DBFGetNullCharacter()                         */
+
 /************************************************************************/
 
 static char DBFGetNullCharacter(char chType)
@@ -19994,11 +20547,13 @@ static char DBFGetNullCharacter(char chType)
 /*                                                                      */
 /*      Add a field to a newly created .dbf file before any records     */
 /*      are written.                                                    */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
                                       char chType, int nWidth, int nDecimals)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20089,10 +20644,13 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20183,6 +20741,10 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     char *pszFInfo;
     int i;
     int nOldRecordLength, nOldHeaderLength;
@@ -20432,6 +20994,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -20481,6 +21044,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -20719,6 +21284,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -20859,12 +21425,17 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     /* -------------------------------------------------------------------- */
     /*      Do some checking to ensure we can add records to this file.     */
     /* -------------------------------------------------------------------- */
     if (nWidth < 1)
         return -1;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20907,6 +21478,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (nWidth > XBASE_FLD_MAX_WIDTH)
         nWidth = XBASE_FLD_MAX_WIDTH;
 =======
@@ -21004,6 +21577,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     if (nWidth > 255)
         nWidth = 255;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -21353,6 +21928,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 
+<<<<<<< HEAD
     const int nOldRecordLength = psDBF->nRecordLength;
     const int nOldHeaderLength = psDBF->nHeaderLength;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -21556,10 +22132,15 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
     /* -------------------------------------------------------------------- */
     /*      realloc all the arrays larger to hold the additional field      */
+=======
+    /* -------------------------------------------------------------------- */
+    /*      SfRealloc all the arrays larger to hold the additional field      */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     /*      information.                                                    */
     /* -------------------------------------------------------------------- */
     psDBF->nFields++;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21670,6 +22251,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     psDBF->panFieldOffset = STATIC_CAST(
         int *, realloc(psDBF->panFieldOffset, sizeof(int) * psDBF->nFields));
 
@@ -22152,6 +22735,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -22215,6 +22799,22 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+    psDBF->panFieldOffset =
+        (int *)SfRealloc(psDBF->panFieldOffset, sizeof(int) * psDBF->nFields);
+
+    psDBF->panFieldSize =
+        (int *)SfRealloc(psDBF->panFieldSize, sizeof(int) * psDBF->nFields);
+
+    psDBF->panFieldDecimals =
+        (int *)SfRealloc(psDBF->panFieldDecimals, sizeof(int) * psDBF->nFields);
+
+    psDBF->pachFieldType =
+        (char *)SfRealloc(psDBF->pachFieldType, sizeof(char) * psDBF->nFields);
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     /* -------------------------------------------------------------------- */
     /*      Assign the new field information fields.                        */
     /* -------------------------------------------------------------------- */
@@ -22227,6 +22827,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
     /* -------------------------------------------------------------------- */
     /*      Extend the required header information.                         */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22295,8 +22896,12 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
 =======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->nHeaderLength += 32;
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -22374,6 +22979,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
     psDBF->bUpdated = FALSE;
 
+<<<<<<< HEAD
     psDBF->pszHeader = STATIC_CAST(
         char *, realloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
 >>>>>>> osgeo-main
@@ -22577,10 +23183,20 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
         pszFInfo[i] = '\0';
 
 <<<<<<< HEAD
+=======
+    psDBF->pszHeader = (char *)SfRealloc(psDBF->pszHeader, psDBF->nFields * 32);
+
+    pszFInfo = psDBF->pszHeader + 32 * (psDBF->nFields - 1);
+
+    for (i = 0; i < 32; i++)
+        pszFInfo[i] = '\0';
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     if ((int)strlen(pszFieldName) < 10)
         strncpy(pszFInfo, pszFieldName, strlen(pszFieldName));
     else
         strncpy(pszFInfo, pszFieldName, 10);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -23444,6 +24060,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -23455,11 +24072,26 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+
+    pszFInfo[11] = psDBF->pachFieldType[psDBF->nFields - 1];
+
+    if (chType == 'C') {
+        pszFInfo[16] = (unsigned char)(nWidth % 256);
+        pszFInfo[17] = (unsigned char)(nWidth / 256);
+    }
+    else {
+        pszFInfo[16] = (unsigned char)nWidth;
+        pszFInfo[17] = (unsigned char)nDecimals;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
 
     /* -------------------------------------------------------------------- */
     /*      Make the current record buffer appropriately larger.            */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23512,6 +24144,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     psDBF->pszCurrentRecord = STATIC_CAST(
         char *, SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength));
 =======
@@ -23831,6 +24465,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -23859,6 +24494,12 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+    psDBF->pszCurrentRecord =
+        (char *)SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     /* we're done if dealing with new .dbf */
     if (psDBF->bNoHeader)
@@ -23901,6 +24542,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -23935,6 +24577,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     char *pszRecord =
         STATIC_CAST(char *, malloc(sizeof(char) * psDBF->nRecordLength));
 =======
@@ -23950,9 +24594,13 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
         STATIC_CAST(char *, malloc(sizeof(char) * psDBF->nRecordLength));
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+    pszRecord = (char *)malloc(sizeof(char) * psDBF->nRecordLength);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     const char chFieldFill = DBFGetNullCharacter(chType);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24820,6 +25468,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -24831,6 +25480,16 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+    for (i = psDBF->nRecords - 1; i >= 0; --i) {
+        nRecordOffset = nOldRecordLength * (SAOffset)i + nOldHeaderLength;
+
+        /* load record */
+        psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
+        psDBF->sHooks.FRead(pszRecord, nOldRecordLength, 1, psDBF->fp);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
         /* set new field's value to NULL */
         memset(pszRecord + nOldRecordLength, chFieldFill, nWidth);
@@ -24867,6 +25526,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -24946,6 +25606,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         nRecordOffset = psDBF->nRecordLength * STATIC_CAST(SAOffset, i) +
                         psDBF->nHeaderLength;
 
@@ -25094,6 +25756,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -25367,12 +26030,16 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         nRecordOffset =
             psDBF->nRecordLength * (SAOffset)i + psDBF->nHeaderLength;
 
         /* move record to the new place */
         psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
         psDBF->sHooks.FWrite(pszRecord, psDBF->nRecordLength, 1, psDBF->fp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -25415,6 +26082,9 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
 
     /* free record */
@@ -25435,6 +26105,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 /*                          DBFReadAttribute()                          */
 /*                                                                      */
 /*      Read one of the attribute fields of a record.                   */
+
 /************************************************************************/
 
 static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
@@ -25472,6 +26143,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -25550,6 +26222,8 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     /* -------------------------------------------------------------------- */
     /*      Verify selection.                                               */
     /* -------------------------------------------------------------------- */
@@ -26221,6 +26895,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
@@ -26271,6 +26946,30 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    unsigned char *pabyRec;
+    void *pReturnField = NULL;
+
+    /* -------------------------------------------------------------------- */
+    /*      Verify selection.                                               */
+    /* -------------------------------------------------------------------- */
+    if (hEntity < 0 || hEntity >= psDBF->nRecords)
+        return (NULL);
+
+    if (iField < 0 || iField >= psDBF->nFields)
+        return (NULL);
+
+    /* -------------------------------------------------------------------- */
+    /*      Have we read the record?                                        */
+    /* -------------------------------------------------------------------- */
+    if (!DBFLoadRecord(psDBF, hEntity))
+        return NULL;
+
+    pabyRec = (unsigned char *)psDBF->pszCurrentRecord;
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     /* -------------------------------------------------------------------- */
     /*      Ensure we have room to extract the target field.                */
     /* -------------------------------------------------------------------- */
@@ -26308,6 +27007,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -26387,18 +27087,28 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         if (psDBF->pszWorkField == SHPLIB_NULLPTR)
             psDBF->pszWorkField =
                 STATIC_CAST(char *, malloc(psDBF->nWorkFieldLength));
         else
             psDBF->pszWorkField = STATIC_CAST(
                 char *, realloc(psDBF->pszWorkField, psDBF->nWorkFieldLength));
+=======
+        if (psDBF->pszWorkField == NULL)
+            psDBF->pszWorkField = (char *)malloc(psDBF->nWorkFieldLength);
+        else
+            psDBF->pszWorkField =
+                (char *)realloc(psDBF->pszWorkField, psDBF->nWorkFieldLength);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* -------------------------------------------------------------------- */
     /*      Extract the requested field.                                    */
     /* -------------------------------------------------------------------- */
     memcpy(psDBF->pszWorkField,
+<<<<<<< HEAD
            REINTERPRET_CAST(const char *, pabyRec) +
                psDBF->panFieldOffset[iField],
 =======
@@ -26981,6 +27691,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -27075,6 +27786,11 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+           ((const char *)pabyRec) + psDBF->panFieldOffset[iField],
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
            psDBF->panFieldSize[iField]);
     psDBF->pszWorkField[psDBF->panFieldSize[iField]] = '\0';
 
@@ -27095,9 +27811,9 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
         pReturnField = &(psDBF->fieldValue.dfDoubleField);
     }
 
-/* -------------------------------------------------------------------- */
-/*      Should we trim white space off the string attribute value?      */
-/* -------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------- */
+    /*      Should we trim white space off the string attribute value?      */
+    /* -------------------------------------------------------------------- */
 #ifdef TRIM_DBF_WHITESPACE
     else {
 <<<<<<< HEAD
@@ -27132,6 +27848,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -27205,6 +27922,8 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         char *pchSrc = psDBF->pszWorkField;
         char *pchDst = pchSrc;
 
@@ -27515,6 +28234,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -27589,6 +28309,13 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        char *pchSrc, *pchDst;
+
+        pchDst = pchSrc = psDBF->pszWorkField;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         while (*pchSrc == ' ')
             pchSrc++;
 
@@ -27633,6 +28360,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -27651,6 +28379,8 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     return pReturnField;
 =======
 <<<<<<< HEAD
@@ -27819,6 +28549,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -27929,12 +28660,18 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    return (pReturnField);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 /************************************************************************/
 /*                        DBFReadIntAttribute()                         */
 /*                                                                      */
 /*      Read an integer attribute.                                      */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
@@ -27972,6 +28709,7 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -28051,6 +28789,8 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int *pnValue =
         STATIC_CAST(int *, DBFReadAttribute(psDBF, iRecord, iField, 'I'));
 
@@ -28181,6 +28921,7 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
         return *pnValue;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -28480,6 +29221,9 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int *pnValue;
 
     pnValue = (int *)DBFReadAttribute(psDBF, iRecord, iField, 'I');
@@ -28489,6 +29233,7 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
     else
         return (*pnValue);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28529,12 +29274,16 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 /************************************************************************/
 /*                        DBFReadDoubleAttribute()                      */
 /*                                                                      */
 /*      Read a double attribute.                                        */
+
 /************************************************************************/
 
 double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
@@ -28572,6 +29321,7 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -28651,6 +29401,8 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     double *pdValue =
         STATIC_CAST(double *, DBFReadAttribute(psDBF, iRecord, iField, 'N'));
 
@@ -28781,6 +29533,7 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
         return *pdValue;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -29080,6 +29833,9 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     double *pdValue;
 
     pdValue = (double *)DBFReadAttribute(psDBF, iRecord, iField, 'N');
@@ -29089,6 +29845,7 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
     else
         return (*pdValue);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29129,12 +29886,16 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 /************************************************************************/
 /*                        DBFReadStringAttribute()                      */
 /*                                                                      */
 /*      Read a string attribute.                                        */
+
 /************************************************************************/
 
 const char SHPAPI_CALL1(*)
@@ -29171,6 +29932,7 @@ const char SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -29245,6 +30007,8 @@ const char SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
@@ -29554,6 +30318,7 @@ const char SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -29628,16 +30393,24 @@ const char SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+{
+    return ((const char *)DBFReadAttribute(psDBF, iRecord, iField, 'C'));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 /************************************************************************/
 /*                        DBFReadLogicalAttribute()                     */
 /*                                                                      */
 /*      Read a logical attribute.                                       */
+
 /************************************************************************/
 
 const char SHPAPI_CALL1(*)
     DBFReadLogicalAttribute(DBFHandle psDBF, int iRecord, int iField)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29744,6 +30517,8 @@ const char SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
@@ -30081,6 +30856,7 @@ SHPDate SHPAPI_CALL DBFReadDateAttribute(DBFHandle psDBF, int iRecord,
 }
 
 =======
+<<<<<<< HEAD
 =======
 {
     return ((const char *)DBFReadAttribute(psDBF, iRecord, iField, 'L'));
@@ -30163,12 +30939,21 @@ SHPDate SHPAPI_CALL DBFReadDateAttribute(DBFHandle psDBF, int iRecord,
 }
 
 >>>>>>> osgeo-main
+=======
+{
+    return ((const char *)DBFReadAttribute(psDBF, iRecord, iField, 'L'));
+}
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 /*                         DBFIsValueNULL()                             */
 /*                                                                      */
 /*      Return TRUE if the passed string is NULL.                       */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30219,6 +31004,8 @@ SHPDate SHPAPI_CALL DBFReadDateAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 static bool DBFIsValueNULL(char chType, const char *pszValue)
 =======
 <<<<<<< HEAD
@@ -30307,6 +31094,7 @@ static int DBFIsValueNULL(char chType, const char *pszValue)
 static bool DBFIsValueNULL(char chType, const char *pszValue)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30428,10 +31216,16 @@ static int DBFIsValueNULL(char chType, const char *pszValue)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+static int DBFIsValueNULL(char chType, const char *pszValue)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     if (pszValue == SHPLIB_NULLPTR)
         return true;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30508,6 +31302,8 @@ static int DBFIsValueNULL(char chType, const char *pszValue)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
     if (pszValue == NULL)
         return TRUE;
@@ -30646,6 +31442,7 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30718,10 +31515,13 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
     if (pszValue == NULL)
         return TRUE;
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30777,6 +31577,8 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     switch (chType) {
     case 'N':
     case 'F':
@@ -30814,6 +31616,7 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -30854,6 +31657,8 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         ** We accept all asterisks or all blanks as NULL
@@ -30985,6 +31790,17 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
         for (int i = 0; pszValue[i] != '\0'; i++) {
             if (pszValue[i] != ' ')
 <<<<<<< HEAD
+=======
+         ** We accept all asterisks or all blanks as NULL
+         ** though according to the spec I think it should be all
+         ** asterisks.
+         */
+        if (pszValue[0] == '*')
+            return TRUE;
+
+        for (i = 0; pszValue[i] != '\0'; i++) {
+            if (pszValue[i] != ' ')
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 return FALSE;
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -31327,6 +32143,7 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 
     case 'D':
         /* NULL date fields have value "00000000" */
+<<<<<<< HEAD
         /* Some DBF files have fields filled with spaces */
         /* (trimmed by DBFReadStringAttribute) to indicate null */
         /* values for dates (#4265). */
@@ -31337,6 +32154,9 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
          * https://github.com/OSGeo/gdal/issues/10405 */
         return pszValue[0] == 0 || strncmp(pszValue, "00000000", 8) == 0 ||
                strcmp(pszValue, " ") == 0 || strcmp(pszValue, "0") == 0;
+=======
+        return strncmp(pszValue, "00000000", 8) == 0;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     case 'L':
         /* NULL boolean fields have value "?" */
@@ -31354,8 +32174,10 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 /*      Return TRUE if value for field is NULL.                         */
 /*                                                                      */
 /*      Contributed by Jim Matthews.                                    */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle psDBF, int iRecord,
                                    int iField)
 {
@@ -31674,6 +32496,7 @@ int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -31726,11 +32549,17 @@ int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle psDBF, int iRecord,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+=======
+int SHPAPI_CALL DBFIsAttributeNULL(DBFHandle psDBF, int iRecord, int iField)
+{
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     const char *pszValue;
 
     pszValue = DBFReadStringAttribute(psDBF, iRecord, iField);
 
     if (pszValue == NULL)
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31929,6 +32758,9 @@ int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         return TRUE;
 
     return DBFIsValueNULL(psDBF->pachFieldType[iField], pszValue);
@@ -31938,8 +32770,10 @@ int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle psDBF, int iRecord,
 /*                          DBFGetFieldCount()                          */
 /*                                                                      */
 /*      Return the number of fields in this table.                      */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 int SHPAPI_CALL DBFGetFieldCount(const DBFHandle psDBF)
 =======
@@ -32213,6 +33047,7 @@ int SHPAPI_CALL DBFGetFieldCount(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -32251,6 +33086,11 @@ int SHPAPI_CALL DBFGetFieldCount(DBFHandle psDBF)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+int SHPAPI_CALL DBFGetFieldCount(DBFHandle psDBF)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     return (psDBF->nFields);
 }
@@ -32259,8 +33099,10 @@ int SHPAPI_CALL DBFGetFieldCount(DBFHandle psDBF)
 /*                         DBFGetRecordCount()                          */
 /*                                                                      */
 /*      Return the number of records in this table.                     */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 int SHPAPI_CALL DBFGetRecordCount(const DBFHandle psDBF)
 =======
@@ -32534,6 +33376,7 @@ int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -32572,6 +33415,11 @@ int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     return (psDBF->nRecords);
 }
@@ -32580,6 +33428,7 @@ int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
 /*                          DBFGetFieldInfo()                           */
 /*                                                                      */
 /*      Return any requested information about the field.               */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32630,6 +33479,8 @@ int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /*      pszFieldName must be at least XBASE_FLDNAME_LEN_READ+1 (=12)    */
 /*      bytes long.                                                     */
 =======
@@ -33233,6 +34084,7 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -33272,10 +34124,21 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+
+/************************************************************************/
+
+DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
+                                         char *pszFieldName, int *pnWidth,
+                                         int *pnDecimals)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     if (iField < 0 || iField >= psDBF->nFields)
         return (FTInvalid);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33387,6 +34250,8 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (pnWidth != SHPLIB_NULLPTR)
         *pnWidth = psDBF->panFieldSize[iField];
 
@@ -33939,6 +34804,7 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -33950,12 +34816,29 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+    if (pnWidth != NULL)
+        *pnWidth = psDBF->panFieldSize[iField];
+
+    if (pnDecimals != NULL)
+        *pnDecimals = psDBF->panFieldDecimals[iField];
+
+    if (pszFieldName != NULL) {
+        int i;
+
+        strncpy(pszFieldName, (char *)psDBF->pszHeader + iField * 32, 11);
+        pszFieldName[11] = '\0';
+        for (i = 10; i > 0 && pszFieldName[i] == ' '; i--)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             pszFieldName[i] = '\0';
     }
 
     if (psDBF->pachFieldType[iField] == 'L')
         return (FTLogical);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34061,6 +34944,8 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     else if (psDBF->pachFieldType[iField] == 'D')
         return (FTDate);
 
@@ -34600,11 +35485,22 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    else if (psDBF->pachFieldType[iField] == 'N' ||
+             psDBF->pachFieldType[iField] == 'F') {
+        if (psDBF->panFieldDecimals[iField] > 0)
+            /*            || psDBF->panFieldSize[iField] >= 10 ) */ /* GDAL bug
+                                                                       #809 */
+            return (FTDouble);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         else
             return (FTInteger);
     }
@@ -34615,6 +35511,7 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 
 /************************************************************************/
 /*                         DBFWriteAttribute()                          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34723,6 +35620,8 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /*                                                                      */
 /*      Write an attribute record to the file.                          */
 =======
@@ -34931,6 +35830,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -35181,6 +36081,28 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+/*                                                                      */
+/*      Write an attribute record to the file.                          */
+
+/************************************************************************/
+
+static int DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
+                             void *pValue)
+{
+    int i, j, nRetResult = TRUE;
+    unsigned char *pabyRec;
+    char szSField[400], szFormat[20];
+
+    /* -------------------------------------------------------------------- */
+    /*      Is this a valid record?                                         */
+    /* -------------------------------------------------------------------- */
+    if (hEntity < 0 || hEntity > psDBF->nRecords)
+        return (FALSE);
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (psDBF->bNoHeader)
         DBFWriteHeader(psDBF);
 
@@ -35221,6 +36143,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -35619,6 +36542,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             return false;
 
         psDBF->nRecords++;
@@ -35628,10 +36553,13 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             return FALSE;
 
         psDBF->nRecords++;
         for (i = 0; i < psDBF->nRecordLength; i++)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -35679,7 +36607,14 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
             psDBF->pszCurrentRecord[i] = ' ';
 
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+            psDBF->pszCurrentRecord[i] = ' ';
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         psDBF->nCurrentRecord = hEntity;
     }
 
@@ -35720,6 +36655,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -35793,6 +36729,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         return false;
 
     unsigned char *pabyRec =
@@ -36106,6 +37044,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -36180,6 +37119,13 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        return FALSE;
+
+    pabyRec = (unsigned char *)psDBF->pszCurrentRecord;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     psDBF->bCurrentRecordModified = TRUE;
     psDBF->bUpdated = TRUE;
@@ -36221,6 +37167,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -36300,6 +37247,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (pValue == SHPLIB_NULLPTR) {
         memset(pabyRec + psDBF->panFieldOffset[iField],
                DBFGetNullCharacter(psDBF->pachFieldType[iField]),
@@ -36387,6 +37336,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -36453,6 +37403,10 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (pValue == NULL) {
         memset((char *)(pabyRec + psDBF->panFieldOffset[iField]),
                DBFGetNullCharacter(psDBF->pachFieldType[iField]),
@@ -36785,6 +37739,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -36864,6 +37819,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     bool nRetResult = true;
 
     switch (psDBF->pachFieldType[iField]) {
@@ -37357,13 +38314,28 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    switch (psDBF->pachFieldType[iField]) {
+    case 'D':
+    case 'N':
+    case 'F': {
+        int nWidth = psDBF->panFieldSize[iField];
+
+        if ((int)sizeof(szSField) - 2 < nWidth)
+            nWidth = sizeof(szSField) - 2;
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         snprintf(szFormat, sizeof(szFormat), "%%%d.%df", nWidth,
                  psDBF->panFieldDecimals[iField]);
         snprintf(szSField, sizeof(szSField), szFormat, *((double *)pValue));
         if ((int)strlen(szSField) > psDBF->panFieldSize[iField]) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37395,6 +38367,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -37421,9 +38395,12 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
         if (STATIC_CAST(int, strlen(szSField)) > psDBF->panFieldSize[iField]) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             szSField[psDBF->panFieldSize[iField]] = '\0';
             nRetResult = false;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37589,6 +38566,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -37609,9 +38587,12 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
         strncpy((char *)(pabyRec + psDBF->panFieldOffset[iField]), szSField,
                 strlen(szSField));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -37819,6 +38800,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         break;
     }
 
@@ -37856,6 +38839,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -37899,6 +38883,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
             (*STATIC_CAST(char *, pValue) == 'F' ||
@@ -38350,6 +39336,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -38553,6 +39540,18 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+            (*(char *)pValue == 'F' || *(char *)pValue == 'T'))
+            *(pabyRec + psDBF->panFieldOffset[iField]) = *(char *)pValue;
+        break;
+
+    default:
+        if ((int)strlen((char *)pValue) > psDBF->panFieldSize[iField]) {
+            j = psDBF->panFieldSize[iField];
+            nRetResult = FALSE;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         }
         else {
             memset(pabyRec + psDBF->panFieldOffset[iField], ' ',
@@ -38589,6 +39588,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -38654,6 +39654,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             j = STATIC_CAST(int, strlen(STATIC_CAST(char *, pValue)));
 =======
             j = (int)strlen((char *)pValue);
@@ -38900,6 +39902,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
     return nRetResult;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -39115,6 +40118,19 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+            j = (int)strlen((char *)pValue);
+        }
+
+        strncpy((char *)(pabyRec + psDBF->panFieldOffset[iField]),
+                (char *)pValue, j);
+        break;
+    }
+
+    return (nRetResult);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 /************************************************************************/
@@ -39123,9 +40139,11 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 /*      Write an attribute record to the file, but without any          */
 /*      reformatting based on type.  The provided buffer is written     */
 /*      as is to the field position in the record.                      */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
+<<<<<<< HEAD
                                           int iField, const void *pValue)
 {
 <<<<<<< HEAD
@@ -39397,6 +40415,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -39632,6 +40651,11 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+                                          int iField, void *pValue)
+{
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int i, j;
     unsigned char *pabyRec;
 
@@ -39641,6 +40665,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
     if (hEntity < 0 || hEntity > psDBF->nRecords)
         return (FALSE);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -39669,6 +40694,9 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (psDBF->bNoHeader)
         DBFWriteHeader(psDBF);
 
@@ -39712,6 +40740,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -39730,6 +40759,8 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         for (int i = 0; i < psDBF->nRecordLength; i++)
 =======
 <<<<<<< HEAD
@@ -39898,6 +40929,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -40008,6 +41040,11 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        for (i = 0; i < psDBF->nRecordLength; i++)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             psDBF->pszCurrentRecord[i] = ' ';
 
         psDBF->nCurrentRecord = hEntity;
@@ -40052,6 +41089,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -40150,6 +41188,8 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (iField >= 0) {
         unsigned char *pabyRec =
             REINTERPRET_CAST(unsigned char *, psDBF->pszCurrentRecord);
@@ -40748,6 +41788,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -40830,6 +41871,16 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    pabyRec = (unsigned char *)psDBF->pszCurrentRecord;
+
+    /* -------------------------------------------------------------------- */
+    /*      Assign all the record fields.                                   */
+    /* -------------------------------------------------------------------- */
+    if ((int)strlen((char *)pValue) > psDBF->panFieldSize[iField])
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         j = psDBF->panFieldSize[iField];
     else {
         memset(pabyRec + psDBF->panFieldOffset[iField], ' ',
@@ -40866,6 +41917,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -40944,6 +41996,8 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         j = STATIC_CAST(int, strlen(STATIC_CAST(char *, pValue)));
     }
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -40962,6 +42016,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -40975,11 +42030,15 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         j = (int)strlen((char *)pValue);
     }
 
     strncpy((char *)(pabyRec + psDBF->panFieldOffset[iField]), (char *)pValue,
             j);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40991,6 +42050,8 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -41434,11 +42495,16 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     psDBF->bCurrentRecordModified = TRUE;
     psDBF->bUpdated = TRUE;
@@ -41450,6 +42516,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 /*                      DBFWriteDoubleAttribute()                       */
 /*                                                                      */
 /*      Write a double attribute.                                       */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
@@ -41487,6 +42554,7 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -41505,6 +42573,8 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     return (DBFWriteAttribute(psDBF, iRecord, iField,
                               STATIC_CAST(void *, &dValue)));
 =======
@@ -41693,6 +42763,7 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -41807,6 +42878,11 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)&dValue));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 /************************************************************************/
@@ -41821,16 +42897,20 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41844,6 +42924,11 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle psDBF, int iRecord,
@@ -41883,6 +42968,7 @@ int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -41901,6 +42987,8 @@ int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     return (DBFWriteAttribute(psDBF, iRecord, iField,
                               STATIC_CAST(void *, &dValue)));
 =======
@@ -42089,6 +43177,7 @@ int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -42203,16 +43292,23 @@ int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)&dValue));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 /************************************************************************/
 /*                      DBFWriteStringAttribute()                       */
 /*                                                                      */
 /*      Write a string attribute.                                       */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
                                         int iField, const char *pszValue)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42319,6 +43415,8 @@ int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
@@ -42631,6 +43729,7 @@ int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -42705,6 +43804,12 @@ int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+{
+    return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)pszValue));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 /************************************************************************/
@@ -42721,6 +43826,7 @@ int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle psDBF, int iRecord, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -42730,6 +43836,9 @@ int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle psDBF, int iRecord, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle psDBF, int iRecord, int iField)
@@ -42765,6 +43874,7 @@ int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle psDBF, int iRecord, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -42966,6 +44076,8 @@ int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle psDBF, int iRecord, int iField)
 =======
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -43174,17 +44286,25 @@ int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle psDBF, int iRecord, int iField)
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+{
+    return (DBFWriteAttribute(psDBF, iRecord, iField, NULL));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 /************************************************************************/
 /*                      DBFWriteLogicalAttribute()                      */
 /*                                                                      */
 /*      Write a logical attribute.                                      */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
@@ -43221,6 +44341,7 @@ int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -43295,6 +44416,8 @@ int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
@@ -43812,7 +44935,14 @@ int SHPAPI_CALL DBFWriteDateAttribute(DBFHandle psDBF, int iRecord, int iField,
     snprintf(dateValue, sizeof(dateValue), "%04d%02d%02d", lValue->year,
              lValue->month, lValue->day);
     return (DBFWriteAttributeDirectly(psDBF, iRecord, iField, dateValue));
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+{
+    return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)(&lValue)));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 /************************************************************************/
@@ -43941,6 +45071,7 @@ int SHPAPI_CALL DBFWriteDateAttribute(DBFHandle psDBF, int iRecord, int iField,
 >>>>>>> osgeo-main
 /*                                                                      */
 /*      Write an attribute record to the file.                          */
+<<<<<<< HEAD
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -44135,6 +45266,9 @@ int SHPAPI_CALL DBFWriteDateAttribute(DBFHandle psDBF, int iRecord, int iField,
 /*                                                                      */
 /*      Write an attribute record to the file.                          */
 >>>>>>> osgeo-main
+=======
+<<<<<<< HEAD
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
@@ -44409,6 +45543,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -44644,6 +45779,14 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+/************************************************************************/
+
+int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity, void *pRawTuple)
+{
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int i;
     unsigned char *pabyRec;
 
@@ -44653,6 +45796,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
     if (hEntity < 0 || hEntity > psDBF->nRecords)
         return (FALSE);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -44681,6 +45825,9 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (psDBF->bNoHeader)
         DBFWriteHeader(psDBF);
 
@@ -44724,6 +45871,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -44742,6 +45890,8 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         for (int i = 0; i < psDBF->nRecordLength; i++)
 =======
 <<<<<<< HEAD
@@ -44910,6 +46060,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -45020,6 +46171,11 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        for (i = 0; i < psDBF->nRecordLength; i++)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             psDBF->pszCurrentRecord[i] = ' ';
 
         psDBF->nCurrentRecord = hEntity;
@@ -45064,6 +46220,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -45082,6 +46239,8 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     unsigned char *pabyRec =
         REINTERPRET_CAST(unsigned char *, psDBF->pszCurrentRecord);
 =======
@@ -45270,6 +46429,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -45384,6 +46544,11 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    pabyRec = (unsigned char *)psDBF->pszCurrentRecord;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     memcpy(pabyRec, pRawTuple, psDBF->nRecordLength);
 
@@ -45398,9 +46563,11 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 /*                                                                      */
 /*      Read a complete record.  Note that the result is only valid     */
 /*      till the next record read for any reason.                       */
+
 /************************************************************************/
 
 const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45463,6 +46630,8 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
@@ -45755,6 +46924,7 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -45936,6 +47106,9 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     if (hEntity < 0 || hEntity >= psDBF->nRecords)
         return (NULL);
@@ -45944,6 +47117,7 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
         return NULL;
 
     return (const char *)psDBF->pszCurrentRecord;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46076,6 +47250,9 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 /************************************************************************/
@@ -46091,12 +47268,15 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -47099,6 +48279,7 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -47139,6 +48320,52 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+/************************************************************************/
+
+DBFHandle SHPAPI_CALL DBFCloneEmpty(DBFHandle psDBF, const char *pszFilename)
+{
+    DBFHandle newDBF;
+
+    newDBF = DBFCreateEx(pszFilename, psDBF->pszCodePage);
+    if (newDBF == NULL)
+        return (NULL);
+
+    newDBF->nFields = psDBF->nFields;
+    newDBF->nRecordLength = psDBF->nRecordLength;
+    newDBF->nHeaderLength = psDBF->nHeaderLength;
+
+    if (psDBF->pszHeader) {
+        newDBF->pszHeader = (char *)malloc(XBASE_FLDHDR_SZ * psDBF->nFields);
+        memcpy(newDBF->pszHeader, psDBF->pszHeader,
+               XBASE_FLDHDR_SZ * psDBF->nFields);
+    }
+
+    newDBF->panFieldOffset = (int *)malloc(sizeof(int) * psDBF->nFields);
+    memcpy(newDBF->panFieldOffset, psDBF->panFieldOffset,
+           sizeof(int) * psDBF->nFields);
+    newDBF->panFieldSize = (int *)malloc(sizeof(int) * psDBF->nFields);
+    memcpy(newDBF->panFieldSize, psDBF->panFieldSize,
+           sizeof(int) * psDBF->nFields);
+    newDBF->panFieldDecimals = (int *)malloc(sizeof(int) * psDBF->nFields);
+    memcpy(newDBF->panFieldDecimals, psDBF->panFieldDecimals,
+           sizeof(int) * psDBF->nFields);
+    newDBF->pachFieldType = (char *)malloc(sizeof(char) * psDBF->nFields);
+    memcpy(newDBF->pachFieldType, psDBF->pachFieldType,
+           sizeof(char) * psDBF->nFields);
+
+    newDBF->bNoHeader = TRUE;
+    newDBF->bUpdated = TRUE;
+
+    DBFWriteHeader(newDBF);
+    DBFClose(newDBF);
+
+    newDBF = DBFOpen(pszFilename, "rb+");
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     return (newDBF);
 }
 
@@ -47151,8 +48378,10 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
 /*                           'N' (Numeric, with or without decimal),    */
 /*                           'L' (Logical),                             */
 /*                           'M' (Memo: 10 digits .DBT block ptr)       */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 char SHPAPI_CALL DBFGetNativeFieldType(const DBFHandle psDBF, int iField)
 =======
@@ -47426,6 +48655,7 @@ char SHPAPI_CALL DBFGetNativeFieldType(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -47464,11 +48694,17 @@ char SHPAPI_CALL DBFGetNativeFieldType(DBFHandle psDBF, int iField)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+char SHPAPI_CALL DBFGetNativeFieldType(DBFHandle psDBF, int iField)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     if (iField >= 0 && iField < psDBF->nFields)
         return psDBF->pachFieldType[iField];
 
     return ' ';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47576,10 +48812,14 @@ char SHPAPI_CALL DBFGetNativeFieldType(DBFHandle psDBF, int iField)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -47598,6 +48838,7 @@ static void str_to_upper(char *string)
     while (++i < len)
         if (isalpha(string[i]) && islower(string[i]))
             string[i] = (char)toupper((int)string[i]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -47780,6 +49021,7 @@ static void str_to_upper(char *string)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 }
 
@@ -47864,6 +49106,10 @@ static void str_to_upper(char *string)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 }
 
 /************************************************************************/
@@ -47929,8 +49175,10 @@ static void str_to_upper(char *string)
 /*      Get the index number for a field in a .dbf file.                */
 /*                                                                      */
 /*      Contributed by Jim Matthews.                                    */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
                                  const char *pszFieldName)
 {
@@ -48187,6 +49435,7 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
@@ -48266,6 +49515,15 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName)
+{
+    char name[12], name1[12], name2[12];
+    int i;
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     strncpy(name1, pszFieldName, 11);
     name1[11] = '\0';
     str_to_upper(name1);
@@ -48276,6 +49534,7 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
         str_to_upper(name2);
 
         if (!strncmp(name1, name2, 10))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48343,6 +49602,8 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -48538,6 +49799,7 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -48628,6 +49890,10 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             return (i);
     }
     return (-1);
@@ -48638,9 +49904,14 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
 /*                                                                      */
 /*      Returns TRUE if the indicated record is deleted, otherwise      */
 /*      it returns FALSE.                                               */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 int SHPAPI_CALL DBFIsRecordDeleted(const DBFHandle psDBF, int iShape)
+=======
+int SHPAPI_CALL DBFIsRecordDeleted(DBFHandle psDBF, int iShape)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
     /* -------------------------------------------------------------------- */
     /*      Verify selection.                                               */
@@ -48681,6 +49952,7 @@ int SHPAPI_CALL DBFIsRecordDeleted(const DBFHandle psDBF, int iShape)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -48754,6 +50026,8 @@ int SHPAPI_CALL DBFIsRecordDeleted(const DBFHandle psDBF, int iShape)
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     /*      Have we read the record?                                        */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -49050,11 +50324,17 @@ int SHPAPI_CALL DBFIsRecordDeleted(const DBFHandle psDBF, int iShape)
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    /*      Have we read the record?                                        */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     /* -------------------------------------------------------------------- */
     if (!DBFLoadRecord(psDBF, iShape))
         return FALSE;
@@ -49067,6 +50347,7 @@ int SHPAPI_CALL DBFIsRecordDeleted(const DBFHandle psDBF, int iShape)
 
 /************************************************************************/
 /*                        DBFMarkRecordDeleted()                        */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
@@ -49217,8 +50498,10 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
 =======
 >>>>>>> osgeo-main
 
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
@@ -49328,6 +50611,9 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     /* -------------------------------------------------------------------- */
     /*      Verify selection.                                               */
     /* -------------------------------------------------------------------- */
@@ -49344,6 +50630,7 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
     /* -------------------------------------------------------------------- */
     /*      Assign value, marking record as dirty if it changes.            */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49414,6 +50701,8 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     char chNewFlag;
 <<<<<<< HEAD
 =======
@@ -49577,6 +50866,7 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -49663,6 +50953,10 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (bIsDeleted)
         chNewFlag = '*';
     else
@@ -49679,8 +50973,10 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
 
 /************************************************************************/
 /*                            DBFGetCodePage                            */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 const char SHPAPI_CALL1(*) DBFGetCodePage(const DBFHandle psDBF)
 {
 <<<<<<< HEAD
@@ -49822,6 +51118,10 @@ const char SHPAPI_CALL1(*) DBFGetCodePage(const DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+const char SHPAPI_CALL1(*) DBFGetCodePage(DBFHandle psDBF)
+{
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF == NULL)
         return NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -49990,6 +51290,7 @@ const char SHPAPI_CALL1(*) DBFGetCodePage(const DBFHandle psDBF)
 /*                          DBFDeleteField()                            */
 /*                                                                      */
 /*      Remove a field from a .dbf file                                 */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
@@ -50404,6 +51705,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -50422,6 +51724,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     for (int i = iField + 1; i < psDBF->nFields; i++) {
 =======
 <<<<<<< HEAD
@@ -50590,6 +51894,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -50700,6 +52005,11 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    for (i = iField + 1; i < psDBF->nFields; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         psDBF->panFieldOffset[i - 1] =
             psDBF->panFieldOffset[i] - nDeletedFieldSize;
         psDBF->panFieldSize[i - 1] = psDBF->panFieldSize[i];
@@ -50742,6 +52052,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -50820,6 +52131,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     psDBF->panFieldOffset = STATIC_CAST(
         int *, realloc(psDBF->panFieldOffset, sizeof(int) * psDBF->nFields));
 
@@ -51413,17 +52726,34 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    psDBF->panFieldOffset =
+        (int *)SfRealloc(psDBF->panFieldOffset, sizeof(int) * psDBF->nFields);
+
+    psDBF->panFieldSize =
+        (int *)SfRealloc(psDBF->panFieldSize, sizeof(int) * psDBF->nFields);
+
+    psDBF->panFieldDecimals =
+        (int *)SfRealloc(psDBF->panFieldDecimals, sizeof(int) * psDBF->nFields);
+
+    psDBF->pachFieldType =
+        (char *)SfRealloc(psDBF->pachFieldType, sizeof(char) * psDBF->nFields);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     /* update header information */
     psDBF->nHeaderLength -= XBASE_FLDHDR_SZ;
     psDBF->nRecordLength -= nDeletedFieldSize;
 
     /* overwrite field information in header */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51534,6 +52864,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     memmove(psDBF->pszHeader + iField * XBASE_FLDHDR_SZ,
             psDBF->pszHeader + (iField + 1) * XBASE_FLDHDR_SZ,
             sizeof(char) * (psDBF->nFields - iField) * XBASE_FLDHDR_SZ);
@@ -52100,11 +53432,25 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    memmove(psDBF->pszHeader + iField * 32,
+            psDBF->pszHeader + (iField + 1) * 32,
+            sizeof(char) * (psDBF->nFields - iField) * 32);
+
+    psDBF->pszHeader = (char *)SfRealloc(psDBF->pszHeader, psDBF->nFields * 32);
+
+    /* update size of current record appropriately */
+    psDBF->pszCurrentRecord =
+        (char *)SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     /* we're done if we're dealing with not yet created .dbf */
     if (psDBF->bNoHeader && psDBF->nRecords == 0)
@@ -52115,6 +53461,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
     DBFUpdateHeader(psDBF);
 
     /* alloc record */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52226,6 +53573,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     char *pszRecord =
         STATIC_CAST(char *, malloc(sizeof(char) * nOldRecordLength));
 
@@ -52539,15 +53888,29 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    pszRecord = (char *)malloc(sizeof(char) * nOldRecordLength);
+
+    /* shift records to their new positions */
+    for (iRecord = 0; iRecord < psDBF->nRecords; iRecord++) {
+        nRecordOffset = nOldRecordLength * (SAOffset)iRecord + nOldHeaderLength;
+
+        /* load record */
+        psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         psDBF->sHooks.FRead(pszRecord, nOldRecordLength, 1, psDBF->fp);
 
         nRecordOffset =
             psDBF->nRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52615,6 +53978,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -52847,6 +54212,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -52937,6 +54303,10 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
         /* move record in two steps */
         psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
@@ -52945,6 +54315,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
             pszRecord + nDeletedFieldOffset + nDeletedFieldSize,
             nOldRecordLength - nDeletedFieldOffset - nDeletedFieldSize, 1,
             psDBF->fp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53041,6 +54412,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
 
     if (psDBF->bWriteEndOfFileChar) {
@@ -53195,6 +54568,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -53330,6 +54704,10 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
 
     /* TODO: truncate file */
@@ -53350,11 +54728,16 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 /*      Reorder the fields of a .dbf file                               */
 /*                                                                      */
 /* panMap must be exactly psDBF->nFields long and be a permutation      */
-/* of [0, psDBF->nFields-1]. This assumption will not be asserted in the*/
+/* of [0, psDBF->nFields-1]. This assumption will not be asserted in the */
 /* code of DBFReorderFields.                                            */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
+=======
+int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53545,6 +54928,7 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -53585,6 +54969,8 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -53652,6 +55038,7 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53757,6 +55144,10 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (psDBF->nFields == 0)
         return TRUE;
 
@@ -53766,6 +55157,7 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 
     /* a simple malloc() would be enough, but calloc() helps clang static
      * analyzer */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53817,6 +55209,8 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -54537,11 +55931,31 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    panFieldOffsetNew = (int *)calloc(sizeof(int), psDBF->nFields);
+    panFieldSizeNew = (int *)malloc(sizeof(int) * psDBF->nFields);
+    panFieldDecimalsNew = (int *)malloc(sizeof(int) * psDBF->nFields);
+    pachFieldTypeNew = (char *)malloc(sizeof(char) * psDBF->nFields);
+    pszHeaderNew = (char *)malloc(sizeof(char) * 32 * psDBF->nFields);
+
+    /* shuffle fields definitions */
+    for (i = 0; i < psDBF->nFields; i++) {
+        panFieldSizeNew[i] = psDBF->panFieldSize[panMap[i]];
+        panFieldDecimalsNew[i] = psDBF->panFieldDecimals[panMap[i]];
+        pachFieldTypeNew[i] = psDBF->pachFieldType[panMap[i]];
+        memcpy(pszHeaderNew + i * 32, psDBF->pszHeader + panMap[i] * 32, 32);
+    }
+    panFieldOffsetNew[0] = 1;
+    for (i = 1; i < psDBF->nFields; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         panFieldOffsetNew[i] =
             panFieldOffsetNew[i - 1] + panFieldSizeNew[i - 1];
     }
@@ -54590,6 +56004,7 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -54609,6 +56024,8 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -55344,11 +56761,31 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        pszRecord = (char *)malloc(sizeof(char) * psDBF->nRecordLength);
+        pszRecordNew = (char *)malloc(sizeof(char) * psDBF->nRecordLength);
+
+        /* shuffle fields in records */
+        for (iRecord = 0; iRecord < psDBF->nRecords; iRecord++) {
+            nRecordOffset =
+                psDBF->nRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+
+            /* load record */
+            psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
+            psDBF->sHooks.FRead(pszRecord, psDBF->nRecordLength, 1, psDBF->fp);
+
+            pszRecordNew[0] = pszRecord[0];
+
+            for (i = 0; i < psDBF->nFields; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 memcpy(pszRecordNew + panFieldOffsetNew[i],
                        pszRecord + psDBF->panFieldOffset[panMap[i]],
                        psDBF->panFieldSize[panMap[i]]);
@@ -55397,12 +56834,14 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 /*                          DBFAlterFieldDefn()                         */
 /*                                                                      */
 /*      Alter a field definition in a .dbf file                         */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
                                   const char *pszFieldName, char chType,
                                   int nWidth, int nDecimals)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55493,10 +56932,13 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55587,6 +57029,10 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int i;
     int iRecord;
     int nOffset;
@@ -55856,6 +57302,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -55866,6 +57313,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (nWidth > XBASE_FLD_MAX_WIDTH)
         nWidth = XBASE_FLD_MAX_WIDTH;
 =======
@@ -55963,6 +57412,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     if (nWidth > 255)
         nWidth = 255;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -56167,6 +57618,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -56246,6 +57698,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * iField;
 
     for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
@@ -56514,15 +57968,26 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    pszFInfo = psDBF->pszHeader + 32 * iField;
+
+    for (i = 0; i < 32; i++)
+        pszFInfo[i] = '\0';
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if ((int)strlen(pszFieldName) < 10)
         strncpy(pszFInfo, pszFieldName, strlen(pszFieldName));
     else
         strncpy(pszFInfo, pszFieldName, 10);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56590,6 +58055,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -56683,6 +58150,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -56769,6 +58237,10 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     pszFInfo[11] = psDBF->pachFieldType[iField];
 
@@ -56805,6 +58277,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -56884,6 +58357,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         pszFInfo[16] = STATIC_CAST(unsigned char, nWidth % 256);
         pszFInfo[17] = STATIC_CAST(unsigned char, nWidth / 256);
     }
@@ -57341,6 +58816,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -57352,6 +58828,16 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+        pszFInfo[16] = (unsigned char)(nWidth % 256);
+        pszFInfo[17] = (unsigned char)(nWidth / 256);
+    }
+    else {
+        pszFInfo[16] = (unsigned char)nWidth;
+        pszFInfo[17] = (unsigned char)nDecimals;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
 
     /* -------------------------------------------------------------------- */
@@ -57390,6 +58876,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -57468,6 +58955,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         for (int i = iField + 1; i < psDBF->nFields; i++)
             psDBF->panFieldOffset[i] += nWidth - nOldWidth;
         psDBF->nRecordLength += nWidth - nOldWidth;
@@ -57966,11 +59455,22 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        for (i = iField + 1; i < psDBF->nFields; i++)
+            psDBF->panFieldOffset[i] += nWidth - nOldWidth;
+        psDBF->nRecordLength += nWidth - nOldWidth;
+
+        psDBF->pszCurrentRecord =
+            (char *)SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
 
     /* we're done if we're dealing with not yet created .dbf */
@@ -57981,6 +59481,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
     psDBF->bNoHeader = TRUE;
     DBFUpdateHeader(psDBF);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58039,6 +59540,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     bool errorAbort = false;
 =======
 <<<<<<< HEAD
@@ -58368,6 +59871,11 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
             STATIC_CAST(char *, malloc(sizeof(char) * nOldRecordLength));
         char *pszOldField =
             STATIC_CAST(char *, malloc(sizeof(char) * (nOldWidth + 1)));
+=======
+    if (nWidth < nOldWidth || (nWidth == nOldWidth && chType != chOldType)) {
+        char *pszRecord = (char *)malloc(sizeof(char) * nOldRecordLength);
+        char *pszOldField = (char *)malloc(sizeof(char) * (nOldWidth + 1));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
         pszOldField[nOldWidth] = 0;
 
@@ -58404,6 +59912,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -58423,6 +59932,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -59120,11 +60631,29 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        for (iRecord = 0; iRecord < psDBF->nRecords; iRecord++) {
+            nRecordOffset =
+                nOldRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+
+            /* load record */
+            psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
+            psDBF->sHooks.FRead(pszRecord, nOldRecordLength, 1, psDBF->fp);
+
+            memcpy(pszOldField, pszRecord + nOffset, nOldWidth);
+            bIsNULL = DBFIsValueNULL(chOldType, pszOldField);
+
+            if (nWidth != nOldWidth) {
+                if ((chOldType == 'N' || chOldType == 'F') &&
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                     pszOldField[0] == ' ') {
                     /* Strip leading spaces when truncating a numeric field */
                     memmove(pszRecord + nOffset,
@@ -59175,6 +60704,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -59193,6 +60723,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 psDBF->nRecordLength * STATIC_CAST(SAOffset, iRecord) +
                 psDBF->nHeaderLength;
 =======
@@ -59381,6 +60913,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -59495,6 +61028,11 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+                psDBF->nRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
             /* write record */
             psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
@@ -59549,6 +61087,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -59568,6 +61107,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -59850,6 +61391,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -59866,9 +61408,12 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
         char *pszRecord = (char *)malloc(sizeof(char) * psDBF->nRecordLength);
         char *pszOldField = (char *)malloc(sizeof(char) * (nOldWidth + 1));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59950,6 +61495,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
         pszOldField[nOldWidth] = 0;
 
@@ -59986,6 +61533,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -60005,6 +61553,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -60595,6 +62145,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -60706,6 +62257,21 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        for (iRecord = psDBF->nRecords - 1; iRecord >= 0; iRecord--) {
+            nRecordOffset =
+                nOldRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+
+            /* load record */
+            psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
+            psDBF->sHooks.FRead(pszRecord, nOldRecordLength, 1, psDBF->fp);
+
+            memcpy(pszOldField, pszRecord + nOffset, nOldWidth);
+            bIsNULL = DBFIsValueNULL(chOldType, pszOldField);
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             if (nOffset + nOldWidth < nOldRecordLength) {
                 memmove(pszRecord + nOffset + nWidth,
                         pszRecord + nOffset + nOldWidth,
@@ -60763,6 +62329,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -60781,6 +62348,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 psDBF->nRecordLength * STATIC_CAST(SAOffset, iRecord) +
                 psDBF->nHeaderLength;
 =======
@@ -60969,6 +62538,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -61083,10 +62653,16 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+                psDBF->nRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
             /* write record */
             psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
             psDBF->sHooks.FWrite(pszRecord, psDBF->nRecordLength, 1, psDBF->fp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61183,6 +62759,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         }
 
         if (!errorAbort && psDBF->bWriteEndOfFileChar) {
@@ -61339,6 +62917,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -61478,6 +63057,10 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         }
 
         free(pszRecord);

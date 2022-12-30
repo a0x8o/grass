@@ -49,10 +49,14 @@ int Vect_read_colors(const char *name, const char *mapset,
     if (colors)
         Rast_init_colors(colors);
 
+<<<<<<< HEAD
     if (G_strlcpy(xname, name, sizeof(xname)) >= sizeof(xname)) {
         G_warning(_("Vector map name <%s> is too long"), name);
         return -1;
     }
+=======
+    strcpy(xname, name);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     mapset = G_find_vector(xname, mapset);
     if (!mapset)
         return -1;
@@ -61,12 +65,20 @@ int Vect_read_colors(const char *name, const char *mapset,
 
     if (strcmp(mapset, G_mapset()) == 0) {
         /* look for the regular color table */
+<<<<<<< HEAD
         (void)snprintf(buf, sizeof(buf), "%s/%s", GV_DIRECTORY, name);
+=======
+        sprintf(buf, "%s/%s", GV_DIRECTORY, name);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         ret = Rast__read_colors(buf, GV_COLR_ELEMENT, mapset, colors);
     }
     else {
         /* look for secondary color table in current mapset */
+<<<<<<< HEAD
         (void)snprintf(buf, sizeof(buf), "%s/%s", GV_COLR2_DIRECTORY, mapset);
+=======
+        sprintf(buf, "%s/%s", GV_COLR2_DIRECTORY, mapset);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         ret = Rast__read_colors(buf, name, G_mapset(), colors);
     }
     if (ret == -2)

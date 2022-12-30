@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
@@ -125,6 +126,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 # COPYRIGHT:    (C) 2000-2024 by the GRASS Development Team
 =======
 # COPYRIGHT:    (C) 2000-2022 by the GRASS Development Team
@@ -211,6 +214,7 @@
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -344,6 +348,11 @@
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> osgeo-main
+=======
+=======
+# COPYRIGHT:    (C) 2000-2022 by the GRASS Development Team
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #
 #               This program is free software under the GNU General
 #               Public License (>=v2). Read the file COPYING that
@@ -380,7 +389,10 @@ import uuid
 import unicodedata
 import argparse
 import json
+<<<<<<< HEAD
 from pathlib import Path
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 
 # mechanism meant for debugging this script (only)
@@ -430,6 +442,64 @@ CONFIG_PROJSHARE = os.environ.get("GRASS_PROJSHARE", "@CONFIG_PROJSHARE@")
 WINDOWS = sys.platform.startswith("win")
 CYGWIN = sys.platform.startswith("cygwin")
 MACOS = sys.platform.startswith("darwin")
+<<<<<<< HEAD
+=======
+
+
+def decode(bytes_, encoding=ENCODING):
+    """Decode bytes with default locale and return (unicode) string
+    Adapted from grass.script.core.utils.
+
+    No-op if parameter is not bytes (assumed unicode string).
+
+    :param bytes bytes_: the bytes to decode
+    :param encoding: encoding to be used, default value is the system's default
+        encoding or, if that cannot be determined, 'UTF-8'.
+    """
+    if sys.version_info.major >= 3:
+        unicode = str
+    if isinstance(bytes_, unicode):
+        return bytes_
+    elif isinstance(bytes_, bytes):
+        return bytes_.decode(encoding)
+    else:
+        # if something else than text
+        raise TypeError("can only accept types str and bytes")
+
+
+def encode(string, encoding=ENCODING):
+    """Encode string with default locale and return bytes with that encoding
+    Adapted from grass.script.core.utils.
+
+    No-op if parameter is bytes (assumed already encoded).
+    This ensures garbage in, garbage out.
+
+    :param str string: the string to encode
+    :param encoding: encoding to be used, default value is the system's default
+        encoding or, if that cannot be determined, 'UTF-8'.
+    """
+    if sys.version_info.major >= 3:
+        unicode = str
+    if isinstance(string, bytes):
+        return string
+    # this also tests str in Py3:
+    elif isinstance(string, unicode):
+        return string.encode(encoding)
+    else:
+        # if something else than text
+        raise TypeError("can only accept types str and bytes")
+
+
+# see https://trac.osgeo.org/grass/ticket/3508
+def to_text_string(obj, encoding=ENCODING):
+    """Convert `obj` to (unicode) text string"""
+    if six.PY2:
+        # Python 2
+        return encode(obj, encoding=encoding)
+    else:
+        # Python 3
+        return decode(obj, encoding=encoding)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 
 def try_remove(path):
@@ -675,6 +745,7 @@ def help_message(default_gui):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
 =======
 <<<<<<< HEAD
@@ -729,6 +800,8 @@ def help_message(default_gui):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 "options: arch,build,compiler,date,path,python_path,revision,"
                 "svn_revision,version"
 =======
@@ -759,6 +832,7 @@ def help_message(default_gui):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -864,6 +938,11 @@ def help_message(default_gui):
                 "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+                "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             ),
             params=_("Parameters"),
             gisdbase=_("initial GRASS database directory"),
@@ -944,6 +1023,7 @@ def create_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -991,6 +1071,8 @@ def create_grass_config_dir():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     from grass.app.runtime import get_grass_config_dir
 
     try:
@@ -1375,12 +1457,16 @@ def create_grass_config_dir():
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> e14069d05d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
     if WINDOWS:
         grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
@@ -1396,6 +1482,8 @@ def create_grass_config_dir():
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         win_conf_path = os.getenv("APPDATA")
         # this can happen with some strange settings
         if not win_conf_path:
@@ -1417,6 +1505,7 @@ def create_grass_config_dir():
         version = f"{GRASS_VERSION_MAJOR}.{GRASS_VERSION_MINOR}"
         return os.path.join(os.getenv("HOME"), "Library", "GRASS", version)
     else:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1473,6 +1562,8 @@ def create_grass_config_dir():
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
 =======
 <<<<<<< HEAD
@@ -1615,6 +1706,7 @@ def create_grass_config_dir():
 =======
         grass_config_dirname = ".grass8"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -1755,6 +1847,11 @@ def create_grass_config_dir():
         grass_config_dirname = ".grass8"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+        grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         directory = os.path.join(os.getenv("HOME"), grass_config_dirname)
 >>>>>>> d4ef6f4dbb (Programmer's manual: update GRASS GIS arch drawing (#1610))
     if not os.path.isdir(directory):
@@ -1816,6 +1913,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1834,6 +1932,8 @@ def create_tmp(user, gis_lock):
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         tmpdir = os.path.join(tmp, tmpdir_name)
 =======
 <<<<<<< HEAD
@@ -2004,6 +2104,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2078,6 +2179,11 @@ def create_tmp(user, gis_lock):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        tmpdir = os.path.join(tmp, tmpdir_name)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         try:
             os.mkdir(tmpdir, 0o700)
         except:  # noqa: E722
@@ -2086,6 +2192,7 @@ def create_tmp(user, gis_lock):
     if not tmp:
         for ttmp in ("/tmp", "/var/tmp", "/usr/tmp"):
             tmp = ttmp
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2132,6 +2239,8 @@ def create_tmp(user, gis_lock):
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             tmpdir = os.path.join(tmp, tmpdir_name)
 =======
 <<<<<<< HEAD
@@ -2302,6 +2411,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2376,6 +2486,11 @@ def create_tmp(user, gis_lock):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+            tmpdir = os.path.join(tmp, tmpdir_name)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             try:
                 os.mkdir(tmpdir, 0o700)
             except:  # noqa: E722
@@ -2385,6 +2500,7 @@ def create_tmp(user, gis_lock):
 
     if not tmp:
         fatal(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2431,6 +2547,8 @@ def create_tmp(user, gis_lock):
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
                 tmpdir_name=tmpdir_name
 =======
@@ -2689,6 +2807,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2751,6 +2870,12 @@ def create_tmp(user, gis_lock):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+            _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
+                tmpdir_name=tmpdir_name
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             )
         )
 
@@ -2941,7 +3066,13 @@ def set_paths(grass_config_dir):
     # addons (base)
     addon_base = os.getenv("GRASS_ADDON_BASE")
     if not addon_base:
-        addon_base = os.path.join(grass_config_dir, "addons")
+        if MACOS:
+            version = f"{GRASS_VERSION_MAJOR}.{GRASS_VERSION_MINOR}"
+            addon_base = os.path.join(
+                os.getenv("HOME"), "Library", "GRASS", version, "Addons"
+            )
+        else:
+            addon_base = os.path.join(grass_config_dir, "addons")
         os.environ["GRASS_ADDON_BASE"] = addon_base
     if not WINDOWS:
         path_prepend(os.path.join(addon_base, "scripts"), "PATH")
@@ -3042,7 +3173,7 @@ def set_browser():
     # GRASS_HTML_BROWSER
     browser = os.getenv("GRASS_HTML_BROWSER")
     if not browser:
-        if MACOSX:
+        if MACOS:
             # OSX doesn't execute browsers from the shell PATH - route through a
             # script
             browser = gpath("etc", "html_browser_mac.sh")
@@ -3077,7 +3208,7 @@ def set_browser():
                     browser = b
                     break
 
-    elif MACOSX:
+    elif MACOS:
         # OSX doesn't execute browsers from the shell PATH - route through a
         # script
         os.environ["GRASS_HTML_BROWSER_MACOSX"] = "-b %s" % browser
@@ -3429,6 +3560,7 @@ def set_mapset(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3548,6 +3680,13 @@ def set_mapset(
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                                 location_name
                             )
                         )
@@ -3581,6 +3720,7 @@ def set_mapset(
                                 _(
                                     "No CRS is needed for creating mapset <{mapset}>, "
                                     "but <{geofile}> was provided as CRS."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3659,6 +3799,8 @@ def set_mapset(
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                                     " Did you mean to create a new project?"
                                 ).format(mapset=mapset, geofile=geofile)
                             )
@@ -3752,6 +3894,7 @@ def set_mapset(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -3806,6 +3949,12 @@ def set_mapset(
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+                                    " Did you mean to create a new location?"
+                                ).format(mapset=mapset, geofile=geofile)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                             )
                         # create mapset directory
                         os.mkdir(path)
@@ -4044,7 +4193,11 @@ def set_language(grass_config_dir):
 
     # Override value is stored in wxGUI preferences file.
     try:
+<<<<<<< HEAD
         with open(os.path.join(grass_config_dir, "wx.json")) as json_file:
+=======
+        with open(os.path.join(grass_config_dir, "wx.json"), "r") as json_file:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             try:
                 language = json.load(json_file)["language"]["locale"]["lc_all"]
             except KeyError:
@@ -4225,6 +4378,67 @@ def set_language(grass_config_dir):
 
     # From now on enforce the new language
     gettext.install("grasslibs", gpath("locale"))
+<<<<<<< HEAD
+=======
+
+
+def lock_mapset(mapset_path, force_gislock_removal, user):
+    """Lock the mapset and return name of the lock file
+
+    Behavior on error must be changed somehow; now it fatals but GUI case is
+    unresolved.
+    """
+    if not os.path.exists(mapset_path):
+        fatal(_("Path '%s' doesn't exist") % mapset_path)
+    if not os.access(mapset_path, os.W_OK):
+        error = _("Path '%s' not accessible.") % mapset_path
+        stat_info = os.stat(mapset_path)
+        mapset_uid = stat_info.st_uid
+        if mapset_uid != os.getuid():
+            # GTC %s is mapset's folder path
+            error = "%s\n%s" % (
+                error,
+                _("You are not the owner of '%s'.") % mapset_path,
+            )
+        fatal(error)
+    # Check for concurrent use
+    lockfile = os.path.join(mapset_path, ".gislock")
+    ret = call([gpath("etc", "lock"), lockfile, "%d" % os.getpid()])
+    msg = None
+    if ret == 2:
+        if not force_gislock_removal:
+            msg = _(
+                "%(user)s is currently running GRASS in selected mapset"
+                " (file %(file)s found). Concurrent use not allowed.\n"
+                "You can force launching GRASS using -f flag"
+                " (note that you need permission for this operation)."
+                " Have another look in the processor "
+                "manager just to be sure..." % {"user": user, "file": lockfile}
+            )
+        else:
+            try_remove(lockfile)
+            message(
+                _(
+                    "%(user)s is currently running GRASS in selected mapset"
+                    " (file %(file)s found). Forcing to launch GRASS..."
+                    % {"user": user, "file": lockfile}
+                )
+            )
+    elif ret != 0:
+        msg = (
+            _("Unable to properly access '%s'.\n" "Please notify system personnel.")
+            % lockfile
+        )
+
+    if msg:
+        raise Exception(msg)
+    debug(
+        "Mapset <{mapset}> locked using '{lockfile}'".format(
+            mapset=mapset_path, lockfile=lockfile
+        )
+    )
+    return lockfile
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 
 # TODO: the gisrcrc here does not make sense, remove it from load_gisrc
@@ -4280,8 +4494,16 @@ def get_shell():
             sh = os.path.basename(sh)
         else:
             # If SHELL is not set, see if there is Bash and use it.
+<<<<<<< HEAD
             # Fallback to sh if there is no Bash on path.
             sh = "bash" if shutil.which("bash") else "sh"
+=======
+            if shutil.which("bash"):
+                sh = "bash"
+            else:
+                # Fallback to sh if there is no Bash on path.
+                sh = "sh"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             # Ensure the variable is set.
             os.environ["SHELL"] = sh
 
@@ -4369,7 +4591,11 @@ def run_batch_job(batch_job: list):
         script = script_path(batch_job)
         proc = Popen(batch_job, shell=False, env=os.environ)
     except OSError as error:
+<<<<<<< HEAD
         error_message = _("Execution of <{cmd}> failed:\n{error}").format(
+=======
+        error_message = _("Execution of <{cmd}> failed:\n" "{error}").format(
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             cmd=batch_job_string, error=error
         )
         # No such file or directory
@@ -4794,7 +5020,11 @@ def print_params(params):
     for arg in params:
         if arg == "path":
             sys.stdout.write("%s\n" % GISBASE)
+<<<<<<< HEAD
         elif arg in {"python_path", "python-path"}:
+=======
+        elif arg in ["python_path", "python-path"]:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             sys.stdout.write("%s\n" % gpath("etc", "python"))
         elif arg == "arch":
             val = grep("ARCH", linesplat)

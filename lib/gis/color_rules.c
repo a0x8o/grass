@@ -4,6 +4,12 @@
    \brief GIS Library - Color tables management subroutines
 
    Taken from r.colors module.
+<<<<<<< HEAD
+=======
+
+   (C) 2001-2011 by the GRASS Development Team
+ */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
    (C) 2001-2011 by the GRASS Development Team
  */
@@ -284,8 +290,13 @@ struct colorinfo *get_colorinfo(int *nrules)
         colorinfo[i].desc = NULL;
 
         /* open color rule file */
+<<<<<<< HEAD
         snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(),
                  colorinfo[i].name);
+=======
+        G_snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(),
+                   colorinfo[i].name);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         fp = fopen(path, "r");
         if (!fp)
             G_fatal_error(_("Unable to open color rule"));
@@ -339,7 +350,11 @@ struct colorinfo *get_colorinfo(int *nrules)
         if (cisperc)
             colorinfo[i].type = G_store(_("range: map values"));
         else {
+<<<<<<< HEAD
             snprintf(buf, sizeof(buf) - 1, _("range: %g to %g"), rmin, rmax);
+=======
+            G_snprintf(buf, sizeof(buf) - 1, _("range: %g to %g"), rmin, rmax);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             colorinfo[i].type = G_store(buf);
         }
     }

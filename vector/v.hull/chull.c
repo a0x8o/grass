@@ -71,10 +71,14 @@ struct tFaceStructure {
 /* Define flags */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #define ONHULL    true
 #define REMOVED   true
 #define VISIBLE   true
 #define PROCESSED true
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
@@ -86,6 +90,8 @@ struct tFaceStructure {
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /* Global variable definitions */
 tVertex vertices = NULL;
@@ -440,19 +446,26 @@ bool AddOne(tVertex p)
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 
+<<<<<<< HEAD
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     /* Mark faces visible from p. */
     f = faces;
     do {
         vol = VolumeSign(f, p);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         if (vol < 0) {
             f->visible = VISIBLE;
             vis = true;
         }
         f = f->next;
+<<<<<<< HEAD
 =======
 	if (vol < 0) {
 	    f->visible = VISIBLE;
@@ -460,10 +473,13 @@ bool AddOne(tVertex p)
 	}
 	f = f->next;
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     } while (f != faces);
 
     /* If no faces are visible from p, then p is inside the hull. */
     if (!vis) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         p->onhull = !ONHULL;
         return false;
@@ -474,6 +490,10 @@ bool AddOne(tVertex p)
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
+=======
+        p->onhull = !ONHULL;
+        return false;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* Mark edges in interior of visible region for deletion.

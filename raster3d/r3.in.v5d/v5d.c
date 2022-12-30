@@ -49,6 +49,16 @@
  * values are in IEEE format.
  */
 
+<<<<<<< HEAD
+=======
+/*
+ * Updates:
+ *
+ * April 13, 1995, brianp
+ *   finished Cray support for 2-byte and 4-byte compress modes
+ */
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #include <grass/config.h>
 #include <assert.h>
 #include <stdio.h>
@@ -545,6 +555,10 @@ static void compute_ga_gb(int nr, int nc, int nl, const float data[],
 
         delt = (gridmax - gridmin) / 100000.0;
         if (ABS(gridmin) < delt && gridmin != 0.0 && compressmode != 4) {
+<<<<<<< HEAD
+=======
+            float min, max;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
             for (j = 0; j < nrncnl; j++) {
                 if (!IS_MISSING(data[j]) && data[j] < delt)
@@ -714,6 +728,24 @@ void v5dCompressGrid(int nr, int nc, int nl, int compressmode,
             else {
                 one_over_a = 1.0 / ga[lev];
             }
+<<<<<<< HEAD
+=======
+#ifdef _CRAY
+            /* this is tricky because sizeof(V5Dushort)==8, not 2 */
+            for (i = 0; i < nrnc; i++, p++) {
+                V5Dushort compvalue;
+
+                if (IS_MISSING(data[p])) {
+                    compvalue = 65535;
+                }
+                else {
+                    compvalue = (V5Dushort)(int)((data[p] - b) * one_over_a);
+                }
+                compdata1[p * 2 + 0] = compvalue >> 8;    /* upper byte */
+                compdata1[p * 2 + 1] = compvalue & 0xffu; /* lower byte */
+            }
+#else
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             for (i = 0; i < nrnc; i++, p++) {
                 if (IS_MISSING(data[p])) {
                     compdata2[p] = 65535;
@@ -723,14 +755,29 @@ void v5dCompressGrid(int nr, int nc, int nl, int compressmode,
                 }
             }
             /* TODO: byte-swapping on little endian??? */
+<<<<<<< HEAD
+=======
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         }
     }
 
     else {
         /* compressmode==4 */
+<<<<<<< HEAD
         assert(sizeof(float) == 4);
         memcpy(compdata, data, nrncnl * 4);
         /* TODO: byte-swapping on little endian??? */
+=======
+#ifdef _CRAY
+        cray_to_ieee_array(compdata, data, nrncnl);
+#else
+        /* other machines: just copy 4-byte IEEE floats */
+        assert(sizeof(float) == 4);
+        memcpy(compdata, data, nrncnl * 4);
+        /* TODO: byte-swapping on little endian??? */
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 }
 
@@ -806,6 +853,23 @@ void v5dDecompressGrid(int nr, int nc, int nl, int compressmode, void *compdata,
             float a = ga[lev];
             float b = gb[lev];
 
+<<<<<<< HEAD
+=======
+#ifdef _CRAY
+            /* this is tricky because sizeof(V5Dushort)==8, not 2 */
+            for (i = 0; i < nrnc; i++, p++) {
+                int compvalue;
+
+                compvalue = (compdata1[p * 2] << 8) | compdata1[p * 2 + 1];
+                if (compvalue == 65535) {
+                    data[p] = MISSING;
+                }
+                else {
+                    data[p] = (float)compvalue * a + b;
+                }
+            }
+#else
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             /* sizeof(V5Dushort)==2! */
             for (i = 0; i < nrnc; i++, p++) {
                 if (compdata2[p] == 65535) {
@@ -815,13 +879,27 @@ void v5dDecompressGrid(int nr, int nc, int nl, int compressmode, void *compdata,
                     data[p] = (float)(int)compdata2[p] * a + b;
                 }
             }
+<<<<<<< HEAD
+=======
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         }
     }
 
     else {
         /* compressmode==4 */
+<<<<<<< HEAD
         assert(sizeof(float) == 4);
         memcpy(data, compdata, nrncnl * 4);
+=======
+#ifdef _CRAY
+        ieee_to_cray_array(data, compdata, nrncnl);
+#else
+        /* other machines: just copy 4-byte IEEE floats */
+        assert(sizeof(float) == 4);
+        memcpy(data, compdata, nrncnl * 4);
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 }
 
@@ -854,6 +932,7 @@ void v5dDecompressGrid(int nr, int nc, int nl, int compressmode, void *compdata,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 =======
 <<<<<<< HEAD
@@ -908,6 +987,8 @@ int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int v5dSizeofGrid(const v5dstruct *v, int time UNUSED, int var)
 =======
 int v5dSizeofGrid(const v5dstruct *v, int time, int var)
@@ -937,6 +1018,7 @@ int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1042,6 +1124,11 @@ int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+int v5dSizeofGrid(const v5dstruct *v, int time, int var)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     return v->Nr * v->Nc * v->Nl[var] * v->CompressMode;
 }
@@ -1502,8 +1589,13 @@ static int read_comp_header(int f, v5dstruct *v)
 
                 /* skip ahead by 'gridsize' bytes */
                 if (lseek(f, gridsize, SEEK_CUR) == -1) {
+<<<<<<< HEAD
                     G_warning(_("Error: Unexpected end of file, file may be "
                                 "corrupted."));
+=======
+                    printf("Error:  Unexpected end of file, ");
+                    printf("file may be corrupted.\n");
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                     return 0;
                 }
                 min = -(125.0 + gb) / ga;
@@ -1722,6 +1814,7 @@ static int read_comp_grid(v5dstruct *v, int time, int var, float *ga, float *gb,
  */
 static int read_v5d_header(v5dstruct *v)
 {
+<<<<<<< HEAD
 #define SKIP(N)                                                  \
     do {                                                         \
         if (lseek(f, N, SEEK_CUR) == -1) {                       \
@@ -1729,6 +1822,9 @@ static int read_v5d_header(v5dstruct *v)
             return 0;                                            \
         }                                                        \
     } while (0)
+=======
+#define SKIP(N) lseek(f, N, SEEK_CUR)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     int end_of_header = 0;
     unsigned int id;
     int idlen, var, numargs;
@@ -2047,19 +2143,27 @@ static int read_v5d_header(v5dstruct *v)
         case TAG_END:
             /* end of header */
             end_of_header = 1;
+<<<<<<< HEAD
             if (lseek(f, length, SEEK_CUR) == -1) {
                 G_warning(_("Unable to seek: %s"), strerror(errno));
                 return 0;
             }
+=======
+            lseek(f, length, SEEK_CUR);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             break;
 
         default:
             /* unknown tag, skip to next tag */
             printf("Unknown tag: %d  length=%d\n", tag, length);
+<<<<<<< HEAD
             if (lseek(f, length, SEEK_CUR) == -1) {
                 G_warning(_("Unable to seek: %s"), strerror(errno));
                 return 0;
             }
+=======
+            lseek(f, length, SEEK_CUR);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             break;
         }
     }
@@ -2411,10 +2515,14 @@ static int write_v5d_header(v5dstruct *v)
         /* We're writing to a brand new file.  Reserve 10000 bytes */
         /* for future header growth. */
         WRITE_TAG(v, TAG_END, 10000);
+<<<<<<< HEAD
         if (lseek(f, 10000, SEEK_CUR) == -1) {
             G_warning(_("Unable to seek: %s"), strerror(errno));
             return 0;
         }
+=======
+        lseek(f, 10000, SEEK_CUR);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
         /* Let file pointer indicate where first grid is stored */
         v->FirstGridPos = ltell(f);
@@ -2528,7 +2636,11 @@ int v5dWriteCompressedGrid(const v5dstruct *v, int time, int var,
     pos = grid_position(v, time, var);
     if (lseek(v->FileDesc, pos, SEEK_SET) < 0) {
         /* lseek failed, return error */
+<<<<<<< HEAD
         G_warning(_("Unable to seek: %s"), strerror(errno));
+=======
+        printf("Error in v5dWrite[Compressed]Grid: seek failed, disk full?\n");
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         return 0;
     }
 
@@ -2644,6 +2756,7 @@ int v5dCloseFile(v5dstruct *v)
     if (v->Mode == 'w') {
         /* rewrite header because writing grids updates the minval and */
         /* maxval fields */
+<<<<<<< HEAD
         if (lseek(v->FileDesc, 0, SEEK_SET) == -1) {
             G_warning(_("Unable to seek: %s"), strerror(errno));
             return 0;
@@ -2653,6 +2766,11 @@ int v5dCloseFile(v5dstruct *v)
             G_warning(_("Unable to seek: %s"), strerror(errno));
             return 0;
         }
+=======
+        lseek(v->FileDesc, 0, SEEK_SET);
+        status = write_v5d_header(v);
+        lseek(v->FileDesc, 0, SEEK_END);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         close(v->FileDesc);
     }
     else if (v->Mode == 'r') {
@@ -2882,8 +3000,17 @@ int v5dClose(void)
 #ifdef UNDERSCORE
 int v5dcreate_
 #else
+<<<<<<< HEAD
 int v5dcreate
 #endif
+=======
+#ifdef _CRAY
+int V5DCREATE
+#else
+int v5dcreate
+#endif
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     (const char *name, const int *numtimes, const int *numvars, const int *nr,
      const int *nc, const int nl[], const char varname[][10],
@@ -3041,8 +3168,17 @@ int v5dcreate
 #ifdef UNDERSCORE
 int v5dcreatesimple_
 #else
+<<<<<<< HEAD
 int v5dcreatesimple
 #endif
+=======
+#ifdef _CRAY
+int V5DCREATESIMPLE
+#else
+int v5dcreatesimple
+#endif
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     (const char *name, const int *numtimes, const int *numvars, const int *nr,
      const int *nc, const int *nl, const char varname[][10],
@@ -3074,8 +3210,18 @@ int v5dcreatesimple
 #ifdef UNDERSCORE
     return v5dcreate_
 #else
+<<<<<<< HEAD
     return v5dcreate
 #endif
+=======
+#ifdef _CRAY
+    return V5DCREATE
+#else
+
+    return v5dcreate
+#endif
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         (name, numtimes, numvars, nr, nc, varnl, varname, timestamp, datestamp,
          &compressmode, &projection, projarg, &vertical, vertarg);
 }
@@ -3088,8 +3234,17 @@ int v5dcreatesimple
 #ifdef UNDERSCORE
 int v5dsetlowlev_
 #else
+<<<<<<< HEAD
 int v5dsetlowlev
 #endif
+=======
+#ifdef _CRAY
+int V5DSETLOWLEV
+#else
+int v5dsetlowlev
+#endif
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     (int *lowlev)
 {
     return v5dSetLowLev(lowlev);
@@ -3104,8 +3259,17 @@ int v5dsetlowlev
 #ifdef UNDERSCORE
 int v5dsetunits_
 #else
+<<<<<<< HEAD
 int v5dsetunits
 #endif
+=======
+#ifdef _CRAY
+int V5DSETUNITS
+#else
+int v5dsetunits
+#endif
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     (int *var, char *name)
 {
     return v5dSetUnits(*var, name);
@@ -3121,8 +3285,17 @@ int v5dsetunits
 #ifdef UNDERSCORE
 int v5dwrite_
 #else
+<<<<<<< HEAD
 int v5dwrite
 #endif
+=======
+#ifdef _CRAY
+int V5DWRITE
+#else
+int v5dwrite
+#endif
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     (const int *time, const int *var, const float *data)
 {
     return v5dWrite(*time, *var, data);
@@ -3138,8 +3311,17 @@ int v5dwrite
 #ifdef UNDERSCORE
 int v5dmcfile_
 #else
+<<<<<<< HEAD
 int v5dmcfile
 #endif
+=======
+#ifdef _CRAY
+int V5DMCFILE
+#else
+int v5dmcfile
+#endif
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     (const int *time, const int *var, const int *mcfile, const int *mcgrid)
 {
     if (*time < 1 || *time > Simple->NumTimes) {
@@ -3162,7 +3344,15 @@ int v5dmcfile
 #ifdef UNDERSCORE
 int v5dclose_(void)
 #else
+<<<<<<< HEAD
 int v5dclose(void)
+=======
+#ifdef _CRAY
+int V5DCLOSE(void)
+#else
+int v5dclose(void)
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #endif
 {
     return v5dClose();

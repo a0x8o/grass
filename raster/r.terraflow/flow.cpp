@@ -119,7 +119,11 @@ private:
     AMI_STREAM<sweepItem> *sweep_str;
 
 public:
+<<<<<<< HEAD
     flow_waterWindower(AMI_STREAM<sweepItem> *str) : sweep_str(str) {};
+=======
+    flow_waterWindower(AMI_STREAM<sweepItem> *str) : sweep_str(str){};
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     void processWindow(dimension_type i, dimension_type j,
                        waterWindowBaseType *a, waterWindowBaseType *b,
                        waterWindowBaseType *c);

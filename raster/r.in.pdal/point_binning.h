@@ -48,6 +48,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -99,9 +100,12 @@
 =======
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,6 +195,10 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #define METHOD_NONE       0
 #define METHOD_N          1
 #define METHOD_MIN        2
@@ -228,6 +236,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
@@ -311,6 +320,8 @@
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -475,7 +486,12 @@
 =======
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #define METHOD_MEDIAN     10
 #define METHOD_MODE       11
 #define METHOD_PERCENTILE 12
@@ -516,6 +532,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -536,6 +553,8 @@
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 struct z_node {
 =======
 <<<<<<< HEAD
@@ -787,7 +806,13 @@ struct z_node {
 struct z_node
 {
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+struct z_node {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int next;
     double z;
 };
@@ -821,6 +846,7 @@ struct z_node
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -833,6 +859,8 @@ struct z_node
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 struct cnt_node {
 =======
 <<<<<<< HEAD
@@ -962,6 +990,7 @@ struct cnt_node
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -1047,6 +1076,11 @@ struct cnt_node {
 >>>>>>> osgeo-main
 =======
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+struct cnt_node {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int next;
     CELL value;
     int count;
@@ -1081,6 +1115,7 @@ struct cnt_node {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1093,6 +1128,8 @@ struct cnt_node {
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 struct com_node {
 =======
 <<<<<<< HEAD
@@ -1225,6 +1262,7 @@ struct com_node
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -1307,6 +1345,11 @@ struct com_node {
 >>>>>>> osgeo-main
 =======
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+struct com_node {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int n;
     double *meanx;
     double *meany;
@@ -1342,6 +1385,7 @@ struct com_node {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1354,6 +1398,8 @@ struct com_node {
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 struct BinIndex {
 =======
 <<<<<<< HEAD
@@ -1486,6 +1532,7 @@ struct BinIndex
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -1568,6 +1615,11 @@ struct BinIndex {
 >>>>>>> osgeo-main
 =======
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+struct BinIndex {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int num_nodes;
     int max_nodes;
     void *nodes;
@@ -1602,6 +1654,7 @@ struct BinIndex {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1614,6 +1667,8 @@ struct BinIndex {
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 struct PointBinning {
 =======
 <<<<<<< HEAD
@@ -1746,6 +1801,7 @@ struct PointBinning
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -1828,6 +1884,11 @@ struct PointBinning {
 >>>>>>> osgeo-main
 =======
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+struct PointBinning {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int method;
 
     int bin_n;
@@ -1891,6 +1952,7 @@ void point_binning_free(struct PointBinning *, struct BinIndex *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1942,9 +2004,12 @@ void point_binning_free(struct PointBinning *, struct BinIndex *);
 =======
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2034,6 +2099,10 @@ void point_binning_free(struct PointBinning *, struct BinIndex *);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 void write_values(struct PointBinning *, struct BinIndex *, void *, int, int,
                   RASTER_MAP_TYPE);
 void update_value(struct PointBinning *, struct BinIndex *, int, int, int,
@@ -2065,6 +2134,7 @@ void update_value(struct PointBinning *, struct BinIndex *, int, int, int,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
@@ -2148,6 +2218,8 @@ void update_value(struct PointBinning *, struct BinIndex *, int, int, int,
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -2309,6 +2381,11 @@ void update_value(struct PointBinning *,
 =======
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #endif /* __POINT_BINNING_H__ */

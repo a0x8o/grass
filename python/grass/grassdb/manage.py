@@ -108,7 +108,11 @@ def split_mapset_path(mapset_path):
     """Split mapset path to three parts - grassdb, location, mapset"""
     mapset_path = Path(mapset_path)
     if len(mapset_path.parts) < 3:
+<<<<<<< HEAD
         raise ValueError(
+=======
+        ValueError(
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             _("Mapset path '{}' needs at least three components").format(mapset_path)
         )
     mapset = mapset_path.name
@@ -141,6 +145,7 @@ def split_mapset_path(mapset_path):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def resolve_mapset_path(path, location=None, mapset=None):
 =======
 <<<<<<< HEAD
@@ -195,6 +200,8 @@ def resolve_mapset_path(path, location=None, mapset=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 def resolve_mapset_path(path, location=None, mapset=None) -> MapsetPath:
 =======
 def resolve_mapset_path(path, location=None, mapset=None):
@@ -224,6 +231,7 @@ def resolve_mapset_path(path, location=None, mapset=None):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -329,6 +337,11 @@ def resolve_mapset_path(path, location=None, mapset=None):
 def resolve_mapset_path(path, location=None, mapset=None):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+def resolve_mapset_path(path, location=None, mapset=None):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     """Resolve full path to mapset from given combination of parameters.
 
     Full or relative path to mapset can be provided as *path*. If the *path*
@@ -383,7 +396,11 @@ def resolve_mapset_path(path, location=None, mapset=None):
         from grass.grassdb.checks import is_mapset_valid
 
         if not is_mapset_valid(path) and is_mapset_valid(path / default_mapset):
+<<<<<<< HEAD
             path /= default_mapset
+=======
+            path = path / default_mapset
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         parts = path.parts
         if len(parts) < 3:
             raise ValueError(

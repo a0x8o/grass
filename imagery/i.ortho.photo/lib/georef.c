@@ -74,6 +74,7 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *cp, double E12[3],
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -92,6 +93,8 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *cp, double E12[3],
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     void (*sigfpe)(int);
 =======
 <<<<<<< HEAD
@@ -260,6 +263,7 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *cp, double E12[3],
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -370,6 +374,11 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *cp, double E12[3],
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    void (*sigfpe)();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int i;
 
     s0 = s1 = s2 = s3 = s4 = s5 = 0.0;

@@ -176,7 +176,10 @@ int main(int argc, char *argv[])
     in_name = band_prefix->answer;
 
     for (i = BAND2; i <= BAND6; i++) {
+<<<<<<< HEAD
         band[i].name[0] = '\0';
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         sprintf(band[i].name, "%s%d%c", in_name, i + 2,
                 (i == BAND6 && !sat5->answer ? '1' : '\0'));
         band[i].fd = check_raster(band[i].name);

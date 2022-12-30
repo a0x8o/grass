@@ -443,7 +443,11 @@ int main(int argc, char *argv[])
             }
             G_free(lcat);
         } /*! END WHILE; last_column = TRUE */
+<<<<<<< HEAD
     } /*! END WHILE; last_row = TRUE */
+=======
+    }     /*! END WHILE; last_row = TRUE */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     /* Dropping auxiliary table */
     if (npoints > 0) {

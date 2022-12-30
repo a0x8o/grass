@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_delete(dbCursor *cursor)
 =======
 <<<<<<< HEAD
@@ -78,6 +79,8 @@ int db__driver_delete(dbCursor *cursor)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int db__driver_delete(dbCursor *cursor UNUSED)
 =======
 int db__driver_delete(dbCursor *cursor)
@@ -107,6 +110,7 @@ int db__driver_delete(dbCursor *cursor)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -212,6 +216,11 @@ int db__driver_delete(dbCursor *cursor)
 int db__driver_delete(dbCursor *cursor)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+int db__driver_delete(dbCursor *cursor)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     db_procedure_not_implemented("db_delete");
     return DB_FAILED;

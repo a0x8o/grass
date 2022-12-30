@@ -3748,6 +3748,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3801,6 +3802,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../lib/gis/mapset.c:38
 msgid "MAPSET is not set"
 msgstr "MAPSET ayarlanmadı"
@@ -4037,6 +4040,7 @@ msgstr "<%s> harita takımındaki <%s>"
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -4097,6 +4101,10 @@ msgstr "<%s> harita takımındaki <%s>"
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../lib/manage/do_copy.c:43
 #, c-format
 msgid "Copying %s <%s> to current mapset as <%s>"
@@ -9544,6 +9552,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -9663,6 +9672,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../lib/vector/Vlib/net_build.c:467
 msgid "Cannot add network arc representing turn."
@@ -12158,6 +12174,7 @@ msgstr "[%s]:Böyle bir renk yok"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -12253,6 +12270,8 @@ msgstr "Uygun olmayan derinlik değeri"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, fuzzy
 #~ msgid "Unable to open null file <%s>"
 #~ msgstr "datum tablo dosyası açılamıyor <%s>"
@@ -12486,6 +12505,7 @@ msgstr "Uygun olmayan derinlik değeri"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -12540,5 +12560,57 @@ msgstr "Uygun olmayan derinlik değeri"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+msgid "which is missing."
+msgstr "kayıp olan"
+
+msgid "whose header file can't be opened."
+msgstr "üstbilgi dosyası açılamayan"
+
+msgid "Illegal row value"
+msgstr "Uygun olmayan satır değeri"
+
+msgid "Illegal col value"
+msgstr "Uygun olmayan sütun değeri"
+
+msgid "Illegal n-s3 resolution value"
+msgstr "Uygun olmayan kuzey-güney3 çözünürlük değeri"
+
+msgid "Illegal row3 value"
+msgstr "Uygun olmayan satır3 değeri"
+
+msgid "Illegal e-w3 resolution value"
+msgstr "Uygun olmayan doğu-batı3 çözünürlük değeri"
+
+msgid "Illegal col3 value"
+msgstr "Uygun olmayan  sütun3 değeri"
+
+msgid "Illegal e-w resolution value"
+msgstr "Uygun olmayan doğu-batı çözünürlük değeri"
+
+msgid "North must be north of South"
+msgstr "Kuzey güneyin kuzeyinde olmalıdır"
+
+msgid "North must be larger than South"
+msgstr "Kuzey güneyden büyük olmalıdır"
+
+msgid "East must be larger than West"
+msgstr "Doğu batıdan büyük olmalıdır"
+
+msgid "Invalid coordinates"
+msgstr "Geçersiz koordinatlar"
+
+msgid "Illegal n-s resolution value"
+msgstr "Uygun olmayan kuzey-güney çözünürlük değeri"
+
+msgid "Illegal t-b3 resolution value"
+msgstr "Uygun olmayan tepe-dip3 çözünürlük değeri"
+
+msgid "Illegal depths value"
+msgstr "Uygun olmayan derinlik değeri"
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgid "Top must be larger than Bottom"
 msgstr "Tepe dipten büyük olmalıdır"

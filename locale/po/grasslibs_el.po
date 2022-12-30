@@ -2392,6 +2392,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, c-format
 msgid "Illegal n-s resolution value for 3D: %g"
 msgstr ""
@@ -2462,6 +2463,16 @@ msgstr ""
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+#, c-format
+msgid "Illegal n-s resolution value for 3D: %g"
+msgstr ""
+
+#: ../lib/gis/adj_cellhd.c:184
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, c-format
 msgid "Illegal n-s resolution value for 3D: %g"
 msgstr ""
@@ -3927,6 +3938,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3980,6 +3992,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../lib/gis/mapset.c:38
 msgid "MAPSET is not set"
 msgstr "MAPSET δεν έχει οριστεί"
@@ -4218,6 +4232,7 @@ msgstr "<%s> στο mapset <%s>"
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -4278,6 +4293,10 @@ msgstr "<%s> στο mapset <%s>"
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../lib/manage/do_copy.c:43
 #, c-format
 msgid "Copying %s <%s> to current mapset as <%s>"
@@ -4738,6 +4757,7 @@ msgid "Invalid offset (%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4803,6 +4823,11 @@ msgid "Invalid offset (%"
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../lib/vector/Vlib/write_pg.c:348 ../lib/vector/Vlib/write_ogr.c:140
@@ -9411,6 +9436,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -9464,6 +9490,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../lib/vector/Vlib/read_pg.c:1097
 #, c-format
 msgid "Invalid cache index %d (max: %d)"
@@ -9753,6 +9781,7 @@ msgid ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -9840,6 +9869,10 @@ msgid ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../lib/raster/get_cellhd.c:70
 #, c-format
 msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of raster map <%s@%s>. %s"
@@ -13227,6 +13260,7 @@ msgstr "[%s]: Δεν υπάρχει τέτοιο χρώμα"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -13327,6 +13361,8 @@ msgstr "Αδυναμία ανοίγματος κεφαλικού (header) αρχ
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, c-format
 #~ msgid ""
 #~ "Datum <%s> apparently recognised by GRASS but no parameters found. You "
@@ -13687,6 +13723,7 @@ msgstr "Αδυναμία ανοίγματος κεφαλικού (header) αρχ
 >>>>>>> osgeo-main
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -13756,3 +13793,60 @@ msgstr "Αδυναμία ανοίγματος κεφαλικού (header) αρχ
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+msgid "which is missing."
+msgstr "το οποίο λείπει"
+
+msgid "whose header file can't be opened."
+msgstr "του οποίου το κεφαλικό (header) αρχείο δεν μπορεί να ανοίξει"
+
+msgid "Illegal row value"
+msgstr "Μη επιτρεπτή τιμή γραμμής"
+
+msgid "Illegal col value"
+msgstr "Μη επιτρεπτή col τιμή"
+
+msgid "Illegal n-s3 resolution value"
+msgstr "μη επιτρεπτή n-s3 τιμή ανάλυσης"
+
+msgid "Illegal row3 value"
+msgstr "Μη επιτρεπτή row3 τιμή"
+
+msgid "Illegal e-w3 resolution value"
+msgstr "μη επιτρεπτή e-w3 τιμή ανάλυσης"
+
+msgid "Illegal col3 value"
+msgstr "μη επιτρεπτή col3 τιμή"
+
+msgid "Illegal e-w resolution value"
+msgstr "Μη επιτρεπτή e-w τιμή ανάλυσης"
+
+msgid "North must be north of South"
+msgstr "Ο βοράς πρέπει να είναι βορειότερα του Νότου"
+
+msgid "North must be larger than South"
+msgstr "Ο Βοράς πρέπει να είναι μεγαλύτερος από τον Νότο"
+
+msgid "East must be larger than West"
+msgstr "Η Ανατολή πρέπει να είναι μεγαλύτερηαπό τη Δύση"
+
+msgid "Invalid coordinates"
+msgstr "Λάθος συντεταγμένες"
+
+msgid "Illegal n-s resolution value"
+msgstr "Μη επιτρεπτη n-s τιμή ανάλυσης"
+
+msgid "Illegal t-b3 resolution value"
+msgstr "μη επιτρεπτή t-b3 τιμή ανάλυσης"
+
+msgid "Illegal depths value"
+msgstr "Μη επιτρεπτές τιμές βάθους"
+
+msgid "Top must be larger than Bottom"
+msgstr "Το πάνω πρέπει να είναι μεγαλύτερο του κάτω"
+
+msgid "Unable to open header file for raster map <%s@%s>"
+msgstr "Αδυναμία ανοίγματος κεφαλικού (header) αρχείου για τον ράστερ χάρτη <%s@%s>"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)

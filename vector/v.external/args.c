@@ -32,6 +32,10 @@ void parse_args(int argc, char **argv, struct _options *options,
                                     "\t\tESRI Shapefile: shapefile name\n"
                                     "\t\tMapInfo File: mapinfo file name\n"
                                     "\t\tPostGIS database: table name");
+<<<<<<< HEAD
+=======
+    options->layer->required = NO;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     options->layer->key_desc = "name";
     options->layer->gisprompt = "old,datasource_layer,datasource_layer";
 
@@ -45,6 +49,7 @@ void parse_args(int argc, char **argv, struct _options *options,
     flags->override = G_define_flag();
     flags->override->key = 'o';
     flags->override->label =
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,6 +129,8 @@ void parse_args(int argc, char **argv, struct _options *options,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         _("Override projection check (use current project's CRS)");
     flags->override->description =
         _("Assume that the dataset has the same "
@@ -215,6 +222,7 @@ void parse_args(int argc, char **argv, struct _options *options,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -269,6 +277,13 @@ void parse_args(int argc, char **argv, struct _options *options,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        _("Override projection check (use current location's projection)");
+    flags->override->description = _("Assume that the dataset has the same "
+                                     "projection as the current location");
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     flags->proj = G_define_flag();
     flags->proj->key = 'j';

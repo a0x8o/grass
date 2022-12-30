@@ -493,6 +493,7 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
                     nnodes = 0;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (nnodes > 0)
                     Vect_get_line_nodes(&(Map[i]), line, &node[0], &node[1]);
 =======
@@ -536,6 +537,10 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
 >>>>>>> 6ab2af6a26 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
 =======
 >>>>>>> e4a5d77fcc (v.what: Fix script outputs (space after = or : instead of =) (#1584))
+=======
+                if (nnodes > 0)
+                    Vect_get_line_nodes(&(Map[i]), line, &node[0], &node[1]);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
                 for (n = 0; n < nnodes; n++) {
                     double nx, ny, nz;
@@ -610,6 +615,7 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             /* Height */
             if (Vect_is_3d(&(Map[i]))) {
                 double min, max;
@@ -660,6 +666,11 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
 		}
 	    }
 >>>>>>> 6ab2af6a26 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
+=======
+            /* Height */
+            if (Vect_is_3d(&(Map[i]))) {
+                double min, max;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
                 if (type & GV_POINTS) {
                     switch (output) {

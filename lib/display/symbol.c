@@ -117,7 +117,11 @@ static void symbol(const SYMBOL *Symb, double x0, double y0,
             break;
 
         } /* switch */
+<<<<<<< HEAD
     } /* for loop */
+=======
+    }     /* for loop */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /*!

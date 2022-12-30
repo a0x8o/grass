@@ -87,11 +87,19 @@ int db_get_connection(dbConnection *connection)
     connection->group = (char *)G_getenv_nofatal2("DB_GROUP", G_VAR_MAPSET);
 
     /* try to get user/password */
+<<<<<<< HEAD
     db_get_login(connection->driverName, connection->databaseName,
                  (const char **)&(connection->user),
                  (const char **)&(connection->password),
                  (const char **)&(connection->hostName),
                  (const char **)&(connection->port));
+=======
+    db_get_login2(connection->driverName, connection->databaseName,
+                  (const char **)&(connection->user),
+                  (const char **)&(connection->password),
+                  (const char **)&(connection->hostName),
+                  (const char **)&(connection->port));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     return DB_OK;
 }

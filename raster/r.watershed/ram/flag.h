@@ -47,6 +47,7 @@ FLAG
 };
 
 #define FLAG_UNSET(flags, row, col) \
+<<<<<<< HEAD
     (flags)->array[(row)][(col) >> 3] &= ~(1 << ((col) & 7))
 
 #define FLAG_SET(flags, row, col) \
@@ -54,6 +55,15 @@ FLAG
 
 #define FLAG_GET(flags, row, col) \
     (flags)->array[(row)][(col) >> 3] & (1 << ((col) & 7))
+=======
+    (flags)->array[(row)][(col) >> 3] &= ~(1 << ((col)&7))
+
+#define FLAG_SET(flags, row, col) \
+    (flags)->array[(row)][(col) >> 3] |= (1 << ((col)&7))
+
+#define FLAG_GET(flags, row, col) \
+    (flags)->array[(row)][(col) >> 3] & (1 << ((col)&7))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /* flag_clr_all.c */
 int flag_clear_all(FLAG *);

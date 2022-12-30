@@ -5,14 +5,22 @@
 import sys
 import datetime
 from types import SimpleNamespace
+<<<<<<< HEAD
 from pathlib import Path
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 import argparse
 
 
 def read_version_file():
     """Return version file content as object instance with attributes"""
+<<<<<<< HEAD
     lines = Path("include/VERSION").read_text(encoding="utf-8").splitlines()
+=======
+    with open("include/VERSION", encoding="utf-8") as file:
+        lines = file.read().splitlines()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     return SimpleNamespace(
         major=lines[0], minor=lines[1], micro=lines[2], year=lines[3]
     )
@@ -166,6 +174,7 @@ def update_minor(args):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -219,6 +228,8 @@ def update_minor(args):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     minor += 1
     if micro.endswith("dev"):
         micro = "0dev"
@@ -247,6 +258,7 @@ def update_minor(args):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -334,6 +346,10 @@ def update_minor(args):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if args.dev:
         if not minor % 2:
             sys.exit(
@@ -373,6 +389,7 @@ def update_minor(args):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -492,6 +509,13 @@ def update_minor(args):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     else:
         sys.exit("Updating version from a non-dev VERSION file is not possible")
     write_version_file(
@@ -572,13 +596,21 @@ def status(args):
     version_info = read_version_file()
     today = datetime.date.today().isoformat()
     version = construct_version(version_info)
+<<<<<<< HEAD
     tag = version if not version_info.micro.endswith("dev") else None
+=======
+    if not version_info.micro.endswith("dev"):
+        tag = version
+    else:
+        tag = None
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     if args.bash:
         status_as_bash(version_info=version_info, today=today, version=version, tag=tag)
     else:
         status_as_yaml(version_info=version_info, today=today, version=version, tag=tag)
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -655,6 +687,8 @@ def status(args):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 def suggest_message(args):
     """Print suggestion for a commit message
 
@@ -703,6 +737,7 @@ def suggest_message(args):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -790,6 +825,10 @@ def suggest_message(args):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 def main():
     """Translate sub-commands to function calls"""
     parser = argparse.ArgumentParser(
@@ -847,6 +886,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     subparser.add_argument(
         "--dev", action="store_true", help="increase development-only version"
     )
@@ -903,6 +943,8 @@ def main():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
     subparser.add_argument(
         "--dev", action="store_true", help="increase development-only version"
@@ -990,6 +1032,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1044,6 +1087,13 @@ def main():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    subparser.add_argument(
+        "--dev", action="store_true", help="increase development-only version"
+    )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     subparser.set_defaults(func=update_minor)
 
     subparser = subparsers.add_parser(
@@ -1082,6 +1132,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1135,6 +1186,8 @@ def main():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     subparser = subparsers.add_parser(
         "suggest", help="suggest a commit message for new version"
     )
@@ -1166,6 +1219,7 @@ def main():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1253,6 +1307,10 @@ def main():
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     args = parser.parse_args()
     args.func(args)
 

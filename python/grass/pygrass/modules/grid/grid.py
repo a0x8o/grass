@@ -32,6 +32,7 @@ from __future__ import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -151,6 +152,13 @@ from __future__ import (
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 import contextlib
 import os
 import sys
@@ -197,6 +205,7 @@ from grass.pygrass.modules.grid.split import split_region_tiles
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -316,6 +325,13 @@ from grass.pygrass.modules.grid.split import split_region_tiles
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 from grass.pygrass.modules.grid.patch import rpatch_map, rpatch_map_r_patch_backend
 
 
@@ -775,7 +791,11 @@ class GridModule:
         # if overlap > 0, r.patch won't work properly
         if not patch_backend:
             self.patch_backend = "RasterRow"
+<<<<<<< HEAD
         elif patch_backend not in {"r.patch", "RasterRow"}:
+=======
+        elif patch_backend not in ("r.patch", "RasterRow"):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             raise RuntimeError(
                 _("Parameter patch_backend must be 'r.patch' or 'RasterRow'")
             )
@@ -808,6 +828,7 @@ class GridModule:
         self.bboxes = split_region_in_overlapping_tiles(
 =======
         self.bboxes = split_region_tiles(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -950,6 +971,13 @@ class GridModule:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             region=region, width=self.width, height=self.height, overlap=overlap
         )
         if mapset_prefix:

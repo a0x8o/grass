@@ -3,7 +3,14 @@
 #include "globals.h"
 #include "proto.h"
 
+<<<<<<< HEAD
 int db__driver_list_tables(dbString **tlist, int *tcount, int system)
+=======
+int db__driver_list_tables(tlist, tcount, system)
+dbString **tlist;
+int *tcount;
+int system;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
     cursor *c;
     dbString *list;

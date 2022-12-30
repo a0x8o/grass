@@ -128,6 +128,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -223,6 +224,8 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 <<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             sb.SbDisplayGeometry,
             sb.SbMapScale,
             sb.SbGoTo,
@@ -493,7 +496,15 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 =======
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
 >>>>>>> 1683a3ac91 (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+=======
+=======
+            sb.SbDisplayGeometry,
+            sb.SbMapScale,
+            sb.SbGoTo,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         ]
         self.statusbar = self.CreateStatusbar(statusbarItems)
 
@@ -567,6 +578,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(SwipeMapPanel, self).ActivateFirstMap(event)
 =======
 <<<<<<< HEAD
@@ -621,6 +633,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         super().ActivateFirstMap(event)
 =======
         super(SwipeMapPanel, self).ActivateFirstMap(event)
@@ -650,6 +664,7 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -755,6 +770,11 @@ class SwipeMapPanel(DoubleMapPanel):
         super(SwipeMapPanel, self).ActivateFirstMap(event)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        super(SwipeMapPanel, self).ActivateFirstMap(event)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
         self.firstMapWindow.ClearLines()
         self.firstMapWindow.Refresh()
@@ -784,6 +804,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(SwipeMapPanel, self).ActivateSecondMap(event)
 =======
 <<<<<<< HEAD
@@ -838,6 +859,8 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         super().ActivateSecondMap(event)
 =======
         super(SwipeMapPanel, self).ActivateSecondMap(event)
@@ -867,6 +890,7 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -972,6 +996,11 @@ class SwipeMapPanel(DoubleMapPanel):
         super(SwipeMapPanel, self).ActivateSecondMap(event)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        super(SwipeMapPanel, self).ActivateSecondMap(event)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
         self.secondMapWindow.ClearLines()
         self.secondMapWindow.Refresh()
@@ -1048,7 +1077,10 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         self.resize = gs.clock()
 =======
 >>>>>>> main
@@ -1254,6 +1286,7 @@ class SwipeMapPanel(DoubleMapPanel):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1359,6 +1392,12 @@ class SwipeMapPanel(DoubleMapPanel):
         super(SwipeMapPanel, self).OnSize(event)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        self.resize = grass.clock()
+        super(SwipeMapPanel, self).OnSize(event)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     def OnIdle(self, event):
         if self.resize and gs.clock() - self.resize > 0.2:

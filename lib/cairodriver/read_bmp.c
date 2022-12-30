@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \author Lars Ahlzen <lars ahlzen.com> (original contibutor)
 =======
 <<<<<<< HEAD
@@ -85,6 +86,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    \author Lars Ahlzen <lars ahlzen.com> (original contributor)
 =======
    \author Lars Ahlzen <lars ahlzen.com> (original contibutor)
@@ -114,6 +117,7 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -219,6 +223,11 @@
    \author Lars Ahlzen <lars ahlzen.com> (original contibutor)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+   \author Lars Ahlzen <lars ahlzen.com> (original contibutor)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    \author Glynn Clements
  */
 
@@ -378,6 +387,7 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> osgeo-main
     if (get_4(&p) != HEADER_SIZE + ca.width * ca.height * 4)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -448,6 +458,7 @@ static int read_bmp_header(const unsigned char *p)
     if (get_4(&p) != (unsigned int)HEADER_SIZE + ca.width * ca.height * 4)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -569,6 +580,10 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         return 0;
 
     get_4(&p);
@@ -739,6 +754,7 @@ static int read_bmp_header(const unsigned char *p)
         return 0;
     if (get_4(&p) != -ca.height)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -862,6 +878,7 @@ static int read_bmp_header(const unsigned char *p)
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1021,6 +1038,10 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         return 0;
 
     get_2(&p);
@@ -1061,6 +1082,7 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1079,6 +1101,8 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (get_4(&p) != (unsigned int)ca.width * ca.height * 4)
 =======
 <<<<<<< HEAD
@@ -1247,6 +1271,7 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1357,6 +1382,11 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    if (get_4(&p) != ca.width * ca.height * 4)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         return 0;
 
     get_4(&p);
@@ -1414,6 +1444,7 @@ void cairo_read_bmp(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1432,6 +1463,8 @@ void cairo_read_bmp(void)
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (fread(ca.grid, ca.stride, ca.height, input) !=
         (unsigned int)ca.height) {
 =======
@@ -1620,6 +1653,7 @@ void cairo_read_bmp(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1734,6 +1768,11 @@ void cairo_read_bmp(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    if (fread(ca.grid, ca.stride, ca.height, input) != ca.height) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         if (feof(input))
             G_fatal_error(_("Cairo: error reading BMP file <%s>: "
                             "unexpected end of file"),

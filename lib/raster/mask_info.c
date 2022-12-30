@@ -147,7 +147,11 @@ int Rast__mask_info(char *name, char *mapset)
     strcpy(rname, "MASK");
     (void)G_strlcpy(rmapset, G_mapset(), GMAPSET_MAX);
 
+<<<<<<< HEAD
     if (!G_find_raster(rname, rmapset))
+=======
+    if (!G_find_raster(name, mapset))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         return -1;
 
     strcpy(name, rname);

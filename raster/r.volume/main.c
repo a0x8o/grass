@@ -12,10 +12,17 @@
  *                 <landa.martin gmail.com>
  * PURPOSE:      r.volume is a program to compute the total, and average of
  *               cell values within regions of a map defined by clumps or
+<<<<<<< HEAD
  *               patches on a second map (or by raster mask). It also computes
  *               the "volume" by multiplying the total within a clump by the
  *               area of each cell. It also outputs the "centroid" location of
  *               each clump. Output is to standard out.
+=======
+ *               patches on a second map (or MASK). It also computes the
+ *               "volume" by multiplying the total within a clump by the area
+ *               of each cell. It also outputs the "centroid" location of each
+ *               clump. Output is to standard out.
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
  *
  * COPYRIGHT:    (C) 1999-2006, 2013 by the GRASS Development Team
  *
@@ -143,6 +150,7 @@ int main(int argc, char *argv[])
     char mask_name[GNAME_MAX];
     char mask_mapset[GMAPSET_MAX];
     if (!clumpmap) {
+<<<<<<< HEAD
         bool present =
             Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL);
         if (!present)
@@ -153,11 +161,25 @@ int main(int argc, char *argv[])
         clumpmap = mask_name;
         use_mask = true;
         G_important_message(_("No clump map given, using raster mask"));
+=======
+        clumpmap = "MASK";
+        use_MASK = 1;
+        if (!G_find_raster2(clumpmap, G_mapset()))
+            G_fatal_error(_("No MASK found. If no clump map is given than the "
+                            "MASK is required. "
+                            "You need to define a clump raster map or create a "
+                            "MASK by r.mask command."));
+        G_important_message(_("No clump map given, using MASK"));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* open input and clump raster maps */
     fd_data = Rast_open_old(datamap, "");
+<<<<<<< HEAD
     fd_clump = Rast_open_old(clumpmap, use_mask ? mask_mapset : "");
+=======
+    fd_clump = Rast_open_old(clumpmap, use_MASK ? G_mapset() : "");
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     /* initialize vector map (for centroids) if needed */
     if (centroidsmap) {

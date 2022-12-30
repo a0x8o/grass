@@ -17,9 +17,19 @@ import os
 import sys
 import uuid
 from abc import ABCMeta, abstractmethod
+<<<<<<< HEAD
 from datetime import datetime
 from pathlib import Path
 
+=======
+from .core import (
+    init_dbif,
+    get_sql_template_path,
+    get_tgis_metadata,
+    get_current_mapset,
+    get_tgis_db_version_from_metadata,
+)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 from .abstract_dataset import AbstractDataset, AbstractDatasetComparisonKeyStartTime
 from .core import (
     get_current_mapset,
@@ -380,7 +390,11 @@ class AbstractSpaceTimeDataset(AbstractDataset):
         # SpaceTimeRasterDataset related only
         self.semantic_label = None
 
+<<<<<<< HEAD
     def get_name(self, semantic_label: bool = True):
+=======
+    def get_name(self, semantic_label=True):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         """Get dataset name including semantic label filter if enabled.
 
         :param bool semantic_label: True to return dataset name
@@ -2909,6 +2923,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # use all columns
         rows = self.get_registered_maps(
             None, where, order, dbif, spatial_extent, spatial_relation
@@ -2966,6 +2981,8 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             # check keys in first row
             # note that 'if "bottom" in row' does not work
             # because row is not a dict but some db backend object
@@ -3154,6 +3171,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -3252,6 +3270,12 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        # use all columns
+        rows = self.get_registered_maps(None, where, order, dbif)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
         if rows is not None:
             has_bt_columns = False
@@ -3389,6 +3413,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3508,6 +3533,13 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                         br="semantic_label",
                         si=shortcut_identifier,
                         orig=self.semantic_label.upper(),
@@ -5408,6 +5440,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
                 if order is not None and order != "":
                     order = f"{group},{order.split(';')[0]}"
 
+<<<<<<< HEAD
             else:
                 columns = columns or "*"
 
@@ -5870,6 +5903,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -5914,6 +5948,13 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+            # filter by semantic label identifier
+            if self.semantic_label:
+                where = self._update_where_statement_by_semantic_label(where)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
             if where is not None and where != "":
                 sql += " AND (%s)" % (where.split(";")[0])
@@ -6861,6 +6902,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
         sql_script += "\n"
 
         # Update type specific metadata
+<<<<<<< HEAD
         sql = Path(
             sql_path,
             f"update_{self.get_type()}_metadata_template{template_suffix}.sql",
@@ -7049,6 +7091,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -7132,6 +7175,17 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        sql = open(
+            os.path.join(
+                sql_path, "update_" + self.get_type() + "_metadata_template.sql"
+            ),
+            "r",
+        ).read()
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         for version in range(3, get_tgis_db_version_from_metadata() + 1):
             sqlfile = os.path.join(
                 sql_path,
@@ -7164,6 +7218,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -7204,6 +7259,8 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -7211,6 +7268,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7312,6 +7370,10 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
         sql = sql.replace("SPACETIME_REGISTER_TABLE", stds_register_table)
         sql = sql.replace("SPACETIME_ID", self.base.get_id())

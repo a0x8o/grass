@@ -125,6 +125,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -143,6 +144,8 @@ public:
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         snprintf(str, sizeof(str), "BasicMinMaxHeap: allocate %ld\n",
                  (long)((size + 1) * sizeof(T)));
 =======
@@ -334,6 +337,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -354,9 +358,12 @@ public:
         snprintf(str, sizeof(str), "BasicMinMaxHeap: allocate %ld\n",
                  (long)((size + 1) * sizeof(T)));
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
         sprintf(str, "BasicMinMaxHeap: allocate %ld\n",
                 (long)((size + 1) * sizeof(T)));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -453,6 +460,8 @@ public:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         // MEMORY_LOG(str);
 
         lastindex = 0;
@@ -1138,8 +1147,13 @@ void BasicMinMaxHeap<T>::verify()
 template <class T>
 class MinMaxHeap : public BasicMinMaxHeap<T> {
 public:
+<<<<<<< HEAD
     MinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size) {};
     virtual ~MinMaxHeap() {};
+=======
+    MinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size){};
+    virtual ~MinMaxHeap(){};
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     bool full(void) const { return this->size() >= this->maxsize; };
     HeapIndex get_maxsize() const { return this->maxsize; };
     HeapIndex fill(T *arr, HeapIndex n);
@@ -1180,9 +1194,15 @@ HeapIndex MinMaxHeap<T>::fill(T *arr, HeapIndex n)
 template <class T>
 class UnboundedMinMaxHeap : public BasicMinMaxHeap<T> {
 public:
+<<<<<<< HEAD
     UnboundedMinMaxHeap() : BasicMinMaxHeap<T>(MMHEAP_INITIAL_SIZE) {};
     UnboundedMinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size) {};
     virtual ~UnboundedMinMaxHeap() {};
+=======
+    UnboundedMinMaxHeap() : BasicMinMaxHeap<T>(MMHEAP_INITIAL_SIZE){};
+    UnboundedMinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size){};
+    virtual ~UnboundedMinMaxHeap(){};
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 protected:
     virtual void grow();

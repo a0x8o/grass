@@ -183,6 +183,7 @@ int do_scalebar(void)
 
     /* draw units label */
     if (sb.units == SB_UNITS_AUTO)
+<<<<<<< HEAD
         (void)G_strlcpy(num, G_database_unit_name(TRUE), sizeof(num));
     else if (sb.units == SB_UNITS_METERS)
         (void)G_strlcpy(num, _("meters"), sizeof(num));
@@ -194,6 +195,19 @@ int do_scalebar(void)
         (void)G_strlcpy(num, _("miles"), sizeof(num));
     else if (sb.units == SB_UNITS_NMILES)
         (void)G_strlcpy(num, _("nautical miles"), sizeof(num));
+=======
+        strcpy(num, G_database_unit_name(TRUE));
+    else if (sb.units == SB_UNITS_METERS)
+        strcpy(num, _("meters"));
+    else if (sb.units == SB_UNITS_KM)
+        strcpy(num, _("kilometers"));
+    else if (sb.units == SB_UNITS_FEET)
+        strcpy(num, _("feet"));
+    else if (sb.units == SB_UNITS_MILES)
+        strcpy(num, _("miles"));
+    else if (sb.units == SB_UNITS_NMILES)
+        strcpy(num, _("nautical miles"));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     text_box_path(72.0 * (x + length / 2),
                   72.0 * (PS.page_height - (sb.y + 0.075)), CENTER, UPPER, num,

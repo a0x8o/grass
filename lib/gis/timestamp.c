@@ -79,7 +79,10 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #include <grass/gis.h>
 #include <grass/vect/dig_defines.h>
 #include <grass/glocale.h>
@@ -427,7 +430,11 @@ int G_has_vector_timestamp(const char *name, const char *layer,
     char ele[GNAME_MAX];
 
     if (layer != NULL)
+<<<<<<< HEAD
         snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
+=======
+        G_snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     else
         snprintf(ele, GNAME_MAX, "%s_1", GV_TIMESTAMP_ELEMENT);
 
@@ -468,7 +475,11 @@ int G_read_vector_timestamp(const char *name, const char *layer,
         return 0;
 
     if (layer != NULL)
+<<<<<<< HEAD
         snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
+=======
+        G_snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     else
         snprintf(ele, GNAME_MAX, "%s_1", GV_TIMESTAMP_ELEMENT);
 
@@ -513,7 +524,11 @@ int G_write_vector_timestamp(const char *name, const char *layer,
     char ele[GNAME_MAX];
 
     if (layer != NULL)
+<<<<<<< HEAD
         snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
+=======
+        G_snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     else
         snprintf(ele, GNAME_MAX, "%s_1", GV_TIMESTAMP_ELEMENT);
 
@@ -556,7 +571,11 @@ int G_remove_vector_timestamp(const char *name, const char *layer)
     char ele[GNAME_MAX];
 
     if (layer)
+<<<<<<< HEAD
         snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
+=======
+        G_snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     else
         snprintf(ele, GNAME_MAX, "%s_1", GV_TIMESTAMP_ELEMENT);
 

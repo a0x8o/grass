@@ -132,6 +132,7 @@ int NetA_get_node_costs(struct Map_info *In, int layer, char *column,
     int nvals =
         db_select_CatValArray(driver, Fi->table, Fi->key, column, NULL, &vals);
 
+<<<<<<< HEAD
     db_close_database_shutdown_driver(driver);
     Vect_destroy_field_info(Fi);
 
@@ -140,6 +141,11 @@ int NetA_get_node_costs(struct Map_info *In, int layer, char *column,
 
     Cats = Vect_new_cats_struct();
     Points = Vect_new_line_struct();
+=======
+    if (db_select_CatValArray(driver, Fi->table, Fi->key, column, NULL,
+                              &vals) == -1)
+        return 0;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     for (i = 1; i <= nlines; i++) {
         int type = Vect_read_line(In, Points, Cats, i);
 

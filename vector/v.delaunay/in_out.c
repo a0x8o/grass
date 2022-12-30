@@ -97,6 +97,7 @@ int cmp(const void *a, const void *b)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
 =======
 <<<<<<< HEAD
@@ -151,6 +152,8 @@ void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 void output_edges(unsigned int n, int mode3d UNUSED, int type,
                   struct Map_info *Out)
 =======
@@ -181,6 +184,7 @@ void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -286,6 +290,11 @@ void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
 void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     struct edge *e_start, *e;
     struct vertex *u, *v;
@@ -352,6 +361,7 @@ void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void output_triangles(unsigned int n, int mode3d, int type,
 =======
 <<<<<<< HEAD
@@ -406,6 +416,8 @@ void output_triangles(unsigned int n, int mode3d, int type,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 void output_triangles(unsigned int n, int mode3d UNUSED, int type,
 =======
 void output_triangles(unsigned int n, int mode3d, int type,
@@ -435,6 +447,7 @@ void output_triangles(unsigned int n, int mode3d, int type,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -540,6 +553,11 @@ void output_triangles(unsigned int n, int mode3d, int type,
 void output_triangles(unsigned int n, int mode3d, int type,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+void output_triangles(unsigned int n, int mode3d, int type,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                       struct Map_info *Out)
 {
     struct edge *e_start, *e, *next;

@@ -237,6 +237,7 @@ int build_topo(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     if (n_nodes != Map->plus.n_nodes)
         G_warning(
@@ -329,6 +330,17 @@ int build_topo(struct Map_info *Map, int build)
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+=======
+
+    if (n_nodes != Map->plus.n_nodes)
+        G_warning(
+            _("Inconsistency in topology: number of nodes %d (should be %d)"),
+            Map->plus.n_nodes, n_nodes);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     if (n_nodes != Map->plus.n_nodes)
         G_warning(

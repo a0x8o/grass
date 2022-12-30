@@ -190,7 +190,11 @@ int IL_resample_interp_segments_2d(
         b[0] = 0.;
         G_lubksb(matrix, m1 + 1, indx, b);
 
+<<<<<<< HEAD
         params->check_points(params, data, b, ertot, zmin, *dnorm, &triple);
+=======
+        params->check_points(params, data, b, ertot, zmin, *dnorm, triple);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
         if (params->grid_calc(params, data, bitmask, zmin, zmax, zminac, zmaxac,
                               gmin, gmax, c1min, c1max, c2min, c2max, ertot, b,
@@ -381,7 +385,11 @@ int IL_resample_interp_segments_2d(
                     G_lubksb(new_matrix, data->n_points + 1, new_indx, b);
 
                     params->check_points(params, data, b, ertot, zmin, *dnorm,
+<<<<<<< HEAD
                                          &triple);
+=======
+                                         triple);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
                     if (params->grid_calc(params, data, bitmask, zmin, zmax,
                                           zminac, zmaxac, gmin, gmax, c1min,
@@ -424,7 +432,11 @@ int IL_resample_interp_segments_2d(
                     G_lubksb(matrix, data->n_points + 1, indx, b);
 
                     params->check_points(params, data, b, ertot, zmin, *dnorm,
+<<<<<<< HEAD
                                          &triple);
+=======
+                                         triple);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
                     if (params->grid_calc(params, data, bitmask, zmin, zmax,
                                           zminac, zmaxac, gmin, gmax, c1min,

@@ -593,7 +593,11 @@ int init_vars(int argc, char *argv[])
                 }
 
             } /* end non-NULL cell */
+<<<<<<< HEAD
         } /* end column */
+=======
+        }     /* end column */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
     G_percent(r, nrows, 1); /* finish it */
 

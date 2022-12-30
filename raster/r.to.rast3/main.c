@@ -69,6 +69,7 @@ void fatal_error(void *map, int *fd, int depths,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -87,6 +88,8 @@ void fatal_error(void *map, int *fd, int depths,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 void set_params(void);            /*Fill the paramType structure */
 =======
 <<<<<<< HEAD
@@ -255,6 +258,7 @@ void set_params(void);            /*Fill the paramType structure */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -365,6 +369,11 @@ void set_params();                /*Fill the paramType structure */
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+void set_params();                /*Fill the paramType structure */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 void raster_to_g3d(void *map, RASTER3D_Region region,
                    int *fd);                 /*Write the raster */
 int open_input_raster_map(const char *name); /*opens the outputmap */

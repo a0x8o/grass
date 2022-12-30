@@ -5,7 +5,11 @@
 #include <grass/raster.h>
 #include "flag.h"
 
+<<<<<<< HEAD
 #define ODD(a)     ((a) & 1)
+=======
+#define ODD(a)     ((a)&1)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 #define PI         M_PI
 

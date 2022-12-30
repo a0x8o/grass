@@ -12,7 +12,10 @@
 #           for details.
 
 """Render 3D visualizations"""
+<<<<<<< HEAD
 from __future__ import annotations
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 import os
 import tempfile
@@ -49,7 +52,11 @@ class Map3D:
         self,
         width: int = 600,
         height: int = 400,
+<<<<<<< HEAD
         filename: str | None = None,
+=======
+        filename: str = None,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         mode: str = "fine",
         resolution_fine: int = 1,
         screen_backend: str = "auto",
@@ -57,7 +64,11 @@ class Map3D:
         text_size: float = 12,
         renderer2d: str = "cairo",
         use_region: bool = False,
+<<<<<<< HEAD
         saved_region: str | None = None,
+=======
+        saved_region: str = None,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     ):
         """Checks screen_backend and creates a temporary directory for rendering.
 
@@ -133,7 +144,11 @@ class Map3D:
                     "because pyvirtualdisplay cannot be imported"
                 ).format(screen_backend)
             )
+<<<<<<< HEAD
         elif screen_backend in {"simple", "pyvirtualdisplay"}:
+=======
+        elif screen_backend in ["simple", "pyvirtualdisplay"]:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             self._screen_backend = screen_backend
         else:
             raise ValueError(
@@ -210,7 +225,14 @@ class Map3D:
             with Display(
                 size=(self._width, self._height), **additional_kwargs
             ) as display:
+<<<<<<< HEAD
                 env = display.env() if has_env_copy else os.environ.copy()
+=======
+                if has_env_copy:
+                    env = display.env()
+                else:
+                    env = os.environ.copy()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 self._region_manager.set_region_from_command(env=env, **kwargs)
                 self.overlay.region_manager.set_region_from_env(env)
                 gs.run_command(module, env=env, **kwargs)

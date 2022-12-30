@@ -43,8 +43,13 @@
  * Define our own 1 and 2-byte data types.  We use these names to avoid
  * collisions with types defined by the OS include files.
  */
+<<<<<<< HEAD
 typedef unsigned char V5Dubyte;   /* Must be 1 byte */
 typedef unsigned short V5Dushort; /* Must be 2 byte */
+=======
+typedef unsigned char V5Dubyte;   /* Must be 1 byte, except for cray */
+typedef unsigned short V5Dushort; /* Must be 2 byte, except for cray */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 #define MISSING       1.0e35
 #define IS_MISSING(X) ((X) >= 1.0e30)

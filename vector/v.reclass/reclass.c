@@ -46,6 +46,7 @@ int reclass(struct Map_info *In, struct Map_info *Out, int type, int field,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             dbCatValArray *cvarr, int dissolve)
 =======
 <<<<<<< HEAD
@@ -100,6 +101,8 @@ int reclass(struct Map_info *In, struct Map_info *Out, int type, int field,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             dbCatValArray *cvarr, int dissolve UNUSED)
 =======
             dbCatValArray *cvarr, int dissolve)
@@ -129,6 +132,7 @@ int reclass(struct Map_info *In, struct Map_info *Out, int type, int field,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -234,6 +238,11 @@ int reclass(struct Map_info *In, struct Map_info *Out, int type, int field,
             dbCatValArray *cvarr, int dissolve)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+            dbCatValArray *cvarr, int dissolve)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     int i, nlines, line, ltype, old_cat, new_cat;
     int nocat = 0, rclelem = 0, negative = 0;
@@ -289,9 +298,12 @@ int reclass(struct Map_info *In, struct Map_info *Out, int type, int field,
         G_warning("For %d elements requested negative category (ignored, no "
                   "category in output)",
                   negative);
+<<<<<<< HEAD
     Vect_destroy_cats_struct(Cats);
     Vect_destroy_cats_struct(NewCats);
     Vect_destroy_line_struct(Points);
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     return (rclelem);
 }

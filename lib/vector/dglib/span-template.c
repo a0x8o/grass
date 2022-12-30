@@ -251,6 +251,7 @@ int DGL_SPAN_MINIMUM_SPANNING_FUNC(dglGraph_s *pgraphIn, dglGraph_s *pgraphOut,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                    dglInt32_t nVertex, dglSpanClip_fn fnClip,
                                    void *pvClipArg)
 =======
@@ -306,6 +307,8 @@ int DGL_SPAN_MINIMUM_SPANNING_FUNC(dglGraph_s *pgraphIn, dglGraph_s *pgraphOut,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                                    dglInt32_t nVertex,
                                    dglSpanClip_fn fnClip UNUSED,
                                    void *pvClipArg UNUSED)
@@ -394,6 +397,7 @@ int DGL_SPAN_MINIMUM_SPANNING_FUNC(dglGraph_s *pgraphIn, dglGraph_s *pgraphOut,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -448,6 +452,12 @@ int DGL_SPAN_MINIMUM_SPANNING_FUNC(dglGraph_s *pgraphIn, dglGraph_s *pgraphOut,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+                                   dglInt32_t nVertex, dglSpanClip_fn fnClip,
+                                   void *pvClipArg)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     dglInt32_t *pHead, *pTail, *pEdgeset, *pEdge;
     dglHeap_s FrontEdgeHeap;

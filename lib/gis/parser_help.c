@@ -124,6 +124,7 @@ static void usage(FILE *fp, int markers)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G__print_keywords(fp, NULL);
 =======
 <<<<<<< HEAD
@@ -178,6 +179,8 @@ static void usage(FILE *fp, int markers)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         G__print_keywords(fp, NULL, FALSE);
 =======
         G__print_keywords(fp, NULL);
@@ -207,6 +210,7 @@ static void usage(FILE *fp, int markers)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -312,6 +316,11 @@ static void usage(FILE *fp, int markers)
         G__print_keywords(fp, NULL);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        G__print_keywords(fp, NULL);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         fprintf(fp, "\n");
     }
 

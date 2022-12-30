@@ -13,6 +13,7 @@ char *maskinfo(void)
 {
     struct Reclass reclass;
     char *results;
+<<<<<<< HEAD
     char text[2 * GNAME_MAX + GMAPSET_MAX];
     int next;
     int first;
@@ -24,6 +25,17 @@ char *maskinfo(void)
         return "none";
     if (Rast_get_reclass(mask_name, mask_mapset, &reclass) <= 0) {
         sprintf(text, "%s in %s", mask_name, mask_mapset);
+=======
+    char text[100];
+    int next;
+    int first;
+
+    results = NULL;
+    if (G_find_raster("MASK", G_mapset()) == NULL)
+        return "none";
+    if (Rast_get_reclass("MASK", G_mapset(), &reclass) <= 0) {
+        sprintf(text, "MASK in %s", G_mapset());
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         return append(results, text);
     }
 

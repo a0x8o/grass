@@ -39,6 +39,7 @@ line-length = 88
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 target-version = ['py37', 'py38', 'py39', 'py310']
@@ -109,6 +110,8 @@ target-version = ['py37', 'py38', 'py39', 'py310']
 >>>>>>> 0b89692930 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
 =======
 =======
@@ -375,7 +378,13 @@ target-version = ['py36', 'py37', 'py38', 'py39']
 =======
 target-version = ['py36', 'py37', 'py38', 'py39']
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+target-version = ['py37', 'py38', 'py39', 'py310']
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 include = '\.pyi?$'
 exclude = '''
 (
@@ -393,6 +402,7 @@ exclude = '''
         | bin\..*
         | dist\..*
     )/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -485,6 +495,8 @@ exclude = '''
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     | python/grass/ctypes/
     # Bug in Black related to r-string prefix capitalization reformats
     # a line in this file unnecessarily. File is however fully Black-formatted
@@ -1289,6 +1301,12 @@ ignore = [
 # Declare a custom aliases, checked with rule ICN001
 "grass.script" = "gs"
 
+=======
+    | python/libgrass_interface_generator/
+)
+'''
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 [tool.pytest.ini_options]
 minversion = "6.0"
 python_files = "*/tests/*_test.py"
@@ -1301,6 +1319,7 @@ addopts = """
     --ignore='raster/r.category/test_rcategory_doctest.txt'
 """
 timeout = 300
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1376,6 +1395,8 @@ timeout = 300
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 markers = [
     "slow: marks tests as slow (deselect with '-m \"not slow\"')",
     "needs_solo_run: marks tests that must be run without any other tests running in parallel",
@@ -1746,6 +1767,7 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
@@ -1783,3 +1805,7 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)

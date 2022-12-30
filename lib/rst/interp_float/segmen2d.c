@@ -293,7 +293,11 @@ int IL_interp_segments_2d(
                 G_lubksb(matrix, data->n_points + 1, indx, b);
                 /* put here condition to skip error if not needed */
                 params->check_points(params, data, b, ertot, zmin, dnorm,
+<<<<<<< HEAD
                                      &skip_point);
+=======
+                                     skip_point);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             }
             else if (segtest == 1) {
                 for (i = 0; i < data->n_points - 1; i++)
@@ -301,7 +305,11 @@ int IL_interp_segments_2d(
                 b[0] = 0.;
                 G_lubksb(matrix, data->n_points, indx, b);
                 params->check_points(params, data, b, ertot, zmin, dnorm,
+<<<<<<< HEAD
                                      &skip_point);
+=======
+                                     skip_point);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             }
         } /*end of cv loop */
 

@@ -85,6 +85,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     int count, alloc; /* numer of parts */
 =======
 <<<<<<< HEAD
@@ -139,6 +140,8 @@ typedef struct {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int count, alloc; /* number of parts */
 =======
     int count, alloc; /* numer of parts */
@@ -168,6 +171,7 @@ typedef struct {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -273,6 +277,11 @@ typedef struct {
     int count, alloc; /* numer of parts */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+    int count, alloc; /* numer of parts */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     SYMBPART **part;  /* objects ( parts ) */
 } SYMBOL;
 

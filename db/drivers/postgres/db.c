@@ -241,7 +241,11 @@ int create_delete_db(dbHandle *handle, int create)
             pgconn.host, pgconn.port, pgconn.options, pgconn.tty, pgconn.dbname,
             pgconn.user, pgconn.password, pgconn.host, pgconn.port,
             pgconn.schema);
+<<<<<<< HEAD
     db_get_login("pg", template_db, &user, &password, &host, &port);
+=======
+    db_get_login2("pg", template_db, &user, &password, &host, &port);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     pg_conn = PQsetdbLogin(host, port, pgconn.options, pgconn.tty,
                            pgconn.dbname, user, password);

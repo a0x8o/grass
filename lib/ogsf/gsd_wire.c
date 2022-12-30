@@ -471,6 +471,7 @@ int gsd_wire_surf_const(geosurf *surf, float k)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 int gsd_wire_surf_func(geosurf *gs, int (*user_func)(void))
@@ -546,6 +547,8 @@ int gsd_wire_surf_func(geosurf *gs, int (*user_func)(void))
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int gsd_wire_surf_func(geosurf *gs UNUSED, int (*user_func)(void) UNUSED)
 =======
 int gsd_wire_surf_func(geosurf *gs, int (*user_func)())
@@ -690,6 +693,7 @@ int gsd_wire_surf_func(geosurf *gs, int (*user_func)(void))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -772,6 +776,11 @@ int gsd_wire_surf_func(geosurf *gs, int (*user_func)())
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+int gsd_wire_surf_func(geosurf *gs, int (*user_func)())
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     return (1);
 }
@@ -876,7 +885,11 @@ int gsd_wire_arrows(geosurf *surf)
 
             gsd_arrow(pt, curcolor, xres * 2, n, sz, surf);
         } /* ea col */
+<<<<<<< HEAD
     } /* ea row */
+=======
+    }     /* ea row */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     gsd_popmatrix();
     gsd_colormode(CM_DIFFUSE);
@@ -1130,7 +1143,11 @@ int gsd_coarse_surf_map(geosurf *surf)
                 if (check_transp) {
                     GET_MAPATT(trbuff, offset2[ii], ttr);
                     ktrans = (char)SCALE_ATT(tratt, ttr, 0, 255);
+<<<<<<< HEAD
                     ktrans = (char)(255U - ktrans) << 24;
+=======
+                    ktrans = (char)(255 - ktrans) << 24;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 }
 
                 if (check_material) {

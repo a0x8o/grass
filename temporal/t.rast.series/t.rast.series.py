@@ -92,7 +92,11 @@
 # % description: Propagate NULLs
 # %end
 
+<<<<<<< HEAD
 import grass.script as gs
+=======
+import grass.script as grass
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 from grass.exceptions import CalledModuleError
 
 ############################################################################
@@ -146,6 +150,7 @@ def main():
 
         flag = ""
         if len(rows) > max_files_open:
+<<<<<<< HEAD
             gs.warning(
                 _(
 <<<<<<< HEAD
@@ -320,6 +325,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -374,6 +380,15 @@ def main():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+            grass.warning(
+                _(
+                    "Processing over {} maps: activating -z flag of r.series which slows down processing.".format(
+                        max_files_open
+                    )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 )
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
             )

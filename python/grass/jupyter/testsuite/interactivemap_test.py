@@ -47,6 +47,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -57,6 +58,8 @@ import os
 <<<<<<< HEAD
 =======
 >>>>>>> 2f4b0e227d (libraster: fix Rast_legal_bandref() (#1796))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -395,10 +398,20 @@ from pathlib import Path
 =======
 =======
 import unittest
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 import sys
+import unittest
 from pathlib import Path
+<<<<<<< HEAD
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
 >>>>>>> 2f4b0e227d (libraster: fix Rast_legal_bandref() (#1796))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 import grass.jupyter as gj
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -436,6 +449,7 @@ def can_import_folium():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -448,6 +462,8 @@ def can_import_folium():
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f4b0e227d (libraster: fix Rast_legal_bandref() (#1796))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         import folium  # noqa
 =======
 <<<<<<< HEAD
@@ -666,7 +682,13 @@ def can_import_ipyleaflet():
 =======
         import folium
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
 >>>>>>> 2f4b0e227d (libraster: fix Rast_legal_bandref() (#1796))
+=======
+=======
+        import folium  # noqa
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
         return True
     except ImportError:

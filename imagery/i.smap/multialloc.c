@@ -37,7 +37,11 @@ char *multialloc(size_t s, /* individual array element size */
     for (i = 0; i < d - 1; i++, q++) { /* for each of the dimensions
                                         * but the last */
         max *= (*q);
+<<<<<<< HEAD
         r[0] = (char *)G_malloc(max * sizeof(char *));
+=======
+        r[0] = (char *)G_malloc(max * sizeof(char **));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         r = (char **)r[0]; /* step through to beginning of next
                             * dimension array */
     }

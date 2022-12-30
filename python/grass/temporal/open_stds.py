@@ -62,7 +62,16 @@ def open_old_stds(name, type, dbif=None):
         sp = dataset_factory("strds", id)
         if semantic_label:
             sp.set_semantic_label(semantic_label)
+<<<<<<< HEAD
     elif type in {"str3ds", "raster3d", "rast3d", "raster_3d"}:
+=======
+    elif (
+        type == "str3ds"
+        or type == "raster3d"
+        or type == "rast3d"
+        or type == "raster_3d"
+    ):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         sp = dataset_factory("str3ds", id)
     elif type in {"stvds", "vect", "vector"}:
         sp = dataset_factory("stvds", id)

@@ -106,6 +106,7 @@ double sum_abs = 0.0;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -124,6 +125,8 @@ double sum_abs = 0.0;
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 double min = NAN;
 double max = NAN;
 =======
@@ -315,6 +318,7 @@ double max = NAN;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -335,9 +339,12 @@ double max = NAN;
 double min = NAN;
 double max = NAN;
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 double min = 0.0 / 0.0; /* init as nan */
 double max = 0.0 / 0.0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -434,6 +441,8 @@ double max = 0.0 / 0.0;
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 double mean, mean_abs, pop_variance, sample_variance, pop_stdev, sample_stdev,
     pop_coeff_variation, kurtosis, skewness;
 double total_size = 0.0; /* total size: length/area */
@@ -446,7 +455,11 @@ enum OutputFormat format;
 int main(int argc, char *argv[])
 {
     struct GModule *module;
+<<<<<<< HEAD
     struct Option *map_opt, *type_opt, *percentile, *format_opt;
+=======
+    struct Option *map_opt, *type_opt, *percentile;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     module = G_define_module();
     G_add_keyword(_("vector"));
@@ -498,9 +511,12 @@ int main(int argc, char *argv[])
     geometry->key = 'd';
     geometry->description =
         _("Calculate geometric distances instead of attribute statistics");
+<<<<<<< HEAD
 
     format_opt = G_define_standard_option(G_OPT_F_FORMAT);
     format_opt->guisection = _("Print");
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     G_gisinit(argv[0]);
 
@@ -511,6 +527,7 @@ int main(int argc, char *argv[])
     if (!col_opt->answer && !geometry->answer) {
         G_fatal_error(_("Required parameter <%s> not set:\n\t(%s)"),
                       col_opt->key, col_opt->description);
+<<<<<<< HEAD
     }
 
     if (strcmp(format_opt->answer, "json") == 0) {
@@ -518,6 +535,8 @@ int main(int argc, char *argv[])
     }
     else {
         format = PLAIN;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     otype = Vect_option_to_types(type_opt);
@@ -958,6 +977,7 @@ void summary(void)
 
     G_debug(3, "otype %d:", otype);
 
+<<<<<<< HEAD
     if (format == JSON) {
         root_value = json_value_init_object();
         if (root_value == NULL) {
@@ -1001,6 +1021,9 @@ void summary(void)
         }
     }
     else if (shell_flag->answer) {
+=======
+    if (shell_flag->answer) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         fprintf(stdout, "n=%d\n", count);
         if (geometry->answer) {
             fprintf(stdout, "nzero=%d\n", nzero);
@@ -1106,6 +1129,7 @@ void summary(void)
             quartile_perc = (Cvarr.value[qpos_perc]).val.d;
         }
 
+<<<<<<< HEAD
         if (format == JSON) {
             json_object_set_number(root_object, "first_quartile", quartile_25);
             json_object_set_number(root_object, "median", median);
@@ -1136,6 +1160,22 @@ void summary(void)
                 fprintf(stdout, "median (even number of cells): %g\n", median);
             fprintf(stdout, "3rd quartile: %g\n", quartile_75);
 
+=======
+        if (shell_flag->answer) {
+            fprintf(stdout, "first_quartile=%g\n", quartile_25);
+            fprintf(stdout, "median=%g\n", median);
+            fprintf(stdout, "third_quartile=%g\n", quartile_75);
+            fprintf(stdout, "percentile_%d=%g\n", perc, quartile_perc);
+        }
+        else {
+            fprintf(stdout, "1st quartile: %g\n", quartile_25);
+            if (count % 2)
+                fprintf(stdout, "median (odd number of cells): %g\n", median);
+            else
+                fprintf(stdout, "median (even number of cells): %g\n", median);
+            fprintf(stdout, "3rd quartile: %g\n", quartile_75);
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             if (perc % 10 == 1 && perc != 11)
                 fprintf(stdout, "%dst percentile: %g\n", perc, quartile_perc);
             else if (perc % 10 == 2 && perc != 12)
@@ -1145,6 +1185,7 @@ void summary(void)
             else
                 fprintf(stdout, "%dth percentile: %g\n", perc, quartile_perc);
         }
+<<<<<<< HEAD
     }
 
     if (format == JSON) {
@@ -1155,5 +1196,7 @@ void summary(void)
         puts(serialized_string);
         json_free_serialized_string(serialized_string);
         json_value_free(root_value);
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 }

@@ -247,7 +247,11 @@ int main(int argc, char **argv)
                     insert(&PRESENT_PT, row, col, backrow, backcol);
                 }
             } /* loop over cols */
+<<<<<<< HEAD
         } /* loop over rows */
+=======
+        }     /* loop over rows */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
         Rast_close(path_fd);
     }

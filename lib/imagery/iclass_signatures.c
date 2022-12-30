@@ -77,6 +77,7 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -207,6 +208,8 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         sigs->semantic_labels[i] = Rast_get_semantic_label_or_name(
             refer->file[i].name, refer->file[i].mapset);
 =======
@@ -430,7 +433,14 @@ int I_iclass_init_signatures(struct Signature *sigs, struct Ref *refer)
 =======
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+        sigs->semantic_labels[i] = Rast_get_semantic_label_or_name(
+            refer->file[i].name, refer->file[i].mapset);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
 
     return 1;
@@ -492,6 +502,7 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 
     G_debug(3, "I_write_signatures(): file_name=%s", file_name);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -583,6 +594,8 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     if (!(outsig_fd = I_fopen_signature_file_new(file_name))) {
         G_warning(_("Unable to open output signature file '%s'"), file_name);
         return 0;
@@ -809,6 +822,7 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -871,6 +885,13 @@ int I_iclass_write_signatures(struct Signature *sigs, const char *file_name)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    if (!(outsig_fd = I_fopen_signature_file_new(file_name))) {
+        G_warning(_("Unable to open output signature file '%s'"), file_name);
+        return 0;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
 
     I_write_signatures(outsig_fd, sigs);

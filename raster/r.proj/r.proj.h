@@ -10,7 +10,11 @@
 #define L2BSIZE (2 * (L2BDIM))
 #define BSIZE   (1 << (L2BSIZE))
 #define HI(i)   ((i) >> (L2BDIM))
+<<<<<<< HEAD
 #define LO(i)   ((i) & ((BDIM) - 1))
+=======
+#define LO(i)   ((i) & ((BDIM)-1))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 typedef FCELL block[BDIM][BDIM];
 

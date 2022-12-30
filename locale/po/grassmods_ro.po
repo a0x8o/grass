@@ -27764,6 +27764,7 @@ msgid "Apriori Phi (roll) standard deviation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27829,6 +27830,11 @@ msgid "Apriori Phi (roll) standard deviation"
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../imagery/i.ortho.photo/i.ortho.init/main.c:117
@@ -40011,6 +40017,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -40130,6 +40137,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../locale/scriptstrings/g.proj.identify_to_translate.c:8
 msgid "Input EPSG code"
@@ -86958,6 +86972,7 @@ msgstr "<%s> nu a fost găsit"
 #~ msgid "Non-zero data only"
 #~ msgstr "Doar datele nenule"
 
+<<<<<<< HEAD
 #~ msgid "Number of points must be > 0 (%d given)"
 #~ msgstr "Numărul de puncte trebuie să fie > 0 (%d dat)"
 
@@ -87049,6 +87064,7 @@ msgstr "<%s> nu a fost găsit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -87103,5 +87119,12 @@ msgstr "<%s> nu a fost găsit"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+msgid "<%s> not found"
+msgstr "<%s> nu a fost găsit"
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgid "%s=%s,%s: files are the same, no copy required"
 msgstr "%s=%s,%s: fișierele sunt la fel, nici o copiere nu este necesară"

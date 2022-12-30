@@ -2,6 +2,7 @@
 
 import multiprocessing
 
+<<<<<<< HEAD
 import pytest
 
 import grass.script as gs
@@ -13,6 +14,10 @@ xfail_mp_spawn = pytest.mark.xfail(
     strict=True,
 )
 
+=======
+import grass.script as gs
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 def run_in_subprocess(function):
     """Run function in a separate process
@@ -28,7 +33,10 @@ def run_in_subprocess(function):
     return result
 
 
+<<<<<<< HEAD
 @xfail_mp_spawn
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 def test_reading_respects_change_of_session(tmp_path):
     """Check new session file path is retrieved and the file is read"""
 

@@ -35,6 +35,7 @@ COPYRIGHT: (C) 2022 Stefan Blumentrath and by the GRASS Development Team
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -80,11 +81,14 @@ COPYRIGHT: (C) 2022 Stefan Blumentrath and by the GRASS Development Team
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 import re
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,10 +174,15 @@ import re
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 import sys
 import unittest
 
 from pathlib import Path
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252,6 +261,8 @@ from grass.gunittest.case import TestCase
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 from urllib import request as urlrequest
 
 from grass.gunittest.case import TestCase
@@ -341,6 +352,7 @@ from grass.gunittest.case import TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -395,6 +407,12 @@ from grass.gunittest.case import TestCase
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+from grass.gunittest.case import TestCase
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 from grass.gunittest.main import test
 from grass.gunittest.utils import silent_rmtree
 
@@ -439,6 +457,7 @@ class TestModuleDownloadFromDifferentSources(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -492,6 +511,8 @@ class TestModuleDownloadFromDifferentSources(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     request_headers = {
         "User-Agent": "Mozilla/5.0",
     }
@@ -615,6 +636,14 @@ class TestModuleDownloadFromDifferentSources(TestCase):
             files = [path.name for path in self.install_prefix.iterdir()]
             if files:
                 raise RuntimeError(
+=======
+    def setUp(self):
+        """Make sure we are not dealing with some old files"""
+        if self.install_prefix.exists():
+            files = list(path.name for path in self.install_prefix.iterdir())
+            if files:
+                RuntimeError(
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                     f"Install prefix path '{self.install_prefix}' \
                     contains files {','.join(files)}"
                 )
@@ -722,6 +751,7 @@ class TestModuleDownloadFromDifferentSources(TestCase):
 
         for file in files:
             self.assertFileExists(file)
+<<<<<<< HEAD
             if file.suffix not in {".html", ".py"}:
                 self.assertModule(str(file), help=True)
 
@@ -898,6 +928,7 @@ class TestModuleDownloadFromDifferentSources(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -985,6 +1016,13 @@ class TestModuleDownloadFromDifferentSources(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+            if file.suffix != ".html" and file.suffix != ".py":
+                self.assertModule(str(file), help=True)
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 if __name__ == "__main__":
     test()

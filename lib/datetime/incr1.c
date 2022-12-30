@@ -452,7 +452,11 @@ static int _datetime_carry(DateTime *dt, int absolute)
                 dt->month++;
 
         } /* end while */
+<<<<<<< HEAD
     } /* end if */
+=======
+    }     /* end if */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     /* undo giving year a SIGN, temporarily */
     if (!absolute && dt->mode == DATETIME_ABSOLUTE) {

@@ -36,6 +36,7 @@ struct octfunc {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -55,6 +56,8 @@ struct octfunc {
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -466,6 +469,17 @@ struct octtree {
 =======
 >>>>>>> osgeo-main
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    int (*compare)();
+    VOID_T **(*divide_data)();
+    int (*add_data)();
+    int (*intersect)();
+    int (*division_check)();
+    int (*get_points)();
+};
+
+struct octtree {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     VOID_T *data;
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

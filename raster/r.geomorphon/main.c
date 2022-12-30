@@ -445,6 +445,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -508,6 +509,8 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     struct Option *opt_input, *opt_output[o_size], *par_search_radius,
         *par_skip_radius, *par_flat_threshold, *par_flat_distance,
         *par_comparison, *par_coords, *par_profiledata, *par_profileformat;
@@ -759,6 +762,7 @@ int main(int argc, char **argv)
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -838,6 +842,13 @@ int main(int argc, char **argv)
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+    struct Option *opt_input, *opt_output[o_size], *par_search_radius,
+        *par_skip_radius, *par_flat_threshold, *par_flat_distance,
+        *par_comparison, *par_coords, *par_profiledata, *par_profileformat;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     struct Flag *flag_units, *flag_extended;
 
     struct History history;
@@ -1109,6 +1120,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1158,9 +1170,12 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1250,6 +1265,10 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 G_warning(
                     _("There may be a notable processing delay because the "
                       "computational region is %lu times larger than "
@@ -1282,6 +1301,9 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1439,6 +1461,7 @@ int main(int argc, char **argv)
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
@@ -1532,6 +1555,10 @@ int main(int argc, char **argv)
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 3dd5d8c46e (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         }
     }
 
@@ -1724,9 +1751,15 @@ int main(int argc, char **argv)
                         prof_int("format_version_major", 0);
                         prof_int("format_version_minor", 9);
                         prof_utc("timestamp", time(NULL));
+<<<<<<< HEAD
                         snprintf(buf, sizeof(buf),
                                  "r.geomorphon GRASS GIS %s [%s]",
                                  GRASS_VERSION_STRING, GRASS_HEADERS_VERSION);
+=======
+                        G_snprintf(buf, sizeof(buf),
+                                   "r.geomorphon GRASS GIS %s [%s]",
+                                   GRASS_VERSION_STRING, GRASS_HEADERS_VERSION);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                         prof_str("generator", buf);
 
                         oneoff_done =

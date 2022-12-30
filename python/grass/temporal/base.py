@@ -32,8 +32,11 @@ from datetime import datetime
 from .core import (
     SQLDatabaseInterfaceConnection,
     get_current_mapset,
+<<<<<<< HEAD
     get_tgis_dbmi_paramstyle,
     get_tgis_message_interface,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 )
 
 ###############################################################################
@@ -315,7 +318,11 @@ class SQLDatabaseInterface(DictSQLSerializer):
             + "';\n"
         )
 
+<<<<<<< HEAD
     def is_in_db(self, dbif=None, mapset=None) -> bool:
+=======
+    def is_in_db(self, dbif=None, mapset=None):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         """Check if this object is present in the temporal database
 
         :param dbif: The database interface to be used,
@@ -369,7 +376,11 @@ class SQLDatabaseInterface(DictSQLSerializer):
             self.get_select_statement(), mapset=self.mapset
         )
 
+<<<<<<< HEAD
     def select(self, dbif=None, mapset=None) -> bool:
+=======
+    def select(self, dbif=None, mapset=None):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         """Select the content from the temporal database and store it
         in the internal dictionary structure
 

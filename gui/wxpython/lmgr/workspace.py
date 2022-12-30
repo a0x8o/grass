@@ -519,6 +519,7 @@ class WorkspaceManager:
         :return None
         """
         if menu:
+<<<<<<< HEAD
             menu_index = menu.FindMenu(_("File"))
             if menu_index == wx.NOT_FOUND:
                 # try untranslated version
@@ -533,6 +534,14 @@ class WorkspaceManager:
                     return
             workspace_item = file_menu.FindItemById(workspace_index)
 
+=======
+            file_menu = menu.GetMenu(
+                menuIndex=menu.FindMenu(title=_("File")),
+            )
+            workspace_item = file_menu.FindItem(
+                id=file_menu.FindItem(itemString=_("Workspace")),
+            )[0]
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             self._recent_files = RecentFilesMenu(
                 app_name="main",
                 parent_menu=workspace_item.GetSubMenu(),
@@ -563,8 +572,14 @@ class WorkspaceManager:
         """
         if not file_exists:
             GError(
+<<<<<<< HEAD
                 _("File <{}> doesn't exist. It was probably moved or deleted.").format(
                     path
+=======
+                _(
+                    "File <{}> doesn't exist."
+                    " It was probably moved or deleted.".format(path)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 ),
                 parent=self.lmgr,
             )

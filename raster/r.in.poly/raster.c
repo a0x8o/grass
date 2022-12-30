@@ -54,6 +54,7 @@ static CELL *cell;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -72,6 +73,8 @@ static CELL *cell;
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 static int (*dot)(int, int);
 =======
 <<<<<<< HEAD
@@ -240,6 +243,7 @@ static int (*dot)(int, int);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -350,6 +354,11 @@ static int (*dot)();
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+static int (*dot)();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 static int cell_dot(int, int);
 static int fcell_dot(int, int);
 static int dcell_dot(int, int);

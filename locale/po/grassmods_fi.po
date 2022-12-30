@@ -39276,6 +39276,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -39395,6 +39396,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../locale/scriptstrings/r.vif_to_translate.c:19
 msgid "Only print selected variables to screen"
@@ -68879,10 +68887,3370 @@ msgstr ""
 msgid "No graphics device selected. Use d.mon to select graphics device."
 msgstr ""
 
+<<<<<<< HEAD
 #: ../display/d.redraw/main.c:61
 #, fuzzy, c-format
 msgid "Unable to open file '%s' for reading."
 msgstr "Kursoria ei voida avata"
+=======
+#: ../raster/r.sim/simlib/input.c:576
+msgid "Unable to write et file"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:116
+msgid "Creates a raster map from LAS LiDAR points using univariate statistics."
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:168
+msgid "pth (nth) percentile of point values in cell"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:180
+msgid "Subtract raster values from the Z coordinates"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:182
+msgid "The scale for Z is applied beforehand, the range filter for Z afterwards"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:191
+msgid "Filter range for Z data (min,max)"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:192
+msgid "Applied after base_raster transformation step"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:242
+msgid "Discard given percentage of the smallest and largest values"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:252
+msgid "Output raster resolution"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:282
+msgid "Use the extent of the input for the raster extent"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:284
+msgid "Set internally computational region extents based on the point cloud"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:291
+msgid "Set computation region to match the new raster map"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:293
+msgid "Set computation region to match the 2D extent and resolution of the newly created new raster map"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:316
+msgid "Use intensity values rather than Z values"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:318
+msgid "Uses intensity values everywhere as if they would be Z coordinates"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:324
+msgid "Use Z values for filtering, but intensity values for statistics"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:329
+msgid "Use base raster resolution instead of computational region"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:331
+msgid "For getting values from base raster, use its actual resolution instead of computational region resolution"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:359
+#, c-format
+msgid "Flag %c makes sense only with %s option or -%c flag"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:367
+msgid "Trim option can be used only with trimmean method"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:391
+msgid "zrange will not be taken into account during scan"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:466
+#, c-format
+msgid "Unknown filter option <%s>"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:498
+#, c-format
+msgid "Invalid %s"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:533
+#, c-format
+msgid "Option '%s' must be > 0.0"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:601
+#, c-format
+msgid "Unable to process the whole map at once. Please set the '%s' option to some value lower than 100."
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:621
+#, c-format
+msgid "Pass #%d (of %d)..."
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:760 ../raster/r.drain/main.c:471
+#: ../raster/r.path/main.c:555 ../raster/r.path/main.c:585
+msgid "Writing output raster map..."
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:783
+#, c-format
+msgid "%lu points found in input file(s)"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:803
+#, c-format
+msgid "%lu input points were invalid and filtered out"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:806
+#, c-format
+msgid "%lu input points were invalid, use -%c flag to filter them out"
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:809
+#, c-format
+msgid "Raster map <%s> created. %lu points from %d files found in region."
+msgstr ""
+
+#: ../raster/r.in.lidar/main.c:814
+#, c-format
+msgid "Raster map <%s> created. %lu points found in region."
+msgstr ""
+
+#: ../raster/r.basins.fill/main.c:58
+msgid "Generates watershed subbasins raster map."
+msgstr ""
+
+#: ../raster/r.basins.fill/main.c:62
+msgid "Name of input coded stream network raster map"
+msgstr ""
+
+#: ../raster/r.basins.fill/main.c:66
+msgid "Name of input thinned ridge network raster map"
+msgstr ""
+
+#: ../raster/r.basins.fill/main.c:74
+msgid "Number of passes through the dataset"
+msgstr ""
+
+#: ../raster/r.basins.fill/main.c:122
+msgid "Forward sweep complete"
+msgstr ""
+
+#: ../raster/r.basins.fill/main.c:139
+msgid "Reverse sweep complete"
+msgstr ""
+
+#: ../raster/r.basins.fill/read_map.c:39
+#, c-format
+msgid "Reading <%s> ... "
+msgstr ""
+
+#: ../raster/r.stats/raw_stats.c:118
+msgid "Invalid map type"
+msgstr ""
+
+#: ../raster/r.stats/main.c:109
+msgid "Generates area statistics for raster map."
+msgstr ""
+
+#: ../raster/r.stats/main.c:114 ../raster/r.report/parse.c:38
+msgid "Name of raster map(s) to report on"
+msgstr ""
+
+#: ../raster/r.stats/main.c:136 ../raster/r.report/parse.c:94
+msgid "Number of floating-point subranges to collect stats from"
+msgstr ""
+
+#: ../raster/r.stats/main.c:137 ../raster/r.stats/main.c:193
+#: ../raster/r.stats/main.c:198 ../raster/r.stats/main.c:213
+#: ../raster/r.stats/main.c:218 ../raster/r.report/parse.c:95
+#: ../raster/r.report/parse.c:139 ../raster/r.report/parse.c:145
+msgid "Floating point"
+msgstr ""
+
+#: ../raster/r.stats/main.c:144 ../raster/r.report/parse.c:102
+msgid "Sort output statistics by cell counts"
+msgstr ""
+
+#: ../raster/r.stats/main.c:145 ../raster/r.report/parse.c:103
+msgid "Default: sorted by categories or intervals"
+msgstr ""
+
+#: ../raster/r.stats/main.c:149 ../raster/r.report/parse.c:107
+msgid "Sort by cell counts in ascending order"
+msgstr ""
+
+#: ../raster/r.stats/main.c:150 ../raster/r.report/parse.c:108
+msgid "Sort by cell counts in descending order"
+msgstr ""
+
+#: ../raster/r.stats/main.c:157
+msgid "Print area totals in square meters"
+msgstr ""
+
+#: ../raster/r.stats/main.c:162
+msgid "Print cell counts (sortable)"
+msgstr ""
+
+#: ../raster/r.stats/main.c:168
+msgid "Print approximate (total percent may not be 100%) percents"
+msgstr ""
+
+#: ../raster/r.stats/main.c:173
+msgid "Print category labels"
+msgstr ""
+
+#: ../raster/r.stats/main.c:177
+msgid "One cell (range) per line"
+msgstr ""
+
+#: ../raster/r.stats/main.c:181
+msgid "Print grid coordinates (east and north)"
+msgstr ""
+
+#: ../raster/r.stats/main.c:182 ../raster/r.stats/main.c:188
+msgid "Coordinates"
+msgstr ""
+
+#: ../raster/r.stats/main.c:186
+msgid "Print x and y (column and row)"
+msgstr ""
+
+#: ../raster/r.stats/main.c:187
+msgid "Indexing starts with 1: first column and row are 1"
+msgstr ""
+
+#: ../raster/r.stats/main.c:192
+msgid "Print averaged values instead of intervals (floating-point maps only)"
+msgstr ""
+
+#: ../raster/r.stats/main.c:197
+msgid "Print raw indexes of floating-point ranges (floating-point maps only)"
+msgstr ""
+
+#: ../raster/r.stats/main.c:202 ../raster/r.report/parse.c:128
+msgid "Do not report no data value"
+msgstr ""
+
+#: ../raster/r.stats/main.c:203 ../raster/r.stats/main.c:208
+#: ../raster/r.report/parse.c:129 ../raster/r.report/parse.c:134
+msgid "No data"
+msgstr ""
+
+#: ../raster/r.stats/main.c:207 ../raster/r.report/parse.c:133
+msgid "Do not report cells where all maps have no data"
+msgstr ""
+
+#: ../raster/r.stats/main.c:212 ../raster/r.report/parse.c:138
+msgid "Report for cats floating-point ranges (floating-point maps only)"
+msgstr ""
+
+#: ../raster/r.stats/main.c:217 ../raster/r.report/parse.c:144
+msgid "Read floating-point map as integer (use map's quant rules)"
+msgstr ""
+
+#: ../raster/r.stats/main.c:234
+#, c-format
+msgid "'%s' must be greater than zero; using %s=255"
+msgstr ""
+
+#: ../raster/r.stats/main.c:304
+#, c-format
+msgid "Raster map <%s> is reading as integer map! Flag '-%c' and/or '%s' option will be ignored."
+msgstr ""
+
+#: ../raster/r.stats/main.c:320
+#, c-format
+msgid "Cats for raster map <%s> are either missing or have no explicit labels. Using %s=%d."
+msgstr ""
+
+#: ../raster/r.stats/main.c:326
+#, c-format
+msgid "Flag '-%c' was given, using cats fp ranges of raster map <%s>, ignoring '%s' option"
+msgstr ""
+
+#: ../raster/r.stats/main.c:332 ../raster/r.contour/main.c:150
+#, c-format
+msgid "Unable to read fp range of raster map <%s>"
+msgstr ""
+
+#: ../raster/r.univar/r3.univar_main.c:37
+msgid "3D Raster map used for zoning, must be of type CELL"
+msgstr ""
+
+#: ../raster/r.univar/r3.univar_main.c:67 ../raster/r.univar/r.univar_main.c:71
+msgid "Table output format instead of standard output format"
+msgstr ""
+
+#: ../raster/r.univar/r3.univar_main.c:103
+msgid "Calculates univariate statistics from the non-null cells of a 3D raster map."
+msgstr ""
+
+#: ../raster/r.univar/r3.univar_main.c:105
+#: ../raster/r.univar/r.univar_main.c:112
+msgid "Statistics include number of cells counted, minimum and maximum cell values, range, arithmetic mean, population variance, standard deviation, coefficient of variation, and sum."
+msgstr ""
+
+#: ../raster/r.univar/r.univar_main.c:36
+msgid "Raster map used for zoning, must be of type CELL"
+msgstr ""
+
+#: ../raster/r.univar/r.univar_main.c:53 ../raster/r.univar/r.univar_main.c:67
+msgid "Extended"
+msgstr ""
+
+#: ../raster/r.univar/r.univar_main.c:76
+msgid "Use the native resolution and extent of the raster map, instead of the current region"
+msgstr ""
+
+#: ../raster/r.univar/r.univar_main.c:110
+msgid "Calculates univariate statistics from the non-null cells of a raster map."
+msgstr ""
+
+#: ../raster/r.univar/r.univar_main.c:123
+msgid "zones option and region flag -r are mutually exclusive"
+msgstr ""
+
+#: ../raster/r.univar/r.univar_main.c:201 ../raster/r.out.png/main.c:273
+#, c-format
+msgid "Raster <%s> type mismatch"
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:69
+msgid "Interpolates raster maps located (temporal or spatial) in between input raster maps at specific sampling positions."
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:79
+msgid "Data point position for each input map"
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:84
+msgid "Input file with one input raster map name and data point position per line, field separator between name and sample point is |"
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:97
+msgid "Sampling point position for each output map"
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:101
+msgid "Input file with one output raster map name and sample point position per line, field separator between name and sample point is |"
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:111
+msgid "Interpolation method, currently only linear interpolation is supported"
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:130 ../raster/r.series.interp/main.c:146
+#, c-format
+msgid "Please specify %s= and %s="
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:180 ../raster/r.colors/edit_colors.c:243
+#, c-format
+msgid "Unable to open %s file <%s>"
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:213
+#, c-format
+msgid "Missing point position for %s map <%s> in file <%s> near line %i"
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:228 ../raster/r.series.interp/main.c:262
+#, c-format
+msgid "Preparing %s map <%s> at position %g"
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:232
+#, c-format
+msgid "No raster map name found in %s file <%s>"
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:243
+#, c-format
+msgid "No %s raster map not found"
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:250
+#, c-format
+msgid "The number of %s maps and %s point positions must be equal"
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:279
+#, c-format
+msgid "Start interpolation run with %i input maps and %i output maps"
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:299
+#, c-format
+msgid "map <%s> at position %g was not interpolated. Check the interpolation interval."
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:319
+msgid "At least 2 input maps are required for linear interpolation"
+msgstr ""
+
+#: ../raster/r.series.interp/main.c:337
+#, c-format
+msgid "Interpolate map <%s> at position %g in interval (%g;%g)"
+msgstr ""
+
+#: ../raster/r.coin/main.c:69
+msgid "Tabulates the mutual occurrence (coincidence) of categories for two raster map layers."
+msgstr ""
+
+#: ../raster/r.coin/main.c:74
+msgid "Name of first input raster map"
+msgstr ""
+
+#: ../raster/r.coin/main.c:78
+msgid "Name of second input raster map"
+msgstr ""
+
+#: ../raster/r.coin/main.c:84
+msgid "Unit of measure"
+msgstr ""
+
+#: ../raster/r.coin/main.c:86
+msgid "c(ells), p(ercent), x(percent of category [column]), y(percent of category [row]), a(cres), h(ectares), k(square kilometers), m(square miles)"
+msgstr ""
+
+#: ../raster/r.coin/main.c:93
+msgid "Wide report, 132 columns (default: 80)"
+msgstr ""
+
+#: ../raster/r.coin/make_coin.c:48
+#, c-format
+msgid "Tabulating Coincidence between '%s' and '%s'"
+msgstr ""
+
+#: ../raster/r.coin/make_coin.c:61
+msgid "Unable to create any tempfiles"
+msgstr ""
+
+#: ../raster/r.coin/make_coin.c:65
+msgid "Unable to run r.stats"
+msgstr ""
+
+#: ../raster/r.coin/make_coin.c:72
+msgid "Unexpected output from r.stats"
+msgstr ""
+
+#: ../raster/r.coin/make_coin.c:84
+msgid "Unable to open tempfile"
+msgstr ""
+
+#: ../raster/r.coin/print_coin.c:44
+#, c-format
+msgid "Preparing report ..."
+msgstr ""
+
+#: ../raster/r.drain/main.c:179
+msgid "Directional drain selected... checking for direction raster map"
+msgstr ""
+
+#: ../raster/r.drain/main.c:182
+msgid "Surface/Hydrology drain selected"
+msgstr ""
+
+#: ../raster/r.drain/main.c:187
+#, c-format
+msgid "Direction raster map <%s> not specified, if direction flag is on, a direction raster must be given"
+msgstr ""
+
+#: ../raster/r.drain/main.c:194
+#, c-format
+msgid "Direction raster map <%s> should not be specified for Surface/Hydrology drains"
+msgstr ""
+
+#: ../raster/r.drain/main.c:213
+msgid "Specify just one of the -c, -a and -n flags"
+msgstr ""
+
+#: ../raster/r.drain/main.c:244 ../raster/r.path/main.c:272
+#, c-format
+msgid "Starting point %d is outside the current region"
+msgstr ""
+
+#: ../raster/r.drain/main.c:274 ../raster/r.walk/main.c:756
+#: ../raster/r.path/main.c:303 ../raster/r.cost/main.c:605
+#, c-format
+msgid "Reading vector map <%s> with start points..."
+msgstr ""
+
+#: ../raster/r.drain/main.c:319 ../raster/r.path/main.c:351
+#, c-format
+msgid "Starting vector map <%s> contains no points in the current region"
+msgstr ""
+
+#: ../raster/r.drain/main.c:327
+msgid "No start/stop point(s) specified"
+msgstr ""
+
+#: ../raster/r.drain/main.c:402
+msgid "Calculating flow directions..."
+msgstr ""
+
+#: ../raster/r.drain/main.c:693
+#, c-format
+msgid "direction read: %lf, neighbour found: %i"
+msgstr ""
+
+#: ../raster/r.to.rast3elev/main.c:99
+msgid "The number of input and elevation maps is not equal"
+msgstr ""
+
+#: ../raster/r.to.rast3elev/main.c:165
+msgid "The value to fill the upper cells, default is null"
+msgstr ""
+
+#: ../raster/r.to.rast3elev/main.c:172
+msgid "The value to fill the lower cells, default is null"
+msgstr ""
+
+#: ../raster/r.to.rast3elev/main.c:185
+msgid "Use the input map values to fill the upper cells"
+msgstr ""
+
+#: ../raster/r.to.rast3elev/main.c:190
+msgid "Use the input map values to fill the lower cells"
+msgstr ""
+
+#: ../raster/r.to.rast3elev/main.c:287 ../raster/r.to.rast3elev/main.c:320
+msgid "Error writing 3D raster double data"
+msgstr ""
+
+#: ../raster/r.to.rast3elev/main.c:366
+msgid "Creates a 3D volume map based on 2D elevation and value raster maps."
+msgstr ""
+
+#: ../raster/r.to.rast3elev/main.c:400
+msgid "The upper value is not valid"
+msgstr ""
+
+#: ../raster/r.to.rast3elev/main.c:410
+msgid "The lower value is not valid"
+msgstr ""
+
+#: ../raster/r.to.rast3elev/main.c:427
+msgid "The 2D and 3D region settings are different. I will use the 3D region settings to adjust the 2D region."
+msgstr ""
+
+#: ../raster/r.random.surface/main.c:61
+msgid "Generates random surface(s) with spatial dependence."
+msgstr ""
+
+#: ../raster/r.random.surface/main.c:68
+msgid "Name for output raster map(s)"
+msgstr ""
+
+#: ../raster/r.random.surface/main.c:77 ../raster/r.random.cells/main.c:62
+msgid "Maximum distance of spatial correlation (value >= 0.0)"
+msgstr ""
+
+#: ../raster/r.random.surface/main.c:85
+msgid "Distance decay exponent (value > 0.0)"
+msgstr ""
+
+#: ../raster/r.random.surface/main.c:94
+msgid "Distance filter remains flat before beginning exponent"
+msgstr ""
+
+#: ../raster/r.random.surface/main.c:102 ../raster/r.random.cells/main.c:77
+msgid "Random seed, default [random]"
+msgstr ""
+
+#: ../raster/r.random.surface/main.c:108
+msgid "Maximum cell value of distribution"
+msgstr ""
+
+#: ../raster/r.random.surface/main.c:113
+msgid "Uniformly distributed cell values"
+msgstr ""
+
+#: ../raster/r.random.surface/main.c:128 ../raster/r.random.cells/init.c:93
+#, c-format
+msgid "Generating raster map <%s>..."
+msgstr ""
+
+#: ../raster/r.random.surface/init.c:73
+#, c-format
+msgid "High (%d) must be greater than 1"
+msgstr ""
+
+#: ../raster/r.random.surface/init.c:82
+#, c-format
+msgid "Rastar map <%s> repeated, maps must be unique"
+msgstr ""
+
+#: ../raster/r.random.surface/init.c:92
+msgid "Output raster map required"
+msgstr ""
+
+#: ../raster/r.random.surface/init.c:141
+#, c-format
+msgid "Distance value (%d): %lf must be >= 0.0"
+msgstr ""
+
+#: ../raster/r.random.surface/init.c:169
+#, c-format
+msgid "Exponent value (%lf) must be > 0.0"
+msgstr ""
+
+#: ../raster/r.random.surface/init.c:193
+#, c-format
+msgid "Flat value (%lf) must be less than distance value (%lf)"
+msgstr ""
+
+#: ../raster/r.random.surface/init.c:214
+msgid "Must have a distance value for each filter"
+msgstr ""
+
+#: ../raster/r.random.surface/init.c:246
+msgid "Must have a exponent value for each filter"
+msgstr ""
+
+#: ../raster/r.random.surface/init.c:263
+msgid "Must have a weight value for each filter"
+msgstr ""
+
+#: ../raster/r.external.out/main.c:38
+#, c-format
+msgid "Supported Formats:\n"
+msgstr ""
+
+#: ../raster/r.external.out/main.c:132
+msgid "Unable to open GDAL file"
+msgstr ""
+
+#: ../raster/r.external.out/main.c:162
+#, c-format
+msgid "Format <%s> does not support direct write"
+msgstr ""
+
+#: ../raster/r.external.out/main.c:214
+msgid "Unable to create GDAL file"
+msgstr ""
+
+#: ../raster/r.external.out/main.c:217
+msgid "Error writing GDAL file"
+msgstr ""
+
+#: ../raster/r.external.out/main.c:240
+msgid "Redirects raster output to file utilizing GDAL library rather than storing in GRASS raster format."
+msgstr ""
+
+#: ../raster/r.external.out/main.c:244
+msgid "Name of output directory"
+msgstr ""
+
+#: ../raster/r.external.out/main.c:251
+msgid "Extension for output files"
+msgstr ""
+
+#: ../raster/r.external.out/main.c:257
+msgid "Format of output files"
+msgstr ""
+
+#: ../raster/r.external.out/main.c:277
+msgid "Cease using GDAL and revert to native output"
+msgstr ""
+
+#: ../raster/r.out.png/main.c:117
+msgid "Export a GRASS raster map as a non-georeferenced PNG image."
+msgstr ""
+
+#: ../raster/r.out.png/main.c:123
+msgid "Name for new PNG file (use '-' for stdout)"
+msgstr ""
+
+#: ../raster/r.out.png/main.c:139
+msgid "Make NULL cells transparent"
+msgstr ""
+
+#: ../raster/r.out.png/main.c:258
+#, c-format
+msgid "Converting <%s>..."
+msgstr ""
+
+#: ../raster/r.out.png/main.c:423
+msgid "Writing world file"
+msgstr ""
+
+#: ../raster/r.out.png/main.c:426
+msgid "Got null file name"
+msgstr ""
+
+#: ../raster/r.out.png/main.c:428
+msgid "Got null region struct"
+msgstr ""
+
+#: ../raster/r.out.png/main.c:430
+msgid "Unable to open world file for writing"
+msgstr ""
+
+#: ../raster/r.regression.multi/main.c:61
+msgid "Matrix is unsolvable"
+msgstr ""
+
+#: ../raster/r.regression.multi/main.c:133
+msgid "Calculates multiple linear regression from raster maps."
+msgstr ""
+
+#: ../raster/r.regression.multi/main.c:147
+msgid "Map to store residuals"
+msgstr ""
+
+#: ../raster/r.regression.multi/main.c:152
+msgid "Map to store estimates"
+msgstr ""
+
+#: ../raster/r.regression.multi/main.c:250
+msgid "First pass..."
+msgstr ""
+
+#: ../raster/r.regression.multi/main.c:323
+msgid "Not enough valid cells available"
+msgstr ""
+
+#: ../raster/r.regression.multi/main.c:337
+msgid "Multiple regression failed"
+msgstr ""
+
+#: ../raster/r.regression.multi/main.c:342
+msgid "Second pass..."
+msgstr ""
+
+#: ../raster/r.external/window.c:23
+msgid "Input raster map is rotated - cannot import. You may use 'gdalwarp' to transform the map to North-up."
+msgstr ""
+
+#: ../raster/r.external/window.c:26
+msgid "Applying horizontal flip"
+msgstr ""
+
+#: ../raster/r.external/window.c:30
+msgid "Applying vertical flip"
+msgstr ""
+
+#: ../raster/r.external/main.c:61
+msgid "Links GDAL supported raster data as a pseudo GRASS raster map."
+msgstr ""
+
+#: ../raster/r.external/main.c:64
+msgid "Name of raster file to be linked"
+msgstr ""
+
+#: ../raster/r.external/main.c:70
+msgid "Name of non-file GDAL data source"
+msgstr ""
+
+#: ../raster/r.external/main.c:82
+msgid "Band to select (default is all bands)"
+msgstr ""
+
+#: ../raster/r.external/main.c:124
+msgid "Flip horizontally"
+msgstr ""
+
+#: ../raster/r.external/main.c:128
+msgid "Flip vertically"
+msgstr ""
+
+#: ../raster/r.external/main.c:133
+msgid "List available bands including band type in dataset and exit"
+msgstr ""
+
+#: ../raster/r.external/main.c:134
+msgid "Format: band number,type,projection check"
+msgstr ""
+
+#: ../raster/r.external/main.c:140
+msgid "Create fast link without data range"
+msgstr ""
+
+#: ../raster/r.external/main.c:141
+msgid "WARNING: some modules do not work correctly without known data range"
+msgstr ""
+
+#: ../raster/r.external/main.c:171
+#, c-format
+msgid "%s= or %s= must be given"
+msgstr ""
+
+#: ../raster/r.external/main.c:219
+msgid "Proceeding with import..."
+msgstr ""
+
+#: ../raster/r.external/main.c:223
+#, c-format
+msgid "Imagery group <%s> already exists and will be overwritten."
+msgstr ""
+
+#: ../raster/r.external/main.c:231
+#, c-format
+msgid "Reading band %d of %d..."
+msgstr ""
+
+#: ../raster/r.external/main.c:269
+#, c-format
+msgid "Imagery group <%s> created"
+msgstr ""
+
+#: ../raster/r.external/link.c:46
+msgid "Complex types not supported"
+msgstr ""
+
+#: ../raster/r.external/link.c:59
+#, c-format
+msgid "Copying color table for %s"
+msgstr ""
+
+#: ../raster/r.external/link.c:77
+#, c-format
+msgid "Setting grey color table for <%s> (full 8bit range)"
+msgstr ""
+
+#: ../raster/r.external/link.c:90 ../raster/r.buildvrt/link.c:13
+#, c-format
+msgid "Unable to create cell/%s file"
+msgstr ""
+
+#: ../raster/r.external/link.c:99 ../raster/r.buildvrt/link.c:22
+#, c-format
+msgid "Unable to create fcell/%s file"
+msgstr ""
+
+#: ../raster/r.external/link.c:135
+#, c-format
+msgid "Unable to create cell_misc/%s/gdal file"
+msgstr ""
+
+#: ../raster/r.external/link.c:138
+#, c-format
+msgid "Error writing cell_misc/%s/gdal file"
+msgstr ""
+
+#: ../raster/r.external/link.c:163 ../raster/r.buildvrt/link.c:66
+#, c-format
+msgid "Unable to create cell_misc/%s/f_format file"
+msgstr ""
+
+#: ../raster/r.external/link.c:166 ../raster/r.buildvrt/link.c:69
+#, c-format
+msgid "Error writing cell_misc/%s/f_format file"
+msgstr ""
+
+#: ../raster/r.external/link.c:202 ../raster/r.buildvrt/link.c:124
+#, c-format
+msgid "Creating support files for %s"
+msgstr ""
+
+#: ../raster/r.external/link.c:235
+#, c-format
+msgid "Link to raster map <%s> created."
+msgstr ""
+
+#: ../raster/r.li/r.li.renyi/renyi.c:46
+msgid "Calculates Renyi's diversity index on a raster map"
+msgstr ""
+
+#: ../raster/r.li/r.li.renyi/renyi.c:57 ../raster/r.li/r.li.shape/main.c:59
+#: ../raster/r.li/r.li.mps/mps.c:62 ../raster/r.li/r.li.simpson/simpson.c:56
+#: ../raster/r.li/r.li.edgedensity/edgedensity.c:58
+#: ../raster/r.li/r.li.dominance/dominance.c:56
+#: ../raster/r.li/r.li.patchnum/main.c:59
+#: ../raster/r.li/r.li.shannon/shannon.c:56 ../raster/r.li/r.li.mpa/mpa.c:53
+#: ../raster/r.li/r.li.pielou/pielou.c:56 ../raster/r.li/r.li.padcv/padcv.c:62
+#: ../raster/r.li/r.li.richness/richness.c:53
+#: ../raster/r.li/r.li.padsd/padsd.c:62
+#: ../raster/r.li/r.li.padrange/padrange.c:62
+#: ../raster/r.li/r.li.cwed/cwed.c:64
+#: ../raster/r.li/r.li.patchdensity/main.c:61
+msgid "Configuration file"
+msgstr ""
+
+#: ../raster/r.li/r.li.renyi/renyi.c:63
+msgid "Alpha value is the order of the generalized entropy"
+msgstr ""
+
+#: ../raster/r.li/r.li.shape/main.c:48
+msgid "Calculates shape index on a raster map"
+msgstr ""
+
+#: ../raster/r.li/r.li.shape/main.c:51 ../raster/r.li/r.li.mps/mps.c:54
+#: ../raster/r.li/r.li.edgedensity/edgedensity.c:50
+#: ../raster/r.li/r.li.patchnum/main.c:52 ../raster/r.li/r.li.mpa/mpa.c:46
+#: ../raster/r.li/r.li.padcv/padcv.c:55 ../raster/r.li/r.li.padsd/padsd.c:55
+#: ../raster/r.li/r.li.padrange/padrange.c:55
+#: ../raster/r.li/r.li.cwed/cwed.c:56
+#: ../raster/r.li/r.li.patchdensity/main.c:53
+msgid "patch index"
+msgstr ""
+
+#: ../raster/r.li/r.li.mps/mps.c:51
+msgid "Calculates mean patch size index on a raster map, using a 4 neighbour algorithm"
+msgstr ""
+
+#: ../raster/r.li/r.li.simpson/simpson.c:45
+msgid "Calculates Simpson's diversity index on a raster map"
+msgstr ""
+
+#: ../raster/r.li/r.li.edgedensity/edgedensity.c:47
+msgid "Calculates edge density index on a raster map, using a 4 neighbour algorithm"
+msgstr ""
+
+#: ../raster/r.li/r.li.edgedensity/edgedensity.c:68
+msgid "The value of the patch type"
+msgstr ""
+
+#: ../raster/r.li/r.li.edgedensity/edgedensity.c:69
+msgid "It can be integer, double or float; it will be changed in function of map type"
+msgstr ""
+
+#: ../raster/r.li/r.li.edgedensity/edgedensity.c:74
+msgid "Exclude border edges"
+msgstr ""
+
+#: ../raster/r.li/r.li.dominance/dominance.c:45
+msgid "Calculates dominance's diversity index on a raster map"
+msgstr ""
+
+#: ../raster/r.li/r.li.patchnum/main.c:49
+msgid "Calculates patch number index on a raster map, using a 4 neighbour algorithm."
+msgstr ""
+
+#: ../raster/r.li/r.li.shannon/shannon.c:45
+msgid "Calculates Shannon's diversity index on a raster map"
+msgstr ""
+
+#: ../raster/r.li/r.li.mpa/mpa.c:43
+msgid "Calculates mean pixel attribute index on a raster map"
+msgstr ""
+
+#: ../raster/r.li/r.li.pielou/pielou.c:45
+msgid "Calculates Pielou's diversity index on a raster map"
+msgstr ""
+
+#: ../raster/r.li/r.li.padcv/padcv.c:52
+msgid "Calculates coefficient of variation of patch area on a raster map"
+msgstr ""
+
+#: ../raster/r.li/r.li.richness/richness.c:42
+msgid "Calculates richness index on a raster map"
+msgstr ""
+
+#: ../raster/r.li/r.li.padsd/padsd.c:52
+msgid "Calculates standard deviation of patch area a raster map"
+msgstr ""
+
+#: ../raster/r.li/r.li.padrange/padrange.c:52
+msgid "Calculates range of patch area size on a raster map"
+msgstr ""
+
+#: ../raster/r.li/r.li.daemon/worker.c:135
+#, c-format
+msgid "unable to open <%s> mask ... continuing without!"
+msgstr ""
+
+#: ../raster/r.li/r.li.daemon/daemon.c:97
+msgid "Cannot create random access file"
+msgstr ""
+
+#: ../raster/r.li/r.li.daemon/daemon.c:105
+#: ../raster/r.li/r.li.daemon/daemon.c:111
+#: ../raster/r.li/r.li.daemon/daemon.c:117
+#, c-format
+msgid "Cannot create %s directory"
+msgstr ""
+
+#: ../raster/r.li/r.li.daemon/daemon.c:201
+#, c-format
+msgid "Cannot find configuration file <%s>"
+msgstr ""
+
+#: ../raster/r.li/r.li.daemon/daemon.c:208
+#: ../raster/r.li/r.li.daemon/daemon.c:212
+msgid "Cannot read setup file"
+msgstr ""
+
+#: ../raster/r.li/r.li.daemon/daemon.c:216
+msgid "Unable to parse configuration file (sampling frame)"
+msgstr ""
+
+#: ../raster/r.li/r.li.daemon/daemon.c:475
+msgid "Irregular MASKEDOVERLAY areas definition"
+msgstr ""
+
+#: ../raster/r.li/r.li.daemon/daemon.c:479
+#, c-format
+msgid "The configuration file can only be used with the <%s> raster map"
+msgstr ""
+
+#: ../raster/r.li/r.li.daemon/daemon.c:485
+msgid "Unable to parse configuration file (sample area)"
+msgstr ""
+
+#: ../raster/r.li/r.li.daemon/daemon.c:520
+msgid "Too many units to place"
+msgstr ""
+
+#: ../raster/r.li/r.li.daemon/daemon.c:589
+msgid "Too many stratified random sample for raster map"
+msgstr ""
+
+#: ../raster/r.li/r.li.daemon/daemon.c:623
+msgid "Illegal areas disposition"
+msgstr ""
+
+#: ../raster/r.li/r.li.daemon/daemon.c:695
+msgid "Cannot make lseek"
+msgstr ""
+
+#: ../raster/r.li/r.li.cwed/cwed.c:53
+msgid "Calculates contrast weighted edge density index on a raster map"
+msgstr ""
+
+#: ../raster/r.li/r.li.cwed/cwed.c:70
+msgid "Name of file that contains the weight to calculate the index"
+msgstr ""
+
+#: ../raster/r.li/r.li.cwed/cwed.c:306 ../raster/r.li/r.li.cwed/cwed.c:453
+#: ../raster/r.li/r.li.cwed/cwed.c:599
+msgid "Row cache is too small"
+msgstr ""
+
+#: ../raster/r.li/r.li.patchdensity/main.c:50
+msgid "Calculates patch density index on a raster map, using a 4 neighbour algorithm"
+msgstr ""
+
+#: ../raster/r.out.vrml/main.c:50
+msgid "VRML"
+msgstr ""
+
+#: ../raster/r.out.vrml/main.c:52
+msgid "Exports a raster map to the Virtual Reality Modeling Language (VRML)."
+msgstr ""
+
+#: ../raster/r.out.vrml/main.c:59
+msgid "Name of input color map"
+msgstr ""
+
+#: ../raster/r.out.vrml/main.c:70
+msgid "Name for output VRML file"
+msgstr ""
+
+#: ../raster/r.out.vrml/main.c:89
+#, c-format
+msgid "Range info for [%s] not available (run r.support)"
+msgstr ""
+
+#: ../raster/r.out.vrml/main.c:98
+#, c-format
+msgid "Range info for <%s> not available (run r.support)"
+msgstr ""
+
+#: ../raster/r.out.vrml/main.c:130
+#, c-format
+msgid "Opening %s for writing... "
+msgstr ""
+
+#: ../raster/r.out.vrml/put_grid.c:38
+msgid "Writing vertices..."
+msgstr ""
+
+#: ../raster/r.out.vrml/put_grid.c:83
+msgid "Writing color file..."
+msgstr ""
+
+#: ../raster/r.resamp.interp/main.c:80 ../raster/r.resamp.bspline/main.c:84
+msgid "bilinear"
+msgstr ""
+
+#: ../raster/r.resamp.interp/main.c:81 ../raster/r.resamp.bspline/main.c:85
+msgid "bicubic"
+msgstr ""
+
+#: ../raster/r.resamp.interp/main.c:84
+msgid "Resamples raster map to a finer grid using interpolation."
+msgstr ""
+
+#: ../raster/r.resamp.interp/main.c:92
+msgid "Method"
+msgstr ""
+
+#: ../raster/r.what/main.c:104
+msgid "Queries raster maps on their category values and category labels."
+msgstr ""
+
+#: ../raster/r.what/main.c:108
+msgid "Name of existing raster map(s) to query"
+msgstr ""
+
+#: ../raster/r.what/main.c:116
+msgid "Name of vector points map for query"
+msgstr ""
+
+#: ../raster/r.what/main.c:137
+msgid "Size of point cache"
+msgstr ""
+
+#: ../raster/r.what/main.c:148
+msgid "Show the category labels of the grid cell(s)"
+msgstr ""
+
+#: ../raster/r.what/main.c:153
+msgid "Output color values as RRR:GGG:BBB"
+msgstr ""
+
+#: ../raster/r.what/main.c:158
+msgid "Output integer category values, not cell values"
+msgstr ""
+
+#: ../raster/r.what/main.c:163
+msgid "Turn on cache reporting"
+msgstr ""
+
+#: ../raster/r.what/main.c:199
+msgid "Flag 'v' required option 'points'"
+msgstr ""
+
+#: ../raster/r.what/main.c:214
+#, c-format
+msgid "Can only do up to %d raster maps (more than %d given)"
+msgstr ""
+
+#: ../raster/r.what/main.c:231
+#, c-format
+msgid "Unable to read category file for <%s>"
+msgstr ""
+
+#: ../raster/r.what/main.c:314
+#, c-format
+msgid "Unable to read vector map <%s>"
+msgstr ""
+
+#: ../raster/r.what/main.c:318
+#, c-format
+msgid "Line %d is not point or centroid, skipped"
+msgstr ""
+
+#: ../raster/r.what/main.c:409
+#, c-format
+msgid "%s %s is outside your current region"
+msgstr ""
+
+#: ../raster/r.grow.distance/main.c:154
+msgid "Generates a raster map containing distances to nearest raster features and/or the value of the nearest non-null cell."
+msgstr ""
+
+#: ../raster/r.grow.distance/main.c:161
+msgid "Name for distance output raster map"
+msgstr ""
+
+#: ../raster/r.grow.distance/main.c:167
+msgid "Name for value output raster map"
+msgstr ""
+
+#: ../raster/r.grow.distance/main.c:180
+msgid "Output distances in meters instead of map units"
+msgstr ""
+
+#: ../raster/r.grow.distance/main.c:184
+msgid "Calculate distance to nearest NULL cell"
+msgstr ""
+
+#: ../raster/r.grow.distance/main.c:195
+msgid "Distance output is required for distance to NULL cells"
+msgstr ""
+
+#: ../raster/r.grow.distance/main.c:197
+msgid "Value output is meaningless for distance to NULL cells"
+msgstr ""
+
+#: ../raster/r.grow.distance/main.c:203
+msgid "At least one of distance= and value= must be given"
+msgstr ""
+
+#: ../raster/r.grow.distance/main.c:218
+msgid "metric=geodesic is only valid for lat/lon"
+msgstr ""
+
+#: ../raster/r.grow.distance/main.c:224
+#, c-format
+msgid "Unknown metric: '%s'"
+msgstr ""
+
+#: ../raster/r.grow.distance/main.c:229
+#, c-format
+msgid "Output distance in meters for lat/lon is only possible with '%s=%s'"
+msgstr ""
+
+#: ../raster/r.grow.distance/main.c:249
+#, c-format
+msgid "Unable to create temporary file <%s>"
+msgstr ""
+
+#: ../raster/r.surf.area/main.c:79
+msgid "area estimation"
+msgstr ""
+
+#: ../raster/r.surf.area/main.c:80
+msgid "Prints estimation of surface area for raster map."
+msgstr ""
+
+#: ../raster/r.surf.area/main.c:89
+msgid "Vertical scale"
+msgstr ""
+
+#: ../raster/r.surf.area/main.c:93
+msgid "Output units"
+msgstr ""
+
+#: ../raster/r.surf.area/main.c:94
+msgid "Default: square map units"
+msgstr ""
+
+#: ../raster/r.surf.area/main.c:102
+#, c-format
+msgid "Output in '%s'"
+msgstr ""
+
+#: ../raster/r.surf.area/main.c:106
+msgid "Output in 'square map units'"
+msgstr ""
+
+#: ../raster/r.surf.area/main.c:153
+msgid "Null value area ignored in calculation:"
+msgstr ""
+
+#: ../raster/r.surf.area/main.c:155
+msgid "Plan area used in calculation:"
+msgstr ""
+
+#: ../raster/r.surf.area/main.c:158
+msgid "Surface area calculation(low, high, avg):"
+msgstr ""
+
+#: ../raster/r.surf.area/main.c:163
+msgid "Current region plan area:"
+msgstr ""
+
+#: ../raster/r.surf.area/main.c:165
+msgid "Estimated region Surface Area:"
+msgstr ""
+
+#: ../raster/r.out.mpeg/main.c:107
+msgid "animation"
+msgstr ""
+
+#: ../raster/r.out.mpeg/main.c:110
+msgid "Converts raster map series to MPEG movie."
+msgstr ""
+
+#: ../raster/r.out.mpeg/main.c:118
+#, c-format
+msgid "Name of input raster map(s) for view no.%d"
+msgstr ""
+
+#: ../raster/r.out.mpeg/main.c:120
+msgid "Views"
+msgstr ""
+
+#: ../raster/r.out.mpeg/main.c:134
+msgid "Quality factor (1 = highest quality, lowest compression)"
+msgstr ""
+
+#: ../raster/r.out.mpeg/main.c:139
+msgid "Convert on the fly, uses less disk space"
+msgstr ""
+
+#: ../raster/r.out.mpeg/main.c:140
+msgid "Requires r.out.ppm with stdout option"
+msgstr ""
+
+#: ../raster/r.out.mpeg/main.c:166
+msgid "Either mpeg_encode or ppmtompeg must be installed"
+msgstr ""
+
+#: ../raster/r.out.mpeg/main.c:297
+#, c-format
+msgid "Unable to read color table for <%s>"
+msgstr ""
+
+#: ../raster/r.out.mpeg/main.c:347 ../raster/r.out.mpeg/main.c:380
+msgid "mpeg_encode ERROR"
+msgstr ""
+
+#: ../raster/r.out.mpeg/main.c:423
+msgid "Error reading wildcard"
+msgstr ""
+
+#: ../raster/r.out.mpeg/write.c:81 ../raster/r.out.mpeg/write.c:178
+msgid "Size mismatch error!"
+msgstr ""
+
+#: ../raster/r.out.mpeg/write.c:139 ../raster/r.out.mpeg/write.c:181
+msgid "Unable to open output file"
+msgstr ""
+
+#: ../raster/r.out.mpeg/write.c:215
+msgid "Unable to create temporary files."
+msgstr ""
+
+#: ../raster/r.uslek/main.c:57
+msgid "Computes USLE Soil Erodibility Factor (K)."
+msgstr ""
+
+#: ../raster/r.uslek/main.c:62
+msgid "Name of soil sand fraction raster map [0.0-1.0]"
+msgstr ""
+
+#: ../raster/r.uslek/main.c:66
+msgid "Name of soil clay fraction raster map [0.0-1.0]"
+msgstr ""
+
+#: ../raster/r.uslek/main.c:70
+msgid "Name of soil silt fraction raster map [0.0-1.0]"
+msgstr ""
+
+#: ../raster/r.uslek/main.c:74
+msgid "Name of soil organic matter raster map [0.0-1.0]"
+msgstr ""
+
+#: ../raster/r.uslek/main.c:77
+msgid "Name for output USLE K factor raster map [t.ha.hr/ha.MJ.mm]"
+msgstr ""
+
+#: ../raster/r.tile/main.c:46
+msgid "Splits a raster map into tiles."
+msgstr ""
+
+#: ../raster/r.tile/main.c:129
+#, c-format
+msgid "Generating %d x %d = %d tiles..."
+msgstr ""
+
+#: ../raster/r.tile/main.c:187
+#, c-format
+msgid "Unable to read cats for %s"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:59
+msgid "The initial concentration in [kg/m^3]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:63
+msgid "The piezometric head in [m]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:68
+msgid "The x-part of the hydraulic conductivity tensor in [m/s]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:73
+msgid "The y-part of the hydraulic conductivity tensor in [m/s]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:79
+msgid "The status for each cell, = 0 - inactive cell, 1 - active cell, 2 - dirichlet- and 3 - transfer boundary condition"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:85
+msgid "The x-part of the diffusion tensor in [m^2/s]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:90
+msgid "The y-part of the diffusion tensor in [m^2/s]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:94
+#: ../raster/r.solute.transport/main.c:102
+#: ../raster/r.solute.transport/main.c:138
+#: ../raster/r.solute.transport/main.c:145
+msgid "Water flow"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:96
+msgid "Groundwater sources and sinks in [m^3/s]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:103
+msgid "Concentration sources and sinks bounded to a water source or sink in [kg/s]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:112
+msgid "Concentration of inner sources and inner sinks in [kg/s] (i.e. a chemical reaction)"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:117
+msgid "Retardation factor [-]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:121
+msgid "Effective porosity [-]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:125
+msgid "Top surface of the aquifer in [m]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:129
+msgid "Bottom surface of the aquifer in [m]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:132
+msgid "The resulting concentration of the numerical solute transport calculation will be written to this map. [kg/m^3]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:140
+msgid "Calculate and store the groundwater filter velocity vector part in x direction [m/s]\n"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:147
+msgid "Calculate and store the groundwater filter velocity vector part in y direction [m/s]\n"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:161
+msgid "The longditudinal dispersivity length. [m]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:169
+msgid "The transversal dispersivity length. [m]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:177
+msgid "Use this number of time loops if the CFL flag is off. The timestep will become dt/loops."
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:187
+msgid "Set the flow stabilizing scheme (full or exponential upwinding)."
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:199
+msgid "Use the Courant-Friedrichs-Lewy criteria for time step calculation"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:231
+msgid "solute transport"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:233
+msgid "Numerical calculation program for transient, confined and unconfined solute transport in two dimensions"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:258
+msgid "The direct LU solver do not work with sparse matrices"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:260
+msgid "The direct Gauss solver do not work with sparse matrices"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:370
+#, c-format
+msgid "The Courant-Friedrichs-Lewy criteria is %g it should be within [0:1]"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:371
+#, c-format
+msgid "The largest stable time step is %g"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:380
+#, c-format
+msgid "Number of inner loops is %g"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:381
+#, c-format
+msgid "Time step for each loop %g"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:385
+#, c-format
+msgid "The time step is to large: %gs. The largest time step should be of size %gs."
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:397
+#, c-format
+msgid "Time step %i with time sum %g"
+msgstr ""
+
+#: ../raster/r.solute.transport/main.c:543
+msgid "Could not create and solve the linear equation system"
+msgstr ""
+
+#: ../raster/r.in.gridatb/file_io.c:35
+msgid "Setting window header failed"
+msgstr ""
+
+#: ../raster/r.in.gridatb/file_io.c:38
+msgid "Rows changed"
+msgstr ""
+
+#: ../raster/r.in.gridatb/file_io.c:41
+msgid "Cols changed"
+msgstr ""
+
+#: ../raster/r.in.gridatb/main.c:48
+msgid "Imports GRIDATB.FOR map file (TOPMODEL) into a GRASS raster map."
+msgstr ""
+
+#: ../raster/r.in.gridatb/main.c:51
+msgid "GRIDATB i/o map file"
+msgstr ""
+
+#: ../raster/r.in.gridatb/main.c:68
+#, c-format
+msgid "File not found: %s"
+msgstr ""
+
+#: ../raster/r.rescale/main.c:49 ../raster/r.rescale.eq/main.c:53
+msgid "rescale"
+msgstr ""
+
+#: ../raster/r.rescale/main.c:51
+msgid "Rescales the range of category values in a raster map layer."
+msgstr ""
+
+#: ../raster/r.rescale/main.c:56 ../raster/r.rescale.eq/main.c:61
+msgid "The name of the raster map to be rescaled"
+msgstr ""
+
+#: ../raster/r.rescale/main.c:64 ../raster/r.rescale.eq/main.c:69
+msgid "The input data range to be rescaled (default: full range of input map)"
+msgstr ""
+
+#: ../raster/r.rescale/main.c:67 ../raster/r.rescale.eq/main.c:72
+msgid "The resulting raster map name"
+msgstr ""
+
+#: ../raster/r.rescale/main.c:74 ../raster/r.rescale.eq/main.c:79
+msgid "The output data range"
+msgstr ""
+
+#: ../raster/r.rescale/main.c:81 ../raster/r.rescale.eq/main.c:86
+msgid "Title for new raster map"
+msgstr ""
+
+#: ../raster/r.rescale/main.c:110
+#, c-format
+msgid "Rescale %s[%ld,%ld] to %s[%ld,%ld]"
+msgstr ""
+
+#: ../raster/r.rescale/get_range.c:24 ../raster/r.rescale.eq/get_stats.c:19
+#, c-format
+msgid "Reading %s ..."
+msgstr ""
+
+#: ../raster/r.horizon/main.c:183
+msgid "Computes horizon angle height from a digital elevation model."
+msgstr ""
+
+#: ../raster/r.horizon/main.c:185
+msgid "The module has two different modes of operation: 1. Computes the entire horizon around a single point whose coordinates are given with the 'coord' option. The horizon height (in radians). 2. Computes one or more raster maps of the horizon height in a single direction. The input for this is the angle (in degrees), which is measured counterclockwise with east=0, north=90 etc. The output is the horizon height in radians."
+msgstr ""
+
+#: ../raster/r.horizon/main.c:202
+msgid "Direction in which you want to know the horizon height"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:219
+msgid "Start angle for multidirectional horizon [degrees]"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:220 ../raster/r.horizon/main.c:229
+#: ../raster/r.horizon/main.c:237 ../raster/r.horizon/main.c:245
+#: ../raster/r.horizon/main.c:253 ../raster/r.horizon/main.c:261
+#: ../raster/r.horizon/main.c:269 ../raster/r.horizon/main.c:282
+msgid "Raster mode"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:228
+msgid "End angle for multidirectional horizon [degrees]"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:236
+msgid "For horizon rasters, read from the DEM an extra buffer around the present region"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:244
+msgid "For horizon rasters, read from the DEM an extra buffer eastward the present region"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:252
+msgid "For horizon rasters, read from the DEM an extra buffer westward the present region"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:260
+msgid "For horizon rasters, read from the DEM an extra buffer northward the present region"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:268
+msgid "For horizon rasters, read from the DEM an extra buffer southward the present region"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:287
+msgid "Coordinate for which you want to calculate the horizon"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:288 ../raster/r.horizon/main.c:304
+msgid "Point mode"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:303 ../raster/r.profile/main.c:65
+msgid "Name of file for output (use output=- for stdout)"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:309
+msgid "Write output in degrees (default is radians)"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:314
+msgid "Write output in compass orientation (default is CCW, East=0)"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:354
+msgid "Note: In latitude-longitude coordinate system specify buffers in degree unit"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:367
+msgid "Can't read the coordinates from the \"coordinate\" option."
+msgstr ""
+
+#: ../raster/r.horizon/main.c:372
+msgid "Coordinates are outside of the current region"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:399
+msgid "You didn't specify a direction value or step size. Aborting."
+msgstr ""
+
+#: ../raster/r.horizon/main.c:404
+msgid "You didn't specify a horizon raster name. Aborting."
+msgstr ""
+
+#: ../raster/r.horizon/main.c:419
+msgid "Negative values of start angle are not allowed. Aborting."
+msgstr ""
+
+#: ../raster/r.horizon/main.c:423
+msgid "End angle is not between 0 and 360. Aborting."
+msgstr ""
+
+#: ../raster/r.horizon/main.c:427
+msgid "You specify a start grater than the end angle. Aborting."
+msgstr ""
+
+#: ../raster/r.horizon/main.c:435
+msgid "You didn't specify an angle step size. Aborting."
+msgstr ""
+
+#: ../raster/r.horizon/main.c:446
+msgid "Could not read bufferzone size. Aborting."
+msgstr ""
+
+#: ../raster/r.horizon/main.c:451 ../raster/r.horizon/main.c:457
+#: ../raster/r.horizon/main.c:464 ../raster/r.horizon/main.c:471
+#, c-format
+msgid "Could not read %s bufferzone size. Aborting."
+msgstr ""
+
+#: ../raster/r.horizon/main.c:452
+msgid "east"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:458
+msgid "west"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:465
+msgid "south"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:472
+msgid "north"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:477
+msgid "Could not read maximum distance. Aborting."
+msgstr ""
+
+#: ../raster/r.horizon/main.c:488
+msgid "The distance value must be 0.5-1.5. Aborting."
+msgstr ""
+
+#: ../raster/r.horizon/main.c:656 ../raster/r.in.ascii/main.c:187
+#, c-format
+msgid "OOPS: rows changed from %d to %d"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:660 ../raster/r.in.ascii/main.c:190
+#, c-format
+msgid "OOPS: cols changed from %d to %d"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:849 ../raster/r.horizon/main.c:867
+#: ../raster/r.horizon/main.c:1203 ../raster/r.horizon/main.c:1223
+#: ../raster/r.proj/main.c:501 ../raster/r.proj/main.c:606
+#, c-format
+msgid "Error in %s"
+msgstr ""
+
+#: ../raster/r.horizon/main.c:1176
+#, c-format
+msgid "Calculating map %01d of %01d (angle %.2f, raster map <%s>)"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:57
+msgid "Name of input raster map with initial piezometric head in [m]"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:62
+msgid "Name of input raster map providing boundary condition status: 0-inactive, 1-active, 2-dirichlet"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:67
+msgid "Name of input raster map with x-part of the hydraulic conductivity tensor in [m/s]"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:72
+msgid "Name of input raster map with y-part of the hydraulic conductivity tensor in [m/s]"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:77
+msgid "Name of input raster map with water sources and sinks in [m^3/s]"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:81
+msgid "Name of input raster map with storativity for confined or effective porosity for unconfined groundwater flow booth in [-] "
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:86
+msgid "Recharge"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:88
+msgid "Recharge input raster map e.g: 6*10^-9 per cell in [m^3/s*m^2]"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:92
+msgid "Name of input raster map describing the top surface of the aquifer in [m]"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:96
+msgid "Name of input raster map describing the bottom surface of the aquifer in [m]"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:100
+msgid "Output raster map storing the numerical result [m]"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:106
+msgid "Output raster map to store the groundwater filter velocity vector part in x direction [m/s]"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:112
+msgid "Output raster map to store the groundwater filter velocity vector part in y direction [m/s]"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:118
+msgid "Output raster map to store the groundwater budget for each cell [m^3/s]"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:126
+msgid "The type of groundwater flow"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:132
+msgid "Name of input raster map providing the height of the river bed in [m]"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:140
+msgid "Name of input raster map providing the water level (head) of the river with leakage connection in [m]"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:147
+msgid "Name of input raster map providing the leakage coefficient of the river bed in [1/s]."
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:155
+msgid "Name of input raster map providing the height of the drainage bed in [m]"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:162
+msgid "Name of input raster map providing the leakage coefficient of the drainage bed in [1/s]"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:167
+msgid "The maximum number of iterations in the linearization approach"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:176
+msgid "Allocate a full quadratic linear equation system, default is a sparse linear equation system."
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:212
+msgid "Numerical calculation program for transient, confined and unconfined groundwater flow in two dimensions."
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:237
+msgid "Please provide river_head, river_leak and river_bed maps"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:249
+msgid "Please provide drain_head and drain_leak maps"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:263
+msgid "The cholesky solver dos not work with sparse matrices. You may choose a full filled quadratic matrix, flag -f."
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:293
+#, c-format
+msgid "Calculation time: %g"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:380
+#, c-format
+msgid "Calculation of unconfined groundwater flow loop %i"
+msgstr ""
+
+#: ../raster/r.gwflow/main.c:403
+#, c-format
+msgid "Maximum difference between this and last increment: %g"
+msgstr ""
+
+#: ../raster/r.resamp.bspline/crosscorr.c:160
+#, c-format
+msgid "%d are too many cells, recommended are < 100 cells. The cross validation would take too much time."
+msgstr ""
+
+#: ../raster/r.resamp.bspline/crosscorr.c:169
+#, c-format
+msgid "%d point read in region"
+msgid_plural "%d points read in region"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../raster/r.resamp.bspline/crosscorr.c:174
+msgid "Maybe it takes too long. Consider reducing the region extents."
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:88
+msgid "Performs bilinear or bicubic spline interpolation with Tykhonov regularization."
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:96
+msgid "Name for output vector map with interpolation grid"
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:101
+msgid "Name of raster map to use for masking"
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:110
+msgid "Length of each spline step in the east-west direction. Default: 1.5 * ewres."
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:118
+msgid "Length of each spline step in the north-south direction. Default: 1.5 * nsres."
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:141
+msgid "Only interpolate null cells in input raster map"
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:181
+msgid "ew_step must be positive"
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:189
+msgid "ns_step must be positive"
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:216
+#, c-format
+msgid "spline step in ew direction %g"
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:217
+#, c-format
+msgid "spline step in ns direction %g"
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:218
+#, c-format
+msgid "adjusted EW splines %d"
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:219
+#, c-format
+msgid "adjusted NS splines %d"
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:320
+#, c-format
+msgid "Loading input raster <%s>"
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:334 ../raster/r.resamp.bspline/main.c:438
+#: ../raster/r.resamp.bspline/main.c:469
+msgid "Can not write to temp file"
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:339
+msgid "Only NULL cells in input raster"
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:385
+msgid "Mark cells for interpolation"
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:452
+msgid "No NULL cells found in input raster."
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:537
+#, c-format
+msgid "subregion %d of %d"
+msgstr ""
+
+#: ../raster/r.resamp.bspline/main.c:711
+msgid "No data within this subregion. Consider increasing the spline step."
+msgstr ""
+
+#: ../raster/r.walk/main.c:208 ../raster/r.spreadpath/main.c:90
+#: ../raster/r.cost/main.c:166
+msgid "cumulative costs"
+msgstr ""
+
+#: ../raster/r.walk/main.c:211
+msgid "Creates a raster map showing the anisotropic cumulative cost of moving between different geographic locations on an input raster map whose cell category values represent cost."
+msgstr ""
+
+#: ../raster/r.walk/main.c:221
+msgid "Name of input raster map containing friction costs"
+msgstr ""
+
+#: ../raster/r.walk/main.c:224
+msgid "Name for output raster map to contain walking costs"
+msgstr ""
+
+#: ../raster/r.walk/main.c:230 ../raster/r.cost/main.c:184
+msgid "Name of input raster map solving equal costs"
+msgstr ""
+
+#: ../raster/r.walk/main.c:232 ../raster/r.cost/main.c:186
+msgid "Helper variable to pick a direction if two directions have equal cumulative costs (smaller is better)"
+msgstr ""
+
+#: ../raster/r.walk/main.c:238 ../raster/r.cost/main.c:192
+msgid "Name for output raster map with nearest start point"
+msgstr ""
+
+#: ../raster/r.walk/main.c:239 ../raster/r.walk/main.c:246
+#: ../raster/r.walk/main.c:354 ../raster/r.cost/main.c:193
+#: ../raster/r.cost/main.c:200 ../raster/r.cost/main.c:277
+msgid "Optional outputs"
+msgstr ""
+
+#: ../raster/r.walk/main.c:245 ../raster/r.cost/main.c:199
+msgid "Name for output raster map to contain movement directions"
+msgstr ""
+
+#: ../raster/r.walk/main.c:251 ../raster/r.cost/main.c:205
+msgid "Name of starting vector points map"
+msgstr ""
+
+#: ../raster/r.walk/main.c:257 ../raster/r.cost/main.c:211
+msgid "Name of stopping vector points map"
+msgstr ""
+
+#: ../raster/r.walk/main.c:258 ../raster/r.walk/main.c:278
+#: ../raster/r.cost/main.c:212 ../raster/r.cost/main.c:232
+msgid "Stop"
+msgstr ""
+
+#: ../raster/r.walk/main.c:263 ../raster/r.cost/main.c:217
+msgid "Name of starting raster points map"
+msgstr ""
+
+#: ../raster/r.walk/main.c:277 ../raster/r.cost/main.c:231
+msgid "Coordinates of stopping point(s) (E,N)"
+msgstr ""
+
+#: ../raster/r.walk/main.c:287 ../raster/r.cost/main.c:241
+msgid "Maximum cumulative cost"
+msgstr ""
+
+#: ../raster/r.walk/main.c:296 ../raster/r.cost/main.c:250
+msgid "Cost assigned to null cells. By default, null cells are excluded"
+msgstr ""
+
+#: ../raster/r.walk/main.c:297 ../raster/r.walk/main.c:340
+#: ../raster/r.cost/main.c:251 ../raster/r.cost/main.c:263
+msgid "NULL cells"
+msgstr ""
+
+#: ../raster/r.walk/main.c:319
+msgid "Lambda coefficients for combining walking energy and friction cost"
+msgstr ""
+
+#: ../raster/r.walk/main.c:339 ../raster/r.cost/main.c:262
+msgid "Keep null values in output raster map"
+msgstr ""
+
+#: ../raster/r.walk/main.c:344 ../raster/r.cost/main.c:267
+msgid "Start with values in raster map"
+msgstr ""
+
+#: ../raster/r.walk/main.c:349 ../raster/r.cost/main.c:272
+msgid "Print info about disk space and memory requirements and exit"
+msgstr ""
+
+#: ../raster/r.walk/main.c:353 ../raster/r.cost/main.c:276
+msgid "Create bitmask encoded directions"
+msgstr ""
+
+#: ../raster/r.walk/main.c:400 ../raster/r.cost/main.c:331
+msgid "Must specify exactly one of start_points, start_rast or coordinate"
+msgstr ""
+
+#: ../raster/r.walk/main.c:406 ../raster/r.walk/main.c:910
+#: ../raster/r.cost/main.c:337 ../raster/r.cost/main.c:759
+msgid "No start points"
+msgstr ""
+
+#: ../raster/r.walk/main.c:411 ../raster/r.cost/main.c:342
+msgid "No stop points"
+msgstr ""
+
+#: ../raster/r.walk/main.c:415 ../raster/r.cost/main.c:346
+#, c-format
+msgid "Inappropriate maximum cost: %d"
+msgstr ""
+
+#: ../raster/r.walk/main.c:418 ../raster/r.cost/main.c:349
+#, c-format
+msgid "Inappropriate amount of memory: %d"
+msgstr ""
+
+#: ../raster/r.walk/main.c:423
+#, c-format
+msgid "Missing required value: got %d instead of 4"
+msgstr ""
+
+#: ../raster/r.walk/main.c:426
+#, c-format
+msgid "Walking costs are a=%g b=%g c=%g d=%g"
+msgstr ""
+
+#: ../raster/r.walk/main.c:431 ../raster/r.walk/main.c:439
+#, c-format
+msgid "Missing required value: %d"
+msgstr ""
+
+#: ../raster/r.walk/main.c:434
+#, c-format
+msgid "Lambda is %g"
+msgstr ""
+
+#: ../raster/r.walk/main.c:442
+#, c-format
+msgid "Slope_factor is %g"
+msgstr ""
+
+#: ../raster/r.walk/main.c:469 ../raster/r.cost/main.c:375
+msgid "Assigning negative cost to null cell. Null cells excluded."
+msgstr ""
+
+#: ../raster/r.walk/main.c:575 ../raster/r.walk/main.c:588
+#: ../raster/r.cost/main.c:452 ../raster/r.cost/main.c:464
+#, c-format
+msgid "Will need at least %.2f MB of disk space"
+msgstr ""
+
+#: ../raster/r.walk/main.c:577 ../raster/r.walk/main.c:589
+#: ../raster/r.cost/main.c:454 ../raster/r.cost/main.c:465
+#, c-format
+msgid "Will need at least %.2f MB of memory"
+msgstr ""
+
+#: ../raster/r.walk/main.c:579 ../raster/r.walk/main.c:590
+#: ../raster/r.cost/main.c:456 ../raster/r.cost/main.c:466
+#, c-format
+msgid "%d of %d segments are kept in memory"
+msgstr ""
+
+#: ../raster/r.walk/main.c:595 ../raster/r.cost/main.c:471
+msgid "Creating some temporary files..."
+msgstr ""
+
+#: ../raster/r.walk/main.c:626 ../raster/r.walk/main.c:711
+#: ../raster/r.walk/main.c:730 ../raster/r.walk/main.c:889
+#: ../raster/r.walk/main.c:897 ../raster/r.walk/main.c:931
+#: ../raster/r.walk/main.c:1497 ../raster/r.walk/main.c:1503
+#: ../raster/r.walk/main.c:1510 ../raster/r.walk/main.c:1518
+#: ../raster/r.walk/main.c:1524 ../raster/r.walk/main.c:1531
+#: ../raster/r.walk/main.c:1553 ../raster/r.walk/main.c:1557
+#: ../raster/r.walk/main.c:1563 ../raster/r.walk/main.c:1580
+#: ../raster/r.cost/main.c:501 ../raster/r.cost/main.c:562
+#: ../raster/r.cost/main.c:579 ../raster/r.cost/main.c:738
+#: ../raster/r.cost/main.c:746 ../raster/r.cost/main.c:780
+#: ../raster/r.cost/main.c:1127 ../raster/r.cost/main.c:1133
+#: ../raster/r.cost/main.c:1140 ../raster/r.cost/main.c:1148
+#: ../raster/r.cost/main.c:1154 ../raster/r.cost/main.c:1161
+#: ../raster/r.cost/main.c:1183 ../raster/r.cost/main.c:1187
+#: ../raster/r.cost/main.c:1193 ../raster/r.cost/main.c:1210
+msgid "Can not write to temporary file"
+msgstr ""
+
+#: ../raster/r.walk/main.c:635
+#, c-format
+msgid "Reading raster maps <%s> and <%s>, initializing output..."
+msgstr ""
+
+#: ../raster/r.walk/main.c:724 ../raster/r.cost/main.c:573
+msgid "Initializing directional output..."
+msgstr ""
+
+#: ../raster/r.walk/main.c:794 ../raster/r.cost/main.c:643
+#, c-format
+msgid "No start points found in vector map <%s>"
+msgstr ""
+
+#: ../raster/r.walk/main.c:796 ../raster/r.cost/main.c:645
+#, c-format
+msgid "%d point found"
+msgid_plural "%d points found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../raster/r.walk/main.c:809 ../raster/r.cost/main.c:658
+#, c-format
+msgid "Reading vector map <%s> with stop points..."
+msgstr ""
+
+#: ../raster/r.walk/main.c:847 ../raster/r.cost/main.c:696
+#, c-format
+msgid "No stop points found in vector <%s>"
+msgstr ""
+
+#: ../raster/r.walk/main.c:870 ../raster/r.cost/main.c:719
+#, c-format
+msgid "Reading raster map <%s> with start points..."
+msgstr ""
+
+#: ../raster/r.walk/main.c:881 ../raster/r.walk/main.c:925
+#: ../raster/r.walk/main.c:991 ../raster/r.walk/main.c:1021
+#: ../raster/r.walk/main.c:1199 ../raster/r.walk/main.c:1489
+#: ../raster/r.walk/main.c:1507 ../raster/r.walk/main.c:1528
+#: ../raster/r.walk/main.c:1548 ../raster/r.walk/main.c:1573
+#: ../raster/r.walk/main.c:1577 ../raster/r.walk/main.c:1659
+#: ../raster/r.walk/main.c:1725 ../raster/r.cost/main.c:730
+#: ../raster/r.cost/main.c:774 ../raster/r.cost/main.c:832
+#: ../raster/r.cost/main.c:850 ../raster/r.cost/main.c:1029
+#: ../raster/r.cost/main.c:1119 ../raster/r.cost/main.c:1137
+#: ../raster/r.cost/main.c:1158 ../raster/r.cost/main.c:1178
+#: ../raster/r.cost/main.c:1203 ../raster/r.cost/main.c:1207
+#: ../raster/r.cost/main.c:1289 ../raster/r.cost/main.c:1355
+msgid "Can not read from temporary file"
+msgstr ""
+
+#: ../raster/r.walk/main.c:921 ../raster/r.cost/main.c:770
+msgid "Specified starting location outside database window"
+msgstr ""
+
+#: ../raster/r.walk/main.c:950 ../raster/r.cost/main.c:799
+#, c-format
+msgid "Number of duplicate stop points: %d"
+msgstr ""
+
+#: ../raster/r.walk/main.c:964 ../raster/r.cost/main.c:813
+msgid "Finding cost path..."
+msgstr ""
+
+#: ../raster/r.walk/main.c:1594 ../raster/r.cost/main.c:1224
+msgid "Error, ct == pres_cell"
+msgstr ""
+
+#: ../raster/r.walk/main.c:1622
+#, c-format
+msgid "Writing output raster map <%s>... "
+msgstr ""
+
+#: ../raster/r.walk/main.c:1624 ../raster/r.cost/main.c:1254
+#, c-format
+msgid "Writing raster map with nearest start point <%s>..."
+msgstr ""
+
+#: ../raster/r.walk/main.c:1720 ../raster/r.cost/main.c:1350
+#, c-format
+msgid "Writing output movement direction raster map <%s>..."
+msgstr ""
+
+#: ../raster/r.walk/main.c:1789 ../raster/r.cost/main.c:1418
+#, c-format
+msgid "Peak cost value: %g"
+msgstr ""
+
+#: ../raster/r.walk/main.c:1807 ../raster/r.walk/main.c:1843
+#: ../raster/r.cost/main.c:1436 ../raster/r.cost/main.c:1472
+#, c-format
+msgid "Illegal x coordinate <%s>"
+msgstr ""
+
+#: ../raster/r.walk/main.c:1809 ../raster/r.walk/main.c:1845
+#: ../raster/r.cost/main.c:1438 ../raster/r.cost/main.c:1474
+#, c-format
+msgid "Illegal y coordinate <%s>"
+msgstr ""
+
+#: ../raster/r.walk/main.c:1813 ../raster/r.walk/main.c:1849
+#: ../raster/r.cost/main.c:1442 ../raster/r.cost/main.c:1478
+#, c-format
+msgid "Warning, ignoring point outside window: %g, %g"
+msgstr ""
+
+#: ../raster/r.carve/lobf.c:74
+msgid "trying to divide by zero...no unique solution for system...skipping..."
+msgstr ""
+
+#: ../raster/r.carve/main.c:76
+msgid "Generates stream channels."
+msgstr ""
+
+#: ../raster/r.carve/main.c:77
+msgid "Takes vector stream data, transforms it to raster and subtracts depth from the output DEM."
+msgstr ""
+
+#: ../raster/r.carve/main.c:82
+msgid "Name of input raster elevation map"
+msgstr ""
+
+#: ../raster/r.carve/main.c:87
+msgid "Name of input vector map containing stream(s)"
+msgstr ""
+
+#: ../raster/r.carve/main.c:95
+msgid "Name for output vector map for adjusted stream points"
+msgstr ""
+
+#: ../raster/r.carve/main.c:100
+msgid "Stream width (in meters)"
+msgstr ""
+
+#: ../raster/r.carve/main.c:101
+msgid "Default is raster cell width"
+msgstr ""
+
+#: ../raster/r.carve/main.c:106
+msgid "Additional stream depth (in meters)"
+msgstr ""
+
+#: ../raster/r.carve/main.c:110
+msgid "No flat areas allowed in flow direction"
+msgstr ""
+
+#: ../raster/r.carve/main.c:134
+#, c-format
+msgid "Invalid width value '%s' - using default."
+msgstr ""
+
+#: ../raster/r.carve/main.c:148
+#, c-format
+msgid "Invalid depth value '%s' - using default."
+msgstr ""
+
+#: ../raster/r.carve/enforce_ds.c:83
+msgid "Processing lines... "
+msgstr ""
+
+#: ../raster/r.carve/enforce_ds.c:175
+msgid "Vect runs out of region and re-enters - this case is not yet implemented."
+msgstr ""
+
+#: ../raster/r.buildvrt/main.c:78
+msgid "mosaic"
+msgstr ""
+
+#: ../raster/r.buildvrt/main.c:79
+msgid "virtual raster"
+msgstr ""
+
+#: ../raster/r.buildvrt/main.c:81
+msgid "Build a VRT (Virtual Raster) from the list of input raster maps."
+msgstr ""
+
+#: ../raster/r.buildvrt/main.c:84
+msgid "Name of input raster files"
+msgstr ""
+
+#: ../raster/r.buildvrt/main.c:147 ../raster/r.buildvrt/main.c:200
+#, c-format
+msgid "Input raster map <%s> not found"
+msgstr ""
+
+#: ../raster/r.buildvrt/main.c:150 ../raster/r.buildvrt/main.c:203
+msgid "Input and output raster map can not be identical"
+msgstr ""
+
+#: ../raster/r.buildvrt/main.c:155 ../raster/r.buildvrt/main.c:208
+#, c-format
+msgid "Input map <%s@%s> is all NULL, skipping"
+msgstr ""
+
+#: ../raster/r.buildvrt/main.c:177
+msgid "Only one raster map name found in input file"
+msgstr ""
+
+#: ../raster/r.buildvrt/main.c:188
+msgid "Only one raster map name found"
+msgstr ""
+
+#: ../raster/r.buildvrt/main.c:260
+msgid "Input maptypes are different"
+msgstr ""
+
+#: ../raster/r.buildvrt/main.c:262 ../raster/r.buildvrt/main.c:264
+msgid "Input ns resolutions are different"
+msgstr ""
+
+#: ../raster/r.buildvrt/link.c:35
+#, c-format
+msgid "Unable to create cell_misc/%s/vrt file"
+msgstr ""
+
+#: ../raster/r.buildvrt/link.c:127
+#, c-format
+msgid "virtual raster generated by %s"
+msgstr ""
+
+#: ../raster/r.buildvrt/link.c:140
+#, c-format
+msgid "Virtual raster map <%s> created."
+msgstr ""
+
+#: ../raster/r.kappa/prt_label.c:17
+#, c-format
+msgid "Can't open file <%s> to write label"
+msgstr ""
+
+#: ../raster/r.kappa/prt_hdr.c:18
+#, c-format
+msgid "Cannot open file <%s> to write header"
+msgstr ""
+
+#: ../raster/r.kappa/main.c:72
+msgid "Calculates error matrix and kappa parameter for accuracy assessment of classification result."
+msgstr ""
+
+#: ../raster/r.kappa/main.c:88
+msgid "Name for output file containing error matrix and kappa"
+msgstr ""
+
+#: ../raster/r.kappa/main.c:96
+msgid "Title for error matrix and kappa"
+msgstr ""
+
+#: ../raster/r.kappa/main.c:102
+msgid "Wide report"
+msgstr ""
+
+#: ../raster/r.kappa/main.c:103
+msgid "132 columns (default: 80)"
+msgstr ""
+
+#: ../raster/r.kappa/main.c:108
+msgid "No header in the report"
+msgstr ""
+
+#: ../raster/r.kappa/main.c:113
+msgid "Print Matrix only"
+msgstr ""
+
+#: ../raster/r.kappa/calc_kappa.c:32
+#, c-format
+msgid "Cannot open file <%s> to write kappa and relevant parameters"
+msgstr ""
+
+#: ../raster/r.kappa/stats.c:14 ../raster/r.report/stats.c:128
+msgid "Problem reading r.stats output"
+msgstr ""
+
+#: ../raster/r.kappa/prt_mat.c:39 ../raster/r.kappa/prt2csv_mat.c:40
+#, c-format
+msgid "Cannot open file <%s> to write cats and counts (error matrix)"
+msgstr ""
+
+#: ../raster/r.out.ppm3/main.c:60
+msgid "Converts 3 GRASS raster layers (R,G,B) to a PPM image file."
+msgstr ""
+
+#: ../raster/r.out.ppm3/main.c:85
+msgid "Name for new PPM file. (use '-' for stdout)"
+msgstr ""
+
+#: ../raster/r.out.ppm3/main.c:89
+msgid "Add comments to describe the region"
+msgstr ""
+
+#: ../raster/r.out.ppm3/main.c:96 ../raster/r.out.ppm/main.c:102
+#, c-format
+msgid "row = %d"
+msgid_plural "rows = %d"
+msgstr[0] ""
+msgstr[1] ""
+
+#. GTC Raster columns
+#: ../raster/r.out.ppm3/main.c:98 ../raster/r.out.ppm/main.c:103
+#, c-format
+msgid "column = %d"
+msgid_plural "columns = %d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../raster/r.out.ppm3/main.c:161
+msgid "Converting... "
+msgstr ""
+
+#: ../raster/r.surf.idw/main.c:109
+msgid "Provides surface interpolation from raster point data by Inverse Distance Squared Weighting."
+msgstr ""
+
+#: ../raster/r.surf.idw/main.c:124
+msgid "Output is the interpolation error"
+msgstr ""
+
+#: ../raster/r.surf.idw/main.c:130
+#, c-format
+msgid "Illegal value for '%s' (%s)"
+msgstr ""
+
+#: ../raster/r.surf.idw/main.c:164 ../raster/r.statistics/main.c:104
+#: ../raster/r.statistics/main.c:107
+msgid "This module currently only works for integer (CELL) maps"
+msgstr ""
+
+#: ../raster/r.surf.idw/main.c:260
+#, c-format
+msgid "Interpolating raster map <%s> (%d row)..."
+msgid_plural "Interpolating raster map <%s> (%d rows)..."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../raster/r.out.vtk/parameters.c:32
+msgid "Raster map(s) to be converted to VTK-ASCII data format"
+msgstr ""
+
+#: ../raster/r.out.vtk/parameters.c:53
+msgid "Constant elevation (if no elevation map is specified)"
+msgstr ""
+
+#: ../raster/r.out.vtk/parameters.c:69
+msgid "Three (r,g,b) raster maps to create RGB values [redmap,greenmap,bluemap]"
+msgstr ""
+
+#: ../raster/r.out.vtk/parameters.c:79
+msgid "Three (x,y,z) raster maps to create vector values [xmap,ymap,zmap]"
+msgstr ""
+
+#: ../raster/r.out.vtk/parameters.c:104
+msgid "Use structured grid for elevation (not recommended)"
+msgstr ""
+
+#: ../raster/r.out.vtk/parameters.c:110
+msgid "Use polydata-trianglestrips for elevation grid creation"
+msgstr ""
+
+#: ../raster/r.out.vtk/parameters.c:116
+msgid "Use polydata-vertices for elevation grid creation (to use with vtkDelauny2D)"
+msgstr ""
+
+#: ../raster/r.out.vtk/parameters.c:122
+msgid "Scale factor affects the origin (if no elevation map is given)"
+msgstr ""
+
+#: ../raster/r.out.vtk/writeascii.c:75
+msgid "write_vtk_normal_header: Writing VTK-Header"
+msgstr ""
+
+#: ../raster/r.out.vtk/writeascii.c:108
+msgid "write_vtk_structured_elevation_header: Writing VTK-Header"
+msgstr ""
+
+#: ../raster/r.out.vtk/writeascii.c:124
+msgid "write_vtk_polygonal_elevation_header: Writing VTK-Header"
+msgstr ""
+
+#: ../raster/r.out.vtk/writeascii.c:139
+msgid "write_vtk_celldata_header: Writing VTK-DataHeader"
+msgstr ""
+
+#: ../raster/r.out.vtk/writeascii.c:148
+msgid "writeVTKPointHeader: Writing VTK-DataHeader"
+msgstr ""
+
+#: ../raster/r.out.vtk/writeascii.c:169
+msgid "write_vtk_structured_coordinates: Writing Coordinates"
+msgstr ""
+
+#: ../raster/r.out.vtk/writeascii.c:225
+msgid "write_vtk_polygonal_coordinates: Writing VTK Polygonal data"
+msgstr ""
+
+#: ../raster/r.out.vtk/writeascii.c:334
+msgid "write_vtk_data: Writing VTK-Data"
+msgstr ""
+
+#: ../raster/r.out.vtk/writeascii.c:384
+msgid "write_vtk_rgb_image_data: Writing VTK-ImageData"
+msgstr ""
+
+#: ../raster/r.out.vtk/writeascii.c:412
+msgid "Wrong map values! Values should in between 0 and 255!\n"
+msgstr ""
+
+#: ../raster/r.out.vtk/writeascii.c:442
+msgid "write_vtk_vector_data: Writing VTK-vector data"
+msgstr ""
+
+#: ../raster/r.out.vtk/main.c:63
+msgid "Converts raster maps into the VTK-ASCII format."
+msgstr ""
+
+#: ../raster/r.out.vtk/main.c:74
+msgid "No input maps specified. You need to specify at least one input map or three vector maps or three rgb maps."
+msgstr ""
+
+#: ../raster/r.out.vtk/main.c:132 ../raster/r.out.vtk/main.c:192
+#: ../raster/r.out.vtk/main.c:213 ../raster/r.out.vtk/main.c:252
+#, c-format
+msgid "Open Raster file %s"
+msgstr ""
+
+#: ../raster/r.out.vtk/main.c:223
+msgid "Writing VTK ImageData\n"
+msgstr ""
+
+#: ../raster/r.out.vtk/main.c:233
+msgid "Wrong RGB maps. Maps should have the same type! RGB output not added!"
+msgstr ""
+
+#: ../raster/r.out.vtk/main.c:262
+msgid "Writing VTK Vector Data\n"
+msgstr ""
+
+#: ../raster/r.out.vtk/main.c:272
+msgid "Wrong vector maps. Maps should have the same type! Vector output not added!"
+msgstr ""
+
+#: ../raster/r.out.vtk/main.c:284
+msgid "Error closing VTK-ASCII file"
+msgstr ""
+
+#: ../raster/r.surf.contour/main.c:64
+msgid "Generates surface raster map from rasterized contours."
+msgstr ""
+
+#: ../raster/r.surf.contour/main.c:67
+msgid "Name of input raster map containing contours"
+msgstr ""
+
+#: ../raster/r.surf.fractal/main.c:42
+msgid "Creates a fractal surface of a given fractal dimension."
+msgstr ""
+
+#: ../raster/r.surf.fractal/main.c:48
+msgid "Fractal dimension of surface (2 < D < 3)"
+msgstr ""
+
+#: ../raster/r.surf.fractal/main.c:55
+msgid "Number of intermediate images to produce"
+msgstr ""
+
+#: ../raster/r.surf.fractal/main.c:79
+#, c-format
+msgid "Fractal dimension of %.2lf must be between 2 and 3."
+msgstr ""
+
+#: ../raster/r.surf.fractal/process.c:54
+msgid "Unable to allocate data buffer. Check current region with g.region."
+msgstr ""
+
+#: ../raster/r.surf.fractal/spec_syn.c:60
+msgid "Preliminary surface calculations..."
+msgstr ""
+
+#: ../raster/r.surf.fractal/spec_syn.c:119
+#, c-format
+msgid "Calculating surface %d (of %d)..."
+msgstr ""
+
+#: ../raster/r.rescale.eq/main.c:55
+msgid "Rescales histogram equalized the range of category values in a raster map layer."
+msgstr ""
+
+#: ../raster/r.rescale.eq/main.c:115
+#, c-format
+msgid "Rescale %s[%d,%d] to %s[%d,%d]"
+msgstr ""
+
+#: ../raster/r.covar/main.c:54
+msgid "Outputs a covariance/correlation matrix for user-specified raster map layer(s)."
+msgstr ""
+
+#: ../raster/r.covar/main.c:61
+msgid "Print correlation matrix"
+msgstr ""
+
+#: ../raster/r.covar/main.c:86
+#, c-format
+msgid "%s: complete ... "
+msgstr ""
+
+#: ../raster/r.mfilter/getfilt.c:27
+#, c-format
+msgid "Cannot open filter file '%s'"
+msgstr ""
+
+#: ../raster/r.mfilter/getfilt.c:47
+msgid "Illegal filter matrix size specified"
+msgstr ""
+
+#: ../raster/r.mfilter/getfilt.c:50
+msgid "Even filter matrix size specified"
+msgstr ""
+
+#: ../raster/r.mfilter/getfilt.c:72
+msgid "Illegal filter matrix"
+msgstr ""
+
+#: ../raster/r.mfilter/getfilt.c:80 ../raster/r.mfilter/getfilt.c:107
+#: ../raster/r.mfilter/getfilt.c:124
+msgid "Filter file format error"
+msgstr ""
+
+#: ../raster/r.mfilter/getfilt.c:83
+msgid "Duplicate filter divisor specified"
+msgstr ""
+
+#: ../raster/r.mfilter/getfilt.c:101
+msgid "Illegal divisor matrix"
+msgstr ""
+
+#: ../raster/r.mfilter/getfilt.c:110
+msgid "Duplicate filter type specified"
+msgstr ""
+
+#: ../raster/r.mfilter/getfilt.c:117
+msgid "Illegal filter type specified"
+msgstr ""
+
+#: ../raster/r.mfilter/getfilt.c:127
+msgid "Duplicate filter start specified"
+msgstr ""
+
+#: ../raster/r.mfilter/getfilt.c:135
+#, c-format
+msgid "Filter start %s ignored, using UL"
+msgstr ""
+
+#: ../raster/r.mfilter/getfilt.c:157
+msgid "Illegal filter file format"
+msgstr ""
+
+#: ../raster/r.mfilter/main.c:60
+msgid "Performs raster map matrix filter."
+msgstr ""
+
+#: ../raster/r.mfilter/main.c:71
+msgid "Path to filter file"
+msgstr ""
+
+#: ../raster/r.mfilter/main.c:79
+msgid "Number of times to repeat the filter"
+msgstr ""
+
+#: ../raster/r.mfilter/main.c:86
+msgid "Output raster map title"
+msgstr ""
+
+#: ../raster/r.mfilter/main.c:98
+msgid "Apply filter only to null data values"
+msgstr ""
+
+#: ../raster/r.mfilter/main.c:125
+msgid "Raster map too small for the size of the filter"
+msgstr ""
+
+#: ../raster/r.mfilter/getrow.c:23
+msgid "Error reading temporary file"
+msgstr ""
+
+#: ../raster/r.mfilter/perform.c:40 ../raster/r.mfilter/perform.c:51
+msgid "Unable to create temporary file"
+msgstr ""
+
+#: ../raster/r.mfilter/perform.c:81
+#, c-format
+msgid "Writing raster map <%s>"
+msgstr ""
+
+#: ../raster/r.region/main.c:56
+msgid "Sets the boundary definitions for a raster map."
+msgstr ""
+
+#: ../raster/r.region/main.c:62
+msgid "Set from current region"
+msgstr ""
+
+#: ../raster/r.region/main.c:79
+msgid "Name of raster map to change"
+msgstr ""
+
+#: ../raster/r.region/main.c:87
+msgid "Set region from named region"
+msgstr ""
+
+#: ../raster/r.region/main.c:95
+msgid "Set region to match this raster map"
+msgstr ""
+
+#: ../raster/r.region/main.c:102
+msgid "Set region to match this vector map"
+msgstr ""
+
+#: ../raster/r.region/main.c:145
+msgid "Raster map to align to"
+msgstr ""
+
+#: ../raster/r.latlong/main.c:56
+msgid "latitude"
+msgstr ""
+
+#: ../raster/r.latlong/main.c:57
+msgid "longitude"
+msgstr ""
+
+#: ../raster/r.latlong/main.c:59
+msgid "Creates a latitude/longitude raster map."
+msgstr ""
+
+#: ../raster/r.latlong/main.c:65
+msgid "Name for output latitude or longitude raster map"
+msgstr ""
+
+#: ../raster/r.latlong/main.c:69
+msgid "Longitude output"
+msgstr ""
+
+#: ../raster/r.latlong/main.c:99 ../raster/r.sunmask/g_solposition.c:99
+msgid "Unable to get projection info of current location"
+msgstr ""
+
+#: ../raster/r.latlong/main.c:101 ../raster/r.sunmask/g_solposition.c:102
+msgid "Unable to get projection units of current location"
+msgstr ""
+
+#: ../raster/r.latlong/main.c:103 ../raster/r.sunmask/g_solposition.c:105
+msgid "Unable to get projection key values of current location"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:139
+#, c-format
+msgid "Header File = %s"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:223
+#, c-format
+msgid "World File = %s"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:282
+msgid "Exports a GRASS raster to a binary array."
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:298
+msgid "Name for output binary map (use output=- for stdout)"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:324
+msgid "Generate integer output"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:328
+msgid "Generate floating-point output"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:332
+msgid "Export array with GMT compatible header"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:336
+msgid "Generate BIL world and header files"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:340
+msgid "Byte swap output"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:400
+#, c-format
+msgid "Floating-point output requires %s=4 or %s=8"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:405
+#, c-format
+msgid "Integer output doesn't support %s=8 in this build"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:420
+msgid "GMT grid doesn't support 64-bit integers"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:426
+msgid "Creating BIL support files..."
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:443
+#, c-format
+msgid "Exporting raster as floating values (%s=%d)"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:446
+msgid "Writing GMT float format ID=1"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:449
+#, c-format
+msgid "Exporting raster as integer values (%s=%d)"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:452
+msgid "Writing GMT integer format ID=2"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:460
+#, c-format
+msgid "r=%d"
+msgstr ""
+
+#: ../raster/r.out.bin/main.c:461
+#, c-format
+msgid "c=%d"
+msgstr ""
+
+#: ../raster/r.random/random.c:100
+msgid "Cannot create new table"
+msgstr ""
+
+#: ../raster/r.random/random.c:110
+#, c-format
+msgid "Writing raster map <%s> and vector map <%s> ..."
+msgstr ""
+
+#: ../raster/r.random/random.c:113
+#, c-format
+msgid "Writing raster map <%s> ..."
+msgstr ""
+
+#: ../raster/r.random/random.c:115
+#, c-format
+msgid "Writing vector map <%s> ..."
+msgstr ""
+
+#: ../raster/r.random/random.c:243
+#, c-format
+msgid "Only [%llu] random points created"
+msgstr ""
+
+#: ../raster/r.random/random.c:246
+#, c-format
+msgid "Only [%lu] random points created"
+msgstr ""
+
+#: ../raster/r.random/main.c:59
+msgid "Creates a raster map layer and vector point map containing randomly located points."
+msgstr ""
+
+#: ../raster/r.random/main.c:68
+msgid "Name of cover raster map"
+msgstr ""
+
+#: ../raster/r.random/main.c:75
+msgid "The number of points to allocate"
+msgstr ""
+
+#: ../raster/r.random/main.c:93
+msgid "Generate points also for NULL category"
+msgstr ""
+
+#: ../raster/r.random/main.c:98
+msgid "Report information about input raster and exit"
+msgstr ""
+
+#: ../raster/r.random/main.c:102
+msgid "Generate vector points as 3D points"
+msgstr ""
+
+#: ../raster/r.random/main.c:150
+#, c-format
+msgid "Note: one (or both) of %s and %s must be specified"
+msgstr ""
+
+#: ../raster/r.random/main.c:158
+#, c-format
+msgid "<%s=%s> invalid percentage"
+msgstr ""
+
+#: ../raster/r.random/main.c:169
+#, c-format
+msgid "<%s=%s> invalid number of points"
+msgstr ""
+
+#: ../raster/r.random/main.c:183
+#, c-format
+msgid "There aren't [%llu] cells in the current region"
+msgstr ""
+
+#: ../raster/r.random/main.c:186
+#, c-format
+msgid "There aren't [%llu] non-NULL cells in the current region"
+msgstr ""
+
+#: ../raster/r.random/main.c:190
+#, c-format
+msgid "There aren't [%lu] cells in the current region"
+msgstr ""
+
+#: ../raster/r.random/main.c:193
+#, c-format
+msgid "There aren't [%lu] non-NULL cells in the current region"
+msgstr ""
+
+#: ../raster/r.random/main.c:199
+msgid "There are no valid locations in the current region"
+msgstr ""
+
+#: ../raster/r.random/count.c:68
+msgid "Collecting Stats..."
+msgstr ""
+
+#: ../raster/r.random/count.c:123
+msgid "Programmer error in get_stats/switch"
+msgstr ""
+
+#: ../raster/r.describe/main.c:57
+msgid "Prints terse list of category values found in a raster map layer."
+msgstr ""
+
+#: ../raster/r.describe/main.c:71
+msgid "Number of quantization steps"
+msgstr ""
+
+#: ../raster/r.describe/main.c:77
+msgid "Print the output one value per line"
+msgstr ""
+
+#: ../raster/r.describe/main.c:81
+msgid "Only print the range of the data"
+msgstr ""
+
+#: ../raster/r.describe/main.c:85
+msgid "Suppress reporting of any NULLs"
+msgstr ""
+
+#: ../raster/r.describe/main.c:89
+msgid "Use the current region"
+msgstr ""
+
+#: ../raster/r.describe/main.c:93
+msgid "Read floating-point map as integer"
+msgstr ""
+
+#: ../raster/r.describe/main.c:105
+#, c-format
+msgid "%s = %s -- must be greater than zero"
+msgstr ""
+
+#: ../raster/r.describe/describe.c:94
+#, c-format
+msgid "Reading <%s> ..."
+msgstr ""
+
+#: ../raster/r.what.color/main.c:91
+msgid "Queries colors for a raster map layer."
+msgstr ""
+
+#: ../raster/r.what.color/main.c:99
+msgid "Name of existing raster map to query colors"
+msgstr ""
+
+#: ../raster/r.what.color/main.c:106
+msgid "Values to query colors for"
+msgstr ""
+
+#: ../raster/r.what.color/main.c:113
+msgid "Output format (printf-style)"
+msgstr ""
+
+#: ../raster/r.what.color/main.c:117
+msgid "Read values from stdin"
+msgstr ""
+
+#: ../raster/r.what.color/main.c:123
+msgid "Either \"-i\" or \"value=\" must be given"
+msgstr ""
+
+#: ../raster/r.mapcalc/map.c:226 ../raster/r.mapcalc/map3.c:182
+#, c-format
+msgid "Unable to read color file for raster map <%s@%s>"
+msgstr ""
+
+#: ../raster/r.mapcalc/map.c:235 ../raster/r.mapcalc/map3.c:191
+#: ../raster/r.category/main.c:148 ../raster/r.category/main.c:234
+#: ../raster/r.report/parse.c:294
+#, c-format
+msgid "Unable to read category file of raster map <%s@%s>"
+msgstr ""
+
+#: ../raster/r.mapcalc/map.c:239 ../raster/r.mapcalc/map3.c:195
+#, c-format
+msgid "Unable to create btree for raster map <%s@%s>"
+msgstr ""
+
+#: ../raster/r.mapcalc/map.c:288 ../raster/r.mapcalc/map.c:495
+#: ../raster/r.mapcalc/map.c:536 ../raster/r.mapcalc/map.c:634
+#: ../raster/r.mapcalc/expression.c:357 ../raster/r.mapcalc/map3.c:240
+#: ../raster/r.mapcalc/map3.c:424 ../raster/r.mapcalc/map3.c:469
+#: ../raster/r.mapcalc/map3.c:566
+#, c-format
+msgid "Invalid map modifier: '%c'"
+msgstr ""
+
+#: ../raster/r.mapcalc/map.c:426 ../raster/r.mapcalc/map3.c:354
+#: ../raster/r.mapcalc/evaluate.c:141 ../raster/r.mapcalc/evaluate.c:281
+#, c-format
+msgid "Unknown type: %d"
+msgstr ""
+
+#: ../raster/r.mapcalc/expression.c:206
+#, c-format
+msgid "Undefined variable '%s'"
+msgstr ""
+
+#: ../raster/r.mapcalc/expression.c:221
+#, c-format
+msgid "Invalid map <%s>"
+msgstr ""
+
+#: ../raster/r.mapcalc/expression.c:262
+#, c-format
+msgid "Undefined function '%s'"
+msgstr ""
+
+#: ../raster/r.mapcalc/expression.c:267
+#, c-format
+msgid "Too few arguments (%d) to function %s()"
+msgstr ""
+
+#: ../raster/r.mapcalc/expression.c:271
+#, c-format
+msgid "Too many arguments (%d) to function %s()"
+msgstr ""
+
+#: ../raster/r.mapcalc/expression.c:275
+#, c-format
+msgid "Incorrect argument types to function %s()"
+msgstr ""
+
+#: ../raster/r.mapcalc/expression.c:278
+#, c-format
+msgid "Internal error for function %s()"
+msgstr ""
+
+#: ../raster/r.mapcalc/expression.c:453
+#, c-format
+msgid "Illegal number of arguments (%d) for operator '%s'"
+msgstr ""
+
+#: ../raster/r.mapcalc/expression.c:493
+#, c-format
+msgid "Format_expression_prec: unknown type: %d"
+msgstr ""
+
+#: ../raster/r.mapcalc/function.c:35
+#, c-format
+msgid "Known functions:"
+msgstr ""
+
+#: ../raster/r.mapcalc/main.c:72
+msgid "Raster map calculator."
+msgstr ""
+
+#: ../raster/r.mapcalc/main.c:80 ../raster/r.mapcalc/main.c:99
+msgid "Expression"
+msgstr ""
+
+#: ../raster/r.mapcalc/main.c:88
+msgid ""
+"The computational region that should be used.\n"
+"               - current uses the current region of the mapset.\n"
+"               - intersect computes the intersection region between\n"
+"                 all input maps and uses the smallest resolution\n"
+"               - union computes the union extent of all map regions\n"
+"                 and uses the smallest resolution"
+msgstr ""
+
+#: ../raster/r.mapcalc/main.c:98
+msgid "File containing expression(s) to evaluate"
+msgstr ""
+
+#: ../raster/r.mapcalc/main.c:113
+msgid "List input and output maps"
+msgstr ""
+
+#: ../raster/r.mapcalc/main.c:135
+#, c-format
+msgid "%s= and -%c are mutually exclusive"
+msgstr ""
+
+#: ../raster/r.mapcalc/main.c:146
+msgid "parse error"
+msgstr ""
+
+#: ../raster/r.mapcalc/main.c:185
+msgid "Floating point error(s) occurred in the calculation"
+msgstr ""
+
+#: ../raster/r.mapcalc/map3.c:373
+#, c-format
+msgid "Unable to close raster map <%s@%s>"
+msgstr ""
+
+#: ../raster/r.mapcalc/map3.c:632
+msgid "Unable to close output raster map"
+msgstr ""
+
+#: ../raster/r.mapcalc/evaluate.c:187
+#, c-format
+msgid "Invalid type: %d"
+msgstr ""
+
+#: ../raster/r.mapcalc/evaluate.c:226
+#, c-format
+msgid "Too few arguments for function '%s'"
+msgstr ""
+
+#: ../raster/r.mapcalc/evaluate.c:230
+#, c-format
+msgid "Too many arguments for function '%s'"
+msgstr ""
+
+#: ../raster/r.mapcalc/evaluate.c:234
+#, c-format
+msgid "Invalid argument type for function '%s'"
+msgstr ""
+
+#: ../raster/r.mapcalc/evaluate.c:238
+#, c-format
+msgid "Invalid return type for function '%s'"
+msgstr ""
+
+#: ../raster/r.mapcalc/evaluate.c:242
+#, c-format
+msgid "Unknown type for function '%s'"
+msgstr ""
+
+#: ../raster/r.mapcalc/evaluate.c:245
+#, c-format
+msgid "Number of arguments for function '%s'"
+msgstr ""
+
+#: ../raster/r.mapcalc/evaluate.c:249
+#, c-format
+msgid "Unknown error for function '%s'"
+msgstr ""
+
+#: ../raster/r.mapcalc/evaluate.c:327
+#, c-format
+msgid "output map <%s> exists. To overwrite, use the --overwrite flag"
+msgstr ""
+
+#: ../raster/r.spreadpath/main.c:92
+msgid "Recursively traces the least cost path backwards to cells from which the cumulative cost was determined."
+msgstr ""
+
+#: ../raster/r.spreadpath/main.c:98
+msgid "Name of raster map containing back-path easting information"
+msgstr ""
+
+#: ../raster/r.spreadpath/main.c:103
+msgid "Name of raster map containing back-path northing information"
+msgstr ""
+
+#: ../raster/r.spreadpath/main.c:108
+msgid "The map E and N grid coordinates of starting points"
+msgstr ""
+
+#: ../raster/r.spreadpath/main.c:161
+#, c-format
+msgid "Reading the input map -%s- and -%s- and creating some temporary files..."
+msgstr ""
+
+#: ../raster/r.spreadpath/main.c:266
+msgid "Finding the least cost paths ..."
+msgstr ""
+
+#: ../raster/r.spreadpath/main.c:281
+#, c-format
+msgid "Writing the output map  -%s-..."
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:81
+msgid "Creates/modifies the color table associated with a 3D raster map."
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:85
+msgid "Creates/modifies the color table associated with a raster map."
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:95 ../raster/r.colors/edit_colors.c:107
+msgid "Map"
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:101
+msgid "Input file with one map name per line"
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:103
+msgid "Input map names can be defined in an input file in case a large amount of maps must be specified. This option is mutual exclusive to the map option."
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:130
+msgid "\"-\" to read rules from stdin"
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:138
+msgid "Offset for color rule values"
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:139 ../raster/r.colors/edit_colors.c:148
+msgid "New value = (old value + offset) * scale"
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:147
+msgid "Scale for color rule values"
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:284 ../raster/r.colors/edit_colors.c:318
+#, c-format
+msgid "%s map <%s> not found"
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:290
+#, c-format
+msgid "No %s map name found in input file <%s>"
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:333
+#, c-format
+msgid "Unable to remove color table of %s map <%s>"
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:335
+#, c-format
+msgid "Color table of %s map <%s> not found"
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:358
+#, c-format
+msgid "Color table exists for %s map <%s>. Exiting."
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:421
+#, c-format
+msgid "Color table 'random' is not supported for floating point %s map"
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:426
+#, c-format
+msgid "Color table 'grey.eq' is not supported for floating point %s map"
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:433
+#, c-format
+msgid "Color table 'grey.log' is not supported for floating point %s map"
+msgstr ""
+
+#: ../raster/r.colors/edit_colors.c:539
+#, c-format
+msgid "Color table for %s map <%s> set to '%s'"
+msgstr ""
+
+#: ../raster/r.colors/stats.c:40
+#, c-format
+msgid "(%i/%i) Reading raster map <%s>..."
+msgstr ""
+
+#: ../raster/r.colors/stats.c:75
+msgid "Unable to use logarithmic scaling if range includes zero"
+msgstr ""
+
+#: ../raster/r.colors/stats.c:123
+msgid "Error opening 3d raster map"
+msgstr ""
+
+#: ../raster/r.colors/stats.c:130
+#, c-format
+msgid "(%i/%i) Reading map <%s>..."
+msgstr ""
+
+#: ../raster/r.colors/rules.c:42
+#, c-format
+msgid "Enter rules, \"end\" when done, \"help\" if you need it.\n"
+msgstr ""
+
+#: ../raster/r.colors/rules.c:51
+#, c-format
+msgid "fp: Data range is %s to %s\n"
+msgstr ""
+
+#: ../raster/r.colors/rules.c:55
+#, c-format
+msgid "Data range is %ld to %ld\n"
+msgstr ""
+
+#: ../raster/r.colors/rules.c:66
+#, c-format
+msgid ""
+"Your color rules do not cover the whole range of data!\n"
+" (rules %f to %f but data %f to %f)"
+msgstr ""
+
+#: ../raster/r.colors/rules.c:81
+msgid "Unable to open color rule"
+msgstr ""
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../display/d.redraw/main.c:100
 #, fuzzy, c-format

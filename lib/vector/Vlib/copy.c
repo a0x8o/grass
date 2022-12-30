@@ -69,6 +69,7 @@ static int copy_nodes(struct Map_info *, struct Map_info *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -122,6 +123,8 @@ static int copy_nodes(struct Map_info *, struct Map_info *);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 static int copy_line_nodes(struct Map_info *, int, int, struct line_pnts *,
                            struct Map_info *);
 static int is_isle(struct Map_info *, int);
@@ -150,6 +153,7 @@ static int is_isle(struct Map_info *, int);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -237,6 +241,10 @@ static int is_isle(struct Map_info *, int);
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 static int copy_line_nodes(const struct Map_info *, int, int,
                            struct line_pnts *, struct Map_info *);
 static int is_isle(const struct Map_info *, int);
@@ -274,8 +282,11 @@ int Vect_copy_map_lines_field(struct Map_info *In, int field,
                               struct Map_info *Out)
 {
     int ret, format, topo;
+<<<<<<< HEAD
     const char *geometry_type = NULL;
     const char *map_name = NULL;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     if (Vect_level(In) < 1)
         G_fatal_error(
@@ -339,12 +350,20 @@ int Vect_copy_map_lines_field(struct Map_info *In, int field,
             map_name = Vect_get_full_name(In);
             G_warning(_("Vector map <%s> not open on topological level. "
                         "Areas will be skipped!"),
+<<<<<<< HEAD
                       map_name);
             G_free((void *)map_name);
         }
 
         ret += copy_lines_1(In, field, Out);
     }
+=======
+                      Vect_get_full_name(In));
+
+        ret += copy_lines_1(In, field, Out);
+    }
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     return ret > 0 ? 1 : 0;
 }
 
@@ -361,7 +380,10 @@ int Vect_copy_map_lines_field(struct Map_info *In, int field,
 int copy_lines_1(struct Map_info *In, int field, struct Map_info *Out)
 {
     int ret, type;
+<<<<<<< HEAD
     const char *map_name = NULL;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     struct line_pnts *Points;
     struct line_cats *Cats;
@@ -421,7 +443,10 @@ int copy_lines_2(struct Map_info *In, int field, int topo, struct Map_info *Out)
     struct line_cats *Cats, *CCats;
 
     const char *ftype = NULL;
+<<<<<<< HEAD
     const char *map_name = NULL;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     Points = Vect_new_line_struct();
     CPoints = Vect_new_line_struct();
@@ -576,7 +601,11 @@ int copy_lines_2(struct Map_info *In, int field, int topo, struct Map_info *Out)
         G_important_message(
             _("%d features without category or from different layer skipped"),
             nskipped);
+<<<<<<< HEAD
 free_exit:
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     Vect_destroy_line_struct(Points);
     Vect_destroy_line_struct(CPoints);
     Vect_destroy_line_struct(NPoints);
@@ -597,6 +626,7 @@ free_exit:
    \return 0 on success
    \return 1 on error
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -665,10 +695,13 @@ free_exit:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int copy_nodes(struct Map_info *In, struct Map_info *Out)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -750,6 +783,10 @@ int copy_nodes(struct Map_info *In, struct Map_info *Out)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int copy_nodes(const struct Map_info *In, struct Map_info *Out)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -835,6 +872,7 @@ int copy_line_nodes(struct Map_info *In, int node, int with_z,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -880,10 +918,13 @@ int copy_line_nodes(struct Map_info *In, int node, int with_z,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int is_isle(struct Map_info *Map, int area)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -965,6 +1006,10 @@ int is_isle(struct Map_info *Map, int area)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int is_isle(const struct Map_info *Map, int area)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -1029,6 +1074,7 @@ int is_isle(const struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1074,10 +1120,13 @@ int is_isle(const struct Map_info *Map, int area)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int Vect__copy_areas(struct Map_info *In, int field, struct Map_info *Out)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1159,6 +1208,10 @@ int Vect__copy_areas(struct Map_info *In, int field, struct Map_info *Out)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int Vect__copy_areas(const struct Map_info *In, int field, struct Map_info *Out)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -1306,6 +1359,7 @@ free_exit:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
 =======
 <<<<<<< HEAD
@@ -1360,6 +1414,8 @@ int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int Vect_copy_tables(struct Map_info *In, struct Map_info *Out, int field)
 =======
 int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
@@ -1389,6 +1445,7 @@ int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1494,6 +1551,11 @@ int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
 int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     int i, n, type;
     struct field_info *Fi;
@@ -1521,6 +1583,7 @@ int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
 
         if (Vect_copy_table(In, Out, Fi->number, Fi->number, Fi->name, type) !=
             0) {
+<<<<<<< HEAD
             map_name = Vect_get_full_name(In);
             G_warning(
                 _("Unable to copy table <%s> for layer %d from <%s> to <%s>"),
@@ -1530,6 +1593,15 @@ int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
             return -1;
         }
         Vect_destroy_field_info(Fi);
+=======
+
+            G_warning(
+                _("Unable to copy table <%s> for layer %d from <%s> to <%s>"),
+                Fi->table, Fi->number, Vect_get_full_name(In),
+                Vect_get_name(Out));
+            return -1;
+        }
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
     return 0;
 }
@@ -1547,6 +1619,7 @@ int Vect_copy_tables(const struct Map_info *In, struct Map_info *Out, int field)
    \return 0 on success
    \return -1 on error
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1626,6 +1699,8 @@ int Vect_copy_table(const struct Map_info *In, struct Map_info *Out,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int Vect_copy_table(struct Map_info *In, struct Map_info *Out, int field_in,
                     int field_out, const char *field_name, int type)
 =======
@@ -1715,6 +1790,7 @@ int Vect_copy_table(const struct Map_info *In, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1769,6 +1845,13 @@ int Vect_copy_table(const struct Map_info *In, struct Map_info *Out,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+int Vect_copy_table(const struct Map_info *In, struct Map_info *Out,
+                    int field_in, int field_out, const char *field_name,
+                    int type)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     return Vect_copy_table_by_cats(In, Out, field_in, field_out, field_name,
                                    type, NULL, 0);
@@ -1814,6 +1897,7 @@ int Vect_copy_table(const struct Map_info *In, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_copy_table_by_cat_list(const struct Map_info *In, struct Map_info *Out,
 =======
 <<<<<<< HEAD
@@ -1868,6 +1952,8 @@ int Vect_copy_table_by_cat_list(const struct Map_info *In, struct Map_info *Out,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int Vect_copy_table_by_cat_list(struct Map_info *In, struct Map_info *Out,
 =======
 int Vect_copy_table_by_cat_list(const struct Map_info *In, struct Map_info *Out,
@@ -1897,6 +1983,7 @@ int Vect_copy_table_by_cat_list(const struct Map_info *In, struct Map_info *Out,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2002,6 +2089,11 @@ int Vect_copy_table_by_cat_list(const struct Map_info *In, struct Map_info *Out,
 int Vect_copy_table_by_cat_list(const struct Map_info *In, struct Map_info *Out,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+int Vect_copy_table_by_cat_list(const struct Map_info *In, struct Map_info *Out,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                                 int field_in, int field_out,
                                 const char *field_name, int type,
                                 const struct cat_list *cat_list)
@@ -2096,22 +2188,34 @@ int Vect_copy_table_by_cats(struct Map_info *In, struct Map_info *Out,
     if (!driver) {
         G_warning(_("Unable to open database <%s> with driver <%s>"),
                   Fin->database, Fin->driver);
+<<<<<<< HEAD
         ret = -1;
         goto free_exit;
+=======
+        return -1;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* do not allow duplicate keys */
     if (db_create_index2(driver, Fin->table, Fi->key) != DB_OK) {
         G_warning(_("Unable to create index"));
+<<<<<<< HEAD
         ret = -1;
         goto close_db_free_exit;
+=======
+        return -1;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     if (db_grant_on_table(driver, Fin->table, DB_PRIV_SELECT,
                           DB_GROUP | DB_PUBLIC) != DB_OK) {
         G_warning(_("Unable to grant privileges on table <%s>"), Fin->table);
+<<<<<<< HEAD
         ret = -1;
         goto close_db_free_exit;
+=======
+        return -1;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
 close_db_free_exit:

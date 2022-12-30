@@ -51,8 +51,13 @@ int main(int argc, char *argv[])
     struct PointBinning point_binning;
     void *base_array;
     void *raster_row;
+<<<<<<< HEAD
     struct Cell_head region = {0};
     struct Cell_head input_region = {0};
+=======
+    struct Cell_head region;
+    struct Cell_head input_region;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     int rows, last_rows, row0, cols; /* scan box size */
     int row;                         /* counters */
 
@@ -323,6 +328,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         _("Override projection check (use current location's projection)");
     over_flag->description = _(
         "Assume that the dataset has same projection as the current location");
@@ -379,6 +385,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         _("Override projection check (use current project's CRS)");
     over_flag->description =
         _("Assume that the dataset has the same coordinate reference system as "
@@ -470,6 +478,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -524,6 +533,13 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        _("Override projection check (use current location's projection)");
+    over_flag->description = _(
+        "Assume that the dataset has same projection as the current location");
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     scan_flag = G_define_flag();
     scan_flag->key = 's';

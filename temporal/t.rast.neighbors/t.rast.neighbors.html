@@ -17,6 +17,7 @@ is set to each raster map selected from the input STRDS.
 
 <p>
 The user can select a subset of the input space time raster dataset for
+<<<<<<< HEAD
 processing using a SQL WHERE statement or using the <b>region_relation</b>
 for spatial selection of raster maps. For the spatial map selection the
 current computational region is used, even when the <b>-r</b> flag is
@@ -24,6 +25,11 @@ given. The number of CPU's to be used for parallel processing can be
 specified with the <em>nprocs</em> option to speedup the computation on
 multi-core system.
 
+=======
+processing using a SQL WHERE statement. The number of CPU's to be used
+for parallel processing can be specified with the <em>nprocs</em>
+option to speedup the computation on multi-core system.
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <p>
 Semantic labels are needed to relate output raster maps to input raster
 maps. E.g. with <em>method=stddev</em>, the user needs to know the

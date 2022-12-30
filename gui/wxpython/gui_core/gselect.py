@@ -210,13 +210,6 @@ import wx.lib.filebrowsebutton as filebrowse
 import grass.script as gs
 from grass.script import task as gtask
 from grass.exceptions import CalledModuleError
-from grass.lib.imagery import (
-    I_SIGFILE_TYPE_SIG,
-    I_SIGFILE_TYPE_SIGSET,
-    I_signatures_list_by_type,
-    I_free_signatures_list,
-)
-from grass.pygrass.utils import decode
 
 from gui_core.widgets import ManageSettingsWidget, CoordinatesValidator
 
@@ -2174,6 +2167,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2186,6 +2180,8 @@ class GdalSelect(wx.Panel):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1cb35c2fc8 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 db_formats = self.dbFormats.values()
                 if "PostgreSQL" in db_formats:
 =======
@@ -2334,6 +2330,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4625684fca (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -2343,9 +2340,12 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
                 db_formats = self.dbFormats.values()
                 if "PostgreSQL" in db_formats:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2420,6 +2420,8 @@ class GdalSelect(wx.Panel):
                 if "PostgreSQL" in self.dbFormats.values():
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 1cb35c2fc8 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                     self.dbWidgets["format"].SetStringSelection("PostgreSQL")
                 elif "PostgreSQL/PostGIS" in db_formats:
                     self.dbWidgets["format"].SetStringSelection("PostgreSQL/PostGIS")
@@ -2522,7 +2524,11 @@ class GdalSelect(wx.Panel):
                 "PostgreSQL",
                 "PostgreSQL/PostGIS",
                 "PostGIS Raster driver",
+<<<<<<< HEAD
             }:
+=======
+            ):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 ret = RunCommand("db.login", read=True, quiet=True, flags="p")
                 message = _(
                     "PostgreSQL/PostGIS login was not set."
@@ -2586,7 +2592,11 @@ class GdalSelect(wx.Panel):
     def SetDatabase(self, db):
         """Update database panel."""
         sizer = self.dbPanel.GetSizer()
+<<<<<<< HEAD
         showBrowse = db in {"SQLite", "SQLite / Spatialite", "Rasterlite"}
+=======
+        showBrowse = db in ("SQLite", "SQLite / Spatialite", "Rasterlite")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         showDirbrowse = db in ("FileGDB")
         showChoice = db in {
             "PostgreSQL",
@@ -2603,6 +2613,18 @@ class GdalSelect(wx.Panel):
                 "PostgreSQL/PostGIS",
             }
         )
+<<<<<<< HEAD
+=======
+        enableFeatType = (
+            self.dest
+            and self.ogr
+            and db
+            in (
+                "PostgreSQL",
+                "PostgreSQL/PostGIS",
+            )
+        )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         showText = not (showBrowse or showChoice or showDirbrowse)
 
         sizer.Show(self.dbWidgets["browse"], show=showBrowse)
@@ -2620,9 +2642,15 @@ class GdalSelect(wx.Panel):
             if dbNames is not None:
                 self.dbWidgets["choice"].SetItems(sorted(dbNames))
                 self.dbWidgets["choice"].SetSelection(0)
+<<<<<<< HEAD
             elif gs.find_program(self._psql, "--help"):
                 if not self.dbWidgets["choice"].GetItems():
                     p = gs.Popen([self._psql, "-ltA"], stdout=gs.PIPE)
+=======
+            elif grass.find_program(self._psql, "--help"):
+                if not self.dbWidgets["choice"].GetItems():
+                    p = grass.Popen([self._psql, "-ltA"], stdout=grass.PIPE)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                     ret = p.communicate()[0]
                     if ret:
                         dbNames = []
@@ -2664,7 +2692,11 @@ class GdalSelect(wx.Panel):
 
             if "PG:" in dsn:
                 dsn = dsn.replace("PG:", "")
+<<<<<<< HEAD
                 p = gs.Popen(
+=======
+                p = grass.Popen(
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                     [
                         self._psql,
                         "-t",
@@ -2673,7 +2705,11 @@ class GdalSelect(wx.Panel):
                         "-c",
                         f"SELECT ST_SRID(rast) AS srid FROM {table} WHERE rid=1;",
                     ],
+<<<<<<< HEAD
                     stdout=gs.PIPE,
+=======
+                    stdout=grass.PIPE,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 )
                 ret, error = p.communicate()
                 if error:
@@ -2682,6 +2718,7 @@ class GdalSelect(wx.Panel):
                         message=_(
                             "Getting raster <{table}> SRID from PostgreSQL"
                             " DB <{db}>, host <{host}> failed."
+<<<<<<< HEAD
                             " {error}."
                         ).format(
                             table=table,
@@ -2699,6 +2736,25 @@ class GdalSelect(wx.Panel):
                 if ret:
                     raster_srid = gs.utils.decode(ret).replace(os.linesep, "")
                     location_srid = gs.parse_command("g.proj", flags="g")
+=======
+                            " {error}.".format(
+                                table=table,
+                                db=self._getPDDBConnectionParam(
+                                    dsn,
+                                    conn_param="dbname",
+                                ),
+                                host=self._getPDDBConnectionParam(
+                                    dsn,
+                                    conn_param="host",
+                                ),
+                                error=grass.utils.decode(error),
+                            ),
+                        ),
+                    )
+                if ret:
+                    raster_srid = grass.utils.decode(ret).replace(os.linesep, "")
+                    location_srid = grass.parse_command("g.proj", flags="g")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                     if raster_srid == location_srid["srid"].split(":")[-1]:
                         projectionMatch = "1"
             else:
@@ -2706,6 +2762,7 @@ class GdalSelect(wx.Panel):
                     "r.external", quiet=True, read=True, flags="t", input=dsn
                 )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2784,6 +2841,8 @@ class GdalSelect(wx.Panel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 # v.external returns info for individual bands, however projection is
                 # shared by all bands -> (it is possible to take first line)
 =======
@@ -2871,6 +2930,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2925,12 +2985,23 @@ class GdalSelect(wx.Panel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+                # v.external returns info for individual bands, however projection is shared by all bands ->
+                # (it is possible to take first line)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
                 lines = ret.splitlines()
                 projectionMatch = "0"
                 if lines:
+<<<<<<< HEAD
                     bandNumber, bandType, projectionMatch = (
                         x.strip() for x in lines[0].split(",")
+=======
+                    bandNumber, bandType, projectionMatch = map(
+                        lambda x: x.strip(), lines[0].split(",")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                     )
 
             return projectionMatch
@@ -2986,6 +3057,7 @@ class GdalSelect(wx.Panel):
                 projectionMatchCaption = getProjMatchCaption(projectionMatch)
                 listData.append((layerId, baseName, projectionMatchCaption, grassName))
                 data.append((layerId, baseName, int(projectionMatch), grassName))
+<<<<<<< HEAD
                 layerId += 1
         elif self.dbWidgets["format"].GetStringSelection() == "PostGIS Raster driver":
             rasters = self._getPGDBRasters(dsn)
@@ -3005,6 +3077,35 @@ class GdalSelect(wx.Panel):
                 listData.append((layerId, raster, projectionMatchCaption, grassName))
                 data.append((layerId, raster, int(projectionMatch), grassName))
                 layerId += 1
+=======
+            elif self._sourceType == "dir":
+                ext = self.dirWidgets["extension"].GetValue()
+                for filename in glob.glob(
+                    os.path.join(dsn, "%s") % self._getExtPatternGlob(ext)
+                ):
+                    baseName = os.path.basename(filename)
+                    grassName = GetValidLayerName(baseName.split(".", -1)[0])
+                    projectionMatch = hasRastSameProjAsLocation(filename)
+                    projectionMatchCaption = getProjMatchCaption(projectionMatch)
+                    listData.append(
+                        (layerId, baseName, projectionMatchCaption, grassName)
+                    )
+                    data.append((layerId, baseName, int(projectionMatch), grassName))
+                    layerId += 1
+            elif (
+                self.dbWidgets["format"].GetStringSelection() == "PostGIS Raster driver"
+            ):
+                rasters = self._getPGDBRasters(dsn)
+                for raster in rasters:
+                    grassName = GetValidLayerName(raster)
+                    projectionMatch = hasRastSameProjAsLocation(dsn, table=raster)
+                    projectionMatchCaption = getProjMatchCaption(projectionMatch)
+                    listData.append(
+                        (layerId, raster, projectionMatchCaption, grassName)
+                    )
+                    data.append((layerId, raster, int(projectionMatch), grassName))
+                    layerId += 1
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
         # emit signal
         self.reloadDataRequired.emit(listData=listData, data=data)
@@ -3134,7 +3235,11 @@ class GdalSelect(wx.Panel):
               AND schemaname != 'pg_catalog';
         """
         # Get tables list
+<<<<<<< HEAD
         p = gs.Popen(
+=======
+        p = grass.Popen(
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             [
                 self._psql,
                 "-t",
@@ -3143,7 +3248,11 @@ class GdalSelect(wx.Panel):
                 "-c",
                 f"{tables_list_sql}",
             ],
+<<<<<<< HEAD
             stdout=gs.PIPE,
+=======
+            stdout=grass.PIPE,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         )
         ret, error = p.communicate()
         if error:
@@ -3151,6 +3260,7 @@ class GdalSelect(wx.Panel):
                 parent=self,
                 message=_(
                     "Getting list of tables from PostgreSQL DB <{db}>,"
+<<<<<<< HEAD
                     " host <{host}> failed. {error}."
                 ).format(
                     db=self._getPGDBConnectionParam(
@@ -3166,6 +3276,23 @@ class GdalSelect(wx.Panel):
             )
         if ret:
             ret = gs.utils.decode(ret)
+=======
+                    " host <{host}> failed. {error}.".format(
+                        db=self._getPGDBConnectionParam(
+                            dsn,
+                            conn_param="dbname",
+                        ),
+                        host=self._getPGDBConnectionParam(
+                            dsn,
+                            conn_param="host",
+                        ),
+                        error=grass.utils.decode(error),
+                    ),
+                ),
+            )
+        if ret:
+            ret = grass.utils.decode(ret)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             tables = [i.strip() for i in ret.split(os.linesep) if i]
         Debug.msg(3, f"GdalSelect._getPGDBtables(): return {tables}")
         return tables
@@ -3215,7 +3342,11 @@ class GdalSelect(wx.Panel):
         field_sep = ","
 
         dsn = dsn.replace("PG:", "")
+<<<<<<< HEAD
         if gs.find_program(self._psql, "--help"):
+=======
+        if grass.find_program(self._psql, "--help"):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             tables = self._getPGDBtables(dsn)
             # Get tables columns data types list
             if tables:
@@ -3223,7 +3354,11 @@ class GdalSelect(wx.Panel):
                 tables_cols_data_types_sql = self._getPGDBTablesColumnsTypesSql(
                     tables=tables_with_quotes,
                 )
+<<<<<<< HEAD
                 p = gs.Popen(
+=======
+                p = grass.Popen(
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                     [
                         self._psql,
                         "-t",
@@ -3234,7 +3369,11 @@ class GdalSelect(wx.Panel):
                         "-c",
                         f"{tables_cols_data_types_sql}",
                     ],
+<<<<<<< HEAD
                     stdout=gs.PIPE,
+=======
+                    stdout=grass.PIPE,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 )
                 ret, error = p.communicate()
                 if error:
@@ -3243,6 +3382,7 @@ class GdalSelect(wx.Panel):
                         message=_(
                             "Getting list of tables columns data types"
                             " from PostGIS DB <{db}>, host <{host}> failed."
+<<<<<<< HEAD
                             " {error}."
                         ).format(
                             db=self._getPGDBConnectionParam(
@@ -3254,12 +3394,29 @@ class GdalSelect(wx.Panel):
                                 conn_param="host",
                             ),
                             error=gs.utils.decode(error),
+=======
+                            " {error}.".format(
+                                db=self._getPGDBConnectionParam(
+                                    dsn,
+                                    conn_param="dbname",
+                                ),
+                                host=self._getPGDBConnectionParam(
+                                    dsn,
+                                    conn_param="host",
+                                ),
+                                error=grass.utils.decode(error),
+                            ),
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                         ),
                     )
                 if ret:
                     import re
 
+<<<<<<< HEAD
                     tables_cols = gs.utils.decode(ret)
+=======
+                    tables_cols = grass.utils.decode(ret)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                     rasters_cols = re.findall(
                         rf".*.{raster_col_type}",
                         tables_cols,
@@ -3273,12 +3430,18 @@ class GdalSelect(wx.Panel):
                 parent=self,
                 message=_(
                     "PostgreSQL DB <{psql}> program was not found."
+<<<<<<< HEAD
                     " Please, install it."
                 ).format(psql=self._psql),
+=======
+                    " Please, install it.".format(psql=self._psql)
+                ),
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             )
         Debug.msg(3, f"GdalSelect._getPGDBRasters(): return {rasters}")
         return rasters
 
+<<<<<<< HEAD
     def _getRasterliteDBRasters(self, dsn):
         """Get Rasterlite DB rasters
 
@@ -3300,6 +3463,8 @@ class GdalSelect(wx.Panel):
             return [r[0].rsplit("table=")[-1] for r in rasters]
         return [os.path.basename(rasterlite.GetFileList()[0]).rsplit(".")[0]]
 
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 class ProjSelect(wx.ComboBox):
     """Widget for selecting input raster/vector map used by
@@ -4547,12 +4712,34 @@ class SignatureSelect(wx.ComboBox):
 =======
         super(SignatureSelect, self).__init__(parent, id, size=size, **kwargs)
 
-        sig_type = None
+        items = []
+        if mapsets:
+            for mapset in mapsets:
+                self._append_mapset_signatures(mapset, element, items)
+        else:
+            self._append_mapset_signatures(None, element, items)
+        self.SetItems(items)
+        self.SetValue("")
+
+    def _append_mapset_signatures(self, mapset, element, items):
+        try:
+            from grass.lib.imagery import (
+                I_SIGFILE_TYPE_SIG,
+                I_SIGFILE_TYPE_SIGSET,
+                I_signatures_list_by_type,
+                I_free_signatures_list,
+            )
+        except ImportError as e:
+            sys.stderr.write(
+                _("Unable to import C imagery library functions: %s\n") % e
+            )
+            return
         # Extend here if a new signature type is introduced
         if element == "signatures/sig":
             sig_type = I_SIGFILE_TYPE_SIG
         elif element == "signatures/sigset":
             sig_type = I_SIGFILE_TYPE_SIGSET
+<<<<<<< HEAD
         items = []
         if sig_type is not None:
             if mapsets:
@@ -4565,10 +4752,15 @@ class SignatureSelect(wx.ComboBox):
 
     def _append_mapset_signatures(self, mapset, sig_type, items):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+=======
+        else:
+            return
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         list_ptr = ctypes.POINTER(ctypes.c_char_p)
         sig_list = list_ptr()
         count = I_signatures_list_by_type(sig_type, mapset, ctypes.byref(sig_list))
         for n in range(count):
+<<<<<<< HEAD
 <<<<<<< HEAD
             items.append(grass.decode(sig_list[n]))
         I_free_signatures_list(count, ctypes.byref(sig_list))
@@ -4645,6 +4837,10 @@ class SignatureSelect(wx.ComboBox):
 =======
             items.append(decode(sig_list[n]))
         I_free_signatures_list(count, sig_list)
+=======
+            items.append(grass.decode(sig_list[n]))
+        I_free_signatures_list(count, ctypes.byref(sig_list))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))

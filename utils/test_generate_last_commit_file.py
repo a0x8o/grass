@@ -28,7 +28,12 @@ from .generate_last_commit_file import COMMIT_DATE_FORMAT
 
 @pytest.fixture
 def json_file():
+<<<<<<< HEAD
     return "core_modules_with_last_commit.json"
+=======
+    file_name = "core_modules_with_last_commit.json"
+    return file_name
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 
 @pytest.fixture
@@ -82,7 +87,12 @@ def test_compare_json_file_data(read_json_file, core_module_path):
             f"--format=%H,{COMMIT_DATE_FORMAT}",
             core_module_path,
         ],
+<<<<<<< HEAD
         capture_output=True,
+=======
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         check=True,
     )  # --format=%H,COMMIT_DATE_FORMAT commit hash,author date
     commit, date = process_result.stdout.decode().strip().split(",")

@@ -794,6 +794,7 @@ class GConsole(wx.EvtHandler):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -835,6 +836,8 @@ class GConsole(wx.EvtHandler):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             status = Status.ABORTED
 =======
 =======
@@ -927,6 +930,7 @@ class GConsole(wx.EvtHandler):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c9839e72f7 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1066,6 +1070,10 @@ class GConsole(wx.EvtHandler):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         elif event.returncode != 0:
             msg = _("Command ended with non-zero return code {returncode}").format(
                 returncode=event.returncode
@@ -1093,6 +1101,7 @@ class GConsole(wx.EvtHandler):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1134,6 +1143,8 @@ class GConsole(wx.EvtHandler):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             status = Status.FAILED
 =======
 =======
@@ -1226,6 +1237,7 @@ class GConsole(wx.EvtHandler):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c9839e72f7 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1365,6 +1377,10 @@ class GConsole(wx.EvtHandler):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         else:
             msg = _("Command finished")
             status = Status.SUCCESS
@@ -1444,7 +1460,11 @@ class GConsole(wx.EvtHandler):
             for p in task.get_options()["flags"]:
                 if p.get("name") == "r" and p.get("value"):
                     action = "delete"
+<<<<<<< HEAD
             gisenv = gs.gisenv()
+=======
+            gisenv = grass.gisenv()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             self._giface.grassdbChanged.emit(
                 grassdb=gisenv["GISDBASE"],
                 location=gisenv["LOCATION_NAME"],

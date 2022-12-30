@@ -989,7 +989,11 @@ int main(int argc, char *argv[])
                     near->count++;
                 }
             } /* done searching 'to' */
+<<<<<<< HEAD
         } /* next from feature */
+=======
+        }     /* next from feature */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* Find nearest features for 'from' areas */
@@ -1353,7 +1357,11 @@ int main(int argc, char *argv[])
                     near->count++;
                 }
             } /* done */
+<<<<<<< HEAD
         } /* next feature */
+=======
+        }     /* next feature */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     G_debug(3, "count = %d", count);

@@ -1,24 +1,3 @@
-# Introduction
-
-GRASS GIS is written in more than one programming language. While most
-of the source code is written in C, about 30% is written in Python. A
-compiler is needed to convert the C/C++ source code into executable
-files ("binaries"). In contrast, Python is an interpreted language that
-can only be executed with Python software.
-
-Now, in order to create an installable binary package from a source
-code package, the so-called "compilation step" is required. While the
-source code consists of thousands of C and Python files (plus HTML
-documentation), the included "makefiles" tell the build system to
-generate binaries from the source code in the correct order, render the
-manual pages, etc.
-
-The way to install the compiler tools and Python depends on the operating
-system. To make this easier, we have collected copy-paste instructions
-for most operating systems in our wiki:
-
-[Compile and install instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install)
-
 # Contributing
 
 There is more than one way of contributing to GRASS GIS.
@@ -29,9 +8,17 @@ or explore <https://grass.osgeo.org/get-involved/>.
 
 ## Changing code and documentation
 
+<<<<<<< HEAD
 To contribute changes to GRASS GitHub repository, use a
 "fork and pull request" workflow. This [guide](./doc/development/github_guide.md)
 leads you through a first time setup and shows how to create a pull request.
+=======
+This guide covers contributing to the main version of GRASS GIS source
+code which is in the branch called _main_.
+It assumes that you have some very basic knowledge of Git and GitHub,
+but if you don't just go through some tutorial online or ask on the
+GRASS GIS developer mailing list.
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 To contribute effectively, please familiarize yourself with our
 [Programming Style Guide](./doc/development/style_guide.md).
@@ -165,6 +152,7 @@ You can use your favorite tools to change source code or other files
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -218,6 +206,8 @@ You can use your favorite tools to change source code or other files
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 in the local copy of the code. When making changes, please follow the
 [Programming Style Guide](./doc/development/style_guide.md).
 
@@ -262,6 +252,7 @@ to your code.
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -329,6 +320,9 @@ to your code.
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 in the local copy of the code. When making changes, please follow
 Submitting Guidelines at
 <http://trac.osgeo.org/grass/wiki/Submitting>.
@@ -549,6 +543,27 @@ to your code.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+
+### Testing changes
+
+Testing helps to ensure that the changes work well with the rest
+of the project. While there are many different ways to test,
+usually you will want to compile the source code (see below),
+add test code (using _grass.gunittest_ or pytest), and run code
+linters (automated code quality checks).
+
+There is a series of automated checks which will run on your pull request
+after you create one. You don't need to run all these
+checks locally and, indeed, some of them may fail for your code. This is a part of
+the standard iterative process of integrating changes into the main code,
+so if that happens, just see the error messages, go back to your code
+and try again. If you are not sure what to do, let others know in a pull
+request comment.
+
+Note that there are some steps you can do locally to improve your code.
+For Python, run `black .` to apply standardized formatting. You can
+also run linter tools such as Pylint which will suggest different improvements
+to your code.
 
 ### Committing
 
@@ -601,7 +616,10 @@ local _main_ branch in order to get the change you just contributed.
 GRASS GIS maintainers use additional workflows besides the one described
 above. These are detailed at <https://trac.osgeo.org/grass/wiki/HowToGit>
 
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 ## Compilation
 
 More often than not, in order to test the changes, you need to create

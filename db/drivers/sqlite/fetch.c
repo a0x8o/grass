@@ -130,7 +130,11 @@ int db__driver_fetch(dbCursor *cn, int position, int *more)
         G_debug(3, "col %d, litetype %d, sqltype %d: val = '%s'", col, litetype,
                 sqltype, text);
 
+<<<<<<< HEAD
         /* https://www.sqlite.org/capi3ref.html#sqlite3_column_type
+=======
+        /* http://www.sqlite.org/capi3ref.html#sqlite3_column_type
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
            SQLITE_INTEGER  1
            SQLITE_FLOAT    2
            SQLITE_TEXT     3

@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -59,6 +60,8 @@
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  * Copyright (c) 2012-2016, Even Rouault <even dot rouault at spatialys.com>
 =======
 <<<<<<< HEAD
@@ -230,6 +233,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -249,9 +253,12 @@
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
  * Copyright (c) 2012-2016, Even Rouault <even dot rouault at spatialys.com>
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
  * Copyright (c) 2012-2013, Even Rouault <even dot rouault at mines-paris dot
  *org>
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -345,6 +352,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  *
  * SPDX-License-Identifier: MIT OR LGPL-2.0-or-later
  ******************************************************************************
@@ -844,6 +853,7 @@ extern "C" {
 
 /************************************************************************/
 /*                        Configuration options.                        */
+
 /************************************************************************/
 
 /* -------------------------------------------------------------------- */
@@ -904,13 +914,40 @@ extern "C" {
 
 #ifndef SHPAPI_CALL1
 #define SHPAPI_CALL1(x) x SHPAPI_CALL
+<<<<<<< HEAD
+=======
+#endif
+
+/* -------------------------------------------------------------------- */
+/*      Macros for controlling CVSID and ensuring they don't appear     */
+/*      as unreferenced variables resulting in lots of warnings.        */
+/* -------------------------------------------------------------------- */
+#ifndef DISABLE_CVSID
+#if defined(__GNUC__) && __GNUC__ >= 4
+#define SHP_CVSID(string) \
+    static const char cpl_cvsid[] __attribute__((used)) = string;
+#else
+#define SHP_CVSID(string)                       \
+    static const char cpl_cvsid[] = string;     \
+    static const char *cvsid_aw()               \
+    {                                           \
+        return (cvsid_aw() ? NULL : cpl_cvsid); \
+    }
+#endif
+#else
+#define SHP_CVSID(string)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #endif
 
 /* -------------------------------------------------------------------- */
 /*      On some platforms, additional file IO hooks are defined that    */
 /*      UTF-8 encoded filenames Unicode filenames                       */
 /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 #if defined(_WIN32)
+=======
+#if defined(_WIN32) || defined(__WIN32__) || defined(WIN32)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #define SHPAPI_WINDOWS
 #define SHPAPI_UTF8_HOOKS
 #endif
@@ -929,19 +966,32 @@ typedef unsigned long SAOffset;
 #endif
 
 typedef struct {
+<<<<<<< HEAD
     SAFile (*FOpen)(const char *filename, const char *access, void *pvUserData);
     SAOffset (*FRead)(void *p, SAOffset size, SAOffset nmemb, SAFile file);
     SAOffset (*FWrite)(const void *p, SAOffset size, SAOffset nmemb,
                        SAFile file);
+=======
+    SAFile (*FOpen)(const char *filename, const char *access);
+    SAOffset (*FRead)(void *p, SAOffset size, SAOffset nmemb, SAFile file);
+    SAOffset (*FWrite)(void *p, SAOffset size, SAOffset nmemb, SAFile file);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     SAOffset (*FSeek)(SAFile file, SAOffset offset, int whence);
     SAOffset (*FTell)(SAFile file);
     int (*FFlush)(SAFile file);
     int (*FClose)(SAFile file);
+<<<<<<< HEAD
     int (*Remove)(const char *filename, void *pvUserData);
 
     void (*Error)(const char *message);
     double (*Atof)(const char *str);
     void *pvUserData;
+=======
+    int (*Remove)(const char *filename);
+
+    void (*Error)(const char *message);
+    double (*Atof)(const char *str);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 } SAHooks;
 
 void SHPAPI_CALL SASetupDefaultHooks(SAHooks *psHooks);
@@ -951,6 +1001,7 @@ void SHPAPI_CALL SASetupUtf8Hooks(SAHooks *psHooks);
 
 /************************************************************************/
 /*                             SHP Support.                             */
+
 /************************************************************************/
 typedef struct tagSHPObject SHPObject;
 
@@ -984,12 +1035,15 @@ typedef struct {
 } SHPInfo;
 
 typedef SHPInfo *SHPHandle;
+<<<<<<< HEAD
 
 typedef struct {
     int year;
     int month;
     int day;
 } SHPDate;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /* -------------------------------------------------------------------- */
 /*      Shape types (nSHPType)                                          */
@@ -1062,6 +1116,7 @@ struct tagSHPObject {
 /* will be NULL as it is not necessary to keep the SHX file open */
 SHPHandle SHPAPI_CALL SHPOpen(const char *pszShapeFile, const char *pszAccess);
 SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszShapeFile, const char *pszAccess,
+<<<<<<< HEAD
                                 const SAHooks *psHooks);
 SHPHandle SHPAPI_CALL SHPOpenLLEx(const char *pszShapeFile,
                                   const char *pszAccess, const SAHooks *psHooks,
@@ -1069,6 +1124,15 @@ SHPHandle SHPAPI_CALL SHPOpenLLEx(const char *pszShapeFile,
 
 int SHPAPI_CALL SHPRestoreSHX(const char *pszShapeFile, const char *pszAccess,
                               const SAHooks *psHooks);
+=======
+                                SAHooks *psHooks);
+SHPHandle SHPAPI_CALL SHPOpenLLEx(const char *pszShapeFile,
+                                  const char *pszAccess, SAHooks *psHooks,
+                                  int bRestoreSHX);
+
+int SHPAPI_CALL SHPRestoreSHX(const char *pszShapeFile, const char *pszAccess,
+                              SAHooks *psHooks);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /* If setting bFastMode = TRUE, the content of SHPReadObject() is owned by the
  * SHPHandle. */
@@ -1081,6 +1145,7 @@ void SHPAPI_CALL SHPSetFastModeReadObject(SHPHandle hSHP, int bFastMode);
 
 SHPHandle SHPAPI_CALL SHPCreate(const char *pszShapeFile, int nShapeType);
 SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszShapeFile, int nShapeType,
+<<<<<<< HEAD
                                   const SAHooks *psHooks);
 void SHPAPI_CALL SHPGetInfo(const SHPHandle hSHP, int *pnEntities,
                             int *pnShapeType, double *padfMinBound,
@@ -1089,10 +1154,19 @@ void SHPAPI_CALL SHPGetInfo(const SHPHandle hSHP, int *pnEntities,
 SHPObject SHPAPI_CALL1(*) SHPReadObject(const SHPHandle hSHP, int iShape);
 int SHPAPI_CALL SHPWriteObject(SHPHandle hSHP, int iShape,
                                const SHPObject *psObject);
+=======
+                                  SAHooks *psHooks);
+void SHPAPI_CALL SHPGetInfo(SHPHandle hSHP, int *pnEntities, int *pnShapeType,
+                            double *padfMinBound, double *padfMaxBound);
+
+SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle hSHP, int iShape);
+int SHPAPI_CALL SHPWriteObject(SHPHandle hSHP, int iShape, SHPObject *psObject);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 void SHPAPI_CALL SHPDestroyObject(SHPObject *psObject);
 void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject);
 SHPObject SHPAPI_CALL1(*)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1190,6 +1264,8 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1273,6 +1349,7 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1363,6 +1440,11 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     SHPCreateObject(int nSHPType, int nShapeId, int nParts,
                     const int *panPartStart, const int *panPartType,
                     int nVertices, const double *padfX, const double *padfY,
@@ -1400,6 +1482,7 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1478,6 +1561,8 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     SHPCreateSimpleObject(int nSHPType, int nVertices, const double *padfX,
                           const double *padfY, const double *padfZ);
 
@@ -1844,6 +1929,7 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1910,6 +1996,19 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+    SHPCreateSimpleObject(int nSHPType, int nVertices, const double *padfX,
+                          const double *padfY, const double *padfZ);
+
+int SHPAPI_CALL SHPRewindObject(SHPHandle hSHP, SHPObject *psObject);
+
+void SHPAPI_CALL SHPClose(SHPHandle hSHP);
+void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 const char SHPAPI_CALL1(*) SHPTypeName(int nSHPType);
 const char SHPAPI_CALL1(*) SHPPartTypeName(int nPartType);
 
@@ -1982,6 +2081,7 @@ SHPTree SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2017,6 +2117,8 @@ SHPTree SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
                   const double *padfBoundsMin, const double *padfBoundsMax);
 >>>>>>> osgeo-main
@@ -2475,6 +2577,7 @@ int SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -2502,6 +2605,10 @@ int SHPAPI_CALL1(*)
 
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
                   double *padfBoundsMin, double *padfBoundsMax);
 void SHPAPI_CALL SHPDestroyTree(SHPTree *hTree);
@@ -2525,6 +2632,7 @@ int SHPAPI_CALL1(*)
     SHPSearchDiskTree(FILE *fp, double *padfBoundsMin, double *padfBoundsMax,
                       int *pnShapeCount);
 
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2640,6 +2748,9 @@ int SHPAPI_CALL1(*) SHPSearchDiskTree(FILE *fp, double *padfBoundsMin,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 typedef struct SHPDiskTreeInfo *SHPTreeDiskHandle;
 
 SHPTreeDiskHandle SHPAPI_CALL SHPOpenDiskTree(const char *pszQIXFilename,
@@ -2648,6 +2759,7 @@ SHPTreeDiskHandle SHPAPI_CALL SHPOpenDiskTree(const char *pszQIXFilename,
 void SHPAPI_CALL SHPCloseDiskTree(SHPTreeDiskHandle hDiskTree);
 
 int SHPAPI_CALL1(*)
+<<<<<<< HEAD
     SHPSearchDiskTreeEx(SHPTreeDiskHandle hDiskTree, double *padfBoundsMin,
                         double *padfBoundsMax, int *pnShapeCount);
 
@@ -2828,6 +2940,14 @@ int SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 int SHPAPI_CALL SHPWriteTreeLL(SHPTree *hTree, const char *pszFilename,
                                const SAHooks *psHooks);
+=======
+
+    SHPSearchDiskTreeEx(SHPTreeDiskHandle hDiskTree, double *padfBoundsMin,
+                        double *padfBoundsMax, int *pnShapeCount);
+
+int SHPAPI_CALL SHPWriteTreeLL(SHPTree *hTree, const char *pszFilename,
+                               SAHooks *psHooks);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /* -------------------------------------------------------------------- */
 /*      SBN Search API                                                  */
@@ -2836,11 +2956,16 @@ int SHPAPI_CALL SHPWriteTreeLL(SHPTree *hTree, const char *pszFilename,
 typedef struct SBNSearchInfo *SBNSearchHandle;
 
 SBNSearchHandle SHPAPI_CALL SBNOpenDiskTree(const char *pszSBNFilename,
+<<<<<<< HEAD
                                             const SAHooks *psHooks);
+=======
+                                            SAHooks *psHooks);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 void SHPAPI_CALL SBNCloseDiskTree(SBNSearchHandle hSBN);
 
 int SHPAPI_CALL1(*)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2940,6 +3065,8 @@ int SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     SBNSearchDiskTree(const SBNSearchHandle hSBN, const double *padfBoundsMin,
                       const double *padfBoundsMax, int *pnShapeCount);
 
@@ -3596,6 +3723,7 @@ int SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -3662,10 +3790,24 @@ int SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+    SBNSearchDiskTree(SBNSearchHandle hSBN, double *padfBoundsMin,
+                      double *padfBoundsMax, int *pnShapeCount);
+
+int SHPAPI_CALL1(*)
+
+    SBNSearchDiskTreeInteger(SBNSearchHandle hSBN, int bMinX, int bMinY,
+                             int bMaxX, int bMaxY, int *pnShapeCount);
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 void SHPAPI_CALL SBNSearchFreeIds(int *panShapeId);
 
 /************************************************************************/
 /*                             DBF Support.                             */
+
 /************************************************************************/
 typedef struct {
     SAHooks sHooks;
@@ -3706,6 +3848,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3725,6 +3868,8 @@ typedef struct {
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -4007,6 +4152,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -4023,9 +4169,12 @@ typedef struct {
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
     int nRecordLength;
     int nHeaderLength;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4107,6 +4256,8 @@ typedef struct {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     int nFields;
     int *panFieldOffset;
     int *panFieldSize;
@@ -4145,6 +4296,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4163,6 +4315,8 @@ typedef struct {
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     char *pszHeader; /* Field descriptors */
 =======
 <<<<<<< HEAD
@@ -4331,6 +4485,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -4441,6 +4596,11 @@ typedef struct {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    char *pszHeader;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     int nCurrentRecord;
     int bCurrentRecordModified;
@@ -4495,6 +4655,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4544,6 +4705,8 @@ typedef struct {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -4776,6 +4939,7 @@ typedef struct {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -4916,6 +5080,10 @@ typedef struct {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 } DBFInfo;
 
 typedef DBFInfo *DBFHandle;
@@ -4957,6 +5125,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5036,6 +5205,8 @@ typedef enum {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     FTDate,
     FTInvalid
 } DBFFieldType;
@@ -5993,6 +6164,7 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -6045,6 +6217,46 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    FTInvalid
+} DBFFieldType;
+
+#define XBASE_FLDHDR_SZ 32
+
+DBFHandle SHPAPI_CALL DBFOpen(const char *pszDBFFile, const char *pszAccess);
+DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszDBFFile, const char *pszAccess,
+                                SAHooks *psHooks);
+DBFHandle SHPAPI_CALL DBFCreate(const char *pszDBFFile);
+DBFHandle SHPAPI_CALL DBFCreateEx(const char *pszDBFFile,
+                                  const char *pszCodePage);
+DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszDBFFile,
+                                  const char *pszCodePage, SAHooks *psHooks);
+
+int SHPAPI_CALL DBFGetFieldCount(DBFHandle psDBF);
+int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF);
+int SHPAPI_CALL DBFAddField(DBFHandle hDBF, const char *pszFieldName,
+                            DBFFieldType eType, int nWidth, int nDecimals);
+
+int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle hDBF, const char *pszFieldName,
+                                      char chType, int nWidth, int nDecimals);
+
+int SHPAPI_CALL DBFDeleteField(DBFHandle hDBF, int iField);
+
+int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap);
+
+int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
+                                  const char *pszFieldName, char chType,
+                                  int nWidth, int nDecimals);
+
+DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
+                                         char *pszFieldName, int *pnWidth,
+                                         int *pnDecimals);
+
+int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle hDBF, int iShape, int iField);
 double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle hDBF, int iShape,
                                           int iField);
@@ -6052,10 +6264,14 @@ const char SHPAPI_CALL1(*)
     DBFReadStringAttribute(DBFHandle hDBF, int iShape, int iField);
 const char SHPAPI_CALL1(*)
     DBFReadLogicalAttribute(DBFHandle hDBF, int iShape, int iField);
+<<<<<<< HEAD
 SHPDate SHPAPI_CALL DBFReadDateAttribute(DBFHandle hDBF, int iShape,
                                          int iField);
 int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle hDBF, int iShape,
                                    int iField);
+=======
+int SHPAPI_CALL DBFIsAttributeNULL(DBFHandle hDBF, int iShape, int iField);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle hDBF, int iShape, int iField,
                                          int nFieldValue);
@@ -6067,6 +6283,7 @@ int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle hDBF, int iShape, int iField);
 
 int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle hDBF, int iShape, int iField,
                                          const char lFieldValue);
+<<<<<<< HEAD
 int SHPAPI_CALL DBFWriteDateAttribute(DBFHandle hDBF, int iShape, int iField,
                                       const SHPDate *dateFieldValue);
 int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
@@ -6239,6 +6456,7 @@ void SHPAPI_CALL DBFSetWriteEndOfFileChar(DBFHandle psDBF, int bWriteFlag);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -6366,6 +6584,29 @@ void SHPAPI_CALL DBFSetWriteEndOfFileChar(DBFHandle psDBF, int bWriteFlag);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
+                                          int iField, void *pValue);
+const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity);
+int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity, void *pRawTuple);
+
+int SHPAPI_CALL DBFIsRecordDeleted(DBFHandle psDBF, int iShape);
+int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
+                                     int bIsDeleted);
+
+DBFHandle SHPAPI_CALL DBFCloneEmpty(DBFHandle psDBF, const char *pszFilename);
+
+void SHPAPI_CALL DBFClose(DBFHandle hDBF);
+void SHPAPI_CALL DBFUpdateHeader(DBFHandle hDBF);
+char SHPAPI_CALL DBFGetNativeFieldType(DBFHandle hDBF, int iField);
+
+const char SHPAPI_CALL1(*) DBFGetCodePage(DBFHandle psDBF);
+
+void SHPAPI_CALL DBFSetLastModifiedDate(DBFHandle psDBF, int nYYSince1900,
+                                        int nMM, int nDD);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #ifdef __cplusplus
 }

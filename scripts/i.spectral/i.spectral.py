@@ -194,8 +194,13 @@ def draw_linegraph(what):
         gcore.fatal(
             _(
                 "Supported monitor isn't running. Please launch one of the"
+<<<<<<< HEAD
                 " monitors {}."
             ).format(", ".join(supported_monitors))
+=======
+                " monitors {}.".format(", ".join(supported_monitors))
+            )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         )
     selected_monitor = gcore.read_command("d.mon", flags="p", quiet=True).replace(
         "\n", ""
@@ -204,6 +209,7 @@ def draw_linegraph(what):
         gcore.fatal(
             _(
                 "Supported monitor isn't selected. Please select one of the"
+<<<<<<< HEAD
                 " monitors {}."
             ).format(", ".join(supported_monitors))
         )
@@ -213,6 +219,19 @@ def draw_linegraph(what):
                 gcore.info(
                     _("{} monitor is used, output file {}").format(
                         selected_monitor.capitalize(), line.split("=")[-1]
+=======
+                " monitors {}.".format(", ".join(supported_monitors))
+            )
+        )
+    with open(gcore.parse_command("d.mon", flags="g", quiet=True)["env"]) as f:
+        for line in f.readlines():
+            if "GRASS_RENDER_FILE=" in line:
+                gcore.info(
+                    _(
+                        "{} monitor is used, output file {}".format(
+                            selected_monitor.capitalize(), line.split("=")[-1]
+                        )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                     )
                 )
                 break

@@ -256,7 +256,11 @@ class RasterDataset(AbstractMapDataset):
             return garray.array(self.get_map_id())
         return garray.array()
 
+<<<<<<< HEAD
     def reset(self, ident) -> None:
+=======
+    def reset(self, ident):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         """Reset the internal structure and set the identifier"""
         self.base = RasterBase(ident=ident)
         self.absolute_time = RasterAbsoluteTime(ident=ident)
@@ -353,6 +357,7 @@ class RasterDataset(AbstractMapDataset):
 
         return True
 
+<<<<<<< HEAD
     def read_semantic_label_from_grass(self) -> bool:
         """Read the semantic label of this map from the map metadata
         in the GRASS file system based spatial database and
@@ -462,6 +467,7 @@ class RasterDataset(AbstractMapDataset):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -567,12 +573,21 @@ class RasterDataset(AbstractMapDataset):
         set the internal semantic label that should be insert/updated
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+    def read_semantic_label_from_grass(self):
+        """Read the semantic label of this map from the map metadata
+        in the GRASS file system based spatial database and
+        set the internal semantic label that should be insert/updated
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         in the temporal database.
 
         :return: True if success, False if semantic labels could not be
                  read (due to an error or because not being present)
         """
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -612,6 +627,8 @@ class RasterDataset(AbstractMapDataset):
 <<<<<<< HEAD
 =======
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1013,14 +1030,28 @@ class RasterDataset(AbstractMapDataset):
 
         if not band_ref:
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+        semantic_label = self.ciface.read_raster_semantic_label(
+            self.get_name(), self.get_mapset()
+        )
+
+        if not semantic_label:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             return False
 
         self.metadata.set_semantic_label(semantic_label)
 
         return True
 
+<<<<<<< HEAD
     def write_semantic_label_to_grass(self) -> bool:
+=======
+    def write_semantic_label_to_grass(self):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         """Write the semantic label of this map into the map metadata in
         the GRASS file system based spatial database.
 
@@ -1033,8 +1064,15 @@ class RasterDataset(AbstractMapDataset):
         )
         if check == -1:
             self.msgr.error(
+<<<<<<< HEAD
                 _("Unable to write semantic label for raster map <%s>")
                 % (self.get_name())
+=======
+                _(
+                    "Unable to write semantic label for raster map <%s>"
+                    % (self.get_name())
+                )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             )
             return False
 
@@ -1129,6 +1167,7 @@ class RasterDataset(AbstractMapDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1139,6 +1178,8 @@ class RasterDataset(AbstractMapDataset):
 <<<<<<< HEAD
 =======
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1445,6 +1486,7 @@ class RasterDataset(AbstractMapDataset):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1540,12 +1582,26 @@ class RasterDataset(AbstractMapDataset):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+            # Fill semantic label if defined
+            semantic_label = self.ciface.read_raster_semantic_label(
+                self.get_name(), self.get_mapset()
+            )
+            if semantic_label:
+                self.metadata.set_semantic_label(semantic_label)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
             return True
 
         return False
 
+<<<<<<< HEAD
     def set_semantic_label(self, semantic_label) -> None:
+=======
+    def set_semantic_label(self, semantic_label):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         """Set semantic label identifier
 
         Metadata is updated in order to propagate semantic label into
@@ -1776,7 +1832,11 @@ class Raster3DDataset(AbstractMapDataset):
             return garray.array3d(self.get_map_id())
         return garray.array3d()
 
+<<<<<<< HEAD
     def reset(self, ident) -> None:
+=======
+    def reset(self, ident):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         """Reset the internal structure and set the identifier"""
         self.base = Raster3DBase(ident=ident)
         self.absolute_time = Raster3DAbsoluteTime(ident=ident)
@@ -2316,7 +2376,11 @@ class SpaceTimeRasterDataset(AbstractSpaceTimeDataset):
     def __init__(self, ident) -> None:
         AbstractSpaceTimeDataset.__init__(self, ident)
 
+<<<<<<< HEAD
     def set_semantic_label(self, semantic_label) -> None:
+=======
+    def set_semantic_label(self, semantic_label):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         """Set semantic label
 
         :param str semantic_label: semantic label (eg. S2_1)

@@ -38,6 +38,7 @@ Please read _all_ text below.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -91,6 +92,8 @@ Please read _all_ text below.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 - (K) SUPPORT
 - (L) GRASS GIS PROGRAMMER'S MANUAL
 - (M) CONTRIBUTING CODE AND PATCHES
@@ -119,6 +122,7 @@ Please read _all_ text below.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -206,6 +210,10 @@ Please read _all_ text below.
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 - (K) LARGE FILE SUPPORT (for raster maps)
 - (L) SUPPORT
 - (M) GRASS GIS PROGRAMMER'S MANUAL
@@ -234,6 +242,7 @@ Please read _all_ text below.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -353,11 +362,19 @@ Please read _all_ text below.
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 ## PREREQUISITES
 
 The install order matters. GRASS needs at least two libraries
 which have to be installed before installing/compiling GRASS:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -408,6 +425,8 @@ which have to be installed before installing/compiling GRASS:
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 For links to the software, see [REQUIREMENTS.md](REQUIREMENTS.md) in this
 directory.
 =======
@@ -599,6 +618,7 @@ directory.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -617,9 +637,12 @@ directory.
 For links to the software, see [REQUIREMENTS.md](REQUIREMENTS.md) in this
 directory.
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 For links to the software, see ./REQUIREMENTS.html in this
 directory:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -719,12 +742,19 @@ directory:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 Installation order:
 
 1. PROJ
+<<<<<<< HEAD
 2. GDAL/OGR (compiled without GRASS support)
 3. optionally: databases such as PostgreSQL, MySQL, SQLite
+=======
+2. GDAL-OGR (compiled without GRASS support)
+3. optionally: databases such as PostgreSQL, MySQL, sqlite
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 4. GRASS GIS
 5. optionally: GDAL-OGR-GRASS plugin
 
@@ -735,7 +765,11 @@ GRASS source code is currently distributed in 2 forms:
 ### Officially released source code
 
 The full source code version contains all the GRASS source code
+<<<<<<< HEAD
 required for compilation. It is distributed as one file (`*.tar.gz`
+=======
+required for compilation. It is distributed as one file (*.tar.gz
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 package) and the version is composed of 3 numbers, e.g. 3.7.0, 3.7.1
 etc. See
 <https://github.com/OSGeo/grass/releases>.
@@ -746,6 +780,7 @@ This version of the source code can be acquired either from the GitHub
 repository (<https://github.com/OSGeo/grass/>) or as a auto-generated snapshot
 (`*.tar.gz` package) of the GitHub repository. The snapshot name
 contains the date when the snapshot was created (checked out from
+<<<<<<< HEAD
 the GitHub repository), e.g. `grass-3.7.git_src_snapshot_2022_04_27.tar.gz`
 from <https://grass.osgeo.org/grass-devel/source/snapshot/>
 <<<<<<< HEAD
@@ -842,6 +877,7 @@ Further instructions at <https://trac.osgeo.org/grass/wiki/DownloadSource>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -908,6 +944,13 @@ Further instructions at <https://trac.osgeo.org/grass/wiki/DownloadSource>
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+the GitHub repository), e.g. grass-3.7.git_src_snapshot_2022_04_27.tar.gz
+from <https://grass.osgeo.org/grass-devel/source/snapshot/>
+Further instructions at <https://trac.osgeo.org/grass/wiki/DownloadSource>
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 ## (B) COMPILATION
 
@@ -921,6 +964,7 @@ The command,
 ```
 
 explains the options used to disable the compilation of non-mandatory
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -971,6 +1015,8 @@ explains the options used to disable the compilation of non-mandatory
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 GRASS modules. See [REQUIREMENTS.md](REQUIREMENTS.md) for details on dependencies.
 =======
 <<<<<<< HEAD
@@ -1139,6 +1185,7 @@ GRASS modules. See [REQUIREMENTS.md](REQUIREMENTS.md) for details on dependencie
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1249,11 +1296,20 @@ GRASS modules. See REQUIREMENTS.html for details on dependencies.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+GRASS modules. See REQUIREMENTS.html for details on dependencies.
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 Detailed Wiki notes for various operating systems (MS-Windows, GNU/Linux
 distributions, FreeBSD, AIX, etc) are available at:
 <https://grasswiki.osgeo.org/wiki/Compile_and_Install>
 
+<<<<<<< HEAD
 First step of the compilation (`-g` for debugging, or `-O2` for optimization):
+=======
+First step of the compilation (-g for debugging, or -O2 for optimization):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 ```bash
 CFLAGS="-g -Wall" ./configure
@@ -1289,7 +1345,11 @@ make
 Note for Solaris users (see also Wiki page above):
 
 To configure GRASS correctly on a system which doesn't have a suitable
+<<<<<<< HEAD
 install program (`AC_PROG_INSTALL` ignores versions which are known to
+=======
+install program (AC_PROG_INSTALL ignores versions which are known to
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 have problems), you need to ensure that $srcdir is an absolute path,
 by using e.g.:
 
@@ -1317,7 +1377,11 @@ CC=cc CPP=cpp ./configure ...
 ## (C) COMPILATION NOTES for 64bit platforms
 
 To successfully compile GRASS on 64bit platforms, the required
+<<<<<<< HEAD
 FFTW library has to be compiled with `-fPIC` flag:
+=======
+FFTW2 library has to be compiled with -fPIC flag:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 ```bash
 #this applies to FFTW3, not to GRASS GIS:
@@ -1327,6 +1391,7 @@ make
 make install
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1469,6 +1534,13 @@ make install
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 To fully enable 64bit library usage for GRASS on 64bit platforms,
 the following additional parameters are recommended/required:
 
@@ -1504,6 +1576,7 @@ See also CODE OPTIMIZATION below.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1623,11 +1696,19 @@ See also CODE OPTIMIZATION below.
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 ## (D) INSTALLATION (first time)
 
 After compilation, the resulting code is stored in the directory
 
 ```bash
+<<<<<<< HEAD
 ./dist.$ARCH/
 ```
 
@@ -1635,6 +1716,15 @@ and the script (`grass`) in
 
 ```bash
 ./bin.$ARCH/
+=======
+./dist.$ARCH
+```
+
+and the scripts (grass, ...) in
+
+```bash
+./bin.$ARCH
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 ```
 
 To run GRASS, simply start
@@ -1652,7 +1742,11 @@ grass
 
 ## (E) INSTALLATION ON MACOSX
 
+<<<<<<< HEAD
 See the `ReadMe.rtf` in the `./macosx/` folder and the Wiki page above.
+=======
+See the ReadMe.rtf in the ./macosx/ folder and the Wiki page above.
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 ## (F) RUNNING GRASS GIS
 
@@ -1683,7 +1777,11 @@ make
 make install
 ```
 
+<<<<<<< HEAD
 For details, see [Guide to contributing on GitHub](./doc/development/github_guide.md).
+=======
+For details, see <https://trac.osgeo.org/grass/wiki/HowToGit>
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 ## (H) COMPILING INDIVIDUAL MODULES - OWN MODULES
 
@@ -1717,7 +1815,11 @@ gmake
 
 Note: If you keep your module source code outside the standard GRASS
 source code directory structure, you will have to change the relative
+<<<<<<< HEAD
 path(s) in the `Makefile` to absolute path(s).
+=======
+path(s) in the Makefile to absolute path(s).
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 ## (I) CODE OPTIMIZATION
 
@@ -1735,8 +1837,13 @@ setenv CFLAGS -O
 ./configure
 ```
 
+<<<<<<< HEAD
 whichever works on your shell. Use `-O2` instead of `-O` if your compiler
 supports this (note: `O` is the letter, not zero). Using the "gcc" compiler,
+=======
+whichever works on your shell. Use -O2 instead of -O if your compiler
+supports this (note: O is the letter, not zero). Using the "gcc" compiler,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 you can also specify processor specific flags (examples, please suggest
 better settings to us):
 
@@ -1744,6 +1851,7 @@ better settings to us):
 CFLAGS="-mcpu=athlon -O2" # AMD Athlon processor with code optimisations
 CFLAGS="-mcpu=pentium" # Intel Pentium processor
 CFLAGS="-mcpu=pentium4" # Intel Pentium4 processor
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1794,6 +1902,8 @@ CFLAGS="-mcpu=pentium4" # Intel Pentium4 processor
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 CFLAGS="-O2 -msse -msse2 -mfpmath=sse \
         -minline-all-stringops" # Intel XEON 64bit processor
 =======
@@ -2104,6 +2214,17 @@ enables CPU auto-detection and automatically selects optimizations supported
 by the local machine at GCC runtime including `-mtune`.
 
 To find out optional `CFLAGS` for your platform, enter:
+=======
+CFLAGS="-O2 -msse -msse2 -mfpmath=sse -minline-all-stringops" # Intel XEON 64bit processor
+CFLAGS="-mtune=nocona -m64 -minline-all-stringops" # Intel Pentium 64bit processor
+```
+
+Note: As of version 4.3.0, GCC offers the -march=native switch that
+enables CPU auto-detection and automatically selects optimizations supported
+by the local machine at GCC runtime including -mtune.
+
+To find out optional CFLAGS for your platform, enter:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 ```bash
 gcc -dumpspecs
@@ -2112,7 +2233,11 @@ gcc -dumpspecs
 See also: <https://gcc.gnu.org/>
 
 A real fast GRASS version (and small binaries) will be created with
+<<<<<<< HEAD
 `LDFLAGS` set to "stripping" (but this disables debugging):
+=======
+LDFLAGS set to "stripping" (but this disables debugging):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 ```bash
 CFLAGS="-O2 -mcpu=<cpu_see_above> -Wall" LDFLAGS="-s" ./configure
@@ -2123,7 +2248,11 @@ CFLAGS="-O2 -mcpu=<cpu_see_above> -Wall" LDFLAGS="-s" ./configure
 The `LDFLAGS=""` part must be undefined as `-s` will strip the debugging
 information.
 
+<<<<<<< HEAD
 Don't use `-O` for `CFLAGS` if you want to be able to step through function
+=======
+Don't use `-O` for CFLAGS if you want to be able to step through function
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 bodies. When optimisation is enabled, the compiler will re-order statements
 and re-arrange expressions, resulting in object code which barely resembles
 the source code.
@@ -2134,6 +2263,7 @@ The `-g` and `-Wall` compiler flags are often useful for assisting debugging:
 CFLAGS="-g -Wall" ./configure
 ```
 
+<<<<<<< HEAD
 See also the file `./doc/debugging.txt` and the Wiki page
 <https://grasswiki.osgeo.org/wiki/GRASS_Debugging>
 
@@ -2228,6 +2358,7 @@ See also the file `./doc/debugging.txt` and the Wiki page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2290,6 +2421,13 @@ See also the file `./doc/debugging.txt` and the Wiki page
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+See also the file ./doc/debugging.txt and the Wiki page
+<https://grasswiki.osgeo.org/wiki/GRASS_Debugging>
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 ## (K) LARGE FILE SUPPORT (for raster maps)
 
 GRASS GIS includes improved support for reading and writing large files
@@ -2332,6 +2470,7 @@ See also
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2451,6 +2590,13 @@ See also
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 Note that this code is still actively being developed and errors inevitably
 turn up. If you find a bug, please report it to the GRASS bug tracking system
@@ -2459,6 +2605,7 @@ so we can fix it. See <https://grass.osgeo.org/contribute/>
 If you are interested in helping to develop GRASS, please join the GRASS
 developers mailing list. See <https://grass.osgeo.org/development/>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2536,6 +2683,8 @@ developers mailing list. See <https://grass.osgeo.org/development/>
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 ## (L) GRASS PROGRAMMER'S MANUAL
 =======
 ## (M) GRASS PROGRAMMER'S MANUAL
@@ -3030,6 +3179,7 @@ Please see
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3055,10 +3205,26 @@ Please see
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+## (M) GRASS PROGRAMMER'S MANUAL
+
+The Programmer's manual is generated with doxygen from the source code.
+Please see the README file and the files at:
+<https://grass.osgeo.org/programming8/>
+
+## (N) CONTRIBUTING CODE AND PATCHES
+
+Please see ./SUBMITTING in this directory, or better,
+<https://trac.osgeo.org/grass/wiki/Submitting>
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 ## (O) TUTORIALS
 
 <https://grass.osgeo.org/learn/newcomers/>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3201,6 +3367,13 @@ Please see
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 ## Authors
 
 Markus Neteler and the GRASS Development Team

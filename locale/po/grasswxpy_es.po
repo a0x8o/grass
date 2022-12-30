@@ -43,6 +43,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -55,6 +56,8 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -62,6 +65,7 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 "POT-Creation-Date: 2024-05-23 03:37-0600\n"
@@ -295,6 +299,10 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 "PO-Revision-Date: 2022-05-22 05:04+0000\n"
 "Last-Translator: Veronica <veroandreo@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/grass-gis/"
@@ -19865,6 +19873,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -19984,6 +19993,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/modules/colorrules.py:985
 msgid "fp range"
@@ -20198,6 +20214,7 @@ msgid "Find more information at:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20263,6 +20280,11 @@ msgid "Find more information at:"
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../gui/wxpython/location_wizard/wizard.py:1531
@@ -23194,6 +23216,7 @@ msgstr "Importar configuraciones"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -23313,6 +23336,13 @@ msgstr "Importar configuraciones"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, python-format
 msgid "Output map names %(names)s exist. "
 msgstr ""
@@ -23344,6 +23374,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -23463,6 +23494,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, python-format
 msgid "Output map name <%(name)s> exist. "
 msgstr ""
@@ -23576,6 +23614,7 @@ msgstr "Reproyectar capas seleccionadas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -23695,6 +23734,13 @@ msgstr "Reproyectar capas seleccionadas"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgid "Histogram Tool  [d.histogram]"
 msgstr ""
 
@@ -24086,6 +24132,7 @@ msgstr "Calculadora de mapas ráster 3D"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -24205,6 +24252,13 @@ msgstr "Calculadora de mapas ráster 3D"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/modules/mcalc_builder.py:71
 msgid "3D Raster Map Calculator"
@@ -25331,6 +25385,7 @@ msgstr "AVISO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -25450,6 +25505,13 @@ msgstr "AVISO"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgid "Setup for r.li modules"
 msgstr ""
 
@@ -26461,6 +26523,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -26496,6 +26559,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../gui/wxpython/lmgr/layertree.py:1126
 =======
 =======
@@ -26726,6 +26791,7 @@ msgid "Add vector map"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -26813,6 +26879,10 @@ msgid "Add vector map"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../gui/wxpython/wxplot/histogram.py:43
 msgid "Histogram Tool"
 msgstr ""
@@ -28109,6 +28179,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -28228,6 +28299,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/lmgr/toolbars.py:203
 msgid "Start new map display"
@@ -31596,6 +31674,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -31715,6 +31794,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/lmgr/toolbars.py:317
 msgid "Generate command for m.nviz.image"
@@ -32075,6 +32161,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -32194,6 +32281,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/lmgr/pyshell.py:78
 msgid "Simple &editor"
@@ -32665,6 +32759,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -32705,6 +32800,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -32712,6 +32809,7 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32813,6 +32911,10 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, python-format
 msgid ""
 "Database connection for vector map <%s> is not defined in DB file. You can "
@@ -32841,6 +32943,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -32894,6 +32997,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 "No se ha definido en el archivo DB, la conexión a la base de datos para el "
 "mapa vectorial <%s>. Puede definir una nueva conexión en la pestaña "
 "\"Administración de capas\"."
@@ -32923,6 +33028,7 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -33010,6 +33116,10 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/dbmgr/manager.py:123
 msgid "Please wait, loading attribute data..."
@@ -35668,6 +35778,7 @@ msgstr "PROJ string (requerido):"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -35787,6 +35898,13 @@ msgstr "PROJ string (requerido):"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/animation/provider.py:562
 msgid "Overlaying map layers"
@@ -38708,6 +38826,7 @@ msgstr "etiquetas:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -38750,6 +38869,8 @@ msgstr "etiquetas:"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #~ msgid "&Delete location"
 #~ msgstr "&Borrar Localización"
 
@@ -38861,6 +38982,7 @@ msgid "Cartographic Composer - GRASS GIS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -38922,6 +39044,12 @@ msgid "Cartographic Composer - GRASS GIS"
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+#: ../gui/wxpython/psmap/g.gui.psmap.py:51
+msgid "Cartographic Composer - GRASS GIS"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 msgid "Fetching list of modules from GRASS-Addons SVN (be patient)..."
@@ -40649,6 +40777,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -40900,6 +41029,8 @@ msgstr "Doble click o Ctrl-Enter para ejecutar módulo seleccionado"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 msgid "Creates a Voronoi diagram in current region from an input vector map containing points or centroids."
 msgstr "Crea un diagrama de Voronoi en la región actual a partir de un mapa vectorial de entrada que contenga puntos o centroides."
@@ -42021,6 +42152,7 @@ msgstr "Doble click o Ctrl-Enter para ejecutar módulo seleccionado"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -42075,3 +42207,208 @@ msgstr "Doble click o Ctrl-Enter para ejecutar módulo seleccionado"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+msgid "Creates a Voronoi diagram in current region from an input vector map containing points or centroids."
+msgstr "Crea un diagrama de Voronoi en la región actual a partir de un mapa vectorial de entrada que contenga puntos o centroides."
+
+msgid "Reports and Statistics"
+msgstr "Informes y estadísticas"
+
+msgid "Registers raster, vector and raster3d maps in a space time datasets."
+msgstr "Registra mapas ráster, vectoriales y ráster3d en un conjunto de datos espacio temporales."
+
+msgid "GRASS GIS Vector Digitizer"
+msgstr "Digitalizador vectorial de GRASS GIS"
+
+msgid "Documents"
+msgstr "Documentos"
+
+msgid "My Documents"
+msgstr "Mis Documentos"
+
+msgid "GRASS GIS Simple Python Editor"
+msgstr "Editor Simple para Python de GRASS GIS"
+
+msgid "Click here to show search module engine"
+msgstr "Pulse aquí para mostrar el módulo del motor de búsqueda"
+
+msgid "Click here to hide search module engine"
+msgstr "Pulse aquí para ocultar el módulo del motor de búsqueda"
+
+msgid "GRASS GIS Cartographic Composer"
+msgstr "Diseñador cartográfico GRASS GIS"
+
+msgid "GRASS GIS Map Swipe"
+msgstr "Ventana de visualización móvil de mapas GRASS GIS"
+
+msgid "GRASS GIS Animation tool"
+msgstr "Herramienta de animación de GRASS GIS"
+
+msgid "Start region:"
+msgstr "Región inicial:"
+
+msgid "GRASS GIS Temporal Plot Tool"
+msgstr "Herramienta de GRASS GIS de gráfica temporal"
+
+msgid "Import/link raster or vector data"
+msgstr "Importar/enlazar datos ráster o vectoriales"
+
+msgid "GRASS GIS %s Layer Manager"
+msgstr "Administrador de capas de GRASS GIS %s"
+
+msgid ""
+"Location <%s> created.\n"
+"\n"
+"Do you want to switch to the new location?"
+msgstr ""
+"Localización <%s> creada.\n"
+"\n"
+"¿Quiere cambiar a nueva Localización?"
+
+msgid "Switch to new location?"
+msgstr "¿Cambiar a nueva Localización?"
+
+msgid "Do you want to set the default region extents and resolution now?"
+msgstr "¿Quiere establecer la extensión y resolución de la región predeterminada ahora?"
+
+msgid "Location <%s> created"
+msgstr "¡Localización <%s> creada!"
+
+msgid "Unable to exit GRASS shell: unknown PID"
+msgstr "No fue posible salir de la línea de comandos de GRASS: PID desconocido"
+
+msgid "Remove vector legend"
+msgstr "Remover leyenda mapa vectorial"
+
+msgid "GRASS GIS Vector Network Analysis Tool"
+msgstr "Herramienta de GRASS GIS para Analisis redes"
+
+msgid "Click to allow editing other mapsets"
+msgstr "Click para permitir editar otros Directorios de mapas"
+
+msgid "GRASS GIS Data Catalog"
+msgstr "Catálogo de datos de GRASS GIS"
+
+msgid "GRASS locations in {0}"
+msgstr "Localizaciones de GRASS en {0}"
+
+msgid "Editing {name}"
+msgstr "Editando {name}"
+
+msgid "GRASS GIS Attribute Table Manager"
+msgstr "Administrador de tabla de atributos de GRASS GIS"
+
+msgid "READONLY - "
+msgstr "SOLO LECTURA-"
+
+msgid "Inconsistent number of columns in the table <%(table)s>."
+msgstr "La cantidad de columnas en la tabla es inconsistente <%(table)s>."
+
+msgid "GRASS GIS Graphical Modeler"
+msgstr "Modelador Gráfico GRASS GIS"
+
+msgid "GRASS GIS Timeline Tool"
+msgstr "Herramienta de línea de tiempo de GRASS GIS"
+
+msgid "GRASS GIS - Map display"
+msgstr "Visualización de mapas - SIG GRASS"
+
+msgid "GRASS GIS Map Display: %(name)s - %(loc)s/%(mapset)s"
+msgstr "GRASS GIS Map Display: %(name)s - %(loc)s/%(mapset)s"
+
+msgid "Maximum number of animations is %s."
+msgstr "El número máximo de animaciones es %s."
+
+msgid "Animate region change (2D view only)"
+msgstr "Animar cambio de región (solo en vista 2D)"
+
+msgid "GRASS GIS Histogramming Tool (d.histogram)"
+msgstr "Herramienta de Histograma de GRASS GIS (d.histogram)"
+
+msgid "Copies available data files in the current mapset search path to the user's current mapset."
+msgstr "Copia los archivos de datos disponibles en la ruta de búsqueda del Directorio de mapas actual."
+
+msgid "Generates a raster map containing distances to nearest raster features."
+msgstr "Genera una capa de mapa ráster de la distancia a elementos ráster más cercanos."
+
+msgid "Neighborhood analysis tool for vector point maps. Makes each cell value a function of the attribute values assigned to the vector points or centroids around it, and stores new cell values in an output raster map."
+msgstr "Herramienta de análisis de vecindario para mapa de puntos vectoriales. Hace que el valor de cada celda sea una función de los valores de los atributos asignados a los puntos vectoriales o centroides a su alrededor, y guarda los nuevos valores de celda en una capa de mapa ráster de salida."
+
+msgid "Attaches, deletes or reports vector categories to map geometry."
+msgstr "Adjunta, borra o reporta categorías del mapa vectorial a la geometría del mapa."
+
+msgid "GRASS GIS Location Download"
+msgstr "Descargar localización GRASS GIS"
+
+msgid "GRASS GIS Interactive Scatter Plot Tool"
+msgstr "Herramienta de GRASS GIS para gráfica de dispersión interactiva"
+
+msgid "GRASS GIS Supervised Classification Tool"
+msgstr "Herramienta de clasificación supervisada de GRASS GIS"
+
+msgid "Unpack GRASS raster map"
+msgstr "Desempaquetar mapa ráster GRASS"
+
+msgid "Set raster output format"
+msgstr "Definir formato de raster de sálida"
+
+msgid "Unpack GRASS vector map"
+msgstr "Desempaquetar mapa vectorial GRASS"
+
+msgid "Set vector output format"
+msgstr "Definir formato vectorial de salida"
+
+msgid "Click to restrict editing to current mapset only"
+msgstr "Click para restringir la edición al Directorio de mapas actual"
+
+msgid "Search:"
+msgstr "Buscar:"
+
+msgid "Type to search database by map type or name. Use prefix 'r:', 'v:' and 'r3:'to show only raster, vector or 3D raster data, respectively. Use Python regular expressions to refine your search."
+msgstr "Escriba aquí para buscar en la base de datos por tipo de mapa o nombre. Use los prefijos 'r:', 'v:' y 'r3:' para mostrar solo datos ráster, vectoriales o ráster 3D, respectivamente. Use expresiones regulares de Python para refinar su búsqueda."
+
+msgid " (readonly)"
+msgstr "(solo lectura)"
+
+msgid "GRASS GIS Attribute Table Manager - "
+msgstr "Administrador de tabla de atributos de GRASS GIS -"
+
+msgid "GRASS GIS Setup for r.li modules"
+msgstr "Configuración de GRASS GIS para módulos r.li"
+
+msgid "Resize legend"
+msgstr "Redimensionar la leyenda"
+
+msgid "Name <%(name)s> is not a valid name for location. Please use only ASCII characters excluding %(chars)s and space."
+msgstr "Nombre <%(name)s> no es válido para Localización o Directorio de mapas. Por favor use solo caracteres ASCII excluyendo %(chars)s y espacio."
+
+msgid "Unable to create location"
+msgstr "No se puede crear la Localización"
+
+msgid "Select EPSG code of spatial reference system"
+msgstr "Seleccione el código EPSG del sistema de referencia espacial"
+
+msgid "Read projection and datum terms from a georeferenced data file"
+msgstr "Leer la configuración de proyección y datum de un archivo de datos georreferenciado"
+
+msgid "Create a generic Cartesian coordinate system (XY)"
+msgstr "Crear un sistema de coordenadas cartesiano genérico (XY)"
+
+msgid "Do you want to create GRASS location <%s>?"
+msgstr "¿Quiere crear la Localización GRASS <%s>?"
+
+msgid "Create new location?"
+msgstr "¿Crear una nueva Localización?"
+
+msgid "GRASS GIS SQL Query Utility"
+msgstr "Utilidad de GRASS GIS para Sentencia SQL"
+
+msgid "Do you want to quit GRASS including shell prompt or just close the GUI?"
+msgstr "¿Quiere salir de GRASS incluyendo la línea de comandos o solamente cerrar la GUI?"
+
+msgid "Double-click or Ctrl-Enter to run selected module"
+msgstr "Doble click o Ctrl-Enter para ejecutar módulo seleccionado"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)

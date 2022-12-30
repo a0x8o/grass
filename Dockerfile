@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM ubuntu:22.04
 
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
@@ -67,6 +68,8 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 # syntax=docker/dockerfile:1.11@sha256:10c699f1b6c8bdc8f6b4ce8974855dd8542f1768c26eb240237b8f1c9c6c9976
 =======
 =======
@@ -424,6 +427,7 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -478,10 +482,18 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+FROM ubuntu:22.04
+
+LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,weinmann@mundialis.de"
 
 ENV DEBIAN_FRONTEND noninteractive
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -564,6 +576,8 @@ ARG LAZ_PERF_VERSION=3.2.0
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 SHELL ["/bin/bash", "-c"]
 
 WORKDIR /tmp
@@ -603,6 +617,7 @@ ARG LAZ_PERF_VERSION=3.2.0
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SHELL ["/bin/bash", "-c"]
 
 WORKDIR /tmp
@@ -617,12 +632,15 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 # define versions to be used
 # https://github.com/PDAL/PDAL/releases
 ARG PDAL_VERSION=2.4.3
 # https://github.com/hobuinc/laz-perf/releases
 ARG LAZ_PERF_VERSION=3.2.0
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -725,6 +743,9 @@ ARG LAZ_PERF_VERSION=3.2.0
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 SHELL ["/bin/bash", "-c"]
 
 WORKDIR /tmp
@@ -735,6 +756,7 @@ RUN apt-get update && apt-get upgrade -y && \
     bison \
     bzip2 \
     cmake \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -875,6 +897,13 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     curl \
     flex \
     g++ \
@@ -903,6 +932,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -956,6 +986,8 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     geos-bin \
     git \
     language-pack-en-base \
@@ -1032,6 +1064,7 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1119,6 +1152,10 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     git \
     language-pack-en-base \
     libbz2-dev \
@@ -1190,6 +1227,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1309,6 +1347,13 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     unzip \
     vim \
     wget \
@@ -1336,6 +1381,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1389,6 +1435,8 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     zlib1g \
     "
 ENV GRASS_RUN_PACKAGES=${GRASS_RUN_PACKAGES}
@@ -1601,6 +1649,7 @@ WORKDIR /src/grass_build
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1688,6 +1737,10 @@ WORKDIR /src/grass_build
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     zlib1g-dev
 
 RUN echo LANG="en_US.UTF-8" > /etc/default/locale
@@ -1784,6 +1837,7 @@ RUN rm -f /src/grass_build/dist.*/demolocation/.grassrc*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1903,6 +1957,13 @@ RUN rm -f /src/grass_build/dist.*/demolocation/.grassrc*
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 # Set environmental variables for GRASS GIS compilation, without debug symbols
 # Set gcc/g++ environmental variables for GRASS GIS compilation, without debug symbols
 ENV MYCFLAGS "-O2 -std=gnu99 -m64"
@@ -1914,6 +1975,7 @@ ENV CFLAGS "$MYCFLAGS"
 ENV CXXFLAGS "$MYCXXFLAGS"
 
 # Configure compile and install GRASS GIS
+<<<<<<< HEAD
 ENV NUMTHREADS=4
 RUN make distclean || echo "nothing to clean"
 <<<<<<< HEAD
@@ -2540,6 +2602,7 @@ RUN /src/grass_build/configure \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -2568,6 +2631,35 @@ RUN /src/grass_build/configure \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+ENV GRASS_PYTHON=/usr/bin/python3
+ENV NUMTHREADS=4
+RUN make distclean || echo "nothing to clean"
+RUN /src/grass_build/configure \
+  --with-cxx \
+  --enable-largefile \
+  --with-proj-share=/usr/share/proj \
+  --with-gdal=/usr/bin/gdal-config \
+  --with-geos \
+  --with-sqlite \
+  --with-cairo --with-cairo-ldflags=-lfontconfig \
+  --with-freetype --with-freetype-includes="/usr/include/freetype2/" \
+  --with-fftw \
+  --with-postgres --with-postgres-includes="/usr/include/postgresql" \
+  --with-netcdf \
+  --with-zstd \
+  --with-bzlib \
+  --with-pdal \
+  --without-mysql \
+  --without-odbc \
+  --without-openmp \
+  --without-opengl \
+    && make -j $NUMTHREADS \
+    && make install && ldconfig
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 # Unset environmental variables to avoid later compilation issues
 ENV INTEL ""
 ENV MYCFLAGS ""
@@ -2590,10 +2682,13 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
     pdal --version && \
     python3 --version
+<<<<<<< HEAD
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 # Reduce the image size
 RUN apt-get autoremove -y
@@ -2625,6 +2720,7 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 
 WORKDIR /grassdb
 VOLUME /grassdb
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2678,6 +2774,7 @@ VOLUME /grassdb
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2765,3 +2862,7 @@ VOLUME /grassdb
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)

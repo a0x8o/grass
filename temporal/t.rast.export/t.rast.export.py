@@ -105,16 +105,22 @@
 # %end
 
 import os
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 import grass.script as gs
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 import grass.script as grass
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+import grass.script as grass
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 
 ############################################################################
@@ -135,6 +141,7 @@ def main():
     }
 
     if not directory or not os.path.exists(directory):
+<<<<<<< HEAD
         gs.fatal(_("Directory {} not found").format(directory))
 
     if not os.access(directory, os.W_OK):
@@ -151,6 +158,16 @@ def main():
 >>>>>>> osgeo-main
 >>>>>>> main
             _("Type options is not working with pack format, it will be skipped")
+=======
+        grass.fatal(_("Directory {} not found".format(directory)))
+
+    if not os.access(directory, os.W_OK):
+        grass.fatal(_("Directory {} is not writable".format(directory)))
+
+    if _type and _format in ["pack", "AAIGrid"]:
+        grass.warning(
+            _("Type options is not working with pack format, " "it will be skipped")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         )
         if kws:
             gs.warning(

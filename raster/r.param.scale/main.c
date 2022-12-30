@@ -59,6 +59,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_fatal_error(_("Lat/Long locations are not supported by this module"));
 =======
 <<<<<<< HEAD
@@ -113,6 +114,8 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         G_fatal_error(_("Lat/Long projects are not supported by this module"));
 =======
         G_fatal_error(_("Lat/Long locations are not supported by this module"));
@@ -142,6 +145,7 @@ int main(int argc, char **argv)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -247,6 +251,11 @@ int main(int argc, char **argv)
         G_fatal_error(_("Lat/Long locations are not supported by this module"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        G_fatal_error(_("Lat/Long locations are not supported by this module"));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     open_files();
 

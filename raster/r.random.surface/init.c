@@ -35,6 +35,7 @@ void Init(void)
     else
         MinRes = NS;
 
+<<<<<<< HEAD
     char mask_name[GNAME_MAX];
     char mask_mapset[GMAPSET_MAX];
     if (Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL)) {
@@ -54,6 +55,25 @@ void Init(void)
     else {
         MapCount = Rs * Cs;
         FDM = -1;
+=======
+    if (NULL == G_find_file("cell", "MASK", G_mapset())) {
+        MapCount = Rs * Cs;
+        FDM = -1;
+    }
+    else {
+        FDM = Rast_open_old("MASK", G_mapset());
+        {
+            MapCount = 0;
+            CellBuffer = Rast_allocate_c_buf();
+            for (row = 0; row < Rs; row++) {
+                Rast_get_c_row_nomask(FDM, CellBuffer, row);
+                for (col = 0; col < Cs; col++) {
+                    if (CellBuffer[col])
+                        MapCount++;
+                }
+            }
+        }
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     if (Uniform->answer)
@@ -103,7 +123,11 @@ void Init(void)
         for (i = 0; (Number = SeedStuff->answers[i]) && i < NumMaps; i++) {
             sscanf(Number, "%d", &(Seeds[i]));
         } /* /for */
+<<<<<<< HEAD
     } /* /else */
+=======
+    }     /* /else */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     CellBuffer = Rast_allocate_c_buf();
     CatInfo.NumValue = (int *)G_malloc(CatInfo.NumCat * sizeof(int));

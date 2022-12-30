@@ -1,6 +1,7 @@
 #include <grass/raster.h>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define SHORT    short
 =======
 #define         SHORT           short
@@ -8,6 +9,9 @@
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
+=======
+#define SHORT    short
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 #define MELEMENT struct Melement
 MELEMENT

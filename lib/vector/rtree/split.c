@@ -583,9 +583,15 @@ static void RTreeMethodOne(struct RTree_PartitionVars *p, int minfill,
                         best_side[i] = s;
                     }
                 }
+<<<<<<< HEAD
             } /* end of distribution check */
         } while (s--); /* end of side check */
     } /* end of axis check */
+=======
+            }          /* end of distribution check */
+        } while (s--); /* end of side check */
+    }                  /* end of axis check */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     /* Use best distribution to classify branches */
     if (best_axis != axis || best_side[best_axis] != side)

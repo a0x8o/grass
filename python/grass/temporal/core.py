@@ -791,12 +791,21 @@ def init(raise_fatal_error: bool = False, skip_db_version_check: bool = False):
                 "Temporal database version mismatch detected.\n{backup}"
                 "Supported temporal database version is: {tdb}\n"
                 "Your existing temporal database version: {ctdb}\n"
+<<<<<<< HEAD
                 "Current temporal database info: {info}"
             ).format(
                 backup=backup_howto,
                 tdb=tgis_db_version,
                 ctdb=tgis_db_version_meta,
                 info=get_database_info_string(),
+=======
+                "Current temporal database info: {info}".format(
+                    backup=backup_howto,
+                    tdb=tgis_db_version,
+                    ctdb=tgis_db_version_meta,
+                    info=get_database_info_string(),
+                )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             )
 
             if tgis_db_version_meta == 2 and tgis_db_version == 3:
@@ -806,8 +815,13 @@ def init(raise_fatal_error: bool = False, skip_db_version_check: bool = False):
                 msgr.fatal(
                     _(
                         "The format of your actual temporal database is "
+<<<<<<< HEAD
                         "not supported any more. {m}"
                     ).format(m=message)
+=======
+                        "not supported any more. {m}".format(m=message)
+                    )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 )
 
         return

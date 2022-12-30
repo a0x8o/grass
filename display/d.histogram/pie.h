@@ -71,6 +71,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -89,6 +90,8 @@
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 float rem(long int, long int); /* remainder function */
 =======
 <<<<<<< HEAD
@@ -257,6 +260,7 @@ float rem(long int, long int); /* remainder function */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -367,6 +371,11 @@ float rem(); /* remainder function */
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+float rem(); /* remainder function */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 /* normalized coordinates & dimensions of pie-chart components */
 

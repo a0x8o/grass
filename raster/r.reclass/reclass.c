@@ -239,7 +239,12 @@ int reclass(const char *old_name, const char *old_mapset, const char *new_name,
         G_fatal_error(_("Cannot create reclass file of <%s>"), new_name);
 
     if (!title) {
+<<<<<<< HEAD
         snprintf(buf, sizeof(buf), "Reclass of %s in %s", new.name, new.mapset);
+=======
+        G_snprintf(buf, sizeof(buf), "Reclass of %s in %s", new.name,
+                   new.mapset);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         title = buf;
     }
 

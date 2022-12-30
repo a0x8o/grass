@@ -2278,7 +2278,11 @@ class CmdPanel(wx.Panel):
                         p["wxId"] = [self.win1.GetId()]
 
                         def OnCheckItem(index=None, flag=None, event=None):
+<<<<<<< HEAD
                             layers = []
+=======
+                            layers = list()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                             geometry = None
                             for layer, match, listId in self.win1.GetLayers():
                                 if "|" in layer:

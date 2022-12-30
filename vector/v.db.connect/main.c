@@ -57,6 +57,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -102,10 +103,13 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     struct Flag *print, *columns, *delete, *shell_print;
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,6 +191,10 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     struct Flag *overwrite, *print, *columns, *delete, *shell_print;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     dbDriver *driver;
@@ -365,7 +373,11 @@ int main(int argc, char **argv)
                         }
                     }
                 }
+<<<<<<< HEAD
             } /* end print */
+=======
+            }      /* end print */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             else { /* columns */
                 char *database_novar;
 
@@ -403,8 +415,13 @@ int main(int argc, char **argv)
                 db_close_database(driver);
                 db_shutdown_driver(driver);
             }
+<<<<<<< HEAD
         } /* end else num_dblinks */
     } /* end print/columns */
+=======
+        }  /* end else num_dblinks */
+    }      /* end print/columns */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     else { /* define new dbln settings or delete */
 
         if (delete->answer) {
@@ -428,6 +445,7 @@ int main(int argc, char **argv)
                 G_debug(3, "Vect_map_check_dblink = %d", ret);
                 if (ret == 1) {
                     /* field already defined */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -507,6 +525,8 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                     if (!G_get_overwrite())
                         G_fatal_error(_("Use --overwrite to overwrite "
                                         "existing link for layer <%d>"),
@@ -597,6 +617,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -651,6 +672,13 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+                    if (!overwrite->answer)
+                        G_fatal_error(_("Use -o to overwrite existing link "
+                                        "for layer <%d>"),
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                                       field);
                     else {
                         dbColumn *column;

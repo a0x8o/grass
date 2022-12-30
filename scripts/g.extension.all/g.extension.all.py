@@ -62,6 +62,7 @@ from __future__ import print_function
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -181,6 +182,13 @@ from __future__ import print_function
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 import http
 import os
 import re
@@ -321,6 +329,9 @@ from six.moves.urllib.error import HTTPError, URLError
 from six.moves.urllib import request as urlrequest
 from six.moves.urllib.error import HTTPError, URLError
 
+from six.moves.urllib import request as urlrequest
+from six.moves.urllib.error import HTTPError, URLError
+
 import grass.script as gscript
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -425,6 +436,7 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
     try:
         response = urlopen(url, *args, **kwargs)
 
+<<<<<<< HEAD
         if response.code != 200:
             index = HTTP_STATUS_CODES.index(response.code)
             desc = HTTP_STATUS_CODES[index].description
@@ -448,19 +460,53 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
                 ).format(
                     url=url,
                     response_format=response_format,
+=======
+        if not response.code == 200:
+            index = HTTP_STATUS_CODES.index(response.code)
+            desc = HTTP_STATUS_CODES[index].description
+            gscript.fatal(
+                _(
+                    "Download file from <{url}>, "
+                    "return status code {code}, "
+                    "{desc}".format(
+                        url=url,
+                        code=response.code,
+                        desc=desc,
+                    ),
+                ),
+            )
+        if response_format not in response.getheader("Content-Type"):
+            gscript.fatal(
+                _(
+                    "Wrong file format downloaded. "
+                    "Check url <{url}>. Allowed file format is "
+                    "{response_format}.".format(
+                        url=url,
+                        response_format=response_format,
+                    ),
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 ),
             )
         return response
 
     except HTTPError as err:
         if err.code == 404:
+<<<<<<< HEAD
             gs.fatal(
+=======
+            gscript.fatal(
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 _(
                     "The download of the modules.xml file "
                     "from the server was not successful. "
                     "File on the server <{url}> doesn't "
+<<<<<<< HEAD
                     "exists."
                 ).format(url=url),
+=======
+                    "exists.".format(url=url),
+                ),
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             )
         else:
             return download_modules_xml_file(
@@ -468,9 +514,18 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
                 response_format=response_format,
             )
     except URLError:
+<<<<<<< HEAD
         gs.fatal(
             _("Download file from <{url}>, failed. Check internet connection.").format(
                 url=url,
+=======
+        gscript.fatal(
+            _(
+                "Download file from <{url}>, "
+                "failed. Check internet connection.".format(
+                    url=url,
+                ),
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             ),
         )
 
@@ -494,7 +549,11 @@ def find_addon_name(addons):
     if grass_version != "unknown":
         major, minor, patch = grass_version.split(".")
     else:
+<<<<<<< HEAD
         gs.fatal(_("Unable to get GRASS GIS version."))
+=======
+        gscript.fatal(_("Unable to get GRASS GIS version."))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     url = "https://grass.osgeo.org/addons/grass{major}/modules.xml".format(
         major=major,
     )
@@ -502,7 +561,11 @@ def find_addon_name(addons):
         url=url,
         response_format="application/xml",
     )
+<<<<<<< HEAD
     tree = ET.fromstring(response.read())
+=======
+    tree = etree.fromstring(response.read())
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     result = []
     for addon in addons:
         found = False
@@ -514,11 +577,20 @@ def find_addon_name(addons):
                     found = True
                     break
         if not found:
+<<<<<<< HEAD
             gs.warning(
                 _(
                     "The <{}> addon cannot be reinstalled. "
                     "Addon wasn't found among the official addons."
                 ).format(addon),
+=======
+            gscript.warning(
+                _(
+                    "The <{}> addon cannot be reinstalled. "
+                    "Addon wasn't found among the official "
+                    "addons.".format(addon)
+                ),
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             )
     return set(result)
 
@@ -548,7 +620,11 @@ def main():
         return 0
 
     for ext in find_addon_name(addons=extensions):
+<<<<<<< HEAD
         gs.message("-" * 60)
+=======
+        gscript.message("-" * 60)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         if remove:
             gs.message(_("Removing extension <%s>...") % ext)
         else:

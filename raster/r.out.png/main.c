@@ -207,29 +207,41 @@ int main(int argc, char *argv[])
         png_create_write_struct(PNG_LIBPNG_VER_STRING, &pnmtopng_jmpbuf_struct,
                                 pnmtopng_error_handler, NULL);
     if (png_ptr == NULL) {
+<<<<<<< HEAD
         if (fp) {
             fclose(fp);
             fp = NULL;
         }
+=======
+        fclose(fp);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error("cannot allocate LIBPNG structure");
     }
 
     info_ptr = png_create_info_struct(png_ptr);
     if (info_ptr == NULL) {
         png_destroy_write_struct(&png_ptr, (png_infopp)NULL);
+<<<<<<< HEAD
         if (fp) {
             fclose(fp);
             fp = NULL;
         }
+=======
+        fclose(fp);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error("cannot allocate LIBPNG structure");
     }
 
     if (setjmp(pnmtopng_jmpbuf_struct.jmpbuf)) {
         png_destroy_write_struct(&png_ptr, &info_ptr);
+<<<<<<< HEAD
         if (fp) {
             fclose(fp);
             fp = NULL;
         }
+=======
+        fclose(fp);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error("setjmp returns error condition (1)");
     }
 
@@ -369,6 +381,7 @@ int main(int argc, char *argv[])
     /* G_free (info_ptr); */
     png_destroy_write_struct(&png_ptr, &info_ptr); /* al 11/2000 */
 
+<<<<<<< HEAD
     if (fp) {
         fclose(fp);
         fp = NULL;
@@ -383,6 +396,19 @@ int main(int argc, char *argv[])
         write_wld(outfile, &win);
     }
 
+=======
+    fclose(fp);
+
+    if (wld_flag->answer) {
+        if (do_stdout)
+            outfile = G_store("png_map.wld");
+        else
+            sprintf(outfile, "%s.wld", basename);
+
+        write_wld(outfile, &win);
+    }
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     if (basename)
         G_free(basename);
     if (outfile)

@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * PURPOSE:      Exports GRASS raster to GDAL suported formats;
 =======
 <<<<<<< HEAD
@@ -79,6 +80,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  * PURPOSE:      Exports GRASS raster to GDAL supported formats;
 =======
  * PURPOSE:      Exports GRASS raster to GDAL suported formats;
@@ -108,6 +111,7 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -213,6 +217,11 @@
  * PURPOSE:      Exports GRASS raster to GDAL suported formats;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+ * PURPOSE:      Exports GRASS raster to GDAL suported formats;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  *               based on GDAL library.
  *
  * COPYRIGHT:    (C) 2006-2009 by the GRASS Development Team

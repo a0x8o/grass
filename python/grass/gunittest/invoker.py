@@ -63,7 +63,14 @@ def update_keyval_file(filename, module, returncode):
     keyval["name"] = module.name
     keyval["tested_dir"] = module.tested_dir
     if "status" not in keyval.keys():
+<<<<<<< HEAD
         status = "failed" if returncode is None or returncode else "passed"
+=======
+        if returncode is None or returncode:
+            status = "failed"
+        else:
+            status = "passed"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         keyval["status"] = status
     keyval["returncode"] = returncode
     keyval["test_file_authors"] = test_file_authors
@@ -137,6 +144,7 @@ class GrassTestFilesInvoker:
         # PyGRASS also has its way with Mapset)
 =======
         # TODO: this should be a function in grass.script (used also in gis_set.py, PyGRASS also has its way with Mapset)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,6 +287,13 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         shutil.copy(
             os.path.join(gisdbase, location, "PERMANENT", "DEFAULT_WIND"),
             os.path.join(mapset_dir, "WIND"),
@@ -346,6 +361,7 @@ class GrassTestFilesInvoker:
                 args,
                 cwd=cwd,
                 env=env,
+<<<<<<< HEAD
                 capture_output=True,
                 timeout=timeout,
                 check=False,
@@ -467,6 +483,7 @@ class GrassTestFilesInvoker:
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -578,6 +595,15 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main
+=======
+=======
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                timeout=timeout,
+                check=False,
+            )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             stdout = p.stdout
             stderr = p.stderr
             returncode = p.returncode
@@ -613,6 +639,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
 =======
 <<<<<<< HEAD
@@ -667,6 +694,8 @@ class GrassTestFilesInvoker:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 stderr = (
                     f"Process has timed out in {timeout}s and produced no error "
                     "output.\n"
@@ -699,6 +728,7 @@ class GrassTestFilesInvoker:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -804,6 +834,11 @@ class GrassTestFilesInvoker:
                 stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+                stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             # Return code is None if the process times out.
             # Rest of the code expects success to evaluate as False.
             # So, we assign a failing return code.
@@ -872,8 +907,11 @@ class GrassTestFilesInvoker:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
 
 =======

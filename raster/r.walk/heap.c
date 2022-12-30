@@ -42,8 +42,13 @@
 #include <grass/glocale.h>
 #include "cost.h"
 
+<<<<<<< HEAD
 #define GET_PARENT(c) (((c) - 2) / 3 + 1)
 #define GET_CHILD(p)  (((p) * 3) - 1)
+=======
+#define GET_PARENT(c) (((c)-2) / 3 + 1)
+#define GET_CHILD(p)  (((p)*3) - 1)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 static long next_point = 0;
 static long heap_size = 0;

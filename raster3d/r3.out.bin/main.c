@@ -200,7 +200,11 @@ int main(int argc, char *argv[])
         struct Flag *row, *depth, *integer;
     } flag;
     char *name;
+<<<<<<< HEAD
     char outfile[GNAME_MAX];
+=======
+    char *outfile;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     double null_val;
     int do_stdout;
     int order = 0;
@@ -287,10 +291,18 @@ int main(int argc, char *argv[])
             _("Integer output doesn't support bytes=8 in this build"));
 #endif
 
+<<<<<<< HEAD
     if (snprintf(outfile, sizeof(outfile), "%s%s",
                  (parm.output->answer ? parm.output->answer : name),
                  (parm.output->answer ? "" : ".bin")) >= (int)sizeof(outfile)) {
         G_fatal_error(_("Output map name too long."));
+=======
+    if (parm.output->answer)
+        outfile = parm.output->answer;
+    else {
+        outfile = G_malloc(strlen(name) + 4 + 1);
+        G_snprintf(outfile, sizeof(outfile), "%s.bin", name);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     if (G_strcasecmp(parm.order->answer, "big") == 0)

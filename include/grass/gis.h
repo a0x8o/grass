@@ -48,6 +48,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
  * COPYRIGHT:   (C) 2000-2023 by the GRASS Development Team
@@ -145,6 +146,8 @@
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  * COPYRIGHT:   (C) 2000-2024 by the GRASS Development Team
 =======
  * COPYRIGHT:   (C) 2000-2021 by the GRASS Development Team
@@ -300,6 +303,7 @@
 =======
  * COPYRIGHT:   (C) 2000-2021 by the GRASS Development Team
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -461,6 +465,11 @@
  * COPYRIGHT:   (C) 2000-2021 by the GRASS Development Team
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+ * COPYRIGHT:   (C) 2000-2022 by the GRASS Development Team
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
  *
  *              This program is free software under the GNU General Public
  *              License (>=v2). Read the file COPYING that comes with GRASS
@@ -481,11 +490,14 @@
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 =======
 
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 /* Grass and local include files */
 #include <grass/config.h>
 #include <grass/datetime.h>
@@ -498,6 +510,7 @@
 #define __attribute__(x)
 #endif
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -576,6 +589,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /*!
     \def UNUSED
     \brief A macro for an attribute, if attached to a variable,
@@ -684,6 +699,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -738,6 +754,12 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+static const char *GRASS_copyright __attribute__((unused)) =
+    "GRASS GNU GPL licensed Software";
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 /* GRASS version, GRASS date, git short hash of last change in GRASS headers
  * (and anything else in include)
@@ -753,6 +775,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* For boolean values and comparisons use the C99 type 'bool' with values 'true'
  */
 /* and 'false' For historical reasons 'TRUE' and 'FALSE' are still valid. */
@@ -764,6 +787,11 @@ static const char *GRASS_copyright __attribute__((unused)) =
 /* For boolean values and comparisons use the C99 type 'bool' with values 'true' */
 /* and 'false' For historical reasons 'TRUE' and 'FALSE' are still valid.        */
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
+=======
+/* For boolean values and comparisons use the C99 type 'bool' with values 'true'
+ */
+/* and 'false' For historical reasons 'TRUE' and 'FALSE' are still valid. */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #ifndef TRUE
 #define TRUE true
 #endif
@@ -794,6 +822,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -914,6 +943,13 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #if (defined(_FILE_OFFSET_BITS) && _FILE_OFFSET_BITS == 64) || \
     (__APPLE__ && __LP64__)
 #define PRI_OFF_T "lld"
@@ -952,6 +988,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 #define U_DEGREES        8
 #define U_USFEET         9
 /* Temporal units from the datetime library */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1040,9 +1077,12 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 922eb0ee2b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1140,12 +1180,17 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #define U_YEARS          DATETIME_YEAR
 #define U_MONTHS         DATETIME_MONTH
 #define U_DAYS           DATETIME_DAY
 #define U_HOURS          DATETIME_HOUR
 #define U_MINUTES        DATETIME_MINUTE
 #define U_SECONDS        DATETIME_SECOND
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1209,6 +1254,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
@@ -1422,6 +1469,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> 015cec3442 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+<<<<<<< HEAD
 >>>>>>> 06036d3399 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -1537,6 +1585,10 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 >>>>>>> 922eb0ee2b (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 /*! \brief Projection code - XY coordinate system (unreferenced data) */
 #define PROJECTION_XY    0
@@ -1734,6 +1786,7 @@ typedef enum {
     G_OPT_F_OUTPUT,    /*!< new output file */
     G_OPT_F_SEP,       /*!< data field separator */
 
+<<<<<<< HEAD
     G_OPT_C,        /*!< color */
     G_OPT_CN,       /*!< color or none */
     G_OPT_C_FORMAT, /*!< set color format to rgb,hex,hsv or triplet */
@@ -1837,6 +1890,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1907,6 +1961,13 @@ typedef enum {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    G_OPT_C,  /*!< color */
+    G_OPT_CN, /*!< color or none */
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     G_OPT_M_UNITS,      /*!< units */
     G_OPT_M_DATATYPE,   /*!< datatype */
     G_OPT_M_MAPSET,     /*!< mapset */
@@ -1945,6 +2006,9 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2134,6 +2198,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2204,6 +2269,10 @@ typedef enum {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     G_OPT_STDS_INPUT, /*!< old input space time dataset of type strds, str3ds or
                          stvds */
@@ -2226,9 +2295,13 @@ typedef enum {
     G_OPT_MAP_TYPE,  /*!< The type of an input map: raster, vect, rast3d */
     G_OPT_T_TYPE,    /*!< The temporal type of a space time dataset */
     G_OPT_T_WHERE,   /*!< A temporal GIS framework SQL WHERE statement */
+<<<<<<< HEAD
     G_OPT_T_SAMPLE,  /*!< Temporal sample methods */
 
     G_OPT_F_FORMAT, /*!< set output format to plain text or JSON */
+=======
+    G_OPT_T_SAMPLE   /*!< Temporal sample methods */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 } STD_OPT;
 
 /*!

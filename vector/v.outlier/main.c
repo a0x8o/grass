@@ -454,7 +454,11 @@ int main(int argc, char *argv[])
                             "Consider increasing spline step values."));
             }
         } /*! END WHILE; last_column = TRUE */
+<<<<<<< HEAD
     } /*! END WHILE; last_row = TRUE */
+=======
+    }     /*! END WHILE; last_row = TRUE */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     /* Drop auxiliary table */
     if (npoints > 0) {

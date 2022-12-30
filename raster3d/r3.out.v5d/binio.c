@@ -34,9 +34,28 @@
  *
  */
 
+<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+=======
+/*
+ * Updates:
+ *
+ * April 13, 1995, brianp
+ *   added cray_to_ieee and iee_to_cray array conversion functions.
+ *   fixed potential cray bug in write_float4_array function.
+ *
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#ifdef _CRAY
+#include <string.h>
+#include <grass/gis.h>
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #include "binio.h"
 
 /**********************************************************************/
@@ -80,7 +99,10 @@ void flip2(const unsigned short *src, unsigned short *dest, int n)
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #ifdef _CRAY
 
 /*****************************************************************************
@@ -152,6 +174,7 @@ static void c_to_if(long *t, const long *f)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -197,10 +220,13 @@ static void c_to_if(long *t, const long *f)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /* IEEE single precision to Cray */
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,6 +308,10 @@ static void c_to_if(long *t, const long *f)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /* IEEE single precison to Cray */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 static void if_to_c(long *t, const long *f)
@@ -361,7 +391,10 @@ void ieee_to_cray_array(float *dest, const long *source, int n)
 
 #endif /*_CRAY*/
 
+<<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 /**********************************************************************/
 
 /*****                     Read Functions                         *****/
@@ -389,6 +422,28 @@ int read_bytes(int f, void *b, int n)
  */
 int read_int2_array(int f, short *iarray, int n)
 {
+<<<<<<< HEAD
+=======
+#ifdef _CRAY
+    int i;
+    signed char *buffer;
+    int nread;
+
+    buffer = (signed char *)G_malloc(n * 2);
+    if (!buffer)
+        return 0;
+    nread = read(f, buffer, n * 2);
+    if (nread <= 0)
+        return 0;
+    nread /= 2;
+    for (i = 0; i < nread; i++) {
+        /* don't forget about sign extension! */
+        iarray[i] = (buffer[i * 2] * 256) | buffer[i * 2 + 1];
+    }
+    G_free(buffer);
+    return nread;
+#else
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     int nread = read(f, iarray, n * 2);
 
     if (nread <= 0)
@@ -408,6 +463,27 @@ int read_int2_array(int f, short *iarray, int n)
  */
 int read_uint2_array(int f, unsigned short *iarray, int n)
 {
+<<<<<<< HEAD
+=======
+#ifdef _CRAY
+    int i;
+    unsigned char *buffer;
+    int nread;
+
+    buffer = (unsigned char *)G_malloc(n * 2);
+    if (!buffer)
+        return 0;
+    nread = read(f, buffer, n * 2);
+    if (nread <= 0)
+        return 0;
+    nread /= 2;
+    for (i = 0; i < nread; i++) {
+        iarray[i] = (buffer[i * 2] << 8) | buffer[i * 2 + 1];
+    }
+    G_free(buffer);
+    return nread;
+#else
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     int nread = read(f, iarray, n * 2);
 
     if (nread <= 0)
@@ -439,6 +515,12 @@ int read_int4(int f, int *i)
     }
 #else
     if (read(f, i, 4) == 4) {
+<<<<<<< HEAD
+=======
+#ifdef _CRAY
+        *i = *i >> 32;
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         return 1;
     }
     else {
@@ -456,12 +538,44 @@ int read_int4(int f, int *i)
  */
 int read_int4_array(int f, int *iarray, int n)
 {
+<<<<<<< HEAD
+=======
+#ifdef _CRAY
+    int j, nread;
+    int *buffer;
+
+    buffer = (int *)G_malloc((n + 1) * 4);
+    if (!buffer)
+        return 0;
+    nread = read(f, buffer, 4 * n);
+    if (nread <= 0) {
+        return 0;
+    }
+    nread /= 4;
+
+    for (j = 0; j < nread; j++) {
+        if ((j & 1) == 0) {
+            iarray[j] = buffer[j / 2] >> 32;
+        }
+        else {
+            iarray[j] = buffer[j / 2] & 0xffffffff;
+        }
+    }
+    G_free(buffer);
+    return nread;
+#else
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     int nread = read(f, iarray, 4 * n);
 
     if (nread <= 0)
         return 0;
 #ifdef LITTLE
     flip4((const unsigned int *)iarray, (unsigned int *)iarray, nread / 4);
+<<<<<<< HEAD
+=======
+#endif
+    return nread / 4;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #endif
     return nread / 4;
 }
@@ -474,6 +588,19 @@ int read_int4_array(int f, int *iarray, int n)
  */
 int read_float4(int f, float *x)
 {
+<<<<<<< HEAD
+=======
+#ifdef _CRAY
+    long buffer = 0;
+
+    if (read(f, &buffer, 4) == 4) {
+        /* convert IEEE float (buffer) to Cray float (x) */
+        if_to_c((long *)x, &buffer);
+        return 1;
+    }
+    return 0;
+#else
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #ifdef LITTLE
     unsigned int n, *iptr;
 
@@ -492,6 +619,10 @@ int read_float4(int f, float *x)
     else {
         return 0;
     }
+<<<<<<< HEAD
+=======
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #endif
 }
 
@@ -504,6 +635,25 @@ int read_float4(int f, float *x)
  */
 int read_float4_array(int f, float *x, int n)
 {
+<<<<<<< HEAD
+=======
+#ifdef _CRAY
+    /* read IEEE floats into buffer, then convert to Cray format */
+    long *buffer;
+    int i, nread;
+
+    buffer = (long *)G_malloc((n + 1) * 4);
+    if (!buffer)
+        return 0;
+    nread = read(f, buffer, n * 4);
+    if (nread <= 0)
+        return 0;
+    nread /= 4;
+    ieee_to_cray_array(x, buffer, nread);
+    G_free(buffer);
+    return nread;
+#else
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     int nread = read(f, x, 4 * n);
 
     if (nread <= 0)
@@ -611,6 +761,27 @@ int write_int2_array(int f, const short *iarray, int n)
  */
 int write_uint2_array(int f, const unsigned short *iarray, int n)
 {
+<<<<<<< HEAD
+=======
+#ifdef _CRAY
+    int i, nwritten;
+    unsigned char *buffer;
+
+    buffer = (unsigned char *)G_malloc(2 * n);
+    if (!buffer)
+        return 0;
+    for (i = 0; i < n; i++) {
+        buffer[i * 2] = (iarray[i] >> 8) & 0xff;
+        buffer[i * 2 + 1] = iarray[i] & 0xff;
+    }
+    nwritten = write(f, buffer, 2 * n);
+    G_free(buffer);
+    if (nwritten <= 0)
+        return 0;
+    else
+        return nwritten / 2;
+#else
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     int nwritten;
 
 #ifdef LITTLE
@@ -624,6 +795,10 @@ int write_uint2_array(int f, const unsigned short *iarray, int n)
         return 0;
     else
         return nwritten / 2;
+<<<<<<< HEAD
+=======
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /*
@@ -634,8 +809,19 @@ int write_uint2_array(int f, const unsigned short *iarray, int n)
  */
 int write_int4(int f, int i)
 {
+<<<<<<< HEAD
 #ifdef LITTLE
     i = FLIP4(i);
+=======
+#ifdef _CRAY
+    i = i << 32;
+    return write(f, &i, 4) > 0;
+#else
+#ifdef LITTLE
+    i = FLIP4(i);
+#endif
+    return write(f, &i, 4) > 0;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #endif
     return write(f, &i, 4) > 0;
 }
@@ -649,6 +835,31 @@ int write_int4(int f, int i)
  */
 int write_int4_array(int f, const int *i, int n)
 {
+<<<<<<< HEAD
+=======
+#ifdef _CRAY
+    int j, nwritten;
+    char *buf, *b, *ptr;
+
+    b = buf = (char *)G_malloc(n * 4 + 8);
+    if (!b)
+        return 0;
+    ptr = (char *)i;
+    for (j = 0; j < n; j++) {
+        ptr += 4; /* skip upper 4 bytes */
+        *b++ = *ptr++;
+        *b++ = *ptr++;
+        *b++ = *ptr++;
+        *b++ = *ptr++;
+    }
+    nwritten = write(f, buf, 4 * n);
+    G_free(buf);
+    if (nwritten <= 0)
+        return 0;
+    else
+        return nwritten / 4;
+#else
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #ifdef LITTLE
     int nwritten;
 
@@ -661,6 +872,10 @@ int write_int4_array(int f, const int *i, int n)
         return nwritten / 4;
 #else
     return write(f, i, 4 * n) / 4;
+<<<<<<< HEAD
+=======
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #endif
 }
 
@@ -672,6 +887,15 @@ int write_int4_array(int f, const int *i, int n)
  */
 int write_float4(int f, float x)
 {
+<<<<<<< HEAD
+=======
+#ifdef _CRAY
+    char buffer[8];
+
+    c_to_if((long *)buffer, (const long *)&x);
+    return write(f, buffer, 4) > 0;
+#else
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #ifdef LITTLE
     float y;
     unsigned int *iptr = (unsigned int *)&y, temp;
@@ -684,6 +908,10 @@ int write_float4(int f, float x)
 
     y = (float)x;
     return write(f, &y, 4) > 0;
+<<<<<<< HEAD
+=======
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #endif
 }
 
@@ -696,6 +924,25 @@ int write_float4(int f, float x)
  */
 int write_float4_array(int f, const float *x, int n)
 {
+<<<<<<< HEAD
+=======
+#ifdef _CRAY
+    /* convert cray floats to IEEE and put into buffer */
+    int nwritten;
+    long *buffer;
+
+    buffer = (long *)G_malloc(n * 4 + 8);
+    if (!buffer)
+        return 0;
+    cray_to_ieee_array(buffer, x, n);
+    nwritten = write(f, buffer, 4 * n);
+    G_free(buffer);
+    if (nwritten <= 0)
+        return 0;
+    else
+        return nwritten / 4;
+#else
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #ifdef LITTLE
     int nwritten;
 
@@ -708,6 +955,10 @@ int write_float4_array(int f, const float *x, int n)
         return nwritten / 4;
 #else
     return write(f, x, 4 * n) / 4;
+<<<<<<< HEAD
+=======
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #endif
 }
 

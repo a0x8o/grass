@@ -103,7 +103,11 @@ int G_math_findzc(double conv[], int size, double zc[], double thresh,
                     break; /* quit looking at neighbors */
                 }
             } /* for ni */
+<<<<<<< HEAD
         } /* for p */
+=======
+        }     /* for p */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     return 0;

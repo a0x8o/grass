@@ -171,6 +171,7 @@ static void convert_float(float *work_buf, int size, char *null_buf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -290,6 +291,13 @@ static void convert_float(float *work_buf, int size, char *null_buf,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     int i;
 
@@ -337,6 +345,7 @@ static void convert_double(double *work_buf, int size, char *null_buf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -456,6 +465,13 @@ static void convert_double(double *work_buf, int size, char *null_buf,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     int i;
 
@@ -495,6 +511,7 @@ static void put_fp_data(int fd, char *null_buf, const void *rast, int row,
         set_file_pointer(fd, row);
 
     if (data_type == FCELL_TYPE)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -574,6 +591,8 @@ static void put_fp_data(int fd, char *null_buf, const void *rast, int row,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         convert_float(work_buf, null_buf, rast, n);
     else
         convert_double(work_buf, null_buf, rast, n);
@@ -664,6 +683,7 @@ static void put_fp_data(int fd, char *null_buf, const void *rast, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -718,6 +738,13 @@ static void put_fp_data(int fd, char *null_buf, const void *rast, int row,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        convert_float(work_buf, size, null_buf, rast, row, n);
+    else
+        convert_double(work_buf, size, null_buf, rast, row, n);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
     if (compressed)
         write_data_compressed(fd, row, work_buf, n, fcb->cellhd.compressed);
@@ -903,6 +930,9 @@ static void put_data(int fd, char *null_buf, const CELL *cell, int row, int n,
             nwrite++;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             if (write(fcb->data_fd, compressed_buf, nwrite) != nwrite)
                 G_fatal_error(
                     _("Error writing compressed data for row %d of <%s>: %s"),
@@ -915,6 +945,7 @@ static void put_data(int fd, char *null_buf, const CELL *cell, int row, int n,
                     _("Error writing compressed data for row %d of <%s>: %s"),
                     row, fcb->name, strerror(errno));
         }
+<<<<<<< HEAD
 =======
 	    if (write(fcb->data_fd, compressed_buf, nwrite) != nwrite)
 		G_fatal_error(_("Error writing compressed data for row %d of <%s>: %s"),
@@ -927,6 +958,8 @@ static void put_data(int fd, char *null_buf, const CELL *cell, int row, int n,
 			      row, fcb->name, strerror(errno));
 	}
 >>>>>>> 5c819a5793 (lib/raster: add strerror(errno) to write failures (#1722))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
         G_free(compressed_buf);
     }
@@ -934,10 +967,14 @@ static void put_data(int fd, char *null_buf, const CELL *cell, int row, int n,
         nwrite = fcb->nbytes * n;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         if (write(fcb->data_fd, work_buf, nwrite) != nwrite)
             G_fatal_error(
                 _("Error writing uncompressed data for row %d of <%s>: %s"),
                 row, fcb->name, strerror(errno));
+<<<<<<< HEAD
 =======
 	if (write(fcb->data_fd, work_buf, nwrite) != nwrite)
 	    G_fatal_error(_("Error writing uncompressed data for row %d of <%s>: %s"),
@@ -946,6 +983,8 @@ static void put_data(int fd, char *null_buf, const CELL *cell, int row, int n,
 >>>>>>> 5c819a5793 (lib/raster: add strerror(errno) to write failures (#1722))
 =======
 >>>>>>> 6837d544f9 (lib/raster: add strerror(errno) to write failures (#1722))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     G_free(work_buf);
@@ -1213,6 +1252,7 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 =======
 >>>>>>> osgeo-main
     if (nwrite > 0 && nwrite < size) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (write(fcb->null_fd, compressed_buf, nwrite) != nwrite)
 <<<<<<< HEAD
@@ -1866,6 +1906,18 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 >>>>>>> 5c819a5793 (lib/raster: add strerror(errno) to write failures (#1722))
 =======
 >>>>>>> 6837d544f9 (lib/raster: add strerror(errno) to write failures (#1722))
+=======
+        if (write(fcb->null_fd, compressed_buf, nwrite) != nwrite)
+            G_fatal_error(
+                _("Error writing compressed null data for row %d of <%s>: %s"),
+                row, fcb->name, strerror(errno));
+    }
+    else {
+        if (write(fcb->null_fd, flags, size) != size)
+            G_fatal_error(
+                _("Error writing compressed null data for row %d of <%s>: %s"),
+                row, fcb->name, strerror(errno));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     G_free(compressed_buf);
@@ -1901,6 +1953,7 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
     if (lseek(fcb->null_fd, offset, SEEK_SET) < 0)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_fatal_error(_("Error writing null row %d of <%s>"), row, fcb->name);
 =======
 	G_fatal_error(_("Error writing null row %d of <%s>"),
@@ -1910,6 +1963,9 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 	G_fatal_error(_("Error writing null row %d of <%s>"),
 	              row, fcb->name);
 >>>>>>> 6837d544f9 (lib/raster: add strerror(errno) to write failures (#1722))
+=======
+        G_fatal_error(_("Error writing null row %d of <%s>"), row, fcb->name);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2042,6 +2098,7 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 =======
 >>>>>>> osgeo-main
     if (write(fcb->null_fd, flags, size) != size)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2219,6 +2276,10 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 	G_fatal_error(_("Error writing null row %d of <%s>: %s"),
 	              row, fcb->name, strerror(errno));
 >>>>>>> 6837d544f9 (lib/raster: add strerror(errno) to write failures (#1722))
+=======
+        G_fatal_error(_("Error writing null row %d of <%s>: %s"), row,
+                      fcb->name, strerror(errno));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 static void convert_and_write_if(int fd, const void *vbuf)

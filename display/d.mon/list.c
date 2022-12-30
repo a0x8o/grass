@@ -134,6 +134,7 @@ void list_files(const char *name, FILE *fd_out)
     DIR *dirp;
 
     G_temp_element(tmpdir);
+<<<<<<< HEAD
     (void)G_strlcat(tmpdir, "/", sizeof(tmpdir));
     (void)G_strlcat(tmpdir, "MONITORS", sizeof(tmpdir));
     (void)G_strlcat(tmpdir, "/", sizeof(tmpdir));
@@ -141,6 +142,12 @@ void list_files(const char *name, FILE *fd_out)
     if (G_strlcat(tmpdir, name, sizeof(tmpdir)) >= sizeof(tmpdir)) {
         G_fatal_error(_("Failed to append <%s> to path"), name);
     }
+=======
+    strcat(tmpdir, "/");
+    strcat(tmpdir, "MONITORS");
+    strcat(tmpdir, "/");
+    strcat(tmpdir, name);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     G_file_name(mon_path, tmpdir, NULL, G_mapset());
     fprintf(fd_out, "path=%s\n", mon_path);

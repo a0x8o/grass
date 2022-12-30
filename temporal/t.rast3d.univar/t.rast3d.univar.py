@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # % label: Raster map withh zones to compute statistics for
 # % description: Raster map withh zones to compute statistics for (needs to be CELL)
 =======
@@ -114,6 +115,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 # % label: Raster map with zones to compute statistics for
 # % description: Raster map with zones to compute statistics for (needs to be CELL)
 =======
@@ -201,6 +204,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -255,6 +259,12 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+# % label: Raster map withh zones to compute statistics for
+# % description: Raster map withh zones to compute statistics for (needs to be CELL)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 # % required: no
 # %end
 
@@ -287,6 +297,10 @@
 # %end
 
 import grass.script as gs
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 ############################################################################
 

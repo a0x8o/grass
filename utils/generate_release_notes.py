@@ -7,16 +7,23 @@ Needs PyYAML, Git, and GitHub CLI.
 
 import argparse
 import csv
+<<<<<<< HEAD
 import itertools
 import json
 import random
+=======
+import json
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 import re
 import subprocess
 import sys
 from collections import defaultdict
 from pathlib import Path
 
+<<<<<<< HEAD
 import requests
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 import yaml
 
 PRETTY_TEMPLATE = (
@@ -26,7 +33,10 @@ PRETTY_TEMPLATE = (
     "    date: %ad%n"
     "    message: |-%n      %s"
 )
+<<<<<<< HEAD
 CONFIG_DIRECTORY = Path("utils")
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 
 def remove_excluded_changes(changes, exclude):
@@ -91,6 +101,7 @@ def split_to_categories(changes, categories):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -144,6 +155,8 @@ def split_to_categories(changes, categories):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 def print_section_heading_2(text, file=None):
     print(f"## {text}\n", file=file)
 
@@ -178,6 +191,7 @@ def print_section_heading_3(text, file=None):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -265,6 +279,10 @@ def print_section_heading_3(text, file=None):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 def print_category(category, changes, file=None):
     """Print changes for one category from dictionary of changes
 
@@ -273,6 +291,7 @@ def print_category(category, changes, file=None):
     items = changes.get(category, None)
     if not items:
         return
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,6 +331,8 @@ def print_category(category, changes, file=None):
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     print_section_heading_3(category, file=file)
 <<<<<<< HEAD
 =======
@@ -633,6 +654,12 @@ def print_category(category, changes, file=None):
             print(f"  * {item}", file=file)
         print("\n</details>")
     print()
+=======
+    print(f"### {category}", file=file)
+    for item in sorted(items):
+        print(f"* {item}", file=file)
+    print("")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 
 def print_by_category(changes, categories, file=None):
@@ -644,11 +671,16 @@ def print_by_category(changes, categories, file=None):
 
 def binder_badge(tag):
     """Get mybinder Binder badge from a given tag, hash, or branch"""
+<<<<<<< HEAD
     binder_image_url = "https://mybinder.org/badge_logo.svg"
+=======
+    binder_image_url = "https://camo.githubusercontent.com/581c077bdbc6ca6899c86d0acc6145ae85e9d80e6f805a1071793dbe48917982/68747470733a2f2f6d7962696e6465722e6f72672f62616467655f6c6f676f2e737667"  # noqa
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     binder_url = f"https://mybinder.org/v2/gh/OSGeo/grass/{tag}?urlpath=lab%2Ftree%2Fdoc%2Fnotebooks%2Fjupyter_example.ipynb"  # noqa
     return f"[![Binder]({binder_image_url})]({binder_url})"
 
 
+<<<<<<< HEAD
 def print_support(file=None):
     url = "https://opencollective.com/grass/tiers/supporter/all.json"
     response = requests.get(url=url)
@@ -687,6 +719,8 @@ def adjust_after(lines):
     return new_lines
 
 
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 def print_notes(
     start_tag, end_tag, changes, categories, before=None, after=None, file=None
 ):
@@ -704,6 +738,7 @@ def print_notes(
 
     if before:
         print(before)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -780,6 +815,8 @@ def print_notes(
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     print_section_heading_2("Highlights", file=file)
     print("* _Put handcrafted list of 2-15 items here._\n")
     print_section_heading_2("New Addon Tools", file=file)
@@ -923,6 +960,7 @@ def print_notes(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1028,11 +1066,20 @@ def print_notes(
     print("## What's Changed", file=file)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+    print("## What's Changed", file=file)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     changes_by_category = split_to_categories(changes, categories=categories)
     print_by_category(changes_by_category, categories=categories, file=file)
     if after:
         print(after)
+<<<<<<< HEAD
         print()
+=======
+        print("")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     print(binder_badge(end_tag))
 
 
@@ -1062,18 +1109,29 @@ def notes_from_gh_api(start_tag, end_tag, branch, categories, exclude):
     raw_changes = lines[start_whats_changed + 1 : end_whats_changed]
     changes = []
     for change in raw_changes:
+<<<<<<< HEAD
         if change.startswith(("* ", "- ")):
+=======
+        if change.startswith("* ") or change.startswith("- "):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             changes.append(change[2:])
         else:
             changes.append(change)
     changes = remove_excluded_changes(changes=changes, exclude=exclude)
+<<<<<<< HEAD
     after = adjust_after(lines[end_whats_changed + 1 :])
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     print_notes(
         start_tag=start_tag,
         end_tag=end_tag,
         changes=changes,
         before="\n".join(lines[:start_whats_changed]),
+<<<<<<< HEAD
         after="\n".join(after),
+=======
+        after="\n".join(lines[end_whats_changed + 1 :]),
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         categories=categories,
     )
 
@@ -1100,12 +1158,19 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
     if not commits:
         raise RuntimeError("No commits retrieved from git log (try different tags)")
 
+<<<<<<< HEAD
     svn_name_by_git_author = csv_to_dict(
         CONFIG_DIRECTORY / "svn_name_git_author.csv",
+=======
+    config_directory = Path("utils")
+    svn_name_by_git_author = csv_to_dict(
+        config_directory / "svn_name_git_author.csv",
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         key="git_author",
         value="svn_name",
     )
     github_name_by_svn_name = csv_to_dict(
+<<<<<<< HEAD
         CONFIG_DIRECTORY / "svn_name_github_name.csv",
         key="svn_name",
         value="github_name",
@@ -1113,12 +1178,23 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
     github_name_by_git_author_file = CONFIG_DIRECTORY / "git_author_github_name.csv"
     github_name_by_git_author = csv_to_dict(
         github_name_by_git_author_file,
+=======
+        config_directory / "svn_name_github_name.csv",
+        key="svn_name",
+        value="github_name",
+    )
+    github_name_by_git_author = csv_to_dict(
+        config_directory / "git_author_github_name.csv",
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         key="git_author",
         value="github_name",
     )
 
     lines = []
+<<<<<<< HEAD
     unknow_authors = []
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     for commit in commits:
         if commit["author_email"].endswith("users.noreply.github.com"):
             github_name = commit["author_email"].split("@")[0]
@@ -1129,7 +1205,14 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
             # Emails are stored with @ replaced by a space.
             email = commit["author_email"].replace("@", " ")
             git_author = f"{commit['author_name']} <{email}>"
+<<<<<<< HEAD
             if git_author in github_name_by_git_author:
+=======
+            if (
+                git_author not in svn_name_by_git_author
+                and git_author in github_name_by_git_author
+            ):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 github_name = github_name_by_git_author[git_author]
                 github_name = f"@{github_name}"
             else:
@@ -1139,7 +1222,10 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
                     github_name = f"@{github_name}"
                 except KeyError:
                     github_name = git_author
+<<<<<<< HEAD
                     unknow_authors.append((git_author, commit["message"]))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         lines.append(f"{commit['message']} by {github_name}")
     lines = remove_excluded_changes(changes=lines, exclude=exclude)
     print_notes(
@@ -1152,6 +1238,7 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
         ),
         categories=categories,
     )
+<<<<<<< HEAD
     processed_authors = []
     if unknow_authors:
         print(
@@ -1162,6 +1249,8 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
                 continue
             print(f"{author} -- authored {message}")
             processed_authors.append(author)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 
 def create_release_notes(args):
@@ -1176,8 +1265,14 @@ def create_release_notes(args):
             check=True,
         ).stdout.strip()
 
+<<<<<<< HEAD
     config_file = CONFIG_DIRECTORY / "release.yml"
     config = yaml.safe_load(config_file.read_text(encoding="utf-8"))["notes"]
+=======
+    config_directory = Path("utils")
+    with open(config_directory / "release.yml", encoding="utf-8") as file:
+        config = yaml.safe_load(file.read())["notes"]
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     if args.backend == "api":
         notes_from_gh_api(
@@ -1203,6 +1298,7 @@ def main():
         epilog="Run in utils directory to access the helper files.",
     )
     parser.add_argument(
+<<<<<<< HEAD
         "backend",
         choices=["log", "api", "check"],
         help="use git log or GitHub API (or check a PR title)",
@@ -1210,6 +1306,12 @@ def main():
     parser.add_argument(
         "branch",
         help="needed for the GitHub API when tag does not exist (or a PR title)",
+=======
+        "backend", choices=["log", "api"], help="use git log or GitHub API"
+    )
+    parser.add_argument(
+        "branch", help="needed for the GitHub API when tag does not exist"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     )
     parser.add_argument("start_tag", help="old tag to compare against")
     parser.add_argument(
@@ -1221,6 +1323,7 @@ def main():
         ),
     )
     args = parser.parse_args()
+<<<<<<< HEAD
     if args.backend == "check":
         config_file = Path("utils") / "release.yml"
         config = yaml.safe_load(Path(config_file).read_text(encoding="utf-8"))
@@ -1250,6 +1353,8 @@ def main():
                 "Here are some examples:\n"
                 f"{suggestions}"
             )
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     try:
         create_release_notes(args)
     except subprocess.CalledProcessError as error:

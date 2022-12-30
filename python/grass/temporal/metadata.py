@@ -368,7 +368,12 @@ class RasterMetadata(RasterMetadataBase):
         min=None,
         max=None,
         semantic_label=None,
+<<<<<<< HEAD
     ) -> None:
+=======
+    ):
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         RasterMetadataBase.__init__(
             self,
             "raster_metadata",
@@ -383,6 +388,7 @@ class RasterMetadata(RasterMetadataBase):
             max,
         )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -459,6 +465,8 @@ class RasterMetadata(RasterMetadataBase):
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     def set_semantic_label(self, semantic_label) -> None:
 =======
 =======
@@ -642,6 +650,7 @@ class RasterMetadata(RasterMetadataBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -696,12 +705,28 @@ class RasterMetadata(RasterMetadataBase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        if get_tgis_db_version_from_metadata() > 2:
+            self.set_semantic_label(semantic_label)
+
+    def set_semantic_label(self, semantic_label):
+        """Set the semantic label identifier"""
+        self.D["semantic_label"] = semantic_label
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     def get_semantic_label(self):
         """Get the semantic label identifier
         :return: None if not found"""
         if "semantic_label" in self.D:
             return self.D["semantic_label"]
+<<<<<<< HEAD
         return None
+=======
+        else:
+            return None
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     semantic_label = property(fget=get_semantic_label, fset=set_semantic_label)
 
@@ -712,12 +737,23 @@ class RasterMetadata(RasterMetadataBase):
         # semantic label section (raster specific only)
         print(" | Semantic label:............. " + str(self.get_semantic_label()))
 
+<<<<<<< HEAD
     def print_shell_info(self) -> None:
         """Print information about this class in shell style"""
         self._print_info_head(shell=True)
         self._print_info_body(shell=True)
         # semantic label section (raster specific only)
         print("semantic_label=" + str(self.get_semantic_label()))
+=======
+        :param bool shell: True for human readable style otherwise shell style
+        """
+        super()._print_info_body(shell)
+        # semantic label section (raster specific only)
+        if shell:
+            print("semantic_label=" + str(self.get_semantic_label()))
+        else:
+            print(" | Semantic label:............. " + str(self.get_semantic_label()))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 
 ###############################################################################
@@ -1714,7 +1750,12 @@ class STRDSMetadata(STDSRasterMetadataBase):
         """
         if "number_of_semantic_labels" in self.D:
             return self.D["number_of_semantic_labels"]
+<<<<<<< HEAD
         return None
+=======
+        else:
+            return None
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     def get_semantic_labels(self):
         """Get the distinct semantic labels of registered maps
@@ -1724,12 +1765,51 @@ class STRDSMetadata(STDSRasterMetadataBase):
         """
         if get_tgis_db_version_from_metadata() <= 2:
             # band names supported from TGIS DB version 3
+<<<<<<< HEAD
             return None
 
         sql = "SELECT distinct semantic_label FROM %s WHERE %s.id " % (
             "raster_metadata",
             "raster_metadata",
         )
+=======
+            return None
+
+        sql = "SELECT distinct semantic_label FROM %s WHERE %s.id " % (
+            "raster_metadata",
+            "raster_metadata",
+        )
+
+        sql += "IN (SELECT id FROM %s)" % (str(self.get_raster_register()))
+
+        dbif = SQLDatabaseInterfaceConnection()
+        dbif.connect()
+        dbif.execute(sql, mapset=self.mapset)
+        rows = dbif.fetchall(mapset=self.mapset)
+        dbif.close()
+
+        if rows:
+            string = ""
+            count = 0
+            for row in rows:
+                if row["semantic_label"]:
+                    if count == 0:
+                        string += row["semantic_label"]
+                    else:
+                        string += ",%s" % row["semantic_label"]
+                    count += 1
+
+            if count > 0:
+                return string
+            else:
+                return None
+        else:
+            return None
+
+    raster_register = property(fget=get_raster_register, fset=set_raster_register)
+    number_of_semantic_labels = property(fget=get_number_of_semantic_labels)
+    semantic_labels = property(fget=get_semantic_labels)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
         sql += "IN (SELECT id FROM %s)" % (str(self.get_raster_register()))
 

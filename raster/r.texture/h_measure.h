@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+/* h_measure.c */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 /****************************************************************************
  *
  * MODULE:       r.texture
@@ -21,6 +25,7 @@
  *
  *****************************************************************************/
 
+<<<<<<< HEAD
 #include "matvec.h"
 
 typedef struct menu {
@@ -46,3 +51,11 @@ float f10_dvar(struct matvec *mv);
 float f11_dentropy(struct matvec *mv);
 float f12_icorr(struct matvec *mv);
 float f13_icorr(struct matvec *mv);
+=======
+float h_measure(int);
+void alloc_vars(int);
+int set_vars(int **grays, int curr_rrow, int curr_col, int size, int offset,
+             int t_d, int with_nulls);
+int set_angle_vars(int angle, int have_px, int have_py, int have_pxpys,
+                   int have_pxpyd);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

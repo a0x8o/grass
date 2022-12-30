@@ -31,6 +31,9 @@
 /*CONSTANTS DECLARATION */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #define NSPLX_MAX                                                     \
     150 /* Maximum number of splines along East direction used in the \
            subregions interpolation */
@@ -66,6 +69,7 @@
 /* INTERPOLATOR */
 #define P_BILINEAR             1
 #define P_BICUBIC              0
+<<<<<<< HEAD
 =======
 #define NSPLX_MAX 	      150	/* Maximum number of splines along East direction used in the subregions interpolation */
 #define NSPLY_MAX	      150	/* Maximum number of splines along North direction used in the subregions interpolation */
@@ -102,6 +106,8 @@
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /*----------------------------------------------------------------------------------------------------------*/
 /*STRUCTS DECLARATION */

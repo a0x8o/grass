@@ -105,6 +105,7 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 int have_stats, struct R_stats *ostats, const char *title)
 =======
 <<<<<<< HEAD
@@ -159,6 +160,8 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 int have_stats UNUSED, struct R_stats *ostats UNUSED,
                 const char *title)
 =======
@@ -189,6 +192,7 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -294,6 +298,11 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
                 int have_stats, struct R_stats *ostats, const char *title)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+                int have_stats, struct R_stats *ostats, const char *title)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     struct History history;
     struct Categories cats;

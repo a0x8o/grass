@@ -217,6 +217,7 @@ class DatabasePage(TitledPage):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.tlocation = self.MakeTextCtrl("newLocation")
 =======
 <<<<<<< HEAD
@@ -271,6 +272,8 @@ class DatabasePage(TitledPage):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         self.tlocation = self.MakeTextCtrl("newProject")
 =======
         self.tlocation = self.MakeTextCtrl("newLocation")
@@ -300,6 +303,7 @@ class DatabasePage(TitledPage):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -405,6 +409,11 @@ class DatabasePage(TitledPage):
         self.tlocation = self.MakeTextCtrl("newLocation")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        self.tlocation = self.MakeTextCtrl("newLocation")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         self.tlocation.SetFocus()
 
         checks = [

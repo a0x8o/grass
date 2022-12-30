@@ -32,8 +32,16 @@ void fillPit(ElevationWindow &win)
         if (k != 4 && win.get(k) < min) {
             min = win.get(k);
         }
+<<<<<<< HEAD
     }
     if (win.get(4) < min) {
         win.set(4, min);
     }
 }
+=======
+    }
+    if (win.get(4) < min) {
+        win.set(4, min);
+    }
+};
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

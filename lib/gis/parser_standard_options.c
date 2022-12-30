@@ -653,6 +653,7 @@ struct Option *G_define_standard_option(int opt)
         Opt->description =
             _("Either a standard color name, R:G:B triplet, or \"none\"");
         break;
+<<<<<<< HEAD
     case G_OPT_C_FORMAT:
         Opt->key = "color_format";
         Opt->type = TYPE_STRING;
@@ -669,6 +670,8 @@ struct Option *G_define_standard_option(int opt)
             _("output color in HSV format (experimental)"),
             _("output color in colon-separated RGB format"));
         break;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
         /* misc */
 
@@ -734,6 +737,7 @@ struct Option *G_define_standard_option(int opt)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -787,6 +791,8 @@ struct Option *G_define_standard_option(int opt)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         Opt->key = "project";
         Opt->type = TYPE_STRING;
         Opt->required = NO;
@@ -818,6 +824,7 @@ struct Option *G_define_standard_option(int opt)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -905,6 +912,10 @@ struct Option *G_define_standard_option(int opt)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         Opt->key = "location";
         Opt->type = TYPE_STRING;
         Opt->required = NO;
@@ -934,6 +945,7 @@ struct Option *G_define_standard_option(int opt)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1053,6 +1065,13 @@ struct Option *G_define_standard_option(int opt)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         Opt->gisprompt = "old,location,location";
         Opt->key_desc = "name";
         break;
@@ -1467,6 +1486,9 @@ struct Option *G_define_standard_option(int opt)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1553,6 +1575,7 @@ struct Option *G_define_standard_option(int opt)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1694,6 +1717,10 @@ struct Option *G_define_standard_option(int opt)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     case G_OPT_STDS_INPUT:
         Opt->key = "input";
         Opt->type = TYPE_STRING;
@@ -1867,6 +1894,7 @@ struct Option *G_define_standard_option(int opt)
         Opt->description =
             _("The method to be used for sampling the input dataset");
         break;
+<<<<<<< HEAD
     case G_OPT_F_FORMAT:
         Opt->key = "format";
         Opt->type = TYPE_STRING;
@@ -1878,6 +1906,8 @@ struct Option *G_define_standard_option(int opt)
         Opt->descriptions = _("plain;Plain text output;"
                               "json;JSON (JavaScript Object Notation);");
         break;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     return Opt;

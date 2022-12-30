@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 =======
 <<<<<<< HEAD
@@ -95,6 +96,8 @@ int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int db__driver_list_tables(dbString **tlist, int *tcount, int system UNUSED)
 =======
 int db__driver_list_tables(dbString **tlist, int *tcount, int system)
@@ -124,6 +127,7 @@ int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -229,6 +233,11 @@ int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+int db__driver_list_tables(dbString **tlist, int *tcount, int system)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     int i;
     dbString *list;
@@ -265,6 +274,7 @@ int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         db_d_append_error("%s\%s", _("Unable get list of tables:"),
 =======
 <<<<<<< HEAD
@@ -319,6 +329,8 @@ int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         db_d_append_error("%s\n%s", _("Unable get list of tables:"),
 =======
         db_d_append_error("%s\%s", _("Unable get list of tables:"),
@@ -348,6 +360,7 @@ int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -453,6 +466,11 @@ int db__driver_list_tables(dbString **tlist, int *tcount, int system)
         db_d_append_error("%s\%s", _("Unable get list of tables:"),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+        db_d_append_error("%s\%s", _("Unable get list of tables:"),
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                           mysql_error(connection));
         db_d_report_error();
         return DB_FAILED;

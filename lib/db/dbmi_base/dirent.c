@@ -583,6 +583,7 @@ dbDirent *db_dirent(const char *dirname, int *n)
     dirent = db_alloc_dirent_array(count);
     if (dirent == NULL) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -598,6 +599,7 @@ dbDirent *db_dirent(const char *dirname, int *n)
     if (db_dirent == NULL) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -752,6 +754,10 @@ dbDirent *db_dirent(const char *dirname, int *n)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         closedir(dp);
         return (dbDirent *)NULL;
     }
@@ -793,6 +799,7 @@ dbDirent *db_dirent(const char *dirname, int *n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -872,6 +879,8 @@ dbDirent *db_dirent(const char *dirname, int *n)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         if (DB_OK != db_set_string(&db_dirent[i].name, entry->d_name))
             break;
         sprintf(path, "%s/%s", dirname, entry->d_name);
@@ -959,6 +968,7 @@ dbDirent *db_dirent(const char *dirname, int *n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1025,11 +1035,16 @@ dbDirent *db_dirent(const char *dirname, int *n)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         if (DB_OK != db_set_string(&dirent[i].name, entry->d_name))
             break;
         sprintf(path, "%s/%s", dirname, entry->d_name);
         dirent[i].perm = get_perm(path);
         dirent[i].isdir = (db_isdir(path) == DB_OK);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1097,6 +1112,8 @@ dbDirent *db_dirent(const char *dirname, int *n)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1292,6 +1309,7 @@ dbDirent *db_dirent(const char *dirname, int *n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1382,6 +1400,10 @@ dbDirent *db_dirent(const char *dirname, int *n)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
     closedir(dp);
     db_free(path);
@@ -1426,6 +1448,7 @@ dbDirent *db_dirent(const char *dirname, int *n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
    \param db_dirent pointer to dbDirent
@@ -1466,6 +1489,8 @@ dbDirent *db_dirent(const char *dirname, int *n)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    \param db_dirent pointer to dbDirent
 =======
    \param dirent pointer to dbDirent
@@ -1973,11 +1998,27 @@ void db_free_dirent_array(dbDirent *db_dirent, int count)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+   \param dirent pointer to dbDirent
+   \param count number of entities in the array
+ */
+void db_free_dirent_array(dbDirent *dirent, int count)
+{
+    int i;
+
+    if (dirent) {
+        for (i = 0; i < count; i++)
+            db_free_string(&dirent[i].name);
+        db_free(dirent);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
 }
 
@@ -2056,6 +2097,7 @@ dbDirent *db_alloc_dirent_array(int count)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2089,6 +2131,8 @@ dbDirent *db_alloc_dirent_array(int count)
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     db_dirent = (dbDirent *)db_calloc(count, sizeof(dbDirent));
     if (db_dirent == NULL)
         return db_dirent;
@@ -2105,6 +2149,14 @@ dbDirent *db_alloc_dirent_array(int count)
     dirent = (dbDirent *)db_calloc(count, sizeof(dbDirent));
     if (dirent == NULL)
         return dirent;
+=======
+    dirent = (dbDirent *)db_calloc(count, sizeof(dbDirent));
+    if (dirent == NULL)
+        return dirent;
+
+    for (i = 0; i < count; i++)
+        db_init_string(&dirent[i].name);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     for (i = 0; i < count; i++)
         db_init_string(&dirent[i].name);

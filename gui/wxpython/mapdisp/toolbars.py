@@ -412,6 +412,7 @@ class MapToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -465,6 +466,8 @@ class MapToolbar(BaseToolbar):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 ("renderMap", BaseIcons["render"].label),
                 BaseIcons["render"],
                 self.parent.OnRender,
@@ -570,6 +573,7 @@ class MapToolbar(BaseToolbar):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -657,6 +661,10 @@ class MapToolbar(BaseToolbar):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                 (
                     ("renderMap", BaseIcons["render"].label),
                     BaseIcons["render"],
@@ -775,7 +783,14 @@ class MapToolbar(BaseToolbar):
 
     def ChangeToolsDesc(self, mode2d):
         """Change description of zoom tools for 2D/3D view"""
+<<<<<<< HEAD
         icons = BaseIcons if mode2d else NvizIcons
+=======
+        if mode2d:
+            icons = BaseIcons
+        else:
+            icons = NvizIcons
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         for i, data in enumerate(self.controller.data):
             for tool in ("zoomIn", "zoomOut"):
                 if data[0] == tool:

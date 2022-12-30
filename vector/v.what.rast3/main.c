@@ -280,7 +280,12 @@ int main(int argc, char *argv[])
             continue;
         }
 
+<<<<<<< HEAD
         snprintf(buf, 2048, "update %s set %s = ", Fi->table, opt.col->answer);
+=======
+        G_snprintf(buf, 2048, "update %s set %s = ", Fi->table,
+                   opt.col->answer);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
         db_set_string(&stmt, buf);
 
@@ -296,6 +301,7 @@ int main(int argc, char *argv[])
                 Rast3d_is_null_value_num(&cache[point].dvalue, DCELL_TYPE);
 
         if (is_empty) {
+<<<<<<< HEAD
             snprintf(buf, 2048, "NULL");
         }
         else {
@@ -303,16 +309,33 @@ int main(int argc, char *argv[])
                 snprintf(buf, 2048, "%.10f", cache[point].fvalue);
             if (typeIntern == DCELL_TYPE)
                 snprintf(buf, 2048, "%.15f", cache[point].dvalue);
+=======
+            G_snprintf(buf, 2048, "NULL");
+        }
+        else {
+            if (typeIntern == FCELL_TYPE)
+                G_snprintf(buf, 2048, "%.10f", cache[point].fvalue);
+            if (typeIntern == DCELL_TYPE)
+                G_snprintf(buf, 2048, "%.15f", cache[point].dvalue);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         }
 
         db_append_string(&stmt, buf);
 
+<<<<<<< HEAD
         snprintf(buf, 2048, " where %s = %d", Fi->key, cache[point].cat);
+=======
+        G_snprintf(buf, 2048, " where %s = %d", Fi->key, cache[point].cat);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
         db_append_string(&stmt, buf);
         /* user provides where condition: */
         if (opt.where->answer) {
+<<<<<<< HEAD
             snprintf(buf, 2048, " AND %s", opt.where->answer);
+=======
+            G_snprintf(buf, 2048, " AND %s", opt.where->answer);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             db_append_string(&stmt, buf);
         }
         G_debug(3, "%s", db_get_string(&stmt));

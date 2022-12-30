@@ -90,7 +90,10 @@ int poly_to_rast(char *input_file, char *raster_map, char *title, int nrows,
 
     if (stat < 0) {
         Rast_unopen(rfd);
+<<<<<<< HEAD
         fclose(ifd);
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         return 1;
     }
 

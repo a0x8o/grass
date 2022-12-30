@@ -3644,6 +3644,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3697,6 +3698,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../lib/gis/mapset.c:38
 msgid "MAPSET is not set"
 msgstr "ยังไม่ได้กำหนด ชุดแผนที่"
@@ -3938,6 +3941,7 @@ msgstr "none"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -3984,6 +3988,10 @@ msgstr "none"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #: ../lib/manage/do_copy.c:43
 #, c-format
 msgid "Copying %s <%s> to current mapset as <%s>"
@@ -10892,6 +10900,7 @@ msgstr "[%s]: ไม่ใช่ค่าสี"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -10981,6 +10990,8 @@ msgstr "ค่าความลึก ไม่ถูกต้อง"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #, fuzzy
 #~ msgid "Attributes for category %d not found"
 #~ msgstr "ไม่พบ ข้อมูลสำหรับแสดง %d  จากฐานข้อมูล"
@@ -11175,6 +11186,7 @@ msgstr "ค่าความลึก ไม่ถูกต้อง"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -11229,5 +11241,51 @@ msgstr "ค่าความลึก ไม่ถูกต้อง"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+msgid "Illegal row value"
+msgstr "ค่าแถว ไม่ถูกต้อง"
+
+msgid "Illegal col value"
+msgstr "ค่าช่อง ไม่ถูกต้อง"
+
+msgid "Illegal n-s3 resolution value"
+msgstr "ค่าความละเอียด n-s3 ไม่ถูกต้อง"
+
+msgid "Illegal row3 value"
+msgstr "ค่า row3 ไม่ถูกต้อง"
+
+msgid "Illegal e-w3 resolution value"
+msgstr "ค่าความละเอียด e-w3 ไม่ถูกต้อง"
+
+msgid "Illegal col3 value"
+msgstr "ค่าความละเอียด col3 ไม่ถูกต้อง"
+
+msgid "Illegal e-w resolution value"
+msgstr "ค่าความละเอียดทาง ออก-ตก ไม่ถูกต้อง"
+
+msgid "North must be north of South"
+msgstr "ค่าเหนือ ต้องอยู่เหนือใต้"
+
+msgid "North must be larger than South"
+msgstr "ค่าเหนือ ต้องมากกว่าใต้"
+
+msgid "East must be larger than West"
+msgstr "ค่าออก ต้องมากกว่าตก"
+
+msgid "Invalid coordinates"
+msgstr "ค่าพิกัดไม่ถูกต้อง"
+
+msgid "Illegal n-s resolution value"
+msgstr "ค่าความละเอียดทาง เหนือ-ใต้ ไม่ถูกต้อง"
+
+msgid "Illegal t-b3 resolution value"
+msgstr "ค่าความละเอียด t-b3 ไม่ถูกต้อง"
+
+msgid "Illegal depths value"
+msgstr "ค่าความลึก ไม่ถูกต้อง"
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 msgid "Top must be larger than Bottom"
 msgstr "ค่าบน ต้องมากกว่าล่าง"

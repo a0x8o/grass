@@ -219,8 +219,13 @@ void weightWindow::compute(const dimension_type i, const dimension_type j,
             if (dirwin.get(di, dj) == true) {
                 computeWeight(di, dj, elev_crt, elev_neighb);
             }
+<<<<<<< HEAD
         } /* for dj */
     } /* for di */
+=======
+        }        /* for dj */
+    }            /* for di */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     normalize(); /* normalize the weights */
 
 #ifdef CHECK_WEIGHTS
@@ -229,6 +234,7 @@ void weightWindow::compute(const dimension_type i, const dimension_type j,
         cout << form("%3.2f ", weight.get(l));
     cout << "]\n";
 #endif
+<<<<<<< HEAD
 }
 
 /* Find the dominant direction. Set corresponding weight to 1, and
@@ -403,6 +409,7 @@ void weightWindow::makeD8(const dimension_type i, const dimension_type j,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -457,6 +464,17 @@ void weightWindow::makeD8(const dimension_type i, const dimension_type j,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+};
+
+/* Find the dominant direction. Set corresponding weight to 1, and
+   sets all other weights to 0. Set sumweight and sumcontour.*/
+void weightWindow::makeD8(const dimension_type i, const dimension_type j,
+                          const genericWindow<elevation_type> &elevwin,
+                          const direction_type dir, const bool trustdir)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
 
     elevation_type elev_crt;

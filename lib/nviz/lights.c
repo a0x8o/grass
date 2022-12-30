@@ -204,6 +204,7 @@ int Nviz_new_light(nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \param data nviz data
  */
 void Nviz_draw_model(nv_data *data)
@@ -260,6 +261,8 @@ void Nviz_draw_model(nv_data *data)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    \param data nviz data [unused]
  */
 void Nviz_draw_model(nv_data *data UNUSED)
@@ -350,6 +353,7 @@ void Nviz_draw_model(nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -404,6 +408,13 @@ void Nviz_draw_model(nv_data *data)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+   \param data nviz data
+ */
+void Nviz_draw_model(nv_data *data)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     GS_set_draw(GSD_FRONT);
     GS_ready_draw();

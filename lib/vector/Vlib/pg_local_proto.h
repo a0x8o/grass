@@ -80,6 +80,7 @@ struct feat_parts {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
 =======
 <<<<<<< HEAD
@@ -134,6 +135,8 @@ int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int Vect__get_area_points_pg(struct Map_info *, const plus_t *, int,
 =======
 int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
@@ -163,6 +166,7 @@ int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -268,6 +272,11 @@ int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
 int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                              struct line_pnts *);
 
 /* build_pg.c */

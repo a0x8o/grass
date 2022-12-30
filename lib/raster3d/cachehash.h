@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -42,6 +43,8 @@
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 extern void *Rast3d_cache_hash_new(int /* nofElts */);
 =======
 <<<<<<< HEAD
@@ -216,6 +219,7 @@ extern void *Rast3d_cache_hash_new(int /* nofElts */);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -326,3 +330,8 @@ extern void *Rast3d_cache_hash_new(/* nofElts */);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+extern void *Rast3d_cache_hash_new(/* nofElts */);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)

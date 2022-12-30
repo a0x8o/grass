@@ -7,9 +7,59 @@
  ******************************************************************************
  * Copyright (c) 2007, Frank Warmerdam
  *
+<<<<<<< HEAD
  * SPDX-License-Identifier: MIT OR LGPL-2.0-or-later
  ******************************************************************************
  *
+=======
+ * This software is available under the following "MIT Style" license,
+ * or at the option of the licensee under the LGPL (see LICENSE.LGPL).  This
+ * option is discussed in more detail in shapelib.html.
+ *
+ * --
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included
+ * in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ ******************************************************************************
+ *
+ * $Log: safileio.c,v $
+ * Revision 1.4  2008-01-16 20:05:14  bram
+ * Add file hooks that accept UTF-8 encoded filenames on some platforms.  Use
+ *SASetupUtf8Hooks tosetup the hooks and check SHPAPI_UTF8_HOOKS for its
+ *availability.  Currently, this is only available on the Windows platform that
+ *decodes the UTF-8 filenames to wide character strings and feeds them to
+ *_wfopen and _wremove.
+ *
+ * Revision 1.3  2007/12/18 18:28:11  bram
+ * - create hook for client specific atof (bugzilla ticket 1615)
+ * - check for NULL handle before closing cpCPG file, and close after reading.
+ *
+ * Revision 1.2  2007/12/15 20:25:30  bram
+ * dbfopen.c now reads the Code Page information from the DBF file, and exports
+ * this information as a string through the DBFGetCodePage function.  This is
+ * either the number from the LDID header field ("LDID/<number>") or as the
+ * content of an accompanying .CPG file.  When creating a DBF file, the code can
+ * be set using DBFCreateEx.
+ *
+ * Revision 1.1  2007/12/06 06:56:41  fwarmerdam
+ * new
+ *
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
  */
 
 #include "shapefil.h"
@@ -24,6 +74,7 @@
 =======
 #include <stdio.h>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -117,6 +168,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 SHP_CVSID("$Id: safileio.c,v 1.6 2018-06-15 19:56:32 erouault Exp $")
 
 =======
@@ -278,6 +331,7 @@ SHP_CVSID("$Id: safileio.c,v 1.6 2018-06-15 19:56:32 erouault Exp $")
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -355,6 +409,11 @@ SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 #ifdef SHPAPI_UTF8_HOOKS
 #ifdef SHPAPI_WINDOWS
 #define WIN32_LEAN_AND_MEAN
@@ -374,11 +433,16 @@ static SAFile SADFOpen(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -482,6 +546,8 @@ static SAFile SADFOpen(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 
@@ -790,6 +856,10 @@ SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> osgeo-main
 {
     (void)pvUserData;
+=======
+SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
+{
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     return (SAFile)fopen(pszFilename, pszAccess);
 }
 
@@ -798,6 +868,7 @@ static SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 =======
 /************************************************************************/
 /*                              SADFRead()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -811,6 +882,9 @@ static SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
@@ -846,6 +920,7 @@ SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -953,6 +1028,8 @@ SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1083,6 +1160,7 @@ SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -1121,6 +1199,10 @@ SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     return (SAOffset)fread(p, (size_t)size, (size_t)nmemb, (FILE *)file);
 }
@@ -1135,6 +1217,7 @@ static SAOffset SADFWrite(const void *p, SAOffset size, SAOffset nmemb,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -1144,6 +1227,9 @@ static SAOffset SADFWrite(const void *p, SAOffset size, SAOffset nmemb,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
@@ -1179,6 +1265,7 @@ SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1286,6 +1373,8 @@ SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1416,6 +1505,7 @@ SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -1454,6 +1544,10 @@ SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     return (SAOffset)fwrite(p, (size_t)size, (size_t)nmemb, (FILE *)file);
 }
@@ -1467,6 +1561,7 @@ static SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -1476,9 +1571,13 @@ static SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1618,6 +1717,8 @@ SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1792,6 +1893,10 @@ SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 #else
     return (SAOffset)fseek((FILE *)file, (long)offset, whence);
 #endif
+=======
+{
+    return (SAOffset)fseek((FILE *)file, (long)offset, whence);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 <<<<<<< HEAD
@@ -1799,6 +1904,7 @@ static SAOffset SADFTell(SAFile file)
 =======
 /************************************************************************/
 /*                              SADFTell()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1812,9 +1918,13 @@ static SAOffset SADFTell(SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 SAOffset SADFTell(SAFile file)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1954,6 +2064,8 @@ SAOffset SADFTell(SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2128,6 +2240,10 @@ SAOffset SADFTell(SAFile file)
 #else
     return (SAOffset)ftell((FILE *)file);
 #endif
+=======
+{
+    return (SAOffset)ftell((FILE *)file);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 <<<<<<< HEAD
@@ -2135,6 +2251,7 @@ static int SADFFlush(SAFile file)
 =======
 /************************************************************************/
 /*                             SADFFlush()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2148,6 +2265,9 @@ static int SADFFlush(SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 int SADFFlush(SAFile file)
@@ -2183,6 +2303,7 @@ int SADFFlush(SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2290,6 +2411,8 @@ int SADFFlush(SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2420,6 +2543,7 @@ int SADFFlush(SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -2458,6 +2582,10 @@ int SADFFlush(SAFile file)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     return fflush((FILE *)file);
 }
@@ -2471,6 +2599,7 @@ static int SADFClose(SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -2480,6 +2609,9 @@ static int SADFClose(SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 int SADFClose(SAFile file)
@@ -2515,6 +2647,7 @@ int SADFClose(SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2622,6 +2755,8 @@ int SADFClose(SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2752,6 +2887,7 @@ int SADFClose(SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -2790,6 +2926,10 @@ int SADFClose(SAFile file)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     return fclose((FILE *)file);
 }
@@ -2803,6 +2943,7 @@ static int SADRemove(const char *filename, void *pvUserData)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -2812,9 +2953,13 @@ static int SADRemove(const char *filename, void *pvUserData)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 int SADRemove(const char *filename)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2954,6 +3099,8 @@ int SADRemove(const char *filename)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3124,6 +3271,9 @@ int SADRemove(const char *filename)
 >>>>>>> osgeo-main
 {
     (void)pvUserData;
+=======
+{
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     return remove(filename);
 }
 
@@ -3132,6 +3282,7 @@ static void SADError(const char *message)
 =======
 /************************************************************************/
 /*                              SADError()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3145,6 +3296,9 @@ static void SADError(const char *message)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 void SADError(const char *message)
@@ -3180,6 +3334,7 @@ void SADError(const char *message)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3287,6 +3442,8 @@ void SADError(const char *message)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3417,6 +3574,7 @@ void SADError(const char *message)
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -3455,6 +3613,10 @@ void SADError(const char *message)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     fprintf(stderr, "%s\n", message);
 }
@@ -3468,6 +3630,7 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -3477,9 +3640,13 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 void SASetupDefaultHooks(SAHooks *psHooks)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3619,6 +3786,8 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3749,6 +3918,7 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -3787,6 +3957,10 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     psHooks->FOpen = SADFOpen;
     psHooks->FRead = SADFRead;
@@ -3799,7 +3973,10 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 
     psHooks->Error = SADError;
     psHooks->Atof = atof;
+<<<<<<< HEAD
     psHooks->pvUserData = NULL;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 #ifdef SHPAPI_WINDOWS
@@ -3813,6 +3990,7 @@ static wchar_t *Utf8ToWideChar(const char *pszFilename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -3822,9 +4000,13 @@ static wchar_t *Utf8ToWideChar(const char *pszFilename)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 const wchar_t *Utf8ToWideChar(const char *pszFilename)
+<<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
     const int nMulti = (int)strlen(pszFilename) + 1;
@@ -3834,6 +4016,18 @@ const wchar_t *Utf8ToWideChar(const char *pszFilename)
         return NULL;
     }
     wchar_t *pwszFileName = (wchar_t *)malloc(nWide * sizeof(wchar_t));
+=======
+{
+    int nMulti, nWide;
+    wchar_t *pwszFileName;
+
+    nMulti = strlen(pszFilename) + 1;
+    nWide = MultiByteToWideChar(CP_UTF8, 0, pszFilename, nMulti, 0, 0);
+    if (nWide == 0) {
+        return NULL;
+    }
+    pwszFileName = (wchar_t *)malloc(nWide * sizeof(wchar_t));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     if (pwszFileName == NULL) {
         return NULL;
     }
@@ -3847,10 +4041,15 @@ const wchar_t *Utf8ToWideChar(const char *pszFilename)
 
 /************************************************************************/
 /*                           SAUtf8WFOpen                               */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 static SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess,
                            void *pvUserData)
+=======
+SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
     (void)pvUserData;
     SAFile file = NULL;
@@ -3891,6 +4090,7 @@ static SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4052,6 +4252,8 @@ static SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess,
 =======
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     pwszFileName = Utf8ToWideChar(pszFilename);
     pwszAccess = Utf8ToWideChar(pszAccess);
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -4202,10 +4404,13 @@ static SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     pwszFileName = Utf8ToWideChar(pszFilename);
     pwszAccess = Utf8ToWideChar(pszAccess);
     if (pwszFileName != NULL && pwszFileName != NULL) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4401,6 +4606,12 @@ static SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess,
     }
     free(pwszFileName);
     free(pwszAccess);
+=======
+        file = (SAFile)_wfopen(pwszFileName, pwszAccess);
+    }
+    free((wchar_t *)pwszFileName);
+    free((wchar_t *)pwszAccess);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     return file;
 }
 
@@ -4409,6 +4620,7 @@ static int SAUtf8WRemove(const char *pszFilename, void *pvUserData)
 =======
 /************************************************************************/
 /*                             SAUtf8WRemove()                          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4422,9 +4634,13 @@ static int SAUtf8WRemove(const char *pszFilename, void *pvUserData)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 int SAUtf8WRemove(const char *pszFilename)
+<<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
     (void)pvUserData;
@@ -4704,6 +4920,16 @@ int SAUtf8WRemove(const char *pszFilename)
         rc = _wremove(pwszFileName);
     }
     free(pwszFileName);
+=======
+{
+    const wchar_t *pwszFileName = Utf8ToWideChar(pszFilename);
+    int rc = -1;
+
+    if (pwszFileName != NULL) {
+        rc = _wremove(pwszFileName);
+    }
+    free((wchar_t *)pwszFileName);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     return rc;
 }
 
@@ -4722,6 +4948,7 @@ int SAUtf8WRemove(const char *pszFilename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -4731,13 +4958,25 @@ int SAUtf8WRemove(const char *pszFilename)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 
 void SASetupUtf8Hooks(SAHooks *psHooks)
 {
+<<<<<<< HEAD
     psHooks->FOpen = SAUtf8WFOpen;
     psHooks->Remove = SAUtf8WRemove;
+=======
+#ifdef SHPAPI_WINDOWS
+    psHooks->FOpen = SAUtf8WFOpen;
+    psHooks->Remove = SAUtf8WRemove;
+#else
+#error "no implementations of UTF-8 hooks available for this platform"
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     psHooks->FRead = SADFRead;
     psHooks->FWrite = SADFWrite;
     psHooks->FSeek = SADFSeek;

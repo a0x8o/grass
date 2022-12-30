@@ -94,9 +94,13 @@ static CELL do_renumber(int *in_fd, DCELL *rng, int nin, int diag, int minsize,
             G_percent(row, nrows, 2);
 
             coffset = (off_t)row * csize;
+<<<<<<< HEAD
             if (lseek(cfd, coffset, SEEK_SET) == -1) {
                 G_fatal_error(_("Unable to seek: %s"), strerror(errno));
             }
+=======
+            lseek(cfd, coffset, SEEK_SET);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             if (read(cfd, cur_clump, csize) != csize)
                 G_fatal_error(_("Unable to read from temp file"));
 
@@ -112,9 +116,13 @@ static CELL do_renumber(int *in_fd, DCELL *rng, int nin, int diag, int minsize,
                 temp_clump++;
             }
             if (do_write) {
+<<<<<<< HEAD
                 if (lseek(cfd, coffset, SEEK_SET) == -1) {
                     G_fatal_error(_("Unable to seek: %s"), strerror(errno));
                 }
+=======
+                lseek(cfd, coffset, SEEK_SET);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 if (write(cfd, cur_clump, csize) != csize)
                     G_fatal_error(_("Unable to write to temp file"));
             }

@@ -38,7 +38,11 @@ char *get_datasource_name(const char *opt_dsn, int use_ogr)
 
         /* add db.login settings (user, password, host, port) */
         if (DB_OK ==
+<<<<<<< HEAD
             db_get_login("pg", database, &user, &passwd, &host, &port)) {
+=======
+            db_get_login2("pg", database, &user, &passwd, &host, &port)) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             if (user) {
                 if (!G_strcasestr(opt_dsn, "user=")) {
                     strcat(connect_str, " user=");

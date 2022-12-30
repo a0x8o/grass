@@ -140,11 +140,19 @@ void G_setup_fill(int gap)
         st->row_fill = row_solid_fill;
 }
 
+<<<<<<< HEAD
 #define X(e)     (st->left + st->xconv * ((e) - st->window.west))
 #define Y(n)     (st->top + st->yconv * (st->window.north - (n)))
 
 #define EAST(x)  (st->window.west + ((x) - st->left) / st->xconv)
 #define NORTH(y) (st->window.north - ((y) - st->top) / st->yconv)
+=======
+#define X(e)     (st->left + st->xconv * ((e)-st->window.west))
+#define Y(n)     (st->top + st->yconv * (st->window.north - (n)))
+
+#define EAST(x)  (st->window.west + ((x)-st->left) / st->xconv)
+#define NORTH(y) (st->window.north - ((y)-st->top) / st->yconv)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /*!
  * \brief Converts east,north to x,y

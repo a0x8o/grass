@@ -42,6 +42,7 @@ char *create_pgfile(const char *, const char *, const char *, char **, int,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void check_columns(const struct Map_info *, const char *, const char *,
                    const char *);
 =======
@@ -97,6 +98,8 @@ void check_columns(const struct Map_info *, const char *, const char *,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 void check_columns(struct Map_info *, const char *, const char *, const char *);
 =======
 void check_columns(const struct Map_info *, const char *, const char *,
@@ -183,6 +186,7 @@ void check_columns(const struct Map_info *, const char *, const char *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -237,5 +241,11 @@ void check_columns(const struct Map_info *, const char *, const char *,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+void check_columns(const struct Map_info *, const char *, const char *,
+                   const char *);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 #endif /* __LOCAL_PROTO_V_OUT_POSTGIS__ */

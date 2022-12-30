@@ -42,10 +42,15 @@ void Init(void)
 
     Cells = FlagCreate(Rs, Cs);
     CellCount = 0;
+<<<<<<< HEAD
     char mask_name[GNAME_MAX];
     char mask_mapset[GMAPSET_MAX];
     if (Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL)) {
         FD = Rast_open_old(mask_name, mask_mapset);
+=======
+    if (G_find_raster2("MASK", G_mapset())) {
+        FD = Rast_open_old("MASK", G_mapset());
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         {
             for (row = 0; row < Rs; row++) {
                 Rast_get_c_row_nomask(FD, CellBuffer, row);

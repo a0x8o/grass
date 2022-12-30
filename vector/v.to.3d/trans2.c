@@ -73,7 +73,10 @@ void trans2d(struct Map_info *In, struct Map_info *Out, int type, double height,
         G_debug(3, "%d records selected", cvarr.n_values);
 
         db_close_database_shutdown_driver(driver);
+<<<<<<< HEAD
         Vect_destroy_field_info(Fi);
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     G_message(_("Transforming features..."));

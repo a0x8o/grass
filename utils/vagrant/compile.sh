@@ -40,11 +40,17 @@ if [ ! -f "include/Make/Platform.make" ] ; then
         --with-postgres \
         --with-postgres-includes=`pg_config --includedir` \
         --with-proj-share=/usr/share/proj \
+<<<<<<< HEAD
         --with-pthread \
         --with-readline \
         --with-sqlite \
         --with-x \
         --without-pdal
+=======
+        --with-python \
+        --with-cairo \
+        --with-liblas
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 fi
 
 make -j $NUMTHREADS

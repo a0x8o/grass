@@ -50,7 +50,11 @@ typedef int matrix_create_fn(struct interp_params *, struct triple *, int,
                              double **, int *);
 
 typedef int check_points_fn(struct interp_params *, struct quaddata *, double *,
+<<<<<<< HEAD
                             double *, double, double, struct triple *);
+=======
+                            double *, double, double, struct triple);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 typedef int secpar_fn(struct interp_params *, int, int, int, struct BM *,
                       double *, double *, double *, double *, double *,
@@ -68,6 +72,7 @@ struct interp_params {
 
     FILE *fdinp; /**< input stream */
 
+<<<<<<< HEAD
     int elatt; /**< which floating point attr to
                 * use? first = 1, second = 2, etc
                 */
@@ -81,6 +86,17 @@ struct interp_params {
 
     int kmax; /**< max number of points per segment
                */
+=======
+    int elatt; /**< which floating point attr to use? first = 1, second = 2, etc
+                */
+
+    int smatt; /**< which floating point attr to use for smoothing? first = 1,
+                  second = 2, etc */
+
+    int kmin; /**< min number of points per segment for interpolation */
+
+    int kmax; /**< max number of points per segment */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     char *maskmap; /**< name of mask */
 
@@ -91,11 +107,17 @@ struct interp_params {
 
     double fi; /**< tension */
 
+<<<<<<< HEAD
     int KMAX2; /**< max num. of points for interp.
                 */
 
     int scik1, scik2, scik3; /**< multipliers for
                                 interp. values */
+=======
+    int KMAX2; /**< max num. of points for interp. */
+
+    int scik1, scik2, scik3; /**< multipliers for interp. values */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     double rsm; /**< smoothing */
 
@@ -108,8 +130,12 @@ struct interp_params {
 
     int deriv, cv; /**< 1 if compute partial derivs */
 
+<<<<<<< HEAD
     double theta; /**< anisotropy angle,
                      0=East,counter-clockwise */
+=======
+    double theta; /**< anisotropy angle, 0=East,counter-clockwise */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     double scalex; /**< anisotropy scaling factor */
 
@@ -152,11 +178,18 @@ void IL_init_params_2d(struct interp_params *, FILE *, int, int, double, int,
                        double, double, double, int, double, double, FILE *,
                        FILE *, FILE *, FILE *, FILE *, FILE *, bool,
                        struct TimeStamp *, int, const char *);
+<<<<<<< HEAD
 
 void IL_init_func_2d(struct interp_params *, grid_calc_fn *, matrix_create_fn *,
                      check_points_fn *, secpar_fn *, interp_fn *,
                      interpder_fn *, wr_temp_fn *);
 
+=======
+
+void IL_init_func_2d(struct interp_params *, grid_calc_fn *, matrix_create_fn *,
+                     check_points_fn *, secpar_fn *, interp_fn *,
+                     interpder_fn *, wr_temp_fn *);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 /* input2d.c */
 int IL_input_data_2d(struct interp_params *, struct tree_info *, double *,
                      double *, double *, double *, double *, double *, int *);
@@ -191,6 +224,7 @@ int IL_output_2d(struct interp_params *, struct Cell_head *, double, double,
                  double, char *, double, int, int, int);
 /* point2d.c */
 int IL_check_at_points_2d(struct interp_params *, struct quaddata *, double *,
+<<<<<<< HEAD
                           double *, double, double, struct triple *);
 int IL_write_point_2d(struct triple, double);
 
@@ -199,6 +233,9 @@ int IL_check_at_points_2d_cvdev(struct interp_params *, struct quaddata *,
                                 double *, double *, double, double,
                                 struct triple *);
 
+=======
+                          double *, double, double, struct triple);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 /* resout2d.c */
 /* resout2dmod.c */
 int IL_resample_output_2d(struct interp_params *, double, double, double,

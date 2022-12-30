@@ -64,6 +64,7 @@ void M_do_list(int n, const char *mapset)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -143,6 +144,8 @@ void M_do_list(int n, const char *mapset)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
             G_list_element(list[i].element[0], list[i].desc[0], mapset, NULL);
         }
     }
@@ -600,6 +603,7 @@ void M_do_list(int n, const char *mapset)
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -611,5 +615,16 @@ void M_do_list(int n, const char *mapset)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+            G_list_element(list[i].element[0], list[i].desc[0], mapset,
+                           (int (*)())0);
+        }
+    }
+    else {
+        G_list_element(list[n].element[0], list[n].desc[0], mapset,
+                       (int (*)())0);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     }
 }

@@ -64,6 +64,7 @@ char *labelElevType::printLabel(const labelElevType &p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -82,6 +83,8 @@ char *labelElevType::printLabel(const labelElevType &p)
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 =======
 <<<<<<< HEAD
@@ -250,6 +253,7 @@ char *labelElevType::printLabel(const labelElevType &p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -360,6 +364,11 @@ char *labelElevType::printLabel(const labelElevType &p)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    sprintf(buf, CCLABEL_FMT, p.label);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     return buf;
 }
 
@@ -534,6 +543,7 @@ char *waterType::printLabel(const waterType &p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -552,6 +562,8 @@ char *waterType::printLabel(const waterType &p)
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 =======
 <<<<<<< HEAD
@@ -720,6 +732,7 @@ char *waterType::printLabel(const waterType &p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -830,6 +843,11 @@ char *waterType::printLabel(const waterType &p)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    sprintf(buf, CCLABEL_FMT, p.label);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     return buf;
 }
 
@@ -862,7 +880,11 @@ private:
     AMI_STREAM<waterWindowType> *waterWindows;
 
 public:
+<<<<<<< HEAD
     waterWindower(AMI_STREAM<waterWindowType> *str) : waterWindows(str) {};
+=======
+    waterWindower(AMI_STREAM<waterWindowType> *str) : waterWindows(str){};
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     void processWindow(dimension_type i, dimension_type j, waterGridType &point,
                        waterWindowBaseType *a, waterWindowBaseType *b,
                        waterWindowBaseType *c);
@@ -924,6 +946,7 @@ void generateWatersheds(AMI_STREAM<waterWindowType> **waterWindows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         AMI_STREAM<boundaryType> *boundaryStr)
 =======
 <<<<<<< HEAD
@@ -978,6 +1001,8 @@ void generateWatersheds(AMI_STREAM<waterWindowType> **waterWindows,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
                         AMI_STREAM<boundaryType> *boundaryStr UNUSED)
 =======
                         AMI_STREAM<boundaryType> *boundaryStr)
@@ -1007,6 +1032,7 @@ void generateWatersheds(AMI_STREAM<waterWindowType> **waterWindows,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1112,6 +1138,11 @@ void generateWatersheds(AMI_STREAM<waterWindowType> **waterWindows,
                         AMI_STREAM<boundaryType> *boundaryStr)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+                        AMI_STREAM<boundaryType> *boundaryStr)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     AMI_err ae;
     waterWindowType *winp, prevWin;
@@ -1269,7 +1300,11 @@ private:
 public:
     boundaryDetector(AMI_STREAM<boundaryType> *str, const dimension_type gnrows,
                      const dimension_type gncols)
+<<<<<<< HEAD
         : nrows(gnrows), ncols(gncols), boundaryStr(str) {};
+=======
+        : nrows(gnrows), ncols(gncols), boundaryStr(str){};
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     void processWindow(dimension_type i, dimension_type j, labelElevType &point,
                        labelElevType *a, labelElevType *b, labelElevType *c);

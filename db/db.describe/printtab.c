@@ -3,9 +3,13 @@
 #include "local_proto.h"
 #include <grass/parson.h>
 
+<<<<<<< HEAD
 int print_table_definition(dbDriver *driver, dbTable *table,
                            enum OutputFormat format, JSON_Object *root_object,
                            JSON_Array *cols_array)
+=======
+int print_table_definition(dbDriver *driver, dbTable *table)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
     int ncols, col, nrows;
     dbColumn *column;
@@ -47,20 +51,30 @@ int print_table_definition(dbDriver *driver, dbTable *table,
 
     for (col = 0; col < ncols; col++) {
         column = db_get_table_column(table, col);
+<<<<<<< HEAD
         print_column_definition(column, col + 1, format, cols_array);
+=======
+        fprintf(stdout, "\n");
+        print_column_definition(column);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     return 0;
 }
 
+<<<<<<< HEAD
 int print_column_definition(dbColumn *column, int position,
                             enum OutputFormat format, JSON_Array *cols_array)
+=======
+int print_column_definition(dbColumn *column)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
     JSON_Object *col_object = NULL;
     JSON_Value *col_value = NULL;
 
     dbString value_string;
 
+<<<<<<< HEAD
     switch (format) {
     case PLAIN:
         fprintf(stdout, "\n");
@@ -115,6 +129,26 @@ int print_column_definition(dbColumn *column, int position,
     if (format == JSON) {
         json_array_append_value(cols_array, col_value);
     }
+=======
+    fprintf(stdout, "column:%s\n", db_get_column_name(column));
+    fprintf(stdout, "description:%s\n", db_get_column_description(column));
+    fprintf(stdout, "type:%s\n",
+            db_sqltype_name(db_get_column_sqltype(column)));
+    fprintf(stdout, "len:%d\n", db_get_column_length(column));
+    fprintf(stdout, "scale:%d\n", db_get_column_scale(column));
+    fprintf(stdout, "precision:%d\n", db_get_column_precision(column));
+    fprintf(stdout, "default:");
+    if (db_test_column_has_default_value(column)) {
+        db_init_string(&value_string);
+        db_convert_column_default_value_to_string(column, &value_string);
+        fprintf(stdout, "%s", db_get_string(&value_string));
+    }
+    fprintf(stdout, "\n");
+    fprintf(stdout, "nullok:%s\n",
+            db_test_column_null_allowed(column) ? "yes" : "no");
+    print_priv("select", db_get_column_select_priv(column));
+    print_priv("update", db_get_column_update_priv(column));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     return 0;
 }
@@ -122,6 +156,7 @@ int print_column_definition(dbColumn *column, int position,
 int print_priv(char *label, int priv, enum OutputFormat format,
                JSON_Object *root_object)
 {
+<<<<<<< HEAD
     switch (format) {
     case PLAIN:
         fprintf(stdout, "%s:", label);
@@ -150,6 +185,18 @@ int print_priv(char *label, int priv, enum OutputFormat format,
             json_object_set_null(root_object, label);
             break;
         }
+=======
+    fprintf(stdout, "%s:", label);
+    switch (priv) {
+    case DB_GRANTED:
+        fprintf(stdout, "yes");
+        break;
+    case DB_NOT_GRANTED:
+        fprintf(stdout, "no");
+        break;
+    default:
+        fprintf(stdout, "?");
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         break;
     }
 

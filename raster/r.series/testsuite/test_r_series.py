@@ -27,6 +27,7 @@ class TestRSeries(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -74,11 +75,14 @@ class TestRSeries(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +168,11 @@ class TestRSeries(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
     average = "average"
     count = "count"
     median = "median"
@@ -178,13 +187,22 @@ class TestRSeries(TestCase):
         call_module("r.mapcalc", expression=f"{cls.sum_mapcalc} = {cls.elevation} * 4")
 
     @classmethod
+<<<<<<< HEAD
     def tearDownClass(cls):
         cls.del_temp_region()
+=======
+    def tearDownClass(self):
+        self.del_temp_region()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         call_module(
             "g.remove",
             flags="f",
             type_="raster",
+<<<<<<< HEAD
             name=cls.sum_mapcalc,
+=======
+            name=self.sum_mapcalc,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         )
 
     def tearDown(self):

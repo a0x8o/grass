@@ -29,7 +29,11 @@ int main(int argc, char **argv)
 {
     struct GModule *module;
     struct {
+<<<<<<< HEAD
         struct Option *map, *file, *format, *color_format;
+=======
+        struct Option *map, *file;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     } opt;
     struct {
         struct Flag *p;
@@ -88,6 +92,7 @@ int main(int argc, char **argv)
             G_fatal_error(_("Unable to open output file <%s>"), file);
     }
 
+<<<<<<< HEAD
     if (strcmp(opt.format->answer, "json") == 0) {
         if (strcmp(opt.color_format->answer, "rgb") == 0) {
             clr_frmt = RGB;
@@ -108,6 +113,10 @@ int main(int argc, char **argv)
         Rast_print_colors(&colors, range.min, range.max, fp,
                           flag.p->answer ? 1 : 0);
     }
+=======
+    Rast_print_colors(&colors, range.min, range.max, fp,
+                      flag.p->answer ? 1 : 0);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     exit(EXIT_SUCCESS);
 }

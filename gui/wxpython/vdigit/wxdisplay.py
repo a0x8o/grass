@@ -364,7 +364,26 @@ class DisplayDriver:
             if robj.type == TYPE_AREA:
                 pdc.DrawPolygon(points)
             else:
+<<<<<<< HEAD
                 pdc.DrawLines(points)
+=======
+                points = list()
+                for i in range(robj.npoints):
+                    p = robj.point[i]
+                    points.append(wx.Point(p.x, p.y))
+                if len(points) <= 1:
+                    self.log.write(
+                        _(
+                            "WARNING: Zero-length line or boundary drawing skipped. "
+                            "Use v.clean to remove it."
+                        )
+                    )
+                    return
+                if robj.type == TYPE_AREA:
+                    pdc.DrawPolygon(points)
+                else:
+                    pdc.DrawLines(points)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     def _definePen(self, rtype):
         """Define pen/brush based on rendered object)

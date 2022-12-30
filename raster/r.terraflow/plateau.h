@@ -37,9 +37,15 @@ public: /* struct, so members public */
 public:
     plateauType(dimension_type gi, dimension_type gj, direction_type gdir,
                 cclabel_type gcclabel = LABEL_UNDEF)
+<<<<<<< HEAD
         : ijBaseType(gi, gj), cclabel(gcclabel), dir(gdir), valid(true) {};
 
     plateauType() : valid(false) {};
+=======
+        : ijBaseType(gi, gj), cclabel(gcclabel), dir(gdir), valid(true){};
+
+    plateauType() : valid(false){};
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     ~plateauType() {}
 
@@ -48,6 +54,7 @@ public:
     static char *printLabel(const plateauType &p)
     {
         static char buf[8];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98,6 +105,8 @@ public:
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         snprintf(buf, sizeof(buf), CCLABEL_FMT, p.cclabel);
 =======
 <<<<<<< HEAD
@@ -266,6 +275,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -376,6 +386,11 @@ public:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        sprintf(buf, CCLABEL_FMT, p.cclabel);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         return buf;
     }
 
@@ -424,7 +439,11 @@ public:
 
     plateauStats(cclabel_type l)
         : iMin(dimension_type_max), iMax(0), jMin(dimension_type_max), jMax(0),
+<<<<<<< HEAD
           size(0), label(l), hasSpill(false) {};
+=======
+          size(0), label(l), hasSpill(false){};
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     void add(plateauType &pt)
     {

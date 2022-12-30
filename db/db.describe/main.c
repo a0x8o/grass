@@ -83,8 +83,12 @@ int main(int argc, char **argv)
                       db_get_string(&table_name));
 
     if (!parms.printcolnames)
+<<<<<<< HEAD
         print_table_definition(driver, table, parms.format, root_object,
                                cols_array);
+=======
+        print_table_definition(driver, table);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     else {
         ncols = db_get_table_number_of_columns(table);
 
@@ -92,6 +96,7 @@ int main(int argc, char **argv)
         sprintf(buf, "select * from %s", db_get_table_name(table));
         db_set_string(&stmt, buf);
         nrows = db_get_table_number_of_rows(driver, &stmt);
+<<<<<<< HEAD
 
         switch (parms.format) {
         case PLAIN:
@@ -141,6 +146,17 @@ int main(int argc, char **argv)
         puts(serialized_string);
         json_free_serialized_string(serialized_string);
         json_value_free(root_value);
+=======
+        fprintf(stdout, "ncols: %d\n", ncols);
+        fprintf(stdout, "nrows: %d\n", nrows);
+        for (col = 0; col < ncols; col++) {
+            column = db_get_table_column(table, col);
+            fprintf(stdout, "Column %d: %s:%s:%d\n", (col + 1),
+                    db_get_column_name(column),
+                    db_sqltype_name(db_get_column_sqltype(column)),
+                    db_get_column_length(column));
+        }
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     db_close_database(driver);
@@ -175,9 +191,12 @@ static void parse_command_line(int argc, char **argv)
     database = G_define_standard_option(G_OPT_DB_DATABASE);
     if ((db = db_get_default_database_name()))
         database->answer = (char *)db;
+<<<<<<< HEAD
 
     format_opt = G_define_standard_option(G_OPT_F_FORMAT);
     format_opt->guisection = _("Print");
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     /* Set description */
     module = G_define_module();

@@ -68,6 +68,9 @@ Related Wiki documents:
 
 * <https://grass.osgeo.org/wiki/GRASS_Migration_to_OSGeo> (historical document)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -313,13 +316,18 @@ Related Wiki documents:
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 ## GRASS GIS Source code repository
 
+<<<<<<< HEAD
 Maintainer: Markus Neteler, Martin Landa, OSGeo-SAC, <https://wiki.osgeo.org/wiki/SAC>
+=======
+Maintainer: Markus Neteler, Martin Landa, OSGeo-SAC, <http://wiki.osgeo.org/wiki/SAC>
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 Important update April 2019: The source code is now managed on GitHub (rather
 than in SVN).
 
 The GitHub repositories are:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -410,6 +418,8 @@ Issues:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 - GRASS GIS core (7+): <https://github.com/OSGeo/grass>
 - GRASS GIS legacy (3.x-6.x): <https://github.com/OSGeo/grass-legacy>
 - GRASS GIS Add-ons: <https://github.com/OSGeo/grass-addons>
@@ -515,6 +525,22 @@ Git usage:
 Issues:
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+* GRASS GIS core (7.x): <https://github.com/OSGeo/grass>
+* GRASS GIS legacy (3.x-6.x): <https://github.com/OSGeo/grass-legacy>
+* GRASS GIS Add-ons: <https://github.com/OSGeo/grass-addons>
+* GRASS GIS promotional material: <https://github.com/OSGeo/grass-promo>
+* GRASS GIS Website (hugo site): <https://github.com/OSGeo/grass-website>
+* Github mirror at OSGeo: <https://git.osgeo.org/gitea/grass_gis/grass>
+
+Git usage:
+
+* [CONTRIBUTING.md file](../CONTRIBUTING.md)
+* <https://trac.osgeo.org/grass/wiki/HowToGit>
+
+Issues:
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 * <https://github.com/OSGeo/grass/issues>
 * old trac instance: <https://trac.osgeo.org/grass>
 
@@ -526,11 +552,14 @@ Trac related notes:
 =======
 <<<<<<< HEAD
 * For easier linking in the Trac Wiki, some macro definitions are used for manual page refs (G7:modulename)
+<<<<<<< HEAD
 =======
 * For easier linking in the Trac Wiki, some macro definitions are used for manual
   page refs (G7:modulename)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
   * <https://trac.osgeo.org/grass/wiki/InterMapTxt>
 * ZIP file download support in trac (was needed for g.extension) * on trac.osgeo.org:
 
@@ -545,6 +574,9 @@ Statistics:
 * <https://github.com/OSGeo/grass/pulse>
 * <https://trac.osgeo.org/grass/stats/code>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1018,6 +1050,7 @@ Maintainer: M. Neteler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * <https://grass.osgeo.org>
   * osgeo8-grass: LXD container on osgeo8 (<https://wiki.osgeo.org/wiki/SAC_Service_Status#osgeo_8>)
     * OS: Debian Buster
@@ -1113,6 +1146,8 @@ Maintainer: M. Neteler
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 - <https://grass.osgeo.org>
 
   - osgeo8-grass: LXD container on osgeo8 (<https://wiki.osgeo.org/wiki/SAC_Service_Status#osgeo_8>)
@@ -1851,6 +1886,7 @@ Maintainer: M. Neteler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1941,6 +1977,51 @@ Maintainer: M. Neteler
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+* <https://grass.osgeo.org>
+  * osgeo8-grass: LXD container on osgeo8 (<https://wiki.osgeo.org/wiki/SAC_Service_Status#osgeo_8>)
+    * OS: Debian Buster
+    * Apache Server with hugo (<https://github.com/OSGeo/grass-website>)
+  * for migration details (7/2020), see <https://github.com/OSGeo/grass-website/issues/180>
+  * ssh login: via jumphost hop.osgeo8.osgeo.org
+  * deployment via cronjob: <https://github.com/OSGeo/grass-addons/tree/grass8/utils/cronjobs_osgeo_lxd/>
+* <https://old.grass.osgeo.org> (CMSMS, replaced in 2020 by above hugo based solution)
+  * Shared virtual OSGeo machine (osgeo6) hosted at Oregon State University Open Source Lab
+  server: osgeo6.osgeo.osuosl.org)
+  * Login: via OSGeo LDAP, there is a "grass" LDAP group
+  * Software:
+    * OS: Debian Wheezy
+    * Apache Server with PHP
+  * Login: via OSGeo LDAP, there is a "grass" LDAP group
+* Backups:
+  * osgeo8-grass: container on osgeo8 is backup'ed, see <http://wiki.osgeo.org/wiki/SAC:Backups>
+* Mirrors:
+  * rsync, see <https://grass.osgeo.org/contribute/>  --> Mirror
+  * mirror list, see <https://grass.osgeo.org/about/mirrors/>
+* RSS feed: offered by hugo at <https://grass.osgeo.org/index.xml>, used at <https://planet.osgeo.org>
+
+* Weekly software snapshots (generated Saturday morning Portland (OR), US time):
+  * Source code tarball of git (GitHub) <https://github.com/OSGeo/grass>
+  * Linux binary snapshot is compiled on osgeo8-grass
+    * GRASS is compiled with GDAL, PROJ, SQLite, MySQL, PostgreSQL, FFTW, C++ support
+    * binary tar.gz and manuals are moved into Web space
+
+* GRASS user manual HTML:
+  * generated during compilation of weekly Linux binary snapshot on osgeo8-grass
+
+* GRASS addons manual HTML:
+  * generated during compilation of weekly Linux binary snapshot on osgeo8-grass
+
+* GRASS programmer's manual (<https://grass.osgeo.org/programming8/>)
+  * HTML: cronjob run Wednesday morning Portland (OR), US time
+  * HTML: cronjob run Saturday morning Portland (OR), US time
+  * disabled: PDF: cronjob run Saturday morning Portland (OR), US time
+
+* i18N translation statistics (<https://grass.osgeo.org/development/translations/#statistics>)
+  * generated during compilation of Linux binary snapshot, stats of `(cd locale; make)` are extracted into text file
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
   * text file parsed by PHP page and shown as table
   * GRASS GIS version is coded in devel/i18n_stats.inc
   * for Transifex integration, see below
@@ -1957,6 +2038,7 @@ Maintainer: M. Neteler
 * Web statistics
   * See URL at <http://wiki.osgeo.org/wiki/Project_Stats>
     * cronjob script: /osgeo/scripts/update_logs.sh
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2072,6 +2154,8 @@ Maintainer: M. Neteler
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -2079,6 +2163,7 @@ Maintainer: M. Neteler
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2109,6 +2194,10 @@ Maintainer: M. Neteler
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 Summary: The system should run almost autonomously.
 
@@ -2137,6 +2226,7 @@ Summary: The system should run almost autonomously.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * <https://github.com/landam/wingrass-maintenance-scripts>
 =======
 <<<<<<< HEAD
@@ -2173,11 +2263,14 @@ Summary: The system should run almost autonomously.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 See <https://github.com/landam/wingrass-maintenance-scripts>
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 * <https://github.com/landam/wingrass-maintenance-scripts>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2259,6 +2352,11 @@ See <https://github.com/landam/wingrass-maintenance-scripts>
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+* <https://github.com/landam/wingrass-maintenance-scripts>
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2487,6 +2585,7 @@ Available lists:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * at OSGeo.org (<https://lists.osgeo.org/mailman/listinfo>):
   * grass-abm           Integration of GRASS with JAVA based agent based modeling
                         (ABM)
@@ -2561,6 +2660,8 @@ Notes:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 - at OSGeo.org (<https://lists.osgeo.org/mailman/listinfo>):
   - grass-abm: Integration of GRASS with JAVA based agent based modeling
     (ABM)
@@ -2663,6 +2764,7 @@ Notes:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2694,6 +2796,36 @@ Notes:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+* at OSGeo.org (<https://lists.osgeo.org/mailman/listinfo>):
+   grass-abm            Integration of GRASS with JAVA based agent based modeling (ABM)
+   grass-announce GRASS announcements
+   grass-commit         Mailing list to distribute GRASS-CVS commits
+   grass-dev            GRASS GIS Development mailing list
+   grass-es             La lista de correo de GRASS GIS en español
+   grass-psc            GRASS-PSC: GRASS Project Steering Committee
+   grass-stats          GRASS and statistical software
+   grass-translations   Translation of GRASS (i18N)
+   grass-user           GRASS user list
+   grass-web            GRASS website mailing list
+
+* OLD, UNUSED: at FBK-irst (<http://grass.fbk.eu/mailman/admin/>):
+   grass-commit-addons  Mailing list to distribute GRASS Addons-SVN commits
+   grass-gui            GRASSGUI mailing list
+   grass-qa             GRASS Quality Assessment and monitoring list
+   grass-windows        winGRASS * Using GRASS on MS-Windows systems mailing list
+
+Notes:
+* grass-announce:
+  * moderated by M. Neteler
+  * has monthly password reminder disabled to avoid leakage into publicly archived lists
+* grass-commit is receiving posts from the GRASS SVN at osgeo.org. Not open for other postings, they will be trashed automatically
+* grass-web is an open list (posting without subscription possible) with (Google) spam filter
+  * moderated by M. Neteler to avoid spam
+* OLD, UNUSED: grass-qa is receiving posts from the GRASS Quality Control System at Ecole Polytechnique de Montreal, Canada. Not open for other postings.
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 =======
 * at OSGeo.org (<https://lists.osgeo.org/mailman/listinfo>):
@@ -3369,6 +3501,7 @@ Maintainer: Martin Landa, Markus Neteler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3422,6 +3555,8 @@ Maintainer: Martin Landa, Markus Neteler
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 - <https://grasswiki.osgeo.org>
 - Mediawiki software
 <<<<<<< HEAD
@@ -3455,6 +3590,7 @@ Maintainer: Martin Landa, Markus Neteler
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3542,6 +3678,10 @@ Maintainer: Martin Landa, Markus Neteler
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 * <https://grasswiki.osgeo.org>
 * Mediawiki
 * mirrored at CZ Tech University
@@ -3677,6 +3817,7 @@ Macros for manual pages (src, cmd, API, ...):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3724,6 +3865,8 @@ Macros for manual pages (src, cmd, API, ...):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 - <https://grasswiki.osgeo.org/wiki/Category:Templates>
 
@@ -3893,6 +4036,7 @@ Macros for manual pages (src, cmd, API, ...):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -3971,6 +4115,10 @@ Macros for manual pages (src, cmd, API, ...):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 * <https://grasswiki.osgeo.org/wiki/Category:Templates>
 
 ## GRASS IRC
@@ -4096,6 +4244,7 @@ Web based client: See <https://grasswiki.osgeo.org/wiki/IRC>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4215,6 +4364,13 @@ Web based client: See <https://grasswiki.osgeo.org/wiki/IRC>
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 ## GRASS Bugtracker
 
@@ -4242,6 +4398,7 @@ Current bugtracker (Jan 2020 - today):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4295,6 +4452,8 @@ Current bugtracker (Jan 2020 - today):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 - <https://github.com/OSGeo/grass/issues>
 
@@ -4324,6 +4483,7 @@ Old bugtrackers: see <https://grasswiki.osgeo.org/wiki/Bug_tracking>
 <<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -4821,6 +4981,10 @@ Very very old bugtracker (Dec 2000 * Dec 2006):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 * <https://github.com/OSGeo/grass/issues>
 
@@ -4832,6 +4996,7 @@ Old bugtracker (Jan 2008 - Jan 2020):
 
 Old tracsvn (OSGeo server) (Dec 2007 * Mai 2019)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -4839,6 +5004,8 @@ Old tracsvn (OSGeo server) (Dec 2007 * Mai 2019)
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 ```text
 /var/www/trac/env/grass/conf/trac.ini
   downloadable_paths = /grass-addons/grass7/*/*,/sandbox/*/*
@@ -4862,6 +5029,15 @@ Very old bugtracker (Jan 2007 * Dec 2008):
 
 Very very old bugtracker (Dec 2000 * Dec 2006):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+* <https://intevation.de/rt/webrt?q_queue=grass>
+* webRT, sponsored by Intevation GmbH, Germany
+* spamassasin spamfilter locally, bogofilter at grass-dev list
+* reports are directly sent to GRASS Developers mailing list for notification
+* TODO: migrate to trac
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 * <https://intevation.de/rt/webrt?q_queue=grass>
 * webRT, sponsored by Intevation GmbH, Germany
@@ -4902,6 +5078,7 @@ Maintainer: Martin Landa, Tomas Zigo, and Markus Neteler
 
 Details:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4990,6 +5167,8 @@ Details:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 - Windows-addons: `grass-addons/utils/addons/README.txt`
 =======
 =======
@@ -5199,6 +5378,7 @@ Details:
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -5278,11 +5458,19 @@ Details:
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+* Windows-addons: grass-addons/utils/addons/README.txt
+* Addon manual pages cronjob: <https://github.com/OSGeo/grass-addons/tree/master/utils/cronjobs_osgeo_lxd>
+* Rendered manuals: <https://grass.osgeo.org/grass8/manuals/addons/>
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 The redirect to the latest `grassX` directory is defined on grass.osgeo.org:
 `/etc/apache2/includes/grass.osgeo.org.inc`
 
 Procedure building of binaries (Windows):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5386,6 +5574,8 @@ Procedure of granting write access to Addons repo:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 - Addons module are compiled on winGRASS build server, at the CTU in Prague) and
   publishing their manual pages on publishing server, i.e. grass.osgeo.org.
@@ -5534,6 +5724,22 @@ XML file for g.extension: <https://grass.osgeo.org/addons/grass7/modules.xml>
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+* Addons module are compiled on build server, currently at the CTU in Prague) and publishing their manual pages on publishing server, i.e. grass.osgeo.org.
+* A new compilation is triggered everytime when a commit is done in the Addons-SVN.
+* Logs:
+  * Linux log files:   <https://grass.osgeo.org/addons/grass7/logs> (compiled on `grasslxd` on `osgeo7`)
+  * Windows log files: <http://wingrass.fsv.cvut.cz/grass78/x86_64/addons/latest/logs/>
+
+Procedure of granting write access to Addons repo:
+* Request procedure: <https://trac.osgeo.org/grass/wiki/HowToContribute#WriteaccesstotheGRASS-Addons-SVNrepository>
+* Adding OSGeo-ID:   <https://www.osgeo.org/cgi-bin/auth/ldap_group.py?group=grass_addons>
+* Adding contributor: <https://trac.osgeo.org/grass/browser/grass-addons/contributors.csv> (via SVN commit)
+* Confirm request in grass-psc and give instructions concerning code style etc (see archive for examples)
+
+XML file for g.extension: <https://grass.osgeo.org/addons/grass7/modules.xml>
+* generated in grass-addons/utils/addons/grass-addons-publish.sh
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 ## GRASS Travis CI
 
@@ -5541,11 +5747,14 @@ Maintainer: Martin Landa
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - <https://app.travis-ci.com/github/OSGeo/grass>
 - <https://github.com/OSGeo/grass/tree/main/.travis/>
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 * <https://travis-ci.org/GRASS-GIS>
 * <https://github.com/OSGeo/grass>
 * OLD: <https://github.com/GRASS-GIS/grass-ci>
@@ -5559,6 +5768,7 @@ Travis CI control files:
 
 Maintenance script:
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -5566,6 +5776,8 @@ Maintenance script:
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 * <https://github.com/OSGeo/grass-addons/tree/master/utils/grass-ci/grass-ci.sh>
 
 The github update is run as a cronjob on server "geo102" (CTU, CZ).
@@ -6405,6 +6617,7 @@ Maintainer: Vaclav Petras
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -6458,6 +6671,8 @@ Maintainer: Vaclav Petras
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 - <https://github.com/OSGeo/grass/actions>
 - Details: <https://github.com/OSGeo/grass/pull/525>
 - CI workflow with:
@@ -6501,6 +6716,7 @@ Helper files placed in .github/workflows/
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -6588,10 +6804,15 @@ Helper files placed in .github/workflows/
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 * <https://github.com/OSGeo/grass/actions>
 * Details: <https://github.com/OSGeo/grass/pull/525>
 
 * CI workflow with:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6667,11 +6888,16 @@ Helper files placed in .github/workflows/
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
   * A build job which is not parallelized and is meant for clear & relatively fast check of compilation and building in general. (Duplicating what is running on Travis)
   * A test job which of course needs to build, but the main focus is to run tests, so the compilation is parallelized (depending on nproc) and thus potentially less readable. This runs the whole test suite. (You need to run it locally to see the actual error, but you can see which tests are failing.)
 * Static code analysis/Code quality check using Flake8 with separate checks for python/grass, gui/wxpython, scripts and temporal directories.
   * Configurations ignore different lists of Flake8 errors. The idea is to reduce that to minimum.
   * Code in testsuite directories is also ignored for now, but should not be in the future.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6739,6 +6965,8 @@ Helper files placed in .github/workflows/
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -6957,6 +7185,7 @@ Helper files placed in .github/workflows/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -7047,6 +7276,10 @@ Helper files placed in .github/workflows/
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 ## GRASS docker images
 
@@ -7302,6 +7535,7 @@ Maintainer: Markus Neteler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * <https://scan.coverity.com/projects/grass?tab=overview>
 =======
 <<<<<<< HEAD
@@ -7356,6 +7590,8 @@ Maintainer: Markus Neteler
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 Coverity Scan is a service to find security issues. At time the service
 is used only occasionally.
 =======
@@ -7440,6 +7676,7 @@ is used only occasionally.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -7493,6 +7730,11 @@ is used only occasionally.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+* <https://scan.coverity.com/projects/grass?tab=overview>
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 <<<<<<< HEAD
 - <https://scan.coverity.com/projects/grass?tab=overview>
@@ -7598,6 +7840,7 @@ Messages are extracted with `gettext` message macros.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7643,10 +7886,13 @@ Messages are extracted with `gettext` message macros.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 Translations may be done using the OSGeo Weblate platform:
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7728,12 +7974,17 @@ Translations may be done using the OSGeo Weblate platform:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 * Dashboard: <https://www.transifex.com/grass-gis/>
 * Auto-update URL to fetch files:
   * <https://www.transifex.com/grass-gis/grass7/content/>
     * Menu: Resources
       * Use: "Auto update resources" button
 * Weblate: <https://weblate.osgeo.org/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7817,6 +8068,12 @@ Translations may be done using the OSGeo Weblate platform:
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -8073,6 +8330,7 @@ Further notification/functionality test systems:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -8192,6 +8450,13 @@ Further notification/functionality test systems:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 ## Previous hosting sponsors
 

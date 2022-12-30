@@ -373,10 +373,17 @@ void classification(struct Map_info *Out, struct Cell_head Elaboration,
                                 _("Impossible to write to aux table"));
 
                     } /*else (1) */
+<<<<<<< HEAD
                 } /*else */
             }
         } /*end if obs */
     } /*end for */
+=======
+                }     /*else */
+            }
+        }                                 /*end if obs */
+    }                                     /*end for */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     G_percent(num_points, num_points, 2); /* finish it */
 
     db_commit_transaction(driver);

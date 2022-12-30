@@ -294,6 +294,7 @@ int Vect_get_line_type(struct Map_info *Map, int line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_node_coor(const struct Map_info *Map, int num, double *x,
                        double *y, double *z)
 =======
@@ -349,6 +350,8 @@ int Vect_get_node_coor(const struct Map_info *Map, int num, double *x,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int Vect_get_node_coor(struct Map_info *Map, int num, double *x, double *y,
                        double *z)
 =======
@@ -436,6 +439,7 @@ int Vect_get_node_coor(const struct Map_info *Map, int num, double *x,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -490,6 +494,12 @@ int Vect_get_node_coor(const struct Map_info *Map, int num, double *x,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+int Vect_get_node_coor(const struct Map_info *Map, int num, double *x,
+                       double *y, double *z)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     struct P_node *Node;
 
@@ -583,6 +593,7 @@ int Vect_get_line_nodes(struct Map_info *Map, int line, int *n1, int *n2)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_line_areas(const struct Map_info *Map, int line, int *left,
                         int *right)
 =======
@@ -638,6 +649,8 @@ int Vect_get_line_areas(const struct Map_info *Map, int line, int *left,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int Vect_get_line_areas(struct Map_info *Map, int line, int *left, int *right)
 =======
 int Vect_get_line_areas(const struct Map_info *Map, int line, int *left,
@@ -724,6 +737,7 @@ int Vect_get_line_areas(const struct Map_info *Map, int line, int *left,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -778,6 +792,12 @@ int Vect_get_line_areas(const struct Map_info *Map, int line, int *left,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+int Vect_get_line_areas(const struct Map_info *Map, int line, int *left,
+                        int *right)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     struct P_topo_b *topo;
 
@@ -901,6 +921,7 @@ int Vect_get_centroid_area(struct Map_info *Map, int centroid)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \brief Enable/disable maintanance of list of updated lines/nodes
 =======
 <<<<<<< HEAD
@@ -955,6 +976,8 @@ int Vect_get_centroid_area(struct Map_info *Map, int centroid)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
    \brief Enable/disable maintenance of list of updated lines/nodes
 =======
    \brief Enable/disable maintanance of list of updated lines/nodes
@@ -984,6 +1007,7 @@ int Vect_get_centroid_area(struct Map_info *Map, int centroid)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1089,6 +1113,11 @@ int Vect_get_centroid_area(struct Map_info *Map, int centroid)
    \brief Enable/disable maintanance of list of updated lines/nodes
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+   \brief Enable/disable maintanance of list of updated lines/nodes
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
    See Plus_head.uplist for details.
 

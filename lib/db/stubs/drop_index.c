@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_drop_index(dbString *name)
 =======
 <<<<<<< HEAD
@@ -78,6 +79,8 @@ int db__driver_drop_index(dbString *name)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 int db__driver_drop_index(dbString *name UNUSED)
 =======
 int db__driver_drop_index(dbString *name)
@@ -107,6 +110,7 @@ int db__driver_drop_index(dbString *name)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -212,6 +216,11 @@ int db__driver_drop_index(dbString *name)
 int db__driver_drop_index(dbString *name)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+int db__driver_drop_index(dbString *name)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 {
     db_procedure_not_implemented("db_drop_index");
     return DB_FAILED;

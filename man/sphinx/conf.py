@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 # GRASS GIS 8.3 Documentation documentation build configuration file, created by
@@ -98,6 +99,8 @@
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 # GRASS GIS Python documentation build configuration file
 # originally created by sphinx-quickstart.
 =======
@@ -284,7 +287,13 @@
 =======
 # GRASS GIS 8.0 Documentation documentation build configuration file, created by
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+# GRASS GIS 8.3 Documentation documentation build configuration file, created by
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 # sphinx-quickstart on Thu Aug  9 17:16:28 2012.
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 #
@@ -323,6 +332,7 @@ source_suffix = ".txt"
 master_doc = "index"
 
 # General information about the project.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -437,6 +447,8 @@ copyright = "2023, GRASS Development Team"
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 project = "GRASS GIS"
 copyright = "2024, GRASS Development Team"
 =======
@@ -774,13 +786,21 @@ copyright = "2021, GRASS Development Team"
 project = "GRASS GIS 8.0 Documentation"
 copyright = "2021, GRASS Development Team"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+project = "GRASS GIS 8.3 Documentation"
+copyright = "2022, GRASS Development Team"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -894,6 +914,8 @@ version = "8.3"
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 version = "8.4"
 =======
 version = "8.0"
@@ -992,6 +1014,7 @@ version = "8.3"
 =======
 version = "8.0"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -1125,6 +1148,11 @@ version = "8.0"
 version = "8.0"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+version = "8.3"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 # The full version, including alpha/beta/rc tags.
 release = "dev"
 
@@ -1274,6 +1302,7 @@ html_use_index = False
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 htmlhelp_basename = "grass83Documentationdoc"
@@ -1353,6 +1382,8 @@ htmlhelp_basename = "grass83Documentationdoc"
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 htmlhelp_basename = "grass_gis"
 =======
 htmlhelp_basename = "grass80Documentationdoc"
@@ -1451,6 +1482,7 @@ htmlhelp_basename = "grass83Documentationdoc"
 =======
 htmlhelp_basename = "grass80Documentationdoc"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -1584,6 +1616,11 @@ htmlhelp_basename = "grass80Documentationdoc"
 htmlhelp_basename = "grass80Documentationdoc"
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+htmlhelp_basename = "grass83Documentationdoc"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -1602,6 +1639,7 @@ latex_elements = {
 latex_documents = [
     (
         "content",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1716,6 +1754,8 @@ latex_documents = [
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         "grass_gis.tex",
         project,
 =======
@@ -2010,7 +2050,14 @@ latex_documents = [
         "grass80Documentation.tex",
         "GRASS GIS 8.0 Documentation",
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+        "grass83Documentation.tex",
+        "GRASS GIS 8.3 Documentation",
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         "GRASS Development Team",
         "manual",
     ),
@@ -2044,6 +2091,7 @@ latex_documents = [
 man_pages = [
     (
         "content",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2158,6 +2206,8 @@ man_pages = [
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         "grass_gis",
         project,
 =======
@@ -2452,7 +2502,14 @@ man_pages = [
         "grass80documentation",
         "GRASS GIS 8.0 Documentation",
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+        "grass83documentation",
+        "GRASS GIS 8.3 Documentation",
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         ["GRASS Development Team"],
         1,
     )
@@ -2470,6 +2527,7 @@ man_pages = [
 texinfo_documents = [
     (
         "content",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2586,6 +2644,8 @@ texinfo_documents = [
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         "grass_gis",
         project,
         "GRASS Development Team",
@@ -2924,7 +2984,16 @@ texinfo_documents = [
         "GRASS Development Team",
         "grass80Documentation",
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+        "grass83Documentation",
+        "GRASS GIS 8.3 Documentation",
+        "GRASS Development Team",
+        "grass83Documentation",
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
         "One line description of project.",
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         "Miscellaneous",
@@ -2944,6 +3013,7 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3060,6 +3130,8 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 epub_title = project
 epub_author = "GRASS Development Team"
 epub_publisher = epub_author
@@ -3415,6 +3487,7 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 epub_copyright = "2022, GRASS Development Team"
@@ -3580,6 +3653,14 @@ epub_copyright = "2023, GRASS Development Team"
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+epub_title = "GRASS GIS 8.3 Documentation"
+epub_author = "GRASS Development Team"
+epub_publisher = "GRASS Development Team"
+epub_copyright = "2022, GRASS Development Team"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.

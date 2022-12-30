@@ -155,6 +155,7 @@ static struct robject *draw_line_vertices(void);
 >>>>>>> osgeo-main
 static struct robject *draw_line_vertices();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -225,6 +226,7 @@ static struct robject *draw_line_vertices();
 static struct robject *draw_line_vertices(void);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -346,6 +348,10 @@ static struct robject *draw_line_vertices();
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 static void draw_line_nodes(struct Map_info *, int, int, struct robject_list *);
 static int draw_line_dir(struct robject_list *, int);
 static void list_append(struct robject_list *, struct robject *);
@@ -516,10 +522,15 @@ struct robject *draw_line(struct Map_info *Map, int line, int draw_flag)
     G_debug(3, "  draw_line(): type=%d rtype=%d npoints=%d draw=%d", state.type,
             obj->type, state.Points->n_points, draw);
 
+<<<<<<< HEAD
     if (!draw) {
         G_free(obj);
         return NULL;
     }
+=======
+    if (!draw)
+        return NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     obj->npoints = state.Points->n_points;
     obj->point =
