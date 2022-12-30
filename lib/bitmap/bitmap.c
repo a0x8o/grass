@@ -267,6 +267,10 @@ int BM_set_mode(int mode, int size)
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -501,6 +505,7 @@ int BM_set_mode(int mode, int size)
 =======
         break;
 =======
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -508,7 +513,18 @@ int BM_set_mode(int mode, int size)
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+        break;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
     default:
         fprintf(stderr, "BM_set_mode:  Unknown mode: %d\n", mode);
         ret--;
@@ -679,6 +695,14 @@ struct BM *BM_file_read(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    if (fread(&c, sizeof(char), sizeof(char), fp) != sizeof(char))
+        return NULL;
+    if (c != BM_MAGIC) {
+=======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1153,6 +1177,7 @@ struct BM *BM_file_read(FILE *fp)
 =======
     if (fread(&c, sizeof(char), sizeof(char), fp) != sizeof(char)) {
 =======
+<<<<<<< HEAD
     if (fread(&c, sizeof(char), sizeof(char), fp) != sizeof(char))
         return NULL;
     if (c != BM_MAGIC) {
@@ -1167,154 +1192,25 @@ struct BM *BM_file_read(FILE *fp)
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> osgeo-main
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
     if (fread(&c, sizeof(char), sizeof(char), fp) != sizeof(char)) {
 =======
     if (fread(&c, sizeof(char), sizeof(char), fp) != sizeof(char))
         return NULL;
     if (c != BM_MAGIC) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
-        free(map);
-        return NULL;
-    }
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
->>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
-=======
->>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
-=======
->>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
-=======
-<<<<<<< HEAD
->>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
-    if (c != BM_MAGIC) {
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-=======
-<<<<<<< HEAD
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
         free(map);
         return NULL;
     }
@@ -1335,108 +1231,11 @@ struct BM *BM_file_read(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
-=======
-<<<<<<< HEAD
-=======
->>>>>>> osgeo-main
-<<<<<<< HEAD
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
-=======
-<<<<<<< HEAD
->>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
->>>>>>> main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
-=======
->>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
+=======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
     if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -1446,58 +1245,38 @@ struct BM *BM_file_read(FILE *fp)
 =======
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
     if (c != BM_MAGIC) {
 =======
     if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
@@ -1515,223 +1294,49 @@ struct BM *BM_file_read(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
-=======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
     if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
-=======
->>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
-=======
-<<<<<<< HEAD
->>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
->>>>>>> main
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
-=======
->>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
-=======
-=======
-    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
-=======
 =======
     if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
-=======
 =======
 <<<<<<< HEAD
     if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 =======
     if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 =======
     if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 =======
     if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 =======
 =======
@@ -1739,25 +1344,30 @@ struct BM *BM_file_read(FILE *fp)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 =======
     if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
-=======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
         free(map);
         return NULL;
     }
@@ -1796,6 +1406,453 @@ struct BM *BM_file_read(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+    if (c != BM_MAGIC) {
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+<<<<<<< HEAD
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+        free(map);
+        return NULL;
+    }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1942,8 +1999,17 @@ struct BM *BM_file_read(FILE *fp)
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
     if (fread(buf, BM_TEXT_LEN, sizeof(char), fp) != sizeof(char)) {
         free(map);
         return NULL;
@@ -1983,6 +2049,7 @@ struct BM *BM_file_read(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2007,10 +2074,14 @@ struct BM *BM_file_read(FILE *fp)
 =======
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2189,8 +2260,17 @@ struct BM *BM_file_read(FILE *fp)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
     if (fread(&c, sizeof(char), sizeof(char), fp) != sizeof(char)) {
         free(map);
         return NULL;
