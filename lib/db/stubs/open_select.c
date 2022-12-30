@@ -67,6 +67,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 =======
 <<<<<<< HEAD
@@ -459,6 +460,8 @@ int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_open_select_cursor(dbString *select UNUSED,
                                   dbCursor *cursor UNUSED, int mode UNUSED)
 =======
@@ -526,6 +529,7 @@ int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1048,6 +1052,8 @@ int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 {
     db_procedure_not_implemented("db_open_select_cursor");
     return DB_FAILED;

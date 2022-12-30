@@ -254,6 +254,7 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 double *maxNS, double *maxEW, struct element_grow **mat,
                 int CBordo)
 =======
@@ -648,6 +649,8 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                 double *maxNS, double *maxEW, struct element_grow **mat UNUSED,
                 int CBordo UNUSED)
 =======
@@ -716,6 +719,7 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1296,6 +1300,8 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 {
     int c1;
     double minBordo, medioBordo; /*, minBordo1; */
@@ -1486,6 +1492,7 @@ void free_structmatrix(struct element_grow **m, long nrl, long nrh, long ncl,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -2042,6 +2049,9 @@ void free_structmatrix(struct element_grow **m, long nrl, long nrh, long ncl,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 {
     free((FREE_ARG)(m[nrl] + ncl - NR_END));
     free((FREE_ARG)(m + nrl - NR_END));

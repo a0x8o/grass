@@ -56,6 +56,7 @@ static void append_char(char *, char);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -667,6 +668,8 @@ static void append_char(char *, char);
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
    If <i>name</i> is of the form "nnn@ppp" then path is set as if name
    had been "nnn" and mapset had been "ppp" (mapset parameter itself is
    ignored in this case).
@@ -812,12 +815,15 @@ static void append_char(char *, char);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
    If <i>name</i> is of the form "nnn@ppp" then path is set as if name
    had been "nnn" and mapset had been "ppp" (mapset parameter itself is
@@ -826,6 +832,9 @@ static void append_char(char *, char);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
    Paths to files are currently in form:
    /path/to/location/mapset/element/name
@@ -850,6 +859,7 @@ static void append_char(char *, char);
    >>> /full/path/to/mapset/elem/name
    @endcode
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2017,6 +2027,8 @@ static void append_char(char *, char);
 <<<<<<< HEAD
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
   \param[out] path allocated buffer to hold resultant full path to file
   \param element database element (eg, "cell", "cellhd", "vector", etc)
   \param name name of file to build path to (fully qualified names allowed)
@@ -2726,6 +2738,7 @@ static void append_char(char *, char);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2879,12 +2892,16 @@ static void append_char(char *, char);
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
    \param[out] path allocated buffer to hold resultant full path to file
    \param element database element (eg, "cell", "cellhd", "vector", etc)
    \param name name of file to build path to (fully qualified names allowed)
    \param mapset mapset name
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3530,6 +3547,8 @@ static void append_char(char *, char);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
    \return pointer to <i>path</i> buffer
  */
 char *G_file_name(char *path, const char *element, const char *name,
@@ -3541,6 +3560,7 @@ char *G_file_name(char *path, const char *element, const char *name,
 /*!
    \brief Builds full path names to GIS misc data files
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4539,6 +4559,8 @@ char *G_file_name(char *path, const char *element, const char *name,
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
    Paths to misc files are currently in form:
    /path/to/location/mapset/dir/name/element
 =======
@@ -4569,6 +4591,7 @@ char *G_file_name(char *path, const char *element, const char *name,
    >>> /full/path/to/mapset/dir/name/elem
    @endcode
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8882b01eef (Improve G_open|find _misc function documentation (#1760))
 <<<<<<< HEAD
@@ -5248,6 +5271,8 @@ char *G_file_name(char *path, const char *element, const char *name,
 <<<<<<< HEAD
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
   \param[out] path allocated buffer to hold resultant full path to file
   \param dir misc directory (e.g., "cell_misc", "group")
   \param element database element (in this case – file to build path to e.g., "history", "REF")
@@ -5954,6 +5979,7 @@ char *G_file_name(char *path, const char *element, const char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6107,6 +6133,9 @@ char *G_file_name(char *path, const char *element, const char *name,
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
    \param[out] path allocated buffer to hold resultant full path to file
    \param dir misc directory (e.g., "cell_misc", "group")
    \param element database element (in this case – file to build path to e.g.,
@@ -6114,6 +6143,7 @@ char *G_file_name(char *path, const char *element, const char *name,
    names allowed e.g., "my_raster@PERMANENT") \param mapset mapset name
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6761,6 +6791,8 @@ char *G_file_name(char *path, const char *element, const char *name,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
    \return pointer to <i>path</i> buffer
  */
 char *G_file_name_misc(char *path, const char *dir, const char *element,

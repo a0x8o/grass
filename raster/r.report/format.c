@@ -144,6 +144,7 @@ int format_parms(double v, int *n, int *dp, int *eformat, int e_option)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1926,6 +1927,12 @@ int format_parms(double v, int *n, int *dp, int *eformat, int e_option)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+        if ((int)strlen(buf) <= *n)
+=======
+        if (strlen(buf) <= *n)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
             break;
 
         if (*dp) {

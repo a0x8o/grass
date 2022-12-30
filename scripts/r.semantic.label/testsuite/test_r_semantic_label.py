@@ -66,6 +66,7 @@ from grass.gunittest.main import test
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from grass.gunittest.gmodules import SimpleModule, call_module
 =======
 <<<<<<< HEAD
@@ -458,6 +459,8 @@ from grass.gunittest.gmodules import SimpleModule, call_module
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 from grass.gunittest.gmodules import SimpleModule
 =======
 from grass.gunittest.gmodules import SimpleModule, call_module
@@ -524,6 +527,7 @@ from grass.gunittest.gmodules import SimpleModule, call_module
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1046,6 +1050,8 @@ from grass.gunittest.gmodules import SimpleModule, call_module
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
 from grass.script.core import tempname
 from grass.pygrass.gis import Mapset
@@ -1163,6 +1169,7 @@ class TestSemanticLabelsSystemDefined(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1553,6 +1560,8 @@ class TestSemanticLabelsSystemDefined(TestCase):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     def test_semantic_label_print(self):
         semantic_label = "S2_1"
         semantic_label_desc = "S2 Visible (Coastal/Aerosol)"
@@ -1632,6 +1641,7 @@ class TestSemanticLabelsSystemDefined(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2112,6 +2122,8 @@ class TestSemanticLabelsSystemDefined(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     def test_semantic_label_dissociate(self):
         module = SimpleModule("r.semantic.label", operation="remove", map=self.map)
         self.assertModule(module)

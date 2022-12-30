@@ -75,6 +75,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -815,6 +816,11 @@
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#include <cinttypes>
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -1250,6 +1256,7 @@ void record_args(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3032,6 +3039,12 @@ void record_args(int argc, char **argv)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+    snprintf(buf, BUFSIZ, "D8CUT=%f", opt->d8cut);
+=======
+    sprintf(buf, "D8CUT=%f", opt->d8cut);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     stats->comment(buf);
 
     size_t mm_size = (size_t)opt->mem << 20; /* (in bytes) */
@@ -3157,6 +3170,7 @@ void record_args(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4939,6 +4953,12 @@ void record_args(int argc, char **argv)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+    snprintf(buf, BUFSIZ, "Memory size: %s bytes", tmp);
+=======
+    sprintf(buf, "Memory size: %s bytes", tmp);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     stats->comment(buf);
 }
 
@@ -5071,6 +5091,7 @@ void printMaxSortSize(long nodata_count)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5461,6 +5482,8 @@ void printMaxSortSize(long nodata_count)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     G_debug(1, "total elements=%" PRId64 ", nodata elements=%ld",
             (off_t)nrows * ncols, nodata_count);
     G_debug(1, "largest temporary files: ");
@@ -5469,6 +5492,7 @@ void printMaxSortSize(long nodata_count)
             sizeof(waterWindowType));
     G_debug(1, "\t\t FLOW: %s [%" PRId64 " elements, %ldB each]",
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6011,6 +6035,8 @@ void printMaxSortSize(long nodata_count)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     G_debug(1, "total elements=%" PRI_OFF_T ", nodata elements=%ld",
             (off_t)nrows * ncols, nodata_count);
     G_debug(1, "largest temporary files: ");
@@ -6085,6 +6111,7 @@ void printMaxSortSize(long nodata_count)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -6641,6 +6668,9 @@ void printMaxSortSize(long nodata_count)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
             formatNumber(buf, flowmaxsize), (off_t)nrows * ncols - nodata_count,
             sizeof(sweepItem));
     G_debug(1, "Will need at least %s space available in %s",
@@ -6831,6 +6861,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8613,6 +8644,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+    snprintf(buf, BUFSIZ, "%s=%s", STREAM_TMPDIR, opt->streamdir);
+=======
+    sprintf(buf, "%s=%s", STREAM_TMPDIR, opt->streamdir);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     /* don't pass an automatic variable; putenv() isn't guaranteed to make a
      * copy */
     putenv(G_store(buf));
@@ -8828,6 +8865,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10610,6 +10648,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+    snprintf(path, GPATH_MAX, "%s/flowStream", streamdir->answer);
+=======
+    sprintf(path, "%s/flowStream", streamdir->answer);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     flowStream = new AMI_STREAM<waterWindowBaseType>(path);
   G_verbose_message(_("flowStream opened: len=%lld\n", flowStream->stream_len());
   G_verbose_message(_("jumping to flow accumulation computation\n");

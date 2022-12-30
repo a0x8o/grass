@@ -157,6 +157,7 @@ void fatal_error(void *map, int elevfd, int outfd,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1939,6 +1940,12 @@ void set_params();                /*Fill the paramType structure */
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+void set_params(void);            /*Fill the paramType structure */
+=======
+void set_params();                /*Fill the paramType structure */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 void rast3d_cross_section(void *map, RASTER3D_Region region, int elevfd,
                           int outfd); /*Write the raster */
 void close_output_map(int fd);        /*close the map */

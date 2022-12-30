@@ -1755,6 +1755,7 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?
 =======
 <<<<<<< HEAD
@@ -2147,6 +2148,8 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         # TODO: it is here just to remove old or obsolete beavior of base class
         #       gcp/MapPanel?
 =======
@@ -2214,6 +2217,7 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2736,6 +2740,8 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         # self.grwiz.SwitchEnv('source')
         pass
 

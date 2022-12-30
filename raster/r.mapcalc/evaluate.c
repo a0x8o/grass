@@ -254,6 +254,7 @@ static void evaluate_constant(expression *e)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static void evaluate_variable(expression *e)
 =======
 <<<<<<< HEAD
@@ -646,6 +647,8 @@ static void evaluate_variable(expression *e)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 static void evaluate_variable(expression *e UNUSED)
 =======
 static void evaluate_variable(expression *e)
@@ -712,6 +715,7 @@ static void evaluate_variable(expression *e)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1234,6 +1238,8 @@ static void evaluate_variable(expression *e)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 {
     /* this is a no-op */
 }

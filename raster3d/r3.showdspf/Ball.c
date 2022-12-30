@@ -60,6 +60,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -773,6 +774,10 @@
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+ * Graphics Gems 4, edited by Andrew Glassner
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
  * Graphics Gems 4, editted by Andrew Glassner
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
  */

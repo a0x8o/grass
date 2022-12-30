@@ -71,6 +71,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 double r_net(double bbalb, double ndvi, double tempk, double dtair, double e0,
              double tsw, double doy, double utc, double sunzangle)
 =======
@@ -465,6 +466,8 @@ double r_net(double bbalb, double ndvi, double tempk, double dtair, double e0,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 double r_net(double bbalb, double ndvi UNUSED, double tempk, double dtair,
              double e0, double tsw, double doy, double utc UNUSED,
              double sunzangle)
@@ -534,6 +537,7 @@ double r_net(double bbalb, double ndvi, double tempk, double dtair, double e0,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1114,6 +1118,8 @@ double r_net(double bbalb, double ndvi, double tempk, double dtair, double e0,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 {
 
     /* Tsw =  atmospheric transmissivity single-way (~0.7 -) */

@@ -158,6 +158,7 @@ int load_rasters(const struct GParams *params, nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -548,6 +549,8 @@ int load_rasters(const struct GParams *params, nv_data *data)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         /* color */
         /* check for color map */
         if (i < ncolor_map && strcmp(params->color_map->answers[i], "")) {
@@ -557,6 +560,7 @@ int load_rasters(const struct GParams *params, nv_data *data)
                               params->color_map->answers[i]);
             }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1099,6 +1103,8 @@ int load_rasters(const struct GParams *params, nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         mapset = G_find_raster2(params->color_map->answers[i], "");
         if (mapset == NULL) {
             G_fatal_error(_("Raster map <%s> not found"),
@@ -1174,6 +1180,7 @@ int load_rasters(const struct GParams *params, nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -1730,6 +1737,9 @@ int load_rasters(const struct GParams *params, nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
             Nviz_set_attr(
                 id, MAP_OBJ_SURF, ATT_COLOR, MAP_ATT,
                 G_fully_qualified_name(params->color_map->answers[i], mapset),

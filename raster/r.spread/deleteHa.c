@@ -87,6 +87,7 @@ void deleteHa(float old_min_cost, int row, int col, struct costHa *heap,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         printf("programming ERROR: can't delete a cell from an ampty list");
 =======
 <<<<<<< HEAD
@@ -479,6 +480,8 @@ void deleteHa(float old_min_cost, int row, int col, struct costHa *heap,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         printf("programming ERROR: can't delete a cell from an empty list");
 =======
         printf("programming ERROR: can't delete a cell from an ampty list");
@@ -545,6 +548,7 @@ void deleteHa(float old_min_cost, int row, int col, struct costHa *heap,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1067,6 +1071,8 @@ void deleteHa(float old_min_cost, int row, int col, struct costHa *heap,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         exit(1);
     }
     /* search the old_cell from the heap */

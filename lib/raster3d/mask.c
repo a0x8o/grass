@@ -370,6 +370,7 @@ void Rast3d_mask_tile(RASTER3D_Map *map, int tileIndex, void *tile, int type)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 tile += length;
             }
 
@@ -772,6 +773,8 @@ void Rast3d_mask_tile(RASTER3D_Map *map, int tileIndex, void *tile, int type)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                 tile = (char *)tile + length;
             }
 
@@ -848,6 +851,7 @@ void Rast3d_mask_tile(RASTER3D_Map *map, int tileIndex, void *tile, int type)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1440,6 +1444,8 @@ void Rast3d_mask_tile(RASTER3D_Map *map, int tileIndex, void *tile, int type)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     }
 }
 

@@ -106,6 +106,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
                                  dglInt32_t nStart)
 =======
@@ -500,6 +501,8 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 #include <grass/gis.h>
 
 int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph UNUSED,
@@ -570,6 +573,7 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1150,6 +1154,8 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 {
     pCache->nStartNode = nStart;
     pCache->pvVisited = NULL;
@@ -1230,6 +1236,7 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 =======
 <<<<<<< HEAD
@@ -1622,6 +1629,8 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph UNUSED, dglSPCache_s *pCache)
 =======
 void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
@@ -1688,6 +1697,7 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2210,6 +2220,8 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 {
     if (pCache->pvVisited)
         avl_destroy(pCache->pvVisited, dglTreeTouchI32Cancel);

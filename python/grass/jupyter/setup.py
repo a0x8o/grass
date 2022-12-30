@@ -76,6 +76,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -814,6 +815,8 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 #            Vaclav Petras <wenzeslaus gmail com>
 #
 # PURPOSE:   This module contains functions for launching a GRASS session
@@ -1208,16 +1211,20 @@ import os
 import weakref
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
 import grass.script as gs
 
 
 def _set_notebook_defaults():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1229,6 +1236,8 @@ def _set_notebook_defaults():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     """
 <<<<<<< HEAD
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -1238,6 +1247,7 @@ def _set_notebook_defaults():
     """Set defaults appropriate for Jupyter Notebooks.
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3180,6 +3190,8 @@ def _set_notebook_defaults():
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     This function sets several GRASS environment variables that are
     important for GRASS to run smoothly in Jupyter.
 
@@ -3269,6 +3281,7 @@ def _set_notebook_defaults():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4007,6 +4020,8 @@ def _set_notebook_defaults():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 class _JupyterGlobalSession:
     """Represents a global GRASS session for Jupyter Notebooks.
 
@@ -4996,6 +5011,7 @@ def init(path, location, mapset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5181,9 +5197,12 @@ def init(path, location, mapset):
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
 class _JupyterGlobalSession:
     """Represents a global GRASS session for Jupyter Notebooks.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5240,11 +5259,22 @@ class _JupyterGlobalSession:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+    Do not create objects of this class directly. Use the standalone *init* function
+    and an object will be returned to you, e.g.:
+
+    >>> import grass.jupyter as gj
+    >>> session = gj.init(...)
+
+    An object ends the session when it is destroyed or when the *finish* method is
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     called explicitely.
 
     Notably, only the mapset is closed, but the libraries and GRASS modules
     remain on path.
     """
+<<<<<<< HEAD
 
     def __init__(self):
         self._finalizer = weakref.finalize(self, gs.setup.finish)
@@ -8493,6 +8523,9 @@ def init(path, location=None, mapset=None, grass_path=None):
 <<<<<<< HEAD
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     # Create a GRASS GIS session.
     gsetup.init(os.environ["GISBASE"], path, location, mapset)
     # Set GRASS env. variables
@@ -9251,6 +9284,7 @@ def display_settings(font="sans", driver="cairo"):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9445,6 +9479,9 @@ def display_settings(font="sans", driver="cairo"):
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
     def __init__(self):
         self._finalizer = weakref.finalize(self, gs.setup.finish)
@@ -9529,6 +9566,7 @@ def init(path, location=None, mapset=None, grass_path=None):
     """Initiates a GRASS session and sets GRASS environment variables.
 
     Calling this function returns an object which represents the session.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9670,6 +9708,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
     >>> import grass.jupyter as gj
     >>> session = gj.init(...)
@@ -9692,6 +9732,7 @@ def init(path, location=None, mapset=None, grass_path=None):
     :param str location: name of GRASS location within the database
     :param str mapset: name of mapset within location
     """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10471,6 +10512,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     global _global_session_handle  # pylint: disable=global-statement,invalid-name
     if not _global_session_handle or not _global_session_handle.active:
         # Create a GRASS session.
@@ -10481,6 +10524,7 @@ def init(path, location=None, mapset=None, grass_path=None):
     else:
         _global_session_handle.switch_mapset(path, location=location, mapset=mapset)
     return _global_session_handle
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11597,3 +11641,6 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))

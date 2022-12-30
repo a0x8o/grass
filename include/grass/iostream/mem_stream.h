@@ -287,6 +287,7 @@ char *MEM_STREAM<T>::sprint()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2069,6 +2070,12 @@ char *MEM_STREAM<T>::sprint()
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+    snprintf(buf, sizeof(buf), "[MEM_STREAM %d]", stream_len());
+=======
+    sprintf(buf, "[MEM_STREAM %d]", stream_len());
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     return buf;
 }
 

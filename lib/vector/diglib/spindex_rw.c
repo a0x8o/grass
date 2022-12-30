@@ -183,6 +183,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -939,6 +940,8 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         off_t size;
 
         size = 145; /* max header size, see below */
@@ -947,6 +950,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
         size += (off_t)ptr->Area_spidx->n_nodes * ptr->Area_spidx->nodesize;
         size += (off_t)ptr->Isle_spidx->n_nodes * ptr->Isle_spidx->nodesize;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1892,12 +1896,15 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
         size = 145; /* max header size, see below */
         size += ptr->Node_spidx->n_nodes * ptr->Node_spidx->nodesize;
         size += ptr->Line_spidx->n_nodes * ptr->Line_spidx->nodesize;
         size += ptr->Area_spidx->n_nodes * ptr->Area_spidx->nodesize;
         size += ptr->Isle_spidx->n_nodes * ptr->Isle_spidx->nodesize;
 
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -2552,6 +2559,9 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         if (size < PORT_INT_MAX)
             ptr->spidx_port.off_t_size = 4;
         else
@@ -3292,6 +3302,7 @@ static off_t rtree_write_from_memory(struct gvfile *fp, off_t startpos,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                               "Wrong node position (%" PRI_OFF_T
                               ") in file (should be %" PRI_OFF_T ").",
 =======
@@ -3686,6 +3697,8 @@ static off_t rtree_write_from_memory(struct gvfile *fp, off_t startpos,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                               "Wrong node position (%" PRId64
                               ") in file (should be %" PRId64 ").",
 =======
@@ -3754,6 +3767,7 @@ static off_t rtree_write_from_memory(struct gvfile *fp, off_t startpos,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4334,6 +4348,8 @@ static off_t rtree_write_from_memory(struct gvfile *fp, off_t startpos,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                               G_ftell(fp->file), nextfreepos);
 
             /* write with dig__fwrite_port_* fns */
@@ -4517,6 +4533,7 @@ static off_t rtree_write_from_file(struct gvfile *fp, off_t startpos,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                               "Wrong node position (%" PRI_OFF_T
                               ") in file (should be %" PRI_OFF_T ").",
 =======
@@ -4911,6 +4928,8 @@ static off_t rtree_write_from_file(struct gvfile *fp, off_t startpos,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                               "Wrong node position (%" PRId64
                               ") in file (should be %" PRId64 ").",
 =======
@@ -4979,6 +4998,7 @@ static off_t rtree_write_from_file(struct gvfile *fp, off_t startpos,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5559,6 +5579,8 @@ static off_t rtree_write_from_file(struct gvfile *fp, off_t startpos,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                               G_ftell(fp->file), nextfreepos);
 
             /* write with dig__fwrite_port_* fns */
@@ -5974,6 +5996,7 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6724,10 +6747,13 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         rtree_load_to_file(fp, rootpos, t, off_t_size);
     else
         rtree_load_to_memory(fp, rootpos, t, off_t_size);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6952,10 +6978,13 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         return rtree_load_to_file(fp, rootpos, t, off_t_size);
     else
         return rtree_load_to_memory(fp, rootpos, t, off_t_size);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8509,6 +8538,8 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /*!

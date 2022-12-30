@@ -133,6 +133,7 @@ double A[14] = {0,   545, 709,  429, 301, 235, 242,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -689,6 +690,9 @@ double A[14] = {0,   545, 709,  429, 301, 235, 242,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 double B[14] = {0,    -1.21, -1.32, -1.19, -1.05, -0.92, -0.94,
                 0.83, 0,     -1.51, -0.89, -0.81, -0.78, -0.79};
 

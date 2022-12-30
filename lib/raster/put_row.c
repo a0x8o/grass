@@ -215,6 +215,7 @@ static void convert_float(float *work_buf, int size, char *null_buf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -771,6 +772,9 @@ static void convert_float(float *work_buf, int size, char *null_buf,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 {
     int i;
 
@@ -862,6 +866,7 @@ static void convert_double(double *work_buf, int size, char *null_buf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -1418,6 +1423,9 @@ static void convert_double(double *work_buf, int size, char *null_buf,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 {
     int i;
 
@@ -1523,6 +1531,7 @@ static void put_fp_data(int fd, char *null_buf, const void *rast, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         convert_float(work_buf, size, null_buf, rast, row, n);
     else
         convert_double(work_buf, size, null_buf, rast, row, n);
@@ -1919,6 +1928,8 @@ static void put_fp_data(int fd, char *null_buf, const void *rast, int row,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         convert_float(work_buf, null_buf, rast, n);
     else
         convert_double(work_buf, null_buf, rast, n);
@@ -1989,6 +2000,7 @@ static void put_fp_data(int fd, char *null_buf, const void *rast, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2572,6 +2584,8 @@ static void put_fp_data(int fd, char *null_buf, const void *rast, int row,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
     if (compressed)
         write_data_compressed(fd, row, work_buf, n, fcb->cellhd.compressed);
@@ -2966,6 +2980,7 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3100,10 +3115,13 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     if (nwrite > 0 && (size_t)nwrite < size) {
         if ((res = write(fcb->null_fd, compressed_buf, nwrite)) < 0 ||
             (unsigned int)res != nwrite)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5132,11 +5150,17 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+    if (nwrite > 0 && nwrite < size) {
+        if (write(fcb->null_fd, compressed_buf, nwrite) != nwrite)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(
                 _("Error writing compressed null data for row %d of <%s>: %s"),
                 row, fcb->name, strerror(errno));
     }
     else {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6795,6 +6819,13 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+        if ((res = write(fcb->null_fd, flags, size)) < 0 ||
+            (unsigned int)res != size)
+=======
+        if (write(fcb->null_fd, flags, size) != size)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(
                 _("Error writing compressed null data for row %d of <%s>: %s"),
                 row, fcb->name, strerror(errno));
@@ -7197,6 +7228,7 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8690,6 +8722,13 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+    if ((res = write(fcb->null_fd, flags, size)) < 0 ||
+        (unsigned int)res != size)
+=======
+    if (write(fcb->null_fd, flags, size) != size)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error(_("Error writing null row %d of <%s>: %s"), row,
                       fcb->name, strerror(errno));
 =======

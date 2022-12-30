@@ -82,6 +82,7 @@ int dareatheme(struct Map_info *Map, struct cat_list *Clist,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                int chcat, struct Cell_head *window, int default_width)
 =======
 <<<<<<< HEAD
@@ -474,6 +475,8 @@ int dareatheme(struct Map_info *Map, struct cat_list *Clist,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                int chcat, struct Cell_head *window, int default_width UNUSED)
 =======
                int chcat, struct Cell_head *window, int default_width)
@@ -540,6 +543,7 @@ int dareatheme(struct Map_info *Map, struct cat_list *Clist,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1062,6 +1066,8 @@ int dareatheme(struct Map_info *Map, struct cat_list *Clist,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 {
 
     int num, area, isle, n_isles, n_points;

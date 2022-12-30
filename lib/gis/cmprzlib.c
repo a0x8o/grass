@@ -208,6 +208,7 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1738,6 +1739,12 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+    if (dst_sz < 0 || buf_sz > (unsigned int)dst_sz) {
+=======
+    if (buf_sz > dst_sz) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         G_warning(
             "G_zlib_compress(): programmer error, destination is too small");
         if (NULL ==
@@ -1859,6 +1866,7 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3389,6 +3397,12 @@ int G_zlib_compress(unsigned char *src, int src_sz, unsigned char *dst,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+    if (src_sz < 0 || nbytes >= (unsigned int)src_sz) {
+=======
+    if (nbytes >= src_sz) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         /* compression not possible */
         if (buf != dst)
             G_free(buf);
@@ -3541,6 +3555,7 @@ int G_zlib_expand(unsigned char *src, int src_sz, unsigned char *dst,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5071,6 +5086,12 @@ int G_zlib_expand(unsigned char *src, int src_sz, unsigned char *dst,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+    if (dst_sz < 0 || nbytes != (unsigned int)dst_sz) {
+=======
+    if (nbytes != dst_sz) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         /* TODO: it is not an error if destination is larger than needed */
         G_warning(_("Got uncompressed size %d, expected %d"), (int)nbytes,
                   dst_sz);

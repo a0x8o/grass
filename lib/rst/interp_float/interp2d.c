@@ -132,6 +132,7 @@ int IL_grid_calc_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     double *ertot,                  /*!< total interpolating func. error */
 =======
 <<<<<<< HEAD
@@ -524,6 +525,8 @@ int IL_grid_calc_2d(
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     double *ertot UNUSED,           /*!< total interpolating func. error */
 =======
     double *ertot,                  /*!< total interpolating func. error */
@@ -590,6 +593,7 @@ int IL_grid_calc_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1112,6 +1116,8 @@ int IL_grid_calc_2d(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     double *b,                      /*!< solutions of linear equations */
     off_t offset1,                  /*!< offset for temp file writing */
     double dnorm)

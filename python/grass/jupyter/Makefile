@@ -4103,6 +4103,7 @@ MODULES = setup display
 =======
 MODULES = \
 	setup \
+<<<<<<< HEAD
 	display \
 <<<<<<< HEAD
 	interact_display
@@ -4120,7 +4121,9 @@ MODULES = \
 	interact_display \
 	utils
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> 8472b7b824 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> 094ff59126 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
 >>>>>>> 4fbf035b9a (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
@@ -4200,6 +4203,19 @@ MODULES = \
 =======
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+	map \
+	interactivemap \
+	region \
+	map3d \
+	reprojection_renderer \
+	utils \
+	timeseriesmap
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)

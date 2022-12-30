@@ -145,6 +145,7 @@ void grid_decimation_create_list_with_point(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     struct DecimationPoint *point, size_t npoints)
 =======
 <<<<<<< HEAD
@@ -537,6 +538,8 @@ void grid_decimation_create_list_with_point(
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     struct DecimationPoint *point, size_t npoints UNUSED)
 =======
     struct DecimationPoint *point, size_t npoints)
@@ -603,6 +606,7 @@ void grid_decimation_create_list_with_point(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1125,6 +1129,8 @@ void grid_decimation_create_list_with_point(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 {
     struct DecimationPoint **point_list =
         G_malloc(1 * sizeof(struct DecimationPoint *));

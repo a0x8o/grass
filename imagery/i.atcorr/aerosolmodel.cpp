@@ -549,6 +549,7 @@ void AerosolModel::save()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   coefficients, single scattering albedo, phase function, assymetry factor)
 =======
 <<<<<<< HEAD
@@ -941,6 +942,8 @@ void AerosolModel::save()
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
   coefficients, single scattering albedo, phase function, asymmetry factor)
 =======
   coefficients, single scattering albedo, phase function, assymetry factor)
@@ -1007,6 +1010,7 @@ void AerosolModel::save()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1529,6 +1533,8 @@ void AerosolModel::save()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
   at the ten discrete wavelengths for the selected model (or created model)
   from:
   (1) the characteristics of the basic components of the International

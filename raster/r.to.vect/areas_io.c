@@ -192,6 +192,7 @@ int write_boundary(struct COOR *seed)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int write_bnd(struct COOR *line_begin,
                      struct COOR *line_end, /* start and end point of line */
                      int n                  /* number of points to write */
@@ -588,6 +589,8 @@ static int write_bnd(struct COOR *line_begin,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 static int
 write_bnd(struct COOR *line_begin,
           struct COOR *line_end UNUSED, /* start and end point of line */
@@ -659,6 +662,7 @@ static int write_bnd(struct COOR *line_begin,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1242,6 +1246,8 @@ static int write_bnd(struct COOR *line_begin,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 )
 {
     static struct line_pnts *points = NULL;
@@ -1353,6 +1359,7 @@ write_smooth_bnd(struct COOR *line_begin,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                  struct COOR *line_end, /* start and end point of line */
                  int n                  /* number of points to write */
 =======
@@ -1747,6 +1754,8 @@ write_smooth_bnd(struct COOR *line_begin,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                  struct COOR *line_end UNUSED, /* start and end point of line */
                  int n                         /* number of points to write */
 =======
@@ -1815,6 +1824,7 @@ write_smooth_bnd(struct COOR *line_begin,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2395,6 +2405,8 @@ write_smooth_bnd(struct COOR *line_begin,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 )
 {
     static struct line_pnts *points = NULL;

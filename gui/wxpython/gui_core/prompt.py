@@ -514,6 +514,7 @@ class GPrompt:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
 =======
@@ -958,6 +959,9 @@ class GPrompt:
                     ".wxgui_history",
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+                    ".wxgui_history",
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                 ),
                 encoding="utf-8",
                 mode="r",

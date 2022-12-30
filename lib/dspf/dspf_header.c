@@ -134,6 +134,7 @@ int dfwrite_header(file_info *headp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1635,6 +1636,13 @@ int dfwrite_header(file_info *headp)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+    if ((fwrite(linep->tvalue, flsize, linep->nthres, fp)) !=
+        (size_t)linep->nthres) {
+=======
+    if ((fwrite(linep->tvalue, flsize, linep->nthres, fp)) != linep->nthres) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         fprintf(stderr, "ERROR: fwrite in dspf_header.c\n");
         return (-1);
     }

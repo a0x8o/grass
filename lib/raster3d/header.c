@@ -98,6 +98,7 @@ int xdrLength;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int Rast3d_readWriteHeader(
     struct Key_Value *headerKeys, int doRead, int *proj, int *zone,
     double *north, double *south, double *east, double *west, double *top,
@@ -508,6 +509,8 @@ static int Rast3d_readWriteHeader(
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 static int Rast3d__readHeader(
     struct Key_Value *headerKeys, int *proj, int *zone, double *north,
     double *south, double *east, double *west, double *top, double *bottom,
@@ -538,6 +541,7 @@ static int Rast3d_readWriteHeader(
     int *vertical_unit, int *version)
 {
     int returnVal;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1204,6 +1208,8 @@ static int Rast3d_readWriteHeader(
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     int (*headerInt)(), (*headerDouble)(), (*headerValue)();
     int (*headerString)();
 
@@ -1335,6 +1341,7 @@ static int Rast3d_readWriteHeader(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1725,6 +1732,8 @@ static int Rast3d_readWriteHeader(
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
     Rast3d_error("Rast3d_readWriteHeader: error reading/writing header");
     return 0;
@@ -1869,6 +1878,7 @@ static int Rast3d__writeHeader(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2349,6 +2359,8 @@ static int Rast3d__writeHeader(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
     Rast3d_error("Rast3d_readWriteHeader: error reading/writing header");
     return 0;
@@ -2436,6 +2448,7 @@ int Rast3d_read_header(RASTER3D_Map *map, int *proj, int *zone, double *north,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2826,12 +2839,15 @@ int Rast3d_read_header(RASTER3D_Map *map, int *proj, int *zone, double *north,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     if (!Rast3d__readHeader(headerKeys, proj, zone, north, south, east, west,
                             top, bottom, rows, cols, depths, ew_res, ns_res,
                             tb_res, tileX, tileY, tileZ, type, compression,
                             useRle, useLzw, precision, dataOffset, useXdr,
                             hasIndex, unit, vertical_unit, version)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3374,6 +3390,8 @@ int Rast3d_read_header(RASTER3D_Map *map, int *proj, int *zone, double *north,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     if (!Rast3d_readWriteHeader(
             headerKeys, 1, proj, zone, north, south, east, west, top, bottom,
             rows, cols, depths, ew_res, ns_res, tb_res, tileX, tileY, tileZ,
@@ -3446,6 +3464,7 @@ int Rast3d_read_header(RASTER3D_Map *map, int *proj, int *zone, double *north,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -4002,6 +4021,9 @@ int Rast3d_read_header(RASTER3D_Map *map, int *proj, int *zone, double *north,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         Rast3d_error(
             "Rast3d_read_header: error extracting header key(s) of file %s",
             path);
@@ -4094,6 +4116,7 @@ int Rast3d_write_header(RASTER3D_Map *map, int proj, int zone, double north,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!Rast3d_readWriteHeader(
             headerKeys, 0, &proj, &zone, &north, &south, &east, &west, &top,
 =======
@@ -4488,6 +4511,8 @@ int Rast3d_write_header(RASTER3D_Map *map, int proj, int zone, double north,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     if (!Rast3d__writeHeader(
             headerKeys, &proj, &zone, &north, &south, &east, &west, &top,
 =======
@@ -4556,6 +4581,7 @@ int Rast3d_write_header(RASTER3D_Map *map, int proj, int zone, double north,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5136,6 +5162,8 @@ int Rast3d_write_header(RASTER3D_Map *map, int proj, int zone, double north,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
             &bottom, &rows, &cols, &depths, &ew_res, &ns_res, &tb_res, &tileX,
             &tileY, &tileZ, &type, &compression, &useRle, &useLzw, &precision,
             &dataOffset, &useXdr, &hasIndex, &unit, &vertical_unit, &version)) {

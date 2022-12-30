@@ -85,6 +85,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void init_vis(struct Point *points, int num_points, struct Line *lines,
               int num_lines)
 =======
@@ -479,6 +480,8 @@ void init_vis(struct Point *points, int num_points, struct Line *lines,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 void init_vis(struct Point *points, int num_points, struct Line *lines UNUSED,
               int num_lines UNUSED)
 =======
@@ -547,6 +550,7 @@ void init_vis(struct Point *points, int num_points, struct Line *lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1127,6 +1131,8 @@ void init_vis(struct Point *points, int num_points, struct Line *lines,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 {
     int i;
     double d;

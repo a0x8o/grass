@@ -182,6 +182,7 @@ int do_grid_cross(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1756,6 +1757,14 @@ int do_grid_cross(void)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+    for (; g_north >= PS.w.south; g_north -= PS.grid) {
+        for (; g_east > PS.w.west; g_east -= PS.grid) {
+=======
+    for (j = 0; g_north >= PS.w.south; j++, g_north -= PS.grid) {
+        for (k = 0; g_east > PS.w.west; k++, g_east -= PS.grid) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
             if (g_north == PS.w.north || g_north == PS.w.south)
                 continue;

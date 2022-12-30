@@ -149,6 +149,7 @@ void *Rowio_get(ROWIO *R, int row)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \param R pointer to ROWIO strcuture
 =======
 <<<<<<< HEAD
@@ -541,6 +542,8 @@ void *Rowio_get(ROWIO *R, int row)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
    \param R pointer to ROWIO structure
 =======
    \param R pointer to ROWIO strcuture
@@ -607,6 +610,7 @@ void *Rowio_get(ROWIO *R, int row)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1129,6 +1133,8 @@ void *Rowio_get(ROWIO *R, int row)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
  */
 void Rowio_flush(ROWIO *R)
 {

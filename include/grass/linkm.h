@@ -77,6 +77,7 @@ struct link_head {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     int max_ptr;        /* num of chunks alloced */
 =======
 <<<<<<< HEAD
@@ -469,6 +470,8 @@ struct link_head {
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     int max_ptr;        /* num of chunks allocated */
 =======
     int max_ptr;        /* num of chunks alloced */
@@ -535,6 +538,7 @@ struct link_head {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1057,6 +1061,8 @@ struct link_head {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     int alloced;        /* size of ptr_array */
     int chunk_size;     /* size of alloc chucks in units */
     int unit_size;      /* size of each user defined unit */

@@ -133,6 +133,7 @@ double th_7 = 1.0;     /* Band 4/5 Ratio */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;
 =======
 <<<<<<< HEAD
@@ -525,6 +526,8 @@ double th_7 = 1.0;     /* Band 4/5 Ratio */
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
 =======
 ;
@@ -591,6 +594,7 @@ double th_7 = 1.0;     /* Band 4/5 Ratio */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1113,6 +1117,8 @@ double th_7 = 1.0;     /* Band 4/5 Ratio */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 double th_8 = 210.; /* Band 5/6 Composite */
 
 extern int hist_n;

@@ -88,6 +88,7 @@ static void normalize(float n[3]);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void viz_iso_surface(void *g3map, RASTER3D_Region *g3reg, cmndln_info *linefax,
                      int quiet)
 =======
@@ -482,6 +483,8 @@ void viz_iso_surface(void *g3map, RASTER3D_Region *g3reg, cmndln_info *linefax,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 void viz_iso_surface(void *g3map, RASTER3D_Region *g3reg,
                      cmndln_info *linefax UNUSED, int quiet)
 =======
@@ -550,6 +553,7 @@ void viz_iso_surface(void *g3map, RASTER3D_Region *g3reg, cmndln_info *linefax,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1130,6 +1134,8 @@ void viz_iso_surface(void *g3map, RASTER3D_Region *g3reg, cmndln_info *linefax,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 {
     float *data[4]; /* will hold 4 slices of xy data */
     int zloop;

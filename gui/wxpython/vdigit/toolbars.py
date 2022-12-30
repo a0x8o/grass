@@ -249,6 +249,7 @@ class VDigitToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "Delete selected point(s), line(s), boundary(ies) or centroid(s) (Ctrl+D)"
 =======
 <<<<<<< HEAD
@@ -641,6 +642,8 @@ class VDigitToolbar(BaseToolbar):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                     "Delete selected point(s), line(s), boundary(ies) or "
                     "centroid(s) (Ctrl+D)"
 =======
@@ -708,6 +711,7 @@ class VDigitToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1230,6 +1234,8 @@ class VDigitToolbar(BaseToolbar):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                 ),
                 desc=_("Left: Select; Ctrl+Left: Unselect; Right: Confirm"),
             ),
@@ -1324,6 +1330,7 @@ class VDigitToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "Move selected point(s), line(s), boundary(ies) or centroid(s) (Ctrl+M)"
 =======
 <<<<<<< HEAD
@@ -1716,6 +1723,8 @@ class VDigitToolbar(BaseToolbar):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                     "Move selected point(s), line(s), boundary(ies) or "
                     "centroid(s) (Ctrl+M)"
 =======
@@ -1783,6 +1792,7 @@ class VDigitToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2305,6 +2315,8 @@ class VDigitToolbar(BaseToolbar):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                 ),
                 desc=_("Left: Select; Ctrl+Left: Unselect; Right: Confirm"),
             ),
@@ -2601,6 +2613,7 @@ class VDigitToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2991,6 +3004,8 @@ class VDigitToolbar(BaseToolbar):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         if self.toolSwitcher and event:
             self.toolSwitcher.ToolChanged(event.GetId())
 
@@ -3058,6 +3073,7 @@ class VDigitToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3538,6 +3554,8 @@ class VDigitToolbar(BaseToolbar):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         # set cursor
         self.MapWindow.SetNamedCursor("cross")
         self.MapWindow.mouse["box"] = "point"
@@ -3610,6 +3628,7 @@ class VDigitToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if event:
             BaseToolbar.OnTool(self, event)
 =======
@@ -3854,9 +3873,12 @@ class VDigitToolbar(BaseToolbar):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
         if event:
             BaseToolbar.OnTool(self, event)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4504,6 +4526,8 @@ class VDigitToolbar(BaseToolbar):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
         # clear tmp canvas
         if self.action["id"] != aId or aId == -1:

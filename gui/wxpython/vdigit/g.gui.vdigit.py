@@ -1047,6 +1047,12 @@ def main():
             parent.SetSizer(sizer)
             parent.Layout()
 
+            # add Map Display panel to Map Display frame
+            sizer = wx.BoxSizer(wx.VERTICAL)
+            sizer.Add(self, proportion=1, flag=wx.EXPAND)
+            parent.SetSizer(sizer)
+            parent.Layout()
+
     if not haveVDigit:
         gs.fatal(_("Vector digitizer not available. %s") % errorMsg)
 

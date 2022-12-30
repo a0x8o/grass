@@ -175,6 +175,7 @@ static int seg_format(int fd, off_t nrows, off_t ncols, int srows, int scols,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_warning("Segment_format(fd,%" PRI_OFF_T ",%" PRI_OFF_T
 =======
 <<<<<<< HEAD
@@ -567,6 +568,8 @@ static int seg_format(int fd, off_t nrows, off_t ncols, int srows, int scols,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         G_warning("Segment_format(fd,%" PRId64 ",%" PRId64
 =======
         G_warning("Segment_format(fd,%" PRI_OFF_T ",%" PRI_OFF_T
@@ -633,6 +636,7 @@ static int seg_format(int fd, off_t nrows, off_t ncols, int srows, int scols,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1155,6 +1159,8 @@ static int seg_format(int fd, off_t nrows, off_t ncols, int srows, int scols,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                   ",%d,%d,%d): illegal value(s)",
                   nrows, ncols, srows, scols, len);
         return -3;
@@ -1391,6 +1397,7 @@ static int zero_fill(int fd, off_t nbytes)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3173,6 +3180,12 @@ static int zero_fill(int fd, off_t nbytes)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+        n = nbytes > (int)sizeof(buf) ? (int)sizeof(buf) : nbytes;
+=======
+        n = nbytes > sizeof(buf) ? sizeof(buf) : nbytes;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         errno = 0;
         if (write(fd, buf, n) != n) {
             int err = errno;

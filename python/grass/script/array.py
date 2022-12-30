@@ -144,6 +144,7 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -255,10 +256,16 @@ import numpy as np
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+import numpy as np
+=======
+<<<<<<< HEAD
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
 from __future__ import absolute_import
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 import numpy
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 import numpy as np
@@ -534,6 +541,9 @@ import numpy
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
 from .utils import try_remove
 from . import core as gcore

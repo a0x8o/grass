@@ -67,6 +67,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_find_database(dbHandle *handle, int *found)
 =======
 <<<<<<< HEAD
@@ -459,6 +460,8 @@ int db__driver_find_database(dbHandle *handle, int *found)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_find_database(dbHandle *handle UNUSED, int *found UNUSED)
 =======
 int db__driver_find_database(dbHandle *handle, int *found)
@@ -525,6 +528,7 @@ int db__driver_find_database(dbHandle *handle, int *found)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1047,6 +1051,8 @@ int db__driver_find_database(dbHandle *handle, int *found)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 {
     db_procedure_not_implemented("db_find_database");
     return DB_FAILED;

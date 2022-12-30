@@ -619,6 +619,7 @@ static int manage_memory(int srows, int scols, struct globals *globals)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_verbose_message(
             _("Regions with at least %" PRI_LONG " cells are stored in memory"),
             globals->min_reg_size);
@@ -1015,6 +1016,8 @@ static int manage_memory(int srows, int scols, struct globals *globals)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         char buf[100];
         snprintf(buf, sizeof(buf), "%" PRI_LONG, globals->min_reg_size);
         G_verbose_message(
@@ -1086,6 +1089,7 @@ static int manage_memory(int srows, int scols, struct globals *globals)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1669,6 +1673,8 @@ static int manage_memory(int srows, int scols, struct globals *globals)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* calculate number of segments in memory */

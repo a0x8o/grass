@@ -123,6 +123,7 @@ struct feat_parts {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
 =======
 <<<<<<< HEAD
@@ -515,6 +516,8 @@ int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 int Vect__get_area_points_pg(struct Map_info *, const plus_t *, int,
 =======
 int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
@@ -581,6 +584,7 @@ int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1103,6 +1107,8 @@ int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                              struct line_pnts *);
 
 /* build_pg.c */

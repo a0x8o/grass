@@ -774,6 +774,10 @@
         <label>WMS/WMTS import</label>
       </module-item>
       <separator/>
+      <module-item name="r.in.wms">
+        <label>WMS/WMTS import</label>
+      </module-item>
+      <separator/>
       <module-item name="r.unpack">
         <label>Unpack raster map</label>
       </module-item>
@@ -1737,6 +1741,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2127,6 +2132,8 @@
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
       <module-item name="v.fill.holes">
         <label>Fill holes in areas</label>
       </module-item>
@@ -2194,6 +2201,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2674,6 +2682,8 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
       <module-item name="v.generalize">
         <label>Smooth or simplify</label>
       </module-item>

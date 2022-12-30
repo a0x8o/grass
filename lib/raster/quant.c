@@ -190,6 +190,7 @@ int Rast__quant_organize_fp_lookup(struct Quant *q)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* now find the rule to apply inbetween each 2 values in a list */
 =======
 <<<<<<< HEAD
@@ -582,6 +583,8 @@ int Rast__quant_organize_fp_lookup(struct Quant *q)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         /* now find the rule to apply in between each 2 values in a list */
 =======
         /* now find the rule to apply inbetween each 2 values in a list */
@@ -648,6 +651,7 @@ int Rast__quant_organize_fp_lookup(struct Quant *q)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1170,6 +1174,8 @@ int Rast__quant_organize_fp_lookup(struct Quant *q)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         for (i = 0; i < q->fp_lookup.nalloc - 1; i++) {
             /*debug
                fprintf (stderr, "%lf %lf ", q->fp_lookup.vals[i],
@@ -1760,6 +1766,7 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3542,6 +3549,12 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+    int (*lower)(double, double);
+=======
+    int (*lower)();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
     dtmp = dcellVal;
     /* I know the functions which call me already check for null values,

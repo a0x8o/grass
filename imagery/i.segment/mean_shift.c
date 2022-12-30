@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -784,6 +785,11 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#include <stdio.h>
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 #include <stdlib.h>
 #include <string.h>
 #include <float.h>
@@ -1255,6 +1261,7 @@ int mean_shift(struct globals *globals)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_message(_("Changes > threshold: %" PRI_LONG ", largest change: %g"),
                   n_changes, sqrt(maxdiff2));
 =======
@@ -1649,6 +1656,8 @@ int mean_shift(struct globals *globals)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         char buf[100];
         snprintf(buf, sizeof(buf), "%" PRI_LONG, n_changes);
         G_message(_("Changes > threshold: %s, largest change: %g"), buf,
@@ -1719,6 +1728,7 @@ int mean_shift(struct globals *globals)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2299,6 +2309,8 @@ int mean_shift(struct globals *globals)
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     }
     if (n_changes > 1)
         G_message(_("Mean shift stopped at %d due to reaching max iteration "

@@ -2395,6 +2395,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         size=wx.Display().GetGeometry().GetSize(),
 =======
 <<<<<<< HEAD
@@ -2791,10 +2792,13 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         size=wx.GetClientDisplayRect().GetSize(),
 =======
         size=wx.Display().GetGeometry().GetSize(),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3391,6 +3395,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         style=wx.DEFAULT_FRAME_STYLE,
         **kwargs,
     ):
@@ -4593,6 +4599,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -5252,6 +5259,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         self.PANE_BEST_SIZE = tuple(t // 5 for t in self.size)
         self.PANE_MIN_SIZE = tuple(t // 8 for t in self.size)
 
@@ -5863,8 +5872,11 @@ class GMFrame(wx.Frame):
         self.CreateStatusBar(number=1)
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7a0b48f61f (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
         self.PANE_BEST_SIZE = tuple(t // 5 for t in self.size)
         self.PANE_MIN_SIZE = tuple(t // 8 for t in self.size)
@@ -5875,6 +5887,7 @@ class GMFrame(wx.Frame):
             menu=self.menubar,
         )
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
@@ -6762,6 +6775,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         self.BuildPanes()
         self.BindEvents()
 =======
@@ -7063,6 +7078,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -7262,6 +7278,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
             single_window_dim = {
                 "group": "general",
                 "key": "defWindowPos",
@@ -7289,6 +7307,7 @@ class GMFrame(wx.Frame):
         else:
             self.Maximize(True)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7590,10 +7609,13 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
             dim = UserSettings.Get(group="general", key="defWindowPos", subkey="dim")
             try:
                 x, y = map(int, dim.split(",")[0:2])
                 w, h = map(int, dim.split(",")[2:4])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7653,6 +7675,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                 client_disp = wx.ClientDisplayRect()
                 if x == 1:
                     # Get client display x offset (OS panel)
@@ -7660,6 +7684,7 @@ class GMFrame(wx.Frame):
                 if y == 1:
                     # Get client display y offset (OS panel)
                     y = client_disp[1]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7721,10 +7746,13 @@ class GMFrame(wx.Frame):
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                 self.SetPosition((x, y))
                 self.SetSize((w, h))
             except Exception:
                 pass
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7782,6 +7810,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
             self.Layout()
             if w <= globalvar.GM_WINDOW_SIZE[0] or h <= globalvar.GM_WINDOW_SIZE[1]:
                 self.Fit()
@@ -7791,6 +7821,7 @@ class GMFrame(wx.Frame):
             # does center (of screen) make sense for lmgr?
             self.Centre()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8437,6 +8468,9 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         self.Show()
 
         # load workspace file if requested
@@ -8649,6 +8683,7 @@ class GMFrame(wx.Frame):
             return self._auimgr.GetPane(name).IsShown()
         return False
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9545,6 +9580,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     def SetStatusText(self, *args):
         """Override SbMain statusbar method"""
         self.statusbar.SetStatusText(*args)
@@ -9621,6 +9658,7 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10232,10 +10270,14 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     def SetStatusText(self, *args):
         """Overide SbMain statusbar method"""
         self.statusbar.SetStatusText(*args)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10989,6 +11031,9 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     def _createMapNotebook(self):
         """Create Map Display notebook"""
         # create the notebook off-window to avoid flicker
@@ -11003,6 +11048,7 @@ class GMFrame(wx.Frame):
             wx.Size(430, 200),
             agwStyle=notebook_style,
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11212,6 +11258,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         self.mapnotebook.SetArtProvider(SimpleTabArt())
         # bindings
         self.mapnotebook.Bind(
@@ -11222,6 +11270,7 @@ class GMFrame(wx.Frame):
             aui.EVT_AUINOTEBOOK_PAGE_CLOSE,
             self.OnMapNotebookClose,
         )
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11352,6 +11401,8 @@ class GMFrame(wx.Frame):
             aui.EVT_AUINOTEBOOK_PAGE_CLOSE,
             self.OnMapNotebookClose,
         )
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> d7075af684 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -13812,6 +13863,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14404,6 +14456,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         # create display toolbar
         dmgrToolbar = DisplayPanelToolbar(guiparent=self.pg_panel, parent=self)
 
@@ -14742,6 +14796,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14917,10 +14972,13 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
         # create display toolbar
         dmgrToolbar = DisplayPanelToolbar(guiparent=self.pg_panel, parent=self)
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15037,6 +15095,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         self.notebookLayers.AddPage(page=self.pg_panel, text=name, select=True)
         self.currentPage = self.notebookLayers.GetCurrentPage()
         self.currentPageNum = self.notebookLayers.GetSelection()
@@ -18121,6 +18181,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -19258,6 +19319,14 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        cb_boxsizer.Add(dmgrToolbar, proportion=0, flag=wx.EXPAND)
+=======
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+        cb_boxsizer.Add(dmgrToolbar, proportion=0, flag=wx.EXPAND)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         cb_boxsizer.Add(self.GetLayerTree(), proportion=1, flag=wx.EXPAND, border=1)
         self.currentPage.SetSizer(cb_boxsizer)
         cb_boxsizer.Fit(self.GetLayerTree())
@@ -20352,6 +20421,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -21173,6 +21243,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
             """Callback to check if user wants to close display. Map
             Display index can be different from index in Display tab.
 
@@ -21245,6 +21319,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                "mapnotebook" key represent
 =======
 <<<<<<< HEAD
@@ -21637,6 +21712,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                                                "mainnotebook" key represent
 =======
                                                "mapnotebook" key represent
@@ -21703,6 +21780,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -22225,6 +22303,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                                                map display notebook page
                                                index (single window mode)
             """
@@ -22296,6 +22376,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             pgnum_dict["mapnotebook"] = self.mapnotebook.GetPageIndex(mapdisplay)
             name = self.notebookLayers.GetPageText(pgnum_dict["layers"])
 =======
@@ -22690,6 +22771,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
             pgnum_dict["mainnotebook"] = self.mainnotebook.GetPageIndex(mapdisplay)
             name = self.notebookLayers.GetPageText(pgnum_dict["layers"])
 =======
@@ -22697,6 +22780,7 @@ class GMFrame(wx.Frame):
             pgnum = self.notebookLayers.GetPageIndex(page)
             name = self.notebookLayers.GetPageText(pgnum)
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22934,9 +23018,12 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
             pgnum_dict["mapnotebook"] = self.mapnotebook.GetPageIndex(mapdisplay)
             name = self.notebookLayers.GetPageText(pgnum_dict["layers"])
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23697,6 +23784,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
             caption = _("Close Map Display {}").format(name)
             if not askIfSaveWorkspace or (
                 askIfSaveWorkspace and self.workspace_manager.CanClosePage(caption)
@@ -23792,6 +23881,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -24363,6 +24453,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                 return pgnum_dict
             return None
 
@@ -24373,6 +24465,7 @@ class GMFrame(wx.Frame):
             lambda page=self.currentPage: self._onMapDisplayFocus(page),
 =======
                 return pgnum
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24943,6 +25036,11 @@ class GMFrame(wx.Frame):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                return pgnum_dict
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
             return None
 
         mapdisplay.canCloseDisplayCallback = CanCloseDisplay
@@ -30233,8 +30331,11 @@ class GMFrame(wx.Frame):
         self._auimgr.AddPane(
             self.notebookLayers,
             aui.AuiPaneInfo()
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
             .Name("layers")
             .Caption("Layers")
             .Left()
@@ -30304,6 +30405,7 @@ class GMFrame(wx.Frame):
             pane = self._auimgr.GetPane(notebook)
             pane.BestSize(self.PANE_BEST_SIZE)
             pane.MinSize(self.PANE_MIN_SIZE)
+<<<<<<< HEAD
 =======
 >>>>>>> 58e6f5060a (Add Binder badge/button to readme (#1628))
 =======
@@ -34512,6 +34614,8 @@ class GMFrame(wx.Frame):
             pane = self._auimgr.GetPane(notebook)
             pane.BestSize(self.PANE_BEST_SIZE)
             pane.MinSize(self.PANE_MIN_SIZE)
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
         wx.CallAfter(self.datacatalog.LoadItems)
 
@@ -35535,6 +35639,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -35933,11 +36038,14 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
         self.Bind(wx.EVT_KEY_DOWN, self.OnKeyDown)
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
         self.Bind(wx.EVT_KEY_DOWN, self.OnKeyDown)
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36682,6 +36790,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
 =======
 =======
@@ -40835,6 +40947,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -41408,6 +41521,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     def _renamePageNoEvent(self, pgnum_dict, is_docked, text):
         if is_docked:
             self.mainnotebook.SetMainPageText(
@@ -41497,6 +41612,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
         self.mapnotebook.DeletePage(page_index)
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41730,6 +41846,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
     def _closePageNoEvent(self, pgnum_dict):
         """Close page and destroy map display without generating notebook
         page closing event.
@@ -41763,6 +41881,7 @@ class GMFrame(wx.Frame):
             for i in range(notebook.GetPageCount()):
                 if notebook.GetPageText(i) == page_text:
                     notebook.SetSelection(i)
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42586,6 +42705,9 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 
     def _closePageNoEvent(self, pgnum_dict, is_docked):
         """If map display is docked, close page and destroy map display without
@@ -47046,6 +47168,9 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> main
     def OnCloseWindow(self, event):
@@ -47621,6 +47746,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b1889b7764 (Add Binder badge/button to readme (#1628))
@@ -48277,6 +48403,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     def OnCloseWindow(self, event):
         """Cleanup when wxGUI is quit"""
         self._closeWindow(event)
@@ -48463,6 +48593,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -48849,6 +48980,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     def _onMapsetWatchdog(self, map_path, map_dest):
         """Current mapset watchdog event handler
 
@@ -48925,6 +49058,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -49394,11 +49528,14 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
     def OnMapNotebookClose(self, event):
         """Page of map notebook is being closed"""
         display = self.GetMapDisplay(onlyCurrent=True)
         display.OnCloseWindow(event=None, askIfSaveWorkspace=True)
         event.Veto()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50039,3 +50176,6 @@ class GMFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))

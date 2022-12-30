@@ -144,6 +144,7 @@ class PointListToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -857,6 +858,10 @@ class PointListToolbar(BaseToolbar):
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                (None,),  # ,
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                 (None,)  # ,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 # ('isec_turn_edit', icons['isec_turn_edit'],

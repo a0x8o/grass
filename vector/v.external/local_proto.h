@@ -109,6 +109,7 @@ void get_table_name(const char *, char **, char **);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void check_projection(struct Cell_head *, ds_t, int, char *, char *, int, int,
                       int);
 =======
@@ -503,6 +504,8 @@ void check_projection(struct Cell_head *, ds_t, int, char *, char *, int, int,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 void check_projection(struct Cell_head *, GDALDatasetH, int, char *, char *,
                       int, int, int);
 =======
@@ -571,6 +574,7 @@ void check_projection(struct Cell_head *, ds_t, int, char *, char *, int, int,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1151,4 +1155,6 @@ void check_projection(struct Cell_head *, ds_t, int, char *, char *, int, int,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 #endif

@@ -325,6 +325,7 @@ int connect_lines(struct Map_info *Map, int first, int line_from, int line_to,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   double thresh, struct ilist *List)
 =======
 <<<<<<< HEAD
@@ -717,6 +718,8 @@ int connect_lines(struct Map_info *Map, int first, int line_from, int line_to,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
                   double thresh, struct ilist *List UNUSED)
 =======
                   double thresh, struct ilist *List)
@@ -783,6 +786,7 @@ int connect_lines(struct Map_info *Map, int first, int line_from, int line_to,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1305,6 +1309,8 @@ int connect_lines(struct Map_info *Map, int first, int line_from, int line_to,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 {
     int line_new;
     int type_from, type_to;
