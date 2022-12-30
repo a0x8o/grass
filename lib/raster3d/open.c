@@ -324,6 +324,7 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -636,6 +637,8 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -817,6 +820,8 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
         if (map->indexNbytesUsed > (int)sizeof(long))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -886,7 +891,11 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
         if (map->indexNbytesUsed > sizeof(long))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2569,6 +2578,7 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
@@ -3057,6 +3067,10 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
             Rast3d_fatal_error(
                 _("Rast3d_open_cell_old: index does not fit into long"));
 

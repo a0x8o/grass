@@ -319,6 +319,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -795,6 +796,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1025,6 +1027,10 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
     for (i = 0; i < nlayers; i++) {
         Ogr_layer = OGR_DS_GetLayer(Ogr_ds, i);
@@ -1520,6 +1526,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1645,6 +1652,8 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -2036,6 +2045,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2263,6 +2273,10 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 #if GDAL_VERSION_NUM < 1110000
         Ogr_geom_type = OGR_FD_GetGeomType(Ogr_featuredefn);
 #endif
@@ -2367,6 +2381,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -2460,6 +2475,8 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -2977,6 +2994,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3196,6 +3214,11 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         if (fd) {
             if (print_types) {
                 int proj_same, igeom;
@@ -3226,6 +3249,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -4417,10 +4441,14 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
                 OGRGeomFieldDefnH Ogr_geomdefn;
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+                OGRGeomFieldDefnH Ogr_geomdefn;
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
 #if GDAL_VERSION_NUM >= 1110000
                 OGRGeomFieldDefnH Ogr_geomdefn;
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4589,6 +4617,8 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
                 /* projection check */
                 Ogr_projection = OGR_L_GetSpatialRef(Ogr_layer);
                 proj_same = 0;
@@ -4625,6 +4655,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4761,6 +4792,8 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -5757,7 +5790,15 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+#if GDAL_VERSION_NUM >= 1110000
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
                 for (igeom = 0;
                      igeom < OGR_FD_GetGeomFieldCount(Ogr_featuredefn);
                      igeom++) {
@@ -5879,6 +5920,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -5972,6 +6014,8 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -6489,6 +6533,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -6708,6 +6753,11 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
             }
             else {
                 fprintf(fd, "%s\n", layer_name);

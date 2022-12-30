@@ -129,6 +129,7 @@ CELL select_dir(CELL i)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
            int *active, int *goagain)
 =======
@@ -587,6 +588,8 @@ void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -756,7 +759,12 @@ void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 void flink(int i UNUSED, int j, int nl UNUSED, int ns UNUSED, CELL *p1,
            CELL *p2, CELL *p3, int *active, int *goagain)
 =======
@@ -855,6 +863,7 @@ void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1028,6 +1037,8 @@ void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -1772,7 +1783,12 @@ void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 {
     CELL bitmask[8] = {1, 2, 4, 8, 16, 32, 64, 128};
     CELL outflow, cwork, c[8];

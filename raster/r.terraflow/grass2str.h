@@ -233,6 +233,7 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,
 =======
 <<<<<<< HEAD
@@ -689,6 +690,8 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -857,7 +860,12 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRId64, nrows, ncols,
 =======
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,
@@ -954,6 +962,7 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1077,6 +1086,8 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1516,6 +1527,7 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1739,6 +1751,10 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
             str->stream_len());
     assert((off_t)nrows * ncols == str->stream_len());
     rt_stop(rt);

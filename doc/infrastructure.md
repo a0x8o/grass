@@ -41,6 +41,7 @@ Last changed: July 2020
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -150,6 +151,8 @@ Last changed: July 2020
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -220,6 +223,15 @@ Last changed: July 2020
 =======
 =======
 =======
+=======
+
+Related Wiki documents:
+
+* <https://grass.osgeo.org/wiki/GRASS_Migration_to_OSGeo> (historical document)
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 
 Related Wiki documents:
 
@@ -1558,6 +1570,7 @@ The GitHub repositories are:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * GRASS GIS core (7.x): <https://github.com/OSGeo/grass>
 * GRASS GIS legacy (3.x-6.x): <https://github.com/OSGeo/grass-legacy>
 * GRASS GIS Add-ons: <https://github.com/OSGeo/grass-addons>
@@ -2040,6 +2053,8 @@ Issues:
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2221,7 +2236,12 @@ Issues:
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 - GRASS GIS core (7+): <https://github.com/OSGeo/grass>
 - GRASS GIS legacy (3.x-6.x): <https://github.com/OSGeo/grass-legacy>
 - GRASS GIS Add-ons: <https://github.com/OSGeo/grass-addons>
@@ -2249,6 +2269,7 @@ Statistics:
 * GRASS GIS promotional material: <https://github.com/OSGeo/grass-promo>
 * GRASS GIS Website (hugo site): <https://github.com/OSGeo/grass-website>
 * Github mirror at OSGeo: <https://git.osgeo.org/gitea/grass_gis/grass>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2390,6 +2411,8 @@ Statistics:
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2460,6 +2483,37 @@ Statistics:
 =======
 =======
 =======
+=======
+
+Git usage:
+
+* [CONTRIBUTING.md file](../CONTRIBUTING.md)
+* <https://trac.osgeo.org/grass/wiki/HowToGit>
+
+Issues:
+
+* <https://github.com/OSGeo/grass/issues>
+* old trac instance: <https://trac.osgeo.org/grass>
+
+Trac related notes:
+
+* For easier linking in the Trac Wiki, some macro definitions are used for manual page refs (G7:modulename)
+  * <https://trac.osgeo.org/grass/wiki/InterMapTxt>
+* ZIP file download support in trac (was needed for g.extension) * on trac.osgeo.org:
+
+```text
+/var/www/trac/grass/conf/trac.ini
+[browser]
+downloadable_paths = /grass-addons/grass7/*/*,/sandbox/*/*
+```
+
+Statistics:
+
+* <https://github.com/OSGeo/grass/pulse>
+* <https://trac.osgeo.org/grass/stats/code>
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 
 Git usage:
 
@@ -5835,6 +5889,7 @@ Maintainer: M. Neteler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * <https://grass.osgeo.org>
   * osgeo8-grass: LXD container on osgeo8 (<https://wiki.osgeo.org/wiki/SAC_Service_Status#osgeo_8>)
     * OS: Debian Buster
@@ -6118,6 +6173,8 @@ Maintainer: M. Neteler
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -6145,6 +6202,7 @@ Maintainer: M. Neteler
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6269,6 +6327,10 @@ Maintainer: M. Neteler
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 - <https://grass.osgeo.org>
 
   - osgeo8-grass: LXD container on osgeo8 (<https://wiki.osgeo.org/wiki/SAC_Service_Status#osgeo_8>)
@@ -6912,6 +6974,9 @@ Maintainer: M. Neteler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6928,6 +6993,7 @@ Maintainer: M. Neteler
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
@@ -6961,6 +7027,10 @@ Maintainer: M. Neteler
 >>>>>>> d9ea5124d9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 * <https://grass.osgeo.org>
   * osgeo8-grass: LXD container on osgeo8 (<https://wiki.osgeo.org/wiki/SAC_Service_Status#osgeo_8>)
     * OS: Debian Buster
@@ -6969,6 +7039,7 @@ Maintainer: M. Neteler
   * ssh login: via jumphost hop.osgeo8.osgeo.org
   * deployment via cronjob: <https://github.com/OSGeo/grass-addons/tree/grass8/utils/cronjobs_osgeo_lxd/>
 * <https://old.grass.osgeo.org> (CMSMS, replaced in 2020 by above hugo based solution)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7056,6 +7127,8 @@ Maintainer: M. Neteler
 =======
 >>>>>>> 0014ad4c7c (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
@@ -7077,6 +7150,7 @@ Maintainer: M. Neteler
 =======
   * Shared virtual OSGeo machine (osgeo6) hosted at Oregon State University Open Source Lab
   server: osgeo6.osgeo.osuosl.org)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7191,6 +7265,9 @@ Maintainer: M. Neteler
   * Shared virtual OSGeo machine (osgeo6) hosted at Oregon State University Open Source Lab
   server: osgeo6.osgeo.osuosl.org)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
   * Login: via OSGeo LDAP, there is a "grass" LDAP group
   * Software:
     * OS: Debian Wheezy
@@ -7220,6 +7297,7 @@ Maintainer: M. Neteler
   * HTML: cronjob run Saturday morning Portland (OR), US time
   * disabled: PDF: cronjob run Saturday morning Portland (OR), US time
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7320,6 +7398,8 @@ Maintainer: M. Neteler
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 * <https://grass.osgeo.org>
   * osgeo8-grass: LXD container on osgeo8 (<https://wiki.osgeo.org/wiki/SAC_Service_Status#osgeo_8>)
@@ -11113,7 +11193,14 @@ Maintainer: M. Neteler
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+* i18N translation statistics (<https://grass.osgeo.org/development/translations/#statistics>)
+  * generated during compilation of Linux binary snapshot, stats of `(cd locale; make)` are extracted into text file
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
   * text file parsed by PHP page and shown as table
   * GRASS GIS version is coded in devel/i18n_stats.inc
   * for Transifex integration, see below
@@ -11130,6 +11217,7 @@ Maintainer: M. Neteler
 * Web statistics
   * See URL at <http://wiki.osgeo.org/wiki/Project_Stats>
     * cronjob script: /osgeo/scripts/update_logs.sh
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11431,6 +11519,8 @@ Maintainer: M. Neteler
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -11843,6 +11933,7 @@ Maintainer: M. Neteler
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -12115,11 +12206,18 @@ Maintainer: M. Neteler
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
 Summary: The system should run almost autonomously.
 
 ## WinGRASS maintenance scripts
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12830,6 +12928,8 @@ See <https://github.com/landam/wingrass-maintenance-scripts>
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 See <https://github.com/landam/wingrass-maintenance-scripts>
 =======
 =======
@@ -12984,6 +13084,13 @@ See <https://github.com/landam/wingrass-maintenance-scripts>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 * <https://github.com/landam/wingrass-maintenance-scripts>
 <<<<<<< HEAD
+=======
+See <https://github.com/landam/wingrass-maintenance-scripts>
+=======
+* <https://github.com/landam/wingrass-maintenance-scripts>
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14004,6 +14111,7 @@ Available lists:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * at OSGeo.org (<https://lists.osgeo.org/mailman/listinfo>):
   * grass-abm           Integration of GRASS with JAVA based agent based modeling
                         (ABM)
@@ -14500,6 +14608,8 @@ Notes:
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14688,7 +14798,12 @@ Notes:
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 - at OSGeo.org (<https://lists.osgeo.org/mailman/listinfo>):
   - grass-abm: Integration of GRASS with JAVA based agent based modeling
     (ABM)
@@ -14705,6 +14820,7 @@ Notes:
 Notes:
 =======
 * at OSGeo.org (<https://lists.osgeo.org/mailman/listinfo>):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14969,6 +15085,8 @@ Notes:
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
@@ -15489,6 +15607,7 @@ Notes:
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
@@ -16072,6 +16191,10 @@ Notes:
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
    grass-abm            Integration of GRASS with JAVA based agent based modeling (ABM)
    grass-announce GRASS announcements
    grass-commit         Mailing list to distribute GRASS-CVS commits
@@ -16082,6 +16205,7 @@ Notes:
    grass-translations   Translation of GRASS (i18N)
    grass-user           GRASS user list
    grass-web            GRASS website mailing list
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17929,7 +18053,27 @@ Notes:
 =======
 <<<<<<< HEAD
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+
+* OLD, UNUSED: at FBK-irst (<http://grass.fbk.eu/mailman/admin/>):
+   grass-commit-addons  Mailing list to distribute GRASS Addons-SVN commits
+   grass-gui            GRASSGUI mailing list
+   grass-qa             GRASS Quality Assessment and monitoring list
+   grass-windows        winGRASS * Using GRASS on MS-Windows systems mailing list
+
+Notes:
+* grass-announce:
+  * moderated by M. Neteler
+  * has monthly password reminder disabled to avoid leakage into publicly archived lists
+* grass-commit is receiving posts from the GRASS SVN at osgeo.org. Not open for other postings, they will be trashed automatically
+* grass-web is an open list (posting without subscription possible) with (Google) spam filter
+  * moderated by M. Neteler to avoid spam
+* OLD, UNUSED: grass-qa is receiving posts from the GRASS Quality Control System at Ecole Polytechnique de Montreal, Canada. Not open for other postings.
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 - grass-announce:
@@ -19596,6 +19740,7 @@ Maintainer: Martin Landa, Markus Neteler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -19782,6 +19927,8 @@ Maintainer: Martin Landa, Markus Neteler
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -20217,7 +20364,12 @@ Maintainer: Martin Landa, Markus Neteler
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 - <https://grasswiki.osgeo.org>
 - Mediawiki software
 <<<<<<< HEAD
@@ -20319,6 +20471,7 @@ Maintainer: Martin Landa, Markus Neteler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -20361,6 +20514,8 @@ Maintainer: Martin Landa, Markus Neteler
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
@@ -20851,6 +21006,7 @@ Maintainer: Martin Landa, Markus Neteler
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -21084,12 +21240,17 @@ Maintainer: Martin Landa, Markus Neteler
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 * <https://grasswiki.osgeo.org>
 * Mediawiki
 * mirrored at CZ Tech University
 * requires registration to keep spammers out
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21737,6 +21898,8 @@ Macros for manual pages (src, cmd, API, ...):
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -21749,8 +21912,15 @@ Macros for manual pages (src, cmd, API, ...):
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 Summary: The system should run almost autonomous. An eye must be be kept on people
 trying to spam the site
+=======
+Summary: The system should run almost autonomous. An eye must be be kept
+on people trying to spam the site. Several layers of registration protection
+are in place due to excessive spam.
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 
 Macros for manual pages (src, cmd, API, ...):
+<<<<<<< HEAD
 
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
@@ -22716,6 +22886,9 @@ Former freenode IRC:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -23977,6 +24150,7 @@ Macros for manual pages (src, cmd, API, ...):
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -24436,6 +24610,10 @@ Macros for manual pages (src, cmd, API, ...):
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 * <https://grasswiki.osgeo.org/wiki/Category:Templates>
 
 ## GRASS IRC
@@ -24443,6 +24621,7 @@ Macros for manual pages (src, cmd, API, ...):
 Channel: irc://irc.freenode.net/grass
 Web based client: See <https://grasswiki.osgeo.org/wiki/IRC>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24576,6 +24755,8 @@ Web based client: See <https://grasswiki.osgeo.org/wiki/IRC>
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -25023,6 +25204,7 @@ Web based client: See <https://grasswiki.osgeo.org/wiki/IRC>
 =======
 * channel owner: Alessandro Frigeri < afrigeri unipg.it > ("geoalf")
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
@@ -25271,6 +25453,11 @@ Web based client: See <https://grasswiki.osgeo.org/wiki/IRC>
 * channel owner: Alessandro Frigeri < afrigeri unipg.it > ("geoalf")
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 >>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
+=======
+* channel owner: Alessandro Frigeri <afrigeri unipg.it> ("geoalf")
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 * quasi guru level: Markus Neteler ("markusN")
 * further operators:
   * Jachym ("jachym")
@@ -25376,6 +25563,7 @@ Web based client: See <https://grasswiki.osgeo.org/wiki/IRC>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -25469,6 +25657,8 @@ Web based client: See <https://grasswiki.osgeo.org/wiki/IRC>
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -25986,6 +26176,7 @@ Web based client: See <https://grasswiki.osgeo.org/wiki/IRC>
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -26205,6 +26396,11 @@ Web based client: See <https://grasswiki.osgeo.org/wiki/IRC>
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
 ## GRASS Bugtracker
 
@@ -26294,6 +26490,7 @@ Current bugtracker (Jan 2020 - today):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -26480,6 +26677,8 @@ Current bugtracker (Jan 2020 - today):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -26915,7 +27114,12 @@ Current bugtracker (Jan 2020 - today):
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
 - <https://github.com/OSGeo/grass/issues>
 
@@ -27015,6 +27219,7 @@ Old bugtrackers: see <https://grasswiki.osgeo.org/wiki/Bug_tracking>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -27140,6 +27345,8 @@ Old bugtrackers: see <https://grasswiki.osgeo.org/wiki/Bug_tracking>
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -27351,6 +27558,8 @@ Old bugtrackers: see <https://grasswiki.osgeo.org/wiki/Bug_tracking>
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 
 * <https://github.com/OSGeo/grass/issues>
 
@@ -27362,6 +27571,7 @@ Old bugtracker (Jan 2008 - Jan 2020):
 
 Old tracsvn (OSGeo server) (Dec 2007 * Mai 2019)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -27369,6 +27579,8 @@ Old tracsvn (OSGeo server) (Dec 2007 * Mai 2019)
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 ```text
 /var/www/trac/env/grass/conf/trac.ini
   downloadable_paths = /grass-addons/grass7/*/*,/sandbox/*/*
@@ -27392,12 +27604,16 @@ Very old bugtracker (Jan 2007 * Dec 2008):
 
 Very very old bugtracker (Dec 2000 * Dec 2006):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 
 * <https://intevation.de/rt/webrt?q_queue=grass>
 * webRT, sponsored by Intevation GmbH, Germany
 * spamassasin spamfilter locally, bogofilter at grass-dev list
 * reports are directly sent to GRASS Developers mailing list for notification
 * TODO: migrate to trac
+<<<<<<< HEAD
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 
@@ -30356,6 +30572,7 @@ Very very old bugtracker (Dec 2000 * Dec 2006):
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -30556,6 +30773,12 @@ Very very old bugtracker (Dec 2000 * Dec 2006):
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> ef2654d3c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+
+
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 ## GRASS Addons
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -30563,6 +30786,7 @@ Maintainer: Martin Landa, Tomas Zigo, and Markus Neteler
 
 Details:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31036,6 +31260,8 @@ Details:
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> eeefe6e622 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 - Windows-addons: `grass-addons/utils/addons/README.txt`
 =======
 =======
@@ -31680,8 +31906,12 @@ Details:
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 - Windows-addons: `grass-addons/utils/addons/README.txt`
 =======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> cf7da16d77 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> eeefe6e622 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -32095,6 +32325,7 @@ Details:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -32260,6 +32491,8 @@ Details:
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -33122,6 +33355,7 @@ Details:
 >>>>>>> 1f45827248 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6b0b0c9640 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -33592,11 +33826,16 @@ Details:
 >>>>>>> eeefe6e622 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7fca389202 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
 The redirect to the latest `grassX` directory is defined on grass.osgeo.org:
 `/etc/apache2/includes/grass.osgeo.org.inc`
 
 Procedure building of binaries (Windows):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33985,6 +34224,8 @@ Procedure of granting write access to Addons repo:
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
@@ -34267,6 +34508,7 @@ Procedure of granting write access to Addons repo:
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
@@ -34688,6 +34930,10 @@ Procedure of granting write access to Addons repo:
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
 - Addons module are compiled on winGRASS build server, at the CTU in Prague) and
   publishing their manual pages on publishing server, i.e. grass.osgeo.org.
@@ -34714,6 +34960,7 @@ XML file for g.extension: <https://grass.osgeo.org/addons/grass8/modules.xml>
 - generated in grass-addons/utils/addons/grass-addons-publish.sh
 =======
 * Addons module are compiled on build server, currently at the CTU in Prague) and publishing their manual pages on publishing server, i.e. grass.osgeo.org.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34840,6 +35087,8 @@ XML file for g.extension: <https://grass.osgeo.org/addons/grass8/modules.xml>
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
@@ -35044,6 +35293,7 @@ XML file for g.extension: <https://grass.osgeo.org/addons/grass8/modules.xml>
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -35107,6 +35357,12 @@ XML file for g.extension: <https://grass.osgeo.org/addons/grass7/modules.xml>
   * Linux log files:   <https://grass.osgeo.org/addons/grass7/logs> (compiled on
     `grasslxd` on `osgeo7`)
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+* A new compilation is triggered everytime when a commit is done in the Addons-SVN.
+* Logs:
+  * Linux log files:   <https://grass.osgeo.org/addons/grass7/logs> (compiled on `grasslxd` on `osgeo7`)
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
   * Windows log files: <http://wingrass.fsv.cvut.cz/grass78/x86_64/addons/latest/logs/>
 
 Procedure of granting write access to Addons repo:
@@ -35116,6 +35372,7 @@ Procedure of granting write access to Addons repo:
 * Confirm request in grass-psc and give instructions concerning code style etc (see archive for examples)
 
 XML file for g.extension: <https://grass.osgeo.org/addons/grass7/modules.xml>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -35127,6 +35384,10 @@ XML file for g.extension: <https://grass.osgeo.org/addons/grass7/modules.xml>
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+* generated in grass-addons/utils/addons/grass-addons-publish.sh
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
 ## GRASS Travis CI
 
@@ -35134,11 +35395,17 @@ Maintainer: Martin Landa
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - <https://app.travis-ci.com/github/OSGeo/grass>
 - <https://github.com/OSGeo/grass/tree/main/.travis/>
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+- <https://app.travis-ci.com/github/OSGeo/grass>
+- <https://github.com/OSGeo/grass/tree/main/.travis/>
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 * <https://travis-ci.org/GRASS-GIS>
 * <https://github.com/OSGeo/grass>
 * OLD: <https://github.com/GRASS-GIS/grass-ci>
@@ -35152,12 +35419,16 @@ Travis CI control files:
 
 Maintenance script:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 * <https://github.com/OSGeo/grass-addons/tree/master/utils/grass-ci/grass-ci.sh>
 
 The github update is run as a cronjob on server "geo102" (CTU, CZ).
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
@@ -35198,6 +35469,9 @@ The github update is run as a cronjob on server "geo102" (CTU, CZ).
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
 * Addons module are compiled on build server, currently at the CTU in Prague) and
   publishing their manual pages on publishing server, i.e. grass.osgeo.org.
@@ -40531,6 +40805,7 @@ Maintainer: Vaclav Petras
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -40717,6 +40992,8 @@ Maintainer: Vaclav Petras
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -41152,7 +41429,12 @@ Maintainer: Vaclav Petras
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 - <https://github.com/OSGeo/grass/actions>
 - Details: <https://github.com/OSGeo/grass/pull/525>
 - CI workflow with:
@@ -41264,6 +41546,7 @@ Helper files placed in .github/workflows/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -41389,6 +41672,8 @@ Helper files placed in .github/workflows/
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -41780,6 +42065,7 @@ Helper files placed in .github/workflows/
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -42007,10 +42293,15 @@ Helper files placed in .github/workflows/
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 * <https://github.com/OSGeo/grass/actions>
 * Details: <https://github.com/OSGeo/grass/pull/525>
 
 * CI workflow with:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42288,6 +42579,8 @@ Helper files placed in .github/workflows/
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
@@ -42755,12 +43048,18 @@ Helper files placed in .github/workflows/
 =======
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
   * A build job which is not parallelized and is meant for clear & relatively fast check of compilation and building in general. (Duplicating what is running on Travis)
   * A test job which of course needs to build, but the main focus is to run tests, so the compilation is parallelized (depending on nproc) and thus potentially less readable. This runs the whole test suite. (You need to run it locally to see the actual error, but you can see which tests are failing.)
 * Static code analysis/Code quality check using Flake8 with separate checks for python/grass, gui/wxpython, scripts and temporal directories.
   * Configurations ignore different lists of Flake8 errors. The idea is to reduce that to minimum.
   * Code in testsuite directories is also ignored for now, but should not be in the future.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43157,6 +43456,8 @@ Helper files placed in .github/workflows/
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -45545,6 +45846,7 @@ Helper files placed in .github/workflows/
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -46000,6 +46302,11 @@ Helper files placed in .github/workflows/
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
 ## GRASS docker images
 
@@ -47678,6 +47985,7 @@ Maintainer: Markus Neteler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * <https://scan.coverity.com/projects/grass?tab=overview>
 =======
 <<<<<<< HEAD
@@ -48134,6 +48442,8 @@ Maintainer: Markus Neteler
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -48302,11 +48612,17 @@ Maintainer: Markus Neteler
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 Coverity Scan is a service to find security issues. At time the service
 is used only occasionally.
 =======
 * <https://scan.coverity.com/projects/grass?tab=overview>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48573,6 +48889,8 @@ is used only occasionally.
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 =======
@@ -49448,7 +49766,13 @@ is used only occasionally.
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50227,6 +50551,7 @@ Messages are extracted with `gettext` message macros.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -50403,6 +50728,8 @@ Messages are extracted with `gettext` message macros.
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -51107,12 +51434,16 @@ Translations may be done using the OSGeo Weblate platform:
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 Translations may be done using the OSGeo Weblate platform:
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -51339,12 +51670,15 @@ Translations may be done using the OSGeo Weblate platform:
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 * Dashboard: <https://www.transifex.com/grass-gis/>
 * Auto-update URL to fetch files:
   * <https://www.transifex.com/grass-gis/grass7/content/>
     * Menu: Resources
       * Use: "Auto update resources" button
 * Weblate: <https://weblate.osgeo.org/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52933,7 +53267,14 @@ Translations may be done using the OSGeo Weblate platform:
 =======
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
 - Weblate: <https://weblate.osgeo.org/>
   - GRASS GIS Weblate server: <https://weblate.osgeo.org/projects/grass-gis/>
@@ -52978,6 +53319,7 @@ Further notification/functionality test systems:
 
 * posts into #grass IRC channel
 * posts into #osgeo-commits IRC channel
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53170,6 +53512,8 @@ Further notification/functionality test systems:
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -53687,6 +54031,7 @@ Further notification/functionality test systems:
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -53906,6 +54251,11 @@ Further notification/functionality test systems:
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
 ## Previous hosting sponsors
 

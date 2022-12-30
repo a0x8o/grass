@@ -980,6 +980,7 @@ import shutil
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1244,11 +1245,16 @@ import shutil
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 from pathlib import Path
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1368,6 +1374,12 @@ from pathlib import Path
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 import os
 import stat
 import ctypes
@@ -2440,6 +2452,7 @@ import ctypes
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
@@ -3023,7 +3036,13 @@ import ctypes
 =======
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -3175,6 +3194,7 @@ from grass.lib.gis import G_mapset_path
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3407,6 +3427,8 @@ from grass.lib.gis import G_mapset_path
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -3539,6 +3561,8 @@ from grass.lib.gis import G_mapset_path
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 from grass.lib.raster import Rast_write_semantic_label
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3569,7 +3593,11 @@ from grass.lib.raster import Rast_write_bandref
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8c0e82e005 (ci: Ignore paths in CodeQL (#1778))
+=======
+<<<<<<< HEAD
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
@@ -5163,7 +5191,15 @@ from grass.lib.raster import Rast_write_semantic_label
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+from grass.lib.raster import Rast_write_semantic_label
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 from grass.lib.imagery import (
     SigSet,
     I_InitSigSet,
@@ -5313,6 +5349,7 @@ from grass.lib.imagery import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5545,6 +5582,8 @@ from grass.lib.imagery import (
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -5677,6 +5716,8 @@ from grass.lib.imagery import (
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
     I_SortSigSetBySemanticLabel,
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5707,7 +5748,11 @@ from grass.lib.imagery import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8c0e82e005 (ci: Ignore paths in CodeQL (#1778))
+=======
+<<<<<<< HEAD
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
@@ -7301,7 +7346,15 @@ from grass.lib.imagery import (
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+    I_SortSigSetBySemanticLabel,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
     I_fopen_sigset_file_new,
     I_fopen_sigset_file_old,
     Ref,
@@ -7450,6 +7503,7 @@ from grass.lib.imagery import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7682,6 +7736,8 @@ from grass.lib.imagery import (
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -7814,6 +7870,8 @@ from grass.lib.imagery import (
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
     ReturnString,
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7844,7 +7902,11 @@ from grass.lib.imagery import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8c0e82e005 (ci: Ignore paths in CodeQL (#1778))
+=======
+<<<<<<< HEAD
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
@@ -9438,7 +9500,15 @@ from grass.lib.imagery import (
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+    ReturnString,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 )
 
 
@@ -9486,6 +9556,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -10136,6 +10207,7 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -10457,6 +10529,10 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         cls.sig_dir = f"{cls.mpath}/signatures/sigset/{cls.sig_name}"
 
     @classmethod
@@ -11117,6 +11193,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11176,6 +11253,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11251,12 +11330,15 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
         cls.sig_dir = f"{cls.mpath}/signatures/sigset/{cls.sig_name}"
 
     @classmethod
     def tearDownClass(cls):
         shutil.rmtree(cls.sig_dir, ignore_errors=True)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11422,6 +11504,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -12056,6 +12140,7 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -12418,6 +12503,10 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
     def test_I_fopen_signature_file_old_fail(self):
         sigfile = I_fopen_sigset_file_old(tempname(10))
@@ -12503,6 +12592,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12815,6 +12905,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -13198,7 +13290,12 @@ class SigSetFileTestCase(TestCase):
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
     def test_roundtrip_sigset_v1_one_label(self):
         """Test writing and reading back sigset file (v1)
         with a single label and fully qualified sigfile name"""
@@ -13408,6 +13505,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13495,6 +13593,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
@@ -14268,6 +14368,7 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
@@ -14321,10 +14422,15 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
     def test_roundtrip_sigset_v1_one_label(self):
         """Test writing and reading back sigset file (v1)
         with a single label and fully qualified sigfile name"""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14437,6 +14543,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14966,6 +15074,7 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -15296,6 +15405,10 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
         # Create signature struct
         So = SigSet()
@@ -15344,6 +15457,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -15994,6 +16108,7 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -16315,6 +16430,10 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         So.title = ReturnString("Signature title")
         So.semantic_labels[0] = ctypes.create_string_buffer(b"The_Doors")
         So.ClassSig[0].used = 1
@@ -16972,6 +17091,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -17031,6 +17151,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17106,12 +17228,15 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
         So.title = ReturnString("Signature title")
         So.semantic_labels[0] = ctypes.create_string_buffer(b"The_Doors")
         So.ClassSig[0].used = 1
         So.ClassSig[0].classnum = 2
         So.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17277,6 +17402,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -17911,6 +18038,7 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -18273,6 +18401,10 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         So.ClassSig[0].type = 1
         So.ClassSig[0].SubSig[0].pi = 3.14
         So.ClassSig[0].SubSig[0].means[0] = 42.42
@@ -18422,6 +18554,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -18552,6 +18685,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         sig_stat = Path(self.sig_dir, "sig").stat()
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -20302,16 +20437,32 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
         sig_stat = Path(self.sig_dir, "sig").stat()
 =======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
         sig_stat = os.stat(f"{self.sig_dir}/sig")
 =======
         sig_stat = os.stat(self.sigfile_name)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+=======
+        sig_stat = os.stat(f"{self.sig_dir}/sig")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         self.assertTrue(stat.S_ISREG(sig_stat.st_mode))
         I_WriteSigSet(p_new_sigfile, ctypes.byref(So))
         self.libc.fclose(p_new_sigfile)
@@ -20447,6 +20598,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -20690,6 +20842,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -21412,12 +21566,16 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -21741,6 +21899,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         semantic_label = utils.decode(
             ctypes.cast(Sn.semantic_labels[0], ctypes.c_char_p).value
         )
@@ -21786,6 +21946,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
@@ -22109,9 +22270,12 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
         bandref = utils.decode(ctypes.cast(Sn.bandrefs[0], ctypes.c_char_p).value)
         self.assertEqual(bandref, "The_Doors")
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23053,12 +23217,16 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -23416,6 +23584,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         self.assertEqual(Sn.nclasses, 1)
         self.assertEqual(Sn.ClassSig[0].nsubclasses, 1)
         self.assertEqual(Sn.ClassSig[0].used, 1)
@@ -23571,6 +23741,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -23802,6 +23973,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -24335,6 +24508,7 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -24575,6 +24749,10 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
     def test_read_fail_sigset_v1_one_label(self):
         """Reading back should fail as semantic label length exceeds limit"""
 =======
@@ -24785,6 +24963,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -24816,6 +24995,7 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
@@ -24844,10 +25024,13 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
     def test_read_fail_sigset_v1_one_label(self):
         """Reading back should fail as semantic label length exceeds limit"""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24926,6 +25109,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
     def test_read_fail_sigset_v1_one_label(self):
         """Reading back should fail as semantic label length exceeds limit"""
@@ -25738,7 +25923,12 @@ class SigSetFileTestCase(TestCase):
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
         # Create signature struct
         So = SigSet()
@@ -25787,6 +25977,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -26437,6 +26628,7 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -26758,6 +26950,10 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         So.title = ReturnString("Signature title")
         So.semantic_labels[0] = ctypes.create_string_buffer(tempname(252).encode())
         So.ClassSig[0].used = 1
@@ -27415,6 +27611,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -27474,6 +27671,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27549,12 +27748,15 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
         So.title = ReturnString("Signature title")
         So.semantic_labels[0] = ctypes.create_string_buffer(tempname(252).encode())
         So.ClassSig[0].used = 1
         So.ClassSig[0].classnum = 2
         So.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27720,6 +27922,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -28354,6 +28558,7 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -28716,6 +28921,10 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         So.ClassSig[0].type = 1
         So.ClassSig[0].SubSig[0].pi = 3.14
         So.ClassSig[0].SubSig[0].means[0] = 42.42
@@ -28865,6 +29074,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -28995,6 +29205,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         sig_stat = Path(self.sig_dir, "sig").stat()
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -30745,16 +30957,32 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
         sig_stat = Path(self.sig_dir, "sig").stat()
 =======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
         sig_stat = os.stat(f"{self.sig_dir}/sig")
 =======
         sig_stat = os.stat(self.sigfile_name)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+=======
+        sig_stat = os.stat(f"{self.sig_dir}/sig")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         self.assertTrue(stat.S_ISREG(sig_stat.st_mode))
         I_WriteSigSet(p_new_sigfile, ctypes.byref(So))
         self.libc.fclose(p_new_sigfile)
@@ -30910,6 +31138,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -31141,6 +31370,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -31674,6 +31905,7 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -31914,6 +32146,10 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
     def test_roundtrip_sigset_v1_two_labels(self):
         """Test writing and reading back sigset (v1) with two labels"""
 =======
@@ -32124,6 +32360,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -32155,6 +32392,7 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
@@ -32183,10 +32421,13 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
     def test_roundtrip_sigset_v1_two_labels(self):
         """Test writing and reading back sigset (v1) with two labels"""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32265,6 +32506,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
     def test_roundtrip_sigset_v1_two_labels(self):
         """Test writing and reading back sigset (v1) with two labels"""
@@ -33077,7 +33320,12 @@ class SigSetFileTestCase(TestCase):
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
         # Create signature struct
         So = SigSet()
@@ -33126,6 +33374,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -33776,6 +34025,7 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -34097,6 +34347,10 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         So.title = ReturnString("Signature title")
         So.semantic_labels[0] = ctypes.create_string_buffer(b"The_Doors")
         So.semantic_labels[1] = ctypes.create_string_buffer(b"The_Who")
@@ -34756,6 +35010,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -34815,6 +35070,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34890,6 +35147,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
         So.title = ReturnString("Signature title")
         So.semantic_labels[0] = ctypes.create_string_buffer(b"The_Doors")
         So.semantic_labels[1] = ctypes.create_string_buffer(b"The_Who")
@@ -34897,6 +35156,7 @@ class SigSetFileTestCase(TestCase):
         So.ClassSig[0].classnum = 2
         So.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35062,6 +35322,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -35698,6 +35960,7 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -36060,6 +36323,10 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         So.ClassSig[0].type = 1
         So.ClassSig[0].SubSig[0].pi = 3.14
         So.ClassSig[0].SubSig[0].means[0] = 42.42
@@ -36213,6 +36480,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -36343,6 +36611,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         sig_stat = Path(self.sig_dir, "sig").stat()
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -38093,16 +38363,32 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
         sig_stat = Path(self.sig_dir, "sig").stat()
 =======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
         sig_stat = os.stat(f"{self.sig_dir}/sig")
 =======
         sig_stat = os.stat(self.sigfile_name)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+=======
+        sig_stat = os.stat(f"{self.sig_dir}/sig")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         self.assertTrue(stat.S_ISREG(sig_stat.st_mode))
         I_WriteSigSet(p_new_sigfile, ctypes.byref(So))
         self.libc.fclose(p_new_sigfile)
@@ -38237,6 +38523,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -38480,6 +38767,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -39202,12 +39491,16 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -39531,6 +39824,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         semantic_label = utils.decode(
             ctypes.cast(Sn.semantic_labels[0], ctypes.c_char_p).value
         )
@@ -39582,6 +39877,9 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -40421,6 +40719,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
@@ -40452,6 +40751,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -41114,6 +41415,7 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -41450,6 +41752,10 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         self.assertEqual(Sn.nclasses, 1)
         self.assertEqual(Sn.ClassSig[0].nsubclasses, 1)
         self.assertEqual(Sn.ClassSig[0].used, 1)
@@ -41610,6 +41916,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -41842,6 +42149,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -41974,6 +42283,8 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -42004,7 +42315,11 @@ class SortSigSetByBandrefTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8c0e82e005 (ci: Ignore paths in CodeQL (#1778))
+=======
+<<<<<<< HEAD
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
@@ -43598,7 +43913,15 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+class SortSigSetBySemanticLabelTest(TestCase):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
     @classmethod
     def setUpClass(cls):
         cls.libc = ctypes.cdll.LoadLibrary(ctypes.util.find_library("c"))
@@ -43684,6 +44007,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -43996,6 +44320,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> be9d3e98f7 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> ae360d0d05 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -44379,7 +44705,12 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         cls.semantic_label1 = "The_Doors"
         cls.map2 = tempname(10)
         cls.semantic_label2 = "The_Who"
@@ -44589,6 +44920,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -44676,6 +45008,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
@@ -45449,6 +45783,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
@@ -45502,10 +45837,15 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         cls.semantic_label1 = "The_Doors"
         cls.map2 = tempname(10)
         cls.semantic_label2 = "The_Who"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45618,6 +45958,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -46147,6 +46489,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -46477,6 +46820,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         cls.map3 = tempname(10)
         cls.use_temp_region()
         cls.runModule("g.region", n=1, s=0, e=1, w=0, res=1)
@@ -46625,6 +46972,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -46856,6 +47204,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -47389,6 +47739,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -47629,6 +47980,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         Rast_write_semantic_label(cls.map1, cls.semantic_label1)
         Rast_write_semantic_label(cls.map2, cls.semantic_label2)
 =======
@@ -47839,6 +48194,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -47870,6 +48226,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
@@ -47898,10 +48255,13 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         Rast_write_semantic_label(cls.map1, cls.semantic_label1)
         Rast_write_semantic_label(cls.map2, cls.semantic_label2)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47980,6 +48340,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
         Rast_write_semantic_label(cls.map1, cls.semantic_label1)
         Rast_write_semantic_label(cls.map2, cls.semantic_label2)
@@ -48792,7 +49154,12 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
     @classmethod
     def tearDownClass(cls):
@@ -48883,6 +49250,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -49533,6 +49901,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -49854,6 +50223,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Troggs")
         S.ClassSig[0].used = 1
@@ -50511,6 +50884,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -50570,6 +50944,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50645,12 +51021,15 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Troggs")
         S.ClassSig[0].used = 1
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50816,6 +51195,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -51450,6 +51831,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -51812,6 +52194,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         S.ClassSig[0].type = 1
         S.ClassSig[0].SubSig[0].pi = 3.14
         S.ClassSig[0].SubSig[0].means[0] = 42.42
@@ -51960,6 +52346,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -52192,6 +52579,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -52324,6 +52713,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -52354,7 +52745,11 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8c0e82e005 (ci: Ignore paths in CodeQL (#1778))
+=======
+<<<<<<< HEAD
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
@@ -53948,7 +54343,15 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+        ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         self.assertTrue(bool(ret))
         sig_err = utils.decode(ctypes.cast(ret[0], ctypes.c_char_p).value)
         ref_err = utils.decode(ctypes.cast(ret[1], ctypes.c_char_p).value)
@@ -54019,6 +54422,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -54669,6 +55073,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -54990,6 +55395,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Troggs")
         S.ClassSig[0].used = 1
@@ -55647,6 +56056,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -55706,6 +56116,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55781,12 +56193,15 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Troggs")
         S.ClassSig[0].used = 1
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55952,6 +56367,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -56586,6 +57003,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -56948,6 +57366,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         S.ClassSig[0].type = 1
         S.ClassSig[0].SubSig[0].pi = 3.14
         S.ClassSig[0].SubSig[0].means[0] = 42.42
@@ -57096,6 +57518,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -57328,6 +57751,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -57460,6 +57885,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -57490,7 +57917,11 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8c0e82e005 (ci: Ignore paths in CodeQL (#1778))
+=======
+<<<<<<< HEAD
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
@@ -59084,7 +59515,15 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+        ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         self.assertTrue(bool(ret))
         sig_err = utils.decode(ctypes.cast(ret[0], ctypes.c_char_p).value)
         ref_err = utils.decode(ctypes.cast(ret[1], ctypes.c_char_p).value)
@@ -59242,6 +59681,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -59474,6 +59914,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -59606,6 +60048,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
     def test_missing_label(self):
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -59636,7 +60080,11 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8c0e82e005 (ci: Ignore paths in CodeQL (#1778))
+=======
+<<<<<<< HEAD
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
@@ -61230,7 +61678,15 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+    def test_missing_label(self):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         # Prepare imagery group reference struct
         R = Ref()
         I_init_group_ref(ctypes.byref(R))
@@ -61286,6 +61742,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -61936,6 +62393,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -62257,6 +62715,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Who")
         S.ClassSig[0].used = 1
@@ -62914,6 +63376,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -62973,6 +63436,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63048,12 +63513,15 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Who")
         S.ClassSig[0].used = 1
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63219,6 +63687,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -63853,6 +64323,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -64215,6 +64686,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         S.ClassSig[0].type = 1
         S.ClassSig[0].SubSig[0].pi = 3.14
         S.ClassSig[0].SubSig[0].means[0] = 42.42
@@ -64363,6 +64838,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -64595,6 +65071,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -64727,6 +65205,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -64757,7 +65237,11 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8c0e82e005 (ci: Ignore paths in CodeQL (#1778))
+=======
+<<<<<<< HEAD
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
@@ -66351,7 +66835,15 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+        ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         self.assertTrue(bool(ret))
         sig_err = utils.decode(ctypes.cast(ret[0], ctypes.c_char_p).value)
         ref_err = utils.decode(ctypes.cast(ret[1], ctypes.c_char_p).value)
@@ -66480,6 +66972,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -66723,6 +67216,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -67445,12 +67940,16 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -67774,11 +68273,14 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
             "<semantic label missing>,<semantic label missing>,"
             + "<semantic label missing>,<semantic label missing>,"
             + "<semantic label missing>,<semantic label missing>,"
             + "<semantic label missing>,<semantic label missing>,"
             + "<semantic label missing>",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67958,6 +68460,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -68314,6 +68818,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -68467,6 +68972,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         )
         self.assertEqual(ref_err, f"The_Doors,{self.map3}")
 =======
@@ -68983,6 +69492,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
@@ -69010,6 +69520,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 6791e7c62b (ci: Ignore paths in CodeQL (#1778))
@@ -69110,9 +69622,12 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
         )
         self.assertEqual(ref_err, f"The_Doors,{self.map3}")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69230,6 +69745,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -70386,7 +70903,12 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 
         # Clean up memory to help track memory leaks when run by valgrind
         I_free_group_ref(ctypes.byref(R))
@@ -70449,6 +70971,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -71099,6 +71622,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -71420,6 +71944,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Doors")
         S.ClassSig[0].used = 1
@@ -72077,6 +72605,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -72136,6 +72665,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72211,12 +72742,15 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Doors")
         S.ClassSig[0].used = 1
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72382,6 +72916,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -73016,6 +73552,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -73378,6 +73915,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         S.ClassSig[0].type = 1
         S.ClassSig[0].SubSig[0].pi = 3.14
         S.ClassSig[0].SubSig[0].means[0] = 42.42
@@ -73421,6 +73962,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -74071,6 +74613,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -74392,6 +74935,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
         self.assertFalse(bool(ret))
         semantic_label = utils.decode(
@@ -75073,6 +75620,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -75135,6 +75683,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -75318,11 +75868,15 @@ class SortSigSetBySemanticLabelTest(TestCase):
         self.assertFalse(bool(ret))
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
         self.assertFalse(bool(ret))
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 =======
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
@@ -75388,10 +75942,13 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         semantic_label = utils.decode(
             ctypes.cast(S.semantic_labels[0], ctypes.c_char_p).value
         )
         self.assertEqual(semantic_label, "The_Doors")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75447,6 +76004,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76057,6 +76616,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -76444,6 +77004,11 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         self.assertEqual(S.ClassSig[0].SubSig[0].pi, 3.14)
         self.assertEqual(S.ClassSig[0].SubSig[0].means[0], 42.42)
         self.assertEqual(S.ClassSig[0].SubSig[0].R[0][0], 69.69)
@@ -76511,6 +77076,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -77161,6 +77727,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -77482,6 +78049,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Who")
         S.semantic_labels[1] = ctypes.create_string_buffer(b"The_Doors")
@@ -78141,6 +78712,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -78200,6 +78772,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78275,6 +78849,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Who")
         S.semantic_labels[1] = ctypes.create_string_buffer(b"The_Doors")
@@ -78282,6 +78858,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78447,6 +79024,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -79083,6 +79662,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -79445,6 +80025,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         S.ClassSig[0].type = 1
         S.ClassSig[0].SubSig[0].pi = 3.14
         S.ClassSig[0].SubSig[0].means[0] = 42.42
@@ -79492,6 +80076,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -80142,6 +80727,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -80463,6 +81049,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
         self.assertFalse(bool(ret))
         # Semantic labels and sig items should be swapped
@@ -81728,13 +82318,23 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 =======
         ret = I_SortSigSetByBandref(ctypes.byref(S), ctypes.byref(R))
+=======
+        ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         self.assertFalse(bool(ret))
-        # Band references and sig items should be swapped
+        # Semantic labels and sig items should be swapped
         # Static items
         self.assertEqual(S.ClassSig[0].SubSig[0].pi, 3.14)
         # Reordered items
+<<<<<<< HEAD
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         bandref1 = utils.decode(ctypes.cast(S.bandrefs[0], ctypes.c_char_p).value)
         self.assertEqual(bandref1, "The_Doors")
         bandref2 = utils.decode(ctypes.cast(S.bandrefs[1], ctypes.c_char_p).value)
@@ -81865,6 +82465,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -81925,6 +82526,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -82035,6 +82638,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
@@ -82110,6 +82714,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         semantic_label1 = utils.decode(
             ctypes.cast(S.semantic_labels[0], ctypes.c_char_p).value
         )
@@ -82118,6 +82724,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
             ctypes.cast(S.semantic_labels[1], ctypes.c_char_p).value
         )
         self.assertEqual(semantic_label2, "The_Who")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82173,6 +82780,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82783,6 +83392,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -83170,6 +83780,11 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         self.assertEqual(S.ClassSig[0].SubSig[0].means[0], 24.24)
         self.assertEqual(S.ClassSig[0].SubSig[0].means[1], 42.42)
         self.assertEqual(S.ClassSig[0].SubSig[0].R[0][0], -96.96)
@@ -83240,6 +83855,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -83890,6 +84506,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -84211,6 +84828,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Who")
         S.semantic_labels[1] = ctypes.create_string_buffer(b"The_Doors")
@@ -84870,6 +85491,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -84929,6 +85551,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85004,6 +85628,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Who")
         S.semantic_labels[1] = ctypes.create_string_buffer(b"The_Doors")
@@ -85011,6 +85637,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85176,6 +85803,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -85812,6 +86441,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -86174,6 +86804,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         S.ClassSig[0].type = 1
         S.ClassSig[0].SubSig[0].pi = 3.14
         S.ClassSig[0].SubSig[0].means[0] = 42.42
@@ -86221,6 +86855,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -86871,6 +87506,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -87192,6 +87828,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
         self.assertFalse(bool(ret))
         # Semantic labels and sig items should not be swapped
@@ -88457,13 +89097,23 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 =======
         ret = I_SortSigSetByBandref(ctypes.byref(S), ctypes.byref(R))
+=======
+        ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         self.assertFalse(bool(ret))
-        # Band references and sig items should not be swapped
+        # Semantic labels and sig items should not be swapped
         # Static items
         self.assertEqual(S.ClassSig[0].SubSig[0].pi, 3.14)
         # Reordered items
+<<<<<<< HEAD
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         bandref1 = utils.decode(ctypes.cast(S.bandrefs[0], ctypes.c_char_p).value)
         self.assertEqual(bandref1, "The_Who")
         bandref2 = utils.decode(ctypes.cast(S.bandrefs[1], ctypes.c_char_p).value)
@@ -88594,6 +89244,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -88654,6 +89305,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -88764,6 +89417,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
@@ -88839,6 +89493,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         semantic_label1 = utils.decode(
             ctypes.cast(S.semantic_labels[0], ctypes.c_char_p).value
         )
@@ -88847,6 +89503,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
             ctypes.cast(S.semantic_labels[1], ctypes.c_char_p).value
         )
         self.assertEqual(semantic_label2, "The_Doors")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88902,6 +89559,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89512,6 +90171,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0ba4fb709f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -89899,6 +90559,11 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> cd2a15c8d0 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> d403f4ea53 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
         self.assertEqual(S.ClassSig[0].SubSig[0].means[0], 42.42)
         self.assertEqual(S.ClassSig[0].SubSig[0].means[1], 24.24)
         self.assertEqual(S.ClassSig[0].SubSig[0].R[0][0], 69.69)
