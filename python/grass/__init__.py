@@ -21,6 +21,7 @@ Importing the package (or any subpackage) initializes translation functions
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 so that the function ``_`` appears in the global namespace (as an additional build-in).
 =======
 <<<<<<< HEAD
@@ -39,6 +40,8 @@ so that the function ``_`` appears in the global namespace (as an additional bui
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 so that the function ``_`` appears in the global namespace (as an additional built-in).
 =======
 so that the function ``_`` appears in the global namespace (as an additional build-in).
@@ -48,6 +51,7 @@ so that the function ``_`` appears in the global namespace (as an additional bui
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 so that the function ``_`` appears in the global namespace (as an additional build-in).
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -77,6 +81,11 @@ so that the function ``_`` appears in the global namespace (as an additional bui
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+so that the function ``_`` appears in the global namespace (as an additional build-in).
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 """
 
 import builtins as _builtins
@@ -129,6 +138,7 @@ def _translate(text):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     the package does not require the translations to be availabe. However, a first
 =======
 <<<<<<< HEAD
@@ -147,6 +157,8 @@ def _translate(text):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
     the package does not require the translations to be available. However, a first
 =======
     the package does not require the translations to be availabe. However, a first
@@ -156,6 +168,7 @@ def _translate(text):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     the package does not require the translations to be availabe. However, a first
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -185,6 +198,11 @@ def _translate(text):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    the package does not require the translations to be availabe. However, a first
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
     call to translate a message will do the initialization first before translating
     the message.
     """

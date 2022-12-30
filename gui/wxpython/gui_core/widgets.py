@@ -141,6 +141,7 @@ class NotebookController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -158,6 +159,8 @@ class NotebookController:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
         """Add a new page
 
         :param str name: use this param if notebooks has ability to
@@ -175,6 +178,7 @@ class NotebookController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -200,6 +204,10 @@ class NotebookController:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
         """Add a new page"""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         if "name" in kwargs:
@@ -217,6 +225,7 @@ class NotebookController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -234,6 +243,8 @@ class NotebookController:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
         """Insert a new page
 
         :param str name: use this param if notebooks has ability to
@@ -251,6 +262,7 @@ class NotebookController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -276,6 +288,10 @@ class NotebookController:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
         """Insert a new page"""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         if "name" in kwargs:
@@ -292,6 +308,7 @@ class NotebookController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -309,6 +326,8 @@ class NotebookController:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
         except (
             TypeError
         ) as e:  # documentation says 'index', but certain versions of wx require 'n'
@@ -318,6 +337,7 @@ class NotebookController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -343,6 +363,10 @@ class NotebookController:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
         except TypeError as e:  # documentation says 'index', but certain versions of wx require 'n'
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             kwargs["n"] = kwargs["index"]
@@ -1433,6 +1457,7 @@ class SearchModuleWidget(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 parent=self, id=wx.ID_ANY, label="Choose a tool", size=(-1, 35)
 =======
 <<<<<<< HEAD
@@ -1451,6 +1476,8 @@ class SearchModuleWidget(wx.Panel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
                 parent=self, id=wx.ID_ANY, label="Choose a tool", size=(-1, 40)
 =======
                 parent=self, id=wx.ID_ANY, label="Choose a tool", size=(-1, 35)
@@ -1460,6 +1487,7 @@ class SearchModuleWidget(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 parent=self, id=wx.ID_ANY, label="Choose a tool", size=(-1, 35)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1489,6 +1517,11 @@ class SearchModuleWidget(wx.Panel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                parent=self, id=wx.ID_ANY, label="Choose a tool", size=(-1, 35)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
             )
 
         if self._showChoice:
@@ -1561,6 +1594,7 @@ class SearchModuleWidget(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         label = _("%d tools match") % len(commands)
 =======
 <<<<<<< HEAD
@@ -1579,6 +1613,8 @@ class SearchModuleWidget(wx.Panel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
         label = _("{} tools matched").format(len(commands))
 =======
         label = _("%d tools match") % len(commands)
@@ -1588,6 +1624,7 @@ class SearchModuleWidget(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         label = _("%d tools match") % len(commands)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1617,6 +1654,11 @@ class SearchModuleWidget(wx.Panel):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        label = _("%d tools match") % len(commands)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
         if self._showTip:
             self._searchTip.SetLabel(self._searchTip.GetLabel() + " [{}]".format(label))
 

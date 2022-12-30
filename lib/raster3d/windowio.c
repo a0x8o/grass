@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
                                   int *proj, int *zone, double *north,
                                   double *south, double *east, double *west,
@@ -42,6 +43,8 @@ static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 static int Rast3d__readWindow(struct Key_Value *windowKeys, int *proj,
                               int *zone, double *north, double *south,
                               double *east, double *west, double *top,
@@ -63,12 +66,15 @@ static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
                                   int *proj, int *zone, double *north,
@@ -79,6 +85,7 @@ static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
 {
     int returnVal;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -99,6 +106,8 @@ static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
     int (*windowInt)(), (*windowDouble)();
 
     if (doRead) {
@@ -266,6 +275,7 @@ int Rast3d_read_window(RASTER3D_Region *window, const char *windowName)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -283,6 +293,8 @@ int Rast3d_read_window(RASTER3D_Region *window, const char *windowName)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
         if (!Rast3d__readWindow(
                 windowKeys, &(window->proj), &(window->zone), &(window->north),
                 &(window->south), &(window->east), &(window->west),
@@ -295,6 +307,7 @@ int Rast3d_read_window(RASTER3D_Region *window, const char *windowName)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -320,6 +333,10 @@ int Rast3d_read_window(RASTER3D_Region *window, const char *windowName)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
         if (!Rast3d_readWriteWindow(
                 windowKeys, 1, &(window->proj), &(window->zone),
                 &(window->north), &(window->south), &(window->east),
@@ -334,6 +351,7 @@ int Rast3d_read_window(RASTER3D_Region *window, const char *windowName)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -371,6 +389,11 @@ int Rast3d_read_window(RASTER3D_Region *window, const char *windowName)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
             Rast3d_error(
                 "Rast3d_read_window: error extracting window key(s) of file %s",
                 path);

@@ -51,6 +51,7 @@ int classify(CELL *class, CELL *reject, int ncols)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -68,6 +69,8 @@ int classify(CELL *class, CELL *reject, int ncols)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
                definite (sometimes  called positive semi-definite), and this is
                a requirement of the maximum-likelihood estimator.  This
                assumption is  theoretically  true  for random samples of
@@ -83,6 +86,7 @@ int classify(CELL *class, CELL *reject, int ncols)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -108,6 +112,10 @@ int classify(CELL *class, CELL *reject, int ncols)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
                definite (sometimes  called positve semi-definite), and this is a
                requirement of the maximum-likelihood estimator.  This assumption
                is  theorically  true  for random samples of normally distributed
@@ -125,6 +133,7 @@ int classify(CELL *class, CELL *reject, int ncols)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -162,6 +171,11 @@ int classify(CELL *class, CELL *reject, int ncols)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
              */
 
             s = &S.sig[c];

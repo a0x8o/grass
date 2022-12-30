@@ -34,6 +34,7 @@ static int test_table(void);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static dbColumn *create_column(const char *name, const char *desctiption,
 =======
 <<<<<<< HEAD
@@ -52,6 +53,8 @@ static dbColumn *create_column(const char *name, const char *desctiption,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 static dbColumn *create_column(const char *name, const char *description,
 =======
 static dbColumn *create_column(const char *name, const char *desctiption,
@@ -61,6 +64,7 @@ static dbColumn *create_column(const char *name, const char *desctiption,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 static dbColumn *create_column(const char *name, const char *desctiption,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -90,6 +94,11 @@ static dbColumn *create_column(const char *name, const char *desctiption,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+static dbColumn *create_column(const char *name, const char *desctiption,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
                                int sqltype);
 
 /* ************************************************************************* */
@@ -245,6 +254,7 @@ dbColumn *create_column(const char *name, const char *description, int sqltype)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     db_set_column_description(column, desctiption);
 =======
 <<<<<<< HEAD
@@ -263,6 +273,8 @@ dbColumn *create_column(const char *name, const char *description, int sqltype)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
     db_set_column_description(column, description);
 =======
     db_set_column_description(column, desctiption);
@@ -272,6 +284,7 @@ dbColumn *create_column(const char *name, const char *description, int sqltype)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     db_set_column_description(column, desctiption);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -301,6 +314,11 @@ dbColumn *create_column(const char *name, const char *description, int sqltype)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    db_set_column_description(column, desctiption);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
     db_set_column_host_type(column, 1);
     db_set_column_length(column, 8);
     db_set_column_name(column, name);

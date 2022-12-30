@@ -72,6 +72,7 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _("Unable to calculate sun position in un-projected locations. "
 =======
 <<<<<<< HEAD
@@ -90,6 +91,8 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
             _("Unable to calculate sun position in projects without CRS. "
 =======
             _("Unable to calculate sun position in un-projected locations. "
@@ -99,6 +102,7 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             _("Unable to calculate sun position in un-projected locations. "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -128,6 +132,11 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            _("Unable to calculate sun position in un-projected locations. "
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
               "Specify sunposition directly."));
 
     pdat = &pd; /* point to the structure for convenience */
@@ -161,6 +170,7 @@ long calc_solar_position(double longitude, double latitude, double timezone,
         /* read current projection info */
         if ((in_proj_info = G_get_projinfo()) == NULL)
             G_fatal_error(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,6 +308,8 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 <<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
                 _("Unable to get projection info of current project"));
 
         if ((in_unit_info = G_get_projunits()) == NULL)
@@ -353,6 +365,7 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -363,6 +376,8 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
                 _("Unable to get projection info of current location"));
 
         if ((in_unit_info = G_get_projunits()) == NULL)
@@ -407,6 +422,7 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -418,6 +434,8 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
     } /* transform if not LL */
 
     pdat->longitude = longitude; /* Note that latitude and longitude are  */

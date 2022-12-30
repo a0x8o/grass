@@ -28,6 +28,7 @@ FLAG *flag_create(int nrows, int ncols)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     temp = (unsigned char *)G_malloc(nrows * new_flag->leng *
 =======
 <<<<<<< HEAD
@@ -46,6 +47,8 @@ FLAG *flag_create(int nrows, int ncols)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
     temp = (unsigned char *)G_malloc((size_t)nrows * new_flag->leng *
 =======
     temp = (unsigned char *)G_malloc(nrows * new_flag->leng *
@@ -55,6 +58,7 @@ FLAG *flag_create(int nrows, int ncols)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     temp = (unsigned char *)G_malloc(nrows * new_flag->leng *
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -84,6 +88,11 @@ FLAG *flag_create(int nrows, int ncols)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    temp = (unsigned char *)G_malloc(nrows * new_flag->leng *
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
                                      sizeof(unsigned char));
 
     if (!temp)
