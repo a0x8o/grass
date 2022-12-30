@@ -20,7 +20,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+<<<<<<< HEAD
+=======
+#include <stdio.h>
 
+<<<<<<< HEAD
+SHP_CVSID("$Id: safileio.c,v 1.6 2018-06-15 19:56:32 erouault Exp $")
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+
+=======
+SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #ifdef SHPAPI_UTF8_HOOKS
 #ifdef SHPAPI_WINDOWS
 #define WIN32_LEAN_AND_MEAN
@@ -30,25 +40,78 @@
 #endif
 #endif
 
+<<<<<<< HEAD
 static SAFile SADFOpen(const char *pszFilename, const char *pszAccess,
                        void *pvUserData)
+=======
+/************************************************************************/
+/*                              SADFOpen()                              */
+
+/************************************************************************/
+<<<<<<< HEAD
+
+SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
+
+=======
+SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
     (void)pvUserData;
     return (SAFile)fopen(pszFilename, pszAccess);
 }
 
+<<<<<<< HEAD
 static SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
+=======
+/************************************************************************/
+/*                              SADFRead()                              */
+
+/************************************************************************/
+
+SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
     return (SAOffset)fread(p, (size_t)size, (size_t)nmemb, (FILE *)file);
 }
 
+<<<<<<< HEAD
 static SAOffset SADFWrite(const void *p, SAOffset size, SAOffset nmemb,
                           SAFile file)
+=======
+/************************************************************************/
+/*                             SADFWrite()                              */
+
+/************************************************************************/
+
+SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
     return (SAOffset)fwrite(p, (size_t)size, (size_t)nmemb, (FILE *)file);
 }
 
+<<<<<<< HEAD
 static SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
+=======
+/************************************************************************/
+/*                              SADFSeek()                              */
+
+/************************************************************************/
+
+SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
 #if defined(_MSC_VER) && _MSC_VER >= 1400
     return (SAOffset)_fseeki64((FILE *)file, (__int64)offset, whence);
@@ -57,7 +120,20 @@ static SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 #endif
 }
 
+<<<<<<< HEAD
 static SAOffset SADFTell(SAFile file)
+=======
+/************************************************************************/
+/*                              SADFTell()                              */
+
+/************************************************************************/
+
+SAOffset SADFTell(SAFile file)
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
 #if defined(_MSC_VER) && _MSC_VER >= 1400
     return (SAOffset)_ftelli64((FILE *)file);
@@ -66,28 +142,93 @@ static SAOffset SADFTell(SAFile file)
 #endif
 }
 
+<<<<<<< HEAD
 static int SADFFlush(SAFile file)
+=======
+/************************************************************************/
+/*                             SADFFlush()                              */
+
+/************************************************************************/
+
+int SADFFlush(SAFile file)
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
     return fflush((FILE *)file);
 }
 
+<<<<<<< HEAD
 static int SADFClose(SAFile file)
+=======
+/************************************************************************/
+/*                             SADFClose()                              */
+
+/************************************************************************/
+
+int SADFClose(SAFile file)
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
     return fclose((FILE *)file);
 }
 
+<<<<<<< HEAD
 static int SADRemove(const char *filename, void *pvUserData)
+=======
+/************************************************************************/
+/*                             SADFClose()                              */
+
+/************************************************************************/
+
+int SADRemove(const char *filename)
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
     (void)pvUserData;
     return remove(filename);
 }
 
+<<<<<<< HEAD
 static void SADError(const char *message)
+=======
+/************************************************************************/
+/*                              SADError()                              */
+
+/************************************************************************/
+
+void SADError(const char *message)
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
     fprintf(stderr, "%s\n", message);
 }
 
+<<<<<<< HEAD
 void SASetupDefaultHooks(SAHooks *psHooks)
+=======
+/************************************************************************/
+/*                        SASetupDefaultHooks()                         */
+
+/************************************************************************/
+
+void SASetupDefaultHooks(SAHooks *psHooks)
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
     psHooks->FOpen = SADFOpen;
     psHooks->FRead = SADFRead;
@@ -105,7 +246,16 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 
 #ifdef SHPAPI_WINDOWS
 
+<<<<<<< HEAD
 static wchar_t *Utf8ToWideChar(const char *pszFilename)
+=======
+/************************************************************************/
+/*                          Utf8ToWideChar                              */
+
+/************************************************************************/
+
+const wchar_t *Utf8ToWideChar(const char *pszFilename)
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
     const int nMulti = (int)strlen(pszFilename) + 1;
     const int nWide =
@@ -127,6 +277,7 @@ static wchar_t *Utf8ToWideChar(const char *pszFilename)
 
 /************************************************************************/
 /*                           SAUtf8WFOpen                               */
+
 /************************************************************************/
 
 static SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess,
@@ -134,9 +285,22 @@ static SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess,
 {
     (void)pvUserData;
     SAFile file = NULL;
+<<<<<<< HEAD
     wchar_t *pwszFileName = Utf8ToWideChar(pszFilename);
     wchar_t *pwszAccess = Utf8ToWideChar(pszAccess);
+=======
+    const wchar_t *pwszFileName, *pwszAccess;
+<<<<<<< HEAD
+    pwszFileName = Utf8ToWideChar(pszFilename);
+    pwszAccess = Utf8ToWideChar(pszAccess);
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
     if (pwszFileName != NULL && pwszAccess != NULL) {
+=======
+
+    pwszFileName = Utf8ToWideChar(pszFilename);
+    pwszAccess = Utf8ToWideChar(pszAccess);
+    if (pwszFileName != NULL && pwszFileName != NULL) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         file = (SAFile)_wfopen(pwszFileName, pwszAccess);
     }
     free(pwszFileName);
@@ -144,11 +308,24 @@ static SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess,
     return file;
 }
 
+<<<<<<< HEAD
 static int SAUtf8WRemove(const char *pszFilename, void *pvUserData)
+=======
+/************************************************************************/
+/*                             SAUtf8WRemove()                          */
+
+/************************************************************************/
+
+int SAUtf8WRemove(const char *pszFilename)
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
     (void)pvUserData;
     wchar_t *pwszFileName = Utf8ToWideChar(pszFilename);
     int rc = -1;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     if (pwszFileName != NULL) {
         rc = _wremove(pwszFileName);
     }
@@ -159,9 +336,17 @@ static int SAUtf8WRemove(const char *pszFilename, void *pvUserData)
 #endif
 
 #ifdef SHPAPI_UTF8_HOOKS
+<<<<<<< HEAD
 #ifndef SHPAPI_WINDOWS
 #error "no implementations of UTF-8 hooks available for this platform"
 #endif
+=======
+
+/************************************************************************/
+/*                          SASetupUtf8Hooks()                          */
+
+/************************************************************************/
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 
 void SASetupUtf8Hooks(SAHooks *psHooks)
 {

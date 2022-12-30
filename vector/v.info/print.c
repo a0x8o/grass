@@ -175,7 +175,11 @@ void print_topo(struct Map_info *Map, enum OutputFormat format,
     }
 }
 
+<<<<<<< HEAD
 void print_columns(struct Map_info *Map, const char *input_opt,
+=======
+void print_columns(const struct Map_info *Map, const char *input_opt,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                    const char *field_opt)
 {
     int num_dblinks, col, ncols;
@@ -250,6 +254,7 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 
     map_type = Vect_maptype(Map);
 
+<<<<<<< HEAD
     char scale_tmp[18];
     snprintf(scale_tmp, 18, "1:%d", Vect_get_scale(Map));
 
@@ -283,6 +288,21 @@ void print_shell(struct Map_info *Map, const char *field_opt,
         break;
     }
 
+=======
+    fprintf(stdout, "name=%s\n", Vect_get_name(Map));
+    fprintf(stdout, "mapset=%s\n", Vect_get_mapset(Map));
+    fprintf(stdout, "location=%s\n", G_location());
+<<<<<<< HEAD
+    fprintf(stdout, "project=%s\n", G_location());
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+    fprintf(stdout, "database=%s\n", G_gisdbase());
+    fprintf(stdout, "title=%s\n", Vect_get_map_name(Map));
+    fprintf(stdout, "scale=1:%d\n", Vect_get_scale(Map));
+    fprintf(stdout, "creator=%s\n", Vect_get_person(Map));
+    fprintf(stdout, "organization=%s\n", Vect_get_organization(Map));
+    fprintf(stdout, "source_date=%s\n", Vect_get_map_date(Map));
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /* This shows the TimeStamp (if present) */
     if (time_ok == TRUE && (first_time_ok || second_time_ok)) {
         G_format_timestamp(&ts, timebuff);
@@ -515,7 +535,11 @@ void print_info(struct Map_info *Map)
     G_saprintf(line, "%-17s%s", _("Mapset:"), Vect_get_mapset(Map));
     printline(line);
 
+<<<<<<< HEAD
     G_saprintf(line, "%-17s%s", _("Project:"), G_location());
+=======
+    G_saprintf(line, "%-17s%s", _("Location:"), G_location());
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     printline(line);
     G_saprintf(line, "%-17s%s", _("Database:"), G_gisdbase());
     printline(line);
