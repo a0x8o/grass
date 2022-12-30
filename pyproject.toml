@@ -8,12 +8,15 @@ line-length = 88
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
 =======
 =======
 >>>>>>> 4385ab760c (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 target-version = ['py38', 'py39', 'py310', 'py311', 'py312']
 >>>>>>> 73cc5e30fa (Dockerfile: fix broken lib link (#1625))
@@ -28,6 +31,9 @@ target-version = ['py36', 'py37', 'py38', 'py39']
 =======
 target-version = ['py37', 'py38', 'py39', 'py310']
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+target-version = ['py37', 'py38', 'py39', 'py310']
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 include = '\.pyi?$'
 exclude = '''
 (
@@ -46,6 +52,7 @@ exclude = '''
         | dist\..*
     )/
 <<<<<<< HEAD
+<<<<<<< HEAD
     | python/grass/ctypes/
     # Bug in Black related to r-string prefix capitalization reformats
     # a line in this file unnecessarily. File is however fully Black-formatted
@@ -59,6 +66,9 @@ exclude = '''
 =======
     | python/libgrass_interface_generator/
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    | python/libgrass_interface_generator/
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 )
 '''
 
@@ -440,6 +450,7 @@ addopts = """
 """
 timeout = 300
 <<<<<<< HEAD
+<<<<<<< HEAD
 markers = [
     "slow: marks tests as slow (deselect with '-m \"not slow\"')",
     "needs_solo_run: marks tests that must be run without any other tests running in parallel",
@@ -447,6 +458,9 @@ markers = [
 =======
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 
 
 [tool.bandit]
@@ -466,5 +480,13 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404", "B603"]
 skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))

@@ -147,6 +147,7 @@ class TestRasterUnivar(TestCase):
             reference=univar_string,
             precision=6,
 <<<<<<< HEAD
+<<<<<<< HEAD
             sep="=",
         )
 
@@ -206,6 +207,8 @@ class TestRasterUnivar(TestCase):
             precision=6,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             sep="=",
         )
 
@@ -304,6 +307,7 @@ class TestRasterUnivar(TestCase):
             reference=univar_string,
             precision=6,
 <<<<<<< HEAD
+<<<<<<< HEAD
             sep="=",
         )
 
@@ -344,6 +348,8 @@ class TestRasterUnivar(TestCase):
             precision=6,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             sep="=",
         )
 
@@ -420,10 +426,14 @@ class TestRasterUnivar(TestCase):
                         n=12780
                         null_cells=0
 <<<<<<< HEAD
+<<<<<<< HEAD
                         cells=12780
 =======
                         cells=3420
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                        cells=3420
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                         min=121
                         max=380
                         range=259
@@ -482,10 +492,14 @@ class TestRasterUnivar(TestCase):
                         n=12780
                         null_cells=0
 <<<<<<< HEAD
+<<<<<<< HEAD
                         cells=12780
 =======
                         cells=3420
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                        cells=3420
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                         min=121
                         max=380
                         range=259
@@ -517,6 +531,7 @@ class TestRasterUnivar(TestCase):
             nprocs=4,
             reference=univar_string,
             precision=6,
+<<<<<<< HEAD
 <<<<<<< HEAD
             sep="=",
         )
@@ -582,6 +597,8 @@ class TestRasterUnivar(TestCase):
             precision=6,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             sep="=",
         )
 

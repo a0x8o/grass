@@ -16,6 +16,7 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import sys
 from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
@@ -23,6 +24,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> 56010eb999 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
@@ -40,7 +43,13 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 from datetime import datetime
 from multiprocessing import Lock, Pipe, Process
 from typing import TYPE_CHECKING
@@ -86,9 +95,12 @@ class RPCDefs:
     READ_SEMANTIC_LABEL = 16
     REMOVE_SEMANTIC_LABEL = 17
 <<<<<<< HEAD
+<<<<<<< HEAD
     READ_MAP_HISTORY = 18
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     G_FATAL_ERROR = 49
 
     TYPE_RASTER = 0
@@ -562,6 +574,7 @@ def _read_semantic_label(lock: _LockLike, conn: Connection, data):
     The result to be sent via pipe is the return value of
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Rast_read_semantic_label: either a semantic label string or None.
 =======
     Rast_read_bandref: either a band reference string or None.
@@ -569,6 +582,9 @@ def _read_semantic_label(lock: _LockLike, conn: Connection, data):
 =======
     Rast_read_semantic_label: either a semantic label string or None.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    Rast_read_semantic_label: either a semantic label string or None.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     :param lock: A multiprocessing.Lock instance
     :param conn: A multiprocessing.connection.Connection object obtained from
@@ -579,6 +595,7 @@ def _read_semantic_label(lock: _LockLike, conn: Connection, data):
     """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     semantic_label = None
 =======
     bandref = None
@@ -586,6 +603,9 @@ def _read_semantic_label(lock: _LockLike, conn: Connection, data):
 =======
     semantic_label = None
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    semantic_label = None
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     try:
         maptype = data[1]
         name = data[2]
@@ -595,6 +615,7 @@ def _read_semantic_label(lock: _LockLike, conn: Connection, data):
         if maptype == RPCDefs.TYPE_RASTER:
             # Must use temporary variable to work around
             # ValueError: ctypes objects containing pointers cannot be pickled
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             ret = libraster.Rast_read_semantic_label(name, mapset)
@@ -610,6 +631,11 @@ def _read_semantic_label(lock: _LockLike, conn: Connection, data):
             if ret:
                 semantic_label = decode(ret)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            ret = libraster.Rast_read_semantic_label(name, mapset)
+            if ret:
+                semantic_label = decode(ret)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         else:
             logging.error(
                 "Unable to read semantic label. Unsupported map type {maptype}",
@@ -619,6 +645,7 @@ def _read_semantic_label(lock: _LockLike, conn: Connection, data):
     finally:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         conn.send(semantic_label)
 =======
         conn.send(bandref)
@@ -626,6 +653,9 @@ def _read_semantic_label(lock: _LockLike, conn: Connection, data):
 =======
         conn.send(semantic_label)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        conn.send(semantic_label)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 
 ###############################################################################
@@ -633,10 +663,13 @@ def _read_semantic_label(lock: _LockLike, conn: Connection, data):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def _write_semantic_label(lock: _LockLike, conn: Connection, data):
 =======
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 def _write_semantic_label(lock, conn, data):
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
@@ -655,6 +688,12 @@ def _write_semantic_label(lock, conn, data):
 
     Rises ValueError on invalid semantic label.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+def _write_semantic_label(lock, conn, data):
+    """Write the file based GRASS band identifier.
+
+    Rises ValueError on invalid semantic label.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     Always sends back True.
 
     :param lock: A multiprocessing.Lock instance
@@ -671,12 +710,16 @@ def _write_semantic_label(lock, conn, data):
         # layer = data[4]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         semantic_label = data[5]
 
         if maptype == RPCDefs.TYPE_RASTER:
             if libraster.Rast_legal_semantic_label(semantic_label) is False:
                 raise ValueError(_("Invalid semantic label"))
             libraster.Rast_write_semantic_label(name, semantic_label)
+<<<<<<< HEAD
 =======
         bandref = data[5]
 
@@ -693,6 +736,8 @@ def _write_semantic_label(lock, conn, data):
                 raise ValueError(_("Invalid semantic label"))
             libraster.Rast_write_semantic_label(name, semantic_label)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         else:
             logging.error(
                 "Unable to write semantic label. Unsupported map type {maptype}",
@@ -708,10 +753,13 @@ def _write_semantic_label(lock, conn, data):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def _remove_semantic_label(lock: _LockLike, conn: Connection, data):
 =======
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 def _remove_semantic_label(lock, conn, data):
 =======
@@ -723,7 +771,13 @@ def _remove_band_reference(lock, conn, data):
 =======
 def _remove_semantic_label(lock, conn, data):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+def _remove_semantic_label(lock, conn, data):
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
     """Remove the file based GRASS band identifier.
 
     The value to be send via pipe is the return value of G_remove_misc.
@@ -745,6 +799,7 @@ def _remove_semantic_label(lock, conn, data):
         if maptype == RPCDefs.TYPE_RASTER:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             check = libgis.G_remove_misc("cell_misc", "semantic_label", name)
 =======
             check = libgis.G_remove_misc("cell_misc", "bandref", name)
@@ -752,6 +807,9 @@ def _remove_semantic_label(lock, conn, data):
 =======
             check = libgis.G_remove_misc("cell_misc", "semantic_label", name)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            check = libgis.G_remove_misc("cell_misc", "semantic_label", name)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         else:
             logging.error(
                 "Unable to remove semantic label. Unsupported map type {maptype}",
@@ -876,10 +934,14 @@ def _read_raster_info(name, mapset):
             kvp["max"] = None
         elif ret == 2:
 <<<<<<< HEAD
+<<<<<<< HEAD
             logging.info(_("Raster range file is empty"))
 =======
             logging.warning(_("Raster range file is empty"))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            logging.warning(_("Raster range file is empty"))
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             kvp["min"] = None
             kvp["max"] = None
         else:
@@ -898,10 +960,14 @@ def _read_raster_info(name, mapset):
             kvp["max"] = None
         elif ret == 2:
 <<<<<<< HEAD
+<<<<<<< HEAD
             logging.info(_("Raster range file is empty"))
 =======
             logging.warning(_("Raster range file is empty"))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            logging.warning(_("Raster range file is empty"))
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             kvp["min"] = None
             kvp["max"] = None
         else:
@@ -1391,9 +1457,12 @@ def c_library_server(lock: _LockLike, conn: Connection):
     functions[RPCDefs.READ_SEMANTIC_LABEL] = _read_semantic_label
     functions[RPCDefs.REMOVE_SEMANTIC_LABEL] = _remove_semantic_label
 <<<<<<< HEAD
+<<<<<<< HEAD
     functions[RPCDefs.READ_MAP_HISTORY] = _read_map_history
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     functions[RPCDefs.G_FATAL_ERROR] = _fatal_error
 
     libgis.G_gisinit("c_library_server")
@@ -1781,6 +1850,7 @@ class CLibrariesInterface(RPCServerBase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def remove_raster_semantic_label(self, name, mapset):
         """Remove a file based raster semantic label
 =======
@@ -1791,6 +1861,10 @@ class CLibrariesInterface(RPCServerBase):
     def remove_raster_semantic_label(self, name, mapset):
         """Remove a file based raster semantic label
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    def remove_raster_semantic_label(self, name, mapset):
+        """Remove a file based raster semantic label
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         :param name: The name of the map
         :param mapset: The mapset of the map
@@ -1807,11 +1881,15 @@ class CLibrariesInterface(RPCServerBase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         Returns semantic label or None
 
         :param name: The name of the map
         :param mapset: The mapset of the map
         :returns: The return value of Rast_read_semantic_label
+<<<<<<< HEAD
 =======
         Returns band reference or None
 
@@ -1826,6 +1904,8 @@ class CLibrariesInterface(RPCServerBase):
         :param mapset: The mapset of the map
         :returns: The return value of Rast_read_semantic_label
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         """
         self.check_server()
         self.client_conn.send(
@@ -1835,6 +1915,9 @@ class CLibrariesInterface(RPCServerBase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def write_raster_semantic_label(self, name, mapset, semantic_label):
         """Write a file based raster semantic label
 
@@ -1844,6 +1927,7 @@ class CLibrariesInterface(RPCServerBase):
         :param name: The name of the map
         :param mapset: The mapset of the map
         :param semantic_label: semantic label
+<<<<<<< HEAD
 =======
     def write_raster_band_reference(self, name, mapset, band_reference):
         """Write a file based raster band reference
@@ -1863,6 +1947,8 @@ class CLibrariesInterface(RPCServerBase):
 =======
         :param semantic_label: semantic label
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         :returns: always True
         """
         self.check_server()
