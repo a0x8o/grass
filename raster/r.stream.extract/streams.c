@@ -156,6 +156,7 @@ static int continue_stream(CELL stream_id, int r_max, int c_max, int *stream_no)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _("Stream_no %d and n_stream_nodes %" PRI_OFF_T " out of sync"),
 =======
 <<<<<<< HEAD
@@ -594,6 +595,8 @@ static int continue_stream(CELL stream_id, int r_max, int c_max, int *stream_no)
 =======
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -717,7 +720,12 @@ static int continue_stream(CELL stream_id, int r_max, int c_max, int *stream_no)
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
                 _("Stream_no %d and n_stream_nodes %" PRId64 " out of sync"),
 =======
                 _("Stream_no %d and n_stream_nodes %" PRI_OFF_T " out of sync"),
@@ -805,6 +813,7 @@ static int continue_stream(CELL stream_id, int r_max, int c_max, int *stream_no)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -910,6 +919,8 @@ static int continue_stream(CELL stream_id, int r_max, int c_max, int *stream_no)
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1265,13 +1276,17 @@ static int continue_stream(CELL stream_id, int r_max, int c_max, int *stream_no)
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
                 _("Stream_no %d and n_stream_nodes %" PRI_OFF_T " out of sync"),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1522,6 +1537,8 @@ static int continue_stream(CELL stream_id, int r_max, int c_max, int *stream_no)
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
                 *stream_no, n_stream_nodes);
 
         stream_node[*stream_no].n_alloc += 2;
@@ -2194,6 +2211,7 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 G_warning(_("Stream_no %d and n_stream_nodes %" PRI_OFF_T
 =======
 <<<<<<< HEAD
@@ -2632,6 +2650,8 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 =======
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2755,7 +2775,12 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
                 G_warning(_("Stream_no %d and n_stream_nodes %" PRId64
 =======
                 G_warning(_("Stream_no %d and n_stream_nodes %" PRI_OFF_T
@@ -2843,6 +2868,7 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2948,6 +2974,8 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -3303,13 +3331,17 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
                 G_warning(_("Stream_no %d and n_stream_nodes %" PRI_OFF_T
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3560,6 +3592,8 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
                             " out of sync"),
                           stream_no, n_stream_nodes);
         }
@@ -3681,6 +3715,7 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "direction: %" PRI_OFF_T " of %" PRI_OFF_T " cells"),
 =======
 <<<<<<< HEAD
@@ -4119,6 +4154,8 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 =======
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4242,7 +4279,12 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
                     "direction: %" PRId64 " of %" PRId64 " cells"),
 =======
                     "direction: %" PRI_OFF_T " of %" PRI_OFF_T " cells"),
@@ -4330,6 +4372,7 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4435,6 +4478,8 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -4790,13 +4835,17 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
                     "direction: %" PRI_OFF_T " of %" PRI_OFF_T " cells"),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5047,6 +5096,8 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
                   workedon, n_points);
 
     G_free(dist_to_nbr);
@@ -5142,6 +5193,7 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(1, "%" PRI_OFF_T " outlets", n_outlets);
     G_debug(1, "%" PRI_OFF_T " nodes", n_stream_nodes);
 =======
@@ -5582,6 +5634,8 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 =======
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5706,7 +5760,12 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 =======
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
     G_debug(1, "%" PRId64 " outlets", n_outlets);
     G_debug(1, "%" PRId64 " nodes", n_stream_nodes);
 =======
@@ -5796,6 +5855,7 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5952,6 +6012,8 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 =======
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6043,9 +6105,12 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
     G_debug(1, "%" PRI_OFF_T " outlets", n_outlets);
     G_debug(1, "%" PRI_OFF_T " nodes", n_stream_nodes);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6109,6 +6174,8 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -6395,6 +6462,7 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -6626,6 +6694,10 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 =======
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
     G_debug(1, "%d streams", stream_no);
 
     return 1;
