@@ -14,13 +14,22 @@
 
 import os
 import shutil
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 import grass.script as gs
 
 from .map import Map
 from .region import RegionManagerForTimeSeries
+<<<<<<< HEAD
 from .utils import save_gif
+<<<<<<< HEAD
 from .baseseriesmap import BaseSeriesMap
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 
 
 def fill_none_values(names):
@@ -130,7 +139,10 @@ class TimeSeriesMap(BaseSeriesMap):
 
     # pylint: disable=too-many-instance-attributes
     # Need more attributes to build timeseriesmap visuals
+<<<<<<< HEAD
     # pylint: disable=duplicate-code
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     def __init__(
         self,
@@ -347,11 +359,19 @@ class TimeSeriesMap(BaseSeriesMap):
         param int text_size: size of date/time text
         param str text_color: color to use for the text.
         """
+<<<<<<< HEAD
+=======
+        # Create a GIF from the PNG images
+        import PIL.Image  # pylint: disable=import-outside-toplevel
+        import PIL.ImageDraw  # pylint: disable=import-outside-toplevel
+        import PIL.ImageFont  # pylint: disable=import-outside-toplevel
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
         # Render images if they have not been already
         if not self._layers_rendered:
             self.render()
 
+<<<<<<< HEAD
         input_files = []
         for date in self._labels:
             input_files.append(self._base_filename_dict[date])
@@ -365,6 +385,34 @@ class TimeSeriesMap(BaseSeriesMap):
             font=font,
             text_size=text_size,
             text_color=text_color,
+=======
+        # filepath to output GIF
+        if not filename.endswith(".gif"):
+            raise ValueError(_("filename must end in '.gif'"))
+
+        images = []
+        for date in self._dates:
+            img_path = self._date_filename_dict[date]
+            img = PIL.Image.open(img_path)
+            img = img.convert("RGBA", dither=None)
+            draw = PIL.ImageDraw.Draw(img)
+            if label:
+                draw.text(
+                    (0, 0),
+                    date,
+                    fill=text_color,
+                    font=PIL.ImageFont.truetype(font, text_size),
+                )
+            images.append(img)
+
+        images[0].save(
+            fp=filename,
+            format="GIF",
+            append_images=images[1:],
+            save_all=True,
+            duration=duration,
+            loop=0,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         )
 
         # Display the GIF
