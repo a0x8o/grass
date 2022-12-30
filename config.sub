@@ -22,6 +22,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -46,6 +47,8 @@
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 #   Copyright 1992-2024 Free Software Foundation, Inc.
 
 # shellcheck disable=SC2006,SC2268,SC2162 # see below for rationale
@@ -133,6 +136,7 @@ timestamp='2024-01-01'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -147,12 +151,15 @@ timestamp='2024-01-01'
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
 #   Copyright 1992-2022 Free Software Foundation, Inc.
 
 # shellcheck disable=SC2006,SC2268 # see below for rationale
 
 timestamp='2022-01-03'
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,6 +263,8 @@ timestamp='2022-01-03'
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4bd82c1c83 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -347,6 +356,7 @@ GNU config.sub ($timestamp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -509,6 +519,12 @@ Copyright 1992-2022 Free Software Foundation, Inc.
 =======
 Copyright 1992-2024 Free Software Foundation, Inc.
 >>>>>>> 4bd82c1c83 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+Copyright 1992-2024 Free Software Foundation, Inc.
+=======
+Copyright 1992-2022 Free Software Foundation, Inc.
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
@@ -2066,6 +2082,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2143,6 +2160,8 @@ EOF
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4bd82c1c83 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 		;;
 	managarm*)
 		kernel=managarm
@@ -2152,6 +2171,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -2243,6 +2263,10 @@ EOF
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4bd82c1c83 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 		;;
 	*)
 		kernel=
@@ -2691,6 +2715,7 @@ case $os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2852,6 +2877,12 @@ case $os in
 =======
 	llvm* | musl* | newlib* | relibc* | uclibc*)
 >>>>>>> 4bd82c1c83 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+	llvm* | musl* | newlib* | relibc* | uclibc*)
+=======
+	musl* | newlib* | relibc* | uclibc*)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 		;;
 	# Likewise for "kernel-abi"
 	eabi* | gnueabi*)
@@ -3124,6 +3155,7 @@ case $os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3284,6 +3316,12 @@ case $os in
 =======
 	     | fiwix* | mlibc* | cos* | mbr* | ironclad* )
 >>>>>>> 4bd82c1c83 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+	     | fiwix* | mlibc* | cos* | mbr* | ironclad* )
+=======
+	     | fiwix* )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 		;;
 	# This one is extra strict with allowed versions
 	sco3.2v2 | sco3.2v[4-9]* | sco5v6*)
@@ -3341,6 +3379,7 @@ esac
 
 # As a final step for OS-related things, validate the OS-kernel combination
 # (given a valid OS), if there is a kernel.
+<<<<<<< HEAD
 case $kernel-$os-$obj in
 	linux-gnu*- | linux-android*- | linux-dietlibc*- | linux-llvm*- \
 		    | linux-mlibc*- | linux-musl*- | linux-newlib*- \
@@ -3348,6 +3387,7 @@ case $kernel-$os-$obj in
 		    | linux-relibc*- | linux-uclibc*- | linux-ohos*- )
 =======
 		    | linux-relibc*- | linux-uclibc*- )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3545,12 +3585,24 @@ case $kernel-$os in
 	uclinux-uclibc*- )
 		;;
 >>>>>>> 4bd82c1c83 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+=======
+case $kernel-$os in
+	linux-gnu* | linux-dietlibc* | linux-android* | linux-newlib* \
+		   | linux-musl* | linux-relibc* | linux-uclibc* )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+		;;
+	uclinux-uclibc*- )
+		;;
+<<<<<<< HEAD
+>>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 	managarm-mlibc*- | managarm-kernel*- )
 		;;
 	windows*-msvc*-)
 		;;
 	-dietlibc*- | -llvm*- | -mlibc*- | -musl*- | -newlib*- | -relibc*- \
 		    | -uclibc*- )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3661,6 +3713,11 @@ case $kernel-$os in
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4bd82c1c83 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+=======
+	-dietlibc* | -newlib* | -musl* | -relibc* | -uclibc* )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 		# These are just libc implementations, not actual OSes, and thus
 		# require a kernel.
 		echo "Invalid configuration '$1': libc '$os' needs explicit kernel." 1>&2
