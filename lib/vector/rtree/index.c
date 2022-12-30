@@ -366,6 +366,7 @@ void RTreeDestroyTree(struct RTree *t)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    Search in an RTree for all data retangles that overlap or touch the
 =======
 <<<<<<< HEAD
@@ -802,6 +803,8 @@ void RTreeDestroyTree(struct RTree *t)
 =======
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -920,7 +923,12 @@ void RTreeDestroyTree(struct RTree *t)
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
    Search in an RTree for all data rectangles that overlap or touch the
 =======
    Search in an RTree for all data retangles that overlap or touch the
@@ -1007,6 +1015,7 @@ void RTreeDestroyTree(struct RTree *t)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1110,6 +1119,8 @@ void RTreeDestroyTree(struct RTree *t)
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1459,6 +1470,7 @@ void RTreeDestroyTree(struct RTree *t)
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1717,6 +1729,10 @@ void RTreeDestroyTree(struct RTree *t)
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
    argument rectangle.
    Return the number of qualifying data rectangles.
    The search stops if the SearchHitCallBack function returns 0 (zero)

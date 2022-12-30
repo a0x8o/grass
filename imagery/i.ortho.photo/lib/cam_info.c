@@ -147,6 +147,7 @@ int I_read_cam_info(FILE *fd, struct Ortho_Camera_File_Ref *cam_info)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
                     double Xf, double Yf)
 =======
@@ -585,6 +586,8 @@ int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
 =======
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -704,7 +707,12 @@ int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info UNUSED,
                     char fid_id[30] UNUSED, double Xf UNUSED, double Yf UNUSED)
 =======
@@ -793,6 +801,7 @@ int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -946,6 +955,8 @@ int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -1384,6 +1395,7 @@ int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1616,6 +1628,10 @@ int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 {
     return 0;
 }

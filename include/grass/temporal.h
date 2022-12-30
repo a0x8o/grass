@@ -232,6 +232,7 @@ void tgis_free_map_list(tgisMapList *list);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -504,6 +505,8 @@ void tgis_free_map_list(tgisMapList *list);
 =======
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -645,6 +648,8 @@ void tgis_free_map_list(tgisMapList *list);
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 tgisMapList *tgis_new_map_list(void);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -671,10 +676,14 @@ tgisMapList *tgis_new_map_list(void);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 tgisMapList *tgis_new_map_list();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2169,6 +2178,7 @@ tgisMapList *tgis_new_map_list();
 =======
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 93f0f0bbbc (r.horizon manual - fix typo (#2794))
 =======
@@ -2697,6 +2707,10 @@ tgisMapList *tgis_new_map_list();
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 
 /*! Insert a new map to the map list */
 void tgis_map_list_insert(tgisMapList *list, char *name, char *mapset,
@@ -2967,6 +2981,7 @@ void tgis_free_dataset_list(tgisDatasetList *list);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3239,6 +3254,8 @@ void tgis_free_dataset_list(tgisDatasetList *list);
 =======
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -3380,6 +3397,8 @@ void tgis_free_dataset_list(tgisDatasetList *list);
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 tgisDatasetList *tgis_new_dataset_list(void);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3406,10 +3425,14 @@ tgisDatasetList *tgis_new_dataset_list(void);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 tgisDatasetList *tgis_new_dataset_list();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4904,6 +4927,7 @@ tgisDatasetList *tgis_new_dataset_list();
 =======
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 93f0f0bbbc (r.horizon manual - fix typo (#2794))
 =======
@@ -5432,6 +5456,10 @@ tgisDatasetList *tgis_new_dataset_list();
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 
 /*! Insert a new dataset to the dataset list */
 void tgis_dataset_list_insert(tgisDatasetList *list, char *name, char *mapset,

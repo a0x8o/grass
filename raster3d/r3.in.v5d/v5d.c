@@ -1141,6 +1141,7 @@ void v5dDecompressGrid(int nr, int nc, int nl, int compressmode, void *compdata,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 =======
 <<<<<<< HEAD
@@ -1577,6 +1578,8 @@ int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 =======
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1695,7 +1698,12 @@ int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 int v5dSizeofGrid(const v5dstruct *v, int time UNUSED, int var)
 =======
 int v5dSizeofGrid(const v5dstruct *v, int time, int var)
@@ -1782,6 +1790,7 @@ int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1885,6 +1894,8 @@ int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2234,6 +2245,7 @@ int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2492,6 +2504,10 @@ int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 {
     return v->Nr * v->Nc * v->Nl[var] * v->CompressMode;
 }
