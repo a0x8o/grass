@@ -129,6 +129,7 @@ void PNG_draw_bitmap(int ncols, int nrows, int threshold,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -244,6 +245,8 @@ void PNG_draw_bitmap(int ncols, int nrows, int threshold,
 >>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -472,7 +475,12 @@ void PNG_draw_bitmap(int ncols, int nrows, int threshold,
 =======
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
                 if (k > (unsigned int)threshold)
 =======
 <<<<<<< HEAD
@@ -552,6 +560,7 @@ void PNG_draw_bitmap(int ncols, int nrows, int threshold,
 >>>>>>> osgeo-main
                 if (k > threshold)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1248,7 +1257,12 @@ void PNG_draw_bitmap(int ncols, int nrows, int threshold,
 =======
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
                     *p = png.current_color;
             }
         }

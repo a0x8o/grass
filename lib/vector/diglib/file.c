@@ -210,6 +210,7 @@ size_t dig_fwrite(const void *ptr, size_t size, size_t nmemb,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \brief Initialize gvfile strcuture
 =======
 <<<<<<< HEAD
@@ -311,6 +312,8 @@ size_t dig_fwrite(const void *ptr, size_t size, size_t nmemb,
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -450,7 +453,12 @@ size_t dig_fwrite(const void *ptr, size_t size, size_t nmemb,
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
    \brief Initialize gvfile structure
 =======
    \brief Initialize gvfile strcuture
@@ -497,6 +505,7 @@ size_t dig_fwrite(const void *ptr, size_t size, size_t nmemb,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -540,6 +549,8 @@ size_t dig_fwrite(const void *ptr, size_t size, size_t nmemb,
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -837,7 +848,12 @@ size_t dig_fwrite(const void *ptr, size_t size, size_t nmemb,
    \brief Initialize gvfile strcuture
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 
    \param[in,out] file pointer to gvfile structure
  */

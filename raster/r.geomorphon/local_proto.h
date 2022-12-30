@@ -153,6 +153,7 @@ GLOBAL struct Cell_head window;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -264,6 +265,8 @@ GLOBAL struct Cell_head window;
 >>>>>>> a75e392be1 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 6b3d2a4cfb (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -681,7 +684,12 @@ GLOBAL struct Cell_head window;
 =======
 =======
 >>>>>>> 4be3be03b6 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 6b3d2a4cfb (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -708,6 +716,7 @@ GLOBAL struct Cell_head window;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e092a36981 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
@@ -717,6 +726,8 @@ GLOBAL struct Cell_head window;
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b3d2a4cfb (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1147,7 +1158,15 @@ GLOBAL struct Cell_head window;
 =======
 =======
 >>>>>>> 4be3be03b6 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 6b3d2a4cfb (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 /* Zenith/nadir comparison modes. */
 GLOBAL enum { ANGLEV1, ANGLEV2, ANGLEV2_DISTANCE } compmode;
 

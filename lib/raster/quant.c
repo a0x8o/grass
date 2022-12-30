@@ -170,6 +170,7 @@ int Rast__quant_organize_fp_lookup(struct Quant *q)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* now find the rule to apply inbetween each 2 values in a list */
 =======
 <<<<<<< HEAD
@@ -271,6 +272,8 @@ int Rast__quant_organize_fp_lookup(struct Quant *q)
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -410,7 +413,12 @@ int Rast__quant_organize_fp_lookup(struct Quant *q)
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
         /* now find the rule to apply in between each 2 values in a list */
 =======
         /* now find the rule to apply inbetween each 2 values in a list */
@@ -457,6 +465,7 @@ int Rast__quant_organize_fp_lookup(struct Quant *q)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -500,6 +509,8 @@ int Rast__quant_organize_fp_lookup(struct Quant *q)
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -797,7 +808,12 @@ int Rast__quant_organize_fp_lookup(struct Quant *q)
         /* now find the rule to apply inbetween each 2 values in a list */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
         for (i = 0; i < q->fp_lookup.nalloc - 1; i++) {
             /*debug
                fprintf (stderr, "%lf %lf ", q->fp_lookup.vals[i],
@@ -1348,6 +1364,7 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1463,6 +1480,8 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1691,7 +1710,12 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 =======
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
     int (*lower)(double, double);
 =======
 <<<<<<< HEAD
@@ -1771,6 +1795,7 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 >>>>>>> osgeo-main
     int (*lower)();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2467,7 +2492,12 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 =======
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 
     dtmp = dcellVal;
     /* I know the functions which call me already check for null values,

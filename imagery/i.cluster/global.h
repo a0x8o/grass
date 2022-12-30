@@ -78,6 +78,7 @@ extern struct Ref ref;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -163,6 +164,8 @@ extern struct Ref ref;
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -543,7 +546,12 @@ extern char **semantic_labels;
 =======
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 extern char **semantic_labels;
 =======
 extern char **bandrefs;
@@ -569,6 +577,7 @@ extern char **bandrefs;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
@@ -578,6 +587,8 @@ extern char **bandrefs;
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 extern char **semantic_labels;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -897,7 +908,15 @@ extern char **semantic_labels;
 =======
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+extern char **semantic_labels;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 extern char outsigfile[GNAME_MAX + GMAPSET_MAX];
 extern char *insigfile;
 extern char *reportfile;
