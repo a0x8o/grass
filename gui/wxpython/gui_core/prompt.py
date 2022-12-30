@@ -531,7 +531,7 @@ class GPrompt:
                     env["GISDBASE"],
                     env["LOCATION_NAME"],
                     env["MAPSET"],
-                    ".bash_history",
+                    ".wxgui_history",
                 ),
                 encoding="utf-8",
                 mode="r",

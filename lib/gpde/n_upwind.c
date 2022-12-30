@@ -94,6 +94,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \param sprod double -- the scalar produkt between the velocity vector and the
 =======
 <<<<<<< HEAD
@@ -500,10 +501,17 @@
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
  * \param sprod double -- the scalar product between the velocity vector and the
 =======
  * \param sprod double -- the scalar produkt between the velocity vector and the
@@ -574,6 +582,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -676,6 +685,8 @@
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
  * \param sprod double -- the scalar produkt between the velocity vector and the
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1131,7 +1142,12 @@
  * \param sprod double -- the scalar produkt between the velocity vector and the
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
  * normal vector between two points \param distance double -- distance between
  * two points \param D double -- diffusion/dispersion tensor part between two
  * points
@@ -1234,6 +1250,7 @@ double N_full_upwinding(double sprod, double distance, double D)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \param sprod double -- the scalar produkt between the velocity vector and the
 =======
 <<<<<<< HEAD
@@ -1640,10 +1657,17 @@ double N_full_upwinding(double sprod, double distance, double D)
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
  * \param sprod double -- the scalar product between the velocity vector and the
 =======
  * \param sprod double -- the scalar produkt between the velocity vector and the
@@ -1714,6 +1738,7 @@ double N_full_upwinding(double sprod, double distance, double D)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1816,6 +1841,8 @@ double N_full_upwinding(double sprod, double distance, double D)
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
  * \param sprod double -- the scalar produkt between the velocity vector and the
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2271,7 +2298,12 @@ double N_full_upwinding(double sprod, double distance, double D)
  * \param sprod double -- the scalar produkt between the velocity vector and the
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
  * normal vector between two points \param distance double -- distance between
  * two points \param D double -- diffusion/dispersion tensor part between two
  * points

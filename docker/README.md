@@ -120,6 +120,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -474,10 +475,17 @@
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/osgeo/grass-gis.svg)](https://grass.osgeo.org/download/docker/)
 
@@ -1655,10 +1663,14 @@ docker pull osgeo/grass-gis:<tag>
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
@@ -1782,6 +1794,8 @@ and <https://hub.docker.com/r/mundialis/grass-py3-pdal/tags>)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/mundialis/grass-py3-pdal.svg)](https://grass.osgeo.org/download/software/docker-images/)
 
@@ -1796,6 +1810,7 @@ and <https://hub.docker.com/r/mundialis/grass-py3-pdal/tags>)
 | Alpine 3.12  | stable-alpine   | 8.2 branch | 7.0.1 | 3.1.4 | 2.1.0 | 3.8.10 |  186 MB    |
 
 Last update: 27 Apr 2022 (source: <https://github.com/OSGeo/grass/actions/workflows/docker.yml> and <https://hub.docker.com/r/mundialis/grass-py3-pdal/tags>)
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 | Ubuntu 20.04 | latest-ubuntu | 8.3.dev    | 6.3.1 | 3.0.4 | 2.2.0 | 3.8.10 | 1.20 GB    |
@@ -1810,6 +1825,8 @@ Last update: 27 Apr 2022 (source: <https://github.com/OSGeo/grass/actions/workfl
 Last update: 27 Apr 2022 (source: <https://github.com/OSGeo/grass/actions/workflows/docker.yml>
 and <https://hub.docker.com/r/mundialis/grass-py3-pdal/tags>)
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 
 ## Requirements
 
@@ -1817,6 +1834,7 @@ and <https://hub.docker.com/r/mundialis/grass-py3-pdal/tags>)
 
 ## Installation
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 To install a docker image, run (replace `<tag>` with the desired Docker tag from
@@ -2475,11 +2493,19 @@ the table above):
 =======
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
+=======
+=======
+To install a docker image, run (replace `<tag>` with the desired Docker tag from the table above):
+
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 ```bash
 docker pull mundialis/grass-py3-pdal:<tag>
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2783,6 +2809,8 @@ docker pull mundialis/grass-py3-pdal:<tag>
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2814,6 +2842,7 @@ docker pull mundialis/grass-py3-pdal:<tag>
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3148,4 +3177,9 @@ docker pull mundialis/grass-py3-pdal:<tag>
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 See also: <https://grass.osgeo.org/download/docker/>

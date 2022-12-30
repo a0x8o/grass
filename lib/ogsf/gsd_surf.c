@@ -1335,6 +1335,7 @@ int gsd_surf_const(geosurf *surf, float k)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -2015,6 +2016,8 @@ int gsd_surf_func(geosurf *gs, int (*user_func)(void))
 =======
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -2028,7 +2031,12 @@ int gsd_surf_func(geosurf *gs, int (*user_func)(void))
 =======
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 int gsd_surf_func(geosurf *gs UNUSED, int (*user_func)(void) UNUSED)
 =======
 int gsd_surf_func(geosurf *gs, int (*user_func)())
@@ -2100,6 +2108,7 @@ int gsd_surf_func(geosurf *gs, int (*user_func)())
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -2234,6 +2243,8 @@ int gsd_surf_func(geosurf *gs, int (*user_func)())
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 int gsd_surf_func(geosurf *gs, int (*user_func)())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2792,6 +2803,7 @@ int gsd_surf_func(geosurf *gs, int (*user_func)())
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -3348,6 +3360,10 @@ int gsd_surf_func(geosurf *gs, int (*user_func)(void))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 {
 
     return (1);
@@ -4676,6 +4692,7 @@ int gsd_surf_map(geosurf *surf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4989,6 +5006,8 @@ int gsd_surf_map(geosurf *surf)
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
             /* Do not need BM_get because GET_MAPATT calls
              * same and returns zero if masked
              */
@@ -5801,6 +5820,8 @@ int gsd_surf_map(geosurf *surf)
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             cnt1++;
 
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
             /* Do not need BM_get because GET_MAPATT calls
              * same and returns zero if masked
              */
@@ -5928,6 +5949,7 @@ int gsd_surf_map(geosurf *surf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5990,6 +6012,101 @@ int gsd_surf_map(geosurf *surf)
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+            cnt1++;
+
+            /* Do not need BM_get because GET_MAPATT calls
+             * same and returns zero if masked
+             */
+            offset2[0] = y1off + datacol1; /* fan center */
+            pt2[0][X] = x1;
+            pt2[0][Y] = y1; /* fan center */
+            pt[X] = pt2[0][X];
+            pt[Y] = pt2[0][Y];
+            if (!GET_MAPATT(buff, offset2[0], pt[Z]))
+                continue; /* masked */
+            else {
+                pt[Z] *= zexag;
+                if (gsd_checkpoint(pt, window, viewport, modelMatrix,
+                                   projMatrix))
+                    continue;
+            }
+
+            offset2[1] = y2off + datacol2;
+            offset2[2] = y2off + datacol1;
+            offset2[3] = y2off + datacol3;
+            offset2[4] = y1off + datacol3;
+            offset2[5] = y3off + datacol3;
+            offset2[6] = y3off + datacol1;
+            offset2[7] = y3off + datacol2;
+            offset2[8] = y1off + datacol2;
+            offset2[9] = y2off + datacol2; /* repeat 1st corner to close */
+
+            pt2[1][X] = x2;
+            pt2[1][Y] = y2;
+            pt2[2][X] = x1;
+            pt2[2][Y] = y2;
+            pt2[3][X] = x3;
+            pt2[3][Y] = y2;
+            pt2[4][X] = x3;
+            pt2[4][Y] = y1;
+            pt2[5][X] = x3;
+            pt2[5][Y] = y3;
+            pt2[6][X] = x1;
+            pt2[6][Y] = y3;
+            pt2[7][X] = x2;
+            pt2[7][Y] = y3;
+            pt2[8][X] = x2;
+            pt2[8][Y] = y1;
+            pt2[9][X] = x2;
+            pt2[9][Y] = y2; /* repeat 1st corner to close */
+
+            /* Run through triangle fan */
+            gsd_bgntfan();
+            for (ii = 0; ii < 10; ii++) {
+
+                if (ii > 0) {
+                    pt[X] = pt2[ii][X];
+                    pt[Y] = pt2[ii][Y];
+                    if (!GET_MAPATT(buff, offset2[ii], pt[Z]))
+                        continue;
+                    pt[Z] *= zexag;
+                }
+
+                FNORM(surf->norms[offset2[ii]], n);
+
+                if (check_color)
+                    curcolor = gs_mapcolor(cobuff, coloratt, offset2[ii]);
+
+                if (check_transp) {
+                    GET_MAPATT(trbuff, offset2[ii], ttr);
+                    ktrans = (char)SCALE_ATT(tratt, ttr, 0, 255);
+                    ktrans = (char)(255 - ktrans) << 24;
+                }
+
+                if (check_material) {
+                    if (check_emis) {
+                        GET_MAPATT(embuff, offset2[ii], kem);
+                        kem = SCALE_ATT(ematt, kem, 0., 1.);
+                    }
+
+                    if (check_shin) {
+                        GET_MAPATT(shbuff, offset2[ii], ksh);
+                        ksh = SCALE_ATT(shatt, ksh, 0., 1.);
+                    }
+
+                    if (pksh != ksh || pkem != kem || (kem && check_color)) {
+                        pksh = ksh;
+                        pkem = kem;
+                        gsd_set_material(check_shin, check_emis, ksh, kem,
+                                         curcolor);
+                    }
+                }
+
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -6129,6 +6246,7 @@ int gsd_surf_map(geosurf *surf)
 =======
             cnt2++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9691,7 +9809,12 @@ int gsd_surf_map(geosurf *surf)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
         } /* end col */
     }     /* end row */
 <<<<<<< HEAD

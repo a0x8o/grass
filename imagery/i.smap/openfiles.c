@@ -73,6 +73,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -176,6 +177,8 @@
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 93657d73a0 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
@@ -314,6 +317,7 @@
 =======
 =======
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 71c4313a63 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -702,6 +706,10 @@
 =======
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 93657d73a0 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 {
     FILE *fd;
@@ -983,18 +991,22 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 =======
 
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 {
     FILE *fd;
-    struct Ref Ref;		/* subgroup reference list */
+    struct Ref Ref; /* subgroup reference list */
     int n;
     char **err;
 
+<<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 2aafbe628a (ci: Ignore paths in CodeQL (#1778))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 {
     FILE *fd;
@@ -1576,6 +1588,7 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1734,6 +1747,10 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
     if (!I_get_subgroup_ref(parms->group, parms->subgroup, &Ref))
         G_fatal_error(
             _("Unable to read REF file for subgroup <%s> in group <%s>"),
@@ -1742,6 +1759,7 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
     if (Ref.nfiles <= 0)
         G_fatal_error(_("Subgroup <%s> in group <%s> contains no raster maps"),
                       parms->subgroup, parms->group);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2018,6 +2036,8 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 
     fd = I_fopen_sigset_file_old(parms->sigfile);
     if (fd == NULL)
@@ -2697,6 +2717,8 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 
     fd = I_fopen_sigset_file_old(parms->sigfile);
     if (fd == NULL)
@@ -2716,28 +2738,27 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
                         "Extra signatures for bands: %s\n"
                         "Imagery group bands without signatures: %s"),
                       err[0] ? err[0] : _("none"), err[1] ? err[1] : _("none"));
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     fd = I_fopen_sigset_file_old(parms->sigfile);
     if (fd == NULL)
-	G_fatal_error(_("Unable to read signature file <%s>"),
-		      parms->sigfile);
+        G_fatal_error(_("Unable to read signature file <%s>"), parms->sigfile);
 
     if (I_ReadSigSet(fd, S) < 0 || Ref.nfiles != S->nbands)
-	G_fatal_error(_("Signature file <%s> is invalid"), parms->sigfile);
+        G_fatal_error(_("Signature file <%s> is invalid"), parms->sigfile);
 
     if (S->ClassSig == NULL || S->title == NULL)
-	G_fatal_error(_("Signature file <%s> is empty"), parms->sigfile);
+        G_fatal_error(_("Signature file <%s> is empty"), parms->sigfile);
 
     fclose(fd);
 
-    err = I_SortSigSetByBandref(S, &Ref);
+    err = I_SortSigSetBySemanticLabel(S, &Ref);
     if (err)
-        G_fatal_error(_("Signature – group member band reference mismatch.\n"
-            "Extra signatures for bands: %s\n"
-            "Imagery group bands without signatures: %s"),
-            err[0] ? err[0] : _("none"),
-            err[1] ? err[1] : _("none")
-        );
+        G_fatal_error(_("Signature - group member semantic label mismatch.\n"
+                        "Extra signatures for bands: %s\n"
+                        "Imagery group bands without signatures: %s"),
+                      err[0] ? err[0] : _("none"), err[1] ? err[1] : _("none"));
 
     /* allocate file descriptors, and io buffer */
     files->cellbuf = Rast_allocate_d_buf();

@@ -211,6 +211,7 @@ int draw_line(int ltype, int line, const struct line_pnts *Points,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               const struct line_cats *Cats, int chcat, double size,
 =======
 <<<<<<< HEAD
@@ -617,10 +618,17 @@ int draw_line(int ltype, int line, const struct line_pnts *Points,
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
               const struct line_cats *Cats, int chcat, double size UNUSED,
 =======
               const struct line_cats *Cats, int chcat, double size,
@@ -691,6 +699,7 @@ int draw_line(int ltype, int line, const struct line_pnts *Points,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -793,6 +802,8 @@ int draw_line(int ltype, int line, const struct line_pnts *Points,
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
               const struct line_cats *Cats, int chcat, double size,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1248,7 +1259,12 @@ int draw_line(int ltype, int line, const struct line_pnts *Points,
               const struct line_cats *Cats, int chcat, double size,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
               int default_width, const struct cat_list *Clist, SYMBOL *Symb,
               RGBA_Color *primary_color, int *n_points, int *n_lines,
               int *n_centroids, int *n_boundaries, int *n_faces,

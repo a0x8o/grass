@@ -4594,6 +4594,7 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -4748,6 +4749,8 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5de9e271af (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
     stored in https://grass.osgeo.org/grass-devel/binary/linux/snapshot/transifex/
      --> cronjob (on grasslxd container): /home/neteler/cronjobs/cron_grass8_main_src_snapshot.sh
 =======
@@ -5370,6 +5373,10 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 =======
     stored in https://grass.osgeo.org/grass80/binary/linux/snapshot/transifex/
      --> cronjob (on grasslxd container): /home/neteler/cronjobs/cron_grass8_HEAD_build_bins.sh
+=======
+    stored in https://grass.osgeo.org/grass-devel/binary/linux/snapshot/transifex/
+     --> cronjob (on grasslxd container): /home/neteler/cronjobs/cron_grass8_main_src_snapshot.sh
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 
 [2] Transifex job copies daily from [1] to here: 
 >>>>>>> 0a0b3c899e (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -6154,9 +6161,16 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 =======
 [4] Updated po files are taken from Transifex and merged into GRASS GIS source repo 
     (MO files are generated when compiling GRASS GIS)
+<<<<<<< HEAD
     Script: https://github.com/OSGeo/grass-addons/blob/master/tools/transifex_merge.sh
 >>>>>>> 0a0b3c899e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 5de9e271af (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+    Script: https://github.com/OSGeo/grass-addons/blob/grass8/utils/transifex_merge.sh
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 
     # trim disconnected=obsolete translations
     POFILE=grassYXZ_LANG.po
