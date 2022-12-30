@@ -1088,13 +1088,6 @@ import wx.lib.filebrowsebutton as filebrowse
 import grass.script as gs
 from grass.script import task as gtask
 from grass.exceptions import CalledModuleError
-from grass.lib.imagery import (
-    I_SIGFILE_TYPE_SIG,
-    I_SIGFILE_TYPE_SIGSET,
-    I_signatures_list_by_type,
-    I_free_signatures_list,
-)
-from grass.pygrass.utils import decode
 
 from gui_core.widgets import ManageSettingsWidget, CoordinatesValidator
 
@@ -3215,6 +3208,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3357,6 +3351,8 @@ class GdalSelect(wx.Panel):
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ea91af519a (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -4231,6 +4227,7 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> fa3a181fb0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e2b92fe11f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -4378,6 +4375,10 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> fa3a181fb0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> ea91af519a (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
                 db_formats = self.dbFormats.values()
                 if "PostgreSQL" in db_formats:
 =======
@@ -4565,6 +4566,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -4610,6 +4612,7 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4640,9 +4643,12 @@ class GdalSelect(wx.Panel):
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
                 db_formats = self.dbFormats.values()
                 if "PostgreSQL" in db_formats:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4686,6 +4692,9 @@ class GdalSelect(wx.Panel):
 =======
 <<<<<<< HEAD
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
                 db_formats = self.dbFormats.values()
                 if "PostgreSQL" in db_formats:
@@ -5270,6 +5279,7 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> fa3a181fb0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e2b92fe11f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -5652,6 +5662,10 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> fa3a181fb0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> ea91af519a (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
                     self.dbWidgets["format"].SetStringSelection("PostgreSQL")
                 elif "PostgreSQL/PostGIS" in db_formats:
                     self.dbWidgets["format"].SetStringSelection("PostgreSQL/PostGIS")
@@ -6340,6 +6354,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # v.external returns info for individual bands, however projection is shared by all bands ->
                 # (it is possible to take first line)
 =======
@@ -6482,6 +6497,8 @@ class GdalSelect(wx.Panel):
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -6713,6 +6730,7 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7049,6 +7067,10 @@ class GdalSelect(wx.Panel):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
                 # v.external returns info for individual bands, however projection is
                 # shared by all bands -> (it is possible to take first line)
 =======
@@ -7157,6 +7179,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7350,6 +7373,8 @@ class GdalSelect(wx.Panel):
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -7980,6 +8005,7 @@ class GdalSelect(wx.Panel):
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -8183,6 +8209,10 @@ class GdalSelect(wx.Panel):
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 
                 lines = ret.splitlines()
                 projectionMatch = "0"
@@ -15169,14 +15199,43 @@ class SignatureSelect(wx.ComboBox):
 =======
 =======
 
+<<<<<<< HEAD
         sig_type = None
 >>>>>>> 72d2bd2407 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+        items = []
+        if mapsets:
+            for mapset in mapsets:
+                self._append_mapset_signatures(mapset, element, items)
+        else:
+            self._append_mapset_signatures(None, element, items)
+        self.SetItems(items)
+        self.SetValue("")
+
+    def _append_mapset_signatures(self, mapset, element, items):
+        try:
+            from grass.lib.imagery import (
+                I_SIGFILE_TYPE_SIG,
+                I_SIGFILE_TYPE_SIGSET,
+                I_signatures_list_by_type,
+                I_free_signatures_list,
+            )
+        except ImportError as e:
+            sys.stderr.write(
+                _("Unable to import C imagery library functions: %s\n") % e
+            )
+            return
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
         # Extend here if a new signature type is introduced
         if element == "signatures/sig":
             sig_type = I_SIGFILE_TYPE_SIG
         elif element == "signatures/sigset":
             sig_type = I_SIGFILE_TYPE_SIGSET
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15322,6 +15381,8 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -16471,6 +16532,7 @@ class SignatureSelect(wx.ComboBox):
         else:
             return
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -16571,10 +16633,13 @@ class SignatureSelect(wx.ComboBox):
 =======
 >>>>>>> 72d2bd2407 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
         list_ptr = ctypes.POINTER(ctypes.c_char_p)
         sig_list = list_ptr()
         count = I_signatures_list_by_type(sig_type, mapset, ctypes.byref(sig_list))
         for n in range(count):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16708,6 +16773,8 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
             items.append(grass.decode(sig_list[n]))
         I_free_signatures_list(count, ctypes.byref(sig_list))
 <<<<<<< HEAD
@@ -18027,12 +18094,16 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> 72d2bd2407 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 42e8aaeeb9 (ci: Ignore paths in CodeQL (#1778))
 =======
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
             items.append(grass.decode(sig_list[n]))
         I_free_signatures_list(count, ctypes.byref(sig_list))
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -18200,6 +18271,8 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 

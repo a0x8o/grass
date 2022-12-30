@@ -62,6 +62,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -599,6 +600,8 @@ import random
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 import random
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -610,6 +613,7 @@ import random
 =======
 import random
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1637,6 +1641,7 @@ import random
 >>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4480ca2a94 (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -2006,6 +2011,10 @@ import random
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 import shutil
 from types import SimpleNamespace
 
@@ -4588,6 +4597,7 @@ def benchmark_single(module, label, repeat=5):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4859,6 +4869,8 @@ def benchmark_single(module, label, repeat=5):
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2cf278b2b8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
@@ -5751,12 +5763,16 @@ def benchmark_single(module, label, repeat=5):
 =======
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aada9378f8 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6034,6 +6050,8 @@ def benchmark_single(module, label, repeat=5):
 =======
 >>>>>>> 9deecba858 (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 2cf278b2b8 (libpython: Support benchmarks of non-parallel runs better (#1733))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 def benchmark_nprocs(module, label, max_nprocs, repeat=5, shuffle=True):
     """Benchmark module using values of nprocs up to *max_nprocs*.
 
@@ -6050,6 +6068,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5, shuffle=True):
     So, the module will run ``max_nprocs * repeat`` times.
     Runs are executed in random order, set *shuffle* to false if they
     need to be executed in order based on number of threads.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6635,6 +6654,8 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+=======
 def benchmark_nprocs(module, label, max_nprocs, repeat):
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6754,6 +6775,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6798,6 +6820,8 @@ def benchmark_nprocs(module, label, max_nprocs, repeat):
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -7905,6 +7929,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
     *repeat* sets how many times the each run is repeated.
     So, the module will run ``max_nprocs * repeat`` times.
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
@@ -8647,11 +8672,17 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 
     *label* is a text to add to the result (for user-facing display).
     Optional *nprocs* is passed to the module if present.
 
     Returns an object with attributes *times* (list of average execution times),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9477,6 +9508,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 =======
 >>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4480ca2a94 (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -9776,6 +9808,10 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 =======
 >>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
     *all_times* (list of lists of measured execution times),
     *efficiency* (parallel efficiency), *nprocs* (list of *nprocs* values used),
     and *label* (the provided parameter as is).
@@ -13677,6 +13713,11 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 =======
     *all_times* (list of lists of measured execution times), *nprocs*
     (list of *nprocs* values used), and *label* (the provided parameter as is).
+=======
+    *all_times* (list of lists of measured execution times),
+    *efficiency* (parallel efficiency), *nprocs* (list of *nprocs* values used),
+    and *label* (the provided parameter as is).
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     """
     term_size = shutil.get_terminal_size()
     if hasattr(module, "get_bash"):
@@ -13689,31 +13730,48 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
     serial_avg = None
     avg_times = []
     all_times = []
+    efficiency = []
     nprocs_list = list(range(1, max_nprocs + 1))
-    for nprocs in nprocs_list:
-        print("\u2500" * term_size.columns)
-        print(f"Benchmark with {nprocs} thread(s)...\n")
-        time_sum = 0
-        measured_times = []
-        for _ in range(repeat):
-            module.update(nprocs=nprocs)
-            module.run()
-            print(f"{module.time}s")
-            time_sum += module.time
-            measured_times.append(module.time)
-
-        avg = time_sum / repeat
+    nprocs_list_shuffled = sorted(nprocs_list * repeat)
+    if shuffle:
+        random.shuffle(nprocs_list_shuffled)
+    times = {}
+    print("\u2500" * term_size.columns)
+    for nprocs in nprocs_list_shuffled:
+        module.update(nprocs=nprocs)
+        module.run()
+        print(f"Run with {nprocs} thread(s) took {module.time}s\n")
+        if nprocs in times:
+            times[nprocs] += [module.time]
+        else:
+            times[nprocs] = [module.time]
+    for nprocs in sorted(times):
+        avg = sum(times[nprocs]) / repeat
         avg_times.append(avg)
+<<<<<<< HEAD
         all_times.append(measured_times)
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+=======
+        all_times.append(times[nprocs])
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
         if nprocs == 1:
             serial_avg = avg
         if avg < min_avg:
             min_avg = avg
             min_time = nprocs
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14097,6 +14155,8 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6c56216d2e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -15139,10 +15199,17 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
         efficiency.append(serial_avg / (nprocs * avg))
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 =======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
         result.speedup.append(serial_avg / avg)
         result.efficiency.append(serial_avg / (nprocs * avg))
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
         efficiency.append(serial_avg / (nprocs * avg))
 >>>>>>> 742603b912 (libpython: Save and load benchmark results (#1711))
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
@@ -16573,6 +16640,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16637,7 +16705,12 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 =======
 >>>>>>> main
 >>>>>>> c21dcd3d37 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 1c3c7a612a (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
         efficiency=efficiency,
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -16652,6 +16725,9 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
         efficiency=efficiency,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -16852,6 +16928,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 97c1ae10bf (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -16932,6 +17009,10 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 >>>>>>> 39aa99710a (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 6178b77bf1 (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
         nprocs=nprocs_list,
         label=label,
     )

@@ -367,6 +367,7 @@ int G_bz2_expand(unsigned char *src, int src_sz, unsigned char *dst, int dst_sz)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -517,6 +518,8 @@ int G_bz2_expand(unsigned char *src, int src_sz, unsigned char *dst, int dst_sz)
 >>>>>>> d8b2703006 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -3063,7 +3066,16 @@ int G_bz2_expand(unsigned char *src, int src_sz, unsigned char *dst, int dst_sz)
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+    if (dst_sz < 0 || nbytes != (unsigned int)dst_sz) {
+=======
+    if (nbytes != dst_sz) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
         /* TODO: it is not an error if destination is larger than needed */
         G_warning(_("Got uncompressed size %d, expected %d"), (int)nbytes,
                   dst_sz);

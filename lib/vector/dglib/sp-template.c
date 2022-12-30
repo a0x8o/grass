@@ -147,6 +147,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
                                  dglInt32_t nStart)
 =======
@@ -289,6 +290,8 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -520,6 +523,7 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -856,6 +860,10 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 #include <grass/gis.h>
 
 int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph UNUSED,
@@ -966,6 +974,7 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1159,6 +1168,8 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -1765,6 +1776,7 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1979,6 +1991,10 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 {
     pCache->nStartNode = nStart;
     pCache->pvVisited = NULL;
@@ -2100,6 +2116,7 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 =======
 <<<<<<< HEAD
@@ -2241,6 +2258,8 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2471,6 +2490,7 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2806,6 +2826,10 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph UNUSED, dglSPCache_s *pCache)
 =======
 void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
@@ -2912,6 +2936,7 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3055,6 +3080,8 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -3600,6 +3627,7 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3781,6 +3809,10 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 {
     if (pCache->pvVisited)
         avl_destroy(pCache->pvVisited, dglTreeTouchI32Cancel);

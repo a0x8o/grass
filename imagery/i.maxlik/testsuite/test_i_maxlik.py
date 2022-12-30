@@ -287,6 +287,7 @@ class SuccessTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -478,6 +479,8 @@ class SuccessTest(TestCase):
 >>>>>>> d46f4229a7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> c745556f47 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 21a39e2108 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -1176,6 +1179,8 @@ class SuccessTest(TestCase):
 =======
 >>>>>>> 3d3f3040e9 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
             expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
 >>>>>>> bea6abbdbb (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -1214,7 +1219,11 @@ class SuccessTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
@@ -2480,6 +2489,7 @@ class SuccessTest(TestCase):
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 3d3f3040e9 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21a39e2108 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -3092,6 +3102,10 @@ class SuccessTest(TestCase):
 >>>>>>> 3d3f3040e9 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> e8701b182a (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
             flags="s",
             quiet=True,
         )

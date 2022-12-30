@@ -1141,6 +1141,7 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?
 =======
 <<<<<<< HEAD
@@ -1618,6 +1619,8 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
         # TODO: it is here just to remove old or obsolete behavior of base class
 =======
 =======
@@ -1703,6 +1706,8 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 =======
@@ -1934,7 +1939,12 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
         # TODO: it is here just to remove old or obsolete beavior of base class
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -1942,6 +1952,7 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 =======
         # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2187,6 +2198,8 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2732,6 +2745,7 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2913,6 +2927,10 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
         # self.grwiz.SwitchEnv('source')
         pass
 

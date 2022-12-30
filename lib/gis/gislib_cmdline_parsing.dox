@@ -71,6 +71,7 @@ extracted form gislib.dox and improved by Vaclav Petras, 2013
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -827,6 +828,7 @@ Copyright 2004-2023 by the GRASS Development Team
 >>>>>>> 3d3f3040e9 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 21a39e2108 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
@@ -1318,6 +1320,10 @@ Copyright 2004-2023 by the GRASS Development Team
 >>>>>>> 3d3f3040e9 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> e8701b182a (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 Copyright 2004-2024 by the GRASS Development Team
 =======
 Copyright 2004-2022 by the GRASS Development Team
@@ -1425,6 +1431,7 @@ Copyright 2004-2022 by the GRASS Development Team
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1532,6 +1539,8 @@ Copyright 2004-2022 by the GRASS Development Team
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -2838,6 +2847,7 @@ Copyright 2004-2023 by the GRASS Development Team
 >>>>>>> 3d3f3040e9 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 21a39e2108 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
@@ -3215,6 +3225,10 @@ Copyright 2004-2023 by the GRASS Development Team
 >>>>>>> 3d3f3040e9 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> e8701b182a (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 
 Published under GNU Free Documentation License
 -->

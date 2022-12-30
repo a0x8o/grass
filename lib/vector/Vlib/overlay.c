@@ -205,6 +205,7 @@ int Vect_overlay(struct Map_info *AMap, int atype, struct ilist *AList,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_overlay_and(struct Map_info *AMap, int atype, struct ilist *AList,
                      struct ilist *AAList, struct Map_info *BMap, int btype,
                      struct ilist *BList, struct ilist *BAList,
@@ -348,6 +349,8 @@ int Vect_overlay_and(struct Map_info *AMap, int atype, struct ilist *AList,
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -580,6 +583,7 @@ int Vect_overlay_and(struct Map_info *AMap, int atype, struct ilist *AList,
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -917,6 +921,10 @@ int Vect_overlay_and(struct Map_info *AMap, int atype, struct ilist *AList,
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 int Vect_overlay_and(struct Map_info *AMap, int atype,
                      struct ilist *AList UNUSED, struct ilist *AAList UNUSED,
                      struct Map_info *BMap, int btype,
@@ -1028,6 +1036,7 @@ int Vect_overlay_and(struct Map_info *AMap, int atype, struct ilist *AList,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1221,6 +1230,8 @@ int Vect_overlay_and(struct Map_info *AMap, int atype, struct ilist *AList,
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -1850,6 +1861,7 @@ int Vect_overlay_and(struct Map_info *AMap, int atype, struct ilist *AList,
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2043,6 +2055,10 @@ int Vect_overlay_and(struct Map_info *AMap, int atype, struct ilist *AList,
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
                      struct Map_info *OMap)
 {
     int i, j, k, line, altype, bltype, oltype, area, centr;

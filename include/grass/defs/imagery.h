@@ -179,6 +179,7 @@ int I_find_subgroup_file(const char *, const char *, const char *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -319,6 +320,8 @@ int I_find_subgroup_file(const char *, const char *, const char *);
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -1656,6 +1659,7 @@ int I_find_subgroup_file2(const char *, const char *, const char *,
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1695,6 +1699,10 @@ int I_find_subgroup_file2(const char *, const char *, const char *,
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 int I_find_subgroup_file2(const char *, const char *, const char *,
                           const char *);
 =======
@@ -1730,6 +1738,9 @@ int I_find_subgroup_file2(const char *, const char *, const char *, const char *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
@@ -1825,6 +1836,7 @@ int I_find_subgroup_file2(const char *, const char *, const char *, const char *
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1864,9 +1876,12 @@ int I_find_subgroup_file2(const char *, const char *, const char *, const char *
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 int I_find_subgroup_file2(const char *, const char *, const char *,
                           const char *);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1920,6 +1935,8 @@ int I_find_subgroup_file2(const char *, const char *, const char *,
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -2677,7 +2694,12 @@ int I_find_subgroup_file2(const char *, const char *, const char *, const char *
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 72d2bd2407 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 const char *I_find_signature(I_SIGFILE_TYPE, char *, const char *);
 const char *I_find_signature2(I_SIGFILE_TYPE, const char *, const char *);
 
@@ -2805,6 +2827,7 @@ int I_apply_colormap(unsigned char *, unsigned char *, unsigned,
                      unsigned char *, unsigned char *);
 int I_rasterize(double *, int, unsigned char, struct Cell_head *,
                 unsigned char *);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3842,6 +3865,8 @@ void I_free_signatures_list(int, char ***);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 
 /* manage_signatures.c */
 void I_get_signatures_dir(char *, I_SIGFILE_TYPE);
@@ -3851,10 +3876,12 @@ int I_signatures_copy(I_SIGFILE_TYPE, const char *, const char *, const char *);
 int I_signatures_rename(I_SIGFILE_TYPE, const char *, const char *);
 int I_signatures_list_by_type(I_SIGFILE_TYPE, const char *, char ***);
 void I_free_signatures_list(int, char ***);
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /* manage_signatures.c */
-void I__get_signatures_element(char *, I_SIGFILE_TYPE);
-void I__make_signatures_element(I_SIGFILE_TYPE);
+void I_get_signatures_dir(char *, I_SIGFILE_TYPE);
+void I_make_signatures_dir(I_SIGFILE_TYPE);
 int I_signatures_remove(I_SIGFILE_TYPE, const char *);
 int I_signatures_copy(I_SIGFILE_TYPE, const char *, const char *, const char *);
 int I_signatures_rename(I_SIGFILE_TYPE, const char *, const char *);
@@ -4025,6 +4052,7 @@ int I_write_signatures(FILE *, struct Signature *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4167,6 +4195,8 @@ int I_write_signatures(FILE *, struct Signature *);
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -5041,6 +5071,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *,
 =======
 >>>>>>> 72d2bd2407 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 42e8aaeeb9 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -5188,6 +5219,10 @@ char **I_sort_signatures_by_semantic_label(struct Signature *,
 =======
 >>>>>>> 72d2bd2407 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 char **I_sort_signatures_by_semantic_label(struct Signature *,
                                            const struct Ref *);
 =======
@@ -5375,6 +5410,7 @@ char **I_sort_signatures_by_bandref(struct Signature *, const struct Ref *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -5420,6 +5456,7 @@ char **I_sort_signatures_by_bandref(struct Signature *, const struct Ref *);
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -5450,9 +5487,12 @@ char **I_sort_signatures_by_bandref(struct Signature *, const struct Ref *);
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 char **I_sort_signatures_by_semantic_label(struct Signature *,
                                            const struct Ref *);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5496,6 +5536,9 @@ char **I_sort_signatures_by_semantic_label(struct Signature *,
 =======
 <<<<<<< HEAD
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 char **I_sort_signatures_by_semantic_label(struct Signature *,
                                            const struct Ref *);
@@ -6080,6 +6123,7 @@ char **I_sort_signatures_by_bandref(struct Signature *, const struct Ref *);
 =======
 >>>>>>> 72d2bd2407 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 42e8aaeeb9 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -6462,6 +6506,10 @@ char **I_sort_signatures_by_bandref(struct Signature *, const struct Ref *);
 =======
 >>>>>>> 72d2bd2407 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 
 /* sigfile.c */
 FILE *I_fopen_signature_file_new(const char *);
@@ -6636,6 +6684,7 @@ int I_WriteSigSet(FILE *, const struct SigSet *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6778,6 +6827,8 @@ int I_WriteSigSet(FILE *, const struct SigSet *);
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -7065,6 +7116,8 @@ int I_WriteSigSet(FILE *, const struct SigSet *);
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 72d2bd2407 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 char **I_SortSigSetBySemanticLabel(struct SigSet *, const struct Ref *);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7103,7 +7156,11 @@ char **I_SortSigSetByBandref(struct SigSet *, const struct Ref *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8c0e82e005 (ci: Ignore paths in CodeQL (#1778))
+=======
+<<<<<<< HEAD
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
@@ -8413,13 +8470,17 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *, const struct Ref *);
 =======
 >>>>>>> 72d2bd2407 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 42e8aaeeb9 (ci: Ignore paths in CodeQL (#1778))
 =======
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 char **I_SortSigSetBySemanticLabel(struct SigSet *, const struct Ref *);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8849,6 +8910,8 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *, const struct Ref *);
 =======
 >>>>>>> 72d2bd2407 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> a08efb2f34 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 
 /* sigsetfile.c */
 FILE *I_fopen_sigset_file_new(const char *);

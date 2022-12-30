@@ -70,6 +70,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -833,6 +834,7 @@ import os
 =======
 >>>>>>> b4c4edd395 (libraster: fix Rast_legal_bandref() (#1796))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ff1b448832 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 =======
@@ -1140,6 +1142,10 @@ import os
 =======
 >>>>>>> b4c4edd395 (libraster: fix Rast_legal_bandref() (#1796))
 >>>>>>> 67ba91ffa3 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 import sys
 import unittest
 from pathlib import Path
@@ -3094,11 +3100,24 @@ from pathlib import Path
 =======
 =======
 import unittest
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 import sys
+import unittest
 from pathlib import Path
+<<<<<<< HEAD
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
 >>>>>>> b4c4edd395 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
 >>>>>>> 67ba91ffa3 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 import grass.jupyter as gj
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -3264,6 +3283,7 @@ def can_import_folium():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3406,6 +3426,8 @@ def can_import_folium():
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67ba91ffa3 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -3818,6 +3840,7 @@ def can_import_folium():
 =======
 =======
 >>>>>>> b4c4edd395 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ff1b448832 (libraster: fix Rast_legal_bandref() (#1796))
 =======
@@ -4297,10 +4320,15 @@ def can_import_folium():
 =======
 >>>>>>> b4c4edd395 (libraster: fix Rast_legal_bandref() (#1796))
 >>>>>>> 67ba91ffa3 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
         import folium  # noqa
 =======
         import folium
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4392,6 +4420,8 @@ def can_import_folium():
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67ba91ffa3 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
         import folium  # noqa
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4691,13 +4721,17 @@ def can_import_folium():
 =======
 >>>>>>> b4c4edd395 (libraster: fix Rast_legal_bandref() (#1796))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ff1b448832 (libraster: fix Rast_legal_bandref() (#1796))
 =======
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
         import folium  # noqa
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4823,6 +4857,8 @@ def can_import_folium():
 =======
 >>>>>>> b4c4edd395 (libraster: fix Rast_legal_bandref() (#1796))
 >>>>>>> 67ba91ffa3 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+>>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 
         return True
     except ImportError:
