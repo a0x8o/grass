@@ -3,6 +3,7 @@
 @author Anna Petrasova
 """
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import json
 
@@ -11,6 +12,9 @@ from grass.gunittest.gmodules import call_module
 =======
 from grass.gunittest.case import TestCase
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+from grass.gunittest.case import TestCase
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 import grass.script as gs
 
 
@@ -48,6 +52,7 @@ class TestRegion(TestCase):
         self.assertEqual(n_default, region["n"])
         self.assertEqual(res_default, region["nsres"])
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     def test_f_flag(self):
         line = call_module("g.region", flags="fglecn3", capture_stdout=True)
@@ -125,7 +130,12 @@ class TestRegion(TestCase):
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 
 if __name__ == "__main__":
     from grass.gunittest.main import test

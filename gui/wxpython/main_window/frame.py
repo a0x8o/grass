@@ -85,13 +85,19 @@ from lmgr.statusbar import SbMain
 from lmgr.workspace import WorkspaceManager
 from lmgr.pyshell import PyShellWindow
 <<<<<<< HEAD
+<<<<<<< HEAD
 from lmgr.giface import LayerManagerGrassInterface
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 from lmgr.giface import (
     LayerManagerGrassInterface,
     LayerManagerGrassInterfaceForMapDisplay,
 )
+<<<<<<< HEAD
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 from mapdisp.frame import MapPanel
 from datacatalog.catalog import DataCatalog
 from history.browser import HistoryBrowser
@@ -130,10 +136,14 @@ class GMFrame(wx.Frame):
         title=None,
         workspace=None,
 <<<<<<< HEAD
+<<<<<<< HEAD
         size=wx.GetClientDisplayRect().GetSize(),
 =======
         size=wx.Display().GetGeometry().GetSize(),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        size=wx.Display().GetGeometry().GetSize(),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         style=wx.DEFAULT_FRAME_STYLE,
         **kwargs,
     ):
@@ -203,6 +213,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.PANE_BEST_SIZE = tuple(t // 5 for t in self.size)
         self.PANE_MIN_SIZE = tuple(t // 8 for t in self.size)
 
@@ -239,6 +250,16 @@ class GMFrame(wx.Frame):
             menu=self.menubar,
         )
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        self.PANE_BEST_SIZE = tuple(t // 5 for t in self.size)
+        self.PANE_MIN_SIZE = tuple(t // 8 for t in self.size)
+
+        # create widgets and build panes
+        self.CreateMenuBar()
+        self.workspace_manager.CreateRecentFilesMenu(
+            menu=self.menubar,
+        )
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         self.BuildPanes()
         self.BindEvents()
 
@@ -300,7 +321,10 @@ class GMFrame(wx.Frame):
             # does center (of screen) make sense for lmgr?
             self.Centre()
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         self.Show()
 
         # load workspace file if requested
@@ -408,6 +432,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def SetStatusText(self, *args):
         """Override SbMain statusbar method"""
         self.statusbar.SetStatusText(*args)
@@ -423,11 +448,16 @@ class GMFrame(wx.Frame):
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def SetStatusText(self, *args):
         """Overide SbMain statusbar method"""
         self.statusbar.SetStatusText(*args)
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def _createMapNotebook(self):
         """Create Map Display notebook"""
         # create the notebook off-window to avoid flicker
@@ -453,7 +483,10 @@ class GMFrame(wx.Frame):
             self.OnMapNotebookClose,
         )
 
+<<<<<<< HEAD
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def _createDataCatalog(self, parent):
         """Initialize Data Catalog widget"""
         self.datacatalog = DataCatalog(parent=parent, giface=self._giface)
@@ -544,8 +577,11 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def OnNewDisplay(self, event=None):
         """Create new layer tree and map display window instance"""
         self.NewDisplay()
@@ -567,6 +603,9 @@ class GMFrame(wx.Frame):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         # create display toolbar
         dmgrToolbar = DisplayPanelToolbar(guiparent=self.pg_panel, parent=self)
 
@@ -575,6 +614,7 @@ class GMFrame(wx.Frame):
         self.currentPageNum = self.notebookLayers.GetSelection()
         self.notebookLayers.EnsureVisible(self.currentPageNum)
 
+<<<<<<< HEAD
         def CreateNewMapDisplay(giface, layertree):
             """Callback function which creates a new Map Display window
             :param giface: giface for map display
@@ -597,6 +637,8 @@ class GMFrame(wx.Frame):
         self.currentPageNum = self.notebookLayers.GetSelection()
         self.notebookLayers.EnsureVisible(self.currentPageNum)
 
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         def CreateNewMapDisplay(layertree):
             """Callback function which creates a new Map Display window
             :param layertree: layer tree object
@@ -611,25 +653,36 @@ class GMFrame(wx.Frame):
             mapdisplay = MapPanel(
                 parent=self.mapnotebook,
                 giface=self._gifaceForDisplay,
+<<<<<<< HEAD
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 id=wx.ID_ANY,
                 tree=layertree,
                 lmgr=self,
                 Map=layertree.Map,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 dockable=True,
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                 title=name,
                 size=globalvar.MAP_WINDOW_SIZE,
             )
             # add map display panel to notebook and make it current
+<<<<<<< HEAD
 <<<<<<< HEAD
             self.mainnotebook.AddPage(mapdisplay, name)
 =======
             self.mapnotebook.AddPage(mapdisplay, name)
             self.mapnotebook.SetSelection(self.currentPageNum)
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+            self.mapnotebook.AddPage(mapdisplay, name)
+            self.mapnotebook.SetSelection(self.currentPageNum)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
             # set map display properties
             self._setUpMapDisplay(mapdisplay)
@@ -660,22 +713,29 @@ class GMFrame(wx.Frame):
         cb_boxsizer = wx.BoxSizer(wx.VERTICAL)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cb_boxsizer.Add(dmgrToolbar, proportion=0, flag=wx.EXPAND)
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
         cb_boxsizer.Add(dmgrToolbar, proportion=0, flag=wx.EXPAND)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        cb_boxsizer.Add(dmgrToolbar, proportion=0, flag=wx.EXPAND)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         cb_boxsizer.Add(self.GetLayerTree(), proportion=1, flag=wx.EXPAND, border=1)
         self.currentPage.SetSizer(cb_boxsizer)
         cb_boxsizer.Fit(self.GetLayerTree())
         self.currentPage.Layout()
         self.GetLayerTree().Layout()
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Repaint Layers pane map display toolbar widget on the wxMac
         self._repaintLayersPaneMapDisplayToolbar()
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         self.displayIndex += 1
 
@@ -688,8 +748,11 @@ class GMFrame(wx.Frame):
         def CanCloseDisplay(askIfSaveWorkspace):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             """Callback to check if user wants to close display. Map
             Display index can be different from index in Display tab.
 
@@ -697,15 +760,20 @@ class GMFrame(wx.Frame):
                                                map display notebook layers
                                                tree page index and
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                "mainnotebook" key represent
 =======
                                                "mapnotebook" key represent
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                                               "mapnotebook" key represent
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                                                map display notebook page
                                                index (single window mode)
             """
             pgnum_dict = {}
             pgnum_dict["layers"] = self.notebookLayers.GetPageIndex(page)
+<<<<<<< HEAD
 <<<<<<< HEAD
             pgnum_dict["mainnotebook"] = self.mainnotebook.GetPageIndex(mapdisplay)
             name = self.notebookLayers.GetPageText(pgnum_dict["layers"])
@@ -718,10 +786,15 @@ class GMFrame(wx.Frame):
             pgnum_dict["mapnotebook"] = self.mapnotebook.GetPageIndex(mapdisplay)
             name = self.notebookLayers.GetPageText(pgnum_dict["layers"])
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            pgnum_dict["mapnotebook"] = self.mapnotebook.GetPageIndex(mapdisplay)
+            name = self.notebookLayers.GetPageText(pgnum_dict["layers"])
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             caption = _("Close Map Display {}").format(name)
             if not askIfSaveWorkspace or (
                 askIfSaveWorkspace and self.workspace_manager.CanClosePage(caption)
             ):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 return pgnum_dict
@@ -751,6 +824,16 @@ class GMFrame(wx.Frame):
         mapdisplay.onFocus.connect(
             lambda page=self.currentPage: self._onMapDisplayFocus(page),
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+                return pgnum_dict
+            return None
+
+        mapdisplay.canCloseDisplayCallback = CanCloseDisplay
+
+        # bind various events
+        mapdisplay.onFocus.connect(
+            lambda page=self.currentPage: self._onMapDisplayFocus(page),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         )
 
         mapdisplay.starting3dMode.connect(
@@ -761,9 +844,13 @@ class GMFrame(wx.Frame):
         mapdisplay.starting3dMode.connect(self.AddNvizTools)
         mapdisplay.ending3dMode.connect(self.RemoveNvizTools)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         mapdisplay.closingDisplay.connect(self._closePageNoEvent)
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+        mapdisplay.closingDisplay.connect(self._closePageNoEvent)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         # set default properties
         mapdisplay.SetProperties(
@@ -783,6 +870,7 @@ class GMFrame(wx.Frame):
                 group="display", key="showCompExtent", subkey="enabled"
             ),
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     def BuildPanes(self):
@@ -882,17 +970,20 @@ class GMFrame(wx.Frame):
         """Set up Map Display"""
         # blank panel for testing
         self.mapdisplay = wx.Panel(parent=parent)
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     def BuildPanes(self):
         """Build panes - toolbars as well as panels"""
-
+        self._auimgr.SetAutoNotebookTabArt(SimpleTabArt())
         # initialize all main widgets
+        self.statusbar = SbMain(parent=self, giface=self._giface)
+        self._createMapNotebook()
         self._createDataCatalog(parent=self)
         self._createDisplay(parent=self)
         self._createSearchModule(parent=self)
         self._createConsole(parent=self)
         self._createPythonShell(parent=self)
-        self._createMapDisplay(parent=self)
         self.toolbars = {
             "workspace": LMWorkspaceToolbar(parent=self),
             "tools": LMToolsToolbar(parent=self),
@@ -934,8 +1025,23 @@ class GMFrame(wx.Frame):
             )
 
         self._auimgr.AddPane(
-            self.mapdisplay,
-            aui.AuiPaneInfo().Name("map display").CenterPane().PaneBorder(True),
+            self.mapnotebook,
+            aui.AuiPaneInfo().Name("map display content").CenterPane().PaneBorder(True),
+        )
+
+        self._auimgr.AddPane(
+            self.statusbar.GetWidget(),
+            aui.AuiPaneInfo()
+            .Bottom()
+            .MinSize(30, 30)
+            .Fixed()
+            .Name("statusbar")
+            .CloseButton(False)
+            .DestroyOnClose(True)
+            .ToolbarPane()
+            .Dockable(False)
+            .PaneBorder(False)
+            .Gripper(False),
         )
 
         self._auimgr.AddPane(
@@ -954,8 +1060,9 @@ class GMFrame(wx.Frame):
         )
 
         self._auimgr.AddPane(
-            self.displayPanel,
+            self.notebookLayers,
             aui.AuiPaneInfo()
+<<<<<<< HEAD
             .Name("display")
             .Caption("Display")
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
@@ -1140,6 +1247,8 @@ class GMFrame(wx.Frame):
         self._auimgr.AddPane(
             self.notebookLayers,
             aui.AuiPaneInfo()
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             .Name("layers")
             .Caption("Layers")
             .Left()
@@ -1240,6 +1349,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.Bind(wx.EVT_KEY_DOWN, self.OnKeyDown)
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
@@ -1248,6 +1358,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 5871ca876b (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
     def _show_demo_map(self):
         """If in demolocation, add demo map to map display
@@ -1316,7 +1428,13 @@ class GMFrame(wx.Frame):
             .MaximizeButton(True),
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+
+        self._auimgr.GetPane("nviz").Show()
+        self._auimgr.Update()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         self._auimgr.GetPane("nviz").Show()
         self._auimgr.Update()
@@ -1537,16 +1655,21 @@ class GMFrame(wx.Frame):
         maptree = self.notebookLayers.GetPage(event.GetSelection()).maptree
         maptree.GetMapDisplay().CleanUp()
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.mainnotebook.DeleteMainPage(self.GetMapDisplay())
 =======
         self.mapnotebook.DeletePage(self.GetMapDisplayIndex())
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+        self.mapnotebook.DeletePage(self.GetMapDisplayIndex())
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         maptree.Close(True)
 
         self.currentPage = None
 
         event.Skip()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     def _renamePageNoEvent(self, pgnum_dict, is_docked, text):
@@ -1567,6 +1690,41 @@ class GMFrame(wx.Frame):
     def _closePageNoEvent(self, pgnum_dict):
         """Close page and destroy map display without generating notebook
         page closing event.
+=======
+    def _closePageNoEvent(self, pgnum_dict):
+        """Close page and destroy map display without generating notebook
+        page closing event.
+
+        :param dict pgnum_dict: dict "layers" key represent map display
+                                notebook layers tree page index and
+                                "mapnotebook" key represent map display
+                                notebook page index (single window mode)
+        """
+        self.notebookLayers.Unbind(FN.EVT_FLATNOTEBOOK_PAGE_CLOSING)
+        self.notebookLayers.DeletePage(pgnum_dict["layers"])
+        self.notebookLayers.Bind(
+            FN.EVT_FLATNOTEBOOK_PAGE_CLOSING,
+            self.OnCBPageClosing,
+        )
+        self.mapnotebook.DeletePage(pgnum_dict["mapnotebook"])
+
+    def _focusPage(self, notification):
+        """Focus the 'Console' notebook page according to event notification."""
+        if (
+            notification == Notification.HIGHLIGHT
+            or notification == Notification.MAKE_VISIBLE
+            or notification == Notification.RAISE_WINDOW
+        ):
+            self.FocusPage("Console")
+
+    def FocusPage(self, page_text):
+        """Focus the page if part of any of aui notebooks"""
+        notebooks = self._auimgr.GetNotebooks()
+        for notebook in notebooks:
+            for i in range(notebook.GetPageCount()):
+                if notebook.GetPageText(i) == page_text:
+                    notebook.SetSelection(i)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
         :param dict pgnum_dict: dict "layers" key represent map display
                                 notebook layers tree page index and
@@ -2313,10 +2471,14 @@ class GMFrame(wx.Frame):
             name = dlg.GetValue()
             self.notebookLayers.SetPageText(page=self.currentPageNum, text=name)
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.mainnotebook.SetMainPageText(page=self.GetMapDisplay(), text=name)
 =======
             self.mapnotebook.SetPageText(page_idx=self.GetMapDisplayIndex(), text=name)
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+            self.mapnotebook.SetPageText(page_idx=self.GetMapDisplayIndex(), text=name)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         dlg.Destroy()
 
     def OnRasterRules(self, event):
@@ -2938,6 +3100,7 @@ class GMFrame(wx.Frame):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     def OnKeyDown(self, event):
         """Key pressed"""
@@ -2960,6 +3123,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def OnCloseWindow(self, event):
         """Cleanup when wxGUI is quit"""
         self._closeWindow(event)
@@ -3037,6 +3202,7 @@ class GMFrame(wx.Frame):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _onMapsetWatchdog(self, map_path, map_dest):
         """Current mapset watchdog event handler
 
@@ -3051,9 +3217,14 @@ class GMFrame(wx.Frame):
     def _onMapsetChanged(self, event):
         self._mapset_watchdog.ScheduleWatchCurrentMapset()
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     def OnMapNotebookClose(self, event):
         """Page of map notebook is being closed"""
         display = self.GetMapDisplay(onlyCurrent=True)
         display.OnCloseWindow(event=None, askIfSaveWorkspace=True)
         event.Veto()
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
