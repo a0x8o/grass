@@ -447,6 +447,7 @@ N_data_star *N_callback_solute_transport_2d(void *solutedata, N_geom_data *geom,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \brief Alllocate memory for the solute transport data structure in three
 =======
 <<<<<<< HEAD
@@ -863,6 +864,8 @@ N_data_star *N_callback_solute_transport_2d(void *solutedata, N_geom_data *geom,
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
  * \brief Alllocate memory for the solute transport data structure in three
@@ -910,7 +913,12 @@ N_data_star *N_callback_solute_transport_2d(void *solutedata, N_geom_data *geom,
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
  * \brief Allocate memory for the solute transport data structure in three
 =======
  * \brief Alllocate memory for the solute transport data structure in three
@@ -987,6 +995,7 @@ N_data_star *N_callback_solute_transport_2d(void *solutedata, N_geom_data *geom,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1070,6 +1079,8 @@ N_data_star *N_callback_solute_transport_2d(void *solutedata, N_geom_data *geom,
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1305,6 +1316,7 @@ N_data_star *N_callback_solute_transport_2d(void *solutedata, N_geom_data *geom,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1600,6 +1612,10 @@ N_data_star *N_callback_solute_transport_2d(void *solutedata, N_geom_data *geom,
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
  * dimensions
  *
  * The solute transport data structure will be allocated including
@@ -1730,6 +1746,7 @@ N_solute_transport_data3d *N_alloc_solute_transport_data3d(int cols, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \brief Alllocate memory for the solute transport data structure in two
 =======
 <<<<<<< HEAD
@@ -2146,6 +2163,8 @@ N_solute_transport_data3d *N_alloc_solute_transport_data3d(int cols, int rows,
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
  * \brief Alllocate memory for the solute transport data structure in two
@@ -2193,7 +2212,12 @@ N_solute_transport_data3d *N_alloc_solute_transport_data3d(int cols, int rows,
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
  * \brief Allocate memory for the solute transport data structure in two
 =======
  * \brief Alllocate memory for the solute transport data structure in two
@@ -2270,6 +2294,7 @@ N_solute_transport_data3d *N_alloc_solute_transport_data3d(int cols, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2353,6 +2378,8 @@ N_solute_transport_data3d *N_alloc_solute_transport_data3d(int cols, int rows,
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2588,6 +2615,7 @@ N_solute_transport_data3d *N_alloc_solute_transport_data3d(int cols, int rows,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2883,6 +2911,10 @@ N_solute_transport_data3d *N_alloc_solute_transport_data3d(int cols, int rows,
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
  * dimensions
  *
  * The solute transport data structure will be allocated including
@@ -3159,6 +3191,7 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * To compute the dispersivity tensor, the dispersivity lentghs and the gradient
 =======
 <<<<<<< HEAD
@@ -3575,6 +3608,8 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
  * To compute the dispersivity tensor, the dispersivity lentghs and the gradient
@@ -3622,7 +3657,12 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
  * To compute the dispersivity tensor, the dispersivity lengths and the gradient
 =======
  * To compute the dispersivity tensor, the dispersivity lentghs and the gradient
@@ -3699,6 +3739,7 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3782,6 +3823,8 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -4017,6 +4060,7 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -4312,6 +4356,10 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
  * field must be present.
  *
  * This is just a simple tensor computation which should be extended.
@@ -4393,6 +4441,7 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \todo Change the tensor calculation to a mor realistic algorithm
 =======
 <<<<<<< HEAD
@@ -4809,6 +4858,8 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
  * \todo Change the tensor calculation to a mor realistic algorithm
@@ -4856,7 +4907,12 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
  * \todo Change the tensor calculation to a more realistic algorithm
 =======
  * \todo Change the tensor calculation to a mor realistic algorithm
@@ -4933,6 +4989,7 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5016,6 +5073,8 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -5251,6 +5310,7 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -5546,6 +5606,10 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
  *
  * \param data N_solute_transport_data2d *
  * \return void *
@@ -5678,6 +5742,7 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * To compute the dispersivity tensor, the dispersivity lentghs and the gradient
 =======
 <<<<<<< HEAD
@@ -6094,6 +6159,8 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
  * To compute the dispersivity tensor, the dispersivity lentghs and the gradient
@@ -6141,7 +6208,12 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
  * To compute the dispersivity tensor, the dispersivity lengths and the gradient
 =======
  * To compute the dispersivity tensor, the dispersivity lentghs and the gradient
@@ -6218,6 +6290,7 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6301,6 +6374,8 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -6536,6 +6611,7 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -6831,6 +6907,10 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
  * field must be present.
  *
  * This is just a simple tensor computation which should be extended.
@@ -6912,6 +6992,7 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \todo Change the tensor calculation to a mor realistic algorithm
 =======
 <<<<<<< HEAD
@@ -7328,6 +7409,8 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
  * \todo Change the tensor calculation to a mor realistic algorithm
@@ -7375,7 +7458,12 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
  * \todo Change the tensor calculation to a more realistic algorithm
 =======
  * \todo Change the tensor calculation to a mor realistic algorithm
@@ -7452,6 +7540,7 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7535,6 +7624,8 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -7770,6 +7861,7 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -8065,6 +8157,10 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
  *
  * \param data N_solute_transport_data3d *
  * \return void *
