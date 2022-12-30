@@ -282,6 +282,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -531,6 +532,12 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+            min = INFINITY;
+=======
+            min = 1.0 / 0.0;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             max = 0;
             kd = G_malloc(minpnts * sizeof(double));
             ki = G_malloc(minpnts * sizeof(int));
@@ -762,6 +769,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1011,6 +1019,12 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+            min = INFINITY;
+=======
+            min = 1.0 / 0.0;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             max = 0;
             kd = G_malloc(minpnts * sizeof(double));
             ki = G_malloc(minpnts * sizeof(int));

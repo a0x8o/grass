@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_find_database(dbHandle *handle, int *found)
 =======
 <<<<<<< HEAD
@@ -66,6 +67,8 @@ int db__driver_find_database(dbHandle *handle, int *found)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_find_database(dbHandle *handle UNUSED, int *found UNUSED)
 =======
 int db__driver_find_database(dbHandle *handle, int *found)
@@ -86,6 +89,7 @@ int db__driver_find_database(dbHandle *handle, int *found)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int db__driver_find_database(dbHandle *handle, int *found)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -179,6 +183,8 @@ int db__driver_find_database(dbHandle *handle, int *found)
 int db__driver_find_database(dbHandle *handle, int *found)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 {
     db_procedure_not_implemented("db_find_database");
     return DB_FAILED;

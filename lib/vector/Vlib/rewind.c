@@ -411,6 +411,7 @@ static int format(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -660,6 +661,12 @@ static int (*Rewind_array[][4])() = {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+static int (*Rewind_array[][4])(struct Map_info *) = {
+=======
+static int (*Rewind_array[][4])() = {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     {rew_dummy, V1_rewind_nat, V2_rewind_nat, rew_dummy}
 #ifdef HAVE_OGR
     ,

@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -288,6 +289,13 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+ * Copyright (c) 2012-2019, Even Rouault <even dot rouault at spatialys.com>
+=======
+ * Copyright (c) 2012-2013, Even Rouault <even dot rouault at mines-paris dot
+ *org>
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
  *
  * SPDX-License-Identifier: MIT OR LGPL-2.0-or-later
  ******************************************************************************/
@@ -311,6 +319,7 @@
 #elif defined(_WIN32)
 =======
 #if defined(WIN32) || defined(_WIN32)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -402,6 +411,9 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 #define STRCASECMP(a, b) (stricmp(a, b))
 #else
 #include <strings.h>
@@ -539,6 +551,7 @@
 
 #define CPLsprintf  sprintf
 #define CPLsnprintf snprintf
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -785,6 +798,19 @@ SHP_CVSID("$Id$")
 =======
 
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+=======
+#ifndef snprintf
+#define snprintf _snprintf
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+#endif
+
+<<<<<<< HEAD
+=======
+SHP_CVSID("$Id$")
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 #ifndef FALSE
 #define FALSE 0
 #define TRUE  1
@@ -811,6 +837,7 @@ SHP_CVSID("$Id$")
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -868,6 +895,8 @@ SHP_CVSID("$Id$")
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 #endif
 
 /* File header size */
@@ -900,6 +929,7 @@ CPL_INLINE static void CPL_IGNORE_RET_VAL_INT(CPL_UNUSED int unused)
 #define SHPLIB_NULLPTR            NULL
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1227,6 +1257,8 @@ CPL_INLINE static void CPL_IGNORE_RET_VAL_INT(CPL_UNUSED int unused)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 #endif
 
 /************************************************************************/
@@ -1234,6 +1266,7 @@ CPL_INLINE static void CPL_IGNORE_RET_VAL_INT(CPL_UNUSED int unused)
 /*                                                                      */
 /*      A realloc cover function that will access a NULL pointer as     */
 /*      a valid input.                                                  */
+<<<<<<< HEAD
 /************************************************************************/
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1314,6 +1347,11 @@ CPL_INLINE static void CPL_IGNORE_RET_VAL_INT(CPL_UNUSED int unused)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+/************************************************************************/
+<<<<<<< HEAD
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
 static void *SfRealloc(void *pMem, int nNewSize)
 {
@@ -1321,6 +1359,7 @@ static void *SfRealloc(void *pMem, int nNewSize)
         return malloc(nNewSize);
     else
         return realloc(pMem, nNewSize);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1587,12 +1626,16 @@ static void *SfRealloc(void *pMem, int nNewSize)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 static void *SfRealloc(void *pMem, int nNewSize)
 {
     if (pMem == NULL)
         return ((void *)malloc(nNewSize));
     else
         return ((void *)realloc(pMem, nNewSize));
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1714,6 +1757,9 @@ static void *SfRealloc(void *pMem, int nNewSize)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -1724,6 +1770,7 @@ static void *SfRealloc(void *pMem, int nNewSize)
 /*      descriptions before writing any actual data records.  This      */
 /*      also computes all the DBFDataSet field offset/size/decimals     */
 /*      and so forth values.                                            */
+
 /************************************************************************/
 
 static void DBFWriteHeader(DBFHandle psDBF)
@@ -1754,6 +1801,7 @@ static void DBFWriteHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2010,6 +2058,13 @@ static void DBFWriteHeader(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    unsigned char abyHeader[XBASE_FILEHDR_SZ] = {0};
+=======
+    unsigned char abyHeader[XBASE_FLDHDR_SZ];
+    int i;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     if (!psDBF->bNoHeader)
         return;
@@ -2043,6 +2098,7 @@ static void DBFWriteHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2128,6 +2184,11 @@ static void DBFWriteHeader(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    /*      Initialize the file header information.                         */
+=======
+<<<<<<< HEAD
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /*    Initialize the file header information.                */
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
@@ -2155,8 +2216,11 @@ static void DBFWriteHeader(DBFHandle psDBF)
     psDBF->sHooks.FSeek(psDBF->fp, 0, 0);
     psDBF->sHooks.FWrite(abyHeader, XBASE_FILEHDR_SZ, 1, psDBF->fp);
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /*      Initialize the file header information.                         */
     /* -------------------------------------------------------------------- */
     for (i = 0; i < XBASE_FLDHDR_SZ; i++)
@@ -2185,6 +2249,7 @@ static void DBFWriteHeader(DBFHandle psDBF)
     /* -------------------------------------------------------------------- */
     psDBF->sHooks.FSeek(psDBF->fp, 0, 0);
     psDBF->sHooks.FWrite(abyHeader, XBASE_FLDHDR_SZ, 1, psDBF->fp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2216,6 +2281,9 @@ static void DBFWriteHeader(DBFHandle psDBF)
     psDBF->sHooks.FWrite(abyHeader, XBASE_FILEHDR_SZ, 1, psDBF->fp);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->sHooks.FWrite(psDBF->pszHeader, XBASE_FLDHDR_SZ, psDBF->nFields,
                          psDBF->fp);
 
@@ -2224,6 +2292,9 @@ static void DBFWriteHeader(DBFHandle psDBF)
     /* -------------------------------------------------------------------- */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->nHeaderLength >
         XBASE_FLDHDR_SZ * psDBF->nFields + XBASE_FLDHDR_SZ) {
         char cNewline = HEADER_RECORD_TERMINATOR;
@@ -2238,6 +2309,7 @@ static void DBFWriteHeader(DBFHandle psDBF)
 
         psDBF->sHooks.FWrite(&ch, 1, 1, psDBF->fp);
 =======
+<<<<<<< HEAD
 =======
     /*      Initialize the file header information.                         */
 =======
@@ -2478,10 +2550,13 @@ static void DBFWriteHeader(DBFHandle psDBF)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->nHeaderLength > 32 * psDBF->nFields + 32) {
         char cNewline;
 
         cNewline = 0x0d;
+<<<<<<< HEAD
 =======
     if (psDBF->nHeaderLength >
         XBASE_FLDHDR_SZ * psDBF->nFields + XBASE_FLDHDR_SZ) {
@@ -3636,6 +3711,10 @@ static void DBFWriteHeader(DBFHandle psDBF)
 >>>>>>> osgeo-main
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        psDBF->sHooks.FWrite(&cNewline, 1, 1, psDBF->fp);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
 }
 
@@ -3643,8 +3722,10 @@ static void DBFWriteHeader(DBFHandle psDBF)
 /*                           DBFFlushRecord()                           */
 /*                                                                      */
 /*      Write out the current record if there is one.                   */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3738,6 +3819,8 @@ static void DBFWriteHeader(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 static bool DBFFlushRecord(DBFHandle psDBF)
 {
     if (psDBF->bCurrentRecordModified && psDBF->nCurrentRecord > -1) {
@@ -3805,6 +3888,7 @@ static bool DBFFlushRecord(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -4078,6 +4162,9 @@ static bool DBFFlushRecord(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 static int DBFFlushRecord(DBFHandle psDBF)
 {
     SAOffset nRecordOffset;
@@ -4092,6 +4179,7 @@ static int DBFFlushRecord(DBFHandle psDBF)
             psDBF->sHooks.FWrite(psDBF->pszCurrentRecord, psDBF->nRecordLength,
                                  1, psDBF->fp) != 1) {
             char szMessage[128];
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4128,6 +4216,8 @@ static int DBFFlushRecord(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
             snprintf(szMessage, sizeof(szMessage),
                      "Failure writing DBF record %d.", psDBF->nCurrentRecord);
@@ -4150,6 +4240,7 @@ static int DBFFlushRecord(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -4450,6 +4541,9 @@ static bool DBFFlushRecord(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         }
     }
 
@@ -4458,8 +4552,10 @@ static bool DBFFlushRecord(DBFHandle psDBF)
 
 /************************************************************************/
 /*                           DBFLoadRecord()                            */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4880,6 +4976,8 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 {
     if (psDBF->nCurrentRecord != iRecord) {
@@ -4911,6 +5009,7 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -4922,9 +5021,12 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
 static int DBFLoadRecord(DBFHandle psDBF, int iRecord)
 {
     if (psDBF->nCurrentRecord != iRecord) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5140,11 +5242,30 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+        SAOffset nRecordOffset;
+
+        if (!DBFFlushRecord(psDBF))
+            return FALSE;
+
+        nRecordOffset =
+            psDBF->nRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+
+        if (psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, SEEK_SET) != 0) {
+            char szMessage[128];
+
+            snprintf(szMessage, sizeof(szMessage),
+                     "fseek(%ld) failed on DBF file.\n", (long)nRecordOffset);
+            psDBF->sHooks.Error(szMessage);
+            return FALSE;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         }
 
         if (psDBF->sHooks.FRead(psDBF->pszCurrentRecord, psDBF->nRecordLength,
                                 1, psDBF->fp) != 1) {
             char szMessage[128];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5201,6 +5322,8 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             snprintf(szMessage, sizeof(szMessage),
                      "fread(%d) failed on DBF file.", psDBF->nRecordLength);
             psDBF->sHooks.Error(szMessage);
@@ -5232,6 +5355,7 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -5302,6 +5426,8 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
             snprintf(szMessage, sizeof(szMessage),
                      "fread(%d) failed on DBF file.\n", psDBF->nRecordLength);
@@ -5327,6 +5453,7 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -5776,6 +5903,9 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     return true;
@@ -5783,6 +5913,7 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 
 /************************************************************************/
 /*                          DBFUpdateHeader()                           */
+
 /************************************************************************/
 
 void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
@@ -5813,6 +5944,7 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5874,10 +6006,13 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->bNoHeader)
         DBFWriteHeader(psDBF);
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5925,10 +6060,15 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
     unsigned char abyFileHeader[32];
 
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+    unsigned char abyFileHeader[32];
+
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->bNoHeader)
         DBFWriteHeader(psDBF);
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6174,6 +6314,8 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (!DBFFlushRecord(psDBF))
         return;
 
@@ -6204,6 +6346,7 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6271,6 +6414,8 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     unsigned char abyFileHeader[XBASE_FILEHDR_SZ] = {0};
     psDBF->sHooks.FRead(abyFileHeader, 1, sizeof(abyFileHeader), psDBF->fp);
@@ -6289,6 +6434,7 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
     psDBF->sHooks.FSeek(psDBF->fp, 0, 0);
     psDBF->sHooks.FWrite(abyFileHeader, sizeof(abyFileHeader), 1, psDBF->fp);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6614,6 +6760,9 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->sHooks.FRead(abyFileHeader, 32, 1, psDBF->fp);
 
     abyFileHeader[1] = (unsigned char)psDBF->nUpdateYearSince1900;
@@ -6628,6 +6777,7 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
     psDBF->sHooks.FSeek(psDBF->fp, 0, 0);
     psDBF->sHooks.FWrite(abyFileHeader, 32, 1, psDBF->fp);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -6709,11 +6859,15 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->sHooks.FFlush(psDBF->fp);
 }
 
 /************************************************************************/
 /*                       DBFSetLastModifiedDate()                       */
+
 /************************************************************************/
 
 void SHPAPI_CALL DBFSetLastModifiedDate(DBFHandle psDBF, int nYYSince1900,
@@ -6728,9 +6882,11 @@ void SHPAPI_CALL DBFSetLastModifiedDate(DBFHandle psDBF, int nYYSince1900,
 /*                              DBFOpen()                               */
 /*                                                                      */
 /*      Open a .dbf file.                                               */
+
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6863,10 +7019,14 @@ DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6985,12 +7145,16 @@ DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 {
     SAHooks sHooks;
 
     SASetupDefaultHooks(&sHooks);
 
     return DBFOpenLL(pszFilename, pszAccess, &sHooks);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7072,6 +7236,8 @@ DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -7088,6 +7254,7 @@ static int DBFGetLenWithoutExtension(const char *pszBasename)
         }
     }
     return nLen;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7345,12 +7512,17 @@ static int DBFGetLenWithoutExtension(const char *pszBasename)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
 /*                              DBFOpen()                               */
 /*                                                                      */
 /*      Open a .dbf file.                                               */
+
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
@@ -7382,6 +7554,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7449,6 +7622,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      We only allow the access strings "rb" and "r+".                  */
     /* -------------------------------------------------------------------- */
@@ -7457,6 +7632,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
         strcmp(pszAccess, "r+b") != 0)
         return SHPLIB_NULLPTR;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7731,6 +7907,9 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     DBFHandle psDBF;
     SAFile pfCPG;
     unsigned char *pabyBuf;
@@ -7747,6 +7926,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
         strcmp(pszAccess, "r+b") != 0)
         return (NULL);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -7833,6 +8013,9 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (strcmp(pszAccess, "r") == 0)
         pszAccess = "rb";
 
@@ -7840,6 +8023,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
         pszAccess = "rb+";
 
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7898,6 +8082,11 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+    /*      Compute the base (layer) name.  If there is any extension       */
+    /*      on the passed in filename we will strip it off.                 */
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
     /*    Compute the base (layer) name.  If there is any extension    */
     /*    on the passed in filename we will strip it off.            */
@@ -7905,6 +8094,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -7912,6 +8102,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     const int nLenWithoutExtension = DBFGetLenWithoutExtension(pszFilename);
     char *pszFullname = STATIC_CAST(char *, malloc(nLenWithoutExtension + 5));
@@ -7964,6 +8156,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
     /*      Compute the base (layer) name.  If there is any extension       */
     /*      on the passed in filename we will strip it off.                 */
+<<<<<<< HEAD
 =======
     /*    Compute the base (layer) name.  If there is any extension    */
     /*    on the passed in filename we will strip it off.            */
@@ -7980,6 +8173,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     /*      Compute the base (layer) name.  If there is any extension       */
     /*      on the passed in filename we will strip it off.                 */
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     pszBasename = (char *)malloc(strlen(pszFilename) + 5);
     strcpy(pszBasename, pszFilename);
@@ -7989,7 +8184,10 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
          i--) {
     }
 
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (pszBasename[i] == '.')
         pszBasename[i] = '\0';
 
@@ -7998,6 +8196,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
     snprintf(pszFullname, nFullnameLen, "%s.dbf", pszBasename);
 
     psDBF = (DBFHandle)calloc(1, sizeof(DBFInfo));
+<<<<<<< HEAD
 =======
     DBFHandle psDBF = STATIC_CAST(DBFHandle, calloc(1, sizeof(DBFInfo)));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -8728,6 +8927,32 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    psDBF->fp = psHooks->FOpen(pszFullname, pszAccess);
+    memcpy(&(psDBF->sHooks), psHooks, sizeof(SAHooks));
+
+    if (psDBF->fp == NULL) {
+        snprintf(pszFullname, nFullnameLen, "%s.DBF", pszBasename);
+        psDBF->fp = psDBF->sHooks.FOpen(pszFullname, pszAccess);
+    }
+
+    snprintf(pszFullname, nFullnameLen, "%s.cpg", pszBasename);
+    pfCPG = psHooks->FOpen(pszFullname, "r");
+    if (pfCPG == NULL) {
+        snprintf(pszFullname, nFullnameLen, "%s.CPG", pszBasename);
+        pfCPG = psHooks->FOpen(pszFullname, "r");
+    }
+
+    free(pszBasename);
+    free(pszFullname);
+
+    if (psDBF->fp == NULL) {
+        free(psDBF);
+        if (pfCPG)
+            psHooks->FClose(pfCPG);
+        return (NULL);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     psDBF->bNoHeader = FALSE;
@@ -8763,6 +8988,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8824,10 +9050,13 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     const int nBufSize = 500;
     unsigned char *pabyBuf = STATIC_CAST(unsigned char *, malloc(nBufSize));
     if (psDBF->sHooks.FRead(pabyBuf, XBASE_FILEHDR_SZ, 1, psDBF->fp) != 1) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9095,6 +9324,11 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    pabyBuf = (unsigned char *)malloc(nBufSize);
+    if (psDBF->sHooks.FRead(pabyBuf, 32, 1, psDBF->fp) != 1) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         psDBF->sHooks.FClose(psDBF->fp);
         if (pfCPG)
             psDBF->sHooks.FClose(pfCPG);
@@ -9126,6 +9360,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9326,6 +9561,12 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        return SHPLIB_NULLPTR;
+=======
+        return NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     DBFSetLastModifiedDate(psDBF, pabyBuf[1], pabyBuf[2], pabyBuf[3]);
@@ -9356,6 +9597,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9423,6 +9665,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->nRecords = pabyBuf[4] | (pabyBuf[5] << 8) | (pabyBuf[6] << 16) |
                       ((pabyBuf[7] & 0x7f) << 24);
 
@@ -9432,6 +9676,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
     psDBF->iLanguageDriver = pabyBuf[29];
 
     if (psDBF->nRecordLength == 0 || nHeadLen < XBASE_FILEHDR_SZ) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9714,6 +9959,9 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->nRecords = pabyBuf[4] + pabyBuf[5] * 256 + pabyBuf[6] * 256 * 256 +
                       (pabyBuf[7] & 0x7f) * 256 * 256 * 256;
 
@@ -9723,6 +9971,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 
     if (psDBF->nRecordLength == 0 || nHeadLen < 32) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9845,6 +10094,9 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         psDBF->sHooks.FClose(psDBF->fp);
         if (pfCPG)
             psDBF->sHooks.FClose(pfCPG);
@@ -9876,6 +10128,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10076,6 +10329,12 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        return SHPLIB_NULLPTR;
+=======
+        return NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     const int nFields = (nHeadLen - XBASE_FILEHDR_SZ) / XBASE_FLDHDR_SZ;
@@ -10107,6 +10366,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10377,6 +10637,13 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    /* coverity[tainted_data] */
+    psDBF->pszCurrentRecord = STATIC_CAST(char *, malloc(psDBF->nRecordLength));
+=======
+    psDBF->pszCurrentRecord = (char *)malloc(psDBF->nRecordLength);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     /* -------------------------------------------------------------------- */
     /*  Figure out the code page from the LDID and CPG                      */
@@ -10407,6 +10674,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     psDBF->pszCodePage = SHPLIB_NULLPTR;
@@ -10798,6 +11066,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->pszCodePage = SHPLIB_NULLPTR;
     if (pfCPG) {
         memset(pabyBuf, 0, nBufSize);
@@ -10806,6 +11076,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
         if (n > 0) {
             pabyBuf[n] = '\0';
             psDBF->pszCodePage = STATIC_CAST(char *, malloc(n + 1));
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -10843,6 +11114,21 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+    psDBF->pszCodePage = NULL;
+    if (pfCPG) {
+        size_t n;
+
+        memset(pabyBuf, 0, nBufSize);
+        psDBF->sHooks.FRead(pabyBuf, nBufSize - 1, 1, pfCPG);
+        n = strcspn((char *)pabyBuf, "\n\r");
+        if (n > 0) {
+            pabyBuf[n] = '\0';
+            psDBF->pszCodePage = (char *)malloc(n + 1);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             memcpy(psDBF->pszCodePage, pabyBuf, n + 1);
         }
         psDBF->sHooks.FClose(pfCPG);
@@ -10873,6 +11159,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10973,6 +11260,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->pszCodePage == SHPLIB_NULLPTR && pabyBuf[29] != 0) {
         snprintf(REINTERPRET_CAST(char *, pabyBuf), nBufSize, "LDID/%d",
                  psDBF->iLanguageDriver);
@@ -10996,6 +11285,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11128,10 +11418,14 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->pszCodePage == NULL && pabyBuf[29] != 0) {
         snprintf((char *)pabyBuf, nBufSize, "LDID/%d", psDBF->iLanguageDriver);
         psDBF->pszCodePage = (char *)malloc(strlen((char *)pabyBuf) + 1);
         strcpy(psDBF->pszCodePage, (char *)pabyBuf);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11337,11 +11631,15 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* -------------------------------------------------------------------- */
     /*  Read in Field Definitions                                           */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12116,6 +12414,13 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> osgeo-main
     pabyBuf = STATIC_CAST(unsigned char *, SfRealloc(pabyBuf, nHeadLen));
+=======
+    pabyBuf = STATIC_CAST(unsigned char *, realloc(pabyBuf, nHeadLen));
+=======
+<<<<<<< HEAD
+    pabyBuf = STATIC_CAST(unsigned char *, SfRealloc(pabyBuf, nHeadLen));
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->pszHeader = REINTERPRET_CAST(char *, pabyBuf);
 
     psDBF->sHooks.FSeek(psDBF->fp, XBASE_FILEHDR_SZ, 0);
@@ -12163,6 +12468,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
         }
 
         psDBF->pachFieldType[iField] = STATIC_CAST(char, pabyFInfo[11]);
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -12200,6 +12506,55 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+
+    pabyBuf = (unsigned char *)SfRealloc(pabyBuf, nHeadLen);
+    psDBF->pszHeader = (char *)pabyBuf;
+
+    psDBF->sHooks.FSeek(psDBF->fp, 32, 0);
+    if (psDBF->sHooks.FRead(pabyBuf, nHeadLen - 32, 1, psDBF->fp) != 1) {
+        psDBF->sHooks.FClose(psDBF->fp);
+        free(pabyBuf);
+        free(psDBF->pszCurrentRecord);
+        free(psDBF);
+        return NULL;
+    }
+
+    psDBF->panFieldOffset = (int *)malloc(sizeof(int) * nFields);
+    psDBF->panFieldSize = (int *)malloc(sizeof(int) * nFields);
+    psDBF->panFieldDecimals = (int *)malloc(sizeof(int) * nFields);
+    psDBF->pachFieldType = (char *)malloc(sizeof(char) * nFields);
+
+    for (iField = 0; iField < nFields; iField++) {
+        unsigned char *pabyFInfo;
+
+        pabyFInfo = pabyBuf + iField * 32;
+
+        if (pabyFInfo[11] == 'N' || pabyFInfo[11] == 'F') {
+            psDBF->panFieldSize[iField] = pabyFInfo[16];
+            psDBF->panFieldDecimals[iField] = pabyFInfo[17];
+        }
+        else {
+            psDBF->panFieldSize[iField] = pabyFInfo[16];
+            psDBF->panFieldDecimals[iField] = 0;
+
+            /*
+             ** The following seemed to be used sometimes to handle files with
+             long
+             ** string fields, but in other cases (such as bug 1202) the
+             decimals field
+             ** just seems to indicate some sort of preferred formatting, not
+             very
+             ** wide fields.  So I have disabled this code.  FrankW.
+             psDBF->panFieldSize[iField] = pabyFInfo[16] + pabyFInfo[17]*256;
+             psDBF->panFieldDecimals[iField] = 0;
+             */
+        }
+
+        psDBF->pachFieldType[iField] = (char)pabyFInfo[11];
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         if (iField == 0)
             psDBF->panFieldOffset[iField] = 1;
         else
@@ -12234,6 +12589,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12353,6 +12709,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* Check that the total width of fields does not exceed the record width */
     if (psDBF->nFields > 0 && psDBF->panFieldOffset[psDBF->nFields - 1] +
                                       psDBF->panFieldSize[psDBF->nFields - 1] >
@@ -12387,6 +12745,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
@@ -12586,11 +12945,16 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     return (psDBF);
 }
 
 /************************************************************************/
 /*                              DBFClose()                              */
+
 /************************************************************************/
 
 void SHPAPI_CALL DBFClose(DBFHandle psDBF)
@@ -12621,6 +12985,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12870,6 +13235,12 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if (psDBF == SHPLIB_NULLPTR)
+=======
+    if (psDBF == NULL)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         return;
 
     /* -------------------------------------------------------------------- */
@@ -12904,6 +13275,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12971,6 +13343,8 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     CPL_IGNORE_RET_VAL_INT(DBFFlushRecord(psDBF));
 
     /* -------------------------------------------------------------------- */
@@ -12981,13 +13355,17 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
     /*      Update last access date, and number of records if we have    */
     /*    write access.                                    */
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     DBFFlushRecord(psDBF);
 
     /* -------------------------------------------------------------------- */
     /*      Update last access date, and number of records if we have       */
     /*      write access.                                                   */
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -13003,6 +13381,10 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     if (psDBF->bUpdated)
         DBFUpdateHeader(psDBF);
@@ -13014,10 +13396,14 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->panFieldOffset != SHPLIB_NULLPTR) {
 =======
     if (psDBF->panFieldOffset != NULL) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     DBFFlushRecord(psDBF);
 =======
@@ -13722,6 +14108,8 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         free(psDBF->panFieldOffset);
         free(psDBF->panFieldSize);
         free(psDBF->panFieldDecimals);
@@ -13754,6 +14142,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -14003,6 +14392,12 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if (psDBF->pszWorkField != SHPLIB_NULLPTR)
+=======
+    if (psDBF->pszWorkField != NULL)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         free(psDBF->pszWorkField);
 
     free(psDBF->pszHeader);
@@ -14016,6 +14411,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 /*                             DBFCreate()                              */
 /*                                                                      */
 /* Create a new .dbf file with default code page LDID/87 (0x57)         */
+
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFCreate(const char *pszFilename)
@@ -14027,6 +14423,7 @@ DBFHandle SHPAPI_CALL DBFCreate(const char *pszFilename)
 /*                            DBFCreateEx()                             */
 /*                                                                      */
 /*      Create a new .dbf file.                                         */
+
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFCreateEx(const char *pszFilename,
@@ -14043,12 +14440,14 @@ DBFHandle SHPAPI_CALL DBFCreateEx(const char *pszFilename,
 /*                             DBFCreate()                              */
 /*                                                                      */
 /*      Create a new .dbf file.                                         */
+
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
                                   const char *pszCodePage,
                                   const SAHooks *psHooks)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14099,6 +14498,8 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Compute the base (layer) name.  If there is any extension       */
     /*      on the passed in filename we will strip it off.                 */
@@ -14336,6 +14737,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -14532,6 +14934,9 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     DBFHandle psDBF;
     SAFile fp;
     char *pszFullname, *pszBasename;
@@ -14551,6 +14956,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
          i--) {
     }
 
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14584,6 +14990,8 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (pszBasename[i] == '.')
         pszBasename[i] = '\0';
 
@@ -14605,6 +15013,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -14693,10 +15102,13 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     /* -------------------------------------------------------------------- */
     /*      Create the file.                                                */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14830,10 +15242,20 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    fp = psHooks->FOpen(pszFullname, "wb");
+    if (fp == NULL) {
+        free(pszBasename);
+        free(pszFullname);
+        return (NULL);
+    }
+
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     psHooks->FWrite(&chZero, 1, 1, fp);
     psHooks->FClose(fp);
 
     fp = psHooks->FOpen(pszFullname, "rb+");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15109,6 +15531,17 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if (fp == NULL) {
+        free(pszBasename);
+        free(pszFullname);
+        return (NULL);
+    }
+
+    snprintf(pszFullname, nFullnameLen, "%s.cpg", pszBasename);
+    if (pszCodePage != NULL) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         if (strncmp(pszCodePage, "LDID/", 5) == 0) {
             ldid = atoi(pszCodePage + 5);
             if (ldid > 255)
@@ -15121,6 +15554,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
                 psHooks->FOpen(pszFullname, "w", psHooks->pvUserData);
 =======
             SAFile fpCPG = psHooks->FOpen(pszFullname, "w");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15223,6 +15657,9 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 =======
 <<<<<<< HEAD
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             psHooks->FWrite(
                 CONST_CAST(void *, STATIC_CAST(const void *, pszCodePage)),
                 strlen(pszCodePage), 1, fpCPG);
@@ -15240,8 +15677,28 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
     /* -------------------------------------------------------------------- */
     DBFHandle psDBF = STATIC_CAST(DBFHandle, calloc(1, sizeof(DBFInfo)));
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+
+            psHooks->FWrite((char *)pszCodePage, strlen(pszCodePage), 1, fpCPG);
+            psHooks->FClose(fpCPG);
+        }
+    }
+    if (pszCodePage == NULL || ldid >= 0) {
+        psHooks->Remove(pszFullname);
+    }
+
+    free(pszBasename);
+    free(pszFullname);
+
+    /* -------------------------------------------------------------------- */
+    /*      Create the info structure.                                      */
+    /* -------------------------------------------------------------------- */
+    psDBF = (DBFHandle)calloc(1, sizeof(DBFInfo));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
             psHooks->FWrite((char *)pszCodePage, strlen(pszCodePage), 1, fpCPG);
             psHooks->FClose(fpCPG);
@@ -15696,6 +16153,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15754,10 +16212,13 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->pszCodePage = SHPLIB_NULLPTR;
     if (pszCodePage) {
         psDBF->pszCodePage =
             STATIC_CAST(char *, malloc(strlen(pszCodePage) + 1));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15816,9 +16277,12 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
     psDBF->pszCodePage = NULL;
     if (pszCodePage) {
         psDBF->pszCodePage = (char *)malloc(strlen(pszCodePage) + 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16121,6 +16585,9 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         strcpy(psDBF->pszCodePage, pszCodePage);
     }
     DBFSetLastModifiedDate(psDBF, 95, 7, 26); /* dummy date */
@@ -16151,6 +16618,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -16279,6 +16747,8 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     DBFSetWriteEndOfFileChar(psDBF, TRUE);
 
     psDBF->bRequireNextWriteSeek = TRUE;
@@ -16305,6 +16775,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
@@ -16504,6 +16975,10 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     return (psDBF);
 }
 
@@ -16511,6 +16986,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 /*                            DBFAddField()                             */
 /*                                                                      */
 /*      Add a field to a newly created .dbf or to an existing one       */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
@@ -16546,6 +17022,7 @@ int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -16772,6 +17249,12 @@ int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    else if (eType == FTDate)
+        chNativeType = 'D';
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     else if (eType == FTString)
         chNativeType = 'C';
     else
@@ -16783,6 +17266,7 @@ int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
 
 /************************************************************************/
 /*                        DBFGetNullCharacter()                         */
+
 /************************************************************************/
 
 static char DBFGetNullCharacter(char chType)
@@ -16805,6 +17289,7 @@ static char DBFGetNullCharacter(char chType)
 /*                                                                      */
 /*      Add a field to a newly created .dbf file before any records     */
 /*      are written.                                                    */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
@@ -16836,6 +17321,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -16963,6 +17449,9 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     char *pszFInfo;
     int i;
     int nOldRecordLength, nOldHeaderLength;
@@ -16970,6 +17459,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
     char chFieldFill;
     SAOffset nRecordOffset;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17142,10 +17632,14 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* make sure that everything is written in .dbf */
     if (!DBFFlushRecord(psDBF))
         return -1;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17300,6 +17794,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->nHeaderLength + XBASE_FLDHDR_SZ > 65535) {
         char szMessage[128];
         snprintf(szMessage, sizeof(szMessage),
@@ -17332,6 +17828,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
@@ -17531,6 +18028,10 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Do some checking to ensure we can add records to this file.     */
     /* -------------------------------------------------------------------- */
@@ -17563,6 +18064,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -17790,6 +18292,14 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if (nWidth > XBASE_FLD_MAX_WIDTH)
+        nWidth = XBASE_FLD_MAX_WIDTH;
+=======
+    if (nWidth > 255)
+        nWidth = 255;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     if (psDBF->nRecordLength + nWidth > 65535) {
         char szMessage[128];
@@ -17858,6 +18368,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 
+<<<<<<< HEAD
     const int nOldRecordLength = psDBF->nRecordLength;
     const int nOldHeaderLength = psDBF->nHeaderLength;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -17888,6 +18399,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> osgeo-main
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     const int nOldRecordLength = psDBF->nRecordLength;
@@ -18122,12 +18634,17 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      realloc all the arrays larger to hold the additional field      */
     /*      information.                                                    */
     /* -------------------------------------------------------------------- */
     psDBF->nFields++;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18220,6 +18737,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->panFieldOffset = STATIC_CAST(
         int *, realloc(psDBF->panFieldOffset, sizeof(int) * psDBF->nFields));
 
@@ -18235,10 +18754,26 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
         char *, SfRealloc(psDBF->pachFieldType, sizeof(char) * psDBF->nFields));
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     psDBF->panFieldOffset =
         (int *)SfRealloc(psDBF->panFieldOffset, sizeof(int) * psDBF->nFields);
+=======
+    psDBF->panFieldOffset =
+        (int *)SfRealloc(psDBF->panFieldOffset, sizeof(int) * psDBF->nFields);
+
+    psDBF->panFieldSize =
+        (int *)SfRealloc(psDBF->panFieldSize, sizeof(int) * psDBF->nFields);
+
+    psDBF->panFieldDecimals =
+        (int *)SfRealloc(psDBF->panFieldDecimals, sizeof(int) * psDBF->nFields);
+
+    psDBF->pachFieldType =
+        (char *)SfRealloc(psDBF->pachFieldType, sizeof(char) * psDBF->nFields);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     psDBF->panFieldSize =
         (int *)SfRealloc(psDBF->panFieldSize, sizeof(int) * psDBF->nFields);
@@ -18699,8 +19234,11 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
 =======
 <<<<<<< HEAD
@@ -18815,7 +19353,109 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    psDBF->nHeaderLength += 32;
+=======
+    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    psDBF->bUpdated = FALSE;
+
+    psDBF->pszHeader = STATIC_CAST(
+        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
+
+    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
+
+    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
+        pszFInfo[i] = '\0';
+
+<<<<<<< HEAD
+=======
+=======
+    psDBF->nHeaderLength += 32;
+    psDBF->bUpdated = FALSE;
+
+    psDBF->pszHeader = (char *)SfRealloc(psDBF->pszHeader, psDBF->nFields * 32);
+
+    pszFInfo = psDBF->pszHeader + 32 * (psDBF->nFields - 1);
+
+    for (i = 0; i < 32; i++)
+        pszFInfo[i] = '\0';
+
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+    if ((int)strlen(pszFieldName) < 10)
+        strncpy(pszFInfo, pszFieldName, strlen(pszFieldName));
+    else
+        strncpy(pszFInfo, pszFieldName, 10);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+=======
+    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
+    psDBF->bUpdated = FALSE;
+
+    psDBF->pszHeader = STATIC_CAST(
+        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
+
+    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
+
+    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
+        pszFInfo[i] = '\0';
+
+    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+
+    pszFInfo[11] = psDBF->pachFieldType[psDBF->nFields - 1];
+
+    if (chType == 'C') {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -18852,6 +19492,247 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
+=======
+    psDBF->nHeaderLength += 32;
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    psDBF->bUpdated = FALSE;
+
+    psDBF->pszHeader = STATIC_CAST(
+        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
+
+    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
+
+    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
+        pszFInfo[i] = '\0';
+
+    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
+<<<<<<< HEAD
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    psDBF->nHeaderLength += 32;
+=======
+    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    psDBF->bUpdated = FALSE;
+
+    psDBF->pszHeader = STATIC_CAST(
+        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
+
+    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
+
+    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
+        pszFInfo[i] = '\0';
+
+<<<<<<< HEAD
+    if ((int)strlen(pszFieldName) < 10)
+        strncpy(pszFInfo, pszFieldName, strlen(pszFieldName));
+    else
+        strncpy(pszFInfo, pszFieldName, 10);
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
+=======
+    psDBF->nHeaderLength += 32;
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    psDBF->bUpdated = FALSE;
+
+    psDBF->pszHeader = STATIC_CAST(
+        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
+
+    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
+
+    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
+        pszFInfo[i] = '\0';
+
+    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
+<<<<<<< HEAD
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    psDBF->nHeaderLength += 32;
+=======
+    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    psDBF->bUpdated = FALSE;
+
+    psDBF->pszHeader = STATIC_CAST(
+        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
+
+    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
+
+    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
+        pszFInfo[i] = '\0';
+
+<<<<<<< HEAD
+    if ((int)strlen(pszFieldName) < 10)
+        strncpy(pszFInfo, pszFieldName, strlen(pszFieldName));
+    else
+        strncpy(pszFInfo, pszFieldName, 10);
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
+=======
+    psDBF->nHeaderLength += 32;
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    psDBF->bUpdated = FALSE;
+
+    psDBF->pszHeader = STATIC_CAST(
+        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
+
+    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
+
+    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
+        pszFInfo[i] = '\0';
+
+    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
+<<<<<<< HEAD
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    psDBF->nHeaderLength += 32;
+=======
+    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    psDBF->bUpdated = FALSE;
+
+    psDBF->pszHeader = STATIC_CAST(
+        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
+
+    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
+
+    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
+        pszFInfo[i] = '\0';
+
+<<<<<<< HEAD
+    if ((int)strlen(pszFieldName) < 10)
+        strncpy(pszFInfo, pszFieldName, strlen(pszFieldName));
+    else
+        strncpy(pszFInfo, pszFieldName, 10);
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
     psDBF->bUpdated = FALSE;
 
@@ -18868,6 +19749,25 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -18880,349 +19780,6 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
-=======
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-    psDBF->nHeaderLength += 32;
-=======
-    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
->>>>>>> 498a331298 (Fix missing function prototypes (#2727))
-    psDBF->bUpdated = FALSE;
-
-    psDBF->pszHeader = STATIC_CAST(
-        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
-
-    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
-
-    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
-        pszFInfo[i] = '\0';
-
-<<<<<<< HEAD
-    if ((int)strlen(pszFieldName) < 10)
-        strncpy(pszFInfo, pszFieldName, strlen(pszFieldName));
-    else
-        strncpy(pszFInfo, pszFieldName, 10);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-=======
-    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
->>>>>>> 498a331298 (Fix missing function prototypes (#2727))
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
-=======
->>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
-    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
-=======
-    psDBF->nHeaderLength += 32;
->>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
-    psDBF->bUpdated = FALSE;
-
-    psDBF->pszHeader = STATIC_CAST(
-        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
-
-    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
-
-    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
-        pszFInfo[i] = '\0';
-
-    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
-<<<<<<< HEAD
->>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
->>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
-=======
-=======
-=======
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-    psDBF->nHeaderLength += 32;
-=======
-    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
->>>>>>> 498a331298 (Fix missing function prototypes (#2727))
-    psDBF->bUpdated = FALSE;
-
-    psDBF->pszHeader = STATIC_CAST(
-        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
-
-    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
-
-    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
-        pszFInfo[i] = '\0';
-
-<<<<<<< HEAD
-    if ((int)strlen(pszFieldName) < 10)
-        strncpy(pszFInfo, pszFieldName, strlen(pszFieldName));
-    else
-        strncpy(pszFInfo, pszFieldName, 10);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
->>>>>>> 498a331298 (Fix missing function prototypes (#2727))
-<<<<<<< HEAD
->>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
-=======
-=======
-=======
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 488180fefd (Fix missing function prototypes (#2727))
-=======
->>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
-    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
-=======
-    psDBF->nHeaderLength += 32;
->>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
-    psDBF->bUpdated = FALSE;
-
-    psDBF->pszHeader = STATIC_CAST(
-        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
-
-    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
-
-    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
-        pszFInfo[i] = '\0';
-
-    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
-<<<<<<< HEAD
->>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
->>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
-=======
-=======
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-    psDBF->nHeaderLength += 32;
-=======
-    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
->>>>>>> 498a331298 (Fix missing function prototypes (#2727))
-    psDBF->bUpdated = FALSE;
-
-    psDBF->pszHeader = STATIC_CAST(
-        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
-
-    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
-
-    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
-        pszFInfo[i] = '\0';
-
-<<<<<<< HEAD
-    if ((int)strlen(pszFieldName) < 10)
-        strncpy(pszFInfo, pszFieldName, strlen(pszFieldName));
-    else
-        strncpy(pszFInfo, pszFieldName, 10);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
->>>>>>> 498a331298 (Fix missing function prototypes (#2727))
-<<<<<<< HEAD
->>>>>>> 488180fefd (Fix missing function prototypes (#2727))
-=======
-=======
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
-=======
->>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
-    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
-=======
-    psDBF->nHeaderLength += 32;
->>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
-    psDBF->bUpdated = FALSE;
-
-    psDBF->pszHeader = STATIC_CAST(
-        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
-
-    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
-
-    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
-        pszFInfo[i] = '\0';
-
-    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
-<<<<<<< HEAD
->>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
->>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
->>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
-=======
-=======
-=======
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-    psDBF->nHeaderLength += 32;
-=======
-    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
->>>>>>> 498a331298 (Fix missing function prototypes (#2727))
-    psDBF->bUpdated = FALSE;
-
-    psDBF->pszHeader = STATIC_CAST(
-        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
-
-    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
-
-    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
-        pszFInfo[i] = '\0';
-
-<<<<<<< HEAD
-    if ((int)strlen(pszFieldName) < 10)
-        strncpy(pszFInfo, pszFieldName, strlen(pszFieldName));
-    else
-        strncpy(pszFInfo, pszFieldName, 10);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
->>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
->>>>>>> 498a331298 (Fix missing function prototypes (#2727))
-<<<<<<< HEAD
->>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
-=======
-=======
-=======
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
->>>>>>> main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-    psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
-    psDBF->bUpdated = FALSE;
-
-    psDBF->pszHeader = STATIC_CAST(
-        char *, SfRealloc(psDBF->pszHeader, psDBF->nFields * XBASE_FLDHDR_SZ));
-
-    char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * (psDBF->nFields - 1);
-
-    for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
-        pszFInfo[i] = '\0';
-
-    strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
->>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
->>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
->>>>>>> main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-
-    pszFInfo[11] = psDBF->pachFieldType[psDBF->nFields - 1];
-
-    if (chType == 'C') {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19312,12 +19869,15 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         pszFInfo[16] = STATIC_CAST(unsigned char, nWidth % 256);
         pszFInfo[17] = STATIC_CAST(unsigned char, nWidth / 256);
     }
     else {
         pszFInfo[16] = STATIC_CAST(unsigned char, nWidth);
         pszFInfo[17] = STATIC_CAST(unsigned char, nDecimals);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19567,12 +20127,15 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
         pszFInfo[16] = (unsigned char)(nWidth % 256);
         pszFInfo[17] = (unsigned char)(nWidth / 256);
     }
     else {
         pszFInfo[16] = (unsigned char)nWidth;
         pszFInfo[17] = (unsigned char)nDecimals;
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19699,6 +20262,9 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* -------------------------------------------------------------------- */
@@ -19730,6 +20296,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -19867,6 +20434,9 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
     psDBF->pszCurrentRecord = STATIC_CAST(
 >>>>>>> osgeo-main
+=======
+    psDBF->pszCurrentRecord = STATIC_CAST(
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
         char *, realloc(psDBF->pszCurrentRecord, psDBF->nRecordLength));
 =======
@@ -19875,6 +20445,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
     psDBF->pszCurrentRecord =
         (char *)SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -20025,6 +20596,9 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     /* we're done if dealing with new .dbf */
     if (psDBF->bNoHeader)
@@ -20061,6 +20635,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -20323,11 +20898,17 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     char *pszRecord =
         STATIC_CAST(char *, malloc(sizeof(char) * psDBF->nRecordLength));
+=======
+    pszRecord = (char *)malloc(sizeof(char) * psDBF->nRecordLength);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     const char chFieldFill = DBFGetNullCharacter(chType);
 
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20364,6 +20945,9 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+<<<<<<< HEAD
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     SAOffset nRecordOffset;
     for (int i = psDBF->nRecords - 1; i >= 0; --i) {
         nRecordOffset =
@@ -20435,6 +21019,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
             free(pszRecord);
             return -1;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20697,12 +21282,15 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
     for (i = psDBF->nRecords - 1; i >= 0; --i) {
         nRecordOffset = nOldRecordLength * (SAOffset)i + nOldHeaderLength;
 
         /* load record */
         psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
         psDBF->sHooks.FRead(pszRecord, nOldRecordLength, 1, psDBF->fp);
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20836,6 +21424,9 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
         /* set new field's value to NULL */
         memset(pszRecord + nOldRecordLength, chFieldFill, nWidth);
@@ -20866,6 +21457,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -20933,6 +21525,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         nRecordOffset = psDBF->nRecordLength * STATIC_CAST(SAOffset, i) +
                         psDBF->nHeaderLength;
 
@@ -20950,6 +21544,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 
         psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
         psDBF->sHooks.FWrite(&ch, 1, 1, psDBF->fp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21240,12 +21835,16 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         nRecordOffset =
             psDBF->nRecordLength * (SAOffset)i + psDBF->nHeaderLength;
 
         /* move record to the new place */
         psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
         psDBF->sHooks.FWrite(pszRecord, psDBF->nRecordLength, 1, psDBF->fp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -21324,6 +21923,9 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* free record */
@@ -21344,6 +21946,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 /*                          DBFReadAttribute()                          */
 /*                                                                      */
 /*      Read one of the attribute fields of a record.                   */
+
 /************************************************************************/
 
 static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
@@ -21375,6 +21978,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -21441,6 +22045,8 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Verify selection.                                               */
     /* -------------------------------------------------------------------- */
@@ -21463,6 +22069,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
     unsigned char *pabyRec;
     void *pReturnField = NULL;
 
+<<<<<<< HEAD
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     /* -------------------------------------------------------------------- */
@@ -21480,6 +22087,8 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
     unsigned char *pabyRec;
     void *pReturnField = NULL;
 
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Verify selection.                                               */
     /* -------------------------------------------------------------------- */
@@ -21489,6 +22098,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
     if (iField < 0 || iField >= psDBF->nFields)
         return (NULL);
 
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*    Have we read the record?                    */
@@ -22078,6 +22688,17 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    /* -------------------------------------------------------------------- */
+    /*      Have we read the record?                                        */
+    /* -------------------------------------------------------------------- */
+    if (!DBFLoadRecord(psDBF, hEntity))
+        return NULL;
+
+    pabyRec = (unsigned char *)psDBF->pszCurrentRecord;
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Ensure we have room to extract the target field.                */
     /* -------------------------------------------------------------------- */
@@ -22109,6 +22730,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -22176,6 +22798,8 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         if (psDBF->pszWorkField == SHPLIB_NULLPTR)
             psDBF->pszWorkField =
                 STATIC_CAST(char *, malloc(psDBF->nWorkFieldLength));
@@ -22194,6 +22818,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
         if (psDBF->pszWorkField == NULL)
             psDBF->pszWorkField = (char *)malloc(psDBF->nWorkFieldLength);
         else
+<<<<<<< HEAD
 =======
         if (psDBF->pszWorkField == SHPLIB_NULLPTR)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -22212,16 +22837,22 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
         if (psDBF->pszWorkField == NULL)
             psDBF->pszWorkField = (char *)malloc(psDBF->nWorkFieldLength);
         else
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             psDBF->pszWorkField =
                 (char *)realloc(psDBF->pszWorkField, psDBF->nWorkFieldLength);
     }
 
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /*      Extract the requested field.                                    */
     /* -------------------------------------------------------------------- */
     memcpy(psDBF->pszWorkField,
            ((const char *)pabyRec) + psDBF->panFieldOffset[iField],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -22749,6 +23380,9 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
            psDBF->panFieldSize[iField]);
     psDBF->pszWorkField[psDBF->panFieldSize[iField]] = '\0';
 
@@ -22769,9 +23403,9 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
         pReturnField = &(psDBF->fieldValue.dfDoubleField);
     }
 
-/* -------------------------------------------------------------------- */
-/*      Should we trim white space off the string attribute value?      */
-/* -------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------- */
+    /*      Should we trim white space off the string attribute value?      */
+    /* -------------------------------------------------------------------- */
 #ifdef TRIM_DBF_WHITESPACE
     else {
 <<<<<<< HEAD
@@ -22800,6 +23434,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -22861,10 +23496,13 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         char *pchSrc = psDBF->pszWorkField;
         char *pchDst = pchSrc;
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22928,10 +23566,13 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         char *pchSrc, *pchDst;
 
         pchDst = pchSrc = psDBF->pszWorkField;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23185,6 +23826,8 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         while (*pchSrc == ' ')
             pchSrc++;
 
@@ -23223,6 +23866,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -23472,12 +24116,19 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    return pReturnField;
+=======
+    return (pReturnField);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
 /*                        DBFReadIntAttribute()                         */
 /*                                                                      */
 /*      Read an integer attribute.                                      */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
@@ -23509,6 +24160,7 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -23576,6 +24228,8 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     int *pnValue =
         STATIC_CAST(int *, DBFReadAttribute(psDBF, iRecord, iField, 'I'));
 
@@ -23583,6 +24237,7 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
         return 0;
     else
         return *pnValue;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23847,6 +24502,9 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     int *pnValue;
 
     pnValue = (int *)DBFReadAttribute(psDBF, iRecord, iField, 'I');
@@ -23856,6 +24514,7 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
     else
         return (*pnValue);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23976,12 +24635,16 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
 /*                        DBFReadDoubleAttribute()                      */
 /*                                                                      */
 /*      Read a double attribute.                                        */
+
 /************************************************************************/
 
 double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
@@ -24013,6 +24676,7 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -24080,6 +24744,8 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     double *pdValue =
         STATIC_CAST(double *, DBFReadAttribute(psDBF, iRecord, iField, 'N'));
 
@@ -24087,6 +24753,7 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
         return 0.0;
     else
         return *pdValue;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24351,6 +25018,9 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     double *pdValue;
 
     pdValue = (double *)DBFReadAttribute(psDBF, iRecord, iField, 'N');
@@ -24360,6 +25030,7 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
     else
         return (*pdValue);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24480,12 +25151,16 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
 /*                        DBFReadStringAttribute()                      */
 /*                                                                      */
 /*      Read a string attribute.                                        */
+
 /************************************************************************/
 
 const char SHPAPI_CALL1(*)
@@ -24516,6 +25191,7 @@ const char SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -24589,6 +25265,9 @@ const char SHPAPI_CALL1(*)
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -24599,6 +25278,7 @@ const char SHPAPI_CALL1(*)
 {
     return ((const char *)DBFReadAttribute(psDBF, iRecord, iField, 'C'));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 {
     return ((const char *)DBFReadAttribute(psDBF, iRecord, iField, 'C'));
@@ -24896,12 +25576,15 @@ const char SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
 /*                        DBFReadLogicalAttribute()                     */
 /*                                                                      */
 /*      Read a logical attribute.                                       */
+
 /************************************************************************/
 
 const char SHPAPI_CALL1(*)
@@ -24932,6 +25615,7 @@ const char SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -25005,6 +25689,9 @@ const char SHPAPI_CALL1(*)
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -25015,6 +25702,7 @@ const char SHPAPI_CALL1(*)
 {
     return ((const char *)DBFReadAttribute(psDBF, iRecord, iField, 'L'));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 {
     return ((const char *)DBFReadAttribute(psDBF, iRecord, iField, 'L'));
@@ -25233,6 +25921,8 @@ const char SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -25352,8 +26042,10 @@ SHPDate SHPAPI_CALL DBFReadDateAttribute(DBFHandle psDBF, int iRecord,
 /*                         DBFIsValueNULL()                             */
 /*                                                                      */
 /*      Return TRUE if the passed string is NULL.                       */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25572,10 +26264,17 @@ static int DBFIsValueNULL(char chType, const char *pszValue)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+static bool DBFIsValueNULL(char chType, const char *pszValue)
+=======
+static int DBFIsValueNULL(char chType, const char *pszValue)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 {
     if (pszValue == SHPLIB_NULLPTR)
         return true;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25823,10 +26522,13 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
     if (pszValue == NULL)
         return TRUE;
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
@@ -25867,6 +26569,8 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     switch (chType) {
     case 'N':
     case 'F':
@@ -25898,6 +26602,7 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -26274,6 +26979,8 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         ** We accept all asterisks or all blanks as NULL
         ** though according to the spec I think it should be all
         ** asterisks.
@@ -26284,6 +26991,7 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
         for (int i = 0; pszValue[i] != '\0'; i++) {
             if (pszValue[i] != ' ')
                 return false;
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -26321,6 +27029,20 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+         ** We accept all asterisks or all blanks as NULL
+         ** though according to the spec I think it should be all
+         ** asterisks.
+         */
+        if (pszValue[0] == '*')
+            return TRUE;
+
+        for (i = 0; pszValue[i] != '\0'; i++) {
+            if (pszValue[i] != ' ')
+                return FALSE;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         }
         return true;
 
@@ -26353,6 +27075,7 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 /*      Return TRUE if value for field is NULL.                         */
 /*                                                                      */
 /*      Contributed by Jim Matthews.                                    */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle psDBF, int iRecord,
@@ -26384,6 +27107,7 @@ int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -26445,10 +27169,13 @@ int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     const char *pszValue = DBFReadStringAttribute(psDBF, iRecord, iField);
 
     if (pszValue == SHPLIB_NULLPTR)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26545,11 +27272,14 @@ int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     const char *pszValue;
 
     pszValue = DBFReadStringAttribute(psDBF, iRecord, iField);
 
     if (pszValue == NULL)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26835,6 +27565,9 @@ int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle psDBF, int iRecord,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         return TRUE;
 
     return DBFIsValueNULL(psDBF->pachFieldType[iField], pszValue);
@@ -26844,6 +27577,7 @@ int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle psDBF, int iRecord,
 /*                          DBFGetFieldCount()                          */
 /*                                                                      */
 /*      Return the number of fields in this table.                      */
+
 /************************************************************************/
 
 <<<<<<< HEAD
@@ -26876,6 +27610,7 @@ int SHPAPI_CALL DBFGetFieldCount(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -27096,6 +27831,12 @@ int SHPAPI_CALL DBFGetFieldCount(DBFHandle psDBF)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 {
     return (psDBF->nFields);
 }
@@ -27104,6 +27845,7 @@ int SHPAPI_CALL DBFGetFieldCount(DBFHandle psDBF)
 /*                         DBFGetRecordCount()                          */
 /*                                                                      */
 /*      Return the number of records in this table.                     */
+
 /************************************************************************/
 
 <<<<<<< HEAD
@@ -27136,6 +27878,7 @@ int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -27356,6 +28099,12 @@ int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 {
     return (psDBF->nRecords);
 }
@@ -27390,6 +28139,7 @@ int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -27660,11 +28410,19 @@ int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+/*      pszFieldName must be at least XBASE_FLDNAME_LEN_READ+1 (=12)    */
+/*      bytes long.                                                     */
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 /************************************************************************/
 
 DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
                                          char *pszFieldName, int *pnWidth,
                                          int *pnDecimals)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27797,10 +28555,14 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -27919,6 +28681,9 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 {
     if (iField < 0 || iField >= psDBF->nFields)
         return (FTInvalid);
@@ -27949,6 +28714,7 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -28016,6 +28782,8 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (pnWidth != SHPLIB_NULLPTR)
         *pnWidth = psDBF->panFieldSize[iField];
 
@@ -28030,6 +28798,7 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
         pszFieldName[XBASE_FLDNAME_LEN_READ] = '\0';
         for (int i = XBASE_FLDNAME_LEN_READ - 1;
              i > 0 && pszFieldName[i] == ' '; i--)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28341,6 +29110,9 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (pnWidth != NULL)
         *pnWidth = psDBF->panFieldSize[iField];
 
@@ -28354,6 +29126,7 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
         pszFieldName[11] = '\0';
         for (i = 10; i > 0 && pszFieldName[i] == ' '; i--)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28487,6 +29260,9 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             pszFieldName[i] = '\0';
     }
 
@@ -28519,6 +29295,7 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -28580,6 +29357,8 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     else if (psDBF->pachFieldType[iField] == 'D')
         return (FTDate);
 
@@ -28668,6 +29447,7 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
             return (FTDouble);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -29025,6 +29805,19 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+        }
+=======
+    else if (psDBF->pachFieldType[iField] == 'N' ||
+             psDBF->pachFieldType[iField] == 'F') {
+        if (psDBF->panFieldDecimals[iField] > 0)
+            /*            || psDBF->panFieldSize[iField] >= 10 ) */ /* GDAL bug
+                                                                       #809 */
+            return (FTDouble);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         else
             return (FTInteger);
     }
@@ -29061,6 +29854,7 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -29136,6 +29930,11 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+/*                                                                      */
+/*      Write an attribute record to the file.                          */
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 /*                                    */
 /*    Write an attribute record to the file.                */
@@ -29152,6 +29951,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
         return false;
 
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -29492,6 +30292,27 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+/*                                                                      */
+/*      Write an attribute record to the file.                          */
+
+/************************************************************************/
+
+static int DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
+                             void *pValue)
+{
+    int i, j, nRetResult = TRUE;
+    unsigned char *pabyRec;
+    char szSField[400], szFormat[20];
+
+    /* -------------------------------------------------------------------- */
+    /*      Is this a valid record?                                         */
+    /* -------------------------------------------------------------------- */
+    if (hEntity < 0 || hEntity > psDBF->nRecords)
+        return (FALSE);
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->bNoHeader)
         DBFWriteHeader(psDBF);
 
@@ -29526,6 +30347,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -29581,11 +30403,14 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             return false;
 
         psDBF->nRecords++;
         for (int i = 0; i < psDBF->nRecordLength; i++)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29700,10 +30525,13 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             return FALSE;
 
         psDBF->nRecords++;
         for (i = 0; i < psDBF->nRecordLength; i++)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29848,6 +30676,9 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             psDBF->pszCurrentRecord[i] = ' ';
 
 =======
@@ -29949,6 +30780,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -30010,11 +30842,14 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         return false;
 
     unsigned char *pabyRec =
         REINTERPRET_CAST(unsigned char *, psDBF->pszCurrentRecord);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30079,10 +30914,13 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         return FALSE;
 
     pabyRec = (unsigned char *)psDBF->pszCurrentRecord;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30337,6 +31175,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     psDBF->bCurrentRecordModified = TRUE;
     psDBF->bUpdated = TRUE;
@@ -30372,6 +31212,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -30439,11 +31280,14 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (pValue == SHPLIB_NULLPTR) {
         memset(pabyRec + psDBF->panFieldOffset[iField],
                DBFGetNullCharacter(psDBF->pachFieldType[iField]),
                psDBF->panFieldSize[iField]);
         return true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30568,11 +31412,15 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (pValue == NULL) {
         memset((char *)(pabyRec + psDBF->panFieldOffset[iField]),
                DBFGetNullCharacter(psDBF->pachFieldType[iField]),
                psDBF->panFieldSize[iField]);
         return TRUE;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30815,6 +31663,9 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* -------------------------------------------------------------------- */
@@ -30846,6 +31697,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -30913,6 +31765,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     bool nRetResult = true;
 
     switch (psDBF->pachFieldType[iField]) {
@@ -30932,6 +31786,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
                     *STATIC_CAST(double *, pValue));
         szSField[sizeof(szSField) - 1] = '\0';
         if (STATIC_CAST(int, strlen(szSField)) > psDBF->panFieldSize[iField]) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31004,12 +31859,16 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
     bool nRetResult = true;
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     switch (psDBF->pachFieldType[iField]) {
     case 'D':
     case 'N':
     case 'F': {
         int nWidth = psDBF->panFieldSize[iField];
 
+<<<<<<< HEAD
         char szSField[XBASE_FLD_MAX_WIDTH + 1];
         if (STATIC_CAST(int, sizeof(szSField)) - 2 < nWidth)
             nWidth = sizeof(szSField) - 2;
@@ -31158,6 +32017,11 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        if ((int)sizeof(szSField) - 2 < nWidth)
+            nWidth = sizeof(szSField) - 2;
+
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         snprintf(szFormat, sizeof(szFormat), "%%%d.%df", nWidth,
                  psDBF->panFieldDecimals[iField]);
         snprintf(szSField, sizeof(szSField), szFormat, *((double *)pValue));
@@ -31176,6 +32040,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -31640,12 +32505,17 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             szSField[psDBF->panFieldSize[iField]] = '\0';
             nRetResult = false;
         }
+<<<<<<< HEAD
         memcpy(
             REINTERPRET_CAST(char *, pabyRec + psDBF->panFieldOffset[iField]),
             szSField, strlen(szSField));
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31713,11 +32583,18 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        strncpy((char *)(pabyRec + psDBF->panFieldOffset[iField]), szSField,
+                strlen(szSField));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         break;
     }
 
     case 'L':
         if (psDBF->panFieldSize[iField] >= 1 &&
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31798,6 +32675,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             (*STATIC_CAST(char *, pValue) == 'F' ||
              *STATIC_CAST(char *, pValue) == 'T')) {
 >>>>>>> osgeo-main
@@ -31941,6 +32820,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
             j = psDBF->panFieldSize[iField];
             nRetResult = false;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             (*(char *)pValue == 'F' || *(char *)pValue == 'T'))
@@ -32305,6 +33185,17 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+            (*(char *)pValue == 'F' || *(char *)pValue == 'T'))
+            *(pabyRec + psDBF->panFieldOffset[iField]) = *(char *)pValue;
+        break;
+
+    default:
+        if ((int)strlen((char *)pValue) > psDBF->panFieldSize[iField]) {
+            j = psDBF->panFieldSize[iField];
+            nRetResult = FALSE;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         }
         else {
             memset(pabyRec + psDBF->panFieldOffset[iField], ' ',
@@ -32335,6 +33226,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -32524,6 +33416,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             j = STATIC_CAST(int, strlen(STATIC_CAST(char *, pValue)));
         }
 
@@ -32535,6 +33429,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
     }
 
     return nRetResult;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32773,6 +33668,19 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+            j = (int)strlen((char *)pValue);
+        }
+
+        strncpy((char *)(pabyRec + psDBF->panFieldOffset[iField]),
+                (char *)pValue, j);
+        break;
+    }
+
+    return (nRetResult);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -32781,6 +33689,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 /*      Write an attribute record to the file, but without any          */
 /*      reformatting based on type.  The provided buffer is written     */
 /*      as is to the field position in the record.                      */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
@@ -32812,6 +33721,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -32878,6 +33788,8 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Is this a valid record?                                         */
     /* -------------------------------------------------------------------- */
@@ -32888,6 +33800,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
     int i, j;
     unsigned char *pabyRec;
 
+<<<<<<< HEAD
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -33158,12 +34071,15 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
     int i, j;
     unsigned char *pabyRec;
 
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Is this a valid record?                                         */
     /* -------------------------------------------------------------------- */
     if (hEntity < 0 || hEntity > psDBF->nRecords)
         return (FALSE);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -33233,6 +34149,9 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->bNoHeader)
         DBFWriteHeader(psDBF);
 
@@ -33270,6 +34189,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -33519,6 +34439,12 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        for (int i = 0; i < psDBF->nRecordLength; i++)
+=======
+        for (i = 0; i < psDBF->nRecordLength; i++)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             psDBF->pszCurrentRecord[i] = ' ';
 
         psDBF->nCurrentRecord = hEntity;
@@ -33557,6 +34483,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -33643,6 +34570,8 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (iField >= 0) {
         unsigned char *pabyRec =
             REINTERPRET_CAST(unsigned char *, psDBF->pszCurrentRecord);
@@ -33662,6 +34591,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
             j = STATIC_CAST(int, strlen(STATIC_CAST(const char *, pValue)));
         }
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -33816,12 +34746,15 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
     unsigned char *pabyRec =
         REINTERPRET_CAST(unsigned char *, psDBF->pszCurrentRecord);
 =======
     pabyRec = (unsigned char *)psDBF->pszCurrentRecord;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -33853,6 +34786,8 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     /* -------------------------------------------------------------------- */
     /*      Assign all the record fields.                                   */
@@ -33883,6 +34818,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -33944,10 +34880,13 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     int j;
     if (STATIC_CAST(int, strlen(STATIC_CAST(char *, pValue))) >
         psDBF->panFieldSize[iField])
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34206,10 +35145,15 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if ((int)strlen((char *)pValue) > psDBF->panFieldSize[iField])
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         j = psDBF->panFieldSize[iField];
     else {
         memset(pabyRec + psDBF->panFieldOffset[iField], ' ',
                psDBF->panFieldSize[iField]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34302,6 +35246,8 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         j = STATIC_CAST(int, strlen(STATIC_CAST(char *, pValue)));
     }
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -34313,13 +35259,17 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
     }
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         j = (int)strlen((char *)pValue);
     }
 
     strncpy((char *)(pabyRec + psDBF->panFieldOffset[iField]), (char *)pValue,
             j);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -34703,6 +35653,10 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     psDBF->bCurrentRecordModified = TRUE;
     psDBF->bUpdated = TRUE;
@@ -34714,6 +35668,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 /*                      DBFWriteDoubleAttribute()                       */
 /*                                                                      */
 /*      Write a double attribute.                                       */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
@@ -34745,6 +35700,7 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -35015,6 +35971,13 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    return (DBFWriteAttribute(psDBF, iRecord, iField,
+                              STATIC_CAST(void *, &dValue)));
+=======
+    return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)&dValue));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -35025,10 +35988,15 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 =======
 /*      Write a integer attribute.                                      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle psDBF, int iRecord,
@@ -35062,6 +36030,7 @@ int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -35332,12 +36301,20 @@ int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    return (DBFWriteAttribute(psDBF, iRecord, iField,
+                              STATIC_CAST(void *, &dValue)));
+=======
+    return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)&dValue));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
 /*                      DBFWriteStringAttribute()                       */
 /*                                                                      */
 /*      Write a string attribute.                                       */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
@@ -35368,6 +36345,7 @@ int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -35441,6 +36419,9 @@ int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -35452,6 +36433,7 @@ int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
 {
     return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)pszValue));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 {
     return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)pszValue));
@@ -35751,6 +36733,8 @@ int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -35763,9 +36747,14 @@ int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
 int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle psDBF, int iRecord, int iField)
 =======
 /*      Write a string attribute.                                       */
+<<<<<<< HEAD
+=======
+
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle psDBF, int iRecord, int iField)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36133,12 +37122,23 @@ int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle psDBF, int iRecord, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+{
+    return (DBFWriteAttribute(psDBF, iRecord, iField, SHPLIB_NULLPTR));
+=======
+{
+    return (DBFWriteAttribute(psDBF, iRecord, iField, NULL));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
 /*                      DBFWriteLogicalAttribute()                      */
 /*                                                                      */
 /*      Write a logical attribute.                                      */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
@@ -36169,6 +37169,7 @@ int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -36242,6 +37243,9 @@ int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -36253,6 +37257,7 @@ int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
 {
     return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)(&lValue)));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 {
     return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)(&lValue)));
@@ -36551,6 +37556,8 @@ int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -36564,6 +37571,9 @@ int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 /*                                    */
 /*    Write an attribute record to the file.                */
 =======
@@ -36571,6 +37581,7 @@ int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
 /*      Write an attribute record to the file.                          */
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -36599,6 +37610,9 @@ int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteDateAttribute(DBFHandle psDBF, int iRecord, int iField,
@@ -36971,6 +37985,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -37037,6 +38052,8 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Is this a valid record?                                         */
     /* -------------------------------------------------------------------- */
@@ -37047,6 +38064,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
     int i;
     unsigned char *pabyRec;
 
+<<<<<<< HEAD
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -37317,12 +38335,15 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
     int i;
     unsigned char *pabyRec;
 
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Is this a valid record?                                         */
     /* -------------------------------------------------------------------- */
     if (hEntity < 0 || hEntity > psDBF->nRecords)
         return (FALSE);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -37392,6 +38413,9 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->bNoHeader)
         DBFWriteHeader(psDBF);
 
@@ -37429,6 +38453,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -37678,6 +38703,12 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        for (int i = 0; i < psDBF->nRecordLength; i++)
+=======
+        for (i = 0; i < psDBF->nRecordLength; i++)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             psDBF->pszCurrentRecord[i] = ' ';
 
         psDBF->nCurrentRecord = hEntity;
@@ -37716,6 +38747,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -37986,6 +39018,13 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    unsigned char *pabyRec =
+        REINTERPRET_CAST(unsigned char *, psDBF->pszCurrentRecord);
+=======
+    pabyRec = (unsigned char *)psDBF->pszCurrentRecord;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     memcpy(pabyRec, pRawTuple, psDBF->nRecordLength);
 
@@ -38000,9 +39039,11 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 /*                                                                      */
 /*      Read a complete record.  Note that the result is only valid     */
 /*      till the next record read for any reason.                       */
+
 /************************************************************************/
 
 const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38173,6 +39214,12 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+<<<<<<< HEAD
+
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 {
     if (hEntity < 0 || hEntity >= psDBF->nRecords)
         return SHPLIB_NULLPTR;
@@ -38181,6 +39228,7 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
         return SHPLIB_NULLPTR;
 
     return STATIC_CAST(const char *, psDBF->pszCurrentRecord);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38463,6 +39511,9 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 {
     if (hEntity < 0 || hEntity >= psDBF->nRecords)
         return (NULL);
@@ -38471,6 +39522,7 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
         return NULL;
 
     return (const char *)psDBF->pszCurrentRecord;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -38568,6 +39620,9 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -38579,15 +39634,21 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 =======
 /*      Read one of the attribute fields of a record.                   */
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
                                     const char *pszFilename)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38689,6 +39750,11 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+    DBFHandle newDBF =
+        DBFCreateLL(pszFilename, psDBF->pszCodePage, &psDBF->sHooks);
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
     DBFHandle newDBF = DBFCreateEx(pszFilename, psDBF->pszCodePage);
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -38739,6 +39805,7 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
     newDBF = DBFCreateEx(pszFilename, psDBF->pszCodePage);
     if (newDBF == NULL)
         return (NULL);
+<<<<<<< HEAD
 =======
     DBFHandle newDBF = DBFCreateEx(pszFilename, psDBF->pszCodePage);
     if (newDBF == SHPLIB_NULLPTR)
@@ -38792,6 +39859,8 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
     newDBF = DBFCreateEx(pszFilename, psDBF->pszCodePage);
     if (newDBF == NULL)
         return (NULL);
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     newDBF->nFields = psDBF->nFields;
     newDBF->nRecordLength = psDBF->nRecordLength;
@@ -38824,6 +39893,7 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
 
     newDBF = DBFOpen(pszFilename, "rb+");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -39503,6 +40573,9 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     return (newDBF);
 }
 
@@ -39515,12 +40588,14 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
 /*                           'N' (Numeric, with or without decimal),    */
 /*                           'L' (Logical),                             */
 /*                           'M' (Memo: 10 digits .DBT block ptr)       */
+
 /************************************************************************/
 
 <<<<<<< HEAD
 char SHPAPI_CALL DBFGetNativeFieldType(const DBFHandle psDBF, int iField)
 =======
 char SHPAPI_CALL DBFGetNativeFieldType(DBFHandle psDBF, int iField)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39767,11 +40842,18 @@ char SHPAPI_CALL DBFGetNativeFieldType(DBFHandle psDBF, int iField)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 {
     if (iField >= 0 && iField < psDBF->nFields)
         return psDBF->pachFieldType[iField];
 
     return ' ';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39864,6 +40946,27 @@ char SHPAPI_CALL DBFGetNativeFieldType(DBFHandle psDBF, int iField)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+}
+
+/************************************************************************/
+/*                            str_to_upper()                            */
+
+/************************************************************************/
+
+static void str_to_upper(char *string)
+{
+    int len;
+    int i = -1;
+
+    len = (int)strlen(string);
+
+    while (++i < len)
+        if (isalpha(string[i]) && islower(string[i]))
+            string[i] = (char)toupper((int)string[i]);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -40154,11 +41257,13 @@ static void str_to_upper(char *string)
 /*      Get the index number for a field in a .dbf file.                */
 /*                                                                      */
 /*      Contributed by Jim Matthews.                                    */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
                                  const char *pszFieldName)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40252,11 +41357,14 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     char name[XBASE_FLDNAME_LEN_READ + 1];
 
     for (int i = 0; i < DBFGetFieldCount(psDBF); i++) {
         DBFGetFieldInfo(psDBF, i, name, SHPLIB_NULLPTR, SHPLIB_NULLPTR);
         if (!STRCASECMP(pszFieldName, name))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40410,9 +41518,12 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
     char name[12], name1[12], name2[12];
     int i;
 
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
@@ -40439,6 +41550,8 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     strncpy(name1, pszFieldName, 11);
     name1[11] = '\0';
     str_to_upper(name1);
@@ -40449,6 +41562,7 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
         str_to_upper(name2);
 
         if (!strncmp(name1, name2, 10))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40742,6 +41856,9 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             return (i);
     }
     return (-1);
@@ -40752,6 +41869,7 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
 /*                                                                      */
 /*      Returns TRUE if the indicated record is deleted, otherwise      */
 /*      it returns FALSE.                                               */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFIsRecordDeleted(const DBFHandle psDBF, int iShape)
@@ -40763,6 +41881,7 @@ int SHPAPI_CALL DBFIsRecordDeleted(const DBFHandle psDBF, int iShape)
         return TRUE;
 
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40879,11 +41998,16 @@ int SHPAPI_CALL DBFIsRecordDeleted(const DBFHandle psDBF, int iShape)
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+    /*      Have we read the record?                                        */
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
     /*    Have we read the record?                    */
 =======
     /*      Have we read the record?                                        */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -41076,6 +42200,9 @@ int SHPAPI_CALL DBFIsRecordDeleted(const DBFHandle psDBF, int iShape)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     if (!DBFLoadRecord(psDBF, iShape))
         return FALSE;
@@ -41088,6 +42215,7 @@ int SHPAPI_CALL DBFIsRecordDeleted(const DBFHandle psDBF, int iShape)
 
 /************************************************************************/
 /*                        DBFMarkRecordDeleted()                        */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
@@ -41212,6 +42340,7 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -41309,6 +42438,10 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Verify selection.                                               */
     /* -------------------------------------------------------------------- */
@@ -41325,6 +42458,7 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
     /* -------------------------------------------------------------------- */
     /*      Assign value, marking record as dirty if it changes.            */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41595,6 +42729,9 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (bIsDeleted)
         chNewFlag = '*';
     else
@@ -41611,6 +42748,7 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
 
 /************************************************************************/
 /*                            DBFGetCodePage                            */
+
 /************************************************************************/
 
 const char SHPAPI_CALL1(*) DBFGetCodePage(const DBFHandle psDBF)
@@ -41641,6 +42779,7 @@ const char SHPAPI_CALL1(*) DBFGetCodePage(const DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -41868,6 +43007,14 @@ const char SHPAPI_CALL1(*) DBFGetCodePage(const DBFHandle psDBF)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if (psDBF == SHPLIB_NULLPTR)
+        return SHPLIB_NULLPTR;
+=======
+    if (psDBF == NULL)
+        return NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     return psDBF->pszCodePage;
 }
 
@@ -41875,10 +43022,12 @@ const char SHPAPI_CALL1(*) DBFGetCodePage(const DBFHandle psDBF)
 /*                          DBFDeleteField()                            */
 /*                                                                      */
 /*      Remove a field from a .dbf file                                 */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42006,12 +43155,16 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     int nOldRecordLength, nOldHeaderLength;
     int nDeletedFieldOffset, nDeletedFieldSize;
     SAOffset nRecordOffset;
     char *pszRecord;
     int i, iRecord;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42184,6 +43337,9 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (iField < 0 || iField >= psDBF->nFields)
         return FALSE;
 
@@ -42224,6 +43380,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -42473,6 +43630,12 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    for (int i = iField + 1; i < psDBF->nFields; i++) {
+=======
+    for (i = iField + 1; i < psDBF->nFields; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         psDBF->panFieldOffset[i - 1] =
             psDBF->panFieldOffset[i] - nDeletedFieldSize;
         psDBF->panFieldSize[i - 1] = psDBF->panFieldSize[i];
@@ -42509,6 +43672,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -42575,6 +43739,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->panFieldOffset = STATIC_CAST(
         int *, realloc(psDBF->panFieldOffset, sizeof(int) * psDBF->nFields));
 
@@ -42592,6 +43758,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
     psDBF->panFieldOffset =
         (int *)SfRealloc(psDBF->panFieldOffset, sizeof(int) * psDBF->nFields);
+<<<<<<< HEAD
 =======
     psDBF->panFieldOffset = STATIC_CAST(
         int *, SfRealloc(psDBF->panFieldOffset, sizeof(int) * psDBF->nFields));
@@ -43073,6 +44240,19 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+
+    psDBF->panFieldSize =
+        (int *)SfRealloc(psDBF->panFieldSize, sizeof(int) * psDBF->nFields);
+
+    psDBF->panFieldDecimals =
+        (int *)SfRealloc(psDBF->panFieldDecimals, sizeof(int) * psDBF->nFields);
+
+    psDBF->pachFieldType =
+        (char *)SfRealloc(psDBF->pachFieldType, sizeof(char) * psDBF->nFields);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     /* update header information */
     psDBF->nHeaderLength -= XBASE_FLDHDR_SZ;
@@ -43105,6 +44285,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -43171,6 +44352,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     memmove(psDBF->pszHeader + iField * XBASE_FLDHDR_SZ,
             psDBF->pszHeader + (iField + 1) * XBASE_FLDHDR_SZ,
             sizeof(char) * (psDBF->nFields - iField) * XBASE_FLDHDR_SZ);
@@ -43188,6 +44371,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
     memmove(psDBF->pszHeader + iField * 32,
             psDBF->pszHeader + (iField + 1) * 32,
             sizeof(char) * (psDBF->nFields - iField) * 32);
+<<<<<<< HEAD
 =======
     memmove(psDBF->pszHeader + iField * XBASE_FLDHDR_SZ,
             psDBF->pszHeader + (iField + 1) * XBASE_FLDHDR_SZ,
@@ -43649,6 +44833,16 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+
+    psDBF->pszHeader = (char *)SfRealloc(psDBF->pszHeader, psDBF->nFields * 32);
+
+    /* update size of current record appropriately */
+    psDBF->pszCurrentRecord =
+        (char *)SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     /* we're done if we're dealing with not yet created .dbf */
     if (psDBF->bNoHeader && psDBF->nRecords == 0)
@@ -43685,6 +44879,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -43752,6 +44947,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     char *pszRecord =
         STATIC_CAST(char *, malloc(sizeof(char) * nOldRecordLength));
 
@@ -43773,6 +44970,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
         nRecordOffset = psDBF->nRecordLength * STATIC_CAST(SAOffset, iRecord) +
                         psDBF->nHeaderLength;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43977,6 +45175,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     pszRecord = (char *)malloc(sizeof(char) * nOldRecordLength);
 
     /* shift records to their new positions */
@@ -43985,6 +45185,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 
         /* load record */
         psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44021,10 +45222,13 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         psDBF->sHooks.FRead(pszRecord, nOldRecordLength, 1, psDBF->fp);
 
         nRecordOffset =
             psDBF->nRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44352,6 +45556,9 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
         /* move record in two steps */
         psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
@@ -44383,6 +45590,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -44441,6 +45649,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     if (psDBF->bWriteEndOfFileChar) {
@@ -44451,6 +45661,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 
         psDBF->sHooks.FSeek(psDBF->fp, nEOFOffset, 0);
         psDBF->sHooks.FWrite(&ch, 1, 1, psDBF->fp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44684,6 +45895,10 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* TODO: truncate file */
@@ -44704,12 +45919,14 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 /*      Reorder the fields of a .dbf file                               */
 /*                                                                      */
 /* panMap must be exactly psDBF->nFields long and be a permutation      */
-/* of [0, psDBF->nFields-1]. This assumption will not be asserted in the*/
+/* of [0, psDBF->nFields-1]. This assumption will not be asserted in the */
 /* code of DBFReorderFields.                                            */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44837,6 +46054,9 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     SAOffset nRecordOffset;
     int i, iRecord;
     int *panFieldOffsetNew;
@@ -44869,6 +46089,7 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -45046,6 +46267,9 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->nFields == 0)
         return TRUE;
 
@@ -45055,6 +46279,7 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 
     /* a simple malloc() would be enough, but calloc() helps clang static
      * analyzer */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45192,6 +46417,8 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     int *panFieldOffsetNew =
         STATIC_CAST(int *, calloc(psDBF->nFields, sizeof(int)));
     int *panFieldSizeNew =
@@ -45655,6 +46882,7 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
     }
     panFieldOffsetNew[0] = 1;
     for (int i = 1; i < psDBF->nFields; i++) {
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -45692,6 +46920,25 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    panFieldOffsetNew = (int *)calloc(sizeof(int), psDBF->nFields);
+    panFieldSizeNew = (int *)malloc(sizeof(int) * psDBF->nFields);
+    panFieldDecimalsNew = (int *)malloc(sizeof(int) * psDBF->nFields);
+    pachFieldTypeNew = (char *)malloc(sizeof(char) * psDBF->nFields);
+    pszHeaderNew = (char *)malloc(sizeof(char) * 32 * psDBF->nFields);
+
+    /* shuffle fields definitions */
+    for (i = 0; i < psDBF->nFields; i++) {
+        panFieldSizeNew[i] = psDBF->panFieldSize[panMap[i]];
+        panFieldDecimalsNew[i] = psDBF->panFieldDecimals[panMap[i]];
+        pachFieldTypeNew[i] = psDBF->pachFieldType[panMap[i]];
+        memcpy(pszHeaderNew + i * 32, psDBF->pszHeader + panMap[i] * 32, 32);
+    }
+    panFieldOffsetNew[0] = 1;
+    for (i = 1; i < psDBF->nFields; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         panFieldOffsetNew[i] =
             panFieldOffsetNew[i - 1] + panFieldSizeNew[i - 1];
     }
@@ -45734,6 +46981,7 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -46305,6 +47553,8 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         char *pszRecord =
             STATIC_CAST(char *, malloc(sizeof(char) * psDBF->nRecordLength));
         char *pszRecordNew =
@@ -46327,6 +47577,7 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
             pszRecordNew[0] = pszRecord[0];
 
             for (int i = 0; i < psDBF->nFields; i++) {
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -46364,6 +47615,25 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        pszRecord = (char *)malloc(sizeof(char) * psDBF->nRecordLength);
+        pszRecordNew = (char *)malloc(sizeof(char) * psDBF->nRecordLength);
+
+        /* shuffle fields in records */
+        for (iRecord = 0; iRecord < psDBF->nRecords; iRecord++) {
+            nRecordOffset =
+                psDBF->nRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+
+            /* load record */
+            psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
+            psDBF->sHooks.FRead(pszRecord, psDBF->nRecordLength, 1, psDBF->fp);
+
+            pszRecordNew[0] = pszRecord[0];
+
+            for (i = 0; i < psDBF->nFields; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
                 memcpy(pszRecordNew + panFieldOffsetNew[i],
                        pszRecord + psDBF->panFieldOffset[panMap[i]],
                        psDBF->panFieldSize[panMap[i]]);
@@ -46412,12 +47682,14 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap)
 /*                          DBFAlterFieldDefn()                         */
 /*                                                                      */
 /*      Alter a field definition in a .dbf file                         */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
                                   const char *pszFieldName, char chType,
                                   int nWidth, int nDecimals)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46571,6 +47843,9 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     int i;
     int iRecord;
     int nOffset;
@@ -46582,6 +47857,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
     int bIsNULL;
     char chFieldFill;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46754,6 +48030,9 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (iField < 0 || iField >= psDBF->nFields)
         return FALSE;
 
@@ -46800,6 +48079,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -47027,6 +48307,14 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if (nWidth > XBASE_FLD_MAX_WIDTH)
+        nWidth = XBASE_FLD_MAX_WIDTH;
+=======
+    if (nWidth > 255)
+        nWidth = 255;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     /* -------------------------------------------------------------------- */
     /*      Assign the new field information fields.                        */
@@ -47064,6 +48352,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -47131,12 +48420,15 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * iField;
 
     for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
         pszFInfo[i] = '\0';
 
     strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47319,11 +48611,15 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     pszFInfo = psDBF->pszHeader + 32 * iField;
 
     for (i = 0; i < 32; i++)
         pszFInfo[i] = '\0';
 
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47360,10 +48656,13 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if ((int)strlen(pszFieldName) < 10)
         strncpy(pszFInfo, pszFieldName, strlen(pszFieldName));
     else
         strncpy(pszFInfo, pszFieldName, 10);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47570,6 +48869,9 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     pszFInfo[11] = psDBF->pachFieldType[iField];
 
@@ -47600,6 +48902,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -47667,12 +48970,15 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         pszFInfo[16] = STATIC_CAST(unsigned char, nWidth % 256);
         pszFInfo[17] = STATIC_CAST(unsigned char, nWidth / 256);
     }
     else {
         pszFInfo[16] = STATIC_CAST(unsigned char, nWidth);
         pszFInfo[17] = STATIC_CAST(unsigned char, nDecimals);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47922,12 +49228,15 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
         pszFInfo[16] = (unsigned char)(nWidth % 256);
         pszFInfo[17] = (unsigned char)(nWidth / 256);
     }
     else {
         pszFInfo[16] = (unsigned char)nWidth;
         pszFInfo[17] = (unsigned char)nDecimals;
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48054,6 +49363,9 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* -------------------------------------------------------------------- */
@@ -48086,6 +49398,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -48152,6 +49465,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         for (int i = iField + 1; i < psDBF->nFields; i++)
             psDBF->panFieldOffset[i] += nWidth - nOldWidth;
         psDBF->nRecordLength += nWidth - nOldWidth;
@@ -48162,14 +49477,18 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
             char *, SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength));
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         for (i = iField + 1; i < psDBF->nFields; i++)
             psDBF->panFieldOffset[i] += nWidth - nOldWidth;
         psDBF->nRecordLength += nWidth - nOldWidth;
 
         psDBF->pszCurrentRecord =
             (char *)SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -48560,6 +49879,10 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* we're done if we're dealing with not yet created .dbf */
@@ -48596,6 +49919,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -48697,10 +50021,15 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
     bool errorAbort = false;
 =======
 >>>>>>> osgeo-main
+=======
+    bool errorAbort = false;
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (nWidth < nOldWidth || (nWidth == nOldWidth && chType != chOldType)) {
         char *pszRecord = (char *)malloc(sizeof(char) * nOldRecordLength);
         char *pszOldField = (char *)malloc(sizeof(char) * (nOldWidth + 1));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48891,6 +50220,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     if (nWidth < nOldWidth || (nWidth == nOldWidth && chType != chOldType)) {
         char *pszRecord =
@@ -48927,6 +50258,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -49470,6 +50802,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         for (int iRecord = 0; iRecord < psDBF->nRecords; iRecord++) {
             SAOffset nRecordOffset =
                 nOldRecordLength * STATIC_CAST(SAOffset, iRecord) +
@@ -49489,6 +50823,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
             if (nWidth != nOldWidth) {
                 if ((chOldType == 'N' || chOldType == 'F' ||
                      chOldType == 'D') &&
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -49526,6 +50861,23 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        for (iRecord = 0; iRecord < psDBF->nRecords; iRecord++) {
+            nRecordOffset =
+                nOldRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+
+            /* load record */
+            psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
+            psDBF->sHooks.FRead(pszRecord, nOldRecordLength, 1, psDBF->fp);
+
+            memcpy(pszOldField, pszRecord + nOffset, nOldWidth);
+            bIsNULL = DBFIsValueNULL(chOldType, pszOldField);
+
+            if (nWidth != nOldWidth) {
+                if ((chOldType == 'N' || chOldType == 'F') &&
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
                     pszOldField[0] == ' ') {
                     /* Strip leading spaces when truncating a numeric field */
                     memmove(pszRecord + nOffset,
@@ -49570,6 +50922,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -49840,6 +51193,13 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+                psDBF->nRecordLength * STATIC_CAST(SAOffset, iRecord) +
+                psDBF->nHeaderLength;
+=======
+                psDBF->nRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
             /* write record */
             psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
@@ -49888,6 +51248,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -49988,10 +51349,13 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         char *pszRecord =
             STATIC_CAST(char *, malloc(sizeof(char) * psDBF->nRecordLength));
         char *pszOldField =
             STATIC_CAST(char *, malloc(sizeof(char) * (nOldWidth + 1)));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50160,9 +51524,12 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
         char *pszRecord = (char *)malloc(sizeof(char) * psDBF->nRecordLength);
         char *pszOldField = (char *)malloc(sizeof(char) * (nOldWidth + 1));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50227,6 +51594,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
         pszOldField[nOldWidth] = 0;
 
@@ -50257,6 +51626,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -50644,6 +52014,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         for (int iRecord = psDBF->nRecords - 1; iRecord >= 0; iRecord--) {
             SAOffset nRecordOffset =
                 nOldRecordLength * STATIC_CAST(SAOffset, iRecord) +
@@ -50659,6 +52031,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 
             memcpy(pszOldField, pszRecord + nOffset, nOldWidth);
             const bool bIsNULL = DBFIsValueNULL(chOldType, pszOldField);
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -50696,6 +52069,20 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+        for (iRecord = psDBF->nRecords - 1; iRecord >= 0; iRecord--) {
+            nRecordOffset =
+                nOldRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+
+            /* load record */
+            psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
+            psDBF->sHooks.FRead(pszRecord, nOldRecordLength, 1, psDBF->fp);
+
+            memcpy(pszOldField, pszRecord + nOffset, nOldWidth);
+            bIsNULL = DBFIsValueNULL(chOldType, pszOldField);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
 =======
         for (iRecord = psDBF->nRecords - 1; iRecord >= 0; iRecord--) {
@@ -50912,6 +52299,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -51182,10 +52570,18 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+                psDBF->nRecordLength * STATIC_CAST(SAOffset, iRecord) +
+                psDBF->nHeaderLength;
+=======
+                psDBF->nRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
             /* write record */
             psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
             psDBF->sHooks.FWrite(pszRecord, psDBF->nRecordLength, 1, psDBF->fp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51267,6 +52663,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         }
 
         if (!errorAbort && psDBF->bWriteEndOfFileChar) {
@@ -51278,6 +52676,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 
             psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
             psDBF->sHooks.FWrite(&ch, 1, 1, psDBF->fp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51515,6 +52914,10 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         }
 
         free(pszRecord);

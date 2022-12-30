@@ -29,6 +29,7 @@ int close_connection();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -269,6 +270,12 @@ cursor *alloc_cursor();
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+cursor *alloc_cursor(void);
+=======
+cursor *alloc_cursor();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 void free_cursor(cursor *c);
 
 /* describe.c */

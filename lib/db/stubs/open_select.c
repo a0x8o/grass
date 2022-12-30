@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 =======
 <<<<<<< HEAD
@@ -66,6 +67,8 @@ int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_open_select_cursor(dbString *select UNUSED,
                                   dbCursor *cursor UNUSED, int mode UNUSED)
 =======
@@ -87,6 +90,7 @@ int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -180,6 +184,8 @@ int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 int db__driver_open_select_cursor(dbString *select, dbCursor *cursor, int mode)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 {
     db_procedure_not_implemented("db_open_select_cursor");
     return DB_FAILED;

@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -133,6 +134,8 @@
 >>>>>>> 05e3f88683 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 0aa28c169d (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 #            Vaclav Petras <wenzeslaus gmail com>
 #
 # PURPOSE:   This module contains functions for launching a GRASS session
@@ -598,23 +601,29 @@ def _set_notebook_defaults():
 =======
 =======
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+#            Vaclav Petras <wenzeslaus gmail com>
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #
 # PURPOSE:   This module contains functions for launching a GRASS session
-#           in Jupyter Notebooks
+#            in Jupyter Notebooks
 #
-# COPYRIGHT: (C) 2021 Caitlin Haedrich, and by the GRASS Development Team
+# COPYRIGHT: (C) 2021-2022 Caitlin Haedrich, and by the GRASS Development Team
 #
-#           This program is free software under the GNU General Public
-#           License (>=v2). Read the file COPYING that comes with GRASS
-#           for details.
+#            This program is free software under the GNU General Public
+#            License (>=v2). Read the file COPYING that comes with GRASS
+#            for details.
+
+"""Initialization GRASS GIS session and its finalization"""
 
 import os
+import weakref
 
 import grass.script as gs
-import grass.script.setup as gsetup
 
 
 def _set_notebook_defaults():
+<<<<<<< HEAD
     """
 <<<<<<< HEAD
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -623,7 +632,14 @@ def _set_notebook_defaults():
 =======
 =======
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
+<<<<<<< HEAD
 >>>>>>> 0aa28c169d (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+=======
+    """Set defaults appropriate for Jupyter Notebooks.
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     This function sets several GRASS environment variables that are
     important for GRASS to run smoothly in Jupyter.
 
@@ -638,6 +654,7 @@ def _set_notebook_defaults():
     os.environ["GRASS_OVERWRITE"] = "1"
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -770,6 +787,8 @@ def _set_notebook_defaults():
 >>>>>>> 05e3f88683 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 0aa28c169d (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 class _JupyterGlobalSession:
     """Represents a global GRASS session for Jupyter Notebooks.
 
@@ -1076,6 +1095,7 @@ def init(path, location, mapset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1109,9 +1129,12 @@ def init(path, location, mapset):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
 class _JupyterGlobalSession:
     """Represents a global GRASS session for Jupyter Notebooks.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1652,13 +1675,26 @@ def init(path, location=None, mapset=None, grass_path=None):
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
-    Inputs:
-        path - path to grass databases
-        location - name of GRASS location
-        mapset - name of mapset within location
+    Do not create objects of this class directly. Use the standalone *init* function
+    and an object will be returned to you, e.g.:
+
+    >>> import grass.jupyter as gj
+    >>> session = gj.init(...)
+
+    An object ends the session when it is destroyed or when the *finish* method is
+    called explicitely.
+
+    Notably, only the mapset is closed, but the libraries and GRASS modules
+    remain on path.
     """
+<<<<<<< HEAD
 >>>>>>> 05e3f88683 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+<<<<<<< HEAD
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     # Create a GRASS GIS session.
     gsetup.init(os.environ["GISBASE"], path, location, mapset)
     # Set GRASS env. variables
@@ -1817,6 +1853,7 @@ def display_settings(font="sans", driver="cairo"):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1849,6 +1886,8 @@ def display_settings(font="sans", driver="cairo"):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
     def __init__(self):
@@ -1950,6 +1989,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1990,6 +2030,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     >>> import grass.jupyter as gj
     >>> session = gj.init(...)
@@ -2012,6 +2054,7 @@ def init(path, location=None, mapset=None, grass_path=None):
     :param str location: name of GRASS location within the database
     :param str mapset: name of mapset within location
     """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2150,6 +2193,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     global _global_session_handle  # pylint: disable=global-statement,invalid-name
     if not _global_session_handle or not _global_session_handle.active:
         # Create a GRASS session.
@@ -2160,6 +2205,7 @@ def init(path, location=None, mapset=None, grass_path=None):
     else:
         _global_session_handle.switch_mapset(path, location=location, mapset=mapset)
     return _global_session_handle
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2321,3 +2367,6 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> 0aa28c169d (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))

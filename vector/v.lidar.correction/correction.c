@@ -42,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void P_Sparse_Correction(struct Map_info *In, struct Map_info *Out,
 =======
 <<<<<<< HEAD
@@ -88,6 +89,8 @@ void P_Sparse_Correction(struct Map_info *In, struct Map_info *Out,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 void P_Sparse_Correction(struct Map_info *In UNUSED, struct Map_info *Out,
 =======
 void P_Sparse_Correction(struct Map_info *In, struct Map_info *Out,
@@ -108,6 +111,7 @@ void P_Sparse_Correction(struct Map_info *In, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void P_Sparse_Correction(struct Map_info *In, struct Map_info *Out,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -201,6 +205,8 @@ void P_Sparse_Correction(struct Map_info *In, struct Map_info *Out,
 void P_Sparse_Correction(struct Map_info *In, struct Map_info *Out,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
                          struct Map_info *Terrain,
                          struct Cell_head *Elaboration,
                          struct bound_box General, struct bound_box Overlap,

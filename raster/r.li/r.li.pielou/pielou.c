@@ -84,6 +84,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -195,6 +196,10 @@ int pielou(int fd, char **par UNUSED, struct area_entry *ad, double *result)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+int pielou(int fd, char **par UNUSED, struct area_entry *ad, double *result)
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 int pielou(int fd, char **par, struct area_entry *ad, double *result)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {

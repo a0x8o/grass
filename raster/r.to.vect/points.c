@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -140,6 +141,10 @@ int extract_points(int z_flag UNUSED)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+int extract_points(int z_flag UNUSED)
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 int extract_points(int z_flag)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {

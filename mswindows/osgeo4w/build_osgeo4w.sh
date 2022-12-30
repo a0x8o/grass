@@ -37,6 +37,7 @@ export C_INCLUDE_PATH=".:${OSGEO4W_ROOT_MSYS}/include:${SRC}/dist.${ARCH}/includ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 =======
 <<<<<<< HEAD
@@ -83,6 +84,8 @@ export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python312
 =======
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
@@ -103,6 +106,7 @@ export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -196,6 +200,8 @@ export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 export ARCH=x86_64-w64-mingw32
 
 ./configure \
@@ -239,6 +245,7 @@ export ARCH=x86_64-w64-mingw32
     --with-sqlite-includes=${OSGEO4W_ROOT_MSYS}/include \
     --with-sqlite-libs=${OSGEO4W_ROOT_MSYS}/lib \
     --with-zstd \
+<<<<<<< HEAD
 <<<<<<< HEAD
     --with-odbc \
     --with-cairo \
@@ -431,6 +438,26 @@ export ARCH=x86_64-w64-mingw32
     --without-pdal \
     --without-x
 >>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+    --without-pdal \
+    --without-x
+=======
+    --with-odbc \
+    --with-cairo \
+    --with-cairo-includes=${OSGEO4W_ROOT_MSYS}/include \
+    --with-cairo-libs=$OSGEO4W_ROOT_MSYS/lib \
+    --with-cairo-ldflags="-L${SRC}/mswindows/osgeo4w/lib -lcairo" \
+    --with-opengl=windows \
+    --with-bzlib \
+    --with-liblas=${SRC}/mswindows/osgeo4w/liblas-config \
+<<<<<<< HEAD
+    --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config \
+    --without-pdal
+=======
+    --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
 make
 

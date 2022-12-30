@@ -48,6 +48,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -143,6 +144,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 void *get_cell_ptr(void *array, int cols, int row, int col,
                    RASTER_MAP_TYPE map_type)
 {
@@ -361,17 +364,24 @@ void *get_cell_ptr(void *array, int cols, int row, int col,
 =======
 =======
 
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 void *get_cell_ptr(void *array, int cols, int row, int col,
                    RASTER_MAP_TYPE map_type)
 {
-    return G_incr_void_ptr(array,
-                           ((row * (size_t)cols) +
-                            col) * Rast_cell_size(map_type));
+    return G_incr_void_ptr(array, ((row * (size_t)cols) + col) *
+                                      Rast_cell_size(map_type));
 }
 
+<<<<<<< HEAD
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
                 int value)
 {
@@ -618,6 +628,7 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -667,10 +678,13 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -783,6 +797,8 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 void point_binning_set(struct PointBinning *point_binning, char *method,
                        char *percentile, char *trim)
 {
@@ -901,6 +917,7 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1032,11 +1049,14 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(_("Unable to calculate percentile without the pth "
                             "option specified!"));
 =======
             G_fatal_error(_("Unable to calculate percentile without the pth option specified!"));
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1047,9 +1067,12 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
             G_fatal_error(_("Unable to calculate percentile without the pth "
                             "option specified!"));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -1110,6 +1133,8 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
             G_fatal_error(_("Unable to calculate percentile without the pth option specified!"));
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         point_binning->method = METHOD_PERCENTILE;
         point_binning->bin_z_index = TRUE;
     }
@@ -1145,6 +1170,7 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1276,11 +1302,14 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(_("Unable to calculate trimmed mean without the trim "
                             "option specified!"));
 =======
             G_fatal_error(_("Unable to calculate trimmed mean without the trim option specified!"));
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1291,9 +1320,12 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
             G_fatal_error(_("Unable to calculate trimmed mean without the trim "
                             "option specified!"));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -1354,6 +1386,8 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
             G_fatal_error(_("Unable to calculate trimmed mean without the trim option specified!"));
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         point_binning->method = METHOD_TRIMMEAN;
         point_binning->bin_z_index = TRUE;
     }
@@ -1403,6 +1437,7 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1452,10 +1487,13 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1568,6 +1606,8 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 void point_binning_allocate(struct PointBinning *point_binning, int rows,
                             int cols, RASTER_MAP_TYPE rtype)
 {
@@ -1605,6 +1645,7 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1736,11 +1777,14 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         blank_array(point_binning->min_array, rows, cols, rtype,
                     -1); /* fill with NULLs */
 =======
         blank_array(point_binning->min_array, rows, cols, rtype, -1);   /* fill with NULLs */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1751,9 +1795,12 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
         blank_array(point_binning->min_array, rows, cols, rtype,
                     -1); /* fill with NULLs */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -1814,6 +1861,8 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
         blank_array(point_binning->min_array, rows, cols, rtype, -1);   /* fill with NULLs */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
     if (point_binning->bin_max) {
         G_debug(2, "allocating max_array");
@@ -1843,6 +1892,7 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1974,11 +2024,14 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         blank_array(point_binning->max_array, rows, cols, rtype,
                     -1); /* fill with NULLs */
 =======
         blank_array(point_binning->max_array, rows, cols, rtype, -1);   /* fill with NULLs */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1989,9 +2042,12 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
         blank_array(point_binning->max_array, rows, cols, rtype,
                     -1); /* fill with NULLs */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -2052,6 +2108,8 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
         blank_array(point_binning->max_array, rows, cols, rtype, -1);   /* fill with NULLs */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
     if (point_binning->bin_sum) {
         G_debug(2, "allocating sum_array");
@@ -2098,6 +2156,7 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2193,6 +2252,8 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (point_binning->bin_z_index || point_binning->bin_cnt_index ||
         point_binning->bin_eigenvalues) {
         G_debug(2, "allocating index_array");
@@ -2431,16 +2492,27 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 =======
     if (point_binning->bin_z_index ||
         point_binning->bin_cnt_index || point_binning->bin_eigenvalues) {
+=======
+    if (point_binning->bin_z_index || point_binning->bin_cnt_index ||
+        point_binning->bin_eigenvalues) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         G_debug(2, "allocating index_array");
         point_binning->index_array =
             G_calloc((size_t)rows * (cols + 1), Rast_cell_size(CELL_TYPE));
-        blank_array(point_binning->index_array, rows, cols, CELL_TYPE, -1);     /* fill with NULLs */
+        blank_array(point_binning->index_array, rows, cols, CELL_TYPE,
+                    -1); /* fill with NULLs */
     }
 }
 
+<<<<<<< HEAD
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 void point_binning_free(struct PointBinning *point_binning,
                         struct BinIndex *bin_index_nodes)
 {
@@ -2483,6 +2555,7 @@ void point_binning_free(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2615,12 +2688,15 @@ void point_binning_free(struct PointBinning *point_binning,
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (point_binning->bin_z_index || point_binning->bin_cnt_index ||
         point_binning->bin_eigenvalues) {
 =======
     if (point_binning->bin_z_index ||
         point_binning->bin_cnt_index || point_binning->bin_eigenvalues) {
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2631,9 +2707,12 @@ void point_binning_free(struct PointBinning *point_binning,
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
     if (point_binning->bin_z_index || point_binning->bin_cnt_index ||
         point_binning->bin_eigenvalues) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -2697,6 +2776,8 @@ void point_binning_free(struct PointBinning *point_binning,
         point_binning->bin_cnt_index || point_binning->bin_eigenvalues) {
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         G_free(point_binning->index_array);
         G_free(bin_index_nodes->nodes);
         bin_index_nodes->num_nodes = 0;
@@ -2729,6 +2810,7 @@ void point_binning_free(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2778,10 +2860,13 @@ void point_binning_free(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2894,6 +2979,8 @@ void point_binning_free(struct PointBinning *point_binning,
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 void write_values(struct PointBinning *point_binning,
                   struct BinIndex *bin_index_nodes, void *raster_row, int row,
                   int cols, RASTER_MAP_TYPE rtype)
@@ -2926,6 +3013,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3021,6 +3109,8 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     case METHOD_N: /* n is a straight copy */
         Rast_raster_cpy(raster_row,
                         ((char *)point_binning->n_array) +
@@ -3132,6 +3222,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3165,11 +3256,14 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
     case METHOD_N: /* n is a straight copy */
         Rast_raster_cpy(raster_row,
                         ((char *)point_binning->n_array) +
                             ((size_t)row * cols * Rast_cell_size(CELL_TYPE)),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3271,6 +3365,8 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
                         cols, CELL_TYPE);
         break;
 
@@ -3301,6 +3397,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3433,12 +3530,15 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
                             ((size_t)row * cols * Rast_cell_size(rtype)),
                         cols, rtype);
 =======
                         ((size_t)row * cols * Rast_cell_size(rtype)), cols,
                         rtype);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3449,9 +3549,12 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
                             ((size_t)row * cols * Rast_cell_size(rtype)),
                         cols, rtype);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -3515,6 +3618,8 @@ void write_values(struct PointBinning *point_binning,
                         rtype);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         break;
 
     case METHOD_MAX:
@@ -3544,6 +3649,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3639,6 +3745,8 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
                             ((size_t)row * cols * Rast_cell_size(rtype)),
                         cols, rtype);
         break;
@@ -3843,17 +3951,25 @@ void write_values(struct PointBinning *point_binning,
 =======
                         ((size_t)row * cols * Rast_cell_size(rtype)), cols,
                         rtype);
+=======
+                            ((size_t)row * cols * Rast_cell_size(rtype)),
+                        cols, rtype);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         break;
 
     case METHOD_SUM:
-        write_sum(raster_row, point_binning->sum_array,
-                  point_binning->c_array, row, cols, rtype);
+        write_sum(raster_row, point_binning->sum_array, point_binning->c_array,
+                  row, cols, rtype);
         break;
 
-    case METHOD_RANGE:         /* (max-min) */
+    case METHOD_RANGE: /* (max-min) */
         ptr = raster_row;
         for (col = 0; col < cols; col++) {
+<<<<<<< HEAD
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+<<<<<<< HEAD
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             size_t offset =
                 ((size_t)row * cols + col) * Rast_cell_size(rtype);
             double min =
@@ -3880,6 +3996,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3913,12 +4030,15 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
             size_t offset = ((size_t)row * cols + col) * Rast_cell_size(rtype);
             double min = Rast_get_d_value(
                 ((char *)point_binning->min_array) + offset, rtype);
             double max = Rast_get_d_value(
                 ((char *)point_binning->max_array) + offset, rtype);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4020,6 +4140,8 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
             Rast_set_d_value(ptr, max - min, rtype);
             ptr = G_incr_void_ptr(ptr, Rast_cell_size(rtype));
@@ -4050,6 +4172,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4163,10 +4286,13 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     case METHOD_MEAN: /* (sum / n) */
 =======
     case METHOD_MEAN:          /* (sum / n) */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4236,6 +4362,11 @@ void write_values(struct PointBinning *point_binning,
     case METHOD_MEAN:          /* (sum / n) */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+    case METHOD_MEAN: /* (sum / n) */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         ptr = raster_row;
         for (col = 0; col < cols; col++) {
             size_t n_offset =
@@ -4264,6 +4395,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4386,6 +4518,10 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             int n = Rast_get_c_value(
                 ((char *)point_binning->n_array) + n_offset, CELL_TYPE);
             double sum = get_sum(point_binning->sum_array,
@@ -4413,6 +4549,9 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4510,6 +4649,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -4616,6 +4756,10 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
             if (n == 0)
                 Rast_set_null_value(ptr, 1, rtype);
@@ -4650,6 +4794,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4745,6 +4890,8 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     case METHOD_STDDEV:    /*  sqrt(variance)        */
     case METHOD_VARIANCE:  /*  (sumsq - sum*sum/n)/n */
     case METHOD_COEFF_VAR: /*  100 * stdev / mean    */
@@ -4887,15 +5034,19 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
     case METHOD_STDDEV:    /*  sqrt(variance)        */
     case METHOD_VARIANCE:  /*  (sumsq - sum*sum/n)/n */
     case METHOD_COEFF_VAR: /*  100 * stdev / mean    */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         write_variance(raster_row, point_binning->n_array,
@@ -4982,14 +5133,23 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         write_variance(raster_row, point_binning->n_array,
-                       point_binning->mean_array, point_binning->m2_array,
-                       row, cols, rtype, point_binning->method);
+                       point_binning->mean_array, point_binning->m2_array, row,
+                       cols, rtype, point_binning->method);
         break;
 
+<<<<<<< HEAD
     case METHOD_MEDIAN:        /* median, if only one point in cell we will use that */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+    case METHOD_MEDIAN: /* median, if only one point in cell we will use that */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         write_median(bin_index_nodes, raster_row, point_binning->index_array,
                      row, cols, rtype);
         break;
@@ -5019,6 +5179,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5114,6 +5275,8 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         write_mode(bin_index_nodes, raster_row, point_binning->index_array, row,
                    cols);
         break;
@@ -5227,6 +5390,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5260,12 +5424,15 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
         write_mode(bin_index_nodes, raster_row, point_binning->index_array, row,
                    cols);
         break;
 
     case METHOD_PERCENTILE: /* rank = (pth*(n+1))/100; interpolate linearly */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5367,6 +5534,8 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         write_percentile(bin_index_nodes, raster_row,
                          point_binning->index_array, row, cols, rtype,
                          point_binning->pth);
@@ -5396,6 +5565,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5491,6 +5661,8 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     case METHOD_SKEWNESS: /* skewness = sum(xi-mean)^3/(N-1)*s^3 */
         write_skewness(bin_index_nodes, raster_row, point_binning->index_array,
                        row, cols, rtype);
@@ -5652,15 +5824,19 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
     case METHOD_SKEWNESS: /* skewness = sum(xi-mean)^3/(N-1)*s^3 */
         write_skewness(bin_index_nodes, raster_row, point_binning->index_array,
                        row, cols, rtype);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         break;
@@ -5777,24 +5953,33 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         break;
 
     case METHOD_TRIMMEAN:
-        write_trimmean(bin_index_nodes, raster_row,
-                       point_binning->index_array, row, cols, rtype,
-                       point_binning->trim);
+        write_trimmean(bin_index_nodes, raster_row, point_binning->index_array,
+                       row, cols, rtype, point_binning->trim);
         break;
 
     case METHOD_SIDNMAX:
-        write_sidn(bin_index_nodes, raster_row, point_binning->index_array,
-                   row, cols, 0);
+        write_sidn(bin_index_nodes, raster_row, point_binning->index_array, row,
+                   cols, 0);
         break;
 
     case METHOD_SIDNMIN:
+<<<<<<< HEAD
         write_sidn(bin_index_nodes, raster_row, point_binning->index_array,
                    row, cols, 1);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+        write_sidn(bin_index_nodes, raster_row, point_binning->index_array, row,
+                   cols, 1);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         break;
 
     case METHOD_EV1:
@@ -5824,6 +6009,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5998,12 +6184,15 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         write_ev(bin_index_nodes, raster_row, point_binning->index_array, row,
                  cols, rtype, point_binning->method);
 =======
         write_ev(bin_index_nodes, raster_row, point_binning->index_array,
                  row, cols, rtype, point_binning->method);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> f6958f78a7 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
@@ -6038,6 +6227,12 @@ void write_values(struct PointBinning *point_binning,
                  row, cols, rtype, point_binning->method);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+        write_ev(bin_index_nodes, raster_row, point_binning->index_array, row,
+                 cols, rtype, point_binning->method);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         break;
 
     default:
@@ -6069,6 +6264,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6118,10 +6314,13 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6234,6 +6433,8 @@ void write_values(struct PointBinning *point_binning,
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 void update_value(struct PointBinning *point_binning,
                   struct BinIndex *bin_index_nodes, int cols, int arr_row,
                   int arr_col, RASTER_MAP_TYPE rtype, double x, double y,
@@ -6266,6 +6467,7 @@ void update_value(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6321,6 +6523,8 @@ void update_value(struct PointBinning *point_binning,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         update_min(point_binning->min_array, cols, arr_row, arr_col, rtype, z);
     if (point_binning->bin_max)
         update_max(point_binning->max_array, cols, arr_row, arr_col, rtype, z);
@@ -6413,6 +6617,7 @@ void update_value(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6446,10 +6651,13 @@ void update_value(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
         update_min(point_binning->min_array, cols, arr_row, arr_col, rtype, z);
     if (point_binning->bin_max)
         update_max(point_binning->max_array, cols, arr_row, arr_col, rtype, z);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6573,6 +6781,8 @@ void update_value(struct PointBinning *point_binning,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (point_binning->bin_sum)
         update_sum(point_binning->sum_array, point_binning->c_array, cols,
                    arr_row, arr_col, rtype, z);
@@ -6607,6 +6817,7 @@ void update_value(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6702,6 +6913,8 @@ void update_value(struct PointBinning *point_binning,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         update_bin_cnt_index(bin_index_nodes, point_binning->index_array, cols,
                              arr_row, arr_col, z);
     if (point_binning->bin_eigenvalues)
@@ -6815,6 +7028,7 @@ void update_value(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6848,12 +7062,15 @@ void update_value(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
         update_bin_cnt_index(bin_index_nodes, point_binning->index_array, cols,
                              arr_row, arr_col, z);
     if (point_binning->bin_eigenvalues)
         update_bin_com_index(bin_index_nodes, point_binning->index_array, cols,
                              arr_row, arr_col, x, y, z);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6955,4 +7172,6 @@ void update_value(struct PointBinning *point_binning,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 40f7652106 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 }

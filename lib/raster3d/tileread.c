@@ -121,6 +121,7 @@ static int Rast3d_readTileUncompressed(RASTER3D_Map *map, int tileIndex,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -347,6 +348,13 @@ static int Rast3d_readTileUncompressed(RASTER3D_Map *map, int tileIndex,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if ((res = read(map->data_fd, xdr, nofBytes)) < 0 ||
+        (size_t)res != nofBytes) {
+=======
+    if (read(map->data_fd, xdr, nofBytes) != nofBytes) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         Rast3d_error("Rast3d_readTileUncompressed: can't read file");
         return 0;
     }

@@ -287,6 +287,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -564,6 +565,14 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    snprintf(command, GPATH_MAX, "%s/etc/r.watershed/%s", G_gisbase(),
+             flag_seg->answer ? "seg" : "ram");
+=======
+    sprintf(command, "%s/etc/r.watershed/%s", G_gisbase(),
+            flag_seg->answer ? "seg" : "ram");
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     new_argv[new_argc++] = command;
 
     if (flag_sfd->answer)

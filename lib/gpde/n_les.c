@@ -288,6 +288,7 @@ void N_print_les(N_les *les)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -565,6 +566,14 @@ void N_print_les(N_les *les)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+                for (k = 0; (unsigned int)k < les->Asp[i]->cols; k++) {
+                    if (les->Asp[i]->index[k] == (unsigned int)j) {
+=======
+                for (k = 0; k < les->Asp[i]->cols; k++) {
+                    if (les->Asp[i]->index[k] == j) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
                         fprintf(stdout, "%4.5f ", les->Asp[i]->values[k]);
                         out = 1;
                     }

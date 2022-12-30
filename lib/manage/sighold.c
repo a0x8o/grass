@@ -49,6 +49,7 @@ int M__hold_signals(int hold)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -298,6 +299,12 @@ int M__hold_signals(int hold)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    void (*sig)(int) = hold ? SIG_IGN : SIG_DFL;
+=======
+    void (*sig)() = hold ? SIG_IGN : SIG_DFL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     signal(SIGINT, sig);
 

@@ -84,6 +84,7 @@ int add_table(char *table, char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -333,6 +334,12 @@ int add_table(char *table, char *name)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if (res < 0 || (size_t)res >= buf_s) {
+=======
+    if (res >= buf_s) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         db_d_append_error(_("Unable to add table %s to %s. "
                             "The file path is too long."),
                           name, db.name);

@@ -166,6 +166,7 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -436,6 +437,13 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+            if (write(out[id], cellp, buflen) < 0)
+                G_fatal_error("Error writing temporary file");
+=======
+            write(out[id], cellp, buflen);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 #pragma omp atomic update
             work++;
         }

@@ -95,6 +95,7 @@ void tgis_free_map_list(tgisMapList *list);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -344,6 +345,12 @@ tgisMapList *tgis_new_map_list();
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+tgisMapList *tgis_new_map_list(void);
+=======
+tgisMapList *tgis_new_map_list();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
 /*! Insert a new map to the map list */
 void tgis_map_list_insert(tgisMapList *list, char *name, char *mapset,
@@ -477,6 +484,7 @@ void tgis_free_dataset_list(tgisDatasetList *list);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -726,6 +734,12 @@ tgisDatasetList *tgis_new_dataset_list();
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+tgisDatasetList *tgis_new_dataset_list(void);
+=======
+tgisDatasetList *tgis_new_dataset_list();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
 /*! Insert a new dataset to the dataset list */
 void tgis_dataset_list_insert(tgisDatasetList *list, char *name, char *mapset,

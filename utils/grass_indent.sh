@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 case "$(uname)" in
@@ -203,6 +204,9 @@ case "$(uname)" in
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+case "$(uname)" in 
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
  Darwin | *BSD*)
   INDENT=$(which gindent)
   ;;

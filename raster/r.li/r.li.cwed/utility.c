@@ -61,6 +61,7 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -338,6 +339,14 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    long i;    /* find token number */
+    size_t it; /* iterator */
+=======
+    long i;  /* find token number */
+    long it; /* iterator */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     long num;
 
     int term; /* =0 if last token has not /0 */

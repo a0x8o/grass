@@ -678,6 +678,7 @@ char *AMI_STREAM<T>::sprint()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -948,6 +949,13 @@ char *AMI_STREAM<T>::sprint()
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    snprintf(desc, sizeof(desc), "[AMI_STREAM %s %ld]", path,
+             (long)stream_len());
+=======
+    sprintf(desc, "[AMI_STREAM %s %ld]", path, (long)stream_len());
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     return desc;
 }
 

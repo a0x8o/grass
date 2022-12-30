@@ -64,6 +64,7 @@ int dfwrite_header(file_info *headp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -290,6 +291,13 @@ int dfwrite_header(file_info *headp)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if ((fwrite(linep->tvalue, flsize, linep->nthres, fp)) !=
+        (size_t)linep->nthres) {
+=======
+    if ((fwrite(linep->tvalue, flsize, linep->nthres, fp)) != linep->nthres) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         fprintf(stderr, "ERROR: fwrite in dspf_header.c\n");
         return (-1);
     }

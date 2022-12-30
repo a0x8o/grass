@@ -45,6 +45,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     int generatedata; /* If 0 the categorie data is not complete */
 =======
 <<<<<<< HEAD
@@ -91,6 +92,8 @@ typedef struct {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     int generatedata; /* If 0 the category data is not complete */
 =======
     int generatedata; /* If 0 the categorie data is not complete */
@@ -111,6 +114,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     int generatedata; /* If 0 the categorie data is not complete */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -204,6 +208,8 @@ typedef struct {
     int generatedata; /* If 0 the categorie data is not complete */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 } VTKTypeInfo;
 
 /* essential vtk file information */

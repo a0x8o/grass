@@ -37,6 +37,7 @@ int btree_update(BTREE *B, const void *key, int keylen, const void *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -286,6 +287,12 @@ int btree_update(BTREE *B, const void *key, int keylen, const void *data,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    int (*cmp)(const void *, const void *);
+=======
+    int (*cmp)();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     int dir;
 
     /* first node is special case */

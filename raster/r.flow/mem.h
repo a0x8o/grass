@@ -51,6 +51,7 @@ void deallocate_heap(void);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -300,6 +301,12 @@ void put_row_seg(/* l, row */);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+void put_row_seg(layer, int /* l, row */);
+=======
+void put_row_seg(/* l, row */);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
 #define get_row(l, row)                                                 \
     ((parm.seg && (Segment_flush(l.seg) < 1 ||                          \

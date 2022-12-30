@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -121,6 +122,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 #include <grass/imagery.h>
 
 static int gettag(FILE *, char *);
@@ -231,6 +234,7 @@ static int get_bandrefs(FILE *, struct SigSet *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -264,11 +268,14 @@ static int get_bandrefs(FILE *, struct SigSet *);
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
 #include <grass/imagery.h>
 
 static int gettag(FILE *, char *);
 static int get_semantic_labels(FILE *, struct SigSet *);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,6 +377,8 @@ static int get_semantic_labels(FILE *, struct SigSet *);
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 static int get_title(FILE *, struct SigSet *);
 static int get_class(FILE *, struct SigSet *);
 static int get_classnum(FILE *, struct ClassSig *);
@@ -452,6 +461,7 @@ int I_InitSigSet(struct SigSet *S, int nbands)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -507,6 +517,8 @@ int I_InitSigSet(struct SigSet *S, int nbands)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     S->semantic_labels = (char **)G_malloc(nbands * sizeof(char **));
     for (int i = 0; i < nbands; i++)
         S->semantic_labels[i] = NULL;
@@ -597,6 +609,7 @@ int I_InitSigSet(struct SigSet *S, int nbands)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -630,10 +643,13 @@ int I_InitSigSet(struct SigSet *S, int nbands)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
     S->semantic_labels = (char **)G_malloc(nbands * sizeof(char **));
     for (int i = 0; i < nbands; i++)
         S->semantic_labels[i] = NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -757,6 +773,8 @@ int I_InitSigSet(struct SigSet *S, int nbands)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     S->nclasses = 0;
     S->ClassSig = NULL;
     S->title = NULL;
@@ -852,6 +870,7 @@ struct SubSig *I_NewSubSig(struct SigSet *S, struct ClassSig *C)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -965,10 +984,13 @@ int I_ReadSigSet(FILE *fd, struct SigSet *S)
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 int I_ReadSigSet(FILE *fd, struct SigSet *S)
 =======
 int I_ReadSigSet(FILE * fd, struct SigSet *S)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1038,6 +1060,11 @@ int I_ReadSigSet(FILE *fd, struct SigSet *S)
 int I_ReadSigSet(FILE * fd, struct SigSet *S)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+int I_ReadSigSet(FILE *fd, struct SigSet *S)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 {
     char tag[256];
     unsigned int version;
@@ -1157,6 +1184,7 @@ int I_ReadSigSet(FILE * fd, struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -1197,6 +1225,8 @@ int I_ReadSigSet(FILE * fd, struct SigSet *S)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 	if (eq(tag, "title:"))
 	    if (get_title(fd, S) != 0)
             return -1;
@@ -1339,6 +1369,7 @@ int I_ReadSigSet(FILE * fd, struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1402,6 +1433,9 @@ int I_ReadSigSet(FILE * fd, struct SigSet *S)
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         if (eq(tag, "title:"))
             if (get_title(fd, S) != 0)
                 return -1;
@@ -1429,6 +1463,7 @@ int I_ReadSigSet(FILE * fd, struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1506,6 +1541,8 @@ int I_ReadSigSet(FILE * fd, struct SigSet *S)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     return 1; /* for now assume success */
 }
 
@@ -1536,6 +1573,7 @@ static int gettag(FILE *fd, char *tag)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1649,10 +1687,13 @@ static int gettag(FILE *fd, char *tag)
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         return 0;
 =======
 	return 0;
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1722,6 +1763,11 @@ static int gettag(FILE *fd, char *tag)
 	return 0;
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+        return 0;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     G_strip(tag);
     return 1;
 }
@@ -1750,6 +1796,7 @@ static int gettag(FILE *fd, char *tag)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1845,6 +1892,8 @@ static int gettag(FILE *fd, char *tag)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 static int get_semantic_labels(FILE *fd, struct SigSet *S)
 {
     int n, pos;
@@ -2181,14 +2230,56 @@ static int get_semantic_labels(FILE *fd, struct SigSet *S)
 =======
 =======
 static int get_bandrefs(FILE * fd, struct SigSet *S)
+=======
+static int get_semantic_labels(FILE *fd, struct SigSet *S)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
-    char **bandrefs;
-    char *bandrefs_str;
+    int n, pos;
+    char c, prev;
+    char semantic_label[GNAME_MAX];
 
-    if (fscanf(fd, "%m[^\n]", &bandrefs_str) != 1) {
-        G_warning(_("Error reading band references from sigset file"));
-        return -1;
+    /* Read semantic labels and count them to set nbands */
+    n = 0;
+    pos = 0;
+    S->semantic_labels =
+        (char **)G_realloc(S->semantic_labels, (n + 1) * sizeof(char **));
+    while ((c = (char)fgetc(fd)) != EOF) {
+        if (c == '\n') {
+            if (prev != ' ') {
+                semantic_label[pos] = '\0';
+                if (strlen(semantic_label) > 0) {
+                    S->semantic_labels[n] = G_store(semantic_label);
+                    n++;
+                }
+            }
+            S->nbands = n;
+            break;
+        }
+        if (c == ' ') {
+            semantic_label[pos] = '\0';
+            if (strlen(semantic_label) > 0) {
+                S->semantic_labels[n] = G_store(semantic_label);
+                n++;
+                /* [n] is 0 based thus: (n + 1) */
+                S->semantic_labels = (char **)G_realloc(
+                    S->semantic_labels, (n + 1) * sizeof(char **));
+            }
+            pos = 0;
+            prev = c;
+            continue;
+        }
+        /* Semantic labels are limited to GNAME_MAX - 1 + \0 in length;
+         * n is 0-based */
+        if (pos == (GNAME_MAX - 2)) {
+            G_warning(_("Invalid signature file: semantic label length limit "
+                        "exceeded"));
+            return -1;
+        }
+        semantic_label[pos] = c;
+        pos++;
+        prev = c;
     }
+<<<<<<< HEAD
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
 
     G_strip(bandrefs_str);
@@ -2236,10 +2327,13 @@ static int get_bandrefs(FILE * fd, struct SigSet *S)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (!(S->nbands > 0)) {
         G_warning(_("Signature file does not contain bands"));
         return -1;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2298,6 +2392,8 @@ static int get_bandrefs(FILE * fd, struct SigSet *S)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     S->bandrefs = (char **)G_realloc(S->bandrefs, S->nbands * sizeof(char **));
     for (unsigned int i = S->nbands; i--;) {
         if (strlen(bandrefs[i]) > (GNAME_MAX - 1)) {
@@ -2308,6 +2404,7 @@ static int get_bandrefs(FILE * fd, struct SigSet *S)
         strcpy(S->bandrefs[i], bandrefs[i]);
     }
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2432,6 +2529,10 @@ static int get_bandrefs(FILE * fd, struct SigSet *S)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     return 0;
 }
@@ -2465,6 +2566,7 @@ static int get_title(FILE *fd, struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2578,10 +2680,13 @@ static int get_title(FILE *fd, struct SigSet *S)
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (fscanf(fd, "%1023[^\n]", title) != 1)
 =======
     if (fscanf(fd, "%1024[^\n]", title) != 1)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2651,6 +2756,11 @@ static int get_title(FILE *fd, struct SigSet *S)
     if (fscanf(fd, "%1024[^\n]", title) != 1)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+    if (fscanf(fd, "%1023[^\n]", title) != 1)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         return -1;
     G_strip(title);
     I_SetSigTitle(S, title);
@@ -2729,6 +2839,7 @@ static int get_classtitle(FILE *fd, struct ClassSig *C)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2842,10 +2953,13 @@ static int get_classtitle(FILE *fd, struct ClassSig *C)
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     if (fscanf(fd, "%1023[^\n]", title) != 1)
 =======
     if (fscanf(fd, "%1024[^\n]", title) != 1)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2915,6 +3029,11 @@ static int get_classtitle(FILE *fd, struct ClassSig *C)
     if (fscanf(fd, "%1024[^\n]", title) != 1)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+    if (fscanf(fd, "%1023[^\n]", title) != 1)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         return -1;
     G_strip(title);
     I_SetClassTitle(C, title);
@@ -3048,6 +3167,7 @@ int I_WriteSigSet(FILE *fd, const struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3103,6 +3223,8 @@ int I_WriteSigSet(FILE *fd, const struct SigSet *S)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     fprintf(fd, "semantic_labels: ");
     for (i = 0; i < S->nbands; i++) {
         fprintf(fd, "%s ", S->semantic_labels[i]);
@@ -3193,6 +3315,7 @@ int I_WriteSigSet(FILE *fd, const struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3226,10 +3349,13 @@ int I_WriteSigSet(FILE *fd, const struct SigSet *S)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
     fprintf(fd, "semantic_labels: ");
     for (i = 0; i < S->nbands; i++) {
         fprintf(fd, "%s ", S->semantic_labels[i]);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3353,6 +3479,8 @@ int I_WriteSigSet(FILE *fd, const struct SigSet *S)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
     fprintf(fd, "\n");
     for (i = 0; i < S->nclasses; i++) {
@@ -3416,6 +3544,7 @@ int I_WriteSigSet(FILE *fd, const struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3511,6 +3640,8 @@ int I_WriteSigSet(FILE *fd, const struct SigSet *S)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
  * The function will check for semantic label match between sigset struct
  * and imagery group.
  *
@@ -3622,6 +3753,7 @@ int I_WriteSigSet(FILE *fd, const struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3655,11 +3787,14 @@ int I_WriteSigSet(FILE *fd, const struct SigSet *S)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
  * The function will check for semantic label match between sigset struct
  * and imagery group.
  *
  * In the case of a complete semantic label match, values of passed in
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3761,6 +3896,8 @@ int I_WriteSigSet(FILE *fd, const struct SigSet *S)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
  * struct SigSet are reordered to match the order of imagery group items.
  * This reordering is done only for items present in the sigset file.
  * Thus reordering should be done only after calling I_ReadSigSet.
@@ -3789,6 +3926,7 @@ int I_WriteSigSet(FILE *fd, const struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3884,6 +4022,8 @@ int I_WriteSigSet(FILE *fd, const struct SigSet *S)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
  * If all semantic labels are not identical (in
  * arbitrary order), function will return two dimensional array with
  * comma separated list of:
@@ -4137,20 +4277,31 @@ int I_WriteSigSet(FILE *fd, const struct SigSet *S)
 =======
 =======
  * If all band references are not identical (in
+=======
+ * If all semantic labels are not identical (in
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
  * arbitrary order), function will return two dimensional array with
  * comma separated list of:
- *      - [0] band references present in the signature struct but
+ *      - [0] semantic labels present in the signature struct but
  * absent in the imagery group
- *      - [1] band references present in the imagery group but
+ *      - [1] semantic labels present in the imagery group but
  * absent in the signature struct
  *
- * If no mismatch of band references for signatures or imagery group are
+ * If no mismatch of semantic labels for signatures or imagery group are
  * detected (== all are present in the other list), a NULL value will be
  * returned in the particular list of mismatches (not an empty string).
  * For example:
+<<<<<<< HEAD
  * \code if (ret && ret[1]) printf("List of imagery group bands without signatures: %s\n, ret[1]); \endcode
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+ * \code if (ret && ret[1]) printf("List of imagery group bands without
+ * signatures: %s\n, ret[1]); \endcode
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
  *
  * \param *SigSet existing signatures to check & sort
  * \param *Ref group reference
@@ -4182,6 +4333,7 @@ int I_WriteSigSet(FILE *fd, const struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4277,6 +4429,8 @@ int I_WriteSigSet(FILE *fd, const struct SigSet *S)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 {
     unsigned int total, complete;
@@ -4391,6 +4545,7 @@ char **I_SortSigSetByBandref(struct SigSet *S, const struct Ref *R) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4424,6 +4579,8 @@ char **I_SortSigSetByBandref(struct SigSet *S, const struct Ref *R) {
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
 char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 {
     unsigned int total, complete;
@@ -4431,6 +4588,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
     double ***new_means, ****new_vars;
     char **group_semantic_labels, **mismatches, **new_semantic_labels;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4532,6 +4690,8 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 
     /* Safety measure. Untranslated as this should not happen in production! */
     if (S->nbands < 1 || R->nfiles < 1)
@@ -4560,6 +4720,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4655,6 +4816,8 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
                       "I_sort_signatures_by_semantic_label(%d, %d);",
                       S->nbands, R->nfiles);
 
@@ -4878,13 +5041,25 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 =======
 =======
                       "I_sort_signatures_by_bandref(%d, %d);", S->nbands,  R->nfiles);
+=======
+                      "I_sort_signatures_by_semantic_label(%d, %d);",
+                      S->nbands, R->nfiles);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
-    /* Obtain group band references */
-    group_bandrefs = (char **)G_malloc(R->nfiles * sizeof(char *));
+    /* Obtain group semantic labels */
+    group_semantic_labels = (char **)G_malloc(R->nfiles * sizeof(char *));
     for (unsigned int j = R->nfiles; j--;) {
+<<<<<<< HEAD
         group_bandrefs[j] = Rast_read_bandref(R->file[j].name, R->file[j].mapset);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+        group_semantic_labels[j] =
+            Rast_get_semantic_label_or_name(R->file[j].name, R->file[j].mapset);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* If lengths are not equal, there will be a mismatch */
@@ -4920,6 +5095,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5033,10 +5209,13 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     new_semantic_labels = (char **)G_malloc(S->nbands * sizeof(char *));
 =======
     new_bandrefs = (char **)G_malloc(S->nbands * sizeof(char *));
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5106,6 +5285,11 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
     new_bandrefs = (char **)G_malloc(S->nbands * sizeof(char *));
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+    new_semantic_labels = (char **)G_malloc(S->nbands * sizeof(char *));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     new_means = (double ***)G_malloc(S->nclasses * sizeof(double **));
     // new_vars[S.ClassSig[x]][.SubSig[y]][R[band1]][R[band1]]
     new_vars = (double ****)G_malloc(S->nclasses * sizeof(double ***));
@@ -5134,6 +5318,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5256,6 +5441,10 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         new_means[c] =
             (double **)G_malloc(S->ClassSig[c].nsubclasses * sizeof(double *));
         new_vars[c] = (double ***)G_malloc(S->ClassSig[c].nsubclasses *
@@ -5283,6 +5472,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5381,9 +5571,12 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
         new_means[c] = (double **)G_malloc(S->ClassSig[c].nsubclasses * sizeof(double *));
         new_vars[c] = (double ***)G_malloc(S->ClassSig[c].nsubclasses * sizeof(double **));
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5441,6 +5634,10 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         for (unsigned int s = S->ClassSig[c].nsubclasses; s--;) {
             new_means[c][s] = (double *)G_malloc(S->nbands * sizeof(double));
             new_vars[c][s] = (double **)G_malloc(S->nbands * sizeof(double *));
@@ -5469,6 +5666,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5640,11 +5838,14 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
                 new_vars[c][s][i] =
                     (double *)G_malloc(S->nbands * sizeof(double));
 =======
                 new_vars[c][s][i] = (double *)G_malloc(S->nbands * sizeof(double));
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
@@ -5678,6 +5879,12 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
                 new_vars[c][s][i] = (double *)G_malloc(S->nbands * sizeof(double));
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+                new_vars[c][s][i] =
+                    (double *)G_malloc(S->nbands * sizeof(double));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         }
     }
 
@@ -5708,6 +5915,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5830,6 +6038,10 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             if (S->semantic_labels[i] && group_semantic_labels[j] &&
                 !strcmp(S->semantic_labels[i], group_semantic_labels[j])) {
                 if (complete) {
@@ -5864,6 +6076,9 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5966,6 +6181,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -6072,6 +6288,10 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             }
         }
     }
@@ -6100,6 +6320,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6213,10 +6434,13 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     /* Check for semantic label mismatch */
 =======
     /* Check for band reference mismatch */
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6286,6 +6510,11 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
     /* Check for band reference mismatch */
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+    /* Check for semantic label mismatch */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     mc1 = mc2 = 0;
     mismatches = (char **)G_malloc(2 * sizeof(char **));
     mismatches[0] = NULL;
@@ -6737,17 +6966,26 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 =======
     for (unsigned int i = 0; i < S->nbands; i++) {
         if (!match1[i]) {
-            if (S->bandrefs[i])
-                total = total + strlen(S->bandrefs[i]);
+            if (S->semantic_labels[i])
+                total = total + strlen(S->semantic_labels[i]);
             else
                 total = total + 24;
+<<<<<<< HEAD
             mismatches[0] = (char *)G_realloc(mismatches[0], total * sizeof(char *));
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+            mismatches[0] =
+                (char *)G_realloc(mismatches[0], total * sizeof(char *));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             if (mc1)
                 strcat(mismatches[0], ",");
             else
                 mismatches[0][0] = '\0';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6867,6 +7105,8 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             if (S->semantic_labels[i])
                 strcat(mismatches[0], S->semantic_labels[i]);
             else
@@ -6978,6 +7218,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7011,11 +7252,14 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
             if (S->semantic_labels[i])
                 strcat(mismatches[0], S->semantic_labels[i]);
             else
                 strcat(mismatches[0], "<semantic label missing>");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7117,6 +7361,8 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             mc1++;
             total = total + 1;
         }
@@ -7568,17 +7814,26 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 =======
     for (unsigned int j = 0; j < R->nfiles; j++) {
         if (!match2[j]) {
-            if (group_bandrefs[j])
-                total = total + strlen(group_bandrefs[j]);
+            if (group_semantic_labels[j])
+                total = total + strlen(group_semantic_labels[j]);
             else
                 total = total + 24;
+<<<<<<< HEAD
             mismatches[1] = (char *)G_realloc(mismatches[1], total * sizeof(char *));
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+            mismatches[1] =
+                (char *)G_realloc(mismatches[1], total * sizeof(char *));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             if (mc2)
                 strcat(mismatches[1], ",");
             else
                 mismatches[1][0] = '\0';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7698,6 +7953,8 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             if (group_semantic_labels[j])
                 strcat(mismatches[1], group_semantic_labels[j]);
             else
@@ -7809,6 +8066,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7842,11 +8100,14 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
             if (group_semantic_labels[j])
                 strcat(mismatches[1], group_semantic_labels[j]);
             else
                 strcat(mismatches[1], "<semantic label missing>");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7948,6 +8209,8 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             mc2++;
             total = total + 1;
         }
@@ -8322,11 +8585,20 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 =======
 =======
                 for (unsigned int b1 = 0; b1 < S->nbands; b1++) {
-                    new_means[c][s][new_order[b1]] = S->ClassSig[c].SubSig[s].means[b1];
+                    new_means[c][s][new_order[b1]] =
+                        S->ClassSig[c].SubSig[s].means[b1];
                     for (unsigned int b2 = 0; b2 < S->nbands; b2++) {
+<<<<<<< HEAD
                         new_vars[c][s][new_order[b1]][new_order[b2]] = S->ClassSig[c].SubSig[s].R[b1][b2];
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+                        new_vars[c][s][new_order[b1]][new_order[b2]] =
+                            S->ClassSig[c].SubSig[s].R[b1][b2];
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
                     }
                 }
             }
@@ -8357,6 +8629,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8452,6 +8725,8 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         memcpy(S->semantic_labels, new_semantic_labels,
                S->nbands * sizeof(char **));
         for (unsigned int c = S->nclasses; c--;) {
@@ -8680,13 +8955,26 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 =======
 =======
         memcpy(S->bandrefs, new_bandrefs, S->nbands * sizeof(char **));
+=======
+        memcpy(S->semantic_labels, new_semantic_labels,
+               S->nbands * sizeof(char **));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         for (unsigned int c = S->nclasses; c--;) {
             for (unsigned int s = S->ClassSig[c].nsubclasses; s--;) {
-                memcpy(S->ClassSig[c].SubSig[s].means, new_means[c][s], S->nbands * sizeof(double));
+                memcpy(S->ClassSig[c].SubSig[s].means, new_means[c][s],
+                       S->nbands * sizeof(double));
                 for (unsigned int i = S->nbands; i--;)
+<<<<<<< HEAD
                     memcpy(S->ClassSig[c].SubSig[s].R[i], new_vars[c][s][i], S->nbands * sizeof(double));
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+                    memcpy(S->ClassSig[c].SubSig[s].R[i], new_vars[c][s][i],
+                           S->nbands * sizeof(double));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
             }
         }
     }
@@ -8717,6 +9005,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8812,6 +9101,8 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
         free(group_semantic_labels[j]);
     free(group_semantic_labels);
     free(new_order);
@@ -8927,6 +9218,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8960,6 +9252,8 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
         free(group_semantic_labels[j]);
     free(group_semantic_labels);
     free(new_order);
@@ -8967,6 +9261,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
     free(match2);
     free(new_semantic_labels);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9068,6 +9363,8 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
     for (unsigned int c = S->nclasses; c--;) {
         for (unsigned int s = S->ClassSig[c].nsubclasses; s--;) {
             free(new_means[c][s]);

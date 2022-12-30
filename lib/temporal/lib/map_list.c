@@ -77,6 +77,7 @@ void tgis_free_map_list(tgisMapList *list)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -326,6 +327,12 @@ tgisMapList *tgis_new_map_list()
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+tgisMapList *tgis_new_map_list(void)
+=======
+tgisMapList *tgis_new_map_list()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 {
     tgisMapList *list = G_malloc(sizeof(tgisMapList));
 
