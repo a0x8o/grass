@@ -67,6 +67,7 @@ ignored with `git blame`, please open an issue.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -263,6 +264,8 @@ ignored with `git blame`, please open an issue.
 =======
 >>>>>>> 7ce58cb82a (pygrass: Add update parameters method to Module (#1712))
 =======
+>>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -320,13 +323,17 @@ ignored with `git blame`, please open an issue.
 =======
 >>>>>>> 74d3fa3265 (pygrass: Add update parameters method to Module (#1712))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 04cce48c99 (pygrass: Add update parameters method to Module (#1712))
 =======
+=======
+>>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -642,6 +649,8 @@ ignored with `git blame`, please open an issue.
 =======
 >>>>>>> 74d3fa3265 (pygrass: Add update parameters method to Module (#1712))
 >>>>>>> 7ce58cb82a (pygrass: Add update parameters method to Module (#1712))
+=======
+>>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 
 ## On GitHub
 
@@ -723,6 +732,7 @@ which is the icon between commit info and line numbers.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ad14dca817 (pygrass: Add update parameters method to Module (#1712))
@@ -959,6 +969,8 @@ which is the icon between commit info and line numbers.
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7ce58cb82a (pygrass: Add update parameters method to Module (#1712))
+=======
+>>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1017,13 +1029,17 @@ which is the icon between commit info and line numbers.
 >>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
 >>>>>>> 74d3fa3265 (pygrass: Add update parameters method to Module (#1712))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 04cce48c99 (pygrass: Add update parameters method to Module (#1712))
 =======
+=======
+>>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1339,3 +1355,5 @@ which is the icon between commit info and line numbers.
 >>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
 >>>>>>> 74d3fa3265 (pygrass: Add update parameters method to Module (#1712))
 >>>>>>> 7ce58cb82a (pygrass: Add update parameters method to Module (#1712))
+=======
+>>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
