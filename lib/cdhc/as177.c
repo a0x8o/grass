@@ -84,6 +84,9 @@ static double Cdhc_alnfac(int j)
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     static const double r[7] = {0.0,           0.0,           0.69314718056,
                                 1.79175946923, 3.17805383035, 4.78749174278,
                                 6.57925121101};
@@ -93,8 +96,11 @@ static double Cdhc_alnfac(int j)
         return 1.0;
     if (j < 7)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     static double r[7] = {0.0,           0.0,           0.69314718056,
                           1.79175946923, 3.17805383035, 4.78749174278,
                           6.57925121101};
@@ -104,9 +110,13 @@ static double Cdhc_alnfac(int j)
         return (double)1.0;
     else if (j <= 7)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         return r[j];
 
     w = (double)j + 1;
@@ -117,9 +127,13 @@ static double Cdhc_alnfac(int j)
 =======
     return (w - 0.5) * log(w) - w + 0.918938522305 +
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
            (((4.0 - 3.0 * z) * z - 14.0) * z + 420.0) / (5040.0 * w);
 }
 

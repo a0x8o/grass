@@ -154,13 +154,19 @@ int thin_lines(int iterations)
                     } /* end blank pixel */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 } /* end col loop */
 =======
                 }     /* end col loop */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 }     /* end col loop */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
                 for (col = box_left; col <= box_right; col++)
                     row_buf[col] = med[col];
@@ -173,13 +179,19 @@ int thin_lines(int iterations)
             } /* end row loop */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         } /* j-loop */
 =======
         }     /* j-loop */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         }     /* j-loop */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         G_message(n_("Deleted %d pixel", "Deleted %d pixels", deleted),
                   deleted);

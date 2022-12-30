@@ -335,6 +335,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -782,10 +783,17 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     for (i = 0; i < nlayers; i++) {
         Ogr_layer = OGR_DS_GetLayer(Ogr_ds, i);
         Ogr_featuredefn = OGR_L_GetLayerDefn(Ogr_layer);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1049,6 +1057,8 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         layer_name = (char *)OGR_FD_GetName(Ogr_featuredefn);
 
 =======
@@ -1225,6 +1235,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1606,6 +1617,10 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #if GDAL_VERSION_NUM < 1110000
         Ogr_geom_type = OGR_FD_GetGeomType(Ogr_featuredefn);
 #endif
@@ -1680,6 +1695,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -2244,6 +2260,13 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (fd) {
             if (print_types) {
                 int proj_same, igeom;
@@ -2290,6 +2313,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -3314,6 +3338,8 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 OGRGeomFieldDefnH Ogr_geomdefn;
 =======
 #if GDAL_VERSION_NUM >= 1110000
@@ -3442,6 +3468,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 =======
 #if GDAL_VERSION_NUM >= 1110000
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3666,6 +3693,10 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 =======
 #if GDAL_VERSION_NUM >= 1110000
 <<<<<<< HEAD
+=======
+=======
+#if GDAL_VERSION_NUM >= 1110000
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 OGRGeomFieldDefnH Ogr_geomdefn;
 #endif
                 /* projection check */
@@ -3690,6 +3721,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
                 }
                 G_suppress_warnings(FALSE);
 #if GDAL_VERSION_NUM >= 1110000
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4030,6 +4062,9 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 for (igeom = 0;
                      igeom < OGR_FD_GetGeomFieldCount(Ogr_featuredefn);
                      igeom++) {
@@ -4121,6 +4156,7 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -4685,6 +4721,13 @@ int list_layers_ogr(FILE *fd, const char *dsn, char **layer, int print_types)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             }
             else {
                 fprintf(fd, "%s\n", layer_name);

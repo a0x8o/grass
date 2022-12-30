@@ -2,6 +2,7 @@
    \file lib/db/dbmi_base/default_name.c
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 
@@ -17,6 +18,9 @@
    Joel Jones (CERL/UIUC) and Radim Blazek
  */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
    \brief Temporal GIS Library (base) - default settings
 
@@ -73,11 +77,17 @@ char *tgis_get_default_database_name(void)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     snprintf(default_connection, 2048, "$GISDBASE/$LOCATION_NAME/$MAPSET/%s",
              TGISDB_DEFAULT_SQLITE_PATH);
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    snprintf(default_connection, 2048, "$GISDBASE/$LOCATION_NAME/$MAPSET/%s",
+             TGISDB_DEFAULT_SQLITE_PATH);
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     G_snprintf(default_connection, 2048, "$GISDBASE/$LOCATION_NAME/$MAPSET/%s",
                TGISDB_DEFAULT_SQLITE_PATH);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

@@ -416,6 +416,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -980,6 +981,13 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     else
         x = window->proj;
 
@@ -1030,6 +1038,9 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
     if (print_flag & PRINT_METERS) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         d_ewres = ((ew_dist1 + ew_dist2) / 2) / window->cols;
         sprintf(ewres, "%.8f", d_ewres);
         G_trim_decimal(ewres);
@@ -1045,8 +1056,11 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
         d_tbres = (window->top - window->bottom) / window->depths;
         sprintf(tbres, "%.8f", d_tbres);
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         sprintf(ewres, "%.8f", ((ew_dist1 + ew_dist2) / 2) / window->cols);
         G_trim_decimal(ewres);
         sprintf(ewres3, "%.8f", ((ew_dist1 + ew_dist2) / 2) / window->cols3);
@@ -1057,9 +1071,13 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
         G_trim_decimal(nsres3);
         sprintf(tbres, "%.8f", (window->top - window->bottom) / window->depths);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_trim_decimal(tbres);
     }
 
@@ -1069,6 +1087,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
         if (!prj)
             prj = "** unknown **";
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1383,6 +1402,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         switch (format) {
         case SHELL:
             fprintf(stdout, "projection=%d%s", window->proj, sep);
@@ -1590,6 +1611,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -2017,11 +2039,17 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        if (print_flag & PRINT_SH) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             fprintf(stdout, "projection=%d\n", window->proj);
             fprintf(stdout, "zone=%d\n", window->zone);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         }
         else {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2054,6 +2082,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
             fprintf(stdout, "%-*s %d (%s)\n", width,
                     "projection:", window->proj, prj);
@@ -2070,11 +2100,14 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
                     "projection:", window->proj, prj);
             fprintf(stdout, "%-*s %d\n", width, "zone:", window->zone);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             fprintf(stdout, "%-*s %d (%s)\n", width,
                     "projection:", window->proj, prj);
             fprintf(stdout, "%-*s %d\n", width, "zone:", window->zone);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         }
 
         /* don't print datum/ellipsoid in XY-Locations */
@@ -2093,6 +2126,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
                if (print_flag & PRINT_SH)
                {
                if (datum[0] != '*')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2548,6 +2582,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                fprintf(stdout, "datum=%s%s", datum, sep);
                else
                fprintf(stdout, "datum=wgs84%s", sep);
@@ -2725,6 +2761,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3106,6 +3143,10 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                fprintf(stdout, "datum=%s\n", datum);
                else
                fprintf(stdout, "datum=wgs84\n");
@@ -3182,6 +3223,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -3746,6 +3788,13 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                }
                else
                {
@@ -3756,6 +3805,9 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             switch (format) {
             case JSON:
                 json_object_set_string(root_object, "datum", datum);
@@ -4583,6 +4635,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4710,6 +4763,19 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            if (!(print_flag & PRINT_SH)) {
+                fprintf(stdout, "%-*s %s\n", width, "datum:", datum);
+                fprintf(stdout, "%-*s %s\n", width, "ellipsoid:", ellps);
+            }
+        }
+
+        if (print_flag & PRINT_SH) {
+            if (flat_flag)
+                sep = " ";
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             fprintf(stdout, "n=%s%s", north, sep);
             fprintf(stdout, "s=%s%s", south, sep);
             fprintf(stdout, "w=%s%s", west, sep);
@@ -4751,6 +4817,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
                         (long)window->rows3 * window->cols3 * window->depths,
                         sep);
 #endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5052,6 +5119,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             break;
         case PLAIN:
 =======
@@ -5724,6 +5793,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
         }
         else {
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
         }
@@ -5770,6 +5840,14 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
         else {
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            if (flat_flag)
+                fprintf(stdout, "\n");
+        }
+        else {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             fprintf(stdout, "%-*s %s\n", width, "north:", north);
             fprintf(stdout, "%-*s %s\n", width, "south:", south);
             fprintf(stdout, "%-*s %s\n", width, "west:", west);
@@ -5814,6 +5892,9 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 #endif
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             break;
         case JSON:
             region_value = json_value_init_object();
@@ -5852,8 +5933,11 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
             break;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         }
     }
 
@@ -5870,6 +5954,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
             /* read current projection info */
             if ((in_proj_info = G_get_projinfo()) == NULL)
                 G_fatal_error(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6019,6 +6104,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     _("Can't get projection info of current project"));
 >>>>>>> osgeo-main
 
@@ -10979,6 +11066,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -11081,11 +11169,158 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                    _("Can't get projection info of current location"));
+
+            if ((in_unit_info = G_get_projunits()) == NULL)
+                G_fatal_error(
+                    _("Can't get projection units of current location"));
+
+            if (pj_get_kv(&iproj, in_proj_info, in_unit_info) < 0)
+                G_fatal_error(
+                    _("Can't get projection key values of current location"));
+
+            G_free_key_value(in_proj_info);
+            G_free_key_value(in_unit_info);
+
+            oproj.pj = NULL;
+            tproj.def = NULL;
+
+            if (GPJ_init_transform(&iproj, &oproj, &tproj) < 0)
+                G_fatal_error(
+                    _("Unable to initialize coordinate transformation"));
+
+            /*
+             *  1 ------ 2
+             *  |        |  map corners
+             *  |        |
+             *  4--------3
+             */
+
+            latitude = window->north;
+            longitude = window->west;
+            /* get lat/long w/ same datum/ellipsoid as input */
+            if (GPJ_transform(&iproj, &oproj, &tproj, PJ_FWD, &longitude,
+                              &latitude, NULL) < 0)
+                G_fatal_error(
+                    _("Error in %s (projection of input coordinate pair)"),
+                    "GPJ_transform()");
+
+            lo1 = longitude;
+            la1 = latitude;
+
+            latitude = window->north;
+            longitude = window->east;
+            /* get lat/long w/ same datum/ellipsoid as input */
+            if (GPJ_transform(&iproj, &oproj, &tproj, PJ_FWD, &longitude,
+                              &latitude, NULL) < 0)
+                G_fatal_error(
+                    _("Error in %s (projection of input coordinate pair)"),
+                    "GPJ_transform()");
+
+            lo2 = longitude;
+            la2 = latitude;
+
+            latitude = window->south;
+            longitude = window->east;
+            /* get lat/long w/ same datum/ellipsoid as input */
+            if (GPJ_transform(&iproj, &oproj, &tproj, PJ_FWD, &longitude,
+                              &latitude, NULL) < 0)
+                G_fatal_error(
+                    _("Error in %s (projection of input coordinate pair)"),
+                    "GPJ_transform()");
+
+            lo3 = longitude;
+            la3 = latitude;
+
+            latitude = window->south;
+            longitude = window->west;
+            /* get lat/long w/ same datum/ellipsoid as input */
+            if (GPJ_transform(&iproj, &oproj, &tproj, PJ_FWD, &longitude,
+                              &latitude, NULL) < 0)
+                G_fatal_error(
+                    _("Error in %s (projection of input coordinate pair)"),
+                    "GPJ_transform()");
+
+            lo4 = longitude;
+            la4 = latitude;
+
+            /* center coordinates of the current region,
+             * not average of the projected corner coordinates */
+            latitude = (window->north + window->south) / 2.;
+            longitude = (window->west + window->east) / 2.;
+            /* get lat/long w/ same datum/ellipsoid as input */
+            if (GPJ_transform(&iproj, &oproj, &tproj, PJ_FWD, &longitude,
+                              &latitude, NULL) < 0)
+                G_fatal_error(
+                    _("Error in %s (projection of input coordinate pair)"),
+                    "GPJ_transform()");
+
+            loc = longitude;
+            lac = latitude;
+
+            if (print_flag & PRINT_SH) {
+                fprintf(stdout, "nw_long=%.8f\nnw_lat=%.8f\n", lo1, la1);
+                fprintf(stdout, "ne_long=%.8f\nne_lat=%.8f\n", lo2, la2);
+                fprintf(stdout, "se_long=%.8f\nse_lat=%.8f\n", lo3, la3);
+                fprintf(stdout, "sw_long=%.8f\nsw_lat=%.8f\n", lo4, la4);
+                fprintf(stdout, "center_long=%.8f\n", loc);
+                fprintf(stdout, "center_lat=%.8f\n", lac);
+            }
+            else {
+                G_format_easting(lo1, buf, PROJECTION_LL);
+                fprintf(stdout, "%-*s long: %s ", width,
+                        "north-west corner:", buf);
+                G_format_northing(la1, buf, PROJECTION_LL);
+                fprintf(stdout, "lat: %s\n", buf);
+
+                G_format_easting(lo2, buf, PROJECTION_LL);
+                fprintf(stdout, "%-*s long: %s ", width,
+                        "north-east corner:", buf);
+                G_format_northing(la2, buf, PROJECTION_LL);
+                fprintf(stdout, "lat: %s\n", buf);
+
+                G_format_easting(lo3, buf, PROJECTION_LL);
+                fprintf(stdout, "%-*s long: %s ", width,
+                        "south-east corner:", buf);
+                G_format_northing(la3, buf, PROJECTION_LL);
+                fprintf(stdout, "lat: %s\n", buf);
+
+                G_format_easting(lo4, buf, PROJECTION_LL);
+                fprintf(stdout, "%-*s long: %s ", width,
+                        "south-west corner:", buf);
+                G_format_northing(la4, buf, PROJECTION_LL);
+                fprintf(stdout, "lat: %s\n", buf);
+
+                G_format_easting(loc, buf, PROJECTION_LL);
+                fprintf(stdout, "%-*s %11s\n", width, "center longitude:", buf);
+
+                G_format_northing(lac, buf, PROJECTION_LL);
+                fprintf(stdout, "%-*s %11s\n", width, "center latitude:", buf);
+            }
+
+            if (!(print_flag & PRINT_REG)) {
+                if (print_flag & PRINT_SH) {
+                    fprintf(stdout, "rows=%d\n", window->rows);
+                    fprintf(stdout, "cols=%d\n", window->cols);
+                }
+                else {
+                    fprintf(stdout, "%-*s %d\n", width, "rows:", window->rows);
+                    fprintf(stdout, "%-*s %d\n", width, "cols:", window->cols);
+                }
+            }
+        }
+        else { /* in lat/long already */
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (window->proj != 0)
                 G_message(
                     _("You are already in Lat/Long. Use the -p flag instead."));
             else
                 G_message(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11427,6 +11662,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     _("You are in a simple XY project, projection to Lat/Lon "
 =======
                     _("You are in a simple XY location, projection to Lat/Lon "
@@ -11552,6 +11789,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -11913,6 +12151,11 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
                     _("You are in a simple XY location, projection to Lat/Lon "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                    _("You are in a simple XY location, projection to Lat/Lon "
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                       "is not possible. Use the -p flag instead."));
         }
     }
@@ -11946,6 +12189,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (print_flag & PRINT_SH) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12090,6 +12334,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         switch (format) {
         case SHELL:
             fprintf(stdout, "ns_extent=%f%s", window->north - window->south,
@@ -12822,13 +13068,17 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
         else {
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (print_flag & PRINT_SH) {
             fprintf(stdout, "ns_extent=%f\n", window->north - window->south);
             fprintf(stdout, "ew_extent=%f\n", window->east - window->west);
         }
         else {
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12883,6 +13133,9 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
         else {
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (G_projection() != PROJECTION_LL) {
                 fprintf(stdout, "%-*s %f\n", width,
                         "north-south extent:", window->north - window->south);
@@ -12899,6 +13152,9 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             break;
         case JSON:
             json_object_set_number(root_object, "ns_extent",
@@ -12908,8 +13164,11 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
             break;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         }
     }
 
@@ -12928,6 +13187,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12948,6 +13208,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         switch (format) {
         case SHELL:
 =======
@@ -13671,6 +13933,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -13917,10 +14180,16 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        if (print_flag & PRINT_SH) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             fprintf(stdout, "center_easting=%f\n",
                     (window->west + window->east) / 2.);
             fprintf(stdout, "center_northing=%f\n",
                     (window->north + window->south) / 2.);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14346,12 +14615,15 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         }
         else {
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -14443,6 +14715,12 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
         else {
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        }
+        else {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (G_projection() != PROJECTION_LL) {
                 fprintf(stdout, "%-*s %f\n", width,
                         "center easting:", (window->west + window->east) / 2.);
@@ -14459,6 +14737,9 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             break;
         case JSON:
             json_object_set_number(root_object, "center_easting",
@@ -14468,14 +14749,20 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
             break;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         }
     }
 
     /* flag.gmt_style */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (print_flag & PRINT_GMT) {
         char gmt[120];
         switch (format) {
@@ -14518,6 +14805,9 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
     if (print_flag & PRINT_GMT)
         fprintf(stdout, "%s/%s/%s/%s\n", west, east, south, north);
@@ -14525,6 +14815,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
     /* flag.wms_style */
     if (print_flag & PRINT_WMS) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14545,10 +14836,13 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_format_northing(window->north, north, -1);
         G_format_northing(window->south, south, -1);
         G_format_easting(window->east, east, -1);
         G_format_easting(window->west, west, -1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14815,6 +15109,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         fprintf(stdout, "bbox=%s,%s,%s,%s%s", west, south, east, north, sep);
 =======
         fprintf(stdout, "bbox=%s,%s,%s,%s\n", west, south, east, north);
@@ -15207,6 +15503,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
         fprintf(stdout, "bbox=%s,%s,%s,%s\n", west, south, east, north);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -15214,6 +15511,11 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        fprintf(stdout, "bbox=%s,%s,%s,%s\n", west, south, east, north);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
 =======
@@ -15533,6 +15835,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -16026,6 +16329,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             convergence = NAN;
 =======
 <<<<<<< HEAD
@@ -16211,6 +16516,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
             convergence = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17043,6 +17349,11 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+            convergence = 0. / 0.;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         else if (G_projection() == PROJECTION_LL)
             convergence = 0.0;
         else {
@@ -17116,6 +17427,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -17450,6 +17762,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     _("Can't get projection info of current project"));
 
             if ((in_unit_info = G_get_projunits()) == NULL)
@@ -17602,6 +17916,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -17946,6 +18261,10 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     _("Can't get projection info of current location"));
 
             if ((in_unit_info = G_get_projunits()) == NULL)
@@ -17955,6 +18274,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
             if (pj_get_kv(&iproj, in_proj_info, in_unit_info) < 0)
                 G_fatal_error(
                     _("Can't get projection key values of current location"));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18566,6 +18886,13 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
             G_free_key_value(in_proj_info);
             G_free_key_value(in_unit_info);
@@ -18604,6 +18931,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 #endif
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18962,6 +19290,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         switch (format) {
         case SHELL:
             fprintf(stdout, "converge_angle=%f%s", convergence, sep);
@@ -19493,6 +19823,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
             json_object_set_number(root_object, "converge_angle", convergence);
         }
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         if (print_flag & PRINT_SH)
@@ -19677,6 +20008,14 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        if (print_flag & PRINT_SH)
+            fprintf(stdout, "converge_angle=%f\n", convergence);
+        else
+            fprintf(stdout, "%-*s %f\n", width,
+                    "convergence angle:", convergence);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     /* flag.bbox
@@ -19699,6 +20038,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
             /* read current projection info */
             if ((in_proj_info = G_get_projinfo()) == NULL)
                 G_fatal_error(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20163,6 +20503,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     _("Can't get projection info of current project"));
 =======
                     _("Can't get projection info of current location"));
@@ -20335,6 +20677,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -20760,6 +21103,11 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
                     _("Can't get projection info of current location"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                    _("Can't get projection info of current location"));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             /* do not wrap to -180, 180, otherwise east can be < west */
             /* TODO: for PROJ 6+, the +over switch must be added to the
              * transformation pipeline if authority:name or WKt are used
@@ -20837,6 +21185,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _("Can't get projection units of current location"));
 
             if (pj_get_kv(&iproj, in_proj_info, in_unit_info) < 0)
@@ -21383,6 +21732,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     _("Can't get projection units of current project"));
 
             if (pj_get_kv(&iproj, in_proj_info, in_unit_info) < 0)
@@ -21666,6 +22017,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -21765,6 +22117,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
                     _("Can't get projection units of current location"));
 
             if (pj_get_kv(&iproj, in_proj_info, in_unit_info) < 0)
@@ -21776,6 +22130,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
             out_unit_info = G_create_key_value();
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -21918,6 +22273,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             G_set_key_value("proj", "ll", out_proj_info);
 
 #if PROJ_VERSION_MAJOR < 6
@@ -21994,6 +22351,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "WGS84 output not possible as this location does not "
 =======
 <<<<<<< HEAD
@@ -22390,6 +22748,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     "WGS84 output not possible as this project does not "
 =======
                     "WGS84 output not possible as this location does not "
@@ -22562,6 +22922,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -22987,6 +23348,11 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
                     "WGS84 output not possible as this location does not "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                    "WGS84 output not possible as this location does not "
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     "contain "
                     "datum transformation parameters. Try running g.setproj."));
             else
@@ -23127,6 +23493,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -23147,6 +23514,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             switch (format) {
             case SHELL:
 =======
@@ -24001,6 +24370,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -24313,6 +24683,11 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            if (print_flag & PRINT_SH) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 fprintf(stdout, "ll_n=%.8f\n", sh_ll_n);
                 fprintf(stdout, "ll_s=%.8f\n", sh_ll_s);
                 fprintf(stdout, "ll_w=%.8f\n", sh_ll_w);
@@ -24320,6 +24695,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
                 /* center of the largest bounding box */
                 fprintf(stdout, "ll_clon=%.8f\n", loc);
                 fprintf(stdout, "ll_clat=%.8f\n", (sh_ll_n + sh_ll_s) / 2.);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24858,12 +25234,15 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             }
             else {
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -24955,6 +25334,12 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
             else {
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            }
+            else {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 G_format_northing(sh_ll_n, buf, PROJECTION_LL);
                 fprintf(stdout, "%-*s  %s\n", width, "north latitude:", buf);
                 G_format_northing(sh_ll_s, buf, PROJECTION_LL);
@@ -24970,6 +25355,9 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
                 fprintf(stdout, "%-*s  %s\n", width, "center latitude:", buf);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 break;
             case JSON:
                 json_object_set_number(root_object, "ll_n", sh_ll_n);
@@ -24982,8 +25370,11 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
                                        (sh_ll_n + sh_ll_s) / 2.);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             }
 
             /*It should be calculated which number of rows and cols we have in

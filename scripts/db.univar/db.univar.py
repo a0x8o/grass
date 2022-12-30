@@ -120,6 +120,9 @@ def main():
     if not output_format:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         output_format = "shell" if shellstyle else "plain"
     elif shellstyle:
         # This can be a message or warning in future versions.
@@ -128,8 +131,11 @@ def main():
 
     desc_table = gs.db_describe(table, database=database, driver=driver)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if shellstyle:
             output_format = "shell"
         else:
@@ -137,6 +143,7 @@ def main():
     elif shellstyle:
         # This can be a message or warning in future versions.
         # In version 9, -g may be removed.
+<<<<<<< HEAD
         gs.verbose(_("The format option is used and -g flag ignored"))
 
 <<<<<<< HEAD
@@ -145,6 +152,12 @@ def main():
 =======
     desc_table = gs.db_describe(table, database=database, driver=driver)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+        gscript.verbose(_("The format option is used and -g flag ignored"))
+
+    desc_table = gscript.db_describe(table, database=database, driver=driver)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if not desc_table:
         gs.fatal(_("Unable to describe table <%s>") % table)
     found = False
@@ -180,20 +193,29 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.verbose(_("Calculation for column <%s> of table <%s>...") % (column, table))
         gs.message(_("Reading column values..."))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        gs.verbose(_("Calculation for column <%s> of table <%s>...") % (column, table))
+        gs.message(_("Reading column values..."))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         gscript.verbose(
             _("Calculation for column <%s> of table <%s>...") % (column, table)
         )
         gscript.message(_("Reading column values..."))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         gs.verbose(_("Calculation for column <%s> of table <%s>...") % (column, table))
         gs.message(_("Reading column values..."))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     sql = "SELECT %s FROM %s" % (column, table)
     if where:
@@ -223,9 +245,13 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if output_format in {"plain", "shell"}:
 <<<<<<< HEAD
             gs.fatal(_("Table <%s> contains no data.") % table)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -255,10 +281,17 @@ def main():
 =======
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+=======
+        if output_format in ["plain", "shell"]:
+            gscript.fatal(_("Table <%s> contains no data.") % table)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         tmpf.close()
 
     # calculate statistics
     if output_format == "plain":
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,6 +304,12 @@ def main():
 =======
         gs.verbose(_("Calculating statistics..."))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+        gs.verbose(_("Calculating statistics..."))
+=======
+        gscript.verbose(_("Calculating statistics..."))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     N = 0
     sum = 0.0
@@ -297,9 +336,13 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if output_format in {"plain", "shell"}:
 <<<<<<< HEAD
             gs.fatal(_("No non-null values found"))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -329,6 +372,12 @@ def main():
 =======
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+=======
+        if output_format in ["plain", "shell"]:
+            gscript.fatal(_("No non-null values found"))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         else:
             # We produce valid JSON with a value for n even when the query returned
             # no rows or when all values are nulls.

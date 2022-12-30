@@ -428,6 +428,7 @@ void GeomCond::parse()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     case 5:           /* avhrr PM and avhrr AM */
 =======
 <<<<<<< HEAD
@@ -824,6 +825,8 @@ void GeomCond::parse()
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         FALLTHROUGH;
     case 5: /* avhrr PM and avhrr AM */
 =======
@@ -997,6 +1000,7 @@ void GeomCond::parse()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1422,6 +1426,11 @@ void GeomCond::parse()
     case 5:           /* avhrr PM and avhrr AM */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    case 5:           /* avhrr PM and avhrr AM */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     {
         cin >> month;
         cin >> jday;
@@ -1458,6 +1467,7 @@ void GeomCond::parse()
     case 28: /* planetscope0e    * enter month,day,hh.ddd,long.,lat. */
     case 29: /* planetscope0f10  * enter month,day,hh.ddd,long.,lat. */
     case 30: /* worldview4       * enter month,day,hh.ddd,long.,lat. */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1913,6 +1923,8 @@ void GeomCond::parse()
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     case 31: /* AVIRIS           * enter month,day,hh.ddd,long.,lat. */
     case 32: /* Hyperion VNIR    * enter month,day,hh.ddd,long.,lat. */
     case 33: /* Hyperion SWIR    * enter month,day,hh.ddd,long.,lat. */
@@ -2087,6 +2099,7 @@ void GeomCond::parse()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2468,6 +2481,10 @@ void GeomCond::parse()
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     {
         cin >> month;
         cin >> jday;
@@ -2551,6 +2568,7 @@ void GeomCond::print()
                                    string(" planetscope 0c 0d observation"),
                                    string(" planetscope 0e observation  "),
                                    string(" planetscope 0f 10 observation"),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3015,6 +3033,8 @@ void GeomCond::print()
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                    string(" worldview4 observation      "),
                                    string(" AVIRIS observation          "),
                                    string(" Hyperion VNIR observation   "),
@@ -3192,6 +3212,7 @@ void GeomCond::print()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3615,6 +3636,11 @@ void GeomCond::print()
                                    string(" worldview4 observation      ")};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                                   string(" worldview4 observation      ")};
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     static const string head(" geometrical conditions identity  ");
     static const string line(" -------------------------------  ");

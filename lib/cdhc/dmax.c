@@ -10,6 +10,7 @@ double *Cdhc_dmax(double *x, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     double dp = 0.0, dp_max = 0.0, dm = 0.0, dm_max = 0.0;
 =======
 =======
@@ -19,6 +20,12 @@ double *Cdhc_dmax(double *x, int n)
 =======
     double dp = 0.0, dp_max = 0.0, dm = 0.0, dm_max = 0.0;
 >>>>>>> a0dacc4619 (lib: Fixed uninitialized variable warning in dmax.c by initializing dp, dp_max, dm, and dm_max to 0.0 (#3995))
+=======
+    double dp = 0.0, dp_max = 0.0, dm = 0.0, dm_max = 0.0;
+=======
+    double dp, dp_max, dm, dm_max;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     int i;
 
     if ((xcopy = (double *)malloc(n * sizeof(double))) == NULL) {

@@ -116,6 +116,9 @@ int main(int argc, char *argv[])
         /* Warning: make buffers and output after set window */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (G_strlcpy(dem.name, base->answer, sizeof(dem.name)) >=
             sizeof(dem.name)) {
             G_fatal_error(_("DEM name <%s> is too long"), base->answer);
@@ -123,9 +126,12 @@ int main(int argc, char *argv[])
 =======
         strcpy(dem.name, base->answer);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         strcpy(dem.name, base->answer);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         /* Set window to DEM file */
         Rast_get_window(&window);
         Rast_get_cellhd(dem.name, "", &hd_dem);
@@ -135,6 +141,9 @@ int main(int argc, char *argv[])
         /* Open and buffer of the output file */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (G_strlcpy(out.name, output->answer, sizeof(out.name)) >=
             sizeof(out.name)) {
             G_fatal_error(_("Output name <%s> is too long"), output->answer);
@@ -142,9 +151,12 @@ int main(int argc, char *argv[])
 =======
         strcpy(out.name, output->answer);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         strcpy(out.name, output->answer);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         out.fd = Rast_open_new(output->answer, DCELL_TYPE);
         out.rast = Rast_allocate_buf(out.type);
         /* Open and buffer of the elevation file */
@@ -193,6 +205,9 @@ int main(int argc, char *argv[])
             /* Abre fichero de bandas y el de salida */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (G_strlcpy(band.name, input->answers[i], sizeof(band.name)) >=
                 sizeof(band.name)) {
                 G_fatal_error(_("Band name <%s> is too long"),
@@ -201,9 +216,12 @@ int main(int argc, char *argv[])
 =======
             strcpy(band.name, input->answers[i]);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             strcpy(band.name, input->answers[i]);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             Rast_get_cellhd(band.name, "", &hd_band);
             Rast_set_window(
                 &hd_band); /* Antes de out_open y allocate para mismo size */
@@ -220,16 +238,22 @@ int main(int argc, char *argv[])
             dem.fd = Rast_open_old(base->answer, "");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             snprintf(out.name, GNAME_MAX - 1, "%s.%s", output->answer,
                      input->answers[i]);
 =======
             G_snprintf(out.name, GNAME_MAX - 1, "%s.%s", output->answer,
                        input->answers[i]);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             G_snprintf(out.name, GNAME_MAX - 1, "%s.%s", output->answer,
                        input->answers[i]);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             out.fd = Rast_open_new(out.name, DCELL_TYPE);
             out.rast = Rast_allocate_buf(out.type);
             band.rast = Rast_allocate_buf(band.type);

@@ -8105,6 +8105,7 @@ msgstr "Nu s-a putut citit fișierul foto al rasterului <%s>"
 #, c-format
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Input PNG file has incorrect dimensions: expected: %dx%d got: %lux%lu"
 msgstr ""
 
@@ -8353,6 +8354,10 @@ msgstr "Nu s-a putut citit fișierul categorie al rasterului <%s>"
 msgid "Unable to read category file of raster map <%s>"
 msgstr "Nu s-a putut citit fișierul categorie al rasterului <%s>"
 =======
+msgid "Unable to read category file of raster map <%s>"
+msgstr "Nu s-a putut citit fișierul categorie al rasterului <%s>"
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 msgid "Input PNG file has incorrect dimensions: expected: %dx%d got: %lux%lu"
 msgstr ""
 
@@ -8594,8 +8599,12 @@ msgstr ""
 msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of raster map <%s@%s>. %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #: ../lib/ogsf/gsd_legend.c:267
 #, c-format

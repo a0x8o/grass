@@ -97,6 +97,7 @@ DCELL feature(double *coeff)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     double maxic, minic, /* Minimium and maximum curvature.      */
 =======
 <<<<<<< HEAD
@@ -493,6 +494,8 @@ DCELL feature(double *coeff)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     double maxic, minic, /* Minimum and maximum curvature.      */
 =======
     double maxic, minic, /* Minimium and maximum curvature.      */
@@ -665,6 +668,7 @@ DCELL feature(double *coeff)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1090,6 +1094,11 @@ DCELL feature(double *coeff)
     double maxic, minic, /* Minimium and maximum curvature.      */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    double maxic, minic, /* Minimium and maximum curvature.      */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         slope,           /* Slope.                               */
         crosc;           /* Cross-sectional curvature.           */
 

@@ -4858,6 +4858,7 @@ void IWave::planetscope0f10(int iwa)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5252,6 +5253,8 @@ void IWave::planetscope0f10(int iwa)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /* Following filter function created using create_iwave.py */
 
 void IWave::aviris(int iwa)
@@ -7059,6 +7062,7 @@ void IWave::aviris(int iwa)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -7440,6 +7444,10 @@ void IWave::aviris(int iwa)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /* filter functions must be defined above */
 
 double IWave::equivwl() const
@@ -7459,6 +7467,7 @@ double IWave::equivwl() const
     }
 
     return wlwave / seb;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7914,6 +7923,8 @@ double IWave::equivwl() const
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 }
 
 /* Following filter function created using create_iwave.py */
@@ -9557,6 +9568,7 @@ void IWave::hyperion_swir(int iwa)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -9938,6 +9950,10 @@ void IWave::hyperion_swir(int iwa)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 }
 
 void IWave::parse()
@@ -9951,6 +9967,7 @@ void IWave::parse()
 
     cin >> iwave;
     cin.ignore(numeric_limits<int>::max(), '\n');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10415,6 +10432,8 @@ void IWave::parse()
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     printf("iwave = %d\n", iwave);
 =======
 
@@ -10587,6 +10606,7 @@ void IWave::parse()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -11012,6 +11032,11 @@ void IWave::parse()
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (iwave == 0 || iwave == -2) {
         cin >> ffu.wlinf;
         cin >> ffu.wlsup;
@@ -11100,6 +11125,7 @@ void IWave::parse()
             planetscope0f10(iwave - 199);
         else if (iwave <= 208)
             worldview4(iwave - 203);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11555,6 +11581,8 @@ void IWave::parse()
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         else if (iwave <= 432)
             aviris(iwave - 208);
         else if (iwave <= 481)
@@ -11732,6 +11760,7 @@ void IWave::parse()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -12113,6 +12142,10 @@ void IWave::parse()
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         else
             G_warning(_("Unsupported iwave value: %d"), iwave);
 
@@ -12442,6 +12475,7 @@ void IWave::print()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                   string(" worldview 4 nir")};
 =======
 <<<<<<< HEAD
@@ -12838,6 +12872,8 @@ void IWave::print()
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                   string(" worldview 4 nir"),
                                   string(" aviris b1-224"),
                                   string(" hyperion vnir b8-57"),
@@ -13015,6 +13051,7 @@ void IWave::print()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -13438,6 +13475,11 @@ void IWave::print()
                                   string(" worldview 4 nir")};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                                  string(" worldview 4 nir")};
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     Output::Begin();
     Output::Repeat(22, ' ');

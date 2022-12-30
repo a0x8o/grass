@@ -824,6 +824,9 @@ def init(raise_fatal_error: bool = False, skip_db_version_check: bool = False):
                 "Your existing temporal database version: {ctdb}\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 "Current temporal database info: {info}"
             ).format(
                 backup=backup_howto,
@@ -831,8 +834,11 @@ def init(raise_fatal_error: bool = False, skip_db_version_check: bool = False):
                 ctdb=tgis_db_version_meta,
                 info=get_database_info_string(),
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 "Current temporal database info: {info}".format(
                     backup=backup_howto,
                     tdb=tgis_db_version,
@@ -840,9 +846,13 @@ def init(raise_fatal_error: bool = False, skip_db_version_check: bool = False):
                     info=get_database_info_string(),
                 )
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             )
 
             if tgis_db_version_meta == 2 and tgis_db_version == 3:
@@ -854,11 +864,17 @@ def init(raise_fatal_error: bool = False, skip_db_version_check: bool = False):
                         "The format of your actual temporal database is "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "not supported any more. {m}"
                     ).format(m=message)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                        "not supported any more. {m}"
+                    ).format(m=message)
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                         "not supported any more. {m}".format(m=message)
                     )
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

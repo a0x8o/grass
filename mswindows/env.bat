@@ -71,6 +71,7 @@ set GRASS_PYTHON=%GISBASE%\extrabin\python3.exe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 set PYTHONHOME=%GISBASE%\Python39
 =======
 <<<<<<< HEAD
@@ -467,6 +468,8 @@ set PYTHONHOME=%GISBASE%\Python39
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 set PYTHONHOME=%GISBASE%\Python312
 =======
 set PYTHONHOME=%GISBASE%\Python39
@@ -639,6 +642,7 @@ set PYTHONHOME=%GISBASE%\Python39
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1064,6 +1068,11 @@ set PYTHONHOME=%GISBASE%\Python39
 set PYTHONHOME=%GISBASE%\Python39
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+set PYTHONHOME=%GISBASE%\Python39
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 set GRASS_PROJSHARE=%GISBASE%\share\proj
 

@@ -46,10 +46,13 @@ gettext
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d61771ce2d (Add Binder setup files (#1603))
 =======
 >>>>>>> 104e187247 (Add Binder setup files (#1603))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 git
 imagemagick
 =======
@@ -62,6 +65,7 @@ imagemagick
 git
 imagemagick
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 git
 imagemagick
@@ -72,6 +76,8 @@ imagemagick
 =======
 >>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
 >>>>>>> 104e187247 (Add Binder setup files (#1603))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 libblas-dev
 libbz2-dev
 libcairo2-dev
@@ -165,10 +171,13 @@ netcdf-bin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d61771ce2d (Add Binder setup files (#1603))
 =======
 >>>>>>> 104e187247 (Add Binder setup files (#1603))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 p7zip
 proj-bin
 <<<<<<< HEAD
@@ -187,6 +196,7 @@ zlib1g-dev
 =======
 p7zip
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 p7zip
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -213,10 +223,14 @@ git
 =======
 >>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
 >>>>>>> 104e187247 (Add Binder setup files (#1603))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 proj-bin
 sqlite3
 unixodbc-dev
+xvfb
 zlib1g-dev
+<<<<<<< HEAD
 p7zip
 imagemagick
 git
@@ -227,4 +241,9 @@ git
 =======
 =======
 >>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
+<<<<<<< HEAD
 >>>>>>> 104e187247 (Add Binder setup files (#1603))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)

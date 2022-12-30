@@ -243,6 +243,7 @@ int NetA_min_cut(dglGraph_s *graph, struct ilist *source_list,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                  struct ilist *sink_list, int *flow, struct ilist *cut)
 =======
 <<<<<<< HEAD
@@ -639,6 +640,8 @@ int NetA_min_cut(dglGraph_s *graph, struct ilist *source_list,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                  struct ilist *sink_list UNUSED, int *flow, struct ilist *cut)
 =======
                  struct ilist *sink_list, int *flow, struct ilist *cut)
@@ -811,6 +814,7 @@ int NetA_min_cut(dglGraph_s *graph, struct ilist *source_list,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1236,6 +1240,11 @@ int NetA_min_cut(dglGraph_s *graph, struct ilist *source_list,
                  struct ilist *sink_list, int *flow, struct ilist *cut)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                 struct ilist *sink_list, int *flow, struct ilist *cut)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int nnodes, i;
     dglEdgesetTraverser_s et;

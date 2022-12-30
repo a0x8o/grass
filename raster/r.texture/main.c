@@ -34,13 +34,19 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #include "execute.h"
 
 /* modify this table to add new measures */
 static struct menu measure_menu[] = {
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 struct menu {
     char *name;   /* measure name */
     char *desc;   /* menu display - full description */
@@ -52,6 +58,7 @@ struct menu {
 /* modify this table to add new measures */
 static struct menu menu[] = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -61,6 +68,9 @@ static struct menu menu[] = {
 /* modify this table to add new measures */
 static struct menu measure_menu[] = {
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     {"asm", "Angular Second Moment", "_ASM", 0, 1},
     {"contrast", "Contrast", "_Contr", 0, 2},
     {"corr", "Correlation", "_Corr", 0, 3},
@@ -82,11 +92,15 @@ static int find_measure(const char *measure_name)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     for (i = 0; measure_menu[i].name; i++)
         if (strcmp(measure_menu[i].name, measure_name) == 0)
 =======
     for (i = 0; menu[i].name; i++)
         if (strcmp(menu[i].name, measure_name) == 0)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -95,6 +109,9 @@ static int find_measure(const char *measure_name)
     for (i = 0; measure_menu[i].name; i++)
         if (strcmp(measure_menu[i].name, measure_name) == 0)
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             return i;
 
     G_fatal_error(_("Unknown measure <%s>"), measure_name);
@@ -116,16 +133,23 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     FCELL measure;  /* Containing measure done */
     int dist, size; /* dist = value of distance, size = s. of moving window */
     int offset;
     int have_px, have_py, have_pxpys, have_pxpyd;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     int infd, *outfd;
 
     RASTER_MAP_TYPE out_data_type;
@@ -164,6 +188,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
     parm.size = G_define_option();
     parm.size->key = "size";
     parm.size->key_desc = "value";
@@ -198,6 +223,7 @@ int main(int argc, char *argv[])
 
     for (i = 0; measure_menu[i].name; i++) {
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     /* Textural character is in direct relation of the spatial size of the
@@ -222,6 +248,23 @@ int main(int argc, char *argv[])
 =======
     for (i = 0; measure_menu[i].name; i++) {
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+    /* Textural character is in direct relation of the spatial size of the
+     * texture primitives. */
+
+    opt_dist = G_define_option();
+    opt_dist->key = "distance";
+    opt_dist->key_desc = "value";
+    opt_dist->type = TYPE_INTEGER;
+    opt_dist->required = NO;
+    opt_dist->label = _("The distance between two samples (>= 1)");
+    opt_dist->description =
+        _("The distance must be smaller than the size of the moving window");
+    opt_dist->answer = "1";
+
+    for (i = 0; menu[i].name; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (i)
             strcat(p, ",");
         else
@@ -229,16 +272,22 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         strcat(p, measure_menu[i].name);
 =======
         strcat(p, menu[i].name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         strcat(p, menu[i].name);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
         strcat(p, measure_menu[i].name);
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
     parm.measure = G_define_option();
     parm.measure->key = "method";
@@ -250,24 +299,34 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     flag.ind = G_define_flag();
     flag.ind->key = 's';
     flag.ind->label = _("Separate output for each angle (0, 45, 90, 135)");
     flag.ind->description =
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
     flag_ind = G_define_flag();
     flag_ind->key = 's';
     flag_ind->label = _("Separate output for each angle (0, 45, 90, 135)");
     flag_ind->description =
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         _("Angles are counterclockwise from east: "
           "0 is East to West, 45 is North-East to South-West");
 
@@ -277,24 +336,34 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     flag.null = G_define_flag();
     flag.null->key = 'n';
     flag.null->label = _("Allow NULL cells in a moving window");
     flag.null->description =
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
     flag_null = G_define_flag();
     flag_null->key = 'n';
     flag_null->label = _("Allow NULL cells in a moving window");
     flag_null->description =
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         _("This will also avoid cropping along edges of the current region");
 
     if (G_parser(argc, argv))
@@ -302,8 +371,11 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     name = parm.input->answer;
     result = parm.output->answer;
     dim.size = atoi(parm.size->answer);
@@ -351,6 +423,7 @@ int main(int argc, char *argv[])
     result = opt_output->answer;
     size = atoi(opt_size->answer);
     if (size <= 0)
+<<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
         G_fatal_error(_("Size of the moving window must be > 0"));
@@ -397,6 +470,45 @@ int main(int argc, char *argv[])
     for (i = 0; measure_menu[i].name; i++) {
         if (measure_menu[i].useme == 1) {
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+        G_fatal_error(_("Size of the moving window must be > 0"));
+    if (size % 2 != 1)
+        G_fatal_error(_("Size of the moving window must be odd"));
+    dist = atoi(opt_dist->answer);
+    if (dist <= 0)
+        G_fatal_error(_("The distance between two samples must be > 0"));
+    if (dist >= size)
+        G_fatal_error(_("The distance between two samples must be smaller than "
+                        "the size of the moving window"));
+
+    n_measures = 0;
+    if (flag_all->answer) {
+        for (i = 0; menu[i].name; i++) {
+            menu[i].useme = 1;
+        }
+        n_measures = i;
+    }
+    else {
+        for (i = 0; opt_measure->answers[i]; i++) {
+            if (opt_measure->answers[i]) {
+                const char *measure_name = opt_measure->answers[i];
+                int n = find_measure(measure_name);
+
+                menu[n].useme = 1;
+                n_measures++;
+            }
+        }
+    }
+    if (!n_measures)
+        G_fatal_error(
+            _("Nothing to compute. Use at least one textural measure."));
+
+    measure_idx = G_malloc(n_measures * sizeof(int));
+    j = 0;
+    for (i = 0; menu[i].name; i++) {
+        if (menu[i].useme == 1) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             measure_idx[j] = i;
             j++;
         }
@@ -404,6 +516,9 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
     /* variables needed */
     if (menu[2].useme || menu[11].useme || menu[12].useme)
@@ -424,8 +539,11 @@ int main(int argc, char *argv[])
         have_pxpyd = 0;
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     infd = Rast_open_old(name, "");
 
     Rast_get_cellhd(name, "", &cellhd);
@@ -434,6 +552,9 @@ int main(int argc, char *argv[])
     /* Allocate output buffers, use FCELL data_type */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     dim.n_outputs = dim.n_measures;
     if (flag.ind->answer) {
         dim.n_outputs = dim.n_measures * 4;
@@ -446,6 +567,7 @@ int main(int argc, char *argv[])
     n_outputs = n_measures;
     if (flag_ind->answer) {
         n_outputs = n_measures * 4;
+<<<<<<< HEAD
 =======
     dim.n_outputs = dim.n_measures;
     if (flag.ind->answer) {
@@ -465,12 +587,26 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+    }
+
+    fbuf = G_malloc(n_outputs * sizeof(FCELL *));
+    mapname = G_malloc(n_outputs * sizeof(char *));
+    for (i = 0; i < n_outputs; i++) {
+        mapname[i] = G_malloc(GNAME_MAX * sizeof(char));
+        fbuf[i] = Rast_allocate_buf(out_data_type);
+    }
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     overwrite = G_check_overwrite(argc, argv);
 
     /* open output maps */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     outfd = G_malloc(dim.n_outputs * sizeof(int));
     for (i = 0; i < dim.n_measures; i++) {
         if (flag.ind->answer) {
@@ -485,6 +621,7 @@ int main(int argc, char *argv[])
                 sprintf(mapname[i * 4 + j], "%s%s_%d", result,
                         menu[measure_idx[i]].suffix, j * 45);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -496,6 +633,9 @@ int main(int argc, char *argv[])
                 sprintf(mapname[i * 4 + j], "%s%s_%d", result,
                         measure_menu[measure_idx[i]].suffix, j * 45);
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 if (!G_find_raster(mapname[i * 4 + j], G_mapset()) ||
                     overwrite) {
                     outfd[i * 4 + j] =
@@ -511,11 +651,15 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             sprintf(mapname[i], "%s%s", result,
                     measure_menu[measure_idx[i]].suffix);
 =======
             sprintf(mapname[i], "%s%s", result, menu[measure_idx[i]].suffix);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             sprintf(mapname[i], "%s%s", result, menu[measure_idx[i]].suffix);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -523,6 +667,8 @@ int main(int argc, char *argv[])
             sprintf(mapname[i], "%s%s", result,
                     measure_menu[measure_idx[i]].suffix);
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (!G_find_raster(mapname[i], G_mapset()) || overwrite) {
                 outfd[i] = Rast_open_new(mapname[i], out_data_type);
             }
@@ -543,6 +689,9 @@ int main(int argc, char *argv[])
     /* Allocate appropriate memory for the structure containing the image */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     data = (int **)G_malloc(dim.nrows * sizeof(int *));
     for (i = 0; i < dim.nrows; i++) {
         data[i] = (int *)G_malloc(dim.ncols * sizeof(int));
@@ -550,6 +699,7 @@ int main(int argc, char *argv[])
     data = (int **)G_malloc(nrows * sizeof(int *));
     for (i = 0; i < nrows; i++) {
         data[i] = (int *)G_malloc(ncols * sizeof(int));
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -559,6 +709,9 @@ int main(int argc, char *argv[])
     for (i = 0; i < dim.nrows; i++) {
         data[i] = (int *)G_malloc(dim.ncols * sizeof(int));
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     /* read input range */
@@ -579,6 +732,9 @@ int main(int argc, char *argv[])
     G_important_message(_("Reading raster map..."));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     for (j = 0; j < dim.nrows; j++) {
         Rast_get_row(infd, dcell_row, j, DCELL_TYPE);
         for (i = 0; i < dim.ncols; i++) {
@@ -586,6 +742,7 @@ int main(int argc, char *argv[])
     for (j = 0; j < nrows; j++) {
         Rast_get_row(infd, dcell_row, j, DCELL_TYPE);
         for (i = 0; i < ncols; i++) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -595,6 +752,9 @@ int main(int argc, char *argv[])
         Rast_get_row(infd, dcell_row, j, DCELL_TYPE);
         for (i = 0; i < dim.ncols; i++) {
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (Rast_is_d_null_value(&(dcell_row[i])))
                 data[j][i] = -1;
             else if (inscale) {
@@ -1243,6 +1403,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
@@ -1569,6 +1730,8 @@ int main(int argc, char *argv[])
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
      *or co-occurrence matrix. The image is analyzed for piece, every piece is
 =======
      *or co-occurrence matrix. The image is analized for piece, every piece is
@@ -1649,6 +1812,7 @@ int main(int argc, char *argv[])
 =======
      *or co-occurrence matrix. The image is analized for piece, every piece is
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
@@ -2056,6 +2220,11 @@ int main(int argc, char *argv[])
      *or co-occurrence matrix. The image is analized for piece, every piece is
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+     *or co-occurrence matrix. The image is analized for piece, every piece is
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
      *naming moving window (s.w.). The s.w. must be square with number of size's
      *samples odd, that because we want the sample at the center of matrix.
      *
@@ -2396,9 +2565,13 @@ int main(int argc, char *argv[])
         last_row = nrows;
         last_col = ncols;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     /* Free allocated memory */
@@ -2476,6 +2649,7 @@ int main(int argc, char *argv[])
     G_percent(nrows, nrows, 1);
 
     for (i = 0; i < n_outputs; i++) {
+<<<<<<< HEAD
 =======
 =======
     execute_texture(data, &dim, measure_menu, measure_idx, &out_set);
@@ -2502,6 +2676,18 @@ int main(int argc, char *argv[])
     G_free(measure_idx);
     G_free(mapname);
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+=======
+        Rast_close(outfd[i]);
+
+        Rast_short_history(mapname[i], "raster", &history);
+        Rast_command_history(&history);
+        Rast_write_history(mapname[i], &history);
+        G_free(fbuf[i]);
+    }
+
+    G_free(fbuf);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     G_free(data);
 
     exit(EXIT_SUCCESS);

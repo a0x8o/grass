@@ -106,11 +106,17 @@ extern void Rast3d_fatal_error_noargs(const char * /* msg */);
 #define LOCATION_TO_COORD(region, north, east, top, x, y, z) \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     { *x = EASTERN_TO_COL(east, region) *y =                 \
           NORTHERN_TO_ROW(north, region) *z = TOP_TO_DEPTH(top, region)}
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    { *x = EASTERN_TO_COL(east, region) *y =                 \
+          NORTHERN_TO_ROW(north, region) *z = TOP_TO_DEPTH(top, region)}
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     {                                                        \
         *x = EASTERN_TO_COL(east, region) * y =              \
                  NORTHERN_TO_ROW(north, region) * z =        \
@@ -128,20 +134,30 @@ extern void Rast3d_fatal_error_noargs(const char * /* msg */);
 #define DEPTH_TO_TOP(region, z)    region->bottom + z * region->tb_res;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define COORD_TO_LOCATION(region, x, y, z, north, east, top) \
     { *east = COL_TO_EASTERN(region, x) *north =             \
           ROW_TO_NORTHERN(region, y) *top = DEPTH_TO_TOP(region, z)}
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define COORD_TO_LOCATION(region, x, y, z, north, east, top)                   \
     {                                                                          \
         *east = COL_TO_EASTERN(region, x) * north =                            \
                     ROW_TO_NORTHERN(region, y) * top = DEPTH_TO_TOP(region, z) \
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #endif

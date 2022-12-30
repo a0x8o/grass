@@ -176,6 +176,7 @@ tokens = reserved_keyword_tokens + reserved_keyword_tokens_new + (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     # Delimeters
 =======
 <<<<<<< HEAD
@@ -572,6 +573,8 @@ tokens = reserved_keyword_tokens + reserved_keyword_tokens_new + (
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     # Delimiters
 =======
     # Delimeters
@@ -744,6 +747,7 @@ tokens = reserved_keyword_tokens + reserved_keyword_tokens_new + (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1169,6 +1173,11 @@ tokens = reserved_keyword_tokens + reserved_keyword_tokens_new + (
     # Delimeters
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    # Delimeters
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     "PERIOD", "ELLIPSIS", "LPAREN", "RPAREN", "LBRACKET",
     "RBRACKET", "LBRACE", "RBRACE", "COMMA", "SEMI",
     "COLON",

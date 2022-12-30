@@ -84,12 +84,16 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if gs.vector_db(map):
             gs.fatal(
 =======
         if grass.vector_db(map):
             grass.fatal(
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         if grass.vector_db(map):
             grass.fatal(
@@ -98,6 +102,8 @@ def main():
         if gs.vector_db(map):
             gs.fatal(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 _(
                     "There is no table connected to layer <{layer}> of <{name}>. "
                     "Run v.db.connect or v.db.addtable first."
@@ -106,16 +112,22 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         gs.fatal(
 =======
         grass.fatal(
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         grass.fatal(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
         gs.fatal(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             _(
                 "There is no table connected to <{name}>. "
                 "Run v.db.connect or v.db.addtable first."

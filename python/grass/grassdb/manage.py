@@ -111,16 +111,22 @@ def split_mapset_path(mapset_path):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         raise ValueError(
 =======
         ValueError(
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         ValueError(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
         raise ValueError(
 >>>>>>> 35bde2fb46 (style: Fixes useless-exception-statement (PLW0133) (#3957))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             _("Mapset path '{}' needs at least three components").format(mapset_path)
         )
     mapset = mapset_path.name
@@ -130,6 +136,7 @@ def split_mapset_path(mapset_path):
     return os.fspath(grassdb), location, mapset
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -594,6 +601,8 @@ def resolve_mapset_path(path, location=None, mapset=None):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 def resolve_mapset_path(path, location=None, mapset=None) -> MapsetPath:
 =======
 def resolve_mapset_path(path, location=None, mapset=None):
@@ -766,6 +775,7 @@ def resolve_mapset_path(path, location=None, mapset=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1191,6 +1201,11 @@ def resolve_mapset_path(path, location=None, mapset=None):
 def resolve_mapset_path(path, location=None, mapset=None):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+def resolve_mapset_path(path, location=None, mapset=None):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     """Resolve full path to mapset from given combination of parameters.
 
     Full or relative path to mapset can be provided as *path*. If the *path*
@@ -1247,13 +1262,19 @@ def resolve_mapset_path(path, location=None, mapset=None):
         if not is_mapset_valid(path) and is_mapset_valid(path / default_mapset):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             path /= default_mapset
 =======
             path = path / default_mapset
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             path = path / default_mapset
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         parts = path.parts
         if len(parts) < 3:
             raise ValueError(

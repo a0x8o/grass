@@ -129,6 +129,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int meanPixelAttribute(int fd, char **par, struct area_entry *ad,
 =======
 <<<<<<< HEAD
@@ -525,6 +526,8 @@ int meanPixelAttribute(int fd, char **par, struct area_entry *ad,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int meanPixelAttribute(int fd, char **par UNUSED, struct area_entry *ad,
 =======
 int meanPixelAttribute(int fd, char **par, struct area_entry *ad,
@@ -697,6 +700,7 @@ int meanPixelAttribute(int fd, char **par, struct area_entry *ad,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1122,6 +1126,11 @@ int meanPixelAttribute(int fd, char **par, struct area_entry *ad,
 int meanPixelAttribute(int fd, char **par, struct area_entry *ad,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int meanPixelAttribute(int fd, char **par, struct area_entry *ad,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                        double *result)
 {
     int ris = 0;

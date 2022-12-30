@@ -255,30 +255,44 @@ static int set_login(const char *driver, const char *database, const char *user,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    \deprecated Use db_set_login2() instead.
 
    \todo: GRASS 8: to be replaced by db_set_login2().
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    \param driver driver name
    \param database database name
    \param user user name
    \param password password string
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    \param host host name
    \param port
    \param overwrite TRUE to overwrite existing connections
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
    \return DB_OK on success
    \return DB_FAILED on failure
@@ -289,14 +303,20 @@ int db_set_login2(const char *driver, const char *database, const char *user,
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     return db_set_login(driver, database, user, password, host, port,
                         overwrite);
 =======
     return set_login(driver, database, user, password, NULL, NULL, FALSE);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     return set_login(driver, database, user, password, NULL, NULL, FALSE);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 }
 
 /*!
@@ -315,6 +335,9 @@ int db_set_login2(const char *driver, const char *database, const char *user,
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int db_set_login(const char *driver, const char *database, const char *user,
                  const char *password, const char *host, const char *port,
                  int overwrite)
@@ -323,11 +346,14 @@ int db_set_login2(const char *driver, const char *database, const char *user,
                   const char *password, const char *host, const char *port,
                   int overwrite)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 int db_set_login2(const char *driver, const char *database, const char *user,
                   const char *password, const char *host, const char *port,
                   int overwrite)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     return set_login(driver, database, user, password, host, port, overwrite);
 }
@@ -388,6 +414,9 @@ static int get_login(const char *driver, const char *database,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    \param driver driver name
    \param database database name (can be NULL)
    \param[out] user name
@@ -400,12 +429,15 @@ static int get_login(const char *driver, const char *database,
 
    \todo: GRASS 8: to be replaced by db_set_login2().
 
+<<<<<<< HEAD
 =======
    \deprecated Use db_set_login2() instead.
 
    \todo: GRASS 8: to be replaced by db_set_login2().
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    \param driver driver name
    \param database database name (can be NULL)
    \param[out] user name
@@ -433,9 +465,13 @@ int db_get_login(const char *driver, const char *database, const char **user,
    \param[out] port
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    \return DB_OK on success
    \return DB_FAILED on failure
  */
@@ -444,6 +480,9 @@ int db_get_login2(const char *driver, const char *database, const char **user,
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     return db_get_login(driver, database, user, password, host, port);
 }
 
@@ -475,12 +514,15 @@ int db_get_login(const char *driver, const char *database, const char **user,
 
 /*!
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     return get_login(driver, database, user, password, host, port);
 }
 
 /*!
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    \brief Print all connection settings to file
 
    \param fd file where to print settings

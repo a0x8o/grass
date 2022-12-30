@@ -899,6 +899,7 @@ from grass.lib.gis import G_remove_misc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -991,6 +992,8 @@ from grass.lib.gis import G_remove_misc
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -2147,6 +2150,7 @@ class RSupportSemanticLabelHandlingTestCase(TestCase):
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2189,11 +2193,14 @@ class RSupportSemanticLabelHandlingTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 from grass.lib.raster import Rast_read_semantic_label
 
 
 class RSupportSemanticLabelHandlingTestCase(TestCase):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2788,6 +2795,8 @@ class RSupportSemanticLabelHandlingTestCase(TestCase):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     @classmethod
     def setUpClass(cls):
         cls.map = tempname(10)
@@ -2890,6 +2899,7 @@ class RSupportSemanticLabelHandlingTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3132,6 +3142,8 @@ class RSupportSemanticLabelHandlingTestCase(TestCase):
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         cls.semantic_label = "The_Doors"
 =======
 <<<<<<< HEAD
@@ -3270,6 +3282,7 @@ class RSupportSemanticLabelHandlingTestCase(TestCase):
 =======
         cls.bandref = "The_Doors"
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4217,6 +4230,11 @@ class RSupportSemanticLabelHandlingTestCase(TestCase):
         cls.bandref = "The_Doors"
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+=======
+        cls.semantic_label = "The_Doors"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         cls.use_temp_region()
         cls.runModule("g.region", n=1, s=0, e=1, w=0, res=1)
         cls.runModule("r.mapcalc", expression="{} = 1".format(cls.map))
@@ -4288,6 +4306,7 @@ class RSupportSemanticLabelHandlingTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4380,6 +4399,8 @@ class RSupportSemanticLabelHandlingTestCase(TestCase):
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -6617,28 +6638,40 @@ class RSupportSemanticLabelHandlingTestCase(TestCase):
 =======
 =======
         self.assertModuleFail("r.support", map=self.map, bandref=self.bandref, b=True)
+=======
+        self.assertModuleFail(
+            "r.support", map=self.map, semantic_label=self.semantic_label, b=True
+        )
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
-    def test_bandref_invalid(self):
+    def test_semantic_label_invalid(self):
         self.assertModuleFail(
             "r.support",
             map=self.map,
-            bandref="".join(random.choices(string.ascii_letters, k=256)),
+            semantic_label="".join(random.choices(string.ascii_letters, k=256)),
         )
 
-    def test_set_bandref(self):
-        G_remove_misc("cell_misc", "bandref", self.map)
-        self.assertModule("r.support", map=self.map, bandref=self.bandref)
-        ret = utils.decode(Rast_read_bandref(self.map, self.mapset))
-        self.assertEqual(ret, self.bandref)
+    def test_set_semantic_label(self):
+        G_remove_misc("cell_misc", "semantic_label", self.map)
+        self.assertModule("r.support", map=self.map, semantic_label=self.semantic_label)
+        ret = utils.decode(Rast_read_semantic_label(self.map, self.mapset))
+        self.assertEqual(ret, self.semantic_label)
 
-    def test_remove_band_ref(self):
-        self.assertModule("r.support", map=self.map, bandref=self.bandref)
-        ret = Rast_read_bandref(self.map, self.mapset)
+    def test_remove_semantic_label(self):
+        self.assertModule("r.support", map=self.map, semantic_label=self.semantic_label)
+        ret = Rast_read_semantic_label(self.map, self.mapset)
         self.assertTrue(bool(ret))
         self.assertModule("r.support", map=self.map, b=True)
+<<<<<<< HEAD
         ret = Rast_read_bandref(self.map, self.mapset)
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+=======
+        ret = Rast_read_semantic_label(self.map, self.mapset)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         self.assertFalse(bool(ret))
 
 

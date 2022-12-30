@@ -46,6 +46,7 @@ Status: Motion passed, 29 March 2021
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -335,6 +336,8 @@ The code base of GRASS GIS consists today (Feb. 2021) of predominantly C code (c
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 The code base of GRASS GIS consists today (Feb. 2021) of predominantly C code (ca 50 %), Python (ca 30 %) and a smaller amount of C++ (ca 5 %). Each of these languages have evolved significantly in the last 10–20 years. There is, however, no clearly stated policy of supported language standard(s), nor mechanism to update this policy when needed or wanted. This result in uncertainty for contributors for what may be allowed and solutions that may not be optimal.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1512,6 +1515,7 @@ provide better cross platform support and possibly safer code.
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -3950,6 +3954,9 @@ provide better cross platform support and possibly safer code.
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 The code base of GRASS GIS consists today (Feb. 2021) of predominantly C code (ca 50 %), Python (ca 30 %) and a smaller amount of C++ (ca 5 %). Each of these languages have evolved significantly in the last 10–20 years. There is, however, no clearly stated policy of supported language standard(s), nor mechanism to update this policy when needed or wanted. This result in uncertainty for contributors for what may be allowed and solutions that may not be optimal.
 
 This RFC aims at setting a policy for GRASS GIS project regarding language standard support for C and C++.
@@ -3968,6 +3975,7 @@ The advantage of having clearly stated policy on language standard requirements/
 
 It should be emphasized that existing GRASS GIS C and C++ code compiles also with C17 and C++17. There is therefore no need to modernize it the way it was done to C in the 2000’s. Nevertheless, conforming to newer standards may provide better cross platform support and possibly safer code.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -3980,6 +3988,9 @@ It should be emphasized that existing GRASS GIS C and C++ code compiles also wit
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 Regarding C, there are three standards that may be considered: C99, C11 and
 C17. C99 never really reached full support on key platforms, this is
@@ -4039,6 +4050,7 @@ good for C17.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4365,6 +4377,8 @@ good for C17.
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
@@ -5518,6 +5532,7 @@ until compelling reasons argue otherwise, the C++11 standard should be policy of
 the GRASS GIS project.
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6128,6 +6143,11 @@ Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to c
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to consider. The platform and compiler support for all of these are significantly better. However, C++11 is at this date in general considered the standard and until compelling reasons argue otherwise, the C++11 standard should be policy of the GRASS GIS project.
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 ## Proposed Language Standards Support
 
@@ -6255,6 +6275,7 @@ Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6297,6 +6318,8 @@ Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to c
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -7473,6 +7496,7 @@ C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8939,6 +8963,9 @@ C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 C11 with core (mandatory) features [brief summary](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
 
 Optional features may be used if availability is tested with macro, and if not supported, alternative fallback code must be provided.
@@ -8947,6 +8974,7 @@ Optional features may be used if availability is tested with macro, and if not s
 C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -8956,3 +8984,6 @@ C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)

@@ -6,12 +6,16 @@
    Taken from r.colors module.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 
    (C) 2001-2011 by the GRASS Development Team
  */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
    (C) 2001-2011 by the GRASS Development Team
  */
@@ -298,16 +302,22 @@ struct colorinfo *get_colorinfo(int *nrules)
         /* open color rule file */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(),
                  colorinfo[i].name);
 =======
         G_snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(),
                    colorinfo[i].name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         G_snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(),
                    colorinfo[i].name);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         fp = fopen(path, "r");
         if (!fp)
             G_fatal_error(_("Unable to open color rule"));
@@ -363,13 +373,19 @@ struct colorinfo *get_colorinfo(int *nrules)
         else {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             snprintf(buf, sizeof(buf) - 1, _("range: %g to %g"), rmin, rmax);
 =======
             G_snprintf(buf, sizeof(buf) - 1, _("range: %g to %g"), rmin, rmax);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             G_snprintf(buf, sizeof(buf) - 1, _("range: %g to %g"), rmin, rmax);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             colorinfo[i].type = G_store(buf);
         }
     }

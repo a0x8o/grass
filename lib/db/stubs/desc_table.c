@@ -69,6 +69,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_describe_table(dbString *name, dbTable **table)
 =======
 <<<<<<< HEAD
@@ -465,6 +466,8 @@ int db__driver_describe_table(dbString *name, dbTable **table)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int db__driver_describe_table(dbString *name UNUSED, dbTable **table UNUSED)
 =======
 int db__driver_describe_table(dbString *name, dbTable **table)
@@ -637,6 +640,7 @@ int db__driver_describe_table(dbString *name, dbTable **table)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1062,6 +1066,11 @@ int db__driver_describe_table(dbString *name, dbTable **table)
 int db__driver_describe_table(dbString *name, dbTable **table)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int db__driver_describe_table(dbString *name, dbTable **table)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     db_procedure_not_implemented("db_describe_table");
     return DB_FAILED;

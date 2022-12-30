@@ -30,15 +30,21 @@ from .generate_last_commit_file import COMMIT_DATE_FORMAT
 def json_file():
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     return "core_modules_with_last_commit.json"
 =======
     file_name = "core_modules_with_last_commit.json"
     return file_name
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     file_name = "core_modules_with_last_commit.json"
     return file_name
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 
 @pytest.fixture
@@ -95,11 +101,15 @@ def test_compare_json_file_data(read_json_file, core_module_path):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         capture_output=True,
 =======
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
@@ -107,6 +117,8 @@ def test_compare_json_file_data(read_json_file, core_module_path):
 =======
         capture_output=True,
 >>>>>>> b90fc735fa (style: Fix replace-stdout-stderr (UP022) (#4000))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         check=True,
     )  # --format=%H,COMMIT_DATE_FORMAT commit hash,author date
     commit, date = process_result.stdout.decode().strip().split(",")

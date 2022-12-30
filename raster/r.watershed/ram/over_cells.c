@@ -70,6 +70,7 @@ int overland_cells_recursive(int row, int col, CELL basin_num, CELL haf_num,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                              CELL *hih_ele)
 =======
 <<<<<<< HEAD
@@ -466,6 +467,8 @@ int overland_cells_recursive(int row, int col, CELL basin_num, CELL haf_num,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                              CELL *hih_ele UNUSED)
 =======
                              CELL *hih_ele)
@@ -638,6 +641,7 @@ int overland_cells_recursive(int row, int col, CELL basin_num, CELL haf_num,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1063,6 +1067,11 @@ int overland_cells_recursive(int row, int col, CELL basin_num, CELL haf_num,
                              CELL *hih_ele)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                             CELL *hih_ele)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int r, rr, c, cc;
     CELL new_ele, /* new_max_ele, */ value;
@@ -1098,6 +1107,7 @@ int overland_cells_recursive(int row, int col, CELL basin_num, CELL haf_num,
 
 /* non-recursive version */
 int overland_cells(int row, int col, CELL basin_num, CELL haf_num,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1562,6 +1572,8 @@ int overland_cells(int row, int col, CELL basin_num, CELL haf_num,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                    CELL *hih_ele UNUSED)
 =======
                    CELL *hih_ele)
@@ -1734,6 +1746,7 @@ int overland_cells(int row, int col, CELL basin_num, CELL haf_num,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2159,6 +2172,11 @@ int overland_cells(int row, int col, CELL basin_num, CELL haf_num,
                    CELL *hih_ele)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                   CELL *hih_ele)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int r, c, rr, cc, next_r, next_c;
     int top = 0, idx;

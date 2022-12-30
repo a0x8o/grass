@@ -9,6 +9,9 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define NL       012
 #define TAB      011
 #define BACK     0134
@@ -31,6 +34,7 @@
 #define BACK  0134
 #define MTEXT 1024
 
+<<<<<<< HEAD
 =======
 #define NL    012
 #define TAB   011
@@ -38,6 +42,8 @@
 #define MTEXT 1024
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define TOP   0
 #define CENT  1
 #define BOT   2
@@ -46,9 +52,13 @@
 #define YES   1
 #define NO    0
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 static double east;
 static double north;
@@ -125,13 +135,19 @@ int do_labels(FILE *infile, int do_rotation)
         else if (!strncmp(text, "col", 3)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             sscanf(text, buff_fmt, buff);
 =======
             sscanf(text, "%*s %s", buff);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             sscanf(text, "%*s %s", buff);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             set_RGBA_from_str(&color, buff);
         }
         else if (!strncmp(text, "siz", 3))
@@ -143,6 +159,9 @@ int do_labels(FILE *infile, int do_rotation)
         else if (!strncmp(text, "bac", 3)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             sscanf(text, buff_fmt, buff);
             set_RGBA_from_str(&background, buff);
         }
@@ -153,8 +172,11 @@ int do_labels(FILE *infile, int do_rotation)
         else if (!strncmp(text, "opa", 3)) {
             sscanf(text, buff_fmt, buff);
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             sscanf(text, "%*s %s", buff);
             set_RGBA_from_str(&background, buff);
         }
@@ -165,9 +187,13 @@ int do_labels(FILE *infile, int do_rotation)
         else if (!strncmp(text, "opa", 3)) {
             sscanf(text, "%*s %s", buff);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (!strncmp(buff, "YES", 3))
                 opaque = YES;
             else
@@ -182,13 +208,19 @@ int do_labels(FILE *infile, int do_rotation)
         else if (!strncmp(text, "fon", 3)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (sscanf(text, font_fmt, font) != 1 || !strcmp(font, "standard"))
 =======
             if (sscanf(text, "%*s %s", font) != 1 || !strcmp(font, "standard"))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             if (sscanf(text, "%*s %s", font) != 1 || !strcmp(font, "standard"))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 strcpy(font, std_font);
         }
         else if (!strncmp(text, "rot", 3)) {
@@ -198,13 +230,19 @@ int do_labels(FILE *infile, int do_rotation)
         else if (!strncmp(text, "hco", 3)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             sscanf(text, buff_fmt, buff);
 =======
             sscanf(text, "%*s %s", buff);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             sscanf(text, "%*s %s", buff);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             set_RGBA_from_str(&highlight_color, buff);
         }
         else if (!strncmp(text, "hwi", 3))
@@ -605,6 +643,7 @@ int scan_ref(char *buf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     case 1:
         if (xmatch(word1) || ymatch(word1))
             return 1;
@@ -1005,6 +1044,8 @@ int scan_ref(char *buf)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         FALLTHROUGH;
     case 1:
         if (xmatch(word1) || ymatch(word1))
@@ -1689,6 +1730,7 @@ int scan_ref(char *buf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
@@ -1702,10 +1744,14 @@ int scan_ref(char *buf)
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     case 1:
         if (xmatch(word1) || ymatch(word1))
             return 1;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
@@ -1905,6 +1951,8 @@ int scan_ref(char *buf)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     default:
         return 0;
     }

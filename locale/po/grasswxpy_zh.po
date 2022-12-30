@@ -23486,6 +23486,7 @@ msgstr "是否运行模型？"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -23524,6 +23525,1619 @@ msgstr "是否运行模型？"
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+
+#: ../gui/wxpython/gmodeler/model.py:669
+msgid "Variables below not defined:"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/model.py:792
+msgid "Raster maps"
+msgstr "栅格地图"
+
+#: ../gui/wxpython/gmodeler/model.py:795
+msgid "3D raster maps"
+msgstr "基础栅格图"
+
+#: ../gui/wxpython/gmodeler/model.py:798 ../gui/wxpython/psmap/dialogs.py:1704
+msgid "Vector maps"
+msgstr "矢量地图"
+
+#: ../gui/wxpython/gmodeler/model.py:1511
+msgid "<not defined>"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/model.py:1639
+msgid "Condition: "
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/model.py:1641
+msgid "Condition: not defined"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/model.py:1779
+msgid "if-else"
+msgstr "if-else"
+
+#: ../gui/wxpython/gmodeler/model.py:1887
+msgid "empty"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/model.py:1889
+#, python-brace-format
+msgid "Details: unsupported tag name '{0}'."
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/model.py:2865
+msgid "Model parameters"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/model.py:2890
+msgid "Delete intermediate data when finish"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/model.py:2898
+#: ../gui/wxpython/gmodeler/frame.py:1990 ../gui/wxpython/modules/vclean.py:174
+#: ../gui/wxpython/modules/mcalc_builder.py:157
+#: ../gui/wxpython/gui_core/forms.py:606
+msgid "&Run"
+msgstr "运行(&R)"
+
+#: ../gui/wxpython/gmodeler/model.py:2942 ../gui/wxpython/gmodeler/frame.py:170
+msgid "Variables"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/preferences.py:32
+#: ../gui/wxpython/menustrings.py:2040
+msgid "Modeler settings"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/preferences.py:59
+msgid "Item properties"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/preferences.py:66
+msgid "Disabled:"
+msgstr "禁用："
+
+#: ../gui/wxpython/gmodeler/preferences.py:102
+#: ../gui/wxpython/gmodeler/dialogs.py:191
+#: ../gui/wxpython/gmodeler/dialogs.py:489
+#: ../gui/wxpython/gmodeler/dialogs.py:601
+#: ../gui/wxpython/gmodeler/frame.py:1894
+msgid "Command"
+msgstr "命令"
+
+#: ../gui/wxpython/gmodeler/preferences.py:107
+#: ../gui/wxpython/gmodeler/preferences.py:421
+#: ../gui/wxpython/gmodeler/preferences.py:533
+#: ../gui/wxpython/nviz/tools.py:973 ../gui/wxpython/nviz/tools.py:2815
+#: ../gui/wxpython/wxplot/dialogs.py:1109
+#: ../gui/wxpython/wxplot/dialogs.py:1191 ../gui/wxpython/iclass/dialogs.py:396
+#: ../gui/wxpython/psmap/dialogs.py:6368 ../gui/wxpython/psmap/dialogs.py:6722
+msgid "Color"
+msgstr "颜色"
+
+#: ../gui/wxpython/gmodeler/preferences.py:114
+#: ../gui/wxpython/gmodeler/preferences.py:428
+#: ../gui/wxpython/gmodeler/preferences.py:540
+msgid "Valid:"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/preferences.py:132
+msgid "Invalid:"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/preferences.py:150
+msgid "Running:"
+msgstr "运行中："
+
+#: ../gui/wxpython/gmodeler/preferences.py:177
+#: ../gui/wxpython/gmodeler/preferences.py:343
+#: ../gui/wxpython/gmodeler/preferences.py:455
+#: ../gui/wxpython/gmodeler/preferences.py:571
+msgid "Shape size"
+msgstr "形状的大小"
+
+#: ../gui/wxpython/gmodeler/preferences.py:184
+#: ../gui/wxpython/gmodeler/preferences.py:350
+#: ../gui/wxpython/gmodeler/preferences.py:462
+#: ../gui/wxpython/gmodeler/preferences.py:578
+#: ../gui/wxpython/nviz/preferences.py:559
+#: ../gui/wxpython/rdigit/toolbars.py:95
+#: ../gui/wxpython/gui_core/dialogs.py:1952
+#: ../gui/wxpython/psmap/dialogs.py:3830
+msgid "Width:"
+msgstr "宽度："
+
+#: ../gui/wxpython/gmodeler/preferences.py:210
+#: ../gui/wxpython/gmodeler/preferences.py:376
+#: ../gui/wxpython/gmodeler/preferences.py:488
+#: ../gui/wxpython/gmodeler/preferences.py:604
+#: ../gui/wxpython/nviz/tools.py:363 ../gui/wxpython/nviz/tools.py:1282
+#: ../gui/wxpython/nviz/tools.py:2123 ../gui/wxpython/gui_core/dialogs.py:1956
+#: ../gui/wxpython/psmap/dialogs.py:3848 ../gui/wxpython/psmap/dialogs.py:4065
+#: ../gui/wxpython/psmap/dialogs.py:4858
+msgid "Height:"
+msgstr "高度："
+
+#: ../gui/wxpython/gmodeler/preferences.py:250 ../gui/wxpython/nviz/tools.py:93
+#: ../gui/wxpython/lmgr/frame.py:337
+msgid "Data"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/preferences.py:255
+#: ../gui/wxpython/dbmgr/base.py:2353 ../gui/wxpython/dbmgr/dialogs.py:791
+msgid "Type"
+msgstr "类型"
+
+#: ../gui/wxpython/gmodeler/preferences.py:262
+msgid "Raster:"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/preferences.py:280
+msgid "3D raster:"
+msgstr "三维栅格图："
+
+#: ../gui/wxpython/gmodeler/preferences.py:298
+msgid "Vector:"
+msgstr "矢量地图："
+
+#: ../gui/wxpython/gmodeler/preferences.py:316
+msgid "Table:"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/preferences.py:416
+msgid "Loop"
+msgstr "循环"
+
+#: ../gui/wxpython/gmodeler/preferences.py:528
+msgid "Comment"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/preferences.py:661
+#: ../gui/wxpython/menustrings.py:2056
+msgid "Model properties"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/preferences.py:668
+#: ../gui/wxpython/lmgr/layertree.py:719 ../gui/wxpython/lmgr/layertree.py:830
+#: ../gui/wxpython/lmgr/layertree.py:864
+msgid "Metadata"
+msgstr "元数据"
+
+#: ../gui/wxpython/gmodeler/preferences.py:670
+msgid "Commands"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/preferences.py:682
+#: ../gui/wxpython/modules/import_export.py:90
+#: ../gui/wxpython/modules/vclean.py:146
+#: ../gui/wxpython/modules/mcalc_builder.py:282
+#: ../gui/wxpython/gui_core/preferences.py:1131
+msgid "Allow output files to overwrite existing files"
+msgstr "允许输出文件覆盖已存文件"
+
+#: ../gui/wxpython/gmodeler/preferences.py:694
+msgid "Apply properties"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/preferences.py:696
+#: ../gui/wxpython/wxplot/dialogs.py:838 ../gui/wxpython/wxplot/dialogs.py:1433
+#: ../gui/wxpython/gui_core/preferences.py:102
+#: ../gui/wxpython/vdigit/preferences.py:69
+#: ../gui/wxpython/psmap/dialogs.py:474
+msgid "Close dialog and ignore changes"
+msgstr "仅关闭对话框，不保存改动"
+
+#: ../gui/wxpython/gmodeler/preferences.py:715
+#: ../gui/wxpython/location_wizard/wizard.py:2137
+msgid "Description:"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/preferences.py:724
+msgid "Author(s):"
+msgstr "作者："
+
+#: ../gui/wxpython/gmodeler/dialogs.py:48
+msgid "Data properties"
+msgstr "数据属性"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:88 ../gui/wxpython/iclass/dialogs.py:257
+msgid "Name of raster map:"
+msgstr "栅格地图名称："
+
+#: ../gui/wxpython/gmodeler/dialogs.py:90 ../gui/wxpython/iclass/dialogs.py:259
+#: ../gui/wxpython/gui_core/dialogs.py:245
+msgid "Name of vector map:"
+msgstr "矢量地图名称："
+
+#: ../gui/wxpython/gmodeler/dialogs.py:93
+#: ../gui/wxpython/gmodeler/dialogs.py:111
+msgid "Name of element:"
+msgstr "要素名称："
+
+#: ../gui/wxpython/gmodeler/dialogs.py:104
+msgid "Type of element:"
+msgstr "要素类型："
+
+#: ../gui/wxpython/gmodeler/dialogs.py:162
+msgid "Add GRASS command to the model"
+msgstr "添加GRASS指令到模型"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:193
+msgid "Label and comment"
+msgstr "标签和注释"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:234
+#: ../gui/wxpython/gmodeler/frame.py:1616
+msgid "Label:"
+msgstr "标签："
+
+#: ../gui/wxpython/gmodeler/dialogs.py:238
+#: ../gui/wxpython/gmodeler/frame.py:889 ../gui/wxpython/gmodeler/frame.py:1630
+msgid "Comment:"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/dialogs.py:288
+msgid ""
+"Command not defined.\n"
+"\n"
+"Unable to add new action to the model."
+msgstr ""
+"该命令未定义。\n"
+"\n"
+"无法将新动作添加到模型。"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:295
+#, python-format
+msgid ""
+"'%s' is not a GRASS module.\n"
+"\n"
+"Unable to add new action to the model."
+msgstr ""
+"'%s'不是GRASS模块。\n"
+"\n"
+"无法将新动作添加到模块。"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:331
+msgid "Relation properties"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/dialogs.py:353
+msgid "From"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/dialogs.py:355 ../gui/wxpython/dbmgr/base.py:2414
+msgid "To"
+msgstr "到"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:397
+#, python-format
+msgid "Data: %s"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/dialogs.py:403
+msgid "Command:"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/dialogs.py:409
+msgid "Option:"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/dialogs.py:424
+msgid ""
+"Relation doesn't start with data item.\n"
+"Unable to add relation."
+msgstr ""
+"关系没有开始于数据项作。\n"
+"无法添加。"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:431
+msgid ""
+"Relation doesn't point to GRASS command.\n"
+"Unable to add relation."
+msgstr ""
+"关系与GRASS命令没有关联。\n"
+"无法添加。"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:444
+msgid ""
+"No relevant option found.\n"
+"Unable to add relation."
+msgstr ""
+"没有找到相关选项。\n"
+"无法添加。"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:483
+msgid "Condition"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/dialogs.py:488
+#: ../gui/wxpython/gmodeler/dialogs.py:600
+#: ../gui/wxpython/gmodeler/frame.py:1891 ../gui/wxpython/psmap/dialogs.py:3645
+msgid "Label"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/dialogs.py:511
+msgid "Loop properties"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/dialogs.py:517
+msgid "List of items in loop"
+msgstr "循环中的项目。"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:520
+msgid "Series"
+msgstr "系列"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:522
+msgid "Define map series as condition for the loop"
+msgstr "指定地图系列作为循环条件"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:567
+msgid "Define series of maps"
+msgstr "指定地图系列"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:585
+msgid "If-else properties"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/dialogs.py:592
+msgid "List of items in 'if' block"
+msgstr "'if'语句块中的项目。"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:598
+msgid "List of items in 'else' block"
+msgstr "'else'语句块中的项目。"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:770
+#, python-format
+msgid "Variable <%s> already exists in the model. Adding variable failed."
+msgstr "变量<%s>已存在，添加失败。"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:801
+msgid "Do you want to delete all variables from the model?"
+msgstr "确定要删除模型中所有变量？"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:803
+msgid "Delete variables"
+msgstr "删除变量"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:842
+#: ../gui/wxpython/gmodeler/dialogs.py:1011
+#: ../gui/wxpython/vdigit/dialogs.py:283
+msgid "Delete selected"
+msgstr "删除选中项目"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:843
+#: ../gui/wxpython/vdigit/dialogs.py:287
+msgid "Delete all"
+msgstr "全部删除"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:849
+#: ../gui/wxpython/gmodeler/dialogs.py:1015 ../gui/wxpython/dbmgr/base.py:1453
+#: ../gui/wxpython/dbmgr/base.py:2603 ../gui/wxpython/vdigit/dialogs.py:289
+msgid "Reload"
+msgstr "刷新"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:917
+#: ../gui/wxpython/location_wizard/wizard.py:935
+#: ../gui/wxpython/gui_core/gselect.py:2090
+msgid "No"
+msgstr "否"
+
+#: ../gui/wxpython/gmodeler/dialogs.py:919
+#: ../gui/wxpython/location_wizard/wizard.py:935
+#: ../gui/wxpython/gui_core/gselect.py:2092
+msgid "Yes"
+msgstr "是"
+
+#: ../gui/wxpython/gmodeler/g.gui.gmodeler.py:55
+msgid "Graphical Modeler - GRASS GIS"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:78 ../gui/wxpython/lmgr/toolbars.py:155
+#: ../gui/wxpython/gui_core/forms.py:1458
+msgid "Graphical Modeler"
+msgstr "建模器图形界面"
+
+#: ../gui/wxpython/gmodeler/frame.py:163
+msgid "Model"
+msgstr "  模型"
+
+#: ../gui/wxpython/gmodeler/frame.py:166
+msgid "Items"
+msgstr "项目"
+
+#: ../gui/wxpython/gmodeler/frame.py:174
+msgid "Python editor"
+msgstr "Python编辑器"
+
+#: ../gui/wxpython/gmodeler/frame.py:178 ../gui/wxpython/gui_core/forms.py:2305
+msgid "Command output"
+msgstr "命令运行结果输出"
+
+#: ../gui/wxpython/gmodeler/frame.py:260
+msgid "Python script contains local modifications"
+msgstr "Python脚本含有本地改动"
+
+#: ../gui/wxpython/gmodeler/frame.py:262 ../gui/wxpython/gmodeler/frame.py:2155
+msgid "Python script is up-to-date"
+msgstr "Python脚本已更新"
+
+#: ../gui/wxpython/gmodeler/frame.py:279
+msgid "Redrawing model..."
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:328
+msgid "Model computation finished"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:341
+msgid "Do you want to save changes in the model?"
+msgstr "保存对模型的改动？"
+
+#: ../gui/wxpython/gmodeler/frame.py:343
+msgid "Do you want to store current model settings to model file?"
+msgstr "将当前模型设置保存到模型文件？"
+
+#: ../gui/wxpython/gmodeler/frame.py:349
+msgid "Quit Graphical Modeler"
+msgstr "退出图形建模器"
+
+#: ../gui/wxpython/gmodeler/frame.py:410
+#, python-format
+msgid "%d intermediate maps deleted from current mapset"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:419
+msgid "No intermediate data to delete."
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:425
+#, python-format
+msgid "Do you want to permanently delete data?%s"
+msgstr "永久删除数据%s?"
+
+#: ../gui/wxpython/gmodeler/frame.py:427
+msgid "Delete intermediate data?"
+msgstr "删除临时数据？"
+
+#: ../gui/wxpython/gmodeler/frame.py:447 ../gui/wxpython/gmodeler/frame.py:597
+msgid "Current model is not empty. Do you want to store current settings to model file?"
+msgstr "当前模型非空，将当前模型开设保存到模型文件？"
+
+#: ../gui/wxpython/gmodeler/frame.py:450 ../gui/wxpython/gmodeler/frame.py:600
+msgid "Create new model?"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:487
+msgid "Choose model file"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:489 ../gui/wxpython/gmodeler/frame.py:549
+#: ../gui/wxpython/lmgr/frame.py:616
+msgid "GRASS Model File (*.gxm)|*.gxm"
+msgstr "GRASS模型文件(*.gxm)|*.gxm"
+
+#: ../gui/wxpython/gmodeler/frame.py:510
+#, python-format
+msgid "%(items)d items (%(actions)d actions) loaded into model"
+msgstr "模型项目%(items)d和动作(%(actions)d actions)已载入"
+
+#: ../gui/wxpython/gmodeler/frame.py:522 ../gui/wxpython/gmodeler/frame.py:566
+#, python-format
+msgid "Model file <%s> already exists. Do you want to overwrite this file?"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:525 ../gui/wxpython/menustrings.py:2027
+msgid "Save model"
+msgstr "保存模型"
+
+#: ../gui/wxpython/gmodeler/frame.py:534 ../gui/wxpython/gmodeler/frame.py:584
+#, python-format
+msgid "File <%s> saved"
+msgstr "文件<%s>已保存"
+
+#: ../gui/wxpython/gmodeler/frame.py:547
+msgid "Choose file to save current model"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:569 ../gui/wxpython/iclass/frame.py:1122
+msgid "File already exists"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:666
+msgid "Model is empty. Nothing to validate."
+msgstr "模型为空，无需验证。"
+
+#: ../gui/wxpython/gmodeler/frame.py:676
+#, python-format
+msgid ""
+"Model is not valid.\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:680
+msgid "Model is valid."
+msgstr "模型验证通过"
+
+#: ../gui/wxpython/gmodeler/frame.py:740 ../gui/wxpython/gmodeler/frame.py:747
+#, python-format
+msgid "Model exported to <%s>"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:890 ../gui/wxpython/menustrings.py:2052
+msgid "Add comment"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:900
+msgid "Empty comment. Nothing to add to the model."
+msgstr "空注释，无信息可添加到模型。"
+
+#: ../gui/wxpython/gmodeler/frame.py:936
+msgid "wxGUI Graphical Modeler"
+msgstr "wxGUI图形建模器"
+
+#: ../gui/wxpython/gmodeler/frame.py:1055
+#, python-format
+msgid ""
+"Reading model file <%s> failed.\n"
+"Invalid file, unable to parse XML document.\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1067
+msgid "Please wait, loading model..."
+msgstr "模型装载中，请稍候..."
+
+#: ../gui/wxpython/gmodeler/frame.py:1133
+msgid "Writing current settings to model file failed."
+msgstr "将当前设置保存到模型文件时操作不成功。"
+
+#: ../gui/wxpython/gmodeler/frame.py:1144 ../gui/wxpython/lmgr/frame.py:1716
+#, python-format
+msgid "Unable to open file <%s> for writing."
+msgstr "无法打开文件<%s>。"
+
+#: ../gui/wxpython/gmodeler/frame.py:1508
+msgid "Disable"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1514
+msgid "Enable"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1522
+#: ../gui/wxpython/gmodeler/frame.py:1617
+msgid "Set label"
+msgstr "添加标注"
+
+#: ../gui/wxpython/gmodeler/frame.py:1528
+#: ../gui/wxpython/gmodeler/frame.py:1631
+msgid "Set comment"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1538
+msgid "Add control point"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1545
+msgid "Remove control point"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1559
+msgid "Intermediate"
+msgstr "临时数据"
+
+#: ../gui/wxpython/gmodeler/frame.py:1572 ../gui/wxpython/nviz/tools.py:1571
+#: ../gui/wxpython/nviz/tools.py:1785 ../gui/wxpython/lmgr/frame.py:348
+#: ../gui/wxpython/vdigit/preferences.py:160
+msgid "Display"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1589 ../gui/wxpython/lmgr/layertree.py:487
+msgid "Properties"
+msgstr "属性"
+
+#: ../gui/wxpython/gmodeler/frame.py:1731
+msgid "List of variables - right-click to delete"
+msgstr "变量列表 - 点击鼠标右键以删除"
+
+#: ../gui/wxpython/gmodeler/frame.py:1736
+#: ../gui/wxpython/gmodeler/frame.py:1783
+#: ../gui/wxpython/location_wizard/wizard.py:215
+#: ../gui/wxpython/gui_core/ghelp.py:398 ../gui/wxpython/gui_core/ghelp.py:400
+#: ../gui/wxpython/gui_core/ghelp.py:473
+msgid "Name"
+msgstr "名称"
+
+#: ../gui/wxpython/gmodeler/frame.py:1737
+#: ../gui/wxpython/gmodeler/frame.py:1790 ../gui/wxpython/dbmgr/base.py:2911
+msgid "Data type"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1738
+#: ../gui/wxpython/gmodeler/frame.py:1796
+msgid "Default value"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1739
+#: ../gui/wxpython/gmodeler/frame.py:1803
+#: ../gui/wxpython/location_wizard/wizard.py:235
+#: ../gui/wxpython/location_wizard/wizard.py:500
+#: ../gui/wxpython/location_wizard/wizard.py:1018
+#: ../gui/wxpython/location_wizard/wizard.py:1208
+#: ../gui/wxpython/location_wizard/wizard.py:1530
+#: ../gui/wxpython/location_wizard/wizard.py:1743
+msgid "Description"
+msgstr "描述"
+
+#: ../gui/wxpython/gmodeler/frame.py:1744
+msgid "Add new variable"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1748
+msgid "integer"
+msgstr "整数"
+
+#: ../gui/wxpython/gmodeler/frame.py:1749
+msgid "float"
+msgstr "浮点数"
+
+#: ../gui/wxpython/gmodeler/frame.py:1750
+msgid "string"
+msgstr "字串"
+
+#: ../gui/wxpython/gmodeler/frame.py:1751
+#: ../gui/wxpython/gui_core/dialogs.py:1467
+#: ../gui/wxpython/gui_core/dialogs.py:1713 ../gui/wxpython/gcp/manager.py:389
+#: ../gui/wxpython/image2target/ii2t_manager.py:396
+#: ../gui/wxpython/psmap/dialogs.py:924
+msgid "raster"
+msgstr "栅格"
+
+#: ../gui/wxpython/gmodeler/frame.py:1752
+#: ../gui/wxpython/gui_core/dialogs.py:1467 ../gui/wxpython/gcp/manager.py:389
+#: ../gui/wxpython/image2target/ii2t_manager.py:396
+#: ../gui/wxpython/psmap/dialogs.py:927
+msgid "vector"
+msgstr "矢量"
+
+#: ../gui/wxpython/gmodeler/frame.py:1753
+msgid "region"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1754
+msgid "mapset"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1755
+#: ../gui/wxpython/gui_core/forms.py:1848
+msgid "file"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1756
+msgid "dir"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1763
+msgid "Add new variable to the model"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1886
+msgid "List of items - right-click to delete"
+msgstr "项目列表 - 点击鼠标右键以删除"
+
+#: ../gui/wxpython/gmodeler/frame.py:1892
+msgid "In loop"
+msgstr "循环中"
+
+#: ../gui/wxpython/gmodeler/frame.py:1893
+msgid "Parameterized"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1949
+msgid "No items to selected."
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1985
+msgid "Python script"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1991
+msgid "Run python script"
+msgstr "运行Python脚本"
+
+#: ../gui/wxpython/gmodeler/frame.py:1994
+msgid "Save python script to file"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:1997
+msgid ""
+"Refresh python script based on the model.\n"
+"It will discards all local changes."
+msgstr ""
+"使用模型来刷新Python脚本。\n"
+"本地所作的改动不予保存。"
+
+#: ../gui/wxpython/gmodeler/frame.py:2035
+#, python-format
+msgid "Unable to launch Python script. %s"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:2070
+#: ../gui/wxpython/gui_core/pyedit.py:383
+msgid "Choose file to save"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:2075
+#: ../gui/wxpython/gui_core/pyedit.py:385
+#: ../gui/wxpython/gui_core/pyedit.py:450
+msgid "Python script (*.py)|*.py"
+msgstr "Python脚本 (*.py)|*.py"
+
+#: ../gui/wxpython/gmodeler/frame.py:2092 ../gui/wxpython/wxplot/profile.py:375
+#: ../gui/wxpython/gui_core/pyedit.py:401
+#, python-format
+msgid "File <%s> already exists. Do you want to overwrite this file?"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:2095
+#: ../gui/wxpython/gui_core/pyedit.py:403
+msgid "Save file"
+msgstr ""
+
+#: ../gui/wxpython/gmodeler/frame.py:2132
+msgid "Python script is locally modificated. Refresh will discard all changes. Do you really want to continue?"
+msgstr "Python脚本已被改动，进行刷新操作将丢失所有改动。确定继续刷新？"
+
+#: ../gui/wxpython/gmodeler/frame.py:2135
+msgid "Update"
+msgstr "更新"
+
+#: ../gui/wxpython/location_wizard/wizard.py:173
+#: ../gui/wxpython/location_wizard/wizard.py:2305
+msgid "Define new GRASS Location"
+msgstr "定义新GRASS地点"
+
+#: ../gui/wxpython/location_wizard/wizard.py:186
+msgid "Change"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:202
+#: ../gui/wxpython/gui_core/forms.py:1142
+msgid "This option is required"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:205
+msgid "(optional)"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:216
+msgid "Name of location directory in GIS Data Directory"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:237
+msgid "Description of location directory in GIS Data Directory"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:253
+msgid "Location will be created in GRASS database:"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:277
+msgid "Name '{}' is not a valid name for location. Please use only ASCII characters excluding characters {} and space."
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:280
+#: ../gui/wxpython/modules/import_export.py:248
+#: ../gui/wxpython/gui_core/widgets.py:855
+#: ../gui/wxpython/image2target/ii2t_gis_set.py:1090
+msgid "Invalid name"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:290
+msgid "Location '{}' already exists. Please consider using another name for your location."
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:293
+msgid "Existing location path"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:325
+msgid "Title of the location is limited only to one line and 256 characters. The rest of the text will be ignored."
+msgstr "地点标签长度限制1行256个字符串。多出部分将被忽略。"
+
+#: ../gui/wxpython/location_wizard/wizard.py:335
+msgid "Select Coordinate Reference System (CRS)"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:346
+msgid "Select CRS from a list by EPSG or description"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:352
+#: ../gui/wxpython/location_wizard/wizard.py:1358
+msgid "Read CRS from a georeferenced data file"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:354
+msgid "Create a generic cartesian coordinate system (XY)"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:357
+#: ../gui/wxpython/location_wizard/wizard.py:1437
+msgid "Specify CRS using WKT string"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:360
+#: ../gui/wxpython/location_wizard/wizard.py:1959
+msgid "Specify CRS using PROJ.4 string"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:362
+#: ../gui/wxpython/location_wizard/wizard.py:479
+msgid "Define custom CRS"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:374
+msgid "Additional methods:"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:500
+#: ../gui/wxpython/location_wizard/wizard.py:1018
+#: ../gui/wxpython/location_wizard/wizard.py:1208
+#: ../gui/wxpython/location_wizard/wizard.py:1529
+#: ../gui/wxpython/location_wizard/wizard.py:1742
+msgid "Code"
+msgstr "代码"
+
+#: ../gui/wxpython/location_wizard/wizard.py:504
+msgid "Projection code:"
+msgstr "投影代码："
+
+#: ../gui/wxpython/location_wizard/wizard.py:512
+#: ../gui/wxpython/location_wizard/wizard.py:1031
+#: ../gui/wxpython/location_wizard/wizard.py:1225
+msgid "Search in description:"
+msgstr "在描述中搜索："
+
+#: ../gui/wxpython/location_wizard/wizard.py:687
+#, python-format
+msgid "Unable to read list: %s"
+msgstr "无法读取列表：%s"
+
+#: ../gui/wxpython/location_wizard/wizard.py:778
+msgid "Choose projection parameters"
+msgstr "选择投影参数"
+
+#: ../gui/wxpython/location_wizard/wizard.py:796
+msgid "Select datum or ellipsoid (next page)"
+msgstr "指定基准面或椭球体（下一页）"
+
+#: ../gui/wxpython/location_wizard/wizard.py:804
+msgid "Datum with associated ellipsoid"
+msgstr "基准面及相关椭球体"
+
+#: ../gui/wxpython/location_wizard/wizard.py:807
+msgid "Ellipsoid only"
+msgstr "仅椭球体"
+
+#: ../gui/wxpython/location_wizard/wizard.py:865
+#, python-format
+msgid "You must enter a value for %s"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:884
+#: ../gui/wxpython/location_wizard/wizard.py:905
+#, python-format
+msgid " Enter parameters for %s projection "
+msgstr "输入投影%s的参数"
+
+#: ../gui/wxpython/location_wizard/wizard.py:990
+msgid "Specify geodetic datum"
+msgstr "选择大地测量基准面"
+
+#: ../gui/wxpython/location_wizard/wizard.py:1018
+msgid "Ellipsoid"
+msgstr "椭球体"
+
+#: ../gui/wxpython/location_wizard/wizard.py:1022
+msgid "Datum code:"
+msgstr "基准面代码："
+
+#: ../gui/wxpython/location_wizard/wizard.py:1174
+msgid "Specify ellipsoid"
+msgstr "指定椭球体"
+
+#: ../gui/wxpython/location_wizard/wizard.py:1196
+msgid "Earth based"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:1199
+msgid "Planetary bodies"
+msgstr "行星体"
+
+#: ../gui/wxpython/location_wizard/wizard.py:1213
+msgid "Ellipsoid code:"
+msgstr "椭球体代码"
+
+#: ../gui/wxpython/location_wizard/wizard.py:1368
+msgid "Georeferenced file:"
+msgstr "地理配准文件："
+
+#: ../gui/wxpython/location_wizard/wizard.py:1421
+msgid "Select georeferenced file"
+msgstr "选择地理配准文件"
+
+#: ../gui/wxpython/location_wizard/wizard.py:1450
+msgid "Enter WKT parameters string:"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:1498
+msgid "Select CRS from a list"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:1514
+msgid "Filter by EPSG code or description:"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:1517
+msgid "Find more information at:"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:1531
+#: ../gui/wxpython/location_wizard/wizard.py:1744
+#: ../gui/wxpython/vnet/dialogs.py:371
+msgid "Parameters"
+msgstr "参数："
+
+#: ../gui/wxpython/location_wizard/wizard.py:1680
+#: ../gui/wxpython/gui_core/preferences.py:1909
+#, python-brace-format
+msgid "Unable to read EPGS codes: {0}"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:1698
+msgid "Choose IAU Code"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:1714
+msgid "Path to the IAU-codes file:"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:1717
+msgid "IAU code:"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:1905
+msgid "Choose IAU codes file"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:1939
+#, python-brace-format
+msgid "Unable to read IAU codes: {0}"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:1975
+msgid "Enter PROJ.4 parameters string:"
+msgstr "输入PROJ.4参数字符串"
+
+#: ../gui/wxpython/location_wizard/wizard.py:2031
+#: ../gui/wxpython/location_wizard/wizard.py:2035
+msgid "Datum transform is required."
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:2075
+#: ../gui/wxpython/rlisetup/wizard.py:1745
+msgid "Summary"
+msgstr "总结"
+
+#: ../gui/wxpython/location_wizard/wizard.py:2125
+msgid "GRASS Database:"
+msgstr "GRASS数据库："
+
+#: ../gui/wxpython/location_wizard/wizard.py:2131
+msgid "Location Name:"
+msgstr "地点名称："
+
+#: ../gui/wxpython/location_wizard/wizard.py:2143
+msgid "Projection:"
+msgstr "投影："
+
+#: ../gui/wxpython/location_wizard/wizard.py:2151
+msgid ""
+"PROJ.4 definition:\n"
+" (non-definitive)"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:2258
+#: ../gui/wxpython/psmap/dialogs.py:702 ../gui/wxpython/psmap/dialogs.py:723
+msgid "custom"
+msgstr "自定义"
+
+#: ../gui/wxpython/location_wizard/wizard.py:2400
+#, python-format
+msgid ""
+"Unable to create new location. Location <%(loc)s> not created.\n"
+"\n"
+"Details: %(err)s"
+msgstr ""
+"无法创建地点<%(loc)s>.\n"
+"\n"
+"更多信息: %(err)s"
+
+#: ../gui/wxpython/location_wizard/wizard.py:2537
+msgid "Unable to create new location"
+msgstr "无法创建新地点"
+
+#: ../gui/wxpython/location_wizard/wizard.py:2539
+msgid "Location already exists in GRASS Database."
+msgstr "该地点已存在于GRASS数据库中."
+
+#: ../gui/wxpython/location_wizard/wizard.py:2553
+msgid "Unable to create new GRASS Database"
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:2585
+msgid "EPSG code missing."
+msgstr "没有EPSG代码。"
+
+#: ../gui/wxpython/location_wizard/wizard.py:2595
+msgid "IAU code missing."
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:2606
+#, python-format
+msgid "File <%s> not found."
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/wizard.py:2614
+msgid "WKT string missing."
+msgstr ""
+
+#: ../gui/wxpython/location_wizard/dialogs.py:37
+msgid "Set default region extent and resolution"
+msgstr "设置缺省地域范围和分辨率"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:108
+msgid "&Set region"
+msgstr "设置区域(&S)"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:140
+msgid "Invalid location selected."
+msgstr "选择了无效地点."
+
+#: ../gui/wxpython/location_wizard/dialogs.py:159
+msgid "Invalid region"
+msgstr "无效区域"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:190
+msgid "Click here to show 3D settings"
+msgstr "点击显示3D设置"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:191
+msgid "Click here to hide 3D settings"
+msgstr "点击关闭3D设置"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:217
+#: ../gui/wxpython/location_wizard/dialogs.py:525
+#, python-format
+msgid "Rows: %d"
+msgstr "行:%d"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:218
+#: ../gui/wxpython/location_wizard/dialogs.py:526
+#, python-format
+msgid "Cols: %d"
+msgstr "列:%d"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:219
+#: ../gui/wxpython/location_wizard/dialogs.py:527
+#, python-format
+msgid "Cells: %d"
+msgstr "像素:%d"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:267
+#: ../gui/wxpython/location_wizard/dialogs.py:529
+#, python-format
+msgid "Depth: %d"
+msgstr "深度:%d"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:271
+#: ../gui/wxpython/location_wizard/dialogs.py:530
+#, python-format
+msgid "3D Cells: %d"
+msgstr "3D像素:%d"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:275
+#: ../gui/wxpython/psmap/dialogs.py:531
+msgid "Top"
+msgstr "顶端"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:283
+#: ../gui/wxpython/psmap/dialogs.py:532
+msgid "Bottom"
+msgstr "底部"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:294
+msgid "T-B resolution"
+msgstr "顶到底分辨率"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:359
+msgid "North"
+msgstr "北"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:367
+msgid "West"
+msgstr "西"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:389
+msgid "East"
+msgstr "东"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:398
+msgid "South"
+msgstr "南"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:402
+msgid "N-S resolution"
+msgstr "南北向分辨率"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:410
+msgid "E-W resolution"
+msgstr "东西向分辨率"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:488
+#, python-format
+msgid "Invalid value: %s"
+msgstr "无效数值: %s"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:585
+msgid "Select datum transformation"
+msgstr "选择基准面转换"
+
+#: ../gui/wxpython/location_wizard/dialogs.py:611
+msgid "Select from list of datum transformations"
+msgstr "从基准面转换列表选择"
+
+#: ../gui/wxpython/photo2image/ip2i_statusbar.py:37
+#: ../gui/wxpython/gcp/statusbar.py:37
+#: ../gui/wxpython/image2target/ii2t_statusbar.py:37
+msgid "Go to GCP No."
+msgstr "转到如下标号的地面控制点(GCP)。"
+
+#: ../gui/wxpython/photo2image/ip2i_statusbar.py:54
+#: ../gui/wxpython/gcp/statusbar.py:54
+#: ../gui/wxpython/image2target/ii2t_statusbar.py:54
+msgid "Valid Range:"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_statusbar.py:120
+#: ../gui/wxpython/gcp/statusbar.py:120
+#: ../gui/wxpython/image2target/ii2t_statusbar.py:120
+msgid "RMS error"
+msgstr "均方差错误"
+
+#: ../gui/wxpython/photo2image/ip2i_statusbar.py:124
+#: ../gui/wxpython/gcp/statusbar.py:124
+#: ../gui/wxpython/image2target/ii2t_statusbar.py:124
+#, python-format
+msgid "Forward: %(forw)s, Backward: %(back)s"
+msgstr "继续：%(forw)s,后退：%(back)s"
+
+#: ../gui/wxpython/photo2image/g.gui.photo2image.py:98
+msgid "Please provide a group name to process"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/g.gui.photo2image.py:103
+msgid "Please provide a raster map name to process"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/g.gui.photo2image.py:108
+msgid "Please provide a camera name (generated by i.ortho.camera)"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/g.gui.photo2image.py:113
+msgid "Please provive an order value (1 if 4 Fiducials, 2 if 8 Fiducials)"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/g.gui.photo2image.py:118
+msgid "Please provive an output files extension (used by i.rectify)"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:268
+msgid "Manage Location of Fiducial Points on a Scanned Photo"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:372
+msgid "A POINTS file exists, renaming it to POINTS_BAK"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:398
+msgid "Opening CAMERA file failed"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:433
+#: ../gui/wxpython/photo2image/ip2i_manager.py:835
+#: ../gui/wxpython/gcp/manager.py:1492
+msgid "Writing POINTS file failed"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:608
+#: ../gui/wxpython/gcp/manager.py:1261
+#: ../gui/wxpython/image2target/ii2t_manager.py:1227
+#, python-format
+msgid "At least %d GCPs required. Operation canceled."
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:751
+#: ../gui/wxpython/gcp/manager.py:1408
+#: ../gui/wxpython/image2target/ii2t_manager.py:1369
+msgid "source"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:753
+#: ../gui/wxpython/gcp/manager.py:1410
+#: ../gui/wxpython/image2target/ii2t_manager.py:1371
+msgid "target"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:755
+#: ../gui/wxpython/gcp/manager.py:1412
+#: ../gui/wxpython/image2target/ii2t_manager.py:1373
+msgid "Set GCP coordinates"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:757
+#: ../gui/wxpython/gcp/manager.py:1414
+#: ../gui/wxpython/image2target/ii2t_manager.py:1375
+#, python-format
+msgid ""
+"Set %(coor)s coordinates for GCP No. %(key)s? \n"
+"\n"
+"East: %(coor0)s \n"
+"North: %(coor1)s"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:848
+#: ../gui/wxpython/gcp/manager.py:1504
+#, python-format
+msgid "POINTS file saved for group <%s>"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:864
+#: ../gui/wxpython/gcp/manager.py:1520
+#: ../gui/wxpython/image2target/ii2t_manager.py:1513
+msgid "source mapwin not defined"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:868
+#: ../gui/wxpython/gcp/manager.py:1524
+#: ../gui/wxpython/image2target/ii2t_manager.py:1517
+msgid "target mapwin not defined"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:897
+#: ../gui/wxpython/gcp/manager.py:1553
+msgid "Reading POINTS file failed"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:982
+#: ../gui/wxpython/gcp/manager.py:1638
+#: ../gui/wxpython/image2target/ii2t_manager.py:1633
+#, python-format
+msgid ""
+"Insufficient points defined and active (checked) for selected rectification method (order: %d).\n"
+"3+ points needed for 1st order,\n"
+"6+ points for 2nd order, and\n"
+"10+ points for 3rd order."
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1010
+#: ../gui/wxpython/gcp/manager.py:1732
+#: ../gui/wxpython/image2target/ii2t_manager.py:1661
+msgid "Rectifying images, please wait..."
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1032
+msgid "Writing output image to group, please wait..."
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1062
+#: ../gui/wxpython/gcp/manager.py:1831
+#: ../gui/wxpython/image2target/ii2t_manager.py:1747
+msgid "GCP Manager settings"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1107
+#: ../gui/wxpython/gcp/manager.py:1878
+#: ../gui/wxpython/image2target/ii2t_manager.py:1794
+msgid "Quit GCP Manager"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1108
+#: ../gui/wxpython/gcp/manager.py:1879
+#: ../gui/wxpython/image2target/ii2t_manager.py:1795
+msgid "Save ground control points?"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1186
+#: ../gui/wxpython/gcp/manager.py:1959
+msgid ""
+"Could not calculate RMS Error.\n"
+"Possible error with m.transform."
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1314
+#: ../gui/wxpython/gcp/manager.py:2087
+msgid ""
+"Could not calculate new extends.\n"
+"Possible error with m.transform."
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1446
+#: ../gui/wxpython/gcp/manager.py:2219
+#: ../gui/wxpython/image2target/ii2t_manager.py:2132
+msgid "Adjust source display to target display"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1451
+#: ../gui/wxpython/gcp/manager.py:2224
+#: ../gui/wxpython/image2target/ii2t_manager.py:2137
+msgid "Adjust target display to source display"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1525
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1543
+#: ../gui/wxpython/vnet/widgets.py:95 ../gui/wxpython/vnet/vnet_data.py:261
+#: ../gui/wxpython/gcp/manager.py:2298 ../gui/wxpython/gcp/manager.py:2316
+#: ../gui/wxpython/image2target/ii2t_manager.py:2211
+#: ../gui/wxpython/image2target/ii2t_manager.py:2231
+msgid "use"
+msgstr "使用"
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1526
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1544
+msgid "source X"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1527
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1545
+msgid "source Y"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1528
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1546
+msgid "target X"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1529
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1547
+msgid "target Y"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1530
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1548
+#: ../gui/wxpython/gcp/manager.py:2303 ../gui/wxpython/gcp/manager.py:2321
+#: ../gui/wxpython/image2target/ii2t_manager.py:2218
+#: ../gui/wxpython/image2target/ii2t_manager.py:2238
+msgid "Forward error"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1531
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1549
+#: ../gui/wxpython/gcp/manager.py:2304 ../gui/wxpython/gcp/manager.py:2322
+#: ../gui/wxpython/image2target/ii2t_manager.py:2219
+#: ../gui/wxpython/image2target/ii2t_manager.py:2239
+msgid "Backward error"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1686
+#: ../gui/wxpython/gcp/manager.py:2459
+#: ../gui/wxpython/image2target/ii2t_manager.py:2378
+msgid "Invalid coordinate value. Operation canceled."
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1724
+#: ../gui/wxpython/gcp/manager.py:2637
+#: ../gui/wxpython/image2target/ii2t_manager.py:2553
+msgid "Edit GCP"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1736
+#: ../gui/wxpython/gcp/manager.py:2649
+#: ../gui/wxpython/image2target/ii2t_manager.py:2565
+msgid "Ground Control Point No."
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1755
+msgid "source X:"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1756
+msgid "target X:"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1757
+msgid "source Y:"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1758
+msgid "target Y:"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1894
+#: ../gui/wxpython/gcp/manager.py:2808 ../gui/wxpython/vdigit/preferences.py:97
+#: ../gui/wxpython/image2target/ii2t_manager.py:2731
+#: ../gui/wxpython/psmap/dialogs.py:2659
+msgid "Symbology"
+msgstr "符号样式"
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1903
+#: ../gui/wxpython/gcp/manager.py:2817
+#: ../gui/wxpython/image2target/ii2t_manager.py:2740
+msgid "Highlight highest RMS error only"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1916
+#: ../gui/wxpython/gcp/manager.py:2830
+#: ../gui/wxpython/image2target/ii2t_manager.py:2753
+msgid "Highlight RMS error > M + SD * factor:"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1920
+#: ../gui/wxpython/gcp/manager.py:2833
+#: ../gui/wxpython/image2target/ii2t_manager.py:2756
+msgid ""
+"Highlight GCPs with an RMS error larger than \n"
+"mean + standard deviation * given factor. \n"
+"Recommended values for this factor are between 1 and 2."
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1943
+#: ../gui/wxpython/gcp/manager.py:2856
+#: ../gui/wxpython/image2target/ii2t_manager.py:2779
+msgid "Symbol settings"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1951
+#: ../gui/wxpython/nviz/preferences.py:372
+#: ../gui/wxpython/nviz/preferences.py:574
+#: ../gui/wxpython/nviz/preferences.py:640 ../gui/wxpython/nviz/tools.py:1420
+#: ../gui/wxpython/nviz/tools.py:2151 ../gui/wxpython/nviz/tools.py:2293
+#: ../gui/wxpython/mapswipe/dialogs.py:283
+#: ../gui/wxpython/gui_core/preferences.py:1513
+#: ../gui/wxpython/gcp/manager.py:2864
+#: ../gui/wxpython/image2target/ii2t_manager.py:2787
+#: ../gui/wxpython/psmap/dialogs.py:2383 ../gui/wxpython/psmap/dialogs.py:2539
+msgid "Color:"
+msgstr "颜色："
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1971
+#: ../gui/wxpython/gcp/manager.py:2884
+#: ../gui/wxpython/image2target/ii2t_manager.py:2807
+msgid "Color for high RMS error:"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:1991
+#: ../gui/wxpython/gcp/manager.py:2904
+#: ../gui/wxpython/image2target/ii2t_manager.py:2827
+msgid "Color for selected GCP:"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2011
+#: ../gui/wxpython/gcp/manager.py:2924
+#: ../gui/wxpython/image2target/ii2t_manager.py:2847
+msgid "Color for unused GCPs:"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2027
+#: ../gui/wxpython/gcp/manager.py:2940
+#: ../gui/wxpython/image2target/ii2t_manager.py:2863
+msgid "Show unused GCPs"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2044
+#: ../gui/wxpython/gui_core/preferences.py:1440
+#: ../gui/wxpython/gcp/manager.py:2957
+#: ../gui/wxpython/image2target/ii2t_manager.py:2880
+msgid "Symbol size:"
+msgstr "符号尺寸："
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2066
+#: ../gui/wxpython/vnet/dialogs.py:1288 ../gui/wxpython/mapswipe/dialogs.py:330
+#: ../gui/wxpython/gui_core/preferences.py:1408
+#: ../gui/wxpython/gcp/manager.py:2979
+#: ../gui/wxpython/image2target/ii2t_manager.py:2902
+#: ../gui/wxpython/psmap/dialogs.py:6797
+msgid "Line width:"
+msgstr "线条宽度："
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2112
+#: ../gui/wxpython/gcp/manager.py:752 ../gui/wxpython/gcp/manager.py:3032
+#: ../gui/wxpython/image2target/ii2t_manager.py:743
+#: ../gui/wxpython/image2target/ii2t_manager.py:2954
+msgid "Select source map to display:"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2126
+#: ../gui/wxpython/gcp/manager.py:778 ../gui/wxpython/gcp/manager.py:3046
+#: ../gui/wxpython/image2target/ii2t_manager.py:769
+#: ../gui/wxpython/image2target/ii2t_manager.py:2968
+msgid "Select target raster map to display:"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2151
+#: ../gui/wxpython/gcp/manager.py:3086
+#: ../gui/wxpython/image2target/ii2t_manager.py:3008
+msgid "Rectification"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2160
+#: ../gui/wxpython/gcp/manager.py:3095
+#: ../gui/wxpython/image2target/ii2t_manager.py:3017
+msgid "Select rectification order"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2162
+#: ../gui/wxpython/gcp/manager.py:3097
+#: ../gui/wxpython/image2target/ii2t_manager.py:3019
+msgid "1st order"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2163
+#: ../gui/wxpython/gcp/manager.py:3098
+#: ../gui/wxpython/image2target/ii2t_manager.py:3020
+msgid "2nd order"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2164
+#: ../gui/wxpython/gcp/manager.py:3099
+#: ../gui/wxpython/image2target/ii2t_manager.py:3021
+msgid "3rd order"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2176
+#: ../gui/wxpython/gcp/manager.py:3111
+#: ../gui/wxpython/image2target/ii2t_manager.py:3033
+msgid "Select interpolation method:"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2192
+#: ../gui/wxpython/gcp/manager.py:3127
+#: ../gui/wxpython/image2target/ii2t_manager.py:3049
+msgid "clip to computational region in target location"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2202
+#: ../gui/wxpython/gcp/manager.py:584 ../gui/wxpython/gcp/manager.py:3148
+#: ../gui/wxpython/image2target/ii2t_manager.py:591
+#: ../gui/wxpython/image2target/ii2t_manager.py:3059
+msgid "Extension for output maps:"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2243
+#: ../gui/wxpython/gcp/manager.py:3189
+#: ../gui/wxpython/image2target/ii2t_manager.py:3100
+msgid "RMS threshold factor must be > 0"
+msgstr ""
+
+#: ../gui/wxpython/photo2image/ip2i_manager.py:2246
+#: ../gui/wxpython/gcp/manager.py:3192
+#: ../gui/wxpython/image2target/ii2t_manager.py:3103
+msgid ""
+"RMS threshold factor is < 1\n"
+"Too many points might be highlighted"
+msgstr ""
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 #: ../gui/wxpython/photo2image/ip2i_manager.py:2406
 #: ../gui/wxpython/gcp/manager.py:3405
 #: ../gui/wxpython/image2target/ii2t_manager.py:3287
@@ -37557,6 +39171,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -38121,6 +39736,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/vnet/toolbars.py:54
 msgid "Activate mode for turns editing"
@@ -39369,6 +40991,7 @@ msgid "Map Display {number}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -39579,6 +41202,11 @@ msgid "Map Display {number}"
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../gui/wxpython/lmgr/frame.py:2179
@@ -41204,6 +42832,7 @@ msgid "3D Raster Map Calculator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -41491,6 +43120,11 @@ msgid "3D Raster Map Calculator"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../gui/wxpython/modules/import_export.py:69
@@ -42874,6 +44508,7 @@ msgstr "警告"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -43438,6 +45073,13 @@ msgstr "警告"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgid "Setup for r.li modules"
 msgstr ""
 
@@ -43543,6 +45185,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -43584,6 +45227,8 @@ msgid "Text properties"
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #: ../gui/wxpython/main_window/frame.py:594 ../gui/wxpython/lmgr/frame.py:187
 =======
 <<<<<<< HEAD
@@ -43969,6 +45614,7 @@ msgid "Text properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -44162,6 +45808,12 @@ msgid "Text properties"
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#: ../gui/wxpython/mapwin/decorations.py:203
+msgid "Text properties"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../gui/wxpython/mapwin/decorations.py:226
@@ -45664,6 +47316,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/wxplot/histogram.py:43
 msgid "Histogram Tool"
 =======
@@ -46062,6 +47715,8 @@ msgid "Histogram Tool"
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #: ../gui/wxpython/photo2image/g.gui.photo2image.py:104
 msgid "Please provide a raster map name to process"
 msgstr ""
@@ -46522,6 +48177,7 @@ msgid "Histogram Tool"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -46618,9 +48274,12 @@ msgid "Histogram Tool"
 >>>>>>> osgeo-main
 =======
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 #: ../gui/wxpython/wxplot/histogram.py:43
 msgid "Histogram Tool"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -46838,6 +48497,8 @@ msgid "Histogram Tool"
 #: ../gui/wxpython/wxplot/histogram.py:43
 msgid "Histogram Tool"
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../gui/wxpython/wxplot/histogram.py:51
@@ -49178,6 +50839,7 @@ msgid "Neighborhood analysis tool for vector point maps. Makes each cell value a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -49466,6 +51128,11 @@ msgid "Neighborhood analysis tool for vector point maps. Makes each cell value a
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../gui/wxpython/menustrings.py:346 ../gui/wxpython/menustrings.py:1291
@@ -52491,6 +54158,7 @@ msgstr "显示选中矢量地图的属性数据"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/menustrings.py:1031 ../gui/wxpython/menustrings.py:1976
 msgid "Univariate raster dataset statistics"
 msgstr "栅格数据集一元统计量"
@@ -52895,6 +54563,8 @@ msgid "Launch Data Catalog."
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #: ../gui/wxpython/lmgr/toolbars.py:128
 #, fuzzy
 msgid "Add multiple map layers"
@@ -53032,6 +54702,7 @@ msgid "Launch Data Catalog."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -53144,6 +54815,9 @@ msgid "Launch Data Catalog."
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #: ../gui/wxpython/menustrings.py:1031 ../gui/wxpython/menustrings.py:1976
 msgid "Univariate raster dataset statistics"
 msgstr "栅格数据集一元统计量"
@@ -53241,6 +54915,7 @@ msgstr "属性表管理器"
 
 #: ../gui/wxpython/menustrings.py:2000
 msgid "Launch Data Catalog."
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -53560,6 +55235,9 @@ msgid "Launch Data Catalog."
 #: ../gui/wxpython/menustrings.py:2000
 msgid "Launch Data Catalog."
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../gui/wxpython/menustrings.py:2007
@@ -54899,6 +56577,7 @@ msgid "Unable to create new mapset: {}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -55463,6 +57142,13 @@ msgid "Unable to create new mapset: {}"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../gui/wxpython/lmgr/pyshell.py:143
@@ -57797,6 +59483,7 @@ msgstr ""
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/dbmgr/manager.py:78
 msgid "Attribute Table Manager"
 =======
@@ -57821,6 +59508,10 @@ msgid ""
 "Attribute table <%s> not found. For creating the table switch to 'Manage "
 "layers' tab."
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/dbmgr/manager.py:78
+msgid "Attribute Table Manager"
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../gui/wxpython/dbmgr/manager.py:81
@@ -63666,6 +65357,7 @@ msgstr "标签："
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -63888,6 +65580,8 @@ msgstr "标签："
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #~ msgid "Location Name:"
 #~ msgstr "地点名称："
 
@@ -64205,6 +65899,7 @@ msgid "Cartographic Composer - GRASS GIS"
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64494,6 +66189,11 @@ msgid "Cartographic Composer - GRASS GIS"
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/psmap/g.gui.psmap.py:51
+msgid "Cartographic Composer - GRASS GIS"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #, fuzzy
@@ -67291,6 +68991,7 @@ msgstr "创建新地点？"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -67711,3 +69412,8 @@ msgstr "创建新地点？"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)

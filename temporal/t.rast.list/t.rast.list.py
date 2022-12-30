@@ -110,6 +110,9 @@ def message_option_value_excludes_option_value(
         "{excluded_option_name}={excluded_option_value} is not allowed. {reason}"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     ).format(
         option_name=option_name,
         option_value=option_value,
@@ -120,9 +123,12 @@ def message_option_value_excludes_option_value(
 =======
     ).format(**locals())
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     ).format(**locals())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 
 def message_option_value_excludes_option(
@@ -133,6 +139,9 @@ def message_option_value_excludes_option(
         "{option_name}={option_value}. {reason}"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     ).format(
         excluded_option_name=excluded_option_name,
         option_name=option_name,
@@ -142,9 +151,12 @@ def message_option_value_excludes_option(
 =======
     ).format(**locals())
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     ).format(**locals())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 
 def message_option_value_excludes_flag(option_name, option_value, flag_name, reason):
@@ -152,6 +164,9 @@ def message_option_value_excludes_flag(option_name, option_value, flag_name, rea
         "The flag -{flag_name} is not allowed with {option_name}={option_value}."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         " {reason}"
     ).format(
         flag_name=flag_name,
@@ -161,9 +176,12 @@ def message_option_value_excludes_flag(option_name, option_value, flag_name, rea
 =======
         " {reason}".format(**locals())
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         " {reason}".format(**locals())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     )
 
 
@@ -195,6 +213,7 @@ def main():
                     excluded_option_name="separator",
                     excluded_option_value=separator,
                     reason=_(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -659,6 +678,8 @@ def main():
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                         "A standard CSV separator (delimiter) is only one character "
                         "long"
 =======
@@ -832,6 +853,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1257,12 +1279,18 @@ def main():
                         "A standard CSV separator (delimiter) is only one character long"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                        "A standard CSV separator (delimiter) is only one character long"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     ),
                 )
             )
         if separator == "|":
             # We use comma as the default for separator, so we override the pipe.
             # This does not allow for users to generate CSV with pipe, but unlike
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1727,6 +1755,8 @@ def main():
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             # the C API, the Python interface specs does not allow resetting the default
 =======
             # the C API, the Python interface specs does not allow reseting the default
@@ -2172,6 +2202,7 @@ def main():
             separator = ","
     if output_format in {"json", "yaml"} and header:
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2327,6 +2358,14 @@ def main():
 =======
     if output_format in {"json", "yaml"} and header:
 >>>>>>> 096ee14e51 (style(temporal): Fixes literal-membership (PLR6201) (#3953))
+=======
+            # the C API, the Python interface specs does not allow reseting the default
+            # except for setting it to an empty string which does not have a precedence
+            # in the current code and the behavior is unclear.
+            separator = ","
+    if output_format in ["json", "yaml"] and header:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         gs.fatal(
             message_option_value_excludes_flag(
                 option_name="format",
@@ -2347,16 +2386,22 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if method in {"delta", "deltagaps", "gran"}:
 =======
     if method in ["delta", "deltagaps", "gran"]:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     if method in ["delta", "deltagaps", "gran"]:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
     if method in {"delta", "deltagaps", "gran"}:
 >>>>>>> 096ee14e51 (style(temporal): Fixes literal-membership (PLR6201) (#3953))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if order:
             gs.fatal(
                 message_option_value_excludes_option(
@@ -2393,6 +2438,7 @@ def main():
                             excluded_option_name="columns",
                             excluded_option_value=columns,
                             reason=_(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2857,6 +2903,8 @@ def main():
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                 "Column '{name}' is not available with the method "
                                 "'{method}'"
 =======
@@ -3030,6 +3078,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3455,6 +3504,11 @@ def main():
                                 "Column '{name}' is not available with the method '{method}'"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                                "Column '{name}' is not available with the method '{method}'"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                             ).format(name=column, method=method),
                         )
                     )
@@ -3469,6 +3523,7 @@ def main():
                         excluded_option_name="columns",
                         excluded_option_value=columns,
                         reason=_(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3933,6 +3988,8 @@ def main():
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                             "Column '{name}' is not available with the method "
                             "'{method}'"
 =======
@@ -4106,6 +4163,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -4531,6 +4589,11 @@ def main():
                             "Column '{name}' is not available with the method '{method}'"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                            "Column '{name}' is not available with the method '{method}'"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                         ).format(name=column, method=method),
                     )
                 )

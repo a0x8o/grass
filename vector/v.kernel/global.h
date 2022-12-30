@@ -148,6 +148,7 @@ double gaussian2dByTerms(double d, double term1, double term2);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -777,6 +778,8 @@ double gaussian2dByTerms(double d, double term1, double term2);
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 =======
 <<<<<<< HEAD
@@ -971,6 +974,7 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper,
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1952,6 +1956,11 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+double brent_iterate(double (*f)(), double x_lower, double x_upper,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                      int maxiter);
 double kernel1(double d, double rs, double lambda);
 double segno(double x);

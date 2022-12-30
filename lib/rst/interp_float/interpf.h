@@ -52,13 +52,19 @@ typedef int matrix_create_fn(struct interp_params *, struct triple *, int,
 typedef int check_points_fn(struct interp_params *, struct quaddata *, double *,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                             double *, double, double, struct triple *);
 =======
                             double *, double, double, struct triple);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                             double *, double, double, struct triple);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 typedef int secpar_fn(struct interp_params *, int, int, int, struct BM *,
                       double *, double *, double *, double *, double *,
@@ -78,6 +84,9 @@ struct interp_params {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     int elatt; /**< which floating point attr to
                 * use? first = 1, second = 2, etc
                 */
@@ -92,8 +101,11 @@ struct interp_params {
     int kmax; /**< max number of points per segment
                */
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     int elatt; /**< which floating point attr to use? first = 1, second = 2, etc
                 */
 
@@ -104,9 +116,13 @@ struct interp_params {
 
     int kmax; /**< max number of points per segment */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     char *maskmap; /**< name of mask */
 
@@ -119,6 +135,9 @@ struct interp_params {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     int KMAX2; /**< max num. of points for interp.
                 */
 
@@ -129,11 +148,14 @@ struct interp_params {
 
     int scik1, scik2, scik3; /**< multipliers for interp. values */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     int KMAX2; /**< max num. of points for interp. */
 
     int scik1, scik2, scik3; /**< multipliers for interp. values */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     double rsm; /**< smoothing */
 
@@ -148,14 +170,20 @@ struct interp_params {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     double theta; /**< anisotropy angle,
                      0=East,counter-clockwise */
 =======
     double theta; /**< anisotropy angle, 0=East,counter-clockwise */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     double theta; /**< anisotropy angle, 0=East,counter-clockwise */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     double scalex; /**< anisotropy scaling factor */
 
@@ -200,8 +228,11 @@ void IL_init_params_2d(struct interp_params *, FILE *, int, int, double, int,
                        struct TimeStamp *, int, const char *);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 void IL_init_func_2d(struct interp_params *, grid_calc_fn *, matrix_create_fn *,
                      check_points_fn *, secpar_fn *, interp_fn *,
@@ -214,8 +245,11 @@ void IL_init_func_2d(struct interp_params *, grid_calc_fn *, matrix_create_fn *,
                      check_points_fn *, secpar_fn *, interp_fn *,
                      interpder_fn *, wr_temp_fn *);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /* input2d.c */
 int IL_input_data_2d(struct interp_params *, struct tree_info *, double *,
                      double *, double *, double *, double *, double *, int *);
@@ -252,6 +286,9 @@ int IL_output_2d(struct interp_params *, struct Cell_head *, double, double,
 int IL_check_at_points_2d(struct interp_params *, struct quaddata *, double *,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                           double *, double, double, struct triple *);
 int IL_write_point_2d(struct triple, double);
 
@@ -263,9 +300,12 @@ int IL_check_at_points_2d_cvdev(struct interp_params *, struct quaddata *,
 =======
                           double *, double, double, struct triple);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                           double *, double, double, struct triple);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /* resout2d.c */
 /* resout2dmod.c */
 int IL_resample_output_2d(struct interp_params *, double, double, double,

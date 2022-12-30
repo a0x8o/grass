@@ -125,6 +125,7 @@ int centroids(int fd, /* File descriptor of map layer to process */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (method > 0) { /* acccumulate row, col weights */
 =======
 <<<<<<< HEAD
@@ -521,6 +522,8 @@ int centroids(int fd, /* File descriptor of map layer to process */
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (method > 0) { /* accumulate row, col weights */
 =======
             if (method > 0) { /* acccumulate row, col weights */
@@ -693,6 +696,7 @@ int centroids(int fd, /* File descriptor of map layer to process */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1118,6 +1122,11 @@ int centroids(int fd, /* File descriptor of map layer to process */
             if (method > 0) { /* acccumulate row, col weights */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            if (method > 0) { /* acccumulate row, col weights */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 e[v] += col;
                 n[v] += row;
             }

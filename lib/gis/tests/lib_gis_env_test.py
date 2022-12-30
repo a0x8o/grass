@@ -4,6 +4,9 @@ import multiprocessing
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 import pytest
 
 import grass.script as gs
@@ -19,10 +22,13 @@ xfail_mp_spawn = pytest.mark.xfail(
 import grass.script as gs
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 import grass.script as gs
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 def run_in_subprocess(function):
     """Run function in a separate process
@@ -40,11 +46,17 @@ def run_in_subprocess(function):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @xfail_mp_spawn
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+@xfail_mp_spawn
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 def test_reading_respects_change_of_session(tmp_path):
     """Check new session file path is retrieved and the file is read"""
 

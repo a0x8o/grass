@@ -61,7 +61,7 @@ double exponential(double factor, double squared_distance)
 void compute_weights(const char *function_type, double factor)
 {
     int i, j;
-    double (*weight) (double, double);
+    double (*weight)(double, double);
 
     if (!strcmp(function_type, "gaussian")) {
         weight = gaussian;
@@ -70,6 +70,7 @@ void compute_weights(const char *function_type, double factor)
         weight = exponential;
     }
 
+<<<<<<< HEAD
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 
     return exp(-squared_distance / (2 * sigma2)) / (2 * M_PI * sigma2);
@@ -2563,6 +2564,7 @@ void compute_weights(const char *function_type, double factor)
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2941,6 +2943,10 @@ void compute_weights(const char *function_type, double factor)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     ncb.weights = G_malloc(ncb.nsize * sizeof(DCELL *));
     for (i = 0; i < ncb.nsize; i++)
         ncb.weights[i] = G_malloc(ncb.nsize * sizeof(DCELL));

@@ -134,6 +134,9 @@ int NetA_get_node_costs(struct Map_info *In, int layer, char *column,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     db_close_database_shutdown_driver(driver);
     Vect_destroy_field_info(Fi);
 
@@ -147,11 +150,14 @@ int NetA_get_node_costs(struct Map_info *In, int layer, char *column,
                               &vals) == -1)
         return 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     if (db_select_CatValArray(driver, Fi->table, Fi->key, column, NULL,
                               &vals) == -1)
         return 0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     for (i = 1; i <= nlines; i++) {
         int type = Vect_read_line(In, Points, Cats, i);
 

@@ -69,6 +69,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_fetch(dbCursor *cursor, int position, int *more)
 =======
 <<<<<<< HEAD
@@ -465,6 +466,8 @@ int db__driver_fetch(dbCursor *cursor, int position, int *more)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int db__driver_fetch(dbCursor *cursor UNUSED, int position UNUSED,
                      int *more UNUSED)
 =======
@@ -638,6 +641,7 @@ int db__driver_fetch(dbCursor *cursor, int position, int *more)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1063,6 +1067,11 @@ int db__driver_fetch(dbCursor *cursor, int position, int *more)
 int db__driver_fetch(dbCursor *cursor, int position, int *more)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int db__driver_fetch(dbCursor *cursor, int position, int *more)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     db_procedure_not_implemented("db_fetch");
     return DB_FAILED;

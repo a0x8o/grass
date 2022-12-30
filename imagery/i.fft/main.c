@@ -107,6 +107,9 @@ int main(int argc, char *argv[])
     if (Rast_maskfd() >= 0)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_warning(_("Raster mask active, consider removing it"
                     " and running again without it (see documentation for"
                     " details). This current process will now continue..."));
@@ -114,10 +117,13 @@ int main(int argc, char *argv[])
         G_warning(_("Raster MASK found, consider to remove "
                     "(see man-page). Will continue..."));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         G_warning(_("Raster MASK found, consider to remove "
                     "(see man-page). Will continue..."));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     G_get_set_window(&window); /* get the current window for later */
 

@@ -98,6 +98,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 =======
 <<<<<<< HEAD
@@ -494,6 +495,8 @@ int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int db__driver_list_tables(dbString **tlist, int *tcount, int system UNUSED)
 =======
 int db__driver_list_tables(dbString **tlist, int *tcount, int system)
@@ -666,6 +669,7 @@ int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1091,6 +1095,11 @@ int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int db__driver_list_tables(dbString **tlist, int *tcount, int system)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int i, nlayers;
     dbString *list;

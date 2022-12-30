@@ -238,16 +238,22 @@ class WrapperPrinter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         self.file.write("class %s_%s(%s):\n    pass\n" % (struct.variety, struct.tag, base))
 =======
         self.file.write("class %s_%s(%s):\n" "    pass\n" % (struct.variety, struct.tag, base))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         self.file.write("class %s_%s(%s):\n" "    pass\n" % (struct.variety, struct.tag, base))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
         self.file.write("class %s_%s(%s):\n    pass\n" % (struct.variety, struct.tag, base))
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     def print_struct_members(self, struct):
         if struct.opaque:

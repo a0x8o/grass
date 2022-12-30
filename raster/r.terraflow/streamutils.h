@@ -106,6 +106,7 @@ void printStream(ostream &s, AMI_STREAM<T> *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* laura note: this works that class T has an empty contructor which
 =======
 <<<<<<< HEAD
@@ -502,6 +503,8 @@ void printStream(ostream &s, AMI_STREAM<T> *str)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /* laura note: this works that class T has an empty constructor which
 =======
 /* laura note: this works that class T has an empty contructor which
@@ -674,6 +677,7 @@ void printStream(ostream &s, AMI_STREAM<T> *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1099,6 +1103,11 @@ void printStream(ostream &s, AMI_STREAM<T> *str)
 /* laura note: this works that class T has an empty contructor which
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+/* laura note: this works that class T has an empty contructor which
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    initializes it to the nodata value */
 template <class T, class FUN>
 void printStream2Grid(AMI_STREAM<T> *str, dimension_type nrows,
@@ -1152,6 +1161,7 @@ void printStream2Grid(AMI_STREAM<T> *str, dimension_type nrows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1599,6 +1609,12 @@ void printStream2Grid(AMI_STREAM<T> *str, dimension_type nrows,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     if (stats)
         stats->comment("saving grid: ", name);
@@ -1653,6 +1669,9 @@ void printStream2Grid(AMI_STREAM<T> *str, dimension_type nrows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2165,6 +2184,7 @@ void printStream2Grid(AMI_STREAM<T> *str, dimension_type nrows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2546,6 +2566,10 @@ void printStream2Grid(AMI_STREAM<T> *str, dimension_type nrows,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (ae == AMI_ERROR_NO_ERROR && elt->i == i && elt->j == j) {
                 fstrm << " " << fmt(*elt);
                 ae = str->read_item(&elt);

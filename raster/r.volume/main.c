@@ -15,26 +15,37 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8aa8d20af2 (r.volume: Work with any mask name (#4632))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  *               patches on a second map (or by raster mask). It also computes
  *               the "volume" by multiplying the total within a clump by the
  *               area of each cell. It also outputs the "centroid" location of
  *               each clump. Output is to standard out.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  *               patches on a second map (or MASK). It also computes the
  *               "volume" by multiplying the total within a clump by the area
  *               of each cell. It also outputs the "centroid" location of each
  *               clump. Output is to standard out.
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8aa8d20af2 (r.volume: Work with any mask name (#4632))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  *
  * COPYRIGHT:    (C) 1999-2006, 2013 by the GRASS Development Team
  *
@@ -165,8 +176,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8aa8d20af2 (r.volume: Work with any mask name (#4632))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         bool present =
             Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL);
         if (!present)
@@ -178,9 +192,13 @@ int main(int argc, char *argv[])
         use_mask = true;
         G_important_message(_("No clump map given, using raster mask"));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         clumpmap = "MASK";
         use_MASK = 1;
         if (!G_find_raster2(clumpmap, G_mapset()))
@@ -190,12 +208,16 @@ int main(int argc, char *argv[])
                             "MASK by r.mask command."));
         G_important_message(_("No clump map given, using MASK"));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8aa8d20af2 (r.volume: Work with any mask name (#4632))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     /* open input and clump raster maps */
     fd_data = Rast_open_old(datamap, "");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     fd_clump = Rast_open_old(clumpmap, use_mask ? mask_mapset : "");
@@ -208,6 +230,12 @@ int main(int argc, char *argv[])
 =======
     fd_clump = Rast_open_old(clumpmap, use_mask ? mask_mapset : "");
 >>>>>>> 8aa8d20af2 (r.volume: Work with any mask name (#4632))
+=======
+    fd_clump = Rast_open_old(clumpmap, use_mask ? mask_mapset : "");
+=======
+    fd_clump = Rast_open_old(clumpmap, use_MASK ? G_mapset() : "");
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     /* initialize vector map (for centroids) if needed */
     if (centroidsmap) {

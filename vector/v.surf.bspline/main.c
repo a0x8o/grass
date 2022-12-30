@@ -881,13 +881,19 @@ int main(int argc, char *argv[])
                     } /* END FLAG_EXT == TRUE */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 } /* END GRID == FALSE */
 =======
                 }     /* END GRID == FALSE */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 }     /* END GRID == FALSE */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 G_free_vector(parVect);
                 G_free_matrix(obsVect);
                 G_free_ivector(lineVect);
@@ -904,13 +910,19 @@ int main(int argc, char *argv[])
         } /*! END WHILE; last_column = TRUE */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     } /*! END WHILE; last_row = TRUE */
 =======
     }     /*! END WHILE; last_row = TRUE */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     }     /*! END WHILE; last_row = TRUE */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     G_verbose_message(_("Writing output..."));
     /* Writing the output raster map */

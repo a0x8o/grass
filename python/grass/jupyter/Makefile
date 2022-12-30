@@ -4202,6 +4202,7 @@ MODULES = setup display
 =======
 MODULES = \
 	setup \
+<<<<<<< HEAD
 	display \
 <<<<<<< HEAD
 	interact_display
@@ -4219,6 +4220,7 @@ MODULES = \
 	interact_display \
 	utils
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> 8472b7b824 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> c8b938ae61 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
@@ -4239,6 +4241,8 @@ MODULES = \
 =======
 =======
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 	map \
 	interactivemap \
 	region \
@@ -4247,6 +4251,7 @@ MODULES = \
 	utils \
 	timeseriesmap
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -4281,6 +4286,8 @@ MODULES = setup display
 >>>>>>> 2ba4dbc7e5 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 84964e9717 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)

@@ -19560,6 +19560,7 @@ msgstr "Entrer les valeurs de catégories ou les pourcentages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/location_wizard/wizard.py:186
 msgid "Change"
 msgstr ""
@@ -19960,6 +19961,8 @@ msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #: ../gui/wxpython/modules/colorrules.py:983
 #: ../gui/wxpython/modules/colorrules.py:1685
 #: ../gui/wxpython/modules/colorrules.py:1691
@@ -20264,6 +20267,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -20369,10 +20373,13 @@ msgstr ""
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 #: ../gui/wxpython/location_wizard/wizard.py:186
 msgid "Change"
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -20625,6 +20632,8 @@ msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/modules/colorrules.py:985
 msgid "fp range"
@@ -20818,6 +20827,7 @@ msgstr "Créer une nouvelle règle de couleur pour une carte vecteur"
 =======
 #: ../gui/wxpython/location_wizard/wizard.py:1517
 msgid "Find more information at:"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21137,6 +21147,11 @@ msgid "Find more information at:"
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../gui/wxpython/location_wizard/wizard.py:1531
@@ -24427,6 +24442,7 @@ msgstr "Paramètres d'import"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -24991,6 +25007,13 @@ msgstr "Paramètres d'import"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #, python-format
 msgid "Output map names %(names)s exist. "
 msgstr ""
@@ -25068,6 +25091,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -25632,6 +25656,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #, python-format
 msgid "Output map name <%(name)s> exist. "
 msgstr ""
@@ -25791,6 +25822,7 @@ msgstr "Reprojeter les couches sélectionnées"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -26355,6 +26387,13 @@ msgstr "Reprojeter les couches sélectionnées"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgid "Histogram Tool  [d.histogram]"
 msgstr ""
 
@@ -26792,6 +26831,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -27356,6 +27396,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/modules/mcalc_builder.py:71
 msgid "3D Raster Map Calculator"
@@ -28530,6 +28577,7 @@ msgstr "ATTENTION"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -29094,6 +29142,13 @@ msgstr "ATTENTION"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgid "Setup for r.li modules"
 msgstr ""
 
@@ -30592,6 +30647,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -30701,6 +30757,8 @@ msgid "Histogram Tool"
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #: ../gui/wxpython/lmgr/layertree.py:1126
 =======
 =======
@@ -31269,6 +31327,7 @@ msgid "Histogram Tool"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -31365,9 +31424,12 @@ msgid "Histogram Tool"
 >>>>>>> osgeo-main
 =======
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 #: ../gui/wxpython/wxplot/histogram.py:43
 msgid "Histogram Tool"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -31585,6 +31647,8 @@ msgid "Histogram Tool"
 #: ../gui/wxpython/wxplot/histogram.py:43
 msgid "Histogram Tool"
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../gui/wxpython/wxplot/histogram.py:51
@@ -33094,6 +33158,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -33658,6 +33723,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/lmgr/toolbars.py:203
 msgid "Start new map display"
@@ -36895,6 +36967,7 @@ msgid "Interactive editing and digitization of vector maps."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -37183,6 +37256,11 @@ msgid "Interactive editing and digitization of vector maps."
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 #: ../gui/wxpython/menustrings.py:2023
@@ -37920,6 +37998,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -38484,6 +38563,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/lmgr/pyshell.py:78
 msgid "Simple &editor"
@@ -38594,6 +38680,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -39158,6 +39245,13 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/lmgr/workspace.py:72
 msgid ""
@@ -39509,6 +39603,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -39609,6 +39704,8 @@ msgstr ""
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -39616,6 +39713,7 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40169,6 +40267,10 @@ msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #, python-format
 msgid ""
 "Database connection for vector map <%s> is not defined in DB file. You can "
@@ -40235,6 +40337,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -40629,6 +40732,8 @@ msgstr ""
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 "La connexion à une base de données n'est pas définie dans le fichier DB pour "
 "la carte vecteur <%s>. Vous pouvez définir une nouvelle connexion dans "
 "l'onglet 'Gérer les couches'."
@@ -40803,6 +40908,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -41184,6 +41290,10 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/dbmgr/manager.py:123
 msgid "Please wait, loading attribute data..."
@@ -45649,6 +45759,7 @@ msgstr "Chaîne PROJ (requise) :"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -46213,6 +46324,13 @@ msgstr "Chaîne PROJ (requise) :"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #: ../gui/wxpython/animation/provider.py:562
 msgid "Overlaying map layers"
@@ -49606,6 +49724,7 @@ msgstr "étiquettes :"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -49832,13 +49951,21 @@ msgstr "outils pris en charge uniquement"
 
 >>>>>>> 55c0326ad0 (i18n: fix duplicate messsages in po files (#4722))
 =======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgid "supported tools only"
 msgstr "outils pris en charge uniquement"
 
 =======
 <<<<<<< HEAD
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #~ msgid "Location Name:"
 #~ msgstr "Nom du secteur : "
 
@@ -50134,6 +50261,7 @@ msgid "Cartographic Composer - GRASS GIS"
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50423,6 +50551,11 @@ msgid "Cartographic Composer - GRASS GIS"
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+#: ../gui/wxpython/psmap/g.gui.psmap.py:51
+msgid "Cartographic Composer - GRASS GIS"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 msgstr ""
 
 msgid "failed to open '{0}'"
@@ -53056,6 +53189,7 @@ msgstr "GRASS GIS %s - Gestionnaire des couches"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -53446,6 +53580,8 @@ msgstr "Double-clic ou Ctrl+Entrée pour exécuter le module sélectionné"
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 msgid ""
 "Location <%s> created.\n"
@@ -60599,5 +60735,166 @@ msgid "Double-click or Ctrl-Enter to run selected module"
 msgstr "Double-clic ou Ctrl+Entrée pour exécuter le module sélectionné"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+
+msgid ""
+"Location <%s> created.\n"
+"\n"
+"Do you want to switch to the new location?"
+msgstr ""
+"Secteur <%s> créé.\n"
+"\n"
+"Voulez-vous entrer dans le nouveau secteur ?"
+
+msgid "Switch to new location?"
+msgstr "Changer pour le nouveau secteur ?"
+
+msgid "Do you want to set the default region extents and resolution now?"
+msgstr "Voulez-vous définir les limites et la résolution la région par défaut maintenant ?"
+
+msgid "Location <%s> created"
+msgstr "Secteur <%s> créé"
+
+msgid "Unable to exit GRASS shell: unknown PID"
+msgstr "Impossible de fermer le shell GRASS : PID inconnu"
+
+msgid "Remove vector legend"
+msgstr "Supprimer la légende des vecteurs"
+
+msgid "GRASS GIS Vector Network Analysis Tool"
+msgstr "Outil d'analyse de réseau vectoriel"
+
+msgid "Click to allow editing other mapsets"
+msgstr "Cliquer pour autoriser l'édition des autres jeux de cartes"
+
+msgid "GRASS GIS Data Catalog"
+msgstr "Catalogue de données SIG GRASS"
+
+msgid "GRASS locations in {0}"
+msgstr "Secteurs GRASS dans {0}"
+
+msgid "Editing {name}"
+msgstr "Édition de {name}"
+
+msgid "GRASS GIS Attribute Table Manager"
+msgstr "Gestionnaire des tables d'attributs GRASS"
+
+msgid "READONLY - "
+msgstr "LECTURE SEULE - "
+
+msgid "Inconsistent number of columns in the table <%(table)s>."
+msgstr "Nombre de colonnes invalide dans la table <%(table)s>."
+
+msgid "GRASS GIS Graphical Modeler"
+msgstr "Modeleur Graphique de GRASS"
+
+msgid "GRASS GIS Timeline Tool"
+msgstr "SIG GRASS Outil temporel"
+
+msgid "GRASS GIS - Map display"
+msgstr "SIG GRASS - Moniteur d'affichage des cartes"
+
+msgid "GRASS GIS Map Display: %(name)s - %(loc)s/%(mapset)s"
+msgstr "GRASS GIS - Affichage de cartes : %(name)s - %(loc)s/%(mapset)s"
+
+msgid "Maximum number of animations is %s."
+msgstr "Le nombre maximal d'animations est %s."
+
+msgid "Animate region change (2D view only)"
+msgstr "Animer le changement de région (vue 2D uniquement)"
+
+msgid "GRASS GIS Histogramming Tool (d.histogram)"
+msgstr "Histogramme GRASS"
+
+msgid "Copies available data files in the current mapset search path to the user's current mapset."
+msgstr "Copier les fichiers de données disponibles dans le chemin de recherche du jeu de cartes courant vers le jeu de cartes de l'utilisateur courant."
+
+msgid "Generates a raster map containing distances to nearest raster features."
+msgstr "Générer une carte raster contenant les distances vers les entités raster les plus proches."
+
+msgid "Neighborhood analysis tool for vector point maps. Makes each cell value a function of the attribute values assigned to the vector points or centroids around it, and stores new cell values in an output raster map."
+msgstr "OUtil d'analyse de voisinnage pour des cartes vecteurs de points. Défini la valeur de chaque cellule en fonction des valeurs d'attributs des points ou centroids voisins, et enregistre les nouvelles valeurs de cellule dans une carte raster."
+
+msgid "Attaches, deletes or reports vector categories to map geometry."
+msgstr "Attacher, supprimer ou rendre compte des catégories de vecteur vers la carte de géométries."
+
+msgid "GRASS GIS Location Download"
+msgstr "SIG GRASS - Téléchargement de Secteur"
+
+msgid "GRASS GIS Interactive Scatter Plot Tool"
+msgstr "Barre d'outils interactive de nuages de points"
+
+msgid "GRASS GIS Supervised Classification Tool"
+msgstr "SIG GRASS Outil de classification supervisée"
+
+msgid "Unpack GRASS raster map"
+msgstr "Dépaqueter une carte raster"
+
+msgid "Set raster output format"
+msgstr "Sélectionner le format de sortie raster"
+
+msgid "Unpack GRASS vector map"
+msgstr "Dépaqueter une carte vecteur"
+
+msgid "Set vector output format"
+msgstr "Sélectionner le format de sortie vectorielle"
+
+msgid "Click to restrict editing to current mapset only"
+msgstr "Cliquer pour restreindre l'édition au jeu de données courant uniquement"
+
+msgid "Search:"
+msgstr "Recherche :"
+
+msgid "Type to search database by map type or name. Use prefix 'r:', 'v:' and 'r3:'to show only raster, vector or 3D raster data, respectively. Use Python regular expressions to refine your search."
+msgstr "Écrire pour rechercher dans la base par type ou nom de carte. Utiliser les préfixes 'r:', 'v:' ou 'r3:' pour ne montrer respectivement que les rasters, vecteurs ou rasters 3D. Utiliser des expressions régulières Python pouraffiner la recherche."
+
+msgid " (readonly)"
+msgstr " (lecture seule)"
+
+msgid "GRASS GIS Attribute Table Manager - "
+msgstr "Gestionnaire des tables d'attributs"
+
+msgid "GRASS GIS Setup for r.li modules"
+msgstr "Initialisation des modules r.li"
+
+msgid "Resize legend"
+msgstr "Redimensionner la légende"
+
+msgid "Name <%(name)s> is not a valid name for location. Please use only ASCII characters excluding %(chars)s and space."
+msgstr "Le nom <%(name)s> n'est pas un nom valide pour un secteur. Merci de n'utiliser que des caractères ASCII à l'exclusion de %(chars)s et des espaces."
+
+msgid "Unable to create location"
+msgstr "Impossible de créer le secteur"
+
+msgid "Select EPSG code of spatial reference system"
+msgstr "Sélectionner le code EPSG"
+
+msgid "Read projection and datum terms from a georeferenced data file"
+msgstr "Lire depuis un fichier géoréférencé"
+
+msgid "Create a generic Cartesian coordinate system (XY)"
+msgstr "Système de coordonnées cartésiennes (XY)"
+
+msgid "Do you want to create GRASS location <%s>?"
+msgstr "Voulez-vous créer le secteur GRASS <%s> ?"
+
+msgid "Create new location?"
+msgstr "Créer un nouveau secteur ?"
+
+msgid "GRASS GIS SQL Query Utility"
+msgstr "Utilitaire de requêtes SQL"
+
+msgid "Do you want to quit GRASS including shell prompt or just close the GUI?"
+msgstr "Voulez-vous quitter GRASS y compris le terminal ou juste fermer l'interface graphique ?"
+
+msgid "Double-click or Ctrl-Enter to run selected module"
+msgstr "Double-clic ou Ctrl+Entrée pour exécuter le module sélectionné"
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)

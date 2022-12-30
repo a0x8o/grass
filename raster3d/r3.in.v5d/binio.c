@@ -36,12 +36,18 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /*
  * Updates:
  *
@@ -107,6 +113,7 @@ void flip2(const unsigned short *src, unsigned short *dest, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -121,6 +128,11 @@ void flip2(const unsigned short *src, unsigned short *dest, int n)
 =======
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #ifdef _CRAY
 
 /*****************************************************************************
@@ -169,6 +181,7 @@ static void c_to_if(long *t, const long *f)
         T = F;                                                             \
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -499,10 +512,13 @@ static void c_to_if(long *t, const long *f)
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /* IEEE single precision to Cray */
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -952,6 +968,10 @@ static void c_to_if(long *t, const long *f)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /* IEEE single precison to Cray */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 static void if_to_c(long *t, const long *f)
@@ -963,10 +983,14 @@ static void if_to_c(long *t, const long *f)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                ((*f & 0x7f80000000000000) >> 7) + (16258L << 48)) |
 =======
                ((*f & 0x7f80000000000000) >> 7) + (16258 << 48)) |
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                ((*f & 0x7f80000000000000) >> 7) + (16258 << 48)) |
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -979,6 +1003,8 @@ static void if_to_c(long *t, const long *f)
 =======
                ((*f & 0x7f80000000000000) >> 7) + (16258L << 48)) |
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
               (((*f & 0x007fffff00000000) >> 8) | (0x0000800000000000)));
         if ((*f << 1) == 0)
             *t = 0;
@@ -996,10 +1022,14 @@ static void if_to_c(long *t, const long *f)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
               ((F & 0x7f80000000000000) >> 7) + (16258L << 48)) |       \
 =======
               ((F & 0x7f80000000000000) >> 7) + (16258 << 48)) |        \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
               ((F & 0x7f80000000000000) >> 7) + (16258 << 48)) |        \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1012,6 +1042,8 @@ static void if_to_c(long *t, const long *f)
 =======
               ((F & 0x7f80000000000000) >> 7) + (16258L << 48)) |       \
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
              (((F & 0x007fffff00000000) >> 8) | (0x0000800000000000))); \
         if ((F << 1) == 0)                                              \
             T = 0;                                                      \
@@ -1076,6 +1108,7 @@ void ieee_to_cray_array(float *dest, const long *source, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1090,6 +1123,11 @@ void ieee_to_cray_array(float *dest, const long *source, int n)
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /**********************************************************************/
 
 /*****                     Read Functions                         *****/
@@ -1212,16 +1250,22 @@ int read_int4(int f, int *i)
     if (read(f, i, 4) == 4) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 #ifdef _CRAY
         *i = *i >> 32;
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 #ifdef _CRAY
         *i = *i >> 32;
 #endif
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         return 1;
     }
     else {
@@ -1274,11 +1318,15 @@ int read_int4_array(int f, int *iarray, int n)
     flip4((const unsigned int *)iarray, (unsigned int *)iarray, nread / 4);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 #endif
     return nread / 4;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
     return nread / 4;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1307,9 +1355,13 @@ int read_float4(int f, float *x)
     return 0;
 #else
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #ifdef LITTLE
     unsigned int n, *iptr;
 
@@ -1330,12 +1382,18 @@ int read_float4(int f, float *x)
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 #endif
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
 }
 
@@ -1510,9 +1568,13 @@ int write_uint2_array(int f, const unsigned short *iarray, int n)
         return nwritten / 2;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 }
@@ -1536,10 +1598,13 @@ int write_int4(int f, int i)
 #ifdef LITTLE
     i = FLIP4(i);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #endif
     return write(f, &i, 4) > 0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
     return write(f, &i, 4) > 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1581,9 +1646,13 @@ int write_int4_array(int f, const int *i, int n)
         return nwritten / 4;
 #else
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #ifdef LITTLE
     int nwritten;
 
@@ -1598,12 +1667,18 @@ int write_int4_array(int f, const int *i, int n)
     return write(f, i, 4 * n) / 4;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 #endif
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
 }
 
@@ -1624,9 +1699,13 @@ int write_float4(int f, float x)
     return write(f, buffer, 4) > 0;
 #else
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #ifdef LITTLE
     float y;
     unsigned int *iptr = (unsigned int *)&y, temp;
@@ -1641,12 +1720,18 @@ int write_float4(int f, float x)
     return write(f, &y, 4) > 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 #endif
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
 }
 
@@ -1678,9 +1763,13 @@ int write_float4_array(int f, const float *x, int n)
         return nwritten / 4;
 #else
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #ifdef LITTLE
     int nwritten;
 
@@ -1695,12 +1784,18 @@ int write_float4_array(int f, const float *x, int n)
     return write(f, x, 4 * n) / 4;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 #endif
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
 }
 

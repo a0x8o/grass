@@ -117,6 +117,7 @@ int display_shape(struct Map_info *Map, int type, struct cat_list *Clist,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /* fisrt search for color table */
 =======
 <<<<<<< HEAD
@@ -513,6 +514,8 @@ int display_shape(struct Map_info *Map, int type, struct cat_list *Clist,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     /* first search for color table */
 =======
     /* fisrt search for color table */
@@ -685,6 +688,7 @@ int display_shape(struct Map_info *Map, int type, struct cat_list *Clist,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1110,6 +1114,11 @@ int display_shape(struct Map_info *Map, int type, struct cat_list *Clist,
     /* fisrt search for color table */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    /* fisrt search for color table */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     have_colors =
         Vect_read_colors(Vect_get_name(Map), Vect_get_mapset(Map), &colors);
     if (have_colors && rgb_column) {

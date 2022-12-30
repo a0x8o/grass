@@ -340,6 +340,7 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /* a scale heigh of 2km is assumed in case no value is given for
 =======
 <<<<<<< HEAD
@@ -736,6 +737,8 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             /* a scale height of 2km is assumed in case no value is given for
 =======
             /* a scale heigh of 2km is assumed in case no value is given for
@@ -908,6 +911,7 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1333,10 +1337,16 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
             /* a scale heigh of 2km is assumed in case no value is given for
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            /* a scale heigh of 2km is assumed in case no value is given for
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
              * taer55p */
             taer55p = (double)(aerocon.taer55 * (1 - exp(-palt / 2)));
         }
         else {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1801,6 +1811,8 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             /* compute effective scale height */
 =======
             /* compute effective scale heigh */
@@ -1973,6 +1985,7 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2398,6 +2411,11 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
             /* compute effective scale heigh */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            /* compute effective scale heigh */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             double sham = exp(-palt / 4);
             double sha = 1 - (taer55p / aerocon.taer55);
 
@@ -2542,6 +2560,7 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /* a scale heigh of 2km is assumed in case no value is given for
 =======
 <<<<<<< HEAD
@@ -2938,6 +2957,8 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             /* a scale height of 2km is assumed in case no value is given for
 =======
             /* a scale heigh of 2km is assumed in case no value is given for
@@ -3110,6 +3131,7 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3535,10 +3557,16 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
             /* a scale heigh of 2km is assumed in case no value is given for
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            /* a scale heigh of 2km is assumed in case no value is given for
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
              * taer55p */
             taer55p = (double)(aerocon.taer55 * (1 - exp(-palt / 2)));
         }
         else {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4003,6 +4031,8 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             /* compute effective scale height */
 =======
             /* compute effective scale heigh */
@@ -4175,6 +4205,7 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -4600,6 +4631,11 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
             /* compute effective scale heigh */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            /* compute effective scale heigh */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             double sham = exp(-palt / 4);
             double sha = 1 - (taer55p / aerocon.taer55);
 

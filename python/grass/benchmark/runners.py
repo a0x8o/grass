@@ -71,6 +71,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -504,6 +505,8 @@ import random
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 import random
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -624,6 +627,7 @@ import random
 =======
 import random
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1236,6 +1240,8 @@ import random
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 import shutil
 from types import SimpleNamespace
 
@@ -2734,6 +2740,7 @@ def benchmark_single(module, label, repeat=5):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2989,9 +2996,12 @@ def benchmark_single(module, label, repeat=5):
 =======
 >>>>>>> 2ba4dbc7e5 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3566,6 +3576,10 @@ def benchmark_single(module, label, repeat=5):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 def benchmark_nprocs(module, label, max_nprocs, repeat=5, shuffle=True):
     """Benchmark module using values of nprocs up to *max_nprocs*.
 
@@ -3646,6 +3660,9 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5, shuffle=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3924,6 +3941,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
     *repeat* sets how many times the each run is repeated.
     So, the module will run ``max_nprocs * repeat`` times.
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5065,11 +5083,16 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     *label* is a text to add to the result (for user-facing display).
     Optional *nprocs* is passed to the module if present.
 
     Returns an object with attributes *times* (list of average execution times),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5223,6 +5246,8 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -8006,6 +8031,11 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 =======
     *all_times* (list of lists of measured execution times), *nprocs*
     (list of *nprocs* values used), and *label* (the provided parameter as is).
+=======
+    *all_times* (list of lists of measured execution times),
+    *efficiency* (parallel efficiency), *nprocs* (list of *nprocs* values used),
+    and *label* (the provided parameter as is).
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     """
     term_size = shutil.get_terminal_size()
     if hasattr(module, "get_bash"):
@@ -8018,7 +8048,9 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
     serial_avg = None
     avg_times = []
     all_times = []
+    efficiency = []
     nprocs_list = list(range(1, max_nprocs + 1))
+<<<<<<< HEAD
     for nprocs in nprocs_list:
         print("\u2500" * term_size.columns)
         print(f"Benchmark with {nprocs} thread(s)...\n")
@@ -8035,6 +8067,8 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 <<<<<<< HEAD
 =======
     nprocs_list = list(range(1, max_nprocs + 1))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     nprocs_list_shuffled = sorted(nprocs_list * repeat)
     if shuffle:
         random.shuffle(nprocs_list_shuffled)
@@ -8050,6 +8084,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
             times[nprocs] = [module.time]
     for nprocs in sorted(times):
         avg = sum(times[nprocs]) / repeat
+<<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         avg_times.append(avg)
 <<<<<<< HEAD
@@ -8069,15 +8104,25 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         avg_times.append(avg)
+<<<<<<< HEAD
         all_times.append(measured_times)
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+=======
+        all_times.append(times[nprocs])
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if nprocs == 1:
             serial_avg = avg
         if avg < min_avg:
             min_avg = avg
             min_time = nprocs
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8962,6 +9007,8 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         result.speedup.append(serial_avg / avg)
         result.efficiency.append(serial_avg / (nprocs * avg))
 =======
@@ -10310,6 +10357,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 =======
         efficiency.append(serial_avg / (nprocs * avg))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         efficiency.append(serial_avg / (nprocs * avg))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -10407,6 +10455,8 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
 >>>>>>> 8d53b00588 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     print("\u2500" * term_size.columns)
     if serial_avg is not None:
@@ -11175,6 +11225,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
     return SimpleNamespace(
         all_times=all_times,
         times=avg_times,
+        efficiency=efficiency,
         nprocs=nprocs_list,
         label=label,
     )

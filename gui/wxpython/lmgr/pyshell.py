@@ -91,6 +91,7 @@ from __future__ import print_function
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -655,6 +656,13 @@ from __future__ import print_function
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 import io
 from contextlib import redirect_stdout
 import sys
@@ -693,8 +701,11 @@ class PyShellWindow(wx.Panel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         shellargs = {
             "parent": self,
             "id": wx.ID_ANY,
@@ -718,6 +729,7 @@ class PyShellWindow(wx.Panel):
             locals={"gs": grass, "AddLayer": self.AddLayer, "help": self.Help},
         )
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             "locals": {"gs": grass, "AddLayer": self.AddLayer, "help": self.Help},
 =======
@@ -725,6 +737,8 @@ class PyShellWindow(wx.Panel):
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         }
 >>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         # useStockId (available since wxPython 4.0.2) should be False on macOS
         if sys.platform == "darwin" and CheckWxVersion([4, 0, 2]):
             shellargs["useStockId"] = False

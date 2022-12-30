@@ -126,13 +126,19 @@ int invert(struct One_Sig *s, int nbands, int *ik, int *jk, double *det)
     if (*det == 0.0)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         return 0;
 =======
             return 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             return 0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     /*
      * if negative, then matrix is not positive-definite
@@ -141,6 +147,9 @@ int invert(struct One_Sig *s, int nbands, int *ik, int *jk, double *det)
     if (*det < 0.0)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         return -1;
 
     /* restore ordering of matrix */
@@ -179,6 +188,7 @@ int invert(struct One_Sig *s, int nbands, int *ik, int *jk, double *det)
 
             i = jk[k];
 
+<<<<<<< HEAD
 =======
             return -1;
 
@@ -196,6 +206,8 @@ int invert(struct One_Sig *s, int nbands, int *ik, int *jk, double *det)
             i = jk[k];
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (i > k)
                 for (j = 0; j < nbands; j++) { /* 520 */
                     v = s->var[k][j];
@@ -204,9 +216,13 @@ int invert(struct One_Sig *s, int nbands, int *ik, int *jk, double *det)
                 /*520 */ }
             /*530 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     return 1;

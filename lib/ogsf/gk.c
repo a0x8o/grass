@@ -174,16 +174,22 @@ void gk_follow_frames(Viewnode *view, int numsteps, Keylist *keys, int step,
         G_debug(3, "gk_follow_frames():");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_debug(3, "  mask: %lx", mask);
         G_debug(3, "  from: %f %f %f", tmp[X], tmp[Y], tmp[Z]);
 =======
         G_debug(3, "  MASK: %lx", mask);
         G_debug(3, "  FROM: %f %f %f", tmp[X], tmp[Y], tmp[Z]);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         G_debug(3, "  MASK: %lx", mask);
         G_debug(3, "  FROM: %f %f %f", tmp[X], tmp[Y], tmp[Z]);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         /* ACS 1 line: was      GS_get_focus(tmp);
            with this kanimator works also for flythrough navigation
@@ -578,6 +584,7 @@ double get_2key_neighbors(int nvk, float time, float range UNUSED,
 =======
 double get_2key_neighbors(int nvk, float time, float range, int loop,
                           Keylist *karray[], Keylist **km1, Keylist **kp1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1211,6 +1218,13 @@ double get_2key_neighbors(int nvk, float time, float range, int loop,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int i;
     double len;

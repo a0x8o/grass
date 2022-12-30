@@ -44,6 +44,9 @@ def benchmark(size, label, results):
     results.append(bm.benchmark_nprocs(module, label=label, max_nprocs=16, repeat=3))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     Module(
         "g.remove",
         quiet=True,
@@ -52,17 +55,24 @@ def benchmark(size, label, results):
         name=(reference, slope, aspect, pcurv, tcurv),
     )
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     Module("g.remove", quiet=True, flags="f", type="raster", name=reference)
     Module("g.remove", quiet=True, flags="f", type="raster", name=slope)
     Module("g.remove", quiet=True, flags="f", type="raster", name=aspect)
     Module("g.remove", quiet=True, flags="f", type="raster", name=pcurv)
     Module("g.remove", quiet=True, flags="f", type="raster", name=tcurv)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 
 def generate_map(rows, cols, fname):

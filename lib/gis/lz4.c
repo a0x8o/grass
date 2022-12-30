@@ -30,6 +30,9 @@
    You can contact the author at :
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     - LZ4 homepage : http://www.lz4.org
     - LZ4 source repository : https://github.com/lz4/lz4
 */
@@ -38,11 +41,14 @@
    - LZ4 source repository : https://github.com/lz4/lz4
  */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
    - LZ4 homepage : http://www.lz4.org
    - LZ4 source repository : https://github.com/lz4/lz4
  */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 /*-************************************
  *  Tuning parameters
@@ -51,6 +57,9 @@
  * LZ4_HEAPMODE :
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  * Select how stateless compression functions like `LZ4_compress_default()`
  * allocate memory for their hash table,
  * in memory stack (0:default, fastest), or in memory heap (1:requires
@@ -58,10 +67,13 @@
  * Select how default compression functions will allocate memory for their hash
  * table, in memory stack (0:default, fastest), or in memory heap (1:requires
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
  * Select how default compression functions will allocate memory for their hash
  * table, in memory stack (0:default, fastest), or in memory heap (1:requires
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  * malloc()).
  */
 #ifndef LZ4_HEAPMODE
@@ -83,9 +95,13 @@
 =======
 #define ACCELERATION_DEFAULT 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 /*-************************************
  *  CPU Feature Detection
@@ -96,6 +112,9 @@
  * generated assembly is sub-optimal. The below switch allow to select different
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  * access method for improved performance. Method 0 (default) : use `memcpy()`.
  * Safe and portable. Method 1 : `__packed` statement. It depends on compiler
  * extension (ie, not portable). This method is safe if your compiler supports
@@ -107,8 +126,11 @@
  * https://fastcompression.blogspot.fr/2015/08/accessing-unaligned-memory.html
  * for details. Prefer these methods in priority order (0 > 1 > 2)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  * access method for improved performance.
  * Method 0 (default) : use `memcpy()`. Safe and portable.
  * Method 1 : `__packed` statement. It depends on compiler extension
@@ -133,14 +155,20 @@
 #define LZ4_FORCE_MEMORY_ACCESS 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #elif (defined(__INTEL_COMPILER) && !defined(_WIN32)) || defined(__GNUC__) || \
     defined(_MSC_VER)
 =======
 #elif (defined(__INTEL_COMPILER) && !defined(_WIN32)) || defined(__GNUC__)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 #elif (defined(__INTEL_COMPILER) && !defined(_WIN32)) || defined(__GNUC__)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define LZ4_FORCE_MEMORY_ACCESS 1
 #endif
 #endif
@@ -155,11 +183,17 @@
                            bit count */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #undef LZ4_FORCE_SW_BITCOUNT /* avoid double def */
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+#undef LZ4_FORCE_SW_BITCOUNT /* avoid double def */
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define LZ4_FORCE_SW_BITCOUNT
 #endif
 
@@ -168,6 +202,9 @@
  **************************************/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /*
  * LZ4_SRC_INCLUDED:
  * Amalgamation flag, whether lz4.c is included
@@ -189,11 +226,14 @@
 #define LZ4_DISABLE_DEPRECATE_WARNINGS    /* due to \
                                              LZ4_decompress_safe_withPrefix64k */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 #define LZ4_STATIC_LINKING_ONLY
 #define LZ4_DISABLE_DEPRECATE_WARNINGS    /* due to \
                                              LZ4_decompress_safe_withPrefix64k */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #include "lz4.h"
 /* see also "memory routines" below */
 
@@ -202,6 +242,9 @@
  **************************************/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #if defined(_MSC_VER) && (_MSC_VER >= 1400) /* Visual Studio 2005+ */
 #include <intrin.h>                         /* only present in VS2005+ */
 #pragma warning( \
@@ -232,6 +275,7 @@
 #ifndef LZ4_FORCE_INLINE
 #ifdef _MSC_VER /* Visual Studio */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 #ifdef _MSC_VER /* Visual Studio */
 #include <intrin.h>
@@ -244,19 +288,27 @@
 #ifndef LZ4_FORCE_INLINE
 #ifdef _MSC_VER /* Visual Studio */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define LZ4_FORCE_INLINE static __forceinline
 #else
 #if defined(__cplusplus) || \
     defined(__STDC_VERSION__) && __STDC_VERSION__ >= 199901L /* C99 */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #if defined(__GNUC__) || defined(__clang__)
 =======
 #ifdef __GNUC__
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 #ifdef __GNUC__
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define LZ4_FORCE_INLINE static inline __attribute__((always_inline))
 #else
 #define LZ4_FORCE_INLINE static inline
@@ -283,6 +335,9 @@
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #if defined(__PPC64__) && defined(__LITTLE_ENDIAN__) && defined(__GNUC__) && \
     !defined(__clang__)
 #define LZ4_FORCE_O2 __attribute__((optimize("O2")))
@@ -300,6 +355,7 @@
 #define LZ4_FORCE_O2_GCC_PPC64LE
 #define LZ4_FORCE_O2_INLINE_GCC_PPC64LE static
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 #if defined(__PPC64__) && defined(__LITTLE_ENDIAN__) && defined(__GNUC__)
 #define LZ4_FORCE_O2_GCC_PPC64LE __attribute__((optimize("O2")))
@@ -309,6 +365,8 @@
 #define LZ4_FORCE_O2_GCC_PPC64LE
 #define LZ4_FORCE_O2_INLINE_GCC_PPC64LE static
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
 
 #if (defined(__GNUC__) && (__GNUC__ >= 3)) ||                   \
@@ -328,6 +386,9 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /* Should the alignment test prove unreliable, for some reason,
  * it can be disabled by setting LZ4_ALIGN_TEST to 0 */
 #ifndef LZ4_ALIGN_TEST /* can be externally provided */
@@ -495,6 +556,7 @@ typedef uint64_t U64;
 typedef uintptr_t uptrval;
 #else
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 /*-************************************
  *  Memory routines
@@ -520,6 +582,8 @@ typedef uint64_t U64;
 typedef uintptr_t uptrval;
 #else
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 typedef unsigned char BYTE;
 typedef unsigned short U16;
 typedef unsigned int U32;
@@ -533,13 +597,19 @@ typedef U64 reg_t; /* 64-bits in x32 mode */
 #else
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 typedef size_t reg_t; /* 32-bits in x32 mode */
 =======
 typedef size_t reg_t;   /* 32-bits in x32 mode */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 typedef size_t reg_t;   /* 32-bits in x32 mode */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
 
 typedef enum {
@@ -553,6 +623,9 @@ typedef enum {
  **************************************/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 /**
  * LZ4 relies on memcpy with a constant size being inlined. In freestanding
@@ -581,8 +654,11 @@ typedef enum {
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 static unsigned LZ4_isLittleEndian(void)
 {
     const union {
@@ -594,6 +670,9 @@ static unsigned LZ4_isLittleEndian(void)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #if defined(__GNUC__) || defined(__INTEL_COMPILER)
 #define LZ4_PACK(__Declaration__) __Declaration__ __attribute__((__packed__))
 #elif defined(_MSC_VER)
@@ -603,8 +682,11 @@ static unsigned LZ4_isLittleEndian(void)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #if defined(LZ4_FORCE_MEMORY_ACCESS) && (LZ4_FORCE_MEMORY_ACCESS == 2)
 /* lie to the compiler about data alignment; use with caution */
 
@@ -614,6 +696,9 @@ static U16 LZ4_read16(const void *memPtr)
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 static U32 LZ4_read32(const void *memPtr)
 {
     return *(const U32 *)memPtr;
@@ -676,9 +761,12 @@ static U32 LZ4_read32(const void *memPtr)
 =======
 
 static U32 LZ4_read32(const void *memPtr)
+<<<<<<< HEAD
 =======
 
 static U32 LZ4_read32(const void *memPtr)
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     return *(const U32 *)memPtr;
 }
@@ -761,6 +849,7 @@ static reg_t LZ4_read_ARCH(const void *memPtr)
 }
 
 static void LZ4_write16(void *memPtr, U16 value)
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 {
     return *(const U32 *)memPtr;
@@ -848,6 +937,8 @@ static reg_t LZ4_read_ARCH(const void *memPtr)
 }
 
 static void LZ4_write16(void *memPtr, U16 value)
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
     U32 val;
@@ -887,6 +978,9 @@ static U16 LZ4_readLE16(const void *memPtr)
         const BYTE *p = (const BYTE *)memPtr;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         return (U16)((U16)p[0] | (p[1] << 8));
     }
 }
@@ -911,6 +1005,7 @@ static U32 LZ4_readLE32(const void *memPtr)
 }
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 
         return (U16)((U16)p[0] + (p[1] << 8));
@@ -918,6 +1013,8 @@ static U32 LZ4_readLE32(const void *memPtr)
 }
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 static void LZ4_writeLE16(void *memPtr, U16 value)
 {
     if (LZ4_isLittleEndian()) {
@@ -927,12 +1024,18 @@ static void LZ4_writeLE16(void *memPtr, U16 value)
         BYTE *p = (BYTE *)memPtr;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         p[0] = (BYTE)value;
         p[1] = (BYTE)(value >> 8);
     }
@@ -942,16 +1045,22 @@ static void LZ4_writeLE16(void *memPtr, U16 value)
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 LZ4_FORCE_INLINE
 void LZ4_wildCopy8(void *dstPtr, const void *srcPtr, void *dstEnd)
 =======
 LZ4_FORCE_O2_INLINE_GCC_PPC64LE
 void LZ4_wildCopy(void *dstPtr, const void *srcPtr, void *dstEnd)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 LZ4_FORCE_O2_INLINE_GCC_PPC64LE
 void LZ4_wildCopy(void *dstPtr, const void *srcPtr, void *dstEnd)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     BYTE *d = (BYTE *)dstPtr;
     const BYTE *s = (const BYTE *)srcPtr;
@@ -960,13 +1069,19 @@ void LZ4_wildCopy(void *dstPtr, const void *srcPtr, void *dstEnd)
     do {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         LZ4_memcpy(d, s, 8);
 =======
         memcpy(d, s, 8);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         memcpy(d, s, 8);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         d += 8;
         s += 8;
     } while (d < e);
@@ -974,6 +1089,9 @@ void LZ4_wildCopy(void *dstPtr, const void *srcPtr, void *dstEnd)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 static const unsigned inc32table[8] = {0, 1, 2, 1, 0, 4, 4, 4};
 static const int dec64table[8] = {0, 0, 0, -1, -4, 1, 2, 3};
 
@@ -999,8 +1117,11 @@ LZ4_FORCE_INLINE void LZ4_memcpy_using_offset_base(BYTE *dstPtr,
                                                    BYTE *dstEnd,
                                                    const size_t offset)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /*-************************************
  *  Common Constants
  **************************************/
@@ -1058,6 +1179,9 @@ static int g_debuglog_enable = 1;
 #endif
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /*-************************************
  *  Common functions
  **************************************/
@@ -1162,6 +1286,9 @@ static unsigned LZ4_NbCommonBytes(reg_t val)
         if (sizeof(val) == 8) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #if defined(_MSC_VER) && (_MSC_VER >= 1800) &&     \
     (defined(_M_AMD64) && !defined(_M_ARM64EC)) && \
     !defined(LZ4_FORCE_SW_BITCOUNT)
@@ -1285,6 +1412,7 @@ target. Note that this code path is never triggered in 32-bits mode. */
 #if defined(_MSC_VER) && defined(_WIN64) && !defined(LZ4_FORCE_SW_BITCOUNT)
             unsigned long r = 0;
 
+<<<<<<< HEAD
 =======
 #if defined(_MSC_VER) && defined(_WIN64) && !defined(LZ4_FORCE_SW_BITCOUNT)
             unsigned long r = 0;
@@ -1329,6 +1457,8 @@ target. Note that this code path is never triggered in 32-bits mode. */
             unsigned long r = 0;
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             _BitScanReverse64(&r, val);
             return (unsigned)(r >> 3);
 #elif (defined(__clang__) || (defined(__GNUC__) && (__GNUC__ >= 3))) && \
@@ -1344,9 +1474,13 @@ target. Note that this code path is never triggered in 32-bits mode. */
             unsigned r;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (!(val >> by32)) {
                 r = 4;
             }
@@ -1366,6 +1500,9 @@ target. Note that this code path is never triggered in 32-bits mode. */
 #endif
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
         }
         else /* 32 bits */ {
@@ -1381,8 +1518,11 @@ target. Note that this code path is never triggered in 32-bits mode. */
                   24;
             return (unsigned)val ^ 3;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         }
         else { /* 32 bits */
 #if defined(_MSC_VER) && !defined(LZ4_FORCE_SW_BITCOUNT)
@@ -1407,9 +1547,13 @@ target. Note that this code path is never triggered in 32-bits mode. */
             r += (!val);
             return r;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
         }
     }
@@ -1437,12 +1581,18 @@ unsigned LZ4_count(const BYTE *pIn, const BYTE *pMatch, const BYTE *pInLimit)
         reg_t const diff = LZ4_read_ARCH(pMatch) ^ LZ4_read_ARCH(pIn);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (!diff) {
             pIn += STEPSIZE;
             pMatch += STEPSIZE;
@@ -1469,6 +1619,9 @@ unsigned LZ4_count(const BYTE *pIn, const BYTE *pMatch, const BYTE *pInLimit)
 #ifndef LZ4_COMMONDEFS_ONLY
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /*-************************************
  *  Local Constants
  **************************************/
@@ -1482,10 +1635,13 @@ static const U32 LZ4_skipTrigger = 6; /* Increase this value ==> compression run
 =======
 
 /*-************************************
+<<<<<<< HEAD
 =======
 
 /*-************************************
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  *  Local Constants
  **************************************/
 static const int LZ4_64Klimit = ((64 KB) + (MFLIMIT - 1));
@@ -1501,9 +1657,13 @@ typedef enum {
     fillOutput = 2
 } limitedOutput_directive;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 typedef enum { clearedTable = 0, byPtr, byU32, byU16 } tableType_t;
 
 /**
@@ -1543,9 +1703,13 @@ typedef enum { endOnOutputSize = 0, endOnInputSize = 1 } endCondition_directive;
 typedef enum { full = 0, partial = 1 } earlyEnd_directive;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /*-************************************
  *  Local Utils
  **************************************/
@@ -1555,6 +1719,9 @@ int LZ4_versionNumber(void)
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 const char *LZ4_versionString(void)
 {
     return LZ4_VERSION_STRING;
@@ -1866,9 +2033,12 @@ int LZ4_decompress_safe_partial_forceExtDict(
 #endif
 =======
 
+<<<<<<< HEAD
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 const char *LZ4_versionString(void)
 {
     return LZ4_VERSION_STRING;
@@ -1879,6 +2049,7 @@ int LZ4_compressBound(int isize)
     return LZ4_COMPRESSBOUND(isize);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2275,16 +2446,28 @@ int LZ4_sizeofState()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+int LZ4_sizeofState()
+{
+    return LZ4_STREAMSIZE;
+}
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 /*-******************************
  *  Compression functions
  ********************************/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 LZ4_FORCE_INLINE U32 LZ4_hash4(U32 sequence, tableType_t const tableType)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+LZ4_FORCE_INLINE U32 LZ4_hash4(U32 sequence, tableType_t const tableType)
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 static U32 LZ4_hash4(U32 sequence, tableType_t const tableType)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {
@@ -2323,20 +2506,29 @@ LZ4_FORCE_INLINE U32 LZ4_hashPosition(const void *const p,
         return LZ4_hash5(LZ4_read_ARCH(p), tableType);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #ifdef LZ4_STATIC_LINKING_ONLY_ENDIANNESS_INDEPENDENT_OUTPUT
     return LZ4_hash4(LZ4_readLE32(p), tableType);
 #else
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     return LZ4_hash4(LZ4_read32(p), tableType);
 #endif
 }
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 LZ4_FORCE_INLINE void LZ4_clearHash(U32 h, void *tableBase,
                                     tableType_t const tableType)
 {
@@ -2374,12 +2566,15 @@ static void LZ4_putIndexOnHash(U32 idx, U32 h, void *tableBase,
 {
     switch (tableType) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 static void LZ4_putIndexOnHash(U32 idx, U32 h, void *tableBase,
                                tableType_t const tableType)
 {
     switch (tableType) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     default:           /* fallthrough */
     case clearedTable: /* fallthrough */
     case byPtr: {      /* illegal! */
@@ -2390,12 +2585,18 @@ static void LZ4_putIndexOnHash(U32 idx, U32 h, void *tableBase,
         U32 *hashTable = (U32 *)tableBase;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         hashTable[h] = idx;
         return;
     }
@@ -2403,12 +2604,18 @@ static void LZ4_putIndexOnHash(U32 idx, U32 h, void *tableBase,
         U16 *hashTable = (U16 *)tableBase;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         assert(idx < 65536);
         hashTable[h] = (U16)idx;
         return;
@@ -2418,6 +2625,9 @@ static void LZ4_putIndexOnHash(U32 idx, U32 h, void *tableBase,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /* LZ4_putPosition*() : only used in byPtr mode */
 LZ4_FORCE_INLINE void LZ4_putPositionOnHash(const BYTE *p, U32 h,
                                             void *tableBase,
@@ -2470,6 +2680,7 @@ LZ4_FORCE_INLINE void LZ4_putPosition(const BYTE *p, void *tableBase,
                                       const BYTE *srcBase)
 {
     U32 const h = LZ4_hashPosition(p, tableType);
+<<<<<<< HEAD
 =======
 static void LZ4_putPositionOnHash(const BYTE *p, U32 h, void *tableBase,
                                   tableType_t const tableType,
@@ -2507,6 +2718,8 @@ LZ4_FORCE_INLINE void LZ4_putPosition(const BYTE *p, void *tableBase,
 {
     U32 const h = LZ4_hashPosition(p, tableType);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     LZ4_putPositionOnHash(p, h, tableBase, tableType, srcBase);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2520,20 +2733,27 @@ LZ4_FORCE_INLINE void LZ4_putPosition(const BYTE *p, void *tableBase,
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 LZ4_FORCE_INLINE U32 LZ4_getIndexOnHash(U32 h, const void *tableBase,
                                         tableType_t tableType)
 =======
 static U32 LZ4_getIndexOnHash(U32 h, const void *tableBase,
                               tableType_t tableType)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 static U32 LZ4_getIndexOnHash(U32 h, const void *tableBase,
                               tableType_t tableType)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     LZ4_STATIC_ASSERT(LZ4_MEMORY_USAGE > 2);
     if (tableType == byU32) {
         const U32 *const hashTable = (const U32 *)tableBase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2542,6 +2762,11 @@ static U32 LZ4_getIndexOnHash(U32 h, const void *tableBase,
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         assert(h < (1U << (LZ4_MEMORY_USAGE - 2)));
         return hashTable[h];
     }
@@ -2549,12 +2774,18 @@ static U32 LZ4_getIndexOnHash(U32 h, const void *tableBase,
         const U16 *const hashTable = (const U16 *)tableBase;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         assert(h < (1U << (LZ4_MEMORY_USAGE - 1)));
         return hashTable[h];
     }
@@ -2565,6 +2796,9 @@ static U32 LZ4_getIndexOnHash(U32 h, const void *tableBase,
 static const BYTE *LZ4_getPositionOnHash(U32 h, const void *tableBase,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                          tableType_t tableType)
 {
     assert(tableType == byPtr);
@@ -2599,6 +2833,20 @@ LZ4_getPosition(const BYTE *p, const void *tableBase, tableType_t tableType)
 
         return hashTable[h] + srcBase;
     } /* default, to ensure a return */
+<<<<<<< HEAD
+=======
+}
+
+LZ4_FORCE_INLINE const BYTE *LZ4_getPosition(const BYTE *p,
+                                             const void *tableBase,
+                                             tableType_t tableType,
+                                             const BYTE *srcBase)
+{
+    U32 const h = LZ4_hashPosition(p, tableType);
+
+    return LZ4_getPositionOnHash(h, tableBase, tableType, srcBase);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 }
 
 LZ4_FORCE_INLINE const BYTE *LZ4_getPosition(const BYTE *p,
@@ -2666,9 +2914,13 @@ LZ4_FORCE_INLINE void LZ4_prepareTable(LZ4_stream_t_internal *const cctx,
              cctx->currentOffset + inputSize >= 0xFFFFU) ||
             (tableType == byU32 && cctx->currentOffset > 1 GB) ||
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             tableType == byPtr || inputSize >= 4 KB) {
             DEBUGLOG(4, "LZ4_prepareTable: Resetting table in %p", cctx);
             MEM_INIT(cctx->hashTable, 0, LZ4_HASHTABLESIZE);
@@ -2678,9 +2930,13 @@ LZ4_FORCE_INLINE void LZ4_prepareTable(LZ4_stream_t_internal *const cctx,
 =======
             cctx->tableType = clearedTable;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         }
         else {
             DEBUGLOG(4, "LZ4_prepareTable: Re-use hash table (no reset)");
@@ -2731,9 +2987,13 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
     const dictIssue_directive dictIssue, const U32 acceleration)
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     const BYTE *ip = (const BYTE *)source;
 
     U32 const startIndex = cctx->currentOffset;
@@ -2751,13 +3011,19 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
                               : 0; /* make indexes in dictCtx comparable with
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                       indexes in current context */
 =======
                                       index in current context */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                                       index in current context */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     int const maybe_extMem =
         (dictDirective == usingExtDict) || (dictDirective == usingDictCtx);
@@ -2765,13 +3031,19 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
         startIndex - dictSize; /* used when dictDirective == dictSmall */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     const BYTE *const dictEnd = dictionary ? dictionary + dictSize : dictionary;
 =======
     const BYTE *const dictEnd = dictionary + dictSize;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     const BYTE *const dictEnd = dictionary + dictSize;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     const BYTE *anchor = (const BYTE *)source;
     const BYTE *const iend = ip + inputSize;
     const BYTE *const mflimitPlusOne = iend - MFLIMIT + 1;
@@ -2781,14 +3053,20 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
      * while a dictionary in the current context precedes the currentOffset */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     const BYTE *dictBase = (dictionary == NULL) ? NULL
                            : (dictDirective == usingDictCtx)
 =======
     const BYTE *dictBase = dictDirective == usingDictCtx
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     const BYTE *dictBase = dictDirective == usingDictCtx
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                ? dictionary + dictSize - dictCtx->currentOffset
                                : dictionary + dictSize - startIndex;
 
@@ -2800,6 +3078,9 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     DEBUGLOG(5, "LZ4_compress_generic_validated: srcSize=%i, tableType=%u",
              inputSize, tableType);
     assert(ip != NULL);
@@ -2815,8 +3096,11 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
         return 0;
     } /* Impossible to store anything */
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     DEBUGLOG(5, "LZ4_compress_generic: srcSize=%i, tableType=%u", inputSize,
              tableType);
     /* Init conditions */
@@ -2830,9 +3114,13 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
         assert(dictDirective ==
                noDict); /* only supported use case with byPtr */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     assert(acceleration >= 1);
 
     lowLimit =
@@ -2869,9 +3157,13 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
 =======
     LZ4_putPosition(ip, cctx->hashTable, tableType, base);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     ip++;
     forwardH = LZ4_hashPosition(ip, tableType);
 
@@ -2881,17 +3173,26 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
         BYTE *token;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const BYTE *filledIp;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        const BYTE *filledIp;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         /* Find a match */
         if (tableType == byPtr) {
             const BYTE *forwardIp = ip;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             int step = 1;
             int searchMatchNb = acceleration << LZ4_skipTrigger;
 =======
@@ -2899,11 +3200,14 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
             unsigned searchMatchNb = acceleration << LZ4_skipTrigger;
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             unsigned step = 1;
             unsigned searchMatchNb = acceleration << LZ4_skipTrigger;
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             do {
                 U32 const h = forwardH;
 
@@ -2917,27 +3221,39 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 match = LZ4_getPositionOnHash(h, cctx->hashTable, tableType);
 =======
                 match =
                     LZ4_getPositionOnHash(h, cctx->hashTable, tableType, base);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 match =
                     LZ4_getPositionOnHash(h, cctx->hashTable, tableType, base);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 forwardH = LZ4_hashPosition(forwardIp, tableType);
                 LZ4_putPositionOnHash(ip, h, cctx->hashTable, tableType);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             } while ((match + LZ4_DISTANCE_MAX < ip) ||
 =======
             } while ((match + MAX_DISTANCE < ip) ||
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             } while ((match + MAX_DISTANCE < ip) ||
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                      (LZ4_read32(match) != LZ4_read32(ip)));
         }
         else { /* byU32, byU16 */
@@ -2945,6 +3261,9 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
             const BYTE *forwardIp = ip;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             int step = 1;
             int searchMatchNb = acceleration << LZ4_skipTrigger;
 =======
@@ -2952,11 +3271,14 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
             unsigned searchMatchNb = acceleration << LZ4_skipTrigger;
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             unsigned step = 1;
             unsigned searchMatchNb = acceleration << LZ4_skipTrigger;
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             do {
                 U32 const h = forwardH;
                 U32 const current = (U32)(forwardIp - base);
@@ -3013,6 +3335,9 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 DEBUGLOG(7, "candidate at pos=%u  (offset=%u \n", matchIndex,
                          current - matchIndex);
                 if ((dictIssue == dictSmall) && (matchIndex < prefixIdxLimit)) {
@@ -3031,11 +3356,14 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
                 if ((dictIssue == dictSmall) && (matchIndex < prefixIdxLimit))
                     continue; /* match outside of valid area */
                 assert(matchIndex < current);
+<<<<<<< HEAD
 =======
                 if ((dictIssue == dictSmall) && (matchIndex < prefixIdxLimit))
                     continue; /* match outside of valid area */
                 assert(matchIndex < current);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 if ((tableType != byU16) &&
                     (matchIndex + MAX_DISTANCE < current))
                     continue; /* too far */
@@ -3044,9 +3372,13 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
                            MAX_DISTANCE); /* too_far presumed impossible with
                                              byU16 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
                 if (LZ4_read32(match) == LZ4_read32(ip)) {
                     if (maybe_extMem)
@@ -3060,6 +3392,9 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
         /* Catch up */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         filledIp = ip;
         assert(ip > anchor); /* this is always true as ip has been advanced
                                 before entering the main loop */
@@ -3070,16 +3405,23 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
             } while (((ip > anchor) & (match > lowLimit)) &&
                      (unlikely(ip[-1] == match[-1])));
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         while (((ip > anchor) & (match > lowLimit)) &&
                (unlikely(ip[-1] == match[-1]))) {
             ip--;
             match--;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         }
 
         /* Encode Literals */
@@ -3087,6 +3429,9 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
             unsigned const litLength = (unsigned)(ip - anchor);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             token = op++;
             if ((outputDirective ==
                  limitedOutput) && /* Check output buffer overflow */
@@ -3106,10 +3451,13 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
 =======
 
             token = op++;
+<<<<<<< HEAD
 =======
 
             token = op++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if ((outputLimited ==
                  limitedOutput) && /* Check output buffer overflow */
                 (unlikely(op + litLength + (2 + 1 + LASTLITERALS) +
@@ -3124,24 +3472,34 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
                     /* min last literals so last match is <= end - MFLIMIT */
                     > olimit))) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 op--;
                 goto _last_literals;
             }
             if (litLength >= RUN_MASK) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 unsigned len = litLength - RUN_MASK;
 =======
                 int len = (int)litLength - RUN_MASK;
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 int len = (int)litLength - RUN_MASK;
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 *token = (RUN_MASK << ML_BITS);
                 for (; len >= 255; len -= 255)
                     *op++ = 255;
@@ -3153,13 +3511,19 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
             /* Copy Literals */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             LZ4_wildCopy8(op, anchor, op + litLength);
 =======
             LZ4_wildCopy(op, anchor, op + litLength);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             LZ4_wildCopy(op, anchor, op + litLength);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             op += litLength;
             DEBUGLOG(6, "seq.start:%i, literals=%u, match.start:%i",
                      (int)(anchor - (const BYTE *)source), litLength,
@@ -3188,9 +3552,13 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
             (op + 2 /* offset */ + 1 /* token */ + MFLIMIT - MINMATCH
              /* min last literals so last match is <= end - MFLIMIT */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
              > olimit)) {
             /* the match was too close to the end, rewind and go to last
              * literals */
@@ -3204,13 +3572,19 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
                      (int)(ip - (const BYTE *)source));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             assert(offset <= LZ4_DISTANCE_MAX && offset > 0);
 =======
             assert(offset <= MAX_DISTANCE && offset > 0);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             assert(offset <= MAX_DISTANCE && offset > 0);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             LZ4_writeLE16(op, (U16)offset);
             op += 2;
         }
@@ -3219,13 +3593,19 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
                      (U32)(ip - match));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             assert(ip - match <= LZ4_DISTANCE_MAX);
 =======
             assert(ip - match <= MAX_DISTANCE);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             assert(ip - match <= MAX_DISTANCE);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             LZ4_writeLE16(op, (U16)(ip - match));
             op += 2;
         }
@@ -3235,6 +3615,9 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
             unsigned matchCode;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
             if ((dictDirective == usingExtDict ||
                  dictDirective == usingDictCtx) &&
@@ -3248,6 +3631,7 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
                 const BYTE *limit = ip + (dictEnd - match);
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 
             if ((dictDirective == usingExtDict ||
@@ -3256,19 +3640,27 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
                 const BYTE *limit = ip + (dictEnd - match);
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 assert(dictEnd > match);
                 if (limit > matchlimit)
                     limit = matchlimit;
                 matchCode = LZ4_count(ip + MINMATCH, match + MINMATCH, limit);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 ip += (size_t)matchCode + MINMATCH;
 =======
                 ip += MINMATCH + matchCode;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 ip += MINMATCH + matchCode;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 if (ip == limit) {
                     unsigned const more =
                         LZ4_count(limit, (const BYTE *)source, matchlimit);
@@ -3284,26 +3676,38 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
                     LZ4_count(ip + MINMATCH, match + MINMATCH, matchlimit);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 ip += (size_t)matchCode + MINMATCH;
 =======
                 ip += MINMATCH + matchCode;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 ip += MINMATCH + matchCode;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 DEBUGLOG(6, "             with matchLength=%u",
                          matchCode + MINMATCH);
             }
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if ((outputDirective) && /* Check output buffer overflow */
                 (unlikely(op + (1 + LASTLITERALS) + (matchCode + 240) / 255 >
                           olimit))) {
                 if (outputDirective == fillOutput) {
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if ((outputLimited) && /* Check output buffer overflow */
                 (unlikely(op + (1 + LASTLITERALS) + (matchCode >> 8) >
                           olimit))) {
@@ -3317,13 +3721,19 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
                         1 /* to avoid needing a zero byte */ +
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                         ((U32)(olimit - op) - 1 - LASTLITERALS) * 255;
 =======
                         ((U32)(olimit - op) - 2 - 1 - LASTLITERALS) * 255;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                         ((U32)(olimit - op) - 2 - 1 - LASTLITERALS) * 255;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     ip -= matchCode - newMatchCode;
                     assert(newMatchCode < matchCode);
                     matchCode = newMatchCode;
@@ -3377,6 +3787,9 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
         /* Fill table */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         {
             U32 const h = LZ4_hashPosition(ip - 2, tableType);
             if (tableType == byPtr) {
@@ -3390,9 +3803,12 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
 =======
         LZ4_putPosition(ip - 2, cctx->hashTable, tableType, base);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         LZ4_putPosition(ip - 2, cctx->hashTable, tableType, base);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         /* Test next position */
         if (tableType == byPtr) {
@@ -3406,9 +3822,13 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
             LZ4_putPosition(ip, cctx->hashTable, tableType, base);
             if ((match + MAX_DISTANCE >= ip) &&
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 (LZ4_read32(match) == LZ4_read32(ip))) {
                 token = op++;
                 *token = 0;
@@ -3426,11 +3846,17 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
                     /* there was no match, try the dictionary */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     assert(tableType == byU32);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                    assert(tableType == byU32);
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     matchIndex =
                         LZ4_getIndexOnHash(h, dictCtx->hashTable, byU32);
                     match = dictBase + matchIndex;
@@ -3466,6 +3892,9 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
                                           : 1) &&
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 (((tableType == byU16) &&
                   (LZ4_DISTANCE_MAX == LZ4_DISTANCE_ABSOLUTE_MAX))
                      ? 1
@@ -3475,11 +3904,14 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
                      ? 1
                      : (matchIndex + MAX_DISTANCE >= current)) &&
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 ((tableType == byU16)
                      ? 1
                      : (matchIndex + MAX_DISTANCE >= current)) &&
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 (LZ4_read32(match) == LZ4_read32(ip))) {
                 token = op++;
                 *token = 0;
@@ -3502,6 +3934,9 @@ _last_literals:
         size_t lastRun = (size_t)(iend - anchor);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if ((outputDirective) && /* Check output buffer overflow */
             (op + lastRun + 1 + ((lastRun + 255 - RUN_MASK) / 255) > olimit)) {
             if (outputDirective == fillOutput) {
@@ -3516,8 +3951,11 @@ _last_literals:
                 return 0; /* cannot compress within `dst` budget. Stored indexes
                              in hash table are nonetheless fine */
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         if ((outputLimited) && /* Check output buffer overflow */
             (op + lastRun + 1 + ((lastRun + 255 - RUN_MASK) / 255) > olimit)) {
@@ -3526,9 +3964,13 @@ _last_literals:
                 lastRun = (olimit - op) - 1;
                 lastRun -= (lastRun + 240) / 255;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             }
         }
         DEBUGLOG(6, "Final literal run : %i literals", (int)lastRun);
@@ -3541,12 +3983,16 @@ _last_literals:
             *op++ = (BYTE)accumulator;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
         }
         else {
             *op++ = (BYTE)(lastRun << ML_BITS);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         }
         else {
             *op++ = (BYTE)(lastRun << ML_BITS);
@@ -3562,6 +4008,9 @@ _last_literals:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (outputDirective == fillOutput) {
         *inputConsumed = (int)(((const char *)ip) - source);
     }
@@ -3636,6 +4085,7 @@ int LZ4_compress_fast_extState(void *state, const char *source, char *dest,
                                int inputSize, int maxOutputSize,
                                int acceleration)
 {
+<<<<<<< HEAD
 =======
     if (outputLimited == fillOutput) {
         *inputConsumed = (int)(((const char *)ip) - source);
@@ -3650,15 +4100,21 @@ int LZ4_compress_fast_extState(void *state, const char *source, char *dest,
                                int acceleration)
 {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     LZ4_stream_t_internal *ctx = &((LZ4_stream_t *)state)->internal_donotuse;
 
     if (acceleration < 1)
         acceleration = ACCELERATION_DEFAULT;
     LZ4_resetStream((LZ4_stream_t *)state);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (maxOutputSize >= LZ4_compressBound(inputSize)) {
         if (inputSize < LZ4_64Klimit) {
             return LZ4_compress_generic(ctx, source, dest, inputSize, NULL, 0,
@@ -3669,13 +4125,19 @@ int LZ4_compress_fast_extState(void *state, const char *source, char *dest,
             const tableType_t tableType =
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 ((sizeof(void *) == 4) && ((uptrval)source > LZ4_DISTANCE_MAX))
 =======
                 ((sizeof(void *) == 4) && ((uptrval)source > MAX_DISTANCE))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 ((sizeof(void *) == 4) && ((uptrval)source > MAX_DISTANCE))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     ? byPtr
                     : byU32;
             return LZ4_compress_generic(ctx, source, dest, inputSize, NULL, 0,
@@ -3687,12 +4149,18 @@ int LZ4_compress_fast_extState(void *state, const char *source, char *dest,
         if (inputSize < LZ4_64Klimit) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             ;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
             ;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            ;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             return LZ4_compress_generic(ctx, source, dest, inputSize, NULL,
                                         maxOutputSize, limitedOutput, byU16,
                                         noDict, noDictIssue, acceleration);
@@ -3701,13 +4169,19 @@ int LZ4_compress_fast_extState(void *state, const char *source, char *dest,
             const tableType_t tableType =
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 ((sizeof(void *) == 4) && ((uptrval)source > LZ4_DISTANCE_MAX))
 =======
                 ((sizeof(void *) == 4) && ((uptrval)source > MAX_DISTANCE))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 ((sizeof(void *) == 4) && ((uptrval)source > MAX_DISTANCE))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     ? byPtr
                     : byU32;
             return LZ4_compress_generic(ctx, source, dest, inputSize, NULL,
@@ -3732,6 +4206,9 @@ int LZ4_compress_fast_extState_fastReset(void *state, const char *src,
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     LZ4_stream_t_internal *const ctx =
         &((LZ4_stream_t *)state)->internal_donotuse;
     if (acceleration < 1)
@@ -3740,16 +4217,23 @@ int LZ4_compress_fast_extState_fastReset(void *state, const char *src,
         acceleration = LZ4_ACCELERATION_MAX;
     assert(ctx != NULL);
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     LZ4_stream_t_internal *ctx = &((LZ4_stream_t *)state)->internal_donotuse;
 
     if (acceleration < 1)
         acceleration = ACCELERATION_DEFAULT;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     if (dstCapacity >= LZ4_compressBound(srcSize)) {
         if (srcSize < LZ4_64Klimit) {
@@ -3771,13 +4255,19 @@ int LZ4_compress_fast_extState_fastReset(void *state, const char *src,
             const tableType_t tableType =
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 ((sizeof(void *) == 4) && ((uptrval)src > LZ4_DISTANCE_MAX))
 =======
                 ((sizeof(void *) == 4) && ((uptrval)src > MAX_DISTANCE))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 ((sizeof(void *) == 4) && ((uptrval)src > MAX_DISTANCE))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     ? byPtr
                     : byU32;
             LZ4_prepareTable(ctx, srcSize, tableType);
@@ -3806,13 +4296,19 @@ int LZ4_compress_fast_extState_fastReset(void *state, const char *src,
             const tableType_t tableType =
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 ((sizeof(void *) == 4) && ((uptrval)src > LZ4_DISTANCE_MAX))
 =======
                 ((sizeof(void *) == 4) && ((uptrval)src > MAX_DISTANCE))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 ((sizeof(void *) == 4) && ((uptrval)src > MAX_DISTANCE))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     ? byPtr
                     : byU32;
             LZ4_prepareTable(ctx, srcSize, tableType);
@@ -3825,22 +4321,31 @@ int LZ4_compress_fast_extState_fastReset(void *state, const char *src,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_compress_fast(const char *src, char *dest, int srcSize, int dstCapacity,
                       int acceleration)
 =======
 int LZ4_compress_fast(const char *source, char *dest, int inputSize,
                       int maxOutputSize, int acceleration)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 int LZ4_compress_fast(const char *source, char *dest, int inputSize,
                       int maxOutputSize, int acceleration)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int result;
 
 #if (LZ4_HEAPMODE)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     LZ4_stream_t *const ctxPtr = (LZ4_stream_t *)ALLOC(
         sizeof(LZ4_stream_t)); /* malloc-calloc always properly aligned */
 =======
@@ -3848,11 +4353,14 @@ int LZ4_compress_fast(const char *source, char *dest, int inputSize,
         ALLOC(sizeof(LZ4_stream_t)); /* malloc-calloc always properly aligned */
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     LZ4_stream_t *ctxPtr =
         ALLOC(sizeof(LZ4_stream_t)); /* malloc-calloc always properly aligned */
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (ctxPtr == NULL)
         return 0;
 #else
@@ -3861,16 +4369,22 @@ int LZ4_compress_fast(const char *source, char *dest, int inputSize,
 #endif
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     result = LZ4_compress_fast_extState(ctxPtr, src, dest, srcSize, dstCapacity,
                                         acceleration);
 =======
     result = LZ4_compress_fast_extState(ctxPtr, source, dest, inputSize,
                                         maxOutputSize, acceleration);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     result = LZ4_compress_fast_extState(ctxPtr, source, dest, inputSize,
                                         maxOutputSize, acceleration);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #if (LZ4_HEAPMODE)
     FREEMEM(ctxPtr);
@@ -3880,22 +4394,31 @@ int LZ4_compress_fast(const char *source, char *dest, int inputSize,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_compress_default(const char *src, char *dst, int srcSize,
                          int dstCapacity)
 =======
 int LZ4_compress_default(const char *source, char *dest, int inputSize,
                          int maxOutputSize)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 int LZ4_compress_default(const char *source, char *dest, int inputSize,
                          int maxOutputSize)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     return LZ4_compress_fast(src, dst, srcSize, dstCapacity, 1);
 }
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /* Note!: This function leaves the stream in an unclean/broken state!
  * It is not safe to subsequently use the same state with a _fastReset() or
  * _continue() call without resetting it. */
@@ -3905,8 +4428,11 @@ static int LZ4_compress_destSize_extState_internal(LZ4_stream_t *state,
                                                    int targetDstSize,
                                                    int acceleration)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /* hidden debug function */
 /* strangely enough, gcc generates faster code when this function is
  * uncommented, even if unused */
@@ -3936,9 +4462,13 @@ static int LZ4_compress_destSize_extState(LZ4_stream_t *state, const char *src,
                                           char *dst, int *srcSizePtr,
                                           int targetDstSize)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     void *const s = LZ4_initStream(state, sizeof(*state));
     assert(s != NULL);
@@ -3950,6 +4480,9 @@ static int LZ4_compress_destSize_extState(LZ4_stream_t *state, const char *src,
         return LZ4_compress_fast_extState(state, src, dst, *srcSizePtr,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                           targetDstSize, acceleration);
     }
     else {
@@ -3973,12 +4506,15 @@ static int LZ4_compress_destSize_extState(LZ4_stream_t *state, const char *src,
     }
     else {
         if (*srcSizePtr < LZ4_64Klimit) {
+<<<<<<< HEAD
 =======
                                           targetDstSize, 1);
     }
     else {
         if (*srcSizePtr < LZ4_64Klimit) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             return LZ4_compress_generic(
                 &state->internal_donotuse, src, dst, *srcSizePtr, srcSizePtr,
                 targetDstSize, fillOutput, byU16, noDict, noDictIssue, 1);
@@ -3992,15 +4528,22 @@ static int LZ4_compress_destSize_extState(LZ4_stream_t *state, const char *src,
                 &state->internal_donotuse, src, dst, *srcSizePtr, srcSizePtr,
                 targetDstSize, fillOutput, tableType, noDict, noDictIssue, 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         }
     }
 }
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_compress_destSize_extState(void *state, const char *src, char *dst,
                                    int *srcSizePtr, int targetDstSize,
                                    int acceleration)
@@ -4015,14 +4558,20 @@ int LZ4_compress_destSize_extState(void *state, const char *src, char *dst,
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_compress_destSize(const char *src, char *dst, int *srcSizePtr,
                           int targetDstSize)
 {
 #if (LZ4_HEAPMODE)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     LZ4_stream_t *const ctx = (LZ4_stream_t *)ALLOC(
         sizeof(LZ4_stream_t)); /* malloc-calloc always properly aligned */
 =======
@@ -4030,17 +4579,23 @@ int LZ4_compress_destSize(const char *src, char *dst, int *srcSizePtr,
         sizeof(LZ4_stream_t)); /* malloc-calloc always properly aligned */
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     LZ4_stream_t *ctx = (LZ4_stream_t *)ALLOC(
         sizeof(LZ4_stream_t)); /* malloc-calloc always properly aligned */
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (ctx == NULL)
         return 0;
 #else
     LZ4_stream_t ctxBody;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     LZ4_stream_t *const ctx = &ctxBody;
 #endif
 
@@ -4053,6 +4608,7 @@ int LZ4_compress_destSize(const char *src, char *dst, int *srcSizePtr,
     int result = LZ4_compress_destSize_extState(ctx, src, dst, srcSizePtr,
                                                 targetDstSize);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     LZ4_stream_t *ctx = &ctxBody;
 #endif
@@ -4060,6 +4616,8 @@ int LZ4_compress_destSize(const char *src, char *dst, int *srcSizePtr,
     int result = LZ4_compress_destSize_extState(ctx, src, dst, srcSizePtr,
                                                 targetDstSize);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #if (LZ4_HEAPMODE)
     FREEMEM(ctx);
@@ -4073,6 +4631,9 @@ int LZ4_compress_destSize(const char *src, char *dst, int *srcSizePtr,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #if !defined(LZ4_STATIC_LINKING_ONLY_DISABLE_MEMORY_ALLOCATION)
 LZ4_stream_t *LZ4_createStream(void)
 {
@@ -4094,6 +4655,7 @@ LZ4_stream_t *LZ4_createStream(void)
     DEBUGLOG(4, "LZ4_createStream %p", lz4s);
     if (lz4s == NULL)
         return NULL;
+<<<<<<< HEAD
 =======
 LZ4_stream_t *LZ4_createStream(void)
 {
@@ -4107,6 +4669,8 @@ LZ4_stream_t *LZ4_createStream(void)
     if (lz4s == NULL)
         return NULL;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     LZ4_resetStream(lz4s);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     return lz4s;
@@ -4115,13 +4679,19 @@ LZ4_stream_t *LZ4_createStream(void)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 static size_t LZ4_stream_t_alignment(void)
 =======
 void LZ4_resetStream(LZ4_stream_t *LZ4_stream)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 void LZ4_resetStream(LZ4_stream_t *LZ4_stream)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
 #if LZ4_ALIGN_TEST
     typedef struct {
@@ -4136,6 +4706,9 @@ void LZ4_resetStream(LZ4_stream_t *LZ4_stream)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 LZ4_stream_t *LZ4_initStream(void *buffer, size_t size)
 {
     DEBUGLOG(5, "LZ4_initStream");
@@ -4161,8 +4734,11 @@ void LZ4_resetStream(LZ4_stream_t *LZ4_stream)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void LZ4_resetStream_fast(LZ4_stream_t *ctx)
 {
     LZ4_prepareTable(&(ctx->internal_donotuse), 0, byU32);
@@ -4170,11 +4746,17 @@ void LZ4_resetStream_fast(LZ4_stream_t *ctx)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #if !defined(LZ4_STATIC_LINKING_ONLY_DISABLE_MEMORY_ALLOCATION)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+#if !defined(LZ4_STATIC_LINKING_ONLY_DISABLE_MEMORY_ALLOCATION)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_freeStream(LZ4_stream_t *LZ4_stream)
 {
     if (!LZ4_stream)
@@ -4187,6 +4769,9 @@ int LZ4_freeStream(LZ4_stream_t *LZ4_stream)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 typedef enum { _ld_fast, _ld_slow } LoadDict_mode_e;
 #define HASH_UNIT sizeof(reg_t)
 int LZ4_loadDict_internal(LZ4_stream_t *LZ4_dict, const char *dictionary,
@@ -4207,6 +4792,7 @@ int LZ4_loadDict(LZ4_stream_t *LZ4_dict, const char *dictionary, int dictSize)
     const BYTE *const dictEnd = p + dictSize;
     const BYTE *base;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 #define HASH_UNIT sizeof(reg_t)
 int LZ4_loadDict(LZ4_stream_t *LZ4_dict, const char *dictionary, int dictSize)
@@ -4217,6 +4803,8 @@ int LZ4_loadDict(LZ4_stream_t *LZ4_dict, const char *dictionary, int dictSize)
     const BYTE *const dictEnd = p + dictSize;
     const BYTE *base;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     DEBUGLOG(4, "LZ4_loadDict (%i bytes from %p into %p)", dictSize, dictionary,
              LZ4_dict);
@@ -4250,6 +4838,9 @@ int LZ4_loadDict(LZ4_stream_t *LZ4_dict, const char *dictionary, int dictSize)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if ((dictEnd - p) > 64 KB)
         p = dictEnd - 64 KB;
     dict->dictionary = p;
@@ -4268,11 +4859,14 @@ int LZ4_loadDict(LZ4_stream_t *LZ4_dict, const char *dictionary, int dictSize)
         LZ4_putPosition(p, dict->hashTable, tableType, base);
         p += 3;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     while (p <= dictEnd - HASH_UNIT) {
         LZ4_putPosition(p, dict->hashTable, tableType, base);
         p += 3;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     if (_ld == _ld_slow) {
@@ -4298,6 +4892,9 @@ int LZ4_loadDict(LZ4_stream_t *LZ4_dict, const char *dictionary, int dictSize)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_loadDict(LZ4_stream_t *LZ4_dict, const char *dictionary, int dictSize)
 {
     return LZ4_loadDict_internal(LZ4_dict, dictionary, dictSize, _ld_fast);
@@ -4321,8 +4918,11 @@ void LZ4_attach_dictionary(LZ4_stream_t *workingStream,
 
     if (dictCtx != NULL) {
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void LZ4_attach_dictionary(LZ4_stream_t *working_stream,
                            const LZ4_stream_t *dictionary_stream)
 {
@@ -4347,6 +4947,7 @@ void LZ4_attach_dictionary(LZ4_stream_t *working_stream,
 =======
         working_stream->internal_donotuse.dictCtx =
             &(dictionary_stream->internal_donotuse);
+<<<<<<< HEAD
 =======
         working_stream->internal_donotuse.dictCtx =
             &(dictionary_stream->internal_donotuse);
@@ -4354,6 +4955,8 @@ void LZ4_attach_dictionary(LZ4_stream_t *working_stream,
     else {
         working_stream->internal_donotuse.dictCtx = NULL;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
     else {
         working_stream->internal_donotuse.dictCtx = NULL;
@@ -4366,14 +4969,20 @@ static void LZ4_renormDictT(LZ4_stream_t_internal *LZ4_dict, int nextSize)
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     assert(nextSize >= 0);
     if (LZ4_dict->currentOffset + (unsigned)nextSize >
 =======
     if (LZ4_dict->currentOffset + nextSize >
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     if (LZ4_dict->currentOffset + nextSize >
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         0x80000000) { /* potential ptrdiff_t overflow (32-bits mode) */
         /* rescale hash table */
         U32 const delta = LZ4_dict->currentOffset - 64 KB;
@@ -4401,6 +5010,9 @@ int LZ4_compress_fast_continue(LZ4_stream_t *LZ4_stream, const char *source,
     const tableType_t tableType = byU32;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     LZ4_stream_t_internal *const streamPtr = &LZ4_stream->internal_donotuse;
     const char *dictEnd =
         streamPtr->dictSize
@@ -4410,16 +5022,22 @@ int LZ4_compress_fast_continue(LZ4_stream_t *LZ4_stream, const char *source,
     LZ4_stream_t_internal *streamPtr = &LZ4_stream->internal_donotuse;
     const BYTE *dictEnd = streamPtr->dictionary + streamPtr->dictSize;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     LZ4_stream_t_internal *streamPtr = &LZ4_stream->internal_donotuse;
     const BYTE *dictEnd = streamPtr->dictionary + streamPtr->dictSize;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     DEBUGLOG(5, "LZ4_compress_fast_continue (inputSize=%i, dictSize=%u)",
              inputSize, streamPtr->dictSize);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     LZ4_renormDictT(streamPtr, inputSize); /* fix index overflow */
     if (acceleration < 1)
         acceleration = LZ4_ACCELERATION_DEFAULT;
@@ -4444,6 +5062,7 @@ int LZ4_compress_fast_continue(LZ4_stream_t *LZ4_stream, const char *source,
     if ((streamPtr->dictSize - 1 < 4) /* intentional underflow */
         && (dictEnd != (const BYTE *)source)) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     if (streamPtr->initCheck)
         return 0; /* Uninitialized structure detected */
@@ -4455,12 +5074,17 @@ int LZ4_compress_fast_continue(LZ4_stream_t *LZ4_stream, const char *source,
     if ((streamPtr->dictSize - 1 < 4) /* intentional underflow */
         && (dictEnd != (const BYTE *)source)) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         DEBUGLOG(
             5,
             "LZ4_compress_fast_continue: dictSize(%u) at addr:%p is too small",
             streamPtr->dictSize, streamPtr->dictionary);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         /* remove dictionary existence from history, to employ faster prefix
          * mode */
         streamPtr->dictSize = 0;
@@ -4471,23 +5095,32 @@ int LZ4_compress_fast_continue(LZ4_stream_t *LZ4_stream, const char *source,
         streamPtr->dictionary = (const BYTE *)source;
         dictEnd = (const BYTE *)source;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         streamPtr->dictSize = 0;
         streamPtr->dictionary = (const BYTE *)source;
         dictEnd = (const BYTE *)source;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     /* Check overlapping input/dictionary space */
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         const char *const sourceEnd = source + inputSize;
         if ((sourceEnd > (const char *)streamPtr->dictionary) &&
             (sourceEnd < dictEnd)) {
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         const BYTE *sourceEnd = (const BYTE *)source + inputSize;
 
         if ((sourceEnd > streamPtr->dictionary) && (sourceEnd < dictEnd)) {
@@ -4499,10 +5132,15 @@ int LZ4_compress_fast_continue(LZ4_stream_t *LZ4_stream, const char *source,
                 streamPtr->dictSize = 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             streamPtr->dictionary = (const BYTE *)dictEnd - streamPtr->dictSize;
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            streamPtr->dictionary = (const BYTE *)dictEnd - streamPtr->dictSize;
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             streamPtr->dictionary = dictEnd - streamPtr->dictSize;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         }
@@ -4511,13 +5149,19 @@ int LZ4_compress_fast_continue(LZ4_stream_t *LZ4_stream, const char *source,
     /* prefix mode : source data follows dictionary */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (dictEnd == source) {
 =======
     if (dictEnd == (const BYTE *)source) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     if (dictEnd == (const BYTE *)source) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if ((streamPtr->dictSize < 64 KB) &&
             (streamPtr->dictSize < streamPtr->currentOffset))
             return LZ4_compress_generic(streamPtr, source, dest, inputSize,
@@ -4536,12 +5180,18 @@ int LZ4_compress_fast_continue(LZ4_stream_t *LZ4_stream, const char *source,
         int result;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (streamPtr->dictCtx) {
             /* We depend here on the fact that dictCtx'es (produced by
              * LZ4_loadDict) guarantee that their tables contain no references
@@ -4559,9 +5209,13 @@ int LZ4_compress_fast_continue(LZ4_stream_t *LZ4_stream, const char *source,
 =======
                 memcpy(streamPtr, streamPtr->dictCtx, sizeof(LZ4_stream_t));
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 result = LZ4_compress_generic(
                     streamPtr, source, dest, inputSize, NULL, maxOutputSize,
                     limitedOutput, tableType, usingExtDict, noDictIssue,
@@ -4576,13 +5230,19 @@ int LZ4_compress_fast_continue(LZ4_stream_t *LZ4_stream, const char *source,
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         else { /* small data <= 4 KB */
 =======
         else {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         else {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if ((streamPtr->dictSize < 64 KB) &&
                 (streamPtr->dictSize < streamPtr->currentOffset)) {
                 result = LZ4_compress_generic(
@@ -4609,13 +5269,19 @@ int LZ4_compress_forceExtDict(LZ4_stream_t *LZ4_dict, const char *source,
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     LZ4_stream_t_internal *const streamPtr = &LZ4_dict->internal_donotuse;
 =======
     LZ4_stream_t_internal *streamPtr = &LZ4_dict->internal_donotuse;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     LZ4_stream_t_internal *streamPtr = &LZ4_dict->internal_donotuse;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     int result;
 
     LZ4_renormDictT(streamPtr, srcSize);
@@ -4642,35 +5308,57 @@ int LZ4_compress_forceExtDict(LZ4_stream_t *LZ4_dict, const char *source,
  *  If previously compressed data block is not guaranteed to remain available at
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  * its memory location, save it into a safer place (char* safeBuffer). Note : no
  * need to call LZ4_loadDict() afterwards, dictionary is immediately usable, one
  * can therefore call LZ4_compress_fast_continue() right after.
  * @return : saved dictionary size in bytes (necessarily <= dictSize), or 0 if
  * error.
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  * its memory location, save it into a safer place (char* safeBuffer). Note :
  * you don't need to call LZ4_loadDict() afterwards, dictionary is immediately
  * usable, you can therefore call LZ4_compress_fast_continue(). Return : saved
  * dictionary size in bytes (necessarily <= dictSize), or 0 if error.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  */
 int LZ4_saveDict(LZ4_stream_t *LZ4_dict, char *safeBuffer, int dictSize)
 {
     LZ4_stream_t_internal *const dict = &LZ4_dict->internal_donotuse;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     DEBUGLOG(5, "LZ4_saveDict : dictSize=%i, safeBuffer=%p", dictSize,
              safeBuffer);
 =======
     const BYTE *const previousDictEnd = dict->dictionary + dict->dictSize;
+<<<<<<< HEAD
 =======
     const BYTE *const previousDictEnd = dict->dictionary + dict->dictSize;
+=======
+
+    if ((U32)dictSize > 64 KB)
+        dictSize = 64 KB; /* useless to define a dictionary > 64 KB */
+    if ((U32)dictSize > dict->dictSize)
+        dictSize = dict->dictSize;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     if ((U32)dictSize > 64 KB)
         dictSize = 64 KB; /* useless to define a dictionary > 64 KB */
@@ -4703,8 +5391,11 @@ int LZ4_saveDict(LZ4_stream_t *LZ4_dict, char *safeBuffer, int dictSize)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     dict->dictionary = (const BYTE *)safeBuffer;
     dict->dictSize = (U32)dictSize;
 
@@ -4713,6 +5404,9 @@ int LZ4_saveDict(LZ4_stream_t *LZ4_dict, char *safeBuffer, int dictSize)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /*-*******************************
  *  Decompression functions
  ********************************/
@@ -4918,11 +5612,14 @@ LZ4_FORCE_INLINE Rvl_t read_variable_length(const BYTE **ip, const BYTE *ilimit,
  *  Decompression functions
  *******************************/
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 /*-*****************************
  *  Decompression functions
  *******************************/
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /*! LZ4_decompress_generic() :
  *  This generic decompression function covers all use cases.
  *  It shall be instantiated several times, using different sets of directives.
@@ -4931,6 +5628,9 @@ LZ4_FORCE_INLINE Rvl_t read_variable_length(const BYTE **ip, const BYTE *ilimit,
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 LZ4_FORCE_INLINE int LZ4_decompress_generic(
     const char *const src, char *const dst, int srcSize,
     int outputSize, /* If endOnInput==endOnInputSize, this value is
@@ -4939,8 +5639,11 @@ LZ4_FORCE_INLINE int LZ4_decompress_generic(
     earlyEnd_directive partialDecoding, /* full, partial */
     dict_directive dict,         /* noDict, withPrefix64k, usingExtDict */
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 LZ4_FORCE_O2_GCC_PPC64LE LZ4_FORCE_INLINE int LZ4_decompress_generic(
     const char *const src, char *const dst, int srcSize,
     int outputSize,              /* If endOnInput==endOnInputSize, this value is
@@ -4950,9 +5653,13 @@ LZ4_FORCE_O2_GCC_PPC64LE LZ4_FORCE_INLINE int LZ4_decompress_generic(
     int targetOutputSize,        /* only used if partialDecoding==partial */
     int dict,                    /* noDict, withPrefix64k, usingExtDict */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     const BYTE *const lowPrefix, /* always <= dst, == dst when no prefix */
     const BYTE *const dictStart, /* only if dict==usingExtDict */
     const size_t dictSize        /* note : = 0 if noDict */
@@ -4960,6 +5667,9 @@ LZ4_FORCE_O2_GCC_PPC64LE LZ4_FORCE_INLINE int LZ4_decompress_generic(
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if ((src == NULL) || (outputSize < 0)) {
         return -1;
     }
@@ -4989,6 +5699,7 @@ LZ4_FORCE_O2_GCC_PPC64LE LZ4_FORCE_INLINE int LZ4_decompress_generic(
     const unsigned inc32table[8] = {0, 1, 2, 1, 0, 4, 4, 4};
     const int dec64table[8] = {0, 0, 0, -1, -4, 1, 2, 3};
 
+<<<<<<< HEAD
 =======
     const BYTE *ip = (const BYTE *)src;
     const BYTE *const iend = ip + srcSize;
@@ -5003,6 +5714,8 @@ LZ4_FORCE_O2_GCC_PPC64LE LZ4_FORCE_INLINE int LZ4_decompress_generic(
     const int dec64table[8] = {0, 0, 0, -1, -4, 1, 2, 3};
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     const int safeDecode = (endOnInput == endOnInputSize);
     const int checkOffset = ((safeDecode) && (dictSize < (int)(64 KB)));
 
@@ -5012,9 +5725,13 @@ LZ4_FORCE_O2_GCC_PPC64LE LZ4_FORCE_INLINE int LZ4_decompress_generic(
     const BYTE *const shortoend =
         oend - (endOnInput ? 14 : 8) /*maxLL */ - 18 /*maxML */;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         /* Set up the "end" pointers for the shortcut. */
         const BYTE *const shortiend = iend - 14 /*maxLL*/ - 2 /*offset*/;
@@ -5038,9 +5755,13 @@ LZ4_FORCE_O2_GCC_PPC64LE LZ4_FORCE_INLINE int LZ4_decompress_generic(
     /* Main Loop : decode sequences */
     while (1) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         const BYTE *match;
         size_t offset;
         unsigned token;
@@ -5156,9 +5877,13 @@ LZ4_FORCE_O2_GCC_PPC64LE LZ4_FORCE_INLINE int LZ4_decompress_generic(
             offset = LZ4_readLE16(ip);
             ip += 2;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             match = op - offset;
             assert(match <= op); /* overflow check */
 
@@ -5745,9 +6470,13 @@ LZ4_FORCE_O2_GCC_PPC64LE LZ4_FORCE_INLINE int LZ4_decompress_generic(
 _output_error:
     return (int)(-(((const char *)ip) - src)) - 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 }
 
 /*===== Instantiate the API decoding functions. =====*/
@@ -5757,15 +6486,22 @@ LZ4_FORCE_O2
 =======
 LZ4_FORCE_O2_GCC_PPC64LE
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_decompress_safe(const char *source, char *dest, int compressedSize,
                         int maxDecompressedSize)
 {
     return LZ4_decompress_generic(source, dest, compressedSize,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                   maxDecompressedSize, decode_full_block,
                                   noDict, (BYTE *)dest, NULL, 0);
 }
@@ -5786,8 +6522,11 @@ int LZ4_decompress_fast(const char *source, char *dest, int originalSize)
     return LZ4_decompress_unsafe_generic((const BYTE *)source, (BYTE *)dest,
                                          originalSize, 0, NULL, 0);
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                   maxDecompressedSize, endOnInputSize, full, 0,
                                   noDict, (BYTE *)dest, NULL, 0);
 }
@@ -5809,9 +6548,13 @@ int LZ4_decompress_fast(const char *source, char *dest, int originalSize)
                                   endOnOutputSize, full, 0, withPrefix64k,
                                   (BYTE *)dest - 64 KB, NULL, 0);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 }
 
 /*===== Instantiate a few more decoding cases, used more than once. =====*/
@@ -5821,9 +6564,13 @@ LZ4_FORCE_O2 /* Exported, an obsolete API function. */
 =======
 LZ4_FORCE_O2_GCC_PPC64LE /* Exported, an obsolete API function. */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     int
     LZ4_decompress_safe_withPrefix64k(const char *source, char *dest,
                                       int compressedSize, int maxOutputSize)
@@ -5847,9 +6594,13 @@ static int LZ4_decompress_safe_partial_withPrefix64k(const char *source,
 =======
                                   endOnInputSize, full, 0, withPrefix64k,
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                   (BYTE *)dest - 64 KB, NULL, 0);
 }
 
@@ -5866,9 +6617,13 @@ LZ4_FORCE_O2
 =======
 LZ4_FORCE_O2_GCC_PPC64LE
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 static int LZ4_decompress_safe_withSmallPrefix(const char *source, char *dest,
                                                int compressedSize,
                                                int maxOutputSize,
@@ -5877,6 +6632,9 @@ static int LZ4_decompress_safe_withSmallPrefix(const char *source, char *dest,
     return LZ4_decompress_generic(source, dest, compressedSize, maxOutputSize,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                   decode_full_block, noDict,
                                   (BYTE *)dest - prefixSize, NULL, 0);
 }
@@ -5935,6 +6693,7 @@ LZ4_FORCE_O2_GCC_PPC64LE /* Exported under another name, for tests/fullbench.c
                                 int compressedSize, int maxOutputSize,
                                 const void *dictStart, size_t dictSize)
 {
+<<<<<<< HEAD
 =======
                                   endOnInputSize, full, 0, noDict,
                                   (BYTE *)dest - prefixSize, NULL, 0);
@@ -5949,6 +6708,8 @@ LZ4_FORCE_O2_GCC_PPC64LE /* Exported under another name, for tests/fullbench.c
                                 const void *dictStart, size_t dictSize)
 {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     return LZ4_decompress_generic(
         source, dest, compressedSize, maxOutputSize, endOnInputSize, full, 0,
         usingExtDict, (BYTE *)dest, (const BYTE *)dictStart, dictSize);
@@ -5963,9 +6724,13 @@ static int LZ4_decompress_fast_extDict(const char *source, char *dest,
         source, dest, 0, originalSize, endOnOutputSize, full, 0, usingExtDict,
         (BYTE *)dest, (const BYTE *)dictStart, dictSize);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 }
 
 /* The "double dictionary" mode, for use with e.g. ring buffers: the first part
@@ -5998,15 +6763,22 @@ int LZ4_decompress_fast_doubleDict(const char *source, char *dest,
         source, dest, 0, originalSize, endOnOutputSize, full, 0, usingExtDict,
         (BYTE *)dest - prefixSize, (const BYTE *)dictStart, dictSize);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 }
 
 /*===== streaming decompression functions =====*/
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #if !defined(LZ4_STATIC_LINKING_ONLY_DISABLE_MEMORY_ALLOCATION)
 LZ4_streamDecode_t *LZ4_createStreamDecode(void)
 {
@@ -6016,10 +6788,13 @@ LZ4_streamDecode_t *LZ4_createStreamDecode(void)
 =======
 LZ4_streamDecode_t *LZ4_createStreamDecode(void)
 {
+<<<<<<< HEAD
 =======
 LZ4_streamDecode_t *LZ4_createStreamDecode(void)
 {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     LZ4_streamDecode_t *lz4s =
         (LZ4_streamDecode_t *)ALLOC_AND_ZERO(sizeof(LZ4_streamDecode_t));
     return lz4s;
@@ -6030,6 +6805,9 @@ int LZ4_freeStreamDecode(LZ4_streamDecode_t *LZ4_stream)
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (LZ4_stream == NULL) {
         return 0;
     } /* support free on NULL */
@@ -6037,10 +6815,13 @@ int LZ4_freeStreamDecode(LZ4_streamDecode_t *LZ4_stream)
     if (!LZ4_stream)
         return 0; /* support free on NULL */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     if (!LZ4_stream)
         return 0; /* support free on NULL */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     FREEMEM(LZ4_stream);
     return 0;
 }
@@ -6058,6 +6839,9 @@ int LZ4_setStreamDecode(LZ4_streamDecode_t *LZ4_streamDecode,
     LZ4_streamDecode_t_internal *lz4sd = &LZ4_streamDecode->internal_donotuse;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     lz4sd->prefixSize = (size_t)dictSize;
     if (dictSize) {
         assert(dictionary != NULL);
@@ -6071,11 +6855,14 @@ int LZ4_setStreamDecode(LZ4_streamDecode_t *LZ4_streamDecode,
     lz4sd->prefixSize = (size_t)dictSize;
     lz4sd->prefixEnd = (const BYTE *)dictionary + dictSize;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 
     lz4sd->prefixSize = (size_t)dictSize;
     lz4sd->prefixEnd = (const BYTE *)dictionary + dictSize;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     lz4sd->externalDict = NULL;
     lz4sd->extDictSize = 0;
     return 1;
@@ -6106,6 +6893,9 @@ int LZ4_decoderRingBufferSize(int maxBlockSize)
 /*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 *_continue() :
     These decoding functions allow decompression of multiple blocks in
 "streaming" mode. Previously decoded blocks must still be available at the
@@ -6115,8 +6905,11 @@ LZ4_setStreamDecode()
 */
 LZ4_FORCE_O2
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  *_continue() :
  These decoding functions allow decompression of multiple blocks in "streaming"
  mode. Previously decoded blocks must still be available at the memory position
@@ -6126,9 +6919,13 @@ LZ4_FORCE_O2
  */
 LZ4_FORCE_O2_GCC_PPC64LE
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_decompress_safe_continue(LZ4_streamDecode_t *LZ4_streamDecode,
                                  const char *source, char *dest,
                                  int compressedSize, int maxOutputSize)
@@ -6145,13 +6942,19 @@ int LZ4_decompress_safe_continue(LZ4_streamDecode_t *LZ4_streamDecode,
             return result;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         lz4sd->prefixSize = (size_t)result;
 =======
         lz4sd->prefixSize = result;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         lz4sd->prefixSize = result;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         lz4sd->prefixEnd = (BYTE *)dest + result;
     }
     else if (lz4sd->prefixEnd == (BYTE *)dest) {
@@ -6170,13 +6973,19 @@ int LZ4_decompress_safe_continue(LZ4_streamDecode_t *LZ4_streamDecode,
             return result;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         lz4sd->prefixSize += (size_t)result;
 =======
         lz4sd->prefixSize += result;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         lz4sd->prefixSize += result;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         lz4sd->prefixEnd += result;
     }
     else {
@@ -6185,6 +6994,9 @@ int LZ4_decompress_safe_continue(LZ4_streamDecode_t *LZ4_streamDecode,
         lz4sd->externalDict = lz4sd->prefixEnd - lz4sd->extDictSize;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         result = LZ4_decompress_safe_forceExtDict(
             source, dest, compressedSize, maxOutputSize, lz4sd->externalDict,
             lz4sd->extDictSize);
@@ -6192,8 +7004,11 @@ int LZ4_decompress_safe_continue(LZ4_streamDecode_t *LZ4_streamDecode,
             return result;
         lz4sd->prefixSize = (size_t)result;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         result = LZ4_decompress_safe_extDict(source, dest, compressedSize,
                                              maxOutputSize, lz4sd->externalDict,
                                              lz4sd->extDictSize);
@@ -6201,9 +7016,13 @@ int LZ4_decompress_safe_continue(LZ4_streamDecode_t *LZ4_streamDecode,
             return result;
         lz4sd->prefixSize = result;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         lz4sd->prefixEnd = (BYTE *)dest + result;
     }
 
@@ -6212,6 +7031,9 @@ int LZ4_decompress_safe_continue(LZ4_streamDecode_t *LZ4_streamDecode,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 LZ4_FORCE_O2 int
 LZ4_decompress_fast_continue(LZ4_streamDecode_t *LZ4_streamDecode,
                              const char *source, char *dest, int originalSize)
@@ -6227,6 +7049,7 @@ int LZ4_decompress_fast_continue(LZ4_streamDecode_t *LZ4_streamDecode,
 {
     LZ4_streamDecode_t_internal *lz4sd = &LZ4_streamDecode->internal_donotuse;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 LZ4_FORCE_O2_GCC_PPC64LE
 int LZ4_decompress_fast_continue(LZ4_streamDecode_t *LZ4_streamDecode,
@@ -6235,6 +7058,8 @@ int LZ4_decompress_fast_continue(LZ4_streamDecode_t *LZ4_streamDecode,
 {
     LZ4_streamDecode_t_internal *lz4sd = &LZ4_streamDecode->internal_donotuse;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     int result;
 
     DEBUGLOG(5, "LZ4_decompress_fast_continue (toDecodeSize=%i)", originalSize);
@@ -6248,6 +7073,9 @@ int LZ4_decompress_fast_continue(LZ4_streamDecode_t *LZ4_streamDecode,
             return result;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         lz4sd->prefixSize = (size_t)originalSize;
         lz4sd->prefixEnd = (BYTE *)dest + originalSize;
     }
@@ -6264,8 +7092,11 @@ int LZ4_decompress_fast_continue(LZ4_streamDecode_t *LZ4_streamDecode,
     else {
         DEBUGLOG(5, "prefix becomes extDict");
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         lz4sd->prefixSize = originalSize;
         lz4sd->prefixEnd = (BYTE *)dest + originalSize;
     }
@@ -6283,9 +7114,13 @@ int LZ4_decompress_fast_continue(LZ4_streamDecode_t *LZ4_streamDecode,
     }
     else {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         lz4sd->extDictSize = lz4sd->prefixSize;
         lz4sd->externalDict = lz4sd->prefixEnd - lz4sd->extDictSize;
         result = LZ4_decompress_fast_extDict(source, dest, originalSize,
@@ -6295,13 +7130,19 @@ int LZ4_decompress_fast_continue(LZ4_streamDecode_t *LZ4_streamDecode,
             return result;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         lz4sd->prefixSize = (size_t)originalSize;
 =======
         lz4sd->prefixSize = originalSize;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         lz4sd->prefixSize = originalSize;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         lz4sd->prefixEnd = (BYTE *)dest + originalSize;
     }
 
@@ -6324,6 +7165,9 @@ int LZ4_decompress_safe_usingDict(const char *source, char *dest,
     if (dictStart + dictSize == dest) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (dictSize >= 64 KB - 1) {
             return LZ4_decompress_safe_withPrefix64k(
                 source, dest, compressedSize, maxOutputSize);
@@ -6397,6 +7241,7 @@ int LZ4_decompress_fast_usingDict(const char *source, char *dest,
 }
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         if (dictSize >= 64 KB - 1)
             return LZ4_decompress_safe_withPrefix64k(
@@ -6419,6 +7264,8 @@ int LZ4_decompress_fast_usingDict(const char *source, char *dest,
 }
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /*=*************************************************
  *  Obsolete Functions
  ***************************************************/
@@ -6430,6 +7277,9 @@ int LZ4_compress_limitedOutput(const char *source, char *dest, int inputSize,
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_compress(const char *src, char *dest, int srcSize)
 {
     return LZ4_compress_default(src, dest, srcSize, LZ4_compressBound(srcSize));
@@ -6443,6 +7293,7 @@ int LZ4_compress(const char *source, char *dest, int inputSize)
 }
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 
 int LZ4_compress(const char *source, char *dest, int inputSize)
@@ -6452,6 +7303,8 @@ int LZ4_compress(const char *source, char *dest, int inputSize)
 }
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_compress_limitedOutput_withState(void *state, const char *src,
                                          char *dst, int srcSize, int dstSize)
 {
@@ -6459,12 +7312,18 @@ int LZ4_compress_limitedOutput_withState(void *state, const char *src,
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_compress_withState(void *state, const char *src, char *dst, int srcSize)
 {
     return LZ4_compress_fast_extState(state, src, dst, srcSize,
@@ -6472,12 +7331,18 @@ int LZ4_compress_withState(void *state, const char *src, char *dst, int srcSize)
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_compress_limitedOutput_continue(LZ4_stream_t *LZ4_stream,
                                         const char *src, char *dst, int srcSize,
                                         int dstCapacity)
@@ -6487,12 +7352,18 @@ int LZ4_compress_limitedOutput_continue(LZ4_stream_t *LZ4_stream,
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_compress_continue(LZ4_stream_t *LZ4_stream, const char *source,
                           char *dest, int inputSize)
 {
@@ -6503,14 +7374,20 @@ int LZ4_compress_continue(LZ4_stream_t *LZ4_stream, const char *source,
 /*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 These decompression functions are deprecated and should no longer be used.
 They are only provided here for compatibility with older user programs.
 - LZ4_uncompress is totally equivalent to LZ4_decompress_fast
 - LZ4_uncompress_unknownOutputSize is totally equivalent to LZ4_decompress_safe
 */
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    These decompression functions are deprecated and should no longer be used.
    They are only provided here for compatibility with older user programs.
    - LZ4_uncompress is totally equivalent to LZ4_decompress_fast
@@ -6518,21 +7395,31 @@ They are only provided here for compatibility with older user programs.
    LZ4_decompress_safe
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_uncompress(const char *source, char *dest, int outputSize)
 {
     return LZ4_decompress_fast(source, dest, outputSize);
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_uncompress_unknownOutputSize(const char *source, char *dest, int isize,
                                      int maxOutputSize)
 {
@@ -6541,6 +7428,7 @@ int LZ4_uncompress_unknownOutputSize(const char *source, char *dest, int isize,
 
 /* Obsolete Streaming functions */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7005,6 +7893,8 @@ int LZ4_sizeofStreamState()
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int LZ4_sizeofStreamState(void)
 =======
 int LZ4_sizeofStreamState()
@@ -7307,6 +8197,7 @@ int LZ4_sizeofStreamState()
     return sizeof(LZ4_stream_t);
 =======
 int LZ4_sizeofStreamState()
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -7482,6 +8373,11 @@ int LZ4_sizeofStreamState()
 {
     return LZ4_STREAMSIZE;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+{
+    return LZ4_STREAMSIZE;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 }
 
 int LZ4_resetStreamState(void *state, char *inputBuffer)
@@ -7493,11 +8389,17 @@ int LZ4_resetStreamState(void *state, char *inputBuffer)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #if !defined(LZ4_STATIC_LINKING_ONLY_DISABLE_MEMORY_ALLOCATION)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+#if !defined(LZ4_STATIC_LINKING_ONLY_DISABLE_MEMORY_ALLOCATION)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void *LZ4_create(char *inputBuffer)
 {
     (void)inputBuffer;

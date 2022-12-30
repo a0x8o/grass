@@ -72,6 +72,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                    FILE *fsite)
 =======
 <<<<<<< HEAD
@@ -468,6 +469,8 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                    FILE *fsite UNUSED)
 =======
                    FILE *fsite)
@@ -640,6 +643,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1065,6 +1069,11 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
                    FILE *fsite)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                   FILE *fsite)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int more, ltype, line_num, ID_type, Interp_type;
     double quotaZ;
@@ -1087,6 +1096,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
     db_open_select_cursor(driver, &sql, &cursor, DB_SEQUENTIAL);
 
     while (db_fetch(&cursor, DB_NEXT, &more) == DB_OK && more) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1972,6 +1982,8 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         table = db_get_cursor_table(&cursor);
 
         ID_column = db_get_table_column(table, 0);
@@ -3804,6 +3816,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -4211,6 +4224,38 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+        cont++;
+
+        table = db_get_cursor_table(&cursor);
+
+        ID_column = db_get_table_column(table, 0);
+        Interp_column = db_get_table_column(table, 1);
+
+        ID_type = db_sqltype_to_Ctype(db_get_column_sqltype(ID_column));
+        Interp_type = db_sqltype_to_Ctype(db_get_column_sqltype(Interp_column));
+
+        if (ID_type == DB_C_TYPE_INT)
+            ID_value = db_get_column_value(ID_column);
+        else
+            continue;
+
+        if (Interp_type == DB_C_TYPE_DOUBLE)
+            Interp_value = db_get_column_value(Interp_column);
+        else
+            continue;
+
+        line_num = db_get_value_int(ID_value);
+        quotaZ = db_get_value_double(Interp_value);
+
+        ltype = Vect_read_line(In, point, cat, line_num);
+
+        if (!(ltype & GV_POINT))
+            continue;
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         point->z[0] = quotaZ;
         Vect_write_line(Out, ltype, point, cat);
     }

@@ -78,6 +78,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 double p_vi(double redchan, double nirchan)
 =======
 <<<<<<< HEAD
@@ -474,6 +475,8 @@ double p_vi(double redchan, double nirchan)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 double p_vi(double redchan, double nirchan, double soil_line_slope)
 =======
 double p_vi(double redchan, double nirchan)
@@ -646,6 +649,7 @@ double p_vi(double redchan, double nirchan)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1071,6 +1075,11 @@ double p_vi(double redchan, double nirchan)
 double p_vi(double redchan, double nirchan)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+double p_vi(double redchan, double nirchan)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     double result, a;
 
@@ -1080,6 +1089,7 @@ double p_vi(double redchan, double nirchan)
         result = -1.0;
     }
     else {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1544,6 +1554,8 @@ double p_vi(double redchan, double nirchan)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         result = (sin(a) * nirchan) - (cos(a) * redchan);
 =======
         result = (sin(1) * nirchan) - (cos(1) * redchan);
@@ -1716,6 +1728,7 @@ double p_vi(double redchan, double nirchan)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2141,6 +2154,11 @@ double p_vi(double redchan, double nirchan)
         result = (sin(1) * nirchan) - (cos(1) * redchan);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        result = (sin(1) * nirchan) - (cos(1) * redchan);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
     return result;
 }

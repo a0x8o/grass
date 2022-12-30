@@ -496,8 +496,11 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2bfe9e5c78 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 if (nnodes > 0)
                     Vect_get_line_nodes(&(Map[i]), line, &node[0], &node[1]);
 =======
@@ -547,6 +550,7 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
                 if (nnodes > 0)
                     Vect_get_line_nodes(&(Map[i]), line, &node[0], &node[1]);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 if (nnodes > 0)
                     Vect_get_line_nodes(&(Map[i]), line, &node[0], &node[1]);
@@ -559,6 +563,8 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
 =======
 >>>>>>> e4a5d77fcc (v.what: Fix script outputs (space after = or : instead of =) (#1584))
 >>>>>>> edc2b06ed9 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
                 for (n = 0; n < nnodes; n++) {
                     double nx, ny, nz;
@@ -636,8 +642,11 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2bfe9e5c78 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             /* Height */
             if (Vect_is_3d(&(Map[i]))) {
                 double min, max;
@@ -689,11 +698,15 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
 	    }
 >>>>>>> 6ab2af6a26 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
             /* Height */
             if (Vect_is_3d(&(Map[i]))) {
                 double min, max;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             /* Height */
             if (Vect_is_3d(&(Map[i]))) {
@@ -701,6 +714,8 @@ void what(struct Map_info *Map, int nvects, char **vect, double east,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2bfe9e5c78 (v.what: Fix script outputs (space after = or : instead of =) (#1584))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
                 if (type & GV_POINTS) {
                     switch (output) {

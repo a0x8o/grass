@@ -216,6 +216,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1189,6 +1190,8 @@ public:
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         snprintf(str, sizeof(str), "BasicMinMaxHeap: allocate %ld\n",
                  (long)((size + 1) * sizeof(T)));
 =======
@@ -1504,6 +1507,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1577,9 +1581,12 @@ public:
         snprintf(str, sizeof(str), "BasicMinMaxHeap: allocate %ld\n",
                  (long)((size + 1) * sizeof(T)));
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
         sprintf(str, "BasicMinMaxHeap: allocate %ld\n",
                 (long)((size + 1) * sizeof(T)));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2035,6 +2042,8 @@ public:
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         // MEMORY_LOG(str);
 
         lastindex = 0;
@@ -2722,16 +2731,22 @@ class MinMaxHeap : public BasicMinMaxHeap<T> {
 public:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     MinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size) {};
     virtual ~MinMaxHeap() {};
 =======
     MinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size){};
     virtual ~MinMaxHeap(){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     MinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size){};
     virtual ~MinMaxHeap(){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     bool full(void) const { return this->size() >= this->maxsize; };
     HeapIndex get_maxsize() const { return this->maxsize; };
     HeapIndex fill(T *arr, HeapIndex n);
@@ -2774,6 +2789,9 @@ class UnboundedMinMaxHeap : public BasicMinMaxHeap<T> {
 public:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     UnboundedMinMaxHeap() : BasicMinMaxHeap<T>(MMHEAP_INITIAL_SIZE) {};
     UnboundedMinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size) {};
     virtual ~UnboundedMinMaxHeap() {};
@@ -2782,11 +2800,14 @@ public:
     UnboundedMinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size){};
     virtual ~UnboundedMinMaxHeap(){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     UnboundedMinMaxHeap() : BasicMinMaxHeap<T>(MMHEAP_INITIAL_SIZE){};
     UnboundedMinMaxHeap(HeapIndex size) : BasicMinMaxHeap<T>(size){};
     virtual ~UnboundedMinMaxHeap(){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 protected:
     virtual void grow();

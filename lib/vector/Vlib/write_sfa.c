@@ -335,6 +335,7 @@ void V2__add_line_to_topo_sfa(struct Map_info *Map, int line,
     struct P_line *Line;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 
@@ -343,6 +344,9 @@ void V2__add_line_to_topo_sfa(struct Map_info *Map, int line,
     G_debug(3, "V2__add_line_to_topo_sfa(): line = %d npoints = %d", line,
             points->n_points);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     struct bound_box box, abox;
 

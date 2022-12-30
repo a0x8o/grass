@@ -2,12 +2,18 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 import os
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 from types import SimpleNamespace
 
 import pytest
@@ -26,6 +32,9 @@ def updates_as_transaction(table, cat_column, column, cats, values):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 def value_update_by_category(map_name, layer, column_name, cats, values, env):
     """Update column value for multiple rows based on category"""
     db_info = gs.vector_db(map_name, env=env)[layer]
@@ -34,11 +43,14 @@ def value_update_by_category(map_name, layer, column_name, cats, values):
     """Update column value for multiple rows based on category"""
     db_info = gs.vector_db(map_name)[layer]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 def value_update_by_category(map_name, layer, column_name, cats, values):
     """Update column value for multiple rows based on category"""
     db_info = gs.vector_db(map_name)[layer]
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     table = db_info["table"]
     database = db_info["database"]
     driver = db_info["driver"]
@@ -53,13 +65,19 @@ def value_update_by_category(map_name, layer, column_name, cats, values):
     gs.write_command(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         "db.execute", input="-", database=database, driver=driver, stdin=sql, env=env
 =======
         "db.execute", input="-", database=database, driver=driver, stdin=sql
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         "db.execute", input="-", database=database, driver=driver, stdin=sql
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     )
 
 
@@ -74,6 +92,9 @@ def simple_dataset(tmp_path_factory):
     gs.core._create_location_xy(tmp_path, location)  # pylint: disable=protected-access
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     with gs.setup.init(tmp_path / location, env=os.environ.copy()) as session:
         gs.run_command(
             "g.region",
@@ -95,15 +116,19 @@ def simple_dataset(tmp_path_factory):
         gs.run_command("g.region", s=0, n=80, w=0, e=120, b=0, t=50, res=10, res3=10)
         gs.run_command("v.random", output=map_name, npoints=num_points, seed=42)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     with gs.setup.init(tmp_path / location):
         gs.run_command("g.region", s=0, n=80, w=0, e=120, b=0, t=50, res=10, res3=10)
         gs.run_command("v.random", output=map_name, npoints=num_points, seed=42)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         gs.run_command(
             "v.db.addtable",
             map=map_name,
             columns=f"{column_name} double precision",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             env=session.env,
@@ -111,6 +136,11 @@ def simple_dataset(tmp_path_factory):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            env=session.env,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         )
         cats = list(range(1, 1 + num_points))
         values = [float(i) + 0.11 for i in range(100, 100 + num_points)]
@@ -122,6 +152,9 @@ def simple_dataset(tmp_path_factory):
             values=values,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             env=session.env,
         )
         yield SimpleNamespace(
@@ -130,10 +163,13 @@ def simple_dataset(tmp_path_factory):
         )
         yield SimpleNamespace(
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         )
         yield SimpleNamespace(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             vector_name=map_name,
             column_name=column_name,
             values=values,

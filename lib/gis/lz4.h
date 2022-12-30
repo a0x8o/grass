@@ -30,21 +30,31 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    You can contact the author at :
     - LZ4 homepage : http://www.lz4.org
     - LZ4 source repository : https://github.com/lz4/lz4
 */
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  You can contact the author at :
  - LZ4 homepage : http://www.lz4.org
  - LZ4 source repository : https://github.com/lz4/lz4
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #if defined(__cplusplus)
 extern "C" {
 #endif
@@ -60,13 +70,19 @@ extern "C" {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
   LZ4 is lossless compression algorithm, providing compression speed >500 MB/s
 =======
   LZ4 is lossless compression algorithm, providing compression speed at 400 MB/s
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
   LZ4 is lossless compression algorithm, providing compression speed at 400 MB/s
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
   per core, scalable with multi-cores CPU. It features an extremely fast
   decoder, with speed in multiple GB/s per core, typically reaching RAM speed
   limits on multi-core systems.
@@ -74,19 +90,28 @@ extern "C" {
   The LZ4 compression library provides in-memory compression and decompression
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
   functions. It gives full buffer control to user. Compression can be done in:
 =======
   functions. Compression can be done in:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
   functions. Compression can be done in:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     - a single step (described as Simple Functions)
     - a single step, reusing a context (described in Advanced Functions)
     - unbounded multiple steps (described as Streaming compression)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
   lz4.h generates and decodes LZ4-compressed blocks (doc/lz4_Block_format.md).
   Decompressing such a compressed block requires additional metadata.
   Exact metadata depends on exact decompression function.
@@ -108,6 +133,7 @@ extern "C" {
   compressed size). Each application is free to encode such metadata in
   whichever way it wants.
 
+<<<<<<< HEAD
 =======
   lz4.h provides block compression functions. It gives full buffer control to
   user. Decompressing an lz4-compressed block also requires metadata (such as
@@ -115,15 +141,21 @@ extern "C" {
   whichever way it wants.
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
   An additional format, called LZ4 frame specification
   (doc/lz4_Frame_format.md), take care of encoding standard metadata alongside
   LZ4-compressed blocks. If your application requires interoperability, it's
   recommended to use it. A library is provided to take care of it, see
   lz4frame.h.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 */
 
 /*^***************************************************************
@@ -149,6 +181,9 @@ extern "C" {
     __declspec(dllimport)                                                      \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     LZ4LIB_VISIBILITY /* It isn't required but allows to generate better code, \
                          saving a function pointer load from the IAT and an    \
                          indirect jump.*/
@@ -184,17 +219,24 @@ extern "C" {
 #elif !defined(LZ4_FREESTANDING)
 #define LZ4_FREESTANDING 0
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         LZ4LIB_VISIBILITY /* It isn't required but allows generating better    \
                              code, saving a function pointer load from the IAT \
                              and an indirect jump. */
 #else
 #define LZ4LIB_API LZ4LIB_VISIBILITY
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
 
 /*------   Version   ------*/
@@ -202,6 +244,9 @@ extern "C" {
 #define LZ4_VERSION_MINOR                                                      \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     10                        /* for new (non-breaking) interface capabilities \
                                */
 #define LZ4_VERSION_RELEASE 0 /* for tweaks, bug-fixes, or development */
@@ -210,11 +255,14 @@ extern "C" {
                                */
 #define LZ4_VERSION_RELEASE 2 /* for tweaks, bug-fixes, or development */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     8                         /* for new (non-breaking) interface capabilities \
                                */
 #define LZ4_VERSION_RELEASE 2 /* for tweaks, bug-fixes, or development */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #define LZ4_VERSION_NUMBER                                     \
     (LZ4_VERSION_MAJOR * 100 * 100 + LZ4_VERSION_MINOR * 100 + \
@@ -225,6 +273,9 @@ extern "C" {
 #define LZ4_EXPAND_AND_QUOTE(str) LZ4_QUOTE(str)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define LZ4_VERSION_STRING \
     LZ4_EXPAND_AND_QUOTE(LZ4_LIB_VERSION) /* requires v1.7.3+ */
 
@@ -276,6 +327,7 @@ LZ4LIB_API const char *LZ4_versionString(
  **************************************/
 /*!
  * LZ4_MEMORY_USAGE :
+<<<<<<< HEAD
 =======
 #define LZ4_VERSION_STRING        LZ4_EXPAND_AND_QUOTE(LZ4_LIB_VERSION)
 
@@ -291,6 +343,8 @@ LZ4LIB_API const char *LZ4_versionString(
 /*!
  * LZ4_MEMORY_USAGE :
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  * Memory usage formula : N->2^N Bytes (examples : 10 -> 1KB; 12 -> 4KB ; 16 ->
  * 64KB; 20 -> 1MB; etc.) Increasing memory usage improves compression ratio
  * Reduced memory usage may improve speed, thanks to cache effect
@@ -299,9 +353,13 @@ LZ4LIB_API const char *LZ4_versionString(
 #ifndef LZ4_MEMORY_USAGE
 #define LZ4_MEMORY_USAGE 14
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
 
 /*-************************************
@@ -310,6 +368,9 @@ LZ4LIB_API const char *LZ4_versionString(
 /*! LZ4_compress_default() :
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  *  Compresses 'srcSize' bytes from buffer 'src'
  *  into already allocated 'dst' buffer of size 'dstCapacity'.
  *  Compression is guaranteed to succeed if 'dstCapacity' >=
@@ -325,8 +386,11 @@ LZ4LIB_API const char *LZ4_versionString(
  * read outside 'source' buffer).
  */
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    Compresses 'srcSize' bytes from buffer 'src'
    into already allocated 'dst' buffer of size 'dstCapacity'.
    Compression is guaranteed to succeed if 'dstCapacity' >=
@@ -340,15 +404,22 @@ LZ4LIB_API const char *LZ4_versionString(
    (which must be already allocated) return  : the number of bytes written into
    buffer 'dst' (necessarily <= dstCapacity) or 0 if compression fails */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 LZ4LIB_API int LZ4_compress_default(const char *src, char *dst, int srcSize,
                                     int dstCapacity);
 
 /*! LZ4_decompress_safe() :
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  * @compressedSize : is the exact complete size of the compressed block.
  * @dstCapacity : is the size of destination buffer (which must be already
  * allocated), presumed an upper bound of decompressed size.
@@ -367,8 +438,11 @@ LZ4LIB_API int LZ4_compress_default(const char *src, char *dst, int srcSize,
  * is a need for a different format which bundles together both compressed data
  * and its metadata, consider looking at lz4frame.h instead.
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    compressedSize : is the exact complete size of the compressed block.
    dstCapacity : is the size of destination buffer, which must be already
    allocated. return : the number of bytes decompressed into destination buffer
@@ -377,9 +451,13 @@ LZ4LIB_API int LZ4_compress_default(const char *src, char *dst, int srcSize,
    stream is detected malformed, the function will stop decoding and return a
    negative result. This function is protected against malicious data packets.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  */
 LZ4LIB_API int LZ4_decompress_safe(const char *src, char *dst,
                                    int compressedSize, int dstCapacity);
@@ -401,9 +479,13 @@ LZ4LIB_API int LZ4_decompress_safe(const char *src, char *dst,
    LZ4_compressBound() :
    Provides the maximum size that LZ4 compression may output in a "worst case"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    scenario (input data not compressible) This function is primarily useful for
    memory allocation purposes (destination buffer size). Macro
    LZ4_COMPRESSBOUND() is also provided for compilation-time evaluation (stack
@@ -414,6 +496,9 @@ LZ4LIB_API int LZ4_decompress_safe(const char *src, char *dst,
    negative)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 */
 LZ4LIB_API int LZ4_compressBound(int inputSize);
 
@@ -451,6 +536,7 @@ LZ4LIB_API int LZ4_compress_fast(const char *src, char *dst, int srcSize,
                                  int dstCapacity, int acceleration);
 
 /*!
+<<<<<<< HEAD
 =======
  */
 LZ4LIB_API int LZ4_compressBound(int inputSize);
@@ -469,15 +555,21 @@ LZ4LIB_API int LZ4_compress_fast(const char *src, char *dst, int srcSize,
 
 /*!
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    LZ4_compress_fast_extState() :
    Same compression function, just using an externally allocated memory space to
    store compression state. Use LZ4_sizeofState() to know how much memory must
    be allocated, and allocate it on 8-bytes boundaries (using malloc()
    typically). Then, provide it as 'void* state' to compression function.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  */
 LZ4LIB_API int LZ4_sizeofState(void);
 LZ4LIB_API int LZ4_compress_fast_extState(void *state, const char *src,
@@ -485,6 +577,9 @@ LZ4LIB_API int LZ4_compress_fast_extState(void *state, const char *src,
                                           int dstCapacity, int acceleration);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 /*! LZ4_compress_destSize() :
  *  Reverse the logic : compresses as much data as possible from 'src' buffer
@@ -549,8 +644,11 @@ LZ4LIB_API int LZ4_compress_destSize(const char *src, char *dst,
  *           then targetOutputSize **MUST** be <= block's decompressed size.
  *           Otherwise, *silent corruption will occur*.
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 /*!
    LZ4_compress_destSize() :
@@ -599,9 +697,13 @@ LZ4LIB_API int LZ4_decompress_fast(const char *src, char *dst,
    were decoded. If source stream is detected malformed, function returns a
    negative result. This function is protected against malicious data packets.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  */
 LZ4LIB_API int LZ4_decompress_safe_partial(const char *src, char *dst,
                                            int srcSize, int targetOutputSize,
@@ -623,9 +725,13 @@ typedef union LZ4_stream_u LZ4_stream_t; /* incomplete type (defined later) */
 LZ4LIB_API LZ4_stream_t *LZ4_createStream(void);
 LZ4LIB_API int LZ4_freeStream(LZ4_stream_t *streamPtr);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
  - RC_INVOKED is predefined symbol of rc.exe (the resource compiler which is
  part of MSVC/Visual Studio).
@@ -672,6 +778,9 @@ LZ4LIB_API int LZ4_freeStream(LZ4_stream_t *streamPtr);
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 LZ4LIB_API void LZ4_resetStream_fast(LZ4_stream_t *streamPtr);
 
 /*! LZ4_loadDict() :
@@ -686,8 +795,11 @@ LZ4LIB_API void LZ4_resetStream_fast(LZ4_stream_t *streamPtr);
  * @return : loaded dictionary size, in bytes (note: only the last 64 KB are
  * loaded)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 LZ4LIB_API void LZ4_resetStream(LZ4_stream_t *streamPtr);
 
 /*! LZ4_loadDict() :
@@ -946,16 +1058,22 @@ LZ4LIB_API int LZ4_compress_fast_extState_fastReset(void *state,
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 LZ4LIB_API void LZ4_attach_dictionary(LZ4_stream_t *workingStream,
                                       const LZ4_stream_t *dictionaryStream);
 =======
 LZ4LIB_API void LZ4_attach_dictionary(LZ4_stream_t *working_stream,
                                       const LZ4_stream_t *dictionary_stream);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 LZ4LIB_API void LZ4_attach_dictionary(LZ4_stream_t *working_stream,
                                       const LZ4_stream_t *dictionary_stream);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 /*! LZ4_compress_fast_continue() :
  *  Compress 'src' content using data from previously compressed blocks, for
@@ -1393,6 +1511,9 @@ LZ4LIB_API LZ4_stream_t *LZ4_initStream(void *stateBuffer, size_t size);
 typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     const LZ4_byte *externalDict;
     const LZ4_byte *prefixEnd;
     size_t extDictSize;
@@ -1403,10 +1524,13 @@ typedef struct {
 =======
     const unsigned char *externalDict;
     size_t extDictSize;
+<<<<<<< HEAD
 =======
     const unsigned char *externalDict;
     size_t extDictSize;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     const unsigned char *prefixEnd;
     size_t prefixSize;
 } LZ4_streamDecode_t_internal;
@@ -1440,9 +1564,13 @@ union LZ4_stream_u {
 #define LZ4_STREAMDECODESIZE \
     (LZ4_STREAMDECODESIZE_U64 * sizeof(unsigned long long))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 union LZ4_streamDecode_u {
     char minStateSize[LZ4_STREAMDECODE_MINSIZE];
     LZ4_streamDecode_t_internal internal_donotuse;
@@ -1468,6 +1596,9 @@ union LZ4_streamDecode_u {
 #else
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #if defined(__cplusplus) && (__cplusplus >= 201402) /* C++14 or greater */
 #define LZ4_DEPRECATED(message) [[deprecated(message)]]
 #elif defined(_MSC_VER)
@@ -1491,8 +1622,11 @@ LZ4_DEPRECATED("use LZ4_compress_default() instead")
 LZ4LIB_API int LZ4_compress_limitedOutput(const char *src, char *dest,
                                           int srcSize, int maxOutputSize);
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define LZ4_GCC_VERSION (__GNUC__ * 100 + __GNUC_MINOR__)
 #if defined(__cplusplus) && (__cplusplus >= 201402) /* C++14 or greater */
 #define LZ4_DEPRECATED(message) [[deprecated(message)]]
@@ -1516,9 +1650,13 @@ LZ4_DEPRECATED("use LZ4_compress_default() instead")
 LZ4LIB_API int LZ4_compress_limitedOutput(const char *source, char *dest,
                                           int sourceSize, int maxOutputSize);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 LZ4_DEPRECATED("use LZ4_compress_fast_extState() instead")
 LZ4LIB_API int LZ4_compress_withState(void *state, const char *source,
                                       char *dest, int inputSize);
@@ -1542,9 +1680,13 @@ int LZ4_compress_limitedOutput_continue(LZ4_stream_t *LZ4_streamPtr,
 =======
 /* Obsolete decompression functions */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 LZ4_DEPRECATED("use LZ4_decompress_fast() instead")
 LZ4LIB_API int LZ4_uncompress(const char *source, char *dest, int outputSize);
 LZ4_DEPRECATED("use LZ4_decompress_safe() instead")
@@ -1575,9 +1717,13 @@ LZ4LIB_API char *LZ4_slideInputBuffer(void *state);
 =======
 /* Obsolete streaming decoding functions */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 LZ4_DEPRECATED("use LZ4_decompress_safe_usingDict() instead")
 LZ4LIB_API
 int LZ4_decompress_safe_withPrefix64k(const char *src, char *dst,
@@ -1637,6 +1783,9 @@ LZ4LIB_API int LZ4_decompress_fast_usingDict(const char *src, char *dst,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /*! LZ4_resetStream() :
  *  An LZ4_stream_t structure must be initialized at least once.
  *  This is done with LZ4_initStream(), or LZ4_resetStream().
@@ -1649,8 +1798,11 @@ LZ4LIB_API void LZ4_resetStream(LZ4_stream_t *streamPtr);
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #if defined(__cplusplus)
 }
 #endif

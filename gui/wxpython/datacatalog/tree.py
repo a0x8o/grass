@@ -680,6 +680,42 @@ class CurrentMapsetWatch(FileSystemEventHandler):
                     wx.PostEvent(self.event_handler, evt)
 
 
+class CurrentMapsetWatch(FileSystemEventHandler):
+    """Monitors rc file to check if mapset has been changed.
+    In that case wx event is dispatched to event handler.
+    Needs to check timestamp, because the modified event is sent twice.
+    This assumes new instance of this class is started
+    whenever mapset is changed."""
+
+    def __init__(self, rcfile, mapset_path, event_handler):
+        FileSystemEventHandler.__init__(self)
+        self.event_handler = event_handler
+        self.mapset_path = mapset_path
+        self.rcfile_name = os.path.basename(rcfile)
+        self.modified_time = 0
+
+    def on_modified(self, event):
+        if (
+            not event.is_directory
+            and os.path.basename(event.src_path) == self.rcfile_name
+        ):
+            timestamp = os.stat(event.src_path).st_mtime
+            if timestamp - self.modified_time < 0.5:
+                return
+            self.modified_time = timestamp
+            with open(event.src_path, "r") as f:
+                gisrc = {}
+                for line in f.readlines():
+                    key, val = line.split(":")
+                    gisrc[key.strip()] = val.strip()
+                new = os.path.join(
+                    gisrc["GISDBASE"], gisrc["LOCATION_NAME"], gisrc["MAPSET"]
+                )
+                if new != self.mapset_path:
+                    evt = currentMapsetChanged()
+                    wx.PostEvent(self.event_handler, evt)
+
+
 class MapWatch(PatternMatchingEventHandler):
     """Monitors file events (create, delete, move files) using watchdog
     to inform about changes in current mapset. One instance monitors
@@ -906,6 +942,7 @@ class DataCatalogTree(TreeView):
         self.Bind(
             EVT_CURRENT_MAPSET_CHANGED, lambda evt: self._updateAfterMapsetChanged()
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1463,6 +1500,13 @@ class DataCatalogTree(TreeView):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         self.observer = None
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 

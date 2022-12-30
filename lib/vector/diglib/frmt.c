@@ -230,6 +230,7 @@ int dig_read_frmt_ascii(FILE *dascii, struct Format_info *finfo)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 =======
 <<<<<<< HEAD
@@ -626,6 +627,8 @@ int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int dig_write_frmt_ascii(FILE *dascii UNUSED, struct Format_info *finfo UNUSED,
                          int format UNUSED)
 =======
@@ -799,6 +802,7 @@ int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1224,6 +1228,11 @@ int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     G_debug(3, "dig_write_frmt_ascii()");
 

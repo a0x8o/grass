@@ -4,11 +4,17 @@ import multiprocessing
 import os
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from functools import partial
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+from functools import partial
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 import pytest
 
@@ -16,6 +22,9 @@ import grass.script as gs
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 xfail_mp_spawn = pytest.mark.xfail(
     multiprocessing.get_start_method() == "spawn",
     reason="Multiprocessing using 'spawn' start method requires pickable functions",
@@ -27,17 +36,24 @@ xfail_mp_spawn = pytest.mark.xfail(
 # This is useful when we want to ensure that function like init does
 # not change the global environment.
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 # All init tests change the global environment, but when it really matters,
 # we use a separate process.
 # Ideally, the functions would support env parameter and the test
 # would mostly use that.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 def run_in_subprocess(function):
     """Run function in a separate process
 
@@ -58,6 +74,9 @@ def test_init_as_context_manager(tmp_path):
     gs.core._create_location_xy(tmp_path, location)  # pylint: disable=protected-access
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     with gs.setup.init(tmp_path / location, env=os.environ.copy()) as session:
         gs.run_command("g.region", flags="p", env=session.env)
         session_file = session.env["GISRC"]
@@ -67,11 +86,14 @@ def test_init_as_context_manager(tmp_path):
         gs.run_command("g.region", flags="p")
         session_file = os.environ["GISRC"]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     with gs.setup.init(tmp_path / location):
         gs.run_command("g.region", flags="p")
         session_file = os.environ["GISRC"]
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     assert not os.path.exists(session_file)
 
 
@@ -81,23 +103,33 @@ def test_init_session_finish(tmp_path):
     gs.core._create_location_xy(tmp_path, location)  # pylint: disable=protected-access
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     session = gs.setup.init(tmp_path / location, env=os.environ.copy())
     gs.run_command("g.region", flags="p", env=session.env)
     session_file = session.env["GISRC"]
     session.finish()
     with pytest.raises(ValueError):  # noqa: PT011
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     session = gs.setup.init(tmp_path / location)
     gs.run_command("g.region", flags="p")
     session_file = os.environ["GISRC"]
     session.finish()
     with pytest.raises(ValueError):
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         session.finish()
     assert not session.active
     assert not os.path.exists(session_file)
@@ -105,6 +137,9 @@ def test_init_session_finish(tmp_path):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 def test_init_finish_global_functions_with_env(tmp_path):
     """Check that init and finish global functions work"""
     location = "test"
@@ -147,8 +182,11 @@ def test_init_finish_global_functions_capture_strerr0_partial(tmp_path):
 def test_init_finish_global_functions_capture_strerr0(tmp_path):
     """Check that init and finish global functions work with global env"""
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 def test_init_finish_global_functions(tmp_path):
     """Check that init and finish global functions work"""
     location = "test"
@@ -164,9 +202,13 @@ def test_init_finish_global_functions(tmp_path):
 def test_init_finish_global_functions_capture_strerr(tmp_path):
     """Check that init and finish global functions work"""
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     def init_finish(queue):
         gs.set_capture_stderr(True)
@@ -178,6 +220,9 @@ def test_init_finish_global_functions_capture_strerr(tmp_path):
         gs.run_command("g.region", flags="p")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         runtime_present = bool(os.environ.get("GISBASE"))
         queue.put((os.environ["GISRC"], runtime_present))
         gs.setup.finish()
@@ -315,8 +360,11 @@ def test_init_environment_isolation(tmp_path):
     assert not os.environ.get("GISRC")
     assert not os.environ.get("GISBASE")
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         queue.put(os.environ["GISRC"])
         gs.setup.finish()
 
@@ -324,6 +372,10 @@ def test_init_environment_isolation(tmp_path):
     assert session_file, "Expected file name from the subprocess"
     assert not os.path.exists(session_file), "Session file not deleted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)

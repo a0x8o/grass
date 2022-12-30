@@ -629,6 +629,7 @@ static off_t write_dummy(struct Map_info *Map, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -862,6 +863,8 @@ static int delete_dummy(struct Map_info *Map, off_t line)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 =======
 =======
 static off_t write_dummy(struct Map_info *Map, int type,
@@ -871,6 +874,22 @@ static off_t write_dummy(struct Map_info *Map, int type,
     G_warning("Vect_write_line() %s", _("for this format/level not supported"));
 <<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+    return -1;
+}
+
+static off_t rewrite_dummy()
+{
+    G_warning("Vect_rewrite_line() %s",
+              _("for this format/level not supported"));
+    return -1;
+}
+
+static int delete_dummy()
+{
+    G_warning("Vect_delete_line() %s",
+              _("for this format/level not supported"));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     return -1;
 }
 
@@ -7430,6 +7449,7 @@ static off_t format_l2(struct Map_info *Map, off_t line, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8186,6 +8206,8 @@ static off_t format_l2(struct Map_info *Map, off_t line, int type,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 static off_t (*Vect_write_line_array[][3])(struct Map_info *, int,
                                            const struct line_pnts *,
                                            const struct line_cats *) = {
@@ -8884,6 +8906,7 @@ static off_t (*Vect_write_line_array[][3])(struct Map_info *, int,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
@@ -9594,6 +9617,11 @@ static off_t (*Vect_write_line_array[][3])() = {
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+static off_t (*Vect_write_line_array[][3])() = {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     {write_dummy, V1_write_line_nat, V2_write_line_nat}
 #ifdef HAVE_OGR
     ,
@@ -9736,6 +9764,7 @@ static off_t (*Vect_write_line_array[][3])() = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10492,6 +10521,8 @@ static off_t (*Vect_write_line_array[][3])() = {
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 static off_t (*Vect_rewrite_line_array[][3])(struct Map_info *, off_t, int,
                                              const struct line_pnts *,
                                              const struct line_cats *) = {
@@ -11190,6 +11221,7 @@ static off_t (*Vect_rewrite_line_array[][3])(struct Map_info *, off_t, int,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
@@ -11900,6 +11932,11 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+static off_t (*Vect_rewrite_line_array[][3])() = {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     {rewrite_dummy, V1_rewrite_line_nat, V2_rewrite_line_nat}
 #ifdef HAVE_OGR
     ,
@@ -12030,6 +12067,7 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13003,6 +13041,8 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     {rewrite_dummy, format_l2, format_l2},
     {rewrite_dummy, format_l2, format_l2}
 =======
@@ -13318,6 +13358,7 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -13391,9 +13432,12 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
     {rewrite_dummy, format_l2, format_l2},
     {rewrite_dummy, format_l2, format_l2}
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
     {rewrite_dummy, format_l, format_l},
     {rewrite_dummy, format_l, format_l}
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13849,6 +13893,8 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
 #ifdef HAVE_POSTGRES
     ,
@@ -13950,6 +13996,7 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -14211,6 +14258,8 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     {rewrite_dummy, format_l2, format_l2}
 #endif
 };
@@ -15727,6 +15776,7 @@ static int (*Vect_delete_line_array[][3])() = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
     {rewrite_dummy, format_l2, format_l2}
@@ -15779,6 +15829,51 @@ static int (*Vect_delete_line_array[][3])() = {
 >>>>>>> osgeo-main
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+    {rewrite_dummy, format_l, format_l}
+#endif
+};
+
+static int (*Vect_delete_line_array[][3])() = {
+    {delete_dummy, V1_delete_line_nat, V2_delete_line_nat}
+#ifdef HAVE_OGR
+    ,
+    {delete_dummy, V1_delete_line_ogr, V2_delete_line_sfa},
+    {delete_dummy, V1_delete_line_ogr, V2_delete_line_sfa}
+#else
+    ,
+    {delete_dummy, format, format},
+    {delete_dummy, format, format}
+#endif
+#ifdef HAVE_POSTGRES
+    ,
+    {delete_dummy, V1_delete_line_pg, V2_delete_line_pg}
+#else
+    ,
+    {delete_dummy, format, format}
+#endif
+};
+
+static int (*Vect_restore_line_array[][3])() = {
+    {restore_dummy, V1_restore_line_nat, V2_restore_line_nat}
+#ifdef HAVE_OGR
+    ,
+    {restore_dummy, restore_dummy, restore_dummy},
+    {restore_dummy, restore_dummy, restore_dummy}
+#else
+    ,
+    {restore_dummy, format, format},
+    {restore_dummy, format, format}
+#endif
+#ifdef HAVE_POSTGRES
+    ,
+    {restore_dummy, restore_dummy, restore_dummy}
+#else
+    ,
+    {restore_dummy, format, format}
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
 };
 
@@ -20270,6 +20365,7 @@ off_t Vect_rewrite_line(struct Map_info *Map, off_t line, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "line/offset = %" PRI_OFF_T,
 =======
 <<<<<<< HEAD
@@ -20666,6 +20762,8 @@ off_t Vect_rewrite_line(struct Map_info *Map, off_t line, int type,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             "line/offset = %" PRId64,
 =======
             "line/offset = %" PRI_OFF_T,
@@ -20838,6 +20936,7 @@ off_t Vect_rewrite_line(struct Map_info *Map, off_t line, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -21263,6 +21362,11 @@ off_t Vect_rewrite_line(struct Map_info *Map, off_t line, int type,
             "line/offset = %" PRI_OFF_T,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            "line/offset = %" PRI_OFF_T,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             Map->name, Map->format, Map->level, line);
 
     if (!check_map(Map))
@@ -21271,6 +21375,7 @@ off_t Vect_rewrite_line(struct Map_info *Map, off_t line, int type,
     ret = (*Vect_rewrite_line_array[Map->format][Map->level])(Map, line, type,
                                                               points, cats);
     if (ret == -1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21735,6 +21840,8 @@ off_t Vect_rewrite_line(struct Map_info *Map, off_t line, int type,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_warning(_("Unable to rewrite feature/offset %" PRId64
 =======
         G_warning(_("Unable to rewrite feature/offset %" PRI_OFF_T
@@ -21907,6 +22014,7 @@ off_t Vect_rewrite_line(struct Map_info *Map, off_t line, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -22332,6 +22440,11 @@ off_t Vect_rewrite_line(struct Map_info *Map, off_t line, int type,
         G_warning(_("Unable to rewrite feature/offset %" PRI_OFF_T
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        G_warning(_("Unable to rewrite feature/offset %" PRI_OFF_T
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     " in vector map <%s>"),
                   line, Vect_get_name(Map));
 
@@ -22364,6 +22477,7 @@ int Vect_delete_line(struct Map_info *Map, off_t line)
     ret = (*Vect_delete_line_array[Map->format][Map->level])(Map, line);
 
     if (ret == -1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22828,6 +22942,8 @@ int Vect_delete_line(struct Map_info *Map, off_t line)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_warning(_("Unable to delete feature/offset %" PRId64
 =======
         G_warning(_("Unable to delete feature/offset %" PRI_OFF_T
@@ -23000,6 +23116,7 @@ int Vect_delete_line(struct Map_info *Map, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -23425,6 +23542,11 @@ int Vect_delete_line(struct Map_info *Map, off_t line)
         G_warning(_("Unable to delete feature/offset %" PRI_OFF_T
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        G_warning(_("Unable to delete feature/offset %" PRI_OFF_T
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     " from vector map <%s>"),
                   line, Vect_get_name(Map));
 
@@ -23450,6 +23572,7 @@ int Vect_restore_line(struct Map_info *Map, off_t offset, off_t line)
     int ret;
 
     G_debug(3,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23916,6 +24039,8 @@ int Vect_restore_line(struct Map_info *Map, off_t offset, off_t line)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             "Vect_restore_line(): name = %s, level = %d, offset = %" PRId64
             ", line = %" PRId64,
 =======
@@ -24212,6 +24337,7 @@ int Vect_restore_line(struct Map_info *Map, off_t offset, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -24317,9 +24443,12 @@ int Vect_restore_line(struct Map_info *Map, off_t offset, off_t line)
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
             "Vect_restore_line(): name = %s, level = %d, offset = %" PRI_OFF_T
             ", line = %" PRI_OFF_T,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -24573,6 +24702,8 @@ int Vect_restore_line(struct Map_info *Map, off_t offset, off_t line)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             Map->name, Map->level, offset, line);
 
     if (!check_map(Map))
@@ -24582,6 +24713,7 @@ int Vect_restore_line(struct Map_info *Map, off_t offset, off_t line)
         (*Vect_restore_line_array[Map->format][Map->level])(Map, offset, line);
 
     if (ret == -1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25046,6 +25178,8 @@ int Vect_restore_line(struct Map_info *Map, off_t offset, off_t line)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_warning(_("Unable to restore feature/offset %" PRId64
 =======
         G_warning(_("Unable to restore feature/offset %" PRI_OFF_T
@@ -25218,6 +25352,7 @@ int Vect_restore_line(struct Map_info *Map, off_t offset, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -25643,6 +25778,11 @@ int Vect_restore_line(struct Map_info *Map, off_t offset, off_t line)
         G_warning(_("Unable to restore feature/offset %" PRI_OFF_T
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        G_warning(_("Unable to restore feature/offset %" PRI_OFF_T
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     " in vector map <%s>"),
                   offset, Vect_get_name(Map));
 

@@ -64,18 +64,25 @@ if [ ! -f "include/Make/Platform.make" ] ; then
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         --with-pthread \
         --with-readline \
         --with-sqlite \
         --with-x \
         --without-pdal
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         --with-python \
         --with-cairo \
         --with-liblas
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         --with-cairo \
 =======
@@ -86,6 +93,8 @@ if [ ! -f "include/Make/Platform.make" ] ; then
         --with-x \
         --without-pdal
 >>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 fi
 
 make -j $NUMTHREADS

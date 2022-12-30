@@ -159,6 +159,7 @@ int split_line(struct Map_info *Map, int otype, struct line_pnts *Points,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                struct line_cats *Cats, struct Map_info *Err,
 =======
 <<<<<<< HEAD
@@ -555,6 +556,8 @@ int split_line(struct Map_info *Map, int otype, struct line_pnts *Points,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                struct line_cats *Cats, struct Map_info *Err UNUSED,
 =======
                struct line_cats *Cats, struct Map_info *Err,
@@ -727,6 +730,7 @@ int split_line(struct Map_info *Map, int otype, struct line_pnts *Points,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1152,6 +1156,11 @@ int split_line(struct Map_info *Map, int otype, struct line_pnts *Points,
                struct line_cats *Cats, struct Map_info *Err,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+               struct line_cats *Cats, struct Map_info *Err,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                double split_distance)
 {
     int i, n_segs = 0;

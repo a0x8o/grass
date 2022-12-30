@@ -175,6 +175,7 @@ void fatal_error(Database db, char *errorMsg); /*Simple Error message */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -804,6 +805,8 @@ void fatal_error(Database db, char *errorMsg); /*Simple Error message */
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void set_params(void);                         /*Fill the paramType structure */
 =======
 <<<<<<< HEAD
@@ -998,6 +1001,7 @@ void set_params();                             /*Fill the paramType structure */
 void set_params(void);                         /*Fill the paramType structure */
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1979,6 +1983,11 @@ void set_params();                             /*Fill the paramType structure */
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+void set_params();                             /*Fill the paramType structure */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void elev_raster_to_g3d(Database db,
                         RASTER3D_Region region); /*Write the raster */
 int open_input_raster_map(const char *name);     /*opens the outputmap */
@@ -2256,6 +2265,7 @@ void elev_raster_to_g3d(Database db, RASTER3D_Region region)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "Caluclating position in 3d region -> height %g with value %g",
 =======
 <<<<<<< HEAD
@@ -2652,6 +2662,8 @@ void elev_raster_to_g3d(Database db, RASTER3D_Region region)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 "Calculating position in 3d region -> height %g with value %g",
 =======
                 "Caluclating position in 3d region -> height %g with value %g",
@@ -2824,6 +2836,7 @@ void elev_raster_to_g3d(Database db, RASTER3D_Region region)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3249,6 +3262,11 @@ void elev_raster_to_g3d(Database db, RASTER3D_Region region)
                 "Caluclating position in 3d region -> height %g with value %g",
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                "Caluclating position in 3d region -> height %g with value %g",
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 height, inval);
 
             /* Calculate if the RASTER3D cell is lower or upper the elevation

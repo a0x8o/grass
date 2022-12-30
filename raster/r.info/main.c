@@ -36,14 +36,19 @@
     fprintf(out, "%c\n", x)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 enum OutputFormat { PLAIN, JSON };
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 enum OutputFormat { PLAIN, JSON };
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 /* local prototypes */
 static void format_double(const double, char *);
@@ -55,6 +60,7 @@ int main(int argc, char **argv)
     const char *title;
     char tmp1[100], tmp2[100], tmp3[100], tmp4[100];
     char timebuff[256];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -395,6 +401,8 @@ int main(int argc, char **argv)
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     char *units, *vdatum, *semantic_label;
 =======
 <<<<<<< HEAD
@@ -533,6 +541,7 @@ int main(int argc, char **argv)
 =======
     char *units, *vdatum, *bandref;
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1480,6 +1489,11 @@ int main(int argc, char **argv)
     char *units, *vdatum, *bandref;
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+=======
+    char *units, *vdatum, *semantic_label;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     int i;
     CELL mincat = 0, maxcat = 0, cat;
     FILE *out;
@@ -1540,8 +1554,11 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59c95cc2a6 (r.info: Add JSON output (#3744))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     fopt = G_define_standard_option(G_OPT_F_FORMAT);
     fopt->guisection = _("Print");
 
@@ -1553,11 +1570,14 @@ int main(int argc, char **argv)
         exit(EXIT_FAILURE);
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     if (G_parser(argc, argv))
         exit(EXIT_FAILURE);
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (hflag->answer &&
         (gflag->answer || rflag->answer || sflag->answer || eflag->answer))
         G_fatal_error(_("Flags -%c and -%c/%c/%c are mutually exclusive"),
@@ -1566,6 +1586,7 @@ int main(int argc, char **argv)
     name = G_store(opt1->answer);
     if ((mapset = G_find_raster2(name, "")) == NULL)
         G_fatal_error(_("Raster map <%s> not found"), name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -1581,6 +1602,8 @@ int main(int argc, char **argv)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     if (strcmp(fopt->answer, "json") == 0) {
         format = JSON;
@@ -1590,6 +1613,8 @@ int main(int argc, char **argv)
     else {
         format = PLAIN;
     }
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     Rast_get_cellhd(name, "", &cellhd);
     cats_ok = Rast_read_cats(name, "", &cats) >= 0;
@@ -1700,6 +1725,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1942,6 +1968,8 @@ int main(int argc, char **argv)
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     semantic_label = Rast_read_semantic_label(name, "");
 =======
 <<<<<<< HEAD
@@ -2080,6 +2108,7 @@ int main(int argc, char **argv)
 =======
     bandref = Rast_read_bandref(name, "");
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3027,6 +3056,11 @@ int main(int argc, char **argv)
     bandref = Rast_read_bandref(name, "");
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+=======
+    semantic_label = Rast_read_semantic_label(name, "");
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     /*Check the Timestamp */
     time_ok = G_read_raster_timestamp(name, "", &ts) > 0;
@@ -3060,22 +3094,29 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         !hflag->answer && format == PLAIN) {
 =======
         !hflag->answer) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         !hflag->answer) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
         !hflag->answer && format == PLAIN) {
 >>>>>>> 59c95cc2a6 (r.info: Add JSON output (#3744))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         divider('+');
 
         compose_line(out, "Map:      %-29.29s  Date: %s", name,
                      hist_ok ? Rast_get_history(&hist, HIST_MAPID) : "??");
         compose_line(out, "Mapset:   %-29.29s  Login of Creator: %s", mapset,
                      hist_ok ? Rast_get_history(&hist, HIST_CREATOR) : "??");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3540,6 +3581,8 @@ int main(int argc, char **argv)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         compose_line(out, "Project:  %s", G_location());
 =======
         compose_line(out, "Location: %s", G_location());
@@ -3712,6 +3755,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -4137,6 +4181,11 @@ int main(int argc, char **argv)
         compose_line(out, "Location: %s", G_location());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        compose_line(out, "Location: %s", G_location());
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         compose_line(out, "DataBase: %s", G_gisdbase());
         compose_line(out, "Title:    %s", title);
 
@@ -4159,6 +4208,7 @@ int main(int argc, char **argv)
                      hist_ok ? Rast_get_history(&hist, HIST_MAPTYPE) : "??",
                      cats_ok ? tmp1 : "??");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4502,9 +4552,12 @@ int main(int argc, char **argv)
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5081,6 +5134,10 @@ int main(int argc, char **argv)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         compose_line(out, "  Data Type:    %-20.20s Semantic label: %s ",
                      (data_type == CELL_TYPE
                           ? "CELL"
@@ -5088,6 +5145,7 @@ int main(int argc, char **argv)
                                  ? "DCELL"
                                  : (data_type == FCELL_TYPE ? "FCELL" : "??"))),
                      (semantic_label ? semantic_label : "(none)"));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5373,6 +5431,8 @@ int main(int argc, char **argv)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -5778,6 +5838,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -6321,6 +6382,10 @@ int main(int argc, char **argv)
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         /* For now hide these unless they exist to keep the noise low. In
          *   future when the two are used more widely they can be printed
@@ -6498,16 +6563,22 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         need_range = rflag->answer || format == JSON;
 =======
         need_range = rflag->answer;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         need_range = rflag->answer;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
         need_range = rflag->answer || format == JSON;
 >>>>>>> 59c95cc2a6 (r.info: Add JSON output (#3744))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         need_stats = sflag->answer;
         if (need_stats)
             need_range = 1;
@@ -6585,6 +6656,9 @@ int main(int argc, char **argv)
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         if (gflag->answer || format == JSON) {
             const char *data_type_f =
@@ -6750,6 +6824,7 @@ int main(int argc, char **argv)
                     DCELL min, max;
 
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
@@ -6816,11 +6891,50 @@ int main(int argc, char **argv)
         }
 
         if (rflag->answer || sflag->answer || format == JSON) {
+=======
+
+        if (gflag->answer) {
+            G_format_northing(cellhd.north, tmp1, -1);
+            G_format_northing(cellhd.south, tmp2, -1);
+            fprintf(out, "north=%s\n", tmp1);
+            fprintf(out, "south=%s\n", tmp2);
+
+            G_format_easting(cellhd.east, tmp1, -1);
+            G_format_easting(cellhd.west, tmp2, -1);
+            fprintf(out, "east=%s\n", tmp1);
+            fprintf(out, "west=%s\n", tmp2);
+
+            G_format_resolution(cellhd.ns_res, tmp3, -1);
+            fprintf(out, "nsres=%s\n", tmp3);
+
+            G_format_resolution(cellhd.ew_res, tmp3, -1);
+            fprintf(out, "ewres=%s\n", tmp3);
+
+            fprintf(out, "rows=%d\n", cellhd.rows);
+            fprintf(out, "cols=%d\n", cellhd.cols);
+
+            fprintf(out, "cells=%" PRId64 "\n",
+                    (grass_int64)cellhd.rows * cellhd.cols);
+
+            fprintf(out, "datatype=%s\n",
+                    (data_type == CELL_TYPE
+                         ? "CELL"
+                         : (data_type == DCELL_TYPE
+                                ? "DCELL"
+                                : (data_type == FCELL_TYPE ? "FCELL" : "??"))));
+            if (cats_ok)
+                format_double((double)cats.num, tmp1);
+            fprintf(out, "ncats=%s\n", cats_ok ? tmp1 : "??");
+        }
+
+        if (rflag->answer || sflag->answer) {
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (data_type == CELL_TYPE) {
                 CELL min, max;
 
                 Rast_get_range_min_max(&crange, &min, &max);
                 if (Rast_is_c_null_value(&min)) {
+<<<<<<< HEAD
                     switch (format) {
                     case PLAIN:
                         fprintf(out, "min=NULL\n");
@@ -6843,6 +6957,14 @@ int main(int argc, char **argv)
                         json_object_set_number(root_object, "max", max);
                         break;
                     }
+=======
+                    fprintf(out, "min=NULL\n");
+                    fprintf(out, "max=NULL\n");
+                }
+                else {
+                    fprintf(out, "min=%i\n", min);
+                    fprintf(out, "max=%i\n", max);
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 }
             }
             else {
@@ -6850,6 +6972,7 @@ int main(int argc, char **argv)
 
                 Rast_get_fp_range_min_max(&range, &min, &max);
                 if (Rast_is_d_null_value(&min)) {
+<<<<<<< HEAD
                     switch (format) {
                     case PLAIN:
                         fprintf(out, "min=NULL\n");
@@ -6877,6 +7000,19 @@ int main(int argc, char **argv)
                         json_object_set_number(root_object, "min", min);
                         json_object_set_number(root_object, "max", max);
                         break;
+=======
+                    fprintf(out, "min=NULL\n");
+                    fprintf(out, "max=NULL\n");
+                }
+                else {
+                    if (data_type == FCELL_TYPE) {
+                        fprintf(out, "min=%.7g\n", min);
+                        fprintf(out, "max=%.7g\n", max);
+                    }
+                    else {
+                        fprintf(out, "min=%.15g\n", min);
+                        fprintf(out, "max=%.15g\n", max);
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     }
                 }
             }
@@ -6885,6 +7021,7 @@ int main(int argc, char **argv)
         if (sflag->answer) {
 
             if (!gflag->answer) {
+<<<<<<< HEAD
                 grass_int64 total_cells =
                     (grass_int64)cellhd.rows * cellhd.cols;
                 /* always report total number of cells */
@@ -6896,6 +7033,11 @@ int main(int argc, char **argv)
                     json_object_set_number(root_object, "cells", total_cells);
                     break;
                 }
+=======
+                /* always report total number of cells */
+                fprintf(out, "cells=%" PRId64 "\n",
+                        (grass_int64)cellhd.rows * cellhd.cols);
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             }
 
             if (rstats.count > 0) {
@@ -6917,9 +7059,13 @@ int main(int argc, char **argv)
                     DCELL min, max;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     Rast_get_fp_range_min_max(&range, &min, &max);
                     if (min == max) {
                         mean = min;
@@ -6930,8 +7076,11 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59c95cc2a6 (r.info: Add JSON output (#3744))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 switch (format) {
                 case PLAIN:
                     fprintf(out, "n=%" PRId64 "\n", rstats.count);
@@ -7874,6 +8023,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -7969,6 +8119,8 @@ int main(int argc, char **argv)
             char xname[GNAME_MAX], xmapset[GMAPSET_MAX];
 <<<<<<< HEAD
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
                 fprintf(out, "n=%" PRId64 "\n", rstats.count);
                 fprintf(out, "mean=%.15g\n", mean);
                 fprintf(out, "stddev=%.15g\n", sd);
@@ -7984,7 +8136,10 @@ int main(int argc, char **argv)
 
         if (eflag->answer) {
             char xname[GNAME_MAX], xmapset[GMAPSET_MAX];
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
             G_unqualified_name(name, mapset, xname, xmapset);
 
@@ -7999,6 +8154,7 @@ int main(int argc, char **argv)
             fprintf(out, "creator=\"%s\"\n",
                     hist_ok ? Rast_get_history(&hist, HIST_CREATOR) : "??");
             fprintf(out, "title=\"%s\"\n", title);
+<<<<<<< HEAD
 =======
             const char *maptype, *date, *creator;
 
@@ -9961,6 +10117,19 @@ int main(int argc, char **argv)
 >>>>>>> 5fbf526387 (r.info: Add JSON output (#3744))
 =======
 =======
+=======
+            if (time_ok && (first_time_ok || second_time_ok)) {
+
+                G_format_timestamp(&ts, timebuff);
+
+                /*Create the r.info timestamp string */
+                fprintf(out, "timestamp=\"%s\"\n", timebuff);
+            }
+            else {
+                fprintf(out, "timestamp=\"none\"\n");
+            }
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             fprintf(out, "units=%s\n", units ? units : "\"none\"");
             fprintf(out, "vdatum=%s\n", vdatum ? vdatum : "\"none\"");
             fprintf(out, "semantic_label=%s\n",
@@ -9978,6 +10147,7 @@ int main(int argc, char **argv)
                 fprintf(out, "comments=\"");
                 for (i = 0; i < Rast_history_length(&hist); i++)
                     fprintf(out, "%s", Rast_history_line(&hist, i));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -10072,11 +10242,32 @@ int main(int argc, char **argv)
                     json_object_set_value(root_object, "comments",
                                           comments_value);
                     break;
+<<<<<<< HEAD
 >>>>>>> 59c95cc2a6 (r.info: Add JSON output (#3744))
+=======
+=======
+                fprintf(out, "\"\n");
+            }
+        }
+
+        if (hflag->answer) {
+            if (hist_ok) {
+                fprintf(out, "Data Source:\n");
+                fprintf(out, "   %s\n", Rast_get_history(&hist, HIST_DATSRC_1));
+                fprintf(out, "   %s\n", Rast_get_history(&hist, HIST_DATSRC_2));
+                fprintf(out, "Data Description:\n");
+                fprintf(out, "   %s\n", Rast_get_history(&hist, HIST_KEYWRD));
+                if (Rast_history_length(&hist)) {
+                    fprintf(out, "Comments:\n");
+                    for (i = 0; i < Rast_history_length(&hist); i++)
+                        fprintf(out, "   %s\n", Rast_history_line(&hist, i));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 }
             }
         }
     } /* else rflag or sflag or tflag or gflag or hflag or mflag */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -10094,6 +10285,8 @@ int main(int argc, char **argv)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     if (format == JSON) {
         char *serialized_string = NULL;
@@ -10105,6 +10298,8 @@ int main(int argc, char **argv)
         json_free_serialized_string(serialized_string);
         json_value_free(root_value);
     }
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     return EXIT_SUCCESS;
 }

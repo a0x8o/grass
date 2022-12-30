@@ -203,6 +203,7 @@ class VDigitWindow(BufferedMapWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tools = {
             ord("P"): {
                 "event": wx.CommandEvent(id=self.toolbar.addPoint),
@@ -757,6 +758,8 @@ class VDigitWindow(BufferedMapWindow):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         default_tools = {
             "addPoint": {
                 "evt": True,
@@ -1323,6 +1326,7 @@ class VDigitWindow(BufferedMapWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1428,6 +1432,8 @@ class VDigitWindow(BufferedMapWindow):
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
         tools = {
             ord("P"): {
                 "event": wx.CommandEvent(id=self.toolbar.addPoint),
@@ -1509,6 +1515,7 @@ class VDigitWindow(BufferedMapWindow):
         if not shift:
             tool = tools.get(kc)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -1838,6 +1845,8 @@ class VDigitWindow(BufferedMapWindow):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if tool:
                 event = self.toolbar.OnTool(tool["event"])
                 tool["tool"](event)
@@ -2790,16 +2799,22 @@ class VDigitWindow(BufferedMapWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         elif action in {"copyCats", "copyAttrs"} and hasattr(self, "copyCatsIds"):
 =======
         elif action in ("copyCats", "copyAttrs") and hasattr(self, "copyCatsIds"):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         elif action in ("copyCats", "copyAttrs") and hasattr(self, "copyCatsIds"):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
         elif action in {"copyCats", "copyAttrs"} and hasattr(self, "copyCatsIds"):
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if action == "copyCats":
                 if (
                     self.digit.CopyCats(

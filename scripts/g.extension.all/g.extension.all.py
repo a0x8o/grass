@@ -108,6 +108,7 @@ from __future__ import print_function
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -672,6 +673,13 @@ from __future__ import print_function
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 import http
 import os
 import re
@@ -1124,6 +1132,9 @@ import grass.script as gs
 from six.moves.urllib import request as urlrequest
 from six.moves.urllib.error import HTTPError, URLError
 
+from six.moves.urllib import request as urlrequest
+from six.moves.urllib.error import HTTPError, URLError
+
 import grass.script as gscript
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1295,6 +1306,9 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if response.code != 200:
             index = HTTP_STATUS_CODES.index(response.code)
             desc = HTTP_STATUS_CODES[index].description
@@ -1319,12 +1333,19 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
                     url=url,
                     response_format=response_format,
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         if not response.code == 200:
             index = HTTP_STATUS_CODES.index(response.code)
             desc = HTTP_STATUS_CODES[index].description
             gs.fatal(
+=======
+        if not response.code == 200:
+            index = HTTP_STATUS_CODES.index(response.code)
+            desc = HTTP_STATUS_CODES[index].description
+            gscript.fatal(
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 _(
                     "Download file from <{url}>, "
                     "return status code {code}, "
@@ -1336,7 +1357,11 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
                 ),
             )
         if response_format not in response.getheader("Content-Type"):
+<<<<<<< HEAD
             gs.fatal(
+=======
+            gscript.fatal(
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 _(
                     "Wrong file format downloaded. "
                     "Check url <{url}>. Allowed file format is "
@@ -1345,9 +1370,13 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
                         response_format=response_format,
                     ),
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 ),
             )
         return response
@@ -1357,32 +1386,44 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             gs.fatal(
 =======
             gscript.fatal(
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             gscript.fatal(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
             gs.fatal(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 _(
                     "The download of the modules.xml file "
                     "from the server was not successful. "
                     "File on the server <{url}> doesn't "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     "exists."
                 ).format(url=url),
 =======
                     "exists.".format(url=url),
                 ),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                     "exists.".format(url=url),
                 ),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             )
         else:
             return download_modules_xml_file(
@@ -1393,25 +1434,36 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         gs.fatal(
             _("Download file from <{url}>, failed. Check internet connection.").format(
                 url=url,
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         gscript.fatal(
 =======
         gs.fatal(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+        gscript.fatal(
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             _(
                 "Download file from <{url}>, "
                 "failed. Check internet connection.".format(
                     url=url,
                 ),
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             ),
         )
 
@@ -1438,16 +1490,22 @@ def find_addon_name(addons):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         gs.fatal(_("Unable to get GRASS GIS version."))
 =======
         gscript.fatal(_("Unable to get GRASS GIS version."))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         gscript.fatal(_("Unable to get GRASS GIS version."))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
         gs.fatal(_("Unable to get GRASS GIS version."))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     url = "https://grass.osgeo.org/addons/grass{major}/modules.xml".format(
         major=major,
     )
@@ -1457,13 +1515,19 @@ def find_addon_name(addons):
     )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     tree = ET.fromstring(response.read())
 =======
     tree = etree.fromstring(response.read())
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     tree = etree.fromstring(response.read())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     result = []
     for addon in addons:
         found = False
@@ -1478,27 +1542,38 @@ def find_addon_name(addons):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             gs.warning(
                 _(
                     "The <{}> addon cannot be reinstalled. "
                     "Addon wasn't found among the official addons."
                 ).format(addon),
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             gscript.warning(
 =======
             gs.warning(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+            gscript.warning(
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 _(
                     "The <{}> addon cannot be reinstalled. "
                     "Addon wasn't found among the official "
                     "addons.".format(addon)
                 ),
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             )
     return set(result)
 
@@ -1531,6 +1606,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.message("-" * 60)
 =======
 =======
@@ -1540,6 +1616,12 @@ def main():
 =======
         gs.message("-" * 60)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+        gs.message("-" * 60)
+=======
+        gscript.message("-" * 60)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if remove:
             gs.message(_("Removing extension <%s>...") % ext)
         else:

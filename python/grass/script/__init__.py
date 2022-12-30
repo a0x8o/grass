@@ -2,6 +2,7 @@
 """
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from .core import *
 from .db import *
 from .raster import *
@@ -18,6 +19,8 @@ from . import setup
 from . import setup
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 from . import setup
 from .core import (
     PIPE,
@@ -222,4 +225,20 @@ __all__ = [
     "warning",
     "write_command",
 ]
+<<<<<<< HEAD
 >>>>>>> 602118adcc (init: Fix F401 Linter Warnings by Replacing Wildcard Imports with Explicit Imports in   __init__.py (#4647))
+=======
+=======
+from .core import *
+from .db import *
+from .raster import *
+from .raster3d import *
+from .vector import *
+from .utils import *
+<<<<<<< HEAD
+from . import setup  # noqa: F401
+=======
+from . import setup
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)

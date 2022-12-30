@@ -701,6 +701,7 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             super(PseudoDC, self).DrawLine(*args, **kwargs)
         else:
             super(PseudoDC, self).DrawLinePoint(*args, **kwargs)
@@ -1101,6 +1102,8 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             super().DrawLine(*args, **kwargs)
         else:
             super().DrawLinePoint(*args, **kwargs)
@@ -1400,6 +1403,7 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1505,10 +1509,13 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
             super(PseudoDC, self).DrawLine(*args, **kwargs)
         else:
             super(PseudoDC, self).DrawLinePoint(*args, **kwargs)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -1763,6 +1770,8 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     def DrawRectangleRect(self, rect):
         if wxPythonPhoenix:
@@ -2115,6 +2124,7 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2138,6 +2148,8 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     def DrawRectangle(self, *args, **kwargs):
         args = convertToInt(argsOrKwargs=args, roundVal=True)
         kwargs = convertToInt(argsOrKwargs=kwargs, roundVal=True)
@@ -2153,6 +2165,7 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
         kwargs = convertToInt(argsOrKwargs=kwargs, roundVal=True)
         super(PseudoDC, self).DrawCircle(*args, **kwargs)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2556,6 +2569,8 @@ class PseudoDC(wx.adv.PseudoDC if wxPythonPhoenix else wx.PseudoDC):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 class ClientDC(wx.ClientDC):
     """Wrapper around wx.ClientDC to have more control
@@ -2584,15 +2599,21 @@ class Rect(wx.Rect):
             return wx.Rect.Contains(self, x=int(x), y=int(y))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         return wx.Rect.ContainsXY(self, int(x), int(y))
 =======
         else:
             return wx.Rect.ContainsXY(self, int(x), int(y))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         else:
             return wx.Rect.ContainsXY(self, int(x), int(y))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     def ContainsRect(self, rect):
         if wxPythonPhoenix:
@@ -2604,15 +2625,21 @@ class Rect(wx.Rect):
             return wx.Rect.Offset(self, int(dx), int(dy))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         return wx.Rect.OffsetXY(self, int(dx), int(dy))
 =======
         else:
             return wx.Rect.OffsetXY(self, int(dx), int(dy))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         else:
             return wx.Rect.OffsetXY(self, int(dx), int(dy))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 
 class CheckBox(wx.CheckBox):

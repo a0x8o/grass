@@ -341,6 +341,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                  * recurively, to allow input of options for
 =======
 <<<<<<< HEAD
@@ -737,6 +738,8 @@ int main(int argc, char *argv[])
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                  * recursively, to allow input of options for
 =======
                  * recurively, to allow input of options for
@@ -909,6 +912,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1334,6 +1338,11 @@ int main(int argc, char *argv[])
                  * recurively, to allow input of options for
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                 * recurively, to allow input of options for
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                  * a second projection, MHu991010 */
                 G_set_key_value("o_proj", "eqc", out_proj_keys);
                 sph_check = 2;
@@ -1344,6 +1353,7 @@ int main(int argc, char *argv[])
                     strcpy(spheroid, buf);
                     G_strip(spheroid);
                     if (G_get_spheroid_by_name(spheroid, &aa, &e2, &f)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1808,6 +1818,8 @@ int main(int argc, char *argv[])
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                         /* if legal ellips. exist, ask whether or not to change
 =======
                         /* if legal ellips. exist, ask wether or not to change
@@ -1980,6 +1992,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2405,6 +2418,11 @@ int main(int argc, char *argv[])
                         /* if legal ellips. exist, ask wether or not to change
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                        /* if legal ellips. exist, ask wether or not to change
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                          * it */
                         G_message(_("The current ellipsoid is %s"), spheroid);
                         if (G_yes(

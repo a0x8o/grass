@@ -221,16 +221,22 @@ void weightWindow::compute(const dimension_type i, const dimension_type j,
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         } /* for dj */
     } /* for di */
 =======
         }        /* for dj */
     }            /* for di */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         }        /* for dj */
     }            /* for di */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     normalize(); /* normalize the weights */
 
 #ifdef CHECK_WEIGHTS
@@ -241,6 +247,9 @@ void weightWindow::compute(const dimension_type i, const dimension_type j,
 #endif
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 }
 
 /* Find the dominant direction. Set corresponding weight to 1, and
@@ -1009,6 +1018,7 @@ void weightWindow::makeD8(const dimension_type i, const dimension_type j,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1114,6 +1124,8 @@ void weightWindow::makeD8(const dimension_type i, const dimension_type j,
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 };
 
 /* Find the dominant direction. Set corresponding weight to 1, and
@@ -1122,6 +1134,7 @@ void weightWindow::makeD8(const dimension_type i, const dimension_type j,
                           const genericWindow<elevation_type> &elevwin,
                           const direction_type dir, const bool trustdir)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -1366,6 +1379,8 @@ void weightWindow::makeD8(const dimension_type i, const dimension_type j,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
 
     elevation_type elev_crt;

@@ -3,13 +3,19 @@
 from pathlib import Path
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 import pytest
 =======
 from pytest import approx
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 from pytest import approx
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 from grass.jupyter.reprojection_renderer import ReprojectionRenderer
 
 
@@ -31,16 +37,22 @@ def test_render_raster(simple_dataset):
     # Raster is same extent as region so no need to test bbox for use_region=True
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     assert bbox[0] == pytest.approx([0.00072155, -85.48874388])
     assert bbox[1] == pytest.approx([0.00000000, -85.48766880])
 =======
     assert bbox[0] == approx([0.00072155, -85.48874388])
     assert bbox[1] == approx([0.00000000, -85.48766880])
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     assert bbox[0] == approx([0.00072155, -85.48874388])
     assert bbox[1] == approx([0.00000000, -85.48766880])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 
 # render_vector produces json

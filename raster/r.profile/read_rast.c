@@ -17,11 +17,15 @@ int read_rast(double east, double north, double dist, int fd, int coords,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
               RASTER_MAP_TYPE data_type, FILE *fp, char *null_string,
               enum OutputFormat format, char *name, JSON_Array *array)
 =======
               RASTER_MAP_TYPE data_type, FILE *fp, char *null_string)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
               RASTER_MAP_TYPE data_type, FILE *fp, char *null_string)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -29,6 +33,8 @@ int read_rast(double east, double north, double dist, int fd, int coords,
               RASTER_MAP_TYPE data_type, FILE *fp, char *null_string,
               enum OutputFormat format, char *name, JSON_Array *array)
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     static DCELL *dcell;
     static int cur_row = -1;
@@ -68,8 +74,11 @@ int read_rast(double east, double north, double dist, int fd, int coords,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     switch (format) {
     case JSON:
         if (coords) {
@@ -82,6 +91,7 @@ int read_rast(double east, double north, double dist, int fd, int coords,
         if (coords)
             fprintf(fp, "%f %f", east, north);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     if (coords)
         fprintf(fp, "%f %f", east, north);
@@ -91,6 +101,12 @@ int read_rast(double east, double north, double dist, int fd, int coords,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
+=======
+=======
+    if (coords)
+        fprintf(fp, "%f %f", east, north);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         fprintf(fp, " %f", dist);
         break;
@@ -99,8 +115,11 @@ int read_rast(double east, double north, double dist, int fd, int coords,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (outofbounds || Rast_is_d_null_value(&dcell[col])) {
         switch (format) {
         case JSON:
@@ -138,15 +157,19 @@ int read_rast(double east, double north, double dist, int fd, int coords,
     if (outofbounds || Rast_is_d_null_value(&dcell[col]))
         fprintf(fp, " %s", null_string);
     else {
+<<<<<<< HEAD
 =======
     if (outofbounds || Rast_is_d_null_value(&dcell[col]))
         fprintf(fp, " %s", null_string);
     else {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (data_type == CELL_TYPE)
             fprintf(fp, " %d", (int)dcell[col]);
         else
             fprintf(fp, " %f", dcell[col]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -175,6 +198,9 @@ int read_rast(double east, double north, double dist, int fd, int coords,
             }
         }
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     if (clr) {
@@ -187,8 +213,11 @@ int read_rast(double east, double north, double dist, int fd, int coords,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         switch (format) {
         case JSON:
             json_object_set_number(object, "red", red);
@@ -200,16 +229,22 @@ int read_rast(double east, double north, double dist, int fd, int coords,
             break;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 
         fprintf(fp, " %03d:%03d:%03d", red, green, blue);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 
         fprintf(fp, " %03d:%03d:%03d", red, green, blue);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     switch (format) {

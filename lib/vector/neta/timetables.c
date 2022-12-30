@@ -70,14 +70,20 @@ int NetA_init_distinct(dbDriver *driver, dbString *sql, int **lengths,
         return -1;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
     if (db_open_select_cursor(driver, sql, &cursor, DB_SEQUENTIAL) != DB_OK) {
         G_warning(_("Unable to open select cursor: %s"), db_get_string(sql));
         return -1;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
     count = index = 0;
     /*calculate the lengths of the routes */
@@ -423,6 +429,7 @@ void NetA_update_dijkstra(int old_conns, int new_conns, int to, int new_dst,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                           int v, int route, int rows, int update,
 =======
 <<<<<<< HEAD
@@ -819,6 +826,8 @@ void NetA_update_dijkstra(int old_conns, int new_conns, int to, int new_dst,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                           int v, int route, int rows UNUSED, int update,
 =======
                           int v, int route, int rows, int update,
@@ -991,6 +1000,7 @@ void NetA_update_dijkstra(int old_conns, int new_conns, int to, int new_dst,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1416,6 +1426,11 @@ void NetA_update_dijkstra(int old_conns, int new_conns, int to, int new_dst,
                           int v, int route, int rows, int update,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                          int v, int route, int rows, int update,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                           neta_timetable_result *result, dglHeap_s *heap)
 {
     if (result->dst[new_conns][to] == -1 ||

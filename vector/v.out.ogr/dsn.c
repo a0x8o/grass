@@ -39,13 +39,19 @@ char *get_datasource_name(const char *opt_dsn, int use_ogr)
         if (DB_OK ==
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             db_get_login("pg", database, &user, &passwd, &host, &port)) {
 =======
             db_get_login2("pg", database, &user, &passwd, &host, &port)) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             db_get_login2("pg", database, &user, &passwd, &host, &port)) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (user) {
                 if (!G_strcasestr(opt_dsn, "user=")) {
                     strcat(connect_str, " user=");

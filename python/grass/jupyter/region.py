@@ -117,16 +117,23 @@ class RegionManagerForInteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e9b8764134 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         self._bbox[0][0] = min(self._bbox[0][0], south)
         self._bbox[0][1] = min(self._bbox[0][1], west)
         self._bbox[1][0] = max(self._bbox[1][0], north)
         self._bbox[1][1] = max(self._bbox[1][1], east)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if self._bbox[0][0] > south:
             self._bbox[0][0] = south
         if self._bbox[0][1] > west:
@@ -136,11 +143,15 @@ class RegionManagerForInteractiveMap:
         if self._bbox[1][1] < east:
             self._bbox[1][1] = east
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9b8764134 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 
 class RegionManagerFor2D:
@@ -222,6 +233,9 @@ class RegionManagerFor2D:
                     self._extent_set = True
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             elif not self._resolution_set and not self._extent_set:
                 self._env["GRASS_REGION"] = gs.region_env(raster=name, env=self._env)
                 self._extent_set = True
@@ -230,8 +244,11 @@ class RegionManagerFor2D:
                 self._env["GRASS_REGION"] = gs.region_env(align=name, env=self._env)
                 self._resolution_set = True
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             else:
                 if not self._resolution_set and not self._extent_set:
                     self._env["GRASS_REGION"] = gs.region_env(
@@ -243,13 +260,18 @@ class RegionManagerFor2D:
                     self._env["GRASS_REGION"] = gs.region_env(align=name, env=self._env)
                     self._resolution_set = True
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         except CalledModuleError:
             return
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -705,6 +727,8 @@ class RegionManagerFor2D:
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 class RegionManagerForSeries:
     """Region manager for SeriesMap"""
 
@@ -948,6 +972,7 @@ class RegionManagerForSeries:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1329,6 +1354,10 @@ class RegionManagerForSeries:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 class RegionManagerFor3D:
     """Region manager for 3D displays (gets region from m.nviz.image command)"""
 

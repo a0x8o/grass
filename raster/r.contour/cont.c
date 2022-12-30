@@ -126,6 +126,9 @@ void contour(double levels[], int nlevels, struct Map_info Map, DCELL **z,
                     } /* if checkedge */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 } /* if ! hit */
             } /* for columns */
         } /* for rows */
@@ -134,11 +137,14 @@ void contour(double levels[], int nlevels, struct Map_info Map, DCELL **z,
             }         /* for columns */
         }             /* for rows */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 }     /* if ! hit */
             }         /* for columns */
         }             /* for rows */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         /* check right and left borders (each row of first and last column) */
         for (startcol = 0; startcol <= ncol - 2; startcol += (ncol - 2)) {
@@ -176,6 +182,9 @@ void contour(double levels[], int nlevels, struct Map_info Map, DCELL **z,
                     } /* if checkedge */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 } /* if ! hit */
             } /* for rows */
         } /* for columns */
@@ -184,11 +193,14 @@ void contour(double levels[], int nlevels, struct Map_info Map, DCELL **z,
             }         /* for rows */
         }             /* for columns */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 }     /* if ! hit */
             }         /* for rows */
         }             /* for columns */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         /* check each interior Cell */
         for (startrow = 1; startrow <= nrow - 3; startrow++) {
@@ -228,21 +240,31 @@ void contour(double levels[], int nlevels, struct Map_info Map, DCELL **z,
                     } /* if checkedge */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 } /* if ! hit */
             } /* for rows */
         } /* for columns */
     } /* for levels */
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 }     /* if ! hit */
             }         /* for rows */
         }             /* for columns */
     }                 /* for levels */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     if (ncrossing > 0) {
         G_warning(n_("%d crossing found", "%d crossings found", ncrossing),

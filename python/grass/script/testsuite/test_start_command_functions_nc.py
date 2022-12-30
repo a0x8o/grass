@@ -10,8 +10,11 @@ LOCATION = "nc"
 
 LOCATION = "nc"
 
+<<<<<<< HEAD
 LOCATION = "nc"
 
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 class TestPythonKeywordsInParameters(TestCase):
     """Tests additional underscore syntax which helps to avoid Python keywords

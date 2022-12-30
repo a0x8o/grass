@@ -45,13 +45,18 @@ addons_path = None
 if len(sys.argv) >= 3:
     addons_path = sys.argv[2]
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 year = os.getenv("VERSION_DATE")
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 def get_module_man_file_path(man_dir, module, addons_man_files):
@@ -59,23 +64,36 @@ def get_module_man_file_path(man_dir, module, addons_man_files):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+def get_module_man_file_path(man_dir, module, addons_man_files):
+    """Get module manual HTML file path
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 htmlfiles = glob.glob(os.path.join(path, "*.html"))
 if addons_path:
     addons_man_files = glob.glob(os.path.join(addons_path, "*.html"))
     htmlfiles.extend(addons_man_files)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     :param str module: module manual HTML file name e.g. v.surf.rst.html
     :param addons_man_files: list of HTML manual files
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 def get_module_man_html_file_path(module):
     """Get module manual HTML file path
@@ -83,9 +101,13 @@ def get_module_man_html_file_path(module):
     :param str module: module manual HTML file name e.g. v.surf.rst.html
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     :return str module_path: core/addon module manual HTML file path
     """
     if addons_path and module in ",".join(addons_man_files):
@@ -93,12 +115,18 @@ def get_module_man_html_file_path(module):
         module_path = module_path.replace(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             os.path.commonpath([man_dir, module_path]),
             ".",
         )
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             os.path.commonpath([path, module_path]),
             ".",
         )
@@ -130,7 +158,11 @@ for html_file in htmlfiles:
         except:
             pass
         if not key:
+<<<<<<< HEAD
             sys.exit("Empty keyword from file %s line: %s" % (fname, lines[index_keys]))
+=======
+            exit("Empty keyword from file %s line: %s" % (fname, lines[index_keys]))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if key not in keywords.keys():
             keywords[key] = []
             keywords[key].append(fname)
@@ -159,7 +191,11 @@ for key in sorted(keywords.keys()):
 keywordsfile = open(os.path.join(path, "keywords.html"), "w")
 keywordsfile.write(
     header1_tmpl.substitute(
+<<<<<<< HEAD
         title="GRASS GIS %s Reference Manual: Keywords index" % grass_version
+=======
+        title="GRASS GIS %s Reference " "Manual: Keywords index" % grass_version
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     )
 )
 keywordsfile.write(headerkeywords_tmpl)
@@ -168,7 +204,11 @@ keywordsfile.write("<dl>")
 sortedKeys = sorted(keywords.keys(), key=lambda s: s.lower())
 
 for key in sortedKeys:
+<<<<<<< HEAD
     keyword_line = '<dt><b><a name="%s" class="urlblack">%s</a></b></dt><dd>' % (
+=======
+    keyword_line = '<dt><b><a name="%s" class="urlblack">%s</a></b></dt>' "<dd>" % (
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         key,
         key,
     )

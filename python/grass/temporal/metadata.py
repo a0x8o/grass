@@ -370,10 +370,15 @@ class RasterMetadata(RasterMetadataBase):
         semantic_label=None,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) -> None:
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    ) -> None:
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     ):
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -460,6 +465,7 @@ class RasterMetadata(RasterMetadataBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if get_tgis_db_version_from_metadata() > 2:
             self.set_semantic_label(semantic_label)
 
@@ -601,6 +607,8 @@ class RasterMetadata(RasterMetadataBase):
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     def set_semantic_label(self, semantic_label) -> None:
 =======
 =======
@@ -1423,6 +1431,7 @@ class RasterMetadata(RasterMetadataBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1714,6 +1723,17 @@ class RasterMetadata(RasterMetadataBase):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        if get_tgis_db_version_from_metadata() > 2:
+            self.set_semantic_label(semantic_label)
+
+    def set_semantic_label(self, semantic_label):
+        """Set the semantic label identifier"""
+        self.D["semantic_label"] = semantic_label
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     def get_semantic_label(self):
         """Get the semantic label identifier
         :return: None if not found"""
@@ -1721,10 +1741,15 @@ class RasterMetadata(RasterMetadataBase):
             return self.D["semantic_label"]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return None
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return None
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         else:
             return None
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1755,9 +1780,13 @@ class RasterMetadata(RasterMetadataBase):
         else:
             print(" | Semantic label:............. " + str(self.get_semantic_label()))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 
 ###############################################################################
@@ -2756,15 +2785,21 @@ class STRDSMetadata(STDSRasterMetadataBase):
             return self.D["number_of_semantic_labels"]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         return None
 =======
         else:
             return None
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         else:
             return None
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     def get_semantic_labels(self):
         """Get the distinct semantic labels of registered maps
@@ -2776,6 +2811,9 @@ class STRDSMetadata(STDSRasterMetadataBase):
             # band names supported from TGIS DB version 3
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             return None
 
         sql = "SELECT distinct semantic_label FROM %s WHERE %s.id " % (
@@ -2783,8 +2821,11 @@ class STRDSMetadata(STDSRasterMetadataBase):
             "raster_metadata",
         )
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             return None
 
         sql = "SELECT distinct semantic_label FROM %s WHERE %s.id " % (
@@ -2822,9 +2863,13 @@ class STRDSMetadata(STDSRasterMetadataBase):
     number_of_semantic_labels = property(fget=get_number_of_semantic_labels)
     semantic_labels = property(fget=get_semantic_labels)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         sql += "IN (SELECT id FROM %s)" % (str(self.get_raster_register()))
 

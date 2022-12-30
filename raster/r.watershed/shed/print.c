@@ -150,6 +150,7 @@ int print_output(OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -355,6 +356,8 @@ int print_output(OUTPUT *output)
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     snprintf(area, sizeof(area), "%.3f acres",
                              METERSQ_TO_ACRE * cell_size * do_cat->num_cat);
 =======
@@ -1392,6 +1395,7 @@ int print_output(OUTPUT *output)
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -3027,6 +3031,9 @@ int print_output(OUTPUT *output)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     sprintf(area, "%.3f acres",
                             METERSQ_TO_ACRE * cell_size * do_cat->num_cat);
                     break;
@@ -3049,6 +3056,7 @@ int print_output(OUTPUT *output)
                 case 6:
                     sprintf(area, "%6d cells", do_cat->num_cat);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -3060,6 +3068,9 @@ int print_output(OUTPUT *output)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     break;
                 }
                 fprintf(output->out_file, "%3d %-43s %16s %-.4f\n",

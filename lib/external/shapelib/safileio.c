@@ -21,7 +21,11 @@
  *
 =======
  * This software is available under the following "MIT Style" license,
+<<<<<<< HEAD
  * or at the option of the licensee under the LGPL (see COPYING).  This
+=======
+ * or at the option of the licensee under the LGPL (see LICENSE.LGPL).  This
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  * option is discussed in more detail in shapelib.html.
  *
  * --
@@ -46,6 +50,7 @@
  ******************************************************************************
  *
  * $Log: safileio.c,v $
+<<<<<<< HEAD
  * Revision 1.6  2018-06-15 19:56:32  erouault
  * * safileio.c: remove duplicate test. Patch by Jaroslav Fojtik.
  * Fixes http://bugzilla.maptools.org/show_bug.cgi?id=2744
@@ -55,6 +60,8 @@
  *
  * * Warning fixes in contrib/
  *
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  * Revision 1.4  2008-01-16 20:05:14  bram
  * Add file hooks that accept UTF-8 encoded filenames on some platforms.  Use
  *SASetupUtf8Hooks tosetup the hooks and check SHPAPI_UTF8_HOOKS for its
@@ -214,6 +221,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -451,6 +459,8 @@
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 SHP_CVSID("$Id: safileio.c,v 1.6 2018-06-15 19:56:32 erouault Exp $")
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -1428,6 +1438,7 @@ SHP_CVSID("$Id: safileio.c,v 1.6 2018-06-15 19:56:32 erouault Exp $")
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2030,6 +2041,11 @@ SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #ifdef SHPAPI_UTF8_HOOKS
 #ifdef SHPAPI_WINDOWS
 #define WIN32_LEAN_AND_MEAN
@@ -2094,6 +2110,7 @@ static SAFile SADFOpen(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -2207,7 +2224,11 @@ static SAFile SADFOpen(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
+=======
+
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3067,6 +3088,8 @@ static SAFile SADFOpen(const char *pszFilename, const char *pszAccess,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 
@@ -4495,6 +4518,7 @@ SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 {
     (void)pvUserData;
 =======
+<<<<<<< HEAD
 =======
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -4513,6 +4537,11 @@ SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
+{
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     return (SAFile)fopen(pszFilename, pszAccess);
 }
 
@@ -4521,6 +4550,7 @@ static SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 =======
 /************************************************************************/
 /*                              SADFRead()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4766,6 +4796,9 @@ static SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 =======
 
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
@@ -4892,6 +4925,7 @@ SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5417,6 +5451,8 @@ SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -5580,6 +5616,7 @@ SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -6579,6 +6616,10 @@ SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     return (SAOffset)fread(p, (size_t)size, (size_t)nmemb, (FILE *)file);
 }
@@ -6589,6 +6630,7 @@ static SAOffset SADFWrite(const void *p, SAOffset size, SAOffset nmemb,
 =======
 /************************************************************************/
 /*                             SADFWrite()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6834,6 +6876,9 @@ static SAOffset SADFWrite(const void *p, SAOffset size, SAOffset nmemb,
 =======
 
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
@@ -6960,6 +7005,7 @@ SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7485,6 +7531,8 @@ SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -7648,6 +7696,7 @@ SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -8647,6 +8696,10 @@ SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     return (SAOffset)fwrite(p, (size_t)size, (size_t)nmemb, (FILE *)file);
 }
@@ -8656,6 +8709,7 @@ static SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 =======
 /************************************************************************/
 /*                              SADFSeek()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8901,9 +8955,13 @@ static SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 =======
 
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9356,6 +9414,8 @@ SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -9872,6 +9932,7 @@ SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
     return (SAOffset)fseek((FILE *)file, (long)offset, whence);
 #endif
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10372,6 +10433,11 @@ SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 {
     return (SAOffset)fseek((FILE *)file, (long)offset, whence);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+{
+    return (SAOffset)fseek((FILE *)file, (long)offset, whence);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 }
 
 <<<<<<< HEAD
@@ -10379,6 +10445,7 @@ static SAOffset SADFTell(SAFile file)
 =======
 /************************************************************************/
 /*                              SADFTell()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10624,9 +10691,13 @@ static SAOffset SADFTell(SAFile file)
 =======
 
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 SAOffset SADFTell(SAFile file)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11079,6 +11150,8 @@ SAOffset SADFTell(SAFile file)
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -11595,6 +11668,7 @@ SAOffset SADFTell(SAFile file)
     return (SAOffset)ftell((FILE *)file);
 #endif
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12095,6 +12169,11 @@ SAOffset SADFTell(SAFile file)
 {
     return (SAOffset)ftell((FILE *)file);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+{
+    return (SAOffset)ftell((FILE *)file);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 }
 
 <<<<<<< HEAD
@@ -12102,6 +12181,7 @@ static int SADFFlush(SAFile file)
 =======
 /************************************************************************/
 /*                             SADFFlush()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12347,6 +12427,9 @@ static int SADFFlush(SAFile file)
 =======
 
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 int SADFFlush(SAFile file)
@@ -12473,6 +12556,7 @@ int SADFFlush(SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12998,6 +13082,8 @@ int SADFFlush(SAFile file)
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -13161,6 +13247,7 @@ int SADFFlush(SAFile file)
 
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -14160,6 +14247,10 @@ int SADFFlush(SAFile file)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     return fflush((FILE *)file);
 }
@@ -14169,6 +14260,7 @@ static int SADFClose(SAFile file)
 =======
 /************************************************************************/
 /*                             SADFClose()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14414,6 +14506,9 @@ static int SADFClose(SAFile file)
 =======
 
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 int SADFClose(SAFile file)
@@ -14540,6 +14635,7 @@ int SADFClose(SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15065,6 +15161,8 @@ int SADFClose(SAFile file)
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -15228,6 +15326,7 @@ int SADFClose(SAFile file)
 
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -16227,6 +16326,10 @@ int SADFClose(SAFile file)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     return fclose((FILE *)file);
 }
@@ -16236,6 +16339,7 @@ static int SADRemove(const char *filename, void *pvUserData)
 =======
 /************************************************************************/
 /*                             SADFClose()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16481,9 +16585,13 @@ static int SADRemove(const char *filename, void *pvUserData)
 =======
 
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 int SADRemove(const char *filename)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16936,6 +17044,8 @@ int SADRemove(const char *filename)
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -18126,9 +18236,12 @@ int SADRemove(const char *filename)
 =======
 {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     return remove(filename);
 }
 
@@ -18137,6 +18250,7 @@ static void SADError(const char *message)
 =======
 /************************************************************************/
 /*                              SADError()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18382,6 +18496,9 @@ static void SADError(const char *message)
 =======
 
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 void SADError(const char *message)
@@ -18508,6 +18625,7 @@ void SADError(const char *message)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -19033,6 +19151,8 @@ void SADError(const char *message)
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -19196,6 +19316,7 @@ void SADError(const char *message)
 
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -20195,6 +20316,10 @@ void SADError(const char *message)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     fprintf(stderr, "%s\n", message);
 }
@@ -20253,6 +20378,7 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -20449,9 +20575,13 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 =======
 
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 void SASetupDefaultHooks(SAHooks *psHooks)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21100,6 +21230,8 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -21263,6 +21395,7 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -22262,6 +22395,10 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     psHooks->FOpen = SADFOpen;
     psHooks->FRead = SADFRead;
@@ -22276,11 +22413,17 @@ void SASetupDefaultHooks(SAHooks *psHooks)
     psHooks->Atof = atof;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     psHooks->pvUserData = NULL;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    psHooks->pvUserData = NULL;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 }
 
 #ifdef SHPAPI_WINDOWS
@@ -22290,6 +22433,7 @@ static wchar_t *Utf8ToWideChar(const char *pszFilename)
 =======
 /************************************************************************/
 /*                          Utf8ToWideChar                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22466,9 +22610,13 @@ static wchar_t *Utf8ToWideChar(const char *pszFilename)
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
+=======
+
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 const wchar_t *Utf8ToWideChar(const char *pszFilename)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -22525,6 +22673,8 @@ const wchar_t *Utf8ToWideChar(const char *pszFilename)
 
 const wchar_t *Utf8ToWideChar(const char *pszFilename)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
     const int nMulti = (int)strlen(pszFilename) + 1;
@@ -22535,8 +22685,11 @@ const wchar_t *Utf8ToWideChar(const char *pszFilename)
     }
     wchar_t *pwszFileName = (wchar_t *)malloc(nWide * sizeof(wchar_t));
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int nMulti, nWide;
     wchar_t *pwszFileName;
@@ -22548,9 +22701,13 @@ const wchar_t *Utf8ToWideChar(const char *pszFilename)
     }
     pwszFileName = (wchar_t *)malloc(nWide * sizeof(wchar_t));
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (pwszFileName == NULL) {
         return NULL;
     }
@@ -22569,14 +22726,20 @@ const wchar_t *Utf8ToWideChar(const char *pszFilename)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 static SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess,
                            void *pvUserData)
 =======
 SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     (void)pvUserData;
     SAFile file = NULL;
@@ -22708,6 +22871,7 @@ SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -23347,6 +23511,8 @@ SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     pwszFileName = Utf8ToWideChar(pszFilename);
     pwszAccess = Utf8ToWideChar(pszAccess);
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -24008,10 +24174,13 @@ SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     pwszFileName = Utf8ToWideChar(pszFilename);
     pwszAccess = Utf8ToWideChar(pszAccess);
     if (pwszFileName != NULL && pwszFileName != NULL) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -25154,15 +25323,24 @@ SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
         file = (SAFile)_wfopen(pwszFileName, pwszAccess);
     }
+<<<<<<< HEAD
     free((wchar_t *)pwszFileName);
     free((wchar_t *)pwszAccess);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    free(pwszFileName);
+    free(pwszAccess);
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
         file = (SAFile)_wfopen(pwszFileName, pwszAccess);
     }
     free((wchar_t *)pwszFileName);
     free((wchar_t *)pwszAccess);
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     return file;
 }
 
@@ -25171,6 +25349,7 @@ static int SAUtf8WRemove(const char *pszFilename, void *pvUserData)
 =======
 /************************************************************************/
 /*                             SAUtf8WRemove()                          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25347,9 +25526,13 @@ static int SAUtf8WRemove(const char *pszFilename, void *pvUserData)
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
+=======
+
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 
 int SAUtf8WRemove(const char *pszFilename)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -25406,6 +25589,8 @@ int SAUtf8WRemove(const char *pszFilename)
 
 int SAUtf8WRemove(const char *pszFilename)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
     (void)pvUserData;
@@ -26164,6 +26349,7 @@ int SAUtf8WRemove(const char *pszFilename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -26554,11 +26740,15 @@ int SAUtf8WRemove(const char *pszFilename)
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+=======
+
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (pwszFileName != NULL) {
         rc = _wremove(pwszFileName);
     }
     free((wchar_t *)pwszFileName);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 {
     const wchar_t *pwszFileName = Utf8ToWideChar(pszFilename);
@@ -26572,6 +26762,8 @@ int SAUtf8WRemove(const char *pszFilename)
     }
     free((wchar_t *)pwszFileName);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     return rc;
 }
 
@@ -26586,6 +26778,7 @@ int SAUtf8WRemove(const char *pszFilename)
 
 /************************************************************************/
 /*                          SASetupUtf8Hooks()                          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26831,6 +27024,9 @@ int SAUtf8WRemove(const char *pszFilename)
 =======
 
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /************************************************************************/
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -26838,11 +27034,17 @@ void SASetupUtf8Hooks(SAHooks *psHooks)
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     psHooks->FOpen = SAUtf8WFOpen;
     psHooks->Remove = SAUtf8WRemove;
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    psHooks->FOpen = SAUtf8WFOpen;
+    psHooks->Remove = SAUtf8WRemove;
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #ifdef SHPAPI_WINDOWS
     psHooks->FOpen = SAUtf8WFOpen;
     psHooks->Remove = SAUtf8WRemove;
@@ -26850,9 +27052,13 @@ void SASetupUtf8Hooks(SAHooks *psHooks)
 #error "no implementations of UTF-8 hooks available for this platform"
 #endif
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     psHooks->FRead = SADFRead;
     psHooks->FWrite = SADFWrite;
     psHooks->FSeek = SADFSeek;

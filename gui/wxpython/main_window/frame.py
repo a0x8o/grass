@@ -2373,6 +2373,7 @@ from core.debug import Debug
 from lmgr.toolbars import LMWorkspaceToolbar, LMToolsToolbar
 from lmgr.toolbars import LMMiscToolbar, LMNvizToolbar, DisplayPanelToolbar
 <<<<<<< HEAD
+<<<<<<< HEAD
 from lmgr.statusbar import SbMain
 from lmgr.workspace import WorkspaceManager
 from lmgr.pyshell import PyShellWindow
@@ -2397,6 +2398,9 @@ from gui_core.wrap import Menu, TextEntryDialog, SimpleTabArt
 from gui_core.wrap import Menu, TextEntryDialog, SimpleTabArt
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+from lmgr.statusbar import SbMain
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 from lmgr.workspace import WorkspaceManager
 from lmgr.pyshell import PyShellWindow
 from lmgr.giface import (
@@ -2406,6 +2410,7 @@ from lmgr.giface import (
 from mapdisp.frame import MapPanel
 from datacatalog.catalog import DataCatalog
 from gui_core.forms import GUI
+<<<<<<< HEAD
 from gui_core.wrap import Menu, TextEntryDialog
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -2414,7 +2419,13 @@ from gui_core.wrap import Menu, TextEntryDialog
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+from gui_core.wrap import Menu, TextEntryDialog, SimpleTabArt
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 from startup.guiutils import (
     can_switch_mapset_interactive,
     switch_mapset_interactively,
@@ -2482,6 +2493,7 @@ class GMFrame(wx.Frame):
         id=wx.ID_ANY,
         title=None,
         workspace=None,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2958,6 +2970,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         size=wx.GetClientDisplayRect().GetSize(),
 =======
         size=wx.Display().GetGeometry().GetSize(),
@@ -3248,6 +3262,7 @@ class GMFrame(wx.Frame):
         size=globalvar.GM_WINDOW_SIZE,
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 =======
@@ -3579,6 +3594,11 @@ class GMFrame(wx.Frame):
         size=globalvar.GM_WINDOW_SIZE,
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+        size=wx.Display().GetGeometry().GetSize(),
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         style=wx.DEFAULT_FRAME_STYLE,
         **kwargs,
     ):
@@ -3595,13 +3615,17 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         self.size = size
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         self.size = size
@@ -3616,6 +3640,11 @@ class GMFrame(wx.Frame):
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+        self.size = size
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         self.displayIndex = 0  # index value for map displays and layer trees
         self.currentPage = None  # currently selected page for layer tree notebook
@@ -3652,10 +3681,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     _("There were some issues when loading menu or Tools:")
 =======
                     _("There were some issues when loading menu" " or Modules tab:")
@@ -3668,6 +3700,7 @@ class GMFrame(wx.Frame):
 =======
                     _("There were some issues when loading menu" " or Tools:")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                     _("There were some issues when loading menu" " or Tools:")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3681,6 +3714,8 @@ class GMFrame(wx.Frame):
                     _("There were some issues when loading menu" " or Modules tab:")
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 )
                 for message in messages:
                     self._gconsole.WriteError(message)
@@ -7129,9 +7164,8 @@ class GMFrame(wx.Frame):
         self.dialogs["atm"] = list()
 
         # set pane sizes according to the full screen size of the primary monitor
-        size = wx.Display().GetGeometry().GetSize()
-        self.PANE_BEST_SIZE = tuple(t / 3 for t in size)
-        self.PANE_MIN_SIZE = tuple(t / 5 for t in size)
+        self.PANE_BEST_SIZE = tuple(t // 5 for t in self.size)
+        self.PANE_MIN_SIZE = tuple(t // 8 for t in self.size)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7162,6 +7196,7 @@ class GMFrame(wx.Frame):
         self.workspace_manager.CreateRecentFilesMenu(
             menu=self.menubar,
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -7319,6 +7354,8 @@ class GMFrame(wx.Frame):
         # create widgets and build panes
         self.CreateMenuBar()
         self.CreateStatusBar(number=1)
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         self.BuildPanes()
         self.BindEvents()
 <<<<<<< HEAD
@@ -7978,6 +8015,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8022,6 +8060,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 client_disp = wx.ClientDisplayRect()
                 if x == 1:
                     # Get client display x offset (OS panel)
@@ -8050,10 +8092,14 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -8101,10 +8147,15 @@ class GMFrame(wx.Frame):
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 self.SetPosition((x, y))
                 self.SetSize((w, h))
             except Exception:
                 pass
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8171,6 +8222,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             self.Layout()
             if w <= globalvar.GM_WINDOW_SIZE[0] or h <= globalvar.GM_WINDOW_SIZE[1]:
                 self.Fit()
@@ -8841,10 +8894,18 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+            self.Layout()
+            if w <= globalvar.GM_WINDOW_SIZE[0] or h <= globalvar.GM_WINDOW_SIZE[1]:
+                self.Fit()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         else:
+            self.Layout()
+            self.Fit()
             # does center (of screen) make sense for lmgr?
             self.Centre()
 
+<<<<<<< HEAD
         self.Layout()
 <<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -8853,9 +8914,13 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         self.Show()
-        self.Maximize(True)
 
         # load workspace file if requested
         if workspace:
@@ -9114,6 +9179,9 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -9157,6 +9225,7 @@ class GMFrame(wx.Frame):
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9167,6 +9236,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     def _setCopyingOfSelectedText(self):
         copy = UserSettings.Get(
             group="manager", key="copySelectedTextToClipboard", subkey="enabled"
@@ -9179,6 +9250,7 @@ class GMFrame(wx.Frame):
             return self._auimgr.GetPane(name).IsShown()
         return False
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10096,6 +10168,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 478c363670 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 =======
 >>>>>>> 4669177a24 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     def SetStatusText(self, *args):
         """Override SbMain statusbar method"""
         self.statusbar.SetStatusText(*args)
@@ -10552,6 +10626,7 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
@@ -10790,10 +10865,15 @@ class GMFrame(wx.Frame):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     def SetStatusText(self, *args):
         """Overide SbMain statusbar method"""
         self.statusbar.SetStatusText(*args)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10971,6 +11051,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -11103,6 +11185,7 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7310acc566 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
@@ -11562,6 +11645,10 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> 4669177a24 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     def _createMapNotebook(self):
         """Create Map Display notebook"""
         # create the notebook off-window to avoid flicker
@@ -11576,6 +11663,7 @@ class GMFrame(wx.Frame):
             wx.Size(430, 200),
             agwStyle=notebook_style,
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11791,6 +11879,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4669177a24 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         self.mapnotebook.SetArtProvider(SimpleTabArt())
         # bindings
         self.mapnotebook.Bind(
@@ -13081,10 +13171,17 @@ class GMFrame(wx.Frame):
 =======
 =======
         self.mapnotebook.SetArtProvider(aui.AuiDefaultTabArt())
+=======
+        self.mapnotebook.SetArtProvider(SimpleTabArt())
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         # bindings
         self.mapnotebook.Bind(
             aui.EVT_AUINOTEBOOK_PAGE_CHANGED,
             lambda evt: self.mapnotebook.GetCurrentPage().onFocus.emit(),
+        )
+        self.mapnotebook.Bind(
+            aui.EVT_AUINOTEBOOK_PAGE_CLOSE,
+            self.OnMapNotebookClose,
         )
 
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -13102,6 +13199,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13110,14 +13208,21 @@ class GMFrame(wx.Frame):
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         # create display notebook
         self.notebookLayers = GNotebook(parent=parent, style=globalvar.FNPageStyle)
         menu = self._createTabMenu()
         self.notebookLayers.SetRightClickMenu(menu)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         # bindings
         self.notebookLayers.Bind(FN.EVT_FLATNOTEBOOK_PAGE_CHANGED, self.OnCBPageChanged)
         self.notebookLayers.Bind(FN.EVT_FLATNOTEBOOK_PAGE_CLOSING, self.OnCBPageClosing)
@@ -13150,6 +13255,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         self.displayPanel, self.notebookLayers = self._createDisplayPanel(parent)
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         # bindings
         self.notebookLayers.Bind(FN.EVT_FLATNOTEBOOK_PAGE_CHANGED, self.OnCBPageChanged)
         self.notebookLayers.Bind(FN.EVT_FLATNOTEBOOK_PAGE_CLOSING, self.OnCBPageClosing)
@@ -13252,10 +13359,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         self.goutput.contentChanged.connect(
             lambda notification: self._focusPage(notification)
         )
@@ -13270,6 +13380,7 @@ class GMFrame(wx.Frame):
             lambda notification: self._focusPage(notification)
         )
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         self.goutput.contentChanged.connect(
             lambda notification: self._focusPage(notification)
@@ -13285,6 +13396,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         self._gconsole.mapCreated.connect(self.OnMapCreated)
         self._gconsole.Bind(
@@ -14546,6 +14659,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14638,6 +14752,8 @@ class GMFrame(wx.Frame):
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4669177a24 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -16378,9 +16494,15 @@ class GMFrame(wx.Frame):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+        # create display toolbar
+        dmgrToolbar = DisplayPanelToolbar(guiparent=self.pg_panel, parent=self)
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         self.notebookLayers.AddPage(page=self.pg_panel, text=name, select=True)
         self.currentPage = self.notebookLayers.GetCurrentPage()
         self.currentPageNum = self.notebookLayers.GetSelection()
+        self.notebookLayers.EnsureVisible(self.currentPageNum)
 
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> 4669177a24 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -18933,6 +19055,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -19366,6 +19489,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4669177a24 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         cb_boxsizer.Add(dmgrToolbar, proportion=0, flag=wx.EXPAND)
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
@@ -19486,6 +19611,7 @@ class GMFrame(wx.Frame):
 =======
         cb_boxsizer.Add(dmgrToolbar, proportion=0, flag=wx.EXPAND)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -20093,6 +20219,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 >>>>>>> 4669177a24 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         cb_boxsizer.Add(self.GetLayerTree(), proportion=1, flag=wx.EXPAND, border=1)
         self.currentPage.SetSizer(cb_boxsizer)
         cb_boxsizer.Fit(self.GetLayerTree())
@@ -21206,6 +21334,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -21461,9 +21590,12 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> 4669177a24 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22038,12 +22170,17 @@ class GMFrame(wx.Frame):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             """Callback to check if user wants to close display. Map
             Display index can be different from index in Display tab.
 
             :return dict/None pgnum_dict/None: dict "layers" key represent
                                                map display notebook layers
                                                tree page index and
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22508,6 +22645,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                                "mainnotebook" key represent
 =======
                                                "mapnotebook" key represent
@@ -22680,6 +22819,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -23105,11 +23245,17 @@ class GMFrame(wx.Frame):
                                                "mapnotebook" key represent
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                                               "mapnotebook" key represent
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                                map display notebook page
                                                index (single window mode)
             """
             pgnum_dict = {}
             pgnum_dict["layers"] = self.notebookLayers.GetPageIndex(page)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23576,6 +23722,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             pgnum_dict["mainnotebook"] = self.mainnotebook.GetPageIndex(mapdisplay)
             name = self.notebookLayers.GetPageText(pgnum_dict["layers"])
 =======
@@ -24183,6 +24331,7 @@ class GMFrame(wx.Frame):
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7310acc566 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 =======
@@ -24192,9 +24341,12 @@ class GMFrame(wx.Frame):
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
             pgnum_dict["mapnotebook"] = self.mapnotebook.GetPageIndex(mapdisplay)
             name = self.notebookLayers.GetPageText(pgnum_dict["layers"])
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24601,10 +24753,13 @@ class GMFrame(wx.Frame):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4669177a24 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             caption = _("Close Map Display {}").format(name)
             if not askIfSaveWorkspace or (
                 askIfSaveWorkspace and self.workspace_manager.CanClosePage(caption)
             ):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25276,6 +25431,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4669177a24 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 return pgnum_dict
             return None
 
@@ -26579,6 +26736,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7c57325598 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 <<<<<<< HEAD
@@ -26827,6 +26985,10 @@ class GMFrame(wx.Frame):
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 return pgnum_dict
             return None
 
@@ -37742,6 +37904,7 @@ class GMFrame(wx.Frame):
     def BuildPanes(self):
         """Build panes - toolbars as well as panels"""
         self._auimgr.SetAutoNotebookTabArt(SimpleTabArt())
+<<<<<<< HEAD
         # initialize all main widgets
         self.statusbar = SbMain(parent=self, giface=self._giface)
         self._createMapNotebook()
@@ -38081,7 +38244,10 @@ class GMFrame(wx.Frame):
     def BuildPanes(self):
         """Build panes - toolbars as well as panels"""
 
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         # initialize all main widgets
+        self.statusbar = SbMain(parent=self, giface=self._giface)
         self._createMapNotebook()
         self._createDataCatalog(parent=self)
         self._createDisplay(parent=self)
@@ -38134,6 +38300,21 @@ class GMFrame(wx.Frame):
         )
 
         self._auimgr.AddPane(
+            self.statusbar.GetWidget(),
+            aui.AuiPaneInfo()
+            .Bottom()
+            .MinSize(30, 30)
+            .Fixed()
+            .Name("statusbar")
+            .CloseButton(False)
+            .DestroyOnClose(True)
+            .ToolbarPane()
+            .Dockable(False)
+            .PaneBorder(False)
+            .Gripper(False),
+        )
+
+        self._auimgr.AddPane(
             self.datacatalog,
             aui.AuiPaneInfo()
             .Name("datacatalog")
@@ -38149,10 +38330,10 @@ class GMFrame(wx.Frame):
         )
 
         self._auimgr.AddPane(
-            self.displayPanel,
+            self.notebookLayers,
             aui.AuiPaneInfo()
-            .Name("display")
-            .Caption("Display")
+            .Name("layers")
+            .Caption("Layers")
             .Left()
             .Layer(1)
             .Position(2)
@@ -38166,8 +38347,8 @@ class GMFrame(wx.Frame):
         self._auimgr.AddPane(
             self.search,
             aui.AuiPaneInfo()
-            .Name("modules")
-            .Caption("Modules")
+            .Name("tools")
+            .Caption("Tools")
             .Right()
             .Layer(1)
             .Position(1)
@@ -38189,7 +38370,7 @@ class GMFrame(wx.Frame):
             .CloseButton(False)
             .MinimizeButton(True)
             .MaximizeButton(True),
-            target=self._auimgr.GetPane("modules"),
+            target=self._auimgr.GetPane("tools"),
         )
 
         self._auimgr.AddPane(
@@ -38203,19 +38384,22 @@ class GMFrame(wx.Frame):
             .CloseButton(False)
             .MinimizeButton(True)
             .MaximizeButton(True),
-            target=self._auimgr.GetPane("modules"),
+            target=self._auimgr.GetPane("tools"),
         )
 
         self._auimgr.GetPane("toolbarNviz").Hide()
 
-        # Set Modules as active tab
-        modules = self._auimgr.GetPane("modules")
-        notebook = self._auimgr.GetNotebooks()[0]
-        notebook.SetSelectionToPage(modules)
+        # Set Tools as active tab
+        notebooks = self._auimgr.GetNotebooks()
+        if notebooks:
+            notebook = notebooks[0]
+            tools = self._auimgr.GetPane("tools")
+            notebook.SetSelectionToPage(tools)
 
-        # Set the size for automatic notebook
-        pane = self._auimgr.GetPane(notebook)
-        pane.MinSize(self.search.GetMinSize())
+            # Set the size for automatic notebook
+            pane = self._auimgr.GetPane(notebook)
+            pane.BestSize(self.PANE_BEST_SIZE)
+            pane.MinSize(self.PANE_MIN_SIZE)
 
         wx.CallAfter(self.datacatalog.LoadItems)
 
@@ -38239,7 +38423,6 @@ class GMFrame(wx.Frame):
     def BindEvents(self):
         # bindings
         self.Bind(wx.EVT_CLOSE, self.OnCloseWindowOrExit)
-        self.Bind(wx.EVT_KEY_DOWN, self.OnKeyDown)
 
 <<<<<<< HEAD
 >>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
@@ -39263,10 +39446,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         from mapswipe.frame import SwipeMapDisplay
 
         frame = wx.Frame(
@@ -39291,6 +39477,7 @@ class GMFrame(wx.Frame):
         win = SwipeMapFrame(parent=self, giface=self._giface)
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         from mapswipe.frame import SwipeMapDisplay
 
@@ -39298,6 +39485,11 @@ class GMFrame(wx.Frame):
         from mapswipe.frame import SwipeMapDisplay
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        from mapswipe.frame import SwipeMapDisplay
+
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         frame = wx.Frame(
             parent=None, size=globalvar.MAP_WINDOW_SIZE, title=_("Map Swipe Tool")
         )
@@ -39306,6 +39498,7 @@ class GMFrame(wx.Frame):
             giface=self._giface,
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -39313,6 +39506,9 @@ class GMFrame(wx.Frame):
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         rasters = []
         tree = self.GetLayerTree()
@@ -42327,6 +42523,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -42908,6 +43105,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     def _renamePageNoEvent(self, pgnum_dict, is_docked, text):
         if is_docked:
             self.mainnotebook.SetMainPageText(
@@ -43260,6 +43459,41 @@ class GMFrame(wx.Frame):
 =======
         self.mapnotebook.DeletePage(page_index)
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+    def _closePageNoEvent(self, pgnum_dict):
+        """Close page and destroy map display without generating notebook
+        page closing event.
+
+        :param dict pgnum_dict: dict "layers" key represent map display
+                                notebook layers tree page index and
+                                "mapnotebook" key represent map display
+                                notebook page index (single window mode)
+        """
+        self.notebookLayers.Unbind(FN.EVT_FLATNOTEBOOK_PAGE_CLOSING)
+        self.notebookLayers.DeletePage(pgnum_dict["layers"])
+        self.notebookLayers.Bind(
+            FN.EVT_FLATNOTEBOOK_PAGE_CLOSING,
+            self.OnCBPageClosing,
+        )
+        self.mapnotebook.DeletePage(pgnum_dict["mapnotebook"])
+
+    def _focusPage(self, notification):
+        """Focus the 'Console' notebook page according to event notification."""
+        if (
+            notification == Notification.HIGHLIGHT
+            or notification == Notification.MAKE_VISIBLE
+            or notification == Notification.RAISE_WINDOW
+        ):
+            self.FocusPage("Console")
+
+    def FocusPage(self, page_text):
+        """Focus the page if part of any of aui notebooks"""
+        notebooks = self._auimgr.GetNotebooks()
+        for notebook in notebooks:
+            for i in range(notebook.GetPageCount()):
+                if notebook.GetPageText(i) == page_text:
+                    notebook.SetSelection(i)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 <<<<<<< HEAD
         :param dict pgnum_dict: dict "layers" key represent map display
@@ -47852,10 +48086,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         from iclass.frame import IClassMapDisplay, haveIClass, errMsg
 
         if not haveIClass:
@@ -47870,6 +48107,7 @@ class GMFrame(wx.Frame):
 =======
         from iclass.frame import IClassMapDisplay, haveIClass, errMsg
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         from iclass.frame import IClassMapDisplay, haveIClass, errMsg
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -47879,6 +48117,8 @@ class GMFrame(wx.Frame):
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
         from iclass.frame import IClassMapFrame, haveIClass, errMsg
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         if not haveIClass:
             GError(
@@ -47909,6 +48149,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -47917,6 +48158,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         frame = wx.Frame(
             parent=None,
             size=globalvar.MAP_WINDOW_SIZE,
@@ -47926,12 +48171,16 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
         win = IClassMapFrame(parent=self, giface=self._giface)
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
         win = IClassMapFrame(parent=self, giface=self._giface)
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -47944,6 +48193,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         win.CentreOnScreen()
 
         win.Show()
@@ -48024,6 +48277,9 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -48051,6 +48307,7 @@ class GMFrame(wx.Frame):
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -48061,6 +48318,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     def OnRasterOutputFormat(self, event):
         """Set raster output format handler"""
         self.OnMenuCmd(cmd=["r.external.out"])
@@ -49743,6 +50002,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -50052,6 +50312,8 @@ class GMFrame(wx.Frame):
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -51054,6 +51316,7 @@ class GMFrame(wx.Frame):
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -51062,6 +51325,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     def OnCloseWindow(self, event):
         """Cleanup when wxGUI is quitted"""
         self._closeWindow(event)
@@ -52887,6 +53152,7 @@ class GMFrame(wx.Frame):
 =======
 =======
         return dlg
+<<<<<<< HEAD
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -52894,4 +53160,15 @@ class GMFrame(wx.Frame):
 =======
         return dlg
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+<<<<<<< HEAD
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+
+    def OnMapNotebookClose(self, event):
+        """Page of map notebook is being closed"""
+        display = self.GetMapDisplay(onlyCurrent=True)
+        display.OnCloseWindow(event=None, askIfSaveWorkspace=True)
+        event.Veto()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)

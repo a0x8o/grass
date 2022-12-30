@@ -69,15 +69,21 @@ static int read_row(int file, void *buf, int row, int buf_len)
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (lseek(file, ((off_t)row) * buf_len, 0) == -1) {
         G_fatal_error(_("Unable to seek: %s"), strerror(errno));
     }
 =======
     lseek(file, ((off_t)row) * buf_len, 0);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     lseek(file, ((off_t)row) * buf_len, 0);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     return (read(file, buf, buf_len) == buf_len);
 }
 
@@ -85,15 +91,21 @@ static int write_row(int file, const void *buf, int row, int buf_len)
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (lseek(file, ((off_t)row) * buf_len, 0) == -1) {
         G_fatal_error(_("Unable to seek: %s"), strerror(errno));
     }
 =======
     lseek(file, ((off_t)row) * buf_len, 0);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     lseek(file, ((off_t)row) * buf_len, 0);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     return (write(file, buf, buf_len) == buf_len);
 }
 

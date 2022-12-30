@@ -15,11 +15,17 @@ import ctypes
 import shutil
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from pathlib import Path
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+from pathlib import Path
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 from grass.pygrass import utils
 from grass.pygrass.gis import Mapset
@@ -100,6 +106,9 @@ class SuccessTest(TestCase):
         shutil.rmtree(cls.sig_dir1, ignore_errors=True)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         cls.runModule(
             "g.remove",
             flags="f",
@@ -112,11 +121,14 @@ class SuccessTest(TestCase):
         cls.runModule("g.remove", flags="f", type="raster", name=cls.b2, quiet=True)
         cls.runModule("g.remove", flags="f", type="raster", name=cls.train, quiet=True)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         cls.runModule("g.remove", flags="f", type="raster", name=cls.b1, quiet=True)
         cls.runModule("g.remove", flags="f", type="raster", name=cls.b2, quiet=True)
         cls.runModule("g.remove", flags="f", type="raster", name=cls.train, quiet=True)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     def test_creation(self):
         """Test creating a signature"""
@@ -132,13 +144,19 @@ class SuccessTest(TestCase):
         # File must be present
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         sig_stat = Path(self.sig_dir1, "sig").stat()
 =======
         sig_stat = os.stat(f"{self.sig_dir1}/sig")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         sig_stat = os.stat(f"{self.sig_dir1}/sig")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         self.assertTrue(stat.S_ISREG(sig_stat.st_mode))
 
         # Compare values within sig file

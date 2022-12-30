@@ -44,12 +44,16 @@ void Init(void)
     CellCount = 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 340c6b9719 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     char mask_name[GNAME_MAX];
     char mask_mapset[GMAPSET_MAX];
     if (Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL)) {
         FD = Rast_open_old(mask_name, mask_mapset);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     if (G_find_raster2("MASK", G_mapset())) {
@@ -60,6 +64,12 @@ void Init(void)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 340c6b9719 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
+=======
+=======
+    if (G_find_raster2("MASK", G_mapset())) {
+        FD = Rast_open_old("MASK", G_mapset());
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         {
             for (row = 0; row < Rs; row++) {
                 Rast_get_c_row_nomask(FD, CellBuffer, row);

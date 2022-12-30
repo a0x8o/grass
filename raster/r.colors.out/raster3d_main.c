@@ -33,16 +33,22 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         struct Option *map, *file, *format, *color_format;
 =======
         struct Option *map, *file;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         struct Option *map, *file;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
         struct Option *map, *file, *format, *color_format;
 >>>>>>> 6bac3385ba (r.colors.out: Add JSON support (#4555))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     } opt;
     struct {
         struct Flag *p;
@@ -56,16 +62,22 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     enum ColorFormat clr_frmt;
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
     enum ColorFormat clr_frmt;
 
 >>>>>>> 6bac3385ba (r.colors.out: Add JSON support (#4555))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     G_gisinit(argv[0]);
 
     module = G_define_module();
@@ -115,8 +127,11 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6bac3385ba (r.colors.out: Add JSON support (#4555))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (strcmp(opt.format->answer, "json") == 0) {
         if (strcmp(opt.color_format->answer, "rgb") == 0) {
             clr_frmt = RGB;
@@ -138,16 +153,22 @@ int main(int argc, char **argv)
                           flag.p->answer ? 1 : 0);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
     Rast_print_colors(&colors, range.min, range.max, fp,
                       flag.p->answer ? 1 : 0);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     Rast_print_colors(&colors, range.min, range.max, fp,
                       flag.p->answer ? 1 : 0);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6bac3385ba (r.colors.out: Add JSON support (#4555))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     exit(EXIT_SUCCESS);
 }

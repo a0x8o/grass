@@ -39,15 +39,21 @@ def benchmark(size, label, results):
     results.append(bm.benchmark_nprocs(module, label=label, max_nprocs=16, repeat=3))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     Module("g.remove", quiet=True, flags="f", type="raster", name=(reference, output))
 =======
     Module("g.remove", quiet=True, flags="f", type="raster", name=reference)
     Module("g.remove", quiet=True, flags="f", type="raster", name=output)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     Module("g.remove", quiet=True, flags="f", type="raster", name=reference)
     Module("g.remove", quiet=True, flags="f", type="raster", name=output)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 
 def generate_map(rows, cols, fname):

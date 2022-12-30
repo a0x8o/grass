@@ -525,6 +525,9 @@ class WorkspaceManager:
         if menu:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             menu_index = menu.FindMenu(_("File"))
             if menu_index == wx.NOT_FOUND:
                 # try untranslated version
@@ -540,8 +543,11 @@ class WorkspaceManager:
             workspace_item = file_menu.FindItemById(workspace_index)
 
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             file_menu = menu.GetMenu(
                 menuIndex=menu.FindMenu(title=_("File")),
             )
@@ -549,9 +555,13 @@ class WorkspaceManager:
                 id=file_menu.FindItem(itemString=_("Workspace")),
             )[0]
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             self._recent_files = RecentFilesMenu(
                 app_name="main",
                 parent_menu=workspace_item.GetSubMenu(),
@@ -584,6 +594,9 @@ class WorkspaceManager:
             GError(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 _("File <{}> doesn't exist. It was probably moved or deleted.").format(
                     path
 =======
@@ -591,11 +604,14 @@ class WorkspaceManager:
                     "File <{}> doesn't exist."
                     " It was probably moved or deleted.".format(path)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 _(
                     "File <{}> doesn't exist."
                     " It was probably moved or deleted.".format(path)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 ),
                 parent=self.lmgr,
             )

@@ -209,6 +209,9 @@ int main(int argc, char *argv[])
     if (png_ptr == NULL) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (fp) {
             fclose(fp);
             fp = NULL;
@@ -216,9 +219,12 @@ int main(int argc, char *argv[])
 =======
         fclose(fp);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         fclose(fp);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_fatal_error("cannot allocate LIBPNG structure");
     }
 
@@ -227,6 +233,9 @@ int main(int argc, char *argv[])
         png_destroy_write_struct(&png_ptr, (png_infopp)NULL);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (fp) {
             fclose(fp);
             fp = NULL;
@@ -234,9 +243,12 @@ int main(int argc, char *argv[])
 =======
         fclose(fp);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         fclose(fp);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_fatal_error("cannot allocate LIBPNG structure");
     }
 
@@ -244,6 +256,9 @@ int main(int argc, char *argv[])
         png_destroy_write_struct(&png_ptr, &info_ptr);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (fp) {
             fclose(fp);
             fp = NULL;
@@ -251,9 +266,12 @@ int main(int argc, char *argv[])
 =======
         fclose(fp);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         fclose(fp);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_fatal_error("setjmp returns error condition (1)");
     }
 
@@ -421,9 +439,13 @@ int main(int argc, char *argv[])
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (basename)
         G_free(basename);
     if (outfile)

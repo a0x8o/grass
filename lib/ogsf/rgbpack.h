@@ -11,16 +11,22 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define RGB_TO_INT(r, g, b, i)                              \
     (i = (((r) & RED_MASK) + ((int)((g) << 8) & GRN_MASK) + \
 =======
 #define RGB_TO_INT(r, g, b, i)                            \
     (i = (((r)&RED_MASK) + ((int)((g) << 8) & GRN_MASK) + \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 #define RGB_TO_INT(r, g, b, i)                            \
     (i = (((r)&RED_MASK) + ((int)((g) << 8) & GRN_MASK) + \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
           ((int)((b) << 16) & BLU_MASK)))
 
 #define CONST_COLS 45

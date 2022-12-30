@@ -19,11 +19,17 @@ Classes:
  - model::WriteModelFile
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  - model::WriteActiniaFile
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+ - model::WriteActiniaFile
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  - model::WritePyWPSFile
  - model::WritePythonFile
  - model::ModelParamDialog
@@ -36,13 +42,19 @@ This program is free software under the GNU General Public License
 @author Martin Landa <landa.martin gmail.com>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 @actinia, PyWPS, Python parameterization Ondrej Pesek <pesej.ondrek gmail.com>
 =======
 @PyWPS, Python parameterization Ondrej Pesek <pesej.ondrek gmail.com>
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 @PyWPS, Python parameterization Ondrej Pesek <pesej.ondrek gmail.com>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 """
 
 import os
@@ -2697,6 +2709,7 @@ class WriteScriptFile(ABC):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def __init__(self, fd, model):
         """Constructor to be overriden."""
         self.fd = None
@@ -3447,6 +3460,11 @@ class WritePythonFile(WriteScriptFile):
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     def __init__(self, fd, model):
         """Constructor to be overriden."""
         self.fd = None
@@ -3959,10 +3977,14 @@ if __name__ == "__main__":
 
 
 class WritePythonFile(WriteScriptFile):
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     def __init__(self, fd, model):
         """Constructor to be overriden."""
         self.fd = None
@@ -15512,6 +15534,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 r"""    run_command("g.remove", flags="f", type="raster",
                 name=%s)
 """
@@ -15942,6 +15965,8 @@ def cleanup():
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 r"""    %s("g.remove", flags="f", type="raster",
                 name=%s)
 """
@@ -16388,6 +16413,7 @@ def cleanup():
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
@@ -16474,6 +16500,8 @@ def cleanup():
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 r"""    run_command("g.remove", flags="f", type="raster",
                 name=%s)
 """
@@ -16493,6 +16521,7 @@ def cleanup():
 """
                 % ",".join(map(lambda x: '"' + x + '"', rast3d))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -16786,6 +16815,8 @@ def cleanup():
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             )
         if not rast and not vect and not rast3d:
             self.fd.write("    pass\n")
@@ -17137,6 +17168,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -17528,11 +17560,14 @@ def cleanup():
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             self._writeItem(item, variables=item.GetParameterizedParams())
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -17669,6 +17704,11 @@ def cleanup():
             self._writeItem(item, variables=item.GetParameterizedParams())
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            self._writeItem(item, variables=item.GetParameterizedParams())
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         self.fd.write("    return 0\n")
 
@@ -17823,9 +17863,13 @@ if __name__ == "__main__":
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     def _substituteVariable(self, string, variable, data):
         """Substitute variable in the string
 
@@ -17861,9 +17905,13 @@ if __name__ == "__main__":
         return result.strip("+")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 class ModelParamDialog(wx.Dialog):
     def __init__(

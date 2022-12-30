@@ -95,6 +95,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -503,6 +504,8 @@
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 typedef struct {
 =======
 <<<<<<< HEAD
@@ -972,6 +975,7 @@ typedef struct {
 >>>>>>> 298e3c87b5 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 >>>>>>> ca092cdc49 (Dockerfile_alpine: fix broken link creatio)
 <<<<<<< HEAD
 >>>>>>> 62c4e6e3da (Dockerfile_alpine: fix broken link creatio)
@@ -1681,6 +1685,11 @@ typedef struct {
 =======
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
 >>>>>>> 34d39d04b3 (Dockerfile_alpine: fix broken link creatio)
+=======
+=======
+typedef struct {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     const char *sname;
     int r;
     int g;
@@ -1833,6 +1842,7 @@ static const CATCOLORS ccolors[CNT] = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2462,6 +2472,8 @@ static const CATCOLORS ccolors[CNT] = {
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 34d39d04b3 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     [__] = {"ERROR", 255, 0, 255, "ERROR"}};
 =======
 <<<<<<< HEAD
@@ -2705,6 +2717,7 @@ static const CATCOLORS ccolors[CNT] = {
     [__] = {"ERROR", 255, 0, 255, "ERROR"}
 };
 >>>>>>> 5e2891edf8 (Dockerfile_alpine: fix broken link creatio)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3603,6 +3616,11 @@ static const CATCOLORS ccolors[CNT] = {
 >>>>>>> e3effd5180 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 34d39d04b3 (Dockerfile_alpine: fix broken link creatio)
+=======
+=======
+    [__] = {"ERROR", 255, 0, 255, "ERROR"}};
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 static int get_cell(int, float *, void *, RASTER_MAP_TYPE);
 
@@ -3694,6 +3712,7 @@ int open_map(MAPS *rast)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _("Region resolution shoudn't be lesser than map %s resolution. "
 =======
 <<<<<<< HEAD
@@ -4090,6 +4109,8 @@ int open_map(MAPS *rast)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             _("Region resolution shouldn't be lesser than map %s resolution. "
 =======
             _("Region resolution shoudn't be lesser than map %s resolution. "
@@ -4262,6 +4283,7 @@ int open_map(MAPS *rast)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -4687,6 +4709,11 @@ int open_map(MAPS *rast)
             _("Region resolution shoudn't be lesser than map %s resolution. "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            _("Region resolution shoudn't be lesser than map %s resolution. "
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
               "Run g.region raster=%s to set proper resolution"),
             rast->elevname, rast->elevname);
 
@@ -4903,6 +4930,7 @@ int write_form_cat_colors(char *raster)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5293,6 +5321,8 @@ int write_form_cat_colors(char *raster)
 >>>>>>> e3effd5180 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 34d39d04b3 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         Rast_add_color_rule(&i, ccolors[i].r, ccolors[i].g, ccolors[i].b, &i,
                             ccolors[i].r, ccolors[i].g, ccolors[i].b, &colors,
                             CELL_TYPE);
@@ -6357,6 +6387,7 @@ int write_form_cat_colors(char *raster)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ac8cc291d8 (Dockerfile_alpine: fix broken link creatio)
 =======
 =======
@@ -6526,10 +6557,13 @@ int write_form_cat_colors(char *raster)
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
         Rast_add_color_rule(&i, ccolors[i].r, ccolors[i].g, ccolors[i].b, &i,
                             ccolors[i].r, ccolors[i].g, ccolors[i].b, &colors,
                             CELL_TYPE);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7189,6 +7223,8 @@ int write_form_cat_colors(char *raster)
 >>>>>>> e3effd5180 (Dockerfile_alpine: fix broken link creatio)
 =======
 >>>>>>> 34d39d04b3 (Dockerfile_alpine: fix broken link creatio)
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     Rast_write_colors(raster, G_mapset(), &colors);
     Rast_free_colors(&colors);
     Rast_init_cats("Forms", &cats);

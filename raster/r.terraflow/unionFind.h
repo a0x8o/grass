@@ -74,6 +74,9 @@ unionFind<T>::unionFind()
     /*  parent = new (long)[maxsize]; */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (void *new_parent = std::calloc(maxsize, sizeof(T))) {
         parent = static_cast<T *>(new_parent);
     }
@@ -88,17 +91,24 @@ unionFind<T>::unionFind()
         G_fatal_error(_("Not enough memory for %s"), "rank");
     }
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     parent = (T *)calloc(maxsize, sizeof(T));
     assert(parent);
     /*  rank = new (long)[maxsize]; */
     rank = (T *)calloc(maxsize, sizeof(T));
     assert(rank);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 }
 
 /************************************************************/
@@ -154,6 +164,9 @@ inline void unionFind<T>::makeSet(T x)
         cout << "UnionFind::makeSet: reallocate double " << maxsize << "\n";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (void *new_parent = std::realloc(parent, 2 * maxsize * sizeof(T))) {
             parent = static_cast<T *>(new_parent);
             std::memset(parent + maxsize, 0, maxsize * sizeof(T));
@@ -170,8 +183,11 @@ inline void unionFind<T>::makeSet(T x)
             G_fatal_error(_("Not enough memory for %s"), "rank");
         }
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         parent = (T *)realloc(parent, 2 * maxsize * sizeof(T));
         assert(parent);
         memset(parent + maxsize, 0, maxsize * sizeof(T));
@@ -180,9 +196,13 @@ inline void unionFind<T>::makeSet(T x)
         assert(rank);
         memset(rank + maxsize, 0, maxsize * sizeof(T));
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         /*update maxsize */
         maxsize *= 2;
     }

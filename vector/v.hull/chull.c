@@ -75,6 +75,7 @@ struct tFaceStructure {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -83,6 +84,10 @@ struct tFaceStructure {
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
 =======
 >>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define ONHULL    true
 #define REMOVED   true
 #define VISIBLE   true
@@ -90,6 +95,9 @@ struct tFaceStructure {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
@@ -111,6 +119,7 @@ struct tFaceStructure {
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -121,6 +130,8 @@ struct tFaceStructure {
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 >>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 /* Global variable definitions */
 tVertex vertices = NULL;
@@ -483,9 +494,11 @@ bool AddOne(tVertex p)
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 
+<<<<<<< HEAD
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
@@ -494,6 +507,10 @@ bool AddOne(tVertex p)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     /* Mark faces visible from p. */
     f = faces;
     do {
@@ -503,12 +520,17 @@ bool AddOne(tVertex p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (vol < 0) {
             f->visible = VISIBLE;
             vis = true;
@@ -517,8 +539,11 @@ bool AddOne(tVertex p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 	if (vol < 0) {
 	    f->visible = VISIBLE;
@@ -527,12 +552,17 @@ bool AddOne(tVertex p)
 	f = f->next;
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     } while (f != faces);
 
     /* If no faces are visible from p, then p is inside the hull. */
@@ -541,8 +571,11 @@ bool AddOne(tVertex p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         p->onhull = !ONHULL;
         return false;
 =======
@@ -558,6 +591,7 @@ bool AddOne(tVertex p)
         p->onhull = !ONHULL;
         return false;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         p->onhull = !ONHULL;
         return false;
@@ -570,6 +604,8 @@ bool AddOne(tVertex p)
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 >>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     /* Mark edges in interior of visible region for deletion.

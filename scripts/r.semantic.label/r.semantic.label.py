@@ -152,6 +152,7 @@ def print_map_semantic_label(name, label_reader):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
             semantic_label = rast.info.semantic_label
@@ -731,6 +732,8 @@ def print_map_semantic_label(name, label_reader):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 <<<<<<< HEAD:scripts/r.semantic.label/r.semantic.label.py
             semantic_label = rast.info.semantic_label
             if semantic_label:
@@ -1488,6 +1491,7 @@ def print_map_semantic_label(name, label_reader):
                 gs.info(_("No semantic label assigned to <{}>").format(name))
     except OpenError:
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1638,6 +1642,15 @@ def print_map_semantic_label(name, label_reader):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            semantic_label = rast.info.semantic_label
+            if semantic_label:
+                label_reader.print_info(semantic_label)
+            else:
+                gs.info(_("No semantic label assigned to <{}>").format(name))
+    except OpenError as e:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         gs.error(_("Map <{}> not found").format(name))
 
 
@@ -1665,6 +1678,7 @@ def manage_map_semantic_label(name, semantic_label):
                     _("Semantic label dissociated from raster map <{}>").format(name), 1
                 )
             try:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2600,6 +2614,8 @@ def manage_map_semantic_label(name, semantic_label):
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 <<<<<<< HEAD:scripts/r.semantic.label/r.semantic.label.py
                 rast.info.semantic_label = semantic_label
 =======
@@ -2858,11 +2874,22 @@ def manage_map_semantic_label(name, semantic_label):
             except GrassError as e:
                 gs.error(_("Unable to assign/dissociate semantic label. {}").format(e))
                 return 1
+<<<<<<< HEAD
     except OpenError as e:
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    except OpenError:
+=======
+                rast.info.semantic_label = semantic_label
+            except GrassError as e:
+                gs.error(_("Unable to assign/dissociate semantic label. {}").format(e))
+                return 1
+    except OpenError as e:
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         gs.error(_("Map <{}> not found in current mapset").format(name))
         return 1
 
@@ -2898,6 +2925,9 @@ def main():
             print_map_semantic_label(maps[i], label_reader)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         elif manage_map_semantic_label(maps[i], semantic_label) != 0:
             ret = 1
 =======
@@ -2905,11 +2935,14 @@ def main():
             if manage_map_semantic_label(maps[i], semantic_label) != 0:
                 ret = 1
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         else:
             if manage_map_semantic_label(maps[i], semantic_label) != 0:
                 ret = 1
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     return ret
 

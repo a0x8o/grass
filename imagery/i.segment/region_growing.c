@@ -195,11 +195,15 @@ int region_growing(struct globals *globals)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     struct ngbr_stats Ri = {0}, Rk = {0},
                       Rk_bestn = {0}, /* Rk's best neighbor */
 =======
     struct ngbr_stats Ri, Rk, Rk_bestn, /* Rk's best neighbor */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     struct ngbr_stats Ri, Rk, Rk_bestn, /* Rk's best neighbor */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -207,6 +211,8 @@ int region_growing(struct globals *globals)
     struct ngbr_stats Ri = {0}, Rk = {0},
                       Rk_bestn = {0}, /* Rk's best neighbor */
 >>>>>>> 979e595bbe (i.segment: Fix uninitialized struct member error in region_growing.c (#3974))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         *next;
     int Ri_nn, Rk_nn; /* number of neighbors for Ri/Rk */
     struct NB_TREE *Ri_ngbrs, *Rk_ngbrs;
@@ -535,6 +541,9 @@ int region_growing(struct globals *globals)
                     } /* end if < threshold */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 } /* end pathflag */
             } /* next col */
         } /* next row */
@@ -543,11 +552,14 @@ int region_growing(struct globals *globals)
             }         /* next col */
         }             /* next row */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 }     /* end pathflag */
             }         /* next col */
         }             /* next row */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_percent(1, 1, 1);
 
         /* finished one pass for processing candidate pixels */
@@ -871,13 +883,19 @@ static int find_best_neighbor(struct ngbr_stats *Ri, struct reg_stats *Ri_rs,
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         } while (n--); /* end do loop - next neighbor */
 =======
         } while (n--);                     /* end do loop - next neighbor */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         } while (n--);                     /* end do loop - next neighbor */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     } while (rclist_drop(&rilist, &next)); /* while there are cells to check */
 
     /* clean up */
@@ -1024,10 +1042,15 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     struct rc next = {0}, ngbr_rc = {0};
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    struct rc next = {0}, ngbr_rc = {0};
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     struct rc next, ngbr_rc;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     int neighbors[8][2];
@@ -1038,6 +1061,7 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
     G_debug(4, "update_band_vals()");
 
     if (rs->count >= globals->min_reg_size) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1504,6 +1528,8 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         char buf[100];
         snprintf(buf, sizeof(buf), "%" PRI_LONG, globals->min_reg_size);
         G_fatal_error(_("Region stats should go in tree, %d >= %s"), rs->count,
@@ -1804,6 +1830,7 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1909,9 +1936,12 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
         G_fatal_error(_("Region stats should go in tree, %d >= %" PRI_LONG ""),
                       rs->count, globals->min_reg_size);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -2163,6 +2193,8 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     Segment_get(&globals->rid_seg, (void *)&rid, row, col);
@@ -2661,13 +2693,19 @@ static int calculate_reg_stats(int row, int col, struct reg_stats *rs,
         int n, rid;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         struct rc ngbr_rc = {0};
 =======
         struct rc ngbr_rc;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         struct rc ngbr_rc;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         int neighbors[8][2];
 
         globals->find_neighbors(row, col, neighbors);
@@ -2712,13 +2750,19 @@ static int calculate_reg_stats(int row, int col, struct reg_stats *rs,
         int n, rid;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         struct rc ngbr_rc = {0}, *pngbr_rc = NULL, next = {0};
 =======
         struct rc ngbr_rc, *pngbr_rc, next;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         struct rc ngbr_rc, *pngbr_rc, next;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         struct rclist rilist;
         int neighbors[8][2];
         int no_check;

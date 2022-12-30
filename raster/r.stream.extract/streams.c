@@ -136,6 +136,7 @@ static int continue_stream(CELL stream_id, int r_max, int c_max, int *stream_no)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _("Stream_no %d and n_stream_nodes %" PRI_OFF_T " out of sync"),
 =======
 <<<<<<< HEAD
@@ -532,6 +533,8 @@ static int continue_stream(CELL stream_id, int r_max, int c_max, int *stream_no)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 _("Stream_no %d and n_stream_nodes %" PRId64 " out of sync"),
 =======
                 _("Stream_no %d and n_stream_nodes %" PRI_OFF_T " out of sync"),
@@ -704,6 +707,7 @@ static int continue_stream(CELL stream_id, int r_max, int c_max, int *stream_no)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1129,6 +1133,11 @@ static int continue_stream(CELL stream_id, int r_max, int c_max, int *stream_no)
                 _("Stream_no %d and n_stream_nodes %" PRI_OFF_T " out of sync"),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                _("Stream_no %d and n_stream_nodes %" PRI_OFF_T " out of sync"),
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 *stream_no, n_stream_nodes);
 
         stream_node[*stream_no].n_alloc += 2;
@@ -1781,6 +1790,7 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 G_warning(_("Stream_no %d and n_stream_nodes %" PRI_OFF_T
 =======
 <<<<<<< HEAD
@@ -2177,6 +2187,8 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 G_warning(_("Stream_no %d and n_stream_nodes %" PRId64
 =======
                 G_warning(_("Stream_no %d and n_stream_nodes %" PRI_OFF_T
@@ -2349,6 +2361,7 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2774,6 +2787,11 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
                 G_warning(_("Stream_no %d and n_stream_nodes %" PRI_OFF_T
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                G_warning(_("Stream_no %d and n_stream_nodes %" PRI_OFF_T
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                             " out of sync"),
                           stream_no, n_stream_nodes);
         }
@@ -2807,6 +2825,7 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
     G_percent(1, 1, 2);
     if (workedon)
         G_warning(_("MFD: A * path already processed when setting drainage "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3271,6 +3290,8 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     "direction: %" PRId64 " of %" PRId64 " cells"),
 =======
                     "direction: %" PRI_OFF_T " of %" PRI_OFF_T " cells"),
@@ -3443,6 +3464,7 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3868,6 +3890,11 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
                     "direction: %" PRI_OFF_T " of %" PRI_OFF_T " cells"),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                    "direction: %" PRI_OFF_T " of %" PRI_OFF_T " cells"),
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                   workedon, n_points);
 
     G_free(dist_to_nbr);
@@ -3875,6 +3902,7 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
     G_free(ele_nbr);
     G_free(flag_nbr);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4341,6 +4369,8 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     G_debug(1, "%" PRId64 " outlets", n_outlets);
     G_debug(1, "%" PRId64 " nodes", n_stream_nodes);
 =======
@@ -4637,6 +4667,7 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -4742,9 +4773,12 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
     G_debug(1, "%" PRI_OFF_T " outlets", n_outlets);
     G_debug(1, "%" PRI_OFF_T " nodes", n_stream_nodes);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
@@ -4998,6 +5032,8 @@ int extract_streams(double threshold, double mont_exp, int internal_acc)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     G_debug(1, "%d streams", stream_no);
 
     return 1;

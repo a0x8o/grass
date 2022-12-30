@@ -29,16 +29,22 @@ import grass.script as gs
 import grass.jupyter as gj
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 gs.core._create_location_xy(r"{tmp_path}", r"{location}")
 session = gj.init(r"{tmp_path / location}")
 =======
 gs.core._create_location_xy("{tmp_path}", "{location}")
 session = gj.init("{tmp_path / location}")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 gs.core._create_location_xy("{tmp_path}", "{location}")
 session = gj.init("{tmp_path / location}")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 gs.read_command("g.region", flags="p")
 print(os.environ["GISRC"])
 session.finish()
@@ -61,16 +67,22 @@ import grass.script as gs
 import grass.jupyter as gj
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 gs.core._create_location_xy(r"{tmp_path}", r"{location}")
 session = gj.init(r"{tmp_path / location}")
 =======
 gs.core._create_location_xy("{tmp_path}", "{location}")
 session = gj.init("{tmp_path / location}")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 gs.core._create_location_xy("{tmp_path}", "{location}")
 session = gj.init("{tmp_path / location}")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 print(os.environ["GISRC"])
 """
 

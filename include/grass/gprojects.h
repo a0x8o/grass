@@ -28,13 +28,19 @@
 #define PROJ_COMPUTE_VERSION(maj, min, rev) \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     ((maj) * 1000000 + (min) * 10000 + (rev) * 100)
 =======
     ((maj)*1000000 + (min)*10000 + (rev)*100)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     ((maj)*1000000 + (min)*10000 + (rev)*100)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #endif
 
 /* just in case PROJ introduces PROJ_VERSION_NUM in a future version */

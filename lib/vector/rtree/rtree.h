@@ -217,6 +217,7 @@ struct RTree {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         int alloc;  /* number of allcoated positions in *pos */
 =======
 <<<<<<< HEAD
@@ -613,6 +614,8 @@ struct RTree {
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         int alloc;  /* number of allocated positions in *pos */
 =======
         int alloc;  /* number of allcoated positions in *pos */
@@ -785,6 +788,7 @@ struct RTree {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1210,6 +1214,11 @@ struct RTree {
         int alloc;  /* number of allcoated positions in *pos */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        int alloc;  /* number of allcoated positions in *pos */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         off_t *pos; /* array of available positions */
     } free_nodes;
 

@@ -86,6 +86,7 @@ export C_INCLUDE_PATH=".:${OSGEO4W_ROOT_MSYS}/include:${SRC}/dist.${ARCH}/includ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 =======
 <<<<<<< HEAD
@@ -482,6 +483,8 @@ export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python312
 =======
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
@@ -864,12 +867,54 @@ export ARCH=x86_64-w64-mingw32
     --without-x
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
     --without-pdal \
     --without-x
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
+export ARCH=x86_64-w64-mingw32
+
+./configure \
+    --host=${ARCH} \
+    --with-libs="${OSGEO4W_ROOT_MSYS}/lib ${OSGEO4W_ROOT_MSYS}/bin" \
+    --with-includes=${OSGEO4W_ROOT_MSYS}/include \
+    --libexecdir=${OSGEO4W_ROOT_MSYS}/bin \
+    --prefix=${OSGEO4W_ROOT_MSYS}/apps/grass \
+    --bindir=${OSGEO4W_ROOT_MSYS}/bin \
+    --includedir=${OSGEO4W_ROOT_MSYS}/include \
+    --without-x \
+    --with-cxx \
+    --enable-shared \
+    --enable-largefile \
+    --with-openmp \
+    --with-fftw \
+    --with-nls \
+    --with-readline \
+    --with-blas \
+    --with-lapack-includes=/mingw64/include/lapack \
+    --with-freetype \
+    --with-freetype-includes=${OSGEO4W_ROOT_MSYS}/include/freetype2 \
+    --with-proj-share=${OSGEO4W_ROOT_MSYS}/share/proj \
+    --with-proj-includes=${OSGEO4W_ROOT_MSYS}/include \
+    --with-proj-libs=${OSGEO4W_ROOT_MSYS}/lib \
+    --with-postgres \
+    --with-postgres-includes=${OSGEO4W_ROOT_MSYS}/include \
+    --with-postgres-libs=${OSGEO4W_ROOT_MSYS}/lib \
+    --with-gdal=${SRC}/mswindows/osgeo4w/gdal-config \
+    --with-geos=${SRC}/mswindows/osgeo4w/geos-config \
+    --with-sqlite \
+    --with-sqlite-includes=${OSGEO4W_ROOT_MSYS}/include \
+    --with-sqlite-libs=${OSGEO4W_ROOT_MSYS}/lib \
+    --with-regex \
+    --with-nls \
+    --with-zstd \
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     --with-odbc \
     --with-cairo \
     --with-cairo-includes=${OSGEO4W_ROOT_MSYS}/include \
@@ -878,6 +923,7 @@ export ARCH=x86_64-w64-mingw32
     --with-opengl=windows \
     --with-bzlib \
     --with-liblas=${SRC}/mswindows/osgeo4w/liblas-config \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -952,6 +998,8 @@ export ARCH=x86_64-w64-mingw32
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config \
     --without-pdal
 =======
@@ -1893,6 +1941,7 @@ export ARCH=x86_64-w64-mingw32
     --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
@@ -1923,6 +1972,11 @@ export ARCH=x86_64-w64-mingw32
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 make
 

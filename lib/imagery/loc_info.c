@@ -18,16 +18,22 @@ char *I_location_info(const char *middle)
     buf = (char *)G_calloc(buf_len, sizeof(char));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     snprintf(buf, buf_len, "%s%*s%s%*s%s", left, len / 2, "", middle, len / 2,
              "", right);
 =======
     G_snprintf(buf, buf_len, "%s%*s%s%*s%s", left, len / 2, "", middle, len / 2,
                "", right);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     G_snprintf(buf, buf_len, "%s%*s%s%*s%s", left, len / 2, "", middle, len / 2,
                "", right);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     return buf;
 }

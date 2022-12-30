@@ -57,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -196,6 +197,8 @@
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 /* Get error corrected sum */
 double get_sum(void *sum_array, void *c_array, int row, int cols, int col,
                RASTER_MAP_TYPE rtype)
@@ -1196,6 +1199,7 @@ double get_sum(void *sum_array, void *c_array, int row, int cols, int col,
 <<<<<<< HEAD
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1238,10 +1242,13 @@ double get_sum(void *sum_array, void *c_array, int row, int cols, int col,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 /* Get error corrected sum */
 double get_sum(void *sum_array, void *c_array, int row, int cols, int col,
                RASTER_MAP_TYPE rtype)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1850,6 +1857,8 @@ double get_sum(void *sum_array, void *c_array, int row, int cols, int col,
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     size_t offset = ((size_t)row * cols + col) * Rast_cell_size(rtype);
     double sum = Rast_get_d_value(((char *)sum_array) + offset, rtype);
@@ -1955,6 +1964,7 @@ double get_sum(void *sum_array, void *c_array, int row, int cols, int col,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2202,6 +2212,8 @@ double get_sum(void *sum_array, void *c_array, int row, int cols, int col,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void write_sum(void *raster_row, void *sum_array, void *c_array, int row,
                int cols, RASTER_MAP_TYPE rtype)
 =======
@@ -2791,6 +2803,7 @@ void write_sum(void *raster_row, void *sum_array, void *c_array,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -2926,9 +2939,12 @@ void write_sum(void *raster_row, void *sum_array, void *c_array,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 void write_sum(void *raster_row, void *sum_array, void *c_array, int row,
                int cols, RASTER_MAP_TYPE rtype)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3550,6 +3566,8 @@ void write_sum(void *raster_row, void *sum_array, void *c_array, int row,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int col;
     void *ptr = raster_row;
@@ -3597,6 +3615,7 @@ void write_sum(void *raster_row, void *sum_array, void *c_array, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3736,6 +3755,8 @@ void write_sum(void *raster_row, void *sum_array, void *c_array, int row,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void write_variance(void *raster_row, void *n_array, void *mean_array,
                     void *m2_array, int row, int cols, RASTER_MAP_TYPE rtype,
                     int method)
@@ -4736,6 +4757,7 @@ void write_variance(void *raster_row, void *n_array, void *mean_array,
 <<<<<<< HEAD
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4778,10 +4800,13 @@ void write_variance(void *raster_row, void *n_array, void *mean_array,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 void write_variance(void *raster_row, void *n_array, void *mean_array,
                     void *m2_array, int row, int cols, RASTER_MAP_TYPE rtype,
                     int method)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5390,6 +5415,8 @@ void write_variance(void *raster_row, void *n_array, void *mean_array,
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     double variance;
     int col;
@@ -5512,6 +5539,7 @@ void write_variance(void *raster_row, void *n_array, void *mean_array,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5813,6 +5841,8 @@ void write_variance(void *raster_row, void *n_array, void *mean_array,
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -5990,6 +6020,7 @@ void write_variance(void *raster_row, void *n_array, void *mean_array,
 =======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -6585,6 +6616,10 @@ void write_variance(void *raster_row, void *n_array, void *mean_array,
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void write_median(struct BinIndex *bin_index, void *raster_row,
                   void *index_array, int row, int cols, RASTER_MAP_TYPE rtype)
 {
@@ -6658,6 +6693,7 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6750,6 +6786,8 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -8107,6 +8145,7 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -8116,11 +8155,14 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
         if (Rast_is_null_value(((char *)index_array) + n_offset,
                                CELL_TYPE)) /* no points in cell */
             Rast_set_null_value(ptr, 1, rtype);
         else { /* one or more points in cell */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8552,6 +8594,8 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
             head_id =
                 Rast_get_c_value(((char *)index_array) + n_offset, CELL_TYPE);
@@ -8656,6 +8700,7 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8898,6 +8943,8 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             while (node_id != -1) { /* count number of points in cell */
 =======
 <<<<<<< HEAD
@@ -9036,6 +9083,7 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 =======
             while (node_id != -1) {     /* count number of points in cell */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9977,6 +10025,11 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
             while (node_id != -1) {     /* count number of points in cell */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+            while (node_id != -1) { /* count number of points in cell */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 n++;
                 node_id = ((struct z_node *)bin_index->nodes)[node_id].next;
             }
@@ -10068,6 +10121,7 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10323,9 +10377,12 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10900,11 +10957,16 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (n == 1) /* only one point, use that */
                 Rast_set_d_value(
                     ptr, ((struct z_node *)bin_index->nodes)[head_id].z, rtype);
             else if (n % 2 !=
                      0) { /* odd number of points: median_i = (n + 1) / 2 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11009,6 +11071,8 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -13043,24 +13107,33 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 n = (n + 1) / 2;
                 node_id = head_id;
                 for (j = 1; j < n; j++) /* get "median element" */
-                    node_id =
-                        ((struct z_node *)bin_index->nodes)[node_id].next;
+                    node_id = ((struct z_node *)bin_index->nodes)[node_id].next;
 
-                Rast_set_d_value(ptr,
-                                 ((struct z_node *)bin_index->
-                                  nodes)[node_id].z, rtype);
+                Rast_set_d_value(
+                    ptr, ((struct z_node *)bin_index->nodes)[node_id].z, rtype);
             }
+<<<<<<< HEAD
             else {              /* even number of points: median = (val_below + val_above) / 2 */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+            else { /* even number of points: median = (val_below + val_above) /
+                      2 */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
                 z = (n + 1) / 2.0;
                 n = floor(z);
                 node_id = head_id;
                 for (j = 1; j < n; j++) /* get element "below" */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13213,6 +13286,8 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -14316,11 +14391,15 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
                     node_id = ((struct z_node *)bin_index->nodes)[node_id].next;
 
                 z = (((struct z_node *)bin_index->nodes)[node_id].z +
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14357,6 +14436,8 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                      ((struct z_node *)bin_index->nodes)
                          [((struct z_node *)bin_index->nodes)[node_id].next]
                              .z) /
@@ -14380,6 +14461,9 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14585,6 +14669,7 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -15031,6 +15116,10 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 Rast_set_d_value(ptr, z, rtype);
             }
         }
@@ -15135,6 +15224,7 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15382,6 +15472,8 @@ void write_median(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
                 int row, int cols)
 =======
@@ -15971,6 +16063,7 @@ void write_mode(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -16106,9 +16199,12 @@ void write_mode(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
                 int row, int cols)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16730,6 +16826,8 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int col;
     int node_id;
@@ -16835,6 +16933,7 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -17075,6 +17174,8 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (Rast_is_null_value(((char *)index_array) + n_offset,
                                CELL_TYPE)) /* no points in cell */
 =======
@@ -17256,6 +17357,7 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -17269,9 +17371,12 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
         if (Rast_is_null_value(((char *)index_array) + n_offset,
                                CELL_TYPE)) /* no points in cell */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18229,6 +18334,8 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
         if (Rast_is_null_value(((char *)index_array) + n_offset, CELL_TYPE))    /* no points in cell */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             Rast_set_null_value(ptr, 1, CELL_TYPE);
         else {
             int mode_node = -1;
@@ -18299,6 +18406,7 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -18391,6 +18499,8 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -19554,6 +19664,7 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19596,6 +19707,8 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
                 else if (((struct cnt_node *)bin_index->nodes)[node_id].count >
                          ((struct cnt_node *)bin_index->nodes)[mode_node].count)
                     mode_node = node_id;
@@ -19605,6 +19718,7 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
                 ptr, ((struct cnt_node *)bin_index->nodes)[mode_node].value,
                 CELL_TYPE);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20200,6 +20314,8 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         }
         ptr = G_incr_void_ptr(ptr, Rast_cell_size(CELL_TYPE));
     }
@@ -20292,6 +20408,7 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -20593,6 +20710,8 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -20770,6 +20889,7 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
 =======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -21365,6 +21485,10 @@ void write_mode(struct BinIndex *bin_index, void *raster_row, void *index_array,
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void write_percentile(struct BinIndex *bin_index, void *raster_row,
                       void *index_array, int row, int cols,
                       RASTER_MAP_TYPE rtype, int pth)
@@ -21477,6 +21601,7 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -21717,6 +21842,8 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (Rast_is_null_value(((char *)index_array) + n_offset,
                                CELL_TYPE)) /* no points in cell */
 =======
@@ -21898,6 +22025,7 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -21911,9 +22039,12 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
         if (Rast_is_null_value(((char *)index_array) + n_offset,
                                CELL_TYPE)) /* no points in cell */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22871,6 +23002,8 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
         if (Rast_is_null_value(((char *)index_array) + n_offset, CELL_TYPE))    /* no points in cell */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             Rast_set_null_value(ptr, 1, rtype);
         else {
             head_id =
@@ -22975,6 +23108,7 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -23217,6 +23351,8 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             while (node_id != -1) { /* count number of points in cell */
 =======
 <<<<<<< HEAD
@@ -23355,6 +23491,7 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 =======
             while (node_id != -1) {     /* count number of points in cell */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24296,6 +24433,11 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
             while (node_id != -1) {     /* count number of points in cell */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+            while (node_id != -1) { /* count number of points in cell */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 n++;
                 node_id = ((struct z_node *)bin_index->nodes)[node_id].next;
             }
@@ -24398,6 +24540,7 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -24640,6 +24783,8 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             r_low = floor(z); /* lower rank */
 =======
 <<<<<<< HEAD
@@ -24778,6 +24923,7 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 =======
             r_low = floor(z);   /* lower rank */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25719,6 +25865,11 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
             r_low = floor(z);   /* lower rank */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+            r_low = floor(z); /* lower rank */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (r_low < 1)
                 r_low = 1;
             else if (r_low > n)
@@ -25821,6 +25972,7 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -26063,6 +26215,8 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             r_up = ceil(z); /* upper rank */
 =======
 <<<<<<< HEAD
@@ -26201,6 +26355,7 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 =======
             r_up = ceil(z);     /* upper rank */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27142,6 +27297,11 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
             r_up = ceil(z);     /* upper rank */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+            r_up = ceil(z); /* upper rank */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (r_up > n)
                 r_up = n;
 
@@ -27209,6 +27369,7 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -27301,6 +27462,8 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -28658,6 +28821,7 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -28667,11 +28831,14 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
             z = ((struct z_node *)bin_index->nodes)[node_id]
                     .z; /* save lower value */
             node_id = head_id;
             for (j = 1; j < r_up; j++) /* search upper value */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29103,6 +29270,8 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 node_id = ((struct z_node *)bin_index->nodes)[node_id].next;
 
             z = (z + ((struct z_node *)bin_index->nodes)[node_id].z) / 2;
@@ -29209,6 +29378,7 @@ void write_percentile(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -29692,6 +29862,8 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void write_skewness(struct BinIndex *bin_index, void *raster_row,
                     void *index_array, int row, int cols, RASTER_MAP_TYPE rtype)
 =======
@@ -30172,6 +30344,7 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30214,9 +30387,12 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 void write_skewness(struct BinIndex *bin_index, void *raster_row,
                     void *index_array, int row, int cols, RASTER_MAP_TYPE rtype)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30822,6 +30998,8 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int n;
     double z;
@@ -30932,6 +31110,7 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -31172,6 +31351,8 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (Rast_is_null_value(((char *)index_array) + n_offset,
                                CELL_TYPE)) /* no points in cell */
 =======
@@ -31353,6 +31534,7 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -31366,9 +31548,12 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
         if (Rast_is_null_value(((char *)index_array) + n_offset,
                                CELL_TYPE)) /* no points in cell */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32326,6 +32511,8 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
         if (Rast_is_null_value(((char *)index_array) + n_offset, CELL_TYPE))    /* no points in cell */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             Rast_set_null_value(ptr, 1, rtype);
         else {
             head_id =
@@ -32419,6 +32606,7 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -32674,9 +32862,12 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33251,11 +33442,16 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             n = 0;        /* count */
             sum = 0.0;    /* sum */
             sumsq = 0.0;  /* sum of squares */
             sumdev = 0.0; /* sum of (xi - mean)^3 */
             skew = 0.0;   /* skewness */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33540,6 +33736,8 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -33941,6 +34139,7 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -34481,6 +34680,10 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
             while (node_id != -1) {
                 z = ((struct z_node *)bin_index->nodes)[node_id].z;
@@ -34587,6 +34790,7 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -34829,6 +35033,8 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (n > 1) { /* if n == 1, skew is "0.0" */
 =======
 <<<<<<< HEAD
@@ -34967,6 +35173,7 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 =======
             if (n > 1) {        /* if n == 1, skew is "0.0" */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35908,6 +36115,11 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
             if (n > 1) {        /* if n == 1, skew is "0.0" */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+            if (n > 1) { /* if n == 1, skew is "0.0" */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 mean = sum / n;
                 node_id = head_id;
                 while (node_id != -1) {
@@ -36010,6 +36222,7 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -36252,6 +36465,8 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     node_id = ((struct z_node *)bin_index->nodes)[node_id].next;
 =======
 <<<<<<< HEAD
@@ -36392,6 +36607,7 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
                     node_id =
                         ((struct z_node *)bin_index->nodes)[node_id].next;
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37340,6 +37556,11 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+                    node_id = ((struct z_node *)bin_index->nodes)[node_id].next;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 }
 
                 variance = (sumsq - sum * sum / n) / n;
@@ -37389,6 +37610,7 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -37528,6 +37750,8 @@ void write_skewness(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void write_trimmean(struct BinIndex *bin_index, void *raster_row,
                     void *index_array, int row, int cols, RASTER_MAP_TYPE rtype,
                     double trim)
@@ -38528,6 +38752,7 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38570,10 +38795,13 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 void write_trimmean(struct BinIndex *bin_index, void *raster_row,
                     void *index_array, int row, int cols, RASTER_MAP_TYPE rtype,
                     double trim)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39182,6 +39410,8 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int n;
     int j, k;
@@ -39291,6 +39521,7 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -39531,6 +39762,8 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (Rast_is_null_value(((char *)index_array) + n_offset,
                                CELL_TYPE)) /* no points in cell */
 =======
@@ -39712,6 +39945,7 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -39725,9 +39959,12 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
         if (Rast_is_null_value(((char *)index_array) + n_offset,
                                CELL_TYPE)) /* no points in cell */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40685,6 +40922,8 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
         if (Rast_is_null_value(((char *)index_array) + n_offset, CELL_TYPE))    /* no points in cell */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             Rast_set_null_value(ptr, 1, rtype);
         else {
             head_id =
@@ -40789,6 +41028,7 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -41031,6 +41271,8 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             while (node_id != -1) { /* count number of points in cell */
 =======
 <<<<<<< HEAD
@@ -41169,6 +41411,7 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 =======
             while (node_id != -1) {     /* count number of points in cell */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42110,6 +42353,11 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
             while (node_id != -1) {     /* count number of points in cell */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+            while (node_id != -1) { /* count number of points in cell */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 n++;
                 node_id = ((struct z_node *)bin_index->nodes)[node_id].next;
             }
@@ -42177,6 +42425,7 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -42269,6 +42518,8 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -43423,6 +43674,7 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43465,6 +43717,8 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
                 k = floor(trim * n +
                           0.5); /* number of ranks to discard on each tail */
 
@@ -43472,6 +43726,7 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
                     node_id = head_id;
                     for (j = 0; j < k; j++) /* move to first rank to consider */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44065,6 +44320,8 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                         node_id =
                             ((struct z_node *)bin_index->nodes)[node_id].next;
 
@@ -44170,6 +44427,7 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -44412,6 +44670,8 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     while (j <= k) { /* get values in interval */
 =======
 <<<<<<< HEAD
@@ -44550,6 +44810,7 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 =======
                     while (j <= k) {    /* get values in interval */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45491,6 +45752,11 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
                     while (j <= k) {    /* get values in interval */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+                    while (j <= k) { /* get values in interval */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                         n++;
                         sum += ((struct z_node *)bin_index->nodes)[node_id].z;
                         node_id =
@@ -45614,6 +45880,7 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -45861,6 +46128,8 @@ void write_trimmean(struct BinIndex *bin_index, void *raster_row,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
                 int row, int cols, int min)
 =======
@@ -46450,6 +46719,7 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b0ee055743 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -46585,9 +46855,12 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
                 int row, int cols, int min)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47209,6 +47482,8 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int col;
     int node_id;
@@ -47315,6 +47590,7 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -47555,6 +47831,8 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (Rast_is_null_value(((char *)index_array) + n_offset,
                                CELL_TYPE)) /* no points in cell */
 =======
@@ -47736,6 +48014,7 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -47749,9 +48028,12 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
         if (Rast_is_null_value(((char *)index_array) + n_offset,
                                CELL_TYPE)) /* no points in cell */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48709,6 +48991,8 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
         if (Rast_is_null_value(((char *)index_array) + n_offset, CELL_TYPE))    /* no points in cell */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             Rast_set_c_value(ptr, 0, CELL_TYPE);
         else {
 
@@ -48780,6 +49064,7 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -48872,6 +49157,8 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -50027,6 +50314,7 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50069,6 +50357,8 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
                         count)
                     count =
                         ((struct cnt_node *)bin_index->nodes)[node_id].count;
@@ -50076,6 +50366,7 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
                          ((struct cnt_node *)bin_index->nodes)[node_id].count >
                              count)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50669,6 +50960,8 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     count =
                         ((struct cnt_node *)bin_index->nodes)[node_id].count;
                 node_id = ((struct cnt_node *)bin_index->nodes)[node_id].next;
@@ -50766,6 +51059,7 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -51067,6 +51361,8 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
 =======
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -51244,6 +51540,7 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
 =======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -51839,6 +52136,10 @@ void write_sidn(struct BinIndex *bin_index, void *raster_row, void *index_array,
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void write_ev(struct BinIndex *bin_index, void *raster_row, void *index_array,
               int row, int cols, RASTER_MAP_TYPE rtype, int method)
 {
@@ -51946,6 +52247,7 @@ void write_ev(struct BinIndex *bin_index, void *raster_row, void *index_array,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -52186,6 +52488,8 @@ void write_ev(struct BinIndex *bin_index, void *raster_row, void *index_array,
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (Rast_is_null_value(((char *)index_array) + n_offset,
                                CELL_TYPE)) /* no points in cell */
 =======
@@ -52367,6 +52671,7 @@ void write_ev(struct BinIndex *bin_index, void *raster_row, void *index_array,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 =======
@@ -52380,9 +52685,12 @@ void write_ev(struct BinIndex *bin_index, void *raster_row, void *index_array,
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
         if (Rast_is_null_value(((char *)index_array) + n_offset,
                                CELL_TYPE)) /* no points in cell */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53340,6 +53648,8 @@ void write_ev(struct BinIndex *bin_index, void *raster_row, void *index_array,
         if (Rast_is_null_value(((char *)index_array) + n_offset, CELL_TYPE))    /* no points in cell */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 14e4def588 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             Rast_set_null_value(ptr, 1, rtype);
         else {
             int node_id;

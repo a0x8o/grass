@@ -44,15 +44,21 @@ void output_walker_as_vector(int tt_minutes, int ndigit,
         if (ts == 1) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             snprintf(buf, sizeof(buf), "%s_%.*d", outwalk, ndigit, tt_minutes);
 =======
             G_snprintf(buf, sizeof(buf), "%s_%.*d", outwalk, ndigit,
                        tt_minutes);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             G_snprintf(buf, sizeof(buf), "%s_%.*d", outwalk, ndigit,
                        tt_minutes);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             outwalk_time = G_store(buf);
             if (Vect_open_new(&Out, outwalk_time, WITH_Z) < 0)
                 G_fatal_error(_("Unable to create vector map <%s>"),
@@ -157,13 +163,19 @@ int output_data(int tt, double ft UNUSED)
         if (ts == 1) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             snprintf(buf, sizeof(buf), "%s.%.*d", depth, ndigit, tt_minutes);
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", depth, ndigit, tt_minutes);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", depth, ndigit, tt_minutes);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             depth0 = G_store(buf);
             depth_fd = Rast_open_fp_new(depth0);
         }
@@ -176,13 +188,19 @@ int output_data(int tt, double ft UNUSED)
         if (ts == 1) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             snprintf(buf, sizeof(buf), "%s.%.*d", disch, ndigit, tt_minutes);
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", disch, ndigit, tt_minutes);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", disch, ndigit, tt_minutes);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             disch0 = G_store(buf);
             disch_fd = Rast_open_fp_new(disch0);
         }
@@ -195,13 +213,19 @@ int output_data(int tt, double ft UNUSED)
         if (ts == 1) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             snprintf(buf, sizeof(buf), "%s.%.*d", err, ndigit, tt_minutes);
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", err, ndigit, tt_minutes);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", err, ndigit, tt_minutes);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             err0 = G_store(buf);
             err_fd = Rast_open_fp_new(err0);
         }
@@ -214,13 +238,19 @@ int output_data(int tt, double ft UNUSED)
         if (ts == 1) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             snprintf(buf, sizeof(buf), "%s.%.*d", conc, ndigit, tt_minutes);
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", conc, ndigit, tt_minutes);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", conc, ndigit, tt_minutes);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             conc0 = G_store(buf);
             conc_fd = Rast_open_fp_new(conc0);
         }
@@ -233,13 +263,19 @@ int output_data(int tt, double ft UNUSED)
         if (ts == 1) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             snprintf(buf, sizeof(buf), "%s.%.*d", flux, ndigit, tt_minutes);
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", flux, ndigit, tt_minutes);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", flux, ndigit, tt_minutes);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             flux0 = G_store(buf);
             flux_fd = Rast_open_fp_new(flux0);
         }
@@ -252,13 +288,19 @@ int output_data(int tt, double ft UNUSED)
         if (ts == 1) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             snprintf(buf, sizeof(buf), "%s.%.*d", erdep, ndigit, tt_minutes);
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", erdep, ndigit, tt_minutes);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             G_snprintf(buf, sizeof(buf), "%s.%.*d", erdep, ndigit, tt_minutes);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             erdep0 = G_store(buf);
             erdep_fd = Rast_open_fp_new(erdep0);
         }
@@ -725,6 +767,7 @@ int output_data(int tt, double ft UNUSED)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -994,10 +1037,13 @@ int output_data(int tt, double ft UNUSED)
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int output_et(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1447,6 +1493,10 @@ int output_et(void)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int output_et()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {

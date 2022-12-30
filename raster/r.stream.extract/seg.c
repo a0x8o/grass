@@ -72,6 +72,7 @@ int seg_open(SSEG *sseg, GW_LARGE_INT nrows, GW_LARGE_INT ncols, int row_in_seg,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
              int col_in_seg, int nsegs_in_memory, int size_struct, int fill)
 =======
 <<<<<<< HEAD
@@ -468,6 +469,8 @@ int seg_open(SSEG *sseg, GW_LARGE_INT nrows, GW_LARGE_INT ncols, int row_in_seg,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
              int col_in_seg, int nsegs_in_memory, int size_struct,
              int fill UNUSED)
 =======
@@ -641,6 +644,7 @@ int seg_open(SSEG *sseg, GW_LARGE_INT nrows, GW_LARGE_INT ncols, int row_in_seg,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1066,6 +1070,11 @@ int seg_open(SSEG *sseg, GW_LARGE_INT nrows, GW_LARGE_INT ncols, int row_in_seg,
              int col_in_seg, int nsegs_in_memory, int size_struct, int fill)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+             int col_in_seg, int nsegs_in_memory, int size_struct, int fill)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     char *filename;
     int errflag;

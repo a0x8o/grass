@@ -190,11 +190,17 @@ void P_Sparse_Points(struct Map_info *Out, struct Cell_head *Elaboration,
     /*FOR*/ db_commit_transaction(driver);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Vect_destroy_line_struct(point);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    Vect_destroy_line_struct(point);
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     return;
 }
@@ -323,12 +329,18 @@ int P_Regular_Points(struct Cell_head *Elaboration, struct Cell_head *Original,
         } /* END COL */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     } /* END ROW */
 =======
     }     /* END ROW */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     }     /* END ROW */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     return 1;
 }

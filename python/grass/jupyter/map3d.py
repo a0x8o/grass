@@ -14,11 +14,17 @@
 """Render 3D visualizations"""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from __future__ import annotations
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+from __future__ import annotations
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 import os
 import tempfile
@@ -57,13 +63,19 @@ class Map3D:
         height: int = 400,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         filename: str | None = None,
 =======
         filename: str = None,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         filename: str = None,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         mode: str = "fine",
         resolution_fine: int = 1,
         screen_backend: str = "auto",
@@ -73,13 +85,19 @@ class Map3D:
         use_region: bool = False,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         saved_region: str | None = None,
 =======
         saved_region: str = None,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         saved_region: str = None,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     ):
         """Checks screen_backend and creates a temporary directory for rendering.
 
@@ -158,16 +176,22 @@ class Map3D:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         elif screen_backend in {"simple", "pyvirtualdisplay"}:
 =======
         elif screen_backend in ["simple", "pyvirtualdisplay"]:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         elif screen_backend in ["simple", "pyvirtualdisplay"]:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
         elif screen_backend in {"simple", "pyvirtualdisplay"}:
 >>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             self._screen_backend = screen_backend
         else:
             raise ValueError(
@@ -246,18 +270,27 @@ class Map3D:
             ) as display:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 env = display.env() if has_env_copy else os.environ.copy()
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                env = display.env() if has_env_copy else os.environ.copy()
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 if has_env_copy:
                     env = display.env()
                 else:
                     env = os.environ.copy()
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 self._region_manager.set_region_from_command(env=env, **kwargs)
                 self.overlay.region_manager.set_region_from_env(env)
                 gs.run_command(module, env=env, **kwargs)

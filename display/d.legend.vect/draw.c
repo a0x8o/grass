@@ -69,6 +69,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * background. Eith do_bg=0 compute position of all legend graphic item and draw
 =======
 <<<<<<< HEAD
@@ -465,6 +466,8 @@
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  * background. With do_bg=0 compute position of all legend graphic item and draw
 =======
  * background. Eith do_bg=0 compute position of all legend graphic item and draw
@@ -637,6 +640,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1062,6 +1066,11 @@
  * background. Eith do_bg=0 compute position of all legend graphic item and draw
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+ * background. Eith do_bg=0 compute position of all legend graphic item and draw
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
  * all.
  *
  * Copyright (C) 2016 by Adam Laza, GSoC 2016, and the GRASS Development Team
@@ -1327,16 +1336,22 @@ void draw(char *file_name, double LL, double LT, char *title, int cols,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         double bg_w;
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
         double bg_w;
 >>>>>>> ed8e25ac56 (d.legend.vect: Reduce scope of 'bg_w' variable in draw.c (#3980))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (title_w > offs_x + maxlblw)
             bg_w = title_w;
         else

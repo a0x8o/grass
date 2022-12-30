@@ -69,6 +69,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void c_kurt(DCELL *result, DCELL *values, int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -465,6 +466,8 @@ void c_kurt(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void c_kurt(DCELL *result, DCELL *values, int n, const void *closure UNUSED)
 =======
 void c_kurt(DCELL *result, DCELL *values, int n, const void *closure)
@@ -637,6 +640,7 @@ void c_kurt(DCELL *result, DCELL *values, int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1062,6 +1066,11 @@ void c_kurt(DCELL *result, DCELL *values, int n, const void *closure)
 void c_kurt(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void c_kurt(DCELL *result, DCELL *values, int n, const void *closure)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     DCELL sum, ave, sumsq, sumqt, var;
     int count;
@@ -1104,6 +1113,7 @@ void c_kurt(DCELL *result, DCELL *values, int n, const void *closure)
     *result = sumqt / (count * var * var) - 3;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1568,6 +1578,8 @@ void w_kurt(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 void w_kurt(DCELL *result, DCELL (*values)[2], int n,
             const void *closure UNUSED)
 =======
@@ -1741,6 +1753,7 @@ void w_kurt(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2166,6 +2179,11 @@ void w_kurt(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 void w_kurt(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void w_kurt(DCELL *result, DCELL (*values)[2], int n, const void *closure)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     DCELL sum, ave, sumsq, sumqt, var;
     DCELL count;

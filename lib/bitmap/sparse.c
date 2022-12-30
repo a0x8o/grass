@@ -25,13 +25,19 @@
 #define BM_col_to_byte(x) ((x) >> 3) /* x / 8 */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define BM_col_to_bit(x)  ((x) & 7)  /* x % 8 */
 =======
 #define BM_col_to_bit(x)  ((x)&7)    /* x % 8 */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 #define BM_col_to_bit(x)  ((x)&7)    /* x % 8 */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 static int depth;
 

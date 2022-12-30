@@ -75,11 +75,17 @@ void trans2d(struct Map_info *In, struct Map_info *Out, int type, double height,
         db_close_database_shutdown_driver(driver);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Vect_destroy_field_info(Fi);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        Vect_destroy_field_info(Fi);
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     G_message(_("Transforming features..."));

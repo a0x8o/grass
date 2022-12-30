@@ -113,10 +113,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     int Wrap; /* global wraparound */
 =======
     int Wrap;                   /* global wraparound */
@@ -129,6 +132,7 @@ int main(int argc, char *argv[])
 =======
     int Wrap; /* global wraparound */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     int Wrap; /* global wraparound */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -139,6 +143,8 @@ int main(int argc, char *argv[])
     int Wrap;                   /* global wraparound */
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     struct Cell_head window, cellhd;
     struct History hist;
     struct Colors colors;
@@ -170,8 +176,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 =======
 =======
@@ -190,6 +199,7 @@ int main(int argc, char *argv[])
     double pcurv, tcurv;
 >>>>>>> 3da97cb8d5 (r.slope.aspect: Run indent script on C files (#1765))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -198,6 +208,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     double scik1 = 100000.;
     double zfactor;
     double factor;
@@ -217,10 +232,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     struct {
         struct Option *elevation, *slope_fmt, *slope, *aspect, *pcurv, *tcurv,
             *zfactor, *min_slope, *out_precision, *dx, *dy, *dxx, *dyy, *dxy,
@@ -255,9 +273,14 @@ int main(int argc, char *argv[])
 =======
     struct
     {
+=======
+    struct {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         struct Option *elevation, *slope_fmt, *slope, *aspect, *pcurv, *tcurv,
-            *zfactor, *min_slope, *out_precision, *dx, *dy, *dxx, *dyy, *dxy;
+            *zfactor, *min_slope, *out_precision, *dx, *dy, *dxx, *dyy, *dxy,
+            *nprocs, *memory;
     } parm;
+<<<<<<< HEAD
     struct
     {
 <<<<<<< HEAD
@@ -267,7 +290,13 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
+<<<<<<< HEAD
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+    struct {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         struct Flag *a, *n, *e;
     } flag;
     int compute_at_edges;
@@ -286,6 +315,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -294,6 +324,10 @@ int main(int argc, char *argv[])
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     G_add_keyword(_("parallel"));
     module->label = _("Generates raster maps of slope, aspect, curvatures and "
                       "partial derivatives from an elevation raster map.");
@@ -301,6 +335,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
@@ -323,6 +360,7 @@ int main(int argc, char *argv[])
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -333,6 +371,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     parm.elevation = G_define_standard_option(G_OPT_R_ELEV);
 
@@ -371,8 +411,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     parm.pcurv->description = _("Name for output profile curvature raster map");
 =======
     parm.pcurv->description =
@@ -386,6 +429,7 @@ int main(int argc, char *argv[])
 =======
     parm.pcurv->description = _("Name for output profile curvature raster map");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     parm.pcurv->description = _("Name for output profile curvature raster map");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -397,6 +441,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     parm.pcurv->guisection = _("Outputs");
 
     parm.tcurv = G_define_standard_option(G_OPT_R_OUTPUT);
@@ -413,8 +459,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     parm.dx->description = _("Name for output first order partial derivative "
                              "dx (E-W slope) raster map");
 =======
@@ -430,6 +479,7 @@ int main(int argc, char *argv[])
     parm.dx->description = _("Name for output first order partial derivative "
                              "dx (E-W slope) raster map");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     parm.dx->description = _("Name for output first order partial derivative "
                              "dx (E-W slope) raster map");
@@ -442,6 +492,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     parm.dx->guisection = _("Outputs");
 
     parm.dy = G_define_standard_option(G_OPT_R_OUTPUT);
@@ -451,8 +503,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     parm.dy->description = _("Name for output first order partial derivative "
                              "dy (N-S slope) raster map");
 =======
@@ -468,6 +523,7 @@ int main(int argc, char *argv[])
     parm.dy->description = _("Name for output first order partial derivative "
                              "dy (N-S slope) raster map");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     parm.dy->description = _("Name for output first order partial derivative "
                              "dy (N-S slope) raster map");
@@ -480,6 +536,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     parm.dy->guisection = _("Outputs");
 
     parm.dxx = G_define_standard_option(G_OPT_R_OUTPUT);
@@ -509,8 +567,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     parm.zfactor->description = _(
         "Multiplicative factor to convert elevation units to horizontal units");
 =======
@@ -526,6 +587,7 @@ int main(int argc, char *argv[])
     parm.zfactor->description = _(
         "Multiplicative factor to convert elevation units to horizontal units");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     parm.zfactor->description = _(
         "Multiplicative factor to convert elevation units to horizontal units");
@@ -538,6 +600,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     parm.zfactor->type = TYPE_DOUBLE;
     parm.zfactor->required = NO;
     parm.zfactor->answer = "1.0";
@@ -572,8 +636,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     flag.n->label = _("Create aspect as degrees clockwise from North "
                       "(azimuth), with flat = -9999");
 =======
@@ -589,6 +656,7 @@ int main(int argc, char *argv[])
     flag.n->label = _("Create aspect as degrees clockwise from North "
                       "(azimuth), with flat = -9999");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     flag.n->label = _("Create aspect as degrees clockwise from North "
                       "(azimuth), with flat = -9999");
@@ -601,6 +669,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     flag.n->description =
         _("Default: degrees counter-clockwise from East, with flat = 0");
     flag.n->guisection = _("Settings");
@@ -620,6 +690,7 @@ int main(int argc, char *argv[])
                     "threads setting."));
     nprocs = 1;
 #endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -863,6 +934,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (nprocs > 1 && Rast_mask_is_present()) {
         G_warning(_("Parallel processing disabled due to active mask."));
 =======
@@ -1313,6 +1386,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1694,6 +1768,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     radians_to_degrees = 180.0 / M_PI;
@@ -1749,10 +1827,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_fatal_error(_("%s=%s - must be a positive number"), parm.zfactor->key,
                       parm.zfactor->answer);
 =======
@@ -1768,10 +1849,14 @@ int main(int argc, char *argv[])
                       parm.zfactor->key, parm.zfactor->answer);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
         G_fatal_error(_("%s=%s - must be a positive number"), parm.zfactor->key,
                       parm.zfactor->answer);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         G_fatal_error(_("%s=%s - must be a positive number"), parm.zfactor->key,
                       parm.zfactor->answer);
@@ -1780,6 +1865,8 @@ int main(int argc, char *argv[])
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     if (sscanf(parm.min_slope->answer, "%lf", &min_slope) != 1 ||
@@ -1798,12 +1885,17 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (slope_name == NULL && aspect_name == NULL && pcurv_name == NULL &&
         tcurv_name == NULL && dx_name == NULL && dy_name == NULL &&
         dxx_name == NULL && dyy_name == NULL && dxy_name == NULL) {
@@ -1816,8 +1908,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
     if (slope_name == NULL && aspect_name == NULL
         && pcurv_name == NULL && tcurv_name == NULL
@@ -1836,6 +1931,7 @@ int main(int argc, char *argv[])
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1846,6 +1942,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     G_get_window(&window);
@@ -1882,12 +1980,17 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     bufrows = atoi(parm.memory->answer) *
               (((1 << 20) / Rast_cell_size(data_type)) / ncols);
     /* set the output buffer rows to be at most covering the entire map */
@@ -1904,6 +2007,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
     if (((window.west == (window.east - 360.))
          || (window.east == (window.west - 360.))) &&
@@ -1913,6 +2019,7 @@ int main(int argc, char *argv[])
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1927,6 +2034,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         (G_projection() == PROJECTION_LL)) {
         Wrap = 1;
         ncols += 2;
@@ -1989,10 +2098,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         slp_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -2007,6 +2119,7 @@ int main(int argc, char *argv[])
         slp_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         slp_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
@@ -2018,6 +2131,8 @@ int main(int argc, char *argv[])
         slp_raster = Rast_allocate_buf(data_type);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
     else {
         slp_raster = NULL;
@@ -2032,10 +2147,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         asp_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -2050,6 +2168,7 @@ int main(int argc, char *argv[])
         asp_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         asp_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
@@ -2061,6 +2180,8 @@ int main(int argc, char *argv[])
         asp_raster = Rast_allocate_buf(data_type);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
     else {
         asp_raster = NULL;
@@ -2075,10 +2196,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         pcurv_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -2093,6 +2217,7 @@ int main(int argc, char *argv[])
         pcurv_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         pcurv_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
@@ -2104,6 +2229,8 @@ int main(int argc, char *argv[])
         pcurv_raster = Rast_allocate_buf(data_type);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
     else {
         pcurv_raster = NULL;
@@ -2118,10 +2245,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         tcurv_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -2136,6 +2266,7 @@ int main(int argc, char *argv[])
         tcurv_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         tcurv_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
@@ -2147,6 +2278,8 @@ int main(int argc, char *argv[])
         tcurv_raster = Rast_allocate_buf(data_type);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
     else {
         tcurv_raster = NULL;
@@ -2161,10 +2294,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         dx_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -2179,6 +2315,7 @@ int main(int argc, char *argv[])
         dx_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         dx_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
@@ -2190,6 +2327,8 @@ int main(int argc, char *argv[])
         dx_raster = Rast_allocate_buf(data_type);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
     else {
         dx_raster = NULL;
@@ -2204,10 +2343,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         dy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -2222,6 +2364,7 @@ int main(int argc, char *argv[])
         dy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         dy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
@@ -2233,6 +2376,8 @@ int main(int argc, char *argv[])
         dy_raster = Rast_allocate_buf(data_type);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
     else {
         dy_raster = NULL;
@@ -2247,10 +2392,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         dxx_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -2265,6 +2413,7 @@ int main(int argc, char *argv[])
         dxx_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         dxx_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
@@ -2276,6 +2425,8 @@ int main(int argc, char *argv[])
         dxx_raster = Rast_allocate_buf(data_type);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
     else {
         dxx_raster = NULL;
@@ -2290,10 +2441,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         dyy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -2308,6 +2462,7 @@ int main(int argc, char *argv[])
         dyy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         dyy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
@@ -2319,6 +2474,8 @@ int main(int argc, char *argv[])
         dyy_raster = Rast_allocate_buf(data_type);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
     else {
         dyy_raster = NULL;
@@ -2333,10 +2490,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         dxy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 =======
@@ -2351,6 +2511,7 @@ int main(int argc, char *argv[])
         dxy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         dxy_raster =
             G_calloc((size_t)bufrows * ncols, Rast_cell_size(data_type));
@@ -2362,6 +2523,8 @@ int main(int argc, char *argv[])
         dxy_raster = Rast_allocate_buf(data_type);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
     else {
         dxy_raster = NULL;
@@ -2372,10 +2535,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (aspect_fd < 0 && slope_fd < 0 && pcurv_fd < 0 && tcurv_fd < 0 &&
         dx_fd < 0 && dy_fd < 0 && dxx_fd < 0 && dyy_fd < 0 && dxy_fd < 0)
         exit(EXIT_FAILURE);
@@ -3028,119 +3194,195 @@ int main(int argc, char *argv[])
 =======
     if (aspect_fd < 0 && slope_fd < 0 && pcurv_fd < 0 && tcurv_fd < 0
         && dx_fd < 0 && dy_fd < 0 && dxx_fd < 0 && dyy_fd < 0 && dxy_fd < 0)
+=======
+    if (aspect_fd < 0 && slope_fd < 0 && pcurv_fd < 0 && tcurv_fd < 0 &&
+        dx_fd < 0 && dy_fd < 0 && dxx_fd < 0 && dyy_fd < 0 && dxy_fd < 0)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         exit(EXIT_FAILURE);
-
-    Rast_get_d_row_nomask(elevation_fd, elev_cell[2] + 1, 0);
-    if (Wrap) {
-        elev_cell[2][0] = elev_cell[1][Rast_window_cols()];
-        elev_cell[2][Rast_window_cols() + 1] = elev_cell[2][1];
-    }
 
     G_verbose_message(_("Percent complete..."));
 
-    for (row = 0; row < nrows; row++) {
-        /*  if projection is Lat/Lon, recalculate  V and H   */
-        if (G_projection() == PROJECTION_LL) {
-            north = Rast_row_to_northing((row - 1 + 0.5), &window);
-            ns_med = Rast_row_to_northing((row + 0.5), &window);
-            south = Rast_row_to_northing((row + 1 + 0.5), &window);
-            east = Rast_col_to_easting(2.5, &window);
-            west = Rast_col_to_easting(0.5, &window);
-            V = G_distance(east, north, east, south) * 4 / (factor * zfactor);
-            H = G_distance(east, ns_med, west,
-                           ns_med) * 4 / (factor * zfactor);
-            /* ____________________________
-               |c1      |c2      |c3      |
-               |        |        |        |
-               |        |  north |        |        
-               |        |        |        |
-               |________|________|________|          
-               |c4      |c5      |c6      |
-               |        |        |        |
-               |  west  | ns_med |  east  |
-               |        |        |        |
-               |________|________|________|
-               |c7      |c8      |c9      |
-               |        |        |        |
-               |        |  south |        |
-               |        |        |        |
-               |________|________|________|
-             */
+    int computed = 0; /* for computing progress */
+    int written = 0;
+
+    while (written < nrows) {
+
+        int range = bufrows;
+
+        if (range > nrows - written) {
+            range = nrows - written;
         }
+        int start = written;
+        int end = written + range;
 
-        G_percent(row, nrows, 2);
-        temp = elev_cell[0];
-        elev_cell[0] = elev_cell[1];
-        elev_cell[1] = elev_cell[2];
-        elev_cell[2] = temp;
+#pragma omp parallel if (nprocs > 1)                                    \
+    firstprivate(north, east, south, west, ns_med, H, V) private(       \
+        row, col, size, slp_ptr, asp_ptr, pcurv_ptr, tcurv_ptr, dx_ptr, \
+        dxx_ptr, dxy_ptr, dy_ptr, dyy_ptr)
+        {
+            int t_id = FIRST_THREAD;
 
-        if (row < nrows - 1)
-            Rast_get_d_row_nomask(elevation_fd, elev_cell[2] + 1, row + 1);
-        else
-            Rast_set_d_null_value(elev_cell[2], ncols + 2);
+#if defined(_OPENMP)
+            t_id = omp_get_thread_num();
+#endif
 
-        if (Wrap) {
-            elev_cell[2][0] = elev_cell[2][Rast_window_cols()];
-            elev_cell[2][Rast_window_cols() + 1] = elev_cell[2][1];
-        }
+            /* private variables that are only used for computation */
+            DCELL *temp;
+            DCELL *pc1, *pc2, *pc3;
+            DCELL c1, c2, c3, c4, c5, c6, c7, c8, c9;
+            double dx; /* partial derivative in ew direction */
+            double dy; /* partial derivative in ns direction */
+            double dxx, dxy, dyy;
+            double s3, s4, s5, s6;
+            double pcurv, tcurv;
+            double aspect, dnorm1, dx2, dy2, grad2, grad, dxy2;
+            double key;
+            double slp_in_perc, slp_in_deg;
+            int low, hi, test = 0;
+            bool initialized = false;
 
-        pc1 = elev_cell[0];
-        pc2 = elev_cell[1];
-        pc3 = elev_cell[2];
+            /* static scheduling is essential for buffer to be initialized
+             * properly */
+#pragma omp for schedule(static) reduction(min                               \
+                                           : c1min, c2min, min_asp, min_slp) \
+    reduction(max                                                            \
+              : c1max, c2max, max_asp, max_slp)
+            for (row = start; row < end; row++) {
+                if (!initialized) {
+                    initialized = true;
+                    Rast_set_d_null_value(elev_cell[t_id][0], ncols + 2);
+                    Rast_set_d_null_value(elev_cell[t_id][1], ncols + 2);
+                    Rast_set_d_null_value(elev_cell[t_id][2], ncols + 2);
 
-        if (aspect_fd >= 0) {
-            asp_ptr = asp_raster;
-        }
-        if (slope_fd >= 0) {
-            slp_ptr = slp_raster;
-        }
+                    if (row - 1 >= 0)
+                        Rast_get_d_row_nomask(elevation_fd[t_id],
+                                              elev_cell[t_id][1] + 1, row - 1);
 
-        if (pcurv_fd >= 0) {
-            pcurv_ptr = pcurv_raster;
-        }
+                    if (row >= 0)
+                        Rast_get_d_row_nomask(elevation_fd[t_id],
+                                              elev_cell[t_id][2] + 1, row);
 
-        if (tcurv_fd >= 0) {
-            tcurv_ptr = tcurv_raster;
-        }
+                    if (Wrap) {
+                        /* wrap second row */
+                        elev_cell[t_id][1][0] = elev_cell[t_id][1][ncols];
+                        elev_cell[t_id][1][ncols + 1] = elev_cell[t_id][1][1];
+                        /* wrap third row */
+                        elev_cell[t_id][2][0] = elev_cell[t_id][2][ncols];
+                        elev_cell[t_id][2][ncols + 1] = elev_cell[t_id][2][1];
+                    }
+                }
+                /*  if projection is Lat/Lon, recalculate  V and H   */
+                if (G_projection() == PROJECTION_LL) {
+                    north = Rast_row_to_northing((row - 1 + 0.5), &window);
+                    ns_med = Rast_row_to_northing((row + 0.5), &window);
+                    south = Rast_row_to_northing((row + 1 + 0.5), &window);
+                    east = Rast_col_to_easting(2.5, &window);
+                    west = Rast_col_to_easting(0.5, &window);
+                    V = G_distance(east, north, east, south) * 4 /
+                        (factor * zfactor);
+                    H = G_distance(east, ns_med, west, ns_med) * 4 /
+                        (factor * zfactor);
+                    /* ____________________________
+                       |c1      |c2      |c3      |
+                       |        |        |        |
+                       |        |  north |        |
+                       |        |        |        |
+                       |________|________|________|
+                       |c4      |c5      |c6      |
+                       |        |        |        |
+                       |  west  | ns_med |  east  |
+                       |        |        |        |
+                       |________|________|________|
+                       |c7      |c8      |c9      |
+                       |        |        |        |
+                       |        |  south |        |
+                       |        |        |        |
+                       |________|________|________|
+                     */
+                }
 
-        if (dx_fd >= 0) {
-            dx_ptr = dx_raster;
-        }
+                G_percent(computed, nrows, 2);
+                temp = elev_cell[t_id][0];
+                elev_cell[t_id][0] = elev_cell[t_id][1];
+                elev_cell[t_id][1] = elev_cell[t_id][2];
+                elev_cell[t_id][2] = temp;
 
-        if (dy_fd >= 0) {
-            dy_ptr = dy_raster;
-        }
+                if (row < nrows - 1)
+                    Rast_get_d_row_nomask(elevation_fd[t_id],
+                                          elev_cell[t_id][2] + 1, row + 1);
+                else
+                    Rast_set_d_null_value(elev_cell[t_id][2], ncols + 2);
 
-        if (dxx_fd >= 0) {
-            dxx_ptr = dxx_raster;
-        }
+                if (Wrap) {
+                    elev_cell[t_id][2][0] = elev_cell[t_id][2][ncols];
+                    elev_cell[t_id][2][ncols + 1] = elev_cell[t_id][2][1];
+                }
 
-        if (dyy_fd >= 0) {
-            dyy_ptr = dyy_raster;
-        }
+                pc1 = elev_cell[t_id][0];
+                pc2 = elev_cell[t_id][1];
+                pc3 = elev_cell[t_id][2];
 
-        if (dxy_fd >= 0) {
-            dxy_ptr = dxy_raster;
-        }
+                size = Rast_cell_size(data_type) * ncols * (row - start);
 
-        for (col = ncols; col-- > 0; pc1++, pc2++, pc3++) {
-            c1 = *pc1;
-            c2 = *(pc1 + 1);
-            c3 = *(pc1 + 2);
-            c4 = *pc2;
-            c5 = *(pc2 + 1);
-            c6 = *(pc2 + 2);
-            c7 = *pc3;
-            c8 = *(pc3 + 1);
-            c9 = *(pc3 + 2);
-            /*  DEBUG:
-               fprintf(stdout, "\n%.0f %.0f %.0f\n%.0f %.0f %.0f\n%.0f %.0f %.0f\n",
-               c1, c2, c3, c4, c5, c6, c7, c8, c9);
-             */
+                if (aspect_fd >= 0) {
+                    asp_ptr = G_incr_void_ptr(asp_raster, size);
+                }
 
+<<<<<<< HEAD
             if (Rast_is_d_null_value(&c5) || (!compute_at_edges &&
                                               (Rast_is_d_null_value(&c1) ||
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+                if (slope_fd >= 0) {
+                    slp_ptr = G_incr_void_ptr(slp_raster, size);
+                }
+
+                if (pcurv_fd >= 0) {
+                    pcurv_ptr = G_incr_void_ptr(pcurv_raster, size);
+                }
+
+                if (tcurv_fd >= 0) {
+                    tcurv_ptr = G_incr_void_ptr(tcurv_raster, size);
+                }
+
+                if (dx_fd >= 0) {
+                    dx_ptr = G_incr_void_ptr(dx_raster, size);
+                }
+
+                if (dy_fd >= 0) {
+                    dy_ptr = G_incr_void_ptr(dy_raster, size);
+                }
+
+                if (dxx_fd >= 0) {
+                    dxx_ptr = G_incr_void_ptr(dxx_raster, size);
+                }
+
+                if (dyy_fd >= 0) {
+                    dyy_ptr = G_incr_void_ptr(dyy_raster, size);
+                }
+
+                if (dxy_fd >= 0) {
+                    dxy_ptr = G_incr_void_ptr(dxy_raster, size);
+                }
+
+                for (col = ncols; col-- > 0; pc1++, pc2++, pc3++) {
+                    c1 = *pc1;
+                    c2 = *(pc1 + 1);
+                    c3 = *(pc1 + 2);
+                    c4 = *pc2;
+                    c5 = *(pc2 + 1);
+                    c6 = *(pc2 + 2);
+                    c7 = *pc3;
+                    c8 = *(pc3 + 1);
+                    c9 = *(pc3 + 2);
+                    /*  DEBUG:
+                       fprintf(stdout, "\n%.0f %.0f %.0f\n%.0f %.0f %.0f\n%.0f
+                       %.0f %.0f\n", c1, c2, c3, c4, c5, c6, c7, c8, c9);
+                     */
+
+                    if (Rast_is_d_null_value(&c5) ||
+                        (!compute_at_edges && (Rast_is_d_null_value(&c1) ||
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                                Rast_is_d_null_value(&c2) ||
                                                Rast_is_d_null_value(&c3) ||
                                                Rast_is_d_null_value(&c4) ||
@@ -3149,6 +3391,9 @@ int main(int argc, char *argv[])
                                                Rast_is_d_null_value(&c8) ||
                                                Rast_is_d_null_value(&c9)))) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                         if (slope_fd > 0) {
                             Rast_set_null_value(slp_ptr, 1, data_type);
                             slp_ptr = G_incr_void_ptr(
@@ -3196,6 +3441,7 @@ int main(int argc, char *argv[])
                         }
                         continue;
                     } /* no data */
+<<<<<<< HEAD
 
                     if (compute_at_edges) {
                         /* same method like ComputeVal in gdaldem_lib.cpp */
@@ -3543,250 +3789,308 @@ int main(int argc, char *argv[])
                 }
                 continue;
             }                   /* no data */
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
-            if (compute_at_edges) {
-                /* same method like ComputeVal in gdaldem_lib.cpp */
-                if (Rast_is_d_null_value(&c1))
-                    c1 = c5;
-                if (Rast_is_d_null_value(&c2))
-                    c2 = c5;
-                if (Rast_is_d_null_value(&c3))
-                    c3 = c5;
-                if (Rast_is_d_null_value(&c4))
-                    c4 = c5;
-                if (Rast_is_d_null_value(&c6))
-                    c6 = c5;
-                if (Rast_is_d_null_value(&c7))
-                    c7 = c5;
-                if (Rast_is_d_null_value(&c8))
-                    c8 = c5;
-                if (Rast_is_d_null_value(&c9))
-                    c9 = c5;
-            }
+                    if (compute_at_edges) {
+                        /* same method like ComputeVal in gdaldem_lib.cpp */
+                        if (Rast_is_d_null_value(&c1))
+                            c1 = c5;
+                        if (Rast_is_d_null_value(&c2))
+                            c2 = c5;
+                        if (Rast_is_d_null_value(&c3))
+                            c3 = c5;
+                        if (Rast_is_d_null_value(&c4))
+                            c4 = c5;
+                        if (Rast_is_d_null_value(&c6))
+                            c6 = c5;
+                        if (Rast_is_d_null_value(&c7))
+                            c7 = c5;
+                        if (Rast_is_d_null_value(&c8))
+                            c8 = c5;
+                        if (Rast_is_d_null_value(&c9))
+                            c9 = c5;
+                    }
 
-            dx = ((c1 + c4 + c4 + c7) - (c3 + c6 + c6 + c9)) / H;
-            dy = ((c7 + c8 + c8 + c9) - (c1 + c2 + c2 + c3)) / V;
+                    dx = ((c1 + c4 + c4 + c7) - (c3 + c6 + c6 + c9)) / H;
+                    dy = ((c7 + c8 + c8 + c9) - (c1 + c2 + c2 + c3)) / V;
 
-            /* compute topographic parameters */
-            key = dx * dx + dy * dy;
-            slp_in_perc = 100 * sqrt(key);
-            slp_in_deg = atan(sqrt(key)) * radians_to_degrees;
+                    /* compute topographic parameters */
+                    key = dx * dx + dy * dy;
+                    slp_in_perc = 100 * sqrt(key);
+                    slp_in_deg = atan(sqrt(key)) * radians_to_degrees;
 
-            /* now update min and max */
-            if (deg) {
-                if (min_slp > slp_in_deg)
-                    min_slp = slp_in_deg;
-                if (max_slp < slp_in_deg)
-                    max_slp = slp_in_deg;
-            }
-            else {
-                if (min_slp > slp_in_perc)
-                    min_slp = slp_in_perc;
-                if (max_slp < slp_in_perc)
-                    max_slp = slp_in_perc;
-            }
-            if (slp_in_perc < min_slope)
-                slp_in_perc = 0.;
+                    /* now update min and max */
+                    if (deg) {
+                        if (min_slp > slp_in_deg)
+                            min_slp = slp_in_deg;
+                        if (max_slp < slp_in_deg)
+                            max_slp = slp_in_deg;
+                    }
+                    else {
+                        if (min_slp > slp_in_perc)
+                            min_slp = slp_in_perc;
+                        if (max_slp < slp_in_perc)
+                            max_slp = slp_in_perc;
+                    }
+                    if (slp_in_perc < min_slope)
+                        slp_in_perc = 0.;
 
-            if (deg && out_type == CELL_TYPE) {
-                /* INC BY ONE
-                   low = 1;
-                   hi = 91;
-                 */
-                low = 0;
-                hi = 90;
-                test = 20;
+                    if (deg && out_type == CELL_TYPE) {
+                        /* INC BY ONE
+                           low = 1;
+                           hi = 91;
+                         */
+                        low = 0;
+                        hi = 90;
+                        test = 20;
 
-                while (hi >= low) {
-                    if (key >= answer[test])
-                        low = test + 1;
-                    else if (key < answer[test - 1])
-                        hi = test - 1;
-                    else
-                        break;
-                    test = (low + hi) / 2;
-                }
-            }
-            else if (perc && out_type == CELL_TYPE)
-                /* INCR_BY_ONE */
-                /* test = slp_in_perc + 1.5; *//* All the slope categories are
-                   incremented by 1 */
-                test = slp_in_perc + .5;
+                        while (hi >= low) {
+                            if (key >= answer[test])
+                                low = test + 1;
+                            else if (key < answer[test - 1])
+                                hi = test - 1;
+                            else
+                                break;
+                            test = (low + hi) / 2;
+                        }
+                    }
+                    else if (perc && out_type == CELL_TYPE)
+                        /* INCR_BY_ONE */
+                        /* test = slp_in_perc + 1.5; */ /* All the slope
+                            categories are incremented by 1 */
+                        test = slp_in_perc + .5;
 
-            if (slope_fd > 0) {
-                if (data_type == CELL_TYPE)
-                    *((CELL *) slp_ptr) = (CELL) test;
-                else {
-                    if (deg)
-                        Rast_set_d_value(slp_ptr,
-                                         (DCELL) slp_in_deg, data_type);
-                    else
-                        Rast_set_d_value(slp_ptr,
-                                         (DCELL) slp_in_perc, data_type);
-                }
-                slp_ptr = G_incr_void_ptr(slp_ptr, Rast_cell_size(data_type));
-            }                   /* computing slope */
+                    if (slope_fd > 0) {
+                        if (data_type == CELL_TYPE)
+                            *((CELL *)slp_ptr) = (CELL)test;
+                        else {
+                            if (deg)
+                                Rast_set_d_value(slp_ptr, (DCELL)slp_in_deg,
+                                                 data_type);
+                            else
+                                Rast_set_d_value(slp_ptr, (DCELL)slp_in_perc,
+                                                 data_type);
+                        }
+                        slp_ptr =
+                            G_incr_void_ptr(slp_ptr, Rast_cell_size(data_type));
+                    } /* computing slope */
+
+                    if (aspect_fd > 0) {
+                        double aspect_flat = 0.;
+
+                        if (slp_in_perc == 0.)
+                            aspect = 0.;
+                        else if (dx == 0) {
+                            if (dy > 0)
+                                aspect = 90.;
+                            else
+                                aspect = 270.;
+                        }
+                        else {
+                            aspect = (atan2(dy, dx) / degrees_to_radians);
+                            if (aspect <= 0.)
+                                aspect = 360. + aspect;
+                        }
+
+                        if (flag.n->answer) {
+                            aspect_flat = -9999;
+                            aspect = aspect_cw_n(aspect);
+                        }
+
+                        if (out_type == CELL_TYPE) {
+                            if (aspect > 0 && aspect < 0.5)
+                                aspect = 360;
+                            *((CELL *)asp_ptr) = (CELL)floor(aspect + .5);
+                        }
+                        else
+                            Rast_set_d_value(asp_ptr, (DCELL)aspect, data_type);
+
+                        asp_ptr =
+                            G_incr_void_ptr(asp_ptr, Rast_cell_size(data_type));
+
+                        /* now update min and max */
+                        if (aspect > aspect_flat && min_asp > aspect)
+                            min_asp = aspect;
+                        if (max_asp < aspect)
+                            max_asp = aspect;
+                    } /* computing aspect */
+
+                    if (dx_fd > 0) {
+                        if (out_type == CELL_TYPE)
+                            *((CELL *)dx_ptr) = (CELL)(scik1 * dx);
+                        else
+                            Rast_set_d_value(dx_ptr, (DCELL)dx, data_type);
+                        dx_ptr =
+                            G_incr_void_ptr(dx_ptr, Rast_cell_size(data_type));
+                    }
+
+                    if (dy_fd > 0) {
+                        if (out_type == CELL_TYPE)
+                            *((CELL *)dy_ptr) = (CELL)(scik1 * dy);
+                        else
+                            Rast_set_d_value(dy_ptr, (DCELL)dy, data_type);
+                        dy_ptr =
+                            G_incr_void_ptr(dy_ptr, Rast_cell_size(data_type));
+                    }
+
+                    if (dxx_fd <= 0 && dxy_fd <= 0 && dyy_fd <= 0 &&
+                        pcurv_fd <= 0 && tcurv_fd <= 0)
+                        continue;
+
+                    /* compute second order derivatives */
+                    s4 = c1 + c3 + c7 + c9 - c5 * 8.;
+                    s5 = c4 * 4. + c6 * 4. - c8 * 2. - c2 * 2.;
+                    s6 = c8 * 4. + c2 * 4. - c4 * 2. - c6 * 2.;
+                    s3 = c7 - c9 + c3 - c1;
+
+                    dxx = -(s4 + s5) / ((3. / 32.) * H * H);
+                    dyy = -(s4 + s6) / ((3. / 32.) * V * V);
+                    dxy = -s3 / ((1. / 16.) * H * V);
+
+                    if (dxx_fd > 0) {
+                        if (out_type == CELL_TYPE)
+                            *((CELL *)dxx_ptr) = (CELL)(scik1 * dxx);
+                        else
+                            Rast_set_d_value(dxx_ptr, (DCELL)dxx, data_type);
+                        dxx_ptr =
+                            G_incr_void_ptr(dxx_ptr, Rast_cell_size(data_type));
+                    }
+
+                    if (dyy_fd > 0) {
+                        if (out_type == CELL_TYPE)
+                            *((CELL *)dyy_ptr) = (CELL)(scik1 * dyy);
+                        else
+                            Rast_set_d_value(dyy_ptr, (DCELL)dyy, data_type);
+                        dyy_ptr =
+                            G_incr_void_ptr(dyy_ptr, Rast_cell_size(data_type));
+                    }
+
+                    if (dxy_fd > 0) {
+                        if (out_type == CELL_TYPE)
+                            *((CELL *)dxy_ptr) = (CELL)(scik1 * dxy);
+                        else
+                            Rast_set_d_value(dxy_ptr, (DCELL)dxy, data_type);
+                        dxy_ptr =
+                            G_incr_void_ptr(dxy_ptr, Rast_cell_size(data_type));
+                    }
+
+                    /* compute curvature */
+                    if (pcurv_fd <= 0 && tcurv_fd <= 0)
+                        continue;
+
+                    grad2 = key; /*dx2 + dy2 */
+                    grad = sqrt(grad2);
+                    if (grad <= gradmin) {
+                        pcurv = 0.;
+                        tcurv = 0.;
+                    }
+                    else {
+                        dnorm1 = sqrt(grad2 + 1.);
+                        dxy2 = 2. * dxy * dx * dy;
+                        dx2 = dx * dx;
+                        dy2 = dy * dy;
+                        pcurv = (dxx * dx2 + dxy2 + dyy * dy2) /
+                                (grad2 * dnorm1 * dnorm1 * dnorm1);
+                        tcurv =
+                            (dxx * dy2 - dxy2 + dyy * dx2) / (grad2 * dnorm1);
+                        if (c1min > pcurv)
+                            c1min = pcurv;
+                        if (c1max < pcurv)
+                            c1max = pcurv;
+                        if (c2min > tcurv)
+                            c2min = tcurv;
+                        if (c2max < tcurv)
+                            c2max = tcurv;
+                    }
+
+                    if (pcurv_fd > 0) {
+                        if (out_type == CELL_TYPE)
+                            *((CELL *)pcurv_ptr) = (CELL)(scik1 * pcurv);
+                        else
+                            Rast_set_d_value(pcurv_ptr, (DCELL)pcurv,
+                                             data_type);
+                        pcurv_ptr = G_incr_void_ptr(pcurv_ptr,
+                                                    Rast_cell_size(data_type));
+                    }
+
+                    if (tcurv_fd > 0) {
+                        if (out_type == CELL_TYPE)
+                            *((CELL *)tcurv_ptr) = (CELL)(scik1 * tcurv);
+                        else
+                            Rast_set_d_value(tcurv_ptr, (DCELL)tcurv,
+                                             data_type);
+                        tcurv_ptr = G_incr_void_ptr(tcurv_ptr,
+                                                    Rast_cell_size(data_type));
+                    }
+
+                } /* end column loop */
+
+#pragma omp atomic update
+                computed++;
+            } /* end row loop */
+        }     /* end parallel region */
+
+        /* write the computed buffer chunk to disk */
+        written = end;
+        for (row = start; row < end; row++) {
+            size = Rast_cell_size(data_type) * ncols * (row - start);
 
             if (aspect_fd > 0) {
-                double aspect_flat = 0.;
-
-                if (slp_in_perc == 0.)
-                    aspect = 0.;
-                else if (dx == 0) {
-                    if (dy > 0)
-                        aspect = 90.;
-                    else
-                        aspect = 270.;
-                }
-                else {
-                    aspect = (atan2(dy, dx) / degrees_to_radians);
-                    if (aspect <= 0.)
-                        aspect = 360. + aspect;
-                }
-
-                if (flag.n->answer) {
-                    aspect_flat = -9999;
-                    aspect = aspect_cw_n(aspect);
-                }
-
-                if (out_type == CELL_TYPE) {
-                    if (aspect > 0 && aspect < 0.5)
-                        aspect = 360;
-                    *((CELL *) asp_ptr) = (CELL) floor(aspect + .5);
-                }
-                else
-                    Rast_set_d_value(asp_ptr, (DCELL) aspect, data_type);
-
-                asp_ptr = G_incr_void_ptr(asp_ptr, Rast_cell_size(data_type));
-
-                /* now update min and max */
-                if (aspect > aspect_flat && min_asp > aspect)
-                    min_asp = aspect;
-                if (max_asp < aspect)
-                    max_asp = aspect;
-            }                   /* computing aspect */
-
-            if (dx_fd > 0) {
-                if (out_type == CELL_TYPE)
-                    *((CELL *) dx_ptr) = (CELL) (scik1 * dx);
-                else
-                    Rast_set_d_value(dx_ptr, (DCELL) dx, data_type);
-                dx_ptr = G_incr_void_ptr(dx_ptr, Rast_cell_size(data_type));
+                asp_ptr = G_incr_void_ptr(asp_raster, size);
+                Rast_put_row(aspect_fd, asp_ptr, data_type);
             }
 
-            if (dy_fd > 0) {
-                if (out_type == CELL_TYPE)
-                    *((CELL *) dy_ptr) = (CELL) (scik1 * dy);
-                else
-                    Rast_set_d_value(dy_ptr, (DCELL) dy, data_type);
-                dy_ptr = G_incr_void_ptr(dy_ptr, Rast_cell_size(data_type));
-            }
-
-            if (dxx_fd <= 0 && dxy_fd <= 0 && dyy_fd <= 0 &&
-                pcurv_fd <= 0 && tcurv_fd <= 0)
-                continue;
-
-            /* compute second order derivatives */
-            s4 = c1 + c3 + c7 + c9 - c5 * 8.;
-            s5 = c4 * 4. + c6 * 4. - c8 * 2. - c2 * 2.;
-            s6 = c8 * 4. + c2 * 4. - c4 * 2. - c6 * 2.;
-            s3 = c7 - c9 + c3 - c1;
-
-            dxx = -(s4 + s5) / ((3. / 32.) * H * H);
-            dyy = -(s4 + s6) / ((3. / 32.) * V * V);
-            dxy = -s3 / ((1. / 16.) * H * V);
-
-            if (dxx_fd > 0) {
-                if (out_type == CELL_TYPE)
-                    *((CELL *) dxx_ptr) = (CELL) (scik1 * dxx);
-                else
-                    Rast_set_d_value(dxx_ptr, (DCELL) dxx, data_type);
-                dxx_ptr = G_incr_void_ptr(dxx_ptr, Rast_cell_size(data_type));
-            }
-
-            if (dyy_fd > 0) {
-                if (out_type == CELL_TYPE)
-                    *((CELL *) dyy_ptr) = (CELL) (scik1 * dyy);
-                else
-                    Rast_set_d_value(dyy_ptr, (DCELL) dyy, data_type);
-                dyy_ptr = G_incr_void_ptr(dyy_ptr, Rast_cell_size(data_type));
-            }
-
-            if (dxy_fd > 0) {
-                if (out_type == CELL_TYPE)
-                    *((CELL *) dxy_ptr) = (CELL) (scik1 * dxy);
-                else
-                    Rast_set_d_value(dxy_ptr, (DCELL) dxy, data_type);
-                dxy_ptr = G_incr_void_ptr(dxy_ptr, Rast_cell_size(data_type));
-            }
-
-            /* compute curvature */
-            if (pcurv_fd <= 0 && tcurv_fd <= 0)
-                continue;
-
-            grad2 = key;        /*dx2 + dy2 */
-            grad = sqrt(grad2);
-            if (grad <= gradmin) {
-                pcurv = 0.;
-                tcurv = 0.;
-            }
-            else {
-                dnorm1 = sqrt(grad2 + 1.);
-                dxy2 = 2. * dxy * dx * dy;
-                dx2 = dx * dx;
-                dy2 = dy * dy;
-                pcurv = (dxx * dx2 + dxy2 + dyy * dy2) /
-                    (grad2 * dnorm1 * dnorm1 * dnorm1);
-                tcurv = (dxx * dy2 - dxy2 + dyy * dx2) / (grad2 * dnorm1);
-                if (c1min > pcurv)
-                    c1min = pcurv;
-                if (c1max < pcurv)
-                    c1max = pcurv;
-                if (c2min > tcurv)
-                    c2min = tcurv;
-                if (c2max < tcurv)
-                    c2max = tcurv;
+            if (slope_fd > 0) {
+                slp_ptr = G_incr_void_ptr(slp_raster, size);
+                Rast_put_row(slope_fd, slp_ptr, data_type);
             }
 
             if (pcurv_fd > 0) {
-                if (out_type == CELL_TYPE)
-                    *((CELL *) pcurv_ptr) = (CELL) (scik1 * pcurv);
-                else
-                    Rast_set_d_value(pcurv_ptr, (DCELL) pcurv, data_type);
-                pcurv_ptr =
-                    G_incr_void_ptr(pcurv_ptr, Rast_cell_size(data_type));
+                pcurv_ptr = G_incr_void_ptr(pcurv_raster, size);
+                Rast_put_row(pcurv_fd, pcurv_ptr, data_type);
             }
 
             if (tcurv_fd > 0) {
-                if (out_type == CELL_TYPE)
-                    *((CELL *) tcurv_ptr) = (CELL) (scik1 * tcurv);
-                else
-                    Rast_set_d_value(tcurv_ptr, (DCELL) tcurv, data_type);
-                tcurv_ptr =
-                    G_incr_void_ptr(tcurv_ptr, Rast_cell_size(data_type));
+                tcurv_ptr = G_incr_void_ptr(tcurv_raster, size);
+                Rast_put_row(tcurv_fd, tcurv_ptr, data_type);
             }
 
-        }                       /* column for loop */
+            if (dx_fd > 0) {
+                dx_ptr = G_incr_void_ptr(dx_raster, size);
+                Rast_put_row(dx_fd, dx_ptr, data_type);
+            }
 
-        if (aspect_fd > 0)
-            Rast_put_row(aspect_fd, asp_raster, data_type);
+            if (dy_fd > 0) {
+                dy_ptr = G_incr_void_ptr(dy_raster, size);
+                Rast_put_row(dy_fd, dy_ptr, data_type);
+            }
 
-        if (slope_fd > 0)
-            Rast_put_row(slope_fd, slp_raster, data_type);
+            if (dxx_fd > 0) {
+                dxx_ptr = G_incr_void_ptr(dxx_raster, size);
+                Rast_put_row(dxx_fd, dxx_ptr, data_type);
+            }
 
-        if (pcurv_fd > 0)
-            Rast_put_row(pcurv_fd, pcurv_raster, data_type);
+            if (dyy_fd > 0) {
+                dyy_ptr = G_incr_void_ptr(dyy_raster, size);
+                Rast_put_row(dyy_fd, dyy_ptr, data_type);
+            }
 
-        if (tcurv_fd > 0)
-            Rast_put_row(tcurv_fd, tcurv_raster, data_type);
+            if (dxy_fd > 0) {
+                dxy_ptr = G_incr_void_ptr(dxy_raster, size);
+                Rast_put_row(dxy_fd, dxy_ptr, data_type);
+            }
+        }
 
-        if (dx_fd > 0)
-            Rast_put_row(dx_fd, dx_raster, data_type);
+    } /* while loop repeats until all chunks are computed and written */
 
-        if (dy_fd > 0)
-            Rast_put_row(dy_fd, dy_raster, data_type);
+    G_percent(nrows, nrows, 2);
 
+<<<<<<< HEAD
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+<<<<<<< HEAD
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (dxx_fd > 0)
             Rast_put_row(dxx_fd, dxx_raster, data_type);
 
@@ -3897,8 +4201,11 @@ int main(int argc, char *argv[])
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     for (t = 0; t < nprocs; t++)
         Rast_close(elevation_fd[t]);
     G_debug(1, "Creating support files...");
@@ -3924,10 +4231,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             Rast_set_cats_title("Aspect clockwise in degrees from north",
                                 &cats);
         else
@@ -3964,16 +4274,20 @@ int main(int argc, char *argv[])
             Rast_set_cats_title("Aspect clockwise in degrees from north",
                                 &cats);
         else
+<<<<<<< HEAD
 =======
             Rast_set_cats_title("Aspect clockwise in degrees from north",
                                 &cats);
         else
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             Rast_set_cats_title("Aspect counterclockwise in degrees from east",
                                 &cats);
         G_verbose_message(
             _("Min computed aspect %.4f, max computed aspect %.4f"), min_asp,
             max_asp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3986,6 +4300,9 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         /* the categries quant intervals are 1.0 long, plus
            we are using reverse order so that the label looked up
            for i-.5 is not the one defined for i-.5, i+.5 interval, but
@@ -4018,10 +4335,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     Rast_set_c_cat((CELL *)&i, (CELL *)&i, buf, &cats);
 =======
                     Rast_set_c_cat((CELL *) & i, (CELL *) & i, buf, &cats);
@@ -4034,6 +4354,7 @@ int main(int argc, char *argv[])
 =======
                     Rast_set_c_cat((CELL *)&i, (CELL *)&i, buf, &cats);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                     Rast_set_c_cat((CELL *)&i, (CELL *)&i, buf, &cats);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4044,6 +4365,8 @@ int main(int argc, char *argv[])
                     Rast_set_c_cat((CELL *) & i, (CELL *) & i, buf, &cats);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     continue;
                 }
                 tmp1 = (double)i - .5;
@@ -4067,10 +4390,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 if (i == 0 || i == 360)
 =======
                 if (i == 0 && i == 360)
@@ -4083,6 +4409,7 @@ int main(int argc, char *argv[])
 =======
                 if (i == 0 || i == 360)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 if (i == 0 || i == 360)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4093,6 +4420,8 @@ int main(int argc, char *argv[])
                 if (i == 0 && i == 360)
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     sprintf(buf, "north");
                 else if (i == 45)
                     sprintf(buf, "north-east");
@@ -4118,10 +4447,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     Rast_set_c_cat((CELL *)&i, (CELL *)&i, buf, &cats);
 =======
                     Rast_set_c_cat((CELL *) & i, (CELL *) & i, buf, &cats);
@@ -4134,6 +4466,7 @@ int main(int argc, char *argv[])
 =======
                     Rast_set_c_cat((CELL *)&i, (CELL *)&i, buf, &cats);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                     Rast_set_c_cat((CELL *)&i, (CELL *)&i, buf, &cats);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4144,6 +4477,8 @@ int main(int argc, char *argv[])
                     Rast_set_c_cat((CELL *) & i, (CELL *) & i, buf, &cats);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     continue;
                 }
                 tmp1 = (double)i - .5;
@@ -4224,10 +4559,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                Rast_quantize_fp_map_range(slope_name, G_mapset(), 0., 90., 1,
                91); else Rast_quantize_fp_map_range(slope_name, G_mapset(),
                min_slp, max_slp, (CELL) min_slp + 1, (CELL) ceil(max_slp) + 1);
@@ -4257,6 +4595,7 @@ int main(int argc, char *argv[])
                91); else Rast_quantize_fp_map_range(slope_name, G_mapset(),
                min_slp, max_slp, (CELL) min_slp + 1, (CELL) ceil(max_slp) + 1);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                Rast_quantize_fp_map_range(slope_name, G_mapset(), 0., 90., 1,
                91); else Rast_quantize_fp_map_range(slope_name, G_mapset(),
@@ -4270,6 +4609,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
              */
             Rast_write_colors(slope_name, G_mapset(), &colors);
             if (deg)
@@ -4281,10 +4622,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             else /* percent */
                 Rast_quantize_fp_map_range(slope_name, G_mapset(), min_slp,
                                            max_slp, (CELL)min_slp,
@@ -4316,6 +4660,7 @@ int main(int argc, char *argv[])
                                            max_slp, (CELL)min_slp,
                                            (CELL)ceil(max_slp));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             else /* percent */
                 Rast_quantize_fp_map_range(slope_name, G_mapset(), min_slp,
@@ -4330,6 +4675,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         }
 
         Rast_read_cats(slope_name, G_mapset(), &cats);
@@ -4366,10 +4713,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             tmp1 = (DCELL)i - .5;
             tmp2 = (DCELL)i + .5;
 =======
@@ -4385,10 +4735,14 @@ int main(int argc, char *argv[])
             tmp2 = (DCELL) i + .5;
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
             tmp1 = (DCELL)i - .5;
             tmp2 = (DCELL)i + .5;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             tmp1 = (DCELL)i - .5;
             tmp2 = (DCELL)i + .5;
@@ -4397,6 +4751,8 @@ int main(int argc, char *argv[])
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             Rast_set_d_cat(&tmp1, &tmp2, buf, &cats);
         }
         if (data_type == CELL_TYPE) {
@@ -4425,10 +4781,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         Rast_append_format_history(&hist, "zfactor = %.2f format = %s", zfactor,
                                    parm.slope_fmt->answer);
 =======
@@ -4444,10 +4803,14 @@ int main(int argc, char *argv[])
                                    zfactor, parm.slope_fmt->answer);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
         Rast_append_format_history(&hist, "zfactor = %.2f format = %s", zfactor,
                                    parm.slope_fmt->answer);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         Rast_append_format_history(&hist, "zfactor = %.2f format = %s", zfactor,
                                    parm.slope_fmt->answer);
@@ -4456,6 +4819,8 @@ int main(int argc, char *argv[])
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         Rast_append_format_history(&hist, "min_slope = %f", min_slope);
         Rast_format_history(&hist, HIST_DATSRC_1, "raster elevation file %s",
                             elev_name);
@@ -4475,10 +4840,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             dat1 = (FCELL)c1min;
         else
             dat1 = (FCELL)c2min;
@@ -4626,39 +4994,44 @@ int main(int argc, char *argv[])
 =======
 =======
             dat1 = (FCELL) c1min;
+=======
+            dat1 = (FCELL)c1min;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         else
-            dat1 = (FCELL) c2min;
+            dat1 = (FCELL)c2min;
 
-        dat2 = (FCELL) - 0.01;
+        dat2 = (FCELL)-0.01;
         Rast_add_f_color_rule(&dat1, 127, 0, 255, &dat2, 0, 0, 255, &colors);
         dat1 = dat2;
-        dat2 = (FCELL) - 0.001;
+        dat2 = (FCELL)-0.001;
         Rast_add_f_color_rule(&dat1, 0, 0, 255, &dat2, 0, 127, 255, &colors);
         dat1 = dat2;
-        dat2 = (FCELL) - 0.00001;
-        Rast_add_f_color_rule(&dat1, 0, 127, 255,
-                              &dat2, 0, 255, 255, &colors);
+        dat2 = (FCELL)-0.00001;
+        Rast_add_f_color_rule(&dat1, 0, 127, 255, &dat2, 0, 255, 255, &colors);
         dat1 = dat2;
-        dat2 = (FCELL) 0.0;
-        Rast_add_f_color_rule(&dat1, 0, 255, 255,
-                              &dat2, 200, 255, 200, &colors);
+        dat2 = (FCELL)0.0;
+        Rast_add_f_color_rule(&dat1, 0, 255, 255, &dat2, 200, 255, 200,
+                              &colors);
         dat1 = dat2;
-        dat2 = (FCELL) 0.00001;
-        Rast_add_f_color_rule(&dat1, 200, 255, 200,
-                              &dat2, 255, 255, 0, &colors);
+        dat2 = (FCELL)0.00001;
+        Rast_add_f_color_rule(&dat1, 200, 255, 200, &dat2, 255, 255, 0,
+                              &colors);
         dat1 = dat2;
-        dat2 = (FCELL) 0.001;
-        Rast_add_f_color_rule(&dat1, 255, 255, 0,
-                              &dat2, 255, 127, 0, &colors);
+        dat2 = (FCELL)0.001;
+        Rast_add_f_color_rule(&dat1, 255, 255, 0, &dat2, 255, 127, 0, &colors);
         dat1 = dat2;
-        dat2 = (FCELL) 0.01;
+        dat2 = (FCELL)0.01;
         Rast_add_f_color_rule(&dat1, 255, 127, 0, &dat2, 255, 0, 0, &colors);
         dat1 = dat2;
         if (c1max > c2max)
-            dat2 = (FCELL) c1max;
+            dat2 = (FCELL)c1max;
         else
+<<<<<<< HEAD
             dat2 = (FCELL) c2max;
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+            dat2 = (FCELL)c2max;
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
         Rast_add_f_color_rule(&dat1, 255, 0, 0, &dat2, 255, 0, 200, &colors);
@@ -4737,10 +5110,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         Rast_append_format_history(&hist, "E-W slope map elev = %s", elev_name);
 =======
         Rast_append_format_history(&hist, "E-W slope map elev = %s",
@@ -4755,6 +5131,7 @@ int main(int argc, char *argv[])
                                    elev_name);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Rast_append_format_history(&hist, "E-W slope map elev = %s", elev_name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4765,6 +5142,11 @@ int main(int argc, char *argv[])
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+        Rast_append_format_history(&hist, "E-W slope map elev = %s", elev_name);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         Rast_append_format_history(&hist, "zfactor = %.2f", zfactor);
         Rast_append_format_history(&hist, "min_slope = %f", min_slope);
         Rast_format_history(&hist, HIST_DATSRC_1, "raster elevation file %s",
@@ -4794,10 +5176,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         Rast_append_format_history(&hist, "N-S slope map elev = %s", elev_name);
 =======
         Rast_append_format_history(&hist, "N-S slope map elev = %s",
@@ -4812,6 +5197,7 @@ int main(int argc, char *argv[])
                                    elev_name);
 >>>>>>> 26eb21fb5f (r.slope.aspect: Run indent script on C files (#1765))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Rast_append_format_history(&hist, "N-S slope map elev = %s", elev_name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4822,6 +5208,11 @@ int main(int argc, char *argv[])
 >>>>>>> 046f32d6f4 (r.slope.aspect: Run indent script on C files (#1765))
 =======
 >>>>>>> dde363be68 (r.slope.aspect: Run indent script on C files (#1765))
+=======
+=======
+        Rast_append_format_history(&hist, "N-S slope map elev = %s", elev_name);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         Rast_append_format_history(&hist, "zfactor = %.2f", zfactor);
         Rast_append_format_history(&hist, "min_slope = %f", min_slope);
         Rast_format_history(&hist, HIST_DATSRC_1, "raster elevation file %s",

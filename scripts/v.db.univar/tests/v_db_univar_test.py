@@ -44,11 +44,17 @@ def test_basic_stats(simple_dataset):
             format="json",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             env=simple_dataset.session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            env=simple_dataset.session.env,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         )
     )
     assert "statistics" in data
@@ -81,11 +87,17 @@ def test_extra_stats(simple_dataset):
             format="json",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             env=simple_dataset.session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            env=simple_dataset.session.env,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         )
     )
     stats = data["statistics"]
@@ -109,11 +121,17 @@ def test_quartiles_default_percentile(simple_dataset):
             format="json",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             env=simple_dataset.session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            env=simple_dataset.session.env,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         )
     )
     assert "statistics" in data
@@ -157,11 +175,17 @@ def test_percentiles(simple_dataset):
             format="json",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             env=simple_dataset.session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            env=simple_dataset.session.env,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         )
     )
     stats = data["statistics"]
@@ -190,11 +214,17 @@ def test_fixed_values(simple_dataset):
             format="json",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             env=simple_dataset.session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            env=simple_dataset.session.env,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         )
     )
     assert "statistics" in data

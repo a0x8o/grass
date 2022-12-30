@@ -5,15 +5,21 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int print_table_definition(dbDriver *driver, dbTable *table,
                            enum OutputFormat format, JSON_Object *root_object,
                            JSON_Array *cols_array)
 =======
 int print_table_definition(dbDriver *driver, dbTable *table)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 int print_table_definition(dbDriver *driver, dbTable *table)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int ncols, col, nrows;
     dbColumn *column;
@@ -57,15 +63,21 @@ int print_table_definition(dbDriver *driver, dbTable *table)
         column = db_get_table_column(table, col);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         print_column_definition(column, col + 1, format, cols_array);
 =======
         fprintf(stdout, "\n");
         print_column_definition(column);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         fprintf(stdout, "\n");
         print_column_definition(column);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     return 0;
@@ -73,14 +85,20 @@ int print_table_definition(dbDriver *driver, dbTable *table)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int print_column_definition(dbColumn *column, int position,
                             enum OutputFormat format, JSON_Array *cols_array)
 =======
 int print_column_definition(dbColumn *column)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 int print_column_definition(dbColumn *column)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     JSON_Object *col_object = NULL;
     JSON_Value *col_value = NULL;
@@ -210,9 +228,13 @@ int print_priv(char *label, int priv, enum OutputFormat format,
     default:
         fprintf(stdout, "?");
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         break;
     }
 

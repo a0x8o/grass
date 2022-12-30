@@ -64,10 +64,15 @@ def open_old_stds(name, type, dbif=None):
             sp.set_semantic_label(semantic_label)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     elif type in {"str3ds", "raster3d", "rast3d", "raster_3d"}:
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    elif type in {"str3ds", "raster3d", "rast3d", "raster_3d"}:
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     elif (
         type == "str3ds"
         or type == "raster3d"

@@ -138,16 +138,22 @@ class UnaryExpressionNode(ExpressionNode):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             raise ValueError('The C operator "%s" can\'t be evaluated right now' % self.name)
 =======
             raise ValueError('The C operator "%s" can\'t be evaluated right ' "now" % self.name)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             raise ValueError('The C operator "%s" can\'t be evaluated right ' "now" % self.name)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
             raise ValueError('The C operator "%s" can\'t be evaluated right now' % self.name)
 >>>>>>> 592985bfb2 (style: Manual fixes for single-line-implicit-string-concatenation violations (ISC001) (#3944))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     def py_string(self, can_be_ctype):
         return self.format % self.child.py_string(self.child_can_be_ctype and can_be_ctype)
@@ -197,16 +203,22 @@ class BinaryExpressionNode(ExpressionNode):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             raise ValueError('The C operator "%s" can\'t be evaluated right now' % self.name)
 =======
             raise ValueError('The C operator "%s" can\'t be evaluated right ' "now" % self.name)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             raise ValueError('The C operator "%s" can\'t be evaluated right ' "now" % self.name)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
             raise ValueError('The C operator "%s" can\'t be evaluated right now' % self.name)
 >>>>>>> 592985bfb2 (style: Manual fixes for single-line-implicit-string-concatenation violations (ISC001) (#3944))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     def py_string(self, can_be_ctype):
         return self.format % (
@@ -360,16 +372,22 @@ class UnsupportedExpressionNode(ExpressionNode):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         raise ValueError("Tried to evaluate an unsupported expression node: %s" % self.message)
 =======
         raise ValueError("Tried to evaluate an unsupported expression " "node: %s" % self.message)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         raise ValueError("Tried to evaluate an unsupported expression " "node: %s" % self.message)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
         raise ValueError("Tried to evaluate an unsupported expression node: %s" % self.message)
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     def __repr__(self):
         return "<UnsupportedExpressionNode>"
@@ -378,13 +396,19 @@ class UnsupportedExpressionNode(ExpressionNode):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         raise ValueError("Called py_string() an unsupported expression node: %s" % self.message)
 =======
         raise ValueError("Called py_string() an unsupported expression " "node: %s" % self.message)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         raise ValueError("Called py_string() an unsupported expression " "node: %s" % self.message)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
         raise ValueError("Called py_string() an unsupported expression node: %s" % self.message)
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)

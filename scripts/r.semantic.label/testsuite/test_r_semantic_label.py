@@ -68,6 +68,7 @@ from grass.gunittest.main import test
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from grass.gunittest.gmodules import SimpleModule, call_module
 =======
 <<<<<<< HEAD
@@ -464,6 +465,8 @@ from grass.gunittest.gmodules import SimpleModule, call_module
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 from grass.gunittest.gmodules import SimpleModule
 =======
 from grass.gunittest.gmodules import SimpleModule, call_module
@@ -636,6 +639,7 @@ from grass.gunittest.gmodules import SimpleModule, call_module
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1061,6 +1065,11 @@ from grass.gunittest.gmodules import SimpleModule, call_module
 from grass.gunittest.gmodules import SimpleModule, call_module
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+from grass.gunittest.gmodules import SimpleModule, call_module
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 from grass.script.core import tempname
 from grass.pygrass.gis import Mapset
@@ -1086,13 +1095,19 @@ class TestSemanticLabelsSystemDefined(TestCase):
         with RasterRow(self.map) as rast:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             return rast.info.semantic_label
 
     def test_semantic_label_assign_not_current_mapset(self):
         if self.mapset != "PERMANENT":
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             semantic_label = rast.info.semantic_label
 
         return semantic_label
@@ -1100,9 +1115,13 @@ class TestSemanticLabelsSystemDefined(TestCase):
     def test_semantic_label_assign_not_current_mapset(self):
         if not self.mapset == "PERMANENT":
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             self.mapset.name = "PERMANENT"
             a_map = self.mapset.glist(type="raster")[0]
             module = SimpleModule(
@@ -1180,6 +1199,7 @@ class TestSemanticLabelsSystemDefined(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1574,6 +1594,8 @@ class TestSemanticLabelsSystemDefined(TestCase):
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     def test_semantic_label_print(self):
         semantic_label = "S2_1"
         semantic_label_desc = "S2 Visible (Coastal/Aerosol)"
@@ -1760,6 +1782,7 @@ class TestSemanticLabelsSystemDefined(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2141,6 +2164,10 @@ class TestSemanticLabelsSystemDefined(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     def test_semantic_label_dissociate(self):
         module = SimpleModule("r.semantic.label", operation="remove", map=self.map)
         self.assertModule(module)

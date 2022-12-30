@@ -197,6 +197,7 @@ double sum_abs = 0.0;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1170,6 +1171,8 @@ double max = 0.0 / 0.0;
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 double min = NAN;
 double max = NAN;
 =======
@@ -1485,6 +1488,7 @@ double max = NAN;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1558,9 +1562,12 @@ double max = NAN;
 double min = NAN;
 double max = NAN;
 =======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
 double min = 0.0 / 0.0; /* init as nan */
 double max = 0.0 / 0.0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2016,6 +2023,8 @@ double max = 0.0 / 0.0;
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 double mean, mean_abs, pop_variance, sample_variance, pop_stdev, sample_stdev,
     pop_coeff_variation, kurtosis, skewness;
 double total_size = 0.0; /* total size: length/area */
@@ -2031,16 +2040,22 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     struct Option *map_opt, *type_opt, *percentile, *format_opt;
 =======
     struct Option *map_opt, *type_opt, *percentile;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     struct Option *map_opt, *type_opt, *percentile;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
     struct Option *map_opt, *type_opt, *percentile, *format_opt;
 >>>>>>> 74fb85bb38 (v.univar: add JSON support (#3784))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     module = G_define_module();
     G_add_keyword(_("vector"));
@@ -2094,6 +2109,7 @@ int main(int argc, char *argv[])
         _("Calculate geometric distances instead of attribute statistics");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     format_opt = G_define_standard_option(G_OPT_F_FORMAT);
     format_opt->guisection = _("Print");
@@ -2101,9 +2117,13 @@ int main(int argc, char *argv[])
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     format_opt = G_define_standard_option(G_OPT_F_FORMAT);
     format_opt->guisection = _("Print");
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     G_gisinit(argv[0]);
 
@@ -2116,6 +2136,7 @@ int main(int argc, char *argv[])
                       col_opt->key, col_opt->description);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 
     if (strcmp(format_opt->answer, "json") == 0) {
@@ -2127,6 +2148,8 @@ int main(int argc, char *argv[])
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     if (strcmp(format_opt->answer, "json") == 0) {
@@ -2134,6 +2157,8 @@ int main(int argc, char *argv[])
     }
     else {
         format = PLAIN;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     otype = Vect_option_to_types(type_opt);
@@ -2578,8 +2603,11 @@ void summary(void)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 74fb85bb38 (v.univar: add JSON support (#3784))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (format == JSON) {
         root_value = json_value_init_object();
         if (root_value == NULL) {
@@ -2624,6 +2652,7 @@ void summary(void)
     }
     else if (shell_flag->answer) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     if (shell_flag->answer) {
 <<<<<<< HEAD
@@ -2632,6 +2661,11 @@ void summary(void)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 74fb85bb38 (v.univar: add JSON support (#3784))
+=======
+=======
+    if (shell_flag->answer) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         fprintf(stdout, "n=%d\n", count);
         if (geometry->answer) {
             fprintf(stdout, "nzero=%d\n", nzero);
@@ -2740,8 +2774,11 @@ void summary(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 74fb85bb38 (v.univar: add JSON support (#3784))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if (format == JSON) {
             json_object_set_number(root_object, "first_quartile", quartile_25);
             json_object_set_number(root_object, "median", median);
@@ -2775,8 +2812,11 @@ void summary(void)
 
 =======
         if (shell_flag->answer) {
+<<<<<<< HEAD
 =======
 >>>>>>> 74fb85bb38 (v.univar: add JSON support (#3784))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             fprintf(stdout, "first_quartile=%g\n", quartile_25);
             fprintf(stdout, "median=%g\n", median);
             fprintf(stdout, "third_quartile=%g\n", quartile_75);
@@ -2791,6 +2831,7 @@ void summary(void)
             fprintf(stdout, "3rd quartile: %g\n", quartile_75);
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         if (shell_flag->answer) {
             fprintf(stdout, "first_quartile=%g\n", quartile_25);
@@ -2807,6 +2848,8 @@ void summary(void)
             fprintf(stdout, "3rd quartile: %g\n", quartile_75);
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             if (perc % 10 == 1 && perc != 11)
                 fprintf(stdout, "%dst percentile: %g\n", perc, quartile_perc);
             else if (perc % 10 == 2 && perc != 12)
@@ -2816,6 +2859,7 @@ void summary(void)
             else
                 fprintf(stdout, "%dth percentile: %g\n", perc, quartile_perc);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     }
@@ -2832,6 +2876,8 @@ void summary(void)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     if (format == JSON) {
@@ -2842,5 +2888,7 @@ void summary(void)
         puts(serialized_string);
         json_free_serialized_string(serialized_string);
         json_value_free(root_value);
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 }

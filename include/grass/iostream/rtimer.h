@@ -49,6 +49,9 @@ typedef struct {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define rt_start(rt)                           \
     if ((time(&(rt.tv1)) == ((time_t) - 1))) { \
         perror("time");                        \
@@ -63,9 +66,12 @@ typedef struct {
 =======
 #define rt_start(rt)                         \
     if ((time(&(rt.tv1)) == ((time_t)-1))) { \
+<<<<<<< HEAD
 =======
 #define rt_start(rt)                         \
     if ((time(&(rt.tv1)) == ((time_t)-1))) { \
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         perror("time");                      \
         exit(1);                             \
     }
@@ -73,6 +79,7 @@ typedef struct {
 /* doesn't really stop, just updates endtimes */
 #define rt_stop(rt)                          \
     if ((time(&(rt.tv2)) == ((time_t)-1))) { \
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         perror("time");                      \
         exit(1);                             \
@@ -82,6 +89,8 @@ typedef struct {
 /* doesn't really stop, just updates endtimes */
 #define rt_stop(rt)                          \
     if ((time(&(rt.tv2)) == ((time_t)-1))) { \
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         perror("time");                      \
         exit(1);                             \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

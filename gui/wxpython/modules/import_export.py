@@ -489,9 +489,13 @@ class GdalImportDialog(ImportDialog):
             return
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         ext = self.dsnInput.GetFormatExt()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -503,6 +507,9 @@ class GdalImportDialog(ImportDialog):
             elif self.dsnInput.GetType() == "db":
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 idsn = dsn
                 if "PG:" in dsn:
                     idsn = f"{dsn} table={layer}"
@@ -525,10 +532,13 @@ class GdalImportDialog(ImportDialog):
                 if "PG:" in dsn:
                     idsn = f"{dsn} table={layer}"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 if "PG:" in dsn:
                     idsn = f"{dsn} table={layer}"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             else:
                 idsn = dsn
 
@@ -677,17 +687,24 @@ class OgrImportDialog(ImportDialog):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             in {
                 "PostgreSQL",
                 "PostgreSQL/PostGIS",
             }
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             in (
                 "PostgreSQL",
                 "PostgreSQL/PostGIS",
             )
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -698,6 +715,9 @@ class OgrImportDialog(ImportDialog):
                 "PostgreSQL/PostGIS",
             }
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             and "GRASS_VECTOR_OGR" not in os.environ
         ):
             self.popOGR = True

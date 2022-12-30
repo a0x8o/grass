@@ -70,16 +70,22 @@ class LibraryLoader:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             self.access = {"cdecl": ctypes.CDLL(path, self.mode)}
 =======
             self.access = dict(cdecl=ctypes.CDLL(path, self.mode))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             self.access = dict(cdecl=ctypes.CDLL(path, self.mode))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
             self.access = {"cdecl": ctypes.CDLL(path, self.mode)}
 >>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         def get(self, name, calling_convention="cdecl"):
             """Return the given name according to the selected calling convention"""

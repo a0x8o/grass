@@ -1102,6 +1102,7 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?
 =======
 <<<<<<< HEAD
@@ -1501,10 +1502,14 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         # TODO: it is here just to remove old or obsolete behavior of base class
 =======
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 <<<<<<< HEAD
         # TODO: it is here just to remove old or obsolete beavior of base class
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
@@ -1678,6 +1683,7 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 =======
         # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2106,6 +2112,11 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
         # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         # self.grwiz.SwitchEnv('source')
         pass
 
@@ -2638,6 +2649,7 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
         # re-render image on idle
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.resize = gs.clock()
 =======
         self.resize = grass.clock()
@@ -2648,6 +2660,12 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 =======
         self.resize = gs.clock()
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+        self.resize = gs.clock()
+=======
+        self.resize = grass.clock()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         super(MapPanel, self).OnSize(event)
 
     def OnIdle(self, event):
@@ -2746,6 +2764,7 @@ class GCPDisplay(FrameMixin, GCPPanel):
         parent.Layout()
 
 
+<<<<<<< HEAD
 class GCPDisplay(FrameMixin, GCPPanel):
     """Map display for wrapping map panel with frame methods"""
 
@@ -2784,6 +2803,8 @@ class GCPDisplay(FrameMixin, GCPPanel):
         parent.Layout()
 
 
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 class GCPList(ListCtrl, CheckListCtrlMixin, ListCtrlAutoWidthMixin):
     def __init__(
         self,

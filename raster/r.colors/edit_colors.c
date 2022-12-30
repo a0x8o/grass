@@ -473,13 +473,19 @@ int edit_colors(int argc, char **argv, int type, const char *maptype,
              * compatibility */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(), style);
 =======
             G_snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(), style);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             G_snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(), style);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             rule_is_percent = check_percent_rule(path);
             do_scale = 1;
         }
@@ -501,10 +507,15 @@ int edit_colors(int argc, char **argv, int type, const char *maptype,
              * compatibility */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(), rules);
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(), rules);
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             G_snprintf(path, GPATH_MAX, "%s/etc/colors/%s", G_gisbase(), rules);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 

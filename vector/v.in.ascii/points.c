@@ -229,13 +229,19 @@ int points_analyse(FILE *ascii_in, FILE *ascii, char *fs, char *td,
                 } /* if (x or y) */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             } /* PROJECTION_LL */
 =======
             }     /* PROJECTION_LL */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
             }     /* PROJECTION_LL */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             else {
                 if (strlen(tokens[i]) == 0) {
                     if (i == xcol) {

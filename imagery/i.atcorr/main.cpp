@@ -206,6 +206,9 @@ private:
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         struct RBitem rbitem = {};
         /* alt and vis must be in meters */
         rbitem.alt = (alt < 0 ? (int)(alt - 0.5) : (int)(alt + 0.5));
@@ -214,18 +217,25 @@ private:
 =======
         struct RBitem rbitem;
 
+<<<<<<< HEAD
 =======
         struct RBitem rbitem;
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         /* alt and vis must be in meters */
         rbitem.alt = (alt < 0 ? (int)(alt - 0.5) : (int)(alt + 0.5));
         rbitem.vis = (int)(vis + 0.5);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         return rbitem;
     }
 

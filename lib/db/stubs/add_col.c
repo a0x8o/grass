@@ -72,6 +72,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_add_column(dbString *tableName, dbColumn *column)
 =======
 <<<<<<< HEAD
@@ -468,6 +469,8 @@ int db__driver_add_column(dbString *tableName, dbColumn *column)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int db__driver_add_column(dbString *tableName UNUSED, dbColumn *column UNUSED)
 =======
 int db__driver_add_column(dbString *tableName, dbColumn *column)
@@ -640,6 +643,7 @@ int db__driver_add_column(dbString *tableName, dbColumn *column)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1065,6 +1069,11 @@ int db__driver_add_column(dbString *tableName, dbColumn *column)
 int db__driver_add_column(dbString *tableName, dbColumn *column)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int db__driver_add_column(dbString *tableName, dbColumn *column)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     db_procedure_not_implemented("db_add_column");
     return DB_FAILED;

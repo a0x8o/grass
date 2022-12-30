@@ -280,6 +280,7 @@ void gpd_obj(geosurf *gs, gvstyle *style, Point3 pt)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 =======
 <<<<<<< HEAD
@@ -676,6 +677,8 @@ int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast UNUSED)
 =======
 int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
@@ -848,6 +851,7 @@ int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1273,6 +1277,11 @@ int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     float site[4], konst;
     int src, check;
@@ -1369,6 +1378,7 @@ int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
    \return 0 on success
    \return 1 on failure
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1833,6 +1843,8 @@ int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast UNUSED)
 =======
 int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
@@ -2005,6 +2017,7 @@ int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2430,6 +2443,11 @@ int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     float site[4], tz;
     int check;

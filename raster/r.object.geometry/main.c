@@ -24,13 +24,19 @@
 #include <grass/glocale.h>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #include <grass/parson.h>
 
 enum OutputFormat { PLAIN, JSON };
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 /* compare two cell values
  * return 0 if equal, 1 if different */
@@ -53,11 +59,17 @@ int main(int argc, char *argv[])
     struct Option *opt_sep;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     struct Option *fmt_opt;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    struct Option *fmt_opt;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     struct Flag *flag_m;
     char *sep;
     FILE *out_fp;
@@ -74,6 +86,9 @@ int main(int argc, char *argv[])
     int n_objects;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     int planimetric = 0, compute_areas = 0;
     struct Cell_head cellhd;
 
@@ -87,11 +102,14 @@ int main(int argc, char *argv[])
     struct Cell_head cellhd;
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     int planimetric, compute_areas;
     struct Cell_head cellhd;
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     G_gisinit(argv[0]);
 
     /* Define the different options */
@@ -117,19 +135,28 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     fmt_opt = G_define_standard_option(G_OPT_F_FORMAT);
     fmt_opt->guisection = _("Print");
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     /* parse options */
     if (G_parser(argc, argv))
         exit(EXIT_FAILURE);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (strcmp(fmt_opt->answer, "json") == 0) {
         format = JSON;
         root_value = json_value_init_array();
@@ -141,8 +168,11 @@ int main(int argc, char *argv[])
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     sep = G_option_to_separator(opt_sep);
     in_fd = Rast_open_old(opt_in->answer, "");
 
@@ -353,6 +383,9 @@ int main(int argc, char *argv[])
     G_message(_("Writing output"));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (format == PLAIN) {
         /* print table */
         fprintf(out_fp, "cat%s", sep);
@@ -366,8 +399,11 @@ int main(int argc, char *argv[])
         fprintf(out_fp, "\n");
     }
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     /* print table */
     fprintf(out_fp, "cat%s", sep);
     fprintf(out_fp, "area%s", sep);
@@ -379,9 +415,13 @@ int main(int argc, char *argv[])
     fprintf(out_fp, "mean_y");
     fprintf(out_fp, "\n");
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     /* print table body */
     for (i = 0; i < n_objects; i++) {
@@ -392,6 +432,9 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         double compact_square =
             4 * sqrt(obj_geos[i].area) / obj_geos[i].perimeter;
         double compact_circle =
@@ -429,8 +472,11 @@ int main(int argc, char *argv[])
             break;
         }
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         fprintf(out_fp, "%d%s", min + i, sep);
         fprintf(out_fp, "%f%s", obj_geos[i].area, sep);
         fprintf(out_fp, "%f%s", obj_geos[i].perimeter, sep);
@@ -448,9 +494,13 @@ int main(int argc, char *argv[])
         fprintf(out_fp, "%f%s", obj_geos[i].x / obj_geos[i].num, sep);
         fprintf(out_fp, "%f", obj_geos[i].y / obj_geos[i].num);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         /* object id: i + min */
 
         /* TODO */
@@ -467,6 +517,9 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         switch (format) {
         case PLAIN:
             fprintf(out_fp, "\n");
@@ -491,10 +544,13 @@ int main(int argc, char *argv[])
         fprintf(out_fp, "\n");
     }
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         fprintf(out_fp, "\n");
     }
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (out_fp != stdout)
         fclose(out_fp);
 

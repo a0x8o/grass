@@ -35,16 +35,22 @@ class SemanticLabelReader:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         self.config = {}
 =======
         self.config = dict()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         self.config = dict()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
         self.config = {}
 >>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         for json_file in self._json_files:
             try:
                 with open(json_file) as fd:
@@ -152,13 +158,19 @@ class SemanticLabelReader:
                             self._print_label_extended(iband, item["bands"])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 else:  # noqa: PLR5501
 =======
                 else:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 else:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     # basic information only
                     if band:
                         self._print_label(
@@ -203,13 +215,19 @@ class SemanticLabelReader:
                     and band.upper()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                     in (x.upper() for x in config[root]["bands"].keys())
 =======
                     in map(lambda x: x.upper(), config[root]["bands"].keys())
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                     in map(lambda x: x.upper(), config[root]["bands"].keys())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 ):
                     return filename
 

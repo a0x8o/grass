@@ -345,6 +345,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * parts, so that if each line part would be processed separetely, it could
 =======
 <<<<<<< HEAD
@@ -741,6 +742,8 @@ int main(int argc, char **argv)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
      * parts, so that if each line part would be processed separately, it could
 =======
      * parts, so that if each line part would be processed separetely, it could
@@ -913,6 +916,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1338,6 +1342,11 @@ int main(int argc, char **argv)
      * parts, so that if each line part would be processed separetely, it could
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+     * parts, so that if each line part would be processed separetely, it could
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
      * be attached to more parts, it is better to process always whole line
      * feature (all parts) of one id at the same time, and attache mileposts
      * always to nearest one */
@@ -1739,6 +1748,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* Go thourough all attached MPs and fill in info about MPs to 'lines'
 =======
 <<<<<<< HEAD
@@ -2135,6 +2145,8 @@ int main(int argc, char **argv)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         /* Go thorough all attached MPs and fill in info about MPs to 'lines'
 =======
         /* Go thourough all attached MPs and fill in info about MPs to 'lines'
@@ -2307,6 +2319,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2732,6 +2745,11 @@ int main(int argc, char **argv)
         /* Go thourough all attached MPs and fill in info about MPs to 'lines'
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        /* Go thourough all attached MPs and fill in info about MPs to 'lines'
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
          * table */
         last = -1;
         for (j = 0; j < nmposts; j++) {

@@ -358,9 +358,13 @@ GEOSCoordSequence *V1_read_line_geos(struct Map_info *Map, long offset,
     pseq = GEOSCoordSeq_create(n_points, (Map->head.with_z) ? 3 : 2);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     x = (double *)G_malloc(n_points * sizeof(double));
     y = (double *)G_malloc(n_points * sizeof(double));
     if (Map->head.with_z)
@@ -385,9 +389,13 @@ GEOSCoordSequence *V1_read_line_geos(struct Map_info *Map, long offset,
         if (0 >= dig__fread_port_D(z, n_points, &(Map->dig_fp)))
             return NULL; /* end of file */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     pseq = GEOSCoordSeq_create(n_points, (Map->head.with_z) ? 3 : 2);
@@ -403,11 +411,17 @@ GEOSCoordSequence *V1_read_line_geos(struct Map_info *Map, long offset,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 free_return:
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+free_return:
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     G_free((void *)x);
     G_free((void *)y);
     if (z)

@@ -24,12 +24,17 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define EDGE      ((wsize - 1) / 2) /* Number of rows/cols that make up the */
                                     /* 'blank' edge around raster.          */
 #define MAX_WSIZE 499               /* Maximum dimensions of window.        */
@@ -37,8 +42,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 #define EDGE ((wsize-1)/2)	/* Number of rows/cols that make up the */
 				/* 'blank' edge around raster.          */
@@ -52,6 +60,7 @@
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -62,6 +71,8 @@
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
 >>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #define RAD2DEG   M_R2D
 #define DEG2RAD   M_D2R

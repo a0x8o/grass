@@ -102,6 +102,7 @@ static int merge_lists(struct ilist *alist, struct ilist *blist);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \param layer layer number
 =======
 <<<<<<< HEAD
@@ -498,6 +499,8 @@ static int merge_lists(struct ilist *alist, struct ilist *blist);
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    \param layer layer number (unused)
 =======
    \param layer layer number
@@ -670,6 +673,7 @@ static int merge_lists(struct ilist *alist, struct ilist *blist);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1095,12 +1099,18 @@ static int merge_lists(struct ilist *alist, struct ilist *blist);
    \param layer layer number
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+   \param layer layer number
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
    \param thresh threshold value (< 0 for 'shorter', > 0 for 'longer')
    \param query query (length, dangle, ...)
    \param[in,out] List list of selected features
 
    \return number of selected primitives
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1565,6 +1575,8 @@ int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int Vedit_select_by_query(struct Map_info *Map, int type, int layer UNUSED,
 =======
 int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
@@ -1737,6 +1749,7 @@ int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2162,6 +2175,11 @@ int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
 int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vedit_select_by_query(struct Map_info *Map, int type, int layer,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                           double thresh, int query, struct ilist *List)
 {
     int num, line, i;

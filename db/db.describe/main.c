@@ -85,14 +85,20 @@ int main(int argc, char **argv)
     if (!parms.printcolnames)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         print_table_definition(driver, table, parms.format, root_object,
                                cols_array);
 =======
         print_table_definition(driver, table);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         print_table_definition(driver, table);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     else {
         ncols = db_get_table_number_of_columns(table);
 
@@ -102,6 +108,9 @@ int main(int argc, char **argv)
         nrows = db_get_table_number_of_rows(driver, &stmt);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         switch (parms.format) {
         case PLAIN:
@@ -152,8 +161,11 @@ int main(int argc, char **argv)
         json_free_serialized_string(serialized_string);
         json_value_free(root_value);
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         fprintf(stdout, "ncols: %d\n", ncols);
         fprintf(stdout, "nrows: %d\n", nrows);
         for (col = 0; col < ncols; col++) {
@@ -164,9 +176,13 @@ int main(int argc, char **argv)
                     db_get_column_length(column));
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     db_close_database(driver);
@@ -203,13 +219,19 @@ static void parse_command_line(int argc, char **argv)
         database->answer = (char *)db;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     format_opt = G_define_standard_option(G_OPT_F_FORMAT);
     format_opt->guisection = _("Print");
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     /* Set description */
     module = G_define_module();

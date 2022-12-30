@@ -49,6 +49,9 @@ FLAG
 #define FLAG_UNSET(flags, row, col) \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     (flags)->array[(row)][(col) >> 3] &= ~(1 << ((col) & 7))
 
 #define FLAG_SET(flags, row, col) \
@@ -65,6 +68,7 @@ FLAG
 #define FLAG_GET(flags, row, col) \
     (flags)->array[(row)][(col) >> 3] & (1 << ((col)&7))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     (flags)->array[(row)][(col) >> 3] &= ~(1 << ((col)&7))
 
@@ -74,6 +78,8 @@ FLAG
 #define FLAG_GET(flags, row, col) \
     (flags)->array[(row)][(col) >> 3] & (1 << ((col)&7))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 /* flag.c */
 FLAG *flag_create(int, int);

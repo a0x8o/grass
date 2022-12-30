@@ -38,8 +38,11 @@ void Init(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 340c6b9719 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     char mask_name[GNAME_MAX];
     char mask_mapset[GMAPSET_MAX];
     if (Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL)) {
@@ -66,6 +69,7 @@ void Init(void)
         FDM = -1;
     }
     else {
+<<<<<<< HEAD
 =======
     if (NULL == G_find_file("cell", "MASK", G_mapset())) {
         MapCount = Rs * Cs;
@@ -76,6 +80,9 @@ void Init(void)
         FDM = Rast_open_old("MASK", G_mapset());
 =======
 >>>>>>> 340c6b9719 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
+=======
+        FDM = Rast_open_old("MASK", G_mapset());
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         {
             MapCount = 0;
             CellBuffer = Rast_allocate_c_buf();
@@ -88,6 +95,7 @@ void Init(void)
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -95,6 +103,9 @@ void Init(void)
     else {
         MapCount = Rs * Cs;
         FDM = -1;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     }
 
     if (Uniform->answer)
@@ -146,13 +157,19 @@ void Init(void)
         } /* /for */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     } /* /else */
 =======
     }     /* /else */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     }     /* /else */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     CellBuffer = Rast_allocate_c_buf();
     CatInfo.NumValue = (int *)G_malloc(CatInfo.NumCat * sizeof(int));

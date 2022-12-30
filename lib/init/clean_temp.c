@@ -60,16 +60,22 @@ void clean_dir(const char *pathname, uid_t uid, pid_t pid, time_t now,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         if ((pathlen = snprintf(buf, BUF_MAX, "%s/%s", pathname,
                                 cur_entry->d_name)) >= BUF_MAX)
 =======
         if ((pathlen = G_snprintf(buf, BUF_MAX, "%s/%s", pathname,
                                   cur_entry->d_name)) >= BUF_MAX)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         if ((pathlen = G_snprintf(buf, BUF_MAX, "%s/%s", pathname,
                                   cur_entry->d_name)) >= BUF_MAX)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             G_fatal_error("clean_temp: exceeded maximum pathname length %d, "
                           "got %d, shouldn't happen",
                           BUF_MAX, pathlen);

@@ -107,23 +107,33 @@ int IL_interp_segments_2d_parallel(
     G_message(_("Starting parallel work"));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #pragma omp parallel firstprivate(                                            \
         tid, i, j, zmin, zmax, tree, totsegm, offset1, dnorm, smseg, ertot,   \
             params, info, all_leafs, bitmask, b, indx, matrix, data_local, A) \
     shared(cursegm, threads, some_thread_failed, zminac, zmaxac, gmin, gmax,  \
                c1min, c1max, c2min, c2max) default(none)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #pragma omp parallel firstprivate(                                           \
     tid, i, j, zmin, zmax, tree, totsegm, offset1, dnorm, smseg, ertot,      \
     params, info, all_leafs, bitmask, b, indx, matrix, data_local, A)        \
     shared(cursegm, threads, some_thread_failed, zminac, zmaxac, gmin, gmax, \
            c1min, c1max, c2min, c2max) default(none)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     {
 #pragma omp for schedule(dynamic)
         for (i_cnt = 0; i_cnt < totsegm; i_cnt++) {
@@ -149,9 +159,13 @@ int IL_interp_segments_2d_parallel(
             int m_skip, skip_index, k, segtest;
             double xx, yy /*, zz */;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
             // struct quaddata *data_local;
 
@@ -375,9 +389,13 @@ int IL_interp_segments_2d_parallel(
                              data_local[tid]->y_orig + params->y_orig;
                         /* zz = point[skip_index].z; */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                         if (xx >= data_local[tid]->x_orig + params->x_orig &&
                             xx <= data_local[tid]->xmax + params->x_orig &&
                             yy >= data_local[tid]->y_orig + params->y_orig &&
@@ -394,6 +412,9 @@ int IL_interp_segments_2d_parallel(
                             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
                             /* segment area test for cv */
                             if (/* params */
@@ -424,8 +445,11 @@ int IL_interp_segments_2d_parallel(
                         target_point.z = data_local[tid]->points[point_index].z;
                     }
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                         } /* segment area test */
                     }
                     if (!params->cv) {
@@ -471,6 +495,9 @@ int IL_interp_segments_2d_parallel(
                     }
                 } /*end of cv loop */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
                     /* x, y, z is required input, while xmm, ymm, err output*/

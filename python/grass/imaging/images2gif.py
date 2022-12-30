@@ -333,6 +333,7 @@ class GifWriter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -650,6 +651,8 @@ class GifWriter:
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             loops = 2**16 - 1
 =======
 <<<<<<< HEAD
@@ -745,6 +748,7 @@ class GifWriter:
 =======
             loops = 2**16 - 1
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1637,6 +1641,11 @@ class GifWriter:
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            loops = 2**16 - 1
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             # bb = ""
             # application extension should not be used
             # (the extension interprets zero loops

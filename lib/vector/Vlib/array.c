@@ -144,6 +144,7 @@ struct varray *Vect_new_varray(int size)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
 =======
 <<<<<<< HEAD
@@ -540,6 +541,8 @@ int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int Vect_set_varray_from_cat_string(struct Map_info *Map, int field,
 =======
 int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
@@ -712,6 +715,7 @@ int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1137,6 +1141,11 @@ int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
 int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                     const char *cstring, int type, int value,
                                     struct varray *varray)
 {
@@ -1181,6 +1190,7 @@ int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
    \return number of items set
    \return -1 on error
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1645,6 +1655,8 @@ int Vect_set_varray_from_cat_list(const struct Map_info *Map, int field,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int Vect_set_varray_from_cat_list(struct Map_info *Map, int field,
 =======
 int Vect_set_varray_from_cat_list(const struct Map_info *Map, int field,
@@ -1817,6 +1829,7 @@ int Vect_set_varray_from_cat_list(const struct Map_info *Map, int field,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2242,6 +2255,11 @@ int Vect_set_varray_from_cat_list(const struct Map_info *Map, int field,
 int Vect_set_varray_from_cat_list(const struct Map_info *Map, int field,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vect_set_varray_from_cat_list(const struct Map_info *Map, int field,
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                   struct cat_list *clist, int type, int value,
                                   struct varray *varray)
 {
@@ -2427,6 +2445,7 @@ static int in_array(int *cats, size_t ncats, int cat)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_set_varray_from_db(const struct Map_info *Map, int field,
                             const char *where, int type, int value,
                             struct varray *varray)
@@ -2738,6 +2757,8 @@ int Vect_set_varray_from_db(const struct Map_info *Map, int field,
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int Vect_set_varray_from_db(struct Map_info *Map, int field, const char *where,
                             int type, int value, struct varray *varray)
 =======
@@ -3096,6 +3117,7 @@ int Vect_set_varray_from_db(const struct Map_info *Map, int field,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -3217,10 +3239,14 @@ int Vect_set_varray_from_db(struct Map_info *Map, int field, const char *where,
                             int type, int value, struct varray *varray)
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 int Vect_set_varray_from_db(const struct Map_info *Map, int field,
                             const char *where, int type, int value,
                             struct varray *varray)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3491,6 +3517,8 @@ int Vect_set_varray_from_db(const struct Map_info *Map, int field,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int i, n, c, centr, *cats;
     int ncats;

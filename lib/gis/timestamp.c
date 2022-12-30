@@ -81,11 +81,17 @@
 #include <unistd.h>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #include <grass/gis.h>
 #include <grass/vect/dig_defines.h>
 #include <grass/glocale.h>
@@ -435,10 +441,15 @@ int G_has_vector_timestamp(const char *name, const char *layer,
     if (layer != NULL)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     else
@@ -483,10 +494,15 @@ int G_read_vector_timestamp(const char *name, const char *layer,
     if (layer != NULL)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     else
@@ -535,10 +551,15 @@ int G_write_vector_timestamp(const char *name, const char *layer,
     if (layer != NULL)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     else
@@ -585,10 +606,15 @@ int G_remove_vector_timestamp(const char *name, const char *layer)
     if (layer)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         G_snprintf(ele, GNAME_MAX, "%s_%s", GV_TIMESTAMP_ELEMENT, layer);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     else

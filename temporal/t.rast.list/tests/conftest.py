@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import os
 <<<<<<< HEAD
 =======
@@ -10,6 +11,11 @@ import os
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+=======
+import os
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 from datetime import datetime
 from types import SimpleNamespace
 
@@ -29,6 +35,9 @@ def space_time_raster_dataset(tmp_path_factory):
     gs.core._create_location_xy(tmp_path, location)  # pylint: disable=protected-access
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     with gs.setup.init(tmp_path / location, env=os.environ.copy()) as session:
         gs.run_command(
             "g.region",
@@ -47,8 +56,11 @@ def space_time_raster_dataset(tmp_path_factory):
         for name, value in zip(names, max_values):
             gs.mapcalc(f"{name} = rand(0, {value})", seed=1, env=session.env)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     with gs.setup.init(tmp_path / location):
         gs.run_command("g.region", s=0, n=80, w=0, e=120, b=0, t=50, res=10, res3=10)
         names = [f"precipitation_{i}" for i in range(1, 7)]
@@ -56,9 +68,13 @@ def space_time_raster_dataset(tmp_path_factory):
         for name, value in zip(names, max_values):
             gs.mapcalc(f"{name} = rand(0, {value})", seed=1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         dataset_name = "precipitation"
         gs.run_command(
             "t.create",
@@ -69,11 +85,17 @@ def space_time_raster_dataset(tmp_path_factory):
             description="Random series generated for tests",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             env=session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            env=session.env,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         )
         dataset_file = tmp_path / "names.txt"
         dataset_file.write_text("\n".join(names))
@@ -87,15 +109,22 @@ def space_time_raster_dataset(tmp_path_factory):
             increment="1 month",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             env=session.env,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            env=session.env,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         )
         times = [datetime(2001, i, 1) for i in range(1, len(names) + 1)]
         full_names = [f"{name}@PERMANENT" for name in names]
         yield SimpleNamespace(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             session=session,
@@ -103,10 +132,16 @@ def space_time_raster_dataset(tmp_path_factory):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            session=session,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             name=dataset_name,
             raster_names=names,
             full_raster_names=full_names,
             start_times=times,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             env=session,
@@ -114,4 +149,9 @@ def space_time_raster_dataset(tmp_path_factory):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            env=session,
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         )

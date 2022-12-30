@@ -51,13 +51,19 @@ int Vect_read_colors(const char *name, const char *mapset,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     if (G_strlcpy(xname, name, sizeof(xname)) >= sizeof(xname)) {
         G_warning(_("Vector map name <%s> is too long"), name);
         return -1;
     }
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     strcpy(xname, name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     mapset = G_find_vector(xname, mapset);
@@ -70,26 +76,38 @@ int Vect_read_colors(const char *name, const char *mapset,
         /* look for the regular color table */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         (void)snprintf(buf, sizeof(buf), "%s/%s", GV_DIRECTORY, name);
 =======
         sprintf(buf, "%s/%s", GV_DIRECTORY, name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         sprintf(buf, "%s/%s", GV_DIRECTORY, name);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         ret = Rast__read_colors(buf, GV_COLR_ELEMENT, mapset, colors);
     }
     else {
         /* look for secondary color table in current mapset */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         (void)snprintf(buf, sizeof(buf), "%s/%s", GV_COLR2_DIRECTORY, mapset);
 =======
         sprintf(buf, "%s/%s", GV_COLR2_DIRECTORY, mapset);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         sprintf(buf, "%s/%s", GV_COLR2_DIRECTORY, mapset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         ret = Rast__read_colors(buf, name, G_mapset(), colors);
     }
     if (ret == -2)

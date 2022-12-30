@@ -102,11 +102,15 @@ int Vedit_split_lines(struct Map_info *Map, struct ilist *List,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 nlines_modified = -1;
                 goto free_exit;
 =======
                 return -1;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 return -1;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -114,6 +118,8 @@ int Vedit_split_lines(struct Map_info *Map, struct ilist *List,
                 nlines_modified = -1;
                 goto free_exit;
 >>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             }
             if (List_updated)
                 Vect_list_append(List_updated, newline);
@@ -133,11 +139,15 @@ int Vedit_split_lines(struct Map_info *Map, struct ilist *List,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                 nlines_modified = -1;
                 goto free_exit;
 =======
                 return -1;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                 return -1;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -145,6 +155,8 @@ int Vedit_split_lines(struct Map_info *Map, struct ilist *List,
                 nlines_modified = -1;
                 goto free_exit;
 >>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
             }
             if (List_updated)
                 Vect_list_append(List_updated, newline);
@@ -153,13 +165,19 @@ int Vedit_split_lines(struct Map_info *Map, struct ilist *List,
         } /* for each bounding box */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     } /* for each selected line */
 =======
     }     /* for each selected line */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
     }     /* for each selected line */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 free_exit:
     Vect_destroy_line_struct(Points);
@@ -259,6 +277,7 @@ int Vedit_connect_lines(struct Map_info *Map, struct ilist *List, double thresh)
 }
 
 int connect_lines(struct Map_info *Map, int first, int line_from, int line_to,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -723,6 +742,8 @@ int connect_lines(struct Map_info *Map, int first, int line_from, int line_to,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                   double thresh, struct ilist *List UNUSED)
 =======
                   double thresh, struct ilist *List)
@@ -895,6 +916,7 @@ int connect_lines(struct Map_info *Map, int first, int line_from, int line_to,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1320,6 +1342,11 @@ int connect_lines(struct Map_info *Map, int first, int line_from, int line_to,
                   double thresh, struct ilist *List)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                  double thresh, struct ilist *List)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 {
     int line_new;
     int type_from, type_to;

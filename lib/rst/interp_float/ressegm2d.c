@@ -192,13 +192,19 @@ int IL_resample_interp_segments_2d(
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         params->check_points(params, data, b, ertot, zmin, *dnorm, &triple);
 =======
         params->check_points(params, data, b, ertot, zmin, *dnorm, triple);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         params->check_points(params, data, b, ertot, zmin, *dnorm, triple);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
         if (params->grid_calc(params, data, bitmask, zmin, zmax, zminac, zmaxac,
                               gmin, gmax, c1min, c1max, c2min, c2max, ertot, b,
@@ -391,13 +397,19 @@ int IL_resample_interp_segments_2d(
                     params->check_points(params, data, b, ertot, zmin, *dnorm,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                          &triple);
 =======
                                          triple);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                                          triple);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
                     if (params->grid_calc(params, data, bitmask, zmin, zmax,
                                           zminac, zmaxac, gmin, gmax, c1min,
@@ -442,13 +454,19 @@ int IL_resample_interp_segments_2d(
                     params->check_points(params, data, b, ertot, zmin, *dnorm,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
                                          &triple);
 =======
                                          triple);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
                                          triple);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
                     if (params->grid_calc(params, data, bitmask, zmin, zmax,
                                           zminac, zmaxac, gmin, gmax, c1min,

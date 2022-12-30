@@ -4,6 +4,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 #define SHORT    short
 =======
 #define         SHORT           short
@@ -11,6 +14,7 @@
 >>>>>>> 9824e0155a (libgis: Enable the C99 bool type (#1567))
 =======
 >>>>>>> d80ad342af (libgis: Enable the C99 bool type (#1567))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 #define SHORT    short
@@ -26,6 +30,11 @@
 >>>>>>> 04884a7159 (libgis: Enable the C99 bool type (#1567))
 =======
 >>>>>>> a102657b5b (libgis: Enable the C99 bool type (#1567))
+=======
+=======
+#define SHORT    short
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
 #define MELEMENT struct Melement
 MELEMENT

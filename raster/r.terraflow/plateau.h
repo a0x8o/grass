@@ -39,6 +39,9 @@ public:
                 cclabel_type gcclabel = LABEL_UNDEF)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         : ijBaseType(gi, gj), cclabel(gcclabel), dir(gdir), valid(true) {};
 
     plateauType() : valid(false) {};
@@ -47,11 +50,14 @@ public:
 
     plateauType() : valid(false){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         : ijBaseType(gi, gj), cclabel(gcclabel), dir(gdir), valid(true){};
 
     plateauType() : valid(false){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     ~plateauType() {}
 
@@ -60,6 +66,7 @@ public:
     static char *printLabel(const plateauType &p)
     {
         static char buf[8];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -812,6 +819,8 @@ public:
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         snprintf(buf, sizeof(buf), CCLABEL_FMT, p.cclabel);
 =======
 <<<<<<< HEAD
@@ -1006,6 +1015,7 @@ public:
         snprintf(buf, sizeof(buf), CCLABEL_FMT, p.cclabel);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1987,6 +1997,11 @@ public:
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+        sprintf(buf, CCLABEL_FMT, p.cclabel);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         return buf;
     }
 
@@ -2037,13 +2052,19 @@ public:
         : iMin(dimension_type_max), iMax(0), jMin(dimension_type_max), jMax(0),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
           size(0), label(l), hasSpill(false) {};
 =======
           size(0), label(l), hasSpill(false){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
           size(0), label(l), hasSpill(false){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     void add(plateauType &pt)
     {

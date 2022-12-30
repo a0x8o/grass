@@ -212,6 +212,9 @@ def main():
     new_labels = options["semantic_labels"]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
     quantiles = (
         [float(quant) for quant in options["quantile"].split(",")]
         if options["quantile"]
@@ -222,8 +225,11 @@ def main():
         gs.fatal(_("The method <quantile> requires input in the 'quantile' option."))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 
     # Make sure the temporal database exists
     tgis.init()

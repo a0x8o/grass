@@ -4,6 +4,9 @@ aghisla,aghisla
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 annakrat,petrasovaa
 barton,cmbarton
 benducke,benducke
@@ -58,14 +61,18 @@ william,kyngchaos
 ychemin,YannChemin
 zarch,zarch
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 benjamin,benducke
 benducke,benducke
 bernhard,bernhardreiter
 cnielsen,cdwren
 pvanbosgeo,ecodiv
 radim,blazek
+<<<<<<< HEAD
 =======
 annakrat,petrasovaa
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
@@ -130,3 +137,53 @@ isaacullah,isaacullah
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+barton,cmbarton
+cmbarton,cmbarton
+michael,cmbarton
+mic,zwischenloesung
+maciej,czka
+msieczka,czka
+clements,glynnc
+glynn,glynnc
+hamish,HamishB
+hellik,hellik
+helena,hmitaso
+soeren,huhabla
+huhabla,huhabla
+cho,HuidaeCho
+hcho,HuidaeCho
+jachym,jachym
+cepicky,jachym
+william,kyngchaos
+kyngchaos,kyngchaos
+landa,landam
+martinl,landam
+ltoma,lauratoma
+lucadelu,lucadelu
+madi,madi
+mmetz,metzm
+mlennert,mlennert
+moritz,mlennert
+markus,neteler
+neteler,neteler
+nikosa,NikosAlexandris
+sbl,ninsbl
+turek,ostepok
+paulo,paulomarcondes
+annakrat,petrasovaa
+rantolin,rantolin
+robertoa,rantolin
+sholl,sholl
+stephan,sholl
+veroandreo,veroandreo
+frankw,warmerdam
+warmerdam,warmerdam
+wenzeslaus,wenzeslaus
+chemin,YannChemin
+ychemin,YannChemin
+zarch,zarch
+ullah,isaacullah
+isaacullah,isaacullah
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
