@@ -1614,6 +1614,7 @@ static int format(struct Map_info *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1805,6 +1806,8 @@ static int format(struct Map_info *map)
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -2124,7 +2127,12 @@ static int format(struct Map_info *map)
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 #ifdef HAVE_OGR
                                                      ,
@@ -2141,6 +2149,7 @@ static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 #else
                                                      ,
                                                      {clo_dummy, format}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2187,6 +2196,8 @@ static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3348,6 +3359,9 @@ static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 static int (*Close_array[][2])() = {{clo_dummy, V1_close_nat}
 #ifdef HAVE_OGR
                                     ,
@@ -3364,6 +3378,7 @@ static int (*Close_array[][2])() = {{clo_dummy, V1_close_nat}
 #else
                                     ,
                                     {clo_dummy, format}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3776,7 +3791,13 @@ static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 #endif
 };
 

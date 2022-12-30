@@ -90,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -212,6 +213,8 @@
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1073,7 +1076,18 @@ FILE *I_fopen_group_init_new();
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+FILE *I_fopen_group_init_old(char *);
+FILE *I_fopen_group_init_new(char *);
+=======
+FILE *I_fopen_group_init_old();
+FILE *I_fopen_group_init_new();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 
 #define INITIAL_FILE "INIT_EXP"
 

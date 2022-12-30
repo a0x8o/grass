@@ -169,6 +169,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -318,6 +319,8 @@ public:
 >>>>>>> 482cd79ba4 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -554,6 +557,8 @@ public:
 >>>>>>> 614639d14c (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
     /* get specified neighbour di,dj in {-1,0,1} */
     T get(short di, short dj) const
     {
@@ -589,6 +594,7 @@ public:
 
     /***************************************************************/
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1061,6 +1067,8 @@ public:
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
     genericWindow(const genericWindow<T> &win)
     {
         for (int i = 0; i < 9; i++) {
@@ -1094,6 +1102,7 @@ public:
     }
 
     /***************************************************************/
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
@@ -1101,6 +1110,8 @@ public:
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
     /* set specified neighbour di,dj in {-1,0,1} */
     void set(int di, int dj, T val)
     {
@@ -1110,6 +1121,7 @@ public:
     }
 
     /***************************************************************/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2926,7 +2938,13 @@ public:
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
     /*  multiply all elements by a scalar */
     void scalarMultiply(T mult)
     {

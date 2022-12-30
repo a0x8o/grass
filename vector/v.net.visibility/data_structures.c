@@ -97,6 +97,7 @@ void init_stack(int size)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -187,6 +188,8 @@ void init_stack(int size)
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -598,7 +601,14 @@ int cmp_points(const void *v1, const void *v2, void *param UNUSED)
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int cmp_points(const void *v1, const void *v2, void *param UNUSED)
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 int cmp_points(const void *v1, const void *v2, void *param)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {

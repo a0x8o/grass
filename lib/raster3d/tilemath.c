@@ -432,6 +432,7 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -563,6 +564,8 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 >>>>>>> 7ef6112573 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -831,7 +834,12 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
         if (maxSize < 0 || tileSize <= (unsigned int)maxSize * 1024)
 =======
 <<<<<<< HEAD
@@ -911,6 +919,7 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 >>>>>>> osgeo-main
         if (tileSize <= maxSize * 1024)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1679,7 +1688,12 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
             break;
 
         /* Compute weighted tile sizes. Take care that the tile size is computed

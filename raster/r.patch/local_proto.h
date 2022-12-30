@@ -52,6 +52,7 @@ int do_patch(void *result, void *, struct Cell_stats *, int, RASTER_MAP_TYPE,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -231,6 +232,8 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -319,6 +322,11 @@ int support(char **, struct Cell_stats *, int, struct Categories *, int *,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 /* support.c */
 int support(char **, struct Cell_stats *, int, struct Categories *, int *,
             struct Colors *, int *, RASTER_MAP_TYPE);

@@ -130,6 +130,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         _("Use geodesic calculation for longitude-latitude locations");
 =======
 <<<<<<< HEAD
@@ -239,6 +240,8 @@ int main(int argc, char *argv[])
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -398,7 +401,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
         _("Use geodesic calculation for longitude-latitude projects");
 =======
         _("Use geodesic calculation for longitude-latitude locations");
@@ -449,6 +457,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -500,6 +509,8 @@ int main(int argc, char *argv[])
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -823,7 +834,12 @@ int main(int argc, char *argv[])
         _("Use geodesic calculation for longitude-latitude locations");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 
     /* options and flags parser */
     if (G_parser(argc, argv))

@@ -193,6 +193,7 @@ static int write_ln(struct COOR *begin,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     struct COOR *end, /* start and end point of line */
 =======
 <<<<<<< HEAD
@@ -302,6 +303,8 @@ static int write_ln(struct COOR *begin,
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -461,7 +464,12 @@ static int write_ln(struct COOR *begin,
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
                     struct COOR *end UNUSED, /* start and end point of line */
 =======
                     struct COOR *end, /* start and end point of line */
@@ -512,6 +520,7 @@ static int write_ln(struct COOR *begin,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -563,6 +572,8 @@ static int write_ln(struct COOR *begin,
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -886,7 +897,12 @@ static int write_ln(struct COOR *begin,
                     struct COOR *end, /* start and end point of line */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
                     int n)
 { /* number of points to write */
     static struct line_pnts *points = NULL;

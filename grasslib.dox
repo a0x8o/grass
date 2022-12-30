@@ -66,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -762,7 +763,12 @@
 =======
 =======
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
      * updated 8/2005, 2006-2024
 =======
      * updated 8/2005, 2006-2008, 2010-2011, 2017, 2018, 2019, 2021
@@ -1255,6 +1261,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -1306,6 +1313,8 @@
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 =======
@@ -1964,7 +1973,12 @@
      * updated 8/2005, 2006-2008, 2010-2011, 2017, 2018, 2019, 2021
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
   -->
 
 <a href="https://grass.osgeo.org">GRASS GIS</a> (<b>Geographic
@@ -2029,6 +2043,7 @@ pages.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2503,7 +2518,12 @@ pages.
 =======
 =======
 >>>>>>> 385c333a86 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> b13ee245c1 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 &copy; 2000-2024 by the GRASS Development Team
 =======
 &copy; 2000-2022 by the GRASS Development Team
@@ -2555,6 +2575,7 @@ pages.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -2632,6 +2653,8 @@ pages.
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -3307,7 +3330,12 @@ pages.
 &copy; 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 385c333a86 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> b13ee245c1 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 
 This manual is published under <a
 href="http://www.fsf.org/copyleft/fdl.html">GNU Free Documentation
@@ -3411,6 +3439,7 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3606,6 +3635,8 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 2cd2b6c6fa (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -3935,7 +3966,12 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 =======
 =======
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 <!--
   original:
   doc/grass_arch.odg
@@ -4287,6 +4323,7 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fa1b49d230 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -4370,6 +4407,8 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 =======
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> dcd1c3ec53 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> c1e589bfdb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -4398,12 +4437,15 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
 <!--
   original:
   doc/grass_arch.odg
 -->
 \image html "grass_arch.png" "GRASS GIS Architecture"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4517,6 +4559,8 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5075,7 +5119,12 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 =======
 =======
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 
 \section libsOverview Libraries
 
@@ -5176,6 +5225,7 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5311,6 +5361,8 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -5659,6 +5711,8 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
  - Temporal GIS API: See https://grass.osgeo.org/grass-devel/manuals/libpython/temporal_framework.html
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5885,6 +5939,7 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
@@ -5917,6 +5972,8 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -6338,7 +6395,12 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
  - Temporal GIS API: See https://grass.osgeo.org/grass80/manuals/libpython/temporal_framework.html
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 
 \section libs Further libraries
 
@@ -6489,6 +6551,7 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6624,6 +6687,8 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 >>>>>>> e49b9ba256 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -6972,6 +7037,8 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 >>>>>>> e78917837c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
  - python:	See GRASS GIS Python library (https://grass.osgeo.org/grass-devel/manuals/libpython/)
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7198,6 +7265,7 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
@@ -7230,6 +7298,8 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -7651,7 +7721,12 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
  - python:	See GRASS GIS Python library (https://grass.osgeo.org/grass80/manuals/libpython/)
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 
 \subsection projlibs Projection Libraries
 

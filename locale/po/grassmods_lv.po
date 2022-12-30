@@ -92730,6 +92730,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -92800,6 +92801,8 @@ msgstr ""
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -92862,7 +92865,12 @@ msgstr ""
 =======
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 #, fuzzy
 #~ msgid "Name of training vector map"
 #~ msgstr "Vektorkartes nosaukums"

@@ -69,6 +69,7 @@ char *create_pgfile(const char *, const char *, const char *, char **, int,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void check_columns(const struct Map_info *, const char *, const char *,
                    const char *);
 =======
@@ -179,6 +180,8 @@ void check_columns(const struct Map_info *, const char *, const char *,
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -729,6 +732,16 @@ void check_columns(const struct Map_info *, const char *, const char *,
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void check_columns(struct Map_info *, const char *, const char *, const char *);
+=======
+void check_columns(const struct Map_info *, const char *, const char *,
+                   const char *);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 
 #endif /* __LOCAL_PROTO_V_OUT_POSTGIS__ */

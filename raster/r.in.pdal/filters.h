@@ -49,6 +49,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7f57c23d18 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -493,7 +494,12 @@
 =======
 =======
 >>>>>>> 05ebc5df37 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> ff23ff042d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 struct ReturnFilter {
     int filter;
 };
@@ -817,6 +823,9 @@ struct ClassFilter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -864,12 +873,15 @@ struct ClassFilter
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
 struct ReturnFilter {
     int filter;
 };
 
 struct ClassFilter {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -928,6 +940,8 @@ struct ClassFilter {
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -1426,7 +1440,12 @@ struct ClassFilter {
 =======
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 05ebc5df37 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> ff23ff042d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 
     /** NULL terminated list of class numbers represented as string */
     char **str_classes;
@@ -1507,6 +1526,7 @@ int spatial_filter_from_option(struct Option *option, double *xmin,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1604,6 +1624,8 @@ int spatial_filter_from_option(struct Option *option, double *xmin,
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ff23ff042d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -1995,7 +2017,12 @@ int spatial_filter_from_current_region(double *xmin, double *ymin, double *xmax,
 =======
 =======
 >>>>>>> 05ebc5df37 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> ff23ff042d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 int spatial_filter_from_current_region(double *xmin, double *ymin, double *xmax,
                                        double *ymax);
 =======
@@ -2132,6 +2159,7 @@ int spatial_filter_from_current_region(double *xmin, double *ymin,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2152,6 +2180,8 @@ int spatial_filter_from_current_region(double *xmin, double *ymin,
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 int spatial_filter_from_current_region(double *xmin, double *ymin, double *xmax,
                                        double *ymax);
@@ -2174,7 +2204,10 @@ int spatial_filter_from_current_region(double *xmin, double *ymin, double *xmax,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 92f4985d14 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2514,7 +2547,12 @@ int spatial_filter_from_current_region(double *xmin, double *ymin,
 =======
 =======
 >>>>>>> 05ebc5df37 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> ff23ff042d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 
 int range_filter_from_option(struct Option *option, double *min, double *max);
 

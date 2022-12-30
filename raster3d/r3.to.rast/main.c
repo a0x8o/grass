@@ -126,6 +126,7 @@ void fatal_error(void *map, int *fd, int depths,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -257,6 +258,8 @@ void fatal_error(void *map, int *fd, int depths,
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -525,7 +528,12 @@ void fatal_error(void *map, int *fd, int depths,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 void set_params(void);            /*Fill the paramType structure */
 =======
 <<<<<<< HEAD
@@ -605,6 +613,7 @@ void set_params(void);            /*Fill the paramType structure */
 >>>>>>> osgeo-main
 void set_params();                /*Fill the paramType structure */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1373,7 +1382,12 @@ void set_params();                /*Fill the paramType structure */
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 void g3d_to_raster(void *map, RASTER3D_Region region, int *fd, int output_type,
                    int use_coeffs, double coeff_a,
                    double coeff_b);                  /*Write the raster */

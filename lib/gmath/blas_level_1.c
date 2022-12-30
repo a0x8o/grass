@@ -419,6 +419,7 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -634,6 +635,8 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -953,11 +956,17 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 #pragma omp parallel for schedule(static) private(i) reduction(+ : s)
     for (i = 0; i < rows; i++) {
         s += fabs(x[i]);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2294,10 +2303,13 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 =======
 =======
 =======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 #pragma omp parallel for schedule(static) private(i) reduction(+ : s, count)
     for (i = 0; i < rows; i++) {
         s += fabs(x[i]);
         count++;
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
@@ -2356,7 +2368,13 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
     }
 #pragma omp single
     {

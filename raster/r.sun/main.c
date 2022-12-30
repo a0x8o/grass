@@ -851,6 +851,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             G_fatal_error(_("Can't get projection info of current location"));
 
         if ((in_unit_info = G_get_projunits()) == NULL)
@@ -974,6 +975,8 @@ int main(int argc, char *argv[])
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1147,7 +1150,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(_("Can't get projection info of current project"));
 
         if ((in_unit_info = G_get_projunits()) == NULL)
@@ -1475,6 +1483,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "Lat/Lon location"));
 =======
 <<<<<<< HEAD
@@ -1584,6 +1593,8 @@ int main(int argc, char *argv[])
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1743,7 +1754,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
                     "Lat/Lon project"));
 =======
                     "Lat/Lon location"));
@@ -1794,6 +1810,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1845,6 +1862,8 @@ int main(int argc, char *argv[])
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2168,7 +2187,12 @@ int main(int argc, char *argv[])
                     "Lat/Lon location"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
     /* true about longin= when civiltime is used? */
     /* civiltime needs longin= but not latin= for non-LL projections -
        better would be it just use pj_proj() if it needs those?? */
@@ -3093,6 +3117,7 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3191,6 +3216,8 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -3359,7 +3386,12 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
     bool shouldBeBestAM = false;
     bool isBestAM = false;
 =======
@@ -3410,6 +3442,7 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3461,6 +3494,8 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -3750,7 +3785,12 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 
     struct SunGeometryConstDay sunGeom;
     struct SunGeometryVarDay sunVarGeom;
@@ -3882,6 +3922,7 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3894,6 +3935,8 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 #pragma omp parallel firstprivate(                                            \
         q1, tan_lam_l, z1, i, shadowoffset, longitTime, coslat, coslatsq,     \
             latitude, longitude, sin_phi_l, latid_l, sin_u, cos_u, sin_v,     \
@@ -3902,6 +3945,7 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
             beam_rad, insol_time, diff_rad, refl_rad, glob_rad, mapset, per,  \
             decimals, str_step, shouldBeBestAM, isBestAM)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3924,11 +3968,14 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 #pragma omp parallel firstprivate(                                             \
     q1, tan_lam_l, z1, i, shadowoffset, longitTime, coslat, coslatsq,          \
     latitude, longitude, sin_phi_l, latid_l, sin_u, cos_u, sin_v, cos_v, lum,  \
     gridGeom, elevin, aspin, slopein, civiltime, linkein, albedo, latin,       \
     coefbh, coefdh, incidout, longin, horizon, beam_rad, insol_time, diff_rad, \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4089,6 +4136,8 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4247,12 +4296,18 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
     refl_rad, glob_rad, mapset, per, decimals, str_step, shouldBeBestAM,       \
     isBestAM)
 =======
     refl_rad, glob_rad, mapset, per, decimals, str_step)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4396,6 +4451,8 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4643,7 +4700,13 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
         {
 #pragma omp for schedule(dynamic)                                            \
     firstprivate(sunGeom, sunVarGeom, sunSlopeGeom, sunRadVar)               \
@@ -4869,6 +4932,7 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     tan_lam_l = -cos_u * cos_v / q1;
                     sunSlopeGeom.longit_l = atan(tan_lam_l);
                     sunSlopeGeom.lum_C31_l = cos(latid_l) * sunGeom.cosdecl;
@@ -5027,6 +5091,8 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -5235,7 +5301,12 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 
                     if (q1 != 0.0) {
                         tan_lam_l = -cos_u * cos_v / q1;
@@ -5397,6 +5468,7 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5486,6 +5558,8 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -5955,7 +6029,12 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
                 } /* undefs */
             }
         }

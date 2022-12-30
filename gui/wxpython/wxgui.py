@@ -152,6 +152,7 @@ class GMApp(wx.App):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
             single = UserSettings.Get(
@@ -303,6 +304,8 @@ class GMApp(wx.App):
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1da1fea1ab (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -549,13 +552,19 @@ class GMApp(wx.App):
 =======
 =======
 >>>>>>> 9ab8b27ed1 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+<<<<<<< HEAD
 >>>>>>> 1da1fea1ab (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
             single = UserSettings.Get(
                 group="appearance", key="singleWindow", subkey="enabled"
 =======
             single = UserSettings.Get(
                 group="general", key="singleWindow", subkey="enabled"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -691,6 +700,8 @@ class GMApp(wx.App):
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -1016,7 +1027,12 @@ class GMApp(wx.App):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
             )
             if single:
                 from main_window.frame import GMFrame
@@ -1072,6 +1088,7 @@ class GMApp(wx.App):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             mainframe = GMFrame(parent=None, id=wx.ID_ANY, workspace=self.workspaceFile)
             mainframe.Show()
@@ -1185,6 +1202,8 @@ class GMApp(wx.App):
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1348,7 +1367,12 @@ class GMApp(wx.App):
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
             try:
                 mainframe = GMFrame(
                     parent=None, id=wx.ID_ANY, workspace=self.workspaceFile
@@ -1374,6 +1398,7 @@ class GMApp(wx.App):
 
 =======
             from lmgr.frame import GMFrame
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1470,6 +1495,8 @@ class GMApp(wx.App):
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1da1fea1ab (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -1648,7 +1675,14 @@ class GMApp(wx.App):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 
 <<<<<<< HEAD
 =======

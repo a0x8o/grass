@@ -144,6 +144,7 @@ if "%1" == "qthelp" (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -632,7 +633,12 @@ if "%1" == "qthelp" (
 =======
 =======
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\grass_gis.qhcp
 	echo.To view the help file:
 	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\grass_gis.ghc
@@ -870,6 +876,7 @@ if "%1" == "qthelp" (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -956,6 +963,8 @@ if "%1" == "qthelp" (
 =======
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 4202a1e605 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -989,10 +998,13 @@ if "%1" == "qthelp" (
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
 	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\GRASS83Documentation.qhcp
 	echo.To view the help file:
 	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\GRASS83Documentation.ghc
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1048,6 +1060,8 @@ if "%1" == "qthelp" (
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1641,7 +1655,12 @@ if "%1" == "qthelp" (
 =======
 =======
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 52df9f3ae3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 	goto end
 )
 

@@ -61,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -151,6 +152,8 @@
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -582,7 +585,15 @@
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+#include <cinttypes>
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 #include <stdlib.h>
 #include <assert.h>
 #include <stdio.h>
@@ -797,6 +808,7 @@ FLOW_DATASTR *initializePQ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -928,6 +940,8 @@ FLOW_DATASTR *initializePQ()
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1196,7 +1210,12 @@ FLOW_DATASTR *initializePQ()
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
     snprintf(buf, sizeof(buf), "initialized to %.2fMB\n",
              (float)PQ_SIZE / (1 << 20));
 =======
@@ -1294,6 +1313,7 @@ FLOW_DATASTR *initializePQ()
 >>>>>>> osgeo-main
     sprintf(buf, "initialized to %.2fMB\n", (float)PQ_SIZE / (1 << 20));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2048,7 +2068,12 @@ FLOW_DATASTR *initializePQ()
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
     if (stats)
         *stats << buf;
 
@@ -2169,6 +2194,7 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             fprintf(stderr,
                     "sweep: k=%" PRI_OFF_T ": cannot read next item..\n", k);
 =======
@@ -2279,6 +2305,8 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2439,7 +2467,12 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
             fprintf(stderr, "sweep: k=%" PRId64 ": cannot read next item..\n",
                     k);
 =======
@@ -2492,6 +2525,7 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2581,6 +2615,8 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -2906,7 +2942,12 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
             exit(1);
         }
         /* cout << "k=" << k << " prio =" << crtpoint->getPriority() << "\n"; */
@@ -3070,6 +3111,7 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3201,6 +3243,8 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3469,7 +3513,12 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
     snprintf(buf, sizeof(buf), "pqsize = %ld \n", (long)flowpq->size());
 =======
 <<<<<<< HEAD
@@ -3549,6 +3598,7 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 >>>>>>> osgeo-main
     sprintf(buf, "pqsize = %ld \n", (long)flowpq->size());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4317,7 +4367,12 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
     if (stats)
         *stats << buf;
 

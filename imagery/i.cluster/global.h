@@ -84,6 +84,7 @@ extern struct Ref ref;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -181,6 +182,8 @@ extern struct Ref ref;
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -591,7 +594,12 @@ extern char **semantic_labels;
 =======
 =======
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 extern char **semantic_labels;
 =======
 extern char **bandrefs;
@@ -621,6 +629,7 @@ extern char **bandrefs;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1b62444dcb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
@@ -638,6 +647,8 @@ extern char **bandrefs;
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 extern char **semantic_labels;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -999,7 +1010,15 @@ extern char **semantic_labels;
 =======
 =======
 >>>>>>> af0cda6849 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 67d74ea5b0 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+extern char **semantic_labels;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 extern char outsigfile[GNAME_MAX + GMAPSET_MAX];
 extern char *insigfile;
 extern char *reportfile;

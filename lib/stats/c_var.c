@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void c_var(DCELL *result, DCELL *values, int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -160,6 +161,8 @@ void c_var(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -319,7 +322,12 @@ void c_var(DCELL *result, DCELL *values, int n, const void *closure)
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 void c_var(DCELL *result, DCELL *values, int n, const void *closure UNUSED)
 =======
 void c_var(DCELL *result, DCELL *values, int n, const void *closure)
@@ -370,6 +378,7 @@ void c_var(DCELL *result, DCELL *values, int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -421,6 +430,8 @@ void c_var(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -744,7 +755,12 @@ void c_var(DCELL *result, DCELL *values, int n, const void *closure)
 void c_var(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 {
     DCELL sum, ave, sumsq;
     int count;
@@ -833,6 +849,7 @@ void c_var(DCELL *result, DCELL *values, int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void w_var(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -942,6 +959,8 @@ void w_var(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1101,7 +1120,12 @@ void w_var(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 void w_var(DCELL *result, DCELL (*values)[2], int n, const void *closure UNUSED)
 =======
 void w_var(DCELL *result, DCELL (*values)[2], int n, const void *closure)
@@ -1152,6 +1176,7 @@ void w_var(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1203,6 +1228,8 @@ void w_var(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1526,7 +1553,12 @@ void w_var(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 void w_var(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 {
     DCELL sum, ave, sumsq;
     DCELL count;

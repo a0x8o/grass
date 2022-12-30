@@ -71,6 +71,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -168,6 +169,8 @@
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ff23ff042d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -577,7 +580,12 @@
 =======
 =======
 >>>>>>> 05ebc5df37 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> ff23ff042d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
  *
 =======
  *  
@@ -607,6 +615,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 92f4985d14 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
@@ -624,6 +633,8 @@
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ff23ff042d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
  *
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -985,7 +996,15 @@
 =======
 =======
 >>>>>>> 05ebc5df37 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> ff23ff042d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+ *
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
  *   Copyright 2021 by Maris Nartiss, and The GRASS Development Team
  *   Author: Maris Nartiss
  *
@@ -2109,6 +2128,7 @@ extern "C" {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2203,6 +2223,8 @@ extern "C" {
 =======
 >>>>>>> ff23ff042d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -2273,13 +2295,19 @@ extern "C" {
 =======
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 extern "C"
 {
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 extern "C" {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2401,6 +2429,8 @@ extern "C" {
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -2884,7 +2914,12 @@ extern "C"
 {
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 05ebc5df37 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> ff23ff042d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 #include <grass/gis.h>
 #include <grass/glocale.h>
 #include "string_list.h"
@@ -2961,6 +2996,7 @@ extern "C"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3058,6 +3094,8 @@ extern "C"
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ff23ff042d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -3471,6 +3509,8 @@ void get_extent(struct StringList *, double *, double *,
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 05ebc5df37 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 void get_extent(struct StringList *, double *, double *, double *, double *,
                 double *, double *);
 =======
@@ -3498,7 +3538,11 @@ void get_extent(struct StringList *, double *, double *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 92f4985d14 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+<<<<<<< HEAD
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> ff23ff042d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -3553,11 +3597,14 @@ void get_extent(struct StringList *, double *, double *,
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
 void get_extent(struct StringList *, double *, double *, double *, double *,
                 double *, double *);
 <<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3913,7 +3960,12 @@ void get_extent(struct StringList *, double *, double *,
 =======
 =======
 >>>>>>> 05ebc5df37 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> ff23ff042d (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 void print_extent(struct StringList *);
 void print_lasinfo(struct StringList *);
 

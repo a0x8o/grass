@@ -1178,6 +1178,7 @@ int gsd_surf_const(geosurf *surf, float k)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1652,7 +1653,12 @@ int gsd_surf_func(geosurf *gs, int (*user_func)(void))
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 int gsd_surf_func(geosurf *gs UNUSED, int (*user_func)(void) UNUSED)
 =======
 int gsd_surf_func(geosurf *gs, int (*user_func)())
@@ -1704,6 +1710,7 @@ int gsd_surf_func(geosurf *gs, int (*user_func)())
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1781,6 +1788,8 @@ int gsd_surf_func(geosurf *gs, int (*user_func)())
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -2528,7 +2537,12 @@ int gsd_surf_func(geosurf *gs, int (*user_func)())
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 {
 
     return (1);
@@ -3799,6 +3813,7 @@ int gsd_surf_map(geosurf *surf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3990,6 +4005,8 @@ int gsd_surf_map(geosurf *surf)
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
             /* Do not need BM_get because GET_MAPATT calls
              * same and returns zero if masked
              */
@@ -4369,6 +4386,8 @@ int gsd_surf_map(geosurf *surf)
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
             /* Do not need BM_get because GET_MAPATT calls
              * same and returns zero if masked
              */
@@ -4490,6 +4509,7 @@ int gsd_surf_map(geosurf *surf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -4521,6 +4541,8 @@ int gsd_surf_map(geosurf *surf)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 <<<<<<< HEAD
@@ -4632,6 +4654,9 @@ int gsd_surf_map(geosurf *surf)
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
             cnt1++;
 
             /* Do not need BM_get because GET_MAPATT calls
@@ -4743,6 +4768,7 @@ int gsd_surf_map(geosurf *surf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4822,10 +4848,14 @@ int gsd_surf_map(geosurf *surf)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
                 gsd_litvert_func(n, ktrans | curcolor, pt);
 
             } /* close ii loop */
             gsd_endtfan();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6288,7 +6318,15 @@ int gsd_surf_map(geosurf *surf)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+            cnt2++;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
         } /* end col */
     } /* end row */
 =======

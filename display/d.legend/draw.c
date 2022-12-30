@@ -312,6 +312,7 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (opt_at->answer == NULL) { /* if defualt scaling */
 =======
 <<<<<<< HEAD
@@ -421,6 +422,8 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -580,7 +583,12 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
         if (opt_at->answer == NULL) { /* if default scaling */
 =======
         if (opt_at->answer == NULL) { /* if defualt scaling */
@@ -631,6 +639,7 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -682,6 +691,8 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1005,7 +1016,12 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
         if (opt_at->answer == NULL) { /* if defualt scaling */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
             if (!do_smooth &&
                 (dots_per_line < 4)) /* if so small that there's no box */
                 if ((b - (dots_per_line * lines)) / (b * 1.0) >
@@ -1114,6 +1130,7 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1245,6 +1262,8 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 >>>>>>> 7ef6112573 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1513,7 +1532,12 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
                 if (snprintf(DispFormat, b_s, "%%%dd", log_maxCat) >= (int)b_s)
 =======
 <<<<<<< HEAD
@@ -1593,6 +1617,7 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 >>>>>>> osgeo-main
                 if (snprintf(DispFormat, b_s, "%%%dd", log_maxCat) >= b_s)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2361,7 +2386,12 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
                     G_fatal_error(
                         _("Failed to create format string with maxCat=%f."),
                         maxCat);
@@ -3214,6 +3244,7 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (opt_at->answer == NULL) { /* ie defualt scaling */
 =======
 <<<<<<< HEAD
@@ -3323,6 +3354,8 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -3482,7 +3515,12 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
         if (opt_at->answer == NULL) { /* ie default scaling */
 =======
         if (opt_at->answer == NULL) { /* ie defualt scaling */
@@ -3533,6 +3571,7 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3584,6 +3623,8 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -3907,7 +3948,12 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
         if (opt_at->answer == NULL) { /* ie defualt scaling */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
             ScaleFactor = ((true_r - true_l) /
                            ((MaxLabelLen + 3) * txsiz *
                             0.81)); /* ?? txsiz*.81=actual text width. */

@@ -71368,6 +71368,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -71423,6 +71424,8 @@ msgstr ""
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63948171f2 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -71759,7 +71762,14 @@ msgstr ""
 msgid "Coordinates to profile"
 msgstr "Tọa độ của (các) điểm bắt đầu (Đ,B)"
 >>>>>>> 73cc5e30fa (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 63948171f2 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+msgid "Coordinates to profile"
+msgstr ""
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
@@ -71818,6 +71828,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -71873,6 +71884,8 @@ msgstr ""
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63948171f2 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -72209,7 +72222,14 @@ msgstr ""
 msgid "Profile output format"
 msgstr "Tiền tố dùng cho (các) bản đồ raster đầu ra"
 >>>>>>> 73cc5e30fa (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 63948171f2 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+msgid "Profile output format"
+msgstr ""
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:292
 #, c-format
@@ -76308,6 +76328,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -76378,6 +76399,8 @@ msgstr ""
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -76440,7 +76463,12 @@ msgstr ""
 =======
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 #, fuzzy
 #~ msgid "layer name or number to use for data"
 #~ msgstr "Lớp số (to)"

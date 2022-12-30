@@ -152,6 +152,7 @@ int G_math_solver_sparse_jacobi(G_math_spvector **Asp, double *x, double *b,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -343,6 +344,8 @@ int G_math_solver_sparse_jacobi(G_math_spvector **Asp, double *x, double *b,
 >>>>>>> 7ef6112573 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -662,7 +665,12 @@ int G_math_solver_sparse_jacobi(G_math_spvector **Asp, double *x, double *b,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
                 for (j = 0; j < (unsigned int)rows; j++) {
                     Enew[j] = x[j];
                 }
@@ -729,6 +737,7 @@ int G_math_solver_sparse_jacobi(G_math_spvector **Asp, double *x, double *b,
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1163,7 +1172,12 @@ int G_math_solver_sparse_jacobi(G_math_spvector **Asp, double *x, double *b,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
                 for (j = 0; j < rows; j++) {
                     Enew[j] = x[j];
                 }
@@ -1238,6 +1252,7 @@ int G_math_solver_sparse_jacobi(G_math_spvector **Asp, double *x, double *b,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1363,6 +1378,8 @@ int G_math_solver_sparse_jacobi(G_math_spvector **Asp, double *x, double *b,
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -2579,7 +2596,13 @@ int G_math_solver_sparse_jacobi(G_math_spvector **Asp, double *x, double *b,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
                 E = 0;
                 center = 0;
                 for (j = 0; j < Asp[i]->cols; j++) {
@@ -2677,6 +2700,7 @@ int G_math_solver_sparse_jacobi(G_math_spvector **Asp, double *x, double *b,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2808,6 +2832,8 @@ int G_math_solver_sparse_jacobi(G_math_spvector **Asp, double *x, double *b,
 >>>>>>> 7ef6112573 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3076,7 +3102,12 @@ int G_math_solver_sparse_jacobi(G_math_spvector **Asp, double *x, double *b,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
             for (j = 0; j < (unsigned int)rows; j++) {
 =======
 <<<<<<< HEAD
@@ -3156,6 +3187,7 @@ int G_math_solver_sparse_jacobi(G_math_spvector **Asp, double *x, double *b,
 >>>>>>> osgeo-main
             for (j = 0; j < rows; j++) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3924,7 +3956,12 @@ int G_math_solver_sparse_jacobi(G_math_spvector **Asp, double *x, double *b,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
                 err += (x[j] - Enew[j]) * (x[j] - Enew[j]);
 
                 x[j] = Enew[j];
@@ -4074,6 +4111,7 @@ int G_math_solver_sparse_gs(G_math_spvector **Asp, double *x, double *b,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4265,6 +4303,8 @@ int G_math_solver_sparse_gs(G_math_spvector **Asp, double *x, double *b,
 >>>>>>> 7ef6112573 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -4584,7 +4624,12 @@ int G_math_solver_sparse_gs(G_math_spvector **Asp, double *x, double *b,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
                 for (j = 0; j < (unsigned int)rows; j++) {
                     Enew[j] = x[j];
                 }
@@ -4651,6 +4696,7 @@ int G_math_solver_sparse_gs(G_math_spvector **Asp, double *x, double *b,
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5085,7 +5131,12 @@ int G_math_solver_sparse_gs(G_math_spvector **Asp, double *x, double *b,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
                 for (j = 0; j < rows; j++) {
                     Enew[j] = x[j];
                 }
@@ -5160,6 +5211,7 @@ int G_math_solver_sparse_gs(G_math_spvector **Asp, double *x, double *b,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5285,6 +5337,8 @@ int G_math_solver_sparse_gs(G_math_spvector **Asp, double *x, double *b,
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -6501,7 +6555,13 @@ int G_math_solver_sparse_gs(G_math_spvector **Asp, double *x, double *b,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
                 E = 0;
                 center = 0;
                 for (j = 0; j < Asp[i]->cols; j++) {
@@ -6599,6 +6659,7 @@ int G_math_solver_sparse_gs(G_math_spvector **Asp, double *x, double *b,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6730,6 +6791,8 @@ int G_math_solver_sparse_gs(G_math_spvector **Asp, double *x, double *b,
 >>>>>>> 7ef6112573 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6998,7 +7061,12 @@ int G_math_solver_sparse_gs(G_math_spvector **Asp, double *x, double *b,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
             for (j = 0; j < (unsigned int)rows; j++) {
 =======
 <<<<<<< HEAD
@@ -7078,6 +7146,7 @@ int G_math_solver_sparse_gs(G_math_spvector **Asp, double *x, double *b,
 >>>>>>> osgeo-main
             for (j = 0; j < rows; j++) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7846,7 +7915,12 @@ int G_math_solver_sparse_gs(G_math_spvector **Asp, double *x, double *b,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
                 err += (x[j] - Enew[j]) * (x[j] - Enew[j]);
 
                 x[j] = Enew[j];

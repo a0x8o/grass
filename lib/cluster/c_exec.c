@@ -119,6 +119,7 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -250,6 +251,8 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -518,7 +521,12 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
                    int (*checkpoint)(struct Cluster *, int), int *interrupted)
 =======
 <<<<<<< HEAD
@@ -598,6 +606,7 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
 >>>>>>> osgeo-main
                    int (*checkpoint)(), int *interrupted)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1366,7 +1375,12 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 {
     int changes;
 
