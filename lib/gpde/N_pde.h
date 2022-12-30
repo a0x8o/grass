@@ -388,6 +388,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -505,6 +506,8 @@ typedef struct {
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -738,7 +741,12 @@ typedef struct {
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
     N_data_star *(*callback)(void *, N_geom_data *, int, int, int);
 =======
 <<<<<<< HEAD
@@ -818,6 +826,7 @@ typedef struct {
 >>>>>>> osgeo-main
     N_data_star *(*callback)();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1520,7 +1529,15 @@ typedef struct {
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    N_data_star *(*callback)();
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 } N_les_callback_3d;
 
 /*!
@@ -1608,6 +1625,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1785,6 +1803,8 @@ typedef struct {
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -2069,7 +2089,12 @@ typedef struct {
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
     N_data_star *(*callback)(void *, N_geom_data *, int, int);
 } N_les_callback_2d;
 
@@ -2200,6 +2225,7 @@ extern void N_set_les_callback_2d_func(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2210,6 +2236,8 @@ extern void N_set_les_callback_2d_func(
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2386,10 +2414,13 @@ extern void N_set_les_callback_2d_func(
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
     N_data_star *(*callback)();
 } N_les_callback_2d;
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2402,6 +2433,8 @@ extern void N_set_les_callback_2d_func(
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
     N_data_star *(*callback)();
 } N_les_callback_2d;
@@ -2592,7 +2625,12 @@ extern void N_set_les_callback_2d_func(
 } N_les_callback_2d;
 
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 extern void N_set_les_callback_3d_func(N_les_callback_3d *data,
                                        N_data_star *(*callback_func_3d)());
 extern void N_set_les_callback_2d_func(N_les_callback_2d *data,
@@ -2661,6 +2699,7 @@ extern void N_set_les_callback_2d_func(N_les_callback_2d *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2776,6 +2815,8 @@ extern void N_set_les_callback_2d_func(N_les_callback_2d *data,
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -3883,7 +3924,15 @@ extern void N_set_les_callback_2d_func(
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 extern N_les_callback_3d *N_alloc_les_callback_3d(void);
 extern N_les_callback_2d *N_alloc_les_callback_2d(void);
 extern N_data_star *N_alloc_5star(void);

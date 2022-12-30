@@ -73,6 +73,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     int generatedata; /* If 0 the categorie data is not complete */
 =======
 <<<<<<< HEAD
@@ -176,6 +177,8 @@ typedef struct {
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -320,7 +323,12 @@ typedef struct {
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
     int generatedata; /* If 0 the category data is not complete */
 =======
     int generatedata; /* If 0 the categorie data is not complete */
@@ -368,6 +376,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -413,6 +422,8 @@ typedef struct {
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -715,7 +726,15 @@ typedef struct {
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    int generatedata; /* If 0 the categorie data is not complete */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 } VTKTypeInfo;
 
 /* essential vtk file information */

@@ -74,6 +74,7 @@ static int make_dir(const char *path, int mode);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \param mode mode
 =======
 <<<<<<< HEAD
@@ -177,6 +178,8 @@ static int make_dir(const char *path, int mode);
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -321,7 +324,12 @@ static int make_dir(const char *path, int mode);
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
    \param mode mode (unused, defaults to chmod 0777 on non-Windows systems)
 =======
    \param mode mode
@@ -369,6 +377,7 @@ static int make_dir(const char *path, int mode);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -414,6 +423,8 @@ static int make_dir(const char *path, int mode);
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -716,7 +727,15 @@ static int make_dir(const char *path, int mode);
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+   \param mode mode
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
    \param parentdirs parent directories
 
    \return DB_OK on success

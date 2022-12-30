@@ -67,6 +67,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int DGL_ADD_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nId, void *pvNodeAttr,
                       dglInt32_t nFlags)
 =======
@@ -171,6 +172,8 @@ int DGL_ADD_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nId, void *pvNodeAttr,
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -316,7 +319,12 @@ int DGL_ADD_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nId, void *pvNodeAttr,
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 #include <grass/gis.h>
 
 int DGL_ADD_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nId,
@@ -368,6 +376,7 @@ int DGL_ADD_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nId, void *pvNodeAttr,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -452,6 +461,8 @@ int DGL_ADD_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nId, void *pvNodeAttr,
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -487,9 +498,12 @@ int DGL_ADD_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nId, void *pvNodeAttr,
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+=======
 int DGL_ADD_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nId, void *pvNodeAttr,
                       dglInt32_t nFlags)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -597,6 +611,8 @@ int DGL_ADD_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nId, void *pvNodeAttr,
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -751,7 +767,12 @@ int DGL_ADD_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nId, void *pvNodeAttr,
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 {
     DGL_T_NODEITEM_TYPE *pNodeItem;
     dglInt32_t *pnode;
@@ -966,6 +987,7 @@ int DGL_DEL_NODE_INEDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nNode,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
 =======
 <<<<<<< HEAD
@@ -1069,6 +1091,8 @@ int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1213,7 +1237,12 @@ int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId UNUSED)
 =======
 int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
@@ -1261,6 +1290,7 @@ int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1306,6 +1336,8 @@ int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1608,7 +1640,15 @@ int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 {
 #if defined(_DGL_V1)
     pgraph->iErrno = DGL_ERR_NotSupported;
@@ -1859,6 +1899,7 @@ dglInt32_t *DGL_GET_NODE_OUTEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
 =======
 <<<<<<< HEAD
@@ -1962,6 +2003,8 @@ dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2106,7 +2149,12 @@ dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph,
                                         dglInt32_t *pnode UNUSED)
 =======
@@ -2155,6 +2203,7 @@ dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2200,6 +2249,8 @@ dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2502,7 +2553,15 @@ dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 {
 #if defined(_DGL_V1)
     pgraph->iErrno = DGL_ERR_NotSupported;

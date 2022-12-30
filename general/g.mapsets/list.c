@@ -52,6 +52,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void list_available_mapsets(const char **mapset_name, int nmapsets,
                             const char *fs)
 {
@@ -157,6 +158,8 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -303,7 +306,12 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 // Function to initialize a JSON object with a mapsets array
 static JSON_Object *initialize_json_object(void)
 {
@@ -314,6 +322,7 @@ static JSON_Object *initialize_json_object(void)
 void list_available_mapsets(const char **mapset_name, int nmapsets,
                             const char *fs)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,6 +421,8 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -502,7 +513,12 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
     int n;
 
     G_message(_("Available mapsets:"));
@@ -566,6 +582,7 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -634,6 +651,8 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 =======
@@ -707,7 +726,12 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 // Function to serialize and print JSON object
 static void serialize_and_print_json_object(JSON_Value *root_value)
 {
@@ -742,6 +766,7 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
     for (n = 0; n < nmapsets; n++) {
         fprintf(stdout, "%s", mapset_name[n]);
         if (n < nmapsets - 1) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -954,7 +979,13 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 void list_accessible_mapsets(const char *fs)
 {
     int n;
@@ -965,6 +996,7 @@ void list_accessible_mapsets(const char *fs)
         /* match each mapset to its numeric equivalent */
         fprintf(stdout, "%s", name);
         if (G_get_mapset_name(n + 1)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1102,6 +1134,8 @@ void list_accessible_mapsets(const char *fs)
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1259,7 +1293,13 @@ void list_accessible_mapsets(const char *fs)
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
             if (strcmp(fs, "newline") == 0)
                 fprintf(stdout, "\n");
             else if (strcmp(fs, "space") == 0)

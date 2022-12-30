@@ -229,6 +229,7 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -346,6 +347,8 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -579,7 +582,12 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
             if (write(out[id], cellp, buflen) < 0)
                 G_fatal_error("Error writing temporary file");
 =======
@@ -677,6 +685,7 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
 >>>>>>> osgeo-main
             write(out[id], cellp, buflen);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1369,7 +1378,15 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            write(out[id], cellp, buflen);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 #pragma omp atomic update
             work++;
         }

@@ -81,6 +81,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -343,6 +344,8 @@ List of releases:
 >>>>>>> 14bf5d86fb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 CHANGES in GRASS GIS 8.x
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -510,6 +513,8 @@ https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures80
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 CHANGES in GRASS GIS 8.x
 =======
 CHANGES in GRASS GIS 8.x compared to GRASS GIS 7.x
@@ -1458,6 +1463,7 @@ https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures82
 
 List of releases:
 
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1465,7 +1471,22 @@ List of releases:
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+CHANGES in GRASS GIS 8.x
+
+https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures80
+https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures82
+
+List of releases:
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 - GitHub list: https://github.com/OSGeo/grass/releases
 - Overview list: https://trac.osgeo.org/grass/wiki/Release
 - History: https://grass.osgeo.org/home/history/releases/ (starting 1984!)

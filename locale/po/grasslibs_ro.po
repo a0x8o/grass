@@ -10743,6 +10743,7 @@ msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of ras
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10827,6 +10828,8 @@ msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of ras
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10881,11 +10884,16 @@ msgstr ""
 =======
 msgstr ""
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+msgstr ""
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../lib/raster/get_cellhd.c:78
 #, c-format
 msgid "Unable to open header file for raster map <%s@%s>. It seems that some previous step failed and created an incomplete raster map."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10992,6 +11000,8 @@ msgid "Unable to open header file for raster map <%s@%s>. It seems that some pre
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11124,7 +11134,12 @@ msgid "Unable to open header file for raster map <%s@%s>. It seems that some pre
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 

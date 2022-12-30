@@ -118,6 +118,7 @@ imagery_HDRS    = imagery.h defs/imagery.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -235,6 +236,8 @@ imagery_HDRS    = imagery.h defs/imagery.h
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -468,7 +471,12 @@ imagery_HDRS    = imagery.h defs/imagery.h
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 vector_HDRS     = vector.h defs/vector.h vect/dig_structs.h vect/dig_defines.h vect/dig_externs.h
 =======
 <<<<<<< HEAD
@@ -548,6 +556,7 @@ vector_HDRS     = vector.h defs/vector.h vect/dig_structs.h vect/dig_defines.h v
 >>>>>>> osgeo-main
 vector_HDRS     = vector.h defs/vector.h vect/dig_structs.h vect/dig_defines.h vect/dig_externs.h 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1250,7 +1259,15 @@ vector_HDRS     = vector.h defs/vector.h vect/dig_structs.h vect/dig_defines.h v
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+vector_HDRS     = vector.h defs/vector.h vect/dig_structs.h vect/dig_defines.h vect/dig_externs.h 
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 rtree_HDRS	= rtree.h
 display_HDRS    = display.h defs/display.h
 stats_HDRS      = stats.h defs/stats.h

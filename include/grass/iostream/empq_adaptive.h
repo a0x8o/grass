@@ -105,6 +105,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     EMPQueueAdaptive(long N) : EMPQueueAdaptive(){};
 =======
 <<<<<<< HEAD
@@ -204,6 +205,8 @@ public:
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
     EMPQueueAdaptive(long N UNUSED) : EMPQueueAdaptive() {};
 =======
 =======
@@ -387,7 +390,12 @@ public:
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
     EMPQueueAdaptive(long N UNUSED) : EMPQueueAdaptive(){};
 =======
     EMPQueueAdaptive(long N) : EMPQueueAdaptive(){};
@@ -435,6 +443,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     EMPQueueAdaptive(long N) : EMPQueueAdaptive(){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -494,6 +503,8 @@ public:
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
@@ -801,7 +812,15 @@ public:
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    EMPQueueAdaptive(long N) : EMPQueueAdaptive(){};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
     EMPQueueAdaptive();
     EMPQueueAdaptive(size_t inMem);
     ~EMPQueueAdaptive();

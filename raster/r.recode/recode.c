@@ -90,6 +90,7 @@ static void process_row_di(int), process_row_df(int), process_row_dd(int);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -207,6 +208,8 @@ static void process_row_di(int), process_row_df(int), process_row_dd(int);
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -440,7 +443,12 @@ static void process_row_di(int), process_row_df(int), process_row_dd(int);
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 static void (*process_row_FtypeOtype[3][3])(int) = {
 =======
 <<<<<<< HEAD
@@ -520,6 +528,7 @@ static void (*process_row_FtypeOtype[3][3])(int) = {
 >>>>>>> osgeo-main
 static void (*process_row_FtypeOtype[3][3])() = {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1222,7 +1231,15 @@ static void (*process_row_FtypeOtype[3][3])() = {
 =======
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+static void (*process_row_FtypeOtype[3][3])() = {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
     {process_row_ii, process_row_if, process_row_id},
     {process_row_fi, process_row_ff, process_row_fd},
     {process_row_di, process_row_df, process_row_dd}};
