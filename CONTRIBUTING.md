@@ -157,6 +157,7 @@ You can use your favorite tools to change source code or other files
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -222,6 +223,8 @@ You can use your favorite tools to change source code or other files
 =======
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -230,7 +233,12 @@ You can use your favorite tools to change source code or other files
 =======
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 in the local copy of the code. When making changes, please follow the
 [Programming Style Guide](./doc/development/style_guide.md).
 
@@ -663,10 +671,33 @@ For Python, run `black .` to apply standardized formatting. You can
 also run linter tools such as Pylint which will suggest different improvements
 to your code.
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 in the local copy of the code. When making changes, please follow
 Submitting Guidelines at
 <http://trac.osgeo.org/grass/wiki/Submitting>.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+
+### Testing changes
+
+Testing helps to ensure that the changes work well with the rest
+of the project. While there are many different ways to test,
+usually you will want to compile the source code (see below),
+add test code (using _grass.gunittest_ or pytest), and run code
+linters (automated code quality checks).
+
+There is a series of automated checks which will run on your pull request
+after you create one. You don't need to run all these
+checks locally and, indeed, some of them may fail for your code. This is a part of
+the standard iterative process of integrating changes into the main code,
+so if that happens, just see the error messages, go back to your code
+and try again. If you are not sure what to do, let others know in a pull
+request comment.
+
+Note that there are some steps you can do locally to improve your code.
+For Python, run `black .` to apply standardized formatting. You can
+also run linter tools such as Pylint which will suggest different improvements
+to your code.
 
 ### Testing changes
 
