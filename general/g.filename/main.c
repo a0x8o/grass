@@ -122,6 +122,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -206,6 +207,8 @@ int main(int argc, char *argv[])
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -323,7 +326,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 
     /* Create element directory if requested and in current mapset. */
     if (flag_create) {
@@ -354,6 +362,7 @@ int main(int argc, char *argv[])
 
 >>>>>>> 392c6e8e0b (pygrass: Add update parameters method to Module (#1712))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -635,7 +644,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 
     /* Create element directory if requested and in current mapset. */
     if (flag_create) {
@@ -647,6 +661,7 @@ int main(int argc, char *argv[])
         G_make_mapset_object_group(element);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1221,7 +1236,13 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> c0f0b4ecd0 (pygrass: Add update parameters method to Module (#1712))
+<<<<<<< HEAD
 >>>>>>> ca553cee6d (pygrass: Add update parameters method to Module (#1712))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
     G_file_name(path, element, name, mapset);
 
     fprintf(stdout, "file='%s'\n", path);

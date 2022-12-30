@@ -759,6 +759,7 @@ int GPJ_init_transform(const struct pj_info *info_in,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* follwing code copied from proj_create_crs_to_crs_from_pj()
          * in proj src/4D_api.cpp
          * but using PROJ_SPATIAL_CRITERION_STRICT_CONTAINMENT */
@@ -896,6 +897,8 @@ int GPJ_init_transform(const struct pj_info *info_in,
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1133,7 +1136,12 @@ int GPJ_init_transform(const struct pj_info *info_in,
 =======
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
         /* following code copied from proj_create_crs_to_crs_from_pj()
          * in proj src/4D_api.cpp
          * using PROJ_SPATIAL_CRITERION_PARTIAL_INTERSECTION
@@ -1217,6 +1225,7 @@ int GPJ_init_transform(const struct pj_info *info_in,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1333,6 +1342,8 @@ int GPJ_init_transform(const struct pj_info *info_in,
 =======
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1388,10 +1399,13 @@ int GPJ_init_transform(const struct pj_info *info_in,
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
         /* follwing code copied from proj_create_crs_to_crs_from_pj()
          * in proj src/4D_api.cpp
          * but using PROJ_SPATIAL_CRITERION_STRICT_CONTAINMENT */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1523,6 +1537,8 @@ int GPJ_init_transform(const struct pj_info *info_in,
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -1768,7 +1784,12 @@ int GPJ_init_transform(const struct pj_info *info_in,
 =======
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 
         /* now use the current region as area of interest */
         operation_ctx =
@@ -1777,6 +1798,7 @@ int GPJ_init_transform(const struct pj_info *info_in,
             PJ_DEFAULT_CTX, operation_ctx, xmin, ymin, xmax, ymax);
         proj_operation_factory_context_set_spatial_criterion(
             PJ_DEFAULT_CTX, operation_ctx,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2088,6 +2110,8 @@ int GPJ_init_transform(const struct pj_info *info_in,
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2436,7 +2460,12 @@ int GPJ_init_transform(const struct pj_info *info_in,
 =======
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
             PROJ_SPATIAL_CRITERION_PARTIAL_INTERSECTION);
         /* from GDAL OGRProjCT::ListCoordinateOperations() */
         proj_operation_factory_context_set_grid_availability_use(
@@ -2733,6 +2762,7 @@ int GPJ_init_transform(const struct pj_info *info_in,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2849,6 +2879,8 @@ int GPJ_init_transform(const struct pj_info *info_in,
 =======
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2903,6 +2935,8 @@ int GPJ_init_transform(const struct pj_info *info_in,
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
             PROJ_SPATIAL_CRITERION_STRICT_CONTAINMENT);
         proj_operation_factory_context_set_grid_availability_use(
@@ -3058,6 +3092,7 @@ int GPJ_init_transform(const struct pj_info *info_in,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -3150,6 +3185,8 @@ int GPJ_init_transform(const struct pj_info *info_in,
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -3617,7 +3654,12 @@ int GPJ_init_transform(const struct pj_info *info_in,
 =======
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
         if (insrid)
             G_free(insrid);
         if (outsrid)
