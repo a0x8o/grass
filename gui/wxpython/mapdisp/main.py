@@ -121,6 +121,7 @@ This program is free software under the GNU General Public License
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -320,6 +321,8 @@ This program is free software under the GNU General Public License
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -476,6 +479,7 @@ This program is free software under the GNU General Public License
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -605,10 +609,15 @@ This program is free software under the GNU General Public License
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 """  # noqa: E501
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -705,6 +714,8 @@ This program is free software under the GNU General Public License
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -1213,6 +1224,7 @@ This program is free software under the GNU General Public License
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1397,6 +1409,10 @@ This program is free software under the GNU General Public License
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 """
 
 from __future__ import print_function
@@ -1829,6 +1845,7 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
     def GetProgress(self):
         return self._mapframe.GetProgressBar()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2306,6 +2323,7 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
 =======
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 70b350b826 (libpython: Save and load benchmark results (#1711))
 =======
 =======
@@ -2521,6 +2539,10 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
 =======
 >>>>>>> 4e0c4a2cca (libpython: Save and load benchmark results (#1711))
 >>>>>>> 5faab49e7e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3334,6 +3356,14 @@ class DMonFrame(MapFrame):
 
         return toolbar.IsShown()
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+
+class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
+    """@implements GrassInterface"""
+
+    def __init__(self, mapframe):
+        StandaloneMapDisplayGrassInterface.__init__(self, mapframe)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -5805,6 +5835,7 @@ class DMonDisplay(FrameMixin, MapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -5878,6 +5909,10 @@ class DMonDisplay(FrameMixin, MapPanel):
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6157,6 +6192,7 @@ class DMonDisplay(FrameMixin, MapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -6215,6 +6251,8 @@ class DMonDisplay(FrameMixin, MapPanel):
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -7169,12 +7207,16 @@ class DMonDisplay(FrameMixin, MapPanel):
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -7365,6 +7407,8 @@ class DMonDisplay(FrameMixin, MapPanel):
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
     def __init__(self, parent, giface, id, Map, title, toolbars, statusbar):
         # init map panel
         MapPanel.__init__(

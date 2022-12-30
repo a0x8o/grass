@@ -159,6 +159,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -303,6 +304,8 @@
 >>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -584,6 +587,8 @@
 >>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 /****************************************************************************
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -727,6 +732,7 @@
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1864,6 +1870,7 @@
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2326,6 +2333,10 @@
 >>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
  *
  * MODULE:    r.in.pdal
  *
@@ -2521,6 +2532,7 @@ void update_sum(void *, void *, int, int, int, RASTER_MAP_TYPE, double);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2671,6 +2683,8 @@ void update_sum(void *, void *, int, int, int, RASTER_MAP_TYPE, double);
 >>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -2966,6 +2980,8 @@ void update_sum(void *, void *, int, int, int, RASTER_MAP_TYPE, double);
 >>>>>>> ab6c96ff3e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 void update_m2(void *, void *, void *, int, int, int, RASTER_MAP_TYPE, double);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3143,6 +3159,7 @@ void update_m2(void *, void *, void *, int, int, int, RASTER_MAP_TYPE,
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4371,6 +4388,7 @@ void update_m2(void *, void *, void *, int, int, int, RASTER_MAP_TYPE, double);
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4793,6 +4811,10 @@ void update_m2(void *, void *, void *, int, int, int, RASTER_MAP_TYPE, double);
 >>>>>>> 255baa339b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 void update_moving_mean(void *, int, int, int, RASTER_MAP_TYPE, double, int);
 
 int add_z_node(struct BinIndex *, int, double);
@@ -4857,6 +4879,7 @@ void update_com_node(struct com_node *, int, double, double);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5658,12 +5681,16 @@ void update_com_node(struct com_node *, int, double, double);
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -5947,6 +5974,8 @@ void update_com_node(struct com_node *, int, double, double);
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 void update_bin_com_index(struct BinIndex *, void *, int, int, int, double,
                           double, double);
 
@@ -5989,6 +6018,9 @@ int row_array_get_value_row_col(void *, int, int, int, RASTER_MAP_TYPE,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6950,6 +6982,7 @@ int row_array_get_value_row_col(void *, int, int, int, RASTER_MAP_TYPE,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -7073,6 +7106,8 @@ int row_array_get_value_row_col(void *, int, int, int, RASTER_MAP_TYPE,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -7861,12 +7896,16 @@ int row_array_get_value_row_col(void *, int, int, int, RASTER_MAP_TYPE,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -8191,5 +8230,7 @@ int row_array_get_value_row_col(void *, int, int, int, RASTER_MAP_TYPE,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
 #endif /* __BIN_UPDATE_H__ */

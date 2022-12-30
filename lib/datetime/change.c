@@ -2914,9 +2914,18 @@ static void make_incr(DateTime *, int, int, DateTime *);
 static void make_incr(DateTime *, int, int, DateTime *);
 =======
 static void make_incr();
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
 /*!
  * \brief

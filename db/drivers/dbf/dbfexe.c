@@ -453,6 +453,7 @@ void get_col_def(SQLPSTMT *st, int col, int *type, int *width, int *decimals)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)
 =======
 <<<<<<< HEAD
@@ -600,6 +601,8 @@ void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -848,6 +851,7 @@ void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1180,6 +1184,10 @@ void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 void eval_val(int tab, int row, int col UNUSED, SQLPVALUE *inval,
               SQLPVALUE *val)
 =======
@@ -1290,6 +1298,7 @@ void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1439,6 +1448,8 @@ void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2008,13 +2019,17 @@ void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -2181,6 +2196,8 @@ void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 {
 
     double retval;

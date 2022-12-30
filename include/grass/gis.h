@@ -114,6 +114,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -1271,6 +1272,7 @@
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2003,6 +2005,10 @@
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
  * COPYRIGHT:   (C) 2000-2024 by the GRASS Development Team
 =======
  * COPYRIGHT:   (C) 2000-2021 by the GRASS Development Team
@@ -2793,6 +2799,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -2883,6 +2890,8 @@
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -4363,13 +4372,17 @@
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
  * COPYRIGHT:   (C) 2000-2022 by the GRASS Development Team
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4918,6 +4931,8 @@
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
  *
  *              This program is free software under the GNU General Public
  *              License (>=v2). Read the file COPYING that comes with GRASS
@@ -5096,6 +5111,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const char *GRASS_copyright __attribute__((unused)) =
     "GRASS GNU GPL licensed Software";
 =======
@@ -5244,6 +5260,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -5493,6 +5511,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5826,6 +5845,10 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 /*!
     \def UNUSED
     \brief A macro for an attribute, if attached to a variable,
@@ -5958,6 +5981,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6158,6 +6182,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6279,9 +6305,12 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
 static const char *GRASS_copyright __attribute__((unused)) =
     "GRASS GNU GPL licensed Software";
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6465,6 +6494,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -6786,6 +6817,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -6997,6 +7029,10 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
 /* GRASS version, GRASS date, git short hash of last change in GRASS headers
  * (and anything else in include)
@@ -7107,6 +7143,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -7812,13 +7849,17 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -7980,6 +8021,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 #if (defined(_FILE_OFFSET_BITS) && _FILE_OFFSET_BITS == 64) || \
     (__APPLE__ && __LP64__)
 #define PRI_OFF_T "lld"
@@ -8018,6 +8061,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 #define U_DEGREES        8
 #define U_USFEET         9
 /* Temporal units from the datetime library */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8717,9 +8761,12 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8816,6 +8863,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -9617,6 +9666,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -9997,12 +10047,17 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> 9bf6943cfb (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 #define U_YEARS          DATETIME_YEAR
 #define U_MONTHS         DATETIME_MONTH
 #define U_DAYS           DATETIME_DAY
 #define U_HOURS          DATETIME_HOUR
 #define U_MINUTES        DATETIME_MINUTE
 #define U_SECONDS        DATETIME_SECOND
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10481,6 +10536,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 270077e68a (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
@@ -11679,6 +11736,7 @@ static const char *GRASS_copyright __attribute__((unused)) =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11814,6 +11872,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -12796,12 +12856,16 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -13191,6 +13255,8 @@ static const char *GRASS_copyright __attribute__((unused)) =
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
 /*! \brief Projection code - XY coordinate system (unreferenced data) */
 #define PROJECTION_XY    0
@@ -13445,6 +13511,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13509,6 +13576,8 @@ typedef enum {
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13524,9 +13593,12 @@ typedef enum {
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13629,6 +13701,8 @@ typedef enum {
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
     G_OPT_C,  /*!< color */
     G_OPT_CN, /*!< color or none */
@@ -14456,6 +14530,7 @@ typedef enum {
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -15005,6 +15080,10 @@ typedef enum {
 >>>>>>> 2873114db3 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
     G_OPT_M_UNITS,      /*!< units */
     G_OPT_M_DATATYPE,   /*!< datatype */
     G_OPT_M_MAPSET,     /*!< mapset */
@@ -15078,6 +15157,9 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16266,6 +16348,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
@@ -16299,6 +16382,8 @@ typedef enum {
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -16959,6 +17044,7 @@ typedef enum {
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -17230,6 +17316,10 @@ typedef enum {
 >>>>>>> 2873114db3 (wxGUI/map display: manage wx.StatusBar widget by AUI (#1646))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
     G_OPT_STDS_INPUT, /*!< old input space time dataset of type strds, str3ds or
                          stvds */

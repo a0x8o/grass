@@ -233,6 +233,7 @@ double gaussian2dByTerms(double d, double term1, double term2);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -434,6 +435,8 @@ double gaussian2dByTerms(double d, double term1, double term2);
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -835,6 +838,8 @@ double gaussian2dByTerms(double d, double term1, double term2);
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -948,7 +953,11 @@ double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 double brent_iterate(double (*f)(), double x_lower, double x_upper,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3304,7 +3313,15 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper,
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+double brent_iterate(double (*f)(), double x_lower, double x_upper,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
                      int maxiter);
 double kernel1(double d, double rs, double lambda);
 double segno(double x);

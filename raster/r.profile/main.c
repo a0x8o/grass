@@ -246,6 +246,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         _("If units are not specified, current location units are used. "
           "Meters are used by default in geographic (latlon) locations.");
 =======
@@ -395,6 +396,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -643,6 +646,7 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -976,12 +980,17 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
         _("If units are not specified, current project units are used. "
           "Meters are used by default in geographic (latlon) projects.");
 =======
         _("If units are not specified, current location units are used. "
           "Meters are used by default in geographic (latlon) locations.");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1287,6 +1296,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1404,9 +1415,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
         _("If units are not specified, current location units are used. "
           "Meters are used by default in geographic (latlon) locations.");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1612,6 +1626,8 @@ int main(int argc, char *argv[])
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
     parm.format = G_define_standard_option(G_OPT_F_FORMAT);
     parm.units->guisection = _("Print");
@@ -1817,6 +1833,7 @@ int main(int argc, char *argv[])
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
         _("If units are not specified, current location units are used. "
           "Meters are used by default in geographic (latlon) locations.");
@@ -1951,6 +1968,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
     parm.format = G_define_standard_option(G_OPT_F_FORMAT);
     parm.units->guisection = _("Print");

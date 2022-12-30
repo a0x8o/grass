@@ -371,6 +371,7 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -626,6 +627,8 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -1974,6 +1977,8 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
     snprintf(str, sizeof(str),
              "em_pqueue: allocating array of %ld buff pointers\n",
              (long)max_nbuf);
@@ -2151,6 +2156,7 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2186,9 +2192,12 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
     sprintf(str, "em_pqueue: allocating array of %ld buff pointers\n",
             (long)max_nbuf);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4274,7 +4283,12 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
             (long)max_nbuf);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
     MEMORY_LOG(str);
 
     // allocate ext memory buffers array
@@ -4431,6 +4445,7 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cout << "sorry - empq excedes memory limits\n";
 =======
 <<<<<<< HEAD
@@ -4578,6 +4593,8 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -4826,6 +4843,7 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5158,6 +5176,10 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
         cout << "sorry - empq exceeds memory limits\n";
 =======
         cout << "sorry - empq excedes memory limits\n";
@@ -5267,6 +5289,7 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5416,6 +5439,8 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -5985,13 +6010,17 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
         cout << "sorry - empq excedes memory limits\n";
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -6158,6 +6187,8 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
         cout << "try again decreasing arity or pqsize/bufsize\n";
         cout.flush();
     }
@@ -6471,6 +6502,7 @@ em_pqueue<T, Key>::em_pqueue()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6726,6 +6758,8 @@ em_pqueue<T, Key>::em_pqueue()
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -8074,6 +8108,8 @@ em_pqueue<T, Key>::em_pqueue()
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
     snprintf(str, sizeof(str),
              "em_pqueue: allocating array of %ld buff pointers\n",
              (long)max_nbuf);
@@ -8251,6 +8287,7 @@ em_pqueue<T, Key>::em_pqueue()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8286,9 +8323,12 @@ em_pqueue<T, Key>::em_pqueue()
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
     sprintf(str, "em_pqueue: allocating array of %ld buff pointers\n",
             (long)max_nbuf);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10374,7 +10414,12 @@ em_pqueue<T, Key>::em_pqueue()
             (long)max_nbuf);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
     MEMORY_LOG(str);
     // allocate ext memory buffers array
     buff = new em_buffer<T, Key> *[max_nbuf];
@@ -10709,6 +10754,7 @@ em_pqueue<T, Key>::em_pqueue(MinMaxHeap<T> *im, AMI_STREAM<T> *amis)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10964,6 +11010,8 @@ em_pqueue<T, Key>::em_pqueue(MinMaxHeap<T> *im, AMI_STREAM<T> *amis)
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -12312,6 +12360,8 @@ em_pqueue<T, Key>::em_pqueue(MinMaxHeap<T> *im, AMI_STREAM<T> *amis)
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
     snprintf(str, sizeof(str),
              "em_pqueue: allocating array of %ld buff pointers\n",
              (long)max_nbuf);
@@ -12489,6 +12539,7 @@ em_pqueue<T, Key>::em_pqueue(MinMaxHeap<T> *im, AMI_STREAM<T> *amis)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12524,9 +12575,12 @@ em_pqueue<T, Key>::em_pqueue(MinMaxHeap<T> *im, AMI_STREAM<T> *amis)
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
     sprintf(str, "em_pqueue: allocating array of %ld buff pointers\n",
             (long)max_nbuf);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14612,7 +14666,12 @@ em_pqueue<T, Key>::em_pqueue(MinMaxHeap<T> *im, AMI_STREAM<T> *amis)
             (long)max_nbuf);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
     MEMORY_LOG(str);
     buff = new em_buffer<T, Key> *[max_nbuf];
     assert(buff);
@@ -14968,6 +15027,7 @@ bool em_pqueue<T, Key>::fillpq()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15223,6 +15283,8 @@ bool em_pqueue<T, Key>::fillpq()
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -16571,6 +16633,8 @@ bool em_pqueue<T, Key>::fillpq()
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
         snprintf(str, sizeof(str),
                  "em_pqueue::fillpq: allocate array of %hd AMI_STREAMs\n",
                  crt_buf);
@@ -16748,6 +16812,7 @@ bool em_pqueue<T, Key>::fillpq()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16783,9 +16848,12 @@ bool em_pqueue<T, Key>::fillpq()
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
         sprintf(str, "em_pqueue::fillpq: allocate array of %hd AMI_STREAMs\n",
                 crt_buf);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18871,7 +18939,12 @@ bool em_pqueue<T, Key>::fillpq()
                 crt_buf);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
         MEMORY_LOG(str);
     }
     // merge pqsize smallest elements from each buffer into a new stream
@@ -19662,6 +19735,7 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -19676,6 +19750,8 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
@@ -20293,12 +20369,15 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
         snprintf(str, sizeof(str),
                  "em_pqueue::empty_buff( %hd ) allocate new em_buffer\n", i);
 =======
         sprintf(str, "em_pqueue::empty_buff( %hd ) allocate new em_buffer\n",
                 i);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20960,6 +21039,9 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
 <<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
@@ -21006,6 +21088,7 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -21059,9 +21142,14 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
         sprintf(str, "em_pqueue::empty_buff( %hd ) allocate new em_buffer\n",
                 i);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21127,6 +21215,8 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
         snprintf(str, sizeof(str),
                  "em_pqueue::empty_buff( %hd ) allocate new em_buffer\n", i);
@@ -22967,7 +23057,12 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
         MEMORY_LOG(str);
         buff[i + 1] = new em_buffer<T, Key>(i + 2, bufsize, buf_arity);
     }
@@ -23251,6 +23346,7 @@ AMI_err em_pqueue<T, Key>::merge_buffer(em_buffer<T, Key> *buf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // IF I DELETE KEYS EXPLICITELY, THEY WILL BE DELETED AGAIN BY
 =======
 <<<<<<< HEAD
@@ -23398,6 +23494,8 @@ AMI_err em_pqueue<T, Key>::merge_buffer(em_buffer<T, Key> *buf,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -23646,6 +23744,7 @@ AMI_err em_pqueue<T, Key>::merge_buffer(em_buffer<T, Key> *buf,
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -23978,6 +24077,10 @@ AMI_err em_pqueue<T, Key>::merge_buffer(em_buffer<T, Key> *buf,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
     // IF I DELETE KEYS EXPLICITLY, THEY WILL BE DELETED AGAIN BY
 =======
     // IF I DELETE KEYS EXPLICITELY, THEY WILL BE DELETED AGAIN BY
@@ -24087,6 +24190,7 @@ AMI_err em_pqueue<T, Key>::merge_buffer(em_buffer<T, Key> *buf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -24236,6 +24340,8 @@ AMI_err em_pqueue<T, Key>::merge_buffer(em_buffer<T, Key> *buf,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -24805,13 +24911,17 @@ AMI_err em_pqueue<T, Key>::merge_buffer(em_buffer<T, Key> *buf,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
     // IF I DELETE KEYS EXPLICITELY, THEY WILL BE DELETED AGAIN BY
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -24978,6 +25088,8 @@ AMI_err em_pqueue<T, Key>::merge_buffer(em_buffer<T, Key> *buf,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
     // DESTRUCTOR, AND EVERYTHING SCREWS UP..
 
     buf->put_streams();
@@ -25200,6 +25312,7 @@ AMI_err em_pqueue<T, Key>::merge_streams(ExtendedMergeStream **instreams,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // IF I DELETE KEYS EXPLICITELY, THEY WILL BE DELETED AGAIN BY
 =======
 <<<<<<< HEAD
@@ -25347,6 +25460,8 @@ AMI_err em_pqueue<T, Key>::merge_streams(ExtendedMergeStream **instreams,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -25595,6 +25710,7 @@ AMI_err em_pqueue<T, Key>::merge_streams(ExtendedMergeStream **instreams,
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -25927,6 +26043,10 @@ AMI_err em_pqueue<T, Key>::merge_streams(ExtendedMergeStream **instreams,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
     // IF I DELETE KEYS EXPLICITLY, THEY WILL BE DELETED AGAIN BY
 =======
     // IF I DELETE KEYS EXPLICITELY, THEY WILL BE DELETED AGAIN BY
@@ -26036,6 +26156,7 @@ AMI_err em_pqueue<T, Key>::merge_streams(ExtendedMergeStream **instreams,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -26185,6 +26306,8 @@ AMI_err em_pqueue<T, Key>::merge_streams(ExtendedMergeStream **instreams,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -26754,13 +26877,17 @@ AMI_err em_pqueue<T, Key>::merge_streams(ExtendedMergeStream **instreams,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
     // IF I DELETE KEYS EXPLICITELY, THEY WILL BE DELETED AGAIN BY
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -26927,6 +27054,8 @@ AMI_err em_pqueue<T, Key>::merge_streams(ExtendedMergeStream **instreams,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
     // DESTRUCTOR, AND EVERYTHING SCREWS UP..
 
     MY_LOG_DEBUG_ID("merge_streams: done");

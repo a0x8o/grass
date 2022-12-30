@@ -319,6 +319,7 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -333,6 +334,8 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
@@ -1288,6 +1291,7 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1486,6 +1490,10 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
     struct vector cls_clay[POLYGON_DIMENSION] = {{.sand = 0.0}};
     /* index 1 */
     struct vector cls_sandy_clay[POLYGON_DIMENSION] = {{.sand = 0.0}};
@@ -5732,6 +5740,7 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
@@ -5998,6 +6007,9 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
     struct vector cls_clay[POLYGON_DIMENSION] = {{0.0}};
     /* index 1 */
     struct vector cls_sandy_clay[POLYGON_DIMENSION] = {{0.0}};
@@ -6021,6 +6033,7 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
     struct vector cls_silt_loam[POLYGON_DIMENSION] = {{0.0}};
     /* index 11 */
     struct vector cls_silt[POLYGON_DIMENSION] = {{0.0}};
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -6105,7 +6118,13 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
     if ((sand_input + clay_input + silt_input) <= 10.0) {
         sand_input = sand_input * 100.0;

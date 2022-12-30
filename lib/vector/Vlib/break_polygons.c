@@ -2928,6 +2928,7 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3745,11 +3746,14 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
             nallpoints++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
             nallpoints++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3900,6 +3904,8 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
@@ -5035,6 +5041,7 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -5551,6 +5558,10 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
             if (j == last_point && closed)
                 continue; /* do not register last of close polygon */
@@ -5639,6 +5650,7 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -6456,11 +6468,14 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
                     nmarks++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
                     nmarks++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6611,6 +6626,8 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
@@ -7746,6 +7763,7 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -8262,6 +8280,10 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
                     /* write point */
                     lseek(xpntfd, (off_t)(fpoint - 1) * sizeof(XPNT2),
                           SEEK_SET);
@@ -8312,6 +8334,7 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -9129,11 +9152,14 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
                         nmarks++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
                         nmarks++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9284,6 +9310,8 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
@@ -10419,6 +10447,7 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -10935,6 +10964,10 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
                         /* write point */
                         lseek(xpntfd, (off_t)(fpoint - 1) * sizeof(XPNT2),
                               SEEK_SET);
@@ -10987,6 +11020,7 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -11804,11 +11838,14 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
                     nmarks++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
                     nmarks++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11959,6 +11996,8 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
@@ -13094,6 +13133,7 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -13610,6 +13650,10 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
                 }
                 else {
                     XPnt.a1 = a1;
@@ -13692,6 +13736,7 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -14509,11 +14554,14 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
             nallpoints++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
             nallpoints++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14664,6 +14712,8 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
@@ -15799,6 +15849,7 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -16315,6 +16366,10 @@ void Vect_break_polygons_file(struct Map_info *Map, int type,
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
             /* Box */
             rect.boundary[0] = Points->x[j];
@@ -16506,6 +16561,7 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -17323,11 +17379,14 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
             nallpoints++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
             nallpoints++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17478,6 +17537,8 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
@@ -18613,6 +18674,7 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -19129,6 +19191,10 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
             if (j == last_point && closed)
                 continue; /* do not register last of close polygon */
@@ -19205,6 +19271,7 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -20022,11 +20089,14 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
                     nmarks++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
                     nmarks++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20177,6 +20247,8 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
@@ -21312,6 +21384,7 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -21828,6 +21901,10 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
                 }
                 else {
                     G_debug(3, "a1 = %f xa1 = %f a2 = %f xa2 = %f", a1,
@@ -21873,6 +21950,7 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -22690,11 +22768,14 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
                         nmarks++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
                         nmarks++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22845,6 +22926,8 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
@@ -23980,6 +24063,7 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -24496,6 +24580,10 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
                     }
                 }
             }
@@ -24540,6 +24628,7 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -25357,11 +25446,14 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
                     nmarks++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
                     nmarks++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25512,6 +25604,8 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
@@ -26647,6 +26741,7 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -27163,6 +27258,10 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
                 }
                 else {
                     XPnt_search.a1 = a1;
@@ -27207,6 +27306,7 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -28024,11 +28124,14 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
                 npoints++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
                 npoints++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28179,6 +28282,8 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
@@ -29314,6 +29419,7 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -29830,6 +29936,10 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
             }
         }
     }
@@ -29904,6 +30014,7 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -30721,11 +30832,14 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
             nallpoints++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
             nallpoints++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30876,6 +30990,8 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
@@ -32011,6 +32127,7 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -32527,6 +32644,10 @@ void Vect_break_polygons_mem(struct Map_info *Map, int type,
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
             if (Points->n_points <= 1 ||
                 (j == (Points->n_points - 1) && !broken))

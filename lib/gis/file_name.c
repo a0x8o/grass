@@ -55,6 +55,7 @@ static void append_char(char *, char);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -716,6 +717,8 @@ static void append_char(char *, char);
 >>>>>>> 037caabfd6 (Improve G_open|find _misc function documentation (#1760))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
    If <i>name</i> is of the form "nnn@ppp" then path is set as if name
    had been "nnn" and mapset had been "ppp" (mapset parameter itself is
    ignored in this case).
@@ -3611,6 +3614,7 @@ static void append_char(char *, char);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3811,6 +3815,8 @@ static void append_char(char *, char);
 =======
 >>>>>>> 9a7dd97893 (Improve G_open|find _misc function documentation (#1760))
 =======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3932,10 +3938,13 @@ static void append_char(char *, char);
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
    If <i>name</i> is of the form "nnn@ppp" then path is set as if name
    had been "nnn" and mapset had been "ppp" (mapset parameter itself is
    ignored in this case).
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4032,6 +4041,8 @@ static void append_char(char *, char);
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -4456,6 +4467,7 @@ static void append_char(char *, char);
 =======
 >>>>>>> 037caabfd6 (Improve G_open|find _misc function documentation (#1760))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 943d9f04d9 (Improve G_open|find _misc function documentation (#1760))
 =======
 =======
@@ -4642,6 +4654,10 @@ static void append_char(char *, char);
 =======
 >>>>>>> 037caabfd6 (Improve G_open|find _misc function documentation (#1760))
 >>>>>>> 9a7dd97893 (Improve G_open|find _misc function documentation (#1760))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
    Paths to files are currently in form:
    /path/to/location/mapset/element/name
@@ -4708,6 +4724,9 @@ static void append_char(char *, char);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5517,6 +5536,7 @@ static void append_char(char *, char);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5898,12 +5918,16 @@ static void append_char(char *, char);
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -6096,6 +6120,8 @@ static void append_char(char *, char);
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
    \return pointer to <i>path</i> buffer
  */
 char *G_file_name(char *path, const char *element, const char *name,
@@ -6107,6 +6133,7 @@ char *G_file_name(char *path, const char *element, const char *name,
 /*!
    \brief Builds full path names to GIS misc data files
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8560,6 +8587,8 @@ char *G_file_name(char *path, const char *element, const char *name,
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
    Paths to misc files are currently in form:
    /path/to/location/mapset/dir/name/element
 =======
@@ -9379,6 +9408,7 @@ char *G_file_name(char *path, const char *element, const char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9579,6 +9609,8 @@ char *G_file_name(char *path, const char *element, const char *name,
 =======
 >>>>>>> 9a7dd97893 (Improve G_open|find _misc function documentation (#1760))
 =======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9700,9 +9732,12 @@ char *G_file_name(char *path, const char *element, const char *name,
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
    Paths to misc files are currently in form:
    /path/to/location/mapset/dir/name/element
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9799,6 +9834,8 @@ char *G_file_name(char *path, const char *element, const char *name,
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -10221,6 +10258,7 @@ char *G_file_name(char *path, const char *element, const char *name,
 =======
 >>>>>>> 037caabfd6 (Improve G_open|find _misc function documentation (#1760))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 943d9f04d9 (Improve G_open|find _misc function documentation (#1760))
 =======
 =======
@@ -10407,6 +10445,10 @@ char *G_file_name(char *path, const char *element, const char *name,
 =======
 >>>>>>> 037caabfd6 (Improve G_open|find _misc function documentation (#1760))
 >>>>>>> 9a7dd97893 (Improve G_open|find _misc function documentation (#1760))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
    path input buffer memory must be allocated by caller.
 
@@ -10471,6 +10513,9 @@ char *G_file_name(char *path, const char *element, const char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11283,6 +11328,7 @@ char *G_file_name(char *path, const char *element, const char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11665,12 +11711,16 @@ char *G_file_name(char *path, const char *element, const char *name,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -11863,6 +11913,8 @@ char *G_file_name(char *path, const char *element, const char *name,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
    \return pointer to <i>path</i> buffer
  */
 char *G_file_name_misc(char *path, const char *dir, const char *element,

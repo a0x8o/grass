@@ -466,6 +466,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* Degenerate is not ignored because it may be useful to see where it
          * is, but may be eliminated by min_area option */
         if (Points->n_points < 4)
@@ -727,6 +728,8 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1089,6 +1092,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1535,6 +1539,10 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
         lastidx = Points->n_points - 1;
         if (Points->x[0] != Points->x[lastidx] ||
             Points->y[0] != Points->y[lastidx] ||
@@ -1911,6 +1919,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2111,6 +2120,8 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2232,6 +2243,8 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
         /* Degenerate is not ignored because it may be useful to see where it
          * is, but may be eliminated by min_area option */
         if (Points->n_points < 4)
@@ -2348,6 +2361,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
         }
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2531,6 +2545,8 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -3101,6 +3117,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3290,6 +3307,10 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
         for (i = 0; i < valid_isles; i++) {
             Vect_destroy_line_struct(IPoints[i]);
         }

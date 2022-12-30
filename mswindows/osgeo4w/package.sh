@@ -1077,6 +1077,7 @@ DLLS="
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1131,11 +1132,14 @@ DLLS="
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
 	/mingw64/bin/libexpat-1.dll
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 	/mingw64/bin/libexpat-1.dll
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1167,6 +1171,8 @@ DLLS="
 	/mingw64/bin/libexpat-1.dll
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 	/mingw64/bin/libfontconfig-1.dll
 	/mingw64/bin/libgfortran-5.dll
 	/mingw64/bin/libbrotlidec.dll
@@ -1188,6 +1194,7 @@ DLLS="
 	/mingw64/bin/libiconv-2.dll
 	/mingw64/bin/libintl-8.dll
 	/mingw64/bin/liblapack.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1531,6 +1538,8 @@ DLLS="
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -1546,6 +1555,8 @@ DLLS="
 =======
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
@@ -1559,12 +1570,22 @@ DLLS="
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 	/mingw64/bin/libpcre-1.dll
 	/mingw64/bin/libpixman-1-0.dll
 	/mingw64/bin/libpng16-16.dll
 =======
+=======
+>>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
@@ -1584,8 +1605,11 @@ DLLS="
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -1597,6 +1621,7 @@ DLLS="
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1604,6 +1629,8 @@ DLLS="
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
@@ -1615,7 +1642,12 @@ DLLS="
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 	/mingw64/bin/libquadmath-0.dll
 	/mingw64/bin/libstdc++-6.dll
 	/mingw64/bin/libsystre-0.dll
@@ -3778,6 +3810,7 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 		--with-bzlib \
@@ -3790,11 +3823,14 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 		--with-bzlib \
 <<<<<<< HEAD
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config \
 		--without-pdal
 =======
 		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3813,10 +3849,14 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -3837,7 +3877,12 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
 	touch mswindows/osgeo4w/configure-stamp
 fi

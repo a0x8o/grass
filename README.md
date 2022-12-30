@@ -138,6 +138,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![CentOS](https://github.com/OSGeo/grass/workflows/CentOS/badge.svg)](https://github.com/OSGeo/grass/actions?query=workflow%3ACentOS)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5176030.svg)](https://doi.org/10.5281/zenodo.5176030)
 [![Join the chat at https://gitter.im/grassgis/community](https://badges.gitter.im/grassgis/community.svg)](https://gitter.im/grassgis/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -287,6 +288,8 @@
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 600ae6158c (ci: Remove duplication in Ubuntu workflow, keep test job only (#1749))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -537,6 +540,7 @@
 =======
 =======
 >>>>>>> 6f85983782 (ci: Remove duplication in Ubuntu workflow, keep test job only (#1749))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f46ffad505 (ci: Remove duplication in Ubuntu workflow, keep test job only (#1749))
 =======
@@ -869,6 +873,10 @@
 =======
 >>>>>>> 6f85983782 (ci: Remove duplication in Ubuntu workflow, keep test job only (#1749))
 >>>>>>> 600ae6158c (ci: Remove duplication in Ubuntu workflow, keep test job only (#1749))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/OSGeo/grass/badge)](https://securityscorecards.dev/viewer/?uri=github.com/OSGeo/grass)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/2470/badge)](https://www.bestpractices.dev/projects/2470)
 [![Coverity](https://scan.coverity.com/projects/1038/badge.svg)](https://scan.coverity.com/projects/grass)
@@ -3265,9 +3273,23 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5176030.svg)](https://doi.org/10.5281/zenodo.5176030)
 [![Join the chat at https://gitter.im/grassgis/community](https://badges.gitter.im/grassgis/community.svg)](https://gitter.im/grassgis/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+[![CentOS](https://github.com/OSGeo/grass/workflows/CentOS/badge.svg)](https://github.com/OSGeo/grass/actions?query=workflow%3ACentOS)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5176030.svg)](https://doi.org/10.5281/zenodo.5176030)
+[![Join the chat at https://gitter.im/grassgis/community](https://badges.gitter.im/grassgis/community.svg)](https://gitter.im/grassgis/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
 ## Description
 
@@ -3276,6 +3298,7 @@ a Geographic Information System used for geospatial data management and
 analysis, image processing, graphics/map production, spatial modeling, and
 visualization.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3714,6 +3737,8 @@ Jupyter Notebooks by clicking the button below:
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> d378f4420b (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -4165,6 +4190,8 @@ Jupyter Notebooks by clicking the button below:
 >>>>>>> 3c6ff8d9ea (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8257ecf53a (Add Binder badge/button to readme (#1628))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 Launch this repository in Binder and experiment with GRASS's Python API in
 Jupyter Notebooks by clicking the button below:
 >>>>>>> 0503a5c10a (Add Binder badge/button to readme (#1628))
@@ -5434,6 +5461,7 @@ Jupyter Notebooks by clicking the button below:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7551,10 +7579,15 @@ Launch this repository in Binder and experiment with GRASS's Python API in Jupyt
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 Launch this repository in Binder and experiment with GRASS's Python API in Jupyter Notebooks by clicking the button below:
 
 [![Binder](https://camo.githubusercontent.com/581c077bdbc6ca6899c86d0acc6145ae85e9d80e6f805a1071793dbe48917982/68747470733a2f2f6d7962696e6465722e6f72672f62616467655f6c6f676f2e737667)](https://mybinder.org/v2/gh/OSGeo/grass/main?urlpath=lab%2Ftree%2Fdoc%2Fnotebooks%2Fjupyter_example.ipynb)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 ## How to get write access here
@@ -7568,8 +7601,17 @@ Launch this repository in Binder and experiment with GRASS's Python API in Jupyt
 =======
 ## Contributing
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+## Contributing
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
 In general: you don't really need write access as you can simply open
 a [pull request](https://github.com/OSGeo/grass/pulls) to contribute to
@@ -7808,6 +7850,7 @@ Want to become a core developer? See
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8063,6 +8106,8 @@ Want to become a core developer? See
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -9711,12 +9756,15 @@ Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are det
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are
 detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install)
 in the Wiki.
 =======
 Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install) in the Wiki.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10830,13 +10878,17 @@ in the Wiki.
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install) in the Wiki.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11523,6 +11575,8 @@ in the Wiki.
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 
 ## Docker
 
@@ -11774,6 +11828,7 @@ containing the source code):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12082,6 +12137,8 @@ containing the source code):
 >>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
@@ -12889,6 +12946,7 @@ docker build -t grassgis .
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13126,6 +13184,10 @@ docker build -t grassgis .
 >>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 A. Docker image **without graphical user interface - wxGUI**.
 
 =======
@@ -13777,6 +13839,7 @@ docker build -t grassgis .
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13969,6 +14032,8 @@ docker build -t grassgis .
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14078,9 +14143,12 @@ docker build -t grassgis .
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
 ```bash
 docker build -t grassgis .
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14164,6 +14232,8 @@ docker build -t grassgis .
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -15569,7 +15639,12 @@ docker build -t grassgis80 .
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 ```
 
 A test run (assuming you have the existing GRASS GIS test location; it can be
@@ -15789,6 +15864,7 @@ docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15994,6 +16070,8 @@ docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
 >>>>>>> 152a82497c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -16709,6 +16787,8 @@ docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
 >>>>>>> 84a2937271 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
     --env HOME=/data/ grassgis grass --text nc_basic_spm_grass7/user1 \
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16845,6 +16925,7 @@ docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
 =======
     --env HOME=/data/ grassgis grass --text nc_basic_spm_grass7/user1 \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18093,13 +18174,17 @@ docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
     --env HOME=/data/ grassgis grass --text nc_basic_spm_grass7/user1 \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
     --env HOME=/data/ grassgis grass --text nc_basic_spm_grass7/user1 \
@@ -18687,6 +18772,8 @@ docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
         --exec g.region -p
 
 # case 2: launching anywhere
@@ -18901,6 +18988,7 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -18919,6 +19007,8 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 >>>>>>> 152a82497c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
@@ -20333,7 +20423,12 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
     --volume /your/test/grassdata/:/data --env HOME=/data/ grassgis \
         grass /data/nc_basic_spm_grass7/PERMANENT --exec g.region -p
 ```
@@ -21524,6 +21619,7 @@ Note that the first `grassgis` is the name of the image while the second
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -21695,6 +21791,8 @@ Note that the first `grassgis` is the name of the image while the second
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -21797,12 +21895,15 @@ Note that the first `grassgis` is the name of the image while the second
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
     --volume /your/test/grassdata/:/data --env HOME=/data/ grassgis \
         grass /data/nc_basic_spm_grass7/PERMANENT --exec g.region -p
 ```
 
 Note that the first `grassgis` is the name of the image while the second
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21981,6 +22082,8 @@ Note that the first `grassgis` is the name of the image while the second
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -23098,7 +23201,12 @@ Note that the first `grassgis` is the name of the image while the second
 =======
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 `grass` is the name of the executable.
 
 To run the tests (again assuming local location):
@@ -23316,6 +23424,7 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -23521,6 +23630,8 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 >>>>>>> 152a82497c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -24236,6 +24347,8 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 >>>>>>> 84a2937271 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
         grassgis grass /data/nc_basic_spm_grass7/PERMANENT --exec \
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -24372,6 +24485,7 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 =======
         grassgis grass /data/nc_basic_spm_grass7/PERMANENT --exec \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25620,13 +25734,17 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
         grassgis grass /data/nc_basic_spm_grass7/PERMANENT --exec \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
         grassgis grass /data/nc_basic_spm_grass7/PERMANENT --exec \
@@ -26214,6 +26332,8 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
             python -m grass.gunittest.main \
                 --location nc_basic_spm_grass7 --location-type nc
 ```
@@ -26244,6 +26364,7 @@ this issue, clean all the compiled files from the source code:
 ```bash
 make distclean
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26926,6 +27047,8 @@ make distclean
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 
 ## Further documents
 
@@ -28739,6 +28862,7 @@ make pdfdocs
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
@@ -28772,6 +28896,8 @@ make pdfdocs
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -29432,6 +29558,7 @@ make pdfdocs
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -29705,3 +29832,7 @@ make pdfdocs
 >>>>>>> f44c9d2be9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
