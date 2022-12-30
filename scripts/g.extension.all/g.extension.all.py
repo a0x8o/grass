@@ -35,7 +35,11 @@
 # % key: f
 # % label: Force operation (required for removal)
 # % end
+<<<<<<< HEAD
 
+=======
+from __future__ import print_function
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 import http
 import os
 import re
@@ -46,7 +50,14 @@ import xml.etree.ElementTree as etree
 from urllib import request as urlrequest
 from urllib.error import HTTPError, URLError
 
+<<<<<<< HEAD
 import grass.script as gs
+=======
+from six.moves.urllib import request as urlrequest
+from six.moves.urllib.error import HTTPError, URLError
+
+import grass.script as gscript
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 from grass.exceptions import CalledModuleError
 
 HEADERS = {
