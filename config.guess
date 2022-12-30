@@ -98,6 +98,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -150,6 +151,8 @@
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -264,6 +267,7 @@
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -368,10 +372,13 @@
 =======
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 #   Copyright 1992-2024 Free Software Foundation, Inc.
 
 # shellcheck disable=SC2006,SC2268 # see below for rationale
 
+<<<<<<< HEAD
 timestamp='2024-07-27'
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -389,6 +396,7 @@ timestamp='2024-07-27'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7192560051 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
@@ -401,6 +409,8 @@ timestamp='2024-07-27'
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 timestamp='2024-01-01'
 =======
@@ -454,11 +464,15 @@ timestamp='2024-01-01'
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 timestamp='2024-01-01'
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 =======
 timestamp='2024-01-01'
@@ -488,12 +502,15 @@ timestamp='2024-01-01'
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 #   Copyright 1992-2022 Free Software Foundation, Inc.
 
 # shellcheck disable=SC2006,SC2268 # see below for rationale
 
 timestamp='2022-01-09'
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,6 +584,8 @@ timestamp='2022-01-09'
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -1270,6 +1289,7 @@ timestamp='2024-01-01'
 =======
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
@@ -1451,6 +1471,11 @@ timestamp='2024-01-01'
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -1600,6 +1625,7 @@ Originally written by Per Bothner.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1689,6 +1715,8 @@ Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 =======
@@ -2339,6 +2367,7 @@ Copyright 1992-2024 Free Software Foundation, Inc.
 Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 =======
 Copyright 1992-2022 Free Software Foundation, Inc.
@@ -2494,6 +2523,8 @@ Copyright 1992-2024 Free Software Foundation, Inc.
 Copyright 1992-2024 Free Software Foundation, Inc.
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
@@ -3021,7 +3052,9 @@ case $UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION in
 		UNAME_RELEASE=`uname -v`
 		;;
 	esac
+<<<<<<< HEAD
 	# Japanese Language versions have a version number like '4.1.3-JL'.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3090,6 +3123,8 @@ case $UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION in
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -3424,6 +3459,7 @@ case $UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION in
 =======
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 	# Japanese Language versions have a version number like `4.1.3-JL'.
@@ -3711,6 +3747,13 @@ case $UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION in
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+=======
+=======
+	# Japanese Language versions have a version number like `4.1.3-JL'.
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 	SUN_REL=`echo "$UNAME_RELEASE" | sed -e 's/-/_/'`
 	GUESS=sparc-sun-sunos$SUN_REL
 	;;
@@ -4247,6 +4290,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4336,6 +4380,8 @@ EOF
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 =======
@@ -4974,6 +5020,7 @@ EOF
 	UNAME_PROCESSOR=`/usr/bin/uname -p`
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 =======
 	UNAME_PROCESSOR=`/usr/bin/uname -p`
@@ -5122,6 +5169,8 @@ EOF
 	UNAME_PROCESSOR=`uname -p`
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 	case $UNAME_PROCESSOR in
 	    amd64)
 		UNAME_PROCESSOR=x86_64 ;;
@@ -5211,6 +5260,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5463,6 +5513,7 @@ EOF
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5612,6 +5663,8 @@ EOF
 =======
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
     x86_64:[Mm]anagarm:*:*|i?86:[Mm]anagarm:*:*)
 	GUESS="$UNAME_MACHINE-pc-managarm-mlibc"
 	;;
@@ -5658,6 +5711,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5268807e7b (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
@@ -5686,6 +5740,8 @@ EOF
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -6077,6 +6133,7 @@ EOF
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -6230,6 +6287,8 @@ EOF
 =======
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
     *:Minix:*:*)
 	GUESS=$UNAME_MACHINE-unknown-minix
 	;;
@@ -6326,6 +6385,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6378,6 +6438,8 @@ EOF
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6562,6 +6624,7 @@ EOF
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6711,6 +6774,8 @@ EOF
 =======
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 	set_cc_for_build
 	CPU=$UNAME_MACHINE
 	LIBCABI=$LIBC
@@ -6772,6 +6837,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5268807e7b (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
@@ -6800,6 +6866,8 @@ EOF
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -7246,6 +7314,7 @@ EOF
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 =======
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
@@ -7392,6 +7461,8 @@ EOF
 =======
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 	;;
     aarch64_be:Linux:*:*)
 	UNAME_MACHINE=aarch64_be
@@ -7611,6 +7682,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7663,6 +7735,8 @@ EOF
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7847,6 +7921,7 @@ EOF
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7992,6 +8067,8 @@ EOF
 =======
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
     kvx:Linux:*:*)
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 	;;
@@ -8042,6 +8119,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5268807e7b (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
@@ -8070,6 +8148,8 @@ EOF
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -8522,6 +8602,7 @@ EOF
     loongarch32:Linux:*:* | loongarch64:Linux:*:* | loongarchx32:Linux:*:*)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 =======
     loongarch32:Linux:*:* | loongarch64:Linux:*:* | loongarchx32:Linux:*:*)
@@ -8652,6 +8733,8 @@ EOF
 =======
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 	;;
 =======
@@ -8860,6 +8943,7 @@ EOF
 	CPU=$UNAME_MACHINE
 	LIBCABI=$LIBC
 	if test "$CC_FOR_BUILD" != no_compiler_found; then
+<<<<<<< HEAD
 	    ABI=64
 	    sed 's/^	    //' << EOF > "$dummy.c"
 	    #ifdef __i386__
@@ -8878,6 +8962,7 @@ EOF
 	    esac
 	fi
 	GUESS=$CPU-pc-linux-$LIBCABI
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8947,6 +9032,8 @@ EOF
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
@@ -8995,6 +9082,7 @@ EOF
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9048,6 +9136,10 @@ EOF
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 	    if (echo '#ifdef __ILP32__'; echo IS_X32; echo '#endif') | \
 		(CCOPTS="" $CC_FOR_BUILD -E - 2>/dev/null) | \
 		grep IS_X32 >/dev/null
@@ -9056,6 +9148,7 @@ EOF
 	    fi
 	fi
 	GUESS=$UNAME_MACHINE-pc-linux-$LIBCABI
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9186,6 +9279,8 @@ EOF
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9476,6 +9571,7 @@ EOF
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9639,6 +9735,8 @@ EOF
 =======
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 	;;
     xtensa*:Linux:*:*)
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
@@ -9833,6 +9931,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     PENTIUM:*:4.0*:*)	# Unisys 'ClearPath HMP IX 4000' SVR4/MP effort
 =======
@@ -10277,6 +10376,7 @@ EOF
     PENTIUM:*:4.0*:*)	# Unisys 'ClearPath HMP IX 4000' SVR4/MP effort
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -10501,6 +10601,14 @@ EOF
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+=======
+    PENTIUM:*:4.0*:*)	# Unisys 'ClearPath HMP IX 4000' SVR4/MP effort
+=======
+    PENTIUM:*:4.0*:*)	# Unisys `ClearPath HMP IX 4000' SVR4/MP effort
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 			# says <Richard.M.Bartel@ccMail.Census.GOV>
 	GUESS=i586-unisys-sysv4
 	;;
@@ -10638,6 +10746,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10690,6 +10799,8 @@ EOF
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10876,6 +10987,7 @@ EOF
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11025,6 +11137,8 @@ EOF
 =======
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
     ppc:Haiku:*:*)	# Haiku running on Apple PowerPC
 	GUESS=powerpc-apple-haiku
 	;;
@@ -11070,6 +11184,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5268807e7b (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
@@ -11098,6 +11213,8 @@ EOF
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11147,6 +11264,7 @@ EOF
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11200,9 +11318,14 @@ EOF
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
     x86_64:Haiku:*:*)
 	GUESS=x86_64-unknown-haiku
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11343,6 +11466,8 @@ EOF
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11744,6 +11869,7 @@ EOF
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11882,6 +12008,8 @@ EOF
 =======
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 	;;
     SX-4:SUPER-UX:*:*)
 	GUESS=sx4-nec-superux$UNAME_RELEASE
@@ -12148,6 +12276,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
@@ -12171,10 +12300,13 @@ EOF
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
     *:Ironclad:*:*)
 	GUESS=$UNAME_MACHINE-unknown-ironclad
 	;;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12845,6 +12977,7 @@ EOF
 	;;
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
@@ -13004,6 +13137,11 @@ EOF
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4ceaac0fe (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 esac
 
 # Do we have a guess based on uname results?
