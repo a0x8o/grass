@@ -86,6 +86,7 @@ int load_rasters3d(const struct GParams *params, nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int add_isosurfs(const struct GParams *params, nv_data *data)
 =======
 <<<<<<< HEAD
@@ -106,6 +107,8 @@ int add_isosurfs(const struct GParams *params, nv_data *data)
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 int add_isosurfs(const struct GParams *params, nv_data *data UNUSED)
 =======
 int add_isosurfs(const struct GParams *params, nv_data *data)
@@ -116,6 +119,7 @@ int add_isosurfs(const struct GParams *params, nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int add_isosurfs(const struct GParams *params, nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -150,6 +154,8 @@ int add_isosurfs(const struct GParams *params, nv_data *data)
 int add_isosurfs(const struct GParams *params, nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 {
     int i;
     float level;
@@ -328,6 +334,7 @@ int add_isosurfs(const struct GParams *params, nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int add_slices(const struct GParams *params, nv_data *data)
 =======
 <<<<<<< HEAD
@@ -348,6 +355,8 @@ int add_slices(const struct GParams *params, nv_data *data)
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 int add_slices(const struct GParams *params, nv_data *data UNUSED)
 =======
 int add_slices(const struct GParams *params, nv_data *data)
@@ -358,6 +367,7 @@ int add_slices(const struct GParams *params, nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int add_slices(const struct GParams *params, nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -392,6 +402,8 @@ int add_slices(const struct GParams *params, nv_data *data)
 int add_slices(const struct GParams *params, nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 {
     int i;
     int num, nvols, *vol_list, id, nslices, axis;

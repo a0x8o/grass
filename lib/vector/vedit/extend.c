@@ -159,6 +159,7 @@ int extend_lines(struct Map_info *Map, int first, int line_from, int line_to,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                  int parallel, double thresh, struct ilist *List)
 =======
 <<<<<<< HEAD
@@ -179,6 +180,8 @@ int extend_lines(struct Map_info *Map, int first, int line_from, int line_to,
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
                  int parallel, double thresh, struct ilist *List UNUSED)
 =======
                  int parallel, double thresh, struct ilist *List)
@@ -189,6 +192,7 @@ int extend_lines(struct Map_info *Map, int first, int line_from, int line_to,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                  int parallel, double thresh, struct ilist *List)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -223,6 +227,8 @@ int extend_lines(struct Map_info *Map, int first, int line_from, int line_to,
                  int parallel, double thresh, struct ilist *List)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 {
     /* TODO: If line_from extends to the i'th segment of line_to but the
      * line_from node is closest to the j'th segment of line_to, this function
