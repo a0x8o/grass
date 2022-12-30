@@ -114,6 +114,7 @@ DLLS="
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -279,11 +280,18 @@ DLLS="
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 	/mingw64/bin/libblas.dll
 =======
 =======
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+<<<<<<< HEAD
 >>>>>>> 358e3de0db (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+=======
+>>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 	/mingw64/bin/zlib1.dll
 	/mingw64/bin/libbz2-1.dll
 	/mingw64/bin/libiconv-2.dll
@@ -792,6 +800,21 @@ DLLS="
 =======
 	/mingw64/bin/libblas.dll
 >>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+	/mingw64/bin/libblas.dll
+=======
+	/mingw64/bin/zlib1.dll
+	/mingw64/bin/libbz2-1.dll
+	/mingw64/bin/libiconv-2.dll
+<<<<<<< HEAD
+=======
+	/mingw64/bin/libexpat-1.dll
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+	/mingw64/bin/libfontconfig-1.dll
+	/mingw64/bin/libgfortran-5.dll
+	/mingw64/bin/libbrotlidec.dll
+>>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 	/mingw64/bin/libbrotlicommon.dll
 	/mingw64/bin/libbrotlidec.dll
 	/mingw64/bin/libbz2-1.dll
@@ -845,6 +868,7 @@ DLLS="
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -859,6 +883,8 @@ DLLS="
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+>>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 	/mingw64/bin/libomp.dll
 =======
 =======
@@ -1134,6 +1160,17 @@ DLLS="
 	/mingw64/bin/libpixman-1-0.dll
 	/mingw64/bin/libpng16-16.dll
 >>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+	/mingw64/bin/libpcre-1.dll
+	/mingw64/bin/libpixman-1-0.dll
+	/mingw64/bin/libpng16-16.dll
+=======
+<<<<<<< HEAD
+=======
+	/mingw64/bin/libomp.dll
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 	/mingw64/bin/libquadmath-0.dll
 	/mingw64/bin/libstdc++-6.dll
 	/mingw64/bin/libsystre-0.dll
@@ -1200,6 +1237,7 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		--with-bzlib \
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1269,6 +1307,8 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 		--with-cxx \
 		--with-fftw \
 		--with-freetype \
@@ -1513,6 +1553,8 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 		--with-cairo \
 		--with-cairo-includes=$OSGEO4W_ROOT_MSYS/include \
 		--with-cairo-ldflags="-L$PWD/mswindows/osgeo4w/lib -lcairo -lfontconfig" \
+=======
+>>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 		--with-bzlib \
 <<<<<<< HEAD
@@ -1975,6 +2017,8 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 		--with-cxx \
 		--with-fftw \
 		--with-freetype \
@@ -2004,9 +2048,27 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 		--with-zstd \
 		--without-pdal \
 		--without-x
+<<<<<<< HEAD
 >>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+<<<<<<< HEAD
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+<<<<<<< HEAD
 >>>>>>> 358e3de0db (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+=======
+=======
+=======
+		--with-bzlib \
+<<<<<<< HEAD
+		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config \
+		--without-pdal
+=======
+		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 
 	touch mswindows/osgeo4w/configure-stamp
 fi
