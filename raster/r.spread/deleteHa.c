@@ -130,6 +130,7 @@ void deleteHa(float old_min_cost, int row, int col, struct costHa *heap,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         printf("programming ERROR: can't delete a cell from an ampty list");
 =======
 <<<<<<< HEAD
@@ -275,6 +276,8 @@ void deleteHa(float old_min_cost, int row, int col, struct costHa *heap,
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -517,6 +520,7 @@ void deleteHa(float old_min_cost, int row, int col, struct costHa *heap,
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -850,6 +854,10 @@ void deleteHa(float old_min_cost, int row, int col, struct costHa *heap,
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
         printf("programming ERROR: can't delete a cell from an empty list");
 =======
         printf("programming ERROR: can't delete a cell from an ampty list");
@@ -958,6 +966,7 @@ void deleteHa(float old_min_cost, int row, int col, struct costHa *heap,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1105,6 +1114,8 @@ void deleteHa(float old_min_cost, int row, int col, struct costHa *heap,
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1668,6 +1679,7 @@ void deleteHa(float old_min_cost, int row, int col, struct costHa *heap,
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1842,6 +1854,10 @@ void deleteHa(float old_min_cost, int row, int col, struct costHa *heap,
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
         exit(1);
     }
     /* search the old_cell from the heap */

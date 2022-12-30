@@ -75,6 +75,7 @@ extracted form gislib.dox and improved by Vaclav Petras, 2013
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -855,6 +856,7 @@ Copyright 2004-2023 by the GRASS Development Team
 =======
 >>>>>>> 7c58471b8e (i.maxlik: fix crash when classification result is NULL (#2724))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce13cea96 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
@@ -1342,6 +1344,10 @@ Copyright 2004-2023 by the GRASS Development Team
 =======
 >>>>>>> 7c58471b8e (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> d29537714a (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 Copyright 2004-2024 by the GRASS Development Team
 =======
 Copyright 2004-2022 by the GRASS Development Team
@@ -1451,6 +1457,7 @@ Copyright 2004-2022 by the GRASS Development Team
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1562,6 +1569,8 @@ Copyright 2004-2022 by the GRASS Development Team
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -2910,6 +2919,7 @@ Copyright 2004-2023 by the GRASS Development Team
 >>>>>>> 7c58471b8e (i.maxlik: fix crash when classification result is NULL (#2724))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce13cea96 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
@@ -3273,6 +3283,10 @@ Copyright 2004-2023 by the GRASS Development Team
 >>>>>>> c23f495b50 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> d29537714a (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 
 Published under GNU Free Documentation License
 -->

@@ -206,6 +206,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -426,6 +427,8 @@
 >>>>>>> c5b4570ccf (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 87f8137363 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -1641,12 +1644,16 @@
 =======
 >>>>>>> e8f170298b (Add session initiations functions for Jupyter Notebooks (#1629))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 59435e22e5 (Add session initiations functions for Jupyter Notebooks (#1629))
 =======
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2026,6 +2033,8 @@
 =======
 >>>>>>> e8f170298b (Add session initiations functions for Jupyter Notebooks (#1629))
 >>>>>>> 87f8137363 (Add session initiations functions for Jupyter Notebooks (#1629))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 # MODULE:    grass.jupyter
 #
 # AUTHOR(S): Caitlin Haedrich <caitlin DOT haedrich AT gmail>
@@ -2173,6 +2182,7 @@ To use existing data, we start a GRASS session in an existing mapset::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2379,6 +2389,8 @@ To use existing data, we start a GRASS session in an existing mapset::
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -2670,6 +2682,7 @@ To use existing data, we start a GRASS session in an existing mapset::
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2890,6 +2903,10 @@ To use existing data, we start a GRASS session in an existing mapset::
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 .. note::
     Contrary to typical command line / GUI module usage, grass.jupyter
     enables output overwrite by default to align with behaviour of other
@@ -3004,6 +3021,7 @@ To use existing data, we start a GRASS session in an existing mapset::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3153,6 +3171,8 @@ To use existing data, we start a GRASS session in an existing mapset::
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -3649,6 +3669,7 @@ To use existing data, we start a GRASS session in an existing mapset::
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3850,6 +3871,10 @@ To use existing data, we start a GRASS session in an existing mapset::
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 All classes and functions for interaction in notebooks are now available under *gj*,
 for example we can display a map with a selected raster and vector::
 
@@ -3912,6 +3937,7 @@ from .map3d import Map3D
 from .seriesmap import SeriesMap
 from .setup import init
 from .timeseriesmap import TimeSeriesMap
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4196,6 +4222,7 @@ from .timeseriesmap import TimeSeriesMap
 =======
 >>>>>>> bd71b111b3 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 073da2916c (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
@@ -4274,6 +4301,10 @@ from .timeseriesmap import TimeSeriesMap
 =======
 >>>>>>> bd71b111b3 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> c5b4570ccf (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 
 __all__ = [
     "InteractiveMap",
@@ -4286,6 +4317,7 @@ __all__ = [
     "init",
 ]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4337,6 +4369,8 @@ __all__ = [
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c5b4570ccf (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 946be2ff7b (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> 1eade8c933 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
@@ -4662,12 +4696,16 @@ __all__ = [
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4840,6 +4878,8 @@ __all__ = [
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 from .seriesmap import SeriesMap
 =======
 from .setup import *
@@ -5665,10 +5705,13 @@ from .utils import *
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8868,4 +8911,10 @@ from .utils import *
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> 6547fb8a44 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 >>>>>>> c8b938ae61 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 >>>>>>> 7a5d2a81ff (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+>>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))

@@ -321,6 +321,7 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -520,6 +521,8 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 >>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -919,6 +922,8 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 >>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
         if (count >= 0 && (size_t)count < osize)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1028,7 +1033,11 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
         if (count >= 0 && count < osize)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3387,7 +3396,12 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
             break;
         if (count > -1)
             osize = count + 1;

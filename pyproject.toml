@@ -215,6 +215,7 @@ line-length = 88
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 target-version = ['py37', 'py38', 'py39', 'py310']
@@ -469,6 +470,8 @@ target-version = ['py37', 'py38', 'py39', 'py310']
 >>>>>>> 52e6c1ff9f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 4d4ee1c6cc (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -1663,10 +1666,14 @@ target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
 =======
 =======
 >>>>>>> a3451b0781 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
 =======
 =======
 >>>>>>> 4385ab760c (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 6242fe69ba (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 52e6c1ff9f (Dockerfile: fix broken lib link (#1625))
@@ -2153,6 +2160,7 @@ target-version = ['py37', 'py38', 'py39', 'py310']
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3046,6 +3054,7 @@ target-version = ['py37', 'py38', 'py39', 'py310']
 target-version = ['py36', 'py37', 'py38', 'py39']
 >>>>>>> 6242fe69ba (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f209031e69 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -3365,6 +3374,10 @@ target-version = ['py36', 'py37', 'py38', 'py39']
 target-version = ['py36', 'py37', 'py38', 'py39']
 >>>>>>> 6242fe69ba (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 52e6c1ff9f (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 include = '\.pyi?$'
 exclude = '''
 (
@@ -3382,6 +3395,7 @@ exclude = '''
         | bin\..*
         | dist\..*
     )/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3737,6 +3751,8 @@ exclude = '''
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 52e6c1ff9f (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -4605,7 +4621,12 @@ exclude = '''
 =======
 =======
 >>>>>>> 6242fe69ba (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 52e6c1ff9f (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
     | python/grass/ctypes/
     # Bug in Black related to r-string prefix capitalization reformats
     # a line in this file unnecessarily. File is however fully Black-formatted
@@ -5076,6 +5097,7 @@ exclude = '''
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5225,6 +5247,8 @@ exclude = '''
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -6650,7 +6674,12 @@ exclude = '''
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> a3451b0781 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 4d4ee1c6cc (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 )
 '''
 
@@ -7827,6 +7856,7 @@ timeout = 300
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8021,6 +8051,8 @@ timeout = 300
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -8241,6 +8273,7 @@ timeout = 300
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -8419,11 +8452,16 @@ timeout = 300
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 markers = [
     "slow: marks tests as slow (deselect with '-m \"not slow\"')",
     "needs_solo_run: marks tests that must be run without any other tests running in parallel",
 ]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9037,6 +9075,7 @@ markers = [
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -9241,9 +9280,15 @@ markers = [
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 
 
 [tool.bandit]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9344,6 +9389,8 @@ markers = [
 =======
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9440,6 +9487,7 @@ markers = [
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -9500,6 +9548,10 @@ markers = [
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 exclude_dirs = [
     "./testsuite",
     "*/tests/*",
@@ -9508,6 +9560,7 @@ exclude_dirs = [
 ]
 skips = ["B324", "B110", "B101", "B112", "B311", "B404", "B603"]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9762,6 +9815,8 @@ skips = ["B324", "B110", "B101", "B112", "B311", "B404", "B603"]
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
 <<<<<<< HEAD
@@ -10718,6 +10773,8 @@ skips = ["B324", "B110", "B101", "B112", "B311", "B404", "B603"]
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 exclude_dirs = ["./testsuite", "*/tests/*", "*/testsuite/*", "utils/test_generate_last_commit_file.py"]
 <<<<<<< HEAD
 skips = ["B324","B110", "B101", "B112", "B311", "B404", "B603"]
@@ -10725,6 +10782,7 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404", "B603"]
 skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11045,4 +11103,11 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))

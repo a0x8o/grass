@@ -238,6 +238,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -250,6 +251,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
@@ -865,12 +868,15 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> 3c6ff8d9ea (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
         stats[i].min = NAN;
         stats[i].max = NAN;
 =======
         stats[i].min = 0.0 / 0.0; /* set to nan as default */
         stats[i].max = 0.0 / 0.0; /* set to nan as default */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1527,6 +1533,9 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 <<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3530,7 +3539,12 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
         stats[i].n_perc = n_perc;
         if (n_perc > 0)
             stats[i].perc = (double *)G_malloc(n_perc * sizeof(double));
@@ -3638,6 +3652,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3834,6 +3849,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -4753,13 +4770,17 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
         stats[i].n_alloc = 0;
         stats[i].first = TRUE;
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4947,6 +4968,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 
         stats[i].n_alloc = 0;
 
@@ -5078,6 +5101,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -5145,6 +5169,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -5842,6 +5868,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -6011,6 +6038,11 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     return stats;
@@ -6215,6 +6247,7 @@ int print_stats(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* all these calculations get promoted to doubles, so any DIV0 becomes
          * nan */
         mean = stats[z].sum / stats[z].n;
@@ -6686,6 +6719,8 @@ int print_stats(univar_stat *stats)
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6733,6 +6768,8 @@ int print_stats(univar_stat *stats)
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
         /* stats collected for this zone? */
         if (stats[z].size == 0)
             continue;
@@ -8217,6 +8254,7 @@ int print_stats(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8239,6 +8277,8 @@ int print_stats(univar_stat *stats)
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
         /* all these calculations get promoted to doubles, so any DIV0 becomes
          * nan */
         mean = stats[z].sum / stats[z].n;
@@ -8250,6 +8290,7 @@ int print_stats(univar_stat *stats)
         var_coef = (stdev / mean) * 100.; /* perhaps stdev/fabs(mean) ? */
 
         if (stats[z].n == 0)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8339,6 +8380,8 @@ int print_stats(univar_stat *stats)
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8d26853320 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10305,6 +10348,9 @@ int print_stats(univar_stat *stats)
 =======
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
         sprintf(sum_str, "%.15g", stats[z].sum);
         G_trim_decimal(sum_str);
 
@@ -10363,6 +10409,7 @@ int print_stats(univar_stat *stats)
             quartile_perc = (double *)G_calloc(stats[z].n_perc, sizeof(double));
 
             if (stats[z].n == 0) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11262,6 +11309,11 @@ int print_stats(univar_stat *stats)
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = 0.0 / 0.0;
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                quartile_25 = median = quartile_75 = 0.0 / 0.0;
+                for (i = 0; i < stats[z].n_perc; i++)
+                    quartile_perc[i] = 0.0 / 0.0;
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
             }
             else {
                 for (i = 0; i < stats[z].n_perc; i++) {
@@ -11385,6 +11437,7 @@ int print_stats(univar_stat *stats)
         }
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14530,6 +14583,7 @@ int print_stats(univar_stat *stats)
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
@@ -15721,6 +15775,9 @@ int print_stats(univar_stat *stats)
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
         /* G_message() prints to stderr not stdout: disabled. this \n is printed
          * above with zone */
         /* if (!(param.shell_style->answer))
@@ -15947,6 +16004,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* for extendet stats */
 =======
 <<<<<<< HEAD
@@ -16092,6 +16150,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -16334,6 +16394,7 @@ int print_stats_table(univar_stat *stats)
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16667,6 +16728,10 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
         /* for extended stats */
 =======
         /* for extendet stats */
@@ -16775,6 +16840,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16922,6 +16988,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -17485,6 +17553,7 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -17659,6 +17728,10 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
         double quartile_25 = 0.0, quartile_75 = 0.0, *quartile_perc;
         double median = 0.0;
         int qpos_25, qpos_75, *qpos_perc;
@@ -17887,6 +17960,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -18086,6 +18160,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -18485,6 +18561,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 3c6ff8d9ea (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
             stats[z].sum = stats[z].sum_abs = NAN;
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -18594,7 +18672,11 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -20945,7 +21027,12 @@ int print_stats_table(univar_stat *stats)
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 
         if (zone_info.n_zones) {
             int z_cat = z + zone_info.min;
@@ -21200,6 +21287,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -21453,6 +21541,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -24431,6 +24521,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 3c6ff8d9ea (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
@@ -24453,9 +24545,12 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24810,6 +24905,8 @@ int print_stats_table(univar_stat *stats)
 =======
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
                 quartile_25 = median = quartile_75 = 0.0 / 0.0;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = 0.0 / 0.0;
@@ -24853,7 +24950,11 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
@@ -25840,7 +25941,12 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
             }
             else {
                 for (i = 0; i < stats[z].n_perc; i++) {

@@ -317,6 +317,7 @@ int Vect_read_ascii(FILE *ascii, struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (sscanf(buff, "%u%u", &catn, &cat) != 2) {
 =======
 <<<<<<< HEAD
@@ -462,6 +463,8 @@ int Vect_read_ascii(FILE *ascii, struct Map_info *Map)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -704,6 +707,7 @@ int Vect_read_ascii(FILE *ascii, struct Map_info *Map)
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1037,6 +1041,10 @@ int Vect_read_ascii(FILE *ascii, struct Map_info *Map)
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
             if (sscanf(buff, "%d%d", &catn, &cat) != 2) {
 =======
             if (sscanf(buff, "%u%u", &catn, &cat) != 2) {
@@ -1145,6 +1153,7 @@ int Vect_read_ascii(FILE *ascii, struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1292,6 +1301,8 @@ int Vect_read_ascii(FILE *ascii, struct Map_info *Map)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1855,6 +1866,7 @@ int Vect_read_ascii(FILE *ascii, struct Map_info *Map)
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2029,6 +2041,10 @@ int Vect_read_ascii(FILE *ascii, struct Map_info *Map)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
                 G_warning(_("Error reading categories: [%s]"), buff);
                 return -1;
             }
@@ -2815,6 +2831,7 @@ int Vect_write_ascii(FILE *ascii, FILE *att, struct Map_info *Map, int ver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /* write outter ring */
 =======
 <<<<<<< HEAD
@@ -2960,6 +2977,8 @@ int Vect_write_ascii(FILE *ascii, FILE *att, struct Map_info *Map, int ver,
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -3202,6 +3221,7 @@ int Vect_write_ascii(FILE *ascii, FILE *att, struct Map_info *Map, int ver,
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3535,6 +3555,10 @@ int Vect_write_ascii(FILE *ascii, FILE *att, struct Map_info *Map, int ver,
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
             /* write outer ring */
 =======
             /* write outter ring */
@@ -3643,6 +3667,7 @@ int Vect_write_ascii(FILE *ascii, FILE *att, struct Map_info *Map, int ver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3790,6 +3815,8 @@ int Vect_write_ascii(FILE *ascii, FILE *att, struct Map_info *Map, int ver,
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -4353,6 +4380,7 @@ int Vect_write_ascii(FILE *ascii, FILE *att, struct Map_info *Map, int ver,
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4527,6 +4555,10 @@ int Vect_write_ascii(FILE *ascii, FILE *att, struct Map_info *Map, int ver,
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
             Vect_sfa_line_astext(Points, GV_BOUNDARY, 0, dp,
                                  ascii); /* boundary is always 2D */
             /* get isles (holes) -> inner rings */
