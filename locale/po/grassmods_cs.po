@@ -28020,6 +28020,7 @@ msgid "Apriori Phi (roll) standard deviation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28095,6 +28096,8 @@ msgid "Apriori Phi (roll) standard deviation"
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -29013,7 +29016,12 @@ msgid "Name of the directory where the image and metadata file are stored (*.SAF
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -60755,6 +60763,7 @@ msgstr "Vektorová mapa '%s' již existuje a bude přepsána."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -60799,6 +60808,8 @@ msgstr "Vektorová mapa '%s' již existuje a bude přepsána."
 >>>>>>> osgeo-main
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 #: ../vector/v.in.lidar/main.c:556 ../vector/v.edit/main.c:99
 #: ../vector/v.in.ogr/main.c:695 ../scripts/v.unpack/v.unpack.py:112
 =======
@@ -60866,7 +60877,12 @@ msgstr "Vektorová mapa '%s' již existuje a bude přepsána."
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 #: ../vector/v.in.lidar/main.c:555 ../vector/v.edit/main.c:99
 #: ../vector/v.in.ogr/main.c:694 ../scripts/v.unpack/v.unpack.py:112
 =======
@@ -61161,6 +61177,7 @@ msgstr[3] "%d záznamů vybráno z tabulky"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -61227,6 +61244,13 @@ msgstr[3] "%d záznamů vybráno z tabulky"
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 #, c-format, python-format
 msgid "Vector map <%s> already exists"
 msgstr "Vektorová mapa <%s> již existuje"
@@ -73995,6 +74019,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74070,6 +74095,8 @@ msgstr ""
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -74165,7 +74192,12 @@ msgstr ""
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 #, c-format
 msgid "<%s> does not exist. Skipping."
 msgstr ""
@@ -74198,12 +74230,1314 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+
+#: ../general/g.copy/main.c:79
+#, c-format
+msgid "<%s> already exists and overwrite is not enabled. Skipping."
+msgstr ""
+
+#: ../general/g.copy/main.c:84
+#, c-format
+msgid "<%s> is an illegal file name. Skipping."
+msgstr ""
+
+#: ../general/g.copy/main.c:99
+msgid "All inputs had to be skipped. Nothing to copy. See the warning messages above for details."
+msgstr ""
+
+#: ../general/g.copy/main.c:105
+msgid "Nothing was copied. See the warning messages above for details."
+msgstr ""
+
+#: ../general/g.copy/main.c:111
+msgid "Errors occurred during copying. See the warning messages above for details."
+msgstr ""
+
+#: ../general/g.rename/main.c:49
+msgid "Renames data base element files in the user's current mapset."
+msgstr ""
+
+#: ../general/g.rename/main.c:55
+msgid "renamed"
+msgstr ""
+
+#: ../general/g.rename/main.c:76
+#, c-format
+msgid "%s <%s> not found"
+msgstr ""
+
+#: ../general/g.rename/main.c:80
+#, c-format
+msgid "<%s> already exists in mapset <%s>"
+msgstr ""
+
+#: ../general/g.rename/main.c:90
+#, c-format
+msgid "%s=%s,%s: files could be the same, no rename possible"
+msgstr ""
+
+#: ../general/g.rename/main.c:116
+msgid "Updating reclass maps"
+msgstr ""
+
+#: ../general/g.rename/main.c:184
+#, c-format
+msgid "Unable to find reclass information for <%s> in base map <%s@%s>"
+msgstr ""
+
+#: ../general/g.rename/main.c:188
+#, c-format
+msgid "Updating base map <%s@%s>"
+msgstr ""
+
+#: ../general/g.rename/main.c:194
+#, c-format
+msgid "Unable to update dependency file in <%s@%s>"
+msgstr ""
+
+#: ../general/g.gui/main.c:40
+msgid "GUI"
+msgstr ""
+
+#: ../general/g.gui/main.c:41
+msgid "user interface"
+msgstr "uživatelské rozhraní"
+
+#: ../general/g.gui/main.c:44
+msgid "Launches a GRASS graphical user interface (GUI) session."
+msgstr ""
+
+#: ../general/g.gui/main.c:45
+msgid "Optionally updates default user interface settings."
+msgstr ""
+
+#: ../general/g.gui/main.c:50
+msgid "User interface"
+msgstr ""
+
+#: ../general/g.gui/main.c:54
+msgid "wxPython based GUI (wxGUI)"
+msgstr ""
+
+#: ../general/g.gui/main.c:55
+msgid "command line interface only"
+msgstr ""
+
+#: ../general/g.gui/main.c:56
+msgid "command line interface with GUI startup screen"
+msgstr ""
+
+#: ../general/g.gui/main.c:66
+msgid "Name of workspace file to load on start-up"
+msgstr ""
+
+#: ../general/g.gui/main.c:67
+msgid "This is valid only for wxGUI (wxpython)"
+msgstr ""
+
+#: ../general/g.gui/main.c:71
+msgid "Start GUI in the foreground"
+msgstr ""
+
+#: ../general/g.gui/main.c:72
+msgid "By default the GUI starts in the background and control is immediately returned to the caller. When GUI runs in foregreound, it blocks the command line"
+msgstr ""
+
+#: ../general/g.gui/main.c:78
+msgid "Update default user interface settings"
+msgstr ""
+
+#: ../general/g.gui/main.c:79 ../general/g.gui/main.c:85
+msgid "Default"
+msgstr ""
+
+#: ../general/g.gui/main.c:84
+msgid "Do not launch GUI after updating the default user interface settings"
+msgstr ""
+
+#: ../general/g.gui/main.c:95
+#, c-format
+msgid "<%s> is now the default GUI"
+msgstr ""
+
+#: ../general/g.gui/main.c:101
+#, c-format
+msgid "Nothing to do. For setting up <%s> as default UI use -%c flag."
+msgstr ""
+
+#: ../general/g.gui/main.c:108
+msgid "Your installation doesn't include GUI, exiting."
+msgstr ""
+
+#: ../general/g.gui/main.c:111
+#, c-format
+msgid "Launching <%s> GUI, please wait..."
+msgstr ""
+
+#: ../general/g.gui/main.c:122
+#, c-format
+msgid "Launching <%s> GUI in the background, please wait..."
+msgstr ""
+
+#: ../general/g.parser/revoke.c:64
+msgid "G_spawn() failed"
+msgstr ""
+
+#: ../general/g.parser/revoke.c:72
+msgid "execl() failed"
+msgstr ""
+
+#: ../general/g.parser/main.c:74
+msgid "Usage"
+msgstr "Užití"
+
+#: ../general/g.parser/main.c:84
+msgid "Unable to open script file"
+msgstr ""
+
+#: ../general/g.parser/main.c:100
+#, c-format
+msgid "Line too long or missing newline at line %d\n"
+msgstr ""
+
+#: ../general/g.parser/main.c:149
+msgid "Error closing script file"
+msgstr "Chyba při zavření souboru skriptu"
+
+#: ../general/g.parser/rules.c:14
+#, c-format
+msgid "Unknown flag \"-%c\" in rule\n"
+msgstr ""
+
+#: ../general/g.parser/rules.c:26
+#, c-format
+msgid "Unknown option \"%s\" in rule\n"
+msgstr ""
+
+#: ../general/g.parser/rules.c:94
+#, c-format
+msgid "Unknown rule type \"%s\" at line %d\n"
+msgstr ""
+
+#: ../general/g.parser/parse.c:22
+#, c-format
+msgid "Unknown boolean value \"%s\" at line %d\n"
+msgstr ""
+
+#: ../general/g.parser/parse.c:70
+#, c-format
+msgid "Unknown command \"%s\" at line %d\n"
+msgstr ""
+
+#: ../general/g.parser/parse.c:103
+#, c-format
+msgid "Unknown module parameter \"%s\" at line %d\n"
+msgstr ""
+
+#: ../general/g.parser/parse.c:140
+#, c-format
+msgid "Unknown flag parameter \"%s\" at line %d\n"
+msgstr ""
+
+#: ../general/g.parser/parse.c:155
+#, c-format
+msgid "Unknown type \"%s\" at line %d\n"
+msgstr ""
+
+#: ../general/g.parser/parse.c:233
+#, c-format
+msgid "Unknown option parameter \"%s\" at line %d\n"
+msgstr ""
+
+#: ../general/g.filename/main.c:42
+msgid "Prints GRASS data base file names."
+msgstr ""
+
+#: ../general/g.filename/main.c:56
+msgid "Name of a database file"
+msgstr "Název souboru databáze"
+
+#: ../general/g.filename/main.c:62
+msgid "Name of a mapset (default: current)"
+msgstr ""
+
+#: ../general/g.access/set_perms.c:26
+msgid "Unable to change mapset permissions"
+msgstr ""
+
+#: ../general/g.access/main.c:39
+msgid "permission"
+msgstr ""
+
+#: ../general/g.access/main.c:41
+msgid "Controls access to the current mapset for other users on the system."
+msgstr ""
+
+#: ../general/g.access/main.c:42
+msgid "If no option given, prints current status."
+msgstr ""
+
+#: ../general/g.access/main.c:49
+msgid "Access for group"
+msgstr ""
+
+#: ../general/g.access/main.c:57
+msgid "Access for others"
+msgstr ""
+
+#: ../general/g.access/main.c:64
+msgid "UNIX filesystem access controls are not supported by MS-Windows"
+msgstr ""
+
+#: ../general/g.access/main.c:72
+msgid "Access to the PERMANENT mapset must be open, nothing changed"
+msgstr ""
+
+#: ../general/g.access/main.c:76
+msgid "Unable to determine mapset permissions"
+msgstr ""
+
+#: ../general/g.access/exp_perms.c:11 ../general/g.access/exp_perms.c:29
+msgid "have"
+msgstr ""
+
+#: ../general/g.access/exp_perms.c:12
+msgid "read "
+msgstr ""
+
+#: ../general/g.access/exp_perms.c:15
+msgid "Everyone"
+msgstr ""
+
+#: ../general/g.access/exp_perms.c:16
+msgid "has"
+msgstr ""
+
+#: ../general/g.access/exp_perms.c:19
+msgid "Only users in your group"
+msgstr ""
+
+#: ../general/g.access/exp_perms.c:22
+msgid "Only users outside your group"
+msgstr ""
+
+#: ../general/g.access/exp_perms.c:25
+msgid "Only you"
+msgstr ""
+
+#: ../general/g.access/exp_perms.c:31
+#, c-format
+msgid "%s %s %s %saccess to mapset %s"
+msgstr ""
+
+#: ../general/g.access/exp_perms.c:32
+msgid "will"
+msgstr ""
+
+#: ../general/g.access/exp_perms.c:32
+msgid "now"
+msgstr ""
+
+#: ../general/g.cairocomp/main.c:49 ../scripts/v.in.lines/v.in.lines.py:70
+#: ../scripts/r3.in.xyz/r3.in.xyz.py:208
+#, c-format, python-format
+msgid "Unable to read input file <%s>"
+msgstr ""
+
+#: ../general/g.cairocomp/main.c:52
+#, c-format
+msgid "Unable to parse input file <%s>"
+msgstr ""
+
+#: ../general/g.cairocomp/main.c:71
+#, c-format
+msgid "Unable to write output file <%s>"
+msgstr ""
+
+#: ../general/g.cairocomp/main.c:113
+msgid "Unable to obtain visual"
+msgstr ""
+
+#: ../general/g.cairocomp/main.c:129
+msgid "Failed to initialize output surface"
+msgstr ""
+
+#: ../general/g.cairocomp/main.c:171
+msgid "Failed to initialize input surface"
+msgstr ""
+
+#: ../general/g.cairocomp/main.c:198
+msgid "Overlays multiple X Pixmaps."
+msgstr ""
+
+#: ../general/g.cairocomp/main.c:212
+msgid "Output Visual XID"
+msgstr ""
+
+#: ../general/g.cairocomp/main.c:218
+msgid "Output screen"
+msgstr ""
+
+#: ../general/g.cairocomp/main.c:240
+msgid "Background color (R:G:B:A)"
+msgstr ""
+
+#: ../general/g.cairocomp/main.c:245
+msgid "Do not composite; just delete input Pixmaps"
+msgstr ""
+
+#: ../general/g.cairocomp/main.c:277
+msgid "input= and opacity= must have the same number of values"
+msgstr ""
+
+#: ../general/g.version/main.c:71
+msgid "citing"
+msgstr ""
+
+#: ../general/g.version/main.c:72
+msgid "copyright"
+msgstr ""
+
+#: ../general/g.version/main.c:73
+msgid "version"
+msgstr ""
+
+#: ../general/g.version/main.c:74
+msgid "license"
+msgstr ""
+
+#: ../general/g.version/main.c:75
+msgid "Displays GRASS GIS version info."
+msgstr ""
+
+#: ../general/g.version/main.c:76
+msgid "Optionally also prints build or copyright information."
+msgstr ""
+
+#: ../general/g.version/main.c:80
+msgid "Print also the copyright message"
+msgstr ""
+
+#: ../general/g.version/main.c:81 ../general/g.version/main.c:86
+#: ../general/g.version/main.c:91 ../general/g.version/main.c:101
+#: ../general/g.version/main.c:107
+msgid "Additional info"
+msgstr ""
+
+#: ../general/g.version/main.c:85
+msgid "Print also the citation options"
+msgstr ""
+
+#: ../general/g.version/main.c:90
+msgid "Print also the build information"
+msgstr ""
+
+#: ../general/g.version/main.c:100
+msgid "Print also the GIS library revision number and date"
+msgstr ""
+
+#: ../general/g.version/main.c:105
+msgid "Print also extended info for additional libraries"
+msgstr ""
+
+#: ../general/g.version/main.c:106
+msgid "GDAL/OGR, PROJ, GEOS"
+msgstr ""
+
+#: ../general/g.version/main.c:111
+msgid "Print info in shell script style (including Git reference commit)"
+msgstr ""
+
+#: ../general/g.version/main.c:112
+msgid "Shell"
+msgstr ""
+
+#: ../general/g.version/main.c:172
+#, c-format
+msgid "Cannot determine GRASS libgis version and date number. The GRASS build might be broken. Report this to developers or packagers.\n"
+msgstr ""
+
+#: ../general/g.version/main.c:179
+msgid "GRASS GIS libgis version and date number don't have the expected format. Trying to print the original strings..."
+msgstr ""
+
+#: ../general/g.version/main.c:181
+#, c-format
+msgid "GIS_H_VERSION=\"%s\""
+msgstr ""
+
+#: ../general/g.version/main.c:182
+#, c-format
+msgid "GIS_H_DATE=\"%s\""
+msgstr ""
+
+#: ../general/g.version/main.c:216
+msgid "GRASS not compiled with GDAL/OGR support"
+msgstr ""
+
+#: ../general/g.version/main.c:227
+msgid "GRASS not compiled with GEOS support"
+msgstr ""
+
+#: ../general/g.version/main.c:238
+msgid "GRASS not compiled with SQLite support"
+msgstr ""
+
+#: ../doc/vector/v.example/main.c:51 ../doc/raster/r.example/main.c:84
+msgid "keyword2"
+msgstr ""
+
+#: ../doc/vector/v.example/main.c:52 ../doc/raster/r.example/main.c:85
+msgid "keyword3"
+msgstr ""
+
+#: ../doc/vector/v.example/main.c:53
+msgid "My first vector module"
+msgstr "Můj první modul pro zpracování vektorových dat"
+
+#: ../doc/vector/v.example/main.c:175
+#, c-format
+msgid "Unable to get attribute data for cat %d"
+msgstr "Nelze získat atributová data pro cat= %d"
+
+#: ../doc/vector/v.example/main.c:184
+#, c-format
+msgid "Error while retrieving database record for cat %d"
+msgstr "Chyba během získání záznamu databáze pro kategorii %d"
+
+#: ../doc/vector/v.example/main.c:217
+#, c-format
+msgid "Unable to copy attribute table to vector map <%s>"
+msgstr "Nelze kopírovat atributovou tabulku do vektorové mapy <%s>"
+
+#: ../doc/raster/r.example/main.c:86
+msgid "My first raster module"
+msgstr "Můj první modul pro zpracování rastrových dat"
+
+#: ../db/db.select/main.c:53 ../db/db.columns/main.c:44
+#: ../db/db.describe/main.c:50 ../db/db.copy/main.c:100
+#, c-format
+msgid "Table <%s> not found in database <%s> using driver <%s>"
+msgstr ""
+
+#: ../db/db.select/main.c:63 ../db/db.execute/main.c:57
+#, c-format
+msgid "Unable to open file <%s>: %s"
+msgstr ""
+
+#: ../db/db.select/main.c:105
+#, c-format
+msgid "Test %s."
+msgstr "Test %s."
+
+#: ../db/db.select/main.c:105
+msgid "succeeded"
+msgstr "úspěch"
+
+#: ../db/db.select/main.c:207
+msgid "Name of file containing SQL select statement(s)"
+msgstr ""
+
+#: ../db/db.select/main.c:212
+msgid "Name of table to query"
+msgstr ""
+
+#: ../db/db.select/main.c:231
+msgid "Vertical record separator (requires -v flag)"
+msgstr ""
+
+#: ../db/db.select/main.c:250
+msgid "Describe query only (don't run it)"
+msgstr "Dotaz pouze popiš (neprováděj)"
+
+#: ../db/db.select/main.c:260
+msgid "Only test query, do not execute"
+msgstr "Pouze otestovat dotaz, neprovádět"
+
+#: ../db/db.select/main.c:268
+msgid "Selects data from attribute table."
+msgstr ""
+
+#: ../db/db.select/main.c:269
+msgid "Performs SQL query statement(s)."
+msgstr ""
+
+#: ../db/db.select/main.c:304
+#, c-format
+msgid "You must provide one of these options: <%s>, <%s>, or <%s>"
+msgstr ""
+
+#: ../db/db.login/main.c:41 ../db/db.connect/main.c:45
+#: ../db/db.drivers/main.c:72
+msgid "connection settings"
+msgstr ""
+
+#: ../db/db.login/main.c:42
+msgid "Sets user/password for DB driver/database."
+msgstr "Nastaví uživatelské jméno / heslo pro DB ovladač / databázi."
+
+#: ../db/db.login/main.c:59
+msgid "Username"
+msgstr ""
+
+#: ../db/db.login/main.c:75
+msgid "Hostname"
+msgstr ""
+
+#: ../db/db.login/main.c:76 ../db/db.login/main.c:85
+msgid "Relevant only for pg and mysql driver"
+msgstr ""
+
+#: ../db/db.login/main.c:84
+msgid "Port"
+msgstr ""
+
+#: ../db/db.login/main.c:90
+msgid "Print connection settings and exit"
+msgstr ""
+
+#: ../db/db.login/main.c:105
+msgid "Unable to set user/password"
+msgstr "Nelze nastavit uživatele/heslo"
+
+#: ../db/db.login/main.c:109
+#, c-format
+msgid "The password was stored in file (%s%cdblogin)"
+msgstr ""
+
+#: ../db/db.createdb/main.c:74
+msgid "Creates an empty database."
+msgstr "Vytvořit prázdnou databázi."
+
+#: ../db/db.connect/main.c:47
+msgid "Prints/sets general DB connection for current mapset."
+msgstr ""
+
+#: ../db/db.connect/main.c:52
+msgid "Substitute variables in database settings"
+msgstr ""
+
+#: ../db/db.connect/main.c:57
+msgid "Print current connection parameters using shell style and exit"
+msgstr ""
+
+#: ../db/db.connect/main.c:69
+msgid "Overwrite current settings if already initialized"
+msgstr ""
+
+#: ../db/db.connect/main.c:101
+msgid "Default group of database users to which select privilege is granted"
+msgstr "Výchozí skupina uživatelů databáze, které jsou přiřazeny práva na select."
+
+#: ../db/db.connect/main.c:151 ../db/db.tables/main.c:41
+msgid "Database connection not defined. Run db.connect."
+msgstr "Spojení s databází nebylo pro ovladač definováno. Spusťte db.connect"
+
+#: ../db/db.connect/main.c:176
+msgid "DB settings already defined, nothing to do"
+msgstr ""
+
+#: ../db/db.connect/main.c:182
+msgid "Default driver is not set"
+msgstr "Základní ovladač není nastaven"
+
+#: ../db/db.connect/main.c:185
+msgid "Default database is not set"
+msgstr "Název vstupní databáze není nastaven"
+
+#: ../db/db.connect/main.c:221
+msgid "Unable to set default database connection"
+msgstr ""
+
+#: ../db/db.columns/main.c:101
+msgid "List all columns for a given table."
+msgstr "vypíše všechny sloupce pro zadanou tabulku."
+
+#: ../db/db.execute/main.c:86 ../db/db.execute/main.c:91
+#: ../db/db.execute/main.c:106 ../db/db.execute/main.c:111
+#, c-format
+msgid "Error while executing: '%s'"
+msgstr "Chyba při vykonávání: '%s'"
+
+#: ../db/db.execute/main.c:140
+msgid "Executes any SQL statement."
+msgstr "Vykoná jakýkoliv příkaz SQL."
+
+#: ../db/db.execute/main.c:141
+msgid "For SELECT statements use 'db.select'."
+msgstr ""
+
+#: ../db/db.execute/main.c:144
+msgid "SQL statement"
+msgstr "Příkaz SQL"
+
+#: ../db/db.execute/main.c:145
+msgid "Example: update rybniky set kapri = 'hodne' where kapri = 'malo'"
+msgstr ""
+
+#: ../db/db.execute/main.c:150
+msgid "Name of file containing SQL statement(s)"
+msgstr ""
+
+#: ../db/db.execute/main.c:172
+msgid "Ignore SQL errors and continue"
+msgstr "Ignoruj chyby SQL a pokračuj"
+
+#: ../db/db.execute/main.c:179
+#, c-format
+msgid "You must provide <%s> or <%s> option"
+msgstr ""
+
+#: ../db/db.databases/main.c:53
+msgid "Unable to list databases. Try to define correct connection settings by db.login."
+msgstr "Nelze vytvořit seznam databází. Pokuste se definovat správná nastavení připojení pomocí db.login."
+
+#: ../db/db.databases/main.c:63
+msgid "No databases found"
+msgstr ""
+
+#: ../db/db.databases/main.c:87
+msgid "Location"
+msgstr ""
+
+#: ../db/db.databases/main.c:88
+msgid "Path for SQLite driver, or connection string for PostgreSQL driver"
+msgstr ""
+
+#: ../db/db.databases/main.c:99
+msgid "Lists all databases for a given driver and location."
+msgstr ""
+
+#: ../db/db.describe/main.c:108
+msgid "Print column names only instead of full column descriptions"
+msgstr "vypiš pouze jména sloupců místo plného popisu sloupců"
+
+#: ../db/db.describe/main.c:113
+msgid "Print table structure"
+msgstr "Vypiš strukturu tabulky"
+
+#: ../db/db.describe/main.c:131
+msgid "Describes a table in detail."
+msgstr "Popiš tabulku (detailně)."
+
+#: ../db/drivers/odbc/cursor.c:36 ../db/drivers/ogr/cursor.c:65
+msgid "Unable to allocate cursor"
+msgstr ""
+
+#: ../db/drivers/odbc/cursor.c:55 ../db/drivers/postgres/cursor.c:50
+#: ../db/drivers/sqlite/cursor.c:56
+msgid "Unable to add new token."
+msgstr ""
+
+#: ../db/drivers/odbc/table.c:159
+#, c-format
+msgid "Table %s doesn't exist"
+msgstr ""
+
+#: ../db/drivers/odbc/table.c:176
+#, c-format
+msgid "Table %s isn't 'TABLE' or 'VIEW' but %s"
+msgstr ""
+
+#: ../db/drivers/odbc/listdb.c:29
+msgid "Unable to allocate handle."
+msgstr ""
+
+#: ../db/drivers/odbc/listdb.c:40 ../db/drivers/postgres/listdb.c:96
+#: ../db/drivers/sqlite/listdb.c:147
+msgid "Unable to set handle"
+msgstr ""
+
+#: ../db/drivers/postgres/listtab.c:38
+msgid "Unable to select table names."
+msgstr ""
+
+#: ../db/drivers/postgres/listtab.c:65
+msgid "Unable to select view names."
+msgstr ""
+
+#: ../db/drivers/postgres/cursor.c:41 ../db/drivers/mysql/cursor.c:44
+msgid "Unable allocate cursor."
+msgstr ""
+
+#: ../db/drivers/postgres/db.c:71 ../db/drivers/postgres/db.c:250
+#: ../db/drivers/mysql/db.c:61
+msgid "Connection failed."
+msgstr ""
+
+#: ../db/drivers/postgres/db.c:99
+msgid "Unable to set schema:"
+msgstr ""
+
+#: ../db/drivers/postgres/db.c:117
+msgid "Unable to select data types"
+msgstr ""
+
+#: ../db/drivers/postgres/db.c:269
+#, c-format
+msgid "Unable to create database <%s>"
+msgstr ""
+
+#: ../db/drivers/postgres/db.c:271
+#, c-format
+msgid "Unable to drop database <%s>"
+msgstr ""
+
+#: ../db/drivers/postgres/fetch.c:33 ../db/drivers/ogr/fetch.c:55
+#: ../db/drivers/ogr/fetch.c:195 ../db/drivers/mysql/fetch.c:34
+#: ../db/drivers/mysql/fetch.c:276 ../db/drivers/sqlite/fetch.c:265
+msgid "Cursor not found"
+msgstr "Kurzor nenalezen"
+
+#: ../db/drivers/postgres/fetch.c:129 ../db/drivers/sqlite/fetch.c:171
+msgid "Unable to scan date:"
+msgstr "Nelze skenovat datum:"
+
+#: ../db/drivers/postgres/fetch.c:147 ../db/drivers/sqlite/fetch.c:188
+msgid "Unable to scan time:"
+msgstr ""
+
+#: ../db/drivers/postgres/fetch.c:166
+msgid "Unable to scan timestamp (no idea how to process time zone):"
+msgstr ""
+
+#: ../db/drivers/postgres/fetch.c:174
+msgid "Unable to scan timestamp (not enough arguments):"
+msgstr ""
+
+#: ../db/drivers/postgres/fetch.c:188
+msgid "Unable to recognize boolean value"
+msgstr ""
+
+#: ../db/drivers/postgres/fetch.c:206
+msgid "Taken not found"
+msgstr ""
+
+#: ../db/drivers/postgres/parse.c:60 ../db/drivers/mysql/parse.c:73
+msgid "'user' in database definition is not supported, use db.login"
+msgstr "'uživatel' v definici databáze není podporován, použijte db.login"
+
+#: ../db/drivers/postgres/parse.c:64 ../db/drivers/mysql/parse.c:77
+msgid "'password' in database definition is not supported, use db.login"
+msgstr "'heslo' v definici databáze není podporováno, použijte db.login"
+
+#: ../db/drivers/postgres/parse.c:69
+msgid "Unknown option in database definition for PostgreSQL: "
+msgstr "Neznámá volba v definici databáze pro PostgreSQL: "
+
+#: ../db/drivers/postgres/describe.c:40 ../db/drivers/mysql/select.c:64
+msgid "Unable to describe table."
+msgstr "Nelze popsat tabulku."
+
+#: ../db/drivers/postgres/describe.c:123
+#, c-format
+msgid "PostgreSQL driver: column '%s', type %d is not supported"
+msgstr ""
+
+#: ../db/drivers/postgres/describe.c:130 ../db/drivers/ogr/describe.c:186
+#, c-format
+msgid "Column '%s' : type int8 (bigint) is stored as integer (4 bytes) some data may be damaged"
+msgstr ""
+
+#: ../db/drivers/postgres/describe.c:134
+#, c-format
+msgid "Column '%s' : type character varying is stored as varchar(250) some data may be lost"
+msgstr ""
+
+#: ../db/drivers/postgres/describe.c:140
+#, c-format
+msgid "column '%s' : type bool (boolean) is stored as char(1), values: 0 (false), 1 (true)"
+msgstr "sloupec '%s' : typ boolean je uložen jako char(1), hodnoty: 0 (false), 1 (true)"
+
+#: ../db/drivers/postgres/priv.c:53
+msgid "Unable grant on table:"
+msgstr ""
+
+#: ../db/drivers/postgres/execute.c:42 ../db/drivers/mysql/execute.c:41
+msgid "Unable to execute:"
+msgstr ""
+
+#: ../db/drivers/postgres/execute.c:68
+msgid "Unable to 'BEGIN' transaction"
+msgstr ""
+
+#: ../db/drivers/postgres/execute.c:88
+msgid "Unable to 'COMMIT' transaction"
+msgstr ""
+
+#: ../db/drivers/postgres/create_table.c:90
+#, c-format
+msgid "Unknown column type (%s)"
+msgstr ""
+
+#: ../db/drivers/postgres/create_table.c:103
+#: ../db/drivers/mysql/create_table.c:108
+#: ../db/drivers/sqlite/create_table.c:122
+msgid "Unable to create table:"
+msgstr ""
+
+#: ../db/drivers/postgres/create_table.c:132
+msgid "Unable to grant select on table:"
+msgstr ""
+
+#: ../db/drivers/postgres/table.c:37
+msgid "Unable to execute():"
+msgstr ""
+
+#: ../db/drivers/postgres/listdb.c:35 ../db/drivers/sqlite/listdb.c:45
+msgid "No path given"
+msgstr ""
+
+#: ../db/drivers/postgres/listdb.c:65
+msgid "Unable to connect to Postgres:"
+msgstr ""
+
+#: ../db/drivers/postgres/listdb.c:76
+msgid "Unable to select from Postgres:"
+msgstr ""
+
+#: ../db/drivers/postgres/select.c:31
+msgid "Unable set DATESTYLE"
+msgstr ""
+
+#: ../db/drivers/postgres/select.c:55
+msgid "Unable to select:"
+msgstr ""
+
+#: ../db/drivers/postgres/select.c:69 ../db/drivers/mysql/describe.c:50
+msgid "Unable to describe table"
+msgstr "Nelze popsat tabulku"
+
+#: ../db/drivers/dbf/dbfexe.c:72
+msgid "SQL parser error"
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:74
+msgid "in statement:"
+msgstr "v prohlášení:"
+
+#: ../db/drivers/dbf/dbfexe.c:88
+#, c-format
+msgid "Table '%s' doesn't exist."
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:96
+msgid "Unable to load table head."
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:106
+msgid "Unable to modify table, don't have write permission for DBF file."
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:121 ../db/drivers/dbf/dbfexe.c:1023
+#, c-format
+msgid "Column '%s' not found"
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:145
+msgid "Incompatible value type."
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:161
+msgid "Unable to add column."
+msgstr "Sloupec nelze přidat."
+
+#: ../db/drivers/dbf/dbfexe.c:183
+msgid "Unable to delete column."
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:191
+#, c-format
+msgid "Table %s already exists"
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:206
+msgid "Unable to create table."
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:263 ../db/drivers/dbf/dbfexe.c:273
+#: ../db/drivers/dbf/dbfexe.c:303
+msgid "Error in selecting rows"
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:552
+msgid "Cannot load table."
+msgstr "Nelze načíst tabulku."
+
+#: ../db/drivers/dbf/dbfexe.c:567
+msgid "Incompatible types in WHERE condition."
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:572
+msgid "Result of WHERE condition is not of type BOOL."
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:588
+msgid "Error in evaluation of WHERE condition."
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:600
+#, c-format
+msgid "Unknown result (%d) of WHERE evaluation"
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:607
+msgid "Unknown WHERE condition type (bug in DBF driver)."
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:633
+#, c-format
+msgid "Unable to find order column '%s'"
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:778
+msgid "Division by zero"
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:917
+msgid "Value operand for AND"
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:931
+msgid "Value operand for OR"
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:946
+msgid "Value operand for NOT"
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:954 ../db/drivers/dbf/dbfexe.c:1151
+#, c-format
+msgid "Unknown operator %d"
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:1061
+msgid "Arithmetical operation with strings is not allowed"
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:1083
+msgid "Comparison between string and number is not allowed"
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:1098
+#, c-format
+msgid "Comparison '%s' between strings not allowed"
+msgstr ""
+
+#: ../db/drivers/dbf/dbfexe.c:1112
+msgid "Match (~) between numbers not allowed"
+msgstr ""
+
+#: ../db/drivers/dbf/cursor.c:47
+msgid "Unable to allocate new cursor"
+msgstr ""
+
+#: ../db/drivers/dbf/cursor.c:59
+msgid "Unable to tokenize new cursor"
+msgstr ""
+
+#: ../db/drivers/dbf/column.c:49
+#, c-format
+msgid "Column '%s' already exists (duplicate name)"
+msgstr ""
+
+#: ../db/drivers/dbf/column.c:99
+#, c-format
+msgid "Column '%s' does not exist"
+msgstr ""
+
+#: ../db/drivers/dbf/db.c:94
+#, c-format
+msgid "Unable to create DBF database: %s"
+msgstr ""
+
+#: ../db/drivers/dbf/db.c:102
+#, c-format
+msgid "Cannot open DBF database directory: %s"
+msgstr ""
+
+#: ../db/drivers/dbf/db.c:110
+#, c-format
+msgid "Unable to open DBF database: %s"
+msgstr ""
+
+#: ../db/drivers/dbf/describe.c:34
+#, c-format
+msgid "Table '%s' doesn't exist"
+msgstr ""
+
+#: ../db/drivers/dbf/execute.c:32
+msgid "Unable to execute statement."
+msgstr ""
+
+#: ../db/drivers/dbf/create_table.c:22
+msgid "Unable to create table"
+msgstr ""
+
+#: ../db/drivers/dbf/table.c:117 ../db/drivers/dbf/table.c:170
+msgid "Unable to open DBF file."
+msgstr "Nelze otevřít soubor DBF."
+
+#: ../db/drivers/dbf/table.c:312
+#, c-format
+msgid "Unable to move '%s' to '%s'."
+msgstr ""
+
+#: ../db/drivers/dbf/select.c:44
+msgid "Unable to open cursor."
+msgstr ""
+
+#: ../db/drivers/ogr/listtab.c:49 ../db/drivers/sqlite/listtab.c:78
+msgid "Unable to db_alloc_string_array()"
+msgstr ""
+
+#: ../db/drivers/ogr/cursor.c:74
+msgid "Unable to add new token"
+msgstr ""
+
+#: ../db/drivers/ogr/db.c:56
+msgid "Had to open data source read-only"
+msgstr ""
+
+#: ../db/drivers/ogr/db.c:60
+msgid "Unable to open OGR data source"
+msgstr ""
+
+#: ../db/drivers/ogr/fetch.c:71
+msgid "DB_PREVIOUS not supported"
+msgstr ""
+
+#: ../db/drivers/ogr/fetch.c:82
+msgid "DB_LAST not supported"
+msgstr ""
+
+#: ../db/drivers/ogr/fetch.c:167 ../db/drivers/ogr/describe.c:212
+msgid "Unknown type"
+msgstr "Neznámý typ"
+
+#: ../db/drivers/ogr/describe.c:55
+#, c-format
+msgid "OGR layer <%s> does not exist\n"
+msgstr ""
+
+#: ../db/drivers/ogr/describe.c:63 ../db/drivers/ogr/select.c:58
+msgid "Unable to describe table\n"
+msgstr ""
+
+#: ../db/drivers/ogr/describe.c:116
+#, c-format
+msgid "OGR driver: column '%s', OGR type %d is not supported"
+msgstr ""
+
+#: ../db/drivers/ogr/execute.c:113
+#, c-format
+msgid "\tOGR failed to write feature fid=%lld to layer <%s>"
+msgstr ""
+
+#: ../db/drivers/ogr/select.c:50
+msgid "Unable to select: \n"
+msgstr ""
+
+#: ../db/drivers/mysql/listtab.c:37
+msgid "Unable get list of tables:"
+msgstr ""
+
+#: ../db/drivers/mysql/cursor.c:53
+msgid "Unable to add dnew token."
+msgstr ""
+
+#: ../db/drivers/mysql/dbe.c:45
+msgid "Unable parse MySQL embedded database name"
+msgstr ""
+
+#: ../db/drivers/mysql/dbe.c:61
+msgid "Cannot initialize MySQL embedded server"
+msgstr "Nelze inicializovat připojený MySQL server"
+
+#: ../db/drivers/mysql/dbe.c:80
+msgid "Unable to connect to MySQL embedded server: "
+msgstr ""
+
+#: ../db/drivers/mysql/fetch.c:52
+msgid "Cursor position is not supported by MySQL driver"
+msgstr "Pozice kurzoru není podporována ovladačem MySQL"
+
+#: ../db/drivers/mysql/fetch.c:191
+msgid "Unable to scan timestamp: "
+msgstr "Nelze skenovat časové razítko:"
+
+#: ../db/drivers/mysql/fetch.c:200
+msgid "Unknown timestamp format: "
+msgstr "Neznámý formát časové značky: "
+
+#: ../db/drivers/mysql/fetch.c:215
+msgid "Unable to scan date: "
+msgstr ""
+
+#: ../db/drivers/mysql/fetch.c:229
+msgid "Unable to scan time: "
+msgstr ""
+
+#: ../db/drivers/mysql/fetch.c:245
+msgid "Unable to scan datetime:"
+msgstr ""
+
+#: ../db/drivers/mysql/parse.c:62
+msgid "Wrong port number in MySQL database definition: "
+msgstr "Špatný port v definici databáze MySQL: "
+
+#: ../db/drivers/mysql/parse.c:82
+msgid "Unknown option in database definition for MySQL: "
+msgstr ""
+
+#: ../db/drivers/mysql/describe.c:32 ../db/drivers/sqlite/describe.c:92
+#: ../db/drivers/sqlite/select.c:95
+msgid "Unable to describe table:"
+msgstr ""
+
+#: ../db/drivers/mysql/describe.c:121
+#, c-format
+msgid "MySQL driver: column '%s', type %d is not supported"
+msgstr "ovladač MySQL: sloupec '%s', typu %d není podporován"
+
+#: ../db/drivers/mysql/describe.c:127
+#, c-format
+msgid "column '%s' : type BIGINT is stored as integer (4 bytes) some data may be damaged"
+msgstr "sloupec '%s' : typ BITINT byl uložen jako integer některá data mohou být poškozena"
+
+#: ../db/drivers/mysql/execute.c:62
+msgid "Unable to start transaction:"
+msgstr ""
+
+#: ../db/drivers/mysql/execute.c:77
+msgid "Unable to commit transaction:"
+msgstr ""
+
+#: ../db/drivers/mysql/index.c:55 ../db/drivers/sqlite/index.c:77
+msgid "Unable to create index:"
+msgstr ""
+
+#: ../db/drivers/mysql/select.c:42
+msgid "Unable to select data:"
+msgstr ""
+
+#: ../db/drivers/sqlite/listtab.c:50 ../db/drivers/sqlite/listtab.c:66
+msgid "Unable to list tables:"
+msgstr "Tabulky nelze zobrazit:"
+
+#: ../db/drivers/sqlite/cursor.c:47
+msgid "Unable to allocate cursor."
+msgstr ""
+
+#: ../db/drivers/sqlite/main.c:47
+#, c-format
+msgid "Busy SQLITE db, already waiting for %d seconds..."
+msgstr ""
+
+#: ../db/drivers/sqlite/db.c:99
+#, c-format
+msgid "Unable to create directory '%s' for sqlite database"
+msgstr ""
+
+#: ../db/drivers/sqlite/db.c:107
+msgid "Unable to open database:"
+msgstr ""
+
+#: ../db/drivers/sqlite/db.c:134
+msgid "SQLite database connection is still busy"
+msgstr ""
+
+#: ../db/drivers/sqlite/db.c:155
+#, c-format
+msgid "Database <%s> already exists"
+msgstr ""
+
+#: ../db/drivers/sqlite/db.c:162
+msgid "Unable to create database:"
+msgstr "Nelze vytvořit databázi:"
+
+#: ../db/drivers/sqlite/db.c:186
+#, c-format
+msgid "Database <%s> not found"
+msgstr ""
+
+#: ../db/drivers/sqlite/fetch.c:72
+msgid "Unable to fetch:"
+msgstr ""
+
+#: ../db/drivers/sqlite/fetch.c:87
+msgid "DB_PREVIOUS is not supported"
+msgstr ""
+
+#: ../db/drivers/sqlite/fetch.c:93
+msgid "DB_LAST is not supported"
+msgstr ""
+
+#: ../db/drivers/sqlite/fetch.c:203
+msgid "Unable to scan timestamp:"
+msgstr ""
+
+#: ../db/drivers/sqlite/fetch.c:218
+msgid "SQLite driver: parsing of interval values not implemented; assuming seconds"
+msgstr ""
+
+#: ../db/drivers/sqlite/fetch.c:223
+msgid "Unable to scan interval:"
+msgstr ""
+
+#: ../db/drivers/sqlite/fetch.c:286
+msgid "Unable to get number of rows:"
+msgstr ""
+
+#: ../db/drivers/sqlite/describe.c:60 ../db/drivers/sqlite/execute.c:53
+#: ../db/drivers/sqlite/select.c:63
+msgid "Error in sqlite3_prepare():"
+msgstr ""
+
+#: ../db/drivers/sqlite/describe.c:78 ../db/drivers/sqlite/describe.c:132
+#: ../db/drivers/sqlite/execute.c:69 ../db/drivers/sqlite/create_table.c:141
+#: ../db/drivers/sqlite/index.c:96 ../db/drivers/sqlite/select.c:80
+msgid "Error in sqlite3_step():"
+msgstr ""
+
+#: ../db/drivers/sqlite/describe.c:194
+#, c-format
+msgid "SQLite driver: column '%s', SQLite type %d  is not supported"
+msgstr "Ovladač SQLite: sloupec '%s', typ SQLite %d není podporován"
+
+#: ../db/drivers/sqlite/execute.c:83
+msgid "Error in sqlite3_finalize():"
+msgstr ""
+
+#: ../db/drivers/sqlite/execute.c:111
+msgid "'BEGIN' transaction failed:"
+msgstr ""
+
+#: ../db/drivers/sqlite/execute.c:139
+msgid "'COMMIT' transaction failed:"
+msgstr ""
+
+#: ../db/drivers/sqlite/table.c:37
+msgid "Error in sqlite3_exec():"
+msgstr ""
+
+#: ../db/drivers/sqlite/listdb.c:99
+#, c-format
+msgid "Unable to open directory '%s'"
+msgstr ""
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../general/g.copy/main.c:79
 #, c-format
@@ -86621,12 +87955,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Scale for color rule values"
 msgstr ""
 =======
@@ -86741,7 +88078,14 @@ msgstr ""
 msgid "Scale for color rule values"
 msgstr "Měřítkový faktor pro výškový model"
 >>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+msgid "Scale for color rule values"
+msgstr ""
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.colors/edit_colors.c:284 ../raster/r.colors/edit_colors.c:318
 #, c-format
@@ -86854,12 +88198,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Unable to open color rule"
 msgstr ""
 =======
@@ -86974,7 +88321,14 @@ msgstr ""
 msgid "Unable to open color rule"
 msgstr "Nelze otevřít prolog <%s>"
 >>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+msgid "Unable to open color rule"
+msgstr ""
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.colors/rules.c:179
 #, c-format
@@ -88717,6 +90071,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -88753,6 +90108,8 @@ msgstr ""
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Coordinates to profile"
 msgstr ""
 
@@ -88972,31 +90329,37 @@ msgstr ""
 =======
 =======
 #, fuzzy
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Coordinates to profile"
-msgstr "Souřadnice dotazu"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:251 ../raster/r.geomorphon/main.c:262
 #: ../raster/r.geomorphon/main.c:272
-#, fuzzy
 msgid "Profile"
-msgstr "profil"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:261
-#, fuzzy
 msgid "Profile output file name (\"-\" for stdout)"
-msgstr "Název výstupního souboru (pro standardní výstup použijte output=-)"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:271
-#, fuzzy
 msgid "Profile output format"
-msgstr "Výstupní formát"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:292
-#, fuzzy, c-format
+#, c-format
 msgid "Failed parsing <%s>"
+<<<<<<< HEAD
 msgstr "Exportuji <%s>"
 >>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+msgstr ""
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:302
 #, c-format
@@ -89028,6 +90391,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -89064,6 +90428,8 @@ msgstr ""
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 msgid "The coordinates are outside of the computational region"
 msgstr ""
 
@@ -89205,15 +90571,24 @@ msgstr ""
 =======
 =======
 #, fuzzy
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "The coordinates are outside of the computational region"
-msgstr "Koncový bod je mimo aktuální region"
+msgstr ""
 
 #: ../raster/r.geomorphon/main.c:332
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to open output file <%s>: %d (%s)"
+<<<<<<< HEAD
 msgstr "Nelze otevřít výstupní soubor <%s>"
 >>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+msgstr ""
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"
@@ -89276,12 +90651,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 #, c-format
 msgid "Internal error in %s()"
 msgstr ""
@@ -89416,7 +90794,15 @@ msgstr ""
 msgid "Internal error in %s()"
 msgstr "Interní chba funkce %s()"
 >>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> c5e65de1b6 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+#, c-format
+msgid "Internal error in %s()"
+msgstr ""
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 
 #: ../raster/r.proj/bordwalk.c:92 ../raster/r.proj/bordwalk.c:139
 #, c-format
@@ -93342,6 +94728,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -93386,6 +94773,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 #, fuzzy
 #~ msgid ""
 #~ "Classification of a vector maps based on the values in attribute tables"
@@ -93549,7 +94938,12 @@ msgstr ""
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 #, fuzzy
 #~ msgid ""
 #~ "Type of raster map to be created / Storage type for resultant raster map"

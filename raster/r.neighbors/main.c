@@ -74,6 +74,7 @@ struct menu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -575,6 +576,8 @@ enum out_type { T_FLOAT = 1, T_INT = 2, T_COUNT = 3, T_COPY = 4, T_SUM = 5 };
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 };
 
 <<<<<<< HEAD
@@ -810,6 +813,8 @@ enum out_type { T_FLOAT = 1, T_INT = 2, T_COUNT = 3, T_COPY = 4, T_SUM = 5 };
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 };
 
 <<<<<<< HEAD
@@ -821,14 +826,16 @@ struct weight_functions
 {
     char *name;			/* name  of the weight type */
     char *text;			/* weight types display - full description */
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 };
 
-struct weight_functions
-{
-    char *name;			/* name  of the weight type */
-    char *text;			/* weight types display - full description */
+struct weight_functions {
+    char *name; /* name  of the weight type */
+    char *text; /* weight types display - full description */
 };
 
+<<<<<<< HEAD
 enum out_type {
     T_FLOAT	= 1,
     T_INT	= 2,
@@ -840,6 +847,7 @@ enum out_type {
 
 enum out_type { T_FLOAT = 1, T_INT = 2, T_COUNT = 3, T_COPY = 4, T_SUM = 5 };
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -860,9 +868,12 @@ enum out_type { T_FLOAT = 1, T_INT = 2, T_COUNT = 3, T_COPY = 4, T_SUM = 5 };
 =======
 =======
 =======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
 enum out_type { T_FLOAT = 1, T_INT = 2, T_COUNT = 3, T_COPY = 4, T_SUM = 5 };
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -881,7 +892,12 @@ enum out_type { T_FLOAT = 1, T_INT = 2, T_COUNT = 3, T_COPY = 4, T_SUM = 5 };
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 #define NO_CATS      0
 #define FIRST_THREAD 0
 
@@ -1001,6 +1017,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     size_t size;
 =======
 <<<<<<< HEAD
@@ -1065,10 +1082,17 @@ int main(int argc, char *argv[])
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
     size_t size, in_buf_size, out_buf_size;
 =======
     size_t size;
@@ -1095,10 +1119,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
     size_t size;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1233,12 +1260,18 @@ int main(int argc, char *argv[])
     size_t size;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
     struct Colors colr;
     struct Cell_head cellhd;
     struct Cell_head window;
     struct History history;
     struct GModule *module;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1332,6 +1365,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> b75a91e7a6 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -1462,7 +1497,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 905468f175 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> b75a91e7a6 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
     struct {
         struct Option *input, *output, *selection;
         struct Option *method, *size;
@@ -1506,6 +1548,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -1513,6 +1556,8 @@ int main(int argc, char *argv[])
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b75a91e7a6 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 26eb6eb23c (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 9c120ffe33 (Merge branch 'a0x8o' into stag0)
@@ -1616,7 +1661,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 905468f175 (r.report: add default units, change to full unit names (#1666))
 =======
+<<<<<<< HEAD
 >>>>>>> b75a91e7a6 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
     struct
     {
 	struct Option *input, *output, *selection;
@@ -1651,6 +1701,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1687,6 +1738,8 @@ int main(int argc, char *argv[])
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b75a91e7a6 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1814,7 +1867,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 905468f175 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> b75a91e7a6 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
     } parm;
     struct {
         struct Flag *align, *circle;
@@ -2598,13 +2658,17 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
         if (n)
             strcat(p, ",");
         else
             *p = 0;
         strcat(p, menu[n].name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -2620,6 +2684,8 @@ int main(int argc, char *argv[])
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 905468f175 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
     }
     parm.method->options = p;
     parm.method->description = _("Neighborhood operation");
@@ -2637,6 +2703,7 @@ int main(int argc, char *argv[])
                "gaussian;%s;"
                "exponential;%s;"
                "file;%s;",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2699,6 +2766,8 @@ int main(int argc, char *argv[])
                "file;%s;",
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
                _("No weighting"), _("Gaussian weighting function"),
                _("Exponential weighting function"),
                _("File with a custom weighting matrix"));
@@ -2787,6 +2856,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2882,6 +2952,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> bfcc03842f (r.report: add default units, change to full unit names (#1666))
 =======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 26eb6eb23c (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> 70b9875805 (r.report: add default units, change to full unit names (#1666))
@@ -2905,7 +2977,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> a9170040dc (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> bfcc03842f (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
     parm.weighting_factor->description =
         _("Factor used in the selected weighting function (ignored for none "
           "and file)");
@@ -3065,6 +3142,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3105,6 +3183,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
     parm.weighting_factor->description =
         _("Factor used in the selected weighting function (ignored for none "
@@ -3273,7 +3353,12 @@ int main(int argc, char *argv[])
     parm.weighting_factor->description = _("Factor used in the selected weighting function (ignored for none and file)");
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> a9170040dc (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> bfcc03842f (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 
     parm.weight = G_define_standard_option(G_OPT_F_INPUT);
     parm.weight->key = "weight";
@@ -3480,6 +3565,9 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 
+    parm.nprocs = G_define_standard_option(G_OPT_M_NPROCS);
+    parm.memory = G_define_standard_option(G_OPT_MEMORYMB);
+
     flag.align = G_define_flag();
     flag.align->key = 'a';
     flag.align->description = _("Do not align output with the input");
@@ -3499,6 +3587,7 @@ int main(int argc, char *argv[])
         G_fatal_error(_("Neighborhood size must be odd"));
     ncb.dist = ncb.nsize / 2;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3609,6 +3698,8 @@ int main(int argc, char *argv[])
 >>>>>>> b75a91e7a6 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> bfcc03842f (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -3757,7 +3848,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> a9170040dc (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> bfcc03842f (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
     sscanf(parm.nprocs->answer, "%d", &ncb.threads);
     if (ncb.threads < 1) {
         G_fatal_error(_("<%d> is not valid number of threads."), ncb.threads);
@@ -3770,6 +3868,7 @@ int main(int argc, char *argv[])
                     "threads setting."));
     ncb.threads = 1;
 #endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3858,6 +3957,8 @@ int main(int argc, char *argv[])
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
     if (ncb.threads > 1 && Rast_mask_is_present()) {
         G_warning(_("Parallel processing disabled due to active mask."));
 =======
@@ -3899,7 +4000,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
     if (ncb.threads > 1 && G_find_raster("MASK", G_mapset()) != NULL) {
         G_warning(_("Parallel processing disabled due to active MASK."));
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -3981,6 +4087,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4503,7 +4610,16 @@ int main(int argc, char *argv[])
     if (strcmp(parm.weighting_function->answer, "none") && flag.circle->answer)
 	G_fatal_error(_("-%c and %s= are mutually exclusive"),
 			flag.circle->key, parm.weighting_function->answer);
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+    if (strcmp(parm.weighting_function->answer, "none") && flag.circle->answer)
+        G_fatal_error(_("-%c and %s= are mutually exclusive"), flag.circle->key,
+                      parm.weighting_function->answer);
+
+<<<<<<< HEAD
 =======
     if (strcmp(parm.weighting_function->answer, "none") && flag.circle->answer)
 	G_fatal_error(_("-%c and %s= are mutually exclusive"),
@@ -4512,11 +4628,17 @@ int main(int argc, char *argv[])
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
     if (strcmp(parm.weighting_function->answer, "file") == 0 && !parm.weight->answer)
 	G_fatal_error(_("File with weighting matrix is missing."));
+=======
+    if (strcmp(parm.weighting_function->answer, "file") == 0 &&
+        !parm.weight->answer)
+        G_fatal_error(_("File with weighting matrix is missing."));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
-    /* Check if weighting factor is given for all other weighting functions*/
+    /* Check if weighting factor is given for all other weighting functions */
     if (strcmp(parm.weighting_function->answer, "none") &&
         strcmp(parm.weighting_function->answer, "file") &&
         !parm.weighting_factor->answer)
+<<<<<<< HEAD
 	G_fatal_error(_("Weighting function '%s' requires a %s."),
 			parm.weighting_function->answer, parm.weighting_factor->key);
 <<<<<<< HEAD
@@ -4529,8 +4651,19 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> a9170040dc (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> bfcc03842f (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+        G_fatal_error(_("Weighting function '%s' requires a %s."),
+                      parm.weighting_function->answer,
+                      parm.weighting_factor->key);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 
     ncb.oldcell = parm.input->answer;
 
@@ -4641,6 +4774,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4672,6 +4806,8 @@ int main(int argc, char *argv[])
 >>>>>>> b75a91e7a6 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> bfcc03842f (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
         read_weights(parm.weight->answer);
         weights = 1;
     }
@@ -5503,6 +5639,8 @@ int main(int argc, char *argv[])
 >>>>>>> 905468f175 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> a9170040dc (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
         read_weights(parm.weight->answer);
         weights = 1;
     }
@@ -5525,6 +5663,17 @@ int main(int argc, char *argv[])
 	                atof(parm.weighting_factor->answer));
 	weights = 1;
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+=======
+        read_weights(parm.weight->answer);
+        weights = 1;
+    }
+    else if (strcmp(parm.weighting_function->answer, "none")) {
+        G_verbose_message(_("Computing %s weights..."),
+                          parm.weighting_function->answer);
+        compute_weights(parm.weighting_function->answer,
+                        atof(parm.weighting_factor->answer));
+        weights = 1;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     }
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -5557,6 +5706,7 @@ int main(int argc, char *argv[])
         RASTER_MAP_TYPE otype =
             output_type(map_type, weights, menu[method].otype);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5650,6 +5800,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> b75a91e7a6 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -5780,7 +5932,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 905468f175 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> b75a91e7a6 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
         out->name = output_name;
         if (weights) {
             if (menu[method].method_w) {
@@ -5848,6 +6007,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -5855,6 +6015,8 @@ int main(int argc, char *argv[])
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b75a91e7a6 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 26eb6eb23c (r.report: add default units, change to full unit names (#1666))
 >>>>>>> 9c120ffe33 (Merge branch 'a0x8o' into stag0)
@@ -5958,7 +6120,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 905468f175 (r.report: add default units, change to full unit names (#1666))
 =======
+<<<<<<< HEAD
 >>>>>>> b75a91e7a6 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 	out->name = output_name;
 	if (weights) {
 	    if (menu[method].method_w) {
@@ -6017,6 +6184,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -6053,6 +6221,8 @@ int main(int argc, char *argv[])
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b75a91e7a6 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6180,7 +6350,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 905468f175 (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 >>>>>>> b75a91e7a6 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 
         /* get title, initialize the category and stat info */
         if (parm.title->answer)
@@ -6311,6 +6488,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             outputs[i].buf[brow_idx * ncols + col] =
 =======
 <<<<<<< HEAD
@@ -6375,10 +6553,17 @@ int main(int argc, char *argv[])
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
                             outputs[i].buf[(size_t)brow_idx * ncols + col] =
 =======
                             outputs[i].buf[brow_idx * ncols + col] =
@@ -6405,10 +6590,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
                             outputs[i].buf[brow_idx * ncols + col] =
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -6543,7 +6731,12 @@ int main(int argc, char *argv[])
                             outputs[i].buf[brow_idx * ncols + col] =
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
                                 ncb.buf[t][ncb.dist][col + ncb.dist];
                         continue;
                     }
@@ -6582,6 +6775,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         DCELL *rp = &out->buf[brow_idx * ncols + col];
 =======
 <<<<<<< HEAD
@@ -6646,10 +6840,17 @@ int main(int argc, char *argv[])
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
                         DCELL *rp = &out->buf[(size_t)brow_idx * ncols + col];
 =======
                         DCELL *rp = &out->buf[brow_idx * ncols + col];
@@ -6676,10 +6877,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
                         DCELL *rp = &out->buf[brow_idx * ncols + col];
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -6814,7 +7018,12 @@ int main(int argc, char *argv[])
                         DCELL *rp = &out->buf[brow_idx * ncols + col];
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 
                         if (n == 0) {
                             Rast_set_d_null_value(rp, 1);

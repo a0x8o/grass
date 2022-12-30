@@ -101,6 +101,7 @@ void compute_weights(const char *function_type, double factor)
     int i, j;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     double (*weight)(double, double);
 =======
     double (*weight) (double, double);
@@ -108,6 +109,9 @@ void compute_weights(const char *function_type, double factor)
 =======
     double (*weight) (double, double);
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+=======
+    double (*weight)(double, double);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     if (!strcmp(function_type, "gaussian")) {
         weight = gaussian;
@@ -119,11 +123,13 @@ void compute_weights(const char *function_type, double factor)
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 =======
 
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 
@@ -787,7 +793,14 @@ void compute_weights(const char *function_type, double factor)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
     ncb.weights = G_malloc(ncb.nsize * sizeof(DCELL *));
     for (i = 0; i < ncb.nsize; i++)
         ncb.weights[i] = G_malloc(ncb.nsize * sizeof(DCELL));
