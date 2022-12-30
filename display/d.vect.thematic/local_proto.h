@@ -108,6 +108,7 @@ void write_into_legend_file(const char *, const char *, const char *, double,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             struct color_rgb *, int, int *, const char *);
 =======
 <<<<<<< HEAD
@@ -530,6 +531,8 @@ void write_into_legend_file(const char *, const char *, const char *, double,
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
                             struct color_rgb *, int, int *, const char *);
@@ -592,7 +595,12 @@ void write_into_legend_file(const char *, const char *, const char *, double,
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
                             struct color_rgb *, int, int *, int, const char *);
 =======
                             struct color_rgb *, int, int *, const char *);
@@ -672,6 +680,7 @@ void write_into_legend_file(const char *, const char *, const char *, double,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -761,6 +770,8 @@ void write_into_legend_file(const char *, const char *, const char *, double,
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1022,12 +1033,16 @@ void write_into_legend_file(const char *, const char *, const char *, double,
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
                             struct color_rgb *, int, int *, const char *);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1307,3 +1322,6 @@ void write_into_legend_file(const char *, const char *, const char *, double,
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))

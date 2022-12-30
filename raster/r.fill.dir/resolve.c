@@ -112,6 +112,7 @@ CELL select_dir(CELL i)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
            int *active, int *goagain)
 =======
@@ -536,6 +537,8 @@ void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
@@ -599,7 +602,12 @@ void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 void flink(int i UNUSED, int j, int nl UNUSED, int ns UNUSED, CELL *p1,
            CELL *p2, CELL *p3, int *active, int *goagain)
 =======
@@ -681,6 +689,7 @@ void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -821,6 +830,8 @@ void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -896,6 +907,8 @@ void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
 void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
            int *active, int *goagain)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -947,9 +960,12 @@ void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1409,7 +1425,12 @@ void flink(int i, int j, int nl, int ns, CELL *p1, CELL *p2, CELL *p3,
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 {
     CELL bitmask[8] = {1, 2, 4, 8, 16, 32, 64, 128};
     CELL outflow, cwork, c[8];

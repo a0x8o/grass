@@ -331,6 +331,7 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /*Set the pointer to null so we noe later that these files are
 =======
 <<<<<<< HEAD
@@ -753,6 +754,8 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
             /*Set the pointer to null so we noe later that these files are
@@ -815,7 +818,12 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
             /*Set the pointer to null so we know later that these files are
 =======
             /*Set the pointer to null so we noe later that these files are
@@ -895,6 +903,7 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -984,6 +993,8 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1245,12 +1256,16 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
             /*Set the pointer to null so we noe later that these files are
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1530,6 +1545,9 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
              * already closed */
             if (i == 0)
                 in->map_r = NULL;

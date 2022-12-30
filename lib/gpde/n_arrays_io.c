@@ -322,6 +322,7 @@ void N_write_array_2d_to_rast(N_array_2d *array, char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \param mask int - 0 = false, 1 = ture : if a mask is presenent, use it with
 =======
 <<<<<<< HEAD
@@ -744,6 +745,8 @@ void N_write_array_2d_to_rast(N_array_2d *array, char *name)
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
  * \param mask int - 0 = false, 1 = ture : if a mask is presenent, use it with
@@ -806,7 +809,12 @@ void N_write_array_2d_to_rast(N_array_2d *array, char *name)
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
  * \param mask int - 0 = false, 1 = true : if a mask is presenent, use it with
 =======
  * \param mask int - 0 = false, 1 = ture : if a mask is presenent, use it with
@@ -886,6 +894,7 @@ void N_write_array_2d_to_rast(N_array_2d *array, char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -975,6 +984,8 @@ void N_write_array_2d_to_rast(N_array_2d *array, char *name)
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1236,12 +1247,16 @@ void N_write_array_2d_to_rast(N_array_2d *array, char *name)
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
  * \param mask int - 0 = false, 1 = ture : if a mask is presenent, use it with
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1521,6 +1536,9 @@ void N_write_array_2d_to_rast(N_array_2d *array, char *name)
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
  * the input volume map \return N_array_3d * - the existing or new allocated
  * array
  * */
@@ -1711,6 +1729,7 @@ N_array_3d *N_read_rast3d_to_array_3d(char *name, N_array_3d *array, int mask)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));
 =======
 <<<<<<< HEAD
@@ -2133,6 +2152,8 @@ N_array_3d *N_read_rast3d_to_array_3d(char *name, N_array_3d *array, int mask)
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
         Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));
@@ -2195,7 +2216,12 @@ N_array_3d *N_read_rast3d_to_array_3d(char *name, N_array_3d *array, int mask)
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
         Rast3d_fatal_error(_("Error closing g3d file <%s>"), name);
 =======
         Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));
@@ -2275,6 +2301,7 @@ N_array_3d *N_read_rast3d_to_array_3d(char *name, N_array_3d *array, int mask)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2364,6 +2391,8 @@ N_array_3d *N_read_rast3d_to_array_3d(char *name, N_array_3d *array, int mask)
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2625,12 +2654,16 @@ N_array_3d *N_read_rast3d_to_array_3d(char *name, N_array_3d *array, int mask)
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
         Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2910,6 +2943,9 @@ N_array_3d *N_read_rast3d_to_array_3d(char *name, N_array_3d *array, int mask)
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 
     return data;
 }
@@ -3090,6 +3126,7 @@ void N_write_array_3d_to_rast3d(N_array_3d *array, char *name, int mask)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));
 =======
 <<<<<<< HEAD
@@ -3512,6 +3549,8 @@ void N_write_array_3d_to_rast3d(N_array_3d *array, char *name, int mask)
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
         Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));
@@ -3574,7 +3613,12 @@ void N_write_array_3d_to_rast3d(N_array_3d *array, char *name, int mask)
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
         Rast3d_fatal_error(_("Error closing g3d file <%s>"), name);
 =======
         Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));
@@ -3654,6 +3698,7 @@ void N_write_array_3d_to_rast3d(N_array_3d *array, char *name, int mask)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3743,6 +3788,8 @@ void N_write_array_3d_to_rast3d(N_array_3d *array, char *name, int mask)
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -4004,12 +4051,16 @@ void N_write_array_3d_to_rast3d(N_array_3d *array, char *name, int mask)
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
         Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -4289,6 +4340,9 @@ void N_write_array_3d_to_rast3d(N_array_3d *array, char *name, int mask)
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 
     return;
 }

@@ -188,6 +188,7 @@ def is_location_valid(path, location=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -368,6 +369,8 @@ def is_location_valid(path, location=None):
 =======
 >>>>>>> 9375c9eaa5 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> e3f946d7fe (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
@@ -439,6 +442,8 @@ def is_location_valid(path, location=None):
 >>>>>>> cea31271cd (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
     :param path: Path to a Location or to a GRASS GIS database directory
 >>>>>>> ff8386f9c6 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -516,6 +521,7 @@ def is_location_valid(path, location=None):
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1795,7 +1801,12 @@ def is_location_valid(path, location=None):
     :param path: Path to a Location or to a GRASS GIS database directory
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 9375c9eaa5 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
     :param location: name of a Location if not part of *path*
     """
     # DEFAULT_WIND file should not be required until you do something
@@ -1918,6 +1929,7 @@ def is_location_valid(path, location=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2091,6 +2103,8 @@ def is_location_valid(path, location=None):
 >>>>>>> e6396a49fb (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 9375c9eaa5 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1797d7c620 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
@@ -3054,6 +3068,8 @@ def is_mapset_current(database, location, mapset) -> bool:
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
         path = os.path.join(path, location)
 =======
         path = os.path.join(location)
@@ -3064,6 +3080,7 @@ def is_mapset_current(database, location, mapset) -> bool:
 =======
         path = os.path.join(path, location)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3132,6 +3149,8 @@ def is_mapset_current(database, location, mapset) -> bool:
         path = os.path.join(path, location)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 07dc2b7084 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
     return os.access(os.path.join(path, "PERMANENT", "DEFAULT_WIND"), os.F_OK)
 
 
