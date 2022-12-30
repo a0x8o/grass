@@ -172,11 +172,15 @@ def main():
                     excluded_option_value=separator,
                     reason=_(
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "A standard CSV separator (delimiter) is only one character "
                         "long"
 =======
                         "A standard CSV separator (delimiter) is only one character long"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                        "A standard CSV separator (delimiter) is only one character long"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                     ),
                 )
             )
@@ -184,10 +188,14 @@ def main():
             # We use comma as the default for separator, so we override the pipe.
             # This does not allow for users to generate CSV with pipe, but unlike
 <<<<<<< HEAD
+<<<<<<< HEAD
             # the C API, the Python interface specs does not allow resetting the default
 =======
             # the C API, the Python interface specs does not allow reseting the default
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            # the C API, the Python interface specs does not allow reseting the default
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             # except for setting it to an empty string which does not have a precedence
             # in the current code and the behavior is unclear.
             separator = ","
@@ -247,11 +255,15 @@ def main():
                             excluded_option_value=columns,
                             reason=_(
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 "Column '{name}' is not available with the method "
                                 "'{method}'"
 =======
                                 "Column '{name}' is not available with the method '{method}'"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                                "Column '{name}' is not available with the method '{method}'"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                             ).format(name=column, method=method),
                         )
                     )
@@ -267,11 +279,15 @@ def main():
                         excluded_option_value=columns,
                         reason=_(
 <<<<<<< HEAD
+<<<<<<< HEAD
                             "Column '{name}' is not available with the method "
                             "'{method}'"
 =======
                             "Column '{name}' is not available with the method '{method}'"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                            "Column '{name}' is not available with the method '{method}'"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                         ).format(name=column, method=method),
                     )
                 )
