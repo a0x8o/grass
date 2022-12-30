@@ -522,6 +522,7 @@ int read_next_line_ogr(struct Map_info *Map, struct line_pnts *line_p,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \param[out] Points container used to store line pointes within
 =======
 <<<<<<< HEAD
@@ -926,6 +927,12 @@ int read_next_line_ogr(struct Map_info *Map, struct line_pnts *line_p,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
    \param[out] Points container used to store line points within
 =======
    \param[out] Points container used to store line pointes within
@@ -995,6 +1002,7 @@ int read_next_line_ogr(struct Map_info *Map, struct line_pnts *line_p,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1095,6 +1103,8 @@ int read_next_line_ogr(struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
    \param[out] Points container used to store line pointes within
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1226,6 +1236,7 @@ int read_next_line_ogr(struct Map_info *Map, struct line_pnts *line_p,
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1543,6 +1554,13 @@ int read_next_line_ogr(struct Map_info *Map, struct line_pnts *line_p,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+   \param[out] Points container used to store line pointes within
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 
    \return feature type
    \return -1 on error
@@ -1618,6 +1636,7 @@ int read_next_line_ogr(struct Map_info *Map, struct line_pnts *line_p,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 =======
 <<<<<<< HEAD
@@ -2022,6 +2041,12 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 int read_line(struct Map_info *Map, OGRGeometryH hGeom, long offset,
 =======
 int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
@@ -2091,6 +2116,7 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2191,6 +2217,8 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2322,6 +2350,7 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2639,6 +2668,13 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
               struct line_pnts *Points)
 {
     int i, nPoints;
@@ -2782,6 +2818,7 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \param[out] Points container used to store line pointes within
 =======
 <<<<<<< HEAD
@@ -3186,6 +3223,12 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
    \param[out] Points container used to store line points within
 =======
    \param[out] Points container used to store line pointes within
@@ -3255,6 +3298,7 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3355,6 +3399,8 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
    \param[out] Points container used to store line pointes within
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3486,6 +3532,7 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3803,6 +3850,13 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+   \param[out] Points container used to store line pointes within
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 
    \return feature type
    \return -1 on error
@@ -3871,6 +3925,7 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4146,10 +4201,15 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 int get_line_type(struct Map_info *Map, long fid)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4306,6 +4366,8 @@ int get_line_type(struct Map_info *Map, long fid)
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4323,6 +4385,7 @@ int get_line_type(struct Map_info *Map, long fid)
 int get_line_type(struct Map_info *Map, long fid)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4616,6 +4679,10 @@ int get_line_type(struct Map_info *Map, long fid)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 int get_line_type(const struct Map_info *Map, long fid)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 {

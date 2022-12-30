@@ -284,6 +284,7 @@ class CalculationCorrectness1Test(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -686,6 +687,12 @@ class CalculationCorrectness1Test(TestCase):
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
     # Correct MCC value was calculated manually and validated with
     # mcc function of R package mltools.
 =======
@@ -755,6 +762,7 @@ class CalculationCorrectness1Test(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -857,6 +865,8 @@ class CalculationCorrectness1Test(TestCase):
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -965,6 +975,7 @@ class CalculationCorrectness1Test(TestCase):
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1258,6 +1269,12 @@ class CalculationCorrectness1Test(TestCase):
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 
     def test_standard_output(self):
         out = read_command(
@@ -1354,6 +1371,7 @@ class CalculationCorrectness1Test(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1629,11 +1647,16 @@ class CalculationCorrectness1Test(TestCase):
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
         self.assertTrue(self.match(vals[2], 0.55930))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1729,6 +1752,8 @@ class CalculationCorrectness1Test(TestCase):
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2127,7 +2152,12 @@ class CalculationCorrectness1Test(TestCase):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 
         # Overall characteristics
         vals = rows[31].split()
@@ -2320,6 +2350,7 @@ class CalculationCorrectness2Test(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2595,11 +2626,16 @@ class CalculationCorrectness2Test(TestCase):
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
         self.assertTrue(self.match(vals[2], "NA"))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2695,6 +2731,8 @@ class CalculationCorrectness2Test(TestCase):
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3093,7 +3131,12 @@ class CalculationCorrectness2Test(TestCase):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 
         # Overall characteristics
         vals = rows[31].split()
@@ -3216,6 +3259,7 @@ class JSONOutputTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3491,11 +3535,16 @@ class JSONOutputTest(TestCase):
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                 "mcc": 0.55930,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3591,6 +3640,8 @@ class JSONOutputTest(TestCase):
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3989,7 +4040,12 @@ class JSONOutputTest(TestCase):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             }
         )
 
@@ -4093,6 +4149,7 @@ class JSONOutputTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4368,11 +4425,16 @@ class JSONOutputTest(TestCase):
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                 "mcc": None,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4468,6 +4530,8 @@ class JSONOutputTest(TestCase):
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -4866,7 +4930,12 @@ class JSONOutputTest(TestCase):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             }
         )
 
@@ -4961,6 +5030,7 @@ class JSONOutputTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5236,11 +5306,16 @@ class JSONOutputTest(TestCase):
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                 "mcc": None,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5336,6 +5411,8 @@ class JSONOutputTest(TestCase):
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -5734,7 +5811,12 @@ class JSONOutputTest(TestCase):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             }
         )
 
@@ -5829,6 +5911,7 @@ class JSONOutputTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -6104,11 +6187,16 @@ class JSONOutputTest(TestCase):
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                 "mcc": None,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6204,6 +6292,8 @@ class JSONOutputTest(TestCase):
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -6602,7 +6692,12 @@ class JSONOutputTest(TestCase):
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             }
         )
 

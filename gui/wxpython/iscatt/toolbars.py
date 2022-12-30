@@ -193,6 +193,7 @@ class MainToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -335,6 +336,8 @@ class MainToolbar(BaseToolbar):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                 i_tool_name = get_tool_name(i_tool_data[0])
 <<<<<<< HEAD
                 if not i_tool_name or i_tool_name in {"cats_mgr", "sel_pol_mode"}:
@@ -579,6 +582,7 @@ class MainToolbar(BaseToolbar):
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -777,6 +781,13 @@ class MainToolbar(BaseToolbar):
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+                i_tool_name = get_tool_name(i_tool_data[0])
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                 i_tool_name = i_tool_data[0]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 if not i_tool_name or i_tool_name in ["cats_mgr", "sel_pol_mode"]:
@@ -1024,6 +1035,7 @@ class MainToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1166,6 +1178,8 @@ class MainToolbar(BaseToolbar):
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             i_tool_name = get_tool_name(i_tool_data[0])
 <<<<<<< HEAD
             if not i_tool_name or i_tool_name in {"cats_mgr", "sel_pol_mode"}:
@@ -1410,6 +1424,7 @@ class MainToolbar(BaseToolbar):
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -1608,6 +1623,13 @@ class MainToolbar(BaseToolbar):
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+            i_tool_name = get_tool_name(i_tool_data[0])
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             i_tool_name = i_tool_data[0]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             if not i_tool_name or i_tool_name in ["cats_mgr", "sel_pol_mode"]:
@@ -1972,6 +1994,7 @@ class EditingToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2247,10 +2270,15 @@ class EditingToolbar(BaseToolbar):
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                 i_tool_name = get_tool_name(i_tool_data[0])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2407,6 +2435,8 @@ class EditingToolbar(BaseToolbar):
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2424,6 +2454,7 @@ class EditingToolbar(BaseToolbar):
                 i_tool_name = get_tool_name(i_tool_data[0])
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2717,6 +2748,10 @@ class EditingToolbar(BaseToolbar):
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                 i_tool_name = i_tool_data[0]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 if not i_tool_name:
@@ -2800,6 +2835,7 @@ class EditingToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3075,10 +3111,15 @@ class EditingToolbar(BaseToolbar):
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             i_tool_name = get_tool_name(i_tool_data[0])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3235,6 +3276,8 @@ class EditingToolbar(BaseToolbar):
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3252,6 +3295,7 @@ class EditingToolbar(BaseToolbar):
             i_tool_name = get_tool_name(i_tool_data[0])
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3545,6 +3589,10 @@ class EditingToolbar(BaseToolbar):
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             i_tool_name = i_tool_data[0]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             if not i_tool_name:

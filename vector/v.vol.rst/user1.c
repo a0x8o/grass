@@ -596,6 +596,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1513,13 +1514,23 @@ int OUTGR(void)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             if (read_val != (size_t)nsizc) {
 =======
             if (read_val != nsizc) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
             if (read_val != nsizc) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1857,13 +1868,17 @@ int OUTGR(void)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
             if (read_val != nsizc) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2452,6 +2467,8 @@ int OUTGR(void)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                 clean();
                 G_fatal_error(_("Unable to read data from temp file"));
             }
@@ -2610,6 +2627,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3378,6 +3396,12 @@ int OUTGR(void)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
         read_val =
             fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl, Tmp_fd_z);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
@@ -3837,6 +3861,30 @@ int OUTGR(void)
         if (read_val < 0) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_z);
+        if (read_val < 0) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_z);
+        if (read_val < 0) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_z);
+        if (read_val < 0) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        read_val =
+            fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl, Tmp_fd_z);
+        if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4950,7 +4998,12 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             clean();
             G_fatal_error(_("Unable to read data from temp file"));
         }
@@ -5131,6 +5184,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5899,6 +5953,12 @@ int OUTGR(void)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_dx);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
@@ -6358,6 +6418,30 @@ int OUTGR(void)
         if (read_val < 0) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_dx);
+        if (read_val < 0) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_dx);
+        if (read_val < 0) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_dx);
+        if (read_val < 0) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
+                         Tmp_fd_dx);
+        if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7471,7 +7555,12 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             clean();
             G_fatal_error(_("Unable to read data from temp file"));
         }
@@ -7651,6 +7740,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8419,6 +8509,12 @@ int OUTGR(void)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_dy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
@@ -8878,6 +8974,30 @@ int OUTGR(void)
         if (read_val < 0) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_dy);
+        if (read_val < 0) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_dy);
+        if (read_val < 0) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_dy);
+        if (read_val < 0) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
+                         Tmp_fd_dy);
+        if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9991,7 +10111,12 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             clean();
             G_fatal_error(_("Unable to read data from temp file"));
         }
@@ -10171,6 +10296,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10939,6 +11065,12 @@ int OUTGR(void)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_dz);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
@@ -11398,6 +11530,30 @@ int OUTGR(void)
         if (read_val < 0) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_dz);
+        if (read_val < 0) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_dz);
+        if (read_val < 0) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_dz);
+        if (read_val < 0) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
+                         Tmp_fd_dz);
+        if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12511,7 +12667,12 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             clean();
             G_fatal_error(_("Unable to read data from temp file"));
         }
@@ -12691,6 +12852,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13459,6 +13621,12 @@ int OUTGR(void)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_xx);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
@@ -13918,6 +14086,30 @@ int OUTGR(void)
         if (read_val < 0) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_xx);
+        if (read_val < 0) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_xx);
+        if (read_val < 0) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_xx);
+        if (read_val < 0) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
+                         Tmp_fd_xx);
+        if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -15031,7 +15223,12 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             clean();
             G_fatal_error(_("Unable to read data from temp file"));
         }
@@ -15211,6 +15408,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15979,6 +16177,12 @@ int OUTGR(void)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_yy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
@@ -16438,6 +16642,30 @@ int OUTGR(void)
         if (read_val < 0) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_yy);
+        if (read_val < 0) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_yy);
+        if (read_val < 0) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_yy);
+        if (read_val < 0) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
+                         Tmp_fd_yy);
+        if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -17551,7 +17779,12 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             clean();
             G_fatal_error(_("Unable to read data from temp file"));
         }
@@ -17731,6 +17964,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -18499,6 +18733,12 @@ int OUTGR(void)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_xy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
@@ -18958,6 +19198,30 @@ int OUTGR(void)
         if (read_val < 0) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_xy);
+        if (read_val < 0) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_xy);
+        if (read_val < 0) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_xy);
+        if (read_val < 0) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
+                         Tmp_fd_xy);
+        if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -20071,7 +20335,12 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             clean();
             G_fatal_error(_("Unable to read data from temp file"));
         }

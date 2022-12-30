@@ -190,6 +190,7 @@ class MapToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "Note that the wxGUI's vector digitizer is disabled in this installation. "
 =======
 <<<<<<< HEAD
@@ -592,6 +593,12 @@ class MapToolbar(BaseToolbar):
 =======
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                     "Note that the wxGUI's vector digitizer is disabled in this "
                     "installation."
 =======
@@ -661,6 +668,7 @@ class MapToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 51791d82db (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -761,6 +769,8 @@ class MapToolbar(BaseToolbar):
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
                     "Note that the wxGUI's vector digitizer is disabled in this installation. "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -892,6 +902,7 @@ class MapToolbar(BaseToolbar):
 =======
 =======
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 51791d82db (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -1207,6 +1218,13 @@ class MapToolbar(BaseToolbar):
 =======
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+=======
+                    "Note that the wxGUI's vector digitizer is disabled in this installation. "
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                     "Please keep an eye out for updated versions of GRASS. "
                     'In the meantime you can use "v.edit" for non-interactive editing '
                     "from the Develop vector map menu."
@@ -1255,6 +1273,7 @@ class MapToolbar(BaseToolbar):
         """Toolbar data"""
         data = (
             (
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1721,6 +1740,12 @@ class MapToolbar(BaseToolbar):
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                 ("renderMap", BaseIcons["render"].label),
                 BaseIcons["render"],
                 self.parent.OnRender,
@@ -1867,6 +1892,7 @@ class MapToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1969,6 +1995,8 @@ class MapToolbar(BaseToolbar):
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2077,6 +2105,7 @@ class MapToolbar(BaseToolbar):
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2370,6 +2399,12 @@ class MapToolbar(BaseToolbar):
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                 (
                     ("renderMap", BaseIcons["render"].label),
                     BaseIcons["render"],

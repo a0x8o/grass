@@ -90,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect__get_area_points(const struct Map_info *, const plus_t *, int,
                           struct line_pnts *);
 int Vect__get_area_points_nat(const struct Map_info *, const plus_t *, int,
@@ -498,6 +499,12 @@ int Vect__get_area_points_nat(const struct Map_info *, const plus_t *, int,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 int Vect__get_area_points(struct Map_info *, const plus_t *, int,
                           struct line_pnts *);
 int Vect__get_area_points_nat(struct Map_info *, const plus_t *, int,
@@ -571,6 +578,7 @@ int Vect__get_area_points_nat(const struct Map_info *, const plus_t *, int,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -754,10 +762,15 @@ int Vect__get_area_points_nat(const struct Map_info *, const plus_t *, int,
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
 int Vect__get_area_points(const struct Map_info *, const plus_t *, int,
                           struct line_pnts *);
 int Vect__get_area_points_nat(const struct Map_info *, const plus_t *, int,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -908,6 +921,8 @@ int Vect__get_area_points_nat(const struct Map_info *, const plus_t *, int,
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
 int Vect__get_area_points(const struct Map_info *, const plus_t *, int,
                           struct line_pnts *);
 int Vect__get_area_points_nat(const struct Map_info *, const plus_t *, int,
@@ -933,6 +948,7 @@ int Vect__get_area_points_nat(const struct Map_info *, const plus_t *, int,
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1180,6 +1196,10 @@ int Vect__get_area_points_nat(const struct Map_info *, const plus_t *, int,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                               struct line_pnts *);
 
 /* close.c */
@@ -1259,6 +1279,7 @@ int Vect__open_old(struct Map_info *, const char *, const char *, const char *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1534,11 +1555,16 @@ int Vect__open_old(struct Map_info *, const char *, const char *, const char *,
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 char *Vect__get_path(char *, struct Map_info *);
 char *Vect__get_element_path(char *, struct Map_info *, const char *);
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1691,6 +1717,8 @@ char *Vect__get_element_path(char *, struct Map_info *, const char *);
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2032,7 +2060,12 @@ char *Vect__get_path(char *, struct Map_info *);
 char *Vect__get_element_path(char *, struct Map_info *, const char *);
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 char *Vect__get_path(char *, const struct Map_info *);
 char *Vect__get_element_path(char *, const struct Map_info *, const char *);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2112,6 +2145,7 @@ int V2__add_line_to_topo_nat(struct Map_info *, off_t, int,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                              int (*external_routine)(const struct Map_info *,
                                                      int));
 =======
@@ -2683,11 +2717,18 @@ int V2__add_line_to_topo_nat(struct Map_info *, off_t, int,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                              int (*external_routine)(struct Map_info *, int));
 =======
                              int (*external_routine)(const struct Map_info *,
                                                      int));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2754,9 +2795,14 @@ int V2__add_line_to_topo_nat(struct Map_info *, off_t, int,
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
                              int (*external_routine)(const struct Map_info *,
                                                      int));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2800,6 +2846,8 @@ int V2__add_line_to_topo_nat(struct Map_info *, off_t, int,
                              int (*external_routine)(struct Map_info *, int));
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
                              int (*external_routine)(const struct Map_info *,
                                                      int));
@@ -3063,7 +3111,12 @@ int V2__add_line_to_topo_nat(struct Map_info *, off_t, int,
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 int V2__delete_line_from_topo_nat(struct Map_info *, int, int,
                                   const struct line_pnts *,
                                   const struct line_cats *);

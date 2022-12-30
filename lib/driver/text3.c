@@ -107,6 +107,7 @@ static void draw_text(FT_Face, FT_Vector *, FT_Matrix *, const unsigned char *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       int, int, struct rectangle *);
 =======
 <<<<<<< HEAD
@@ -511,6 +512,12 @@ static void draw_text(FT_Face, FT_Vector *, FT_Matrix *, const unsigned char *,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                       int, struct rectangle *);
 =======
                       int, int, struct rectangle *);
@@ -580,6 +587,7 @@ static void draw_text(FT_Face, FT_Vector *, FT_Matrix *, const unsigned char *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -680,6 +688,8 @@ static void draw_text(FT_Face, FT_Vector *, FT_Matrix *, const unsigned char *,
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
                       int, int, struct rectangle *);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -811,6 +821,7 @@ static void draw_text(FT_Face, FT_Vector *, FT_Matrix *, const unsigned char *,
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1128,6 +1139,13 @@ static void draw_text(FT_Face, FT_Vector *, FT_Matrix *, const unsigned char *,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                      int, int, struct rectangle *);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 static void draw_bitmap(FT_Bitmap *, FT_Int, FT_Int);
 static void set_text_box(FT_Bitmap *, FT_Int, FT_Int, struct rectangle *);
 #endif
@@ -1334,6 +1352,7 @@ static void draw_text(FT_Face face, FT_Vector *pen, FT_Matrix *matrix,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       const unsigned char *out, int len, int color,
                       struct rectangle *box)
 =======
@@ -1905,11 +1924,18 @@ static void draw_text(FT_Face face, FT_Vector *pen, FT_Matrix *matrix,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                       const unsigned char *out, int len, struct rectangle *box)
 =======
                       const unsigned char *out, int len, int color,
                       struct rectangle *box)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1976,9 +2002,14 @@ static void draw_text(FT_Face face, FT_Vector *pen, FT_Matrix *matrix,
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
                       const unsigned char *out, int len, int color,
                       struct rectangle *box)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2022,6 +2053,8 @@ static void draw_text(FT_Face face, FT_Vector *pen, FT_Matrix *matrix,
                       const unsigned char *out, int len, struct rectangle *box)
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
                       const unsigned char *out, int len, int color,
                       struct rectangle *box)
@@ -2285,7 +2318,12 @@ static void draw_text(FT_Face face, FT_Vector *pen, FT_Matrix *matrix,
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 {
     FT_ULong ch;
     FT_Error ans;

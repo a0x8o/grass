@@ -130,6 +130,7 @@ void G_get_window(struct Cell_head *window)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G__read_Cell_head_array(tokens, &st->dbwindow, 0);
 =======
 <<<<<<< HEAD
@@ -534,6 +535,12 @@ void G_get_window(struct Cell_head *window)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
         G__read_Cell_head_array(tokens, &st->dbwindow);
 =======
         G__read_Cell_head_array(tokens, &st->dbwindow, 0);
@@ -603,6 +610,7 @@ void G_get_window(struct Cell_head *window)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -703,6 +711,8 @@ void G_get_window(struct Cell_head *window)
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
         G__read_Cell_head_array(tokens, &st->dbwindow, 0);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -834,6 +844,7 @@ void G_get_window(struct Cell_head *window)
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1151,6 +1162,13 @@ void G_get_window(struct Cell_head *window)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        G__read_Cell_head_array(tokens, &st->dbwindow, 0);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
         G_free_tokens(tokens);
     }
     else {
@@ -1351,6 +1369,7 @@ void G_get_element_window(struct Cell_head *window, const char *element,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1674,6 +1693,8 @@ void G_unset_window(void)
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 void G_unset_window(void)
 =======
 <<<<<<< HEAD
@@ -2675,8 +2696,12 @@ void G_unset_window(void)
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 void G_unset_window(void)
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 void G_unset_window()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))

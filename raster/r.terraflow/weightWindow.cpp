@@ -333,6 +333,7 @@ void weightWindow::compute(const dimension_type i, const dimension_type j,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void weightWindow::makeD8(const dimension_type i, const dimension_type j,
                           const genericWindow<elevation_type> &elevwin,
                           const direction_type dir, const bool trustdir)
@@ -733,6 +734,12 @@ void weightWindow::makeD8(const dimension_type i, const dimension_type j,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 void weightWindow::makeD8(const dimension_type i UNUSED,
                           const dimension_type j UNUSED,
                           const genericWindow<elevation_type> &elevwin,
@@ -742,6 +749,7 @@ void weightWindow::makeD8(const dimension_type i, const dimension_type j,
                           const genericWindow<elevation_type> &elevwin,
                           const direction_type dir, const bool trustdir)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -992,10 +1000,15 @@ void weightWindow::makeD8(const dimension_type i, const dimension_type j,
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
 void weightWindow::makeD8(const dimension_type i, const dimension_type j,
                           const genericWindow<elevation_type> &elevwin,
                           const direction_type dir, const bool trustdir)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1145,6 +1158,8 @@ void weightWindow::makeD8(const dimension_type i, const dimension_type j,
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 };
 
@@ -1405,7 +1420,12 @@ void weightWindow::makeD8(const dimension_type i, const dimension_type j,
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 {
 
     elevation_type elev_crt;

@@ -91,6 +91,7 @@ FLAG *flag_create(int nrows, int ncols)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     temp = (unsigned char *)G_malloc(nrows * new_flag->leng *
 =======
 <<<<<<< HEAD
@@ -495,6 +496,12 @@ FLAG *flag_create(int nrows, int ncols)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
     temp = (unsigned char *)G_malloc((size_t)nrows * new_flag->leng *
 =======
     temp = (unsigned char *)G_malloc(nrows * new_flag->leng *
@@ -564,6 +571,7 @@ FLAG *flag_create(int nrows, int ncols)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -664,6 +672,8 @@ FLAG *flag_create(int nrows, int ncols)
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
     temp = (unsigned char *)G_malloc(nrows * new_flag->leng *
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -795,6 +805,7 @@ FLAG *flag_create(int nrows, int ncols)
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1112,6 +1123,13 @@ FLAG *flag_create(int nrows, int ncols)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    temp = (unsigned char *)G_malloc(nrows * new_flag->leng *
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                                      sizeof(unsigned char));
 
     if (!temp)

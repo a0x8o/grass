@@ -77,6 +77,7 @@ Status: Adopted (6 April 2007)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -412,6 +413,8 @@ Status: Adopted (6 April 2007)
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
@@ -921,7 +924,12 @@ Status: Adopted (6 April 2007)
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 A GRASS Project Steering Committee ([PSC](https://trac.osgeo.org/grass/wiki/PSC))
 is proposed to formalize control over the GRASS codebase and to facilitate GRASS
 project management issues. It is desired to keep the administrational overhead
@@ -1344,6 +1352,7 @@ It is desired to keep the administrational overhead as low as possible.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1519,10 +1528,15 @@ It is desired to keep the administrational overhead as low as possible.
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
 A GRASS Project Steering Committee ([PSC](https://trac.osgeo.org/grass/wiki/PSC)) is proposed to formalize control
 over the GRASS codebase and to facilitate GRASS project management issues.
 It is desired to keep the administrational overhead as low as possible.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1700,6 +1714,8 @@ It is desired to keep the administrational overhead as low as possible.
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -2528,7 +2544,12 @@ It is desired to keep the administrational overhead as low as possible.
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 
 This document describes how the GRASS Project Steering Committee
 determines membership, and makes decisions on GRASS project issues.
@@ -2687,6 +2708,7 @@ currently include:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3328,6 +3350,12 @@ currently include:
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 * Enforcing the submitter guidelines, with the ultimate sanction against
   non-compliance being removal of write access to the source code repository.
 =======
@@ -3460,8 +3488,11 @@ currently include:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 * Enforcing the submitter guidelines, with the ultimate sanction against non-compliance being removal of write access to the source code repository.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3833,13 +3864,17 @@ currently include:
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 * Enforcing the submitter guidelines, with the ultimate sanction against non-compliance being removal of write access to the source code repository.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4534,6 +4569,8 @@ currently include:
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 
 In general, once write access has been granted, developers are allowed to
 make changes to the codebase as they see fit. For controversial or
@@ -4679,6 +4716,7 @@ Removal of write access to the source code repository is handled as a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5320,6 +5358,12 @@ Removal of write access to the source code repository is handled as a
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 proposal to the committee as described below in the
 [Operation of the PSC](#operation-of-the-psc) section.
 =======
@@ -5452,8 +5496,11 @@ proposal to the committee as described below in the [Operation of the PSC](#oper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 proposal to the committee as described below in the [Operation of the PSC](#operation-of-the-psc) section.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -5825,13 +5872,17 @@ proposal to the committee as described below in the
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 proposal to the committee as described below in the [Operation of the PSC](#operation-of-the-psc) section.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6526,6 +6577,8 @@ proposal to the committee as described below in the
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 
 ### Legal aspects
 
@@ -6630,6 +6683,7 @@ by discussion of the proposal on the mailing list until a consensus is
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 reached. Voting on issues is also permissable and may be used as a means
 =======
 <<<<<<< HEAD
@@ -7034,6 +7088,12 @@ reached. Voting on issues is also permissable and may be used as a means
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 reached. Voting on issues is also permissible and may be used as a means
 =======
 reached. Voting on issues is also permissable and may be used as a means
@@ -7103,6 +7163,7 @@ reached. Voting on issues is also permissable and may be used as a means
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7203,6 +7264,8 @@ reached. Voting on issues is also permissable and may be used as a means
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 reached. Voting on issues is also permissable and may be used as a means
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -7334,6 +7397,7 @@ reached. Voting on issues is also permissable and may be used as a means
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7651,6 +7715,13 @@ reached. Voting on issues is also permissable and may be used as a means
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+reached. Voting on issues is also permissable and may be used as a means
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 to reach a consensus or, only in case of extreme cases of disagreement, to
 force a decision. Any member may call a vote on any proposal. The voting
 procedure is outlined in a separate document:

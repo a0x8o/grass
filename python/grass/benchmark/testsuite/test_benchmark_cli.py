@@ -75,6 +75,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -174,6 +175,8 @@
 >>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
@@ -296,12 +299,16 @@
 =======
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51791d82db (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -693,6 +700,8 @@
 =======
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 import sys
 from pathlib import Path
 from subprocess import DEVNULL
@@ -703,6 +712,7 @@ from grass.benchmark import (
     benchmark_resolutions,
     save_results_to_file,
 )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -929,6 +939,10 @@ from grass.benchmark import (
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -1485,6 +1499,7 @@ from grass.benchmark import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
@@ -1587,6 +1602,8 @@ from grass.benchmark import (
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
@@ -2053,7 +2070,12 @@ from grass.benchmark import (
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 from grass.benchmark.app import main as benchmark_main
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -2150,6 +2172,7 @@ from grass.pygrass.modules import Module
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2413,9 +2436,14 @@ from grass.pygrass.modules import Module
 =======
 >>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2520,6 +2548,8 @@ from grass.pygrass.modules import Module
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2605,6 +2635,7 @@ from grass.pygrass.modules import Module
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 51791d82db (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -3007,6 +3038,10 @@ from grass.pygrass.modules import Module
 >>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 def remove_file(path):
     """Remove filename if exists"""
     if sys.version_info < (3, 8):
@@ -3065,6 +3100,7 @@ def remove_file(path):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3131,6 +3167,8 @@ def remove_file(path):
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3710,6 +3748,10 @@ class TestBenchmarkCLI(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 class TestBenchmarkCLI(TestCase):
     """Tests that benchmarkin CLI works"""
 
@@ -3748,6 +3790,7 @@ class TestBenchmarkCLI(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         json_filename = "plot_test.json"
         png_filename = "plot_test.png"
         png_filename_resolutions = "plot_test_resolutions.png"
@@ -3758,6 +3801,7 @@ class TestBenchmarkCLI(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 =======
@@ -5996,6 +6040,10 @@ class TestBenchmarkCLI(TestCase):
 =======
 =======
 =======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 class TestBenchmarkCLI(TestCase):
     """Tests that benchmarkin CLI works"""
@@ -6098,8 +6146,11 @@ class TestBenchmarkCLI(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
 <<<<<<< HEAD
@@ -6109,7 +6160,12 @@ class TestBenchmarkCLI(TestCase):
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
         # The benchmark part has only Python API, not CLI.
         result = benchmark_resolutions(
             module=Module("r.univar", map="elevation", stdout_=DEVNULL, run_=False),
@@ -6180,6 +6236,7 @@ class TestBenchmarkCLI(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6281,6 +6338,8 @@ class TestBenchmarkCLI(TestCase):
 >>>>>>> 85e622234d (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -7691,6 +7750,10 @@ class TestBenchmarkCLI(TestCase):
         benchmark_main(["plot", "cells", json_filename, png_filename])
         self.assertTrue(Path(png_filename).is_file())
 =======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
         save_results_to_file([result], self.json_filename)
         benchmark_main(["plot", "cells", self.json_filename, self.png_filename1])
         self.assertTrue(Path(self.png_filename1).is_file())
@@ -7715,6 +7778,7 @@ class TestBenchmarkCLI(TestCase):
 =======
 =======
         self.assertTrue(Path(self.png_filename2).is_file())
+<<<<<<< HEAD
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
 >>>>>>> 9f045df12f (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -7741,6 +7805,15 @@ class TestBenchmarkCLI(TestCase):
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+        save_results_to_file([result], json_filename)
+        benchmark_main(["plot", "cells", json_filename, png_filename])
+        self.assertTrue(Path(png_filename).is_file())
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -7861,6 +7934,7 @@ class TestBenchmarkCLI(TestCase):
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -8503,7 +8577,13 @@ class TestBenchmarkCLI(TestCase):
         self.assertTrue(Path(self.png_filename2).is_file())
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 
 
 if __name__ == "__main__":

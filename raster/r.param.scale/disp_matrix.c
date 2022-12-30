@@ -141,6 +141,7 @@ void disp_matrix(double **a, double *x, double *z, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -917,6 +918,12 @@ void disp_matrix(double **a, double *x, double *z, int n)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                         /* Displays matrices used to solve a
                            set of linear equations in the form
 
@@ -1284,10 +1291,16 @@ void disp_matrix(double **a, double *x, double *z, int n)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> main
+=======
+                        /* Displays matrices used to solve a 
+                           set of linear equations in the form 
+<<<<<<< HEAD
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
                         /* Displays matrices used to solve a
                            set of linear equations in the form
@@ -2346,6 +2359,7 @@ void disp_matrix(double **a, double *x, double *z, int n)
 
                            _                        _      _  _      _  _
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
@@ -2588,6 +2602,12 @@ void disp_matrix(double **a, double *x, double *z, int n)
 
                            _                        _      _  _      _  _
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+=======
+
+                           _                        _      _  _      _  _ 
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                            | a(0,0) a(0,1) ... a(0,n) |    | x0 |    | z0 |
                            | a(1,0) a(1,1) ... a(1,n) |    | x1 |    | z1 |
                            |    :           :   ...   :    | .  | :  | =  | :  |
@@ -3104,6 +3124,7 @@ void disp_wind(CELL * z)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3379,11 +3400,16 @@ void disp_wind(CELL * z)
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 extern int dummy_for_iso_compilers; /* suppress -Wempty-translation-unit */
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3479,6 +3505,8 @@ extern int dummy_for_iso_compilers; /* suppress -Wempty-translation-unit */
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3877,4 +3905,9 @@ extern int dummy_for_iso_compilers; /* suppress -Wempty-translation-unit */
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))

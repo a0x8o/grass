@@ -128,6 +128,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1487,6 +1488,8 @@ List of releases:
 >>>>>>> c67d5651fd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 CHANGES in GRASS GIS 8.x
 =======
 CHANGES in GRASS GIS 8.x compared to GRASS GIS 7.x
@@ -1597,6 +1600,8 @@ https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures80
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 CHANGES in GRASS GIS 8.x
 =======
 CHANGES in GRASS GIS 8.x compared to GRASS GIS 7.x
@@ -1833,6 +1838,9 @@ List of releases:
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6036b7efea (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1990,6 +1998,7 @@ List of releases:
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
@@ -2195,6 +2204,12 @@ List of releases:
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 - GitHub list: https://github.com/OSGeo/grass/releases
 - Overview list: https://trac.osgeo.org/grass/wiki/Release
 - History: https://grass.osgeo.org/home/history/releases/ (starting 1984!)

@@ -103,6 +103,7 @@ from subprocess import PIPE
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -331,6 +332,8 @@ from subprocess import PIPE
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -350,12 +353,16 @@ from subprocess import PIPE
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -689,6 +696,9 @@ from subprocess import PIPE
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 
 from .core import SQLDatabaseInterfaceConnection, get_current_mapset
 from .factory import dataset_factory
@@ -764,6 +774,7 @@ from .open_stds import open_old_stds
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 from grass.pygrass.modules import Module
 =======
@@ -925,6 +936,8 @@ from grass.pygrass.modules import Module
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1020,9 +1033,12 @@ from grass.pygrass.modules import Module
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
 import grass.script as gs
 from grass.pygrass.modules import Module
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1266,9 +1282,14 @@ from grass.pygrass.modules import Module
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
 import grass.script as gs
 from grass.pygrass.modules import Module
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1685,6 +1706,8 @@ from grass.pygrass.modules import Module
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
 import grass.script as gs
 from grass.pygrass.modules import Module
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1700,7 +1723,12 @@ from grass.pygrass.modules import Module
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 
 ###############################################################################
 
@@ -1853,6 +1881,7 @@ def compute_univar_stats(
 =======
 def compute_univar_stats(registered_map_info, stats_module, fs, rast_region=False):
 <<<<<<< HEAD
+<<<<<<< HEAD
     """Compute univariate statistics for a map of a space time raster or raster3d dataset
 
     :param registered_map_info: dict or db row with tgis info for a registered map
@@ -1860,6 +1889,8 @@ def compute_univar_stats(registered_map_info, stats_module, fs, rast_region=Fals
 =======
 def compute_univar_stats(registered_map_info, stats_module, fs, rast_region=False):
 =======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
     """Compute univariate statistics for a map of a space time raster or raster3d
     dataset
@@ -1869,6 +1900,11 @@ def compute_univar_stats(registered_map_info, stats_module, fs, rast_region=Fals
                         with
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+    """Compute univariate statistics for a map of a space time raster or raster3d dataset
+
+    :param registered_map_info: dict or db row with tgis info for a registered map
+    :param stats_module: Pre-configured PyGRASS Module to compute univariate statistics with
+=======
     """Compute univariate statistics for a map of a space time raster or raster3d dataset
 
     :param registered_map_info: dict or db row with tgis info for a registered map
@@ -2432,6 +2468,95 @@ def compute_univar_stats(registered_map_info, stats_module, fs, rast_region=Fals
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+        string += eol
+    return string
+
+
+def print_gridded_dataset_univar_statistics(
+    type,
+    input,
+    output,
+    where,
+    extended,
+    no_header=False,
+    fs="|",
+    rast_region=False,
+    zones=None,
+    nprocs=1,
+):
+    """Print univariate statistics for a space time raster or raster3d dataset
+
+    :param type: Type of Space-Time-Dataset, must be either strds or str3ds
+    :param input: The name of the space time dataset
+    :param output: Name of the optional output file, if None stdout is used
+    :param where: A temporal database where statement
+    :param extended: If True compute extended statistics
+    :param no_header: Suppress the printing of column names
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    :param fs: Field separator
+    :param nprocs: Number of cores to use for processing
+    :param rast_region: If set True ignore the current region settings
+           and use the raster map regions for univar statistical calculation.
+           Only available for strds.
+    :param zones: raster map with zones to calculate statistics for
+    """
+<<<<<<< HEAD
+    string = ""
+    id = registered_map_info["id"]
+    start = registered_map_info["start_time"]
+    end = registered_map_info["end_time"]
+    semantic_label = (
+        ""
+        if stats_module.name == "r3.univar" or not registered_map_info["semantic_label"]
+        else registered_map_info["semantic_label"]
+    )
+
+    stats_module.inputs.map = id
+    if rast_region:
+        stats_module.env = gs.region_env(raster=id)
+    stats_module.run()
+
+    univar_stats = stats_module.outputs.stdout
+
+    if not univar_stats:
+        gs.warning(
+            _(
+                "Unable to get statistics for {voxel}raster map "
+                "<{rmap}>".format(
+                    rmap=id, voxel="" if stats_module.name == "r.univar" else "3d "
+                )
+            )
+        )
+        return None
+    eol = ""
+
+    for idx, stats_kv in enumerate(univar_stats.split(";")):
+        stats = gs.utils.parse_key_val(stats_kv)
+        string += (
+            f"{id}{fs}{semantic_label}{fs}{start}{fs}{end}"
+            if stats_module.name == "r.univar"
+            else f"{id}{fs}{start}{fs}{end}"
+        )
+        if stats_module.inputs.zones:
+            if idx == 0:
+                zone = str(stats["zone"])
+                string = ""
+                continue
+            string += f"{fs}{zone}"
+            if "zone" in stats:
+                zone = str(stats["zone"])
+                eol = "\n"
+            else:
+                eol = ""
+        string += f'{fs}{stats["mean"]}{fs}{stats["min"]}'
+        string += f'{fs}{stats["max"]}{fs}{stats["mean_of_abs"]}'
+        string += f'{fs}{stats["stddev"]}{fs}{stats["variance"]}'
+        string += f'{fs}{stats["coeff_var"]}{fs}{stats["sum"]}'
+        string += f'{fs}{stats["null_cells"]}{fs}{stats["n"]}'
+        string += f'{fs}{stats["n"]}'
+        if "median" in stats:
+            string += f'{fs}{stats["first_quartile"]}{fs}{stats["median"]}'
+            string += f'{fs}{stats["third_quartile"]}{fs}{stats["percentile_90"]}'
         string += eol
     return string
 
@@ -7409,6 +7534,7 @@ def print_gridded_dataset_univar_statistics(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7511,6 +7637,8 @@ def print_gridded_dataset_univar_statistics(
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -7619,6 +7747,7 @@ def print_gridded_dataset_univar_statistics(
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7912,6 +8041,12 @@ def print_gridded_dataset_univar_statistics(
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
     # We need a database interface
     dbif = SQLDatabaseInterfaceConnection()
     dbif.connect()
@@ -8041,6 +8176,7 @@ def print_gridded_dataset_univar_statistics(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     strds_cols = (
         "id,start_time,end_time,semantic_label"
         if type == "strds"
@@ -8454,6 +8590,8 @@ def print_gridded_dataset_univar_statistics(
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -8504,7 +8642,12 @@ def print_gridded_dataset_univar_statistics(
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
     spatial_extent = None
     if region_relation:
         spatial_extent = gs.parse_command("g.region", flags="3gu")
@@ -8541,6 +8684,7 @@ def print_gridded_dataset_univar_statistics(
     )
     rows = sp.get_registered_maps(strds_cols, where, "start_time", dbif)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8791,6 +8935,10 @@ def print_gridded_dataset_univar_statistics(
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
     strds_cols = (
         "id,start_time,end_time,semantic_label"
         if type == "strds"
@@ -8799,6 +8947,7 @@ def print_gridded_dataset_univar_statistics(
     rows = sp.get_registered_maps(strds_cols, where, "start_time", dbif)
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8949,6 +9098,8 @@ def print_gridded_dataset_univar_statistics(
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
     strds_cols = (
         "id,start_time,end_time,semantic_label"
         if type == "strds"
@@ -8984,6 +9135,7 @@ def print_gridded_dataset_univar_statistics(
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9228,6 +9380,10 @@ def print_gridded_dataset_univar_statistics(
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
     if not rows and rows != [""]:
         dbif.close()
         err = "Space time %(sp)s dataset <%(i)s> is empty"
@@ -9338,6 +9494,7 @@ def print_gridded_dataset_univar_statistics(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             cols.extend(["first_quartile", "median", "third_quartile", "percentile_90"])
 =======
 <<<<<<< HEAD
@@ -9742,6 +9899,12 @@ def print_gridded_dataset_univar_statistics(
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
             cols.extend(["first_quartile", "median", "third_quartile"])
             if percentile:
                 cols.extend(
@@ -9819,6 +9982,7 @@ def print_gridded_dataset_univar_statistics(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9921,6 +10085,8 @@ def print_gridded_dataset_univar_statistics(
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
             cols.extend(["first_quartile", "median", "third_quartile", "percentile_90"])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -10366,7 +10532,15 @@ def print_gridded_dataset_univar_statistics(
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            cols.extend(["first_quartile", "median", "third_quartile", "percentile_90"])
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
         string = fs.join(cols)
 
         if output is None:
@@ -10477,6 +10651,7 @@ def print_gridded_dataset_univar_statistics(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -10752,11 +10927,16 @@ def print_gridded_dataset_univar_statistics(
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
         percentile=percentile,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10852,6 +11032,8 @@ def print_gridded_dataset_univar_statistics(
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -11250,7 +11432,12 @@ def print_gridded_dataset_univar_statistics(
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
         stdout_=PIPE,
         run_=False,
     )

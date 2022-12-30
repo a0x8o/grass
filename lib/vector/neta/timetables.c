@@ -440,6 +440,7 @@ void NetA_update_dijkstra(int old_conns, int new_conns, int to, int new_dst,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                           int v, int route, int rows, int update,
 =======
 <<<<<<< HEAD
@@ -844,6 +845,12 @@ void NetA_update_dijkstra(int old_conns, int new_conns, int to, int new_dst,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                           int v, int route, int rows UNUSED, int update,
 =======
                           int v, int route, int rows, int update,
@@ -913,6 +920,7 @@ void NetA_update_dijkstra(int old_conns, int new_conns, int to, int new_dst,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1013,6 +1021,8 @@ void NetA_update_dijkstra(int old_conns, int new_conns, int to, int new_dst,
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
                           int v, int route, int rows, int update,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1144,6 +1154,7 @@ void NetA_update_dijkstra(int old_conns, int new_conns, int to, int new_dst,
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1461,6 +1472,13 @@ void NetA_update_dijkstra(int old_conns, int new_conns, int to, int new_dst,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                          int v, int route, int rows, int update,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
                           neta_timetable_result *result, dglHeap_s *heap)
 {
     if (result->dst[new_conns][to] == -1 ||

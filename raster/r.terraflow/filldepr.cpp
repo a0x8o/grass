@@ -143,6 +143,7 @@ elevation_type *fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 elevation_type *ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
                                     cclabel_type maxWatersheds)
 =======
@@ -549,6 +550,12 @@ elevation_type *ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 elevation_type *
 ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr UNUSED,
                     cclabel_type maxWatersheds UNUSED)
@@ -621,6 +628,7 @@ elevation_type *ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -804,9 +812,14 @@ elevation_type *ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
 elevation_type *ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
                                     cclabel_type maxWatersheds)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -957,6 +970,8 @@ elevation_type *ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
 elevation_type *ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
                                     cclabel_type maxWatersheds)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -980,6 +995,7 @@ elevation_type *ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1227,6 +1243,10 @@ elevation_type *ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 {
     G_fatal_error(
         _("Fill_depressions do not fit in memory. Not implemented yet"));

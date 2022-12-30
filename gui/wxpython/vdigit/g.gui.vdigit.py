@@ -108,6 +108,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             self.toolbars["vdigit"].quitDigitizer.connect(lambda: self.Close())
 <<<<<<< HEAD
@@ -1091,6 +1092,9 @@ def main():
 =======
 <<<<<<< HEAD
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+<<<<<<< HEAD
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)
@@ -1099,6 +1103,8 @@ def main():
             parent.Layout()
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)
