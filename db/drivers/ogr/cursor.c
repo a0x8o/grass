@@ -104,6 +104,7 @@ int db__driver_close_cursor(dbCursor *dbc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -148,6 +149,11 @@ int db__driver_close_cursor(dbCursor *dbc)
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
+=======
+=======
+cursor *alloc_cursor(void)
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 cursor *alloc_cursor(void)
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -510,8 +516,12 @@ cursor *alloc_cursor(void)
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 cursor *alloc_cursor(void)
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 cursor *alloc_cursor()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
