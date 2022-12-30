@@ -243,6 +243,7 @@ class SuccessTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -506,6 +507,8 @@ class SuccessTest(TestCase):
 >>>>>>> 3c42aaaec5 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> ae631bd878 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -947,6 +950,8 @@ class SuccessTest(TestCase):
 =======
 >>>>>>> c7dc67a478 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> bdf51e20a8 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
             expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
 >>>>>>> bea6abbdbb (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -965,7 +970,11 @@ class SuccessTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
@@ -2447,7 +2456,12 @@ class SuccessTest(TestCase):
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> c7dc67a478 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> bdf51e20a8 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> ae631bd878 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
             flags="s",
             quiet=True,
         )

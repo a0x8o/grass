@@ -173,6 +173,7 @@ void subcluster(struct SigSet *S, int Class_Index, int *Max_num,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -492,6 +493,8 @@ void subcluster(struct SigSet *S, int Class_Index, int *Max_num,
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3fdac5af26 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -1628,12 +1631,15 @@ void subcluster(struct SigSet *S, int Class_Index, int *Max_num,
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
         I_InitSigSet(&min_S, nbands);
         min_Sig = I_NewClassSig(&min_S);
 =======
 	I_InitSigSet(&min_S, nbands);
 	min_Sig = I_NewClassSig(&min_S);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1699,9 +1705,12 @@ void subcluster(struct SigSet *S, int Class_Index, int *Max_num,
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
         I_InitSigSet(&min_S, nbands);
         min_Sig = I_NewClassSig(&min_S);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1816,7 +1825,12 @@ void subcluster(struct SigSet *S, int Class_Index, int *Max_num,
 =======
 =======
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 3fdac5af26 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 
         /* allocate enough subsignatures in scratch space */
         for (i = 0; i < maxsubclasses; i++)
@@ -2262,6 +2276,7 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2469,6 +2484,8 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3fdac5af26 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -3031,12 +3048,16 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 =======
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
 =======
+=======
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3392,6 +3413,8 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 =======
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 3fdac5af26 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
         I_InitSigSet(&S, nbands);
         Sig3 = I_NewClassSig(&S);
         I_NewSubSig(&S, Sig3);
@@ -3422,6 +3445,9 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4116,6 +4142,7 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -4231,6 +4258,8 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 >>>>>>> 273146cb7f (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 3fdac5af26 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -4717,12 +4746,16 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 =======
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
 =======
+=======
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5078,6 +5111,8 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 =======
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 3fdac5af26 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     if (Sig->nsubclasses > 1) {
@@ -5253,6 +5288,7 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5460,6 +5496,8 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3fdac5af26 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -6022,12 +6060,16 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 =======
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
 =======
+=======
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6383,6 +6425,8 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 =======
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 3fdac5af26 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
         I_InitSigSet(&S, nbands);
         Sig3 = I_NewClassSig(&S);
         I_NewSubSig(&S, Sig3);
@@ -6413,6 +6457,9 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7107,6 +7154,7 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -7222,6 +7270,8 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 >>>>>>> 273146cb7f (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 3fdac5af26 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
@@ -7708,12 +7758,16 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 =======
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d1e0f3a451 (ci: Ignore paths in CodeQL (#1778))
 =======
+=======
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8069,6 +8123,8 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 =======
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 3fdac5af26 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* form SubSig3 by adding SubSig1 and SubSig2 */
