@@ -314,6 +314,7 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /* a scale heigh of 2km is assumed in case no value is given for
 =======
 <<<<<<< HEAD
@@ -407,6 +408,8 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -526,7 +529,12 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
             /* a scale height of 2km is assumed in case no value is given for
 =======
             /* a scale heigh of 2km is assumed in case no value is given for
@@ -569,6 +577,7 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -604,6 +613,8 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -875,7 +886,12 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
             /* a scale heigh of 2km is assumed in case no value is given for
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
              * taer55p */
             taer55p = (double)(aerocon.taer55 * (1 - exp(-palt / 2)));
         }
@@ -922,6 +938,7 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /* compute effective scale heigh */
 =======
 <<<<<<< HEAD
@@ -1015,6 +1032,8 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1134,7 +1153,12 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
             /* compute effective scale height */
 =======
             /* compute effective scale heigh */
@@ -1177,6 +1201,7 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1212,6 +1237,8 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1483,7 +1510,12 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
             /* compute effective scale heigh */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
             double sham = exp(-palt / 4);
             double sha = 1 - (taer55p / aerocon.taer55);
 
@@ -1602,6 +1634,7 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /* a scale heigh of 2km is assumed in case no value is given for
 =======
 <<<<<<< HEAD
@@ -1695,6 +1728,8 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1814,7 +1849,12 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
             /* a scale height of 2km is assumed in case no value is given for
 =======
             /* a scale heigh of 2km is assumed in case no value is given for
@@ -1857,6 +1897,7 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1892,6 +1933,8 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2163,7 +2206,12 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
             /* a scale heigh of 2km is assumed in case no value is given for
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
              * taer55p */
             taer55p = (double)(aerocon.taer55 * (1 - exp(-palt / 2)));
         }
@@ -2210,6 +2258,7 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /* compute effective scale heigh */
 =======
 <<<<<<< HEAD
@@ -2303,6 +2352,8 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2422,7 +2473,12 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
             /* compute effective scale height */
 =======
             /* compute effective scale heigh */
@@ -2465,6 +2521,7 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2500,6 +2557,8 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2771,7 +2830,12 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
             /* compute effective scale heigh */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
             double sham = exp(-palt / 4);
             double sha = 1 - (taer55p / aerocon.taer55);
 

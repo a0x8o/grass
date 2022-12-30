@@ -192,6 +192,7 @@ void write_vtk_pointdata_header(FILE *fp, struct Cell_head region)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
 =======
 <<<<<<< HEAD
@@ -285,6 +286,8 @@ void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -404,7 +407,12 @@ void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname UNUSED,
 =======
 void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
@@ -447,6 +455,7 @@ void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -482,6 +491,8 @@ void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -753,7 +764,12 @@ void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
 void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
                                       struct Cell_head region, int out_type,
                                       char *null_value, double scale, int dp)
 {
@@ -846,6 +862,7 @@ void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 =======
 <<<<<<< HEAD
@@ -939,6 +956,8 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1058,7 +1077,12 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname UNUSED,
 =======
 void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
@@ -1101,6 +1125,7 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1136,6 +1161,8 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1407,7 +1434,12 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
                                      struct Cell_head region, int out_type,
                                      char *null_value, double scale,
                                      int polytype, int dp)
@@ -1503,6 +1535,7 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /*If Datafiltering should be supportet, we use Polygons to represent the
 =======
 <<<<<<< HEAD
@@ -1596,6 +1629,8 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1715,7 +1750,12 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
         /*If Datafiltering should be supported, we use Polygons to represent the
 =======
         /*If Datafiltering should be supportet, we use Polygons to represent the
@@ -1758,6 +1798,7 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1793,6 +1834,8 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2064,7 +2107,12 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
         /*If Datafiltering should be supportet, we use Polygons to represent the
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
          * grid */
         fprintf(fp, "POLYGONS %i %i\n", (region.rows - 1) * (region.cols - 1),
                 5 * (region.rows - 1) * (region.cols - 1));
@@ -2111,6 +2159,7 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /*We creat a grid of quads, the corners of the quads are the datapoints
 =======
 <<<<<<< HEAD
@@ -2204,6 +2253,8 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -2323,7 +2374,12 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
         /*We create a grid of quads, the corners of the quads are the datapoints
 =======
         /*We creat a grid of quads, the corners of the quads are the datapoints
@@ -2366,6 +2422,7 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2401,6 +2458,8 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2672,7 +2731,12 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
         /*We creat a grid of quads, the corners of the quads are the datapoints
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
          */
         for (i = 0; i < region.rows - 1; i++) {
             for (j = 0; j < region.cols - 1; j++) {
