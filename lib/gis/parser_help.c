@@ -131,6 +131,7 @@ static void usage(FILE *fp, int markers)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G__print_keywords(fp, NULL);
 =======
 <<<<<<< HEAD
@@ -201,6 +202,8 @@ static void usage(FILE *fp, int markers)
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -219,7 +222,12 @@ static void usage(FILE *fp, int markers)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
         G__print_keywords(fp, NULL, FALSE);
 =======
         G__print_keywords(fp, NULL);
@@ -249,6 +257,7 @@ static void usage(FILE *fp, int markers)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -259,6 +268,8 @@ static void usage(FILE *fp, int markers)
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
         G__print_keywords(fp, NULL);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -411,7 +422,15 @@ static void usage(FILE *fp, int markers)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        G__print_keywords(fp, NULL);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
         fprintf(fp, "\n");
     }
 

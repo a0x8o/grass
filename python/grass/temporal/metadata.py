@@ -421,6 +421,7 @@ class RasterMetadata(RasterMetadataBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if get_tgis_db_version_from_metadata() > 2:
             self.set_semantic_label(semantic_label)
 
@@ -488,6 +489,8 @@ class RasterMetadata(RasterMetadataBase):
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
     def set_semantic_label(self, semantic_label) -> None:
 =======
 =======
@@ -604,7 +607,12 @@ class RasterMetadata(RasterMetadataBase):
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
     def set_semantic_label(self, semantic_label):
         """Set the semantic label identifier"""
         self.D["semantic_label"] = semantic_label
@@ -776,6 +784,7 @@ class RasterMetadata(RasterMetadataBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
@@ -788,10 +797,14 @@ class RasterMetadata(RasterMetadataBase):
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
         if get_tgis_db_version_from_metadata() > 2:
             self.set_semantic_label(semantic_label)
@@ -804,6 +817,7 @@ class RasterMetadata(RasterMetadataBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -812,6 +826,8 @@ class RasterMetadata(RasterMetadataBase):
 =======
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -831,7 +847,12 @@ class RasterMetadata(RasterMetadataBase):
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
     def get_semantic_label(self):
         """Get the semantic label identifier
         :return: None if not found"""

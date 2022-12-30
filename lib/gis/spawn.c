@@ -970,6 +970,7 @@ int G_spawn(const char *command, ...)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1016,6 +1017,8 @@ int G_spawn(const char *command, ...)
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1054,7 +1057,12 @@ int G_spawn(const char *command, ...)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
     for (;;) {
 =======
 <<<<<<< HEAD
@@ -1134,6 +1142,7 @@ int G_spawn(const char *command, ...)
 >>>>>>> osgeo-main
     for (i = 0;; i++) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1437,7 +1446,15 @@ int G_spawn(const char *command, ...)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    for (i = 0;; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
         const char *arg = va_arg(va, const char *);
 
         args[num_args++] = arg;

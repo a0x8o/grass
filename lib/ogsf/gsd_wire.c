@@ -484,6 +484,7 @@ int gsd_wire_surf_const(geosurf *surf, float k)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 int gsd_wire_surf_func(geosurf *gs, int (*user_func)(void))
@@ -587,6 +588,8 @@ int gsd_wire_surf_func(geosurf *gs, int (*user_func)(void))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -625,7 +628,12 @@ int gsd_wire_surf_func(geosurf *gs, int (*user_func)(void))
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 int gsd_wire_surf_func(geosurf *gs UNUSED, int (*user_func)(void) UNUSED)
 =======
 int gsd_wire_surf_func(geosurf *gs, int (*user_func)())
@@ -656,6 +664,7 @@ int gsd_wire_surf_func(geosurf *gs, int (*user_func)())
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -696,6 +705,8 @@ int gsd_wire_surf_func(geosurf *gs, int (*user_func)())
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 int gsd_wire_surf_func(geosurf *gs, int (*user_func)())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -969,7 +980,15 @@ int gsd_wire_surf_func(geosurf *gs, int (*user_func)())
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+int gsd_wire_surf_func(geosurf *gs, int (*user_func)())
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 {
     return (1);
 }

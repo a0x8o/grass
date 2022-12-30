@@ -231,6 +231,7 @@ int start_mon(const char *name, const char *output, int select, int width,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -338,6 +339,8 @@ int start_mon(const char *name, const char *output, int select, int width,
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -376,7 +379,12 @@ int start_mon(const char *name, const char *output, int select, int width,
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
         if (write(fd, buf, strlen(buf)) != (ssize_t)strlen(buf))
             G_fatal_error(_("Failed to write to file <%s>"), env_file);
         sprintf(buf, "GRASS_RENDER_FILE_READ=FALSE\n");
@@ -1380,6 +1388,7 @@ int start_mon(const char *name, const char *output, int select, int width,
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error(_("Failed to write to file <%s>"), env_file);
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -1387,6 +1396,9 @@ int start_mon(const char *name, const char *output, int select, int width,
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
         if (write(fd, buf, strlen(buf)) != strlen(buf))
             G_fatal_error(_("Failed to write to file <%s>"), env_file);
         sprintf(buf, "GRASS_RENDER_FILE_READ=FALSE\n");
@@ -1394,6 +1406,7 @@ int start_mon(const char *name, const char *output, int select, int width,
             G_fatal_error(_("Failed to write to file <%s>"), env_file);
         sprintf(buf, "GRASS_RENDER_TRANSPARENT=TRUE\n");
         if (write(fd, buf, strlen(buf)) != strlen(buf))
+<<<<<<< HEAD
 =======
         if (write(fd, buf, strlen(buf)) != (ssize_t)strlen(buf))
             G_fatal_error(_("Failed to write to file <%s>"), env_file);
@@ -1403,10 +1416,13 @@ int start_mon(const char *name, const char *output, int select, int width,
         sprintf(buf, "GRASS_RENDER_TRANSPARENT=TRUE\n");
         if (write(fd, buf, strlen(buf)) != (ssize_t)strlen(buf))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(_("Failed to write to file <%s>"), env_file);
     }
     else {
         sprintf(buf, "GRASS_RENDER_IMMEDIATE=%s\n", name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1461,6 +1477,25 @@ int start_mon(const char *name, const char *output, int select, int width,
 =======
     if (write(fd, buf, strlen(buf)) != (ssize_t)strlen(buf))
 >>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+=======
+        if (write(fd, buf, strlen(buf)) != strlen(buf))
+            G_fatal_error(_("Failed to write to file <%s>"), env_file);
+        sprintf(buf, "GRASS_RENDER_FILE_READ=TRUE\n");
+        if (write(fd, buf, strlen(buf)) != strlen(buf))
+            G_fatal_error(_("Failed to write to file <%s>"), env_file);
+    }
+    sprintf(buf, "GRASS_RENDER_FILE=%s\n", out_file);
+    if (write(fd, buf, strlen(buf)) != strlen(buf))
+        G_fatal_error(_("Failed to write to file <%s>"), env_file);
+    sprintf(buf, "GRASS_RENDER_WIDTH=%d\n", width);
+    if (write(fd, buf, strlen(buf)) != strlen(buf))
+        G_fatal_error(_("Failed to write to file <%s>"), env_file);
+    sprintf(buf, "GRASS_RENDER_HEIGHT=%d\n", height);
+    if (write(fd, buf, strlen(buf)) != strlen(buf))
+        G_fatal_error(_("Failed to write to file <%s>"), env_file);
+    sprintf(buf, "GRASS_LEGEND_FILE=%s\n", leg_file);
+    if (write(fd, buf, strlen(buf)) != strlen(buf))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error(_("Failed to write to file <%s>"), env_file);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -1515,6 +1550,7 @@ int start_mon(const char *name, const char *output, int select, int width,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1556,6 +1592,8 @@ int start_mon(const char *name, const char *output, int select, int width,
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1881,6 +1919,8 @@ int start_mon(const char *name, const char *output, int select, int width,
     }
     if (truecolor) {
         sprintf(buf, "GRASS_RENDER_TRUECOLOR=TRUE\n");
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
@@ -2041,6 +2081,7 @@ int start_mon(const char *name, const char *output, int select, int width,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (write(fd, buf, strlen(buf)) != strlen(buf))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2100,10 +2141,16 @@ int start_mon(const char *name, const char *output, int select, int width,
 >>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+=======
+=======
+        if (write(fd, buf, strlen(buf)) != strlen(buf))
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(_("Failed to write to file <%s>"), env_file);
     }
     if (truecolor) {
         sprintf(buf, "GRASS_RENDER_TRUECOLOR=TRUE\n");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2121,6 +2168,9 @@ int start_mon(const char *name, const char *output, int select, int width,
         if (write(fd, buf, strlen(buf)) != (ssize_t)strlen(buf))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
+        if (write(fd, buf, strlen(buf)) != (ssize_t)strlen(buf))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
         if (write(fd, buf, strlen(buf)) != strlen(buf))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2132,6 +2182,7 @@ int start_mon(const char *name, const char *output, int select, int width,
 =======
         if (write(fd, buf, strlen(buf)) != strlen(buf))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2381,7 +2432,12 @@ int start_mon(const char *name, const char *output, int select, int width,
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(_("Failed to write to file <%s>"), env_file);
     }
     close(fd);

@@ -194,6 +194,7 @@ int thin_streams(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_verbose_message(_("%d of %" PRI_OFF_T " stream segments were thinned"),
 =======
 <<<<<<< HEAD
@@ -264,6 +265,8 @@ int thin_streams(void)
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -282,7 +285,12 @@ int thin_streams(void)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
     G_verbose_message(_("%d of %" PRId64 " stream segments were thinned"),
 =======
     G_verbose_message(_("%d of %" PRI_OFF_T " stream segments were thinned"),
@@ -312,6 +320,7 @@ int thin_streams(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -322,6 +331,8 @@ int thin_streams(void)
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
     G_verbose_message(_("%d of %" PRI_OFF_T " stream segments were thinned"),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -474,7 +485,15 @@ int thin_streams(void)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    G_verbose_message(_("%d of %" PRI_OFF_T " stream segments were thinned"),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
                       n_thinned, n_stream_nodes);
 
     return 1;

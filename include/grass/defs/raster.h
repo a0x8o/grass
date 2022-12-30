@@ -578,6 +578,7 @@ char *Rast_read_vdatum(const char *, const char *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -607,6 +608,8 @@ char *Rast_read_vdatum(const char *, const char *);
 >>>>>>> 4b334d121f (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -754,13 +757,21 @@ char *Rast_read_vdatum(const char *, const char *);
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 char *Rast_read_semantic_label(const char *, const char *);
 char *Rast_get_semantic_label_or_name(const char *, const char *);
 void Rast_write_units(const char *, const char *);
 void Rast_write_vdatum(const char *, const char *);
 void Rast_write_semantic_label(const char *, const char *);
 bool Rast_legal_semantic_label(const char *);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -798,6 +809,8 @@ bool Rast_legal_semantic_label(const char *);
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4b334d121f (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 >>>>>>> 1906f4a791 (libpython: Save and load benchmark results (#1711))
@@ -1118,6 +1131,8 @@ bool Rast_legal_semantic_label(const char *);
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
 char *Rast_read_bandref(const char *, const char *);
 void Rast_write_units(const char *, const char *);
 void Rast_write_vdatum(const char *, const char *);
@@ -1143,12 +1158,15 @@ bool Rast_legal_semantic_label(const char *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
@@ -1186,7 +1204,12 @@ bool Rast_legal_semantic_label(const char *);
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 
 /* rast_to_img_string.c */
 int Rast_map_to_img_str(char *, int, unsigned char *);

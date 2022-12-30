@@ -60,6 +60,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 =======
 <<<<<<< HEAD
@@ -130,6 +131,8 @@ int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -148,7 +151,12 @@ int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_list_tables(dbString **tlist, int *tcount, int system UNUSED)
 =======
 int db__driver_list_tables(dbString **tlist, int *tcount, int system)
@@ -178,6 +186,7 @@ int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -188,6 +197,8 @@ int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -340,7 +351,15 @@ int db__driver_list_tables(dbString **tlist, int *tcount, int system)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+int db__driver_list_tables(dbString **tlist, int *tcount, int system)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 {
     int i, nlayers;
     dbString *list;

@@ -1824,6 +1824,7 @@ int LZ4_compressBound(int isize)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int LZ4_sizeofState()
 =======
 =======
@@ -1835,10 +1836,13 @@ int LZ4_sizeofState()
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 int LZ4_sizeofState(void)
 =======
 int LZ4_sizeofState()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1858,6 +1862,11 @@ int LZ4_sizeofState()
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int LZ4_sizeofState()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 {
     return LZ4_STREAMSIZE;
 }
@@ -6161,6 +6170,7 @@ int LZ4_uncompress_unknownOutputSize(const char *source, char *dest, int isize,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int LZ4_sizeofStreamState()
 =======
 <<<<<<< HEAD
@@ -6231,6 +6241,8 @@ int LZ4_sizeofStreamState()
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -6249,11 +6261,17 @@ int LZ4_sizeofStreamState()
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 int LZ4_sizeofStreamState(void)
 =======
 int LZ4_sizeofStreamState()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6289,6 +6307,8 @@ int LZ4_sizeofStreamState()
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 int LZ4_sizeofStreamState()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -6419,6 +6439,11 @@ int LZ4_sizeofStreamState()
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int LZ4_sizeofStreamState()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 {
     return LZ4_STREAMSIZE;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

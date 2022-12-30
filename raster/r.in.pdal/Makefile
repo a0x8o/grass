@@ -55,6 +55,7 @@ include $(MODULE_TOPDIR)/include/Make/Module.make
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -120,6 +121,8 @@ include $(MODULE_TOPDIR)/include/Make/Module.make
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> bbe0f8458b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -452,13 +455,19 @@ $(OBJDIR)/grasslidarfilter.o : EXTRA_CFLAGS += $(PDALCPPFLAGS)
 =======
 =======
 =======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 $(OBJDIR)/main.o : EXTRA_CFLAGS += $(PDALCPPFLAGS)
 
 $(OBJDIR)/info.o : EXTRA_CFLAGS += $(PDALCPPFLAGS)
 
 $(OBJDIR)/grasslidarfilter.o : EXTRA_CFLAGS += $(PDALCPPFLAGS)
 
+<<<<<<< HEAD
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> 7b67019a4e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 <<<<<<< HEAD
 >>>>>>> 0545137c75 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -497,7 +506,14 @@ $(OBJDIR)/grasslidarfilter.o : EXTRA_CFLAGS += $(PDALCPPFLAGS)
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 >>>>>>> 856b44c452 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 >>>>>>> bbe0f8458b (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 LINK = $(CXX)
 
 ifneq ($(strip $(CXX)),)

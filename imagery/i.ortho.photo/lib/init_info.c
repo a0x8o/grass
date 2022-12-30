@@ -47,6 +47,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -84,6 +85,8 @@
 =======
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -442,9 +445,13 @@ FILE *I_fopen_group_init_new();
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 FILE *I_fopen_group_init_old(char *);
 FILE *I_fopen_group_init_new(char *);
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 FILE *I_fopen_group_init_old();
 FILE *I_fopen_group_init_new();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

@@ -244,6 +244,7 @@ int build_topo(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     if (n_nodes != Map->plus.n_nodes)
         G_warning(
@@ -350,6 +351,8 @@ int build_topo(struct Map_info *Map, int build)
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 =======
 =======
@@ -361,12 +364,17 @@ int build_topo(struct Map_info *Map, int build)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 
     if (n_nodes != Map->plus.n_nodes)
         G_warning(
             _("Inconsistency in topology: number of nodes %d (should be %d)"),
             Map->plus.n_nodes, n_nodes);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -479,7 +487,12 @@ int build_topo(struct Map_info *Map, int build)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 
     if (n_nodes != Map->plus.n_nodes)
         G_warning(

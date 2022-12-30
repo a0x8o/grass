@@ -44,6 +44,7 @@ DSTDIR = $(ETC)/python/grass/benchmark
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -78,6 +79,8 @@ DSTDIR = $(ETC)/python/grass/benchmark
 =======
 >>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> aae21b95f4 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -111,7 +114,12 @@ DSTDIR = $(ETC)/python/grass/benchmark
 =======
 =======
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 MODULES = app plots results runners __main__
 =======
 <<<<<<< HEAD
@@ -341,12 +349,15 @@ MODULES = app plots results runners __main__
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
@@ -393,7 +404,12 @@ MODULES = app plots results runners __main__
 MODULES = app plots results runners __main__
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
+<<<<<<< HEAD
 >>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)

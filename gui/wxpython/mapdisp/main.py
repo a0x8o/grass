@@ -55,6 +55,7 @@ This program is free software under the GNU General Public License
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -116,14 +117,22 @@ This program is free software under the GNU General Public License
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 """  # noqa: E501
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,6 +223,8 @@ This program is free software under the GNU General Public License
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -251,7 +262,12 @@ This program is free software under the GNU General Public License
 """  # noqa: E501
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 """
 
 from __future__ import print_function
@@ -714,6 +730,7 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -781,6 +798,8 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
 =======
 >>>>>>> 4b334d121f (libpython: Save and load benchmark results (#1711))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -799,7 +818,12 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
 =======
 =======
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 >>>>>>> 4b334d121f (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1026,6 +1050,14 @@ class DMonFrame(MapFrame):
 
         return toolbar.IsShown()
 >>>>>>> fbc5f37844 (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+
+class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
+    """@implements GrassInterface"""
+
+    def __init__(self, mapframe):
+        StandaloneMapDisplayGrassInterface.__init__(self, mapframe)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -1490,6 +1522,7 @@ class DMonDisplay(FrameMixin, MapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1589,11 +1622,17 @@ class DMonDisplay(FrameMixin, MapPanel):
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 class DMonDisplay(FrameMixin, MapPanel):
     """Map display for wrapping map panel with d.mon mathods and frame methods"""
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1629,6 +1668,8 @@ class DMonDisplay(FrameMixin, MapPanel):
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1764,7 +1805,14 @@ class DMonDisplay(FrameMixin, MapPanel):
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
     def __init__(self, parent, giface, id, Map, title, toolbars, statusbar):
         # init map panel
         MapPanel.__init__(

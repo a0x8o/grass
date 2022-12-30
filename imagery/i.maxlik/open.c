@@ -93,6 +93,7 @@ int open_files(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -160,6 +161,8 @@ int open_files(void)
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -168,6 +171,8 @@ int open_files(void)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 
     err = I_sort_signatures_by_semantic_label(&S, &Ref);
     if (err)
@@ -177,7 +182,12 @@ int open_files(void)
                       err[0] ? err[0] : _("none"), err[1] ? err[1] : _("none"));
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 
     err = I_sort_signatures_by_semantic_label(&S, &Ref);
     if (err)
@@ -412,6 +422,7 @@ int open_files(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -441,6 +452,8 @@ int open_files(void)
 >>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -588,7 +601,14 @@ int open_files(void)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
     cell = (DCELL **)G_malloc(Ref.nfiles * sizeof(DCELL *));
     cellfd = (int *)G_malloc(Ref.nfiles * sizeof(int));
     P = (double *)G_malloc(Ref.nfiles * sizeof(double));
@@ -597,6 +617,7 @@ int open_files(void)
         name = Ref.file[n].name;
         mapset = Ref.file[n].mapset;
         cellfd[n] = Rast_open_old(name, mapset);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -713,6 +734,10 @@ int open_files(void)
 =======
 =======
 >>>>>>> c9edfa5984 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
@@ -865,6 +890,7 @@ int open_files(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
@@ -966,6 +992,8 @@ int open_files(void)
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
@@ -1023,7 +1051,12 @@ int open_files(void)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
     }
 
     class_fd = Rast_open_c_new(class_name);

@@ -157,6 +157,7 @@ extern int G_math_solver_sparse_bicgstab(G_math_spvector **, double *, double *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* solver algoithms and helper functions */
 =======
 <<<<<<< HEAD
@@ -227,6 +228,8 @@ extern int G_math_solver_sparse_bicgstab(G_math_spvector **, double *, double *,
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -245,7 +248,12 @@ extern int G_math_solver_sparse_bicgstab(G_math_spvector **, double *, double *,
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 /* solver algorithms and helper functions */
 =======
 /* solver algoithms and helper functions */
@@ -275,6 +283,7 @@ extern int G_math_solver_sparse_bicgstab(G_math_spvector **, double *, double *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -285,6 +294,8 @@ extern int G_math_solver_sparse_bicgstab(G_math_spvector **, double *, double *,
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 /* solver algoithms and helper functions */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -437,7 +448,15 @@ extern int G_math_solver_sparse_bicgstab(G_math_spvector **, double *, double *,
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+/* solver algoithms and helper functions */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 extern void G_math_gauss_elimination(double **, double *, int);
 extern void G_math_lu_decomposition(double **, double *, int);
 extern int G_math_cholesky_decomposition(double **, int, int);

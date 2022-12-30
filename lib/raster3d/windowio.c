@@ -39,6 +39,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
                                   int *proj, int *zone, double *north,
                                   double *south, double *east, double *west,
@@ -116,6 +117,8 @@ static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -134,7 +137,12 @@ static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 static int Rast3d__readWindow(struct Key_Value *windowKeys, int *proj,
                               int *zone, double *north, double *south,
                               double *east, double *west, double *top,
@@ -151,6 +159,7 @@ static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
                                   double *ns_res, double *tb_res)
 {
     int returnVal;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,10 +233,14 @@ static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
 static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
                                   int *proj, int *zone, double *north,
@@ -238,6 +251,7 @@ static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
 {
     int returnVal;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319,6 +333,8 @@ static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
                                   int *proj, int *zone, double *north,
@@ -367,7 +383,12 @@ static int Rast3d_readWriteWindow(struct Key_Value *windowKeys, int doRead,
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
     int (*windowInt)(), (*windowDouble)();
 
     if (doRead) {
@@ -557,6 +578,7 @@ int Rast3d_read_window(RASTER3D_Region *window, const char *windowName)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -626,6 +648,8 @@ int Rast3d_read_window(RASTER3D_Region *window, const char *windowName)
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -644,7 +668,12 @@ int Rast3d_read_window(RASTER3D_Region *window, const char *windowName)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
         if (!Rast3d__readWindow(
                 windowKeys, &(window->proj), &(window->zone), &(window->north),
                 &(window->south), &(window->east), &(window->west),
@@ -652,6 +681,7 @@ int Rast3d_read_window(RASTER3D_Region *window, const char *windowName)
                 &(window->cols), &(window->depths), &(window->ew_res),
                 &(window->ns_res), &(window->tb_res))) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -687,6 +717,8 @@ int Rast3d_read_window(RASTER3D_Region *window, const char *windowName)
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -816,7 +848,14 @@ int Rast3d_read_window(RASTER3D_Region *window, const char *windowName)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
         if (!Rast3d_readWriteWindow(
                 windowKeys, 1, &(window->proj), &(window->zone),
                 &(window->north), &(window->south), &(window->east),
@@ -853,6 +892,7 @@ int Rast3d_read_window(RASTER3D_Region *window, const char *windowName)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -985,6 +1025,8 @@ int Rast3d_read_window(RASTER3D_Region *window, const char *windowName)
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1029,7 +1071,15 @@ int Rast3d_read_window(RASTER3D_Region *window, const char *windowName)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
             Rast3d_error(
                 "Rast3d_read_window: error extracting window key(s) of file %s",
                 path);

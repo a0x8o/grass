@@ -54,6 +54,7 @@ rem run g.mkfontcap outside a GRASS session
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%GISBASE%\bin\g.mkfontcap.exe" -o
 =======
 <<<<<<< HEAD
@@ -124,6 +125,8 @@ rem run g.mkfontcap outside a GRASS session
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -142,7 +145,12 @@ rem run g.mkfontcap outside a GRASS session
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 "%GISBASE%\bin\g.mkfontcap.exe" --overwrite
 =======
 "%GISBASE%\bin\g.mkfontcap.exe" -o
@@ -172,6 +180,7 @@ rem run g.mkfontcap outside a GRASS session
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -182,6 +191,8 @@ rem run g.mkfontcap outside a GRASS session
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 "%GISBASE%\bin\g.mkfontcap.exe" -o
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -334,6 +345,14 @@ rem run g.mkfontcap outside a GRASS session
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+"%GISBASE%\bin\g.mkfontcap.exe" -o
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 
 del "%BATCH%.tmpl

@@ -476,6 +476,7 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void print_columns(const struct Map_info *Map, const char *input_opt,
 =======
 =======
@@ -487,10 +488,13 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 void print_columns(struct Map_info *Map, const char *input_opt,
 =======
 void print_columns(const struct Map_info *Map, const char *input_opt,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -510,6 +514,11 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void print_columns(const struct Map_info *Map, const char *input_opt,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
                    const char *field_opt)
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -755,6 +764,7 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -812,15 +822,23 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
     fprintf(stdout, "project=%s\n", G_location());
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -915,6 +933,8 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
     fprintf(stdout, "name=%s\n", Vect_get_name(Map));
     fprintf(stdout, "mapset=%s\n", Vect_get_mapset(Map));
     fprintf(stdout, "location=%s\n", G_location());
@@ -961,7 +981,12 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
     fprintf(stdout, "database=%s\n", G_gisdbase());
     fprintf(stdout, "title=%s\n", Vect_get_map_name(Map));
     fprintf(stdout, "scale=1:%d\n", Vect_get_scale(Map));
@@ -1332,6 +1357,7 @@ void print_info(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_saprintf(line, "%-17s%s", _("Location:"), G_location());
 =======
 <<<<<<< HEAD
@@ -1402,6 +1428,8 @@ void print_info(struct Map_info *Map)
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1420,7 +1448,12 @@ void print_info(struct Map_info *Map)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
     G_saprintf(line, "%-17s%s", _("Project:"), G_location());
 =======
     G_saprintf(line, "%-17s%s", _("Location:"), G_location());
@@ -1450,6 +1483,7 @@ void print_info(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1460,6 +1494,8 @@ void print_info(struct Map_info *Map)
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
     G_saprintf(line, "%-17s%s", _("Location:"), G_location());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1612,7 +1648,15 @@ void print_info(struct Map_info *Map)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    G_saprintf(line, "%-17s%s", _("Location:"), G_location());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
     printline(line);
     G_saprintf(line, "%-17s%s", _("Database:"), G_gisdbase());
     printline(line);

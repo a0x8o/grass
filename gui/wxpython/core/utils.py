@@ -49,6 +49,7 @@ import operator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,6 +78,8 @@ import operator
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 150ef7b78e (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 from string import digits
 =======
 =======
@@ -248,6 +251,10 @@ import six
 =======
 =======
 =======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 import six
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 >>>>>>> a05b13298f (wxGUI/datacatalog: fix setting output vector/raster format (#1596))

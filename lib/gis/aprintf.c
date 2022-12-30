@@ -229,6 +229,7 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     va_list ap_copy;
                     char tmp;
 
@@ -579,6 +580,8 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -597,7 +600,12 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
                     va_list aq;
                     char tmp;
 
@@ -801,6 +809,7 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -852,6 +861,8 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
                     va_list ap_copy;
                     char tmp;
@@ -991,7 +1002,12 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
                         s = va_arg(ap, char *);
 
                         if (width > 0) {
@@ -1052,6 +1068,7 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             nbytes += ovprintf(opts, p, ap_copy);
 =======
 <<<<<<< HEAD
@@ -1122,6 +1139,8 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1140,7 +1159,12 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
                             nbytes += ovprintf(opts, p, aq);
 =======
                             nbytes += ovprintf(opts, p, ap_copy);
@@ -1170,6 +1194,7 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1180,6 +1205,8 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
                             nbytes += ovprintf(opts, p, ap_copy);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1332,7 +1359,15 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                            nbytes += ovprintf(opts, p, ap_copy);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
                             *(q + 1) = tmp;
                         }
                     }
@@ -1370,6 +1405,7 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         nbytes += ovprintf(opts, p, ap_copy);
 =======
 <<<<<<< HEAD
@@ -1440,6 +1476,8 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1458,7 +1496,12 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
                         nbytes += ovprintf(opts, p, aq);
 =======
                         nbytes += ovprintf(opts, p, ap_copy);
@@ -1488,6 +1531,7 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1498,6 +1542,8 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
                         nbytes += ovprintf(opts, p, ap_copy);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1650,7 +1696,15 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                        nbytes += ovprintf(opts, p, ap_copy);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
                         *(q + 1) = tmp;
 
                         /* once ap is passed to another function that calls
@@ -1727,6 +1781,7 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     va_end(ap_copy);
 =======
 <<<<<<< HEAD
@@ -1797,6 +1852,8 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1815,7 +1872,12 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
                     va_end(aq);
 =======
                     va_end(ap_copy);
@@ -1845,6 +1907,7 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1855,6 +1918,8 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
                     va_end(ap_copy);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2007,7 +2072,15 @@ static int oaprintf(struct options *opts, const char *format, va_list ap)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                    va_end(ap_copy);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
                     break;
                 }
                 else if (p_spec - spec < SPEC_BUF_SIZE - 2)

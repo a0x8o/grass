@@ -132,6 +132,7 @@ class MapWindowProperties:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     @useDefinedProjection.setter
     def useDefinedProjection(self, value):
@@ -254,6 +255,8 @@ class MapWindowProperties:
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 =======
 =======
@@ -265,6 +268,10 @@ class MapWindowProperties:
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 
     @useDefinedProjection.setter
     def useDefinedProjection(self, value):
@@ -287,6 +294,7 @@ class MapWindowProperties:
             self.sbItemChanged.emit(mode=mode)
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -431,7 +439,12 @@ class MapWindowProperties:
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 
     @useDefinedProjection.setter
     def useDefinedProjection(self, value):

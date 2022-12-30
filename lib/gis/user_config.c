@@ -623,9 +623,18 @@ static int _elem_count_split(char *elems)
     for (i = 0; begin != NULL && (ptrdiff_t)len > begin - elems; i++) {
 =======
     for (i = 0; begin != NULL && len > begin - elems; i++) {
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
         /* check '.' condition */
         if (*begin == '.')
             return 0;
