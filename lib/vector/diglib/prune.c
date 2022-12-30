@@ -110,6 +110,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     int ij = 0,                      /* position of farest point */
         ja, jd, i, j, k, n, inu, it; /* indicateur de parcours du segment */
 
@@ -192,6 +193,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
     int ij = 0,                      /* position of farest point */
@@ -247,7 +250,12 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     int ij = 0,                      /* position of farthest point */
         ja, jd, i, j, k, n, inu, it; /* indicateur de parcours du segment */
 
@@ -519,6 +527,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else {              /* No point keeped : farest point  */
 =======
 <<<<<<< HEAD
@@ -593,6 +602,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
         else {              /* No point keeped : farest point  */
@@ -640,7 +651,12 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         else {              /* No point keeped : farthest point  */
 =======
         else {              /* No point keeped : farest point  */
@@ -673,6 +689,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -688,6 +705,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -873,7 +892,12 @@ int dig_prune(struct line_pnts *points, double thresh)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
             sx[1] = sx[ij]; /* is loaded in second position    */
             sy[1] = sy[ij]; /* to avoid cutting lines with     */
             sx[2] = sx[k];  /* small cuvature.                 */
@@ -912,6 +936,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* Loding remaining points         */
 =======
 <<<<<<< HEAD
@@ -986,6 +1011,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
         /* Loding remaining points         */
@@ -1033,7 +1060,12 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         /* Loading remaining points         */
 =======
         /* Loding remaining points         */
@@ -1066,6 +1098,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1081,6 +1114,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1266,7 +1301,12 @@ int dig_prune(struct line_pnts *points, double thresh)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         for (j = at_num; j < n; j++) {
             k++;
             sx[k] = ox[j];
@@ -1335,6 +1375,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                                farest point */
 =======
 <<<<<<< HEAD
@@ -1409,6 +1450,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
                                                                farest point */
@@ -1456,7 +1499,12 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
                                                                farthest point */
 =======
                                                                farest point */
@@ -1489,6 +1537,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1504,6 +1553,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1689,7 +1740,12 @@ int dig_prune(struct line_pnts *points, double thresh)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
                 jd = ij;
                 nt[++it] = ij;
             }

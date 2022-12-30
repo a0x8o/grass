@@ -58,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -117,6 +118,8 @@
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -197,7 +200,12 @@
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
  * Copyright (c) 2012-2019, Even Rouault <even dot rouault at spatialys.com>
 =======
 <<<<<<< HEAD
@@ -278,6 +286,7 @@
  * Copyright (c) 2012-2013, Even Rouault <even dot rouault at mines-paris dot
  *org>
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -632,6 +641,8 @@
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
  *
  * This software is available under the following "MIT Style" license,
  * or at the option of the licensee under the LGPL (see COPYING).  This
@@ -1018,6 +1029,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 #ifndef snprintf
 #define snprintf _snprintf
@@ -1145,6 +1157,8 @@
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #define STRCASECMP(a, b) (stricmp(a, b))
 #else
 #include <strings.h>
@@ -1163,6 +1177,7 @@
 
 #define CPLsprintf  sprintf
 #define CPLsnprintf snprintf
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 #endif
 
@@ -1449,10 +1464,13 @@
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
 #ifndef snprintf
 #define snprintf _snprintf
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1624,10 +1642,19 @@ SHP_CVSID("$Id$")
 SHP_CVSID("$Id$")
 
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
+=======
+=======
+#endif
+
+SHP_CVSID("$Id$")
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 #ifndef FALSE
 #define FALSE 0
 #define TRUE  1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1747,6 +1774,8 @@ SHP_CVSID("$Id$")
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 #endif
 
 /* File header size */
@@ -2148,7 +2177,12 @@ CPL_INLINE static void CPL_IGNORE_RET_VAL_INT(CPL_UNUSED int unused)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 #endif
 
 /* File header size */
@@ -2177,6 +2211,7 @@ CPL_INLINE static void CPL_IGNORE_RET_VAL_INT(CPL_UNUSED int unused)
 #define REINTERPRET_CAST(type, x) ((type)(x))
 #define CONST_CAST(type, x)       ((type)(x))
 #define SHPLIB_NULLPTR            NULL
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2525,6 +2560,10 @@ CPL_INLINE static void CPL_IGNORE_RET_VAL_INT(CPL_UNUSED int unused)
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 #endif
 
 /************************************************************************/
@@ -2546,6 +2585,7 @@ CPL_INLINE static void CPL_IGNORE_RET_VAL_INT(CPL_UNUSED int unused)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -2575,7 +2615,11 @@ CPL_INLINE static void CPL_IGNORE_RET_VAL_INT(CPL_UNUSED int unused)
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
+
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 /************************************************************************/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2741,6 +2785,8 @@ CPL_INLINE static void CPL_IGNORE_RET_VAL_INT(CPL_UNUSED int unused)
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -2830,7 +2876,12 @@ CPL_INLINE static void CPL_IGNORE_RET_VAL_INT(CPL_UNUSED int unused)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
 static void *SfRealloc(void *pMem, int nNewSize)
 {
@@ -2899,6 +2950,7 @@ static void *SfRealloc(void *pMem, int nNewSize)
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3042,12 +3094,15 @@ static void *SfRealloc(void *pMem, int nNewSize)
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 static void *SfRealloc(void *pMem, int nNewSize)
 {
     if (pMem == NULL)
         return ((void *)malloc(nNewSize));
     else
         return ((void *)realloc(pMem, nNewSize));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3658,7 +3713,13 @@ static void *SfRealloc(void *pMem, int nNewSize)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 }
 
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -3669,6 +3730,7 @@ static void *SfRealloc(void *pMem, int nNewSize)
 /*      descriptions before writing any actual data records.  This      */
 /*      also computes all the DBFDataSet field offset/size/decimals     */
 /*      and so forth values.                                            */
+
 /************************************************************************/
 
 static void DBFWriteHeader(DBFHandle psDBF)
@@ -3725,6 +3787,7 @@ static void DBFWriteHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3784,6 +3847,8 @@ static void DBFWriteHeader(DBFHandle psDBF)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3864,7 +3929,12 @@ static void DBFWriteHeader(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     unsigned char abyHeader[XBASE_FILEHDR_SZ] = {0};
 =======
 <<<<<<< HEAD
@@ -3945,6 +4015,7 @@ static void DBFWriteHeader(DBFHandle psDBF)
     unsigned char abyHeader[XBASE_FLDHDR_SZ];
     int i;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4348,7 +4419,12 @@ static void DBFWriteHeader(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     if (!psDBF->bNoHeader)
         return;
@@ -4408,6 +4484,7 @@ static void DBFWriteHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4518,6 +4595,8 @@ static void DBFWriteHeader(DBFHandle psDBF)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     /*      Initialize the file header information.                         */
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -4761,6 +4840,8 @@ static void DBFWriteHeader(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /*    Initialize the file header information.                */
     /* -------------------------------------------------------------------- */
     abyHeader[0] = 0x03; /* memo field? - just copying     */
@@ -4787,6 +4868,7 @@ static void DBFWriteHeader(DBFHandle psDBF)
     psDBF->sHooks.FSeek(psDBF->fp, 0, 0);
     psDBF->sHooks.FWrite(abyHeader, XBASE_FILEHDR_SZ, 1, psDBF->fp);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4794,12 +4876,45 @@ static void DBFWriteHeader(DBFHandle psDBF)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+    /*      Initialize the file header information.                         */
+    /* -------------------------------------------------------------------- */
+    for (i = 0; i < XBASE_FLDHDR_SZ; i++)
+        abyHeader[i] = 0;
+
+    abyHeader[0] = 0x03; /* memo field? - just copying   */
+
+    /* write out update date */
+    abyHeader[1] = (unsigned char)psDBF->nUpdateYearSince1900;
+    abyHeader[2] = (unsigned char)psDBF->nUpdateMonth;
+    abyHeader[3] = (unsigned char)psDBF->nUpdateDay;
+
+    /* record count preset at zero */
+
+    abyHeader[8] = (unsigned char)(psDBF->nHeaderLength % 256);
+    abyHeader[9] = (unsigned char)(psDBF->nHeaderLength / 256);
+
+    abyHeader[10] = (unsigned char)(psDBF->nRecordLength % 256);
+    abyHeader[11] = (unsigned char)(psDBF->nRecordLength / 256);
+
+    abyHeader[29] = (unsigned char)(psDBF->iLanguageDriver);
+
+    /* -------------------------------------------------------------------- */
+    /*      Write the initial 32 byte file header, and all the field        */
+    /*      descriptions.                                                   */
+    /* -------------------------------------------------------------------- */
+    psDBF->sHooks.FSeek(psDBF->fp, 0, 0);
+    psDBF->sHooks.FWrite(abyHeader, XBASE_FLDHDR_SZ, 1, psDBF->fp);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->sHooks.FWrite(psDBF->pszHeader, XBASE_FLDHDR_SZ, psDBF->nFields,
                          psDBF->fp);
 
     /* -------------------------------------------------------------------- */
     /*      Write out the newline character if there is room for it.        */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -4939,7 +5054,13 @@ static void DBFWriteHeader(DBFHandle psDBF)
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->nHeaderLength >
         XBASE_FLDHDR_SZ * psDBF->nFields + XBASE_FLDHDR_SZ) {
         char cNewline = HEADER_RECORD_TERMINATOR;
@@ -4954,6 +5075,7 @@ static void DBFWriteHeader(DBFHandle psDBF)
 
         psDBF->sHooks.FWrite(&ch, 1, 1, psDBF->fp);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5366,6 +5488,8 @@ static void DBFWriteHeader(DBFHandle psDBF)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
     /*      Initialize the file header information.                         */
 =======
@@ -5711,10 +5835,13 @@ static void DBFWriteHeader(DBFHandle psDBF)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->nHeaderLength > 32 * psDBF->nFields + 32) {
         char cNewline;
 
         cNewline = 0x0d;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7077,6 +7204,10 @@ static void DBFWriteHeader(DBFHandle psDBF)
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        psDBF->sHooks.FWrite(&cNewline, 1, 1, psDBF->fp);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 }
 
@@ -7084,8 +7215,10 @@ static void DBFWriteHeader(DBFHandle psDBF)
 /*                           DBFFlushRecord()                           */
 /*                                                                      */
 /*      Write out the current record if there is one.                   */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7258,6 +7391,8 @@ static void DBFWriteHeader(DBFHandle psDBF)
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7355,7 +7490,12 @@ static void DBFWriteHeader(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 static bool DBFFlushRecord(DBFHandle psDBF)
 {
     if (psDBF->bCurrentRecordModified && psDBF->nCurrentRecord > -1) {
@@ -7427,10 +7567,13 @@ static bool DBFFlushRecord(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8091,6 +8234,9 @@ static bool DBFFlushRecord(DBFHandle psDBF)
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 static int DBFFlushRecord(DBFHandle psDBF)
 {
     SAOffset nRecordOffset;
@@ -8105,10 +8251,16 @@ static int DBFFlushRecord(DBFHandle psDBF)
             psDBF->sHooks.FWrite(psDBF->pszCurrentRecord, psDBF->nRecordLength,
                                  1, psDBF->fp) != 1) {
             char szMessage[128];
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
             snprintf(szMessage, sizeof(szMessage),
                      "Failure writing DBF record %d.", psDBF->nCurrentRecord);
@@ -8144,6 +8296,7 @@ static int DBFFlushRecord(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
@@ -8162,6 +8315,8 @@ static int DBFFlushRecord(DBFHandle psDBF)
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -8754,7 +8909,13 @@ static bool DBFFlushRecord(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         }
     }
 
@@ -8763,8 +8924,10 @@ static bool DBFFlushRecord(DBFHandle psDBF)
 
 /************************************************************************/
 /*                           DBFLoadRecord()                            */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8902,6 +9065,8 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9484,6 +9649,8 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 {
     if (psDBF->nCurrentRecord != iRecord) {
@@ -9501,6 +9668,7 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
                      STATIC_CAST(long, nRecordOffset));
             psDBF->sHooks.Error(szMessage);
             return false;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9726,9 +9894,12 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
 static int DBFLoadRecord(DBFHandle psDBF, int iRecord)
 {
     if (psDBF->nCurrentRecord != iRecord) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -9983,12 +10154,34 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+        SAOffset nRecordOffset;
+
+        if (!DBFFlushRecord(psDBF))
+            return FALSE;
+
+        nRecordOffset =
+            psDBF->nRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+
+        if (psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, SEEK_SET) != 0) {
+            char szMessage[128];
+
+            snprintf(szMessage, sizeof(szMessage),
+                     "fseek(%ld) failed on DBF file.\n", (long)nRecordOffset);
+            psDBF->sHooks.Error(szMessage);
+            return FALSE;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         }
 
         if (psDBF->sHooks.FRead(psDBF->pszCurrentRecord, psDBF->nRecordLength,
                                 1, psDBF->fp) != 1) {
             char szMessage[128];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10087,6 +10280,8 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -10132,7 +10327,12 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
             snprintf(szMessage, sizeof(szMessage),
                      "fread(%d) failed on DBF file.", psDBF->nRecordLength);
             psDBF->sHooks.Error(szMessage);
@@ -10158,6 +10358,7 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
         /* --------------------------------------------------------------------
          */
         psDBF->bRequireNextWriteSeek = TRUE;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10994,6 +11195,9 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
             snprintf(szMessage, sizeof(szMessage),
                      "fread(%d) failed on DBF file.\n", psDBF->nRecordLength);
@@ -11002,6 +11206,7 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
         }
 
         psDBF->nCurrentRecord = iRecord;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11292,7 +11497,13 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     }
 
     return true;
@@ -11300,6 +11511,7 @@ static bool DBFLoadRecord(DBFHandle psDBF, int iRecord)
 
 /************************************************************************/
 /*                          DBFUpdateHeader()                           */
+
 /************************************************************************/
 
 void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
@@ -11356,6 +11568,7 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11470,6 +11683,8 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11567,7 +11782,12 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->bNoHeader)
         DBFWriteHeader(psDBF);
 
@@ -11596,10 +11816,13 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11714,6 +11937,10 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+    unsigned char abyFileHeader[32];
+
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->bNoHeader)
         DBFWriteHeader(psDBF);
 
@@ -11945,6 +12172,7 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12165,7 +12393,12 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (!DBFFlushRecord(psDBF))
         return;
 
@@ -12222,6 +12455,7 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12342,6 +12576,8 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12439,7 +12675,12 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     unsigned char abyFileHeader[XBASE_FILEHDR_SZ] = {0};
     psDBF->sHooks.FRead(abyFileHeader, 1, sizeof(abyFileHeader), psDBF->fp);
@@ -12479,10 +12720,13 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13246,6 +13490,9 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->sHooks.FRead(abyFileHeader, 32, 1, psDBF->fp);
 
     abyFileHeader[1] = (unsigned char)psDBF->nUpdateYearSince1900;
@@ -13260,6 +13507,7 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
     psDBF->sHooks.FSeek(psDBF->fp, 0, 0);
     psDBF->sHooks.FWrite(abyFileHeader, 32, 1, psDBF->fp);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -13295,12 +13543,19 @@ void SHPAPI_CALL DBFUpdateHeader(DBFHandle psDBF)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     psDBF->sHooks.FFlush(psDBF->fp);
 }
 
 /************************************************************************/
 /*                       DBFSetLastModifiedDate()                       */
+
 /************************************************************************/
 
 void SHPAPI_CALL DBFSetLastModifiedDate(DBFHandle psDBF, int nYYSince1900,
@@ -13315,6 +13570,7 @@ void SHPAPI_CALL DBFSetLastModifiedDate(DBFHandle psDBF, int nYYSince1900,
 /*                              DBFOpen()                               */
 /*                                                                      */
 /*      Open a .dbf file.                                               */
+
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
@@ -13370,6 +13626,7 @@ DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13511,6 +13768,8 @@ DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
 =======
 =======
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -13953,7 +14212,15 @@ DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 {
     SAHooks sHooks;
 
@@ -14003,6 +14270,7 @@ DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -14103,6 +14371,8 @@ DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14150,7 +14420,12 @@ DBFHandle SHPAPI_CALL DBFOpen(const char *pszFilename, const char *pszAccess)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -14192,6 +14467,9 @@ static int DBFGetLenWithoutExtension(const char *pszBasename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -14707,12 +14985,17 @@ static int DBFGetLenWithoutExtension(const char *pszBasename)
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
 /*                              DBFOpen()                               */
 /*                                                                      */
 /*      Open a .dbf file.                                               */
+
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
@@ -14767,6 +15050,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -14877,6 +15161,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14969,7 +15255,12 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      We only allow the access strings "rb" and "r+".                  */
     /* -------------------------------------------------------------------- */
@@ -14999,10 +15290,13 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15673,6 +15967,9 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     DBFHandle psDBF;
     SAFile pfCPG;
     unsigned char *pabyBuf;
@@ -15689,6 +15986,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
         strcmp(pszAccess, "r+b") != 0)
         return (NULL);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -15714,7 +16012,13 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (strcmp(pszAccess, "r") == 0)
         pszAccess = "rb";
 
@@ -15722,6 +16026,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
         pszAccess = "rb+";
 
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15847,6 +16152,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     /*      Compute the base (layer) name.  If there is any extension       */
     /*      on the passed in filename we will strip it off.                 */
 =======
@@ -16451,6 +16758,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /*    Compute the base (layer) name.  If there is any extension    */
     /*    on the passed in filename we will strip it off.            */
     /* -------------------------------------------------------------------- */
@@ -16482,6 +16791,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
         if (pfCPG)
             psHooks->FClose(pfCPG);
         return SHPLIB_NULLPTR;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16540,6 +16850,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
     /*      Compute the base (layer) name.  If there is any extension       */
     /*      on the passed in filename we will strip it off.                 */
     /* -------------------------------------------------------------------- */
@@ -16551,9 +16863,15 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
          i--) {
     }
 
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (pszBasename[i] == '.')
         pszBasename[i] = '\0';
 
@@ -16562,6 +16880,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
     snprintf(pszFullname, nFullnameLen, "%s.dbf", pszBasename);
 
     psDBF = (DBFHandle)calloc(1, sizeof(DBFInfo));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16607,6 +16926,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 =======
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -17599,7 +17920,36 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+    psDBF->fp = psHooks->FOpen(pszFullname, pszAccess);
+    memcpy(&(psDBF->sHooks), psHooks, sizeof(SAHooks));
+
+    if (psDBF->fp == NULL) {
+        snprintf(pszFullname, nFullnameLen, "%s.DBF", pszBasename);
+        psDBF->fp = psDBF->sHooks.FOpen(pszFullname, pszAccess);
+    }
+
+    snprintf(pszFullname, nFullnameLen, "%s.cpg", pszBasename);
+    pfCPG = psHooks->FOpen(pszFullname, "r");
+    if (pfCPG == NULL) {
+        snprintf(pszFullname, nFullnameLen, "%s.CPG", pszBasename);
+        pfCPG = psHooks->FOpen(pszFullname, "r");
+    }
+
+    free(pszBasename);
+    free(pszFullname);
+
+    if (psDBF->fp == NULL) {
+        free(psDBF);
+        if (pfCPG)
+            psHooks->FClose(pfCPG);
+        return (NULL);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     }
 
     psDBF->bNoHeader = FALSE;
@@ -17661,6 +18011,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -17775,6 +18126,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -17872,7 +18225,12 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     const int nBufSize = 500;
     unsigned char *pabyBuf = STATIC_CAST(unsigned char *, malloc(nBufSize));
     if (psDBF->sHooks.FRead(pabyBuf, XBASE_FILEHDR_SZ, 1, psDBF->fp) != 1) {
@@ -17942,6 +18300,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
     pabyBuf = (unsigned char *)malloc(nBufSize);
     if (psDBF->sHooks.FRead(pabyBuf, 32, 1, psDBF->fp) != 1) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18437,7 +18796,12 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         psDBF->sHooks.FClose(psDBF->fp);
         if (pfCPG)
             psDBF->sHooks.FClose(pfCPG);
@@ -18495,6 +18859,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -18542,6 +18907,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 =======
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -18956,7 +19323,16 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+        return SHPLIB_NULLPTR;
+=======
+        return NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     }
 
     DBFSetLastModifiedDate(psDBF, pabyBuf[1], pabyBuf[2], pabyBuf[3]);
@@ -19013,6 +19389,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -19133,6 +19510,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -19230,7 +19609,12 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     psDBF->nRecords = pabyBuf[4] | (pabyBuf[5] << 8) | (pabyBuf[6] << 16) |
                       ((pabyBuf[7] & 0x7f) << 24);
 
@@ -19299,6 +19683,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
     psDBF->nRecords = pabyBuf[4] + pabyBuf[5] * 256 + pabyBuf[6] * 256 * 256 +
                       (pabyBuf[7] & 0x7f) * 256 * 256 * 256;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20012,12 +20397,15 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
     psDBF->nRecords = pabyBuf[4] + pabyBuf[5] * 256 + pabyBuf[6] * 256 * 256 +
                       (pabyBuf[7] & 0x7f) * 256 * 256 * 256;
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
     psDBF->nHeaderLength = nHeadLen = pabyBuf[8] + pabyBuf[9] * 256;
     psDBF->nRecordLength = pabyBuf[10] + pabyBuf[11] * 256;
     psDBF->iLanguageDriver = pabyBuf[29];
 
     if (psDBF->nRecordLength == 0 || nHeadLen < 32) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -20122,7 +20510,13 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         psDBF->sHooks.FClose(psDBF->fp);
         if (pfCPG)
             psDBF->sHooks.FClose(pfCPG);
@@ -20180,6 +20574,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -20227,6 +20622,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 =======
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -20641,7 +21038,16 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+        return SHPLIB_NULLPTR;
+=======
+        return NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     }
 
     const int nFields = (nHeadLen - XBASE_FILEHDR_SZ) / XBASE_FLDHDR_SZ;
@@ -20699,6 +21105,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -20758,6 +21165,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -20838,7 +21247,12 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     /* coverity[tainted_data] */
     psDBF->pszCurrentRecord = STATIC_CAST(char *, malloc(psDBF->nRecordLength));
 =======
@@ -20936,6 +21350,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> osgeo-main
     psDBF->pszCurrentRecord = (char *)malloc(psDBF->nRecordLength);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21331,7 +21746,12 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     /* -------------------------------------------------------------------- */
     /*  Figure out the code page from the LDID and CPG                      */
@@ -21387,6 +21807,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     psDBF->pszCodePage = SHPLIB_NULLPTR;
@@ -21466,6 +21887,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -22238,6 +22661,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 =======
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->pszCodePage = SHPLIB_NULLPTR;
     if (pfCPG) {
         memset(pabyBuf, 0, nBufSize);
@@ -22246,6 +22671,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
         if (n > 0) {
             pabyBuf[n] = '\0';
             psDBF->pszCodePage = STATIC_CAST(char *, malloc(n + 1));
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
@@ -22320,7 +22746,25 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+
+    psDBF->pszCodePage = NULL;
+    if (pfCPG) {
+        size_t n;
+
+        memset(pabyBuf, 0, nBufSize);
+        psDBF->sHooks.FRead(pabyBuf, nBufSize - 1, 1, pfCPG);
+        n = strcspn((char *)pabyBuf, "\n\r");
+        if (n > 0) {
+            pabyBuf[n] = '\0';
+            psDBF->pszCodePage = (char *)malloc(n + 1);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
             memcpy(psDBF->pszCodePage, pabyBuf, n + 1);
         }
         psDBF->sHooks.FClose(pfCPG);
@@ -22373,6 +22817,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -22422,6 +22867,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -22628,13 +23075,19 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->pszCodePage == SHPLIB_NULLPTR && pabyBuf[29] != 0) {
         snprintf(REINTERPRET_CAST(char *, pabyBuf), nBufSize, "LDID/%d",
                  psDBF->iLanguageDriver);
         psDBF->pszCodePage = STATIC_CAST(
             char *, malloc(strlen(REINTERPRET_CAST(char *, pabyBuf)) + 1));
         strcpy(psDBF->pszCodePage, REINTERPRET_CAST(char *, pabyBuf));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22965,11 +23418,18 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->pszCodePage == NULL && pabyBuf[29] != 0) {
         snprintf((char *)pabyBuf, nBufSize, "LDID/%d", psDBF->iLanguageDriver);
         psDBF->pszCodePage = (char *)malloc(strlen((char *)pabyBuf) + 1);
         strcpy(psDBF->pszCodePage, (char *)pabyBuf);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23083,6 +23543,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -23476,7 +23938,13 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* -------------------------------------------------------------------- */
@@ -23534,6 +24002,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     pabyBuf = STATIC_CAST(unsigned char *, SfRealloc(pabyBuf, nHeadLen));
@@ -23649,6 +24118,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     pabyBuf = STATIC_CAST(unsigned char *, realloc(pabyBuf, nHeadLen));
 =======
 =======
@@ -25410,6 +25881,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     pabyBuf = STATIC_CAST(unsigned char *, SfRealloc(pabyBuf, nHeadLen));
     psDBF->pszHeader = REINTERPRET_CAST(char *, pabyBuf);
 
@@ -25461,16 +25934,20 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
 
     pabyBuf = (unsigned char *)SfRealloc(pabyBuf, nHeadLen);
     psDBF->pszHeader = (char *)pabyBuf;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -25537,10 +26014,27 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
     psDBF->pachFieldType = STATIC_CAST(char *, malloc(sizeof(char) * nFields));
 
 <<<<<<< HEAD
+=======
+    psDBF->sHooks.FSeek(psDBF->fp, 32, 0);
+    if (psDBF->sHooks.FRead(pabyBuf, nHeadLen - 32, 1, psDBF->fp) != 1) {
+        psDBF->sHooks.FClose(psDBF->fp);
+        free(pabyBuf);
+        free(psDBF->pszCurrentRecord);
+        free(psDBF);
+        return NULL;
+    }
+
+    psDBF->panFieldOffset = (int *)malloc(sizeof(int) * nFields);
+    psDBF->panFieldSize = (int *)malloc(sizeof(int) * nFields);
+    psDBF->panFieldDecimals = (int *)malloc(sizeof(int) * nFields);
+    psDBF->pachFieldType = (char *)malloc(sizeof(char) * nFields);
+
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     for (iField = 0; iField < nFields; iField++) {
         unsigned char *pabyFInfo;
 
         pabyFInfo = pabyBuf + iField * 32;
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
     for (int iField = 0; iField < nFields; iField++) {
@@ -25550,6 +26044,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
             break;
         }
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
         if (pabyFInfo[11] == 'N' || pabyFInfo[11] == 'F') {
             psDBF->panFieldSize[iField] = pabyFInfo[16];
@@ -25560,6 +26056,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
             psDBF->panFieldDecimals[iField] = 0;
 
             /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -25598,6 +26095,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
              ** The following seemed to be used sometimes to handle files with
              long
              ** string fields, but in other cases (such as bug 1202) the
@@ -25608,6 +26107,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
              psDBF->panFieldSize[iField] = pabyFInfo[16] + pabyFInfo[17]*256;
              psDBF->panFieldDecimals[iField] = 0;
              */
+<<<<<<< HEAD
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
         }
@@ -25695,6 +26195,12 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+        }
+
+        psDBF->pachFieldType[iField] = (char)pabyFInfo[11];
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         if (iField == 0)
             psDBF->panFieldOffset[iField] = 1;
         else
@@ -25702,6 +26208,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
                                             psDBF->panFieldSize[iField - 1];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25804,6 +26311,8 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /* Check that the total width of fields does not exceed the record width */
     if (psDBF->nFields > 0 && psDBF->panFieldOffset[psDBF->nFields - 1] +
                                       psDBF->panFieldSize[psDBF->nFields - 1] >
@@ -25816,6 +26325,7 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 
     psDBF->bRequireNextWriteSeek = TRUE;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25990,12 +26500,20 @@ DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszFilename, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     return (psDBF);
 }
 
 /************************************************************************/
 /*                              DBFClose()                              */
+
 /************************************************************************/
 
 void SHPAPI_CALL DBFClose(DBFHandle psDBF)
@@ -26052,6 +26570,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -26111,6 +26630,8 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -26191,7 +26712,12 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF == SHPLIB_NULLPTR)
 =======
 <<<<<<< HEAD
@@ -26271,6 +26797,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> osgeo-main
     if (psDBF == NULL)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26664,7 +27191,12 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         return;
 
     /* -------------------------------------------------------------------- */
@@ -26725,6 +27257,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -26841,6 +27374,8 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 =======
 =======
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -26969,11 +27504,14 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     CPL_IGNORE_RET_VAL_INT(DBFFlushRecord(psDBF));
 
     /* -------------------------------------------------------------------- */
     /*      Update last access date, and number of records if we have    */
     /*    write access.                                    */
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -27011,11 +27549,15 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     DBFFlushRecord(psDBF);
 
     /* -------------------------------------------------------------------- */
     /*      Update last access date, and number of records if we have       */
     /*      write access.                                                   */
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -27313,7 +27855,13 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 =======
 <<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     if (psDBF->bUpdated)
         DBFUpdateHeader(psDBF);
@@ -27327,6 +27875,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
@@ -27336,11 +27885,17 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->panFieldOffset != SHPLIB_NULLPTR) {
 =======
     if (psDBF->panFieldOffset != NULL) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -28255,7 +28810,12 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         free(psDBF->panFieldOffset);
         free(psDBF->panFieldSize);
         free(psDBF->panFieldDecimals);
@@ -28314,6 +28874,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -28373,6 +28934,8 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -28453,7 +29016,12 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->pszWorkField != SHPLIB_NULLPTR)
 =======
 <<<<<<< HEAD
@@ -28533,6 +29101,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 >>>>>>> osgeo-main
     if (psDBF->pszWorkField != NULL)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28926,7 +29495,12 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         free(psDBF->pszWorkField);
 
     free(psDBF->pszHeader);
@@ -28940,6 +29514,7 @@ void SHPAPI_CALL DBFClose(DBFHandle psDBF)
 /*                             DBFCreate()                              */
 /*                                                                      */
 /* Create a new .dbf file with default code page LDID/87 (0x57)         */
+
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFCreate(const char *pszFilename)
@@ -28951,6 +29526,7 @@ DBFHandle SHPAPI_CALL DBFCreate(const char *pszFilename)
 /*                            DBFCreateEx()                             */
 /*                                                                      */
 /*      Create a new .dbf file.                                         */
+
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFCreateEx(const char *pszFilename,
@@ -28967,6 +29543,7 @@ DBFHandle SHPAPI_CALL DBFCreateEx(const char *pszFilename,
 /*                             DBFCreate()                              */
 /*                                                                      */
 /*      Create a new .dbf file.                                         */
+
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
@@ -29116,6 +29693,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 =======
                                   const char *pszCodePage, SAHooks *psHooks)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30210,7 +30788,12 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*    Compute the base (layer) name.  If there is any extension    */
     /*    on the passed in filename we will strip it off.            */
@@ -30242,6 +30825,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
     memcpy(pszFullname + nLenWithoutExtension, ".cpg", 5);
     int ldid = -1;
     if (pszCodePage != SHPLIB_NULLPTR) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30639,6 +31223,8 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 =======
 =======
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
     DBFHandle psDBF;
     SAFile fp;
     char *pszFullname, *pszBasename;
@@ -30658,15 +31244,19 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
          i--) {
     }
 
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     if (pszBasename[i] == '.')
         pszBasename[i] = '\0';
 
     nFullnameLen = strlen(pszBasename) + 5;
     pszFullname = (char *)malloc(nFullnameLen);
     snprintf(pszFullname, nFullnameLen, "%s.dbf", pszBasename);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30701,10 +31291,13 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
     /* -------------------------------------------------------------------- */
     /*      Create the file.                                                */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30750,10 +31343,20 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 =======
     char chZero = '\0';
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+=======
+    fp = psHooks->FOpen(pszFullname, "wb");
+    if (fp == NULL) {
+        free(pszBasename);
+        free(pszFullname);
+        return (NULL);
+    }
+
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     psHooks->FWrite(&chZero, 1, 1, fp);
     psHooks->FClose(fp);
 
     fp = psHooks->FOpen(pszFullname, "rb+");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31051,7 +31654,21 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+    if (fp == NULL) {
+        free(pszBasename);
+        free(pszFullname);
+        return (NULL);
+    }
+
+    snprintf(pszFullname, nFullnameLen, "%s.cpg", pszBasename);
+    if (pszCodePage != NULL) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         if (strncmp(pszCodePage, "LDID/", 5) == 0) {
             ldid = atoi(pszCodePage + 5);
             if (ldid > 255)
@@ -31066,6 +31683,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
                 psHooks->FOpen(pszFullname, "w", psHooks->pvUserData);
 =======
             SAFile fpCPG = psHooks->FOpen(pszFullname, "w");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31213,6 +31831,8 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -32030,6 +32650,8 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             psHooks->FWrite(
                 CONST_CAST(void *, STATIC_CAST(const void *, pszCodePage)),
                 strlen(pszCodePage), 1, fpCPG);
@@ -32049,10 +32671,30 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+
+            psHooks->FWrite((char *)pszCodePage, strlen(pszCodePage), 1, fpCPG);
+            psHooks->FClose(fpCPG);
+        }
+    }
+    if (pszCodePage == NULL || ldid >= 0) {
+        psHooks->Remove(pszFullname);
+    }
+
+    free(pszBasename);
+    free(pszFullname);
+
+    /* -------------------------------------------------------------------- */
+    /*      Create the info structure.                                      */
+    /* -------------------------------------------------------------------- */
+    psDBF = (DBFHandle)calloc(1, sizeof(DBFInfo));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
             psHooks->FWrite((char *)pszCodePage, strlen(pszCodePage), 1, fpCPG);
 =======
@@ -32262,6 +32904,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -32359,6 +33002,8 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -32430,7 +33075,12 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     psDBF->pszCodePage = SHPLIB_NULLPTR;
     if (pszCodePage) {
         psDBF->pszCodePage =
@@ -32456,10 +33106,13 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32516,9 +33169,12 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
     psDBF->pszCodePage = NULL;
     if (pszCodePage) {
         psDBF->pszCodePage = (char *)malloc(strlen(pszCodePage) + 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32602,6 +33258,8 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -33215,7 +33873,13 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         strcpy(psDBF->pszCodePage, pszCodePage);
     }
     DBFSetLastModifiedDate(psDBF, 95, 7, 26); /* dummy date */
@@ -33268,6 +33932,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -33348,6 +34013,8 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -33603,7 +34270,12 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     DBFSetWriteEndOfFileChar(psDBF, TRUE);
 
     psDBF->bRequireNextWriteSeek = TRUE;
@@ -33620,6 +34292,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -34097,7 +34770,14 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     return (psDBF);
 }
 
@@ -34105,6 +34785,7 @@ DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszFilename,
 /*                            DBFAddField()                             */
 /*                                                                      */
 /*      Add a field to a newly created .dbf or to an existing one       */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
@@ -34166,6 +34847,7 @@ int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -34217,6 +34899,8 @@ int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -34293,7 +34977,12 @@ int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     else if (eType == FTDate)
         chNativeType = 'D';
 =======
@@ -34390,6 +35079,7 @@ int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34718,7 +35408,12 @@ int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     else if (eType == FTString)
         chNativeType = 'C';
     else
@@ -34730,6 +35425,7 @@ int SHPAPI_CALL DBFAddField(DBFHandle psDBF, const char *pszFieldName,
 
 /************************************************************************/
 /*                        DBFGetNullCharacter()                         */
+
 /************************************************************************/
 
 static char DBFGetNullCharacter(char chType)
@@ -34752,11 +35448,13 @@ static char DBFGetNullCharacter(char chType)
 /*                                                                      */
 /*      Add a field to a newly created .dbf file before any records     */
 /*      are written.                                                    */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
                                       char chType, int nWidth, int nDecimals)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35129,7 +35827,13 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     char *pszFInfo;
     int i;
     int nOldRecordLength, nOldHeaderLength;
@@ -35167,6 +35871,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
@@ -35186,6 +35891,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -35517,7 +36224,13 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     /* make sure that everything is written in .dbf */
     if (!DBFFlushRecord(psDBF))
         return -1;
@@ -35570,6 +36283,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -35650,6 +36364,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -35905,7 +36621,12 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->nHeaderLength + XBASE_FLDHDR_SZ > 65535) {
         char szMessage[128];
         snprintf(szMessage, sizeof(szMessage),
@@ -35928,6 +36649,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -36405,7 +37127,14 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Do some checking to ensure we can add records to this file.     */
     /* -------------------------------------------------------------------- */
@@ -36464,6 +37193,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -36514,6 +37244,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -36970,7 +37702,18 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+    if (nWidth > XBASE_FLD_MAX_WIDTH)
+        nWidth = XBASE_FLD_MAX_WIDTH;
+=======
+    if (nWidth > 255)
+        nWidth = 255;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     if (psDBF->nRecordLength + nWidth > 65535) {
         char szMessage[128];
@@ -37207,12 +37950,14 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 =======
 
+<<<<<<< HEAD
     const int nOldRecordLength = psDBF->nRecordLength;
     const int nOldHeaderLength = psDBF->nHeaderLength;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     const int nOldRecordLength = psDBF->nRecordLength;
@@ -37558,6 +38303,10 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      SfRealloc all the arrays larger to hold the additional field      */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -37569,6 +38318,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
     /* -------------------------------------------------------------------- */
     psDBF->nFields++;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37956,7 +38706,12 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     psDBF->panFieldOffset = STATIC_CAST(
         int *, SfRealloc(psDBF->panFieldOffset, sizeof(int) * psDBF->nFields));
 
@@ -37969,6 +38724,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 
     psDBF->pachFieldType = STATIC_CAST(
         char *, SfRealloc(psDBF->pachFieldType, sizeof(char) * psDBF->nFields));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38077,6 +38833,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -38098,6 +38856,21 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     psDBF->panFieldOffset =
         (int *)SfRealloc(psDBF->panFieldOffset, sizeof(int) * psDBF->nFields);
+=======
+=======
+    psDBF->panFieldOffset =
+        (int *)SfRealloc(psDBF->panFieldOffset, sizeof(int) * psDBF->nFields);
+
+    psDBF->panFieldSize =
+        (int *)SfRealloc(psDBF->panFieldSize, sizeof(int) * psDBF->nFields);
+
+    psDBF->panFieldDecimals =
+        (int *)SfRealloc(psDBF->panFieldDecimals, sizeof(int) * psDBF->nFields);
+
+    psDBF->pachFieldType =
+        (char *)SfRealloc(psDBF->pachFieldType, sizeof(char) * psDBF->nFields);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
     psDBF->panFieldSize =
         (int *)SfRealloc(psDBF->panFieldSize, sizeof(int) * psDBF->nFields);
@@ -38734,6 +39507,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
     /* -------------------------------------------------------------------- */
     /*      Extend the required header information.                         */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39535,7 +40309,12 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     psDBF->nHeaderLength += XBASE_FLDHDR_SZ;
     psDBF->bUpdated = FALSE;
 
@@ -39548,6 +40327,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
         pszFInfo[i] = '\0';
 
     strncpy(pszFInfo, pszFieldName, XBASE_FLDNAME_LEN_WRITE);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39630,10 +40410,24 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 <<<<<<< HEAD
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+=======
+=======
+    psDBF->nHeaderLength += 32;
+    psDBF->bUpdated = FALSE;
+
+    psDBF->pszHeader = (char *)SfRealloc(psDBF->pszHeader, psDBF->nFields * 32);
+
+    pszFInfo = psDBF->pszHeader + 32 * (psDBF->nFields - 1);
+
+    for (i = 0; i < 32; i++)
+        pszFInfo[i] = '\0';
+
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     if ((int)strlen(pszFieldName) < 10)
         strncpy(pszFInfo, pszFieldName, strlen(pszFieldName));
     else
         strncpy(pszFInfo, pszFieldName, 10);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39693,11 +40487,18 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     pszFInfo[11] = psDBF->pachFieldType[psDBF->nFields - 1];
 
     if (chType == 'C') {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39829,6 +40630,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
@@ -39862,7 +40665,12 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         pszFInfo[16] = STATIC_CAST(unsigned char, nWidth % 256);
         pszFInfo[17] = STATIC_CAST(unsigned char, nWidth / 256);
     }
@@ -40136,6 +40944,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40810,12 +41619,15 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 =======
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         pszFInfo[16] = (unsigned char)(nWidth % 256);
         pszFInfo[17] = (unsigned char)(nWidth / 256);
     }
     else {
         pszFInfo[16] = (unsigned char)nWidth;
         pszFInfo[17] = (unsigned char)nDecimals;
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -40836,12 +41648,19 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* -------------------------------------------------------------------- */
     /*      Make the current record buffer appropriately larger.            */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40955,6 +41774,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -41334,9 +42155,14 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
         char *, SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength));
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
+    psDBF->pszCurrentRecord = STATIC_CAST(
+        char *, SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength));
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
     psDBF->pszCurrentRecord =
         (char *)SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41358,6 +42184,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
     psDBF->pszCurrentRecord =
         (char *)SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength);
@@ -41601,7 +42429,12 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     /* we're done if dealing with new .dbf */
     if (psDBF->bNoHeader)
@@ -41664,6 +42497,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -41738,6 +42572,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     char *pszRecord =
         STATIC_CAST(char *, malloc(sizeof(char) * psDBF->nRecordLength));
 =======
@@ -41993,11 +42829,17 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     char *pszRecord =
         STATIC_CAST(char *, malloc(sizeof(char) * psDBF->nRecordLength));
+=======
+    pszRecord = (char *)malloc(sizeof(char) * psDBF->nRecordLength);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
     const char chFieldFill = DBFGetNullCharacter(chType);
 
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42025,6 +42867,9 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     SAOffset nRecordOffset;
     for (int i = psDBF->nRecords - 1; i >= 0; --i) {
         nRecordOffset =
@@ -42060,6 +42905,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
             return -1;
         }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42928,6 +43774,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
@@ -42962,6 +43809,11 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     for (i = psDBF->nRecords - 1; i >= 0; --i) {
         nRecordOffset = nOldRecordLength * (SAOffset)i + nOldHeaderLength;
 
@@ -42998,7 +43850,16 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -43377,7 +44238,12 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
         /* set new field's value to NULL */
         memset(pszRecord + nOldRecordLength, chFieldFill, nWidth);
@@ -43434,6 +44300,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -43554,6 +44421,8 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -43651,7 +44520,12 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         nRecordOffset = psDBF->nRecordLength * STATIC_CAST(SAOffset, i) +
                         psDBF->nHeaderLength;
 
@@ -43690,10 +44564,13 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44383,12 +45260,16 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         nRecordOffset =
             psDBF->nRecordLength * (SAOffset)i + psDBF->nHeaderLength;
 
         /* move record to the new place */
         psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
         psDBF->sHooks.FWrite(pszRecord, psDBF->nRecordLength, 1, psDBF->fp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -44423,6 +45304,9 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* free record */
@@ -44443,6 +45327,7 @@ int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle psDBF, const char *pszFieldName,
 /*                          DBFReadAttribute()                          */
 /*                                                                      */
 /*      Read one of the attribute fields of a record.                   */
+
 /************************************************************************/
 
 static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
@@ -44500,6 +45385,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -44618,6 +45504,8 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -45425,7 +46313,12 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Verify selection.                                               */
     /* -------------------------------------------------------------------- */
@@ -45444,6 +46337,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
     unsigned char *pabyRec =
         REINTERPRET_CAST(unsigned char *, psDBF->pszCurrentRecord);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45541,9 +46435,12 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
     unsigned char *pabyRec;
     void *pReturnField = NULL;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45720,6 +46617,8 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
     unsigned char *pabyRec;
     void *pReturnField = NULL;
 
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Verify selection.                                               */
     /* -------------------------------------------------------------------- */
@@ -45729,6 +46628,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
     if (iField < 0 || iField >= psDBF->nFields)
         return (NULL);
 
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
@@ -45846,7 +46746,21 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+    /* -------------------------------------------------------------------- */
+    /*      Have we read the record?                                        */
+    /* -------------------------------------------------------------------- */
+    if (!DBFLoadRecord(psDBF, hEntity))
+        return NULL;
+
+    pabyRec = (unsigned char *)psDBF->pszCurrentRecord;
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Ensure we have room to extract the target field.                */
     /* -------------------------------------------------------------------- */
@@ -45904,6 +46818,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -46023,6 +46938,8 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -46322,6 +47239,8 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         if (psDBF->pszWorkField == SHPLIB_NULLPTR)
             psDBF->pszWorkField =
                 STATIC_CAST(char *, malloc(psDBF->nWorkFieldLength));
@@ -46351,6 +47270,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
     memcpy(psDBF->pszWorkField,
            REINTERPRET_CAST(const char *, pabyRec) +
                psDBF->panFieldOffset[iField],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46782,6 +47702,8 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -47012,6 +47934,9 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         if (psDBF->pszWorkField == NULL)
             psDBF->pszWorkField = (char *)malloc(psDBF->nWorkFieldLength);
         else
@@ -47021,6 +47946,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 
     /* -------------------------------------------------------------------- */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
@@ -47028,10 +47954,13 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /*      Extract the requested field.                                    */
     /* -------------------------------------------------------------------- */
     memcpy(psDBF->pszWorkField,
            ((const char *)pabyRec) + psDBF->panFieldOffset[iField],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47232,7 +48161,13 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
            psDBF->panFieldSize[iField]);
     psDBF->pszWorkField[psDBF->panFieldSize[iField]] = '\0';
 
@@ -47253,9 +48188,9 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
         pReturnField = &(psDBF->fieldValue.dfDoubleField);
     }
 
-/* -------------------------------------------------------------------- */
-/*      Should we trim white space off the string attribute value?      */
-/* -------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------- */
+    /*      Should we trim white space off the string attribute value?      */
+    /* -------------------------------------------------------------------- */
 #ifdef TRIM_DBF_WHITESPACE
     else {
 <<<<<<< HEAD
@@ -47310,6 +48245,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -47424,6 +48360,8 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -47521,7 +48459,12 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         char *pchSrc = psDBF->pszWorkField;
         char *pchDst = pchSrc;
 
@@ -47628,6 +48571,9 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -48187,7 +49133,12 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         while (*pchSrc == ' ')
             pchSrc++;
 
@@ -48252,6 +49203,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -48311,6 +49263,8 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -48391,7 +49345,12 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     return pReturnField;
 =======
 <<<<<<< HEAD
@@ -48471,6 +49430,7 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> osgeo-main
     return (pReturnField);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48864,13 +49824,19 @@ static void *DBFReadAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
 /*                        DBFReadIntAttribute()                         */
 /*                                                                      */
 /*      Read an integer attribute.                                      */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
@@ -48928,6 +49894,7 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -49048,6 +50015,8 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -49145,7 +50114,12 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     int *pnValue =
         STATIC_CAST(int *, DBFReadAttribute(psDBF, iRecord, iField, 'I'));
 
@@ -49174,10 +50148,13 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49924,6 +50901,9 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     int *pnValue;
 
     pnValue = (int *)DBFReadAttribute(psDBF, iRecord, iField, 'I');
@@ -49932,6 +50912,7 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
         return 0;
     else
         return (*pnValue);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -49968,13 +50949,20 @@ int SHPAPI_CALL DBFReadIntegerAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
 /*                        DBFReadDoubleAttribute()                      */
 /*                                                                      */
 /*      Read a double attribute.                                        */
+
 /************************************************************************/
 
 double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
@@ -50032,6 +51020,7 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -50152,6 +51141,8 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -50249,7 +51240,12 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     double *pdValue =
         STATIC_CAST(double *, DBFReadAttribute(psDBF, iRecord, iField, 'N'));
 
@@ -50278,10 +51274,13 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51028,6 +52027,9 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     double *pdValue;
 
     pdValue = (double *)DBFReadAttribute(psDBF, iRecord, iField, 'N');
@@ -51036,6 +52038,7 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
         return 0.0;
     else
         return (*pdValue);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -51072,13 +52075,20 @@ double SHPAPI_CALL DBFReadDoubleAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
 /*                        DBFReadStringAttribute()                      */
 /*                                                                      */
 /*      Read a string attribute.                                        */
+
 /************************************************************************/
 
 const char SHPAPI_CALL1(*)
@@ -51135,6 +52145,7 @@ const char SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -51245,6 +52256,8 @@ const char SHPAPI_CALL1(*)
 =======
 =======
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -51467,7 +52480,12 @@ const char SHPAPI_CALL1(*)
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
 {
     return STATIC_CAST(const char *,
@@ -51492,6 +52510,10 @@ const char SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
@@ -51540,9 +52562,12 @@ const char SHPAPI_CALL1(*)
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
 {
     return ((const char *)DBFReadAttribute(psDBF, iRecord, iField, 'C'));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51588,6 +52613,8 @@ const char SHPAPI_CALL1(*)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 {
     return ((const char *)DBFReadAttribute(psDBF, iRecord, iField, 'C'));
@@ -52005,13 +53032,19 @@ const char SHPAPI_CALL1(*)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
 /*                        DBFReadLogicalAttribute()                     */
 /*                                                                      */
 /*      Read a logical attribute.                                       */
+
 /************************************************************************/
 
 const char SHPAPI_CALL1(*)
@@ -52068,6 +53101,7 @@ const char SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -52178,6 +53212,8 @@ const char SHPAPI_CALL1(*)
 =======
 =======
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -52531,10 +53567,13 @@ const char SHPAPI_CALL1(*)
 =======
 =======
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 {
     return STATIC_CAST(const char *,
                        DBFReadAttribute(psDBF, iRecord, iField, 'L'));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52566,6 +53605,8 @@ const char SHPAPI_CALL1(*)
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -52646,9 +53687,12 @@ const char SHPAPI_CALL1(*)
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
 {
     return ((const char *)DBFReadAttribute(psDBF, iRecord, iField, 'L'));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -52678,7 +53722,12 @@ const char SHPAPI_CALL1(*)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -52887,8 +53936,10 @@ SHPDate SHPAPI_CALL DBFReadDateAttribute(DBFHandle psDBF, int iRecord,
 /*                         DBFIsValueNULL()                             */
 /*                                                                      */
 /*      Return TRUE if the passed string is NULL.                       */
+
 /************************************************************************/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53001,6 +54052,8 @@ SHPDate SHPAPI_CALL DBFReadDateAttribute(DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -53080,7 +54133,12 @@ SHPDate SHPAPI_CALL DBFReadDateAttribute(DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 static bool DBFIsValueNULL(char chType, const char *pszValue)
 =======
 <<<<<<< HEAD
@@ -53160,6 +54218,7 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 >>>>>>> osgeo-main
 static int DBFIsValueNULL(char chType, const char *pszValue)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53420,11 +54479,17 @@ static int DBFIsValueNULL(char chType, const char *pszValue)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 {
     if (pszValue == SHPLIB_NULLPTR)
         return true;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53536,6 +54601,8 @@ static int DBFIsValueNULL(char chType, const char *pszValue)
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -53773,10 +54840,13 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
     if (pszValue == NULL)
         return TRUE;
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53793,6 +54863,8 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -54015,7 +55087,12 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     switch (chType) {
     case 'N':
     case 'F':
@@ -54073,6 +55150,7 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -54151,6 +55229,8 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -54947,6 +56027,8 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 =======
 =======
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         ** We accept all asterisks or all blanks as NULL
         ** though according to the spec I think it should be all
         ** asterisks.
@@ -54957,11 +56039,29 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
         for (int i = 0; pszValue[i] != '\0'; i++) {
             if (pszValue[i] != ' ')
                 return false;
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+         ** We accept all asterisks or all blanks as NULL
+         ** though according to the spec I think it should be all
+         ** asterisks.
+         */
+        if (pszValue[0] == '*')
+            return TRUE;
+
+        for (i = 0; pszValue[i] != '\0'; i++) {
+            if (pszValue[i] != ' ')
+                return FALSE;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         }
         return true;
 
@@ -55002,6 +56102,7 @@ static bool DBFIsValueNULL(char chType, const char *pszValue)
 /*      Return TRUE if value for field is NULL.                         */
 /*                                                                      */
 /*      Contributed by Jim Matthews.                                    */
+
 /************************************************************************/
 
 <<<<<<< HEAD
@@ -55055,6 +56156,7 @@ int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -55187,6 +56289,8 @@ int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -55274,11 +56378,17 @@ int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     const char *pszValue = DBFReadStringAttribute(psDBF, iRecord, iField);
 
     if (pszValue == SHPLIB_NULLPTR)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55840,12 +56950,15 @@ int SHPAPI_CALL DBFIsAttributeNULL(DBFHandle psDBF, int iRecord, int iField)
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     const char *pszValue;
 
     pszValue = DBFReadStringAttribute(psDBF, iRecord, iField);
 
     if (pszValue == NULL)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56011,7 +57124,12 @@ int SHPAPI_CALL DBFIsAttributeNULL(DBFHandle psDBF, int iRecord, int iField)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         return TRUE;
 
     return DBFIsValueNULL(psDBF->pachFieldType[iField], pszValue);
@@ -56021,6 +57139,7 @@ int SHPAPI_CALL DBFIsAttributeNULL(DBFHandle psDBF, int iRecord, int iField)
 /*                          DBFGetFieldCount()                          */
 /*                                                                      */
 /*      Return the number of fields in this table.                      */
+
 /************************************************************************/
 
 <<<<<<< HEAD
@@ -56079,6 +57198,7 @@ int SHPAPI_CALL DBFGetFieldCount(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -56219,6 +57339,8 @@ int SHPAPI_CALL DBFGetFieldCount(DBFHandle psDBF)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -56624,7 +57746,15 @@ int SHPAPI_CALL DBFGetFieldCount(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 {
     return (psDBF->nFields);
 }
@@ -56633,6 +57763,7 @@ int SHPAPI_CALL DBFGetFieldCount(DBFHandle psDBF)
 /*                         DBFGetRecordCount()                          */
 /*                                                                      */
 /*      Return the number of records in this table.                     */
+
 /************************************************************************/
 
 <<<<<<< HEAD
@@ -56691,6 +57822,7 @@ int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -56831,6 +57963,8 @@ int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -57236,7 +58370,15 @@ int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 {
     return (psDBF->nRecords);
 }
@@ -57297,6 +58439,7 @@ int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -57356,6 +58499,8 @@ int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -57436,7 +58581,12 @@ int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 /*      pszFieldName must be at least XBASE_FLDNAME_LEN_READ+1 (=12)    */
 /*      bytes long.                                                     */
 =======
@@ -57534,6 +58684,7 @@ int SHPAPI_CALL DBFGetRecordCount(DBFHandle psDBF)
 >>>>>>> osgeo-main
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58209,11 +59360,14 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 /************************************************************************/
 
 DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
                                          char *pszFieldName, int *pnWidth,
                                          int *pnDecimals)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58446,7 +59600,15 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 {
     if (iField < 0 || iField >= psDBF->nFields)
         return (FTInvalid);
@@ -58503,6 +59665,7 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -58623,6 +59786,8 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -58720,7 +59885,12 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (pnWidth != SHPLIB_NULLPTR)
         *pnWidth = psDBF->panFieldSize[iField];
 
@@ -58756,10 +59926,13 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59573,6 +60746,9 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     if (pnWidth != NULL)
         *pnWidth = psDBF->panFieldSize[iField];
 
@@ -59585,6 +60761,7 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
         strncpy(pszFieldName, (char *)psDBF->pszHeader + iField * 32, 11);
         pszFieldName[11] = '\0';
         for (i = 10; i > 0 && pszFieldName[i] == ' '; i--)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -59630,7 +60807,13 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
             pszFieldName[i] = '\0';
     }
 
@@ -59689,6 +60872,7 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -59803,6 +60987,8 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -59831,6 +61017,8 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     else if (psDBF->pachFieldType[iField] == 'D')
         return (FTDate);
 
@@ -60457,6 +61645,7 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
@@ -60763,7 +61952,20 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+    else if (psDBF->pachFieldType[iField] == 'N' ||
+             psDBF->pachFieldType[iField] == 'F') {
+        if (psDBF->panFieldDecimals[iField] > 0)
+            /*            || psDBF->panFieldSize[iField] >= 10 ) */ /* GDAL bug
+                                                                       #809 */
+            return (FTDouble);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         else
             return (FTInteger);
     }
@@ -60774,6 +61976,7 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
 
 /************************************************************************/
 /*                         DBFWriteAttribute()                          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60937,6 +62140,8 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
 =======
 =======
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -61314,7 +62519,12 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 /*                                    */
 /*    Write an attribute record to the file.                */
 /************************************************************************/
@@ -61328,6 +62538,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
     if (hEntity < 0 || hEntity > psDBF->nRecords)
         return false;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61810,7 +63021,32 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+/*                                                                      */
+/*      Write an attribute record to the file.                          */
+
+/************************************************************************/
+
+static int DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
+                             void *pValue)
+{
+    int i, j, nRetResult = TRUE;
+    unsigned char *pabyRec;
+    char szSField[400], szFormat[20];
+
+    /* -------------------------------------------------------------------- */
+    /*      Is this a valid record?                                         */
+    /* -------------------------------------------------------------------- */
+    if (hEntity < 0 || hEntity > psDBF->nRecords)
+        return (FALSE);
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->bNoHeader)
         DBFWriteHeader(psDBF);
 
@@ -61819,6 +63055,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
     /* -------------------------------------------------------------------- */
     if (hEntity == psDBF->nRecords) {
         if (!DBFFlushRecord(psDBF))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62310,6 +63547,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -62399,12 +63638,18 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
             return false;
 
         psDBF->nRecords++;
         for (int i = 0; i < psDBF->nRecordLength; i++)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62438,10 +63683,13 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             return FALSE;
 
         psDBF->nRecords++;
         for (i = 0; i < psDBF->nRecordLength; i++)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62485,6 +63733,9 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             psDBF->pszCurrentRecord[i] = ' ';
 
 =======
@@ -62863,6 +64114,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -62977,6 +64229,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -63074,7 +64328,12 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         return false;
 
     unsigned char *pabyRec =
@@ -63183,6 +64442,9 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -63747,7 +65009,12 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     psDBF->bCurrentRecordModified = TRUE;
     psDBF->bUpdated = TRUE;
@@ -63809,6 +65076,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -63930,6 +65198,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -63983,7 +65253,12 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (pValue == SHPLIB_NULLPTR) {
         memset(pabyRec + psDBF->panFieldOffset[iField],
                DBFGetNullCharacter(psDBF->pachFieldType[iField]),
@@ -64050,6 +65325,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -64225,12 +65501,18 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (pValue == NULL) {
         memset((char *)(pabyRec + psDBF->panFieldOffset[iField]),
                DBFGetNullCharacter(psDBF->pachFieldType[iField]),
                psDBF->panFieldSize[iField]);
         return TRUE;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64312,6 +65594,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -64817,7 +66101,13 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* -------------------------------------------------------------------- */
@@ -64875,6 +66165,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -64995,6 +66286,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -65092,7 +66385,12 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     bool nRetResult = true;
 
     switch (psDBF->pachFieldType[iField]) {
@@ -65200,6 +66498,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
     bool nRetResult = true;
@@ -65458,6 +66757,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     switch (psDBF->pachFieldType[iField]) {
     case 'D':
     case 'N':
@@ -65503,6 +66804,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -65528,10 +66830,13 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         snprintf(szFormat, sizeof(szFormat), "%%%d.%df", nWidth,
                  psDBF->panFieldDecimals[iField]);
         snprintf(szSField, sizeof(szSField), szFormat, *((double *)pValue));
         if ((int)strlen(szSField) > psDBF->panFieldSize[iField]) {
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66696,12 +68001,17 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             szSField[psDBF->panFieldSize[iField]] = '\0';
             nRetResult = false;
         }
+<<<<<<< HEAD
         memcpy(
             REINTERPRET_CAST(char *, pabyRec + psDBF->panFieldOffset[iField]),
             szSField, strlen(szSField));
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
@@ -66752,7 +68062,16 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+        strncpy((char *)(pabyRec + psDBF->panFieldOffset[iField]), szSField,
+                strlen(szSField));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         break;
     }
 
@@ -66806,6 +68125,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -66880,6 +68200,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -67985,6 +69307,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 =======
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             (*STATIC_CAST(char *, pValue) == 'F' ||
              *STATIC_CAST(char *, pValue) == 'T'))
             *(pabyRec + psDBF->panFieldOffset[iField]) =
@@ -67997,15 +69321,32 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
             psDBF->panFieldSize[iField]) {
             j = psDBF->panFieldSize[iField];
             nRetResult = false;
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+            (*(char *)pValue == 'F' || *(char *)pValue == 'T'))
+            *(pabyRec + psDBF->panFieldOffset[iField]) = *(char *)pValue;
+        break;
+
+    default:
+        if ((int)strlen((char *)pValue) > psDBF->panFieldSize[iField]) {
+            j = psDBF->panFieldSize[iField];
+            nRetResult = FALSE;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         }
         else {
             memset(pabyRec + psDBF->panFieldOffset[iField], ' ',
                    psDBF->panFieldSize[iField]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68152,6 +69493,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -68995,6 +70338,8 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 =======
 =======
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
             j = STATIC_CAST(int, strlen(STATIC_CAST(char *, pValue)));
         }
 
@@ -69006,11 +70351,28 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
     }
 
     return nRetResult;
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+            j = (int)strlen((char *)pValue);
+        }
+
+        strncpy((char *)(pabyRec + psDBF->panFieldOffset[iField]),
+                (char *)pValue, j);
+        break;
+    }
+
+    return (nRetResult);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -69019,6 +70381,7 @@ static bool DBFWriteAttribute(DBFHandle psDBF, int hEntity, int iField,
 /*      Write an attribute record to the file, but without any          */
 /*      reformatting based on type.  The provided buffer is written     */
 /*      as is to the field position in the record.                      */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
@@ -69073,6 +70436,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -69181,6 +70545,8 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Is this a valid record?                                         */
     /* -------------------------------------------------------------------- */
@@ -69370,12 +70736,15 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*    Is this a valid record?                        */
     /* -------------------------------------------------------------------- */
     if (hEntity < 0 || hEntity > psDBF->nRecords)
         return (FALSE);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69802,6 +71171,9 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     int i, j;
     unsigned char *pabyRec;
 
@@ -69811,6 +71183,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
     if (hEntity < 0 || hEntity > psDBF->nRecords)
         return (FALSE);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69938,7 +71311,13 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->bNoHeader)
         DBFWriteHeader(psDBF);
 
@@ -70002,6 +71381,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -70061,6 +71441,8 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -70141,7 +71523,12 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         for (int i = 0; i < psDBF->nRecordLength; i++)
 =======
 <<<<<<< HEAD
@@ -70221,6 +71608,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
         for (i = 0; i < psDBF->nRecordLength; i++)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70614,7 +72002,12 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
             psDBF->pszCurrentRecord[i] = ' ';
 
         psDBF->nCurrentRecord = hEntity;
@@ -70679,6 +72072,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -70817,6 +72211,8 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (iField >= 0) {
         unsigned char *pabyRec =
             REINTERPRET_CAST(unsigned char *, psDBF->pszCurrentRecord);
@@ -70937,7 +72333,12 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     unsigned char *pabyRec =
         REINTERPRET_CAST(unsigned char *, psDBF->pszCurrentRecord);
 =======
@@ -70963,6 +72364,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> osgeo-main
     pabyRec = (unsigned char *)psDBF->pszCurrentRecord;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71346,7 +72748,12 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     /* -------------------------------------------------------------------- */
     /*      Assign all the record fields.                                   */
@@ -71401,6 +72808,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -71511,6 +72919,8 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -71608,7 +73018,12 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     int j;
     if (STATIC_CAST(int, strlen(STATIC_CAST(char *, pValue))) >
         psDBF->panFieldSize[iField])
@@ -71637,10 +73052,13 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72161,7 +73579,14 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+    if ((int)strlen((char *)pValue) > psDBF->panFieldSize[iField])
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         j = psDBF->panFieldSize[iField];
     else {
         memset(pabyRec + psDBF->panFieldOffset[iField], ' ',
@@ -72218,6 +73643,7 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -72337,6 +73763,8 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 =======
@@ -72855,12 +74283,18 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         j = STATIC_CAST(int, strlen(STATIC_CAST(char *, pValue)));
     }
 
     strncpy(REINTERPRET_CAST(char *, pabyRec + psDBF->panFieldOffset[iField]),
             STATIC_CAST(const char *, pValue), j);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73090,12 +74524,15 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
         j = (int)strlen((char *)pValue);
     }
 
     strncpy((char *)(pabyRec + psDBF->panFieldOffset[iField]), (char *)pValue,
             j);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73236,7 +74673,12 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     psDBF->bCurrentRecordModified = TRUE;
     psDBF->bUpdated = TRUE;
@@ -73248,11 +74690,13 @@ int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
 /*                      DBFWriteDoubleAttribute()                       */
 /*                                                                      */
 /*      Write a double attribute.                                       */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
                                         int iField, double dValue)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73365,6 +74809,8 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -73444,7 +74890,12 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     return (DBFWriteAttribute(psDBF, iRecord, iField,
                               STATIC_CAST(void *, &dValue)));
 =======
@@ -73542,6 +74993,7 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
     return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)&dValue));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73937,7 +75389,12 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -73947,6 +75404,7 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 /*      Write an integer attribute.                                     */
 =======
 /*      Write a integer attribute.                                      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73991,6 +75449,8 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -74068,7 +75528,13 @@ int SHPAPI_CALL DBFWriteDoubleAttribute(DBFHandle psDBF, int iRecord,
 =======
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
+=======
+
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle psDBF, int iRecord,
@@ -74128,6 +75594,7 @@ int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -74187,6 +75654,8 @@ int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -74267,7 +75736,12 @@ int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     return (DBFWriteAttribute(psDBF, iRecord, iField,
                               STATIC_CAST(void *, &dValue)));
 =======
@@ -74365,6 +75839,7 @@ int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> osgeo-main
     return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)&dValue));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74760,13 +76235,19 @@ int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
 /*                      DBFWriteStringAttribute()                       */
 /*                                                                      */
 /*      Write a string attribute.                                       */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
@@ -74823,6 +76304,7 @@ int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -74933,6 +76415,8 @@ int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
 =======
 =======
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -75156,7 +76640,12 @@ int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
 {
     return (
@@ -75182,6 +76671,10 @@ int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
@@ -75230,9 +76723,12 @@ int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
 {
     return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)pszValue));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75278,6 +76774,8 @@ int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 {
     return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)pszValue));
@@ -75697,7 +77195,12 @@ int SHPAPI_CALL DBFWriteStringAttribute(DBFHandle psDBF, int iRecord,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -75723,6 +77226,7 @@ int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle psDBF, int iRecord, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -75752,9 +77256,13 @@ int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle psDBF, int iRecord, int iField)
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
+
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle psDBF, int iRecord, int iField)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76037,6 +77545,8 @@ int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle psDBF, int iRecord, int iField)
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -76166,10 +77676,13 @@ int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle psDBF, int iRecord, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 {
     return (DBFWriteAttribute(psDBF, iRecord, iField, SHPLIB_NULLPTR));
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -76614,13 +78127,22 @@ int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle psDBF, int iRecord, int iField)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+{
+    return (DBFWriteAttribute(psDBF, iRecord, iField, NULL));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
 /*                      DBFWriteLogicalAttribute()                      */
 /*                                                                      */
 /*      Write a logical attribute.                                      */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
@@ -76677,6 +78199,7 @@ int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -76787,6 +78310,8 @@ int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
 =======
 =======
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -77174,11 +78699,14 @@ int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
 =======
 =======
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 {
     return (
         DBFWriteAttribute(psDBF, iRecord, iField,
                           STATIC_CAST(void *, CONST_CAST(char *, &lValue))));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77255,6 +78783,8 @@ int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle psDBF, int iRecord,
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -77633,9 +79163,12 @@ int SHPAPI_CALL DBFWriteDateAttribute(DBFHandle psDBF, int iRecord, int iField,
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
 {
     return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)(&lValue)));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77648,6 +79181,8 @@ int SHPAPI_CALL DBFWriteDateAttribute(DBFHandle psDBF, int iRecord, int iField,
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 {
     return (DBFWriteAttribute(psDBF, iRecord, iField, (void *)(&lValue)));
@@ -77773,11 +79308,17 @@ int SHPAPI_CALL DBFWriteDateAttribute(DBFHandle psDBF, int iRecord, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
 /*                         DBFWriteTuple()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77930,6 +79471,8 @@ int SHPAPI_CALL DBFWriteDateAttribute(DBFHandle psDBF, int iRecord, int iField,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 /*                                                                      */
 /*      Write an attribute record to the file.                          */
 <<<<<<< HEAD
@@ -78200,10 +79743,16 @@ int SHPAPI_CALL DBFWriteDateAttribute(DBFHandle psDBF, int iRecord, int iField,
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+/*                                    */
+/*    Write an attribute record to the file.                */
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 /*                                                                      */
 /*      Write an attribute record to the file.                          */
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78281,12 +79830,18 @@ int SHPAPI_CALL DBFWriteDateAttribute(DBFHandle psDBF, int iRecord, int iField,
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 /************************************************************************/
 
 int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
                               const void *pRawTuple)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78422,6 +79977,8 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 =======
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -78593,12 +80150,15 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*    Is this a valid record?                        */
     /* -------------------------------------------------------------------- */
     if (hEntity < 0 || hEntity > psDBF->nRecords)
         return (FALSE);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78643,6 +80203,9 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     int i;
     unsigned char *pabyRec;
 
@@ -78653,6 +80216,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
         return (FALSE);
 
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79276,7 +80840,13 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity, void *pRawTuple)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->bNoHeader)
         DBFWriteHeader(psDBF);
 
@@ -79340,6 +80910,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity, void *pRawTuple)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -79399,6 +80970,8 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity, void *pRawTuple)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -79479,7 +81052,12 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity, void *pRawTuple)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         for (int i = 0; i < psDBF->nRecordLength; i++)
 =======
 <<<<<<< HEAD
@@ -79559,6 +81137,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity, void *pRawTuple)
 >>>>>>> osgeo-main
         for (i = 0; i < psDBF->nRecordLength; i++)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79952,7 +81531,12 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity, void *pRawTuple)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
             psDBF->pszCurrentRecord[i] = ' ';
 
         psDBF->nCurrentRecord = hEntity;
@@ -80017,6 +81601,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity, void *pRawTuple)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -80076,6 +81661,8 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity, void *pRawTuple)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -80156,7 +81743,12 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity, void *pRawTuple)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     unsigned char *pabyRec =
         REINTERPRET_CAST(unsigned char *, psDBF->pszCurrentRecord);
 =======
@@ -80254,6 +81846,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity, void *pRawTuple)
 >>>>>>> osgeo-main
     pabyRec = (unsigned char *)psDBF->pszCurrentRecord;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80649,7 +82242,12 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity, void *pRawTuple)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     memcpy(pabyRec, pRawTuple, psDBF->nRecordLength);
 
@@ -80664,6 +82262,7 @@ int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity, void *pRawTuple)
 /*                                                                      */
 /*      Read a complete record.  Note that the result is only valid     */
 /*      till the next record read for any reason.                       */
+
 /************************************************************************/
 
 const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
@@ -80719,6 +82318,7 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -80785,6 +82385,8 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 =======
 =======
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -81055,7 +82657,12 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
 =======
 >>>>>>> osgeo-main
@@ -81107,6 +82714,7 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81117,6 +82725,8 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -81782,6 +83392,9 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 {
     if (hEntity < 0 || hEntity >= psDBF->nRecords)
         return (NULL);
@@ -81790,6 +83403,7 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
         return NULL;
 
     return (const char *)psDBF->pszCurrentRecord;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -81886,7 +83500,13 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -81913,6 +83533,7 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
@@ -81941,6 +83562,8 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -81990,7 +83613,13 @@ const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity)
 =======
 
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 /************************************************************************/
 
 DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
@@ -82041,6 +83670,7 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -82143,6 +83773,8 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     DBFHandle newDBF =
         DBFCreateLL(pszFilename, psDBF->pszCodePage, &psDBF->sHooks);
 =======
@@ -82780,7 +84412,12 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     DBFHandle newDBF = DBFCreateEx(pszFilename, psDBF->pszCodePage);
     if (newDBF == SHPLIB_NULLPTR)
         return SHPLIB_NULLPTR;
@@ -82823,6 +84460,7 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
     newDBF = DBFOpen(pszFilename, "rb+");
     newDBF->bWriteEndOfFileChar = psDBF->bWriteEndOfFileChar;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -83572,6 +85210,9 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(DBFHandle psDBF, const char *pszFilename)
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     DBFHandle newDBF;
 
     newDBF = DBFCreateEx(pszFilename, psDBF->pszCodePage);
@@ -83609,6 +85250,7 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(DBFHandle psDBF, const char *pszFilename)
 
     newDBF = DBFOpen(pszFilename, "rb+");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -83668,7 +85310,13 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(DBFHandle psDBF, const char *pszFilename)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     return (newDBF);
 }
 
@@ -83681,6 +85329,7 @@ DBFHandle SHPAPI_CALL DBFCloneEmpty(DBFHandle psDBF, const char *pszFilename)
 /*                           'N' (Numeric, with or without decimal),    */
 /*                           'L' (Logical),                             */
 /*                           'M' (Memo: 10 digits .DBT block ptr)       */
+
 /************************************************************************/
 
 <<<<<<< HEAD
@@ -83739,6 +85388,7 @@ char SHPAPI_CALL DBFGetNativeFieldType(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -83879,6 +85529,8 @@ char SHPAPI_CALL DBFGetNativeFieldType(DBFHandle psDBF, int iField)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -84284,12 +85936,21 @@ char SHPAPI_CALL DBFGetNativeFieldType(DBFHandle psDBF, int iField)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 {
     if (iField >= 0 && iField < psDBF->nFields)
         return psDBF->pachFieldType[iField];
 
     return ' ';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84433,6 +86094,8 @@ char SHPAPI_CALL DBFGetNativeFieldType(DBFHandle psDBF, int iField)
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -84495,6 +86158,27 @@ char SHPAPI_CALL DBFGetNativeFieldType(DBFHandle psDBF, int iField)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+}
+
+/************************************************************************/
+/*                            str_to_upper()                            */
+
+/************************************************************************/
+
+static void str_to_upper(char *string)
+{
+    int len;
+    int i = -1;
+
+    len = (int)strlen(string);
+
+    while (++i < len)
+        if (isalpha(string[i]) && islower(string[i]))
+            string[i] = (char)toupper((int)string[i]);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 /************************************************************************/
@@ -85017,6 +86701,7 @@ static void str_to_upper(char *string)
 /*      Get the index number for a field in a .dbf file.                */
 /*                                                                      */
 /*      Contributed by Jim Matthews.                                    */
+
 /************************************************************************/
 
 <<<<<<< HEAD
@@ -85024,6 +86709,7 @@ static void str_to_upper(char *string)
 int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
                                  const char *pszFieldName)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85184,6 +86870,8 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -85281,7 +86969,12 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     char name[XBASE_FLDNAME_LEN_READ + 1];
 
     for (int i = 0; i < DBFGetFieldCount(psDBF); i++) {
@@ -85344,6 +87037,7 @@ int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85617,7 +87311,15 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    char name[12], name1[12], name2[12];
+    int i;
+
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     strncpy(name1, pszFieldName, 11);
     name1[11] = '\0';
     str_to_upper(name1);
@@ -85628,6 +87330,7 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName)
         str_to_upper(name2);
 
         if (!strncmp(name1, name2, 10))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85741,6 +87444,8 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName)
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -86340,7 +88045,13 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
             return (i);
     }
     return (-1);
@@ -86351,6 +88062,7 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName)
 /*                                                                      */
 /*      Returns TRUE if the indicated record is deleted, otherwise      */
 /*      it returns FALSE.                                               */
+
 /************************************************************************/
 
 <<<<<<< HEAD
@@ -86422,6 +88134,7 @@ int SHPAPI_CALL DBFIsRecordDeleted(DBFHandle psDBF, int iShape)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -86535,6 +88248,8 @@ int SHPAPI_CALL DBFIsRecordDeleted(DBFHandle psDBF, int iShape)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     /*      Have we read the record?                                        */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -86660,11 +88375,17 @@ int SHPAPI_CALL DBFIsRecordDeleted(DBFHandle psDBF, int iShape)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     /*    Have we read the record?                    */
 =======
     /*      Have we read the record?                                        */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86691,6 +88412,8 @@ int SHPAPI_CALL DBFIsRecordDeleted(DBFHandle psDBF, int iShape)
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -87129,7 +88852,12 @@ int SHPAPI_CALL DBFIsRecordDeleted(DBFHandle psDBF, int iShape)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     if (!DBFLoadRecord(psDBF, iShape))
         return FALSE;
@@ -87142,6 +88870,7 @@ int SHPAPI_CALL DBFIsRecordDeleted(DBFHandle psDBF, int iShape)
 
 /************************************************************************/
 /*                        DBFMarkRecordDeleted()                        */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
@@ -87355,6 +89084,7 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -87423,6 +89153,10 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+=======
+
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     /* -------------------------------------------------------------------- */
     /*      Verify selection.                                               */
     /* -------------------------------------------------------------------- */
@@ -87439,6 +89173,7 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
     /* -------------------------------------------------------------------- */
     /*      Assign value, marking record as dirty if it changes.            */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88166,7 +89901,13 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (bIsDeleted)
         chNewFlag = '*';
     else
@@ -88183,12 +89924,14 @@ int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
 
 /************************************************************************/
 /*                            DBFGetCodePage                            */
+
 /************************************************************************/
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 const char SHPAPI_CALL1(*) DBFGetCodePage(const DBFHandle psDBF)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88242,6 +89985,8 @@ const char SHPAPI_CALL1(*) DBFGetCodePage(const DBFHandle psDBF)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -88713,7 +90458,18 @@ const char SHPAPI_CALL1(*) DBFGetCodePage(DBFHandle psDBF)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+    if (psDBF == SHPLIB_NULLPTR)
+        return SHPLIB_NULLPTR;
+=======
+    if (psDBF == NULL)
+        return NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     return psDBF->pszCodePage;
 }
 
@@ -88721,6 +90477,7 @@ const char SHPAPI_CALL1(*) DBFGetCodePage(DBFHandle psDBF)
 /*                          DBFDeleteField()                            */
 /*                                                                      */
 /*      Remove a field from a .dbf file                                 */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
@@ -88765,6 +90522,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
@@ -88804,6 +90562,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -88997,7 +90757,13 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     int nOldRecordLength, nOldHeaderLength;
     int nDeletedFieldOffset, nDeletedFieldSize;
     SAOffset nRecordOffset;
@@ -89034,6 +90800,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
@@ -89053,6 +90820,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -89384,7 +91153,13 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (iField < 0 || iField >= psDBF->nFields)
         return FALSE;
 
@@ -89451,6 +91226,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -89510,6 +91286,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -89590,7 +91368,12 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     for (int i = iField + 1; i < psDBF->nFields; i++) {
 =======
 <<<<<<< HEAD
@@ -89670,6 +91453,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> osgeo-main
     for (i = iField + 1; i < psDBF->nFields; i++) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90063,7 +91847,12 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         psDBF->panFieldOffset[i - 1] =
             psDBF->panFieldOffset[i] - nDeletedFieldSize;
         psDBF->panFieldSize[i - 1] = psDBF->panFieldSize[i];
@@ -90126,6 +91915,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -90244,6 +92034,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -90454,7 +92246,12 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 =======
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     psDBF->panFieldOffset = STATIC_CAST(
         int *, SfRealloc(psDBF->panFieldOffset, sizeof(int) * psDBF->nFields));
 
@@ -90467,6 +92264,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 
     psDBF->pachFieldType = STATIC_CAST(
         char *, SfRealloc(psDBF->pachFieldType, sizeof(char) * psDBF->nFields));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90517,6 +92315,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -91175,6 +92975,9 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     psDBF->panFieldOffset =
         (int *)SfRealloc(psDBF->panFieldOffset, sizeof(int) * psDBF->nFields);
 
@@ -91186,6 +92989,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 
     psDBF->pachFieldType =
         (char *)SfRealloc(psDBF->pachFieldType, sizeof(char) * psDBF->nFields);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -91316,13 +93120,20 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     /* update header information */
     psDBF->nHeaderLength -= XBASE_FLDHDR_SZ;
     psDBF->nRecordLength -= nDeletedFieldSize;
 
     /* overwrite field information in header */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91493,6 +93304,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -91700,7 +93513,12 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 =======
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     memmove(psDBF->pszHeader + iField * XBASE_FLDHDR_SZ,
             psDBF->pszHeader + (iField + 1) * XBASE_FLDHDR_SZ,
             sizeof(char) * (psDBF->nFields - iField) * XBASE_FLDHDR_SZ);
@@ -91711,6 +93529,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
     /* update size of current record appropriately */
     psDBF->pszCurrentRecord = STATIC_CAST(
         char *, SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91761,6 +93580,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -92390,6 +94211,9 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     memmove(psDBF->pszHeader + iField * 32,
             psDBF->pszHeader + (iField + 1) * 32,
             sizeof(char) * (psDBF->nFields - iField) * 32);
@@ -92399,6 +94223,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
     /* update size of current record appropriately */
     psDBF->pszCurrentRecord =
         (char *)SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -92523,7 +94348,13 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     /* we're done if we're dealing with not yet created .dbf */
     if (psDBF->bNoHeader && psDBF->nRecords == 0)
@@ -92586,6 +94417,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -92706,6 +94538,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -92803,7 +94637,12 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     char *pszRecord =
         STATIC_CAST(char *, malloc(sizeof(char) * nOldRecordLength));
 
@@ -92884,6 +94723,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 >>>>>>> osgeo-main
     pszRecord = (char *)malloc(sizeof(char) * nOldRecordLength);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93290,6 +95130,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     pszRecord = (char *)malloc(sizeof(char) * nOldRecordLength);
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
     /* shift records to their new positions */
     for (iRecord = 0; iRecord < psDBF->nRecords; iRecord++) {
@@ -93297,10 +95139,16 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 
         /* load record */
         psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         psDBF->sHooks.FRead(pszRecord, nOldRecordLength, 1, psDBF->fp);
 
         nRecordOffset =
@@ -93347,6 +95195,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -93418,6 +95267,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -94044,7 +95895,13 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
         /* move record in two steps */
         psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
@@ -94096,6 +95953,7 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -94196,6 +96054,8 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -94243,7 +96103,12 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     }
 
     if (psDBF->bWriteEndOfFileChar) {
@@ -94279,6 +96144,9 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -94734,6 +96602,10 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* TODO: truncate file */
@@ -94754,8 +96626,9 @@ int SHPAPI_CALL DBFDeleteField(DBFHandle psDBF, int iField)
 /*      Reorder the fields of a .dbf file                               */
 /*                                                                      */
 /* panMap must be exactly psDBF->nFields long and be a permutation      */
-/* of [0, psDBF->nFields-1]. This assumption will not be asserted in the*/
+/* of [0, psDBF->nFields-1]. This assumption will not be asserted in the */
 /* code of DBFReorderFields.                                            */
+
 /************************************************************************/
 
 <<<<<<< HEAD
@@ -94808,6 +96681,7 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
@@ -94847,6 +96721,8 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap)
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -95040,7 +96916,13 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     SAOffset nRecordOffset;
     int i, iRecord;
     int *panFieldOffsetNew;
@@ -95051,6 +96933,7 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap)
     char *pszRecord;
     char *pszRecordNew;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95164,6 +97047,8 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap)
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -95534,7 +97419,13 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (psDBF->nFields == 0)
         return TRUE;
 
@@ -95592,6 +97483,7 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -95642,6 +97534,8 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap)
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -96860,6 +98754,8 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap)
 =======
 =======
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     int *panFieldOffsetNew =
         STATIC_CAST(int *, calloc(sizeof(int), psDBF->nFields));
     int *panFieldSizeNew =
@@ -96881,11 +98777,34 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap)
     }
     panFieldOffsetNew[0] = 1;
     for (int i = 1; i < psDBF->nFields; i++) {
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+    panFieldOffsetNew = (int *)calloc(sizeof(int), psDBF->nFields);
+    panFieldSizeNew = (int *)malloc(sizeof(int) * psDBF->nFields);
+    panFieldDecimalsNew = (int *)malloc(sizeof(int) * psDBF->nFields);
+    pachFieldTypeNew = (char *)malloc(sizeof(char) * psDBF->nFields);
+    pszHeaderNew = (char *)malloc(sizeof(char) * 32 * psDBF->nFields);
+
+    /* shuffle fields definitions */
+    for (i = 0; i < psDBF->nFields; i++) {
+        panFieldSizeNew[i] = psDBF->panFieldSize[panMap[i]];
+        panFieldDecimalsNew[i] = psDBF->panFieldDecimals[panMap[i]];
+        pachFieldTypeNew[i] = psDBF->pachFieldType[panMap[i]];
+        memcpy(pszHeaderNew + i * 32, psDBF->pszHeader + panMap[i] * 32, 32);
+    }
+    panFieldOffsetNew[0] = 1;
+    for (i = 1; i < psDBF->nFields; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         panFieldOffsetNew[i] =
             panFieldOffsetNew[i - 1] + panFieldSizeNew[i - 1];
     }
@@ -96902,6 +98821,7 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap)
         DBFUpdateHeader(psDBF);
 
         /* alloc record */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98235,6 +100155,8 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap)
 =======
 =======
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         char *pszRecord =
             STATIC_CAST(char *, malloc(sizeof(char) * psDBF->nRecordLength));
         char *pszRecordNew =
@@ -98257,11 +100179,34 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap)
             pszRecordNew[0] = pszRecord[0];
 
             for (int i = 0; i < psDBF->nFields; i++) {
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+        pszRecord = (char *)malloc(sizeof(char) * psDBF->nRecordLength);
+        pszRecordNew = (char *)malloc(sizeof(char) * psDBF->nRecordLength);
+
+        /* shuffle fields in records */
+        for (iRecord = 0; iRecord < psDBF->nRecords; iRecord++) {
+            nRecordOffset =
+                psDBF->nRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+
+            /* load record */
+            psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
+            psDBF->sHooks.FRead(pszRecord, psDBF->nRecordLength, 1, psDBF->fp);
+
+            pszRecordNew[0] = pszRecord[0];
+
+            for (i = 0; i < psDBF->nFields; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
                 memcpy(pszRecordNew + panFieldOffsetNew[i],
                        pszRecord + psDBF->panFieldOffset[panMap[i]],
                        psDBF->panFieldSize[panMap[i]]);
@@ -98310,12 +100255,14 @@ int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, int *panMap)
 /*                          DBFAlterFieldDefn()                         */
 /*                                                                      */
 /*      Alter a field definition in a .dbf file                         */
+
 /************************************************************************/
 
 int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
                                   const char *pszFieldName, char chType,
                                   int nWidth, int nDecimals)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98688,7 +100635,13 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     int i;
     int iRecord;
     int nOffset;
@@ -98700,6 +100653,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
     int bIsNULL;
     char chFieldFill;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98749,6 +100703,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -99080,7 +101036,13 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if (iField < 0 || iField >= psDBF->nFields)
         return FALSE;
 
@@ -99153,6 +101115,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -99203,6 +101166,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -99659,7 +101624,18 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+    if (nWidth > XBASE_FLD_MAX_WIDTH)
+        nWidth = XBASE_FLD_MAX_WIDTH;
+=======
+    if (nWidth > 255)
+        nWidth = 255;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     /* -------------------------------------------------------------------- */
     /*      Assign the new field information fields.                        */
@@ -99723,6 +101699,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -99843,6 +101820,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -99940,7 +101919,12 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     char *pszFInfo = psDBF->pszHeader + XBASE_FLDHDR_SZ * iField;
 
     for (int i = 0; i < XBASE_FLDHDR_SZ; i++)
@@ -100005,6 +101989,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
 =======
     pszFInfo = psDBF->pszHeader + 32 * iField;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100367,18 +102352,27 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     pszFInfo = psDBF->pszHeader + 32 * iField;
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
     for (i = 0; i < 32; i++)
         pszFInfo[i] = '\0';
 
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     if ((int)strlen(pszFieldName) < 10)
         strncpy(pszFInfo, pszFieldName, strlen(pszFieldName));
     else
         strncpy(pszFInfo, pszFieldName, 10);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100492,6 +102486,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -100887,7 +102883,13 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     pszFInfo[11] = psDBF->pachFieldType[iField];
 
@@ -100944,6 +102946,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -101064,6 +103067,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -101161,7 +103166,12 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         pszFInfo[16] = STATIC_CAST(unsigned char, nWidth % 256);
         pszFInfo[17] = STATIC_CAST(unsigned char, nWidth / 256);
     }
@@ -101199,6 +103209,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101847,6 +103858,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         pszFInfo[16] = (unsigned char)(nWidth % 256);
         pszFInfo[17] = (unsigned char)(nWidth / 256);
     }
@@ -101854,6 +103867,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
         pszFInfo[16] = (unsigned char)nWidth;
         pszFInfo[17] = (unsigned char)nDecimals;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101874,6 +103888,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -102044,7 +104060,12 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* -------------------------------------------------------------------- */
@@ -102103,6 +104124,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -102221,6 +104243,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -102504,13 +104528,19 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         for (int i = iField + 1; i < psDBF->nFields; i++)
             psDBF->panFieldOffset[i] += nWidth - nOldWidth;
         psDBF->nRecordLength += nWidth - nOldWidth;
 
         psDBF->pszCurrentRecord = STATIC_CAST(
             char *, SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102841,6 +104871,9 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 <<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
@@ -102957,6 +104990,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
         for (i = iField + 1; i < psDBF->nFields; i++)
             psDBF->panFieldOffset[i] += nWidth - nOldWidth;
         psDBF->nRecordLength += nWidth - nOldWidth;
@@ -102964,6 +104999,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
         psDBF->pszCurrentRecord =
             (char *)SfRealloc(psDBF->pszCurrentRecord, psDBF->nRecordLength);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102981,6 +105017,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -103188,7 +105226,12 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     }
 
     /* we're done if we're dealing with not yet created .dbf */
@@ -103199,6 +105242,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
     psDBF->bNoHeader = TRUE;
     DBFUpdateHeader(psDBF);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103319,6 +105363,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -103403,7 +105449,12 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     bool errorAbort = false;
 =======
 <<<<<<< HEAD
@@ -103527,6 +105578,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -103576,6 +105628,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -103800,7 +105854,12 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     if (nWidth < nOldWidth || (nWidth == nOldWidth && chType != chOldType)) {
         char *pszRecord =
@@ -103951,6 +106010,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -104000,6 +106060,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -104790,7 +106852,12 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         for (int iRecord = 0; iRecord < psDBF->nRecords; iRecord++) {
             SAOffset nRecordOffset =
                 nOldRecordLength * STATIC_CAST(SAOffset, iRecord) +
@@ -104810,6 +106877,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
             if (nWidth != nOldWidth) {
                 if ((chOldType == 'N' || chOldType == 'F' ||
                      chOldType == 'D') &&
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105052,6 +107120,9 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         for (iRecord = 0; iRecord < psDBF->nRecords; iRecord++) {
             nRecordOffset =
                 nOldRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
@@ -105065,6 +107136,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 
             if (nWidth != nOldWidth) {
                 if ((chOldType == 'N' || chOldType == 'F') &&
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -105226,7 +107298,13 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
                     pszOldField[0] == ' ') {
                     /* Strip leading spaces when truncating a numeric field */
                     memmove(pszRecord + nOffset,
@@ -105297,6 +107375,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -105356,6 +107435,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -105436,7 +107517,12 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
                 psDBF->nRecordLength * STATIC_CAST(SAOffset, iRecord) +
                 psDBF->nHeaderLength;
 =======
@@ -105534,6 +107620,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
                 psDBF->nRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105929,7 +108016,12 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
             /* write record */
             psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
@@ -106000,6 +108092,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -106049,6 +108142,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -106255,11 +108350,17 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         char *pszRecord =
             STATIC_CAST(char *, malloc(sizeof(char) * psDBF->nRecordLength));
         char *pszOldField =
             STATIC_CAST(char *, malloc(sizeof(char) * (nOldWidth + 1)));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106385,10 +108486,16 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         char *pszRecord = (char *)malloc(sizeof(char) * psDBF->nRecordLength);
         char *pszOldField = (char *)malloc(sizeof(char) * (nOldWidth + 1));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106782,7 +108889,12 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
         /* cppcheck-suppress uninitdata */
         pszOldField[nOldWidth] = 0;
@@ -106836,6 +108948,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -106885,6 +108998,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -107652,6 +109767,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 =======
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         for (int iRecord = psDBF->nRecords - 1; iRecord >= 0; iRecord--) {
             SAOffset nRecordOffset =
                 nOldRecordLength * STATIC_CAST(SAOffset, iRecord) +
@@ -107667,11 +109784,29 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 
             memcpy(pszOldField, pszRecord + nOffset, nOldWidth);
             const bool bIsNULL = DBFIsValueNULL(chOldType, pszOldField);
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+        for (iRecord = psDBF->nRecords - 1; iRecord >= 0; iRecord--) {
+            nRecordOffset =
+                nOldRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
+
+            /* load record */
+            psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
+            psDBF->sHooks.FRead(pszRecord, nOldRecordLength, 1, psDBF->fp);
+
+            memcpy(pszOldField, pszRecord + nOffset, nOldWidth);
+            bIsNULL = DBFIsValueNULL(chOldType, pszOldField);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
 =======
         for (iRecord = psDBF->nRecords - 1; iRecord >= 0; iRecord--) {
@@ -108123,6 +110258,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -108182,6 +110318,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -108262,7 +110400,12 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
                 psDBF->nRecordLength * STATIC_CAST(SAOffset, iRecord) +
                 psDBF->nHeaderLength;
 =======
@@ -108360,6 +110503,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 >>>>>>> osgeo-main
                 psDBF->nRecordLength * (SAOffset)iRecord + psDBF->nHeaderLength;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108755,7 +110899,12 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
             /* write record */
             psDBF->sHooks.FSeek(psDBF->fp, nRecordOffset, 0);
@@ -108803,6 +110952,7 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -108903,6 +111053,8 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -108950,7 +111102,12 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         }
 
         if (!errorAbort && psDBF->bWriteEndOfFileChar) {
@@ -108987,6 +111144,9 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -109452,6 +111612,10 @@ int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
         }
 
         free(pszRecord);

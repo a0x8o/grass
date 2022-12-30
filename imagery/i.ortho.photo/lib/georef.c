@@ -94,6 +94,7 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *cp, double E12[3],
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -153,6 +154,8 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *cp, double E12[3],
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -233,7 +236,12 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *cp, double E12[3],
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     void (*sigfpe)(int);
 =======
 <<<<<<< HEAD
@@ -313,6 +321,7 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *cp, double E12[3],
 >>>>>>> osgeo-main
     void (*sigfpe)();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -706,7 +715,12 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *cp, double E12[3],
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     int i;
 
     s0 = s1 = s2 = s3 = s4 = s5 = 0.0;

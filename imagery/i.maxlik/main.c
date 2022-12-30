@@ -145,6 +145,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -278,6 +279,8 @@ int main(int argc, char *argv[])
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c167de6248 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -476,11 +479,14 @@ int main(int argc, char *argv[])
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     if (G_unqualified_name(parm.class->answer, G_mapset(), class_name,
                            xmapset) < 0)
 =======
     if (G_unqualified_name(parm.class->answer, G_mapset(), class_name, xmapset) < 0)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -494,9 +500,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
     if (G_unqualified_name(parm.class->answer, G_mapset(), class_name,
                            xmapset) < 0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -593,7 +602,12 @@ int main(int argc, char *argv[])
     if (G_unqualified_name(parm.class->answer, G_mapset(), class_name, xmapset) < 0)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> c167de6248 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error(_("<%s> does not match the current mapset"), xmapset);
 
     if (G_legal_filename(class_name) < 0)
@@ -615,6 +629,7 @@ int main(int argc, char *argv[])
             for (int col = 0; col < ncols; col++) {
                 /* Predicted classes start at 1 but signature array is 0 based
                  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -727,6 +742,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -806,7 +823,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 0b1431f1d8 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
                 if (Rast_is_c_null_value(&class_cell[col]) == 0)
                     class_cell[col] = S.sig[class_cell[col] - 1].oclass;
 =======
@@ -904,6 +926,7 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
                 class_cell[col] = S.sig[class_cell[col] - 1].oclass;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1300,7 +1323,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 0b1431f1d8 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
             }
         }
         Rast_put_row(class_fd, class_cell, CELL_TYPE);

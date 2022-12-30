@@ -182,6 +182,7 @@ int extend_lines(struct Map_info *Map, int first, int line_from, int line_to,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                  int parallel, double thresh, struct ilist *List)
 =======
 <<<<<<< HEAD
@@ -256,6 +257,8 @@ int extend_lines(struct Map_info *Map, int first, int line_from, int line_to,
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
                  int parallel, double thresh, struct ilist *List)
@@ -303,7 +306,12 @@ int extend_lines(struct Map_info *Map, int first, int line_from, int line_to,
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
                  int parallel, double thresh, struct ilist *List UNUSED)
 =======
                  int parallel, double thresh, struct ilist *List)
@@ -336,6 +344,7 @@ int extend_lines(struct Map_info *Map, int first, int line_from, int line_to,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -351,6 +360,8 @@ int extend_lines(struct Map_info *Map, int first, int line_from, int line_to,
 =======
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -536,7 +547,12 @@ int extend_lines(struct Map_info *Map, int first, int line_from, int line_to,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 {
     /* TODO: If line_from extends to the i'th segment of line_to but the
      * line_from node is closest to the j'th segment of line_to, this function

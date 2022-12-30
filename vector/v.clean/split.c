@@ -123,6 +123,7 @@ int split_line(struct Map_info *Map, int otype, struct line_pnts *Points,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                struct line_cats *Cats, struct Map_info *Err,
 =======
 <<<<<<< HEAD
@@ -197,6 +198,8 @@ int split_line(struct Map_info *Map, int otype, struct line_pnts *Points,
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
                struct line_cats *Cats, struct Map_info *Err,
@@ -244,7 +247,12 @@ int split_line(struct Map_info *Map, int otype, struct line_pnts *Points,
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
                struct line_cats *Cats, struct Map_info *Err UNUSED,
 =======
                struct line_cats *Cats, struct Map_info *Err,
@@ -277,6 +285,7 @@ int split_line(struct Map_info *Map, int otype, struct line_pnts *Points,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -292,6 +301,8 @@ int split_line(struct Map_info *Map, int otype, struct line_pnts *Points,
 =======
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -477,7 +488,12 @@ int split_line(struct Map_info *Map, int otype, struct line_pnts *Points,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
                double split_distance)
 {
     int i, n_segs = 0;

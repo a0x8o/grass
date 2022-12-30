@@ -125,6 +125,7 @@ class SuccessTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -184,6 +185,8 @@ class SuccessTest(TestCase):
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -264,7 +267,12 @@ class SuccessTest(TestCase):
 =======
 >>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 0b1431f1d8 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
             expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
 =======
 <<<<<<< HEAD
@@ -344,6 +352,7 @@ class SuccessTest(TestCase):
 >>>>>>> osgeo-main
             expression=f"{cls.b2}=5.0+rand(-1.0,1.0)",
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -716,7 +725,12 @@ class SuccessTest(TestCase):
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 0b1431f1d8 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
             flags="s",
             quiet=True,
         )

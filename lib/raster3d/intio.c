@@ -67,6 +67,7 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -126,6 +127,8 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -206,7 +209,12 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         if (write(fd, i, sizeof(int) * nofNum) != (int)sizeof(int) * nofNum) {
 =======
 <<<<<<< HEAD
@@ -286,6 +294,7 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 >>>>>>> osgeo-main
         if (write(fd, i, sizeof(int) * nofNum) != sizeof(int) * nofNum) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -679,7 +688,12 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
             Rast3d_error("Rast3d_write_ints: writing to file failed");
             return 0;
         }
@@ -741,6 +755,7 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -800,6 +815,8 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -880,7 +897,12 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         unsigned int j;
 =======
 <<<<<<< HEAD
@@ -960,6 +982,7 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 >>>>>>> osgeo-main
         int j;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1353,7 +1376,12 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
         n = nofNum % 1024;
         if (n == 0)
@@ -1438,6 +1466,7 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1497,6 +1526,8 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1577,7 +1608,12 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         if (read(fd, i, sizeof(int) * nofNum) != (int)sizeof(int) * nofNum) {
 =======
 <<<<<<< HEAD
@@ -1657,6 +1693,7 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 >>>>>>> osgeo-main
         if (read(fd, i, sizeof(int) * nofNum) != sizeof(int) * nofNum) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2050,7 +2087,12 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
             Rast3d_error("Rast3d_read_ints: reading from file failed");
             return 0;
         }
@@ -2112,6 +2154,7 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2171,6 +2214,8 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2251,7 +2296,12 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
         unsigned int j;
 =======
 <<<<<<< HEAD
@@ -2331,6 +2381,7 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 >>>>>>> osgeo-main
         int j;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2724,7 +2775,12 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
         n = nofNum % 1024;
         if (n == 0)

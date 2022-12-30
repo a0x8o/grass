@@ -66,6 +66,7 @@ static PGresult *build_stmt(const struct Plus_head *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 =======
 <<<<<<< HEAD
@@ -140,6 +141,8 @@ int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
@@ -187,7 +190,12 @@ int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 int Vect__get_area_points_pg(struct Map_info *Map, const plus_t *lines,
 =======
 int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
@@ -220,6 +228,7 @@ int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -235,6 +244,8 @@ int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 =======
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -420,7 +431,12 @@ int Vect__get_area_points_pg(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
                              int n_lines, struct line_pnts *APoints)
 {
     int i, direction;

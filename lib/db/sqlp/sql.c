@@ -169,6 +169,7 @@ void sqpValue(char *strval, int intval, double dblval, int type)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     sqlpStmt->Val[i].i = 0;   /* not necessay I think */
     sqlpStmt->Val[i].d = 0.0; /* not necessay I think */
 =======
@@ -244,6 +245,8 @@ void sqpValue(char *strval, int intval, double dblval, int type)
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
     sqlpStmt->Val[i].i = 0;   /* not necessay I think */
@@ -292,7 +295,12 @@ void sqpValue(char *strval, int intval, double dblval, int type)
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     sqlpStmt->Val[i].i = 0;   /* not necessary I think */
     sqlpStmt->Val[i].d = 0.0; /* not necessary I think */
 =======
@@ -327,6 +335,7 @@ void sqpValue(char *strval, int intval, double dblval, int type)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -380,6 +389,8 @@ void sqpValue(char *strval, int intval, double dblval, int type)
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -545,7 +556,12 @@ void sqpValue(char *strval, int intval, double dblval, int type)
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     sqlpStmt->Val[i].type = type;
     switch (type) {
@@ -609,6 +625,7 @@ void sqpAssignment(char *col, char *strval, int intval, double dblval,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     sqlpStmt->Val[i].i = 0;   /* not necessay I think */
     sqlpStmt->Val[i].d = 0.0; /* not necessay I think */
 =======
@@ -684,6 +701,8 @@ void sqpAssignment(char *col, char *strval, int intval, double dblval,
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
     sqlpStmt->Val[i].i = 0;   /* not necessay I think */
@@ -732,7 +751,12 @@ void sqpAssignment(char *col, char *strval, int intval, double dblval,
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
     sqlpStmt->Val[i].i = 0;   /* not necessary I think */
     sqlpStmt->Val[i].d = 0.0; /* not necessary I think */
 =======
@@ -767,6 +791,7 @@ void sqpAssignment(char *col, char *strval, int intval, double dblval,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -820,6 +845,8 @@ void sqpAssignment(char *col, char *strval, int intval, double dblval,
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -985,7 +1012,12 @@ void sqpAssignment(char *col, char *strval, int intval, double dblval,
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 
     sqlpStmt->Val[i].type = type;
     switch (type) {

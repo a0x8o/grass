@@ -68,6 +68,7 @@ static void draw_text(FT_Face, FT_Vector *, FT_Matrix *, const unsigned char *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       int, int, struct rectangle *);
 =======
 <<<<<<< HEAD
@@ -142,6 +143,8 @@ static void draw_text(FT_Face, FT_Vector *, FT_Matrix *, const unsigned char *,
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
                       int, int, struct rectangle *);
@@ -189,7 +192,12 @@ static void draw_text(FT_Face, FT_Vector *, FT_Matrix *, const unsigned char *,
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
                       int, struct rectangle *);
 =======
                       int, int, struct rectangle *);
@@ -222,6 +230,7 @@ static void draw_text(FT_Face, FT_Vector *, FT_Matrix *, const unsigned char *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -237,6 +246,8 @@ static void draw_text(FT_Face, FT_Vector *, FT_Matrix *, const unsigned char *,
 =======
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -422,7 +433,12 @@ static void draw_text(FT_Face, FT_Vector *, FT_Matrix *, const unsigned char *,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 static void draw_bitmap(FT_Bitmap *, FT_Int, FT_Int);
 static void set_text_box(FT_Bitmap *, FT_Int, FT_Int, struct rectangle *);
 #endif
@@ -590,6 +606,7 @@ static void draw_text(FT_Face face, FT_Vector *pen, FT_Matrix *matrix,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       const unsigned char *out, int len, int color,
                       struct rectangle *box)
 =======
@@ -664,6 +681,8 @@ static void draw_text(FT_Face face, FT_Vector *pen, FT_Matrix *matrix,
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
                       const unsigned char *out, int len, int color,
                       struct rectangle *box)
@@ -956,7 +975,17 @@ static void draw_text(FT_Face face, FT_Vector *pen, FT_Matrix *matrix,
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                      const unsigned char *out, int len, struct rectangle *box)
+=======
+                      const unsigned char *out, int len, int color,
+                      struct rectangle *box)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 {
     FT_ULong ch;
     FT_Error ans;
