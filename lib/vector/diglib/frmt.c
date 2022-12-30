@@ -255,6 +255,7 @@ int dig_read_frmt_ascii(FILE *dascii, struct Format_info *finfo)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 =======
 <<<<<<< HEAD
@@ -703,6 +704,8 @@ int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 =======
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -851,7 +854,12 @@ int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 int dig_write_frmt_ascii(FILE *dascii UNUSED, struct Format_info *finfo UNUSED,
                          int format UNUSED)
 =======
@@ -945,6 +953,7 @@ int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1060,6 +1069,8 @@ int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 >>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1463,6 +1474,7 @@ int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1700,6 +1712,10 @@ int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 >>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 {
     G_debug(3, "dig_write_frmt_ascii()");
 

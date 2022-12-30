@@ -107,6 +107,7 @@ void Rast3d_range_update_from_tile(RASTER3D_Map *map, const void *tile,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                    int zRedundant, int nofNum, int type)
 =======
 <<<<<<< HEAD
@@ -555,6 +556,8 @@ void Rast3d_range_update_from_tile(RASTER3D_Map *map, const void *tile,
 =======
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -703,7 +706,12 @@ void Rast3d_range_update_from_tile(RASTER3D_Map *map, const void *tile,
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
                                    int zRedundant UNUSED, int nofNum, int type)
 =======
                                    int zRedundant, int nofNum, int type)
@@ -796,6 +804,7 @@ void Rast3d_range_update_from_tile(RASTER3D_Map *map, const void *tile,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -911,6 +920,8 @@ void Rast3d_range_update_from_tile(RASTER3D_Map *map, const void *tile,
 >>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1314,6 +1325,7 @@ void Rast3d_range_update_from_tile(RASTER3D_Map *map, const void *tile,
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1551,6 +1563,10 @@ void Rast3d_range_update_from_tile(RASTER3D_Map *map, const void *tile,
 >>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 {
     int y, z, cellType;
     struct FPRange *range;
