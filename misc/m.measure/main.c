@@ -122,6 +122,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -181,6 +182,8 @@ int main(int argc, char **argv)
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -659,7 +662,13 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 
     shell = G_define_flag();
     shell->key = 'g';

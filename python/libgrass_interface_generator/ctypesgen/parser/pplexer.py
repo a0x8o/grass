@@ -187,6 +187,7 @@ t_ANY_CONDOP = r"\?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Delimeters
 =======
 <<<<<<< HEAD
@@ -324,6 +325,8 @@ t_ANY_CONDOP = r"\?"
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -564,7 +567,12 @@ t_ANY_CONDOP = r"\?"
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 # Delimiters
 =======
 # Delimeters
@@ -629,6 +637,7 @@ t_ANY_CONDOP = r"\?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -708,6 +717,8 @@ t_ANY_CONDOP = r"\?"
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1133,7 +1144,12 @@ t_ANY_CONDOP = r"\?"
 # Delimeters
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 t_ANY_PERIOD = r"\."
 t_ANY_LPAREN = r"\("
 t_ANY_RPAREN = r"\)"

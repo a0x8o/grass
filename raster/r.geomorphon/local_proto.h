@@ -189,6 +189,7 @@ GLOBAL struct Cell_head window;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -368,6 +369,8 @@ GLOBAL struct Cell_head window;
 >>>>>>> f209031e69 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 5ec1e27d83 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -925,7 +928,12 @@ GLOBAL struct Cell_head window;
 =======
 =======
 >>>>>>> a3451b0781 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 5ec1e27d83 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -935,6 +943,7 @@ GLOBAL struct Cell_head window;
 >>>>>>> e29d325b37 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1009,6 +1018,8 @@ GLOBAL struct Cell_head window;
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5ec1e27d83 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1722,7 +1733,15 @@ GLOBAL struct Cell_head window;
 =======
 =======
 >>>>>>> a3451b0781 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 5ec1e27d83 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 /* Zenith/nadir comparison modes. */
 GLOBAL enum { ANGLEV1, ANGLEV2, ANGLEV2_DISTANCE } compmode;
 

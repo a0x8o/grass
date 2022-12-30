@@ -125,6 +125,7 @@ static void process_row_di(int), process_row_df(int), process_row_dd(int);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -308,6 +309,8 @@ static void process_row_di(int), process_row_df(int), process_row_dd(int);
 >>>>>>> b856ee1836 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -723,7 +726,12 @@ static void process_row_di(int), process_row_df(int), process_row_dd(int);
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 static void (*process_row_FtypeOtype[3][3])(int) = {
 =======
 <<<<<<< HEAD
@@ -803,6 +811,7 @@ static void (*process_row_FtypeOtype[3][3])(int) = {
 >>>>>>> osgeo-main
 static void (*process_row_FtypeOtype[3][3])() = {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1842,7 +1851,12 @@ static void (*process_row_FtypeOtype[3][3])() = {
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
     {process_row_ii, process_row_if, process_row_id},
     {process_row_fi, process_row_ff, process_row_fd},
     {process_row_di, process_row_df, process_row_dd}};

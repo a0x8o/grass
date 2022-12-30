@@ -315,6 +315,7 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /*Set the pointer to null so we noe later that these files are
 =======
 <<<<<<< HEAD
@@ -452,6 +453,8 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -692,7 +695,12 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
             /*Set the pointer to null so we know later that these files are
 =======
             /*Set the pointer to null so we noe later that these files are
@@ -757,6 +765,7 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -836,6 +845,8 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1261,7 +1272,12 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
             /*Set the pointer to null so we noe later that these files are
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
              * already closed */
             if (i == 0)
                 in->map_r = NULL;

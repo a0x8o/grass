@@ -127,6 +127,7 @@ int (*is_null)(void *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -370,6 +371,8 @@ int (*is_null)(void *);
 >>>>>>> b856ee1836 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -854,7 +857,12 @@ int (*is_null)(void *);
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 size_t (*bpe)(void);
 void *(*get_max)(void *, void *);
 void *(*get_min)(void *, void *);
@@ -921,6 +929,7 @@ void *(*get_buf)(void);
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1524,7 +1533,12 @@ void *(*get_buf)(void);
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 size_t (*bpe)();
 void *(*get_max)(void *, void *);
 void *(*get_min)(void *, void *);
@@ -1620,6 +1634,7 @@ void *(*get_buf)();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1784,6 +1799,8 @@ void *(*get_buf)();
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -3487,7 +3504,13 @@ void *(*get_buf)(void);
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 void (*put_row)(int, void *);
 double (*slope)(void *, void *, double);
 void (*set_min)(void *);

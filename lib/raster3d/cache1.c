@@ -118,6 +118,7 @@ void *Rast3d_cache_new(int nofElts, int sizeOfElts, int nofNames,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -920,11 +921,17 @@ void *Rast3d_cache_new(int nofElts, int sizeOfElts, int nofNames,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 3c6ff8d9ea (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> b856ee1836 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
                        int (*eltRemoveFun)(int, const void *, void *),
                        void *eltRemoveFunData,
                        int (*eltLoadFun)(int, void *, void *),
                        void *eltLoadFunData)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1165,10 +1172,16 @@ void *Rast3d_cache_new(int nofElts, int sizeOfElts, int nofNames,
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
                        int (*eltRemoveFun)(), void *eltRemoveFunData,
                        int (*eltLoadFun)(), void *eltLoadFunData)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2198,7 +2211,12 @@ void *Rast3d_cache_new(int nofElts, int sizeOfElts, int nofNames,
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 {
     RASTER3D_cache *tmp;
     int i;
@@ -2365,6 +2383,7 @@ void *Rast3d_cache_new(int nofElts, int sizeOfElts, int nofNames,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2548,6 +2567,8 @@ void *Rast3d_cache_new(int nofElts, int sizeOfElts, int nofNames,
 >>>>>>> b856ee1836 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -2963,7 +2984,12 @@ void *Rast3d_cache_new(int nofElts, int sizeOfElts, int nofNames,
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 void Rast3d_cache_set_remove_fun(RASTER3D_cache *c,
                                  int (*eltRemoveFun)(int, const void *, void *),
 =======
@@ -3061,6 +3087,7 @@ void Rast3d_cache_set_remove_fun(RASTER3D_cache *c,
 >>>>>>> osgeo-main
 void Rast3d_cache_set_remove_fun(RASTER3D_cache *c, int (*eltRemoveFun)(),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4078,7 +4105,12 @@ void Rast3d_cache_set_remove_fun(RASTER3D_cache *c, int (*eltRemoveFun)(),
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
                                  void *eltRemoveFunData)
 {
     c->eltRemoveFun = eltRemoveFun;
@@ -4203,6 +4235,7 @@ void Rast3d_cache_set_remove_fun(RASTER3D_cache *c, int (*eltRemoveFun)(),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4386,6 +4419,8 @@ void Rast3d_cache_set_remove_fun(RASTER3D_cache *c, int (*eltRemoveFun)(),
 >>>>>>> b856ee1836 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -4801,7 +4836,12 @@ void Rast3d_cache_set_remove_fun(RASTER3D_cache *c, int (*eltRemoveFun)(),
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 void Rast3d_cache_set_load_fun(RASTER3D_cache *c,
                                int (*eltLoadFun)(int, void *, void *),
 =======
@@ -4899,6 +4939,7 @@ void Rast3d_cache_set_load_fun(RASTER3D_cache *c,
 >>>>>>> osgeo-main
 void Rast3d_cache_set_load_fun(RASTER3D_cache *c, int (*eltLoadFun)(),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5916,7 +5957,12 @@ void Rast3d_cache_set_load_fun(RASTER3D_cache *c, int (*eltLoadFun)(),
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
                                void *eltLoadFunData)
 {
     c->eltLoadFun = eltLoadFun;

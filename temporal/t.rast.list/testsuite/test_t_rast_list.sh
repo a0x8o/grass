@@ -133,6 +133,7 @@ r.mapcalc expr="prec_6 = rand(0, 650)" -s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -316,6 +317,8 @@ r.mapcalc expr="prec_6 = rand(0, 650)" -s
 >>>>>>> 2727f115f1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -731,7 +734,12 @@ r.mapcalc expr="prec_6 = rand(0, 650)" -s
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 n1=`g.tempfile pid=1 -d`
 =======
 <<<<<<< HEAD
@@ -811,6 +819,7 @@ n1=`g.tempfile pid=1 -d`
 >>>>>>> osgeo-main
 n1=`g.tempfile pid=1 -d` 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1850,7 +1859,12 @@ n1=`g.tempfile pid=1 -d`
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 n2=`g.tempfile pid=2 -d`
 n3=`g.tempfile pid=3 -d`
 n4=`g.tempfile pid=4 -d`

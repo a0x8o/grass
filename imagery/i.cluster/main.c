@@ -130,6 +130,7 @@ struct Ref ref;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -266,6 +267,8 @@ struct Ref ref;
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -783,7 +786,12 @@ char **semantic_labels;
 =======
 =======
 >>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 char **semantic_labels;
 =======
 char **bandrefs;
@@ -792,6 +800,7 @@ char **bandrefs;
 >>>>>>> 48610916ed (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -866,6 +875,8 @@ char **bandrefs;
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 char **semantic_labels;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1393,7 +1404,15 @@ char **semantic_labels;
 =======
 =======
 >>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+char **semantic_labels;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 char outsigfile[GNAME_MAX + GMAPSET_MAX];
 char *insigfile;
 char *reportfile;
@@ -1537,6 +1556,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1763,6 +1783,8 @@ int main(int argc, char *argv[])
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -2137,11 +2159,14 @@ int main(int argc, char *argv[])
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
     parm.out_sig->description =
         _("Name for output file containing result signatures");
 =======
     parm.out_sig->description = _("Name for output file containing result signatures");
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2194,9 +2219,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
     parm.out_sig->description =
         _("Name for output file containing result signatures");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2681,7 +2709,12 @@ int main(int argc, char *argv[])
     parm.out_sig->description = _("Name for output file containing result signatures");
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 
     parm.class = G_define_option();
     parm.class->key = "classes";
@@ -2789,6 +2822,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3015,6 +3049,8 @@ int main(int argc, char *argv[])
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -3389,11 +3425,14 @@ int main(int argc, char *argv[])
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
     parm.seed_sig->description =
         _("Name of file containing initial signatures");
 =======
     parm.seed_sig->description = _("Name of file containing initial signatures");
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3446,9 +3485,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
     parm.seed_sig->description =
         _("Name of file containing initial signatures");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3933,7 +3975,12 @@ int main(int argc, char *argv[])
     parm.seed_sig->description = _("Name of file containing initial signatures");
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 
     parm.sample_interval = G_define_option();
     parm.sample_interval->key = "sample";
@@ -3982,6 +4029,7 @@ int main(int argc, char *argv[])
     parm.report_file->required = NO;
     parm.report_file->description =
         _("Name for output file containing final report");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4352,7 +4400,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 
     if (G_parser(argc, argv))
         exit(EXIT_FAILURE);
@@ -4671,6 +4724,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4791,6 +4845,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4842,6 +4898,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
 
     if (G_parser(argc, argv))
         exit(EXIT_FAILURE);
@@ -4850,6 +4908,7 @@ int main(int argc, char *argv[])
     subgroup = parm.subgroup_name->answer; /* required */
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5021,6 +5080,8 @@ int main(int argc, char *argv[])
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -5615,12 +5676,18 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
     /* check all the inputs */
     if (!I_find_group(group)) {
         G_fatal_error(_("Group <%s> not found in current mapset"), group);
     }
     if (!I_find_subgroup(group, subgroup)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5780,6 +5847,8 @@ int main(int argc, char *argv[])
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
@@ -6211,12 +6280,18 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error(_("Subgroup <%s> in group <%s> not found"), subgroup,
                       group);
     }
 =======
         G_fatal_error(_("Subgroup <%s> in group <%s> not found"), subgroup, group);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6386,6 +6461,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6435,6 +6512,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
         G_fatal_error(_("Subgroup <%s> in group <%s> not found"), subgroup,
                       group);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -6464,6 +6543,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6866,7 +6948,16 @@ int main(int argc, char *argv[])
 
     if (G_unqualified_name(parm.out_sig->answer, G_mapset(), outsigfile, xmapset) < 0)
 >>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+    }
+
+    if (G_unqualified_name(parm.out_sig->answer, G_mapset(), outsigfile,
+                           xmapset) < 0)
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
         G_fatal_error(_("<%s> does not match the current mapset"), xmapset);
 
     if (G_legal_filename(outsigfile) < 0)
@@ -7698,6 +7789,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8274,7 +8366,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
     if ((fd = I_fopen_signature_file_new(outsigfile)) != NULL) {
         for (unsigned int i = C.S.nbands; i--;)
             C.S.semantic_labels[i] = semantic_labels[i];
@@ -8705,6 +8802,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8825,6 +8923,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8876,12 +8976,15 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
     if ((fd = I_fopen_signature_file_new(outsigfile)) != NULL) {
         for (unsigned int i = C.S.nbands; i--;)
             C.S.semantic_labels[i] = semantic_labels[i];
         I_write_signatures(fd, &C.S);
         fclose(fd);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9015,6 +9118,8 @@ int main(int argc, char *argv[])
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -9537,7 +9642,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> f04ed1afc1 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
     }
     else {
         G_fatal_error(_("Unable to create signature file <%s> for group "

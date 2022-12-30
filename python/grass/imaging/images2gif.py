@@ -325,6 +325,7 @@ class GifWriter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -500,6 +501,8 @@ class GifWriter:
 >>>>>>> f209031e69 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 5ec1e27d83 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -976,12 +979,15 @@ class GifWriter:
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
             loops = 2**16 - 1
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
             loops = 2 ** 16 - 1
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1569,7 +1575,15 @@ class GifWriter:
             loops = 2 ** 16 - 1
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 6242fe69ba (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> f209031e69 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+            loops = 2**16 - 1
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
             # bb = ""
             # application extension should not be used
             # (the extension interprets zero loops

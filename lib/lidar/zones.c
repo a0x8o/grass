@@ -626,6 +626,7 @@ void P_Aux_to_Raster(double **matrix, int fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 =======
 <<<<<<< HEAD
@@ -763,6 +764,8 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1003,13 +1006,19 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 void P_Aux_to_Vector(struct Map_info *Map UNUSED, struct Map_info *Out,
 >>>>>>> osgeo-main
                      dbDriver *driver, char *tab_name)
 {
 
     int more, type;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1070,6 +1079,8 @@ void P_Aux_to_Vector(struct Map_info *Map UNUSED, struct Map_info *Out,
 =======
 =======
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1169,10 +1180,13 @@ void P_Aux_to_Vector(struct Map_info *Map UNUSED, struct Map_info *Out,
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
 void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
                      dbDriver *driver, char *tab_name)
 {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1350,6 +1364,8 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b856ee1836 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
@@ -2572,7 +2588,14 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+    int more, type, count = 0;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
     double coordX, coordY, coordZ;
 
     struct line_pnts *point;
@@ -2632,6 +2655,7 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4044,7 +4068,15 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+        count++;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
         table = db_get_cursor_table(&cursor);
 
         column = db_get_table_column(table, 0);

@@ -119,6 +119,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 3
@@ -429,6 +430,8 @@ dev
 >>>>>>> 69dd884040 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> cede709cae (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 5
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -1304,10 +1307,14 @@ dev
 =======
 =======
 >>>>>>> 84a2937271 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 5
 =======
 =======
 >>>>>>> 3777db3c7d (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 4
 >>>>>>> 9fa78e6a12 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1328,6 +1335,7 @@ dev
 dev
 2021
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1446,6 +1454,8 @@ dev
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 69dd884040 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
@@ -1922,10 +1932,13 @@ dev
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
 3
 dev
 2022
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2658,4 +2671,9 @@ dev
 =======
 =======
 >>>>>>> d2ca6e75c1 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 69dd884040 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))

@@ -299,6 +299,7 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -482,6 +483,8 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 >>>>>>> 2727f115f1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -897,7 +900,12 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
         unsigned int max_len = 0;
 =======
 <<<<<<< HEAD
@@ -977,6 +985,7 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 >>>>>>> osgeo-main
         int max_len = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2016,7 +2025,12 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 =======
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 
         for (i = 0; i < num_items; i++) {
             /* Find maximum filename length */

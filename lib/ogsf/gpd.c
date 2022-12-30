@@ -276,6 +276,7 @@ void gpd_obj(geosurf *gs, gvstyle *style, Point3 pt)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 =======
 <<<<<<< HEAD
@@ -413,6 +414,8 @@ int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -653,7 +656,12 @@ int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast UNUSED)
 =======
 int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
@@ -718,6 +726,7 @@ int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -797,6 +806,8 @@ int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1222,7 +1233,12 @@ int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 {
     float site[4], konst;
     int src, check;
@@ -1383,6 +1399,7 @@ int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 =======
 <<<<<<< HEAD
@@ -1520,6 +1537,8 @@ int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1760,7 +1779,12 @@ int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast UNUSED)
 =======
 int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
@@ -1825,6 +1849,7 @@ int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1904,6 +1929,8 @@ int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2329,7 +2356,12 @@ int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 {
     float site[4], tz;
     int check;

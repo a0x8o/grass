@@ -269,6 +269,7 @@ int close_streamvect(char *stream_vect)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         sprintf(buf, "insert into %s values ( %" PRI_OFF_T ", \'%s\', %d, %d )",
 =======
 <<<<<<< HEAD
@@ -406,6 +407,8 @@ int close_streamvect(char *stream_vect)
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -646,7 +649,12 @@ int close_streamvect(char *stream_vect)
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
         sprintf(buf, "insert into %s values ( %" PRId64 ", \'%s\', %d, %d )",
 =======
         sprintf(buf, "insert into %s values ( %" PRI_OFF_T ", \'%s\', %d, %d )",
@@ -711,6 +719,7 @@ int close_streamvect(char *stream_vect)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -790,6 +799,8 @@ int close_streamvect(char *stream_vect)
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1215,7 +1226,12 @@ int close_streamvect(char *stream_vect)
         sprintf(buf, "insert into %s values ( %" PRI_OFF_T ", \'%s\', %d, %d )",
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
                 Fi->table, i,
                 (stream_node[i].n_trib > 0 ? "intermediate" : "start"),
                 (stream_node[i].n_trib > 0), network_id[i]);

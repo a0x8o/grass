@@ -87,6 +87,7 @@ struct DecimationContext {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -201,6 +202,8 @@ struct DecimationContext {
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -775,7 +778,14 @@ static int if_add_point(struct DecimationPoint *point, void *point_data UNUSED,
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+static int if_add_point(struct DecimationPoint *point, void *point_data UNUSED,
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 static int if_add_point(struct DecimationPoint *point, void *point_data,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                         struct DecimationPoint **point_list, size_t npoints,
@@ -860,6 +870,7 @@ struct WriteContext {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -974,6 +985,8 @@ struct WriteContext {
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -1548,7 +1561,14 @@ static void write_point(struct WriteContext *context, int cat UNUSED, double x,
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+static void write_point(struct WriteContext *context, int cat UNUSED, double x,
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 static void write_point(struct WriteContext *context, int cat, double x,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                         double y, double z, struct line_cats *cats)

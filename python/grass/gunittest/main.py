@@ -166,6 +166,7 @@ CONFIG_FILENAME = ".gunittest.cfg"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1195,7 +1196,14 @@ CONFIG_FILENAME = ".gunittest.cfg"
 =======
 =======
 >>>>>>> a3451b0781 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 5ec1e27d83 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 def get_config(start_directory, config_file):
     """Read configuration if available, return empty section proxy if not
 
@@ -1227,6 +1235,7 @@ def get_config(start_directory, config_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1574,7 +1583,12 @@ def get_config(start_directory, config_file):
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
     config_parser = configparser.ConfigParser()
     if config_file:
         with open(config_file, encoding="utf-8") as file:
@@ -1690,6 +1704,7 @@ def get_config(start_directory):
     """Read configuration if available, return empty dict if not"""
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3401,10 +3416,17 @@ def get_config(start_directory):
 >>>>>>> a3451b0781 (Dockerfile: fix broken lib link (#1625))
 def get_config(start_directory):
     """Read configuration if available, return empty dict if not"""
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
     config_parser = configparser.ConfigParser()
-    config_file = Path(start_directory) / CONFIG_FILENAME
-    if config_file.is_file():
+    if config_file:
+        with open(config_file, encoding="utf-8") as file:
+            config_parser.read_file(file)
+    elif start_directory:
+        config_file = Path(start_directory) / CONFIG_FILENAME
+        # Does not check presence of the file
         config_parser.read(config_file)
+<<<<<<< HEAD
     if "gunittest" in config_parser:
         return config_parser["gunittest"]
     return {}
@@ -3418,8 +3440,22 @@ def get_config(start_directory):
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> a3451b0781 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 5ec1e27d83 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+    else:
+        raise ValueError("Either start_directory or config_file must be set")
+    if "gunittest" not in config_parser:
+        # Create an empty section if file is not available or section is not present.
+        config_parser.read_dict({"gunittest": {}})
+    return config_parser["gunittest"]
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 
 
 def main():
@@ -3549,6 +3585,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -3676,6 +3713,8 @@ def main():
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -4195,7 +4234,15 @@ def main():
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
         return f"GISDBASE (grassdata directory) <{gisdbase}> does not exist\n"
     if not os.path.exists(os.path.join(gisdbase, location)):
         return (
@@ -4208,6 +4255,7 @@ def main():
     start_dir = "."
     abs_start_dir = os.path.abspath(start_dir)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5273,7 +5321,14 @@ def main():
 =======
 =======
 >>>>>>> a3451b0781 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 5ec1e27d83 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
     try:
         config = get_config(start_directory=start_dir, config_file=args.config)
     except OSError as error:
@@ -5339,6 +5394,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -5577,12 +5633,18 @@ def main():
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
     config = get_config(start_dir)
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
     config = get_config(start_dir)
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6531,7 +6593,14 @@ def main():
 =======
 =======
 >>>>>>> a3451b0781 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 5ec1e27d83 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 
     invoker = GrassTestFilesInvoker(
         start_dir=start_dir,

@@ -517,6 +517,7 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "N_convert_array_2d_null_to_zero: %i valuess of type "
 =======
 <<<<<<< HEAD
@@ -647,6 +648,8 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -776,11 +779,17 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 =======
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
                 "N_convert_array_2d_null_to_zero: %i values of type "
 =======
                 "N_convert_array_2d_null_to_zero: %i valuess of type "
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1182,10 +1191,13 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
                 "FCELL_TYPE are converted",
                 count);
     if (a->type == DCELL_TYPE)
         G_debug(2,
+<<<<<<< HEAD
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1312,10 +1324,14 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 =======
 <<<<<<< HEAD
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
                 "N_convert_array_2d_null_to_zero: %i values of type "
 =======
                 "N_convert_array_2d_null_to_zero: %i valuess of type "
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1915,7 +1931,12 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
                 "DCELL_TYPE are converted",
                 count);
 

@@ -140,6 +140,7 @@ struct varray *Vect_new_varray(int size)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
 =======
 <<<<<<< HEAD
@@ -277,6 +278,8 @@ int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -517,7 +520,12 @@ int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 int Vect_set_varray_from_cat_string(struct Map_info *Map, int field,
 =======
 int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
@@ -582,6 +590,7 @@ int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -661,6 +670,8 @@ int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -1086,7 +1097,12 @@ int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
 int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
                                     const char *cstring, int type, int value,
                                     struct varray *varray)
 {
@@ -1195,6 +1211,7 @@ int Vect_set_varray_from_cat_string(const struct Map_info *Map, int field,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_set_varray_from_cat_list(const struct Map_info *Map, int field,
 =======
 <<<<<<< HEAD
@@ -1332,6 +1349,8 @@ int Vect_set_varray_from_cat_list(const struct Map_info *Map, int field,
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1572,7 +1591,12 @@ int Vect_set_varray_from_cat_list(const struct Map_info *Map, int field,
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 int Vect_set_varray_from_cat_list(struct Map_info *Map, int field,
 =======
 int Vect_set_varray_from_cat_list(const struct Map_info *Map, int field,
@@ -1637,6 +1661,7 @@ int Vect_set_varray_from_cat_list(const struct Map_info *Map, int field,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1716,6 +1741,8 @@ int Vect_set_varray_from_cat_list(const struct Map_info *Map, int field,
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2141,7 +2168,12 @@ int Vect_set_varray_from_cat_list(const struct Map_info *Map, int field,
 int Vect_set_varray_from_cat_list(const struct Map_info *Map, int field,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
                                   struct cat_list *clist, int type, int value,
                                   struct varray *varray)
 {
@@ -2323,6 +2355,7 @@ static int in_array(int *cats, size_t ncats, int cat)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_set_varray_from_db(const struct Map_info *Map, int field,
                             const char *where, int type, int value,
                             struct varray *varray)
@@ -2462,6 +2495,8 @@ int Vect_set_varray_from_db(const struct Map_info *Map, int field,
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -2690,10 +2725,16 @@ int Vect_set_varray_from_db(struct Map_info *Map, int field, const char *where,
                             int type, int value, struct varray *varray)
 =======
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+=======
+int Vect_set_varray_from_db(struct Map_info *Map, int field, const char *where,
+                            int type, int value, struct varray *varray)
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 int Vect_set_varray_from_db(const struct Map_info *Map, int field,
                             const char *where, int type, int value,
                             struct varray *varray)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2862,6 +2903,8 @@ int Vect_set_varray_from_db(const struct Map_info *Map, int field,
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -3335,7 +3378,12 @@ int Vect_set_varray_from_db(const struct Map_info *Map, int field,
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 {
     int i, n, c, centr, *cats;
     int ncats;
