@@ -104,11 +104,15 @@ void flip2(const unsigned short *src, unsigned short *dest, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 #ifdef _CRAY
 
 /*****************************************************************************
@@ -157,6 +161,7 @@ static void c_to_if(long *t, const long *f)
         T = F;                                                             \
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -322,6 +327,8 @@ static void c_to_if(long *t, const long *f)
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
@@ -876,13 +883,21 @@ static void c_to_if(long *t, const long *f)
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+/* IEEE single precision to Cray */
+=======
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
 /* IEEE single precison to Cray */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 static void if_to_c(long *t, const long *f)
 {
     if (*f != 0) {
         *t = (((*f & 0x8000000000000000) |
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                ((*f & 0x7f80000000000000) >> 7) + (16258L << 48)) |
@@ -892,6 +907,9 @@ static void if_to_c(long *t, const long *f)
 =======
                ((*f & 0x7f80000000000000) >> 7) + (16258 << 48)) |
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+               ((*f & 0x7f80000000000000) >> 7) + (16258L << 48)) |
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
               (((*f & 0x007fffff00000000) >> 8) | (0x0000800000000000)));
         if ((*f << 1) == 0)
             *t = 0;
@@ -906,6 +924,7 @@ static void if_to_c(long *t, const long *f)
         T = (((F & 0x8000000000000000) |                                \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               ((F & 0x7f80000000000000) >> 7) + (16258L << 48)) |       \
 =======
               ((F & 0x7f80000000000000) >> 7) + (16258 << 48)) |        \
@@ -913,6 +932,9 @@ static void if_to_c(long *t, const long *f)
 =======
               ((F & 0x7f80000000000000) >> 7) + (16258 << 48)) |        \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+              ((F & 0x7f80000000000000) >> 7) + (16258L << 48)) |       \
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
              (((F & 0x007fffff00000000) >> 8) | (0x0000800000000000))); \
         if ((F << 1) == 0)                                              \
             T = 0;                                                      \
@@ -974,11 +996,15 @@ void ieee_to_cray_array(float *dest, const long *source, int n)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 /**********************************************************************/
 
 /*****                     Read Functions                         *****/
